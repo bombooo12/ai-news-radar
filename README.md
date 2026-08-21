@@ -215,7 +215,7 @@ AI News Radar学习了现代新闻学的技术，不是简单堆信息源，一�
 
 如果 `daily-brief.json` 暂时不存在，页面会回退到候选信号列表；如果 `stories-merged.json` 存在，页面会用完整故事池补齐后续故事线，避免只有少量精选故事被接入。
 
-## Fork 指南：五步拥有自己的雷达
+## Fork 指南：五步拥有自己的雷达（关键）
 
 1. **Fork** [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar)。
 2. **开 Actions**：fork 后 GitHub 默认暂停 workflow，去 Actions 页点一下启用，`update-news.yml` 每30分钟自动跑。
