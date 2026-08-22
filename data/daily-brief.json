@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-22T19:52:43.566210Z",
+  "generated_at": "2026-08-22T20:59:36.343276Z",
   "window_hours": 24,
-  "total_items": 8,
+  "total_items": 9,
   "items": [
     {
       "story_id": "story_06a27d0d7448",
@@ -48,21 +48,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7505,
-      "importance": 0.7505,
-      "importance_score": 0.7505,
+      "score": 0.7479,
+      "importance": 0.7479,
+      "importance_score": 0.7479,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9217,
+        "recency": 0.907,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-08-22T14:13:48Z",
       "latest_at": "2026-08-22T14:13:48Z",
@@ -82,7 +81,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-08-22T20:02:41.268476Z"
+        "scored_at": "2026-08-22T21:10:08.083231Z"
       }
     },
     {
@@ -158,15 +157,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5656,
-      "importance": 0.5656,
-      "importance_score": 0.5656,
+      "score": 0.5636,
+      "importance": 0.5636,
+      "importance_score": 0.5636,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4896,
         "source_tier": 0.58,
         "ai_relevance": 0.68,
-        "recency": 0.7231,
+        "recency": 0.7116,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -191,7 +190,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-08-22T20:02:41.268476Z"
+        "scored_at": "2026-08-22T21:10:08.083231Z"
       }
     },
     {
@@ -297,15 +296,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5639,
-      "importance": 0.5639,
-      "importance_score": 0.5639,
+      "score": 0.5611,
+      "importance": 0.5611,
+      "importance_score": 0.5611,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9614,
+        "recency": 0.9461,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -330,7 +329,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-08-22T20:02:41.268476Z"
+        "scored_at": "2026-08-22T21:10:08.083231Z"
       }
     },
     {
@@ -436,15 +435,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5578,
-      "importance": 0.5578,
-      "importance_score": 0.5578,
+      "score": 0.5551,
+      "importance": 0.5551,
+      "importance_score": 0.5551,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9276,
+        "recency": 0.9128,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -469,7 +468,117 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-08-22T20:02:41.268476Z"
+        "scored_at": "2026-08-22T21:10:08.083231Z"
+      }
+    },
+    {
+      "story_id": "story_8a2541a1bf06",
+      "title": "Why your local LLM feels dumber than it is",
+      "url": "https://news.ycombinator.com/item?id=49402232",
+      "primary_url": "https://news.ycombinator.com/item?id=49402232",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "599a31a9650c619bc4ceceb56bd012aa1be1e2fd",
+          "title": "Why your local LLM feels dumber than it is",
+          "title_zh": null,
+          "title_en": "Why your local LLM feels dumber than it is",
+          "title_original": "Why your local LLM feels dumber than it is",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49402232",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-22T20:35:58.501000Z"
+        },
+        {
+          "id": "b55232b916abe6ce04bd936a2b8bc550ab63e6e7",
+          "title": "Why your local LLM feels dumber than it is",
+          "title_zh": null,
+          "title_en": "Why your local LLM feels dumber than it is",
+          "title_original": "Why your local LLM feels dumber than it is",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-22T18:14:16Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "599a31a9650c619bc4ceceb56bd012aa1be1e2fd",
+          "title": "Why your local LLM feels dumber than it is",
+          "title_zh": null,
+          "title_en": "Why your local LLM feels dumber than it is",
+          "title_original": "Why your local LLM feels dumber than it is",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49402232",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-22T20:35:58.501000Z"
+        },
+        {
+          "id": "b55232b916abe6ce04bd936a2b8bc550ab63e6e7",
+          "title": "Why your local LLM feels dumber than it is",
+          "title_zh": null,
+          "title_en": "Why your local LLM feels dumber than it is",
+          "title_original": "Why your local LLM feels dumber than it is",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-22T18:14:16Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5448,
+      "importance": 0.5448,
+      "importance_score": 0.5448,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9943,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-22T18:14:16Z",
+      "latest_at": "2026-08-22T20:35:58.501000Z",
+      "primary_item": {
+        "id": "599a31a9650c619bc4ceceb56bd012aa1be1e2fd",
+        "title": "Why your local LLM feels dumber than it is",
+        "title_zh": null,
+        "title_en": "Why your local LLM feels dumber than it is",
+        "title_original": "Why your local LLM feels dumber than it is",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://news.ycombinator.com/item?id=49402232",
+        "source": "hackernews",
+        "source_name": "NewsNow"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-22T21:10:08.083231Z"
       }
     },
     {
@@ -545,15 +654,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5441,
-      "importance": 0.5441,
-      "importance_score": 0.5441,
+      "score": 0.5412,
+      "importance": 0.5412,
+      "importance_score": 0.5412,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9905,
+        "recency": 0.9747,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -578,7 +687,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-08-22T20:02:41.268476Z"
+        "scored_at": "2026-08-22T21:10:08.083231Z"
       }
     },
     {
@@ -604,7 +713,7 @@
           "published_at": "2026-08-22T19:12:59.910000Z"
         },
         {
-          "id": "ef1ac03c09bb8eff067942d548cd947f445b2980",
+          "id": "0714345076c1f80d34b7420ba0235d04aa4e6e38",
           "title": "中国机器人1亿次冲刺跑得比尤塞恩·博尔特的世界纪录还要快 / Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
           "title_zh": "中国机器人1亿次冲刺跑得比尤塞恩·博尔特的世界纪录还要快",
           "title_en": "Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
@@ -612,15 +721,15 @@
           "summary": null,
           "recommend_reason_zh": null,
           "url": "https://www.theguardian.com/sport/2026/aug/22/chinese-robot-runs-100m-sprint-quicker-usain-bolt-world-record",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-08-22T13:39:07Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热",
         "hackernews"
       ],
       "items": [
@@ -639,7 +748,7 @@
           "published_at": "2026-08-22T19:12:59.910000Z"
         },
         {
-          "id": "ef1ac03c09bb8eff067942d548cd947f445b2980",
+          "id": "0714345076c1f80d34b7420ba0235d04aa4e6e38",
           "title": "中国机器人1亿次冲刺跑得比尤塞恩·博尔特的世界纪录还要快 / Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
           "title_zh": "中国机器人1亿次冲刺跑得比尤塞恩·博尔特的世界纪录还要快",
           "title_en": "Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
@@ -647,23 +756,23 @@
           "summary": null,
           "recommend_reason_zh": null,
           "url": "https://www.theguardian.com/sport/2026/aug/22/chinese-robot-runs-100m-sprint-quicker-usain-bolt-world-record",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-08-22T13:39:07Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5441,
-      "importance": 0.5441,
-      "importance_score": 0.5441,
+      "score": 0.5412,
+      "importance": 0.5412,
+      "importance_score": 0.5412,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9905,
+        "recency": 0.9747,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -688,7 +797,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-08-22T20:02:41.268476Z"
+        "scored_at": "2026-08-22T21:10:08.083231Z"
       }
     },
     {
@@ -765,15 +874,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5402,
-      "importance": 0.5402,
-      "importance_score": 0.5402,
+      "score": 0.5374,
+      "importance": 0.5374,
+      "importance_score": 0.5374,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9688,
+        "recency": 0.9534,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -798,7 +907,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-08-22T20:02:41.268476Z"
+        "scored_at": "2026-08-22T21:10:08.083231Z"
       }
     },
     {
@@ -824,7 +933,7 @@
           "published_at": "2026-08-22T06:43:59.267000Z"
         },
         {
-          "id": "a386741b6b65c710ba3ac756f3a4d056f1e175e0",
+          "id": "fa358399f41d1dd2a221bcfd7f5f1e8204edc01c",
           "title": "GPT 5.6 Sol 20% price reduction",
           "title_zh": null,
           "title_en": "GPT 5.6 Sol 20% price reduction",
@@ -832,15 +941,15 @@
           "summary": null,
           "recommend_reason_zh": null,
           "url": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-08-22T04:33:06Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Hacker News",
+        "Hacker News · 24h最热",
         "hackernews"
       ],
       "items": [
@@ -859,7 +968,7 @@
           "published_at": "2026-08-22T06:43:59.267000Z"
         },
         {
-          "id": "a386741b6b65c710ba3ac756f3a4d056f1e175e0",
+          "id": "fa358399f41d1dd2a221bcfd7f5f1e8204edc01c",
           "title": "GPT 5.6 Sol 20% price reduction",
           "title_zh": null,
           "title_en": "GPT 5.6 Sol 20% price reduction",
@@ -867,23 +976,23 @@
           "summary": null,
           "recommend_reason_zh": null,
           "url": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-08-22T04:33:06Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5147,
-      "importance": 0.5147,
-      "importance_score": 0.5147,
+      "score": 0.5123,
+      "importance": 0.5123,
+      "importance_score": 0.5123,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8271,
+        "recency": 0.8139,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -908,7 +1017,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-08-22T20:02:41.268476Z"
+        "scored_at": "2026-08-22T21:10:08.083231Z"
       }
     }
   ]
