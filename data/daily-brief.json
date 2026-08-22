@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-22T17:56:03.556010Z",
+  "generated_at": "2026-08-22T19:12:37.961565Z",
   "window_hours": 24,
-  "total_items": 9,
+  "total_items": 10,
   "items": [
     {
       "story_id": "story_06a27d0d7448",
@@ -48,15 +48,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7552,
-      "importance": 0.7552,
-      "importance_score": 0.7552,
+      "score": 0.7521,
+      "importance": 0.7521,
+      "importance_score": 0.7521,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9479,
+        "recency": 0.9306,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -82,118 +82,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-08-22T17:58:01.826412Z"
-      }
-    },
-    {
-      "story_id": "story_6330aea85a01",
-      "title": "Claude Mythos 5 网络安全能力扩展至更多防御者 / Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
-      "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
-      "primary_url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
-      "source": "Claude：Blog（网页）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "dfc628933c54c7064a20996ac1c3d860e718d025",
-          "title": "Claude Mythos 5 网络安全能力扩展至更多防御者 / Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
-          "title_zh": "Claude Mythos 5 网络安全能力扩展至更多防御者",
-          "title_en": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
-          "title_original": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
-          "summary": "Anthropic 宣布 Claude Mythos 5 现已集成至 Claude Security，并即将登陆合作伙伴的网络安全防御工具。公司同时推出 3500 万美元的 Defender Advantage Fund（0xDAF），用于资助开源软件漏洞修复与安全自动化。",
-          "recommend_reason_zh": null,
-          "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
-          "source": "Claude：Blog（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-21T17:58:29.461000Z"
-        },
-        {
-          "id": "971dde61ec78c8703764ec06ef6c60b4d8ec5efb",
-          "title": "将 Claude Mythos 5 的网络安全功能带给更多防御者 / Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
-          "title_zh": "将 Claude Mythos 5 的网络安全功能带给更多防御者",
-          "title_en": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
-          "title_original": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49392331",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-21T20:32:02.097000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Claude：Blog（网页）",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "dfc628933c54c7064a20996ac1c3d860e718d025",
-          "title": "Claude Mythos 5 网络安全能力扩展至更多防御者 / Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
-          "title_zh": "Claude Mythos 5 网络安全能力扩展至更多防御者",
-          "title_en": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
-          "title_original": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
-          "summary": "Anthropic 宣布 Claude Mythos 5 现已集成至 Claude Security，并即将登陆合作伙伴的网络安全防御工具。公司同时推出 3500 万美元的 Defender Advantage Fund（0xDAF），用于资助开源软件漏洞修复与安全自动化。",
-          "recommend_reason_zh": null,
-          "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
-          "source": "Claude：Blog（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-21T17:58:29.461000Z"
-        },
-        {
-          "id": "971dde61ec78c8703764ec06ef6c60b4d8ec5efb",
-          "title": "将 Claude Mythos 5 的网络安全功能带给更多防御者 / Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
-          "title_zh": "将 Claude Mythos 5 的网络安全功能带给更多防御者",
-          "title_en": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
-          "title_original": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49392331",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-21T20:32:02.097000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.707,
-      "importance": 0.707,
-      "importance_score": 0.707,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.61,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7075,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-21T17:58:29.461000Z",
-      "latest_at": "2026-08-21T20:32:02.097000Z",
-      "primary_item": {
-        "id": "dfc628933c54c7064a20996ac1c3d860e718d025",
-        "title": "Claude Mythos 5 网络安全能力扩展至更多防御者 / Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
-        "title_zh": "Claude Mythos 5 网络安全能力扩展至更多防御者",
-        "title_en": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
-        "title_original": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
-        "summary": "Anthropic 宣布 Claude Mythos 5 现已集成至 Claude Security，并即将登陆合作伙伴的网络安全防御工具。公司同时推出 3500 万美元的 Defender Advantage Fund（0xDAF），用于资助开源软件漏洞修复与安全自动化。",
-        "recommend_reason_zh": null,
-        "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
-        "source": "Claude：Blog（网页）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-08-22T17:58:01.826412Z"
+        "scored_at": "2026-08-22T19:13:19.616021Z"
       }
     },
     {
@@ -269,15 +158,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5694,
-      "importance": 0.5694,
-      "importance_score": 0.5694,
+      "score": 0.5669,
+      "importance": 0.5669,
+      "importance_score": 0.5669,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4896,
         "source_tier": 0.58,
         "ai_relevance": 0.68,
-        "recency": 0.7437,
+        "recency": 0.7301,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -302,7 +191,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-08-22T17:58:01.826412Z"
+        "scored_at": "2026-08-22T19:13:19.616021Z"
       }
     },
     {
@@ -408,15 +297,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5688,
-      "importance": 0.5688,
-      "importance_score": 0.5688,
+      "score": 0.5655,
+      "importance": 0.5655,
+      "importance_score": 0.5655,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9888,
+        "recency": 0.9708,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -441,7 +330,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-08-22T17:58:01.826412Z"
+        "scored_at": "2026-08-22T19:13:19.616021Z"
       }
     },
     {
@@ -547,15 +436,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5625,
-      "importance": 0.5625,
-      "importance_score": 0.5625,
+      "score": 0.5594,
+      "importance": 0.5594,
+      "importance_score": 0.5594,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.954,
+        "recency": 0.9366,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -580,109 +469,108 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-08-22T17:58:01.826412Z"
+        "scored_at": "2026-08-22T19:13:19.616021Z"
       }
     },
     {
-      "story_id": "story_a2591c776bef",
-      "title": "消息人士称，人为 IPO 文件将显示人工智能的强烈反对是一个风险因素 / Anthropic IPO filing will show AI backlash as a risk factor, sources say",
-      "url": "https://news.ycombinator.com/item?id=49401229",
-      "primary_url": "https://news.ycombinator.com/item?id=49401229",
+      "story_id": "story_e2695a874548",
+      "title": "New MCP Roadmap",
+      "url": "https://news.ycombinator.com/item?id=49399591",
+      "primary_url": "https://news.ycombinator.com/item?id=49399591",
       "source": "hackernews",
       "source_name": "NewsNow",
       "sources": [
         {
-          "id": "53c1f3cf45dfa17d5f20edf41cc25040e57ef49a",
-          "title": "消息人士称，人为 IPO 文件将显示人工智能的强烈反对是一个风险因素 / Anthropic IPO filing will show AI backlash as a risk factor, sources say",
-          "title_zh": "消息人士称，人为 IPO 文件将显示人工智能的强烈反对是一个风险因素",
-          "title_en": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
-          "title_original": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+          "id": "0e2f077268aed88fb421f88ae4403517bd3b6e31",
+          "title": "New MCP Roadmap",
+          "title_zh": null,
+          "title_en": "New MCP Roadmap",
+          "title_original": "New MCP Roadmap",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49401229",
+          "url": "https://news.ycombinator.com/item?id=49399591",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-08-22T17:41:12.816000Z"
+          "published_at": "2026-08-22T19:12:59.910000Z"
         },
         {
-          "id": "00cfeb92a44fb91620deb3d7f679e17afae6e96f",
-          "title": "消息人士称，人为 IPO 文件将显示人工智能的强烈反对是一个风险因素 / Anthropic IPO filing will show AI backlash as a risk factor, sources say",
-          "title_zh": "消息人士称，人为 IPO 文件将显示人工智能的强烈反对是一个风险因素",
-          "title_en": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
-          "title_original": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+          "id": "126ccb3ea5663b832f20fec048de1ac591d03ec8",
+          "title": "The New MCP Roadmap",
+          "title_zh": null,
+          "title_en": "The New MCP Roadmap",
+          "title_original": "The New MCP Roadmap",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-22T16:23:09Z"
+          "url": "https://news.ycombinator.com/item?id=49399591",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-22T14:40:35.790000Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Hacker News (黑客新闻)",
         "hackernews"
       ],
       "items": [
         {
-          "id": "53c1f3cf45dfa17d5f20edf41cc25040e57ef49a",
-          "title": "消息人士称，人为 IPO 文件将显示人工智能的强烈反对是一个风险因素 / Anthropic IPO filing will show AI backlash as a risk factor, sources say",
-          "title_zh": "消息人士称，人为 IPO 文件将显示人工智能的强烈反对是一个风险因素",
-          "title_en": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
-          "title_original": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+          "id": "0e2f077268aed88fb421f88ae4403517bd3b6e31",
+          "title": "New MCP Roadmap",
+          "title_zh": null,
+          "title_en": "New MCP Roadmap",
+          "title_original": "New MCP Roadmap",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49401229",
+          "url": "https://news.ycombinator.com/item?id=49399591",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-08-22T17:41:12.816000Z"
+          "published_at": "2026-08-22T19:12:59.910000Z"
         },
         {
-          "id": "00cfeb92a44fb91620deb3d7f679e17afae6e96f",
-          "title": "消息人士称，人为 IPO 文件将显示人工智能的强烈反对是一个风险因素 / Anthropic IPO filing will show AI backlash as a risk factor, sources say",
-          "title_zh": "消息人士称，人为 IPO 文件将显示人工智能的强烈反对是一个风险因素",
-          "title_en": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
-          "title_original": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+          "id": "126ccb3ea5663b832f20fec048de1ac591d03ec8",
+          "title": "The New MCP Roadmap",
+          "title_zh": null,
+          "title_en": "The New MCP Roadmap",
+          "title_original": "The New MCP Roadmap",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-22T16:23:09Z"
+          "url": "https://news.ycombinator.com/item?id=49399591",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-22T14:40:35.790000Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5452,
-      "importance": 0.5452,
-      "importance_score": 0.5452,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9964,
+        "recency": 1.0,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-08-22T16:23:09Z",
-      "latest_at": "2026-08-22T17:41:12.816000Z",
+      "earliest_at": "2026-08-22T14:40:35.790000Z",
+      "latest_at": "2026-08-22T19:12:59.910000Z",
       "primary_item": {
-        "id": "53c1f3cf45dfa17d5f20edf41cc25040e57ef49a",
-        "title": "消息人士称，人为 IPO 文件将显示人工智能的强烈反对是一个风险因素 / Anthropic IPO filing will show AI backlash as a risk factor, sources say",
-        "title_zh": "消息人士称，人为 IPO 文件将显示人工智能的强烈反对是一个风险因素",
-        "title_en": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
-        "title_original": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+        "id": "0e2f077268aed88fb421f88ae4403517bd3b6e31",
+        "title": "New MCP Roadmap",
+        "title_zh": null,
+        "title_en": "New MCP Roadmap",
+        "title_original": "New MCP Roadmap",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://news.ycombinator.com/item?id=49401229",
+        "url": "https://news.ycombinator.com/item?id=49399591",
         "source": "hackernews",
         "source_name": "NewsNow"
       },
@@ -690,7 +578,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-08-22T17:58:01.826412Z"
+        "scored_at": "2026-08-22T19:13:19.616021Z"
       }
     },
     {
@@ -767,15 +655,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4969,
-      "importance": 0.4969,
-      "importance_score": 0.4969,
+      "score": 0.4945,
+      "importance": 0.4945,
+      "importance_score": 0.4945,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7285,
+        "recency": 0.7152,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -800,7 +688,227 @@
       "persona_score": 0,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-08-22T17:58:01.826412Z"
+        "scored_at": "2026-08-22T19:13:19.616021Z"
+      }
+    },
+    {
+      "story_id": "story_1b8b8b782f3a",
+      "title": "中国机器人1亿次冲刺跑得比尤塞恩·博尔特的世界纪录还要快 / Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
+      "url": "https://news.ycombinator.com/item?id=49399642",
+      "primary_url": "https://news.ycombinator.com/item?id=49399642",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "7ae963cdfe7665e0ab25518a8804682b1d4ead67",
+          "title": "中国机器人1亿次冲刺跑得比尤塞恩·博尔特的世界纪录还要快 / Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
+          "title_zh": "中国机器人1亿次冲刺跑得比尤塞恩·博尔特的世界纪录还要快",
+          "title_en": "Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
+          "title_original": "Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49399642",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-22T19:12:59.910000Z"
+        },
+        {
+          "id": "ef1ac03c09bb8eff067942d548cd947f445b2980",
+          "title": "中国机器人1亿次冲刺跑得比尤塞恩·博尔特的世界纪录还要快 / Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
+          "title_zh": "中国机器人1亿次冲刺跑得比尤塞恩·博尔特的世界纪录还要快",
+          "title_en": "Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
+          "title_original": "Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.theguardian.com/sport/2026/aug/22/chinese-robot-runs-100m-sprint-quicker-usain-bolt-world-record",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-22T13:39:07Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "7ae963cdfe7665e0ab25518a8804682b1d4ead67",
+          "title": "中国机器人1亿次冲刺跑得比尤塞恩·博尔特的世界纪录还要快 / Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
+          "title_zh": "中国机器人1亿次冲刺跑得比尤塞恩·博尔特的世界纪录还要快",
+          "title_en": "Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
+          "title_original": "Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49399642",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-22T19:12:59.910000Z"
+        },
+        {
+          "id": "ef1ac03c09bb8eff067942d548cd947f445b2980",
+          "title": "中国机器人1亿次冲刺跑得比尤塞恩·博尔特的世界纪录还要快 / Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
+          "title_zh": "中国机器人1亿次冲刺跑得比尤塞恩·博尔特的世界纪录还要快",
+          "title_en": "Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
+          "title_original": "Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.theguardian.com/sport/2026/aug/22/chinese-robot-runs-100m-sprint-quicker-usain-bolt-world-record",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-22T13:39:07Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-22T13:39:07Z",
+      "latest_at": "2026-08-22T19:12:59.910000Z",
+      "primary_item": {
+        "id": "7ae963cdfe7665e0ab25518a8804682b1d4ead67",
+        "title": "中国机器人1亿次冲刺跑得比尤塞恩·博尔特的世界纪录还要快 / Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
+        "title_zh": "中国机器人1亿次冲刺跑得比尤塞恩·博尔特的世界纪录还要快",
+        "title_en": "Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
+        "title_original": "Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://news.ycombinator.com/item?id=49399642",
+        "source": "hackernews",
+        "source_name": "NewsNow"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-22T19:13:19.616021Z"
+      }
+    },
+    {
+      "story_id": "story_a2591c776bef",
+      "title": "消息人士称，人为 IPO 文件将显示人工智能的强烈反对是一个风险因素 / Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+      "url": "https://news.ycombinator.com/item?id=49401229",
+      "primary_url": "https://news.ycombinator.com/item?id=49401229",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "53c1f3cf45dfa17d5f20edf41cc25040e57ef49a",
+          "title": "消息人士称，人为 IPO 文件将显示人工智能的强烈反对是一个风险因素 / Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+          "title_zh": "消息人士称，人为 IPO 文件将显示人工智能的强烈反对是一个风险因素",
+          "title_en": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+          "title_original": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49401229",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-22T17:41:12.816000Z"
+        },
+        {
+          "id": "41337639170e8377fa3ca0c7fc5d554d61e9b0d8",
+          "title": "消息人士称，人为 IPO 文件将显示人工智能的强烈反对是一个风险因素 / Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+          "title_zh": "消息人士称，人为 IPO 文件将显示人工智能的强烈反对是一个风险因素",
+          "title_en": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+          "title_original": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-22T16:23:09Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "53c1f3cf45dfa17d5f20edf41cc25040e57ef49a",
+          "title": "消息人士称，人为 IPO 文件将显示人工智能的强烈反对是一个风险因素 / Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+          "title_zh": "消息人士称，人为 IPO 文件将显示人工智能的强烈反对是一个风险因素",
+          "title_en": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+          "title_original": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49401229",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-22T17:41:12.816000Z"
+        },
+        {
+          "id": "41337639170e8377fa3ca0c7fc5d554d61e9b0d8",
+          "title": "消息人士称，人为 IPO 文件将显示人工智能的强烈反对是一个风险因素 / Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+          "title_zh": "消息人士称，人为 IPO 文件将显示人工智能的强烈反对是一个风险因素",
+          "title_en": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+          "title_original": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-22T16:23:09Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5419,
+      "importance": 0.5419,
+      "importance_score": 0.5419,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9782,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-22T16:23:09Z",
+      "latest_at": "2026-08-22T17:41:12.816000Z",
+      "primary_item": {
+        "id": "53c1f3cf45dfa17d5f20edf41cc25040e57ef49a",
+        "title": "消息人士称，人为 IPO 文件将显示人工智能的强烈反对是一个风险因素 / Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+        "title_zh": "消息人士称，人为 IPO 文件将显示人工智能的强烈反对是一个风险因素",
+        "title_en": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+        "title_original": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://news.ycombinator.com/item?id=49401229",
+        "source": "hackernews",
+        "source_name": "NewsNow"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-22T19:13:19.616021Z"
       }
     },
     {
@@ -877,15 +985,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5189,
-      "importance": 0.5189,
-      "importance_score": 0.5189,
+      "score": 0.5161,
+      "importance": 0.5161,
+      "importance_score": 0.5161,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8507,
+        "recency": 0.8351,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -910,7 +1018,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-08-22T17:58:01.826412Z"
+        "scored_at": "2026-08-22T19:13:19.616021Z"
       }
     },
     {
@@ -987,15 +1095,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4979,
-      "importance": 0.4979,
-      "importance_score": 0.4979,
+      "score": 0.4955,
+      "importance": 0.4955,
+      "importance_score": 0.4955,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7342,
+        "recency": 0.7207,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1020,7 +1128,7 @@
       "persona_score": 0,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-08-22T17:58:01.826412Z"
+        "scored_at": "2026-08-22T19:13:19.616021Z"
       }
     }
   ]
