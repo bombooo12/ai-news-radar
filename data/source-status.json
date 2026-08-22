@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-22T06:01:33.494393Z",
+  "generated_at": "2026-08-22T07:05:33.937929Z",
   "sites": [
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "ok": true,
       "item_count": 180,
-      "duration_ms": 2436,
+      "duration_ms": 2421,
       "error": null
     },
     {
@@ -14,7 +14,7 @@
       "site_name": "Curated Media",
       "ok": true,
       "item_count": 41,
-      "duration_ms": 3452,
+      "duration_ms": 3056,
       "error": null
     },
     {
@@ -22,7 +22,7 @@
       "site_name": "AI Breakfast",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 39,
+      "duration_ms": 45,
       "error": "403 Client Error: Forbidden for url: https://r.jina.ai/https://aibreakfast.beehiiv.com/"
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "Follow Builders",
       "ok": true,
       "item_count": 35,
-      "duration_ms": 111,
+      "duration_ms": 43,
       "error": null
     },
     {
@@ -38,7 +38,7 @@
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 428,
+      "duration_ms": 444,
       "error": null
     },
     {
@@ -46,7 +46,7 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 50,
-      "duration_ms": 289,
+      "duration_ms": 247,
       "error": null
     },
     {
@@ -54,7 +54,7 @@
       "site_name": "Info Flow",
       "ok": true,
       "item_count": 50,
-      "duration_ms": 1105,
+      "duration_ms": 1186,
       "error": null
     },
     {
@@ -62,7 +62,7 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 684,
+      "duration_ms": 629,
       "error": null
     },
     {
@@ -70,7 +70,7 @@
       "site_name": "Zeli",
       "ok": true,
       "item_count": 79,
-      "duration_ms": 635,
+      "duration_ms": 612,
       "error": null
     },
     {
@@ -78,7 +78,7 @@
       "site_name": "Hacker News",
       "ok": true,
       "item_count": 4,
-      "duration_ms": 9449,
+      "duration_ms": 6221,
       "error": null
     },
     {
@@ -86,7 +86,7 @@
       "site_name": "AI HubToday",
       "ok": true,
       "item_count": 29,
-      "duration_ms": 290,
+      "duration_ms": 331,
       "error": null
     },
     {
@@ -94,7 +94,7 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 2339,
+      "duration_ms": 895,
       "error": null
     },
     {
@@ -102,7 +102,7 @@
       "site_name": "AI HOT",
       "ok": true,
       "item_count": 45,
-      "duration_ms": 1175,
+      "duration_ms": 935,
       "error": null
     },
     {
@@ -110,7 +110,7 @@
       "site_name": "NewsNow",
       "ok": true,
       "item_count": 127,
-      "duration_ms": 1372,
+      "duration_ms": 982,
       "error": null
     },
     {
@@ -118,7 +118,7 @@
       "site_name": "WaytoAGI",
       "ok": true,
       "item_count": 7,
-      "duration_ms": 5785,
+      "duration_ms": 7560,
       "error": null
     },
     {
@@ -126,8 +126,8 @@
       "site_name": "OPML RSS",
       "ok": true,
       "partial_failures": 0,
-      "item_count": 2329,
-      "duration_ms": 7149,
+      "item_count": 100,
+      "duration_ms": 8839,
       "error": null,
       "feed_count": 10,
       "effective_feed_count": 10,
@@ -143,9 +143,9 @@
   ],
   "zero_item_sites": [],
   "empty_advanced_sources": [],
-  "fetched_raw_items": 3402,
-  "items_before_topic_filter": 1041,
-  "items_in_24h": 174,
+  "fetched_raw_items": 1173,
+  "items_before_topic_filter": 1072,
+  "items_in_24h": 183,
   "rss_opml": {
     "enabled": true,
     "path": "configured",
@@ -158,74 +158,14 @@
     "replaced_feeds": [],
     "feeds": [
       {
-        "site_id": "opmlrss:c39414c568",
+        "site_id": "opmlrss:1527a45fe3",
         "site_name": "OPML RSS",
-        "feed_title": "Google AI Blog",
-        "feed_url": "https://blog.google/technology/ai/rss/",
-        "effective_feed_url": "https://blog.google/technology/ai/rss/",
-        "ok": true,
-        "item_count": 20,
-        "duration_ms": 236,
-        "error": null,
-        "skipped": false,
-        "skip_reason": null,
-        "replaced": false,
-        "bridge_type": null
-      },
-      {
-        "site_id": "opmlrss:0ea3c11e0b",
-        "site_name": "OPML RSS",
-        "feed_title": "Google DeepMind Blog",
-        "feed_url": "https://deepmind.google/blog/rss.xml",
-        "effective_feed_url": "https://deepmind.google/blog/rss.xml",
-        "ok": true,
-        "item_count": 100,
-        "duration_ms": 327,
-        "error": null,
-        "skipped": false,
-        "skip_reason": null,
-        "replaced": false,
-        "bridge_type": null
-      },
-      {
-        "site_id": "opmlrss:33e649875b",
-        "site_name": "OPML RSS",
-        "feed_title": "Hugging Face Blog",
-        "feed_url": "https://huggingface.co/blog/feed.xml",
-        "effective_feed_url": "https://huggingface.co/blog/feed.xml",
-        "ok": true,
-        "item_count": 846,
-        "duration_ms": 415,
-        "error": null,
-        "skipped": false,
-        "skip_reason": null,
-        "replaced": false,
-        "bridge_type": null
-      },
-      {
-        "site_id": "opmlrss:969629fda3",
-        "site_name": "OPML RSS",
-        "feed_title": "InfoQ CN",
-        "feed_url": "https://www.infoq.cn/feed",
-        "effective_feed_url": "https://www.infoq.cn/feed",
-        "ok": true,
-        "item_count": 20,
-        "duration_ms": 1245,
-        "error": null,
-        "skipped": false,
-        "skip_reason": null,
-        "replaced": false,
-        "bridge_type": null
-      },
-      {
-        "site_id": "opmlrss:a53c22ca17",
-        "site_name": "OPML RSS",
-        "feed_title": "Microsoft AI Blog",
-        "feed_url": "https://news.microsoft.com/source/topics/ai/feed/",
-        "effective_feed_url": "https://news.microsoft.com/source/topics/ai/feed/",
+        "feed_title": "AutoGen Releases",
+        "feed_url": "https://github.com/microsoft/autogen/releases.atom",
+        "effective_feed_url": "https://github.com/microsoft/autogen/releases.atom",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 228,
+        "duration_ms": 476,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -233,59 +173,14 @@
         "bridge_type": null
       },
       {
-        "site_id": "opmlrss:ebc5cd4677",
+        "site_id": "opmlrss:bd307e7109",
         "site_name": "OPML RSS",
-        "feed_title": "NVIDIA Generative AI Blog",
-        "feed_url": "https://developer.nvidia.com/blog/category/generative-ai/feed/",
-        "effective_feed_url": "https://developer.nvidia.com/blog/category/generative-ai/feed/",
-        "ok": true,
-        "item_count": 100,
-        "duration_ms": 811,
-        "error": null,
-        "skipped": false,
-        "skip_reason": null,
-        "replaced": false,
-        "bridge_type": null
-      },
-      {
-        "site_id": "opmlrss:3ae57466b5",
-        "site_name": "OPML RSS",
-        "feed_title": "OpenAI News",
-        "feed_url": "https://openai.com/news/rss.xml",
-        "effective_feed_url": "https://openai.com/news/rss.xml",
-        "ok": true,
-        "item_count": 1143,
-        "duration_ms": 1068,
-        "error": null,
-        "skipped": false,
-        "skip_reason": null,
-        "replaced": false,
-        "bridge_type": null
-      },
-      {
-        "site_id": "opmlrss:d1c587ecba",
-        "site_name": "OPML RSS",
-        "feed_title": "Simon Willison",
-        "feed_url": "https://simonwillison.net/atom/everything/",
-        "effective_feed_url": "https://simonwillison.net/atom/everything/",
-        "ok": true,
-        "item_count": 30,
-        "duration_ms": 438,
-        "error": null,
-        "skipped": false,
-        "skip_reason": null,
-        "replaced": false,
-        "bridge_type": null
-      },
-      {
-        "site_id": "opmlrss:965e5d5db4",
-        "site_name": "OPML RSS",
-        "feed_title": "Wired AI",
-        "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
-        "effective_feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+        "feed_title": "ComfyUI Releases",
+        "feed_url": "https://github.com/comfyanonymous/ComfyUI/releases.atom",
+        "effective_feed_url": "https://github.com/comfyanonymous/ComfyUI/releases.atom",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 201,
+        "duration_ms": 510,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -293,14 +188,119 @@
         "bridge_type": null
       },
       {
-        "site_id": "opmlrss:d9ed8f749d",
+        "site_id": "opmlrss:dcb35caa23",
         "site_name": "OPML RSS",
-        "feed_title": "宝玉",
-        "feed_url": "https://baoyu.io/feed.xml",
-        "effective_feed_url": "https://baoyu.io/feed.xml",
+        "feed_title": "CrewAI Releases",
+        "feed_url": "https://github.com/crewAIInc/crewAI/releases.atom",
+        "effective_feed_url": "https://github.com/crewAIInc/crewAI/releases.atom",
         "ok": true,
-        "item_count": 50,
-        "duration_ms": 2180,
+        "item_count": 10,
+        "duration_ms": 200,
+        "error": null,
+        "skipped": false,
+        "skip_reason": null,
+        "replaced": false,
+        "bridge_type": null
+      },
+      {
+        "site_id": "opmlrss:e85d6da657",
+        "site_name": "OPML RSS",
+        "feed_title": "Dify Releases",
+        "feed_url": "https://github.com/langgenius/dify/releases.atom",
+        "effective_feed_url": "https://github.com/langgenius/dify/releases.atom",
+        "ok": true,
+        "item_count": 10,
+        "duration_ms": 2560,
+        "error": null,
+        "skipped": false,
+        "skip_reason": null,
+        "replaced": false,
+        "bridge_type": null
+      },
+      {
+        "site_id": "opmlrss:75da9cada8",
+        "site_name": "OPML RSS",
+        "feed_title": "LangChain Releases",
+        "feed_url": "https://github.com/langchain-ai/langchain/releases.atom",
+        "effective_feed_url": "https://github.com/langchain-ai/langchain/releases.atom",
+        "ok": true,
+        "item_count": 10,
+        "duration_ms": 1289,
+        "error": null,
+        "skipped": false,
+        "skip_reason": null,
+        "replaced": false,
+        "bridge_type": null
+      },
+      {
+        "site_id": "opmlrss:37cd870adc",
+        "site_name": "OPML RSS",
+        "feed_title": "LangGraph Releases",
+        "feed_url": "https://github.com/langchain-ai/langgraph/releases.atom",
+        "effective_feed_url": "https://github.com/langchain-ai/langgraph/releases.atom",
+        "ok": true,
+        "item_count": 10,
+        "duration_ms": 544,
+        "error": null,
+        "skipped": false,
+        "skip_reason": null,
+        "replaced": false,
+        "bridge_type": null
+      },
+      {
+        "site_id": "opmlrss:5f63a24d6f",
+        "site_name": "OPML RSS",
+        "feed_title": "LlamaIndex Releases",
+        "feed_url": "https://github.com/run-llama/llama_index/releases.atom",
+        "effective_feed_url": "https://github.com/run-llama/llama_index/releases.atom",
+        "ok": true,
+        "item_count": 10,
+        "duration_ms": 1115,
+        "error": null,
+        "skipped": false,
+        "skip_reason": null,
+        "replaced": false,
+        "bridge_type": null
+      },
+      {
+        "site_id": "opmlrss:8fea86a6ff",
+        "site_name": "OPML RSS",
+        "feed_title": "Phidata Releases",
+        "feed_url": "https://github.com/phidatahq/phidata/releases.atom",
+        "effective_feed_url": "https://github.com/phidatahq/phidata/releases.atom",
+        "ok": true,
+        "item_count": 10,
+        "duration_ms": 874,
+        "error": null,
+        "skipped": false,
+        "skip_reason": null,
+        "replaced": false,
+        "bridge_type": null
+      },
+      {
+        "site_id": "opmlrss:4cd2ef67ed",
+        "site_name": "OPML RSS",
+        "feed_title": "SD WebUI Releases",
+        "feed_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases.atom",
+        "effective_feed_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases.atom",
+        "ok": true,
+        "item_count": 10,
+        "duration_ms": 612,
+        "error": null,
+        "skipped": false,
+        "skip_reason": null,
+        "replaced": false,
+        "bridge_type": null
+      },
+      {
+        "site_id": "opmlrss:d3a6eb2b54",
+        "site_name": "OPML RSS",
+        "feed_title": "Semantic Kernel Releases",
+        "feed_url": "https://github.com/microsoft/semantic-kernel/releases.atom",
+        "effective_feed_url": "https://github.com/microsoft/semantic-kernel/releases.atom",
+        "ok": true,
+        "item_count": 10,
+        "duration_ms": 659,
         "error": null,
         "skipped": false,
         "skip_reason": null,
