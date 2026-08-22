@@ -78,5 +78,39 @@
         htmlUrl="https://simonwillison.net/"
       />
     </outline>
+ <!-- Agent 框架动态 -->
+    <outline text="LangChain Releases" type="rss" xmlUrl="https://github.com/langchain-ai/langchain/releases.atom" />
+    <outline text="LangGraph Releases" type="rss" xmlUrl="https://github.com/langchain-ai/langgraph/releases.atom" />
+    <outline text="CrewAI Releases" type="rss" xmlUrl="https://github.com/crewAIInc/crewAI/releases.atom" />
+    <outline text="AutoGen Releases" type="rss" xmlUrl="https://github.com/microsoft/autogen/releases.atom" />
+    <outline text="Dify Releases" type="rss" xmlUrl="https://github.com/langgenius/dify/releases.atom" />
+    <outline text="LlamaIndex Releases" type="rss" xmlUrl="https://github.com/run-llama/llama_index/releases.atom" />
+    <outline text="Phidata Releases" type="rss" xmlUrl="https://github.com/phidatahq/phidata/releases.atom" />
+    <outline text="Semantic Kernel Releases" type="rss" xmlUrl="https://github.com/microsoft/semantic-kernel/releases.atom" />
+
+    <!-- AI 设计 / 图像生成 -->
+    <outline text="ComfyUI Releases" type="rss" xmlUrl="https://github.com/comfyanonymous/ComfyUI/releases.atom" />
+    <outline text="SD WebUI Releases" type="rss" xmlUrl="https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases.atom" />
+    <outline text="Fooocus Releases" type="rss" xmlUrl="https://github.com/lllyasviel/Fooocus/releases.atom" />
+    <outline text="InvokeAI Releases" type="rss" xmlUrl="https://github.com/invoke-ai/InvokeAI/releases.atom" />
+
+    <!-- 本地 AI / 部署 -->
+    <outline text="Ollama Releases" type="rss" xmlUrl="https://github.com/ollama/ollama/releases.atom" />
+    <outline text="LocalAI Releases" type="rss" xmlUrl="https://github.com/mudler/LocalAI/releases.atom" />
+    <outline text="LM Studio Updates" type="rss" xmlUrl="https://github.com/lmstudio-ai/lms/commits.atom" />
+
+    <!-- AI 基础设施 / 推理 -->
+    <outline text="vLLM Releases" type="rss" xmlUrl="https://github.com/vllm-project/vllm/releases.atom" />
+    <outline text="LiteLLM Releases" type="rss" xmlUrl="https://github.com/BerriAI/litellm/releases.atom" />
+    <outline text="Gradio Releases" type="rss" xmlUrl="https://github.com/gradio-app/gradio/releases.atom" />
+
+    <!-- 提示词 / 学习资源 -->
+    <outline text="OpenAI Cookbook Updates" type="rss" xmlUrl="https://github.com/openai/openai-cookbook/commits.atom" />
+    <outline text="Anthropic Cookbook Updates" type="rss" xmlUrl="https://github.com/anthropics/anthropic-cookbook/commits.atom" />
+    <outline text="Prompt Engineering Guide Updates" type="rss" xmlUrl="https://github.com/dair-ai/Prompt-Engineering-Guide/commits.atom" />
+
+    <!-- AI 媒体 / 深度报道 -->
+    <outline text="MIT Tech Review" type="rss" xmlUrl="https://www.technologyreview.com/feed/" />
+    <outline text="404 Media" type="rss" xmlUrl="https://www.404media.co/rss/" />
   </body>
 </opml>
