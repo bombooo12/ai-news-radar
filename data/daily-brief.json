@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T19:51:22.546515Z",
+  "generated_at": "2026-08-23T20:58:46.279699Z",
   "window_hours": 24,
-  "total_items": 8,
+  "total_items": 14,
   "items": [
     {
       "story_id": "story_e76d4359eb9a",
@@ -48,21 +48,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7505,
-      "importance": 0.7505,
-      "importance_score": 0.7505,
+      "score": 0.7479,
+      "importance": 0.7479,
+      "importance_score": 0.7479,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9219,
+        "recency": 0.9071,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-08-23T14:13:31Z",
       "latest_at": "2026-08-23T14:13:31Z",
@@ -82,7 +81,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-08-23T20:11:51.086629Z"
+        "scored_at": "2026-08-23T21:20:43.850721Z"
       }
     },
     {
@@ -130,15 +129,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7309,
-      "importance": 0.7309,
-      "importance_score": 0.7309,
+      "score": 0.7286,
+      "importance": 0.7286,
+      "importance_score": 0.7286,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7961,
+        "recency": 0.7833,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -163,7 +162,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-08-23T20:11:51.086629Z"
+        "scored_at": "2026-08-23T21:20:43.850721Z"
       }
     },
     {
@@ -211,15 +210,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7275,
-      "importance": 0.7275,
-      "importance_score": 0.7275,
+      "score": 0.7253,
+      "importance": 0.7253,
+      "importance_score": 0.7253,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7605,
+        "recency": 0.7482,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -244,109 +243,137 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-08-23T20:11:51.086629Z"
+        "scored_at": "2026-08-23T21:20:43.850721Z"
       }
     },
     {
-      "story_id": "story_f5785a1c1f90",
-      "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
-      "url": "https://news.ycombinator.com/item?id=49411102",
-      "primary_url": "https://news.ycombinator.com/item?id=49411102",
+      "story_id": "story_de869c952dfe",
+      "title": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026) – Spheron Blog",
+      "url": "https://news.ycombinator.com/item?id=49411178",
+      "primary_url": "https://news.ycombinator.com/item?id=49411178",
       "source": "hackernews",
       "source_name": "NewsNow",
       "sources": [
         {
-          "id": "eb5dd0c6315fbd6eaaf61c5b0ffffe7e9b3aa6d5",
-          "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "id": "74c08f2a6e4d7e05f53510e48f4fe91671c218ba",
+          "title": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026) – Spheron Blog",
           "title_zh": null,
-          "title_en": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
-          "title_original": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "title_en": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026) – Spheron Blog",
+          "title_original": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026) – Spheron Blog",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49411102",
+          "url": "https://news.ycombinator.com/item?id=49411178",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-08-23T19:29:09.803000Z"
+          "published_at": "2026-08-23T20:29:14.517000Z"
         },
         {
-          "id": "31ce89234094e9f8110d782680be22984b04cdea",
-          "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "id": "4c8d577271c898822181c7cb1de5a6ca84193dd2",
+          "title": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026)",
           "title_zh": null,
-          "title_en": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
-          "title_original": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "title_en": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026)",
+          "title_original": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026)",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-23T18:16:37Z"
+          "url": "https://www.spheron.network/blog/etched-ai-sohu-vs-nvidia-transformer-asic-inference",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-23T18:27:33Z"
+        },
+        {
+          "id": "31d30663a2b7301495e7fe3aa84028cb82733e8c",
+          "title": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026) – Spheron Blog",
+          "title_zh": null,
+          "title_en": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026) – Spheron Blog",
+          "title_original": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026) – Spheron Blog",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.spheron.network/blog/etched-ai-sohu-vs-nvidia-transformer-asic-inference",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-23T18:27:33Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 3,
       "source_names": [
-        "Hacker News",
+        "Hacker News (黑客新闻)",
         "hackernews"
       ],
       "items": [
         {
-          "id": "eb5dd0c6315fbd6eaaf61c5b0ffffe7e9b3aa6d5",
-          "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "id": "74c08f2a6e4d7e05f53510e48f4fe91671c218ba",
+          "title": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026) – Spheron Blog",
           "title_zh": null,
-          "title_en": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
-          "title_original": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "title_en": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026) – Spheron Blog",
+          "title_original": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026) – Spheron Blog",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49411102",
+          "url": "https://news.ycombinator.com/item?id=49411178",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-08-23T19:29:09.803000Z"
+          "published_at": "2026-08-23T20:29:14.517000Z"
         },
         {
-          "id": "31ce89234094e9f8110d782680be22984b04cdea",
-          "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "id": "4c8d577271c898822181c7cb1de5a6ca84193dd2",
+          "title": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026)",
           "title_zh": null,
-          "title_en": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
-          "title_original": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "title_en": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026)",
+          "title_original": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026)",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-23T18:16:37Z"
+          "url": "https://www.spheron.network/blog/etched-ai-sohu-vs-nvidia-transformer-asic-inference",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-23T18:27:33Z"
+        },
+        {
+          "id": "31d30663a2b7301495e7fe3aa84028cb82733e8c",
+          "title": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026) – Spheron Blog",
+          "title_zh": null,
+          "title_en": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026) – Spheron Blog",
+          "title_original": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026) – Spheron Blog",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.spheron.network/blog/etched-ai-sohu-vs-nvidia-transformer-asic-inference",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-23T18:27:33Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5448,
-      "importance": 0.5448,
-      "importance_score": 0.5448,
-      "importance_label": "值得关注",
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5695,
+      "importance": 0.5695,
+      "importance_score": 0.5695,
+      "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9947,
-        "story_heat": 0.25
+        "recency": 0.9929,
+        "story_heat": 0.5
       },
-      "category": "watch",
+      "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-08-23T18:16:37Z",
-      "latest_at": "2026-08-23T19:29:09.803000Z",
+      "earliest_at": "2026-08-23T18:27:33Z",
+      "latest_at": "2026-08-23T20:29:14.517000Z",
       "primary_item": {
-        "id": "eb5dd0c6315fbd6eaaf61c5b0ffffe7e9b3aa6d5",
-        "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+        "id": "74c08f2a6e4d7e05f53510e48f4fe91671c218ba",
+        "title": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026) – Spheron Blog",
         "title_zh": null,
-        "title_en": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
-        "title_original": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+        "title_en": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026) – Spheron Blog",
+        "title_original": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026) – Spheron Blog",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://news.ycombinator.com/item?id=49411102",
+        "url": "https://news.ycombinator.com/item?id=49411178",
         "source": "hackernews",
         "source_name": "NewsNow"
       },
@@ -354,7 +381,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-08-23T20:11:51.086629Z"
+        "scored_at": "2026-08-23T21:20:43.850721Z"
       }
     },
     {
@@ -431,15 +458,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5224,
-      "importance": 0.5224,
-      "importance_score": 0.5224,
+      "score": 0.5199,
+      "importance": 0.5199,
+      "importance_score": 0.5199,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8702,
+        "recency": 0.8562,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -464,7 +491,667 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-08-23T20:11:51.086629Z"
+        "scored_at": "2026-08-23T21:20:43.850721Z"
+      }
+    },
+    {
+      "story_id": "story_674b087cecd1",
+      "title": "Erik Brynjolfsson says an AI \"job apocalypse\" is unlikely",
+      "url": "https://news.ycombinator.com/item?id=49410480",
+      "primary_url": "https://news.ycombinator.com/item?id=49410480",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "9cc132493b619f8bb95454c4fea6fa02f6d675cd",
+          "title": "Erik Brynjolfsson says an AI \"job apocalypse\" is unlikely",
+          "title_zh": null,
+          "title_en": "Erik Brynjolfsson says an AI \"job apocalypse\" is unlikely",
+          "title_original": "Erik Brynjolfsson says an AI \"job apocalypse\" is unlikely",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49410480",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-23T20:29:14.517000Z"
+        },
+        {
+          "id": "a849006f66840a38cb3b57493f9f3d5f587ef4cd",
+          "title": "Erik Brynjolfsson says an AI \"job apocalypse\" is unlikely",
+          "title_zh": null,
+          "title_en": "Erik Brynjolfsson says an AI \"job apocalypse\" is unlikely",
+          "title_original": "Erik Brynjolfsson says an AI \"job apocalypse\" is unlikely",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://wpintelligence.washingtonpost.com/topics/ai-tech/2026/08/19/wpi-conversation-why-an-ai-job-apocalypse-is-unlikely",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-23T17:07:04Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "9cc132493b619f8bb95454c4fea6fa02f6d675cd",
+          "title": "Erik Brynjolfsson says an AI \"job apocalypse\" is unlikely",
+          "title_zh": null,
+          "title_en": "Erik Brynjolfsson says an AI \"job apocalypse\" is unlikely",
+          "title_original": "Erik Brynjolfsson says an AI \"job apocalypse\" is unlikely",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49410480",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-23T20:29:14.517000Z"
+        },
+        {
+          "id": "a849006f66840a38cb3b57493f9f3d5f587ef4cd",
+          "title": "Erik Brynjolfsson says an AI \"job apocalypse\" is unlikely",
+          "title_zh": null,
+          "title_en": "Erik Brynjolfsson says an AI \"job apocalypse\" is unlikely",
+          "title_original": "Erik Brynjolfsson says an AI \"job apocalypse\" is unlikely",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://wpintelligence.washingtonpost.com/topics/ai-tech/2026/08/19/wpi-conversation-why-an-ai-job-apocalypse-is-unlikely",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-23T17:07:04Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5445,
+      "importance": 0.5445,
+      "importance_score": 0.5445,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9929,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-23T17:07:04Z",
+      "latest_at": "2026-08-23T20:29:14.517000Z",
+      "primary_item": {
+        "id": "9cc132493b619f8bb95454c4fea6fa02f6d675cd",
+        "title": "Erik Brynjolfsson says an AI \"job apocalypse\" is unlikely",
+        "title_zh": null,
+        "title_en": "Erik Brynjolfsson says an AI \"job apocalypse\" is unlikely",
+        "title_original": "Erik Brynjolfsson says an AI \"job apocalypse\" is unlikely",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://news.ycombinator.com/item?id=49410480",
+        "source": "hackernews",
+        "source_name": "NewsNow"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-23T21:20:43.850721Z"
+      }
+    },
+    {
+      "story_id": "story_512f418afc66",
+      "title": "I turned Unix talk from 1983 into the interface for my AI",
+      "url": "https://news.ycombinator.com/item?id=49410936",
+      "primary_url": "https://news.ycombinator.com/item?id=49410936",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "689f77ac07c92976524e3cb29f117a67688c6c3f",
+          "title": "I turned Unix talk from 1983 into the interface for my AI",
+          "title_zh": null,
+          "title_en": "I turned Unix talk from 1983 into the interface for my AI",
+          "title_original": "I turned Unix talk from 1983 into the interface for my AI",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49410936",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-23T20:29:14.517000Z"
+        },
+        {
+          "id": "bbb3c17977b2a04b5743421ab82cc2f32db537d2",
+          "title": "I turned Unix talk from 1983 into the interface for my AI",
+          "title_zh": null,
+          "title_en": "I turned Unix talk from 1983 into the interface for my AI",
+          "title_original": "I turned Unix talk from 1983 into the interface for my AI",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://en.andros.dev/blog/09a21bdd/i-turned-unix-talk-from-1983-into-the-interface-for-my-ai",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-23T18:00:20Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "689f77ac07c92976524e3cb29f117a67688c6c3f",
+          "title": "I turned Unix talk from 1983 into the interface for my AI",
+          "title_zh": null,
+          "title_en": "I turned Unix talk from 1983 into the interface for my AI",
+          "title_original": "I turned Unix talk from 1983 into the interface for my AI",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49410936",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-23T20:29:14.517000Z"
+        },
+        {
+          "id": "bbb3c17977b2a04b5743421ab82cc2f32db537d2",
+          "title": "I turned Unix talk from 1983 into the interface for my AI",
+          "title_zh": null,
+          "title_en": "I turned Unix talk from 1983 into the interface for my AI",
+          "title_original": "I turned Unix talk from 1983 into the interface for my AI",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://en.andros.dev/blog/09a21bdd/i-turned-unix-talk-from-1983-into-the-interface-for-my-ai",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-23T18:00:20Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5445,
+      "importance": 0.5445,
+      "importance_score": 0.5445,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9929,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-23T18:00:20Z",
+      "latest_at": "2026-08-23T20:29:14.517000Z",
+      "primary_item": {
+        "id": "689f77ac07c92976524e3cb29f117a67688c6c3f",
+        "title": "I turned Unix talk from 1983 into the interface for my AI",
+        "title_zh": null,
+        "title_en": "I turned Unix talk from 1983 into the interface for my AI",
+        "title_original": "I turned Unix talk from 1983 into the interface for my AI",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://news.ycombinator.com/item?id=49410936",
+        "source": "hackernews",
+        "source_name": "NewsNow"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-23T21:20:43.850721Z"
+      }
+    },
+    {
+      "story_id": "story_40d699f454ea",
+      "title": "My agent.md to improve LLM-assisted code quality",
+      "url": "https://news.ycombinator.com/item?id=49410932",
+      "primary_url": "https://news.ycombinator.com/item?id=49410932",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "bdc37bb0506dc265f613450407476cee220a8158",
+          "title": "My agent.md to improve LLM-assisted code quality",
+          "title_zh": null,
+          "title_en": "My agent.md to improve LLM-assisted code quality",
+          "title_original": "My agent.md to improve LLM-assisted code quality",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49410932",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-23T20:29:14.517000Z"
+        },
+        {
+          "id": "1d6dd6193e01271371c76057d0264edce1707798",
+          "title": "My agent.md to improve LLM-assisted code quality",
+          "title_zh": null,
+          "title_en": "My agent.md to improve LLM-assisted code quality",
+          "title_original": "My agent.md to improve LLM-assisted code quality",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://fabiensanglard.net/agent.md/index.html",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-23T17:59:52Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "bdc37bb0506dc265f613450407476cee220a8158",
+          "title": "My agent.md to improve LLM-assisted code quality",
+          "title_zh": null,
+          "title_en": "My agent.md to improve LLM-assisted code quality",
+          "title_original": "My agent.md to improve LLM-assisted code quality",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49410932",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-23T20:29:14.517000Z"
+        },
+        {
+          "id": "1d6dd6193e01271371c76057d0264edce1707798",
+          "title": "My agent.md to improve LLM-assisted code quality",
+          "title_zh": null,
+          "title_en": "My agent.md to improve LLM-assisted code quality",
+          "title_original": "My agent.md to improve LLM-assisted code quality",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://fabiensanglard.net/agent.md/index.html",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-23T17:59:52Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5445,
+      "importance": 0.5445,
+      "importance_score": 0.5445,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9929,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-23T17:59:52Z",
+      "latest_at": "2026-08-23T20:29:14.517000Z",
+      "primary_item": {
+        "id": "bdc37bb0506dc265f613450407476cee220a8158",
+        "title": "My agent.md to improve LLM-assisted code quality",
+        "title_zh": null,
+        "title_en": "My agent.md to improve LLM-assisted code quality",
+        "title_original": "My agent.md to improve LLM-assisted code quality",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://news.ycombinator.com/item?id=49410932",
+        "source": "hackernews",
+        "source_name": "NewsNow"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-23T21:20:43.850721Z"
+      }
+    },
+    {
+      "story_id": "story_87449c42d39a",
+      "title": "Predicting AI model release dates with stats",
+      "url": "https://news.ycombinator.com/item?id=49410949",
+      "primary_url": "https://news.ycombinator.com/item?id=49410949",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "fae4aaf35f90e4f6e8030c462d19ceddbec265d7",
+          "title": "Predicting AI model release dates with stats",
+          "title_zh": null,
+          "title_en": "Predicting AI model release dates with stats",
+          "title_original": "Predicting AI model release dates with stats",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49410949",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-23T20:29:14.517000Z"
+        },
+        {
+          "id": "c55f56a726f8cb24ea5c1b2bc84a9cb8f50c25ae",
+          "title": "Predicting AI model release dates with stats",
+          "title_zh": null,
+          "title_en": "Predicting AI model release dates with stats",
+          "title_original": "Predicting AI model release dates with stats",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://releaseoracle.xyz",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-23T18:01:30Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "fae4aaf35f90e4f6e8030c462d19ceddbec265d7",
+          "title": "Predicting AI model release dates with stats",
+          "title_zh": null,
+          "title_en": "Predicting AI model release dates with stats",
+          "title_original": "Predicting AI model release dates with stats",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49410949",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-23T20:29:14.517000Z"
+        },
+        {
+          "id": "c55f56a726f8cb24ea5c1b2bc84a9cb8f50c25ae",
+          "title": "Predicting AI model release dates with stats",
+          "title_zh": null,
+          "title_en": "Predicting AI model release dates with stats",
+          "title_original": "Predicting AI model release dates with stats",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://releaseoracle.xyz",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-23T18:01:30Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5445,
+      "importance": 0.5445,
+      "importance_score": 0.5445,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9929,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-23T18:01:30Z",
+      "latest_at": "2026-08-23T20:29:14.517000Z",
+      "primary_item": {
+        "id": "fae4aaf35f90e4f6e8030c462d19ceddbec265d7",
+        "title": "Predicting AI model release dates with stats",
+        "title_zh": null,
+        "title_en": "Predicting AI model release dates with stats",
+        "title_original": "Predicting AI model release dates with stats",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://news.ycombinator.com/item?id=49410949",
+        "source": "hackernews",
+        "source_name": "NewsNow"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-23T21:20:43.850721Z"
+      }
+    },
+    {
+      "story_id": "story_8f8c7ab181c7",
+      "title": "Say It Four Times (In Your System Prompt)",
+      "url": "https://news.ycombinator.com/item?id=49411268",
+      "primary_url": "https://news.ycombinator.com/item?id=49411268",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "6402cb750feaa341a2f5151b9bc8ba5f104b6cf1",
+          "title": "Say It Four Times (In Your System Prompt)",
+          "title_zh": null,
+          "title_en": "Say It Four Times (In Your System Prompt)",
+          "title_original": "Say It Four Times (In Your System Prompt)",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49411268",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-23T20:29:14.517000Z"
+        },
+        {
+          "id": "4e14fa7ab266298c176d438fd1c041c62157aaf0",
+          "title": "Say It Four Times (In Your System Prompt)",
+          "title_zh": null,
+          "title_en": "Say It Four Times (In Your System Prompt)",
+          "title_original": "Say It Four Times (In Your System Prompt)",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.khola.blog/p/say-it-four-times",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-23T18:40:47Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "6402cb750feaa341a2f5151b9bc8ba5f104b6cf1",
+          "title": "Say It Four Times (In Your System Prompt)",
+          "title_zh": null,
+          "title_en": "Say It Four Times (In Your System Prompt)",
+          "title_original": "Say It Four Times (In Your System Prompt)",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49411268",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-23T20:29:14.517000Z"
+        },
+        {
+          "id": "4e14fa7ab266298c176d438fd1c041c62157aaf0",
+          "title": "Say It Four Times (In Your System Prompt)",
+          "title_zh": null,
+          "title_en": "Say It Four Times (In Your System Prompt)",
+          "title_original": "Say It Four Times (In Your System Prompt)",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.khola.blog/p/say-it-four-times",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-23T18:40:47Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5445,
+      "importance": 0.5445,
+      "importance_score": 0.5445,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9929,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-23T18:40:47Z",
+      "latest_at": "2026-08-23T20:29:14.517000Z",
+      "primary_item": {
+        "id": "6402cb750feaa341a2f5151b9bc8ba5f104b6cf1",
+        "title": "Say It Four Times (In Your System Prompt)",
+        "title_zh": null,
+        "title_en": "Say It Four Times (In Your System Prompt)",
+        "title_original": "Say It Four Times (In Your System Prompt)",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://news.ycombinator.com/item?id=49411268",
+        "source": "hackernews",
+        "source_name": "NewsNow"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-23T21:20:43.850721Z"
+      }
+    },
+    {
+      "story_id": "story_f5785a1c1f90",
+      "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+      "url": "https://news.ycombinator.com/item?id=49411102",
+      "primary_url": "https://news.ycombinator.com/item?id=49411102",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "eb5dd0c6315fbd6eaaf61c5b0ffffe7e9b3aa6d5",
+          "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "title_zh": null,
+          "title_en": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "title_original": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49411102",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-23T19:29:09.803000Z"
+        },
+        {
+          "id": "31ce89234094e9f8110d782680be22984b04cdea",
+          "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "title_zh": null,
+          "title_en": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "title_original": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-23T18:16:37Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "eb5dd0c6315fbd6eaaf61c5b0ffffe7e9b3aa6d5",
+          "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "title_zh": null,
+          "title_en": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "title_original": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49411102",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-23T19:29:09.803000Z"
+        },
+        {
+          "id": "31ce89234094e9f8110d782680be22984b04cdea",
+          "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "title_zh": null,
+          "title_en": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "title_original": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-23T18:16:37Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.542,
+      "importance": 0.542,
+      "importance_score": 0.542,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9787,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-23T18:16:37Z",
+      "latest_at": "2026-08-23T19:29:09.803000Z",
+      "primary_item": {
+        "id": "eb5dd0c6315fbd6eaaf61c5b0ffffe7e9b3aa6d5",
+        "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+        "title_zh": null,
+        "title_en": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+        "title_original": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://news.ycombinator.com/item?id=49411102",
+        "source": "hackernews",
+        "source_name": "NewsNow"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-08-23T21:20:43.850721Z"
       }
     },
     {
@@ -541,15 +1228,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5435,
-      "importance": 0.5435,
-      "importance_score": 0.5435,
+      "score": 0.5407,
+      "importance": 0.5407,
+      "importance_score": 0.5407,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9875,
+        "recency": 0.9716,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -574,7 +1261,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-08-23T20:11:51.086629Z"
+        "scored_at": "2026-08-23T21:20:43.850721Z"
       }
     },
     {
@@ -600,7 +1287,7 @@
           "published_at": "2026-08-23T17:02:29.784000Z"
         },
         {
-          "id": "3398c311fb85107a79c03cb3916d0f0541244ddd",
+          "id": "f4d5733c14a4b91bb95b54be3bbe6d6d7595c570",
           "title": "GLM-5.3 (open-weight) beat Anthropic/OpenAI models – for 1/5 the cost",
           "title_zh": null,
           "title_en": "GLM-5.3 (open-weight) beat Anthropic/OpenAI models – for 1/5 the cost",
@@ -608,15 +1295,15 @@
           "summary": null,
           "recommend_reason_zh": null,
           "url": "https://reinvently.co.uk/tools/ed-o-meter",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
           "published_at": "2026-08-23T16:24:21Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Hacker News (黑客新闻)",
+        "Hacker News",
         "hackernews"
       ],
       "items": [
@@ -635,7 +1322,7 @@
           "published_at": "2026-08-23T17:02:29.784000Z"
         },
         {
-          "id": "3398c311fb85107a79c03cb3916d0f0541244ddd",
+          "id": "f4d5733c14a4b91bb95b54be3bbe6d6d7595c570",
           "title": "GLM-5.3 (open-weight) beat Anthropic/OpenAI models – for 1/5 the cost",
           "title_zh": null,
           "title_en": "GLM-5.3 (open-weight) beat Anthropic/OpenAI models – for 1/5 the cost",
@@ -643,23 +1330,23 @@
           "summary": null,
           "recommend_reason_zh": null,
           "url": "https://reinvently.co.uk/tools/ed-o-meter",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
           "published_at": "2026-08-23T16:24:21Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5386,
-      "importance": 0.5386,
-      "importance_score": 0.5386,
+      "score": 0.5358,
+      "importance": 0.5358,
+      "importance_score": 0.5358,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9602,
+        "recency": 0.9447,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -684,7 +1371,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-08-23T20:11:51.086629Z"
+        "scored_at": "2026-08-23T21:20:43.850721Z"
       }
     },
     {
@@ -761,15 +1448,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5386,
-      "importance": 0.5386,
-      "importance_score": 0.5386,
+      "score": 0.5358,
+      "importance": 0.5358,
+      "importance_score": 0.5358,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9602,
+        "recency": 0.9447,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -794,7 +1481,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-08-23T20:11:51.086629Z"
+        "scored_at": "2026-08-23T21:20:43.850721Z"
       }
     }
   ]
