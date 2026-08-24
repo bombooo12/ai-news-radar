@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-24T08:31:35.049836Z",
+  "generated_at": "2026-08-24T11:03:03.597425Z",
   "sites": [
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "ok": true,
       "item_count": 167,
-      "duration_ms": 2692,
+      "duration_ms": 2685,
       "error": null
     },
     {
       "site_id": "curated_media",
       "site_name": "Curated Media",
       "ok": true,
-      "item_count": 41,
-      "duration_ms": 3248,
+      "item_count": 42,
+      "duration_ms": 2913,
       "error": null
     },
     {
@@ -22,7 +22,7 @@
       "site_name": "AI Breakfast",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 39,
+      "duration_ms": 19,
       "error": "403 Client Error: Forbidden for url: https://r.jina.ai/https://aibreakfast.beehiiv.com/"
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "Follow Builders",
       "ok": true,
       "item_count": 18,
-      "duration_ms": 21,
+      "duration_ms": 24,
       "error": null
     },
     {
@@ -38,7 +38,7 @@
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 401,
+      "duration_ms": 436,
       "error": null
     },
     {
@@ -46,7 +46,7 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 50,
-      "duration_ms": 236,
+      "duration_ms": 215,
       "error": null
     },
     {
@@ -54,7 +54,7 @@
       "site_name": "Info Flow",
       "ok": true,
       "item_count": 50,
-      "duration_ms": 1354,
+      "duration_ms": 1212,
       "error": null
     },
     {
@@ -62,23 +62,23 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 493,
+      "duration_ms": 682,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 14,
-      "duration_ms": 639,
+      "item_count": 5,
+      "duration_ms": 622,
       "error": null
     },
     {
       "site_id": "hackernews",
       "site_name": "Hacker News",
       "ok": true,
-      "item_count": 1,
-      "duration_ms": 5121,
+      "item_count": 0,
+      "duration_ms": 5132,
       "error": null
     },
     {
@@ -86,7 +86,7 @@
       "site_name": "AI HubToday",
       "ok": true,
       "item_count": 30,
-      "duration_ms": 375,
+      "duration_ms": 666,
       "error": null
     },
     {
@@ -94,7 +94,7 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 1067,
+      "duration_ms": 1622,
       "error": null
     },
     {
@@ -102,7 +102,7 @@
       "site_name": "AI HOT",
       "ok": true,
       "item_count": 43,
-      "duration_ms": 1219,
+      "duration_ms": 1368,
       "error": null
     },
     {
@@ -110,7 +110,7 @@
       "site_name": "NewsNow",
       "ok": true,
       "item_count": 128,
-      "duration_ms": 1231,
+      "duration_ms": 948,
       "error": null
     },
     {
@@ -118,7 +118,7 @@
       "site_name": "WaytoAGI",
       "ok": true,
       "item_count": 7,
-      "duration_ms": 7497,
+      "duration_ms": 7590,
       "error": null
     },
     {
@@ -127,7 +127,7 @@
       "ok": true,
       "partial_failures": 0,
       "item_count": 195,
-      "duration_ms": 19711,
+      "duration_ms": 21212,
       "error": null,
       "feed_count": 23,
       "effective_feed_count": 23,
@@ -141,11 +141,13 @@
   "failed_sites": [
     "aibreakfast"
   ],
-  "zero_item_sites": [],
+  "zero_item_sites": [
+    "hackernews"
+  ],
   "empty_advanced_sources": [],
-  "fetched_raw_items": 1170,
-  "items_before_topic_filter": 723,
-  "items_in_24h": 154,
+  "fetched_raw_items": 1161,
+  "items_before_topic_filter": 711,
+  "items_in_24h": 168,
   "rss_opml": {
     "enabled": true,
     "path": "configured",
@@ -170,7 +172,7 @@
         "effective_feed_url": "https://www.404media.co/rss/",
         "ok": true,
         "item_count": 15,
-        "duration_ms": 250,
+        "duration_ms": 119,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -185,7 +187,7 @@
         "effective_feed_url": "https://github.com/anthropics/anthropic-cookbook/releases.atom",
         "ok": true,
         "item_count": 0,
-        "duration_ms": 210,
+        "duration_ms": 149,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -200,7 +202,7 @@
         "effective_feed_url": "https://github.com/microsoft/autogen/releases.atom",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 765,
+        "duration_ms": 617,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -215,7 +217,7 @@
         "effective_feed_url": "https://github.com/comfyanonymous/ComfyUI/releases.atom",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 465,
+        "duration_ms": 556,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -230,7 +232,7 @@
         "effective_feed_url": "https://github.com/crewAIInc/crewAI/releases.atom",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 265,
+        "duration_ms": 213,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -245,7 +247,7 @@
         "effective_feed_url": "https://github.com/langgenius/dify/releases.atom",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 3464,
+        "duration_ms": 3264,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -260,7 +262,7 @@
         "effective_feed_url": "https://github.com/lllyasviel/Fooocus/releases.atom",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 489,
+        "duration_ms": 509,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -275,7 +277,7 @@
         "effective_feed_url": "https://github.com/gradio-app/gradio/releases.atom",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 675,
+        "duration_ms": 966,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -290,7 +292,7 @@
         "effective_feed_url": "https://github.com/invoke-ai/InvokeAI/releases.atom",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 1505,
+        "duration_ms": 1170,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -305,7 +307,7 @@
         "effective_feed_url": "https://github.com/lmstudio-ai/lms/releases.atom",
         "ok": true,
         "item_count": 0,
-        "duration_ms": 150,
+        "duration_ms": 89,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -320,7 +322,7 @@
         "effective_feed_url": "https://github.com/langchain-ai/langchain/releases.atom",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 1628,
+        "duration_ms": 1512,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -335,7 +337,7 @@
         "effective_feed_url": "https://github.com/langchain-ai/langgraph/releases.atom",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 564,
+        "duration_ms": 651,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -350,7 +352,7 @@
         "effective_feed_url": "https://github.com/BerriAI/litellm/releases.atom",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 2386,
+        "duration_ms": 1898,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -365,7 +367,7 @@
         "effective_feed_url": "https://github.com/run-llama/llama_index/releases.atom",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 1927,
+        "duration_ms": 3332,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -380,7 +382,7 @@
         "effective_feed_url": "https://github.com/mudler/LocalAI/releases.atom",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 1176,
+        "duration_ms": 1448,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -395,7 +397,7 @@
         "effective_feed_url": "https://www.technologyreview.com/feed/",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 64,
+        "duration_ms": 66,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -410,7 +412,7 @@
         "effective_feed_url": "https://github.com/ollama/ollama/releases.atom",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 577,
+        "duration_ms": 442,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -425,7 +427,7 @@
         "effective_feed_url": "https://github.com/openai/openai-cookbook/releases.atom",
         "ok": true,
         "item_count": 0,
-        "duration_ms": 120,
+        "duration_ms": 87,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -440,7 +442,7 @@
         "effective_feed_url": "https://github.com/phidatahq/phidata/releases.atom",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 841,
+        "duration_ms": 1550,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -455,7 +457,7 @@
         "effective_feed_url": "https://github.com/dair-ai/Prompt-Engineering-Guide/releases.atom",
         "ok": true,
         "item_count": 0,
-        "duration_ms": 138,
+        "duration_ms": 72,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -470,7 +472,7 @@
         "effective_feed_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases.atom",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 660,
+        "duration_ms": 722,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -485,7 +487,7 @@
         "effective_feed_url": "https://github.com/microsoft/semantic-kernel/releases.atom",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 159,
+        "duration_ms": 870,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -500,7 +502,7 @@
         "effective_feed_url": "https://github.com/vllm-project/vllm/releases.atom",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 1233,
+        "duration_ms": 910,
         "error": null,
         "skipped": false,
         "skip_reason": null,
