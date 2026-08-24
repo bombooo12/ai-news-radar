@@ -1,84 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>AI News Radar RSS Example</title>
+    <title>AI News Radar RSS</title>
   </head>
   <body>
-    <outline text="Official AI Sources">
-      <outline
-        text="OpenAI News"
-        title="OpenAI News"
-        type="rss"
-        xmlUrl="https://openai.com/news/rss.xml"
-        htmlUrl="https://openai.com/news"
-      />
-      <outline
-        text="Hugging Face Blog"
-        title="Hugging Face Blog"
-        type="rss"
-        xmlUrl="https://huggingface.co/blog/feed.xml"
-        htmlUrl="https://huggingface.co/blog"
-      />
-      <outline
-        text="Google DeepMind Blog"
-        title="Google DeepMind Blog"
-        type="rss"
-        xmlUrl="https://deepmind.google/blog/rss.xml"
-        htmlUrl="https://deepmind.google/discover/blog/"
-      />
-      <outline
-        text="Google AI Blog"
-        title="Google AI Blog"
-        type="rss"
-        xmlUrl="https://blog.google/technology/ai/rss/"
-        htmlUrl="https://blog.google/technology/ai/"
-      />
-      <outline
-        text="Microsoft AI Blog"
-        title="Microsoft AI Blog"
-        type="rss"
-        xmlUrl="https://news.microsoft.com/source/topics/ai/feed/"
-        htmlUrl="https://news.microsoft.com/source/topics/ai/"
-      />
-    </outline>
-    <outline text="AI Media and Builders">
-      <outline
-        text="Wired AI"
-        title="Wired AI"
-        type="rss"
-        xmlUrl="https://www.wired.com/feed/tag/ai/latest/rss"
-        htmlUrl="https://www.wired.com/tag/artificial-intelligence/"
-      />
-      <outline
-        text="InfoQ CN"
-        title="InfoQ CN"
-        type="rss"
-        xmlUrl="https://www.infoq.cn/feed"
-        htmlUrl="https://www.infoq.cn/"
-      />
-      <outline
-        text="NVIDIA Generative AI Blog"
-        title="NVIDIA Generative AI Blog"
-        type="rss"
-        xmlUrl="https://developer.nvidia.com/blog/category/generative-ai/feed/"
-        htmlUrl="https://developer.nvidia.com/blog/category/generative-ai/"
-      />
-      <outline
-        text="宝玉"
-        title="宝玉"
-        type="rss"
-        xmlUrl="https://baoyu.io/feed.xml"
-        htmlUrl="https://baoyu.io/"
-      />
-      <outline
-        text="Simon Willison"
-        title="Simon Willison"
-        type="rss"
-        xmlUrl="https://simonwillison.net/atom/everything/"
-        htmlUrl="https://simonwillison.net/"
-      />
-    </outline>
- <!-- Agent 框架动态 -->
+    <!-- 原始示例源（平级格式） -->
+    <outline text="OpenAI News" type="rss" xmlUrl="https://openai.com/news/rss.xml" />
+    <outline text="Hugging Face Blog" type="rss" xmlUrl="https://huggingface.co/blog/feed.xml" />
+    <outline text="Google DeepMind Blog" type="rss" xmlUrl="https://deepmind.google/blog/rss.xml" />
+    <outline text="Google AI Blog" type="rss" xmlUrl="https://blog.google/technology/ai/rss/" />
+    <outline text="Microsoft AI Blog" type="rss" xmlUrl="https://news.microsoft.com/source/topics/ai/feed/" />
+    <outline text="Wired AI" type="rss" xmlUrl="https://www.wired.com/feed/tag/ai/latest/rss" />
+    <outline text="InfoQ CN" type="rss" xmlUrl="https://www.infoq.cn/feed" />
+    <outline text="NVIDIA Generative AI Blog" type="rss" xmlUrl="https://developer.nvidia.com/blog/category/generative-ai/feed/" />
+    <outline text="宝玉" type="rss" xmlUrl="https://baoyu.io/feed.xml" />
+    <outline text="Simon Willison" type="rss" xmlUrl="https://simonwillison.net/atom/everything/" />
+    <!-- Agent 框架动态 -->
     <outline text="LangChain Releases" type="rss" xmlUrl="https://github.com/langchain-ai/langchain/releases.atom" />
     <outline text="LangGraph Releases" type="rss" xmlUrl="https://github.com/langchain-ai/langgraph/releases.atom" />
     <outline text="CrewAI Releases" type="rss" xmlUrl="https://github.com/crewAIInc/crewAI/releases.atom" />
@@ -87,28 +24,23 @@
     <outline text="LlamaIndex Releases" type="rss" xmlUrl="https://github.com/run-llama/llama_index/releases.atom" />
     <outline text="Phidata Releases" type="rss" xmlUrl="https://github.com/phidatahq/phidata/releases.atom" />
     <outline text="Semantic Kernel Releases" type="rss" xmlUrl="https://github.com/microsoft/semantic-kernel/releases.atom" />
-
     <!-- AI 设计 / 图像生成 -->
     <outline text="ComfyUI Releases" type="rss" xmlUrl="https://github.com/comfyanonymous/ComfyUI/releases.atom" />
     <outline text="SD WebUI Releases" type="rss" xmlUrl="https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases.atom" />
     <outline text="Fooocus Releases" type="rss" xmlUrl="https://github.com/lllyasviel/Fooocus/releases.atom" />
     <outline text="InvokeAI Releases" type="rss" xmlUrl="https://github.com/invoke-ai/InvokeAI/releases.atom" />
-
     <!-- 本地 AI / 部署 -->
     <outline text="Ollama Releases" type="rss" xmlUrl="https://github.com/ollama/ollama/releases.atom" />
     <outline text="LocalAI Releases" type="rss" xmlUrl="https://github.com/mudler/LocalAI/releases.atom" />
     <outline text="LM Studio Updates" type="rss" xmlUrl="https://github.com/lmstudio-ai/lms/commits.atom" />
-
     <!-- AI 基础设施 / 推理 -->
     <outline text="vLLM Releases" type="rss" xmlUrl="https://github.com/vllm-project/vllm/releases.atom" />
     <outline text="LiteLLM Releases" type="rss" xmlUrl="https://github.com/BerriAI/litellm/releases.atom" />
     <outline text="Gradio Releases" type="rss" xmlUrl="https://github.com/gradio-app/gradio/releases.atom" />
-
     <!-- 提示词 / 学习资源 -->
     <outline text="OpenAI Cookbook Updates" type="rss" xmlUrl="https://github.com/openai/openai-cookbook/commits.atom" />
     <outline text="Anthropic Cookbook Updates" type="rss" xmlUrl="https://github.com/anthropics/anthropic-cookbook/commits.atom" />
     <outline text="Prompt Engineering Guide Updates" type="rss" xmlUrl="https://github.com/dair-ai/Prompt-Engineering-Guide/commits.atom" />
-
     <!-- AI 媒体 / 深度报道 -->
     <outline text="MIT Tech Review" type="rss" xmlUrl="https://www.technologyreview.com/feed/" />
     <outline text="404 Media" type="rss" xmlUrl="https://www.404media.co/rss/" />
