@@ -3,13 +3,13 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "OpenAI 想掌控一切？AI 智能体时代，你的数据隐私还安全吗？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
+      "title": "OpenAI智能体时代来了！你的工作会被取代吗？",
+      "track": "ai_agent",
+      "track_name": "AI技术（Agent/提示词/Skill/AI设计/模型发布）",
       "format": "深度分析",
-      "angle": "从用户控制权与隐私角度切入，分析OpenAI构建全场景AI智能体的利弊，结合对AI初学者的影响。",
-      "target_audience": "AI初学者、关注隐私的科技爱好者",
-      "reason": "紧跟OpenAI热点，争议性强，易引发讨论，符合创作者偏好冲突性选题。",
+      "angle": "从OpenAI构建全功能AI智能体切入，分析对普通人和小微企业的影响，结合商标代理业务，讨论AI时代的知识产权新挑战。",
+      "target_audience": "AI初学者、小微企业主、关注AI趋势的职场人",
+      "reason": "OpenAI智能体是热点，具有争议性和话题性，容易引发讨论和传播，且能结合商标业务引流。",
       "source_items": [
         "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？",
         "OpenAI is building AI agents for everything. Will everyone use them?"
@@ -23,51 +23,31 @@
     },
     {
       "rank": 2,
-      "title": "实测阿里 Wan3.0：一键生成 30 秒视频，AI 视频制作门槛再降！",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "format": "测评/教程",
-      "angle": "以实际测评方式展示Wan3.0的功能，对比其他工具，提供上手教程，突出其易用性。",
-      "target_audience": "AI初学者、视频创作者",
-      "reason": "符合历史偏好AI视频赛道，实操性强，能吸引想用AI做视频的用户。",
-      "source_items": [
-        "Alibaba's Wan3.0 generates AI videos up to 30 seconds long from text, images, and documents"
-      ],
-      "source_urls": [
-        "https://the-decoder.com/alibabas-wan3-0-generates-ai-videos-up-to-30-seconds-long-from-text-images-and-documents"
-      ],
-      "urgency": "high",
-      "viral_potential": "high"
-    },
-    {
-      "rank": 3,
-      "title": "从 0 到 1：用 AI 智能体自动化你的工作流，效率提升 10 倍！",
-      "track": "ai_tech",
-      "track_name": "AI技术",
+      "title": "NVIDIA新芯片让AI Agent效率暴涨30倍！这意味着什么？",
+      "track": "ai_agent",
+      "track_name": "AI技术（Agent/提示词/Skill/AI设计/模型发布）",
       "format": "图文",
-      "angle": "面向AI初学者，用通俗语言讲解智能体概念，提供简单工作流搭建步骤，强调实操。",
-      "target_audience": "AI初学者、办公白领",
-      "reason": "结合OpenAI智能体热点，提供入门级教程，满足用户学习需求。",
+      "angle": "解读NVIDIA Vera Rubin NVL72的技术突破，用通俗语言解释其对AI应用和普通用户的影响，并结合AI工具使用体验。",
+      "target_audience": "AI初学者、科技爱好者",
+      "reason": "硬件突破是热点，且能转化为对AI未来发展的讨论，图文形式易于制作，且数据驱动有说服力。",
       "source_items": [
-        "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？",
-        "图解 AI Agent ①：大模型接上 API，为什么还不算 Agent？"
+        "NVIDIA Vera Rubin NVL72 树立 AI 智能体效率新标准：每瓦特工作量提升至 30 倍"
       ],
       "source_urls": [
-        "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
-        "https://juejin.cn/post/7677170455305879562"
+        "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents"
       ],
       "urgency": "medium",
       "viral_potential": "medium"
     },
     {
-      "rank": 4,
-      "title": "大模型成“抄袭者”？WikiHow 起诉 OpenAI 侵权，AIGC 版权问题再引热议",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "format": "深度分析",
-      "angle": "从法律与伦理角度分析AIGC版权争议，结合商标代理专业知识，提供风险规避建议。",
-      "target_audience": "AI从业者、内容创作者、小微企业主",
-      "reason": "争议性话题，传播潜力大，同时能引流商标注册业务。",
+      "rank": 3,
+      "title": "大模型也会抄袭？WikiHow起诉OpenAI，创作者如何保护自己？",
+      "track": "ai_technology",
+      "track_name": "AI技术（Agent/提示词/Skill/AI设计/模型发布）",
+      "format": "图文",
+      "angle": "从WikiHow起诉OpenAI事件切入，讨论AI版权问题，结合商标注册业务，提供知识产权保护建议。",
+      "target_audience": "AI初学者、内容创作者、小微企业主",
+      "reason": "版权争议具有冲突性，容易引发关注，且能巧妙结合商标业务，实现引流。",
       "source_items": [
         "大模型成最大“抄袭者”？全球最大生活指南百科 WikiHow 正式起诉 OpenAI 侵权"
       ],
@@ -78,32 +58,14 @@
       "viral_potential": "high"
     },
     {
-      "rank": 5,
-      "title": "用 Claude Code 技能一键导出 Kindle 高亮，效率提升 100%！",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "format": "图文",
-      "angle": "分享一个实用的Claude Code技能，提供详细安装和使用教程，突出解决痛点。",
-      "target_audience": "AI初学者、程序员、知识工作者",
-      "reason": "实操性强，满足用户需求，符合偏好实操内容。",
-      "source_items": [
-        "A Claude Code skill that recovers export-blocked Kindle highlights"
-      ],
-      "source_urls": [
-        "https://github.com/l3a0/claude-plugins"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium"
-    },
-    {
-      "rank": 6,
-      "title": "AI 提示词万能公式：如何用 3 个步骤让 AI 输出你想要的内容？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "format": "图文",
-      "angle": "总结提示词工程的核心技巧，提供模板和案例，帮助AI初学者快速上手。",
-      "target_audience": "AI初学者、内容创作者",
-      "reason": "提示词是高频需求，结合news中提示词相关讨论，提供实用教程。",
+      "rank": 4,
+      "title": "如何用提示词改变软件？未来编程将变成对话？",
+      "track": "ai_prompt",
+      "track_name": "AI技术（Agent/提示词/Skill/AI设计/模型发布）",
+      "format": "教程",
+      "angle": "基于Peter Steinberger的观点，探讨提示词在软件开发中的作用，分享如何通过提示词与AI协作，提高效率。",
+      "target_audience": "AI初学者、程序员、科技爱好者",
+      "reason": "提示词是热门话题，且创作者擅长提示词工程，教程形式实用性强，能吸引精准粉丝。",
       "source_items": [
         "We need to get away from software that we can’t change with a prompt. https://t.co/Fthfm8WYGH"
       ],
@@ -112,20 +74,56 @@
       ],
       "urgency": "medium",
       "viral_potential": "medium"
+    },
+    {
+      "rank": 5,
+      "title": "阿里Wan3.0生成30秒视频，AI视频创作门槛再降！",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装（AI视频生成/视频剪辑/视觉包装）",
+      "format": "测评/教程",
+      "angle": "实测阿里Wan3.0，对比其他AI视频工具，展示如何用文字生成30秒视频，提供实操教程。",
+      "target_audience": "AI初学者、视频创作者、自媒体运营者",
+      "reason": "AI视频是热点，且创作者擅长视频剪辑，测评教程形式符合其能力，能吸引对AI视频感兴趣的用户。",
+      "source_items": [
+        "Alibaba's Wan3.0 generates AI videos up to 30 seconds long from text, images, and documents"
+      ],
+      "source_urls": [
+        "https://the-decoder.com/alibabas-wan3-0-generates-ai-videos-up-to-30-seconds-long-from-text-images-and-documents"
+      ],
+      "urgency": "high",
+      "viral_potential": "high"
+    },
+    {
+      "rank": 6,
+      "title": "GPT-5.6在Kiro中提升性价比，开发者如何受益？",
+      "track": "ai_technology",
+      "track_name": "AI技术（Agent/提示词/Skill/AI设计/模型发布）",
+      "format": "图文",
+      "angle": "解读OpenAI的GPT-5.6在Kiro中的性能提升，分析对开发者和普通用户的影响，提供使用建议。",
+      "target_audience": "AI初学者、开发者、科技爱好者",
+      "reason": "OpenAI动态是热门，且GPT-5.6是模型发布，具有时效性，图文形式易于制作，能吸引AI关注者。",
+      "source_items": [
+        "Advancing price-performance for developers with GPT‑5.6 in Kiro"
+      ],
+      "source_urls": [
+        "https://openai.com/index/gpt-5-6-in-kiro"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium"
     }
   ],
   "weekly_plan": {
-    "monday": "OpenAI 想掌控一切？AI 智能体时代，你的数据隐私还安全吗？",
-    "wednesday": "实测阿里 Wan3.0：一键生成 30 秒视频，AI 视频制作门槛再降！",
-    "friday": "大模型成“抄袭者”？WikiHow 起诉 OpenAI 侵权，AIGC 版权问题再引热议",
-    "strategy": "本周聚焦AI智能体与视频生成热点，结合版权争议引流商标业务，保持高频率输出深度与实操内容。"
+    "monday": "OpenAI智能体时代来了！你的工作会被取代吗？",
+    "wednesday": "大模型也会抄袭？WikiHow起诉OpenAI，创作者如何保护自己？",
+    "friday": "阿里Wan3.0生成30秒视频，AI视频创作门槛再降！",
+    "strategy": "本周聚焦AI智能体和AI视频热点，结合版权和商标话题，图文+视频组合发布，最大化传播。"
   },
-  "insights": "今日信息流显示AI智能体与视频生成是热点，版权争议话题有传播潜力，适合结合创作者优势产出实操与深度内容。",
-  "generated_at": "2026-08-25T16:04:30.115450+08:00",
-  "total_items": 246,
-  "scored_items": 239,
+  "insights": "今日信息流显示AI智能体和AI视频是热点，且版权争议话题具有高传播潜力，适合结合商标业务引流。",
+  "generated_at": "2026-08-25T16:49:51.038685+08:00",
+  "total_items": 247,
+  "scored_items": 240,
   "tracks_summary": {
-    "ai_tech": 238,
+    "ai_tech": 239,
     "ai_video": 1
   }
 }
