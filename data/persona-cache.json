@@ -1,48 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_48546ed95685|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "计费管理入口变了，走正式功能即可，无需额外操作。",
-      "title_hash": "423b0661",
-      "scored_at": "2026-08-04T20:14:39.927050Z"
-    },
-    "story_6e902da88317|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "法务场景的 CLI 用法案例，对开发者参考价值有限，真上手不如直接看文档。",
-      "title_hash": "357e9025",
-      "scored_at": "2026-08-04T20:14:43.496118Z"
-    },
-    "story_f27a36bb1d59|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "批量配置代码扫描规则上线，安全团队可省去逐个改仓库的功夫。",
-      "title_hash": "2c10d6f9",
-      "scored_at": "2026-08-04T20:14:49.830925Z"
-    },
-    "story_6ca45c4a72d9|pragmatic|0a5c5b24": {
-      "score": 82,
-      "review": "能直接跑在 Mac 上，本地推理又多一个选择。",
-      "title_hash": "e3522003",
-      "scored_at": "2026-08-04T20:14:52.176544Z"
-    },
-    "story_07b0df6b2011|pragmatic|0a5c5b24": {
-      "score": 92,
-      "review": "低显存微调8B模型，个人开发者的福音，今天就能试试。",
-      "title_hash": "4be7698e",
-      "scored_at": "2026-08-04T20:14:53.906964Z"
-    },
-    "story_07b0df6b2011|cynic|f4237a62": {
-      "score": 65,
-      "review": "4GB跑8B不稀奇，稀奇的是敢晒出微调后的效果。",
-      "title_hash": "4be7698e",
-      "scored_at": "2026-08-04T20:15:07.444692Z"
-    },
-    "story_07b0df6b2011|paper-police|966065bf": {
-      "score": 68,
-      "review": "代码开源可复现，但缺公开benchmark和独立验证，需自行实测。",
-      "title_hash": "4be7698e",
-      "scored_at": "2026-08-04T20:15:12.293951Z"
-    },
     "story_0e23ce0343ea|pragmatic|0a5c5b24": {
       "score": 45,
       "review": "安全评估报告，不影响日常开发，做合规的可以瞄一眼。",
@@ -5310,6 +5268,30 @@
       "review": "官方更新有据可查，但缺代码和复现，功能细节待验证。",
       "title_hash": "4de9de6f",
       "scored_at": "2026-08-25T19:49:47.546749Z"
+    },
+    "story_9ae1e7fe3cbc|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "Codex 更新了浏览器和云登录，写代码时切换环境更顺，但要看具体功能。",
+      "title_hash": "17ee72ba",
+      "scored_at": "2026-08-25T20:32:36.089869Z"
+    },
+    "story_55a2613433ab|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "Codex 能接 Gmail/Slack/GitHub 触发任务，自动化场景今天就能配。",
+      "title_hash": "9a60a013",
+      "scored_at": "2026-08-25T20:32:37.610372Z"
+    },
+    "story_55a2613433ab|cynic|f4237a62": {
+      "score": 72,
+      "review": "Codex 终于学会看邮件和仓库了，但定时任务这功能，GitHub Actions 早玩腻了。",
+      "title_hash": "9a60a013",
+      "scored_at": "2026-08-25T20:32:39.228699Z"
+    },
+    "story_55a2613433ab|paper-police|966065bf": {
+      "score": 35,
+      "review": "官方更新但无技术细节，无代码无评测，仅凭 changelog 难证实效。",
+      "title_hash": "9a60a013",
+      "scored_at": "2026-08-25T20:32:40.718670Z"
     }
   }
 }

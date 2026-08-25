@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T19:49:47.546802Z",
+  "generated_at": "2026-08-25T20:32:40.718770Z",
   "model": "deepseek-chat",
   "personas": [
     {
@@ -17,10 +17,30 @@
   ],
   "items": [
     {
+      "story_id": "story_55a2613433ab",
+      "title": "通过Gmail、Slack和GitHub事件触发定时任务 / Trigger scheduled tasks from Gmail, Slack, and GitHub events",
+      "url": "https://developers.openai.com/codex/changelog",
+      "rank": 1,
+      "reviews": {
+        "cynic": {
+          "score": 72,
+          "review": "Codex 终于学会看邮件和仓库了，但定时任务这功能，GitHub Actions 早玩腻了。"
+        },
+        "paper-police": {
+          "score": 35,
+          "review": "官方更新但无技术细节，无代码无评测，仅凭 changelog 难证实效。"
+        },
+        "pragmatic": {
+          "score": 85,
+          "review": "Codex 能接 Gmail/Slack/GitHub 触发任务，自动化场景今天就能配。"
+        }
+      }
+    },
+    {
       "story_id": "story_4af25ba10386",
       "title": "为 ChatGPT Work 和 Codex 推出 Admin 插件 / Introducing the Admin plugin for ChatGPT Work and Codex",
       "url": "https://openai.com/index/introducing-admin-plugin",
-      "rank": 1,
+      "rank": 2,
       "reviews": {
         "cynic": {
           "score": 70,
@@ -40,7 +60,7 @@
       "story_id": "story_b95e33dbd1e9",
       "title": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平 / Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
       "url": "https://openai.com/index/jalapeno-first-results",
-      "rank": 2,
+      "rank": 3,
       "reviews": {
         "cynic": {
           "score": 72,
@@ -53,26 +73,6 @@
         "pragmatic": {
           "score": 72,
           "review": "推理性能新标杆，但没给API或开源，先观望等开放。"
-        }
-      }
-    },
-    {
-      "story_id": "story_0536ff6c73c5",
-      "title": "直接从安全公告中屏蔽用户 / Block users directly from security advisories",
-      "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
-      "rank": 3,
-      "reviews": {
-        "cynic": {
-          "score": 72,
-          "review": "安全公告里加屏蔽功能，实用但不算突破，营销味略重。"
-        },
-        "paper-police": {
-          "score": 75,
-          "review": "官方更新有据可查，但缺代码和复现，功能细节待验证。"
-        },
-        "pragmatic": {
-          "score": 72,
-          "review": "GitHub 小功能，省一次跳转，对安全协作有点用，但别指望大变化。"
         }
       }
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T19:17:01.511879Z",
+  "generated_at": "2026-08-25T20:04:05.591691Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -48,15 +48,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8578,
-      "importance": 0.8578,
-      "importance_score": 0.8578,
+      "score": 0.8559,
+      "importance": 0.8559,
+      "importance_score": 0.8559,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.9432,
+        "recency": 0.9326,
         "story_heat": 0.0
       },
       "category": "official",
@@ -85,7 +85,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T19:49:36.956374Z"
+        "scored_at": "2026-08-25T20:32:34.489231Z"
       }
     },
     {
@@ -116,8 +116,8 @@
           "title_zh": "Jalapeño 的测试结果显示，其在 AI 推理方面的速度和效率均达到行业领先水平。",
           "title_en": "Jalapeño's results show industry-leading speed and efficiency in AI inference",
           "title_original": "Jalapeño's results show industry-leading speed and efficiency in AI inference",
-          "summary": null,
-          "recommend_reason_zh": null,
+          "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nJalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nJalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nAugus",
+          "recommend_reason_zh": "OpenAI定制推理芯片Jalapeño实测数据亮眼：在GPT-OSS 120B、DeepSeek R1和Kimi K2.5 1T上，每瓦特AI工作量提升1.5至1.9倍，端到端延迟降低1.7至3.6倍，交互负载性能最高达4.1倍。",
           "url": "https://openai.com/index/jalapeno-first-results",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -151,8 +151,8 @@
           "title_zh": "Jalapeño 的测试结果显示，其在 AI 推理方面的速度和效率均达到行业领先水平。",
           "title_en": "Jalapeño's results show industry-leading speed and efficiency in AI inference",
           "title_original": "Jalapeño's results show industry-leading speed and efficiency in AI inference",
-          "summary": null,
-          "recommend_reason_zh": null,
+          "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nJalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nJalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nAugus",
+          "recommend_reason_zh": "OpenAI定制推理芯片Jalapeño实测数据亮眼：在GPT-OSS 120B、DeepSeek R1和Kimi K2.5 1T上，每瓦特AI工作量提升1.5至1.9倍，端到端延迟降低1.7至3.6倍，交互负载性能最高达4.1倍。",
           "url": "https://openai.com/index/jalapeno-first-results",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -162,15 +162,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8477,
-      "importance": 0.8477,
-      "importance_score": 0.8477,
+      "score": 0.846,
+      "importance": 0.846,
+      "importance_score": 0.846,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8375,
+        "recency": 0.828,
         "story_heat": 0.25
       },
       "category": "official",
@@ -200,7 +200,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T19:49:36.956374Z"
+        "scored_at": "2026-08-25T20:32:34.489231Z"
       }
     },
     {
@@ -217,7 +217,7 @@
           "title_zh": "直接从安全公告中屏蔽用户",
           "title_en": "Block users directly from security advisories",
           "title_original": "Block users directly from security advisories",
-          "summary": "You can now block a user directly from a security advisory page in public repositories owned by either an organization or a personal account. This brings the streamlined moderation experience…\nYou can now block a user directly from a security advisory page in public repositories owned by either an organization or a personal account. This brings the streamlined moderation experience available for issues and pull requests to security advisories.\nSecurity advisories contain user-created content and",
+          "summary": null,
           "recommend_reason_zh": "GitHub安全公告页现可直接屏蔽用户，组织仓库限管理员操作，个人仓库限所有者操作，省去跳转设置的繁琐流程，打击垃圾信息更高效。",
           "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
           "source": "GitHub Changelog",
@@ -237,7 +237,7 @@
           "title_zh": "直接从安全公告中屏蔽用户",
           "title_en": "Block users directly from security advisories",
           "title_original": "Block users directly from security advisories",
-          "summary": "You can now block a user directly from a security advisory page in public repositories owned by either an organization or a personal account. This brings the streamlined moderation experience…\nYou can now block a user directly from a security advisory page in public repositories owned by either an organization or a personal account. This brings the streamlined moderation experience available for issues and pull requests to security advisories.\nSecurity advisories contain user-created content and",
+          "summary": null,
           "recommend_reason_zh": "GitHub安全公告页现可直接屏蔽用户，组织仓库限管理员操作，个人仓库限所有者操作，省去跳转设置的繁琐流程，打击垃圾信息更高效。",
           "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
           "source": "GitHub Changelog",
@@ -248,15 +248,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8424,
-      "importance": 0.8424,
-      "importance_score": 0.8424,
+      "score": 0.8403,
+      "importance": 0.8403,
+      "importance_score": 0.8403,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9909,
+        "recency": 0.9797,
         "story_heat": 0.0
       },
       "category": "official",
@@ -273,7 +273,7 @@
         "title_zh": "直接从安全公告中屏蔽用户",
         "title_en": "Block users directly from security advisories",
         "title_original": "Block users directly from security advisories",
-        "summary": "You can now block a user directly from a security advisory page in public repositories owned by either an organization or a personal account. This brings the streamlined moderation experience…\nYou can now block a user directly from a security advisory page in public repositories owned by either an organization or a personal account. This brings the streamlined moderation experience available for issues and pull requests to security advisories.\nSecurity advisories contain user-created content and",
+        "summary": null,
         "recommend_reason_zh": "GitHub安全公告页现可直接屏蔽用户，组织仓库限管理员操作，个人仓库限所有者操作，省去跳转设置的繁琐流程，打击垃圾信息更高效。",
         "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
         "source": "GitHub Changelog",
@@ -285,7 +285,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T19:49:36.956374Z"
+        "scored_at": "2026-08-25T20:32:34.489231Z"
       }
     },
     {
@@ -333,15 +333,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8357,
-      "importance": 0.8357,
-      "importance_score": 0.8357,
+      "score": 0.8337,
+      "importance": 0.8337,
+      "importance_score": 0.8337,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9537,
+        "recency": 0.9429,
         "story_heat": 0.0
       },
       "category": "official",
@@ -370,7 +370,92 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T19:49:36.956374Z"
+        "scored_at": "2026-08-25T20:32:34.489231Z"
+      }
+    },
+    {
+      "story_id": "story_9ae1e7fe3cbc",
+      "title": "浏览器扩展、网站工具与云登录 / Browser extensions, site tools, and cloud sign-in",
+      "url": "https://developers.openai.com/codex/changelog",
+      "primary_url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "51ed931c2017f8886cbfbea38e595e938427d78b",
+          "title": "浏览器扩展、网站工具与云登录 / Browser extensions, site tools, and cloud sign-in",
+          "title_zh": "浏览器扩展、网站工具与云登录",
+          "title_en": "Browser extensions, site tools, and cloud sign-in",
+          "title_original": "Browser extensions, site tools, and cloud sign-in",
+          "summary": "Latest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nMore browsers: Use the ChatGPT browser extension in Microsoft Edge, Brave, Opera, and Vivaldi, as well as Chrome. Set up\nyour browser in Settings > Computer Use in the ChatGPT desktop app.\nAll five support tab mentions and browser control; Opera doesn’t support\nside chat.\nSite tools (WebMCP): In the desktop app’s built-in browser, ChatGPT Work\nand Codex ",
+          "recommend_reason_zh": "本文介绍ChatGPT与Codex最新更新：浏览器扩展支持Edge、Brave、Opera和Vivaldi，Site tools需用GPT-5.6 Sol或Terra，并新增Gmail、Slack、GitHub事件触发任务。",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T00:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI Codex Changelog"
+      ],
+      "items": [
+        {
+          "id": "51ed931c2017f8886cbfbea38e595e938427d78b",
+          "title": "浏览器扩展、网站工具与云登录 / Browser extensions, site tools, and cloud sign-in",
+          "title_zh": "浏览器扩展、网站工具与云登录",
+          "title_en": "Browser extensions, site tools, and cloud sign-in",
+          "title_original": "Browser extensions, site tools, and cloud sign-in",
+          "summary": "Latest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nMore browsers: Use the ChatGPT browser extension in Microsoft Edge, Brave, Opera, and Vivaldi, as well as Chrome. Set up\nyour browser in Settings > Computer Use in the ChatGPT desktop app.\nAll five support tab mentions and browser control; Opera doesn’t support\nside chat.\nSite tools (WebMCP): In the desktop app’s built-in browser, ChatGPT Work\nand Codex ",
+          "recommend_reason_zh": "本文介绍ChatGPT与Codex最新更新：浏览器扩展支持Edge、Brave、Opera和Vivaldi，Site tools需用GPT-5.6 Sol或Terra，并新增Gmail、Slack、GitHub事件触发任务。",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T00:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8247,
+      "importance": 0.8247,
+      "importance_score": 0.8247,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 1.0,
+        "recency": 0.7484,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-25T00:00:00Z",
+      "latest_at": "2026-08-25T00:00:00Z",
+      "primary_item": {
+        "id": "51ed931c2017f8886cbfbea38e595e938427d78b",
+        "title": "浏览器扩展、网站工具与云登录 / Browser extensions, site tools, and cloud sign-in",
+        "title_zh": "浏览器扩展、网站工具与云登录",
+        "title_en": "Browser extensions, site tools, and cloud sign-in",
+        "title_original": "Browser extensions, site tools, and cloud sign-in",
+        "summary": "Latest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nMore browsers: Use the ChatGPT browser extension in Microsoft Edge, Brave, Opera, and Vivaldi, as well as Chrome. Set up\nyour browser in Settings > Computer Use in the ChatGPT desktop app.\nAll five support tab mentions and browser control; Opera doesn’t support\nside chat.\nSite tools (WebMCP): In the desktop app’s built-in browser, ChatGPT Work\nand Codex ",
+        "recommend_reason_zh": "本文介绍ChatGPT与Codex最新更新：浏览器扩展支持Edge、Brave、Opera和Vivaldi，Site tools需用GPT-5.6 Sol或Terra，并新增Gmail、Slack、GitHub事件触发任务。",
+        "url": "https://developers.openai.com/codex/changelog",
+        "source": "OpenAI Codex Changelog",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 72,
+      "persona_review": "Codex 更新了浏览器和云登录，写代码时切换环境更顺，但要看具体功能。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-08-25T20:32:34.489231Z"
       }
     },
     {
@@ -505,15 +590,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8226,
-      "importance": 0.8226,
-      "importance_score": 0.8226,
+      "score": 0.8208,
+      "importance": 0.8208,
+      "importance_score": 0.8208,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9225,
+        "recency": 0.9121,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -542,7 +627,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T19:49:36.956374Z"
+        "scored_at": "2026-08-25T20:32:34.489231Z"
       }
     },
     {
@@ -590,15 +675,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8412,
-      "importance": 0.8412,
-      "importance_score": 0.8412,
+      "score": 0.8394,
+      "importance": 0.8394,
+      "importance_score": 0.8394,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8957,
+        "recency": 0.8856,
         "story_heat": 0.0
       },
       "category": "official",
@@ -627,7 +712,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T19:49:36.956374Z"
+        "scored_at": "2026-08-25T20:32:34.489231Z"
       }
     },
     {
@@ -644,7 +729,7 @@
           "title_zh": "规则集中的推送规则现在支持路径例外。",
           "title_en": "Push rules in rulesets now support path exceptions",
           "title_original": "Push rules in rulesets now support path exceptions",
-          "summary": "You can now configure push rules more granularly by exempting specific file paths, so a rule applies everywhere in scope except the paths you choose. Path exceptions are in public…\nYou can now configure push rules more granularly by exempting specific file paths, so a rule applies everywhere in scope except the paths you choose. Path exceptions are in public preview.\nPush rules give you strong control over what enters a repository. Sometimes a rule needs a narrow exception, and until now your op",
+          "summary": null,
           "recommend_reason_zh": "GitHub的push rules新增路径异常支持，允许在ruleset中排除特定文件路径，让规则作用于范围内除指定路径外的一切。目前该公共预览功能支持两种规则，并在保存时自动校验模式，便于即时修正错误。",
           "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
           "source": "GitHub Changelog",
@@ -664,7 +749,7 @@
           "title_zh": "规则集中的推送规则现在支持路径例外。",
           "title_en": "Push rules in rulesets now support path exceptions",
           "title_original": "Push rules in rulesets now support path exceptions",
-          "summary": "You can now configure push rules more granularly by exempting specific file paths, so a rule applies everywhere in scope except the paths you choose. Path exceptions are in public…\nYou can now configure push rules more granularly by exempting specific file paths, so a rule applies everywhere in scope except the paths you choose. Path exceptions are in public preview.\nPush rules give you strong control over what enters a repository. Sometimes a rule needs a narrow exception, and until now your op",
+          "summary": null,
           "recommend_reason_zh": "GitHub的push rules新增路径异常支持，允许在ruleset中排除特定文件路径，让规则作用于范围内除指定路径外的一切。目前该公共预览功能支持两种规则，并在保存时自动校验模式，便于即时修正错误。",
           "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
           "source": "GitHub Changelog",
@@ -675,15 +760,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8399,
-      "importance": 0.8399,
-      "importance_score": 0.8399,
+      "score": 0.8379,
+      "importance": 0.8379,
+      "importance_score": 0.8379,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.977,
+        "recency": 0.966,
         "story_heat": 0.0
       },
       "category": "official",
@@ -700,7 +785,7 @@
         "title_zh": "规则集中的推送规则现在支持路径例外。",
         "title_en": "Push rules in rulesets now support path exceptions",
         "title_original": "Push rules in rulesets now support path exceptions",
-        "summary": "You can now configure push rules more granularly by exempting specific file paths, so a rule applies everywhere in scope except the paths you choose. Path exceptions are in public…\nYou can now configure push rules more granularly by exempting specific file paths, so a rule applies everywhere in scope except the paths you choose. Path exceptions are in public preview.\nPush rules give you strong control over what enters a repository. Sometimes a rule needs a narrow exception, and until now your op",
+        "summary": null,
         "recommend_reason_zh": "GitHub的push rules新增路径异常支持，允许在ruleset中排除特定文件路径，让规则作用于范围内除指定路径外的一切。目前该公共预览功能支持两种规则，并在保存时自动校验模式，便于即时修正错误。",
         "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
         "source": "GitHub Changelog",
@@ -712,7 +797,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T19:49:36.956374Z"
+        "scored_at": "2026-08-25T20:32:34.489231Z"
       }
     },
     {
@@ -729,7 +814,7 @@
           "title_zh": "为 ChatGPT Work 和 Codex 推出 Admin 插件",
           "title_en": "Introducing the Admin plugin for ChatGPT Work and Codex",
           "title_original": "Introducing the Admin plugin for ChatGPT Work and Codex",
-          "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.\nUse the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.\nUse the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.\nAugust 25, 2026\nUnderstand workspace activity, man",
+          "summary": null,
           "recommend_reason_zh": "OpenAI推出Admin plugin，在ChatGPT Work和Codex中直接分析工作区用量、管理成员权限并执行变更，可将审批流路由至Slack或Microsoft Teams，且不扩大用户既有权限。",
           "url": "https://openai.com/index/introducing-admin-plugin",
           "source": "OpenAI News",
@@ -749,7 +834,7 @@
           "title_zh": "为 ChatGPT Work 和 Codex 推出 Admin 插件",
           "title_en": "Introducing the Admin plugin for ChatGPT Work and Codex",
           "title_original": "Introducing the Admin plugin for ChatGPT Work and Codex",
-          "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.\nUse the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.\nUse the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.\nAugust 25, 2026\nUnderstand workspace activity, man",
+          "summary": null,
           "recommend_reason_zh": "OpenAI推出Admin plugin，在ChatGPT Work和Codex中直接分析工作区用量、管理成员权限并执行变更，可将审批流路由至Slack或Microsoft Teams，且不扩大用户既有权限。",
           "url": "https://openai.com/index/introducing-admin-plugin",
           "source": "OpenAI News",
@@ -760,15 +845,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8242,
-      "importance": 0.8242,
-      "importance_score": 0.8242,
+      "score": 0.8227,
+      "importance": 0.8227,
+      "importance_score": 0.8227,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.7569,
+        "recency": 0.7484,
         "story_heat": 0.0
       },
       "category": "official",
@@ -785,7 +870,7 @@
         "title_zh": "为 ChatGPT Work 和 Codex 推出 Admin 插件",
         "title_en": "Introducing the Admin plugin for ChatGPT Work and Codex",
         "title_original": "Introducing the Admin plugin for ChatGPT Work and Codex",
-        "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.\nUse the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.\nUse the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.\nAugust 25, 2026\nUnderstand workspace activity, man",
+        "summary": null,
         "recommend_reason_zh": "OpenAI推出Admin plugin，在ChatGPT Work和Codex中直接分析工作区用量、管理成员权限并执行变更，可将审批流路由至Slack或Microsoft Teams，且不扩大用户既有权限。",
         "url": "https://openai.com/index/introducing-admin-plugin",
         "source": "OpenAI News",
@@ -797,7 +882,92 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T19:49:36.956374Z"
+        "scored_at": "2026-08-25T20:32:34.489231Z"
+      }
+    },
+    {
+      "story_id": "story_55a2613433ab",
+      "title": "通过Gmail、Slack和GitHub事件触发定时任务 / Trigger scheduled tasks from Gmail, Slack, and GitHub events",
+      "url": "https://developers.openai.com/codex/changelog",
+      "primary_url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "ab6c6215adcbb368a6762b0ceeb9f3cc14e167d5",
+          "title": "通过Gmail、Slack和GitHub事件触发定时任务 / Trigger scheduled tasks from Gmail, Slack, and GitHub events",
+          "title_zh": "通过Gmail、Slack和GitHub事件触发定时任务",
+          "title_en": "Trigger scheduled tasks from Gmail, Slack, and GitHub events",
+          "title_original": "Trigger scheduled tasks from Gmail, Slack, and GitHub events",
+          "summary": "Latest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nMore browsers: Use the ChatGPT browser extension in Microsoft Edge, Brave, Opera, and Vivaldi, as well as Chrome. Set up\nyour browser in Settings > Computer Use in the ChatGPT desktop app.\nAll five support tab mentions and browser control; Opera doesn’t support\nside chat.\nSite tools (WebMCP): In the desktop app’s built-in browser, ChatGPT Work\nand Codex ",
+          "recommend_reason_zh": "ChatGPT定时任务现可由Gmail邮件过滤、Slack频道监听及GitHub PR活动（评论、提交更新、合并）触发，须连接授权应用，Slack应用需在频道内，GitHub需仓库访问权，且不能与时间计划并用。",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T00:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI Codex Changelog"
+      ],
+      "items": [
+        {
+          "id": "ab6c6215adcbb368a6762b0ceeb9f3cc14e167d5",
+          "title": "通过Gmail、Slack和GitHub事件触发定时任务 / Trigger scheduled tasks from Gmail, Slack, and GitHub events",
+          "title_zh": "通过Gmail、Slack和GitHub事件触发定时任务",
+          "title_en": "Trigger scheduled tasks from Gmail, Slack, and GitHub events",
+          "title_original": "Trigger scheduled tasks from Gmail, Slack, and GitHub events",
+          "summary": "Latest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nMore browsers: Use the ChatGPT browser extension in Microsoft Edge, Brave, Opera, and Vivaldi, as well as Chrome. Set up\nyour browser in Settings > Computer Use in the ChatGPT desktop app.\nAll five support tab mentions and browser control; Opera doesn’t support\nside chat.\nSite tools (WebMCP): In the desktop app’s built-in browser, ChatGPT Work\nand Codex ",
+          "recommend_reason_zh": "ChatGPT定时任务现可由Gmail邮件过滤、Slack频道监听及GitHub PR活动（评论、提交更新、合并）触发，须连接授权应用，Slack应用需在频道内，GitHub需仓库访问权，且不能与时间计划并用。",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T00:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8207,
+      "importance": 0.8207,
+      "importance_score": 0.8207,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.98,
+        "recency": 0.7484,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-25T00:00:00Z",
+      "latest_at": "2026-08-25T00:00:00Z",
+      "primary_item": {
+        "id": "ab6c6215adcbb368a6762b0ceeb9f3cc14e167d5",
+        "title": "通过Gmail、Slack和GitHub事件触发定时任务 / Trigger scheduled tasks from Gmail, Slack, and GitHub events",
+        "title_zh": "通过Gmail、Slack和GitHub事件触发定时任务",
+        "title_en": "Trigger scheduled tasks from Gmail, Slack, and GitHub events",
+        "title_original": "Trigger scheduled tasks from Gmail, Slack, and GitHub events",
+        "summary": "Latest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nMore browsers: Use the ChatGPT browser extension in Microsoft Edge, Brave, Opera, and Vivaldi, as well as Chrome. Set up\nyour browser in Settings > Computer Use in the ChatGPT desktop app.\nAll five support tab mentions and browser control; Opera doesn’t support\nside chat.\nSite tools (WebMCP): In the desktop app’s built-in browser, ChatGPT Work\nand Codex ",
+        "recommend_reason_zh": "ChatGPT定时任务现可由Gmail邮件过滤、Slack频道监听及GitHub PR活动（评论、提交更新、合并）触发，须连接授权应用，Slack应用需在频道内，GitHub需仓库访问权，且不能与时间计划并用。",
+        "url": "https://developers.openai.com/codex/changelog",
+        "source": "OpenAI Codex Changelog",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "Codex 能接 Gmail/Slack/GitHub 触发任务，自动化场景今天就能配。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-08-25T20:32:34.489231Z"
       }
     },
     {
@@ -845,15 +1015,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8229,
-      "importance": 0.8229,
-      "importance_score": 0.8229,
+      "score": 0.8212,
+      "importance": 0.8212,
+      "importance_score": 0.8212,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8385,
+        "recency": 0.829,
         "story_heat": 0.0
       },
       "category": "official",
@@ -882,7 +1052,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T19:49:36.956374Z"
+        "scored_at": "2026-08-25T20:32:34.489231Z"
       }
     },
     {
@@ -930,15 +1100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7613,
-      "importance": 0.7613,
-      "importance_score": 0.7613,
+      "score": 0.7594,
+      "importance": 0.7594,
+      "importance_score": 0.7594,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9485,
+        "recency": 0.9378,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -966,7 +1136,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T19:49:36.956374Z"
+        "scored_at": "2026-08-25T20:32:34.489231Z"
       }
     },
     {
@@ -1014,15 +1184,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8162,
-      "importance": 0.8162,
-      "importance_score": 0.8162,
+      "score": 0.8147,
+      "importance": 0.8147,
+      "importance_score": 0.8147,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7569,
+        "recency": 0.7484,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1051,7 +1221,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T19:49:36.956374Z"
+        "scored_at": "2026-08-25T20:32:34.489231Z"
       }
     },
     {
@@ -1099,21 +1269,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.75,
-      "importance": 0.75,
-      "importance_score": 0.75,
+      "score": 0.748,
+      "importance": 0.748,
+      "importance_score": 0.748,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9854,
+        "recency": 0.9743,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-08-25T18:16:02Z",
       "latest_at": "2026-08-25T18:16:02Z",
@@ -1135,7 +1304,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T19:49:36.956374Z"
+        "scored_at": "2026-08-25T20:32:34.489231Z"
       }
     },
     {
@@ -1183,15 +1352,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7494,
-      "importance": 0.7494,
-      "importance_score": 0.7494,
+      "score": 0.7474,
+      "importance": 0.7474,
+      "importance_score": 0.7474,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9821,
+        "recency": 0.9711,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1218,7 +1387,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T19:49:36.956374Z"
+        "scored_at": "2026-08-25T20:32:34.489231Z"
       }
     },
     {
@@ -1266,15 +1435,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7427,
-      "importance": 0.7427,
-      "importance_score": 0.7427,
+      "score": 0.741,
+      "importance": 0.741,
+      "importance_score": 0.741,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8618,
+        "recency": 0.8521,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1301,7 +1470,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T19:49:36.956374Z"
+        "scored_at": "2026-08-25T20:32:34.489231Z"
       }
     },
     {
@@ -1349,15 +1518,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7341,
-      "importance": 0.7341,
-      "importance_score": 0.7341,
+      "score": 0.7322,
+      "importance": 0.7322,
+      "importance_score": 0.7322,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.64,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9475,
+        "recency": 0.9368,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1384,7 +1553,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T19:49:36.956374Z"
+        "scored_at": "2026-08-25T20:32:34.489231Z"
       }
     },
     {
@@ -1432,15 +1601,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.728,
-      "importance": 0.728,
-      "importance_score": 0.728,
+      "score": 0.7261,
+      "importance": 0.7261,
+      "importance_score": 0.7261,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.64,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9133,
+        "recency": 0.9031,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1467,7 +1636,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T19:49:36.956374Z"
+        "scored_at": "2026-08-25T20:32:34.489231Z"
       }
     },
     {
@@ -1515,15 +1684,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8082,
-      "importance": 0.8082,
-      "importance_score": 0.8082,
+      "score": 0.8067,
+      "importance": 0.8067,
+      "importance_score": 0.8067,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7569,
+        "recency": 0.7484,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1552,7 +1721,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T19:49:36.956374Z"
+        "scored_at": "2026-08-25T20:32:34.489231Z"
       }
     },
     {
@@ -1600,15 +1769,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7427,
-      "importance": 0.7427,
-      "importance_score": 0.7427,
+      "score": 0.741,
+      "importance": 0.741,
+      "importance_score": 0.741,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8618,
+        "recency": 0.8521,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1635,173 +1804,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T19:49:36.956374Z"
-      }
-    },
-    {
-      "story_id": "story_79b9ec90a382",
-      "title": "ARIA 重拳封杀纯 AI 歌曲：人类创作主唱才能上榜，AI 辅助仍可准入",
-      "url": "https://www.aibase.com/news/30604",
-      "primary_url": "https://www.aibase.com/news/30604",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "32bf9da3f8cd8b23a50f42dddb4d2c71448b97e0",
-          "title": "ARIA 重拳封杀纯 AI 歌曲：人类创作主唱才能上榜，AI 辅助仍可准入",
-          "title_zh": "ARIA 重拳封杀纯 AI 歌曲：人类创作主唱才能上榜，AI 辅助仍可准入",
-          "title_en": null,
-          "title_original": "ARIA 重拳封杀纯 AI 歌曲：人类创作主唱才能上榜，AI 辅助仍可准入",
-          "summary": null,
-          "recommend_reason_zh": "ARIA宣布下周一施行新规：纯AI歌曲被禁止进入官方榜单和ARIA音乐奖，AI辅助作品仍可入围。起因是一首模仿Madonna《Like a Prayer》的歌曲在澳洲榜前20停留16周、最高第2。",
-          "url": "https://www.aibase.com/news/30604",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-25T08:23:19.938494Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "32bf9da3f8cd8b23a50f42dddb4d2c71448b97e0",
-          "title": "ARIA 重拳封杀纯 AI 歌曲：人类创作主唱才能上榜，AI 辅助仍可准入",
-          "title_zh": "ARIA 重拳封杀纯 AI 歌曲：人类创作主唱才能上榜，AI 辅助仍可准入",
-          "title_en": null,
-          "title_original": "ARIA 重拳封杀纯 AI 歌曲：人类创作主唱才能上榜，AI 辅助仍可准入",
-          "summary": null,
-          "recommend_reason_zh": "ARIA宣布下周一施行新规：纯AI歌曲被禁止进入官方榜单和ARIA音乐奖，AI辅助作品仍可入围。起因是一首模仿Madonna《Like a Prayer》的歌曲在澳洲榜前20停留16周、最高第2。",
-          "url": "https://www.aibase.com/news/30604",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-25T08:23:19.938494Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7414,
-      "importance": 0.7414,
-      "importance_score": 0.7414,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8544,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-25T08:23:19.938494Z",
-      "latest_at": "2026-08-25T08:23:19.938494Z",
-      "primary_item": {
-        "id": "32bf9da3f8cd8b23a50f42dddb4d2c71448b97e0",
-        "title": "ARIA 重拳封杀纯 AI 歌曲：人类创作主唱才能上榜，AI 辅助仍可准入",
-        "title_zh": "ARIA 重拳封杀纯 AI 歌曲：人类创作主唱才能上榜，AI 辅助仍可准入",
-        "title_en": null,
-        "title_original": "ARIA 重拳封杀纯 AI 歌曲：人类创作主唱才能上榜，AI 辅助仍可准入",
-        "summary": null,
-        "recommend_reason_zh": "ARIA宣布下周一施行新规：纯AI歌曲被禁止进入官方榜单和ARIA音乐奖，AI辅助作品仍可入围。起因是一首模仿Madonna《Like a Prayer》的歌曲在澳洲榜前20停留16周、最高第2。",
-        "url": "https://www.aibase.com/news/30604",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "音乐行业规则调整，对开发者影响有限，除非做AI音乐工具需关注准入标准。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-25T19:49:36.956374Z"
-      }
-    },
-    {
-      "story_id": "story_60dddcf38635",
-      "title": "Meta数周内推出Hatch AI智能体，Watermelon模型10月亮相",
-      "url": "https://www.aibase.com/news/30607",
-      "primary_url": "https://www.aibase.com/news/30607",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "31953c88ca0e894418212e00d317e45880d995a7",
-          "title": "Meta数周内推出Hatch AI智能体，Watermelon模型10月亮相",
-          "title_zh": "Meta数周内推出Hatch AI智能体，Watermelon模型10月亮相",
-          "title_en": null,
-          "title_original": "Meta数周内推出Hatch AI智能体，Watermelon模型10月亮相",
-          "summary": null,
-          "recommend_reason_zh": "Meta数周内将推出消费者AI智能体平台Hatch，可调用DoorDash、Etsy、Reddit等服务，并计划10月发布Watermelon模型，订阅最高达199.99美元，展现其摆脱广告依赖的变现野心。",
-          "url": "https://www.aibase.com/news/30607",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-25T08:23:19.938494Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "31953c88ca0e894418212e00d317e45880d995a7",
-          "title": "Meta数周内推出Hatch AI智能体，Watermelon模型10月亮相",
-          "title_zh": "Meta数周内推出Hatch AI智能体，Watermelon模型10月亮相",
-          "title_en": null,
-          "title_original": "Meta数周内推出Hatch AI智能体，Watermelon模型10月亮相",
-          "summary": null,
-          "recommend_reason_zh": "Meta数周内将推出消费者AI智能体平台Hatch，可调用DoorDash、Etsy、Reddit等服务，并计划10月发布Watermelon模型，订阅最高达199.99美元，展现其摆脱广告依赖的变现野心。",
-          "url": "https://www.aibase.com/news/30607",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-25T08:23:19.938494Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7414,
-      "importance": 0.7414,
-      "importance_score": 0.7414,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8544,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-25T08:23:19.938494Z",
-      "latest_at": "2026-08-25T08:23:19.938494Z",
-      "primary_item": {
-        "id": "31953c88ca0e894418212e00d317e45880d995a7",
-        "title": "Meta数周内推出Hatch AI智能体，Watermelon模型10月亮相",
-        "title_zh": "Meta数周内推出Hatch AI智能体，Watermelon模型10月亮相",
-        "title_en": null,
-        "title_original": "Meta数周内推出Hatch AI智能体，Watermelon模型10月亮相",
-        "summary": null,
-        "recommend_reason_zh": "Meta数周内将推出消费者AI智能体平台Hatch，可调用DoorDash、Etsy、Reddit等服务，并计划10月发布Watermelon模型，订阅最高达199.99美元，展现其摆脱广告依赖的变现野心。",
-        "url": "https://www.aibase.com/news/30607",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "路线图而已，等模型真开放了再评估，现在不用动。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-25T19:49:36.956374Z"
+        "scored_at": "2026-08-25T20:32:34.489231Z"
       }
     }
   ]
