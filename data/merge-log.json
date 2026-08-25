@@ -1,33 +1,19 @@
 {
-  "generated_at": "2026-08-25T03:27:54.542250Z",
+  "generated_at": "2026-08-25T07:28:25.530508Z",
   "merge_strategy": "url_or_title_similarity_v0_6",
-  "total_events": 13,
+  "total_events": 11,
   "events": [
-    {
-      "story_id": "story_a0aa94a30a96",
-      "item_id": "3983bdd8bc2728e565fa9c4160247dd144bf8ab9",
-      "merged_into": "story_a0aa94a30a96",
-      "reason": "title_similarity",
-      "similarity": 1.0
-    },
-    {
-      "story_id": "story_e2b97d5ab892",
-      "item_id": "32e97ac378487011fb43cbb9902c916722ea6320",
-      "merged_into": "story_e2b97d5ab892",
-      "reason": "title_similarity",
-      "similarity": 1.0
-    },
-    {
-      "story_id": "story_013a5db6bd34",
-      "item_id": "a808b34637cb68a682bfcf9466a272449d302111",
-      "merged_into": "story_013a5db6bd34",
-      "reason": "title_similarity",
-      "similarity": 1.0
-    },
     {
       "story_id": "story_929ed190248c",
       "item_id": "fb1f0a2a15004e6ab87eb2dbad8fef8a656f7afa",
       "merged_into": "story_929ed190248c",
+      "reason": "canonical_url",
+      "similarity": 1.0
+    },
+    {
+      "story_id": "story_66cede55297b",
+      "item_id": "804f29258a9b4a5855bc5293740535c38f248d34",
+      "merged_into": "story_66cede55297b",
       "reason": "canonical_url",
       "similarity": 1.0
     },
@@ -53,16 +39,16 @@
       "similarity": 1.0
     },
     {
-      "story_id": "story_013a5db6bd34",
-      "item_id": "4e28ca31356746c273b615249cb42f315c918b9d",
-      "merged_into": "story_013a5db6bd34",
-      "reason": "canonical_url",
+      "story_id": "story_be780896c4e6",
+      "item_id": "bf30eb251863bbe3ddd16a6d90095d39aafd4486",
+      "merged_into": "story_be780896c4e6",
+      "reason": "title_similarity",
       "similarity": 1.0
     },
     {
-      "story_id": "story_77c848bd2367",
+      "story_id": "story_be780896c4e6",
       "item_id": "e9d056c2857afbbee09d9230d4027c1094de409a",
-      "merged_into": "story_77c848bd2367",
+      "merged_into": "story_be780896c4e6",
       "reason": "title_similarity",
       "similarity": 1.0
     },

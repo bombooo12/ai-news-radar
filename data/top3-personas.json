@@ -1,4 +1,80 @@
 {
-  "generated_at": "2026-08-25T04:05:21.438816Z",
-  "items": []
+  "generated_at": "2026-08-25T08:04:20.017434Z",
+  "model": "deepseek-chat",
+  "personas": [
+    {
+      "id": "cynic",
+      "name": "毒舌评论员"
+    },
+    {
+      "id": "paper-police",
+      "name": "较真党"
+    },
+    {
+      "id": "pragmatic",
+      "name": "实用派"
+    }
+  ],
+  "items": [
+    {
+      "story_id": "story_23b9168d3a9a",
+      "title": "借助 Kiro 中的 GPT-5.6 提升开发者性价比 / Advancing price-performance for developers with GPT‑5.6 in Kiro",
+      "url": "https://openai.com/index/gpt-5-6-in-kiro",
+      "rank": 1,
+      "reviews": {
+        "cynic": {
+          "score": 55,
+          "review": "性价比？先公布价格和基准测试再说，别拿Kiro当遮羞布。"
+        },
+        "paper-police": {
+          "score": 15,
+          "review": "仅官方博客宣称性能，无论文无代码无第三方评测，证据不足。"
+        },
+        "pragmatic": {
+          "score": 85,
+          "review": "新模型进IDE，写代码能直接省token，今天就能试。"
+        }
+      }
+    },
+    {
+      "story_id": "story_bc5800b304fc",
+      "title": "连接、运行、部署：Gradio 中的 AI 工作流 / Wire It, Run It, Deploy It: AI Workflows in Gradio",
+      "url": "https://huggingface.co/blog/gradio-workflow-guide",
+      "rank": 2,
+      "reviews": {
+        "cynic": {
+          "score": 72,
+          "review": "Gradio 教程中规中矩，但'工作流'这词被用滥了，别指望真能编排复杂流程。"
+        },
+        "paper-police": {
+          "score": 45,
+          "review": "官方博客有细节但无代码链接，等复现再定论。"
+        },
+        "pragmatic": {
+          "score": 72,
+          "review": "Gradio 工作流指南上线，部署演示项目能直接抄，适合快速交付。"
+        }
+      }
+    },
+    {
+      "story_id": "story_a3a30019dba2",
+      "title": "GPT-5.6重磅登陆Kiro！AI原生编码迎来性价比革命，开发效率实现质的飞跃",
+      "url": "https://www.aibase.com/news/30600",
+      "rank": 3,
+      "reviews": {
+        "cynic": {
+          "score": 45,
+          "review": "性价比革命？先晒出和旧版的完整对比数据，别只拿营销话术糊弄人。"
+        },
+        "paper-police": {
+          "score": 20,
+          "review": "仅官方宣称性能提升，无论文无代码无评测，性价比革命缺数据支撑。"
+        },
+        "pragmatic": {
+          "score": 72,
+          "review": "GPT-5.6进Kiro，编码场景可试，但先看定价和API兼容再切。"
+        }
+      }
+    }
+  ]
 }
