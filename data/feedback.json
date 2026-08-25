@@ -1,0 +1,31 @@
+{
+  "feedback_history": [
+    {
+      "date": "2026-08-25",
+      "topic_id": "example_001",
+      "topic_title": "示例：MiniMax视频工具发布",
+      "action": "selected",
+      "track": "ai_video",
+      "format": "测评/教程",
+      "reason": "想做AI视频工具测评",
+      "source": "Follow Builders"
+    },
+    {
+      "date": "2026-08-25",
+      "topic_id": "example_002",
+      "topic_title": "示例：某论文提出新训练方法",
+      "action": "rejected",
+      "track": "ai_tech",
+      "format": "深度分析",
+      "reason": "太学术，受众不关心",
+      "source": "Hacker News"
+    }
+  ],
+  "preferences": {
+    "preferred_tracks": [],
+    "preferred_formats": [],
+    "rejected_patterns": [],
+    "source_weights": {}
+  },
+  "notes": "请每天看完推荐后，在 feedback_history 里添加你的反馈。action 填 selected（选用）或 rejected（不用）。format 填你打算用的内容形式。reason 填简短理由。系统会自动学习你的偏好。"
+}
