@@ -1,0 +1,709 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>今日选题推荐 · 多角度分析 | AI News Radar</title>
+<meta name="description" content="每日AI及多赛道选题推荐，每条选题提供实操教程、避坑指南、深度解读三个创作角度" />
+<link rel="icon" href="./assets/logo.svg" type="image/svg+xml" />
+<style>
+:root {
+  --bg: #f6f6f2;
+  --bg-card: #ffffff;
+  --text: #1a1a1a;
+  --text-muted: #6b7280;
+  --border: #e5e5e0;
+  --accent: #2d6cdf;
+  --accent-light: #e8f0fe;
+  --tutorial: #10b981;
+  --tutorial-light: #d1fae5;
+  --warning: #f59e0b;
+  --warning-light: #fef3c7;
+  --deep: #8b5cf6;
+  --deep-light: #ede9fe;
+  --tag-ai: #2d6cdf;
+  --tag-video: #ec4899;
+  --tag-growth: #10b981;
+  --tag-creator: #f59e0b;
+  --tag-trademark: #ef4444;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.1);
+  --shadow-lg: 0 10px 40px rgba(0,0,0,0.12);
+  --radius: 12px;
+  --radius-sm: 8px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px 20px 60px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-logo {
+  width: 40px;
+  height: 40px;
+  background: var(--accent);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.header-title h1 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.header-title .subtitle {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.back-link {
+  text-decoration: none;
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 14px;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-sm);
+  transition: all 0.2s;
+}
+
+.back-link:hover {
+  background: var(--accent);
+  color: white;
+}
+
+/* Status bar */
+.status-bar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 28px;
+  padding: 14px 18px;
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  font-size: 13px;
+  flex-wrap: wrap;
+}
+
+.status-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.status-label {
+  color: var(--text-muted);
+}
+
+.status-value {
+  font-weight: 600;
+}
+
+.insight-badge {
+  background: var(--accent-light);
+  color: var(--accent);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  flex: 1;
+  min-width: 200px;
+}
+
+/* Loading */
+.loading {
+  text-align: center;
+  padding: 80px 20px;
+  color: var(--text-muted);
+  font-size: 15px;
+}
+
+.loading-spinner {
+  width: 36px;
+  height: 36px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin: 0 auto 16px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Topic card */
+.topic-card {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 20px;
+  overflow: hidden;
+  transition: box-shadow 0.2s;
+}
+
+.topic-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.topic-header {
+  padding: 20px 24px 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.topic-rank {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: var(--accent);
+  color: white;
+  border-radius: 50%;
+  font-size: 13px;
+  font-weight: 700;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.topic-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+  display: inline;
+  vertical-align: middle;
+}
+
+.topic-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.tag-ai_tech { background: #dbeafe; color: #1e40af; }
+.tag-ai_video { background: #fce7f3; color: #be185d; }
+.tag-side_hustle { background: #d1fae5; color: #065f46; }
+.tag-creator { background: #fef3c7; color: #92400e; }
+.tag-trademark { background: #fee2e2; color: #991b1b; }
+
+.urgency {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.urgency-high { color: #ef4444; font-weight: 600; }
+.urgency-medium { color: #f59e0b; font-weight: 600; }
+.urgency-low { color: #6b7280; }
+
+.topic-reason {
+  margin-top: 10px;
+  font-size: 13px;
+  color: var(--text-muted);
+  padding-left: 38px;
+}
+
+/* Angles */
+.angles {
+  padding: 4px 24px 20px;
+}
+
+.angles-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin: 14px 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.angle-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.angle-tab {
+  flex: 1;
+  min-width: 100px;
+  padding: 10px 12px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: white;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.2s;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.angle-tab:hover {
+  border-color: #ccc;
+}
+
+.angle-tab.active-tutorial {
+  border-color: var(--tutorial);
+  background: var(--tutorial-light);
+  color: #065f46;
+}
+
+.angle-tab.active-warning {
+  border-color: var(--warning);
+  background: var(--warning-light);
+  color: #92400e;
+}
+
+.angle-tab.active-deep {
+  border-color: var(--deep);
+  background: var(--deep-light);
+  color: #5b21b6;
+}
+
+.angle-content {
+  display: none;
+  padding: 14px 16px;
+  border-radius: var(--radius-sm);
+  background: #fafaf7;
+  border: 1px solid var(--border);
+}
+
+.angle-content.active {
+  display: block;
+}
+
+.angle-hook {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.angle-summary {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.angle-meta {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 12px;
+  font-size: 12px;
+  color: var(--text-muted);
+  flex-wrap: wrap;
+}
+
+.angle-meta span strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.angle-points {
+  list-style: none;
+}
+
+.angle-points li {
+  padding: 6px 0;
+  padding-left: 20px;
+  position: relative;
+  font-size: 13px;
+  border-bottom: 1px dashed var(--border);
+}
+
+.angle-points li:last-child {
+  border-bottom: none;
+}
+
+.angle-points li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+}
+
+.angle-content.tutorial .angle-points li::before { color: var(--tutorial); }
+.angle-content.warning .angle-points li::before { color: var(--warning); }
+.angle-content.deep .angle-points li::before { color: var(--deep); }
+
+/* Sources */
+.topic-sources {
+  padding: 0 24px 18px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.topic-sources a {
+  color: var(--accent);
+  text-decoration: none;
+  margin-right: 8px;
+}
+
+.topic-sources a:hover {
+  text-decoration: underline;
+}
+
+/* Weekly plan */
+.weekly-plan {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 24px;
+  margin-top: 28px;
+}
+
+.weekly-plan h2 {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.week-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.week-day {
+  padding: 14px;
+  background: #fafaf7;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+}
+
+.week-day-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.week-day-title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.week-strategy {
+  font-size: 13px;
+  color: var(--text-muted);
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .container { padding: 16px 14px 40px; }
+  .header { flex-direction: column; gap: 12px; align-items: flex-start; }
+  .topic-header { padding: 16px 18px 14px; }
+  .angles { padding: 4px 18px 16px; }
+  .topic-sources { padding: 0 18px 14px; }
+  .week-grid { grid-template-columns: 1fr; }
+  .topic-title { font-size: 16px; }
+  .angle-tab { min-width: 80px; padding: 8px 10px; font-size: 12px; }
+}
+
+/* Fallback banner */
+.fallback-banner {
+  background: #fef3c7;
+  border: 1px solid #f59e0b;
+  color: #92400e;
+  padding: 10px 16px;
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.fallback-banner.show { display: block; }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <!-- Header -->
+  <div class="header">
+    <div class="header-left">
+      <div class="header-logo">R</div>
+      <div class="header-title">
+        <h1>今日选题推荐</h1>
+        <div class="subtitle">每条选题 · 三个创作角度 · 多角度分析</div>
+      </div>
+    </div>
+    <a href="./index.html" class="back-link">← 返回雷达</a>
+  </div>
+
+  <!-- Status -->
+  <div class="status-bar" id="statusBar">
+    <div class="status-item">
+      <span class="status-label">更新时间</span>
+      <span class="status-value" id="updatedAt">加载中...</span>
+    </div>
+    <div class="status-item">
+      <span class="status-label">选题数</span>
+      <span class="status-value" id="topicCount">-</span>
+    </div>
+    <div class="status-item">
+      <span class="status-label">信息条数</span>
+      <span class="status-value" id="totalItems">-</span>
+    </div>
+    <div class="insight-badge" id="insightBadge">今日趋势观察加载中...</div>
+  </div>
+
+  <div class="fallback-banner" id="fallbackBanner"></div>
+
+  <!-- Loading -->
+  <div class="loading" id="loading">
+    <div class="loading-spinner"></div>
+    <div>正在加载今日选题推荐...</div>
+  </div>
+
+  <!-- Recommendations -->
+  <div id="recommendations" style="display:none;">
+    <div id="topicList"></div>
+
+    <!-- Weekly Plan -->
+    <div class="weekly-plan" id="weeklyPlan">
+      <h2>📅 本周内容日历建议</h2>
+      <div class="week-grid">
+        <div class="week-day">
+          <div class="week-day-label">周一</div>
+          <div class="week-day-title" id="planMonday">-</div>
+        </div>
+        <div class="week-day">
+          <div class="week-day-label">周三</div>
+          <div class="week-day-title" id="planWednesday">-</div>
+        </div>
+        <div class="week-day">
+          <div class="week-day-label">周五</div>
+          <div class="week-day-title" id="planFriday">-</div>
+        </div>
+      </div>
+      <div class="week-strategy" id="planStrategy">-</div>
+    </div>
+  </div>
+</div>
+
+<script>
+const TRACK_NAMES = {
+  ai_tech: 'AI技术',
+  ai_video: 'AI视频/剪辑',
+  side_hustle: '副业变现',
+  creator: '自媒体创作',
+  trademark: '商标IP创业'
+};
+
+const ANGLE_ICONS = {
+  tutorial: '📚',
+  warning: '⚠️',
+  deep: '🔍'
+};
+
+function formatTime(isoStr) {
+  if (!isoStr) return '-';
+  const d = new Date(isoStr);
+  return d.toLocaleString('zh-CN', {
+    month: '2-digit', day: '2-digit',
+    hour: '2-digit', minute: '2-digit'
+  });
+}
+
+function urgencyLabel(level) {
+  const map = { high: '🔥 紧急', medium: '⏰ 一般', low: '📌 不急' };
+  return map[level] || level;
+}
+
+function renderAngleTabs(angles, cardId) {
+  return angles.map((a, idx) => {
+    const iconClass = a.icon === 'tutorial' ? 'tutorial' : a.icon === 'warning' ? 'warning' : 'deep';
+    const activeClass = idx === 0 ? `active-${iconClass}` : '';
+    return `<button class="angle-tab ${activeClass}" data-card="${cardId}" data-angle="${idx}" data-icon="${a.icon}">
+      <span>${ANGLE_ICONS[a.icon] || '📌'}</span>
+      <span>${a.name}</span>
+    </button>`;
+  }).join('');
+}
+
+function renderAngleContent(angle, idx) {
+  const iconClass = angle.icon === 'tutorial' ? 'tutorial' : angle.icon === 'warning' ? 'warning' : 'deep';
+  const pointsKey = angle.icon === 'warning' ? 'pitfalls' : (angle.icon === 'deep' ? 'insights' : 'key_points');
+  const points = angle[pointsKey] || [];
+  const pointsHtml = points.map(p => `<li>${p}</li>`).join('');
+
+  return `
+    <div class="angle-content ${iconClass} ${idx === 0 ? 'active' : ''}" data-angle-idx="${idx}">
+      <div class="angle-hook">${angle.hook || ''}</div>
+      <div class="angle-summary">${angle.summary || ''}</div>
+      <div class="angle-meta">
+        <span>形式：<strong>${angle.format || '-'}</strong></span>
+        <span>难度：<strong>${angle.difficulty || '-'}</strong></span>
+        <span>时长：<strong>${angle.estimated_time || '-'}</strong></span>
+      </div>
+      <ul class="angle-points">${pointsHtml}</ul>
+    </div>
+  `;
+}
+
+function renderTopic(topic, index) {
+  const trackClass = `tag-${topic.track || 'ai_tech'}`;
+  const trackName = topic.track_name || TRACK_NAMES[topic.track] || topic.track;
+  const angles = topic.angles || [];
+  const cardId = `topic-${index}`;
+
+  const sourcesHtml = (topic.source_items || []).slice(0, 3).map((item, i) => {
+    const url = (topic.source_urls || [])[i] || '#';
+    return `<a href="${url}" target="_blank" rel="noopener">${item}</a>`;
+  }).join('');
+
+  return `
+    <div class="topic-card" id="${cardId}">
+      <div class="topic-header">
+        <div>
+          <span class="topic-rank">${topic.rank || index + 1}</span>
+          <div class="topic-title">${topic.title}</div>
+        </div>
+        <div class="topic-meta">
+          <span class="tag ${trackClass}">${trackName}</span>
+          <span class="urgency urgency-${topic.urgency || 'medium'}">${urgencyLabel(topic.urgency)}</span>
+          <span style="font-size:12px;color:var(--text-muted)">受众：${topic.target_audience || '-'}</span>
+        </div>
+        <div class="topic-reason">💡 ${topic.reason || ''}</div>
+      </div>
+      <div class="angles">
+        <div class="angles-label">🎯 三个创作角度</div>
+        <div class="angle-tabs">
+          ${renderAngleTabs(angles, cardId)}
+        </div>
+        ${angles.map((a, i) => renderAngleContent(a, i)).join('')}
+      </div>
+      <div class="topic-sources">
+        🔗 信息来源：${sourcesHtml}
+      </div>
+    </div>
+  `;
+}
+
+function bindAngleTabs() {
+  document.querySelectorAll('.angle-tab').forEach(tab => {
+    tab.addEventListener('click', function() {
+      const cardId = this.dataset.card;
+      const angleIdx = parseInt(this.dataset.angle);
+      const icon = this.dataset.icon;
+
+      // Update tabs
+      const card = document.getElementById(cardId);
+      card.querySelectorAll('.angle-tab').forEach(t => {
+        t.className = 'angle-tab';
+      });
+      this.classList.add(`active-${icon}`);
+
+      // Update content
+      card.querySelectorAll('.angle-content').forEach(c => {
+        c.classList.remove('active');
+      });
+      const content = card.querySelector(`.angle-content[data-angle-idx="${angleIdx}"]`);
+      if (content) content.classList.add('active');
+    });
+  });
+}
+
+async function loadRecommendations() {
+  try {
+    const resp = await fetch('./data/recommendations.json?t=' + Date.now());
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const data = await resp.json();
+
+    // Update status
+    document.getElementById('updatedAt').textContent = formatTime(data.generated_at);
+    document.getElementById('topicCount').textContent = (data.recommendations || []).length + ' 条';
+    document.getElementById('totalItems').textContent = data.total_items || '-';
+    document.getElementById('insightBadge').textContent = '📊 ' + (data.insights || '暂无观察');
+
+    // Fallback banner
+    if (data.fallback) {
+      const banner = document.getElementById('fallbackBanner');
+      banner.textContent = '⚠️ 当前为降级模式（基于评分排序），配置 DEEPSEEK_API_KEY 后可获得 AI 多角度分析';
+      banner.classList.add('show');
+    }
+
+    // Render topics
+    const recs = data.recommendations || [];
+    const html = recs.map((t, i) => renderTopic(t, i)).join('');
+    document.getElementById('topicList').innerHTML = html;
+
+    // Weekly plan
+    const wp = data.weekly_plan || {};
+    document.getElementById('planMonday').textContent = wp.monday || '-';
+    document.getElementById('planWednesday').textContent = wp.wednesday || '-';
+    document.getElementById('planFriday').textContent = wp.friday || '-';
+    document.getElementById('planStrategy').textContent = '💡 ' + (wp.strategy || '');
+
+    // Show content
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('recommendations').style.display = 'block';
+
+    bindAngleTabs();
+
+  } catch (e) {
+    document.getElementById('loading').innerHTML = `
+      <div style="font-size:18px;">❌ 加载失败</div>
+      <div style="margin-top:8px;font-size:13px;">${e.message}</div>
+      <div style="margin-top:12px;font-size:12px;color:var(--text-muted)">请确认 recommendations.json 是否已生成</div>
+    `;
+  }
+}
+
+loadRecommendations();
+</script>
+
+</body>
+</html>
