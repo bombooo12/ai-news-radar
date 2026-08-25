@@ -1,8 +1,93 @@
 {
-  "generated_at": "2026-08-25T20:04:05.591691Z",
+  "generated_at": "2026-08-25T21:47:18.586690Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_4b7b151c884e",
+      "title": "2025-03-21\n如何在生产环境前评估 LLM / How to evaluate LLMs before production",
+      "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production",
+      "primary_url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production",
+      "source": "GitHub AI & ML",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "58d5f4b9ce327f354e841596ecbe42febb9706ac",
+          "title": "2025-03-21\n如何在生产环境前评估 LLM / How to evaluate LLMs before production",
+          "title_zh": "2025-03-21\n如何在生产环境前评估 LLM",
+          "title_en": "How to evaluate LLMs before production",
+          "title_original": "How to evaluate LLMs before production",
+          "summary": "These are the lessons we learned evaluating LLMs for real-world secret scanning.\nThese are the lessons we learned evaluating LLMs for real-world secret scanning.\nThese are the lessons we learned evaluating LLMs for real-world secret scanning.\nA language model can perform well on a clean benchmark and still struggle with the cases that matter in production.\nBenchmarks and curated datasets are useful when prototyping an LLM-based system. They help teams compare models, test an initial prompt, and ",
+          "recommend_reason_zh": "文章以GitHub secret scanning为例，讲述评估LLM从原型到生产的真实经验：不能只看基准测试，应以precision为主要目标，将recall作为安全约束，并采用三层评估标准来权衡误报与漏报。",
+          "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production",
+          "source": "GitHub AI & ML",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T21:35:11Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub AI & ML"
+      ],
+      "items": [
+        {
+          "id": "58d5f4b9ce327f354e841596ecbe42febb9706ac",
+          "title": "2025-03-21\n如何在生产环境前评估 LLM / How to evaluate LLMs before production",
+          "title_zh": "2025-03-21\n如何在生产环境前评估 LLM",
+          "title_en": "How to evaluate LLMs before production",
+          "title_original": "How to evaluate LLMs before production",
+          "summary": "These are the lessons we learned evaluating LLMs for real-world secret scanning.\nThese are the lessons we learned evaluating LLMs for real-world secret scanning.\nThese are the lessons we learned evaluating LLMs for real-world secret scanning.\nA language model can perform well on a clean benchmark and still struggle with the cases that matter in production.\nBenchmarks and curated datasets are useful when prototyping an LLM-based system. They help teams compare models, test an initial prompt, and ",
+          "recommend_reason_zh": "文章以GitHub secret scanning为例，讲述评估LLM从原型到生产的真实经验：不能只看基准测试，应以precision为主要目标，将recall作为安全约束，并采用三层评估标准来权衡误报与漏报。",
+          "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production",
+          "source": "GitHub AI & ML",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T21:35:11Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8575,
+      "importance": 0.8575,
+      "importance_score": 0.8575,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.94,
+        "recency": 0.9971,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-25T21:35:11Z",
+      "latest_at": "2026-08-25T21:35:11Z",
+      "primary_item": {
+        "id": "58d5f4b9ce327f354e841596ecbe42febb9706ac",
+        "title": "2025-03-21\n如何在生产环境前评估 LLM / How to evaluate LLMs before production",
+        "title_zh": "2025-03-21\n如何在生产环境前评估 LLM",
+        "title_en": "How to evaluate LLMs before production",
+        "title_original": "How to evaluate LLMs before production",
+        "summary": "These are the lessons we learned evaluating LLMs for real-world secret scanning.\nThese are the lessons we learned evaluating LLMs for real-world secret scanning.\nThese are the lessons we learned evaluating LLMs for real-world secret scanning.\nA language model can perform well on a clean benchmark and still struggle with the cases that matter in production.\nBenchmarks and curated datasets are useful when prototyping an LLM-based system. They help teams compare models, test an initial prompt, and ",
+        "recommend_reason_zh": "文章以GitHub secret scanning为例，讲述评估LLM从原型到生产的真实经验：不能只看基准测试，应以precision为主要目标，将recall作为安全约束，并采用三层评估标准来权衡误报与漏报。",
+        "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production",
+        "source": "GitHub AI & ML",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 72,
+      "persona_review": "评估方法论有实操价值，但无新工具，按需参考。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-08-25T22:15:21.027673Z"
+      }
+    },
     {
       "story_id": "story_2e1e1831ce49",
       "title": "Granite 4.2 LLM：它们是如何构建的 / Granite 4.2 LLMs: How They're Built",
@@ -48,15 +133,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8559,
-      "importance": 0.8559,
-      "importance_score": 0.8559,
+      "score": 0.8518,
+      "importance": 0.8518,
+      "importance_score": 0.8518,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.9326,
+        "recency": 0.9097,
         "story_heat": 0.0
       },
       "category": "official",
@@ -85,7 +170,92 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T20:32:34.489231Z"
+        "scored_at": "2026-08-25T22:15:21.027673Z"
+      }
+    },
+    {
+      "story_id": "story_72c69d1ef3c2",
+      "title": "GitHub Copilot 应用 Customize 标签页正式发布 / GitHub Copilot app Customize tab is generally available",
+      "url": "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available",
+      "primary_url": "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "41c71e65ed28f30547f0ccf29c9cec56c4722a48",
+          "title": "GitHub Copilot 应用 Customize 标签页正式发布 / GitHub Copilot app Customize tab is generally available",
+          "title_zh": "GitHub Copilot 应用 Customize 标签页正式发布",
+          "title_en": "GitHub Copilot app Customize tab is generally available",
+          "title_original": "GitHub Copilot app Customize tab is generally available",
+          "summary": "Customize tab in the GitHub Copilot app brings MCP servers, plugins, skills, and canvases together in one place.\nCustomize tab in the GitHub Copilot app brings MCP servers, plugins, skills, and canvases together in one place.\nGitHub Copilot is more useful when it works with the tools, knowledge, and workflows your team already relies on.\nThe new Customize tab in the GitHub Copilot app brings MCP servers, plugins, skills, and canvases together in one place. Explore featured customizations, browse",
+          "recommend_reason_zh": "GitHub Copilot app的Customize tab正式可用，将MCP servers、plugins、skills、canvases集于一屏，提供精选视图与分类浏览，并支持让Copilot分流issue、排优先级、分配后续。",
+          "url": "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T20:05:26Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "41c71e65ed28f30547f0ccf29c9cec56c4722a48",
+          "title": "GitHub Copilot 应用 Customize 标签页正式发布 / GitHub Copilot app Customize tab is generally available",
+          "title_zh": "GitHub Copilot 应用 Customize 标签页正式发布",
+          "title_en": "GitHub Copilot app Customize tab is generally available",
+          "title_original": "GitHub Copilot app Customize tab is generally available",
+          "summary": "Customize tab in the GitHub Copilot app brings MCP servers, plugins, skills, and canvases together in one place.\nCustomize tab in the GitHub Copilot app brings MCP servers, plugins, skills, and canvases together in one place.\nGitHub Copilot is more useful when it works with the tools, knowledge, and workflows your team already relies on.\nThe new Customize tab in the GitHub Copilot app brings MCP servers, plugins, skills, and canvases together in one place. Explore featured customizations, browse",
+          "recommend_reason_zh": "GitHub Copilot app的Customize tab正式可用，将MCP servers、plugins、skills、canvases集于一屏，提供精选视图与分类浏览，并支持让Copilot分流issue、排优先级、分配后续。",
+          "url": "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T20:05:26Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8476,
+      "importance": 0.8476,
+      "importance_score": 0.8476,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9758,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-25T20:05:26Z",
+      "latest_at": "2026-08-25T20:05:26Z",
+      "primary_item": {
+        "id": "41c71e65ed28f30547f0ccf29c9cec56c4722a48",
+        "title": "GitHub Copilot 应用 Customize 标签页正式发布 / GitHub Copilot app Customize tab is generally available",
+        "title_zh": "GitHub Copilot 应用 Customize 标签页正式发布",
+        "title_en": "GitHub Copilot app Customize tab is generally available",
+        "title_original": "GitHub Copilot app Customize tab is generally available",
+        "summary": "Customize tab in the GitHub Copilot app brings MCP servers, plugins, skills, and canvases together in one place.\nCustomize tab in the GitHub Copilot app brings MCP servers, plugins, skills, and canvases together in one place.\nGitHub Copilot is more useful when it works with the tools, knowledge, and workflows your team already relies on.\nThe new Customize tab in the GitHub Copilot app brings MCP servers, plugins, skills, and canvases together in one place. Explore featured customizations, browse",
+        "recommend_reason_zh": "GitHub Copilot app的Customize tab正式可用，将MCP servers、plugins、skills、canvases集于一屏，提供精选视图与分类浏览，并支持让Copilot分流issue、排优先级、分配后续。",
+        "url": "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 72,
+      "persona_review": "Copilot 自定义标签转正，能调模型和指令，今天就能改配置提效。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-08-25T22:15:21.027673Z"
       }
     },
     {
@@ -116,7 +286,7 @@
           "title_zh": "Jalapeño 的测试结果显示，其在 AI 推理方面的速度和效率均达到行业领先水平。",
           "title_en": "Jalapeño's results show industry-leading speed and efficiency in AI inference",
           "title_original": "Jalapeño's results show industry-leading speed and efficiency in AI inference",
-          "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nJalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nJalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nAugus",
+          "summary": null,
           "recommend_reason_zh": "OpenAI定制推理芯片Jalapeño实测数据亮眼：在GPT-OSS 120B、DeepSeek R1和Kimi K2.5 1T上，每瓦特AI工作量提升1.5至1.9倍，端到端延迟降低1.7至3.6倍，交互负载性能最高达4.1倍。",
           "url": "https://openai.com/index/jalapeno-first-results",
           "source": "Hacker News · 24h最热",
@@ -151,7 +321,7 @@
           "title_zh": "Jalapeño 的测试结果显示，其在 AI 推理方面的速度和效率均达到行业领先水平。",
           "title_en": "Jalapeño's results show industry-leading speed and efficiency in AI inference",
           "title_original": "Jalapeño's results show industry-leading speed and efficiency in AI inference",
-          "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nJalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nJalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nAugus",
+          "summary": null,
           "recommend_reason_zh": "OpenAI定制推理芯片Jalapeño实测数据亮眼：在GPT-OSS 120B、DeepSeek R1和Kimi K2.5 1T上，每瓦特AI工作量提升1.5至1.9倍，端到端延迟降低1.7至3.6倍，交互负载性能最高达4.1倍。",
           "url": "https://openai.com/index/jalapeno-first-results",
           "source": "Hacker News · 24h最热",
@@ -162,15 +332,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.846,
-      "importance": 0.846,
-      "importance_score": 0.846,
+      "score": 0.8424,
+      "importance": 0.8424,
+      "importance_score": 0.8424,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.828,
+        "recency": 0.8077,
         "story_heat": 0.25
       },
       "category": "official",
@@ -200,92 +370,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T20:32:34.489231Z"
-      }
-    },
-    {
-      "story_id": "story_0536ff6c73c5",
-      "title": "直接从安全公告中屏蔽用户 / Block users directly from security advisories",
-      "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
-      "primary_url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "ddf97cc4234c61cbe446eb6957d1046445f13b83",
-          "title": "直接从安全公告中屏蔽用户 / Block users directly from security advisories",
-          "title_zh": "直接从安全公告中屏蔽用户",
-          "title_en": "Block users directly from security advisories",
-          "title_original": "Block users directly from security advisories",
-          "summary": null,
-          "recommend_reason_zh": "GitHub安全公告页现可直接屏蔽用户，组织仓库限管理员操作，个人仓库限所有者操作，省去跳转设置的繁琐流程，打击垃圾信息更高效。",
-          "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-25T18:38:57Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "ddf97cc4234c61cbe446eb6957d1046445f13b83",
-          "title": "直接从安全公告中屏蔽用户 / Block users directly from security advisories",
-          "title_zh": "直接从安全公告中屏蔽用户",
-          "title_en": "Block users directly from security advisories",
-          "title_original": "Block users directly from security advisories",
-          "summary": null,
-          "recommend_reason_zh": "GitHub安全公告页现可直接屏蔽用户，组织仓库限管理员操作，个人仓库限所有者操作，省去跳转设置的繁琐流程，打击垃圾信息更高效。",
-          "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-25T18:38:57Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8403,
-      "importance": 0.8403,
-      "importance_score": 0.8403,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.9797,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-25T18:38:57Z",
-      "latest_at": "2026-08-25T18:38:57Z",
-      "primary_item": {
-        "id": "ddf97cc4234c61cbe446eb6957d1046445f13b83",
-        "title": "直接从安全公告中屏蔽用户 / Block users directly from security advisories",
-        "title_zh": "直接从安全公告中屏蔽用户",
-        "title_en": "Block users directly from security advisories",
-        "title_original": "Block users directly from security advisories",
-        "summary": null,
-        "recommend_reason_zh": "GitHub安全公告页现可直接屏蔽用户，组织仓库限管理员操作，个人仓库限所有者操作，省去跳转设置的繁琐流程，打击垃圾信息更高效。",
-        "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 72,
-      "persona_review": "GitHub 小功能，省一次跳转，对安全协作有点用，但别指望大变化。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-25T20:32:34.489231Z"
+        "scored_at": "2026-08-25T22:15:21.027673Z"
       }
     },
     {
@@ -333,15 +418,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8337,
-      "importance": 0.8337,
-      "importance_score": 0.8337,
+      "score": 0.8296,
+      "importance": 0.8296,
+      "importance_score": 0.8296,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9429,
+        "recency": 0.9198,
         "story_heat": 0.0
       },
       "category": "official",
@@ -370,7 +455,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T20:32:34.489231Z"
+        "scored_at": "2026-08-25T22:15:21.027673Z"
       }
     },
     {
@@ -387,7 +472,7 @@
           "title_zh": "浏览器扩展、网站工具与云登录",
           "title_en": "Browser extensions, site tools, and cloud sign-in",
           "title_original": "Browser extensions, site tools, and cloud sign-in",
-          "summary": "Latest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nMore browsers: Use the ChatGPT browser extension in Microsoft Edge, Brave, Opera, and Vivaldi, as well as Chrome. Set up\nyour browser in Settings > Computer Use in the ChatGPT desktop app.\nAll five support tab mentions and browser control; Opera doesn’t support\nside chat.\nSite tools (WebMCP): In the desktop app’s built-in browser, ChatGPT Work\nand Codex ",
+          "summary": null,
           "recommend_reason_zh": "本文介绍ChatGPT与Codex最新更新：浏览器扩展支持Edge、Brave、Opera和Vivaldi，Site tools需用GPT-5.6 Sol或Terra，并新增Gmail、Slack、GitHub事件触发任务。",
           "url": "https://developers.openai.com/codex/changelog",
           "source": "OpenAI Codex Changelog",
@@ -407,7 +492,7 @@
           "title_zh": "浏览器扩展、网站工具与云登录",
           "title_en": "Browser extensions, site tools, and cloud sign-in",
           "title_original": "Browser extensions, site tools, and cloud sign-in",
-          "summary": "Latest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nMore browsers: Use the ChatGPT browser extension in Microsoft Edge, Brave, Opera, and Vivaldi, as well as Chrome. Set up\nyour browser in Settings > Computer Use in the ChatGPT desktop app.\nAll five support tab mentions and browser control; Opera doesn’t support\nside chat.\nSite tools (WebMCP): In the desktop app’s built-in browser, ChatGPT Work\nand Codex ",
+          "summary": null,
           "recommend_reason_zh": "本文介绍ChatGPT与Codex最新更新：浏览器扩展支持Edge、Brave、Opera和Vivaldi，Site tools需用GPT-5.6 Sol或Terra，并新增Gmail、Slack、GitHub事件触发任务。",
           "url": "https://developers.openai.com/codex/changelog",
           "source": "OpenAI Codex Changelog",
@@ -418,15 +503,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8247,
-      "importance": 0.8247,
-      "importance_score": 0.8247,
+      "score": 0.8214,
+      "importance": 0.8214,
+      "importance_score": 0.8214,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.7484,
+        "recency": 0.7301,
         "story_heat": 0.0
       },
       "category": "official",
@@ -443,7 +528,7 @@
         "title_zh": "浏览器扩展、网站工具与云登录",
         "title_en": "Browser extensions, site tools, and cloud sign-in",
         "title_original": "Browser extensions, site tools, and cloud sign-in",
-        "summary": "Latest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nMore browsers: Use the ChatGPT browser extension in Microsoft Edge, Brave, Opera, and Vivaldi, as well as Chrome. Set up\nyour browser in Settings > Computer Use in the ChatGPT desktop app.\nAll five support tab mentions and browser control; Opera doesn’t support\nside chat.\nSite tools (WebMCP): In the desktop app’s built-in browser, ChatGPT Work\nand Codex ",
+        "summary": null,
         "recommend_reason_zh": "本文介绍ChatGPT与Codex最新更新：浏览器扩展支持Edge、Brave、Opera和Vivaldi，Site tools需用GPT-5.6 Sol或Terra，并新增Gmail、Slack、GitHub事件触发任务。",
         "url": "https://developers.openai.com/codex/changelog",
         "source": "OpenAI Codex Changelog",
@@ -455,7 +540,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T20:32:34.489231Z"
+        "scored_at": "2026-08-25T22:15:21.027673Z"
       }
     },
     {
@@ -590,15 +675,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8208,
-      "importance": 0.8208,
-      "importance_score": 0.8208,
+      "score": 0.8168,
+      "importance": 0.8168,
+      "importance_score": 0.8168,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9121,
+        "recency": 0.8897,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -627,7 +712,92 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T20:32:34.489231Z"
+        "scored_at": "2026-08-25T22:15:21.027673Z"
+      }
+    },
+    {
+      "story_id": "story_0536ff6c73c5",
+      "title": "直接从安全公告中屏蔽用户 / Block users directly from security advisories",
+      "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+      "primary_url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "ddf97cc4234c61cbe446eb6957d1046445f13b83",
+          "title": "直接从安全公告中屏蔽用户 / Block users directly from security advisories",
+          "title_zh": "直接从安全公告中屏蔽用户",
+          "title_en": "Block users directly from security advisories",
+          "title_original": "Block users directly from security advisories",
+          "summary": null,
+          "recommend_reason_zh": "GitHub安全公告页现可直接屏蔽用户，组织仓库限管理员操作，个人仓库限所有者操作，省去跳转设置的繁琐流程，打击垃圾信息更高效。",
+          "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T18:38:57Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "ddf97cc4234c61cbe446eb6957d1046445f13b83",
+          "title": "直接从安全公告中屏蔽用户 / Block users directly from security advisories",
+          "title_zh": "直接从安全公告中屏蔽用户",
+          "title_en": "Block users directly from security advisories",
+          "title_original": "Block users directly from security advisories",
+          "summary": null,
+          "recommend_reason_zh": "GitHub安全公告页现可直接屏蔽用户，组织仓库限管理员操作，个人仓库限所有者操作，省去跳转设置的繁琐流程，打击垃圾信息更高效。",
+          "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T18:38:57Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.836,
+      "importance": 0.836,
+      "importance_score": 0.836,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9557,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-25T18:38:57Z",
+      "latest_at": "2026-08-25T18:38:57Z",
+      "primary_item": {
+        "id": "ddf97cc4234c61cbe446eb6957d1046445f13b83",
+        "title": "直接从安全公告中屏蔽用户 / Block users directly from security advisories",
+        "title_zh": "直接从安全公告中屏蔽用户",
+        "title_en": "Block users directly from security advisories",
+        "title_original": "Block users directly from security advisories",
+        "summary": null,
+        "recommend_reason_zh": "GitHub安全公告页现可直接屏蔽用户，组织仓库限管理员操作，个人仓库限所有者操作，省去跳转设置的繁琐流程，打击垃圾信息更高效。",
+        "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 72,
+      "persona_review": "GitHub 小功能，省一次跳转，对安全协作有点用，但别指望大变化。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-08-25T22:15:21.027673Z"
       }
     },
     {
@@ -675,15 +845,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8394,
-      "importance": 0.8394,
-      "importance_score": 0.8394,
+      "score": 0.8355,
+      "importance": 0.8355,
+      "importance_score": 0.8355,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8856,
+        "recency": 0.8639,
         "story_heat": 0.0
       },
       "category": "official",
@@ -712,92 +882,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T20:32:34.489231Z"
-      }
-    },
-    {
-      "story_id": "story_2ae3bbe5c601",
-      "title": "规则集中的推送规则现在支持路径例外。 / Push rules in rulesets now support path exceptions",
-      "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
-      "primary_url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "e1c4eac73d8d8b63b5ddd2c669c78b7c2842a6c9",
-          "title": "规则集中的推送规则现在支持路径例外。 / Push rules in rulesets now support path exceptions",
-          "title_zh": "规则集中的推送规则现在支持路径例外。",
-          "title_en": "Push rules in rulesets now support path exceptions",
-          "title_original": "Push rules in rulesets now support path exceptions",
-          "summary": null,
-          "recommend_reason_zh": "GitHub的push rules新增路径异常支持，允许在ruleset中排除特定文件路径，让规则作用于范围内除指定路径外的一切。目前该公共预览功能支持两种规则，并在保存时自动校验模式，便于即时修正错误。",
-          "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-25T17:40:15Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "e1c4eac73d8d8b63b5ddd2c669c78b7c2842a6c9",
-          "title": "规则集中的推送规则现在支持路径例外。 / Push rules in rulesets now support path exceptions",
-          "title_zh": "规则集中的推送规则现在支持路径例外。",
-          "title_en": "Push rules in rulesets now support path exceptions",
-          "title_original": "Push rules in rulesets now support path exceptions",
-          "summary": null,
-          "recommend_reason_zh": "GitHub的push rules新增路径异常支持，允许在ruleset中排除特定文件路径，让规则作用于范围内除指定路径外的一切。目前该公共预览功能支持两种规则，并在保存时自动校验模式，便于即时修正错误。",
-          "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-25T17:40:15Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8379,
-      "importance": 0.8379,
-      "importance_score": 0.8379,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.966,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-25T17:40:15Z",
-      "latest_at": "2026-08-25T17:40:15Z",
-      "primary_item": {
-        "id": "e1c4eac73d8d8b63b5ddd2c669c78b7c2842a6c9",
-        "title": "规则集中的推送规则现在支持路径例外。 / Push rules in rulesets now support path exceptions",
-        "title_zh": "规则集中的推送规则现在支持路径例外。",
-        "title_en": "Push rules in rulesets now support path exceptions",
-        "title_original": "Push rules in rulesets now support path exceptions",
-        "summary": null,
-        "recommend_reason_zh": "GitHub的push rules新增路径异常支持，允许在ruleset中排除特定文件路径，让规则作用于范围内除指定路径外的一切。目前该公共预览功能支持两种规则，并在保存时自动校验模式，便于即时修正错误。",
-        "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 72,
-      "persona_review": "GitHub 规则集支持路径例外，分支保护更灵活，今天就能配。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-25T20:32:34.489231Z"
+        "scored_at": "2026-08-25T22:15:21.027673Z"
       }
     },
     {
@@ -845,15 +930,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8227,
-      "importance": 0.8227,
-      "importance_score": 0.8227,
+      "score": 0.8194,
+      "importance": 0.8194,
+      "importance_score": 0.8194,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.7484,
+        "recency": 0.7301,
         "story_heat": 0.0
       },
       "category": "official",
@@ -882,7 +967,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T20:32:34.489231Z"
+        "scored_at": "2026-08-25T22:15:21.027673Z"
       }
     },
     {
@@ -899,7 +984,7 @@
           "title_zh": "通过Gmail、Slack和GitHub事件触发定时任务",
           "title_en": "Trigger scheduled tasks from Gmail, Slack, and GitHub events",
           "title_original": "Trigger scheduled tasks from Gmail, Slack, and GitHub events",
-          "summary": "Latest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nMore browsers: Use the ChatGPT browser extension in Microsoft Edge, Brave, Opera, and Vivaldi, as well as Chrome. Set up\nyour browser in Settings > Computer Use in the ChatGPT desktop app.\nAll five support tab mentions and browser control; Opera doesn’t support\nside chat.\nSite tools (WebMCP): In the desktop app’s built-in browser, ChatGPT Work\nand Codex ",
+          "summary": null,
           "recommend_reason_zh": "ChatGPT定时任务现可由Gmail邮件过滤、Slack频道监听及GitHub PR活动（评论、提交更新、合并）触发，须连接授权应用，Slack应用需在频道内，GitHub需仓库访问权，且不能与时间计划并用。",
           "url": "https://developers.openai.com/codex/changelog",
           "source": "OpenAI Codex Changelog",
@@ -919,7 +1004,7 @@
           "title_zh": "通过Gmail、Slack和GitHub事件触发定时任务",
           "title_en": "Trigger scheduled tasks from Gmail, Slack, and GitHub events",
           "title_original": "Trigger scheduled tasks from Gmail, Slack, and GitHub events",
-          "summary": "Latest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nMore browsers: Use the ChatGPT browser extension in Microsoft Edge, Brave, Opera, and Vivaldi, as well as Chrome. Set up\nyour browser in Settings > Computer Use in the ChatGPT desktop app.\nAll five support tab mentions and browser control; Opera doesn’t support\nside chat.\nSite tools (WebMCP): In the desktop app’s built-in browser, ChatGPT Work\nand Codex ",
+          "summary": null,
           "recommend_reason_zh": "ChatGPT定时任务现可由Gmail邮件过滤、Slack频道监听及GitHub PR活动（评论、提交更新、合并）触发，须连接授权应用，Slack应用需在频道内，GitHub需仓库访问权，且不能与时间计划并用。",
           "url": "https://developers.openai.com/codex/changelog",
           "source": "OpenAI Codex Changelog",
@@ -930,15 +1015,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8207,
-      "importance": 0.8207,
-      "importance_score": 0.8207,
+      "score": 0.8174,
+      "importance": 0.8174,
+      "importance_score": 0.8174,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.7484,
+        "recency": 0.7301,
         "story_heat": 0.0
       },
       "category": "official",
@@ -955,7 +1040,7 @@
         "title_zh": "通过Gmail、Slack和GitHub事件触发定时任务",
         "title_en": "Trigger scheduled tasks from Gmail, Slack, and GitHub events",
         "title_original": "Trigger scheduled tasks from Gmail, Slack, and GitHub events",
-        "summary": "Latest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nMore browsers: Use the ChatGPT browser extension in Microsoft Edge, Brave, Opera, and Vivaldi, as well as Chrome. Set up\nyour browser in Settings > Computer Use in the ChatGPT desktop app.\nAll five support tab mentions and browser control; Opera doesn’t support\nside chat.\nSite tools (WebMCP): In the desktop app’s built-in browser, ChatGPT Work\nand Codex ",
+        "summary": null,
         "recommend_reason_zh": "ChatGPT定时任务现可由Gmail邮件过滤、Slack频道监听及GitHub PR活动（评论、提交更新、合并）触发，须连接授权应用，Slack应用需在频道内，GitHub需仓库访问权，且不能与时间计划并用。",
         "url": "https://developers.openai.com/codex/changelog",
         "source": "OpenAI Codex Changelog",
@@ -967,7 +1052,92 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T20:32:34.489231Z"
+        "scored_at": "2026-08-25T22:15:21.027673Z"
+      }
+    },
+    {
+      "story_id": "story_2ae3bbe5c601",
+      "title": "规则集中的推送规则现在支持路径例外。 / Push rules in rulesets now support path exceptions",
+      "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
+      "primary_url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "e1c4eac73d8d8b63b5ddd2c669c78b7c2842a6c9",
+          "title": "规则集中的推送规则现在支持路径例外。 / Push rules in rulesets now support path exceptions",
+          "title_zh": "规则集中的推送规则现在支持路径例外。",
+          "title_en": "Push rules in rulesets now support path exceptions",
+          "title_original": "Push rules in rulesets now support path exceptions",
+          "summary": null,
+          "recommend_reason_zh": "GitHub的push rules新增路径异常支持，允许在ruleset中排除特定文件路径，让规则作用于范围内除指定路径外的一切。目前该公共预览功能支持两种规则，并在保存时自动校验模式，便于即时修正错误。",
+          "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T17:40:15Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "e1c4eac73d8d8b63b5ddd2c669c78b7c2842a6c9",
+          "title": "规则集中的推送规则现在支持路径例外。 / Push rules in rulesets now support path exceptions",
+          "title_zh": "规则集中的推送规则现在支持路径例外。",
+          "title_en": "Push rules in rulesets now support path exceptions",
+          "title_original": "Push rules in rulesets now support path exceptions",
+          "summary": null,
+          "recommend_reason_zh": "GitHub的push rules新增路径异常支持，允许在ruleset中排除特定文件路径，让规则作用于范围内除指定路径外的一切。目前该公共预览功能支持两种规则，并在保存时自动校验模式，便于即时修正错误。",
+          "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T17:40:15Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8336,
+      "importance": 0.8336,
+      "importance_score": 0.8336,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9423,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-25T17:40:15Z",
+      "latest_at": "2026-08-25T17:40:15Z",
+      "primary_item": {
+        "id": "e1c4eac73d8d8b63b5ddd2c669c78b7c2842a6c9",
+        "title": "规则集中的推送规则现在支持路径例外。 / Push rules in rulesets now support path exceptions",
+        "title_zh": "规则集中的推送规则现在支持路径例外。",
+        "title_en": "Push rules in rulesets now support path exceptions",
+        "title_original": "Push rules in rulesets now support path exceptions",
+        "summary": null,
+        "recommend_reason_zh": "GitHub的push rules新增路径异常支持，允许在ruleset中排除特定文件路径，让规则作用于范围内除指定路径外的一切。目前该公共预览功能支持两种规则，并在保存时自动校验模式，便于即时修正错误。",
+        "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 72,
+      "persona_review": "GitHub 规则集支持路径例外，分支保护更灵活，今天就能配。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-08-25T22:15:21.027673Z"
       }
     },
     {
@@ -1015,15 +1185,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8212,
-      "importance": 0.8212,
-      "importance_score": 0.8212,
+      "score": 0.8176,
+      "importance": 0.8176,
+      "importance_score": 0.8176,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.829,
+        "recency": 0.8087,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1052,7 +1222,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T20:32:34.489231Z"
+        "scored_at": "2026-08-25T22:15:21.027673Z"
       }
     },
     {
@@ -1100,15 +1270,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7594,
-      "importance": 0.7594,
-      "importance_score": 0.7594,
+      "score": 0.7553,
+      "importance": 0.7553,
+      "importance_score": 0.7553,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9378,
+        "recency": 0.9148,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1136,7 +1306,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T20:32:34.489231Z"
+        "scored_at": "2026-08-25T22:15:21.027673Z"
       }
     },
     {
@@ -1184,15 +1354,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8147,
-      "importance": 0.8147,
-      "importance_score": 0.8147,
+      "score": 0.8114,
+      "importance": 0.8114,
+      "importance_score": 0.8114,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7484,
+        "recency": 0.7301,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1221,7 +1391,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T20:32:34.489231Z"
+        "scored_at": "2026-08-25T22:15:21.027673Z"
       }
     },
     {
@@ -1269,15 +1439,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.748,
-      "importance": 0.748,
-      "importance_score": 0.748,
+      "score": 0.7437,
+      "importance": 0.7437,
+      "importance_score": 0.7437,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9743,
+        "recency": 0.9504,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1304,7 +1474,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T20:32:34.489231Z"
+        "scored_at": "2026-08-25T22:15:21.027673Z"
       }
     },
     {
@@ -1352,15 +1522,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7474,
-      "importance": 0.7474,
-      "importance_score": 0.7474,
+      "score": 0.7431,
+      "importance": 0.7431,
+      "importance_score": 0.7431,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9711,
+        "recency": 0.9472,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1387,7 +1557,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T20:32:34.489231Z"
+        "scored_at": "2026-08-25T22:15:21.027673Z"
       }
     },
     {
@@ -1435,15 +1605,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.741,
-      "importance": 0.741,
-      "importance_score": 0.741,
+      "score": 0.7372,
+      "importance": 0.7372,
+      "importance_score": 0.7372,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8521,
+        "recency": 0.8312,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1470,7 +1640,90 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T20:32:34.489231Z"
+        "scored_at": "2026-08-25T22:15:21.027673Z"
+      }
+    },
+    {
+      "story_id": "story_f92e65dfe441",
+      "title": "LangChain 与 Airbyte 集成：让数据摄取达到生产级就绪 / Making Data Ingestion Production Ready： a LangChain-Powered Airbyte Destination",
+      "url": "https://www.langchain.com/blog/making-data-ingestion-production-ready-a-langchain-powered-airbyte-destination",
+      "primary_url": "https://www.langchain.com/blog/making-data-ingestion-production-ready-a-langchain-powered-airbyte-destination",
+      "source": "LangChain：Blog（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "3482ceb1e522771993fee00f2bf7aeff1009b177",
+          "title": "LangChain 与 Airbyte 集成：让数据摄取达到生产级就绪 / Making Data Ingestion Production Ready： a LangChain-Powered Airbyte Destination",
+          "title_zh": "LangChain 与 Airbyte 集成：让数据摄取达到生产级就绪",
+          "title_en": "Making Data Ingestion Production Ready： a LangChain-Powered Airbyte Destination",
+          "title_original": "Making Data Ingestion Production Ready： a LangChain-Powered Airbyte Destination",
+          "summary": "LangChain 与 Airbyte 的集成方案旨在将检索应用扩展至生产环境。该方案通过调度、文本拆分和 50 多种嵌入模型实现数据摄取自动化，帮助开发者构建可规模化的生产级数据管道。",
+          "recommend_reason_zh": "本文介绍LangChain新增的Airbyte destination集成，实现数据摄入的调度与自动化，支持15+种文本分割方式和50+向量存储集成，为生产级检索应用提供可靠数据管道。",
+          "url": "https://www.langchain.com/blog/making-data-ingestion-production-ready-a-langchain-powered-airbyte-destination",
+          "source": "LangChain：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-25T21:12:53Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "LangChain：Blog（RSS）"
+      ],
+      "items": [
+        {
+          "id": "3482ceb1e522771993fee00f2bf7aeff1009b177",
+          "title": "LangChain 与 Airbyte 集成：让数据摄取达到生产级就绪 / Making Data Ingestion Production Ready： a LangChain-Powered Airbyte Destination",
+          "title_zh": "LangChain 与 Airbyte 集成：让数据摄取达到生产级就绪",
+          "title_en": "Making Data Ingestion Production Ready： a LangChain-Powered Airbyte Destination",
+          "title_original": "Making Data Ingestion Production Ready： a LangChain-Powered Airbyte Destination",
+          "summary": "LangChain 与 Airbyte 的集成方案旨在将检索应用扩展至生产环境。该方案通过调度、文本拆分和 50 多种嵌入模型实现数据摄取自动化，帮助开发者构建可规模化的生产级数据管道。",
+          "recommend_reason_zh": "本文介绍LangChain新增的Airbyte destination集成，实现数据摄入的调度与自动化，支持15+种文本分割方式和50+向量存储集成，为生产级检索应用提供可靠数据管道。",
+          "url": "https://www.langchain.com/blog/making-data-ingestion-production-ready-a-langchain-powered-airbyte-destination",
+          "source": "LangChain：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-25T21:12:53Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7331,
+      "importance": 0.7331,
+      "importance_score": 0.7331,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.61,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9917,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-25T21:12:53Z",
+      "latest_at": "2026-08-25T21:12:53Z",
+      "primary_item": {
+        "id": "3482ceb1e522771993fee00f2bf7aeff1009b177",
+        "title": "LangChain 与 Airbyte 集成：让数据摄取达到生产级就绪 / Making Data Ingestion Production Ready： a LangChain-Powered Airbyte Destination",
+        "title_zh": "LangChain 与 Airbyte 集成：让数据摄取达到生产级就绪",
+        "title_en": "Making Data Ingestion Production Ready： a LangChain-Powered Airbyte Destination",
+        "title_original": "Making Data Ingestion Production Ready： a LangChain-Powered Airbyte Destination",
+        "summary": "LangChain 与 Airbyte 的集成方案旨在将检索应用扩展至生产环境。该方案通过调度、文本拆分和 50 多种嵌入模型实现数据摄取自动化，帮助开发者构建可规模化的生产级数据管道。",
+        "recommend_reason_zh": "本文介绍LangChain新增的Airbyte destination集成，实现数据摄入的调度与自动化，支持15+种文本分割方式和50+向量存储集成，为生产级检索应用提供可靠数据管道。",
+        "url": "https://www.langchain.com/blog/making-data-ingestion-production-ready-a-langchain-powered-airbyte-destination",
+        "source": "LangChain：Blog（RSS）",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 62,
+      "persona_review": "LangChain 官方出 Airbyte 集成，做数据管线的能少写胶水代码，但先看文档再动手。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-08-25T22:15:21.027673Z"
       }
     },
     {
@@ -1518,15 +1771,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7322,
-      "importance": 0.7322,
-      "importance_score": 0.7322,
+      "score": 0.7281,
+      "importance": 0.7281,
+      "importance_score": 0.7281,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.64,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9368,
+        "recency": 0.9138,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1553,258 +1806,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T20:32:34.489231Z"
-      }
-    },
-    {
-      "story_id": "story_e78ba6d6ecd7",
-      "title": "Apple 推出搭载 M5 Max 与 M5 Ultra 的全新 Mac Studio / Apple introduces new Mac Studio with M5 Max and M5 Ultra",
-      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra",
-      "primary_url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra",
-      "source": "Apple：Newsroom（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "900130058d1341061578b56b4d1701a3676a34d7",
-          "title": "Apple 推出搭载 M5 Max 与 M5 Ultra 的全新 Mac Studio / Apple introduces new Mac Studio with M5 Max and M5 Ultra",
-          "title_zh": "Apple 推出搭载 M5 Max 与 M5 Ultra 的全新 Mac Studio",
-          "title_en": "Apple introduces new Mac Studio with M5 Max and M5 Ultra",
-          "title_original": "Apple introduces new Mac Studio with M5 Max and M5 Ultra",
-          "summary": "Apple 发布搭载 M5 Max 与全新 M5 Ultra 的 Mac Studio，AI 性能最高提升 4.3 倍，图形性能提升 1.8 倍，存储速度提升 2 倍。M5 Ultra 版本支持最高 512GB 统一内存与 1.2TB/s 内存带宽，可完全在设备端运行大型 LLM；四台集群可带来最高 3 倍分布式 AI 推理速度提升。新品今日起接受预购，9 月 22 日开售。",
-          "recommend_reason_zh": "Apple新Mac Studio搭载M5 Max与M5 Ultra，AI性能最高提升4.3倍，支持512GB统一内存，可在设备端运行大型LLM，并首次加入Wi-Fi 7。",
-          "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra",
-          "source": "Apple：Newsroom（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-25T13:00:23.969000Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Apple：Newsroom（RSS）"
-      ],
-      "items": [
-        {
-          "id": "900130058d1341061578b56b4d1701a3676a34d7",
-          "title": "Apple 推出搭载 M5 Max 与 M5 Ultra 的全新 Mac Studio / Apple introduces new Mac Studio with M5 Max and M5 Ultra",
-          "title_zh": "Apple 推出搭载 M5 Max 与 M5 Ultra 的全新 Mac Studio",
-          "title_en": "Apple introduces new Mac Studio with M5 Max and M5 Ultra",
-          "title_original": "Apple introduces new Mac Studio with M5 Max and M5 Ultra",
-          "summary": "Apple 发布搭载 M5 Max 与全新 M5 Ultra 的 Mac Studio，AI 性能最高提升 4.3 倍，图形性能提升 1.8 倍，存储速度提升 2 倍。M5 Ultra 版本支持最高 512GB 统一内存与 1.2TB/s 内存带宽，可完全在设备端运行大型 LLM；四台集群可带来最高 3 倍分布式 AI 推理速度提升。新品今日起接受预购，9 月 22 日开售。",
-          "recommend_reason_zh": "Apple新Mac Studio搭载M5 Max与M5 Ultra，AI性能最高提升4.3倍，支持512GB统一内存，可在设备端运行大型LLM，并首次加入Wi-Fi 7。",
-          "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra",
-          "source": "Apple：Newsroom（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-25T13:00:23.969000Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7261,
-      "importance": 0.7261,
-      "importance_score": 0.7261,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.64,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9031,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-25T13:00:23.969000Z",
-      "latest_at": "2026-08-25T13:00:23.969000Z",
-      "primary_item": {
-        "id": "900130058d1341061578b56b4d1701a3676a34d7",
-        "title": "Apple 推出搭载 M5 Max 与 M5 Ultra 的全新 Mac Studio / Apple introduces new Mac Studio with M5 Max and M5 Ultra",
-        "title_zh": "Apple 推出搭载 M5 Max 与 M5 Ultra 的全新 Mac Studio",
-        "title_en": "Apple introduces new Mac Studio with M5 Max and M5 Ultra",
-        "title_original": "Apple introduces new Mac Studio with M5 Max and M5 Ultra",
-        "summary": "Apple 发布搭载 M5 Max 与全新 M5 Ultra 的 Mac Studio，AI 性能最高提升 4.3 倍，图形性能提升 1.8 倍，存储速度提升 2 倍。M5 Ultra 版本支持最高 512GB 统一内存与 1.2TB/s 内存带宽，可完全在设备端运行大型 LLM；四台集群可带来最高 3 倍分布式 AI 推理速度提升。新品今日起接受预购，9 月 22 日开售。",
-        "recommend_reason_zh": "Apple新Mac Studio搭载M5 Max与M5 Ultra，AI性能最高提升4.3倍，支持512GB统一内存，可在设备端运行大型LLM，并首次加入Wi-Fi 7。",
-        "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra",
-        "source": "Apple：Newsroom（RSS）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 55,
-      "persona_review": "新硬件对本地跑模型有提升，但没具体价格和性能数据，先观望。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-25T20:32:34.489231Z"
-      }
-    },
-    {
-      "story_id": "story_4c08adc024bd",
-      "title": "瓦解俄罗斯新一轮秘密影响力行动 / Disrupting a new covert influence campaign from Russia",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "primary_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "6bd2adbc583117c8e7211725eab9f4bfe5fd0ba9",
-          "title": "瓦解俄罗斯新一轮秘密影响力行动 / Disrupting a new covert influence campaign from Russia",
-          "title_zh": "瓦解俄罗斯新一轮秘密影响力行动",
-          "title_en": "Disrupting a new covert influence campaign from Russia",
-          "title_original": "Disrupting a new covert influence campaign from Russia",
-          "summary": null,
-          "recommend_reason_zh": "OpenAI封禁了源自俄罗斯的ChatGPT账号集群，这些账号用AI生成评论推广虚假的以色列智库International Burke Institute及美化俄罗斯的“主权”指数，并通过VPN隐藏俄语痕迹。",
-          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-25T00:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "6bd2adbc583117c8e7211725eab9f4bfe5fd0ba9",
-          "title": "瓦解俄罗斯新一轮秘密影响力行动 / Disrupting a new covert influence campaign from Russia",
-          "title_zh": "瓦解俄罗斯新一轮秘密影响力行动",
-          "title_en": "Disrupting a new covert influence campaign from Russia",
-          "title_original": "Disrupting a new covert influence campaign from Russia",
-          "summary": null,
-          "recommend_reason_zh": "OpenAI封禁了源自俄罗斯的ChatGPT账号集群，这些账号用AI生成评论推广虚假的以色列智库International Burke Institute及美化俄罗斯的“主权”指数，并通过VPN隐藏俄语痕迹。",
-          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-25T00:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8067,
-      "importance": 0.8067,
-      "importance_score": 0.8067,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7484,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-25T00:00:00Z",
-      "latest_at": "2026-08-25T00:00:00Z",
-      "primary_item": {
-        "id": "6bd2adbc583117c8e7211725eab9f4bfe5fd0ba9",
-        "title": "瓦解俄罗斯新一轮秘密影响力行动 / Disrupting a new covert influence campaign from Russia",
-        "title_zh": "瓦解俄罗斯新一轮秘密影响力行动",
-        "title_en": "Disrupting a new covert influence campaign from Russia",
-        "title_original": "Disrupting a new covert influence campaign from Russia",
-        "summary": null,
-        "recommend_reason_zh": "OpenAI封禁了源自俄罗斯的ChatGPT账号集群，这些账号用AI生成评论推广虚假的以色列智库International Burke Institute及美化俄罗斯的“主权”指数，并通过VPN隐藏俄语痕迹。",
-        "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 40,
-      "persona_review": "安全报告看看即可，不影响日常开发选型。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-25T20:32:34.489231Z"
-      }
-    },
-    {
-      "story_id": "story_82cd7b823da3",
-      "title": "马斯克把Grok语音系统搬上星链：日均处理1.5万通电话、周成交3000笔订单",
-      "url": "https://www.aibase.com/news/30609",
-      "primary_url": "https://www.aibase.com/news/30609",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "334acecb4130ea37f97a2ce5445b20f6ad4df323",
-          "title": "马斯克把Grok语音系统搬上星链：日均处理1.5万通电话、周成交3000笔订单",
-          "title_zh": "马斯克把Grok语音系统搬上星链：日均处理1.5万通电话、周成交3000笔订单",
-          "title_en": null,
-          "title_original": "马斯克把Grok语音系统搬上星链：日均处理1.5万通电话、周成交3000笔订单",
-          "summary": null,
-          "recommend_reason_zh": "SpaceX将Grok语音系统搬上Starlink，日均处理1.5万通客服电话、周成交3000笔订单，证明大模型语音交互不再是演示，已能独立完成真实交易。",
-          "url": "https://www.aibase.com/news/30609",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-25T08:59:06.973321Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "334acecb4130ea37f97a2ce5445b20f6ad4df323",
-          "title": "马斯克把Grok语音系统搬上星链：日均处理1.5万通电话、周成交3000笔订单",
-          "title_zh": "马斯克把Grok语音系统搬上星链：日均处理1.5万通电话、周成交3000笔订单",
-          "title_en": null,
-          "title_original": "马斯克把Grok语音系统搬上星链：日均处理1.5万通电话、周成交3000笔订单",
-          "summary": null,
-          "recommend_reason_zh": "SpaceX将Grok语音系统搬上Starlink，日均处理1.5万通客服电话、周成交3000笔订单，证明大模型语音交互不再是演示，已能独立完成真实交易。",
-          "url": "https://www.aibase.com/news/30609",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-25T08:59:06.973321Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.741,
-      "importance": 0.741,
-      "importance_score": 0.741,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8521,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-25T08:59:06.973321Z",
-      "latest_at": "2026-08-25T08:59:06.973321Z",
-      "primary_item": {
-        "id": "334acecb4130ea37f97a2ce5445b20f6ad4df323",
-        "title": "马斯克把Grok语音系统搬上星链：日均处理1.5万通电话、周成交3000笔订单",
-        "title_zh": "马斯克把Grok语音系统搬上星链：日均处理1.5万通电话、周成交3000笔订单",
-        "title_en": null,
-        "title_original": "马斯克把Grok语音系统搬上星链：日均处理1.5万通电话、周成交3000笔订单",
-        "summary": null,
-        "recommend_reason_zh": "SpaceX将Grok语音系统搬上Starlink，日均处理1.5万通客服电话、周成交3000笔订单，证明大模型语音交互不再是演示，已能独立完成真实交易。",
-        "url": "https://www.aibase.com/news/30609",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "星链加语音是场景创新，但没开放API，开发者暂时用不上。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-25T20:32:34.489231Z"
+        "scored_at": "2026-08-25T22:15:21.027673Z"
       }
     }
   ]

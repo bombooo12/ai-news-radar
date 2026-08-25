@@ -1,12 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_0e23ce0343ea|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "安全评估报告，不影响日常开发，做合规的可以瞄一眼。",
-      "title_hash": "56926fdf",
-      "scored_at": "2026-08-04T21:52:09.203846Z"
-    },
     "story_48187a538519|pragmatic|0a5c5b24": {
       "score": 48,
       "review": "宣传大于落地，没给可试用的接口或仓库，等真上线再说。",
@@ -5292,6 +5286,36 @@
       "review": "官方更新但无技术细节，无代码无评测，仅凭 changelog 难证实效。",
       "title_hash": "9a60a013",
       "scored_at": "2026-08-25T20:32:40.718670Z"
+    },
+    "story_4b7b151c884e|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "评估方法论有实操价值，但无新工具，按需参考。",
+      "title_hash": "d2d663eb",
+      "scored_at": "2026-08-25T22:15:21.864006Z"
+    },
+    "story_72c69d1ef3c2|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "Copilot 自定义标签转正，能调模型和指令，今天就能改配置提效。",
+      "title_hash": "8d444250",
+      "scored_at": "2026-08-25T22:15:22.673070Z"
+    },
+    "story_f92e65dfe441|pragmatic|0a5c5b24": {
+      "score": 62,
+      "review": "LangChain 官方出 Airbyte 集成，做数据管线的能少写胶水代码，但先看文档再动手。",
+      "title_hash": "ce40e10b",
+      "scored_at": "2026-08-25T22:15:23.841355Z"
+    },
+    "story_4b7b151c884e|cynic|f4237a62": {
+      "score": 72,
+      "review": "评估指南总算没吹牛，但实操细节还得自己踩坑。",
+      "title_hash": "d2d663eb",
+      "scored_at": "2026-08-25T22:15:24.702422Z"
+    },
+    "story_4b7b151c884e|paper-police|966065bf": {
+      "score": 45,
+      "review": "官方博客给了评估方法细节，但无代码无基准，缺独立验证。",
+      "title_hash": "d2d663eb",
+      "scored_at": "2026-08-25T22:15:25.923965Z"
     }
   }
 }

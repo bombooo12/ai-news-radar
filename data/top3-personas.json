@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T20:32:40.718770Z",
+  "generated_at": "2026-08-25T22:15:25.924020Z",
   "model": "deepseek-chat",
   "personas": [
     {
@@ -57,22 +57,22 @@
       }
     },
     {
-      "story_id": "story_b95e33dbd1e9",
-      "title": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平 / Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "url": "https://openai.com/index/jalapeno-first-results",
+      "story_id": "story_4b7b151c884e",
+      "title": "2025-03-21\n如何在生产环境前评估 LLM / How to evaluate LLMs before production",
+      "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production",
       "rank": 3,
       "reviews": {
         "cynic": {
           "score": 72,
-          "review": "速度效率领先？先晒出对比基线和完整基准，别只给结论。"
+          "review": "评估指南总算没吹牛，但实操细节还得自己踩坑。"
         },
         "paper-police": {
-          "score": 30,
-          "review": "官方博客宣称领先，无论文无代码无第三方评测，证据不足。"
+          "score": 45,
+          "review": "官方博客给了评估方法细节，但无代码无基准，缺独立验证。"
         },
         "pragmatic": {
           "score": 72,
-          "review": "推理性能新标杆，但没给API或开源，先观望等开放。"
+          "review": "评估方法论有实操价值，但无新工具，按需参考。"
         }
       }
     }
