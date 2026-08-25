@@ -1,156 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_bcfdafe93ce8|pragmatic|0a5c5b24": {
-      "score": 88,
-      "review": "2.6B 本地跑 Agent，隐私和推理成本都省了，今天就能动手试。",
-      "title_hash": "c578e035",
-      "scored_at": "2026-08-04T15:57:56.751599Z"
-    },
-    "story_8fcfc69e0c50|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "官方汇总但无具体细节，得看分项公告再判断是否值得动手。",
-      "title_hash": "300e43fa",
-      "scored_at": "2026-08-04T15:57:59.458991Z"
-    },
-    "story_51a68e6b77ff|pragmatic|0a5c5b24": {
-      "score": 75,
-      "review": "能自定义Dependabot分支名，CI脚本匹配规则今天就能改。",
-      "title_hash": "9bc81083",
-      "scored_at": "2026-08-04T15:58:01.419410Z"
-    },
-    "story_579f66b7beb0|pragmatic|0a5c5b24": {
-      "score": 20,
-      "review": "大厂互喷没代码可写，等有实际动作再看。",
-      "title_hash": "386a4316",
-      "scored_at": "2026-08-04T15:58:03.791010Z"
-    },
-    "story_05bcbbcf4f82|pragmatic|0a5c5b24": {
-      "score": 90,
-      "review": "单卡就能跑V4 Flash，部署成本直接拉低，手头有MI300X的今天就能试。",
-      "title_hash": "e5edd732",
-      "scored_at": "2026-08-04T15:58:06.136623Z"
-    },
-    "story_0c09902a6425|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "自动开启覆盖率，CI 配置需核对，现有工作流可能受影响。",
-      "title_hash": "4b042c9d",
-      "scored_at": "2026-08-04T15:58:07.972619Z"
-    },
-    "story_b35b3bd10fcc|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "百亿算力布局是远期供给信号，今天不影响你选型或写代码。",
-      "title_hash": "233de51a",
-      "scored_at": "2026-08-04T15:58:09.945288Z"
-    },
-    "story_976c0d743da2|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "开源可 clone，自动优化工业软件，适用场景对口就能省人力。",
-      "title_hash": "98f6d206",
-      "scored_at": "2026-08-04T15:58:11.848955Z"
-    },
-    "story_58483f682cc5|pragmatic|0a5c5b24": {
-      "score": 75,
-      "review": "用 Swift/Kotlin 扫描的可以升，新版语言支持跟上；其他语言用户不用动。",
-      "title_hash": "0a89e3cf",
-      "scored_at": "2026-08-04T15:58:13.830608Z"
-    },
-    "story_9cef6c59681e|pragmatic|0a5c5b24": {
-      "score": 82,
-      "review": "百万点级交互绘图，Rust 加速可落地，做数据可视化的值得试跑。",
-      "title_hash": "be36ebc4",
-      "scored_at": "2026-08-04T15:58:15.070562Z"
-    },
-    "story_52842039f734|pragmatic|0a5c5b24": {
-      "score": 78,
-      "review": "开源可商用，搞自动驾驶的能直接上手试，但落地还得看硬件配套。",
-      "title_hash": "eab31cfd",
-      "scored_at": "2026-08-04T15:58:16.827517Z"
-    },
-    "story_9f5aa79a3eb5|pragmatic|0a5c5b24": {
-      "score": 86,
-      "review": "开源可下载，8B能做4K编辑，小显存也能本地跑一下试试。",
-      "title_hash": "ddf084e0",
-      "scored_at": "2026-08-04T15:58:19.167418Z"
-    },
-    "story_417741cd5bf0|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "标准定了但2027年才实施，做自动驾驶的可以提前对照，短期不紧迫。",
-      "title_hash": "3b9667fd",
-      "scored_at": "2026-08-04T15:58:20.718312Z"
-    },
-    "story_96343a50491c|pragmatic|0a5c5b24": {
-      "score": 68,
-      "review": "工程流程优化案例，可借鉴自动化工具体系，但需自己落地。",
-      "title_hash": "8a11310c",
-      "scored_at": "2026-08-04T15:58:22.326981Z"
-    },
-    "story_9dc2cb12e04f|pragmatic|0a5c5b24": {
-      "score": 90,
-      "review": "API直接降价80%，跑大批量的今天就能换，省下的钱实实在在。",
-      "title_hash": "34efd3d5",
-      "scored_at": "2026-08-04T15:58:24.424522Z"
-    },
-    "story_403eeb056aa6|pragmatic|0a5c5b24": {
-      "score": 20,
-      "review": "嘴炮不写代码，等有产品再看。",
-      "title_hash": "a6d8a8da",
-      "scored_at": "2026-08-04T15:58:25.822280Z"
-    },
-    "story_494ad8597a8c|pragmatic|0a5c5b24": {
-      "score": 90,
-      "review": "开源权重可下载，BF16和FP8直接部署，跑推理的今天就能换。",
-      "title_hash": "7588acc6",
-      "scored_at": "2026-08-04T15:58:27.484680Z"
-    },
-    "story_c812f9375d11|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "面向欧盟市场的AI产品要补透明度合规，法务和产品得动起来。",
-      "title_hash": "98b0c8e1",
-      "scored_at": "2026-08-04T15:58:30.308325Z"
-    },
-    "story_63a94a3ef129|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "能上手的轻量推理方案，Mac 跑 80B 值得试，但注意实际速度和精度。",
-      "title_hash": "1250cf12",
-      "scored_at": "2026-08-04T15:58:32.854533Z"
-    },
-    "story_05bcbbcf4f82|cynic|f4237a62": {
-      "score": 52,
-      "review": "跑通是第一步，拿不出性能对比就是白嫖算力。",
-      "title_hash": "e5edd732",
-      "scored_at": "2026-08-04T15:58:41.879923Z"
-    },
-    "story_05bcbbcf4f82|paper-police|966065bf": {
-      "score": 70,
-      "review": "代码仓库可查，但缺论文和独立跑分，能否复现待验证。",
-      "title_hash": "e5edd732",
-      "scored_at": "2026-08-04T15:58:44.536412Z"
-    },
-    "story_9dc2cb12e04f|cynic|f4237a62": {
-      "score": 45,
-      "review": "降价80%？先晒原价和算力消耗，别拿虚高定价当诚意。",
-      "title_hash": "34efd3d5",
-      "scored_at": "2026-08-04T15:58:50.877267Z"
-    },
-    "story_9dc2cb12e04f|paper-police|966065bf": {
-      "score": 12,
-      "review": "只有X帖子宣称永久降价，无官方公告或第三方验证，证据不足。",
-      "title_hash": "34efd3d5",
-      "scored_at": "2026-08-04T15:58:54.097889Z"
-    },
-    "story_494ad8597a8c|cynic|f4237a62": {
-      "score": 65,
-      "review": "权重开源是好事，但训练细节和评测基线呢？光有模型跑不出说服力。",
-      "title_hash": "7588acc6",
-      "scored_at": "2026-08-04T15:58:57.151888Z"
-    },
-    "story_494ad8597a8c|paper-police|966065bf": {
-      "score": 68,
-      "review": "权重开源可自测，缺论文和基准分，等第三方评测再说。",
-      "title_hash": "7588acc6",
-      "scored_at": "2026-08-04T15:59:02.654465Z"
-    },
     "story_e5db5b8745de|pragmatic|0a5c5b24": {
       "score": 72,
       "review": "用GitHub Spark的速查迁移指南，别在新项目上依赖它了。",
@@ -5418,6 +5268,60 @@
       "review": "博客给了数字但无代码无复现，等开源或第三方验证再定论。",
       "title_hash": "f6e17aca",
       "scored_at": "2026-08-25T14:40:48.688720Z"
+    },
+    "story_2e1e1831ce49|pragmatic|0a5c5b24": {
+      "score": 65,
+      "review": "IBM 新模型技术细节公开，做企业级部署的可以看下架构思路。",
+      "title_hash": "51e6d7cb",
+      "scored_at": "2026-08-25T16:47:28.871718Z"
+    },
+    "story_e7853aaebb60|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "家居装饰教程，跟开发者无关，纯生活向内容。",
+      "title_hash": "239da414",
+      "scored_at": "2026-08-25T16:47:30.114318Z"
+    },
+    "story_6e67842f0f7e|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "官方技术博客，讲架构思路，无新工具或API，暂不用行动。",
+      "title_hash": "cc73be4e",
+      "scored_at": "2026-08-25T16:47:31.230040Z"
+    },
+    "story_b95e33dbd1e9|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "推理性能新标杆，但没给API或开源，先观望等开放。",
+      "title_hash": "4a2d88a9",
+      "scored_at": "2026-08-25T16:47:32.420269Z"
+    },
+    "story_e1c25592fe2f|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "气象预测模型，对多数开发者无直接API，短期难落地。",
+      "title_hash": "925cbf5c",
+      "scored_at": "2026-08-25T16:47:33.523380Z"
+    },
+    "story_33fb169ced44|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "算力集中是趋势，但离你写代码很远，等真影响定价再看。",
+      "title_hash": "eff80a6a",
+      "scored_at": "2026-08-25T16:47:34.879976Z"
+    },
+    "story_97f565872705|pragmatic|0a5c5b24": {
+      "score": 55,
+      "review": "芯片参数看看就好，等真机跑分和价格出来再决定换不换。",
+      "title_hash": "cd821924",
+      "scored_at": "2026-08-25T16:47:36.052738Z"
+    },
+    "story_b95e33dbd1e9|cynic|f4237a62": {
+      "score": 72,
+      "review": "速度效率领先？先晒出对比基线和完整基准，别只给结论。",
+      "title_hash": "4a2d88a9",
+      "scored_at": "2026-08-25T16:47:37.496565Z"
+    },
+    "story_b95e33dbd1e9|paper-police|966065bf": {
+      "score": 30,
+      "review": "官方博客宣称领先，无论文无代码无第三方评测，证据不足。",
+      "title_hash": "4a2d88a9",
+      "scored_at": "2026-08-25T16:47:38.390226Z"
     }
   }
 }

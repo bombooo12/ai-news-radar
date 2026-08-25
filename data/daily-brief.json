@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-25T14:09:23.764985Z",
+  "generated_at": "2026-08-25T16:18:29.045940Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_6411634610d0",
-      "title": "量化感知修复：4位压缩模型超越全精度原版 / Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-      "primary_url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "story_id": "story_2e1e1831ce49",
+      "title": "Granite 4.2 LLM：它们是如何构建的 / Granite 4.2 LLMs: How They're Built",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "primary_url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
       "source": "Hugging Face Blog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "04b618df28b926c9c0332e417c3ad4705c0212a1",
-          "title": "量化感知修复：4位压缩模型超越全精度原版 / Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-          "title_zh": "量化感知修复：4位压缩模型超越全精度原版",
-          "title_en": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-          "title_original": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-          "summary": "A Blog post by Multiverse Computing on Hugging Face\nA Blog post by Multiverse Computing on Hugging Face\nWhy the usual healing methods fall short here Our approach Results QAH against QAT, head to head What this changes in practice Making a large language model smaller almost always comes with a cost. The now-standard recipe for efficient deployment is to compress the architecture first, cutting the parameter count by removing layers, heads, or neurons, and then quantize the remaining weights dow",
-          "recommend_reason_zh": "基于Multiverse Computing的新方法Quantization-Aware Healing（QAH），将GPT-OSS 120B压缩至60B并量化到MXFP4后，在7/9项基准上超越原bfloat16全精度版本，实现更小、更省且更准。",
-          "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+          "id": "b343f39bfe6c0fcb583e96ace127b7456d9cc623",
+          "title": "Granite 4.2 LLM：它们是如何构建的 / Granite 4.2 LLMs: How They're Built",
+          "title_zh": "Granite 4.2 LLM：它们是如何构建的",
+          "title_en": "Granite 4.2 LLMs: How They're Built",
+          "title_original": "Granite 4.2 LLMs: How They're Built",
+          "summary": "A Blog post by IBM Granite on Hugging Face\nA Blog post by IBM Granite on Hugging Face\nOverview Model Architecture Pre-Training SFT: Data Preparation & Quality Control Data Quality Control SFT Training Details Phase 2 SFT for the 30B Model Reinforcement Learning: A Multi-Stage, Multi-Environment Pipeline Training Methodology The Staged Curriculum Reward Signals Foundational RL: Build the Skills Agentic RL: Learning to Act (8B / 30B) Alignment: RLHF How the Three Sizes Differ Agentic AI Infrastruc",
+          "recommend_reason_zh": "IBM Granite 4.2是首个推理型LLM家族，3B/8B/30B三款模型从零预训练约15T tokens，支持512K上下文与思考/非思考切换，8B和30B还经智能体强化学习学会调用工具。",
+          "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
           "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-25T11:39:24Z"
+          "published_at": "2026-08-25T15:14:14Z"
         }
       ],
       "source_count": 1,
@@ -32,31 +32,31 @@
       ],
       "items": [
         {
-          "id": "04b618df28b926c9c0332e417c3ad4705c0212a1",
-          "title": "量化感知修复：4位压缩模型超越全精度原版 / Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-          "title_zh": "量化感知修复：4位压缩模型超越全精度原版",
-          "title_en": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-          "title_original": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-          "summary": "A Blog post by Multiverse Computing on Hugging Face\nA Blog post by Multiverse Computing on Hugging Face\nWhy the usual healing methods fall short here Our approach Results QAH against QAT, head to head What this changes in practice Making a large language model smaller almost always comes with a cost. The now-standard recipe for efficient deployment is to compress the architecture first, cutting the parameter count by removing layers, heads, or neurons, and then quantize the remaining weights dow",
-          "recommend_reason_zh": "基于Multiverse Computing的新方法Quantization-Aware Healing（QAH），将GPT-OSS 120B压缩至60B并量化到MXFP4后，在7/9项基准上超越原bfloat16全精度版本，实现更小、更省且更准。",
-          "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+          "id": "b343f39bfe6c0fcb583e96ace127b7456d9cc623",
+          "title": "Granite 4.2 LLM：它们是如何构建的 / Granite 4.2 LLMs: How They're Built",
+          "title_zh": "Granite 4.2 LLM：它们是如何构建的",
+          "title_en": "Granite 4.2 LLMs: How They're Built",
+          "title_original": "Granite 4.2 LLMs: How They're Built",
+          "summary": "A Blog post by IBM Granite on Hugging Face\nA Blog post by IBM Granite on Hugging Face\nOverview Model Architecture Pre-Training SFT: Data Preparation & Quality Control Data Quality Control SFT Training Details Phase 2 SFT for the 30B Model Reinforcement Learning: A Multi-Stage, Multi-Environment Pipeline Training Methodology The Staged Curriculum Reward Signals Foundational RL: Build the Skills Agentic RL: Learning to Act (8B / 30B) Alignment: RLHF How the Three Sizes Differ Agentic AI Infrastruc",
+          "recommend_reason_zh": "IBM Granite 4.2是首个推理型LLM家族，3B/8B/30B三款模型从零预训练约15T tokens，支持512K上下文与思考/非思考切换，8B和30B还经智能体强化学习学会调用工具。",
+          "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
           "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-25T11:39:24Z"
+          "published_at": "2026-08-25T15:14:14Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8536,
-      "importance": 0.8536,
-      "importance_score": 0.8536,
+      "score": 0.8652,
+      "importance": 0.8652,
+      "importance_score": 0.8652,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.9645,
+        "ai_relevance": 0.99,
+        "recency": 0.9847,
         "story_heat": 0.0
       },
       "category": "official",
@@ -65,27 +65,112 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-25T11:39:24Z",
-      "latest_at": "2026-08-25T11:39:24Z",
+      "earliest_at": "2026-08-25T15:14:14Z",
+      "latest_at": "2026-08-25T15:14:14Z",
       "primary_item": {
-        "id": "04b618df28b926c9c0332e417c3ad4705c0212a1",
-        "title": "量化感知修复：4位压缩模型超越全精度原版 / Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-        "title_zh": "量化感知修复：4位压缩模型超越全精度原版",
-        "title_en": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-        "title_original": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-        "summary": "A Blog post by Multiverse Computing on Hugging Face\nA Blog post by Multiverse Computing on Hugging Face\nWhy the usual healing methods fall short here Our approach Results QAH against QAT, head to head What this changes in practice Making a large language model smaller almost always comes with a cost. The now-standard recipe for efficient deployment is to compress the architecture first, cutting the parameter count by removing layers, heads, or neurons, and then quantize the remaining weights dow",
-        "recommend_reason_zh": "基于Multiverse Computing的新方法Quantization-Aware Healing（QAH），将GPT-OSS 120B压缩至60B并量化到MXFP4后，在7/9项基准上超越原bfloat16全精度版本，实现更小、更省且更准。",
-        "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+        "id": "b343f39bfe6c0fcb583e96ace127b7456d9cc623",
+        "title": "Granite 4.2 LLM：它们是如何构建的 / Granite 4.2 LLMs: How They're Built",
+        "title_zh": "Granite 4.2 LLM：它们是如何构建的",
+        "title_en": "Granite 4.2 LLMs: How They're Built",
+        "title_original": "Granite 4.2 LLMs: How They're Built",
+        "summary": "A Blog post by IBM Granite on Hugging Face\nA Blog post by IBM Granite on Hugging Face\nOverview Model Architecture Pre-Training SFT: Data Preparation & Quality Control Data Quality Control SFT Training Details Phase 2 SFT for the 30B Model Reinforcement Learning: A Multi-Stage, Multi-Environment Pipeline Training Methodology The Staged Curriculum Reward Signals Foundational RL: Build the Skills Agentic RL: Learning to Act (8B / 30B) Alignment: RLHF How the Three Sizes Differ Agentic AI Infrastruc",
+        "recommend_reason_zh": "IBM Granite 4.2是首个推理型LLM家族，3B/8B/30B三款模型从零预训练约15T tokens，支持512K上下文与思考/非思考切换，8B和30B还经智能体强化学习学会调用工具。",
+        "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
         "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
       },
       "persona_id": "pragmatic",
-      "persona_score": 72,
-      "persona_review": "4位量化模型反超原版，压缩部署可试，但需验证泛化性。",
+      "persona_score": 65,
+      "persona_review": "IBM 新模型技术细节公开，做企业级部署的可以看下架构思路。",
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T14:40:40.689507Z"
+        "scored_at": "2026-08-25T16:47:27.560902Z"
+      }
+    },
+    {
+      "story_id": "story_e7853aaebb60",
+      "title": "用Google Search升级家居装饰的5种方法 / 5 ways to upgrade your home decor with Google Search",
+      "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips",
+      "primary_url": "https://blog.google/products-and-platforms/products/search/home-decor-tips",
+      "source": "Google AI Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "0b2841eb6231ab409e73135b67fdec5ef997d3e2",
+          "title": "用Google Search升级家居装饰的5种方法 / 5 ways to upgrade your home decor with Google Search",
+          "title_zh": "用Google Search升级家居装饰的5种方法",
+          "title_en": "5 ways to upgrade your home decor with Google Search",
+          "title_original": "5 ways to upgrade your home decor with Google Search",
+          "summary": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.\nLearn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.\nLearn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.\nAug 25, 2026\nFrom tracking down unique vintage finds to seeing how new furniture fits before you buy, here’s how Google Search can help transform your living ",
+          "recommend_reason_zh": "本文介绍5种用Google Search改造家居的方法：用AI Mode上传房间照片模拟家具效果，用Google Lens识别vintage单品，用Circle to Search圈选搜索，并引用“home decor inspo”搜索量月增300%等数据。",
+          "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips",
+          "source": "Google AI Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T16:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Google AI Blog"
+      ],
+      "items": [
+        {
+          "id": "0b2841eb6231ab409e73135b67fdec5ef997d3e2",
+          "title": "用Google Search升级家居装饰的5种方法 / 5 ways to upgrade your home decor with Google Search",
+          "title_zh": "用Google Search升级家居装饰的5种方法",
+          "title_en": "5 ways to upgrade your home decor with Google Search",
+          "title_original": "5 ways to upgrade your home decor with Google Search",
+          "summary": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.\nLearn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.\nLearn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.\nAug 25, 2026\nFrom tracking down unique vintage finds to seeing how new furniture fits before you buy, here’s how Google Search can help transform your living ",
+          "recommend_reason_zh": "本文介绍5种用Google Search改造家居的方法：用AI Mode上传房间照片模拟家具效果，用Google Lens识别vintage单品，用Circle to Search圈选搜索，并引用“home decor inspo”搜索量月增300%等数据。",
+          "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips",
+          "source": "Google AI Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T16:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8432,
+      "importance": 0.8432,
+      "importance_score": 0.8432,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9956,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-25T16:00:00Z",
+      "latest_at": "2026-08-25T16:00:00Z",
+      "primary_item": {
+        "id": "0b2841eb6231ab409e73135b67fdec5ef997d3e2",
+        "title": "用Google Search升级家居装饰的5种方法 / 5 ways to upgrade your home decor with Google Search",
+        "title_zh": "用Google Search升级家居装饰的5种方法",
+        "title_en": "5 ways to upgrade your home decor with Google Search",
+        "title_original": "5 ways to upgrade your home decor with Google Search",
+        "summary": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.\nLearn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.\nLearn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.\nAug 25, 2026\nFrom tracking down unique vintage finds to seeing how new furniture fits before you buy, here’s how Google Search can help transform your living ",
+        "recommend_reason_zh": "本文介绍5种用Google Search改造家居的方法：用AI Mode上传房间照片模拟家具效果，用Google Lens识别vintage单品，用Circle to Search圈选搜索，并引用“home decor inspo”搜索量月增300%等数据。",
+        "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips",
+        "source": "Google AI Blog",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 25,
+      "persona_review": "家居装饰教程，跟开发者无关，纯生活向内容。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-08-25T16:47:27.560902Z"
       }
     },
     {
@@ -116,7 +201,7 @@
           "title_zh": "Apple发布M6和M5 Ultra，性能和AI算力实现巨大飞跃",
           "title_en": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
           "title_original": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
-          "summary": "- Xiaomi: We have matched Apple in CPU performance.\n    - Apple: *Meep Meep...*\nreply\nreply\nreply\nreply\nreply\nI assume the M6 will take the crown back and then a few months later Intel/AMD will release a new chip and take that crown back again.   That's the state of the world we used to expect, but it's a state that has been missing ever since the release of the M1 in 2020 until Intel finally caught up again this year.\nreply\nWhen plugged in... This caveat is so enormous it should almost be legis",
+          "summary": null,
           "recommend_reason_zh": "Apple发布M6与M5 Ultra，性能与AI算力大幅跃升。评论热议：Xiaomi称CPU已追平Apple，M1自2020年发布至今年Intel才追上；另有评论提醒拔电后GPU性能可能降至20-40%。",
           "url": "https://news.ycombinator.com/item?id=49433292",
           "source": "hackernews",
@@ -130,7 +215,7 @@
           "title_zh": "苹果推出 M6 和 M5 Ultra，性能和人工智能计算能力实现重大飞跃",
           "title_en": null,
           "title_original": "苹果推出 M6 和 M5 Ultra，性能和人工智能计算能力实现重大飞跃",
-          "summary": "Apple debuted M6 in the new Mac mini and M5 Ultra in the new Mac Studio, providing an extraordinary leap in performance and AI capabilities.\nApple debuted M6 in the new Mac mini and M5 Ultra in the new Mac Studio, providing an extraordinary leap in performance and AI capabilities.\nText of this article\nAugust 25, 2026\nPRESS RELEASE\nApple introduces M6 and M5 Ultra for a big leap in performance and AI compute\nM6, Apple’s first 2 nm chip, features a larger, more powerful 12-core CPU, 12-core GPU, a",
+          "summary": null,
           "recommend_reason_zh": "本文报道苹果发布M6与M5 Ultra：M6是首款2nm芯片，12核CPU/GPU；M5 Ultra采用四die架构，最高80核GPU，带宽1.2TB/s。",
           "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute",
           "source": "www.apple.com",
@@ -144,7 +229,7 @@
           "title_zh": "苹果推出 M6 和 M5 Ultra，性能和 AI 算力大幅跃升",
           "title_en": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
           "title_original": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
-          "summary": "Apple debuted M6 in the new Mac mini and M5 Ultra in the new Mac Studio, providing an extraordinary leap in performance and AI capabilities.\nApple debuted M6 in the new Mac mini and M5 Ultra in the new Mac Studio, providing an extraordinary leap in performance and AI capabilities.\nText of this article\nAugust 25, 2026\nPRESS RELEASE\nApple introduces M6 and M5 Ultra for a big leap in performance and AI compute\nM6, Apple’s first 2 nm chip, features a larger, more powerful 12-core CPU, 12-core GPU, a",
+          "summary": null,
           "recommend_reason_zh": "Apple发布M6与M5 Ultra芯片，带来性能和AI计算的巨大飞跃：M6为首款2nm制程，12核CPU加双16核神经引擎；M5 Ultra采用四芯片架构，最高80核GPU和1.2TB/s带宽，较M3 Ultra提升50%。",
           "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute",
           "source": "Hacker News",
@@ -181,7 +266,7 @@
           "title_zh": "Apple发布M6和M5 Ultra，性能和AI算力实现巨大飞跃",
           "title_en": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
           "title_original": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
-          "summary": "- Xiaomi: We have matched Apple in CPU performance.\n    - Apple: *Meep Meep...*\nreply\nreply\nreply\nreply\nreply\nI assume the M6 will take the crown back and then a few months later Intel/AMD will release a new chip and take that crown back again.   That's the state of the world we used to expect, but it's a state that has been missing ever since the release of the M1 in 2020 until Intel finally caught up again this year.\nreply\nWhen plugged in... This caveat is so enormous it should almost be legis",
+          "summary": null,
           "recommend_reason_zh": "Apple发布M6与M5 Ultra，性能与AI算力大幅跃升。评论热议：Xiaomi称CPU已追平Apple，M1自2020年发布至今年Intel才追上；另有评论提醒拔电后GPU性能可能降至20-40%。",
           "url": "https://news.ycombinator.com/item?id=49433292",
           "source": "hackernews",
@@ -195,7 +280,7 @@
           "title_zh": "苹果推出 M6 和 M5 Ultra，性能和人工智能计算能力实现重大飞跃",
           "title_en": null,
           "title_original": "苹果推出 M6 和 M5 Ultra，性能和人工智能计算能力实现重大飞跃",
-          "summary": "Apple debuted M6 in the new Mac mini and M5 Ultra in the new Mac Studio, providing an extraordinary leap in performance and AI capabilities.\nApple debuted M6 in the new Mac mini and M5 Ultra in the new Mac Studio, providing an extraordinary leap in performance and AI capabilities.\nText of this article\nAugust 25, 2026\nPRESS RELEASE\nApple introduces M6 and M5 Ultra for a big leap in performance and AI compute\nM6, Apple’s first 2 nm chip, features a larger, more powerful 12-core CPU, 12-core GPU, a",
+          "summary": null,
           "recommend_reason_zh": "本文报道苹果发布M6与M5 Ultra：M6是首款2nm芯片，12核CPU/GPU；M5 Ultra采用四die架构，最高80核GPU，带宽1.2TB/s。",
           "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute",
           "source": "www.apple.com",
@@ -209,7 +294,7 @@
           "title_zh": "苹果推出 M6 和 M5 Ultra，性能和 AI 算力大幅跃升",
           "title_en": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
           "title_original": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
-          "summary": "Apple debuted M6 in the new Mac mini and M5 Ultra in the new Mac Studio, providing an extraordinary leap in performance and AI capabilities.\nApple debuted M6 in the new Mac mini and M5 Ultra in the new Mac Studio, providing an extraordinary leap in performance and AI capabilities.\nText of this article\nAugust 25, 2026\nPRESS RELEASE\nApple introduces M6 and M5 Ultra for a big leap in performance and AI compute\nM6, Apple’s first 2 nm chip, features a larger, more powerful 12-core CPU, 12-core GPU, a",
+          "summary": null,
           "recommend_reason_zh": "Apple发布M6与M5 Ultra芯片，带来性能和AI计算的巨大飞跃：M6为首款2nm制程，12核CPU加双16核神经引擎；M5 Ultra采用四芯片架构，最高80核GPU和1.2TB/s带宽，较M3 Ultra提升50%。",
           "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute",
           "source": "Hacker News",
@@ -220,15 +305,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8354,
-      "importance": 0.8354,
-      "importance_score": 0.8354,
+      "score": 0.8299,
+      "importance": 0.8299,
+      "importance_score": 0.8299,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9934,
+        "recency": 0.963,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -257,30 +342,30 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T14:40:40.689507Z"
+        "scored_at": "2026-08-25T16:47:27.560902Z"
       }
     },
     {
-      "story_id": "story_4c08adc024bd",
-      "title": "瓦解俄罗斯新一轮秘密影响力行动 / Disrupting a new covert influence campaign from Russia",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "primary_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "story_id": "story_6e67842f0f7e",
+      "title": "充裕智能背后的全栈技术 / The full stack behind abundant intelligence",
+      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "primary_url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
       "source": "OpenAI News",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "6bd2adbc583117c8e7211725eab9f4bfe5fd0ba9",
-          "title": "瓦解俄罗斯新一轮秘密影响力行动 / Disrupting a new covert influence campaign from Russia",
-          "title_zh": "瓦解俄罗斯新一轮秘密影响力行动",
-          "title_en": "Disrupting a new covert influence campaign from Russia",
-          "title_original": "Disrupting a new covert influence campaign from Russia",
-          "summary": null,
-          "recommend_reason_zh": "OpenAI封禁了源自俄罗斯的ChatGPT账号集群，这些账号用AI生成评论推广虚假的以色列智库International Burke Institute及美化俄罗斯的“主权”指数，并通过VPN隐藏俄语痕迹。",
-          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+          "id": "c11537df89677eb075157ecdbf835a264160de84",
+          "title": "充裕智能背后的全栈技术 / The full stack behind abundant intelligence",
+          "title_zh": "充裕智能背后的全栈技术",
+          "title_en": "The full stack behind abundant intelligence",
+          "title_original": "The full stack behind abundant intelligence",
+          "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.\nOpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.\nOpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+          "recommend_reason_zh": "OpenAI首次公布自研推理芯片Jalapeño的实测成绩：在InferenceX基准上，GPT-OSS 120B模型实现更高每千瓦吞吐量和更低token延迟，对DeepSeek R1和Kimi K2也表现强劲，展示了芯片到产品全栈协同如何降低成本、扩大规模。",
+          "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-25T00:00:00Z"
+          "published_at": "2026-08-25T07:05:00Z"
         }
       ],
       "source_count": 1,
@@ -289,31 +374,31 @@
       ],
       "items": [
         {
-          "id": "6bd2adbc583117c8e7211725eab9f4bfe5fd0ba9",
-          "title": "瓦解俄罗斯新一轮秘密影响力行动 / Disrupting a new covert influence campaign from Russia",
-          "title_zh": "瓦解俄罗斯新一轮秘密影响力行动",
-          "title_en": "Disrupting a new covert influence campaign from Russia",
-          "title_original": "Disrupting a new covert influence campaign from Russia",
-          "summary": null,
-          "recommend_reason_zh": "OpenAI封禁了源自俄罗斯的ChatGPT账号集群，这些账号用AI生成评论推广虚假的以色列智库International Burke Institute及美化俄罗斯的“主权”指数，并通过VPN隐藏俄语痕迹。",
-          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+          "id": "c11537df89677eb075157ecdbf835a264160de84",
+          "title": "充裕智能背后的全栈技术 / The full stack behind abundant intelligence",
+          "title_zh": "充裕智能背后的全栈技术",
+          "title_en": "The full stack behind abundant intelligence",
+          "title_original": "The full stack behind abundant intelligence",
+          "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.\nOpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.\nOpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+          "recommend_reason_zh": "OpenAI首次公布自研推理芯片Jalapeño的实测成绩：在InferenceX基准上，GPT-OSS 120B模型实现更高每千瓦吞吐量和更低token延迟，对DeepSeek R1和Kimi K2也表现强劲，展示了芯片到产品全栈协同如何降低成本、扩大规模。",
+          "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-25T00:00:00Z"
+          "published_at": "2026-08-25T07:05:00Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8187,
-      "importance": 0.8187,
-      "importance_score": 0.8187,
+      "score": 0.8296,
+      "importance": 0.8296,
+      "importance_score": 0.8296,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8151,
+        "recency": 0.8753,
         "story_heat": 0.0
       },
       "category": "official",
@@ -322,27 +407,281 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-25T00:00:00Z",
-      "latest_at": "2026-08-25T00:00:00Z",
+      "earliest_at": "2026-08-25T07:05:00Z",
+      "latest_at": "2026-08-25T07:05:00Z",
       "primary_item": {
-        "id": "6bd2adbc583117c8e7211725eab9f4bfe5fd0ba9",
-        "title": "瓦解俄罗斯新一轮秘密影响力行动 / Disrupting a new covert influence campaign from Russia",
-        "title_zh": "瓦解俄罗斯新一轮秘密影响力行动",
-        "title_en": "Disrupting a new covert influence campaign from Russia",
-        "title_original": "Disrupting a new covert influence campaign from Russia",
-        "summary": null,
-        "recommend_reason_zh": "OpenAI封禁了源自俄罗斯的ChatGPT账号集群，这些账号用AI生成评论推广虚假的以色列智库International Burke Institute及美化俄罗斯的“主权”指数，并通过VPN隐藏俄语痕迹。",
-        "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+        "id": "c11537df89677eb075157ecdbf835a264160de84",
+        "title": "充裕智能背后的全栈技术 / The full stack behind abundant intelligence",
+        "title_zh": "充裕智能背后的全栈技术",
+        "title_en": "The full stack behind abundant intelligence",
+        "title_original": "The full stack behind abundant intelligence",
+        "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.\nOpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.\nOpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+        "recommend_reason_zh": "OpenAI首次公布自研推理芯片Jalapeño的实测成绩：在InferenceX基准上，GPT-OSS 120B模型实现更高每千瓦吞吐量和更低token延迟，对DeepSeek R1和Kimi K2也表现强劲，展示了芯片到产品全栈协同如何降低成本、扩大规模。",
+        "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
       },
       "persona_id": "pragmatic",
-      "persona_score": 40,
-      "persona_review": "安全报告看看即可，不影响日常开发选型。",
+      "persona_score": 45,
+      "persona_review": "官方技术博客，讲架构思路，无新工具或API，暂不用行动。",
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T14:40:40.689507Z"
+        "scored_at": "2026-08-25T16:47:27.560902Z"
+      }
+    },
+    {
+      "story_id": "story_6411634610d0",
+      "title": "量化感知修复：4位压缩模型超越全精度原版 / Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "primary_url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "04b618df28b926c9c0332e417c3ad4705c0212a1",
+          "title": "量化感知修复：4位压缩模型超越全精度原版 / Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+          "title_zh": "量化感知修复：4位压缩模型超越全精度原版",
+          "title_en": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+          "title_original": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+          "summary": null,
+          "recommend_reason_zh": "基于Multiverse Computing的新方法Quantization-Aware Healing（QAH），将GPT-OSS 120B压缩至60B并量化到MXFP4后，在7/9项基准上超越原bfloat16全精度版本，实现更小、更省且更准。",
+          "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T11:39:24Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "items": [
+        {
+          "id": "04b618df28b926c9c0332e417c3ad4705c0212a1",
+          "title": "量化感知修复：4位压缩模型超越全精度原版 / Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+          "title_zh": "量化感知修复：4位压缩模型超越全精度原版",
+          "title_en": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+          "title_original": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+          "summary": null,
+          "recommend_reason_zh": "基于Multiverse Computing的新方法Quantization-Aware Healing（QAH），将GPT-OSS 120B压缩至60B并量化到MXFP4后，在7/9项基准上超越原bfloat16全精度版本，实现更小、更省且更准。",
+          "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T11:39:24Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8483,
+      "importance": 0.8483,
+      "importance_score": 0.8483,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.935,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-25T11:39:24Z",
+      "latest_at": "2026-08-25T11:39:24Z",
+      "primary_item": {
+        "id": "04b618df28b926c9c0332e417c3ad4705c0212a1",
+        "title": "量化感知修复：4位压缩模型超越全精度原版 / Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+        "title_zh": "量化感知修复：4位压缩模型超越全精度原版",
+        "title_en": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+        "title_original": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+        "summary": null,
+        "recommend_reason_zh": "基于Multiverse Computing的新方法Quantization-Aware Healing（QAH），将GPT-OSS 120B压缩至60B并量化到MXFP4后，在7/9项基准上超越原bfloat16全精度版本，实现更小、更省且更准。",
+        "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+        "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 72,
+      "persona_review": "4位量化模型反超原版，压缩部署可试，但需验证泛化性。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-08-25T16:47:27.560902Z"
+      }
+    },
+    {
+      "story_id": "story_b95e33dbd1e9",
+      "title": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平 / Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "url": "https://openai.com/index/jalapeno-first-results",
+      "primary_url": "https://openai.com/index/jalapeno-first-results",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "b3bde5a716f5cd02908984c8fb28a797c214d23e",
+          "title": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平 / Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+          "title_zh": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平",
+          "title_en": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+          "title_original": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+          "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nJalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nJalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nAugus",
+          "recommend_reason_zh": "Jalapeño是OpenAI首款自研推理芯片，实测在GPT-OSS 120B、DeepSeek R1和Kimi K2.5 1T上每瓦AI工作量提升1.5至1.9倍，端到端延迟降低1.7至3.6倍，交互负载性能达2.1至4.1倍，兼顾吞吐与效率。",
+          "url": "https://openai.com/index/jalapeno-first-results",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T07:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "b3bde5a716f5cd02908984c8fb28a797c214d23e",
+          "title": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平 / Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+          "title_zh": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平",
+          "title_en": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+          "title_original": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+          "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nJalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nJalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nAugus",
+          "recommend_reason_zh": "Jalapeño是OpenAI首款自研推理芯片，实测在GPT-OSS 120B、DeepSeek R1和Kimi K2.5 1T上每瓦AI工作量提升1.5至1.9倍，端到端延迟降低1.7至3.6倍，交互负载性能达2.1至4.1倍，兼顾吞吐与效率。",
+          "url": "https://openai.com/index/jalapeno-first-results",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T07:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8294,
+      "importance": 0.8294,
+      "importance_score": 0.8294,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8742,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-25T07:00:00Z",
+      "latest_at": "2026-08-25T07:00:00Z",
+      "primary_item": {
+        "id": "b3bde5a716f5cd02908984c8fb28a797c214d23e",
+        "title": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平 / Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+        "title_zh": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平",
+        "title_en": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+        "title_original": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+        "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nJalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nJalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nAugus",
+        "recommend_reason_zh": "Jalapeño是OpenAI首款自研推理芯片，实测在GPT-OSS 120B、DeepSeek R1和Kimi K2.5 1T上每瓦AI工作量提升1.5至1.9倍，端到端延迟降低1.7至3.6倍，交互负载性能达2.1至4.1倍，兼顾吞吐与效率。",
+        "url": "https://openai.com/index/jalapeno-first-results",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 72,
+      "persona_review": "推理性能新标杆，但没给API或开源，先观望等开放。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-08-25T16:47:27.560902Z"
+      }
+    },
+    {
+      "story_id": "story_e1c25592fe2f",
+      "title": "WeatherNext 预测气旋：提前五天预警五级飓风 / https://x.com/i/article/2092249927812337664",
+      "url": "https://x.com/GoogleAI/status/2092275116503707733",
+      "primary_url": "https://x.com/GoogleAI/status/2092275116503707733",
+      "source": "X：Google AI (@GoogleAI)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "5ae985e719104741d17e0406d4efd8ff4e4b64cf",
+          "title": "WeatherNext 预测气旋：提前五天预警五级飓风 / https://x.com/i/article/2092249927812337664",
+          "title_zh": "WeatherNext 预测气旋：提前五天预警五级飓风",
+          "title_en": "https://x.com/i/article/2092249927812337664",
+          "title_original": "https://x.com/i/article/2092249927812337664",
+          "summary": "Google AI 发布 WeatherNext 气旋预测模型，可同时预测风暴路径、强度和规模，比现有系统多提供一整天的预警时间。该模型在 2025 飓风季实战测试中，提前五天预测飓风 Melissa 在牙买加的五级登陆，系美国国家飓风中心首次实时使用 AI 模型。模型单场风暴可生成多达 1000 次模拟，代码与权重已开源。",
+          "recommend_reason_zh": "WeatherNext Cyclones是Google DeepMind与Google Research的AI预报模型，2025年飓风季让U.S. National Hurricane Center首次实时采用，提前五天预测Hurricane Melissa五级登陆牙买加，并比旧系统多争取一天预警时间。",
+          "url": "https://x.com/GoogleAI/status/2092275116503707733",
+          "source": "X：Google AI (@GoogleAI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-25T15:37:15Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Google AI (@GoogleAI)"
+      ],
+      "items": [
+        {
+          "id": "5ae985e719104741d17e0406d4efd8ff4e4b64cf",
+          "title": "WeatherNext 预测气旋：提前五天预警五级飓风 / https://x.com/i/article/2092249927812337664",
+          "title_zh": "WeatherNext 预测气旋：提前五天预警五级飓风",
+          "title_en": "https://x.com/i/article/2092249927812337664",
+          "title_original": "https://x.com/i/article/2092249927812337664",
+          "summary": "Google AI 发布 WeatherNext 气旋预测模型，可同时预测风暴路径、强度和规模，比现有系统多提供一整天的预警时间。该模型在 2025 飓风季实战测试中，提前五天预测飓风 Melissa 在牙买加的五级登陆，系美国国家飓风中心首次实时使用 AI 模型。模型单场风暴可生成多达 1000 次模拟，代码与权重已开源。",
+          "recommend_reason_zh": "WeatherNext Cyclones是Google DeepMind与Google Research的AI预报模型，2025年飓风季让U.S. National Hurricane Center首次实时采用，提前五天预测Hurricane Melissa五级登陆牙买加，并比旧系统多争取一天预警时间。",
+          "url": "https://x.com/GoogleAI/status/2092275116503707733",
+          "source": "X：Google AI (@GoogleAI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-25T15:37:15Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7688,
+      "importance": 0.7688,
+      "importance_score": 0.7688,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9901,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-25T15:37:15Z",
+      "latest_at": "2026-08-25T15:37:15Z",
+      "primary_item": {
+        "id": "5ae985e719104741d17e0406d4efd8ff4e4b64cf",
+        "title": "WeatherNext 预测气旋：提前五天预警五级飓风 / https://x.com/i/article/2092249927812337664",
+        "title_zh": "WeatherNext 预测气旋：提前五天预警五级飓风",
+        "title_en": "https://x.com/i/article/2092249927812337664",
+        "title_original": "https://x.com/i/article/2092249927812337664",
+        "summary": "Google AI 发布 WeatherNext 气旋预测模型，可同时预测风暴路径、强度和规模，比现有系统多提供一整天的预警时间。该模型在 2025 飓风季实战测试中，提前五天预测飓风 Melissa 在牙买加的五级登陆，系美国国家飓风中心首次实时使用 AI 模型。模型单场风暴可生成多达 1000 次模拟，代码与权重已开源。",
+        "recommend_reason_zh": "WeatherNext Cyclones是Google DeepMind与Google Research的AI预报模型，2025年飓风季让U.S. National Hurricane Center首次实时采用，提前五天预测Hurricane Melissa五级登陆牙买加，并比旧系统多争取一天预警时间。",
+        "url": "https://x.com/GoogleAI/status/2092275116503707733",
+        "source": "X：Google AI (@GoogleAI)",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "气象预测模型，对多数开发者无直接API，短期难落地。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-08-25T16:47:27.560902Z"
       }
     },
     {
@@ -390,15 +729,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8267,
-      "importance": 0.8267,
-      "importance_score": 0.8267,
+      "score": 0.8222,
+      "importance": 0.8222,
+      "importance_score": 0.8222,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8151,
+        "recency": 0.7902,
         "story_heat": 0.0
       },
       "category": "official",
@@ -427,7 +766,92 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T14:40:40.689507Z"
+        "scored_at": "2026-08-25T16:47:27.560902Z"
+      }
+    },
+    {
+      "story_id": "story_4c08adc024bd",
+      "title": "瓦解俄罗斯新一轮秘密影响力行动 / Disrupting a new covert influence campaign from Russia",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "primary_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "6bd2adbc583117c8e7211725eab9f4bfe5fd0ba9",
+          "title": "瓦解俄罗斯新一轮秘密影响力行动 / Disrupting a new covert influence campaign from Russia",
+          "title_zh": "瓦解俄罗斯新一轮秘密影响力行动",
+          "title_en": "Disrupting a new covert influence campaign from Russia",
+          "title_original": "Disrupting a new covert influence campaign from Russia",
+          "summary": null,
+          "recommend_reason_zh": "OpenAI封禁了源自俄罗斯的ChatGPT账号集群，这些账号用AI生成评论推广虚假的以色列智库International Burke Institute及美化俄罗斯的“主权”指数，并通过VPN隐藏俄语痕迹。",
+          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T00:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "6bd2adbc583117c8e7211725eab9f4bfe5fd0ba9",
+          "title": "瓦解俄罗斯新一轮秘密影响力行动 / Disrupting a new covert influence campaign from Russia",
+          "title_zh": "瓦解俄罗斯新一轮秘密影响力行动",
+          "title_en": "Disrupting a new covert influence campaign from Russia",
+          "title_original": "Disrupting a new covert influence campaign from Russia",
+          "summary": null,
+          "recommend_reason_zh": "OpenAI封禁了源自俄罗斯的ChatGPT账号集群，这些账号用AI生成评论推广虚假的以色列智库International Burke Institute及美化俄罗斯的“主权”指数，并通过VPN隐藏俄语痕迹。",
+          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T00:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8142,
+      "importance": 0.8142,
+      "importance_score": 0.8142,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.7902,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-25T00:00:00Z",
+      "latest_at": "2026-08-25T00:00:00Z",
+      "primary_item": {
+        "id": "6bd2adbc583117c8e7211725eab9f4bfe5fd0ba9",
+        "title": "瓦解俄罗斯新一轮秘密影响力行动 / Disrupting a new covert influence campaign from Russia",
+        "title_zh": "瓦解俄罗斯新一轮秘密影响力行动",
+        "title_en": "Disrupting a new covert influence campaign from Russia",
+        "title_original": "Disrupting a new covert influence campaign from Russia",
+        "summary": null,
+        "recommend_reason_zh": "OpenAI封禁了源自俄罗斯的ChatGPT账号集群，这些账号用AI生成评论推广虚假的以色列智库International Burke Institute及美化俄罗斯的“主权”指数，并通过VPN隐藏俄语痕迹。",
+        "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 40,
+      "persona_review": "安全报告看看即可，不影响日常开发选型。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-08-25T16:47:27.560902Z"
       }
     },
     {
@@ -475,21 +899,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7546,
-      "importance": 0.7546,
-      "importance_score": 0.7546,
+      "score": 0.7495,
+      "importance": 0.7495,
+      "importance_score": 0.7495,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.928,
+        "recency": 0.8997,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-08-25T08:59:06.973321Z",
       "latest_at": "2026-08-25T08:59:06.973321Z",
@@ -511,7 +934,90 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T14:40:40.689507Z"
+        "scored_at": "2026-08-25T16:47:27.560902Z"
+      }
+    },
+    {
+      "story_id": "story_33fb169ced44",
+      "title": "Dylan Patel：Anthropic 与 OpenAI 到 2028 年将控制全球大部分算力 / Dylan Patel - Anthropic & OpenAI will have most of the world's compute by 2028",
+      "url": "https://www.dwarkesh.com/p/dylan-patel-3",
+      "primary_url": "https://www.dwarkesh.com/p/dylan-patel-3",
+      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "5d63273982e062f7d8bb53aeac2027ff9a8ded8f",
+          "title": "Dylan Patel：Anthropic 与 OpenAI 到 2028 年将控制全球大部分算力 / Dylan Patel - Anthropic & OpenAI will have most of the world's compute by 2028",
+          "title_zh": "Dylan Patel：Anthropic 与 OpenAI 到 2028 年将控制全球大部分算力",
+          "title_en": "Dylan Patel - Anthropic & OpenAI will have most of the world's compute by 2028",
+          "title_original": "Dylan Patel - Anthropic & OpenAI will have most of the world's compute by 2028",
+          "summary": "在最新一期播客中，SemiAnalysis 创始人 Dylan Patel 与 Dwarkesh Patel 讨论实验室经济学，预计 Anthropic 和 OpenAI 到 2028 年将控制全球大部分可用 FLOPs，因其能更好变现算力并出价高于其他方。",
+          "recommend_reason_zh": null,
+          "url": "https://www.dwarkesh.com/p/dylan-patel-3",
+          "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-25T15:32:57Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Dwarkesh Patel：Podcast & Blog（RSS）"
+      ],
+      "items": [
+        {
+          "id": "5d63273982e062f7d8bb53aeac2027ff9a8ded8f",
+          "title": "Dylan Patel：Anthropic 与 OpenAI 到 2028 年将控制全球大部分算力 / Dylan Patel - Anthropic & OpenAI will have most of the world's compute by 2028",
+          "title_zh": "Dylan Patel：Anthropic 与 OpenAI 到 2028 年将控制全球大部分算力",
+          "title_en": "Dylan Patel - Anthropic & OpenAI will have most of the world's compute by 2028",
+          "title_original": "Dylan Patel - Anthropic & OpenAI will have most of the world's compute by 2028",
+          "summary": "在最新一期播客中，SemiAnalysis 创始人 Dylan Patel 与 Dwarkesh Patel 讨论实验室经济学，预计 Anthropic 和 OpenAI 到 2028 年将控制全球大部分可用 FLOPs，因其能更好变现算力并出价高于其他方。",
+          "recommend_reason_zh": null,
+          "url": "https://www.dwarkesh.com/p/dylan-patel-3",
+          "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-25T15:32:57Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7416,
+      "importance": 0.7416,
+      "importance_score": 0.7416,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.64,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9891,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-25T15:32:57Z",
+      "latest_at": "2026-08-25T15:32:57Z",
+      "primary_item": {
+        "id": "5d63273982e062f7d8bb53aeac2027ff9a8ded8f",
+        "title": "Dylan Patel：Anthropic 与 OpenAI 到 2028 年将控制全球大部分算力 / Dylan Patel - Anthropic & OpenAI will have most of the world's compute by 2028",
+        "title_zh": "Dylan Patel：Anthropic 与 OpenAI 到 2028 年将控制全球大部分算力",
+        "title_en": "Dylan Patel - Anthropic & OpenAI will have most of the world's compute by 2028",
+        "title_original": "Dylan Patel - Anthropic & OpenAI will have most of the world's compute by 2028",
+        "summary": "在最新一期播客中，SemiAnalysis 创始人 Dylan Patel 与 Dwarkesh Patel 讨论实验室经济学，预计 Anthropic 和 OpenAI 到 2028 年将控制全球大部分可用 FLOPs，因其能更好变现算力并出价高于其他方。",
+        "recommend_reason_zh": null,
+        "url": "https://www.dwarkesh.com/p/dylan-patel-3",
+        "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 25,
+      "persona_review": "算力集中是趋势，但离你写代码很远，等真影响定价再看。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-08-25T16:47:27.560902Z"
       }
     },
     {
@@ -559,15 +1065,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7406,
-      "importance": 0.7406,
-      "importance_score": 0.7406,
+      "score": 0.7352,
+      "importance": 0.7352,
+      "importance_score": 0.7352,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.64,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9835,
+        "recency": 0.9534,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -594,120 +1100,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T14:40:40.689507Z"
-      }
-    },
-    {
-      "story_id": "story_929ed190248c",
-      "title": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？ / OpenAI is building AI agents for everything. Will everyone use them？",
-      "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
-      "primary_url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
-      "source": "TechCrunch：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "e2750c619f1c2b7cd0fd5107485707a151770103",
-          "title": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？ / OpenAI is building AI agents for everything. Will everyone use them？",
-          "title_zh": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？",
-          "title_en": "OpenAI is building AI agents for everything. Will everyone use them？",
-          "title_original": "OpenAI is building AI agents for everything. Will everyone use them？",
-          "summary": "OpenAI 推出 ChatGPT Work，将 Codex 改造为面向非工程师的智能体产品，最低订阅档每月 20 美元即可使用，旨在让白领通过 LLM 自主完成多步骤工作。OpenAI 内部 6 月有 98% 员工使用 Codex，但组织订阅者仅 17%、个人订阅者不足 1%。公司正通过简化界面扩大采用，以支撑其巨额训练投入。",
-          "recommend_reason_zh": "OpenAI正把AI代理从软件工程师推向大众，这篇报道深入前沿实验室的推进过程，追问这类工具能否真正普及到每个人手中。",
-          "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-24T15:00:00Z"
-        },
-        {
-          "id": "fb1f0a2a15004e6ab87eb2dbad8fef8a656f7afa",
-          "title": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？ / OpenAI is building AI agents for everything. Will everyone use them?",
-          "title_zh": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？",
-          "title_en": "OpenAI is building AI agents for everything. Will everyone use them?",
-          "title_original": "OpenAI is building AI agents for everything. Will everyone use them?",
-          "summary": null,
-          "recommend_reason_zh": "OpenAI正全力打造覆盖一切的AI agents，并试图将其从软件工程师推向普通大众。这篇报道深入前沿实验室的推动内幕，探讨人人是否都会用上AI代理这一关键问题。",
-          "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-08-24T15:00:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch AI",
-        "TechCrunch：AI（RSS）"
-      ],
-      "items": [
-        {
-          "id": "e2750c619f1c2b7cd0fd5107485707a151770103",
-          "title": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？ / OpenAI is building AI agents for everything. Will everyone use them？",
-          "title_zh": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？",
-          "title_en": "OpenAI is building AI agents for everything. Will everyone use them？",
-          "title_original": "OpenAI is building AI agents for everything. Will everyone use them？",
-          "summary": "OpenAI 推出 ChatGPT Work，将 Codex 改造为面向非工程师的智能体产品，最低订阅档每月 20 美元即可使用，旨在让白领通过 LLM 自主完成多步骤工作。OpenAI 内部 6 月有 98% 员工使用 Codex，但组织订阅者仅 17%、个人订阅者不足 1%。公司正通过简化界面扩大采用，以支撑其巨额训练投入。",
-          "recommend_reason_zh": "OpenAI正把AI代理从软件工程师推向大众，这篇报道深入前沿实验室的推进过程，追问这类工具能否真正普及到每个人手中。",
-          "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-24T15:00:00Z"
-        },
-        {
-          "id": "fb1f0a2a15004e6ab87eb2dbad8fef8a656f7afa",
-          "title": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？ / OpenAI is building AI agents for everything. Will everyone use them?",
-          "title_zh": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？",
-          "title_en": "OpenAI is building AI agents for everything. Will everyone use them?",
-          "title_original": "OpenAI is building AI agents for everything. Will everyone use them?",
-          "summary": null,
-          "recommend_reason_zh": "OpenAI正全力打造覆盖一切的AI agents，并试图将其从软件工程师推向普通大众。这篇报道深入前沿实验室的推动内幕，探讨人人是否都会用上AI代理这一关键问题。",
-          "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-08-24T15:00:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7354,
-      "importance": 0.7354,
-      "importance_score": 0.7354,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7158,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-24T15:00:00Z",
-      "latest_at": "2026-08-24T15:00:00Z",
-      "primary_item": {
-        "id": "e2750c619f1c2b7cd0fd5107485707a151770103",
-        "title": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？ / OpenAI is building AI agents for everything. Will everyone use them？",
-        "title_zh": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？",
-        "title_en": "OpenAI is building AI agents for everything. Will everyone use them？",
-        "title_original": "OpenAI is building AI agents for everything. Will everyone use them？",
-        "summary": "OpenAI 推出 ChatGPT Work，将 Codex 改造为面向非工程师的智能体产品，最低订阅档每月 20 美元即可使用，旨在让白领通过 LLM 自主完成多步骤工作。OpenAI 内部 6 月有 98% 员工使用 Codex，但组织订阅者仅 17%、个人订阅者不足 1%。公司正通过简化界面扩大采用，以支撑其巨额训练投入。",
-        "recommend_reason_zh": "OpenAI正把AI代理从软件工程师推向大众，这篇报道深入前沿实验室的推进过程，追问这类工具能否真正普及到每个人手中。",
-        "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
-        "source": "TechCrunch：AI（RSS）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "方向明确但无产品细节，观望即可，等具体 API 或开源。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-25T14:40:40.689507Z"
+        "scored_at": "2026-08-25T16:47:27.560902Z"
       }
     },
     {
@@ -755,21 +1148,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7546,
-      "importance": 0.7546,
-      "importance_score": 0.7546,
+      "score": 0.7495,
+      "importance": 0.7495,
+      "importance_score": 0.7495,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.928,
+        "recency": 0.8997,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-08-25T08:59:06.973321Z",
       "latest_at": "2026-08-25T08:59:06.973321Z",
@@ -791,7 +1183,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T14:40:40.689507Z"
+        "scored_at": "2026-08-25T16:47:27.560902Z"
       }
     },
     {
@@ -839,21 +1231,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7532,
-      "importance": 0.7532,
-      "importance_score": 0.7532,
+      "score": 0.7481,
+      "importance": 0.7481,
+      "importance_score": 0.7481,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9201,
+        "recency": 0.8919,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-08-25T08:23:19.938494Z",
       "latest_at": "2026-08-25T08:23:19.938494Z",
@@ -875,7 +1266,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T14:40:40.689507Z"
+        "scored_at": "2026-08-25T16:47:27.560902Z"
       }
     },
     {
@@ -923,21 +1314,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7532,
-      "importance": 0.7532,
-      "importance_score": 0.7532,
+      "score": 0.7481,
+      "importance": 0.7481,
+      "importance_score": 0.7481,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9201,
+        "recency": 0.8919,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-08-25T08:23:19.938494Z",
       "latest_at": "2026-08-25T08:23:19.938494Z",
@@ -959,7 +1349,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T14:40:40.689507Z"
+        "scored_at": "2026-08-25T16:47:27.560902Z"
       }
     },
     {
@@ -1007,21 +1397,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7532,
-      "importance": 0.7532,
-      "importance_score": 0.7532,
+      "score": 0.7481,
+      "importance": 0.7481,
+      "importance_score": 0.7481,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9201,
+        "recency": 0.8919,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-08-25T08:23:19.938494Z",
       "latest_at": "2026-08-25T08:23:19.938494Z",
@@ -1043,7 +1432,118 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T14:40:40.689507Z"
+        "scored_at": "2026-08-25T16:47:27.560902Z"
+      }
+    },
+    {
+      "story_id": "story_97f565872705",
+      "title": "苹果新款M6芯片获得更多核心和更强AI算力 / Apple&#8217;s new M6 chip gets more cores and more AI compute",
+      "url": "https://www.theverge.com/tech/984118/apple-m6-m5-ultra-chip-mac-mini-studio",
+      "primary_url": "https://www.theverge.com/tech/984118/apple-m6-m5-ultra-chip-mac-mini-studio",
+      "source": "The Verge",
+      "source_name": "Curated Media",
+      "sources": [
+        {
+          "id": "73f20681e3310a757758f9c3769d821c5fabbbc9",
+          "title": "苹果新款M6芯片获得更多核心和更强AI算力 / Apple&#8217;s new M6 chip gets more cores and more AI compute",
+          "title_zh": "苹果新款M6芯片获得更多核心和更强AI算力",
+          "title_en": "Apple&#8217;s new M6 chip gets more cores and more AI compute",
+          "title_original": "Apple&#8217;s new M6 chip gets more cores and more AI compute",
+          "summary": null,
+          "recommend_reason_zh": "Apple发布首款2nm芯片M6，配备12核CPU与双16核Neural Engine，多线程性能较M5提升1.2倍；同时推出M5 Ultra，支持512GB统一内存，两者将随Mac Mini和Mac Studio于9月22日上市。",
+          "url": "https://www.theverge.com/tech/984118/apple-m6-m5-ultra-chip-mac-mini-studio",
+          "source": "The Verge",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-08-25T13:00:00Z"
+        },
+        {
+          "id": "b1d7abe7c8bff5d6873d03816b3c1eb79fde5e0e",
+          "title": "Apple 新款 M6 chip 配备更多核心和更强 AI 算力 / Apple’s new M6 chip gets more cores and more AI compute",
+          "title_zh": "Apple 新款 M6 chip 配备更多核心和更强 AI 算力",
+          "title_en": "Apple’s new M6 chip gets more cores and more AI compute",
+          "title_original": "Apple’s new M6 chip gets more cores and more AI compute",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.theverge.com/tech/984118/apple-m6-m5-ultra-chip-mac-mini-studio",
+          "source": "The Verge",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-25T13:00:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "The Verge"
+      ],
+      "items": [
+        {
+          "id": "73f20681e3310a757758f9c3769d821c5fabbbc9",
+          "title": "苹果新款M6芯片获得更多核心和更强AI算力 / Apple&#8217;s new M6 chip gets more cores and more AI compute",
+          "title_zh": "苹果新款M6芯片获得更多核心和更强AI算力",
+          "title_en": "Apple&#8217;s new M6 chip gets more cores and more AI compute",
+          "title_original": "Apple&#8217;s new M6 chip gets more cores and more AI compute",
+          "summary": null,
+          "recommend_reason_zh": "Apple发布首款2nm芯片M6，配备12核CPU与双16核Neural Engine，多线程性能较M5提升1.2倍；同时推出M5 Ultra，支持512GB统一内存，两者将随Mac Mini和Mac Studio于9月22日上市。",
+          "url": "https://www.theverge.com/tech/984118/apple-m6-m5-ultra-chip-mac-mini-studio",
+          "source": "The Verge",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-08-25T13:00:00Z"
+        },
+        {
+          "id": "b1d7abe7c8bff5d6873d03816b3c1eb79fde5e0e",
+          "title": "Apple 新款 M6 chip 配备更多核心和更强 AI 算力 / Apple’s new M6 chip gets more cores and more AI compute",
+          "title_zh": "Apple 新款 M6 chip 配备更多核心和更强 AI 算力",
+          "title_en": "Apple’s new M6 chip gets more cores and more AI compute",
+          "title_original": "Apple’s new M6 chip gets more cores and more AI compute",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.theverge.com/tech/984118/apple-m6-m5-ultra-chip-mac-mini-studio",
+          "source": "The Verge",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-25T13:00:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.6154,
+      "importance": 0.6154,
+      "importance_score": 0.6154,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.504,
+        "source_tier": 0.58,
+        "ai_relevance": 0.7,
+        "recency": 0.9534,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-25T13:00:00Z",
+      "latest_at": "2026-08-25T13:00:00Z",
+      "primary_item": {
+        "id": "73f20681e3310a757758f9c3769d821c5fabbbc9",
+        "title": "苹果新款M6芯片获得更多核心和更强AI算力 / Apple&#8217;s new M6 chip gets more cores and more AI compute",
+        "title_zh": "苹果新款M6芯片获得更多核心和更强AI算力",
+        "title_en": "Apple&#8217;s new M6 chip gets more cores and more AI compute",
+        "title_original": "Apple&#8217;s new M6 chip gets more cores and more AI compute",
+        "summary": null,
+        "recommend_reason_zh": "Apple发布首款2nm芯片M6，配备12核CPU与双16核Neural Engine，多线程性能较M5提升1.2倍；同时推出M5 Ultra，支持512GB统一内存，两者将随Mac Mini和Mac Studio于9月22日上市。",
+        "url": "https://www.theverge.com/tech/984118/apple-m6-m5-ultra-chip-mac-mini-studio",
+        "source": "The Verge",
+        "source_name": "Curated Media"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 55,
+      "persona_review": "芯片参数看看就好，等真机跑分和价格出来再决定换不换。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-08-25T16:47:27.560902Z"
       }
     },
     {
@@ -1091,21 +1591,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.751,
-      "importance": 0.751,
-      "importance_score": 0.751,
+      "score": 0.746,
+      "importance": 0.746,
+      "importance_score": 0.746,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.908,
+        "recency": 0.8802,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-08-25T07:28:25.530508Z",
       "latest_at": "2026-08-25T07:28:25.530508Z",
@@ -1127,7 +1626,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T14:40:40.689507Z"
+        "scored_at": "2026-08-25T16:47:27.560902Z"
       }
     },
     {
@@ -1175,21 +1674,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.751,
-      "importance": 0.751,
-      "importance_score": 0.751,
+      "score": 0.746,
+      "importance": 0.746,
+      "importance_score": 0.746,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.908,
+        "recency": 0.8802,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-08-25T07:28:25.530508Z",
       "latest_at": "2026-08-25T07:28:25.530508Z",
@@ -1211,7 +1709,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T14:40:40.689507Z"
+        "scored_at": "2026-08-25T16:47:27.560902Z"
       }
     },
     {
@@ -1251,7 +1749,7 @@
           "published_at": "2026-08-24T21:38:23.310000Z"
         },
         {
-          "id": "c4380897ee9fff0a6eb7c60a73f9b0d9b42a6b5c",
+          "id": "6b3ddf826656bb9730b1c966248c75951d715e33",
           "title": "复古人工智能：在变得尴尬之前 / Vintage Artificial Intelligence: Before It Got Awkward",
           "title_zh": "复古人工智能：在变得尴尬之前",
           "title_en": "Vintage Artificial Intelligence: Before It Got Awkward",
@@ -1259,15 +1757,15 @@
           "summary": null,
           "recommend_reason_zh": null,
           "url": "https://blog.archive.org/2026/08/16/vintage-artificial-intelligence-before-it-got-awkward",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
           "published_at": "2026-08-24T21:01:38Z"
         }
       ],
       "source_count": 3,
       "source_names": [
-        "Hacker News",
+        "Hacker News (黑客新闻)",
         "blog.archive.org",
         "hackernews"
       ],
@@ -1301,7 +1799,7 @@
           "published_at": "2026-08-24T21:38:23.310000Z"
         },
         {
-          "id": "c4380897ee9fff0a6eb7c60a73f9b0d9b42a6b5c",
+          "id": "6b3ddf826656bb9730b1c966248c75951d715e33",
           "title": "复古人工智能：在变得尴尬之前 / Vintage Artificial Intelligence: Before It Got Awkward",
           "title_zh": "复古人工智能：在变得尴尬之前",
           "title_en": "Vintage Artificial Intelligence: Before It Got Awkward",
@@ -1309,23 +1807,23 @@
           "summary": null,
           "recommend_reason_zh": null,
           "url": "https://blog.archive.org/2026/08/16/vintage-artificial-intelligence-before-it-got-awkward",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
           "published_at": "2026-08-24T21:01:38Z"
         }
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5609,
-      "importance": 0.5609,
-      "importance_score": 0.5609,
+      "score": 0.5557,
+      "importance": 0.5557,
+      "importance_score": 0.5557,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9449,
+        "recency": 0.916,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1352,651 +1850,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T14:40:40.689507Z"
-      }
-    },
-    {
-      "story_id": "story_77e205d8388b",
-      "title": "2026年AI现状：迈向ROI之路 / The state of AI in 2026: On the road to ROI",
-      "url": "https://news.ycombinator.com/item?id=49433759",
-      "primary_url": "https://news.ycombinator.com/item?id=49433759",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "9ea5196edfe45f6591a7183c877eddb48c20af39",
-          "title": "2026年AI现状：迈向ROI之路 / The state of AI in 2026: On the road to ROI",
-          "title_zh": "2026年AI现状：迈向ROI之路",
-          "title_en": "The state of AI in 2026: On the road to ROI",
-          "title_original": "The state of AI in 2026: On the road to ROI",
-          "summary": "People think they can do it themself... kind of like how everyone build their own database using Microsoft Access in the 90's. When all software developers needed to repair all the issues...\nreply\nreply\nreply\nreply\nreply\nIt is far more plausible that we'll see that pattern again - small, department-level vibe coded apps will be around. And things that need to scale bigger will need professionals.\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nDo t",
-          "recommend_reason_zh": "文章以90年代人人用Microsoft Access自建数据库类比，预测小型部门级vibe coding应用将普及，而规模化需求仍需专业人员；并直言AI提效明显，无需随机对照试验证明。",
-          "url": "https://news.ycombinator.com/item?id=49433759",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-25T14:09:44.694000Z"
-        },
-        {
-          "id": "34002ddc76b1ecc8265a5e979ce34705d680104e",
-          "title": "2026年AI现状：迈向ROI之路 / The state of AI in 2026: On the road to ROI",
-          "title_zh": "2026年AI现状：迈向ROI之路",
-          "title_en": "The state of AI in 2026: On the road to ROI",
-          "title_original": "The state of AI in 2026: On the road to ROI",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-25T13:32:52Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "9ea5196edfe45f6591a7183c877eddb48c20af39",
-          "title": "2026年AI现状：迈向ROI之路 / The state of AI in 2026: On the road to ROI",
-          "title_zh": "2026年AI现状：迈向ROI之路",
-          "title_en": "The state of AI in 2026: On the road to ROI",
-          "title_original": "The state of AI in 2026: On the road to ROI",
-          "summary": "People think they can do it themself... kind of like how everyone build their own database using Microsoft Access in the 90's. When all software developers needed to repair all the issues...\nreply\nreply\nreply\nreply\nreply\nIt is far more plausible that we'll see that pattern again - small, department-level vibe coded apps will be around. And things that need to scale bigger will need professionals.\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nDo t",
-          "recommend_reason_zh": "文章以90年代人人用Microsoft Access自建数据库类比，预测小型部门级vibe coding应用将普及，而规模化需求仍需专业人员；并直言AI提效明显，无需随机对照试验证明。",
-          "url": "https://news.ycombinator.com/item?id=49433759",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-25T14:09:44.694000Z"
-        },
-        {
-          "id": "34002ddc76b1ecc8265a5e979ce34705d680104e",
-          "title": "2026年AI现状：迈向ROI之路 / The state of AI in 2026: On the road to ROI",
-          "title_zh": "2026年AI现状：迈向ROI之路",
-          "title_en": "The state of AI in 2026: On the road to ROI",
-          "title_original": "The state of AI in 2026: On the road to ROI",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-25T13:32:52Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 1.0,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-25T13:32:52Z",
-      "latest_at": "2026-08-25T14:09:44.694000Z",
-      "primary_item": {
-        "id": "9ea5196edfe45f6591a7183c877eddb48c20af39",
-        "title": "2026年AI现状：迈向ROI之路 / The state of AI in 2026: On the road to ROI",
-        "title_zh": "2026年AI现状：迈向ROI之路",
-        "title_en": "The state of AI in 2026: On the road to ROI",
-        "title_original": "The state of AI in 2026: On the road to ROI",
-        "summary": "People think they can do it themself... kind of like how everyone build their own database using Microsoft Access in the 90's. When all software developers needed to repair all the issues...\nreply\nreply\nreply\nreply\nreply\nIt is far more plausible that we'll see that pattern again - small, department-level vibe coded apps will be around. And things that need to scale bigger will need professionals.\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nDo t",
-        "recommend_reason_zh": "文章以90年代人人用Microsoft Access自建数据库类比，预测小型部门级vibe coding应用将普及，而规模化需求仍需专业人员；并直言AI提效明显，无需随机对照试验证明。",
-        "url": "https://news.ycombinator.com/item?id=49433759",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "行业趋势综述，无具体工具或数据，动手前不用细读。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-25T14:40:40.689507Z"
-      }
-    },
-    {
-      "story_id": "story_a382eafa5b52",
-      "title": "大型语言模型（LLMs）可能通过利用推理引擎来控制其宿主机器",
-      "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
-      "primary_url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
-      "source": "boydkane.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "97417977768554cb444b51c984aefaf71a02a8b5",
-          "title": "大型语言模型（LLMs）可能通过利用推理引擎来控制其宿主机器",
-          "title_zh": "大型语言模型（LLMs）可能通过利用推理引擎来控制其宿主机器",
-          "title_en": null,
-          "title_original": "大型语言模型（LLMs）可能通过利用推理引擎来控制其宿主机器",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
-          "source": "boydkane.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-25T03:02:56.442000Z"
-        },
-        {
-          "id": "ed23432d04a4d512c316552b37f2b39adab7cebd",
-          "title": "LLMs 可借推理引擎漏洞控制宿主机 / LLMs could control their host machines by exploiting inference engines",
-          "title_zh": "LLMs 可借推理引擎漏洞控制宿主机",
-          "title_en": "LLMs could control their host machines by exploiting inference engines",
-          "title_original": "LLMs could control their host machines by exploiting inference engines",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49424387",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-24T21:38:23.310000Z"
-        },
-        {
-          "id": "31a32bf26e7b09bdb44e1aa8b21319ee13334835",
-          "title": "大型语言模型（LLMs）可能通过利用推理引擎来控制其宿主机器 / LLMs could control their host machines by exploiting inference engines",
-          "title_zh": "大型语言模型（LLMs）可能通过利用推理引擎来控制其宿主机器",
-          "title_en": "LLMs could control their host machines by exploiting inference engines",
-          "title_original": "LLMs could control their host machines by exploiting inference engines",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-24T19:03:06Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "boydkane.com",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "97417977768554cb444b51c984aefaf71a02a8b5",
-          "title": "大型语言模型（LLMs）可能通过利用推理引擎来控制其宿主机器",
-          "title_zh": "大型语言模型（LLMs）可能通过利用推理引擎来控制其宿主机器",
-          "title_en": null,
-          "title_original": "大型语言模型（LLMs）可能通过利用推理引擎来控制其宿主机器",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
-          "source": "boydkane.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-25T03:02:56.442000Z"
-        },
-        {
-          "id": "ed23432d04a4d512c316552b37f2b39adab7cebd",
-          "title": "LLMs 可借推理引擎漏洞控制宿主机 / LLMs could control their host machines by exploiting inference engines",
-          "title_zh": "LLMs 可借推理引擎漏洞控制宿主机",
-          "title_en": "LLMs could control their host machines by exploiting inference engines",
-          "title_original": "LLMs could control their host machines by exploiting inference engines",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49424387",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-24T21:38:23.310000Z"
-        },
-        {
-          "id": "31a32bf26e7b09bdb44e1aa8b21319ee13334835",
-          "title": "大型语言模型（LLMs）可能通过利用推理引擎来控制其宿主机器 / LLMs could control their host machines by exploiting inference engines",
-          "title_zh": "大型语言模型（LLMs）可能通过利用推理引擎来控制其宿主机器",
-          "title_en": "LLMs could control their host machines by exploiting inference engines",
-          "title_original": "LLMs could control their host machines by exploiting inference engines",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-24T19:03:06Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5441,
-      "importance": 0.5441,
-      "importance_score": 0.5441,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8518,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-24T19:03:06Z",
-      "latest_at": "2026-08-25T03:02:56.442000Z",
-      "primary_item": {
-        "id": "97417977768554cb444b51c984aefaf71a02a8b5",
-        "title": "大型语言模型（LLMs）可能通过利用推理引擎来控制其宿主机器",
-        "title_zh": "大型语言模型（LLMs）可能通过利用推理引擎来控制其宿主机器",
-        "title_en": null,
-        "title_original": "大型语言模型（LLMs）可能通过利用推理引擎来控制其宿主机器",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
-        "source": "boydkane.com",
-        "source_name": "Buzzing"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "理论攻击面分析，无现成利用代码，安全研究者可参考，开发暂不用动。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-25T14:40:40.689507Z"
-      }
-    },
-    {
-      "story_id": "story_a6532975a7e9",
-      "title": "大模型成最大“抄袭者”？全球最大生活指南百科 WikiHow 正式起诉 OpenAI 侵权",
-      "url": "https://www.aibase.com/news/30598",
-      "primary_url": "https://www.aibase.com/news/30598",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "7f15c29642e53d43e696dc4c0265df4ddd168d24",
-          "title": "大模型成最大“抄袭者”？全球最大生活指南百科 WikiHow 正式起诉 OpenAI 侵权",
-          "title_zh": "大模型成最大“抄袭者”？全球最大生活指南百科 WikiHow 正式起诉 OpenAI 侵权",
-          "title_en": null,
-          "title_original": "大模型成最大“抄袭者”？全球最大生活指南百科 WikiHow 正式起诉 OpenAI 侵权",
-          "summary": null,
-          "recommend_reason_zh": "全球最大生活指南百科WikiHow起诉OpenAI，指控其未经许可抓取超1.1万篇教程、涉及至少1200项版权，且ChatGPT能直接复制原文生成指南——大模型数据版权问题正式进入诉讼阶段。",
-          "url": "https://www.aibase.com/news/30598",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-25T07:28:25.530508Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "7f15c29642e53d43e696dc4c0265df4ddd168d24",
-          "title": "大模型成最大“抄袭者”？全球最大生活指南百科 WikiHow 正式起诉 OpenAI 侵权",
-          "title_zh": "大模型成最大“抄袭者”？全球最大生活指南百科 WikiHow 正式起诉 OpenAI 侵权",
-          "title_en": null,
-          "title_original": "大模型成最大“抄袭者”？全球最大生活指南百科 WikiHow 正式起诉 OpenAI 侵权",
-          "summary": null,
-          "recommend_reason_zh": "全球最大生活指南百科WikiHow起诉OpenAI，指控其未经许可抓取超1.1万篇教程、涉及至少1200项版权，且ChatGPT能直接复制原文生成指南——大模型数据版权问题正式进入诉讼阶段。",
-          "url": "https://www.aibase.com/news/30598",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-25T07:28:25.530508Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.751,
-      "importance": 0.751,
-      "importance_score": 0.751,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.908,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-25T07:28:25.530508Z",
-      "latest_at": "2026-08-25T07:28:25.530508Z",
-      "primary_item": {
-        "id": "7f15c29642e53d43e696dc4c0265df4ddd168d24",
-        "title": "大模型成最大“抄袭者”？全球最大生活指南百科 WikiHow 正式起诉 OpenAI 侵权",
-        "title_zh": "大模型成最大“抄袭者”？全球最大生活指南百科 WikiHow 正式起诉 OpenAI 侵权",
-        "title_en": null,
-        "title_original": "大模型成最大“抄袭者”？全球最大生活指南百科 WikiHow 正式起诉 OpenAI 侵权",
-        "summary": null,
-        "recommend_reason_zh": "全球最大生活指南百科WikiHow起诉OpenAI，指控其未经许可抓取超1.1万篇教程、涉及至少1200项版权，且ChatGPT能直接复制原文生成指南——大模型数据版权问题正式进入诉讼阶段。",
-        "url": "https://www.aibase.com/news/30598",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "诉讼离代码远，除非你靠爬WikiHow做训练数据，否则先观望。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-25T14:40:40.689507Z"
-      }
-    },
-    {
-      "story_id": "story_18ba3e730a24",
-      "title": "OpenAI为ChatGPT Plus用户恢复5小时Codex和工作限制 / OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
-      "url": "https://news.ycombinator.com/item?id=49432879",
-      "primary_url": "https://news.ycombinator.com/item?id=49432879",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "24620e97f3bd839f953aa50068fe7a0533dbf434",
-          "title": "OpenAI为ChatGPT Plus用户恢复5小时Codex和工作限制 / OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
-          "title_zh": "OpenAI为ChatGPT Plus用户恢复5小时Codex和工作限制",
-          "title_en": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
-          "title_original": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
-          "summary": "Such a casino vibe.\nreply\nreply\nFree drinks? Keep customers happy? Reward your heaviest users? Casino vibes\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nI'll be switching back.\nreply\n> Such a casino vibe. No no no! It means we're all in it together! Feel the parasocial vibes!\nNo no no! It means we're all in it together! Feel the parasocial vibes!\nreply\nreply\nSeems fair, but then maybe the 5h usage should also drain slower during off-peak hours? Perhaps it already does. > and (b) users on the Plus p",
-          "recommend_reason_zh": "OpenAI恢复ChatGPT Plus用户的5小时Codex和Work限制，评论区吵翻天：有用户吐槽像赌场，也有人算账后认为40/120美元的Cursor Team订阅更划算。",
-          "url": "https://news.ycombinator.com/item?id=49432879",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-25T14:09:44.694000Z"
-        },
-        {
-          "id": "d98ea95ebfcfa6ff36f866e219f2c09027cabd49",
-          "title": "OpenAI为ChatGPT Plus用户恢复5小时Codex和工作限制 / OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
-          "title_zh": "OpenAI为ChatGPT Plus用户恢复5小时Codex和工作限制",
-          "title_en": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
-          "title_original": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://9to5mac.com/2026/08/24/openai-restores-5-hour-codex-and-work-limits-for-chatgpt-plus-users",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-25T12:33:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "24620e97f3bd839f953aa50068fe7a0533dbf434",
-          "title": "OpenAI为ChatGPT Plus用户恢复5小时Codex和工作限制 / OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
-          "title_zh": "OpenAI为ChatGPT Plus用户恢复5小时Codex和工作限制",
-          "title_en": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
-          "title_original": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
-          "summary": "Such a casino vibe.\nreply\nreply\nFree drinks? Keep customers happy? Reward your heaviest users? Casino vibes\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nI'll be switching back.\nreply\n> Such a casino vibe. No no no! It means we're all in it together! Feel the parasocial vibes!\nNo no no! It means we're all in it together! Feel the parasocial vibes!\nreply\nreply\nSeems fair, but then maybe the 5h usage should also drain slower during off-peak hours? Perhaps it already does. > and (b) users on the Plus p",
-          "recommend_reason_zh": "OpenAI恢复ChatGPT Plus用户的5小时Codex和Work限制，评论区吵翻天：有用户吐槽像赌场，也有人算账后认为40/120美元的Cursor Team订阅更划算。",
-          "url": "https://news.ycombinator.com/item?id=49432879",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-25T14:09:44.694000Z"
-        },
-        {
-          "id": "d98ea95ebfcfa6ff36f866e219f2c09027cabd49",
-          "title": "OpenAI为ChatGPT Plus用户恢复5小时Codex和工作限制 / OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
-          "title_zh": "OpenAI为ChatGPT Plus用户恢复5小时Codex和工作限制",
-          "title_en": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
-          "title_original": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://9to5mac.com/2026/08/24/openai-restores-5-hour-codex-and-work-limits-for-chatgpt-plus-users",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-25T12:33:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 1.0,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-25T12:33:00Z",
-      "latest_at": "2026-08-25T14:09:44.694000Z",
-      "primary_item": {
-        "id": "24620e97f3bd839f953aa50068fe7a0533dbf434",
-        "title": "OpenAI为ChatGPT Plus用户恢复5小时Codex和工作限制 / OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
-        "title_zh": "OpenAI为ChatGPT Plus用户恢复5小时Codex和工作限制",
-        "title_en": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
-        "title_original": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
-        "summary": "Such a casino vibe.\nreply\nreply\nFree drinks? Keep customers happy? Reward your heaviest users? Casino vibes\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nI'll be switching back.\nreply\n> Such a casino vibe. No no no! It means we're all in it together! Feel the parasocial vibes!\nNo no no! It means we're all in it together! Feel the parasocial vibes!\nreply\nreply\nSeems fair, but then maybe the 5h usage should also drain slower during off-peak hours? Perhaps it already does. > and (b) users on the Plus p",
-        "recommend_reason_zh": "OpenAI恢复ChatGPT Plus用户的5小时Codex和Work限制，评论区吵翻天：有用户吐槽像赌场，也有人算账后认为40/120美元的Cursor Team订阅更划算。",
-        "url": "https://news.ycombinator.com/item?id=49432879",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 72,
-      "persona_review": "Plus用户额度恢复，跑长任务的今天能多用几轮，但别指望质变。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-25T14:40:40.689507Z"
-      }
-    },
-    {
-      "story_id": "story_82df8058db94",
-      "title": "微软CEO纳德拉:企业不能依赖单一AI模型，否则可能无法生存",
-      "url": "https://www.aibase.com/news/30601",
-      "primary_url": "https://www.aibase.com/news/30601",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "92584b14cfa1c680be38bafd3089ec02d50332e1",
-          "title": "微软CEO纳德拉:企业不能依赖单一AI模型，否则可能无法生存",
-          "title_zh": "微软CEO纳德拉:企业不能依赖单一AI模型，否则可能无法生存",
-          "title_en": null,
-          "title_original": "微软CEO纳德拉:企业不能依赖单一AI模型，否则可能无法生存",
-          "summary": null,
-          "recommend_reason_zh": "微软CEO纳德拉在CNN播客警告，企业依赖单一AI模型可能无法生存，应掌控提示词、上下文等“token资本”以保持模型选择权。",
-          "url": "https://www.aibase.com/news/30601",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-25T07:28:25.530508Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "92584b14cfa1c680be38bafd3089ec02d50332e1",
-          "title": "微软CEO纳德拉:企业不能依赖单一AI模型，否则可能无法生存",
-          "title_zh": "微软CEO纳德拉:企业不能依赖单一AI模型，否则可能无法生存",
-          "title_en": null,
-          "title_original": "微软CEO纳德拉:企业不能依赖单一AI模型，否则可能无法生存",
-          "summary": null,
-          "recommend_reason_zh": "微软CEO纳德拉在CNN播客警告，企业依赖单一AI模型可能无法生存，应掌控提示词、上下文等“token资本”以保持模型选择权。",
-          "url": "https://www.aibase.com/news/30601",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-25T07:28:25.530508Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.751,
-      "importance": 0.751,
-      "importance_score": 0.751,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.908,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-25T07:28:25.530508Z",
-      "latest_at": "2026-08-25T07:28:25.530508Z",
-      "primary_item": {
-        "id": "92584b14cfa1c680be38bafd3089ec02d50332e1",
-        "title": "微软CEO纳德拉:企业不能依赖单一AI模型，否则可能无法生存",
-        "title_zh": "微软CEO纳德拉:企业不能依赖单一AI模型，否则可能无法生存",
-        "title_en": null,
-        "title_original": "微软CEO纳德拉:企业不能依赖单一AI模型，否则可能无法生存",
-        "summary": null,
-        "recommend_reason_zh": "微软CEO纳德拉在CNN播客警告，企业依赖单一AI模型可能无法生存，应掌控提示词、上下文等“token资本”以保持模型选择权。",
-        "url": "https://www.aibase.com/news/30601",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 30,
-      "persona_review": "高管喊话不写代码，多模型接入是常识，等具体方案再说。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-25T14:40:40.689507Z"
-      }
-    },
-    {
-      "story_id": "story_66cede55297b",
-      "title": "分析揭示OpenRouter上的神秘模型OX Alpha为Z.ai的GLM",
-      "url": "https://dejan.ai/blog/ox-alpha",
-      "primary_url": "https://dejan.ai/blog/ox-alpha",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "sources": [
-        {
-          "id": "d04d404be7afc9c176ec1aa295f149785b997a76",
-          "title": "分析揭示OpenRouter上的神秘模型OX Alpha为Z.ai的GLM",
-          "title_zh": "分析揭示OpenRouter上的神秘模型OX Alpha为Z.ai的GLM",
-          "title_en": "Ox-Alpha Is GLM",
-          "title_original": "Ox-Alpha Is GLM",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://dejan.ai/blog/ox-alpha",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-24T16:30:16Z"
-        },
-        {
-          "id": "804f29258a9b4a5855bc5293740535c38f248d34",
-          "title": "Ox-Alpha经分析确认为Z.ai的GLM",
-          "title_zh": "Ox-Alpha经分析确认为Z.ai的GLM",
-          "title_en": "Ox-Alpha Is GLM?",
-          "title_original": "Ox-Alpha Is GLM?",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://dejan.ai/blog/ox-alpha",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-24T16:30:16Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热"
-      ],
-      "items": [
-        {
-          "id": "d04d404be7afc9c176ec1aa295f149785b997a76",
-          "title": "分析揭示OpenRouter上的神秘模型OX Alpha为Z.ai的GLM",
-          "title_zh": "分析揭示OpenRouter上的神秘模型OX Alpha为Z.ai的GLM",
-          "title_en": "Ox-Alpha Is GLM",
-          "title_original": "Ox-Alpha Is GLM",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://dejan.ai/blog/ox-alpha",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-24T16:30:16Z"
-        },
-        {
-          "id": "804f29258a9b4a5855bc5293740535c38f248d34",
-          "title": "Ox-Alpha经分析确认为Z.ai的GLM",
-          "title_zh": "Ox-Alpha经分析确认为Z.ai的GLM",
-          "title_en": "Ox-Alpha Is GLM?",
-          "title_original": "Ox-Alpha Is GLM?",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://dejan.ai/blog/ox-alpha",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-24T16:30:16Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4975,
-      "importance": 0.4975,
-      "importance_score": 0.4975,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7315,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-24T16:30:16Z",
-      "latest_at": "2026-08-24T16:30:16Z",
-      "primary_item": {
-        "id": "d04d404be7afc9c176ec1aa295f149785b997a76",
-        "title": "分析揭示OpenRouter上的神秘模型OX Alpha为Z.ai的GLM",
-        "title_zh": "分析揭示OpenRouter上的神秘模型OX Alpha为Z.ai的GLM",
-        "title_en": "Ox-Alpha Is GLM",
-        "title_original": "Ox-Alpha Is GLM",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://dejan.ai/blog/ox-alpha",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "模型身份揭秘，对选型无直接影响，等实际开放再试。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-25T14:40:40.689507Z"
+        "scored_at": "2026-08-25T16:47:27.560902Z"
       }
     }
   ]

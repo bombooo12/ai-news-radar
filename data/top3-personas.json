@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T14:40:48.688812Z",
+  "generated_at": "2026-08-25T16:47:38.390315Z",
   "model": "deepseek-chat",
   "personas": [
     {
@@ -37,10 +37,30 @@
       }
     },
     {
+      "story_id": "story_b95e33dbd1e9",
+      "title": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平 / Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "url": "https://openai.com/index/jalapeno-first-results",
+      "rank": 2,
+      "reviews": {
+        "cynic": {
+          "score": 72,
+          "review": "速度效率领先？先晒出对比基线和完整基准，别只给结论。"
+        },
+        "paper-police": {
+          "score": 30,
+          "review": "官方博客宣称领先，无论文无代码无第三方评测，证据不足。"
+        },
+        "pragmatic": {
+          "score": 72,
+          "review": "推理性能新标杆，但没给API或开源，先观望等开放。"
+        }
+      }
+    },
+    {
       "story_id": "story_bc5800b304fc",
       "title": "连接、运行、部署：Gradio 中的 AI 工作流 / Wire It, Run It, Deploy It: AI Workflows in Gradio",
       "url": "https://huggingface.co/blog/gradio-workflow-guide",
-      "rank": 2,
+      "rank": 3,
       "reviews": {
         "cynic": {
           "score": 72,
@@ -53,26 +73,6 @@
         "pragmatic": {
           "score": 72,
           "review": "Gradio 工作流指南上线，部署演示项目能直接抄，适合快速交付。"
-        }
-      }
-    },
-    {
-      "story_id": "story_a3a30019dba2",
-      "title": "GPT-5.6重磅登陆Kiro！AI原生编码迎来性价比革命，开发效率实现质的飞跃",
-      "url": "https://www.aibase.com/news/30600",
-      "rank": 3,
-      "reviews": {
-        "cynic": {
-          "score": 45,
-          "review": "性价比革命？先晒出和旧版的完整对比数据，别只拿营销话术糊弄人。"
-        },
-        "paper-police": {
-          "score": 20,
-          "review": "仅官方宣称性能提升，无论文无代码无评测，性价比革命缺数据支撑。"
-        },
-        "pragmatic": {
-          "score": 72,
-          "review": "GPT-5.6进Kiro，编码场景可试，但先看定价和API兼容再切。"
         }
       }
     }
