@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-25T10:59:07.950914Z",
+  "generated_at": "2026-08-25T14:09:23.764985Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_bc5800b304fc",
-      "title": "连接、运行、部署：Gradio 中的 AI 工作流 / Wire It, Run It, Deploy It: AI Workflows in Gradio",
-      "url": "https://huggingface.co/blog/gradio-workflow-guide",
-      "primary_url": "https://huggingface.co/blog/gradio-workflow-guide",
+      "story_id": "story_6411634610d0",
+      "title": "量化感知修复：4位压缩模型超越全精度原版 / Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "primary_url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
       "source": "Hugging Face Blog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "430ba5ce0508f4735c075b6eda70a94f1bd40348",
-          "title": "连接、运行、部署：Gradio 中的 AI 工作流 / Wire It, Run It, Deploy It: AI Workflows in Gradio",
-          "title_zh": "连接、运行、部署：Gradio 中的 AI 工作流",
-          "title_en": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-          "title_original": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-          "summary": null,
-          "recommend_reason_zh": "gr.Workflow 将 AI 流水线变成可拖拽画布，每个节点可运行、中间结果可见，同一图还能作为 REST API 并一键部署到 Hugging Face Spaces，附四个可实操的示例应用。",
-          "url": "https://huggingface.co/blog/gradio-workflow-guide",
+          "id": "04b618df28b926c9c0332e417c3ad4705c0212a1",
+          "title": "量化感知修复：4位压缩模型超越全精度原版 / Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+          "title_zh": "量化感知修复：4位压缩模型超越全精度原版",
+          "title_en": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+          "title_original": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+          "summary": "A Blog post by Multiverse Computing on Hugging Face\nA Blog post by Multiverse Computing on Hugging Face\nWhy the usual healing methods fall short here Our approach Results QAH against QAT, head to head What this changes in practice Making a large language model smaller almost always comes with a cost. The now-standard recipe for efficient deployment is to compress the architecture first, cutting the parameter count by removing layers, heads, or neurons, and then quantize the remaining weights dow",
+          "recommend_reason_zh": "基于Multiverse Computing的新方法Quantization-Aware Healing（QAH），将GPT-OSS 120B压缩至60B并量化到MXFP4后，在7/9项基准上超越原bfloat16全精度版本，实现更小、更省且更准。",
+          "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
           "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-25T00:00:00Z"
+          "published_at": "2026-08-25T11:39:24Z"
         }
       ],
       "source_count": 1,
@@ -32,31 +32,31 @@
       ],
       "items": [
         {
-          "id": "430ba5ce0508f4735c075b6eda70a94f1bd40348",
-          "title": "连接、运行、部署：Gradio 中的 AI 工作流 / Wire It, Run It, Deploy It: AI Workflows in Gradio",
-          "title_zh": "连接、运行、部署：Gradio 中的 AI 工作流",
-          "title_en": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-          "title_original": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-          "summary": null,
-          "recommend_reason_zh": "gr.Workflow 将 AI 流水线变成可拖拽画布，每个节点可运行、中间结果可见，同一图还能作为 REST API 并一键部署到 Hugging Face Spaces，附四个可实操的示例应用。",
-          "url": "https://huggingface.co/blog/gradio-workflow-guide",
+          "id": "04b618df28b926c9c0332e417c3ad4705c0212a1",
+          "title": "量化感知修复：4位压缩模型超越全精度原版 / Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+          "title_zh": "量化感知修复：4位压缩模型超越全精度原版",
+          "title_en": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+          "title_original": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+          "summary": "A Blog post by Multiverse Computing on Hugging Face\nA Blog post by Multiverse Computing on Hugging Face\nWhy the usual healing methods fall short here Our approach Results QAH against QAT, head to head What this changes in practice Making a large language model smaller almost always comes with a cost. The now-standard recipe for efficient deployment is to compress the architecture first, cutting the parameter count by removing layers, heads, or neurons, and then quantize the remaining weights dow",
+          "recommend_reason_zh": "基于Multiverse Computing的新方法Quantization-Aware Healing（QAH），将GPT-OSS 120B压缩至60B并量化到MXFP4后，在7/9项基准上超越原bfloat16全精度版本，实现更小、更省且更准。",
+          "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
           "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-25T00:00:00Z"
+          "published_at": "2026-08-25T11:39:24Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8336,
-      "importance": 0.8336,
-      "importance_score": 0.8336,
+      "score": 0.8536,
+      "importance": 0.8536,
+      "importance_score": 0.8536,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8533,
+        "recency": 0.9645,
         "story_heat": 0.0
       },
       "category": "official",
@@ -65,27 +65,199 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-25T00:00:00Z",
-      "latest_at": "2026-08-25T00:00:00Z",
+      "earliest_at": "2026-08-25T11:39:24Z",
+      "latest_at": "2026-08-25T11:39:24Z",
       "primary_item": {
-        "id": "430ba5ce0508f4735c075b6eda70a94f1bd40348",
-        "title": "连接、运行、部署：Gradio 中的 AI 工作流 / Wire It, Run It, Deploy It: AI Workflows in Gradio",
-        "title_zh": "连接、运行、部署：Gradio 中的 AI 工作流",
-        "title_en": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-        "title_original": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-        "summary": null,
-        "recommend_reason_zh": "gr.Workflow 将 AI 流水线变成可拖拽画布，每个节点可运行、中间结果可见，同一图还能作为 REST API 并一键部署到 Hugging Face Spaces，附四个可实操的示例应用。",
-        "url": "https://huggingface.co/blog/gradio-workflow-guide",
+        "id": "04b618df28b926c9c0332e417c3ad4705c0212a1",
+        "title": "量化感知修复：4位压缩模型超越全精度原版 / Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+        "title_zh": "量化感知修复：4位压缩模型超越全精度原版",
+        "title_en": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+        "title_original": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+        "summary": "A Blog post by Multiverse Computing on Hugging Face\nA Blog post by Multiverse Computing on Hugging Face\nWhy the usual healing methods fall short here Our approach Results QAH against QAT, head to head What this changes in practice Making a large language model smaller almost always comes with a cost. The now-standard recipe for efficient deployment is to compress the architecture first, cutting the parameter count by removing layers, heads, or neurons, and then quantize the remaining weights dow",
+        "recommend_reason_zh": "基于Multiverse Computing的新方法Quantization-Aware Healing（QAH），将GPT-OSS 120B压缩至60B并量化到MXFP4后，在7/9项基准上超越原bfloat16全精度版本，实现更小、更省且更准。",
+        "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
         "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
       },
       "persona_id": "pragmatic",
       "persona_score": 72,
-      "persona_review": "Gradio 工作流指南上线，部署演示项目能直接抄，适合快速交付。",
+      "persona_review": "4位量化模型反超原版，压缩部署可试，但需验证泛化性。",
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T11:28:24.022890Z"
+        "scored_at": "2026-08-25T14:40:40.689507Z"
+      }
+    },
+    {
+      "story_id": "story_451d09e98bb5",
+      "title": "苹果推出 M6 和 M5 Ultra，性能和 AI 算力大幅跃升",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute",
+      "primary_url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "dc643214494de427dfdd7f8c6e946612ba4af61d",
+          "title": "苹果推出 M6 和 M5 Ultra，性能和 AI 算力大幅跃升",
+          "title_zh": "苹果推出 M6 和 M5 Ultra，性能和 AI 算力大幅跃升",
+          "title_en": null,
+          "title_original": "苹果推出 M6 和 M5 Ultra，性能和 AI 算力大幅跃升",
+          "summary": "苹果发布首款 2nm 芯片 M6 和迄今最强芯片 M5 Ultra，分别搭载于新款 Mac mini 与 Mac Studio。",
+          "recommend_reason_zh": null,
+          "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-25T13:41:50.050000Z"
+        },
+        {
+          "id": "7a0c88e1c4a6b50eb638032ad231d087bc3f14db",
+          "title": "Apple发布M6和M5 Ultra，性能和AI算力实现巨大飞跃 / Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
+          "title_zh": "Apple发布M6和M5 Ultra，性能和AI算力实现巨大飞跃",
+          "title_en": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
+          "title_original": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
+          "summary": "- Xiaomi: We have matched Apple in CPU performance.\n    - Apple: *Meep Meep...*\nreply\nreply\nreply\nreply\nreply\nI assume the M6 will take the crown back and then a few months later Intel/AMD will release a new chip and take that crown back again.   That's the state of the world we used to expect, but it's a state that has been missing ever since the release of the M1 in 2020 until Intel finally caught up again this year.\nreply\nWhen plugged in... This caveat is so enormous it should almost be legis",
+          "recommend_reason_zh": "Apple发布M6与M5 Ultra，性能与AI算力大幅跃升。评论热议：Xiaomi称CPU已追平Apple，M1自2020年发布至今年Intel才追上；另有评论提醒拔电后GPU性能可能降至20-40%。",
+          "url": "https://news.ycombinator.com/item?id=49433292",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-25T14:09:44.694000Z"
+        },
+        {
+          "id": "18edc7081b76e892ec99e6b3ad4d98bb5298dc59",
+          "title": "苹果推出 M6 和 M5 Ultra，性能和人工智能计算能力实现重大飞跃",
+          "title_zh": "苹果推出 M6 和 M5 Ultra，性能和人工智能计算能力实现重大飞跃",
+          "title_en": null,
+          "title_original": "苹果推出 M6 和 M5 Ultra，性能和人工智能计算能力实现重大飞跃",
+          "summary": "Apple debuted M6 in the new Mac mini and M5 Ultra in the new Mac Studio, providing an extraordinary leap in performance and AI capabilities.\nApple debuted M6 in the new Mac mini and M5 Ultra in the new Mac Studio, providing an extraordinary leap in performance and AI capabilities.\nText of this article\nAugust 25, 2026\nPRESS RELEASE\nApple introduces M6 and M5 Ultra for a big leap in performance and AI compute\nM6, Apple’s first 2 nm chip, features a larger, more powerful 12-core CPU, 12-core GPU, a",
+          "recommend_reason_zh": "本文报道苹果发布M6与M5 Ultra：M6是首款2nm芯片，12核CPU/GPU；M5 Ultra采用四die架构，最高80核GPU，带宽1.2TB/s。",
+          "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute",
+          "source": "www.apple.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-25T13:41:50.050000Z"
+        },
+        {
+          "id": "0e1940ab31fb95ee9a56b854c1328cb977a49d5b",
+          "title": "苹果推出 M6 和 M5 Ultra，性能和 AI 算力大幅跃升 / Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
+          "title_zh": "苹果推出 M6 和 M5 Ultra，性能和 AI 算力大幅跃升",
+          "title_en": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
+          "title_original": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
+          "summary": "Apple debuted M6 in the new Mac mini and M5 Ultra in the new Mac Studio, providing an extraordinary leap in performance and AI capabilities.\nApple debuted M6 in the new Mac mini and M5 Ultra in the new Mac Studio, providing an extraordinary leap in performance and AI capabilities.\nText of this article\nAugust 25, 2026\nPRESS RELEASE\nApple introduces M6 and M5 Ultra for a big leap in performance and AI compute\nM6, Apple’s first 2 nm chip, features a larger, more powerful 12-core CPU, 12-core GPU, a",
+          "recommend_reason_zh": "Apple发布M6与M5 Ultra芯片，带来性能和AI计算的巨大飞跃：M6为首款2nm制程，12核CPU加双16核神经引擎；M5 Ultra采用四芯片架构，最高80核GPU和1.2TB/s带宽，较M3 Ultra提升50%。",
+          "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-25T13:01:22Z"
+        }
+      ],
+      "source_count": 4,
+      "source_names": [
+        "Hacker News",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "hackernews",
+        "www.apple.com"
+      ],
+      "items": [
+        {
+          "id": "dc643214494de427dfdd7f8c6e946612ba4af61d",
+          "title": "苹果推出 M6 和 M5 Ultra，性能和 AI 算力大幅跃升",
+          "title_zh": "苹果推出 M6 和 M5 Ultra，性能和 AI 算力大幅跃升",
+          "title_en": null,
+          "title_original": "苹果推出 M6 和 M5 Ultra，性能和 AI 算力大幅跃升",
+          "summary": "苹果发布首款 2nm 芯片 M6 和迄今最强芯片 M5 Ultra，分别搭载于新款 Mac mini 与 Mac Studio。",
+          "recommend_reason_zh": null,
+          "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-25T13:41:50.050000Z"
+        },
+        {
+          "id": "7a0c88e1c4a6b50eb638032ad231d087bc3f14db",
+          "title": "Apple发布M6和M5 Ultra，性能和AI算力实现巨大飞跃 / Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
+          "title_zh": "Apple发布M6和M5 Ultra，性能和AI算力实现巨大飞跃",
+          "title_en": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
+          "title_original": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
+          "summary": "- Xiaomi: We have matched Apple in CPU performance.\n    - Apple: *Meep Meep...*\nreply\nreply\nreply\nreply\nreply\nI assume the M6 will take the crown back and then a few months later Intel/AMD will release a new chip and take that crown back again.   That's the state of the world we used to expect, but it's a state that has been missing ever since the release of the M1 in 2020 until Intel finally caught up again this year.\nreply\nWhen plugged in... This caveat is so enormous it should almost be legis",
+          "recommend_reason_zh": "Apple发布M6与M5 Ultra，性能与AI算力大幅跃升。评论热议：Xiaomi称CPU已追平Apple，M1自2020年发布至今年Intel才追上；另有评论提醒拔电后GPU性能可能降至20-40%。",
+          "url": "https://news.ycombinator.com/item?id=49433292",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-25T14:09:44.694000Z"
+        },
+        {
+          "id": "18edc7081b76e892ec99e6b3ad4d98bb5298dc59",
+          "title": "苹果推出 M6 和 M5 Ultra，性能和人工智能计算能力实现重大飞跃",
+          "title_zh": "苹果推出 M6 和 M5 Ultra，性能和人工智能计算能力实现重大飞跃",
+          "title_en": null,
+          "title_original": "苹果推出 M6 和 M5 Ultra，性能和人工智能计算能力实现重大飞跃",
+          "summary": "Apple debuted M6 in the new Mac mini and M5 Ultra in the new Mac Studio, providing an extraordinary leap in performance and AI capabilities.\nApple debuted M6 in the new Mac mini and M5 Ultra in the new Mac Studio, providing an extraordinary leap in performance and AI capabilities.\nText of this article\nAugust 25, 2026\nPRESS RELEASE\nApple introduces M6 and M5 Ultra for a big leap in performance and AI compute\nM6, Apple’s first 2 nm chip, features a larger, more powerful 12-core CPU, 12-core GPU, a",
+          "recommend_reason_zh": "本文报道苹果发布M6与M5 Ultra：M6是首款2nm芯片，12核CPU/GPU；M5 Ultra采用四die架构，最高80核GPU，带宽1.2TB/s。",
+          "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute",
+          "source": "www.apple.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-25T13:41:50.050000Z"
+        },
+        {
+          "id": "0e1940ab31fb95ee9a56b854c1328cb977a49d5b",
+          "title": "苹果推出 M6 和 M5 Ultra，性能和 AI 算力大幅跃升 / Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
+          "title_zh": "苹果推出 M6 和 M5 Ultra，性能和 AI 算力大幅跃升",
+          "title_en": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
+          "title_original": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
+          "summary": "Apple debuted M6 in the new Mac mini and M5 Ultra in the new Mac Studio, providing an extraordinary leap in performance and AI capabilities.\nApple debuted M6 in the new Mac mini and M5 Ultra in the new Mac Studio, providing an extraordinary leap in performance and AI capabilities.\nText of this article\nAugust 25, 2026\nPRESS RELEASE\nApple introduces M6 and M5 Ultra for a big leap in performance and AI compute\nM6, Apple’s first 2 nm chip, features a larger, more powerful 12-core CPU, 12-core GPU, a",
+          "recommend_reason_zh": "Apple发布M6与M5 Ultra芯片，带来性能和AI计算的巨大飞跃：M6为首款2nm制程，12核CPU加双16核神经引擎；M5 Ultra采用四芯片架构，最高80核GPU和1.2TB/s带宽，较M3 Ultra提升50%。",
+          "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-25T13:01:22Z"
+        }
+      ],
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.8354,
+      "importance": 0.8354,
+      "importance_score": 0.8354,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9934,
+        "story_heat": 0.75
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-25T13:01:22Z",
+      "latest_at": "2026-08-25T14:09:44.694000Z",
+      "primary_item": {
+        "id": "dc643214494de427dfdd7f8c6e946612ba4af61d",
+        "title": "苹果推出 M6 和 M5 Ultra，性能和 AI 算力大幅跃升",
+        "title_zh": "苹果推出 M6 和 M5 Ultra，性能和 AI 算力大幅跃升",
+        "title_en": null,
+        "title_original": "苹果推出 M6 和 M5 Ultra，性能和 AI 算力大幅跃升",
+        "summary": "苹果发布首款 2nm 芯片 M6 和迄今最强芯片 M5 Ultra，分别搭载于新款 Mac mini 与 Mac Studio。",
+        "recommend_reason_zh": null,
+        "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 70,
+      "persona_review": "新芯片参数没细看，做本地推理的等真机跑分再换。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-08-25T14:40:40.689507Z"
       }
     },
     {
@@ -133,15 +305,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8256,
-      "importance": 0.8256,
-      "importance_score": 0.8256,
+      "score": 0.8187,
+      "importance": 0.8187,
+      "importance_score": 0.8187,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8533,
+        "recency": 0.8151,
         "story_heat": 0.0
       },
       "category": "official",
@@ -170,63 +342,63 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T11:28:24.022890Z"
+        "scored_at": "2026-08-25T14:40:40.689507Z"
       }
     },
     {
-      "story_id": "story_23b9168d3a9a",
-      "title": "借助 Kiro 中的 GPT-5.6 提升开发者性价比 / Advancing price-performance for developers with GPT‑5.6 in Kiro",
-      "url": "https://openai.com/index/gpt-5-6-in-kiro",
-      "primary_url": "https://openai.com/index/gpt-5-6-in-kiro",
-      "source": "OpenAI News",
+      "story_id": "story_bc5800b304fc",
+      "title": "连接、运行、部署：Gradio 中的 AI 工作流 / Wire It, Run It, Deploy It: AI Workflows in Gradio",
+      "url": "https://huggingface.co/blog/gradio-workflow-guide",
+      "primary_url": "https://huggingface.co/blog/gradio-workflow-guide",
+      "source": "Hugging Face Blog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "d6a16709bd08b5629faf4d578fa519178f6f9658",
-          "title": "借助 Kiro 中的 GPT-5.6 提升开发者性价比 / Advancing price-performance for developers with GPT‑5.6 in Kiro",
-          "title_zh": "借助 Kiro 中的 GPT-5.6 提升开发者性价比",
-          "title_en": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-          "title_original": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+          "id": "430ba5ce0508f4735c075b6eda70a94f1bd40348",
+          "title": "连接、运行、部署：Gradio 中的 AI 工作流 / Wire It, Run It, Deploy It: AI Workflows in Gradio",
+          "title_zh": "连接、运行、部署：Gradio 中的 AI 工作流",
+          "title_en": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+          "title_original": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
           "summary": null,
-          "recommend_reason_zh": "GPT-5.6系列（含Sol、Terra、Luna）已在Kiro上线，与AWS合作优化后，Terra在Terminal-Bench 2.1上完成任务成本降低约82%，帮助开发者以更低成本规划、构建、审查和测试软件。",
-          "url": "https://openai.com/index/gpt-5-6-in-kiro",
-          "source": "OpenAI News",
+          "recommend_reason_zh": "gr.Workflow 将 AI 流水线变成可拖拽画布，每个节点可运行、中间结果可见，同一图还能作为 REST API 并一键部署到 Hugging Face Spaces，附四个可实操的示例应用。",
+          "url": "https://huggingface.co/blog/gradio-workflow-guide",
+          "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-24T12:00:00Z"
+          "published_at": "2026-08-25T00:00:00Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "OpenAI News"
+        "Hugging Face Blog"
       ],
       "items": [
         {
-          "id": "d6a16709bd08b5629faf4d578fa519178f6f9658",
-          "title": "借助 Kiro 中的 GPT-5.6 提升开发者性价比 / Advancing price-performance for developers with GPT‑5.6 in Kiro",
-          "title_zh": "借助 Kiro 中的 GPT-5.6 提升开发者性价比",
-          "title_en": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-          "title_original": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+          "id": "430ba5ce0508f4735c075b6eda70a94f1bd40348",
+          "title": "连接、运行、部署：Gradio 中的 AI 工作流 / Wire It, Run It, Deploy It: AI Workflows in Gradio",
+          "title_zh": "连接、运行、部署：Gradio 中的 AI 工作流",
+          "title_en": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+          "title_original": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
           "summary": null,
-          "recommend_reason_zh": "GPT-5.6系列（含Sol、Terra、Luna）已在Kiro上线，与AWS合作优化后，Terra在Terminal-Bench 2.1上完成任务成本降低约82%，帮助开发者以更低成本规划、构建、审查和测试软件。",
-          "url": "https://openai.com/index/gpt-5-6-in-kiro",
-          "source": "OpenAI News",
+          "recommend_reason_zh": "gr.Workflow 将 AI 流水线变成可拖拽画布，每个节点可运行、中间结果可见，同一图还能作为 REST API 并一键部署到 Hugging Face Spaces，附四个可实操的示例应用。",
+          "url": "https://huggingface.co/blog/gradio-workflow-guide",
+          "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-24T12:00:00Z"
+          "published_at": "2026-08-25T00:00:00Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8152,
-      "importance": 0.8152,
-      "importance_score": 0.8152,
+      "score": 0.8267,
+      "importance": 0.8267,
+      "importance_score": 0.8267,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.98,
-        "recency": 0.7175,
+        "ai_relevance": 0.95,
+        "recency": 0.8151,
         "story_heat": 0.0
       },
       "category": "official",
@@ -235,27 +407,27 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-24T12:00:00Z",
-      "latest_at": "2026-08-24T12:00:00Z",
+      "earliest_at": "2026-08-25T00:00:00Z",
+      "latest_at": "2026-08-25T00:00:00Z",
       "primary_item": {
-        "id": "d6a16709bd08b5629faf4d578fa519178f6f9658",
-        "title": "借助 Kiro 中的 GPT-5.6 提升开发者性价比 / Advancing price-performance for developers with GPT‑5.6 in Kiro",
-        "title_zh": "借助 Kiro 中的 GPT-5.6 提升开发者性价比",
-        "title_en": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-        "title_original": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+        "id": "430ba5ce0508f4735c075b6eda70a94f1bd40348",
+        "title": "连接、运行、部署：Gradio 中的 AI 工作流 / Wire It, Run It, Deploy It: AI Workflows in Gradio",
+        "title_zh": "连接、运行、部署：Gradio 中的 AI 工作流",
+        "title_en": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+        "title_original": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
         "summary": null,
-        "recommend_reason_zh": "GPT-5.6系列（含Sol、Terra、Luna）已在Kiro上线，与AWS合作优化后，Terra在Terminal-Bench 2.1上完成任务成本降低约82%，帮助开发者以更低成本规划、构建、审查和测试软件。",
-        "url": "https://openai.com/index/gpt-5-6-in-kiro",
-        "source": "OpenAI News",
+        "recommend_reason_zh": "gr.Workflow 将 AI 流水线变成可拖拽画布，每个节点可运行、中间结果可见，同一图还能作为 REST API 并一键部署到 Hugging Face Spaces，附四个可实操的示例应用。",
+        "url": "https://huggingface.co/blog/gradio-workflow-guide",
+        "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
       },
       "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "新模型进IDE，写代码能直接省token，今天就能试。",
+      "persona_score": 72,
+      "persona_review": "Gradio 工作流指南上线，部署演示项目能直接抄，适合快速交付。",
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T11:28:24.022890Z"
+        "scored_at": "2026-08-25T14:40:40.689507Z"
       }
     },
     {
@@ -303,15 +475,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7625,
-      "importance": 0.7625,
-      "importance_score": 0.7625,
+      "score": 0.7546,
+      "importance": 0.7546,
+      "importance_score": 0.7546,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9715,
+        "recency": 0.928,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -339,7 +511,90 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T11:28:24.022890Z"
+        "scored_at": "2026-08-25T14:40:40.689507Z"
+      }
+    },
+    {
+      "story_id": "story_e78ba6d6ecd7",
+      "title": "Apple 推出搭载 M5 Max 与 M5 Ultra 的全新 Mac Studio / Apple introduces new Mac Studio with M5 Max and M5 Ultra",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra",
+      "primary_url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra",
+      "source": "Apple：Newsroom（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "900130058d1341061578b56b4d1701a3676a34d7",
+          "title": "Apple 推出搭载 M5 Max 与 M5 Ultra 的全新 Mac Studio / Apple introduces new Mac Studio with M5 Max and M5 Ultra",
+          "title_zh": "Apple 推出搭载 M5 Max 与 M5 Ultra 的全新 Mac Studio",
+          "title_en": "Apple introduces new Mac Studio with M5 Max and M5 Ultra",
+          "title_original": "Apple introduces new Mac Studio with M5 Max and M5 Ultra",
+          "summary": "Apple 发布搭载 M5 Max 与全新 M5 Ultra 的 Mac Studio，AI 性能最高提升 4.3 倍，图形性能提升 1.8 倍，存储速度提升 2 倍。M5 Ultra 版本支持最高 512GB 统一内存与 1.2TB/s 内存带宽，可完全在设备端运行大型 LLM；四台集群可带来最高 3 倍分布式 AI 推理速度提升。新品今日起接受预购，9 月 22 日开售。",
+          "recommend_reason_zh": "Apple新Mac Studio搭载M5 Max与M5 Ultra，AI性能最高提升4.3倍，支持512GB统一内存，可在设备端运行大型LLM，并首次加入Wi-Fi 7。",
+          "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra",
+          "source": "Apple：Newsroom（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-25T13:00:23.969000Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Apple：Newsroom（RSS）"
+      ],
+      "items": [
+        {
+          "id": "900130058d1341061578b56b4d1701a3676a34d7",
+          "title": "Apple 推出搭载 M5 Max 与 M5 Ultra 的全新 Mac Studio / Apple introduces new Mac Studio with M5 Max and M5 Ultra",
+          "title_zh": "Apple 推出搭载 M5 Max 与 M5 Ultra 的全新 Mac Studio",
+          "title_en": "Apple introduces new Mac Studio with M5 Max and M5 Ultra",
+          "title_original": "Apple introduces new Mac Studio with M5 Max and M5 Ultra",
+          "summary": "Apple 发布搭载 M5 Max 与全新 M5 Ultra 的 Mac Studio，AI 性能最高提升 4.3 倍，图形性能提升 1.8 倍，存储速度提升 2 倍。M5 Ultra 版本支持最高 512GB 统一内存与 1.2TB/s 内存带宽，可完全在设备端运行大型 LLM；四台集群可带来最高 3 倍分布式 AI 推理速度提升。新品今日起接受预购，9 月 22 日开售。",
+          "recommend_reason_zh": "Apple新Mac Studio搭载M5 Max与M5 Ultra，AI性能最高提升4.3倍，支持512GB统一内存，可在设备端运行大型LLM，并首次加入Wi-Fi 7。",
+          "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra",
+          "source": "Apple：Newsroom（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-25T13:00:23.969000Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7406,
+      "importance": 0.7406,
+      "importance_score": 0.7406,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.64,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9835,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-25T13:00:23.969000Z",
+      "latest_at": "2026-08-25T13:00:23.969000Z",
+      "primary_item": {
+        "id": "900130058d1341061578b56b4d1701a3676a34d7",
+        "title": "Apple 推出搭载 M5 Max 与 M5 Ultra 的全新 Mac Studio / Apple introduces new Mac Studio with M5 Max and M5 Ultra",
+        "title_zh": "Apple 推出搭载 M5 Max 与 M5 Ultra 的全新 Mac Studio",
+        "title_en": "Apple introduces new Mac Studio with M5 Max and M5 Ultra",
+        "title_original": "Apple introduces new Mac Studio with M5 Max and M5 Ultra",
+        "summary": "Apple 发布搭载 M5 Max 与全新 M5 Ultra 的 Mac Studio，AI 性能最高提升 4.3 倍，图形性能提升 1.8 倍，存储速度提升 2 倍。M5 Ultra 版本支持最高 512GB 统一内存与 1.2TB/s 内存带宽，可完全在设备端运行大型 LLM；四台集群可带来最高 3 倍分布式 AI 推理速度提升。新品今日起接受预购，9 月 22 日开售。",
+        "recommend_reason_zh": "Apple新Mac Studio搭载M5 Max与M5 Ultra，AI性能最高提升4.3倍，支持512GB统一内存，可在设备端运行大型LLM，并首次加入Wi-Fi 7。",
+        "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra",
+        "source": "Apple：Newsroom（RSS）",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 55,
+      "persona_review": "新硬件对本地跑模型有提升，但没具体价格和性能数据，先观望。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-08-25T14:40:40.689507Z"
       }
     },
     {
@@ -416,15 +671,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7415,
-      "importance": 0.7415,
-      "importance_score": 0.7415,
+      "score": 0.7354,
+      "importance": 0.7354,
+      "importance_score": 0.7354,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7493,
+        "recency": 0.7158,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -452,7 +707,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T11:28:24.022890Z"
+        "scored_at": "2026-08-25T14:40:40.689507Z"
       }
     },
     {
@@ -500,15 +755,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7625,
-      "importance": 0.7625,
-      "importance_score": 0.7625,
+      "score": 0.7546,
+      "importance": 0.7546,
+      "importance_score": 0.7546,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9715,
+        "recency": 0.928,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -536,7 +791,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T11:28:24.022890Z"
+        "scored_at": "2026-08-25T14:40:40.689507Z"
       }
     },
     {
@@ -584,15 +839,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.761,
-      "importance": 0.761,
-      "importance_score": 0.761,
+      "score": 0.7532,
+      "importance": 0.7532,
+      "importance_score": 0.7532,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9632,
+        "recency": 0.9201,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -620,7 +875,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T11:28:24.022890Z"
+        "scored_at": "2026-08-25T14:40:40.689507Z"
       }
     },
     {
@@ -668,15 +923,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.761,
-      "importance": 0.761,
-      "importance_score": 0.761,
+      "score": 0.7532,
+      "importance": 0.7532,
+      "importance_score": 0.7532,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9632,
+        "recency": 0.9201,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -704,7 +959,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T11:28:24.022890Z"
+        "scored_at": "2026-08-25T14:40:40.689507Z"
       }
     },
     {
@@ -752,15 +1007,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.761,
-      "importance": 0.761,
-      "importance_score": 0.761,
+      "score": 0.7532,
+      "importance": 0.7532,
+      "importance_score": 0.7532,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9632,
+        "recency": 0.9201,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -788,7 +1043,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T11:28:24.022890Z"
+        "scored_at": "2026-08-25T14:40:40.689507Z"
       }
     },
     {
@@ -836,15 +1091,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7587,
-      "importance": 0.7587,
-      "importance_score": 0.7587,
+      "score": 0.751,
+      "importance": 0.751,
+      "importance_score": 0.751,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9506,
+        "recency": 0.908,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -872,7 +1127,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T11:28:24.022890Z"
+        "scored_at": "2026-08-25T14:40:40.689507Z"
       }
     },
     {
@@ -920,15 +1175,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7587,
-      "importance": 0.7587,
-      "importance_score": 0.7587,
+      "score": 0.751,
+      "importance": 0.751,
+      "importance_score": 0.751,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9506,
+        "recency": 0.908,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -956,7 +1211,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T11:28:24.022890Z"
+        "scored_at": "2026-08-25T14:40:40.689507Z"
       }
     },
     {
@@ -973,7 +1228,7 @@
           "title_zh": "复古人工智能：在变得尴尬之前",
           "title_en": null,
           "title_original": "复古人工智能：在变得尴尬之前",
-          "summary": "Long before the current kerfuffle about LLMs, Generative AI Artwork, and asking your tax preparation chatbot for a cookie recipe , the concept of artificial intelligence and synthetic life was a pervasive theme in creative and engineering works. We have the ground-breaking appearance of Rossum’s Universal Robots (or Tik-Tok, the Royal Army of Oz ), through countless science-fiction properties and incredibly positive futurist home-making advertisements , and into the inevitable portrayal of dark ",
+          "summary": null,
           "recommend_reason_zh": "这篇文章通过互联网档案馆的Vintage Artificial Intelligence collection，带你看清1970-1990年代模拟思考软件的早期面貌，包括ELIZA的German Eliza和Psycho Eliza等版本，是了解AI历史的趣味入口。",
           "url": "https://blog.archive.org/2026/08/16/vintage-artificial-intelligence-before-it-got-awkward",
           "source": "blog.archive.org",
@@ -1023,7 +1278,7 @@
           "title_zh": "复古人工智能：在变得尴尬之前",
           "title_en": null,
           "title_original": "复古人工智能：在变得尴尬之前",
-          "summary": "Long before the current kerfuffle about LLMs, Generative AI Artwork, and asking your tax preparation chatbot for a cookie recipe , the concept of artificial intelligence and synthetic life was a pervasive theme in creative and engineering works. We have the ground-breaking appearance of Rossum’s Universal Robots (or Tik-Tok, the Royal Army of Oz ), through countless science-fiction properties and incredibly positive futurist home-making advertisements , and into the inevitable portrayal of dark ",
+          "summary": null,
           "recommend_reason_zh": "这篇文章通过互联网档案馆的Vintage Artificial Intelligence collection，带你看清1970-1990年代模拟思考软件的早期面貌，包括ELIZA的German Eliza和Psycho Eliza等版本，是了解AI历史的趣味入口。",
           "url": "https://blog.archive.org/2026/08/16/vintage-artificial-intelligence-before-it-got-awkward",
           "source": "blog.archive.org",
@@ -1062,15 +1317,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5688,
-      "importance": 0.5688,
-      "importance_score": 0.5688,
+      "score": 0.5609,
+      "importance": 0.5609,
+      "importance_score": 0.5609,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9892,
+        "recency": 0.9449,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1085,7 +1340,7 @@
         "title_zh": "复古人工智能：在变得尴尬之前",
         "title_en": null,
         "title_original": "复古人工智能：在变得尴尬之前",
-        "summary": "Long before the current kerfuffle about LLMs, Generative AI Artwork, and asking your tax preparation chatbot for a cookie recipe , the concept of artificial intelligence and synthetic life was a pervasive theme in creative and engineering works. We have the ground-breaking appearance of Rossum’s Universal Robots (or Tik-Tok, the Royal Army of Oz ), through countless science-fiction properties and incredibly positive futurist home-making advertisements , and into the inevitable portrayal of dark ",
+        "summary": null,
         "recommend_reason_zh": "这篇文章通过互联网档案馆的Vintage Artificial Intelligence collection，带你看清1970-1990年代模拟思考软件的早期面貌，包括ELIZA的German Eliza和Psycho Eliza等版本，是了解AI历史的趣味入口。",
         "url": "https://blog.archive.org/2026/08/16/vintage-artificial-intelligence-before-it-got-awkward",
         "source": "blog.archive.org",
@@ -1097,7 +1352,119 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T11:28:24.022890Z"
+        "scored_at": "2026-08-25T14:40:40.689507Z"
+      }
+    },
+    {
+      "story_id": "story_77e205d8388b",
+      "title": "2026年AI现状：迈向ROI之路 / The state of AI in 2026: On the road to ROI",
+      "url": "https://news.ycombinator.com/item?id=49433759",
+      "primary_url": "https://news.ycombinator.com/item?id=49433759",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "9ea5196edfe45f6591a7183c877eddb48c20af39",
+          "title": "2026年AI现状：迈向ROI之路 / The state of AI in 2026: On the road to ROI",
+          "title_zh": "2026年AI现状：迈向ROI之路",
+          "title_en": "The state of AI in 2026: On the road to ROI",
+          "title_original": "The state of AI in 2026: On the road to ROI",
+          "summary": "People think they can do it themself... kind of like how everyone build their own database using Microsoft Access in the 90's. When all software developers needed to repair all the issues...\nreply\nreply\nreply\nreply\nreply\nIt is far more plausible that we'll see that pattern again - small, department-level vibe coded apps will be around. And things that need to scale bigger will need professionals.\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nDo t",
+          "recommend_reason_zh": "文章以90年代人人用Microsoft Access自建数据库类比，预测小型部门级vibe coding应用将普及，而规模化需求仍需专业人员；并直言AI提效明显，无需随机对照试验证明。",
+          "url": "https://news.ycombinator.com/item?id=49433759",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-25T14:09:44.694000Z"
+        },
+        {
+          "id": "34002ddc76b1ecc8265a5e979ce34705d680104e",
+          "title": "2026年AI现状：迈向ROI之路 / The state of AI in 2026: On the road to ROI",
+          "title_zh": "2026年AI现状：迈向ROI之路",
+          "title_en": "The state of AI in 2026: On the road to ROI",
+          "title_original": "The state of AI in 2026: On the road to ROI",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-25T13:32:52Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "9ea5196edfe45f6591a7183c877eddb48c20af39",
+          "title": "2026年AI现状：迈向ROI之路 / The state of AI in 2026: On the road to ROI",
+          "title_zh": "2026年AI现状：迈向ROI之路",
+          "title_en": "The state of AI in 2026: On the road to ROI",
+          "title_original": "The state of AI in 2026: On the road to ROI",
+          "summary": "People think they can do it themself... kind of like how everyone build their own database using Microsoft Access in the 90's. When all software developers needed to repair all the issues...\nreply\nreply\nreply\nreply\nreply\nIt is far more plausible that we'll see that pattern again - small, department-level vibe coded apps will be around. And things that need to scale bigger will need professionals.\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nDo t",
+          "recommend_reason_zh": "文章以90年代人人用Microsoft Access自建数据库类比，预测小型部门级vibe coding应用将普及，而规模化需求仍需专业人员；并直言AI提效明显，无需随机对照试验证明。",
+          "url": "https://news.ycombinator.com/item?id=49433759",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-25T14:09:44.694000Z"
+        },
+        {
+          "id": "34002ddc76b1ecc8265a5e979ce34705d680104e",
+          "title": "2026年AI现状：迈向ROI之路 / The state of AI in 2026: On the road to ROI",
+          "title_zh": "2026年AI现状：迈向ROI之路",
+          "title_en": "The state of AI in 2026: On the road to ROI",
+          "title_original": "The state of AI in 2026: On the road to ROI",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-25T13:32:52Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-25T13:32:52Z",
+      "latest_at": "2026-08-25T14:09:44.694000Z",
+      "primary_item": {
+        "id": "9ea5196edfe45f6591a7183c877eddb48c20af39",
+        "title": "2026年AI现状：迈向ROI之路 / The state of AI in 2026: On the road to ROI",
+        "title_zh": "2026年AI现状：迈向ROI之路",
+        "title_en": "The state of AI in 2026: On the road to ROI",
+        "title_original": "The state of AI in 2026: On the road to ROI",
+        "summary": "People think they can do it themself... kind of like how everyone build their own database using Microsoft Access in the 90's. When all software developers needed to repair all the issues...\nreply\nreply\nreply\nreply\nreply\nIt is far more plausible that we'll see that pattern again - small, department-level vibe coded apps will be around. And things that need to scale bigger will need professionals.\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nDo t",
+        "recommend_reason_zh": "文章以90年代人人用Microsoft Access自建数据库类比，预测小型部门级vibe coding应用将普及，而规模化需求仍需专业人员；并直言AI提效明显，无需随机对照试验证明。",
+        "url": "https://news.ycombinator.com/item?id=49433759",
+        "source": "hackernews",
+        "source_name": "NewsNow"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "行业趋势综述，无具体工具或数据，动手前不用细读。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-08-25T14:40:40.689507Z"
       }
     },
     {
@@ -1203,15 +1570,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5513,
-      "importance": 0.5513,
-      "importance_score": 0.5513,
+      "score": 0.5441,
+      "importance": 0.5441,
+      "importance_score": 0.5441,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8917,
+        "recency": 0.8518,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1238,7 +1605,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T11:28:24.022890Z"
+        "scored_at": "2026-08-25T14:40:40.689507Z"
       }
     },
     {
@@ -1286,15 +1653,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7587,
-      "importance": 0.7587,
-      "importance_score": 0.7587,
+      "score": 0.751,
+      "importance": 0.751,
+      "importance_score": 0.751,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9506,
+        "recency": 0.908,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1322,148 +1689,119 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T11:28:24.022890Z"
+        "scored_at": "2026-08-25T14:40:40.689507Z"
       }
     },
     {
-      "story_id": "story_be780896c4e6",
-      "title": "Autostep (YC P26) 正在招聘 AI/全栈工程师和 Chief of Staff / Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
-      "url": "https://news.ycombinator.com/item?id=49423495",
-      "primary_url": "https://news.ycombinator.com/item?id=49423495",
+      "story_id": "story_18ba3e730a24",
+      "title": "OpenAI为ChatGPT Plus用户恢复5小时Codex和工作限制 / OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
+      "url": "https://news.ycombinator.com/item?id=49432879",
+      "primary_url": "https://news.ycombinator.com/item?id=49432879",
       "source": "hackernews",
       "source_name": "NewsNow",
       "sources": [
         {
-          "id": "e9d056c2857afbbee09d9230d4027c1094de409a",
-          "title": "Autostep (YC P26) 正在招聘 AI/全栈工程师和 Chief of Staff / Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
-          "title_zh": "Autostep (YC P26) 正在招聘 AI/全栈工程师和 Chief of Staff",
-          "title_en": "Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
-          "title_original": "Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49423495",
+          "id": "24620e97f3bd839f953aa50068fe7a0533dbf434",
+          "title": "OpenAI为ChatGPT Plus用户恢复5小时Codex和工作限制 / OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
+          "title_zh": "OpenAI为ChatGPT Plus用户恢复5小时Codex和工作限制",
+          "title_en": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
+          "title_original": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
+          "summary": "Such a casino vibe.\nreply\nreply\nFree drinks? Keep customers happy? Reward your heaviest users? Casino vibes\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nI'll be switching back.\nreply\n> Such a casino vibe. No no no! It means we're all in it together! Feel the parasocial vibes!\nNo no no! It means we're all in it together! Feel the parasocial vibes!\nreply\nreply\nSeems fair, but then maybe the 5h usage should also drain slower during off-peak hours? Perhaps it already does. > and (b) users on the Plus p",
+          "recommend_reason_zh": "OpenAI恢复ChatGPT Plus用户的5小时Codex和Work限制，评论区吵翻天：有用户吐槽像赌场，也有人算账后认为40/120美元的Cursor Team订阅更划算。",
+          "url": "https://news.ycombinator.com/item?id=49432879",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-08-24T19:17:03.599000Z"
+          "published_at": "2026-08-25T14:09:44.694000Z"
         },
         {
-          "id": "6582a37d7839efe929f75b6a13d09db88e80db59",
-          "title": "Autostep (YC P26) 正在招聘 AI/全栈工程师和 Chief of Staff / Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
-          "title_zh": "Autostep (YC P26) 正在招聘 AI/全栈工程师和 Chief of Staff",
-          "title_en": "Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
-          "title_original": "Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
+          "id": "d98ea95ebfcfa6ff36f866e219f2c09027cabd49",
+          "title": "OpenAI为ChatGPT Plus用户恢复5小时Codex和工作限制 / OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
+          "title_zh": "OpenAI为ChatGPT Plus用户恢复5小时Codex和工作限制",
+          "title_en": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
+          "title_original": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://app.dover.com/Autostep/careers/e9510e3b-a854-4e48-9e5d-c89796acaed4",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-24T17:53:14Z"
-        },
-        {
-          "id": "bf30eb251863bbe3ddd16a6d90095d39aafd4486",
-          "title": "Autostep (YC P26) 正在招聘 AI/全栈工程师和 Chief of Staff / Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
-          "title_zh": "Autostep (YC P26) 正在招聘 AI/全栈工程师和 Chief of Staff",
-          "title_en": "Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
-          "title_original": "Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.ycombinator.com/companies/autostep/jobs",
+          "url": "https://9to5mac.com/2026/08/24/openai-restores-5-hour-codex-and-work-limits-for-chatgpt-plus-users",
           "source": "Hacker News",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-08-24T17:53:14Z"
+          "published_at": "2026-08-25T12:33:00Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
         "Hacker News",
-        "Hacker News (黑客新闻)",
         "hackernews"
       ],
       "items": [
         {
-          "id": "e9d056c2857afbbee09d9230d4027c1094de409a",
-          "title": "Autostep (YC P26) 正在招聘 AI/全栈工程师和 Chief of Staff / Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
-          "title_zh": "Autostep (YC P26) 正在招聘 AI/全栈工程师和 Chief of Staff",
-          "title_en": "Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
-          "title_original": "Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49423495",
+          "id": "24620e97f3bd839f953aa50068fe7a0533dbf434",
+          "title": "OpenAI为ChatGPT Plus用户恢复5小时Codex和工作限制 / OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
+          "title_zh": "OpenAI为ChatGPT Plus用户恢复5小时Codex和工作限制",
+          "title_en": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
+          "title_original": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
+          "summary": "Such a casino vibe.\nreply\nreply\nFree drinks? Keep customers happy? Reward your heaviest users? Casino vibes\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nI'll be switching back.\nreply\n> Such a casino vibe. No no no! It means we're all in it together! Feel the parasocial vibes!\nNo no no! It means we're all in it together! Feel the parasocial vibes!\nreply\nreply\nSeems fair, but then maybe the 5h usage should also drain slower during off-peak hours? Perhaps it already does. > and (b) users on the Plus p",
+          "recommend_reason_zh": "OpenAI恢复ChatGPT Plus用户的5小时Codex和Work限制，评论区吵翻天：有用户吐槽像赌场，也有人算账后认为40/120美元的Cursor Team订阅更划算。",
+          "url": "https://news.ycombinator.com/item?id=49432879",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-08-24T19:17:03.599000Z"
+          "published_at": "2026-08-25T14:09:44.694000Z"
         },
         {
-          "id": "6582a37d7839efe929f75b6a13d09db88e80db59",
-          "title": "Autostep (YC P26) 正在招聘 AI/全栈工程师和 Chief of Staff / Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
-          "title_zh": "Autostep (YC P26) 正在招聘 AI/全栈工程师和 Chief of Staff",
-          "title_en": "Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
-          "title_original": "Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
+          "id": "d98ea95ebfcfa6ff36f866e219f2c09027cabd49",
+          "title": "OpenAI为ChatGPT Plus用户恢复5小时Codex和工作限制 / OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
+          "title_zh": "OpenAI为ChatGPT Plus用户恢复5小时Codex和工作限制",
+          "title_en": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
+          "title_original": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://app.dover.com/Autostep/careers/e9510e3b-a854-4e48-9e5d-c89796acaed4",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-24T17:53:14Z"
-        },
-        {
-          "id": "bf30eb251863bbe3ddd16a6d90095d39aafd4486",
-          "title": "Autostep (YC P26) 正在招聘 AI/全栈工程师和 Chief of Staff / Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
-          "title_zh": "Autostep (YC P26) 正在招聘 AI/全栈工程师和 Chief of Staff",
-          "title_en": "Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
-          "title_original": "Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.ycombinator.com/companies/autostep/jobs",
+          "url": "https://9to5mac.com/2026/08/24/openai-restores-5-hour-codex-and-work-limits-for-chatgpt-plus-users",
           "source": "Hacker News",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-08-24T17:53:14Z"
+          "published_at": "2026-08-25T12:33:00Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5343,
-      "importance": 0.5343,
-      "importance_score": 0.5343,
-      "importance_label": "多源热议",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7971,
-        "story_heat": 0.5
+        "recency": 1.0,
+        "story_heat": 0.25
       },
-      "category": "multi_source",
+      "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-08-24T17:53:14Z",
-      "latest_at": "2026-08-24T19:17:03.599000Z",
+      "earliest_at": "2026-08-25T12:33:00Z",
+      "latest_at": "2026-08-25T14:09:44.694000Z",
       "primary_item": {
-        "id": "e9d056c2857afbbee09d9230d4027c1094de409a",
-        "title": "Autostep (YC P26) 正在招聘 AI/全栈工程师和 Chief of Staff / Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
-        "title_zh": "Autostep (YC P26) 正在招聘 AI/全栈工程师和 Chief of Staff",
-        "title_en": "Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
-        "title_original": "Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://news.ycombinator.com/item?id=49423495",
+        "id": "24620e97f3bd839f953aa50068fe7a0533dbf434",
+        "title": "OpenAI为ChatGPT Plus用户恢复5小时Codex和工作限制 / OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
+        "title_zh": "OpenAI为ChatGPT Plus用户恢复5小时Codex和工作限制",
+        "title_en": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
+        "title_original": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
+        "summary": "Such a casino vibe.\nreply\nreply\nFree drinks? Keep customers happy? Reward your heaviest users? Casino vibes\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nI'll be switching back.\nreply\n> Such a casino vibe. No no no! It means we're all in it together! Feel the parasocial vibes!\nNo no no! It means we're all in it together! Feel the parasocial vibes!\nreply\nreply\nSeems fair, but then maybe the 5h usage should also drain slower during off-peak hours? Perhaps it already does. > and (b) users on the Plus p",
+        "recommend_reason_zh": "OpenAI恢复ChatGPT Plus用户的5小时Codex和Work限制，评论区吵翻天：有用户吐槽像赌场，也有人算账后认为40/120美元的Cursor Team订阅更划算。",
+        "url": "https://news.ycombinator.com/item?id=49432879",
         "source": "hackernews",
         "source_name": "NewsNow"
       },
       "persona_id": "pragmatic",
-      "persona_score": 20,
-      "persona_review": "招聘帖不是技术动态，对开发者没实际用处。",
+      "persona_score": 72,
+      "persona_review": "Plus用户额度恢复，跑长任务的今天能多用几轮，但别指望质变。",
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T11:28:24.022890Z"
+        "scored_at": "2026-08-25T14:40:40.689507Z"
       }
     },
     {
@@ -1511,15 +1849,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7587,
-      "importance": 0.7587,
-      "importance_score": 0.7587,
+      "score": 0.751,
+      "importance": 0.751,
+      "importance_score": 0.751,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9506,
+        "recency": 0.908,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1547,7 +1885,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T11:28:24.022890Z"
+        "scored_at": "2026-08-25T14:40:40.689507Z"
       }
     },
     {
@@ -1623,15 +1961,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5036,
-      "importance": 0.5036,
-      "importance_score": 0.5036,
+      "score": 0.4975,
+      "importance": 0.4975,
+      "importance_score": 0.4975,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7658,
+        "recency": 0.7315,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1658,287 +1996,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T11:28:24.022890Z"
-      }
-    },
-    {
-      "story_id": "story_113a05038284",
-      "title": "Agent 技能用什么语言编写？ / What languages are agent skills written in?",
-      "url": "https://news.ycombinator.com/item?id=49427825",
-      "primary_url": "https://news.ycombinator.com/item?id=49427825",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "501aa75ee1f0aad21123c9e79896f53897afa5a6",
-          "title": "Agent 技能用什么语言编写？ / What languages are agent skills written in?",
-          "title_zh": "Agent 技能用什么语言编写？",
-          "title_en": "What languages are agent skills written in?",
-          "title_original": "What languages are agent skills written in?",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49427825",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-25T03:05:01.156000Z"
-        },
-        {
-          "id": "71cff0d6efaaec7bf0e17bff65330d8e7a9c5c79",
-          "title": "Agent 技能用什么语言编写？ / What languages are agent skills written in?",
-          "title_zh": "Agent 技能用什么语言编写？",
-          "title_en": "What languages are agent skills written in?",
-          "title_original": "What languages are agent skills written in?",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://plicara.ai/research/agent-skill-languages",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-25T00:52:27Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "501aa75ee1f0aad21123c9e79896f53897afa5a6",
-          "title": "Agent 技能用什么语言编写？ / What languages are agent skills written in?",
-          "title_zh": "Agent 技能用什么语言编写？",
-          "title_en": "What languages are agent skills written in?",
-          "title_original": "What languages are agent skills written in?",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49427825",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-25T03:05:01.156000Z"
-        },
-        {
-          "id": "71cff0d6efaaec7bf0e17bff65330d8e7a9c5c79",
-          "title": "Agent 技能用什么语言编写？ / What languages are agent skills written in?",
-          "title_zh": "Agent 技能用什么语言编写？",
-          "title_en": "What languages are agent skills written in?",
-          "title_original": "What languages are agent skills written in?",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://plicara.ai/research/agent-skill-languages",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-25T00:52:27Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5264,
-      "importance": 0.5264,
-      "importance_score": 0.5264,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8922,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-25T00:52:27Z",
-      "latest_at": "2026-08-25T03:05:01.156000Z",
-      "primary_item": {
-        "id": "501aa75ee1f0aad21123c9e79896f53897afa5a6",
-        "title": "Agent 技能用什么语言编写？ / What languages are agent skills written in?",
-        "title_zh": "Agent 技能用什么语言编写？",
-        "title_en": "What languages are agent skills written in?",
-        "title_original": "What languages are agent skills written in?",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://news.ycombinator.com/item?id=49427825",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 55,
-      "persona_review": "讨论帖没落地代码，选型前先看生态再动手。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-25T11:28:24.022890Z"
-      }
-    },
-    {
-      "story_id": "story_7c313959a64a",
-      "title": "纳德拉示警企业：别把\"Token 资本\"押注单一模型，当心命运被外包",
-      "url": "https://www.aibase.com/news/30599",
-      "primary_url": "https://www.aibase.com/news/30599",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "0695d549407753ec262acd842c71e7c96ca5a5a8",
-          "title": "纳德拉示警企业：别把\"Token 资本\"押注单一模型，当心命运被外包",
-          "title_zh": "纳德拉示警企业：别把\"Token 资本\"押注单一模型，当心命运被外包",
-          "title_en": null,
-          "title_original": "纳德拉示警企业：别把\"Token 资本\"押注单一模型，当心命运被外包",
-          "summary": null,
-          "recommend_reason_zh": "微软CEO Nadella在CNN播客警告，企业若把“Token资本”押注单一AI模型，等于将知识与思考能力外包给模型厂商，并认同Fareed Zakaria所言，使用AI产生的数据会帮助厂商改进模型。",
-          "url": "https://www.aibase.com/news/30599",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-25T07:28:25.530508Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "0695d549407753ec262acd842c71e7c96ca5a5a8",
-          "title": "纳德拉示警企业：别把\"Token 资本\"押注单一模型，当心命运被外包",
-          "title_zh": "纳德拉示警企业：别把\"Token 资本\"押注单一模型，当心命运被外包",
-          "title_en": null,
-          "title_original": "纳德拉示警企业：别把\"Token 资本\"押注单一模型，当心命运被外包",
-          "summary": null,
-          "recommend_reason_zh": "微软CEO Nadella在CNN播客警告，企业若把“Token资本”押注单一AI模型，等于将知识与思考能力外包给模型厂商，并认同Fareed Zakaria所言，使用AI产生的数据会帮助厂商改进模型。",
-          "url": "https://www.aibase.com/news/30599",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-25T07:28:25.530508Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7587,
-      "importance": 0.7587,
-      "importance_score": 0.7587,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9506,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-25T07:28:25.530508Z",
-      "latest_at": "2026-08-25T07:28:25.530508Z",
-      "primary_item": {
-        "id": "0695d549407753ec262acd842c71e7c96ca5a5a8",
-        "title": "纳德拉示警企业：别把\"Token 资本\"押注单一模型，当心命运被外包",
-        "title_zh": "纳德拉示警企业：别把\"Token 资本\"押注单一模型，当心命运被外包",
-        "title_en": null,
-        "title_original": "纳德拉示警企业：别把\"Token 资本\"押注单一模型，当心命运被外包",
-        "summary": null,
-        "recommend_reason_zh": "微软CEO Nadella在CNN播客警告，企业若把“Token资本”押注单一AI模型，等于将知识与思考能力外包给模型厂商，并认同Fareed Zakaria所言，使用AI产生的数据会帮助厂商改进模型。",
-        "url": "https://www.aibase.com/news/30599",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "提醒别锁死单一模型，但没给工具或方案，等具体实践。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-25T11:28:24.022890Z"
-      }
-    },
-    {
-      "story_id": "story_e0ba1a9f4659",
-      "title": "老板电器 AI 烹饪眼镜明年 3 月开售：搭载\"食神\"大模型",
-      "url": "https://www.aibase.com/news/30603",
-      "primary_url": "https://www.aibase.com/news/30603",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "80d522546b1cb3cd9b4cb976da96ce9ded3e8bce",
-          "title": "老板电器 AI 烹饪眼镜明年 3 月开售：搭载\"食神\"大模型",
-          "title_zh": "老板电器 AI 烹饪眼镜明年 3 月开售：搭载\"食神\"大模型",
-          "title_en": null,
-          "title_original": "老板电器 AI 烹饪眼镜明年 3 月开售：搭载\"食神\"大模型",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30603",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-25T07:28:25.530508Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "80d522546b1cb3cd9b4cb976da96ce9ded3e8bce",
-          "title": "老板电器 AI 烹饪眼镜明年 3 月开售：搭载\"食神\"大模型",
-          "title_zh": "老板电器 AI 烹饪眼镜明年 3 月开售：搭载\"食神\"大模型",
-          "title_en": null,
-          "title_original": "老板电器 AI 烹饪眼镜明年 3 月开售：搭载\"食神\"大模型",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30603",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-25T07:28:25.530508Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7587,
-      "importance": 0.7587,
-      "importance_score": 0.7587,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9506,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-25T07:28:25.530508Z",
-      "latest_at": "2026-08-25T07:28:25.530508Z",
-      "primary_item": {
-        "id": "80d522546b1cb3cd9b4cb976da96ce9ded3e8bce",
-        "title": "老板电器 AI 烹饪眼镜明年 3 月开售：搭载\"食神\"大模型",
-        "title_zh": "老板电器 AI 烹饪眼镜明年 3 月开售：搭载\"食神\"大模型",
-        "title_en": null,
-        "title_original": "老板电器 AI 烹饪眼镜明年 3 月开售：搭载\"食神\"大模型",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/30603",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "硬件+大模型落地场景，但明年才卖，现在不用动。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-25T11:28:24.022890Z"
+        "scored_at": "2026-08-25T14:40:40.689507Z"
       }
     }
   ]

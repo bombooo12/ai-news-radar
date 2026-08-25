@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T11:28:25.197677Z",
+  "generated_at": "2026-08-25T14:40:48.688812Z",
   "model": "deepseek-chat",
   "personas": [
     {
@@ -17,22 +17,22 @@
   ],
   "items": [
     {
-      "story_id": "story_23b9168d3a9a",
-      "title": "借助 Kiro 中的 GPT-5.6 提升开发者性价比 / Advancing price-performance for developers with GPT‑5.6 in Kiro",
-      "url": "https://openai.com/index/gpt-5-6-in-kiro",
+      "story_id": "story_6411634610d0",
+      "title": "量化感知修复：4位压缩模型超越全精度原版 / Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 55,
-          "review": "性价比？先公布价格和基准测试再说，别拿Kiro当遮羞布。"
+          "score": 72,
+          "review": "4位压缩反超原版？先晒出评测集和基线再吹，别拿自家弱基线当参照。"
         },
         "paper-police": {
-          "score": 15,
-          "review": "仅官方博客宣称性能，无论文无代码无第三方评测，证据不足。"
+          "score": 45,
+          "review": "博客给了数字但无代码无复现，等开源或第三方验证再定论。"
         },
         "pragmatic": {
-          "score": 85,
-          "review": "新模型进IDE，写代码能直接省token，今天就能试。"
+          "score": 72,
+          "review": "4位量化模型反超原版，压缩部署可试，但需验证泛化性。"
         }
       }
     },

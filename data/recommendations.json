@@ -3,30 +3,32 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？",
-      "track": "ai_tech",
+      "title": "OpenAI智能体失控事件全解析：AI Agent真的安全吗？",
+      "track": "ai_agent",
       "track_name": "AI技术",
-      "target_audience": "AI初学者/创作者",
-      "reason": "赛道相关度11.0分",
+      "target_audience": "AI初学者、AI工具使用者、关注AI安全的个人",
+      "reason": "结合OpenAI智能体失控新闻，满足用户对AI安全的好奇，同时提供实操避坑内容。",
       "source_items": [
-        "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？"
+        "OpenAI is building AI agents for everything. Will everyone use them?",
+        "Alabama AG probes OpenAI after its AI agent went rogue and hacked into external systems"
       ],
       "source_urls": [
-        "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them"
+        "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
+        "https://the-decoder.com/alabama-is-investigating-openai-following-an-uncontrolled-ai-agent-hack"
       ],
-      "urgency": "medium",
-      "viral_potential": "medium",
+      "urgency": "high",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？ 入门教程",
-          "summary": "从零开始上手的完整步骤",
+          "hook": "三步教你安全使用AI智能体，避免失控风险",
+          "summary": "教你如何设置权限、监控行为、定期审查，安全使用AI智能体。",
           "key_points": [
-            "了解基本概念",
-            "掌握核心操作",
-            "动手实践案例"
+            "如何设置AI智能体的权限边界",
+            "如何监控AI智能体的行为日志",
+            "如何定期审查和更新AI智能体的配置"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -35,12 +37,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？ 常见坑点",
-          "summary": "新手最容易踩的几个坑",
+          "hook": "AI智能体失控？这些坑你必须避开！",
+          "summary": "梳理AI智能体使用中的常见安全陷阱和风险，提供规避方法。",
           "pitfalls": [
-            "概念理解误区",
-            "操作步骤错漏",
-            "预期管理不当"
+            "过度授权导致AI智能体越权操作",
+            "缺乏监控机制导致异常行为未被发现",
+            "忽视安全更新导致漏洞被利用"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -49,12 +51,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？ 深度分析",
-          "summary": "背后的逻辑和影响",
+          "hook": "从OpenAI智能体失控看AI安全：我们该信任谁？",
+          "summary": "分析AI智能体失控事件背后的技术、法律和伦理问题，探讨AI安全的未来。",
           "insights": [
-            "技术原理简析",
-            "行业影响分析",
-            "未来趋势展望"
+            "AI智能体的自主性与可控性矛盾",
+            "法律监管滞后与责任归属难题",
+            "用户信任与AI透明度的博弈"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -63,58 +65,58 @@
     },
     {
       "rank": 2,
-      "title": "OpenAI is building AI agents for everything. Will everyone use them?",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者/创作者",
-      "reason": "赛道相关度11.0分",
+      "title": "阿里Wan3.0视频生成实测：30秒长视频，效果惊艳还是翻车？",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "AI初学者、视频创作者、自媒体运营者",
+      "reason": "阿里Wan3.0是热点，且符合创作者擅长AI视频测评的偏好，实操性强。",
       "source_items": [
-        "OpenAI is building AI agents for everything. Will everyone use them?"
+        "Alibaba's Wan3.0 generates AI videos up to 30 seconds long from text, images, and documents"
       ],
       "source_urls": [
-        "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them"
+        "https://the-decoder.com/alibabas-wan3-0-generates-ai-videos-up-to-30-seconds-long-from-text-images-and-documents"
       ],
       "urgency": "medium",
-      "viral_potential": "medium",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "OpenAI is building AI agents for everything. Will everyone use them? 入门教程",
-          "summary": "从零开始上手的完整步骤",
+          "format": "视频",
+          "hook": "手把手教你用阿里Wan3.0生成30秒AI视频",
+          "summary": "从注册到生成，详细演示如何使用Wan3.0制作视频。",
           "key_points": [
-            "了解基本概念",
-            "掌握核心操作",
-            "动手实践案例"
+            "注册与登录流程",
+            "输入文本/图片/文档生成视频的操作步骤",
+            "参数调整与视频优化技巧"
           ],
           "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "estimated_time": "45分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "OpenAI is building AI agents for everything. Will everyone use them? 常见坑点",
-          "summary": "新手最容易踩的几个坑",
+          "hook": "AI视频生成避坑：阿里Wan3.0的5个常见问题",
+          "summary": "总结使用Wan3.0时常见的错误和陷阱，并提供解决方案。",
           "pitfalls": [
-            "概念理解误区",
-            "操作步骤错漏",
-            "预期管理不当"
+            "文本描述不清晰导致视频内容偏离",
+            "参数设置不当导致视频质量差",
+            "图片输入格式不支持导致报错"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "OpenAI is building AI agents for everything. Will everyone use them? 深度分析",
-          "summary": "背后的逻辑和影响",
+          "hook": "阿里Wan3.0发布，AI视频生成将如何改变内容创作？",
+          "summary": "分析Wan3.0的技术突破、行业影响，以及对创作者生态的冲击。",
           "insights": [
-            "技术原理简析",
-            "行业影响分析",
-            "未来趋势展望"
+            "AI视频生成技术从短片段到长视频的跨越",
+            "对传统视频制作流程的颠覆",
+            "创作者如何适应AI视频时代"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -123,16 +125,16 @@
     },
     {
       "rank": 3,
-      "title": "Alibaba's Wan3.0 generates AI videos up to 30 seconds long from text, images, and documents",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI初学者/创作者",
-      "reason": "赛道相关度3.5999999999999996分",
+      "title": "OpenAI起诉WikiHow：AI模型是抄袭还是学习？",
+      "track": "ai_legal",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、内容创作者、法律兴趣者",
+      "reason": "结合OpenAI侵权新闻，探讨AI与版权问题，符合创作者对商标/IP的兴趣，可引流。",
       "source_items": [
-        "Alibaba's Wan3.0 generates AI videos up to 30 seconds long from text, images, and documents"
+        "大模型成最大“抄袭者”？全球最大生活指南百科 WikiHow 正式起诉 OpenAI 侵权"
       ],
       "source_urls": [
-        "https://the-decoder.com/alibabas-wan3-0-generates-ai-videos-up-to-30-seconds-long-from-text-images-and-documents"
+        "https://www.aibase.com/news/30598"
       ],
       "urgency": "medium",
       "viral_potential": "medium",
@@ -141,12 +143,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "Alibaba's Wan3.0 generates AI videos up to 30 seconds long from text, images, and documents 入门教程",
-          "summary": "从零开始上手的完整步骤",
+          "hook": "AI创作如何避免侵权？从WikiHow起诉OpenAI学到的3个方法",
+          "summary": "教你如何在用AI创作时规避版权风险，包括检查来源、修改原创性等。",
           "key_points": [
-            "了解基本概念",
-            "掌握核心操作",
-            "动手实践案例"
+            "如何检查AI生成内容的版权风险",
+            "如何修改AI内容增加原创性",
+            "如何合理引用来源"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -155,12 +157,72 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "Alibaba's Wan3.0 generates AI videos up to 30 seconds long from text, images, and documents 常见坑点",
-          "summary": "新手最容易踩的几个坑",
+          "hook": "AI创作侵权风险高？这些坑千万别踩！",
+          "summary": "总结AI创作中常见的版权陷阱，提供规避建议。",
           "pitfalls": [
-            "概念理解误区",
-            "操作步骤错漏",
-            "预期管理不当"
+            "直接复制AI生成内容未修改",
+            "使用AI生成与现有作品高度相似的内容",
+            "忽视平台版权政策"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "AI版权大战：从WikiHow起诉OpenAI看AI创作的法律边界",
+          "summary": "深入分析AI训练数据版权问题，探讨AI创作的法律灰色地带。",
+          "insights": [
+            "AI训练数据版权保护的困境",
+            "AI生成内容的法律归属",
+            "未来AI版权法规的可能走向"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "NVIDIA Vera Rubin NVL72：AI智能体效率提升30倍，是噱头还是革命？",
+      "track": "ai_hardware",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、科技爱好者、关注AI硬件的人",
+      "reason": "NVIDIA新硬件发布，技术性强但可简化解读，满足初学者了解趋势的需求。",
+      "source_items": [
+        "NVIDIA Vera Rubin NVL72 树立 AI 智能体效率新标准：每瓦特工作量提升至 30 倍"
+      ],
+      "source_urls": [
+        "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "不懂硬件也能懂：NVIDIA新芯片如何提升AI效率？",
+          "summary": "用通俗语言解释NVIDIA新芯片的技术亮点，以及它对AI应用的影响。",
+          "key_points": [
+            "用比喻解释芯片效率提升",
+            "展示新芯片在AI应用中的实际效果",
+            "如何选择适合的AI硬件"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI硬件选购避坑：别被参数忽悠了！",
+          "summary": "提醒初学者在选购AI相关硬件时常见的误区，如只看参数不看需求。",
+          "pitfalls": [
+            "盲目追求高参数导致浪费",
+            "忽略功耗和散热问题",
+            "不了解硬件兼容性"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -169,12 +231,252 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "Alibaba's Wan3.0 generates AI videos up to 30 seconds long from text, images, and documents 深度分析",
-          "summary": "背后的逻辑和影响",
+          "hook": "NVIDIA新芯片发布，AI算力革命将如何影响普通用户？",
+          "summary": "分析NVIDIA新芯片对AI行业、云计算成本、个人AI应用的影响。",
           "insights": [
-            "技术原理简析",
-            "行业影响分析",
-            "未来趋势展望"
+            "算力提升将降低AI应用成本",
+            "AI智能体将更普及",
+            "对个人开发者是机遇还是挑战？"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "ChatGPT Plus用户福利回归：5小时Codex限制，你该知道什么？",
+      "track": "ai_tools",
+      "track_name": "AI技术",
+      "target_audience": "ChatGPT用户、AI工具使用者、开发者",
+      "reason": "ChatGPT Plus限制恢复，直接影响用户，实用性强，适合实操教程。",
+      "source_items": [
+        "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users"
+      ],
+      "source_urls": [
+        "https://news.ycombinator.com/item?id=49432879"
+      ],
+      "urgency": "high",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "ChatGPT Plus用户必看：如何高效利用5小时Codex限制",
+          "summary": "教你如何规划使用时间，最大化利用Codex功能。",
+          "key_points": [
+            "了解Codex功能及限制",
+            "制定使用计划",
+            "使用技巧提高效率"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "ChatGPT Plus限制恢复，这些坑你踩了吗？",
+          "summary": "提醒用户在使用Codex时常见的误区，如超时浪费、任务优先级等。",
+          "pitfalls": [
+            "不注意时间限制导致任务中断",
+            "不规划任务导致效率低下",
+            "忽略更新导致功能变化"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "ChatGPT Plus限制恢复背后：OpenAI的算力策略与用户影响",
+          "summary": "分析OpenAI恢复限制的原因，对用户和行业的影响。",
+          "insights": [
+            "OpenAI的算力分配策略",
+            "用户对AI工具依赖的反思",
+            "未来AI服务模式的可能变化"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "从提示词到智能体：如何用Prompt改变软件？",
+      "track": "ai_prompt",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、开发者、对AI编程感兴趣的人",
+      "reason": "结合提示词相关新闻，符合创作者擅长提示词工程教程的偏好。",
+      "source_items": [
+        "We need to get away from software that we can’t change with a prompt."
+      ],
+      "source_urls": [
+        "https://x.com/steipete/status/2091923535513928015"
+      ],
+      "urgency": "low",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "提示词入门：如何用一句话改变软件行为？",
+          "summary": "教你如何编写提示词来控制AI软件，包括基本语法和示例。",
+          "key_points": [
+            "理解提示词的基本结构",
+            "常见提示词模板",
+            "实战案例：用提示词调整AI助手"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "提示词工程避坑：这些错误让你的AI变傻",
+          "summary": "总结编写提示词时常见的错误，如模糊、冗长等，提供改进方法。",
+          "pitfalls": [
+            "提示词过于模糊导致结果偏差",
+            "提示词过长导致关键信息丢失",
+            "忽略上下文导致误解"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "提示词革命：软件可被提示词改变，未来软件会消失吗？",
+          "summary": "探讨提示词驱动的软件范式转变，对传统软件开发的影响。",
+          "insights": [
+            "从代码到提示词的转变",
+            "软件开发门槛降低",
+            "对开发者职业的影响"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "OpenAI Cookbook更新：gpt-oss设置指南，开发者必看",
+      "track": "ai_development",
+      "track_name": "AI技术",
+      "target_audience": "开发者、AI技术爱好者、想要学习AI开发的初学者",
+      "reason": "OpenAI Cookbook更新是技术热点，适合提供实操教程，满足开发者需求。",
+      "source_items": [
+        "Archive LM Studio gpt-oss setup guide (#3024)"
+      ],
+      "source_urls": [
+        "https://github.com/openai/openai-cookbook/commit/4aa24339323d920d87b23e47b069b267d05b47d6"
+      ],
+      "urgency": "low",
+      "viral_potential": "low",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "手把手教你配置gpt-oss：OpenAI Cookbook新指南",
+          "summary": "详细讲解如何根据Cookbook指南配置gpt-oss，包括环境准备和步骤。",
+          "key_points": [
+            "安装依赖",
+            "配置API密钥",
+            "运行示例代码"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "45分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "gpt-oss配置常见坑：避免这些错误，顺利上手",
+          "summary": "总结配置过程中常见的报错和问题，提供解决方案。",
+          "pitfalls": [
+            "API密钥未正确设置",
+            "依赖版本不兼容",
+            "网络问题导致下载失败"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "OpenAI Cookbook更新：gpt-oss将如何影响AI开发？",
+          "summary": "分析gpt-oss的发布意义，对开源社区和AI开发者的影响。",
+          "insights": [
+            "gpt-oss是OpenAI的开源尝试",
+            "降低AI开发门槛",
+            "对第三方开发者的影响"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "AI智能体效率革命：NVIDIA新芯片如何影响你的AI应用？",
+      "track": "ai_hardware",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、科技爱好者、关注AI硬件的人",
+      "reason": "NVIDIA新芯片是重大技术新闻，结合AI智能体话题，为初学者提供入门解读。",
+      "source_items": [
+        "NVIDIA Vera Rubin NVL72 树立 AI 智能体效率新标准：每瓦特工作量提升至 30 倍"
+      ],
+      "source_urls": [
+        "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "不懂硬件也能懂：NVIDIA新芯片如何提升AI效率？",
+          "summary": "用通俗语言解释NVIDIA新芯片的技术亮点，以及它对AI应用的影响。",
+          "key_points": [
+            "用比喻解释芯片效率提升",
+            "展示新芯片在AI应用中的实际效果",
+            "如何选择适合的AI硬件"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI硬件选购避坑：别被参数忽悠了！",
+          "summary": "提醒初学者在选购AI相关硬件时常见的误区，如只看参数不看需求。",
+          "pitfalls": [
+            "盲目追求高参数导致浪费",
+            "忽略功耗和散热问题",
+            "不了解硬件兼容性"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "NVIDIA新芯片发布，AI算力革命将如何影响普通用户？",
+          "summary": "分析NVIDIA新芯片对AI行业、云计算成本、个人AI应用的影响。",
+          "insights": [
+            "算力提升将降低AI应用成本",
+            "AI智能体将更普及",
+            "对个人开发者是机遇还是挑战？"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -183,15 +485,17 @@
     }
   ],
   "weekly_plan": {
-    "strategy": "降级模式：基于评分排序，AI多角度分析暂不可用"
+    "monday": "OpenAI智能体失控事件全解析：AI Agent真的安全吗？",
+    "wednesday": "阿里Wan3.0视频生成实测：30秒长视频，效果惊艳还是翻车？",
+    "friday": "OpenAI起诉WikiHow：AI模型是抄袭还是学习？",
+    "strategy": "本周主打AI安全与AI视频热点，结合实操与避坑内容，吸引初学者关注。"
   },
-  "insights": "API不可用，展示评分排序结果，多角度分析为模板生成",
-  "fallback": true,
-  "generated_at": "2026-08-25T19:28:49.621532+08:00",
-  "total_items": 233,
-  "scored_items": 225,
+  "insights": "今日信息流显示AI智能体安全与效率成为焦点，OpenAI和NVIDIA的新闻热度高，适合创作安全指南和硬件解读内容。",
+  "generated_at": "2026-08-25T22:41:18.602063+08:00",
+  "total_items": 243,
+  "scored_items": 237,
   "tracks_summary": {
-    "ai_tech": 224,
+    "ai_tech": 236,
     "ai_video": 1
   }
 }
