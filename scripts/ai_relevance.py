@@ -137,6 +137,16 @@ CURSOR_SIGNAL_RE = re.compile(r"(?i)(?<![a-z0-9])cursor(?![a-z0-9])")
 BROAD_AI_TERMS = {"agent", "模型", "推理"}
 AI_RELEVANCE_THRESHOLD = 0.65
 AI_BROAD_RELEVANCE_FLOOR = 0.3
+MULTI_TRACK_KEYWORDS = [
+    "副业", "变现", "赚钱", "side hustle", "entrepreneur", "passive income",
+    "创作者经济", "creator economy", "自媒体", "内容创作", "涨粉", "商单",
+    "商标", "trademark", "知识产权", "patent", "版权", "copyright",
+    "sora", "runway", "pika", "heygen", "可灵", "kling",
+    "ai视频", "text-to-video", "剪映", "capcut", "davinci",
+    "即梦", "通义万相", "ai短剧", "短剧",
+    "创业", "startup", "自由职业", "个人ip",
+    "youtube", "tiktok", "小红书", "b站", "公众号",
+]
 
 SOURCE_PRIORS = {
     "official_ai": 0.35,
