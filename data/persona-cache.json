@@ -1,72 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_e5db5b8745de|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "用GitHub Spark的速查迁移指南，别在新项目上依赖它了。",
-      "title_hash": "60e93161",
-      "scored_at": "2026-08-04T18:22:13.618788Z"
-    },
-    "story_b832dd7cc4cf|pragmatic|0a5c5b24": {
-      "score": 70,
-      "review": "教育场景新玩法，老师可试；但得确认功能已开放再上。",
-      "title_hash": "bbd33476",
-      "scored_at": "2026-08-04T18:22:16.055615Z"
-    },
-    "story_b2c075d30098|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "统一路由免去多厂商对接，跑多模型的直接换。",
-      "title_hash": "145e2acc",
-      "scored_at": "2026-08-04T18:22:18.137665Z"
-    },
-    "story_54e1a837c8df|pragmatic|0a5c5b24": {
-      "score": 88,
-      "review": "开源可用的投机解码新版本，自带草稿模型，跑LLM推理的可以直接试。",
-      "title_hash": "a3895c7b",
-      "scored_at": "2026-08-04T18:22:23.901969Z"
-    },
-    "story_47a4968ace58|pragmatic|0a5c5b24": {
-      "score": 75,
-      "review": "AI 生成大 PR 难审查，堆叠拆分法可直接上手，代码走查更轻松。",
-      "title_hash": "0b2f6423",
-      "scored_at": "2026-08-04T18:22:28.454691Z"
-    },
-    "story_9cb1dda99735|pragmatic|0a5c5b24": {
-      "score": 88,
-      "review": "视频生成多一个可调API，今天就能接，效果和价格需要实测再决定。",
-      "title_hash": "e5790137",
-      "scored_at": "2026-08-04T18:22:31.733365Z"
-    },
-    "story_a1900aa9ec52|pragmatic|0a5c5b24": {
-      "score": 82,
-      "review": "推理和生图一体的开源模型，本地可跑，想省 API 费用的可以试试。",
-      "title_hash": "a48c9add",
-      "scored_at": "2026-08-04T18:22:34.575522Z"
-    },
-    "story_bcfdafe93ce8|cynic|f4237a62": {
-      "score": 72,
-      "review": "本地部署是真的，'随处'就夸大了，先跑个基准看看。",
-      "title_hash": "c578e035",
-      "scored_at": "2026-08-04T18:22:47.411473Z"
-    },
-    "story_bcfdafe93ce8|paper-police|966065bf": {
-      "score": 55,
-      "review": "官方博客给了模型和数字，但无论文，缺独立评测验证。",
-      "title_hash": "c578e035",
-      "scored_at": "2026-08-04T18:22:51.456587Z"
-    },
-    "story_54e1a837c8df|cynic|f4237a62": {
-      "score": 86,
-      "review": "解耦共置都给了，草稿也开源，这波没水分可挤。",
-      "title_hash": "a3895c7b",
-      "scored_at": "2026-08-04T18:22:53.636494Z"
-    },
-    "story_54e1a837c8df|paper-police|966065bf": {
-      "score": 25,
-      "review": "官网博客自述发布，无论文无代码无第三方验证，等开源和跑分再评。",
-      "title_hash": "a3895c7b",
-      "scored_at": "2026-08-04T18:22:56.835355Z"
-    },
     "story_48546ed95685|pragmatic|0a5c5b24": {
       "score": 55,
       "review": "计费管理入口变了，走正式功能即可，无需额外操作。",
@@ -5322,6 +5256,60 @@
       "review": "官方博客宣称领先，无论文无代码无第三方评测，证据不足。",
       "title_hash": "4a2d88a9",
       "scored_at": "2026-08-25T16:47:38.390226Z"
+    },
+    "story_0536ff6c73c5|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "GitHub 小功能，省一次跳转，对安全协作有点用，但别指望大变化。",
+      "title_hash": "4de9de6f",
+      "scored_at": "2026-08-25T19:49:38.282142Z"
+    },
+    "story_2ae3bbe5c601|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "GitHub 规则集支持路径例外，分支保护更灵活，今天就能配。",
+      "title_hash": "5b71020a",
+      "scored_at": "2026-08-25T19:49:39.159000Z"
+    },
+    "story_4af25ba10386|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "团队管理ChatGPT Work和Codex的权限与审计，今天就能用上。",
+      "title_hash": "45496686",
+      "scored_at": "2026-08-25T19:49:40.540400Z"
+    },
+    "story_6ccc5b93e71a|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "开源Agent能干活了，想本地跑任务的可以试试，但先看文档再动手。",
+      "title_hash": "986edee6",
+      "scored_at": "2026-08-25T19:49:41.745318Z"
+    },
+    "story_fb0dc79a0364|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "记忆跨场景可用且可编辑，做 Agent 的能直接抄交互设计，但 API 细节未明。",
+      "title_hash": "d7118c68",
+      "scored_at": "2026-08-25T19:49:42.836950Z"
+    },
+    "story_4af25ba10386|cynic|f4237a62": {
+      "score": 70,
+      "review": "Admin插件是刚需，但别指望它解决所有权限混乱，先看看文档再说。",
+      "title_hash": "45496686",
+      "scored_at": "2026-08-25T19:49:43.882938Z"
+    },
+    "story_4af25ba10386|paper-police|966065bf": {
+      "score": 30,
+      "review": "官方博客宣称新插件，无论文无代码无评测，仅凭介绍难证实效。",
+      "title_hash": "45496686",
+      "scored_at": "2026-08-25T19:49:45.180363Z"
+    },
+    "story_0536ff6c73c5|cynic|f4237a62": {
+      "score": 72,
+      "review": "安全公告里加屏蔽功能，实用但不算突破，营销味略重。",
+      "title_hash": "4de9de6f",
+      "scored_at": "2026-08-25T19:49:46.414544Z"
+    },
+    "story_0536ff6c73c5|paper-police|966065bf": {
+      "score": 75,
+      "review": "官方更新有据可查，但缺代码和复现，功能细节待验证。",
+      "title_hash": "4de9de6f",
+      "scored_at": "2026-08-25T19:49:47.546749Z"
     }
   }
 }

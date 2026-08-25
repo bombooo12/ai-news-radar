@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T16:47:38.390315Z",
+  "generated_at": "2026-08-25T19:49:47.546802Z",
   "model": "deepseek-chat",
   "personas": [
     {
@@ -17,22 +17,22 @@
   ],
   "items": [
     {
-      "story_id": "story_6411634610d0",
-      "title": "量化感知修复：4位压缩模型超越全精度原版 / Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "story_id": "story_4af25ba10386",
+      "title": "为 ChatGPT Work 和 Codex 推出 Admin 插件 / Introducing the Admin plugin for ChatGPT Work and Codex",
+      "url": "https://openai.com/index/introducing-admin-plugin",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 72,
-          "review": "4位压缩反超原版？先晒出评测集和基线再吹，别拿自家弱基线当参照。"
+          "score": 70,
+          "review": "Admin插件是刚需，但别指望它解决所有权限混乱，先看看文档再说。"
         },
         "paper-police": {
-          "score": 45,
-          "review": "博客给了数字但无代码无复现，等开源或第三方验证再定论。"
+          "score": 30,
+          "review": "官方博客宣称新插件，无论文无代码无评测，仅凭介绍难证实效。"
         },
         "pragmatic": {
-          "score": 72,
-          "review": "4位量化模型反超原版，压缩部署可试，但需验证泛化性。"
+          "score": 75,
+          "review": "团队管理ChatGPT Work和Codex的权限与审计，今天就能用上。"
         }
       }
     },
@@ -57,22 +57,22 @@
       }
     },
     {
-      "story_id": "story_bc5800b304fc",
-      "title": "连接、运行、部署：Gradio 中的 AI 工作流 / Wire It, Run It, Deploy It: AI Workflows in Gradio",
-      "url": "https://huggingface.co/blog/gradio-workflow-guide",
+      "story_id": "story_0536ff6c73c5",
+      "title": "直接从安全公告中屏蔽用户 / Block users directly from security advisories",
+      "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
       "rank": 3,
       "reviews": {
         "cynic": {
           "score": 72,
-          "review": "Gradio 教程中规中矩，但'工作流'这词被用滥了，别指望真能编排复杂流程。"
+          "review": "安全公告里加屏蔽功能，实用但不算突破，营销味略重。"
         },
         "paper-police": {
-          "score": 45,
-          "review": "官方博客有细节但无代码链接，等复现再定论。"
+          "score": 75,
+          "review": "官方更新有据可查，但缺代码和复现，功能细节待验证。"
         },
         "pragmatic": {
           "score": 72,
-          "review": "Gradio 工作流指南上线，部署演示项目能直接抄，适合快速交付。"
+          "review": "GitHub 小功能，省一次跳转，对安全协作有点用，但别指望大变化。"
         }
       }
     }

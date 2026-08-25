@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T16:18:29.045940Z",
+  "generated_at": "2026-08-25T19:17:01.511879Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -17,7 +17,7 @@
           "title_zh": "Granite 4.2 LLM：它们是如何构建的",
           "title_en": "Granite 4.2 LLMs: How They're Built",
           "title_original": "Granite 4.2 LLMs: How They're Built",
-          "summary": "A Blog post by IBM Granite on Hugging Face\nA Blog post by IBM Granite on Hugging Face\nOverview Model Architecture Pre-Training SFT: Data Preparation & Quality Control Data Quality Control SFT Training Details Phase 2 SFT for the 30B Model Reinforcement Learning: A Multi-Stage, Multi-Environment Pipeline Training Methodology The Staged Curriculum Reward Signals Foundational RL: Build the Skills Agentic RL: Learning to Act (8B / 30B) Alignment: RLHF How the Three Sizes Differ Agentic AI Infrastruc",
+          "summary": null,
           "recommend_reason_zh": "IBM Granite 4.2是首个推理型LLM家族，3B/8B/30B三款模型从零预训练约15T tokens，支持512K上下文与思考/非思考切换，8B和30B还经智能体强化学习学会调用工具。",
           "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
           "source": "Hugging Face Blog",
@@ -37,7 +37,7 @@
           "title_zh": "Granite 4.2 LLM：它们是如何构建的",
           "title_en": "Granite 4.2 LLMs: How They're Built",
           "title_original": "Granite 4.2 LLMs: How They're Built",
-          "summary": "A Blog post by IBM Granite on Hugging Face\nA Blog post by IBM Granite on Hugging Face\nOverview Model Architecture Pre-Training SFT: Data Preparation & Quality Control Data Quality Control SFT Training Details Phase 2 SFT for the 30B Model Reinforcement Learning: A Multi-Stage, Multi-Environment Pipeline Training Methodology The Staged Curriculum Reward Signals Foundational RL: Build the Skills Agentic RL: Learning to Act (8B / 30B) Alignment: RLHF How the Three Sizes Differ Agentic AI Infrastruc",
+          "summary": null,
           "recommend_reason_zh": "IBM Granite 4.2是首个推理型LLM家族，3B/8B/30B三款模型从零预训练约15T tokens，支持512K上下文与思考/非思考切换，8B和30B还经智能体强化学习学会调用工具。",
           "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
           "source": "Hugging Face Blog",
@@ -48,15 +48,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8652,
-      "importance": 0.8652,
-      "importance_score": 0.8652,
+      "score": 0.8578,
+      "importance": 0.8578,
+      "importance_score": 0.8578,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.9847,
+        "recency": 0.9432,
         "story_heat": 0.0
       },
       "category": "official",
@@ -73,7 +73,7 @@
         "title_zh": "Granite 4.2 LLM：它们是如何构建的",
         "title_en": "Granite 4.2 LLMs: How They're Built",
         "title_original": "Granite 4.2 LLMs: How They're Built",
-        "summary": "A Blog post by IBM Granite on Hugging Face\nA Blog post by IBM Granite on Hugging Face\nOverview Model Architecture Pre-Training SFT: Data Preparation & Quality Control Data Quality Control SFT Training Details Phase 2 SFT for the 30B Model Reinforcement Learning: A Multi-Stage, Multi-Environment Pipeline Training Methodology The Staged Curriculum Reward Signals Foundational RL: Build the Skills Agentic RL: Learning to Act (8B / 30B) Alignment: RLHF How the Three Sizes Differ Agentic AI Infrastruc",
+        "summary": null,
         "recommend_reason_zh": "IBM Granite 4.2是首个推理型LLM家族，3B/8B/30B三款模型从零预训练约15T tokens，支持512K上下文与思考/非思考切换，8B和30B还经智能体强化学习学会调用工具。",
         "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
         "source": "Hugging Face Blog",
@@ -85,7 +85,207 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T16:47:27.560902Z"
+        "scored_at": "2026-08-25T19:49:36.956374Z"
+      }
+    },
+    {
+      "story_id": "story_b95e33dbd1e9",
+      "title": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平 / Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "url": "https://openai.com/index/jalapeno-first-results",
+      "primary_url": "https://openai.com/index/jalapeno-first-results",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "b3bde5a716f5cd02908984c8fb28a797c214d23e",
+          "title": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平 / Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+          "title_zh": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平",
+          "title_en": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+          "title_original": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+          "summary": null,
+          "recommend_reason_zh": "Jalapeño是OpenAI首款自研推理芯片，实测在GPT-OSS 120B、DeepSeek R1和Kimi K2.5 1T上每瓦AI工作量提升1.5至1.9倍，端到端延迟降低1.7至3.6倍，交互负载性能达2.1至4.1倍，兼顾吞吐与效率。",
+          "url": "https://openai.com/index/jalapeno-first-results",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T07:00:00Z"
+        },
+        {
+          "id": "41a3b35044428ad51fdf46c06a544e2679420c47",
+          "title": "Jalapeño 的测试结果显示，其在 AI 推理方面的速度和效率均达到行业领先水平。 / Jalapeño's results show industry-leading speed and efficiency in AI inference",
+          "title_zh": "Jalapeño 的测试结果显示，其在 AI 推理方面的速度和效率均达到行业领先水平。",
+          "title_en": "Jalapeño's results show industry-leading speed and efficiency in AI inference",
+          "title_original": "Jalapeño's results show industry-leading speed and efficiency in AI inference",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/jalapeno-first-results",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-25T14:33:46Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "b3bde5a716f5cd02908984c8fb28a797c214d23e",
+          "title": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平 / Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+          "title_zh": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平",
+          "title_en": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+          "title_original": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+          "summary": null,
+          "recommend_reason_zh": "Jalapeño是OpenAI首款自研推理芯片，实测在GPT-OSS 120B、DeepSeek R1和Kimi K2.5 1T上每瓦AI工作量提升1.5至1.9倍，端到端延迟降低1.7至3.6倍，交互负载性能达2.1至4.1倍，兼顾吞吐与效率。",
+          "url": "https://openai.com/index/jalapeno-first-results",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T07:00:00Z"
+        },
+        {
+          "id": "41a3b35044428ad51fdf46c06a544e2679420c47",
+          "title": "Jalapeño 的测试结果显示，其在 AI 推理方面的速度和效率均达到行业领先水平。 / Jalapeño's results show industry-leading speed and efficiency in AI inference",
+          "title_zh": "Jalapeño 的测试结果显示，其在 AI 推理方面的速度和效率均达到行业领先水平。",
+          "title_en": "Jalapeño's results show industry-leading speed and efficiency in AI inference",
+          "title_original": "Jalapeño's results show industry-leading speed and efficiency in AI inference",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/jalapeno-first-results",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-25T14:33:46Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8477,
+      "importance": 0.8477,
+      "importance_score": 0.8477,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8375,
+        "story_heat": 0.25
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-25T07:00:00Z",
+      "latest_at": "2026-08-25T14:33:46Z",
+      "primary_item": {
+        "id": "b3bde5a716f5cd02908984c8fb28a797c214d23e",
+        "title": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平 / Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+        "title_zh": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平",
+        "title_en": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+        "title_original": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+        "summary": null,
+        "recommend_reason_zh": "Jalapeño是OpenAI首款自研推理芯片，实测在GPT-OSS 120B、DeepSeek R1和Kimi K2.5 1T上每瓦AI工作量提升1.5至1.9倍，端到端延迟降低1.7至3.6倍，交互负载性能达2.1至4.1倍，兼顾吞吐与效率。",
+        "url": "https://openai.com/index/jalapeno-first-results",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 72,
+      "persona_review": "推理性能新标杆，但没给API或开源，先观望等开放。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-08-25T19:49:36.956374Z"
+      }
+    },
+    {
+      "story_id": "story_0536ff6c73c5",
+      "title": "直接从安全公告中屏蔽用户 / Block users directly from security advisories",
+      "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+      "primary_url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "ddf97cc4234c61cbe446eb6957d1046445f13b83",
+          "title": "直接从安全公告中屏蔽用户 / Block users directly from security advisories",
+          "title_zh": "直接从安全公告中屏蔽用户",
+          "title_en": "Block users directly from security advisories",
+          "title_original": "Block users directly from security advisories",
+          "summary": "You can now block a user directly from a security advisory page in public repositories owned by either an organization or a personal account. This brings the streamlined moderation experience…\nYou can now block a user directly from a security advisory page in public repositories owned by either an organization or a personal account. This brings the streamlined moderation experience available for issues and pull requests to security advisories.\nSecurity advisories contain user-created content and",
+          "recommend_reason_zh": "GitHub安全公告页现可直接屏蔽用户，组织仓库限管理员操作，个人仓库限所有者操作，省去跳转设置的繁琐流程，打击垃圾信息更高效。",
+          "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T18:38:57Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "ddf97cc4234c61cbe446eb6957d1046445f13b83",
+          "title": "直接从安全公告中屏蔽用户 / Block users directly from security advisories",
+          "title_zh": "直接从安全公告中屏蔽用户",
+          "title_en": "Block users directly from security advisories",
+          "title_original": "Block users directly from security advisories",
+          "summary": "You can now block a user directly from a security advisory page in public repositories owned by either an organization or a personal account. This brings the streamlined moderation experience…\nYou can now block a user directly from a security advisory page in public repositories owned by either an organization or a personal account. This brings the streamlined moderation experience available for issues and pull requests to security advisories.\nSecurity advisories contain user-created content and",
+          "recommend_reason_zh": "GitHub安全公告页现可直接屏蔽用户，组织仓库限管理员操作，个人仓库限所有者操作，省去跳转设置的繁琐流程，打击垃圾信息更高效。",
+          "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T18:38:57Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8424,
+      "importance": 0.8424,
+      "importance_score": 0.8424,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9909,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-25T18:38:57Z",
+      "latest_at": "2026-08-25T18:38:57Z",
+      "primary_item": {
+        "id": "ddf97cc4234c61cbe446eb6957d1046445f13b83",
+        "title": "直接从安全公告中屏蔽用户 / Block users directly from security advisories",
+        "title_zh": "直接从安全公告中屏蔽用户",
+        "title_en": "Block users directly from security advisories",
+        "title_original": "Block users directly from security advisories",
+        "summary": "You can now block a user directly from a security advisory page in public repositories owned by either an organization or a personal account. This brings the streamlined moderation experience…\nYou can now block a user directly from a security advisory page in public repositories owned by either an organization or a personal account. This brings the streamlined moderation experience available for issues and pull requests to security advisories.\nSecurity advisories contain user-created content and",
+        "recommend_reason_zh": "GitHub安全公告页现可直接屏蔽用户，组织仓库限管理员操作，个人仓库限所有者操作，省去跳转设置的繁琐流程，打击垃圾信息更高效。",
+        "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 72,
+      "persona_review": "GitHub 小功能，省一次跳转，对安全协作有点用，但别指望大变化。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-08-25T19:49:36.956374Z"
       }
     },
     {
@@ -102,7 +302,7 @@
           "title_zh": "用Google Search升级家居装饰的5种方法",
           "title_en": "5 ways to upgrade your home decor with Google Search",
           "title_original": "5 ways to upgrade your home decor with Google Search",
-          "summary": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.\nLearn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.\nLearn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.\nAug 25, 2026\nFrom tracking down unique vintage finds to seeing how new furniture fits before you buy, here’s how Google Search can help transform your living ",
+          "summary": null,
           "recommend_reason_zh": "本文介绍5种用Google Search改造家居的方法：用AI Mode上传房间照片模拟家具效果，用Google Lens识别vintage单品，用Circle to Search圈选搜索，并引用“home decor inspo”搜索量月增300%等数据。",
           "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips",
           "source": "Google AI Blog",
@@ -122,7 +322,7 @@
           "title_zh": "用Google Search升级家居装饰的5种方法",
           "title_en": "5 ways to upgrade your home decor with Google Search",
           "title_original": "5 ways to upgrade your home decor with Google Search",
-          "summary": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.\nLearn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.\nLearn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.\nAug 25, 2026\nFrom tracking down unique vintage finds to seeing how new furniture fits before you buy, here’s how Google Search can help transform your living ",
+          "summary": null,
           "recommend_reason_zh": "本文介绍5种用Google Search改造家居的方法：用AI Mode上传房间照片模拟家具效果，用Google Lens识别vintage单品，用Circle to Search圈选搜索，并引用“home decor inspo”搜索量月增300%等数据。",
           "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips",
           "source": "Google AI Blog",
@@ -133,15 +333,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8432,
-      "importance": 0.8432,
-      "importance_score": 0.8432,
+      "score": 0.8357,
+      "importance": 0.8357,
+      "importance_score": 0.8357,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9956,
+        "recency": 0.9537,
         "story_heat": 0.0
       },
       "category": "official",
@@ -158,7 +358,7 @@
         "title_zh": "用Google Search升级家居装饰的5种方法",
         "title_en": "5 ways to upgrade your home decor with Google Search",
         "title_original": "5 ways to upgrade your home decor with Google Search",
-        "summary": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.\nLearn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.\nLearn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.\nAug 25, 2026\nFrom tracking down unique vintage finds to seeing how new furniture fits before you buy, here’s how Google Search can help transform your living ",
+        "summary": null,
         "recommend_reason_zh": "本文介绍5种用Google Search改造家居的方法：用AI Mode上传房间照片模拟家具效果，用Google Lens识别vintage单品，用Circle to Search圈选搜索，并引用“home decor inspo”搜索量月增300%等数据。",
         "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips",
         "source": "Google AI Blog",
@@ -170,7 +370,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T16:47:27.560902Z"
+        "scored_at": "2026-08-25T19:49:36.956374Z"
       }
     },
     {
@@ -305,15 +505,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8299,
-      "importance": 0.8299,
-      "importance_score": 0.8299,
+      "score": 0.8226,
+      "importance": 0.8226,
+      "importance_score": 0.8226,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.963,
+        "recency": 0.9225,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -342,92 +542,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T16:47:27.560902Z"
-      }
-    },
-    {
-      "story_id": "story_6e67842f0f7e",
-      "title": "充裕智能背后的全栈技术 / The full stack behind abundant intelligence",
-      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "primary_url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "c11537df89677eb075157ecdbf835a264160de84",
-          "title": "充裕智能背后的全栈技术 / The full stack behind abundant intelligence",
-          "title_zh": "充裕智能背后的全栈技术",
-          "title_en": "The full stack behind abundant intelligence",
-          "title_original": "The full stack behind abundant intelligence",
-          "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.\nOpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.\nOpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
-          "recommend_reason_zh": "OpenAI首次公布自研推理芯片Jalapeño的实测成绩：在InferenceX基准上，GPT-OSS 120B模型实现更高每千瓦吞吐量和更低token延迟，对DeepSeek R1和Kimi K2也表现强劲，展示了芯片到产品全栈协同如何降低成本、扩大规模。",
-          "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-25T07:05:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "c11537df89677eb075157ecdbf835a264160de84",
-          "title": "充裕智能背后的全栈技术 / The full stack behind abundant intelligence",
-          "title_zh": "充裕智能背后的全栈技术",
-          "title_en": "The full stack behind abundant intelligence",
-          "title_original": "The full stack behind abundant intelligence",
-          "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.\nOpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.\nOpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
-          "recommend_reason_zh": "OpenAI首次公布自研推理芯片Jalapeño的实测成绩：在InferenceX基准上，GPT-OSS 120B模型实现更高每千瓦吞吐量和更低token延迟，对DeepSeek R1和Kimi K2也表现强劲，展示了芯片到产品全栈协同如何降低成本、扩大规模。",
-          "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-25T07:05:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8296,
-      "importance": 0.8296,
-      "importance_score": 0.8296,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.8753,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-25T07:05:00Z",
-      "latest_at": "2026-08-25T07:05:00Z",
-      "primary_item": {
-        "id": "c11537df89677eb075157ecdbf835a264160de84",
-        "title": "充裕智能背后的全栈技术 / The full stack behind abundant intelligence",
-        "title_zh": "充裕智能背后的全栈技术",
-        "title_en": "The full stack behind abundant intelligence",
-        "title_original": "The full stack behind abundant intelligence",
-        "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.\nOpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.\nOpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
-        "recommend_reason_zh": "OpenAI首次公布自研推理芯片Jalapeño的实测成绩：在InferenceX基准上，GPT-OSS 120B模型实现更高每千瓦吞吐量和更低token延迟，对DeepSeek R1和Kimi K2也表现强劲，展示了芯片到产品全栈协同如何降低成本、扩大规模。",
-        "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "官方技术博客，讲架构思路，无新工具或API，暂不用行动。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-25T16:47:27.560902Z"
+        "scored_at": "2026-08-25T19:49:36.956374Z"
       }
     },
     {
@@ -475,15 +590,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8483,
-      "importance": 0.8483,
-      "importance_score": 0.8483,
+      "score": 0.8412,
+      "importance": 0.8412,
+      "importance_score": 0.8412,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.935,
+        "recency": 0.8957,
         "story_heat": 0.0
       },
       "category": "official",
@@ -512,63 +627,63 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T16:47:27.560902Z"
+        "scored_at": "2026-08-25T19:49:36.956374Z"
       }
     },
     {
-      "story_id": "story_b95e33dbd1e9",
-      "title": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平 / Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "url": "https://openai.com/index/jalapeno-first-results",
-      "primary_url": "https://openai.com/index/jalapeno-first-results",
-      "source": "OpenAI News",
+      "story_id": "story_2ae3bbe5c601",
+      "title": "规则集中的推送规则现在支持路径例外。 / Push rules in rulesets now support path exceptions",
+      "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
+      "primary_url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
+      "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "b3bde5a716f5cd02908984c8fb28a797c214d23e",
-          "title": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平 / Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-          "title_zh": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平",
-          "title_en": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-          "title_original": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-          "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nJalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nJalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nAugus",
-          "recommend_reason_zh": "Jalapeño是OpenAI首款自研推理芯片，实测在GPT-OSS 120B、DeepSeek R1和Kimi K2.5 1T上每瓦AI工作量提升1.5至1.9倍，端到端延迟降低1.7至3.6倍，交互负载性能达2.1至4.1倍，兼顾吞吐与效率。",
-          "url": "https://openai.com/index/jalapeno-first-results",
-          "source": "OpenAI News",
+          "id": "e1c4eac73d8d8b63b5ddd2c669c78b7c2842a6c9",
+          "title": "规则集中的推送规则现在支持路径例外。 / Push rules in rulesets now support path exceptions",
+          "title_zh": "规则集中的推送规则现在支持路径例外。",
+          "title_en": "Push rules in rulesets now support path exceptions",
+          "title_original": "Push rules in rulesets now support path exceptions",
+          "summary": "You can now configure push rules more granularly by exempting specific file paths, so a rule applies everywhere in scope except the paths you choose. Path exceptions are in public…\nYou can now configure push rules more granularly by exempting specific file paths, so a rule applies everywhere in scope except the paths you choose. Path exceptions are in public preview.\nPush rules give you strong control over what enters a repository. Sometimes a rule needs a narrow exception, and until now your op",
+          "recommend_reason_zh": "GitHub的push rules新增路径异常支持，允许在ruleset中排除特定文件路径，让规则作用于范围内除指定路径外的一切。目前该公共预览功能支持两种规则，并在保存时自动校验模式，便于即时修正错误。",
+          "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
+          "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-25T07:00:00Z"
+          "published_at": "2026-08-25T17:40:15Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "OpenAI News"
+        "GitHub Changelog"
       ],
       "items": [
         {
-          "id": "b3bde5a716f5cd02908984c8fb28a797c214d23e",
-          "title": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平 / Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-          "title_zh": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平",
-          "title_en": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-          "title_original": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-          "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nJalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nJalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nAugus",
-          "recommend_reason_zh": "Jalapeño是OpenAI首款自研推理芯片，实测在GPT-OSS 120B、DeepSeek R1和Kimi K2.5 1T上每瓦AI工作量提升1.5至1.9倍，端到端延迟降低1.7至3.6倍，交互负载性能达2.1至4.1倍，兼顾吞吐与效率。",
-          "url": "https://openai.com/index/jalapeno-first-results",
-          "source": "OpenAI News",
+          "id": "e1c4eac73d8d8b63b5ddd2c669c78b7c2842a6c9",
+          "title": "规则集中的推送规则现在支持路径例外。 / Push rules in rulesets now support path exceptions",
+          "title_zh": "规则集中的推送规则现在支持路径例外。",
+          "title_en": "Push rules in rulesets now support path exceptions",
+          "title_original": "Push rules in rulesets now support path exceptions",
+          "summary": "You can now configure push rules more granularly by exempting specific file paths, so a rule applies everywhere in scope except the paths you choose. Path exceptions are in public…\nYou can now configure push rules more granularly by exempting specific file paths, so a rule applies everywhere in scope except the paths you choose. Path exceptions are in public preview.\nPush rules give you strong control over what enters a repository. Sometimes a rule needs a narrow exception, and until now your op",
+          "recommend_reason_zh": "GitHub的push rules新增路径异常支持，允许在ruleset中排除特定文件路径，让规则作用于范围内除指定路径外的一切。目前该公共预览功能支持两种规则，并在保存时自动校验模式，便于即时修正错误。",
+          "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
+          "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-25T07:00:00Z"
+          "published_at": "2026-08-25T17:40:15Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8294,
-      "importance": 0.8294,
-      "importance_score": 0.8294,
+      "score": 0.8399,
+      "importance": 0.8399,
+      "importance_score": 0.8399,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.8742,
+        "ai_relevance": 0.87,
+        "recency": 0.977,
         "story_heat": 0.0
       },
       "category": "official",
@@ -577,27 +692,197 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-25T07:00:00Z",
-      "latest_at": "2026-08-25T07:00:00Z",
+      "earliest_at": "2026-08-25T17:40:15Z",
+      "latest_at": "2026-08-25T17:40:15Z",
       "primary_item": {
-        "id": "b3bde5a716f5cd02908984c8fb28a797c214d23e",
-        "title": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平 / Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-        "title_zh": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平",
-        "title_en": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-        "title_original": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-        "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nJalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nJalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nAugus",
-        "recommend_reason_zh": "Jalapeño是OpenAI首款自研推理芯片，实测在GPT-OSS 120B、DeepSeek R1和Kimi K2.5 1T上每瓦AI工作量提升1.5至1.9倍，端到端延迟降低1.7至3.6倍，交互负载性能达2.1至4.1倍，兼顾吞吐与效率。",
-        "url": "https://openai.com/index/jalapeno-first-results",
-        "source": "OpenAI News",
+        "id": "e1c4eac73d8d8b63b5ddd2c669c78b7c2842a6c9",
+        "title": "规则集中的推送规则现在支持路径例外。 / Push rules in rulesets now support path exceptions",
+        "title_zh": "规则集中的推送规则现在支持路径例外。",
+        "title_en": "Push rules in rulesets now support path exceptions",
+        "title_original": "Push rules in rulesets now support path exceptions",
+        "summary": "You can now configure push rules more granularly by exempting specific file paths, so a rule applies everywhere in scope except the paths you choose. Path exceptions are in public…\nYou can now configure push rules more granularly by exempting specific file paths, so a rule applies everywhere in scope except the paths you choose. Path exceptions are in public preview.\nPush rules give you strong control over what enters a repository. Sometimes a rule needs a narrow exception, and until now your op",
+        "recommend_reason_zh": "GitHub的push rules新增路径异常支持，允许在ruleset中排除特定文件路径，让规则作用于范围内除指定路径外的一切。目前该公共预览功能支持两种规则，并在保存时自动校验模式，便于即时修正错误。",
+        "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
+        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       },
       "persona_id": "pragmatic",
       "persona_score": 72,
-      "persona_review": "推理性能新标杆，但没给API或开源，先观望等开放。",
+      "persona_review": "GitHub 规则集支持路径例外，分支保护更灵活，今天就能配。",
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T16:47:27.560902Z"
+        "scored_at": "2026-08-25T19:49:36.956374Z"
+      }
+    },
+    {
+      "story_id": "story_4af25ba10386",
+      "title": "为 ChatGPT Work 和 Codex 推出 Admin 插件 / Introducing the Admin plugin for ChatGPT Work and Codex",
+      "url": "https://openai.com/index/introducing-admin-plugin",
+      "primary_url": "https://openai.com/index/introducing-admin-plugin",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "3da80bc21f6165601e41a06fda6af147905e774b",
+          "title": "为 ChatGPT Work 和 Codex 推出 Admin 插件 / Introducing the Admin plugin for ChatGPT Work and Codex",
+          "title_zh": "为 ChatGPT Work 和 Codex 推出 Admin 插件",
+          "title_en": "Introducing the Admin plugin for ChatGPT Work and Codex",
+          "title_original": "Introducing the Admin plugin for ChatGPT Work and Codex",
+          "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.\nUse the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.\nUse the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.\nAugust 25, 2026\nUnderstand workspace activity, man",
+          "recommend_reason_zh": "OpenAI推出Admin plugin，在ChatGPT Work和Codex中直接分析工作区用量、管理成员权限并执行变更，可将审批流路由至Slack或Microsoft Teams，且不扩大用户既有权限。",
+          "url": "https://openai.com/index/introducing-admin-plugin",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T00:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "3da80bc21f6165601e41a06fda6af147905e774b",
+          "title": "为 ChatGPT Work 和 Codex 推出 Admin 插件 / Introducing the Admin plugin for ChatGPT Work and Codex",
+          "title_zh": "为 ChatGPT Work 和 Codex 推出 Admin 插件",
+          "title_en": "Introducing the Admin plugin for ChatGPT Work and Codex",
+          "title_original": "Introducing the Admin plugin for ChatGPT Work and Codex",
+          "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.\nUse the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.\nUse the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.\nAugust 25, 2026\nUnderstand workspace activity, man",
+          "recommend_reason_zh": "OpenAI推出Admin plugin，在ChatGPT Work和Codex中直接分析工作区用量、管理成员权限并执行变更，可将审批流路由至Slack或Microsoft Teams，且不扩大用户既有权限。",
+          "url": "https://openai.com/index/introducing-admin-plugin",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T00:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8242,
+      "importance": 0.8242,
+      "importance_score": 0.8242,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.99,
+        "recency": 0.7569,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-25T00:00:00Z",
+      "latest_at": "2026-08-25T00:00:00Z",
+      "primary_item": {
+        "id": "3da80bc21f6165601e41a06fda6af147905e774b",
+        "title": "为 ChatGPT Work 和 Codex 推出 Admin 插件 / Introducing the Admin plugin for ChatGPT Work and Codex",
+        "title_zh": "为 ChatGPT Work 和 Codex 推出 Admin 插件",
+        "title_en": "Introducing the Admin plugin for ChatGPT Work and Codex",
+        "title_original": "Introducing the Admin plugin for ChatGPT Work and Codex",
+        "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.\nUse the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.\nUse the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.\nAugust 25, 2026\nUnderstand workspace activity, man",
+        "recommend_reason_zh": "OpenAI推出Admin plugin，在ChatGPT Work和Codex中直接分析工作区用量、管理成员权限并执行变更，可将审批流路由至Slack或Microsoft Teams，且不扩大用户既有权限。",
+        "url": "https://openai.com/index/introducing-admin-plugin",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "团队管理ChatGPT Work和Codex的权限与审计，今天就能用上。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-08-25T19:49:36.956374Z"
+      }
+    },
+    {
+      "story_id": "story_6e67842f0f7e",
+      "title": "充裕智能背后的全栈技术 / The full stack behind abundant intelligence",
+      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "primary_url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "c11537df89677eb075157ecdbf835a264160de84",
+          "title": "充裕智能背后的全栈技术 / The full stack behind abundant intelligence",
+          "title_zh": "充裕智能背后的全栈技术",
+          "title_en": "The full stack behind abundant intelligence",
+          "title_original": "The full stack behind abundant intelligence",
+          "summary": null,
+          "recommend_reason_zh": "OpenAI首次公布自研推理芯片Jalapeño的实测成绩：在InferenceX基准上，GPT-OSS 120B模型实现更高每千瓦吞吐量和更低token延迟，对DeepSeek R1和Kimi K2也表现强劲，展示了芯片到产品全栈协同如何降低成本、扩大规模。",
+          "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T07:05:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "c11537df89677eb075157ecdbf835a264160de84",
+          "title": "充裕智能背后的全栈技术 / The full stack behind abundant intelligence",
+          "title_zh": "充裕智能背后的全栈技术",
+          "title_en": "The full stack behind abundant intelligence",
+          "title_original": "The full stack behind abundant intelligence",
+          "summary": null,
+          "recommend_reason_zh": "OpenAI首次公布自研推理芯片Jalapeño的实测成绩：在InferenceX基准上，GPT-OSS 120B模型实现更高每千瓦吞吐量和更低token延迟，对DeepSeek R1和Kimi K2也表现强劲，展示了芯片到产品全栈协同如何降低成本、扩大规模。",
+          "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T07:05:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8229,
+      "importance": 0.8229,
+      "importance_score": 0.8229,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8385,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-25T07:05:00Z",
+      "latest_at": "2026-08-25T07:05:00Z",
+      "primary_item": {
+        "id": "c11537df89677eb075157ecdbf835a264160de84",
+        "title": "充裕智能背后的全栈技术 / The full stack behind abundant intelligence",
+        "title_zh": "充裕智能背后的全栈技术",
+        "title_en": "The full stack behind abundant intelligence",
+        "title_original": "The full stack behind abundant intelligence",
+        "summary": null,
+        "recommend_reason_zh": "OpenAI首次公布自研推理芯片Jalapeño的实测成绩：在InferenceX基准上，GPT-OSS 120B模型实现更高每千瓦吞吐量和更低token延迟，对DeepSeek R1和Kimi K2也表现强劲，展示了芯片到产品全栈协同如何降低成本、扩大规模。",
+        "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "官方技术博客，讲架构思路，无新工具或API，暂不用行动。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-08-25T19:49:36.956374Z"
       }
     },
     {
@@ -645,15 +930,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7688,
-      "importance": 0.7688,
-      "importance_score": 0.7688,
+      "score": 0.7613,
+      "importance": 0.7613,
+      "importance_score": 0.7613,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9901,
+        "recency": 0.9485,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -681,7 +966,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T16:47:27.560902Z"
+        "scored_at": "2026-08-25T19:49:36.956374Z"
       }
     },
     {
@@ -729,15 +1014,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8222,
-      "importance": 0.8222,
-      "importance_score": 0.8222,
+      "score": 0.8162,
+      "importance": 0.8162,
+      "importance_score": 0.8162,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7902,
+        "recency": 0.7569,
         "story_heat": 0.0
       },
       "category": "official",
@@ -766,92 +1051,174 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T16:47:27.560902Z"
+        "scored_at": "2026-08-25T19:49:36.956374Z"
       }
     },
     {
-      "story_id": "story_4c08adc024bd",
-      "title": "瓦解俄罗斯新一轮秘密影响力行动 / Disrupting a new covert influence campaign from Russia",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "primary_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
+      "story_id": "story_6ccc5b93e71a",
+      "title": "OpenWorker 新版发布，内置网络安全智能体 / OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just…",
+      "url": "https://x.com/AndrewYNg/status/2092315079576555806",
+      "primary_url": "https://x.com/AndrewYNg/status/2092315079576555806",
+      "source": "X：Andrew Ng（DeepLearning.AI 创始人） (@AndrewYNg)",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "6bd2adbc583117c8e7211725eab9f4bfe5fd0ba9",
-          "title": "瓦解俄罗斯新一轮秘密影响力行动 / Disrupting a new covert influence campaign from Russia",
-          "title_zh": "瓦解俄罗斯新一轮秘密影响力行动",
-          "title_en": "Disrupting a new covert influence campaign from Russia",
-          "title_original": "Disrupting a new covert influence campaign from Russia",
-          "summary": null,
-          "recommend_reason_zh": "OpenAI封禁了源自俄罗斯的ChatGPT账号集群，这些账号用AI生成评论推广虚假的以色列智库International Burke Institute及美化俄罗斯的“主权”指数，并通过VPN隐藏俄语痕迹。",
-          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-25T00:00:00Z"
+          "id": "d1d7d8b4938352b2de83fe45b4d0d2ec94555d49",
+          "title": "OpenWorker 新版发布，内置网络安全智能体 / OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just…",
+          "title_zh": "OpenWorker 新版发布，内置网络安全智能体",
+          "title_en": "OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just…",
+          "title_original": "OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just…",
+          "summary": "Andrew Ng 旗下开源智能体 OpenWorker 发布新版，强化安全工作流。其 harness 完全开源，安全团队可审计无后门。新版内置代码漏洞扫描、依赖供应链注入检测和云安全配置检查三类网络安全智能体，并支持本地运行开源权重模型以保护敏感代码。",
+          "recommend_reason_zh": "OpenWorker开源代理新版本针对安全工作流新增多项功能，能在笔记本上直接执行任务而非仅聊天。发布后用户发现其对网络安全特别有用，如今攻击者已在利用，值得一读以了解风险与应对。",
+          "url": "https://x.com/AndrewYNg/status/2092315079576555806",
+          "source": "X：Andrew Ng（DeepLearning.AI 创始人） (@AndrewYNg)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-25T18:16:02Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "OpenAI News"
+        "X：Andrew Ng（DeepLearning.AI 创始人） (@AndrewYNg)"
       ],
       "items": [
         {
-          "id": "6bd2adbc583117c8e7211725eab9f4bfe5fd0ba9",
-          "title": "瓦解俄罗斯新一轮秘密影响力行动 / Disrupting a new covert influence campaign from Russia",
-          "title_zh": "瓦解俄罗斯新一轮秘密影响力行动",
-          "title_en": "Disrupting a new covert influence campaign from Russia",
-          "title_original": "Disrupting a new covert influence campaign from Russia",
-          "summary": null,
-          "recommend_reason_zh": "OpenAI封禁了源自俄罗斯的ChatGPT账号集群，这些账号用AI生成评论推广虚假的以色列智库International Burke Institute及美化俄罗斯的“主权”指数，并通过VPN隐藏俄语痕迹。",
-          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-25T00:00:00Z"
+          "id": "d1d7d8b4938352b2de83fe45b4d0d2ec94555d49",
+          "title": "OpenWorker 新版发布，内置网络安全智能体 / OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just…",
+          "title_zh": "OpenWorker 新版发布，内置网络安全智能体",
+          "title_en": "OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just…",
+          "title_original": "OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just…",
+          "summary": "Andrew Ng 旗下开源智能体 OpenWorker 发布新版，强化安全工作流。其 harness 完全开源，安全团队可审计无后门。新版内置代码漏洞扫描、依赖供应链注入检测和云安全配置检查三类网络安全智能体，并支持本地运行开源权重模型以保护敏感代码。",
+          "recommend_reason_zh": "OpenWorker开源代理新版本针对安全工作流新增多项功能，能在笔记本上直接执行任务而非仅聊天。发布后用户发现其对网络安全特别有用，如今攻击者已在利用，值得一读以了解风险与应对。",
+          "url": "https://x.com/AndrewYNg/status/2092315079576555806",
+          "source": "X：Andrew Ng（DeepLearning.AI 创始人） (@AndrewYNg)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-25T18:16:02Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8142,
-      "importance": 0.8142,
-      "importance_score": 0.8142,
-      "importance_label": "官方更新",
+      "score": 0.75,
+      "importance": 0.75,
+      "importance_score": 0.75,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7902,
+        "editorial": 0.67,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9854,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-25T00:00:00Z",
-      "latest_at": "2026-08-25T00:00:00Z",
+      "earliest_at": "2026-08-25T18:16:02Z",
+      "latest_at": "2026-08-25T18:16:02Z",
       "primary_item": {
-        "id": "6bd2adbc583117c8e7211725eab9f4bfe5fd0ba9",
-        "title": "瓦解俄罗斯新一轮秘密影响力行动 / Disrupting a new covert influence campaign from Russia",
-        "title_zh": "瓦解俄罗斯新一轮秘密影响力行动",
-        "title_en": "Disrupting a new covert influence campaign from Russia",
-        "title_original": "Disrupting a new covert influence campaign from Russia",
-        "summary": null,
-        "recommend_reason_zh": "OpenAI封禁了源自俄罗斯的ChatGPT账号集群，这些账号用AI生成评论推广虚假的以色列智库International Burke Institute及美化俄罗斯的“主权”指数，并通过VPN隐藏俄语痕迹。",
-        "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
+        "id": "d1d7d8b4938352b2de83fe45b4d0d2ec94555d49",
+        "title": "OpenWorker 新版发布，内置网络安全智能体 / OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just…",
+        "title_zh": "OpenWorker 新版发布，内置网络安全智能体",
+        "title_en": "OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just…",
+        "title_original": "OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just…",
+        "summary": "Andrew Ng 旗下开源智能体 OpenWorker 发布新版，强化安全工作流。其 harness 完全开源，安全团队可审计无后门。新版内置代码漏洞扫描、依赖供应链注入检测和云安全配置检查三类网络安全智能体，并支持本地运行开源权重模型以保护敏感代码。",
+        "recommend_reason_zh": "OpenWorker开源代理新版本针对安全工作流新增多项功能，能在笔记本上直接执行任务而非仅聊天。发布后用户发现其对网络安全特别有用，如今攻击者已在利用，值得一读以了解风险与应对。",
+        "url": "https://x.com/AndrewYNg/status/2092315079576555806",
+        "source": "X：Andrew Ng（DeepLearning.AI 创始人） (@AndrewYNg)",
+        "source_name": "AI HOT"
       },
       "persona_id": "pragmatic",
-      "persona_score": 40,
-      "persona_review": "安全报告看看即可，不影响日常开发选型。",
+      "persona_score": 72,
+      "persona_review": "开源Agent能干活了，想本地跑任务的可以试试，但先看文档再动手。",
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T16:47:27.560902Z"
+        "scored_at": "2026-08-25T19:49:36.956374Z"
+      }
+    },
+    {
+      "story_id": "story_fb0dc79a0364",
+      "title": "Claude 记忆功能全面打通聊天与 Cowork，用户可逐条查看和编辑 / Claude's memory works everywhere， and you decide what's in it",
+      "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+      "primary_url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+      "source": "Claude：Blog（网页）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "a4abeec045a4d6f73b7bd3f023a245e64406b37c",
+          "title": "Claude 记忆功能全面打通聊天与 Cowork，用户可逐条查看和编辑 / Claude's memory works everywhere， and you decide what's in it",
+          "title_zh": "Claude 记忆功能全面打通聊天与 Cowork，用户可逐条查看和编辑",
+          "title_en": "Claude's memory works everywhere， and you decide what's in it",
+          "title_original": "Claude's memory works everywhere， and you decide what's in it",
+          "summary": "Claude 即日起将聊天与 Claude Cowork 的记忆统一，用户在任一场景对话时都能调用此前积累的上下文，减少重复解释。记忆会在聊天过程中实时更新，用户可在 Memory 设置中按主题查看、编辑或删除每条记忆。健康、信仰等敏感话题默认不存储，但可在设置中开启，且敏感识别号、犯罪记录等始终不会被保存。",
+          "recommend_reason_zh": "Anthropic将Claude的聊天记忆与Cowork云端任务打通，用户可按主题逐条查看、编辑或删除记忆；健康等敏感内容默认不存入，但可在Memory设置中手动开启。",
+          "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+          "source": "Claude：Blog（网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-25T18:02:04.743000Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Claude：Blog（网页）"
+      ],
+      "items": [
+        {
+          "id": "a4abeec045a4d6f73b7bd3f023a245e64406b37c",
+          "title": "Claude 记忆功能全面打通聊天与 Cowork，用户可逐条查看和编辑 / Claude's memory works everywhere， and you decide what's in it",
+          "title_zh": "Claude 记忆功能全面打通聊天与 Cowork，用户可逐条查看和编辑",
+          "title_en": "Claude's memory works everywhere， and you decide what's in it",
+          "title_original": "Claude's memory works everywhere， and you decide what's in it",
+          "summary": "Claude 即日起将聊天与 Claude Cowork 的记忆统一，用户在任一场景对话时都能调用此前积累的上下文，减少重复解释。记忆会在聊天过程中实时更新，用户可在 Memory 设置中按主题查看、编辑或删除每条记忆。健康、信仰等敏感话题默认不存储，但可在设置中开启，且敏感识别号、犯罪记录等始终不会被保存。",
+          "recommend_reason_zh": "Anthropic将Claude的聊天记忆与Cowork云端任务打通，用户可按主题逐条查看、编辑或删除记忆；健康等敏感内容默认不存入，但可在Memory设置中手动开启。",
+          "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+          "source": "Claude：Blog（网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-25T18:02:04.743000Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7494,
+      "importance": 0.7494,
+      "importance_score": 0.7494,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.67,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9821,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-25T18:02:04.743000Z",
+      "latest_at": "2026-08-25T18:02:04.743000Z",
+      "primary_item": {
+        "id": "a4abeec045a4d6f73b7bd3f023a245e64406b37c",
+        "title": "Claude 记忆功能全面打通聊天与 Cowork，用户可逐条查看和编辑 / Claude's memory works everywhere， and you decide what's in it",
+        "title_zh": "Claude 记忆功能全面打通聊天与 Cowork，用户可逐条查看和编辑",
+        "title_en": "Claude's memory works everywhere， and you decide what's in it",
+        "title_original": "Claude's memory works everywhere， and you decide what's in it",
+        "summary": "Claude 即日起将聊天与 Claude Cowork 的记忆统一，用户在任一场景对话时都能调用此前积累的上下文，减少重复解释。记忆会在聊天过程中实时更新，用户可在 Memory 设置中按主题查看、编辑或删除每条记忆。健康、信仰等敏感话题默认不存储，但可在设置中开启，且敏感识别号、犯罪记录等始终不会被保存。",
+        "recommend_reason_zh": "Anthropic将Claude的聊天记忆与Cowork云端任务打通，用户可按主题逐条查看、编辑或删除记忆；健康等敏感内容默认不存入，但可在Memory设置中手动开启。",
+        "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+        "source": "Claude：Blog（网页）",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 72,
+      "persona_review": "记忆跨场景可用且可编辑，做 Agent 的能直接抄交互设计，但 API 细节未明。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-08-25T19:49:36.956374Z"
       }
     },
     {
@@ -899,15 +1266,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7495,
-      "importance": 0.7495,
-      "importance_score": 0.7495,
+      "score": 0.7427,
+      "importance": 0.7427,
+      "importance_score": 0.7427,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8997,
+        "recency": 0.8618,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -934,7 +1301,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T16:47:27.560902Z"
+        "scored_at": "2026-08-25T19:49:36.956374Z"
       }
     },
     {
@@ -982,15 +1349,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7416,
-      "importance": 0.7416,
-      "importance_score": 0.7416,
+      "score": 0.7341,
+      "importance": 0.7341,
+      "importance_score": 0.7341,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.64,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9891,
+        "recency": 0.9475,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1017,7 +1384,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T16:47:27.560902Z"
+        "scored_at": "2026-08-25T19:49:36.956374Z"
       }
     },
     {
@@ -1065,15 +1432,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7352,
-      "importance": 0.7352,
-      "importance_score": 0.7352,
+      "score": 0.728,
+      "importance": 0.728,
+      "importance_score": 0.728,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.64,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9534,
+        "recency": 0.9133,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1100,7 +1467,92 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T16:47:27.560902Z"
+        "scored_at": "2026-08-25T19:49:36.956374Z"
+      }
+    },
+    {
+      "story_id": "story_4c08adc024bd",
+      "title": "瓦解俄罗斯新一轮秘密影响力行动 / Disrupting a new covert influence campaign from Russia",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "primary_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "6bd2adbc583117c8e7211725eab9f4bfe5fd0ba9",
+          "title": "瓦解俄罗斯新一轮秘密影响力行动 / Disrupting a new covert influence campaign from Russia",
+          "title_zh": "瓦解俄罗斯新一轮秘密影响力行动",
+          "title_en": "Disrupting a new covert influence campaign from Russia",
+          "title_original": "Disrupting a new covert influence campaign from Russia",
+          "summary": null,
+          "recommend_reason_zh": "OpenAI封禁了源自俄罗斯的ChatGPT账号集群，这些账号用AI生成评论推广虚假的以色列智库International Burke Institute及美化俄罗斯的“主权”指数，并通过VPN隐藏俄语痕迹。",
+          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T00:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "6bd2adbc583117c8e7211725eab9f4bfe5fd0ba9",
+          "title": "瓦解俄罗斯新一轮秘密影响力行动 / Disrupting a new covert influence campaign from Russia",
+          "title_zh": "瓦解俄罗斯新一轮秘密影响力行动",
+          "title_en": "Disrupting a new covert influence campaign from Russia",
+          "title_original": "Disrupting a new covert influence campaign from Russia",
+          "summary": null,
+          "recommend_reason_zh": "OpenAI封禁了源自俄罗斯的ChatGPT账号集群，这些账号用AI生成评论推广虚假的以色列智库International Burke Institute及美化俄罗斯的“主权”指数，并通过VPN隐藏俄语痕迹。",
+          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T00:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8082,
+      "importance": 0.8082,
+      "importance_score": 0.8082,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.7569,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-25T00:00:00Z",
+      "latest_at": "2026-08-25T00:00:00Z",
+      "primary_item": {
+        "id": "6bd2adbc583117c8e7211725eab9f4bfe5fd0ba9",
+        "title": "瓦解俄罗斯新一轮秘密影响力行动 / Disrupting a new covert influence campaign from Russia",
+        "title_zh": "瓦解俄罗斯新一轮秘密影响力行动",
+        "title_en": "Disrupting a new covert influence campaign from Russia",
+        "title_original": "Disrupting a new covert influence campaign from Russia",
+        "summary": null,
+        "recommend_reason_zh": "OpenAI封禁了源自俄罗斯的ChatGPT账号集群，这些账号用AI生成评论推广虚假的以色列智库International Burke Institute及美化俄罗斯的“主权”指数，并通过VPN隐藏俄语痕迹。",
+        "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 40,
+      "persona_review": "安全报告看看即可，不影响日常开发选型。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-08-25T19:49:36.956374Z"
       }
     },
     {
@@ -1148,15 +1600,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7495,
-      "importance": 0.7495,
-      "importance_score": 0.7495,
+      "score": 0.7427,
+      "importance": 0.7427,
+      "importance_score": 0.7427,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8997,
+        "recency": 0.8618,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1183,7 +1635,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T16:47:27.560902Z"
+        "scored_at": "2026-08-25T19:49:36.956374Z"
       }
     },
     {
@@ -1231,15 +1683,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7481,
-      "importance": 0.7481,
-      "importance_score": 0.7481,
+      "score": 0.7414,
+      "importance": 0.7414,
+      "importance_score": 0.7414,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8919,
+        "recency": 0.8544,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1266,7 +1718,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T16:47:27.560902Z"
+        "scored_at": "2026-08-25T19:49:36.956374Z"
       }
     },
     {
@@ -1314,15 +1766,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7481,
-      "importance": 0.7481,
-      "importance_score": 0.7481,
+      "score": 0.7414,
+      "importance": 0.7414,
+      "importance_score": 0.7414,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8919,
+        "recency": 0.8544,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1349,508 +1801,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-25T16:47:27.560902Z"
-      }
-    },
-    {
-      "story_id": "story_c4b1ff481103",
-      "title": "谷歌 Gemini 迎来深度界面升级，新增通知中心与智能筛选",
-      "url": "https://www.aibase.com/news/30605",
-      "primary_url": "https://www.aibase.com/news/30605",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "7e064355c7f51393c64feb9d3aec4d3c0e0783cb",
-          "title": "谷歌 Gemini 迎来深度界面升级，新增通知中心与智能筛选",
-          "title_zh": "谷歌 Gemini 迎来深度界面升级，新增通知中心与智能筛选",
-          "title_en": null,
-          "title_original": "谷歌 Gemini 迎来深度界面升级，新增通知中心与智能筛选",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30605",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-25T08:23:19.938494Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "7e064355c7f51393c64feb9d3aec4d3c0e0783cb",
-          "title": "谷歌 Gemini 迎来深度界面升级，新增通知中心与智能筛选",
-          "title_zh": "谷歌 Gemini 迎来深度界面升级，新增通知中心与智能筛选",
-          "title_en": null,
-          "title_original": "谷歌 Gemini 迎来深度界面升级，新增通知中心与智能筛选",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30605",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-25T08:23:19.938494Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7481,
-      "importance": 0.7481,
-      "importance_score": 0.7481,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8919,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-25T08:23:19.938494Z",
-      "latest_at": "2026-08-25T08:23:19.938494Z",
-      "primary_item": {
-        "id": "7e064355c7f51393c64feb9d3aec4d3c0e0783cb",
-        "title": "谷歌 Gemini 迎来深度界面升级，新增通知中心与智能筛选",
-        "title_zh": "谷歌 Gemini 迎来深度界面升级，新增通知中心与智能筛选",
-        "title_en": null,
-        "title_original": "谷歌 Gemini 迎来深度界面升级，新增通知中心与智能筛选",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/30605",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "界面升级不改变模型能力，等 API 或功能开放再动手。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-25T16:47:27.560902Z"
-      }
-    },
-    {
-      "story_id": "story_97f565872705",
-      "title": "苹果新款M6芯片获得更多核心和更强AI算力 / Apple&#8217;s new M6 chip gets more cores and more AI compute",
-      "url": "https://www.theverge.com/tech/984118/apple-m6-m5-ultra-chip-mac-mini-studio",
-      "primary_url": "https://www.theverge.com/tech/984118/apple-m6-m5-ultra-chip-mac-mini-studio",
-      "source": "The Verge",
-      "source_name": "Curated Media",
-      "sources": [
-        {
-          "id": "73f20681e3310a757758f9c3769d821c5fabbbc9",
-          "title": "苹果新款M6芯片获得更多核心和更强AI算力 / Apple&#8217;s new M6 chip gets more cores and more AI compute",
-          "title_zh": "苹果新款M6芯片获得更多核心和更强AI算力",
-          "title_en": "Apple&#8217;s new M6 chip gets more cores and more AI compute",
-          "title_original": "Apple&#8217;s new M6 chip gets more cores and more AI compute",
-          "summary": null,
-          "recommend_reason_zh": "Apple发布首款2nm芯片M6，配备12核CPU与双16核Neural Engine，多线程性能较M5提升1.2倍；同时推出M5 Ultra，支持512GB统一内存，两者将随Mac Mini和Mac Studio于9月22日上市。",
-          "url": "https://www.theverge.com/tech/984118/apple-m6-m5-ultra-chip-mac-mini-studio",
-          "source": "The Verge",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-08-25T13:00:00Z"
-        },
-        {
-          "id": "b1d7abe7c8bff5d6873d03816b3c1eb79fde5e0e",
-          "title": "Apple 新款 M6 chip 配备更多核心和更强 AI 算力 / Apple’s new M6 chip gets more cores and more AI compute",
-          "title_zh": "Apple 新款 M6 chip 配备更多核心和更强 AI 算力",
-          "title_en": "Apple’s new M6 chip gets more cores and more AI compute",
-          "title_original": "Apple’s new M6 chip gets more cores and more AI compute",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.theverge.com/tech/984118/apple-m6-m5-ultra-chip-mac-mini-studio",
-          "source": "The Verge",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-25T13:00:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "The Verge"
-      ],
-      "items": [
-        {
-          "id": "73f20681e3310a757758f9c3769d821c5fabbbc9",
-          "title": "苹果新款M6芯片获得更多核心和更强AI算力 / Apple&#8217;s new M6 chip gets more cores and more AI compute",
-          "title_zh": "苹果新款M6芯片获得更多核心和更强AI算力",
-          "title_en": "Apple&#8217;s new M6 chip gets more cores and more AI compute",
-          "title_original": "Apple&#8217;s new M6 chip gets more cores and more AI compute",
-          "summary": null,
-          "recommend_reason_zh": "Apple发布首款2nm芯片M6，配备12核CPU与双16核Neural Engine，多线程性能较M5提升1.2倍；同时推出M5 Ultra，支持512GB统一内存，两者将随Mac Mini和Mac Studio于9月22日上市。",
-          "url": "https://www.theverge.com/tech/984118/apple-m6-m5-ultra-chip-mac-mini-studio",
-          "source": "The Verge",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-08-25T13:00:00Z"
-        },
-        {
-          "id": "b1d7abe7c8bff5d6873d03816b3c1eb79fde5e0e",
-          "title": "Apple 新款 M6 chip 配备更多核心和更强 AI 算力 / Apple’s new M6 chip gets more cores and more AI compute",
-          "title_zh": "Apple 新款 M6 chip 配备更多核心和更强 AI 算力",
-          "title_en": "Apple’s new M6 chip gets more cores and more AI compute",
-          "title_original": "Apple’s new M6 chip gets more cores and more AI compute",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.theverge.com/tech/984118/apple-m6-m5-ultra-chip-mac-mini-studio",
-          "source": "The Verge",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-25T13:00:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.6154,
-      "importance": 0.6154,
-      "importance_score": 0.6154,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.504,
-        "source_tier": 0.58,
-        "ai_relevance": 0.7,
-        "recency": 0.9534,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-25T13:00:00Z",
-      "latest_at": "2026-08-25T13:00:00Z",
-      "primary_item": {
-        "id": "73f20681e3310a757758f9c3769d821c5fabbbc9",
-        "title": "苹果新款M6芯片获得更多核心和更强AI算力 / Apple&#8217;s new M6 chip gets more cores and more AI compute",
-        "title_zh": "苹果新款M6芯片获得更多核心和更强AI算力",
-        "title_en": "Apple&#8217;s new M6 chip gets more cores and more AI compute",
-        "title_original": "Apple&#8217;s new M6 chip gets more cores and more AI compute",
-        "summary": null,
-        "recommend_reason_zh": "Apple发布首款2nm芯片M6，配备12核CPU与双16核Neural Engine，多线程性能较M5提升1.2倍；同时推出M5 Ultra，支持512GB统一内存，两者将随Mac Mini和Mac Studio于9月22日上市。",
-        "url": "https://www.theverge.com/tech/984118/apple-m6-m5-ultra-chip-mac-mini-studio",
-        "source": "The Verge",
-        "source_name": "Curated Media"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 55,
-      "persona_review": "芯片参数看看就好，等真机跑分和价格出来再决定换不换。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-25T16:47:27.560902Z"
-      }
-    },
-    {
-      "story_id": "story_2cdc7641002b",
-      "title": "ChatGPT重磅上线自定义贴纸功能，完美打通两大社交巨头",
-      "url": "https://www.aibase.com/news/30602",
-      "primary_url": "https://www.aibase.com/news/30602",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "00ab544af595fb6c20f3d263744d6d1dff134d5b",
-          "title": "ChatGPT重磅上线自定义贴纸功能，完美打通两大社交巨头",
-          "title_zh": "ChatGPT重磅上线自定义贴纸功能，完美打通两大社交巨头",
-          "title_en": null,
-          "title_original": "ChatGPT重磅上线自定义贴纸功能，完美打通两大社交巨头",
-          "summary": null,
-          "recommend_reason_zh": "OpenAI为ChatGPT推出自定义贴纸功能，支持上传照片、文字提示及风格迁移，自动生成透明背景，并可打包导出至iMessage和WhatsApp，其中WhatsApp每次至少导出3张贴纸。",
-          "url": "https://www.aibase.com/news/30602",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-25T07:28:25.530508Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "00ab544af595fb6c20f3d263744d6d1dff134d5b",
-          "title": "ChatGPT重磅上线自定义贴纸功能，完美打通两大社交巨头",
-          "title_zh": "ChatGPT重磅上线自定义贴纸功能，完美打通两大社交巨头",
-          "title_en": null,
-          "title_original": "ChatGPT重磅上线自定义贴纸功能，完美打通两大社交巨头",
-          "summary": null,
-          "recommend_reason_zh": "OpenAI为ChatGPT推出自定义贴纸功能，支持上传照片、文字提示及风格迁移，自动生成透明背景，并可打包导出至iMessage和WhatsApp，其中WhatsApp每次至少导出3张贴纸。",
-          "url": "https://www.aibase.com/news/30602",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-25T07:28:25.530508Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.746,
-      "importance": 0.746,
-      "importance_score": 0.746,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8802,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-25T07:28:25.530508Z",
-      "latest_at": "2026-08-25T07:28:25.530508Z",
-      "primary_item": {
-        "id": "00ab544af595fb6c20f3d263744d6d1dff134d5b",
-        "title": "ChatGPT重磅上线自定义贴纸功能，完美打通两大社交巨头",
-        "title_zh": "ChatGPT重磅上线自定义贴纸功能，完美打通两大社交巨头",
-        "title_en": null,
-        "title_original": "ChatGPT重磅上线自定义贴纸功能，完美打通两大社交巨头",
-        "summary": null,
-        "recommend_reason_zh": "OpenAI为ChatGPT推出自定义贴纸功能，支持上传照片、文字提示及风格迁移，自动生成透明背景，并可打包导出至iMessage和WhatsApp，其中WhatsApp每次至少导出3张贴纸。",
-        "url": "https://www.aibase.com/news/30602",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "贴纸功能对开发者无实际API价值，社交集成属产品层，暂不用跟进。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-25T16:47:27.560902Z"
-      }
-    },
-    {
-      "story_id": "story_a3a30019dba2",
-      "title": "GPT-5.6重磅登陆Kiro！AI原生编码迎来性价比革命，开发效率实现质的飞跃",
-      "url": "https://www.aibase.com/news/30600",
-      "primary_url": "https://www.aibase.com/news/30600",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "7f32c6dd06dc76515701281c803e3283eb887eee",
-          "title": "GPT-5.6重磅登陆Kiro！AI原生编码迎来性价比革命，开发效率实现质的飞跃",
-          "title_zh": "GPT-5.6重磅登陆Kiro！AI原生编码迎来性价比革命，开发效率实现质的飞跃",
-          "title_en": null,
-          "title_original": "GPT-5.6重磅登陆Kiro！AI原生编码迎来性价比革命，开发效率实现质的飞跃",
-          "summary": null,
-          "recommend_reason_zh": "OpenAI与Kiro深度合作，将GPT-5.6模型家族（Sol、Terra、Luna）融入规划、构建、审查、测试全流程，显著提升token输出效率与性价比，让开发者高效执行长周期开发任务。",
-          "url": "https://www.aibase.com/news/30600",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-25T07:28:25.530508Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "7f32c6dd06dc76515701281c803e3283eb887eee",
-          "title": "GPT-5.6重磅登陆Kiro！AI原生编码迎来性价比革命，开发效率实现质的飞跃",
-          "title_zh": "GPT-5.6重磅登陆Kiro！AI原生编码迎来性价比革命，开发效率实现质的飞跃",
-          "title_en": null,
-          "title_original": "GPT-5.6重磅登陆Kiro！AI原生编码迎来性价比革命，开发效率实现质的飞跃",
-          "summary": null,
-          "recommend_reason_zh": "OpenAI与Kiro深度合作，将GPT-5.6模型家族（Sol、Terra、Luna）融入规划、构建、审查、测试全流程，显著提升token输出效率与性价比，让开发者高效执行长周期开发任务。",
-          "url": "https://www.aibase.com/news/30600",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-25T07:28:25.530508Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.746,
-      "importance": 0.746,
-      "importance_score": 0.746,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8802,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-25T07:28:25.530508Z",
-      "latest_at": "2026-08-25T07:28:25.530508Z",
-      "primary_item": {
-        "id": "7f32c6dd06dc76515701281c803e3283eb887eee",
-        "title": "GPT-5.6重磅登陆Kiro！AI原生编码迎来性价比革命，开发效率实现质的飞跃",
-        "title_zh": "GPT-5.6重磅登陆Kiro！AI原生编码迎来性价比革命，开发效率实现质的飞跃",
-        "title_en": null,
-        "title_original": "GPT-5.6重磅登陆Kiro！AI原生编码迎来性价比革命，开发效率实现质的飞跃",
-        "summary": null,
-        "recommend_reason_zh": "OpenAI与Kiro深度合作，将GPT-5.6模型家族（Sol、Terra、Luna）融入规划、构建、审查、测试全流程，显著提升token输出效率与性价比，让开发者高效执行长周期开发任务。",
-        "url": "https://www.aibase.com/news/30600",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 72,
-      "persona_review": "GPT-5.6进Kiro，编码场景可试，但先看定价和API兼容再切。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-25T16:47:27.560902Z"
-      }
-    },
-    {
-      "story_id": "story_974793f4f4f9",
-      "title": "复古人工智能：在变得尴尬之前",
-      "url": "https://blog.archive.org/2026/08/16/vintage-artificial-intelligence-before-it-got-awkward",
-      "primary_url": "https://blog.archive.org/2026/08/16/vintage-artificial-intelligence-before-it-got-awkward",
-      "source": "blog.archive.org",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "5d43f2213e47090aa4e83ae6b5c0fc4bcb008113",
-          "title": "复古人工智能：在变得尴尬之前",
-          "title_zh": "复古人工智能：在变得尴尬之前",
-          "title_en": null,
-          "title_original": "复古人工智能：在变得尴尬之前",
-          "summary": null,
-          "recommend_reason_zh": "这篇文章通过互联网档案馆的Vintage Artificial Intelligence collection，带你看清1970-1990年代模拟思考软件的早期面貌，包括ELIZA的German Eliza和Psycho Eliza等版本，是了解AI历史的趣味入口。",
-          "url": "https://blog.archive.org/2026/08/16/vintage-artificial-intelligence-before-it-got-awkward",
-          "source": "blog.archive.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-25T10:13:48.902000Z"
-        },
-        {
-          "id": "4d2e6ea72770a6d0bdca9f741342114768dcd82d",
-          "title": "复古人工智能：在它变得尴尬之前 / Vintage Artificial Intelligence: Before It Got Awkward",
-          "title_zh": "复古人工智能：在它变得尴尬之前",
-          "title_en": "Vintage Artificial Intelligence: Before It Got Awkward",
-          "title_original": "Vintage Artificial Intelligence: Before It Got Awkward",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49425800",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-24T21:38:23.310000Z"
-        },
-        {
-          "id": "6b3ddf826656bb9730b1c966248c75951d715e33",
-          "title": "复古人工智能：在变得尴尬之前 / Vintage Artificial Intelligence: Before It Got Awkward",
-          "title_zh": "复古人工智能：在变得尴尬之前",
-          "title_en": "Vintage Artificial Intelligence: Before It Got Awkward",
-          "title_original": "Vintage Artificial Intelligence: Before It Got Awkward",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://blog.archive.org/2026/08/16/vintage-artificial-intelligence-before-it-got-awkward",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-24T21:01:38Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "blog.archive.org",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "5d43f2213e47090aa4e83ae6b5c0fc4bcb008113",
-          "title": "复古人工智能：在变得尴尬之前",
-          "title_zh": "复古人工智能：在变得尴尬之前",
-          "title_en": null,
-          "title_original": "复古人工智能：在变得尴尬之前",
-          "summary": null,
-          "recommend_reason_zh": "这篇文章通过互联网档案馆的Vintage Artificial Intelligence collection，带你看清1970-1990年代模拟思考软件的早期面貌，包括ELIZA的German Eliza和Psycho Eliza等版本，是了解AI历史的趣味入口。",
-          "url": "https://blog.archive.org/2026/08/16/vintage-artificial-intelligence-before-it-got-awkward",
-          "source": "blog.archive.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-25T10:13:48.902000Z"
-        },
-        {
-          "id": "4d2e6ea72770a6d0bdca9f741342114768dcd82d",
-          "title": "复古人工智能：在它变得尴尬之前 / Vintage Artificial Intelligence: Before It Got Awkward",
-          "title_zh": "复古人工智能：在它变得尴尬之前",
-          "title_en": "Vintage Artificial Intelligence: Before It Got Awkward",
-          "title_original": "Vintage Artificial Intelligence: Before It Got Awkward",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49425800",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-24T21:38:23.310000Z"
-        },
-        {
-          "id": "6b3ddf826656bb9730b1c966248c75951d715e33",
-          "title": "复古人工智能：在变得尴尬之前 / Vintage Artificial Intelligence: Before It Got Awkward",
-          "title_zh": "复古人工智能：在变得尴尬之前",
-          "title_en": "Vintage Artificial Intelligence: Before It Got Awkward",
-          "title_original": "Vintage Artificial Intelligence: Before It Got Awkward",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://blog.archive.org/2026/08/16/vintage-artificial-intelligence-before-it-got-awkward",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-24T21:01:38Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5557,
-      "importance": 0.5557,
-      "importance_score": 0.5557,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.916,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-24T21:01:38Z",
-      "latest_at": "2026-08-25T10:13:48.902000Z",
-      "primary_item": {
-        "id": "5d43f2213e47090aa4e83ae6b5c0fc4bcb008113",
-        "title": "复古人工智能：在变得尴尬之前",
-        "title_zh": "复古人工智能：在变得尴尬之前",
-        "title_en": null,
-        "title_original": "复古人工智能：在变得尴尬之前",
-        "summary": null,
-        "recommend_reason_zh": "这篇文章通过互联网档案馆的Vintage Artificial Intelligence collection，带你看清1970-1990年代模拟思考软件的早期面貌，包括ELIZA的German Eliza和Psycho Eliza等版本，是了解AI历史的趣味入口。",
-        "url": "https://blog.archive.org/2026/08/16/vintage-artificial-intelligence-before-it-got-awkward",
-        "source": "blog.archive.org",
-        "source_name": "Buzzing"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 20,
-      "persona_review": "怀旧文不写代码，对开发者没实际用途。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-25T16:47:27.560902Z"
+        "scored_at": "2026-08-25T19:49:36.956374Z"
       }
     }
   ]
