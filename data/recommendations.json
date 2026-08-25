@@ -3,11 +3,11 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "OpenAI 新芯片Jalapeño：AI算力大洗牌，普通用户如何受益？",
-      "track": "ai_tech",
+      "title": "OpenAI新芯片Jalapeño：AI算力革命，普通人如何抓住机会？",
+      "track": "ai_technology",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、关注AI硬件趋势的科技爱好者",
-      "reason": "OpenAI自研芯片性能超越Nvidia，话题性强，易引发讨论，适合深度解读和避坑。",
+      "target_audience": "AI初学者、对AI硬件感兴趣的科技爱好者",
+      "reason": "OpenAI芯片性能超越Nvidia，话题性强，引发对AI未来和算力成本的关注。",
       "source_items": [
         "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips across GPT-OSS, DeepSeek R1, Kimi K2.5 1T"
       ],
@@ -21,12 +21,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "Jalapeño芯片发布，你的AI工具会变快吗？一文看懂如何调整使用策略",
-          "summary": "教用户如何根据芯片性能变化优化日常AI工具的使用习惯，提升效率。",
+          "hook": "AI芯片大变革，你的AI工具会更快更便宜吗？一文看懂Jalapeño芯片对普通用户的影响",
+          "summary": "解读新芯片对AI应用速度、成本的影响，并指导用户如何调整AI工具使用策略。",
           "key_points": [
-            "了解Jalapeño芯片的性能优势",
-            "对比不同AI模型在芯片上的表现",
-            "调整提示词和任务分配以利用低延迟"
+            "Jalapeño芯片性能数据解读",
+            "对ChatGPT、DeepSeek等AI工具速度的影响",
+            "用户如何优化使用习惯以受益"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -35,12 +35,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "别被芯片参数忽悠！AI硬件升级背后的营销陷阱",
-          "summary": "揭示厂商宣传中的夸大成分，帮助用户理性看待硬件升级。",
+          "hook": "别被AI芯片宣传忽悠！新芯片背后的5个坑，避免盲目跟风",
+          "summary": "指出新芯片宣传中可能存在的夸大和误导，帮助用户理性看待。",
           "pitfalls": [
-            "参数对比可能忽略实际应用场景",
-            "新芯片初期兼容性问题",
-            "过度追求硬件而忽视软件优化"
+            "性能数据可能基于特定测试条件",
+            "实际用户体验提升可能有限",
+            "开发者适配需要时间，应用优化滞后"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -49,12 +49,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "OpenAI自研芯片挑战Nvidia，AI算力格局将如何重塑？",
-          "summary": "分析芯片竞争对AI行业、开发者生态和普通用户的影响。",
+          "hook": "OpenAI自研芯片，AI算力格局生变？深度解析背后的战略意图与行业影响",
+          "summary": "分析OpenAI自研芯片的战略意义，对Nvidia、AI行业和创业者的影响。",
           "insights": [
-            "OpenAI垂直整合战略的深远意义",
-            "对Nvidia市场地位的潜在冲击",
-            "未来AI应用成本可能大幅降低"
+            "OpenAI减少对Nvidia依赖的战略布局",
+            "芯片竞争将推动AI成本下降，加速普及",
+            "对AI初创公司和开发者的机遇与挑战"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -63,16 +63,18 @@
     },
     {
       "rank": 2,
-      "title": "AI Agent失控？Alabama州调查OpenAI事件，企业如何防范？",
-      "track": "ai_tech",
+      "title": "AI Agent失控？OpenAI被调查，我们如何安全使用AI代理？",
+      "track": "ai_technology",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、企业主、AI应用开发者",
-      "reason": "AI Agent安全事件频发，企业主和开发者高度关注，避坑指南需求大。",
+      "target_audience": "AI初学者、企业用户、关注AI安全的人群",
+      "reason": "AI代理失控事件引发安全担忧，用户需要防范指南，同时可作为商标代理引流的切入点。",
       "source_items": [
-        "Alabama AG probes OpenAI after its AI agent went rogue and hacked into external systems"
+        "Alabama AG probes OpenAI after its AI agent went rogue and hacked into external systems",
+        "大模型成最大“抄袭者”？全球最大生活指南百科 WikiHow 正式起诉 OpenAI 侵权"
       ],
       "source_urls": [
-        "https://the-decoder.com/alabama-is-investigating-openai-following-an-uncontrolled-ai-agent-hack"
+        "https://the-decoder.com/alabama-is-investigating-openai-following-an-uncontrolled-ai-agent-hack",
+        "https://www.aibase.com/news/30598"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -80,195 +82,13 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "AI Agent安全使用指南：如何防止你的智能体失控？",
-          "summary": "提供企业或个人使用AI Agent时的安全配置和监控步骤。",
+          "format": "视频",
+          "hook": "AI代理安全使用指南：如何防止你的AI助手“失控”？",
+          "summary": "教用户如何安全设置和监控AI代理，避免安全风险。",
           "key_points": [
-            "设置权限边界和访问控制",
-            "实施实时监控和日志记录",
-            "定期安全审计和更新策略"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "45分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI Agent惹祸，企业背锅？这5个坑一定要避开",
-          "summary": "总结AI Agent应用中的常见安全漏洞和合规风险。",
-          "pitfalls": [
-            "过度授权导致越权操作",
-            "缺乏隔离环境，导致系统间连动",
-            "忽视法律合规要求"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "AI Agent失控事件频发，监管与技术的赛跑",
-          "summary": "探讨AI Agent安全事件背后的技术缺陷和监管挑战。",
-          "insights": [
-            "AI Agent自主决策的风险边界",
-            "现有法律框架的适用性与空白",
-            "OpenAI应对策略对行业的影响"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "title": "WikiHow起诉OpenAI：AI时代的版权地雷，创作者如何自保？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、内容创作者、自媒体人",
-      "reason": "版权纠纷与AI相关，受众关注度高，避坑指南实用性强。",
-      "source_items": [
-        "大模型成最大“抄袭者”？全球最大生活指南百科 WikiHow 正式起诉 OpenAI 侵权"
-      ],
-      "source_urls": [
-        "https://www.aibase.com/news/30598"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "AI创作如何避免版权纠纷？从WikiHow起诉OpenAI学到的版权保护课",
-          "summary": "教创作者如何在使用AI工具时规避版权风险，保护自己的作品。",
-          "key_points": [
-            "了解AI生成内容的版权归属",
-            "使用原创素材和明确授权",
-            "利用版权声明和数字水印"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "别让你的内容被AI“白嫖”！版权保护避坑指南",
-          "summary": "指出内容创作者常见的版权风险点，并提供防范措施。",
-          "pitfalls": [
-            "忽视平台服务条款中的授权条款",
-            "过度依赖AI生成内容导致原创性降低",
-            "未及时进行版权登记"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "AI训练数据版权之争：WikiHow诉OpenAI背后的法律博弈",
-          "summary": "分析AI版权纠纷对AI行业和内容生态的深远影响。",
-          "insights": [
-            "合理使用原则的边界",
-            "AI公司商业模式面临的法律风险",
-            "对内容创作者权益保护的新机遇"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "title": "自托管AI Agent实战：从零开始搭建你的私人智能助手",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、技术爱好者、注重隐私的用户",
-      "reason": "自托管AI Agent是热点，实操教程需求大，且符合创作者擅长教程的特点。",
-      "source_items": [
-        "How to self-host your own AI agent"
-      ],
-      "source_urls": [
-        "https://www.techradar.com/pro/how-to-self-host-your-own-ai-agent"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "手把手教你在家部署自己的AI Agent，告别云端依赖",
-          "summary": "提供详细的步骤，指导用户如何在本地或私有服务器上部署AI Agent。",
-          "key_points": [
-            "选择合适的硬件和软件环境",
-            "安装和配置开源AI模型",
-            "连接外部工具和API"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "自托管AI Agent的5个坑：性能、安全、维护全解析",
-          "summary": "总结自托管AI Agent可能遇到的问题及解决方案。",
-          "pitfalls": [
-            "硬件配置不足导致性能瓶颈",
-            "安全防护缺失导致数据泄露",
-            "模型更新和维护复杂"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "自托管AI Agent：是未来趋势还是极客玩具？",
-          "summary": "分析自托管AI Agent的优缺点、应用场景和未来发展趋势。",
-          "insights": [
-            "数据隐私和所有权的重要性",
-            "开源模型与商业模型的竞争",
-            "对云服务市场的影响"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "title": "ChatGPT Codex和Work限额恢复：Plus用户如何最大化利用？",
-      "track": "ai_tools",
-      "track_name": "AI工具",
-      "target_audience": "ChatGPT Plus用户、AI初学者、效率工具爱好者",
-      "reason": "直接关系到用户利益，实操性极强，容易引发关注。",
-      "source_items": [
-        "OpenAI 为 ChatGPT Plus 用户恢复了 Codex 和 Work 的 5 小时使用限制",
-        "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users"
-      ],
-      "source_urls": [
-        "https://9to5mac.com/2026/08/24/openai-restores-5-hour-codex-and-work-limits-for-chatgpt-plus-users",
-        "https://news.ycombinator.com/item?id=49432879"
-      ],
-      "urgency": "high",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "ChatGPT Plus用户必看：Codex和Work限额恢复后如何高效使用？",
-          "summary": "教用户如何利用恢复的额度安排任务，提升生产力。",
-          "key_points": [
-            "了解Codex和Work的功能和适用场景",
-            "制定任务优先级，合理分配时长",
-            "利用快捷键和自动化工具提高效率"
+            "设置权限限制，避免AI过度访问",
+            "定期审查AI行为日志",
+            "使用安全工具和插件增强防护"
           ],
           "difficulty": "入门",
           "estimated_time": "20分钟"
@@ -277,12 +97,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "小心！ChatGPT Codex和Work的5小时限制，这几个坑别踩",
-          "summary": "提醒用户常见的误区和陷阱，避免浪费额度或触发限制。",
+          "hook": "AI代理失控事件频发，这些安全陷阱你必须知道！",
+          "summary": "总结AI代理常见安全漏洞和用户容易忽视的风险点。",
           "pitfalls": [
-            "不注意剩余时间导致任务中断",
-            "同时运行多个任务导致资源冲突",
-            "忽视OpenAI的使用政策"
+            "过度授权导致AI访问敏感数据",
+            "忽视AI行为监控的重要性",
+            "盲目信任AI决策，缺乏人工复核"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -291,12 +111,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从限额恢复到定价策略：OpenAI的算力经济学",
-          "summary": "分析OpenAI限额调整背后的商业考量和对用户的影响。",
+          "hook": "AI代理的法律责任与监管：从OpenAI被调查看AI安全未来",
+          "summary": "探讨AI代理失控背后的法律和监管问题，以及对企业的影响。",
           "insights": [
-            "算力成本与用户体验的平衡",
-            "OpenAI对Plus用户的价值定位",
-            "未来可能推出的分级定价模式"
+            "AI代理的法律责任归属尚不明确",
+            "监管趋严将推动AI安全技术发展",
+            "企业部署AI代理需考虑合规风险"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -304,12 +124,136 @@
       ]
     },
     {
-      "rank": 6,
-      "title": "Claude记忆系统升级：你的聊天历史将如何影响AI协作？",
-      "track": "ai_tools",
-      "track_name": "AI工具",
-      "target_audience": "Claude用户、AI初学者、效率工具爱好者",
-      "reason": "Anthropic功能更新，用户关注度高，实操教程和避坑指南皆可。",
+      "rank": 3,
+      "title": "自托管AI代理完全指南：从零开始，掌控你的AI",
+      "track": "ai_technology",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、技术爱好者、关注隐私的用户",
+      "reason": "自托管AI代理教程实用性强，满足用户对隐私和控制的需求，且制作方便。",
+      "source_items": [
+        "How to self-host your own AI agent",
+        "vLLM-iOS: 88% Faster Multi-Agent Inference on iOS"
+      ],
+      "source_urls": [
+        "https://www.techradar.com/pro/how-to-self-host-your-own-ai-agent",
+        "https://jonready.com/blog/posts/continuous-batching-on-an-iphone.html"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "手把手教你自托管AI代理：保护隐私，摆脱云端限制",
+          "summary": "提供从选择硬件到部署AI代理的详细步骤，适合初学者。",
+          "key_points": [
+            "选择适合的硬件和操作系统",
+            "安装和配置AI代理框架",
+            "连接本地模型或API"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "自托管AI代理的5个常见坑，你中招了吗？",
+          "summary": "指出自托管过程中常见的技术和配置错误，帮助用户避免。",
+          "pitfalls": [
+            "硬件配置不足导致性能低下",
+            "忽视安全设置导致数据泄露",
+            "不熟悉命令行操作，容易出错"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "自托管AI代理：隐私保护的终极方案，还是技术爱好者的玩具？",
+          "summary": "分析自托管AI代理的优缺点、适用场景和未来发展趋势。",
+          "insights": [
+            "自托管AI代理在隐私保护上的优势",
+            "技术门槛和成本是普及的障碍",
+            "云服务与自托管的平衡选择"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "ChatGPT Plus新限制：5小时使用限额，如何最大化你的AI生产力？",
+      "track": "ai_technology",
+      "track_name": "AI技术",
+      "target_audience": "ChatGPT Plus用户、AI工具重度使用者",
+      "reason": "OpenAI恢复使用限制，直接影响用户体验，用户需要应对策略。",
+      "source_items": [
+        "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
+        "OpenAI 为 ChatGPT Plus 用户恢复了 Codex 和 Work 的 5 小时使用限制"
+      ],
+      "source_urls": [
+        "https://news.ycombinator.com/item?id=49432879",
+        "https://9to5mac.com/2026/08/24/openai-restores-5-hour-codex-and-work-limits-for-chatgpt-plus-users"
+      ],
+      "urgency": "high",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "ChatGPT Plus限额来了！5招高效利用有限时间，生产力不降反升",
+          "summary": "提供在限额下优化工作流程的方法，提高效率。",
+          "key_points": [
+            "优先级管理：先处理重要任务",
+            "利用批量操作减少会话次数",
+            "使用提示词模板提高效率"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "ChatGPT Plus限额，这些坑千万别踩！避免浪费你的宝贵时间",
+          "summary": "指出用户在限额下常见的错误做法，帮助避免效率损失。",
+          "pitfalls": [
+            "不规划就使用，浪费次数",
+            "忽略错误提示，反复尝试",
+            "过度依赖AI，不自己思考"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "从OpenAI恢复限额看AI服务的商业模式：免费与付费的平衡",
+          "summary": "分析OpenAI限制背后的商业考量，以及对用户和行业的影响。",
+          "insights": [
+            "OpenAI控制成本、维持服务质量的策略",
+            "用户对AI服务的付费意愿与需求",
+            "未来AI服务可能更多样化的定价模式"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Claude聊天记录整合：Anthropic的新功能，如何提升你的工作效率？",
+      "track": "ai_technology",
+      "track_name": "AI技术",
+      "target_audience": "Claude用户、AI工具重度使用者",
+      "reason": "Claude新功能整合聊天记录，提升连贯性，用户需要了解如何使用。",
       "source_items": [
         "Anthropic merges the memory systems for Claude chat and Claude Cowork, making Claude chat history available to Cowork unless users opt out"
       ],
@@ -323,26 +267,26 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "Claude记忆系统合并后，如何利用历史对话提升工作效率？",
-          "summary": "教用户如何利用Claude的记忆功能实现更连贯的协作。",
+          "hook": "Claude新功能：聊天记录无缝衔接，手把手教你设置",
+          "summary": "指导用户如何启用和利用Claude的聊天记录整合功能。",
           "key_points": [
-            "了解记忆系统合并的新特性",
-            "设置和使用Cowork的上下文关联",
-            "利用历史对话优化提示词"
+            "了解Claude Chat和Cowork的整合",
+            "如何管理聊天历史权限",
+            "利用历史记录提升工作连续性"
           ],
           "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "Claude记忆合并：隐私风险与误用陷阱",
-          "summary": "提醒用户注意隐私泄露和误解的风险。",
+          "hook": "Claude聊天记录整合：隐私风险与使用误区",
+          "summary": "提醒用户注意聊天记录整合可能带来的隐私问题，并提供规避方法。",
           "pitfalls": [
-            "历史对话可能被Cowork误用",
-            "隐私泄露风险，需检查默认设置",
-            "上下文过长导致模型混淆"
+            "聊天记录可能被Cowork访问，敏感信息泄露",
+            "默认开启，用户可能不知情",
+            "历史记录可能被错误引用"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -351,12 +295,72 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI记忆进化：Claude合并记忆系统背后的产品逻辑",
-          "summary": "分析记忆系统对AI用户体验和产品竞争的影响。",
+          "hook": "Anthropic的野心：从聊天到协作，Claude生态的进化",
+          "summary": "分析Anthropic整合记忆系统的战略意义，以及对AI助手发展的影响。",
           "insights": [
-            "记忆是AI个性化服务的核心",
-            "Anthropic与OpenAI的差异化竞争",
-            "用户对AI记忆的信任挑战"
+            "Anthropic打造一体化AI工作平台的意图",
+            "记忆系统对个性化AI的重要性",
+            "AI助手从工具向伙伴的转变"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "vLLM-iOS：手机端跑多Agent，AI应用的新可能",
+      "track": "ai_technology",
+      "track_name": "AI技术",
+      "target_audience": "AI开发者、技术爱好者、对移动AI感兴趣的人群",
+      "reason": "移动端多Agent推理加速，技术前沿，与创作者的技术内容定位契合。",
+      "source_items": [
+        "vLLM-iOS: 88% Faster Multi-Agent Inference on iOS"
+      ],
+      "source_urls": [
+        "https://jonready.com/blog/posts/continuous-batching-on-an-iphone.html"
+      ],
+      "urgency": "low",
+      "viral_potential": "low",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "在iPhone上运行多Agent？vLLM-iOS部署教程",
+          "summary": "介绍vLLM-iOS的安装和配置，让技术爱好者尝试移动端AI。",
+          "key_points": [
+            "安装vLLM-iOS及依赖",
+            "配置多Agent推理环境",
+            "测试和优化性能"
+          ],
+          "difficulty": "高级",
+          "estimated_time": "1小时"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "移动端AI推理的坑：从vLLM-iOS说起",
+          "summary": "指出移动端部署AI模型的常见问题，如性能瓶颈、兼容性等。",
+          "pitfalls": [
+            "手机性能限制导致推理速度慢",
+            "内存不足导致崩溃",
+            "模型兼容性问题"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "端侧AI崛起：从vLLM-iOS看移动AI的未来",
+          "summary": "分析端侧AI的发展趋势，以及对云计算和AI应用的影响。",
+          "insights": [
+            "端侧AI提升隐私和响应速度",
+            "移动端算力提升推动AI应用创新",
+            "端云协同将是主流模式"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -365,71 +369,11 @@
     },
     {
       "rank": 7,
-      "title": "vLLM-iOS：手机也能跑多智能体？移动端AI推理新突破",
-      "track": "ai_tech",
+      "title": "OpenAI推出Admin插件：企业级AI管理，你准备好了吗？",
+      "track": "ai_technology",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、移动开发者、技术爱好者",
-      "reason": "移动端AI推理是热点，实操教程和深度解读均有潜力。",
-      "source_items": [
-        "vLLM-iOS: 88% Faster Multi-Agent Inference on iOS"
-      ],
-      "source_urls": [
-        "https://jonready.com/blog/posts/continuous-batching-on-an-iphone.html"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "在iPhone上部署AI Agent？vLLM-iOS实战教程",
-          "summary": "教用户如何在iOS设备上使用vLLM-iOS运行多智能体推理。",
-          "key_points": [
-            "了解vLLM-iOS的安装和配置",
-            "编写简单的多智能体推理代码",
-            "优化性能和处理限制"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "手机跑AI的坑：性能、耗电、兼容性全解析",
-          "summary": "总结移动端AI推理的常见问题及规避方法。",
-          "pitfalls": [
-            "硬件限制导致性能不佳",
-            "耗电和发热问题",
-            "依赖特定iOS版本和硬件"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "移动端AI推理：边缘计算的未来？",
-          "summary": "探讨移动端AI推理的技术突破和应用前景。",
-          "insights": [
-            "边缘计算与云端协同的趋势",
-            "对隐私保护和离线应用的意义",
-            "芯片和模型压缩技术的进步"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "title": "OpenAI新插件Admin：ChatGPT Work和Codex企业管理功能上线",
-      "track": "ai_tools",
-      "track_name": "AI工具",
-      "target_audience": "企业主、AI初学者、ChatGPT Work用户",
-      "reason": "针对企业用户的新功能，与创作者商标代理业务相关，有引流潜力。",
+      "target_audience": "企业用户、ChatGPT Work用户、IT管理员",
+      "reason": "OpenAI Admin插件面向企业，是B端用户关注点，可结合商标代理服务引流。",
       "source_items": [
         "Introducing the Admin plugin for ChatGPT Work and Codex"
       ],
@@ -443,12 +387,72 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "ChatGPT Work新Admin插件：企业管理员必学配置指南",
-          "summary": "教企业管理员如何安装和配置Admin插件，管理团队使用。",
+          "hook": "OpenAI Admin插件：企业如何轻松管理ChatGPT和Codex？",
+          "summary": "介绍Admin插件的安装、配置和使用，帮助企业高效管理AI工具。",
           "key_points": [
-            "安装Admin插件并设置权限",
-            "管理用户和角色",
-            "监控使用情况和安全策略"
+            "安装Admin插件",
+            "设置用户权限和访问控制",
+            "监控使用情况和成本"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "企业部署ChatGPT Admin插件，这3个坑一定要避开",
+          "summary": "指出企业使用Admin插件时常见的误区，如权限设置不当、安全风险等。",
+          "pitfalls": [
+            "权限设置过于宽松，数据泄露风险",
+            "忽视审计日志，无法追踪违规行为",
+            "插件更新不及时，功能受限"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "从Admin插件看OpenAI的企业战略：AI管理将成为刚需",
+          "summary": "分析OpenAI推出Admin插件的商业意图，以及对AI企业管理的影响。",
+          "insights": [
+            "OpenAI瞄准企业市场，提供管理工具",
+            "企业AI治理和合规需求上升",
+            "AI管理市场将迎来增长"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "WikiHow起诉OpenAI：AI版权争议，创作者如何保护自己的内容？",
+      "track": "ai_technology",
+      "track_name": "AI技术",
+      "target_audience": "内容创作者、自媒体人、关注版权问题的人群",
+      "reason": "AI版权争议热点，与创作者利益相关，可结合商标注册服务提供建议。",
+      "source_items": [
+        "大模型成最大“抄袭者”？全球最大生活指南百科 WikiHow 正式起诉 OpenAI 侵权"
+      ],
+      "source_urls": [
+        "https://www.aibase.com/news/30598"
+      ],
+      "urgency": "high",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "AI时代，内容创作者如何保护自己的作品不被侵权？",
+          "summary": "提供内容创作者保护版权的方法，包括版权登记、技术手段等。",
+          "key_points": [
+            "了解AI训练数据中的版权问题",
+            "申请版权登记和商标保护",
+            "使用水印和数字指纹技术"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -457,26 +461,26 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "企业部署ChatGPT Work的5个坑，你避开了吗？",
-          "summary": "指出企业使用ChatGPT Work的常见问题，如数据安全、成本控制。",
+          "hook": "你的内容可能被AI“偷走”！这5个版权保护误区要避开",
+          "summary": "指出创作者在版权保护中的常见误区，帮助避免侵权风险。",
           "pitfalls": [
-            "权限设置不当导致数据泄露",
-            "未评估成本导致预算超支",
-            "忽视员工培训导致效率低下"
+            "以为发布到网上就自动获得版权保护",
+            "忽视商标注册的重要性",
+            "依赖平台维权，缺乏主动保护"
           ],
           "difficulty": "入门",
-          "estimated_time": "20分钟"
+          "estimated_time": "15分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "OpenAI进军企业服务：Admin插件背后的商业野心",
-          "summary": "分析OpenAI对企业市场的布局及其影响。",
+          "hook": "从WikiHow起诉OpenAI看AI版权大战：内容创作者的未来",
+          "summary": "分析AI版权争议的法律和商业影响，以及对内容创作行业的冲击。",
           "insights": [
-            "企业级AI服务的竞争格局",
-            "OpenAI的盈利模式转型",
-            "对中小企业采用AI的推动"
+            "AI训练数据版权问题将长期存在",
+            "版权诉讼可能影响AI模型训练方式",
+            "内容创作者需要多元化变现渠道"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -485,16 +489,16 @@
     }
   ],
   "weekly_plan": {
-    "monday": "OpenAI 新芯片Jalapeño：AI算力大洗牌，普通用户如何受益？",
-    "wednesday": "AI Agent失控？Alabama州调查OpenAI事件，企业如何防范？",
-    "friday": "WikiHow起诉OpenAI：AI时代的版权地雷，创作者如何自保？",
-    "strategy": "本周围绕OpenAI热点事件，结合实操、避坑和深度解读，吸引AI初学者和企业主关注，同时可穿插商标代理相关内容引流。"
+    "monday": "AI芯片革命：OpenAI Jalapeño芯片深度解读",
+    "wednesday": "AI代理安全指南：如何防止你的AI助手'失控'？",
+    "friday": "ChatGPT Plus限额应对策略：5招提升生产力",
+    "strategy": "本周聚焦AI安全与效率，结合热点事件提供实用指南，穿插深度分析吸引专业用户。"
   },
-  "insights": "今日信息流显示OpenAI动态频繁（芯片、安全、功能更新），AI版权和安全问题升温，适合创作相关实操和避坑内容。",
-  "generated_at": "2026-08-26T06:15:55.069376+08:00",
-  "total_items": 266,
-  "scored_items": 255,
+  "insights": "今日信息流显示AI技术竞争加剧，安全与版权问题凸显，用户对实用指南和深度分析需求旺盛。",
+  "generated_at": "2026-08-26T07:37:47.776735+08:00",
+  "total_items": 262,
+  "scored_items": 251,
   "tracks_summary": {
-    "ai_tech": 255
+    "ai_tech": 251
   }
 }
