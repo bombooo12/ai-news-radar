@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-个性化选题推荐脚本
+个性化选题推荐脚本（多角度分析版）
 读取每日清洗后的新闻数据 + 产能画像 + 反馈历史
-调用 DeepSeek API 生成个性化选题推荐
+调用 DeepSeek API 生成多维度选题推荐
 """
 
 import json
@@ -132,7 +132,7 @@ def process_news_items(items, track_config):
 def analyze_feedback(feedback_data):
     """分析反馈历史，提取偏好模式"""
     if not feedback_data:
-        return {'selected_tracks': {}, 'selected_formats': {}, 'rejected_patterns': [], 'source_weights': {}}
+        return {'selected_tracks': {}, 'selected_formats': {}, 'rejected_patterns': [], 'source_weights': {}, 'total_feedback': 0}
 
     history = feedback_data.get('feedback_history', [])
     selected_tracks = {}
@@ -204,7 +204,7 @@ def build_prompt(track_groups, capacity_profile, feedback_analysis, track_config
 - 拒绝模式: {rejected}
 '''
 
-    prompt = f'''你是一位资深的自媒体内容策划专家，请基于以下今日信息流和创作者画像，生成个性化选题推荐。
+    prompt = f'''你是一位资深的自媒体内容策划专家，擅长从不同角度拆解同一个选题。请基于以下今日信息流和创作者画像，生成个性化选题推荐，每个选题必须提供三个创作角度。
 
 ## 今日日期
 {now.strftime('%Y-%m-%d %H:%M')} (北京时间)
@@ -220,32 +220,67 @@ def build_prompt(track_groups, capacity_profile, feedback_analysis, track_config
 
 ## 任务要求
 
-请从以上信息中挑选 5-8 个最适合该创作者的选题，输出 JSON 格式的推荐列表。
+请从以上信息中挑选 5-8 个最适合该创作者的选题，每个选题提供三个不同的创作角度（实操教程、避坑指南、深度解读）。
 
 ### 选题筛选标准
 1. 必须匹配创作者的产能（能写图文/能做视频/能做测评教程/能写深度分析，不做真人出镜口播）
 2. 优先选择该创作者历史反馈中偏好的赛道和形式
 3. 避开创作者历史反馈中拒绝的模式
 4. 考虑时效性、受众需求、传播潜力
-5. 每个选题必须有明确的内容形式和创作角度
+5. 每个选题必须有三个不同角度的创作方案
 
-### 输出格式（严格 JSON）
+### 三个角度的要求
+- **实操教程**：面向初学者，教怎么用/怎么操作，步骤清晰，有具体方法
+- **避坑指南**：指出常见误区、陷阱、风险，提供规避方法
+- **深度解读**：分析背后的逻辑、趋势、影响，提供有深度的思考
+
+### 输出格式（严格 JSON，不要 markdown 代码块）
 {{
   "date": "{now.strftime('%Y-%m-%d')}",
   "recommendations": [
     {{
       "rank": 1,
-      "title": "选题标题（吸引人的）",
+      "title": "选题主标题（吸引人的总标题）",
       "track": "赛道ID",
       "track_name": "赛道名",
-      "format": "图文|视频|测评/教程|深度分析",
-      "angle": "创作角度，一句话说明从什么视角切入",
       "target_audience": "目标受众",
       "reason": "为什么推荐这个选题（50字内）",
       "source_items": ["相关新闻标题1", "相关新闻标题2"],
       "source_urls": ["url1", "url2"],
       "urgency": "high|medium|low",
-      "viral_potential": "high|medium|low"
+      "viral_potential": "high|medium|low",
+      "angles": [
+        {{
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文|视频|测评",
+          "hook": "这个角度的吸引人标题",
+          "summary": "一句话说清教什么",
+          "key_points": ["核心步骤1", "核心步骤2", "核心步骤3"],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        }},
+        {{
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文|短视频",
+          "hook": "这个角度的吸引人标题",
+          "summary": "一句话说清避什么坑",
+          "pitfalls": ["坑点1说明", "坑点2说明", "坑点3说明"],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        }},
+        {{
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文|视频",
+          "hook": "这个角度的吸引人标题",
+          "summary": "一句话说清深度讲什么",
+          "insights": ["洞察1", "洞察2", "洞察3"],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }}
+      ]
     }}
   ],
   "weekly_plan": {{
@@ -257,7 +292,7 @@ def build_prompt(track_groups, capacity_profile, feedback_analysis, track_config
   "insights": "今日信息流整体观察（一句话，指出趋势或机会）"
 }}
 
-只输出 JSON，不要输出其他内容。'''
+只输出 JSON，不要输出其他内容，不要用 ```json ``` 包裹。'''
 
     return prompt
 
@@ -279,7 +314,7 @@ def call_deepseek(prompt):
             {'role': 'user', 'content': prompt}
         ],
         'temperature': 0.7,
-        'max_tokens': 4096,
+        'max_tokens': 8192,
         'response_format': {'type': 'json_object'}
     }
 
@@ -287,7 +322,7 @@ def call_deepseek(prompt):
     req = urllib.request.Request(DEEPSEEK_API_URL, data=data, headers=headers, method='POST')
 
     try:
-        with urllib.request.urlopen(req, timeout=60) as resp:
+        with urllib.request.urlopen(req, timeout=120) as resp:
             result = json.loads(resp.read().decode('utf-8'))
             content = result['choices'][0]['message']['content']
             return json.loads(content)
@@ -297,41 +332,72 @@ def call_deepseek(prompt):
 
 
 def generate_fallback_recommendations(track_groups, track_config):
-    """API 不可用时的降级推荐（基于评分排序）"""
+    """API 不可用时的降级推荐（基于评分排序，也生成三个角度）"""
     now = datetime.now(timezone(timedelta(hours=8)))
     recommendations = []
 
     for track_id, items in track_groups.items():
         track_name = track_config.get('tracks', {}).get(track_id, {}).get('name', track_id)
         for item in items[:2]:
+            title = item.get('title', 'N/A')
             recommendations.append({
                 'rank': len(recommendations) + 1,
-                'title': item.get('title', 'N/A'),
+                'title': title,
                 'track': track_id,
                 'track_name': track_name,
-                'format': '图文',
-                'angle': '待AI分析',
-                'target_audience': 'AI初学者',
-                'reason': f'相关度{item.get("track_score", 0)}分',
-                'source_items': [item.get('title', '')],
+                'target_audience': 'AI初学者/创作者',
+                'reason': f'赛道相关度{item.get("track_score", 0)}分',
+                'source_items': [title],
                 'source_urls': [item.get('url', '')],
                 'urgency': 'medium',
-                'viral_potential': 'medium'
+                'viral_potential': 'medium',
+                'angles': [
+                    {
+                        'name': '实操教程',
+                        'icon': 'tutorial',
+                        'format': '图文',
+                        'hook': f'{title} 入门教程',
+                        'summary': '从零开始上手的完整步骤',
+                        'key_points': ['了解基本概念', '掌握核心操作', '动手实践案例'],
+                        'difficulty': '入门',
+                        'estimated_time': '30分钟'
+                    },
+                    {
+                        'name': '避坑指南',
+                        'icon': 'warning',
+                        'format': '图文',
+                        'hook': f'{title} 常见坑点',
+                        'summary': '新手最容易踩的几个坑',
+                        'pitfalls': ['概念理解误区', '操作步骤错漏', '预期管理不当'],
+                        'difficulty': '入门',
+                        'estimated_time': '15分钟'
+                    },
+                    {
+                        'name': '深度解读',
+                        'icon': 'deep',
+                        'format': '图文',
+                        'hook': f'{title} 深度分析',
+                        'summary': '背后的逻辑和影响',
+                        'insights': ['技术原理简析', '行业影响分析', '未来趋势展望'],
+                        'difficulty': '中级',
+                        'estimated_time': '1小时'
+                    }
+                ]
             })
 
     return {
         'date': now.strftime('%Y-%m-%d'),
         'recommendations': recommendations[:8],
         'weekly_plan': {
-            'strategy': '降级模式：基于评分排序，未使用AI分析'
+            'strategy': '降级模式：基于评分排序，AI多角度分析暂不可用'
         },
-        'insights': 'API不可用，展示评分排序结果',
+        'insights': 'API不可用，展示评分排序结果，多角度分析为模板生成',
         'fallback': True
     }
 
 
 def main():
-    print('=== 个性化选题推荐 ===')
+    print('=== 个性化选题推荐（多角度分析版） ===')
 
     # 1. 加载数据
     raw_data = load_json(os.path.join(DATA_DIR, 'latest-24h-all.json'))
@@ -399,6 +465,7 @@ def main():
     output_path = os.path.join(DATA_DIR, 'recommendations.json')
     save_json(output_path, recommendations)
     print(f'Saved recommendations to {output_path}')
+    print(f'  - {len(recommendations.get("recommendations", []))} topics with 3 angles each')
 
     # 7. 同时保存评分后的数据（带赛道标签）
     scored_path = os.path.join(DATA_DIR, 'latest-24h-scored.json')
