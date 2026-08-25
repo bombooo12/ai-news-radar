@@ -1,0 +1,209 @@
+# 多赛道关键词评分配置
+# 每条新闻会按所有赛道的关键词匹配，得分最高的赛道为该新闻的主赛道
+# 关键词权重：高=3，中=2，低=1
+
+tracks:
+  ai_tech:
+    name: "AI技术"
+    description: "Agent/提示词/Skill/AI设计/模型发布"
+    keywords:
+      # 核心AI技术 (高权重=3)
+      - { word: "AI", weight: 3 }
+      - { word: "LLM", weight: 3 }
+      - { word: "GPT", weight: 3 }
+      - { word: "Claude", weight: 3 }
+      - { word: "大模型", weight: 3 }
+      - { word: "AI Agent", weight: 3 }
+      - { word: "智能体", weight: 3 }
+      - { word: "prompt", weight: 3 }
+      - { word: "提示词", weight: 3 }
+      - { word: "MCP", weight: 3 }
+      - { word: "Skill", weight: 3 }
+      # AI框架和工具 (中权重=2)
+      - { word: "LangChain", weight: 2 }
+      - { word: "CrewAI", weight: 2 }
+      - { word: "Dify", weight: 2 }
+      - { word: "RAG", weight: 2 }
+      - { word: "fine-tuning", weight: 2 }
+      - { word: "微调", weight: 2 }
+      - { word: "OpenAI", weight: 2 }
+      - { word: "Anthropic", weight: 2 }
+      - { word: "DeepSeek", weight: 2 }
+      - { word: "embedding", weight: 2 }
+      - { word: "vector", weight: 2 }
+      # AI设计 (中权重=2)
+      - { word: "Midjourney", weight: 2 }
+      - { word: "Stable Diffusion", weight: 2 }
+      - { word: "ComfyUI", weight: 2 }
+      - { word: "DALL-E", weight: 2 }
+      - { word: "AI设计", weight: 2 }
+      # 通用AI (低权重=1)
+      - { word: "machine learning", weight: 1 }
+      - { word: "deep learning", weight: 1 }
+      - { word: "neural network", weight: 1 }
+      - { word: "transformer", weight: 1 }
+      - { word: "benchmark", weight: 1 }
+      - { word: "open source", weight: 1 }
+      - { word: "开源", weight: 1 }
+      - { word: "Hugging Face", weight: 1 }
+
+  ai_video:
+    name: "AI视频/剪辑包装"
+    description: "AI视频生成/视频剪辑/视觉包装"
+    keywords:
+      # AI视频工具 (高权重=3)
+      - { word: "Sora", weight: 3 }
+      - { word: "Runway", weight: 3 }
+      - { word: "Pika", weight: 3 }
+      - { word: "HeyGen", weight: 3 }
+      - { word: "可灵", weight: 3 }
+      - { word: "Kling", weight: 3 }
+      - { word: "AI视频", weight: 3 }
+      - { word: "text-to-video", weight: 3 }
+      - { word: "文生视频", weight: 3 }
+      - { word: "AI动画", weight: 3 }
+      # 视频剪辑 (中权重=2)
+      - { word: "剪映", weight: 2 }
+      - { word: "CapCut", weight: 2 }
+      - { word: "DaVinci", weight: 2 }
+      - { word: "video editing", weight: 2 }
+      - { word: "视频剪辑", weight: 2 }
+      - { word: "Premiere", weight: 2 }
+      - { word: "After Effects", weight: 2 }
+      # AI视觉/设计 (中权重=2)
+      - { word: "AI绘画", weight: 2 }
+      - { word: "AI art", weight: 2 }
+      - { word: "AI design", weight: 2 }
+      - { word: "AI visual", weight: 2 }
+      - { word: "即梦", weight: 2 }
+      - { word: "通义万相", weight: 2 }
+      # 视频创作 (低权重=1)
+      - { word: "short video", weight: 1 }
+      - { word: "短视频", weight: 1 }
+      - { word: "video generation", weight: 1 }
+      - { word: "AI short film", weight: 1 }
+      - { word: "AI movie", weight: 1 }
+      - { word: "AI drama", weight: 1 }
+      - { word: "AI短剧", weight: 1 }
+
+  growth_monetize:
+    name: "个人成长/副业变现"
+    description: "副业/赚钱/个人成长/效率"
+    keywords:
+      # 变现 (高权重=3)
+      - { word: "副业", weight: 3 }
+      - { word: "变现", weight: 3 }
+      - { word: "赚钱", weight: 3 }
+      - { word: "side hustle", weight: 3 }
+      - { word: "passive income", weight: 3 }
+      - { word: "make money", weight: 3 }
+      - { word: "赚钱", weight: 3 }
+      - { word: "收入", weight: 3 }
+      - { word: "副业收入", weight: 3 }
+      # 个人成长 (中权重=2)
+      - { word: "个人成长", weight: 2 }
+      - { word: "效率", weight: 2 }
+      - { word: "自律", weight: 2 }
+      - { word: "时间管理", weight: 2 }
+      - { word: "productivity", weight: 2 }
+      - { word: "self-improvement", weight: 2 }
+      - { word: "习惯", weight: 2 }
+      # 创业 (中权重=2)
+      - { word: "创业", weight: 2 }
+      - { word: "startup", weight: 2 }
+      - { word: "独立开发", weight: 2 }
+      - { word: "indie", weight: 2 }
+      - { word: "freelance", weight: 2 }
+      - { word: "自由职业", weight: 2 }
+      # 个人IP (低权重=1)
+      - { word: "个人IP", weight: 1 }
+      - { word: "个人品牌", weight: 1 }
+      - { word: "知识付费", weight: 1 }
+      - { word: "私域", weight: 1 }
+      - { word: "社群", weight: 1 }
+
+  creator_economy:
+    name: "自媒体/创作者经济"
+    description: "内容创作/运营策略/平台流量"
+    keywords:
+      # 创作者经济 (高权重=3)
+      - { word: "创作者经济", weight: 3 }
+      - { word: "creator economy", weight: 3 }
+      - { word: "自媒体", weight: 3 }
+      - { word: "内容创作", weight: 3 }
+      - { word: "content creator", weight: 3 }
+      - { word: "influencer", weight: 3 }
+      # 平台运营 (高权重=3)
+      - { word: "涨粉", weight: 3 }
+      - { word: "流量", weight: 3 }
+      - { word: "运营策略", weight: 3 }
+      - { word: "算法推荐", weight: 3 }
+      - { word: "涨粉", weight: 3 }
+      # 平台 (中权重=2)
+      - { word: "YouTube", weight: 2 }
+      - { word: "B站", weight: 2 }
+      - { word: "抖音", weight: 2 }
+      - { word: "小红书", weight: 2 }
+      - { word: "知乎", weight: 2 }
+      - { word: "公众号", weight: 2 }
+      - { word: "TikTok", weight: 2 }
+      - { word: "Instagram", weight: 2 }
+      # 变现 (中权重=2)
+      - { word: "商单", weight: 2 }
+      - { word: "品牌合作", weight: 2 }
+      - { word: "广告", weight: 2 }
+      - { word: "直播带货", weight: 2 }
+      - { word: "知识付费", weight: 2 }
+      # 社交媒体 (低权重=1)
+      - { word: "social media", weight: 1 }
+      - { word: "社交媒体", weight: 1 }
+      - { word: "viral", weight: 1 }
+      - { word: "爆款", weight: 1 }
+      - { word: "转发", weight: 1 }
+      - { word: "互动", weight: 1 }
+
+  trademark_business:
+    name: "商标/IP/创业"
+    description: "商标注册/知识产权/创业政策/AIGC引流"
+    keywords:
+      # 商标/IP (高权重=3)
+      - { word: "商标", weight: 3 }
+      - { word: "trademark", weight: 3 }
+      - { word: "商标注册", weight: 3 }
+      - { word: "知识产权", weight: 3 }
+      - { word: "intellectual property", weight: 3 }
+      - { word: "专利", weight: 3 }
+      - { word: "patent", weight: 3 }
+      - { word: "版权", weight: 3 }
+      - { word: "copyright", weight: 3 }
+      # 创业法律 (中权重=2)
+      - { word: "公司注册", weight: 2 }
+      - { word: "营业执照", weight: 2 }
+      - { word: "工商", weight: 2 }
+      - { word: "小微企业", weight: 2 }
+      - { word: "个体户", weight: 2 }
+      - { word: "创业政策", weight: 2 }
+      - { word: "business registration", weight: 2 }
+      # AIGC剧情 (高权重=3)
+      - { word: "AIGC", weight: 3 }
+      - { word: "AI短剧", weight: 3 }
+      - { word: "AI drama", weight: 3 }
+      - { word: "剧情向", weight: 3 }
+      - { word: "AI生成视频", weight: 3 }
+      - { word: "AI story", weight: 3 }
+      - { word: "短剧", weight: 3 }
+      # IP变现 (中权重=2)
+      - { word: "IP授权", weight: 2 }
+      - { word: "IP运营", weight: 2 }
+      - { word: "brand", weight: 2 }
+      - { word: "品牌", weight: 2 }
+      - { word: "加盟", weight: 2 }
+
+# 赛道间权重平衡系数（用于调整各赛道总分）
+# 如果某赛道关键词太多导致总分偏高，降低此系数
+track_balance:
+  ai_tech: 1.0
+  ai_video: 1.2
+  growth_monetize: 1.1
+  creator_economy: 1.1
+  trademark_business: 1.3
