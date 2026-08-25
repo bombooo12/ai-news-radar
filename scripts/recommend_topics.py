@@ -60,7 +60,16 @@ def save_json(filepath, data):
 
 def score_item_by_track(item, track_config):
     """对单条新闻按各赛道关键词评分"""
-    text = (item.get('title', '') + ' ' + item.get('summary', '') + ' ' + item.get('content', '')).lower()
+    if not isinstance(item, dict):
+        return {}
+    text = ' '.join([
+        str(item.get('title', '')),
+        str(item.get('title_zh', '')),
+        str(item.get('title_bilingual', '')),
+        str(item.get('source', '')),
+        str(item.get('site_name', '')),
+        str(item.get('ai_label', '')),
+    ]).lower()
     scores = {}
 
     for track_id, track in track_config.get('tracks', {}).items():
@@ -101,6 +110,8 @@ def process_news_items(items, track_config):
     """处理所有新闻条目，分配赛道"""
     processed = []
     for item in items:
+        if not isinstance(item, dict):
+            continue
         scores = score_item_by_track(item, track_config)
         track_id, track_score, matched_kw = assign_track(scores)
 
@@ -323,10 +334,21 @@ def main():
     print('=== 个性化选题推荐 ===')
 
     # 1. 加载数据
-    news_data = load_json(os.path.join(DATA_DIR, 'latest-24h-all.json'))
-    if not news_data:
+    raw_data = load_json(os.path.join(DATA_DIR, 'latest-24h-all.json'))
+    if not raw_data:
         print('Error: No news data found')
         sys.exit(1)
+    if isinstance(raw_data, list):
+        news_data = raw_data
+    elif isinstance(raw_data, dict):
+        if 'items_all' in raw_data:
+            news_data = raw_data['items_all']
+        elif 'items' in raw_data:
+            news_data = raw_data['items']
+        else:
+            news_data = []
+    else:
+        news_data = []
     print(f'Loaded {len(news_data)} news items')
 
     capacity_profile = load_text(os.path.join(CONFIG_DIR, 'capacity_profile.md'))
