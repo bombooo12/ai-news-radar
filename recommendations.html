@@ -1052,6 +1052,102 @@ function restoreFeedbackStates() {
 }
 
 loadRecommendations();
+
+// === Auto-submit to GitHub ===
+function showTokenInput() {
+    const existing = document.getElementById('token-input-modal');
+    if (existing) { existing.remove(); return; }
+
+    const modal = document.createElement('div');
+    modal.id = 'token-input-modal';
+    modal.style.cssText = 'position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:white;padding:24px;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,0.3);z-index:9999;max-width:400px';
+    modal.innerHTML = `
+        <h3 style="margin:0 0 12px;font-size:16px">设置GitHub Token（仅需一次）</h3>
+        <p style="font-size:12px;color:#666;margin:0 0 12px">用于自动提交反馈到仓库。Token只存在本浏览器，不会上传。建议用只读+repo权限的临时Token。</p>
+        <input type="password" id="gh-token-input" placeholder="ghp_xxxxx" style="width:100%;padding:8px;border:1px solid #ddd;border-radius:6px;font-size:14px;margin-bottom:12px" />
+        <div style="display:flex;gap:8px;justify-content:flex-end">
+            <button onclick="document.getElementById('token-input-modal').remove()" style="padding:6px 16px;border:1px solid #ddd;border-radius:6px;cursor:pointer">取消</button>
+            <button onclick="saveToken()" style="padding:6px 16px;background:#2563eb;color:white;border:none;border-radius:6px;cursor:pointer">保存</button>
+        </div>
+    `;
+    document.body.appendChild(modal);
+}
+
+function saveToken() {
+    const token = document.getElementById('gh-token-input').value.trim();
+    if (!token) return;
+    localStorage.setItem('gh_feedback_token', token);
+    document.getElementById('token-input-modal').remove();
+    alert('Token已保存！以后点评会自动提交到GitHub');
+}
+
+async function submitToGitHub(rec, action, comment, statusDiv) {
+    const token = localStorage.getItem('gh_feedback_token');
+    const owner = 'bombooo12';
+    const repo = 'ai-news-radar';
+    const path = 'data/feedback.json';
+    const headers = { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json' };
+
+    try {
+        // 1. Get current file SHA
+        const resp = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, { headers });
+        const data = await resp.json();
+        const sha = data.sha;
+        const decoded = atob(data.content.replace(/\n/g, ''));
+        let feedback = JSON.parse(decoded);
+
+        // 2. Add new feedback entry
+        const entry = {
+            date: new Date().toISOString().split('T')[0],
+            title: rec.title,
+            track: rec.track,
+            action: action,
+            comment: comment || '',
+            form: rec.angles && rec.angles.length > 0 ? rec.angles[0].name : 'unknown'
+        };
+        if (!feedback.feedback_history) feedback.feedback_history = [];
+        feedback.feedback_history.push(entry);
+
+        // 3. Update counts
+        const status_key = action === '选用' ? 'selected' : action === '考虑' ? 'considered' : 'rejected';
+        if (!feedback.preference_stats) feedback.preference_stats = {};
+        if (!feedback.preference_stats[status_key]) feedback.preference_stats[status_key] = 0;
+        feedback.preference_stats[status_key]++;
+
+        // 4. Push to GitHub
+        const b64 = btoa(unescape(encodeURIComponent(JSON.stringify(feedback, null, 2))));
+        const updateResp = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, {
+            method: 'PUT',
+            headers: { ...headers, 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                message: `feedback: ${action} - ${rec.title.substring(0, 30)}`,
+                content: b64,
+                sha: sha,
+                branch: 'master'
+            })
+        });
+
+        if (updateResp.ok) {
+            statusDiv.style.cssText = 'margin-top:8px;padding:8px;background:#e8f5e9;border-radius:6px;font-size:12px;color:#2e7d32';
+            statusDiv.textContent = '✅ 已提交到GitHub！AI下次运行时会学习你的反馈';
+        } else {
+            throw new Error('GitHub API returned ' + updateResp.status);
+        }
+    } catch (e) {
+        statusDiv.style.cssText = 'margin-top:8px;padding:8px;background:#ffebee;border-radius:6px;font-size:12px;color:#c62828';
+        statusDiv.innerHTML = `❌ 提交失败: ${e.message}。请<a href="#" onclick="downloadFeedback();return false;" style="color:#1565c0">下载feedback.json</a>手动上传`;
+    }
+}
+
+function downloadFeedback() {
+    const allFeedback = JSON.parse(localStorage.getItem('feedback_data') || '{}');
+    const blob = new Blob([JSON.stringify(allFeedback, null, 2)], { type: 'application/json' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'feedback.json';
+    a.click();
+}
+
 </script>
 
 </body>
