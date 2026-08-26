@@ -3,52 +3,48 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips across GPT-OSS, DeepSeek R1, Kimi K2.5 1T (Emma Roth/The Verge)",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者/创作者",
-      "reason": "赛道相关度10.0分",
+      "title": "自己动手，托管一个专属AI智能体（保姆级教程）",
+      "track": "ai_agent",
+      "track_name": "AI智能体",
+      "target_audience": "AI初学者、想用AI变现的个人",
+      "reason": "自托管AI agent是当前热点，实操性强，符合创作者偏好，能吸引技术小白。",
       "source_items": [
-        "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips across GPT-OSS, DeepSeek R1, Kimi K2.5 1T (Emma Roth/The Verge)",
-        "vLLM-iOS: 88% Faster Multi-Agent Inference on iOS",
         "How to self-host your own AI agent",
-        "Anthropic打通Claude与Cowork记忆系统 消除跨工作流重复交互痛点",
-        "消息称OpenAI 秘密预训练 Bel 模型：超 10T 参数，剑指 GPT-6 后 AGI 基座"
+        "vLLM-iOS: 88% Faster Multi-Agent Inference on iOS",
+        "Anthropic打通Claude与Cowork记忆系统"
       ],
       "source_urls": [
-        "https://www.techmeme.com/260825/p24",
-        "https://jonready.com/blog/posts/continuous-batching-on-an-iphone.html",
         "https://www.techradar.com/pro/how-to-self-host-your-own-ai-agent",
-        "https://www.aibase.com/news/30616",
-        "https://www.aibase.com/news/30624"
+        "https://jonready.com/blog/posts/continuous-batching-on-an-iphone.html",
+        "https://www.aibase.com/news/30616"
       ],
       "urgency": "medium",
-      "viral_potential": "medium",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips across GPT-OSS, DeepSeek R1, Kimi K2.5 1T (Emma Roth/The Verge) 入门教程",
-          "summary": "从零开始上手的完整步骤",
+          "hook": "手把手教你自托管AI智能体：从零到上线只需1小时",
+          "summary": "教你在自己的电脑或服务器上部署一个AI agent，并接入微信/网页。",
           "key_points": [
-            "了解基本概念",
-            "掌握核心操作",
-            "动手实践案例"
+            "选型：开源AI agent框架对比",
+            "部署：Docker一键安装步骤",
+            "配置：接入大模型API和知识库"
           ],
           "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "estimated_time": "2小时"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips across GPT-OSS, DeepSeek R1, Kimi K2.5 1T (Emma Roth/The Verge) 常见坑点",
-          "summary": "新手最容易踩的几个坑",
+          "hook": "自托管AI agent的5个大坑，别等部署完才后悔",
+          "summary": "总结自托管常见的硬件、安全、维护问题。",
           "pitfalls": [
-            "概念理解误区",
-            "操作步骤错漏",
-            "预期管理不当"
+            "硬件配置不足导致卡顿",
+            "忽视安全认证导致数据泄露",
+            "模型API费用失控"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -57,12 +53,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips across GPT-OSS, DeepSeek R1, Kimi K2.5 1T (Emma Roth/The Verge) 深度分析",
-          "summary": "背后的逻辑和影响",
+          "hook": "自托管AI agent是未来趋势，还是极客玩具？",
+          "summary": "分析自托管与云端AI的利弊，以及对企业的影响。",
           "insights": [
-            "技术原理简析",
-            "行业影响分析",
-            "未来趋势展望"
+            "自托管解决数据隐私痛点",
+            "维护成本高，适合特定场景",
+            "AI agent将像网站一样普及"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -71,38 +67,34 @@
     },
     {
       "rank": 2,
-      "title": "vLLM-iOS: 88% Faster Multi-Agent Inference on iOS",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者/创作者",
-      "reason": "赛道相关度9.0分",
+      "title": "Claude终于有记忆了！跨工作流不再重复，效率翻倍",
+      "track": "ai_tool",
+      "track_name": "AI工具",
+      "target_audience": "AI初学者、职场效率人士",
+      "reason": "记忆功能直接提升AI实用性，实操性强，用户痛点明确。",
       "source_items": [
-        "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips across GPT-OSS, DeepSeek R1, Kimi K2.5 1T (Emma Roth/The Verge)",
-        "vLLM-iOS: 88% Faster Multi-Agent Inference on iOS",
+        "Anthropic打通Claude与Cowork记忆系统",
         "How to self-host your own AI agent",
-        "Anthropic打通Claude与Cowork记忆系统 消除跨工作流重复交互痛点",
-        "消息称OpenAI 秘密预训练 Bel 模型：超 10T 参数，剑指 GPT-6 后 AGI 基座"
+        "vLLM-iOS: 88% Faster Multi-Agent Inference on iOS"
       ],
       "source_urls": [
-        "https://jonready.com/blog/posts/continuous-batching-on-an-iphone.html",
-        "https://www.techmeme.com/260825/p24",
-        "https://www.techradar.com/pro/how-to-self-host-your-own-ai-agent",
         "https://www.aibase.com/news/30616",
-        "https://www.aibase.com/news/30624"
+        "https://www.techradar.com/pro/how-to-self-host-your-own-ai-agent",
+        "https://jonready.com/blog/posts/continuous-batching-on-an-iphone.html"
       ],
-      "urgency": "medium",
-      "viral_potential": "medium",
+      "urgency": "high",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "vLLM-iOS: 88% Faster Multi-Agent Inference on iOS 入门教程",
-          "summary": "从零开始上手的完整步骤",
+          "hook": "3步开启Claude记忆功能，让AI记住你的工作习惯",
+          "summary": "教用户如何设置Claude记忆，并创建Cowork工作流。",
           "key_points": [
-            "了解基本概念",
-            "掌握核心操作",
-            "动手实践案例"
+            "进入设置开启记忆",
+            "创建Cowork项目并关联知识库",
+            "用记忆优化重复任务"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -111,12 +103,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "vLLM-iOS: 88% Faster Multi-Agent Inference on iOS 常见坑点",
-          "summary": "新手最容易踩的几个坑",
+          "hook": "Claude记忆功能慎用！这3类信息千万别让AI记住",
+          "summary": "提醒用户注意隐私泄露和记忆污染问题。",
           "pitfalls": [
-            "概念理解误区",
-            "操作步骤错漏",
-            "预期管理不当"
+            "敏感信息被长期存储",
+            "错误记忆导致输出偏差",
+            "多项目记忆混淆"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -125,12 +117,202 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "vLLM-iOS: 88% Faster Multi-Agent Inference on iOS 深度分析",
-          "summary": "背后的逻辑和影响",
+          "hook": "AI记忆系统，是人机协作的下一个拐点",
+          "summary": "探讨记忆功能对AI应用生态的深远影响。",
           "insights": [
-            "技术原理简析",
-            "行业影响分析",
-            "未来趋势展望"
+            "记忆让AI从工具变为伙伴",
+            "记忆管理将成为新需求",
+            "Anthropic与OpenAI的竞争加剧"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "OpenAI自研芯片吊打英伟达？普通用户需要知道的3件事",
+      "track": "ai_industry",
+      "track_name": "AI行业",
+      "target_audience": "AI初学者、科技爱好者",
+      "reason": "芯片话题热度高，但需要通俗化，避免学术，符合创作者深度分析能力。",
+      "source_items": [
+        "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt...",
+        "消息称OpenAI 秘密预训练 Bel 模型：超 10T 参数，剑指 GPT-6 后 AGI 基座"
+      ],
+      "source_urls": [
+        "https://www.techmeme.com/260825/p24",
+        "https://www.aibase.com/news/30624",
+        "https://www.aibase.com/news/30616"
+      ],
+      "urgency": "high",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "如何用OpenAI芯片的AI服务？一文看懂新模型怎么玩",
+          "summary": "介绍基于新芯片的模型（如GPT-OSS）如何使用，以及和普通ChatGPT的区别。",
+          "key_points": [
+            "了解GPT-OSS等新模型",
+            "通过API或平台体验",
+            "对比不同模型的响应速度"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "别被芯片跑分忽悠！选AI服务要看这3个指标",
+          "summary": "教用户识别厂商宣传中的性能陷阱。",
+          "pitfalls": [
+            "跑分高不代表实际体验好",
+            "功耗和成本被忽略",
+            "生态兼容性更重要"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "OpenAI造芯片，剑指AGI？一场算力军备竞赛的真相",
+          "summary": "分析OpenAI自研芯片的战略意图和对AI行业的影响。",
+          "insights": [
+            "算力是AGI的瓶颈",
+            "自研芯片降低对英伟达依赖",
+            "AI竞争进入软硬一体时代"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "把AI智能体装进iPhone？这个开源项目让手机跑多智能体快88%",
+      "track": "ai_agent",
+      "track_name": "AI智能体",
+      "target_audience": "AI初学者、开发者、想用AI变现的个人",
+      "reason": "边缘AI是趋势，项目有趣且实操性强，但需要降低技术门槛。",
+      "source_items": [
+        "vLLM-iOS: 88% Faster Multi-Agent Inference on iOS",
+        "How to self-host your own AI agent",
+        "Anthropic打通Claude与Cowork记忆系统"
+      ],
+      "source_urls": [
+        "https://jonready.com/blog/posts/continuous-batching-on-an-iphone.html",
+        "https://www.techradar.com/pro/how-to-self-host-your-own-ai-agent",
+        "https://www.aibase.com/news/30616"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "手机上跑AI智能体？手把手教你部署vLLM-iOS",
+          "summary": "教用户在iPhone上安装并运行vLLM-iOS，体验多智能体推理。",
+          "key_points": [
+            "安装vLLM-iOS依赖",
+            "下载量化模型",
+            "运行多智能体示例"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "手机跑AI的3个坑：发热、耗电、速度慢",
+          "summary": "提醒用户手机端AI的硬件限制和优化技巧。",
+          "pitfalls": [
+            "内存不足导致崩溃",
+            "长时间推理发热降频",
+            "模型过大无法加载"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "边缘AI爆发前夜：手机跑大模型意味着什么？",
+          "summary": "分析端侧AI对隐私、成本和应用形态的变革。",
+          "insights": [
+            "端侧AI保护隐私",
+            "减少云端依赖",
+            "催生新应用场景"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "OpenAI秘密训练10万亿参数模型？GPT-6要来了？",
+      "track": "ai_trend",
+      "track_name": "AI趋势",
+      "target_audience": "AI初学者、科技爱好者",
+      "reason": "模型参数话题有传播力，但需避免学术，侧重趋势解读。",
+      "source_items": [
+        "消息称OpenAI 秘密预训练 Bel 模型：超 10T 参数，剑指 GPT-6 后 AGI 基座",
+        "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt..."
+      ],
+      "source_urls": [
+        "https://www.aibase.com/news/30624",
+        "https://www.techmeme.com/260825/p24",
+        "https://www.aibase.com/news/30616"
+      ],
+      "urgency": "medium",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "如何提前体验OpenAI新模型？内测申请攻略",
+          "summary": "教用户如何申请OpenAI新模型的内测或通过API使用最新版本。",
+          "key_points": [
+            "关注OpenAI官方渠道",
+            "申请API访问权限",
+            "使用Playground体验"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "参数越大越强？关于大模型的3个误解",
+          "summary": "澄清参数规模与模型能力的关系。",
+          "pitfalls": [
+            "参数多不等于聪明",
+            "训练数据质量更关键",
+            "推理成本高企"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "10T参数意味着什么？AGI还有多远？",
+          "summary": "从Bel模型看OpenAI的AGI路线图。",
+          "insights": [
+            "模型规模逼近人类神经元数量",
+            "AGI需要多模态和推理突破",
+            "算力需求指数级增长"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -139,21 +321,23 @@
     }
   ],
   "weekly_plan": {
-    "strategy": "降级模式：基于评分排序，AI多角度分析暂不可用"
+    "monday": "周一建议发布：Claude终于有记忆了！跨工作流不再重复，效率翻倍",
+    "wednesday": "周三建议发布：自己动手，托管一个专属AI智能体（保姆级教程）",
+    "friday": "周五建议发布：OpenAI自研芯片吊打英伟达？普通用户需要知道的3件事",
+    "strategy": "本周以实操教程+热点解读组合，先用Claude记忆吸引流量，再用自托管教程沉淀用户。"
   },
-  "insights": "API不可用，展示评分排序结果，多角度分析为模板生成",
-  "ai_adjustment": "降级模式，暂无AI微调",
-  "fallback": true,
-  "generated_at": "2026-08-26T12:20:24.261076+08:00",
-  "total_items": 245,
-  "scored_items": 234,
+  "insights": "今日信息流聚焦AI基础设施（芯片、模型、端侧推理），OpenAI动作频繁，AI agent和记忆系统成为应用层热点。",
+  "ai_adjustment": "基于用户反馈，本次推荐避开纯学术论文，强化实操教程和避坑指南，降低技术门槛。",
+  "generated_at": "2026-08-26T12:59:06.717104+08:00",
+  "total_items": 246,
+  "scored_items": 235,
   "tracks_summary": {
-    "ai_tech": 234
+    "ai_tech": 235
   },
   "engine_version": "v2",
   "engine_params": {
     "track_score_threshold": 3,
-    "top_items_per_track": 8,
+    "top_items_per_track": 5,
     "llm_temperature": 0.5,
     "max_source_links": 5
   }
