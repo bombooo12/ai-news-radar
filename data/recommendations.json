@@ -144,16 +144,16 @@
   "insights": "API不可用，展示评分排序结果，多角度分析为模板生成",
   "ai_adjustment": "降级模式，暂无AI微调",
   "fallback": true,
-  "generated_at": "2026-08-26T11:52:44.602245+08:00",
-  "total_items": 244,
-  "scored_items": 232,
+  "generated_at": "2026-08-26T12:20:24.261076+08:00",
+  "total_items": 245,
+  "scored_items": 234,
   "tracks_summary": {
-    "ai_tech": 232
+    "ai_tech": 234
   },
   "engine_version": "v2",
   "engine_params": {
     "track_score_threshold": 3,
-    "top_items_per_track": 15,
+    "top_items_per_track": 8,
     "llm_temperature": 0.5,
     "max_source_links": 5
   }
