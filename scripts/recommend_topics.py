@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
 """
-个性化选题推荐脚本（多角度分析版）
-读取每日清洗后的新闻数据 + 产能画像 + 反馈历史
-调用 DeepSeek API 生成多维度选题推荐
+个性化选题推荐脚本 v2（优化版）
+改进：
+1. 赛道阈值从2提到3，减少噪音
+2. 每赛道取top15而非top10，给LLM更多选择
+3. temperature从0.7降到0.5，推荐更稳定
+4. 加入赛道平衡约束（每赛道至少1条推荐）
+5. 来源链接扩展到5个
+6. 反馈分析更精细（加入拒绝原因模式匹配）
+7. 生成 ai_adjustments 字段，让用户看到AI的微调逻辑
 """
 
 import json
@@ -13,6 +19,7 @@ import yaml
 import time
 import urllib.request
 from datetime import datetime, timezone, timedelta
+from collections import Counter
 
 # 路径配置
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -23,6 +30,13 @@ CONFIG_DIR = os.path.join(BASE_DIR, 'config')
 DEEPSEEK_API_KEY = os.environ.get('DEEPSEEK_API_KEY', '')
 DEEPSEEK_API_URL = 'https://api.deepseek.com/v1/chat/completions'
 DEEPSEEK_MODEL = 'deepseek-chat'
+
+# 优化参数
+TRACK_SCORE_THRESHOLD = 3      # 赛道评分阈值（从2提到3）
+TOP_ITEMS_PER_TRACK = 15       # 每赛道取top条目（从10提到15）
+LLM_TEMPERATURE = 0.5          # LLM温度（从0.7降到0.5）
+MAX_SOURCE_LINKS = 5          # 来源链接数（从2扩展到5）
+MAX_FEEDBACK_HISTORY = 100     # 保留最近100条反馈
 
 
 def load_json(filepath):
@@ -99,7 +113,7 @@ def assign_track(scores):
             best_score = info['score']
             best_track = track_id
 
-    if best_score < 2:
+    if best_score < TRACK_SCORE_THRESHOLD:
         return None, 0, []
 
     track_info = scores[best_track]
@@ -115,7 +129,7 @@ def process_news_items(items, track_config):
         scores = score_item_by_track(item, track_config)
         track_id, track_score, matched_kw = assign_track(scores)
 
-        if track_id and track_score >= 2:
+        if track_id and track_score >= TRACK_SCORE_THRESHOLD:
             processed.append({
                 **item,
                 'track': track_id,
@@ -130,52 +144,86 @@ def process_news_items(items, track_config):
 
 
 def analyze_feedback(feedback_data):
-    """分析反馈历史，提取偏好模式"""
+    """分析反馈历史，提取偏好模式（精细版）"""
     if not feedback_data:
-        return {'selected_tracks': {}, 'selected_formats': {}, 'rejected_patterns': [], 'source_weights': {}, 'total_feedback': 0}
+        return {
+            'selected_tracks': {},
+            'selected_formats': {},
+            'rejected_patterns': [],
+            'rejected_titles': [],
+            'source_weights': {},
+            'total_feedback': 0,
+            'selection_rate': 0,
+            'notes': []
+        }
 
     history = feedback_data.get('feedback_history', [])
-    selected_tracks = {}
-    selected_formats = {}
+    selected_tracks = Counter()
+    selected_formats = Counter()
     rejected_patterns = []
+    rejected_titles = []
     source_weights = {}
+    notes = []
 
-    for entry in history[-50:]:
-        if entry.get('action') == 'selected':
+    selected_count = 0
+    rejected_count = 0
+
+    for entry in history[-MAX_FEEDBACK_HISTORY:]:
+        action = entry.get('action', '')
+        if action == 'selected':
+            selected_count += 1
             track = entry.get('track', 'unknown')
-            selected_tracks[track] = selected_tracks.get(track, 0) + 1
+            selected_tracks[track] += 1
 
             fmt = entry.get('format', '')
             if fmt:
-                selected_formats[fmt] = selected_formats.get(fmt, 0) + 1
+                selected_formats[fmt] += 1
 
             source = entry.get('source', '')
             if source:
                 source_weights[source] = source_weights.get(source, 0) + 0.1
-        elif entry.get('action') == 'rejected':
-            reason = entry.get('reason', '')
+
+            note = entry.get('note', '')
+            if note:
+                notes.append(note)
+
+        elif action == 'rejected':
+            rejected_count += 1
+            reason = entry.get('reason', '') or entry.get('note', '')
             if reason and reason not in rejected_patterns:
                 rejected_patterns.append(reason)
+            rejected_titles.append(entry.get('topic_title', ''))
+
+        elif action == 'maybe':
+            note = entry.get('note', '')
+            if note:
+                notes.append(note)
+
+    total = selected_count + rejected_count
+    selection_rate = (selected_count / total * 100) if total > 0 else 0
 
     return {
-        'selected_tracks': selected_tracks,
-        'selected_formats': selected_formats,
+        'selected_tracks': dict(selected_tracks),
+        'selected_formats': dict(selected_formats),
         'rejected_patterns': rejected_patterns,
+        'rejected_titles': rejected_titles[-10:],
         'source_weights': source_weights,
-        'total_feedback': len(history)
+        'total_feedback': len(history),
+        'selection_rate': round(selection_rate, 1),
+        'notes': notes[-20:]
     }
 
 
 def build_prompt(track_groups, capacity_profile, feedback_analysis, track_config):
-    """构建 LLM 提示词"""
+    """构建 LLM 提示词（优化版）"""
     now = datetime.now(timezone(timedelta(hours=8)))
 
-    # 按赛道分组取 top items
+    # 按赛道分组取 top items（从10提到15）
     track_summaries = []
     for track_id, items in track_groups.items():
         track_name = track_config.get('tracks', {}).get(track_id, {}).get('name', track_id)
         track_desc = track_config.get('tracks', {}).get(track_id, {}).get('description', '')
-        top_items = items[:10]
+        top_items = items[:TOP_ITEMS_PER_TRACK]
 
         items_text = []
         for item in top_items:
@@ -190,19 +238,25 @@ def build_prompt(track_groups, capacity_profile, feedback_analysis, track_config
 
     all_tracks = '\n\n'.join(track_summaries)
 
-    # 反馈分析
+    # 反馈分析（精细版）
     fb = feedback_analysis
     feedback_text = ''
     if fb['total_feedback'] > 0:
-        tracks_pref = ', '.join([f'{k}:{v}次' for k, v in fb['selected_tracks'].items()]) or '暂无'
-        formats_pref = ', '.join([f'{k}:{v}次' for k, v in fb['selected_formats'].items()]) or '暂无'
-        rejected = ', '.join(fb['rejected_patterns']) or '暂无'
+        tracks_pref = ', '.join([f'{k}:{v}次' for k, v in sorted(fb['selected_tracks'].items(), key=lambda x: -x[1])]) or '暂无'
+        formats_pref = ', '.join([f'{k}:{v}次' for k, v in sorted(fb['selected_formats'].items(), key=lambda x: -x[1])]) or '暂无'
+        rejected = '; '.join(fb['rejected_patterns'][:5]) or '暂无'
+        notes_str = '; '.join(fb['notes'][:5]) or '暂无'
         feedback_text = f'''
-## 用户反馈历史分析（共{fb['total_feedback']}条反馈）
+## 用户反馈历史分析（共{fb['total_feedback']}条反馈，选用率{fb['selection_rate']}%）
 - 最常选用的赛道: {tracks_pref}
 - 最常选用的内容形式: {formats_pref}
 - 拒绝模式: {rejected}
+- 用户点评摘录: {notes_str}
+- 最近拒绝的选题: {'; '.join(fb['rejected_titles'][-3:]) if fb['rejected_titles'] else '暂无'}
 '''
+
+    # 赛道列表
+    track_list = ', '.join([f'{tid}({t.get("name","")})' for tid, t in track_config.get('tracks', {}).items()])
 
     prompt = f'''你是一位资深的自媒体内容策划专家，擅长从不同角度拆解同一个选题。请基于以下今日信息流和创作者画像，生成个性化选题推荐，每个选题必须提供三个创作角度。
 
@@ -225,9 +279,11 @@ def build_prompt(track_groups, capacity_profile, feedback_analysis, track_config
 ### 选题筛选标准
 1. 必须匹配创作者的产能（能写图文/能做视频/能做测评教程/能写深度分析，不做真人出镜口播）
 2. 优先选择该创作者历史反馈中偏好的赛道和形式
-3. 避开创作者历史反馈中拒绝的模式
+3. 避开创作者历史反馈中拒绝的模式和类似选题
 4. 考虑时效性、受众需求、传播潜力
-5. 每个选题必须有三个不同角度的创作方案
+5. 每个赛道尽量至少推荐1条，保证赛道平衡
+6. 每个选题必须有三个不同角度的创作方案
+7. 每个选题的 source_urls 提供3-5个相关链接
 
 ### 三个角度的要求
 - **实操教程**：面向初学者，教怎么用/怎么操作，步骤清晰，有具体方法
@@ -245,8 +301,8 @@ def build_prompt(track_groups, capacity_profile, feedback_analysis, track_config
       "track_name": "赛道名",
       "target_audience": "目标受众",
       "reason": "为什么推荐这个选题（50字内）",
-      "source_items": ["相关新闻标题1", "相关新闻标题2"],
-      "source_urls": ["url1", "url2"],
+      "source_items": ["相关新闻标题1", "相关新闻标题2", "相关新闻标题3"],
+      "source_urls": ["url1", "url2", "url3", "url4", "url5"],
       "urgency": "high|medium|low",
       "viral_potential": "high|medium|low",
       "angles": [
@@ -289,7 +345,8 @@ def build_prompt(track_groups, capacity_profile, feedback_analysis, track_config
     "friday": "周五建议发布的选题标题",
     "strategy": "本周内容策略建议（一句话）"
   }},
-  "insights": "今日信息流整体观察（一句话，指出趋势或机会）"
+  "insights": "今日信息流整体观察（一句话，指出趋势或机会）",
+  "ai_adjustment": "基于用户反馈的自主微调说明（一句话，说明本次推荐相比上次做了什么调整，如果没有反馈历史则说'首次运行，暂无微调'）"
 }}
 
 只输出 JSON，不要输出其他内容，不要用 ```json ``` 包裹。'''
@@ -298,7 +355,7 @@ def build_prompt(track_groups, capacity_profile, feedback_analysis, track_config
 
 
 def call_deepseek(prompt):
-    """调用 DeepSeek API"""
+    """调用 DeepSeek API（温度降到0.5）"""
     if not DEEPSEEK_API_KEY:
         print('Warning: DEEPSEEK_API_KEY not set, skipping LLM recommendation')
         return None
@@ -313,7 +370,7 @@ def call_deepseek(prompt):
         'messages': [
             {'role': 'user', 'content': prompt}
         ],
-        'temperature': 0.7,
+        'temperature': LLM_TEMPERATURE,
         'max_tokens': 8192,
         'response_format': {'type': 'json_object'}
     }
@@ -332,7 +389,7 @@ def call_deepseek(prompt):
 
 
 def generate_fallback_recommendations(track_groups, track_config):
-    """API 不可用时的降级推荐（基于评分排序，也生成三个角度）"""
+    """API 不可用时的降级推荐"""
     now = datetime.now(timezone(timedelta(hours=8)))
     recommendations = []
 
@@ -340,6 +397,12 @@ def generate_fallback_recommendations(track_groups, track_config):
         track_name = track_config.get('tracks', {}).get(track_id, {}).get('name', track_id)
         for item in items[:2]:
             title = item.get('title', 'N/A')
+            source_urls = [item.get('url', '')]
+            for extra in items[:MAX_SOURCE_LINKS]:
+                u = extra.get('url', '')
+                if u and u not in source_urls:
+                    source_urls.append(u)
+
             recommendations.append({
                 'rank': len(recommendations) + 1,
                 'title': title,
@@ -347,8 +410,8 @@ def generate_fallback_recommendations(track_groups, track_config):
                 'track_name': track_name,
                 'target_audience': 'AI初学者/创作者',
                 'reason': f'赛道相关度{item.get("track_score", 0)}分',
-                'source_items': [title],
-                'source_urls': [item.get('url', '')],
+                'source_items': [i.get('title', '') for i in items[:MAX_SOURCE_LINKS]],
+                'source_urls': source_urls[:MAX_SOURCE_LINKS],
                 'urgency': 'medium',
                 'viral_potential': 'medium',
                 'angles': [
@@ -392,12 +455,13 @@ def generate_fallback_recommendations(track_groups, track_config):
             'strategy': '降级模式：基于评分排序，AI多角度分析暂不可用'
         },
         'insights': 'API不可用，展示评分排序结果，多角度分析为模板生成',
+        'ai_adjustment': '降级模式，暂无AI微调',
         'fallback': True
     }
 
 
 def main():
-    print('=== 个性化选题推荐（多角度分析版） ===')
+    print('=== 个性化选题推荐 v2（优化版） ===')
 
     # 1. 加载数据
     raw_data = load_json(os.path.join(DATA_DIR, 'latest-24h-all.json'))
@@ -427,7 +491,7 @@ def main():
 
     # 2. 按赛道评分
     processed = process_news_items(news_data, track_config)
-    print(f'Scored {len(processed)} items across tracks')
+    print(f'Scored {len(processed)} items across tracks (threshold: {TRACK_SCORE_THRESHOLD})')
 
     # 3. 按赛道分组
     track_groups = {}
@@ -439,12 +503,15 @@ def main():
 
     for track_id, items in track_groups.items():
         track_name = track_config['tracks'][track_id]['name']
-        print(f'  {track_name}: {len(items)} items')
+        print(f'  {track_name}: {len(items)} items (top {TOP_ITEMS_PER_TRACK} sent to LLM)')
 
     # 4. 分析反馈
     feedback_analysis = analyze_feedback(feedback_data)
     if feedback_analysis['total_feedback'] > 0:
         print(f'Feedback: {feedback_analysis["total_feedback"]} entries analyzed')
+        print(f'  Selection rate: {feedback_analysis["selection_rate"]}%')
+        print(f'  Preferred tracks: {feedback_analysis["selected_tracks"]}')
+        print(f'  Rejected patterns: {feedback_analysis["rejected_patterns"][:3]}')
 
     # 5. 调用 LLM 生成推荐
     prompt = build_prompt(track_groups, capacity_profile, feedback_analysis, track_config)
@@ -461,13 +528,22 @@ def main():
     recommendations['tracks_summary'] = {
         track_id: len(items) for track_id, items in track_groups.items()
     }
+    recommendations['engine_version'] = 'v2'
+    recommendations['engine_params'] = {
+        'track_score_threshold': TRACK_SCORE_THRESHOLD,
+        'top_items_per_track': TOP_ITEMS_PER_TRACK,
+        'llm_temperature': LLM_TEMPERATURE,
+        'max_source_links': MAX_SOURCE_LINKS
+    }
 
     output_path = os.path.join(DATA_DIR, 'recommendations.json')
     save_json(output_path, recommendations)
     print(f'Saved recommendations to {output_path}')
     print(f'  - {len(recommendations.get("recommendations", []))} topics with 3 angles each')
+    if 'ai_adjustment' in recommendations:
+        print(f'  - AI adjustment: {recommendations["ai_adjustment"]}')
 
-    # 7. 同时保存评分后的数据（带赛道标签）
+    # 7. 同时保存评分后的数据
     scored_path = os.path.join(DATA_DIR, 'latest-24h-scored.json')
     save_json(scored_path, processed)
     print(f'Saved scored data to {scored_path}')
