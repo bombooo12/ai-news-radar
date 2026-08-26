@@ -600,6 +600,7 @@ body {
       </div>
     </div>
     <a href="./index.html" class="back-link">← 返回雷达</a>
+      <a href="#" class="back-link" id="tokenStatusBtn" onclick="showTokenInput();return false;" style="color:#2563eb">🔑 反馈Token未设置</a>
   </div>
 
   <!-- AI Adjustment Banner -->
@@ -921,30 +922,89 @@ function saveNote(cardId, topicIdx) {
 }
 
 function generateFeedbackFile() {
-  // Generate a downloadable version of feedback.json
-  const blob = new Blob([JSON.stringify(feedbackData, null, 2)], {type: 'application/json'});
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = 'feedback.json';
-  a.style.display = 'none';
-  document.body.appendChild(a);
-
-  // Show a prompt to download
+  // Remove old prompt
   const existingPrompt = document.getElementById('downloadPrompt');
-  if (!existingPrompt) {
-    const prompt = document.createElement('div');
-    prompt.id = 'downloadPrompt';
-    prompt.style.cssText = 'position:fixed;bottom:20px;right:20px;background:#2d6cdf;color:white;padding:14px 20px;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.15);font-size:13px;cursor:pointer;z-index:9999;';
-    prompt.innerHTML = '📥 点击下载 feedback.json<br><span style="font-size:11px;opacity:0.8">上传到仓库 data/feedback.json 让AI学习你的偏好</span>';
-    prompt.onclick = function() {
-      a.click();
-      document.body.removeChild(prompt);
-    };
-    document.body.appendChild(prompt);
-  }
+  if (existingPrompt) existingPrompt.remove();
 
-  document.body.removeChild(a);
+  const token = localStorage.getItem('gh_feedback_token');
+  const prompt = document.createElement('div');
+  prompt.id = 'downloadPrompt';
+  prompt.style.cssText = 'position:fixed;bottom:20px;right:20px;background:#2d6cdf;color:white;padding:14px 20px;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.15);font-size:13px;z-index:9999;max-width:320px';
+
+  if (token) {
+    // Auto-submit to GitHub
+    prompt.innerHTML = '⏳ 正在自动提交到GitHub...';
+    document.body.appendChild(prompt);
+    submitFeedbackToGitHub(prompt);
+  } else {
+    // No token: offer both options
+    prompt.innerHTML = '✅ 已保存到本浏览器<br>' +
+      '<a href="#" onclick="showTokenInput();return false;" style="color:#fff;font-weight:bold;text-decoration:underline">🔑 设置Token，以后一键自动提交</a><br>' +
+      '<span style="font-size:11px;opacity:0.8">或 </span>' +
+      '<a href="#" onclick="downloadFeedbackFile();return false;" style="color:#fff;text-decoration:underline;font-size:11px">下载feedback.json手动上传</a>';
+    document.body.appendChild(prompt);
+    setTimeout(() => { if (prompt.parentNode) prompt.remove(); }, 15000);
+  }
+}
+
+function downloadFeedbackFile() {
+  const blob = new Blob([JSON.stringify(feedbackData, null, 2)], {type: 'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'feedback.json';
+  a.click();
+  const p = document.getElementById('downloadPrompt');
+  if (p) p.remove();
+}
+
+async function submitFeedbackToGitHub(promptDiv) {
+  const token = localStorage.getItem('gh_feedback_token');
+  const headers = { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json' };
+  const url = 'https://api.github.com/repos/bombooo12/ai-news-radar/contents/data/feedback.json';
+
+  try {
+    // 1. Get current file (sha + existing content)
+    const resp = await fetch(url, { headers });
+    if (!resp.ok) throw new Error('读取失败 HTTP ' + resp.status);
+    const fileInfo = await resp.json();
+    const sha = fileInfo.sha;
+
+    // 2. Merge: repo history + local history (local wins on same timestamp)
+    let repoData = {};
+    try {
+      repoData = JSON.parse(atob(fileInfo.content.replace(/\n/g, '')));
+    } catch(e) { repoData = {}; }
+
+    const merged = JSON.parse(JSON.stringify(feedbackData));
+    if (repoData.feedback_history) {
+      const localKeys = new Set((merged.feedback_history || []).map(e => e.timestamp + '|' + e.topic_title));
+      repoData.feedback_history.forEach(e => {
+        if (!localKeys.has(e.timestamp + '|' + e.topic_title)) {
+          if (!merged.feedback_history) merged.feedback_history = [];
+          merged.feedback_history.push(e);
+        }
+      });
+    }
+
+    // 3. Upload merged data
+    const b64 = btoa(unescape(encodeURIComponent(JSON.stringify(merged, null, 2))));
+    const updateResp = await fetch(url, {
+      method: 'PUT',
+      headers: { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: 'feedback update from web UI', content: b64, sha: sha, branch: 'master' })
+    });
+
+    if (!updateResp.ok) throw new Error('提交失败 HTTP ' + updateResp.status);
+
+    promptDiv.innerHTML = '✅ 已提交到GitHub！<br><span style="font-size:11px;opacity:0.8">下次运行时AI会学习你的反馈</span>';
+    promptDiv.style.background = '#2e7d32';
+    setTimeout(() => { if (promptDiv.parentNode) promptDiv.remove(); }, 6000);
+  } catch(e) {
+    promptDiv.innerHTML = '❌ 提交失败: ' + e.message + '<br>' +
+      '<a href="#" onclick="downloadFeedbackFile();return false;" style="color:#fff;text-decoration:underline;font-size:11px">点此下载feedback.json手动上传</a>';
+    promptDiv.style.background = '#c62828';
+    setTimeout(() => { if (promptDiv.parentNode) promptDiv.remove(); }, 15000);
+  }
 }
 
 function bindFeedbackButtons() {
@@ -1051,101 +1111,68 @@ function restoreFeedbackStates() {
   });
 }
 
+updateTokenStatusBtn();
 loadRecommendations();
 
-// === Auto-submit to GitHub ===
+// === Token management ===
 function showTokenInput() {
     const existing = document.getElementById('token-input-modal');
     if (existing) { existing.remove(); return; }
 
     const modal = document.createElement('div');
     modal.id = 'token-input-modal';
-    modal.style.cssText = 'position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:white;padding:24px;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,0.3);z-index:9999;max-width:400px';
+    modal.style.cssText = 'position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:white;padding:24px;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,0.3);z-index:9999;max-width:420px;color:#333';
     modal.innerHTML = `
         <h3 style="margin:0 0 12px;font-size:16px">设置GitHub Token（仅需一次）</h3>
-        <p style="font-size:12px;color:#666;margin:0 0 12px">用于自动提交反馈到仓库。Token只存在本浏览器，不会上传。建议用只读+repo权限的临时Token。</p>
-        <input type="password" id="gh-token-input" placeholder="ghp_xxxxx" style="width:100%;padding:8px;border:1px solid #ddd;border-radius:6px;font-size:14px;margin-bottom:12px" />
+        <p style="font-size:12px;color:#666;margin:0 0 8px;line-height:1.6">设置后，你的每次点评会<b>自动提交</b>到仓库 data/feedback.json，AI 每次运行会学习你的偏好，不用再下载上传。</p>
+        <p style="font-size:12px;color:#666;margin:0 0 12px;line-height:1.6">Token 只存在本浏览器 localStorage，不会发给任何第三方。<br>创建地址：<a href="https://github.com/settings/tokens" target="_blank" style="color:#2563eb">github.com/settings/tokens</a> → Generate new token (classic) → 勾选 repo 权限</p>
+        <input type="password" id="gh-token-input" placeholder="ghp_xxxxx" style="width:100%;padding:8px;border:1px solid #ddd;border-radius:6px;font-size:14px;margin-bottom:12px;box-sizing:border-box" />
         <div style="display:flex;gap:8px;justify-content:flex-end">
-            <button onclick="document.getElementById('token-input-modal').remove()" style="padding:6px 16px;border:1px solid #ddd;border-radius:6px;cursor:pointer">取消</button>
-            <button onclick="saveToken()" style="padding:6px 16px;background:#2563eb;color:white;border:none;border-radius:6px;cursor:pointer">保存</button>
+            <button onclick="document.getElementById('token-input-modal').remove()" style="padding:6px 16px;border:1px solid #ddd;border-radius:6px;cursor:pointer;background:#fff">取消</button>
+            <button onclick="saveToken()" style="padding:6px 16px;background:#2563eb;color:white;border:none;border-radius:6px;cursor:pointer">保存并提交现有反馈</button>
         </div>
+        <div style="margin-top:12px;text-align:right"><button onclick="removeToken()" style="padding:4px 12px;border:none;border-radius:6px;cursor:pointer;background:none;color:#999;font-size:12px">清除已保存的Token</button></div>
     `;
     document.body.appendChild(modal);
 }
 
 function saveToken() {
     const token = document.getElementById('gh-token-input').value.trim();
-    if (!token) return;
+    if (!token) { alert('请输入Token'); return; }
     localStorage.setItem('gh_feedback_token', token);
     document.getElementById('token-input-modal').remove();
-    alert('Token已保存！以后点评会自动提交到GitHub');
-}
+    updateTokenStatusBtn();
 
-async function submitToGitHub(rec, action, comment, statusDiv) {
-    const token = localStorage.getItem('gh_feedback_token');
-    const owner = 'bombooo12';
-    const repo = 'ai-news-radar';
-    const path = 'data/feedback.json';
-    const headers = { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json' };
-
-    try {
-        // 1. Get current file SHA
-        const resp = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, { headers });
-        const data = await resp.json();
-        const sha = data.sha;
-        const decoded = atob(data.content.replace(/\n/g, ''));
-        let feedback = JSON.parse(decoded);
-
-        // 2. Add new feedback entry
-        const entry = {
-            date: new Date().toISOString().split('T')[0],
-            title: rec.title,
-            track: rec.track,
-            action: action,
-            comment: comment || '',
-            form: rec.angles && rec.angles.length > 0 ? rec.angles[0].name : 'unknown'
-        };
-        if (!feedback.feedback_history) feedback.feedback_history = [];
-        feedback.feedback_history.push(entry);
-
-        // 3. Update counts
-        const status_key = action === '选用' ? 'selected' : action === '考虑' ? 'considered' : 'rejected';
-        if (!feedback.preference_stats) feedback.preference_stats = {};
-        if (!feedback.preference_stats[status_key]) feedback.preference_stats[status_key] = 0;
-        feedback.preference_stats[status_key]++;
-
-        // 4. Push to GitHub
-        const b64 = btoa(unescape(encodeURIComponent(JSON.stringify(feedback, null, 2))));
-        const updateResp = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, {
-            method: 'PUT',
-            headers: { ...headers, 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                message: `feedback: ${action} - ${rec.title.substring(0, 30)}`,
-                content: b64,
-                sha: sha,
-                branch: 'master'
-            })
-        });
-
-        if (updateResp.ok) {
-            statusDiv.style.cssText = 'margin-top:8px;padding:8px;background:#e8f5e9;border-radius:6px;font-size:12px;color:#2e7d32';
-            statusDiv.textContent = '✅ 已提交到GitHub！AI下次运行时会学习你的反馈';
-        } else {
-            throw new Error('GitHub API returned ' + updateResp.status);
-        }
-    } catch (e) {
-        statusDiv.style.cssText = 'margin-top:8px;padding:8px;background:#ffebee;border-radius:6px;font-size:12px;color:#c62828';
-        statusDiv.innerHTML = `❌ 提交失败: ${e.message}。请<a href="#" onclick="downloadFeedback();return false;" style="color:#1565c0">下载feedback.json</a>手动上传`;
+    // Immediately submit existing feedback
+    const prompt = document.getElementById('downloadPrompt');
+    if (!prompt) {
+        const p = document.createElement('div');
+        p.id = 'downloadPrompt';
+        p.style.cssText = 'position:fixed;bottom:20px;right:20px;background:#2d6cdf;color:white;padding:14px 20px;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.15);font-size:13px;z-index:9999';
+        p.innerHTML = '⏳ 正在提交现有反馈到GitHub...';
+        document.body.appendChild(p);
+        submitFeedbackToGitHub(p);
     }
 }
 
-function downloadFeedback() {
-    const allFeedback = JSON.parse(localStorage.getItem('feedback_data') || '{}');
-    const blob = new Blob([JSON.stringify(allFeedback, null, 2)], { type: 'application/json' });
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob);
-    a.download = 'feedback.json';
-    a.click();
+function removeToken() {
+    localStorage.removeItem('gh_feedback_token');
+    document.getElementById('token-input-modal').remove();
+    updateTokenStatusBtn();
+    alert('Token已清除');
+}
+
+function updateTokenStatusBtn() {
+    const btn = document.getElementById('tokenStatusBtn');
+    if (!btn) return;
+    const token = localStorage.getItem('gh_feedback_token');
+    if (token) {
+        btn.textContent = '🔑 反馈自动提交已开启';
+        btn.style.color = '#2e7d32';
+    } else {
+        btn.textContent = '🔑 反馈Token未设置';
+        btn.style.color = '#2563eb';
+    }
 }
 
 </script>
