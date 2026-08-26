@@ -33,7 +33,7 @@ DEEPSEEK_MODEL = 'deepseek-ai/DeepSeek-V4-Flash'
 
 # 优化参数
 TRACK_SCORE_THRESHOLD = 3      # 赛道评分阈值（从2提到3）
-TOP_ITEMS_PER_TRACK = 8        # 每赛道取top条目（控制prompt长度，避免超时）
+TOP_ITEMS_PER_TRACK = 5        # 每赛道取top条目（精简prompt，避免超时）
 LLM_TEMPERATURE = 0.5          # LLM温度（从0.7降到0.5）
 MAX_SOURCE_LINKS = 5          # 来源链接数（从2扩展到5）
 MAX_FEEDBACK_HISTORY = 100     # 保留最近100条反馈
@@ -355,7 +355,7 @@ def build_prompt(track_groups, capacity_profile, feedback_analysis, track_config
 
 
 def call_deepseek(prompt):
-    """调用 SiliconFlow API（DeepSeek-V4-Flash via SiliconFlow）"""
+    """调用 SiliconFlow API（流式传输，避免超时）"""
     if not DEEPSEEK_API_KEY:
         print('Warning: Neither SILICONFLOW_API_KEY nor DEEPSEEK_API_KEY set, skipping LLM recommendation')
         return None
@@ -372,19 +372,39 @@ def call_deepseek(prompt):
         ],
         'temperature': LLM_TEMPERATURE,
         'max_tokens': 8192,
-        'response_format': {'type': 'json_object'}
+        'response_format': {'type': 'json_object'},
+        'stream': True
     }
 
     data = json.dumps(payload).encode('utf-8')
     req = urllib.request.Request(DEEPSEEK_API_URL, data=data, headers=headers, method='POST')
 
     try:
-        with urllib.request.urlopen(req, timeout=180) as resp:
-            result = json.loads(resp.read().decode('utf-8'))
-            content = result['choices'][0]['message']['content']
-            return json.loads(content)
+        resp = urllib.request.urlopen(req, timeout=30)
+        content = ''
+        for line in resp:
+            line = line.decode('utf-8').strip()
+            if not line:
+                continue
+            if line.startswith('data: '):
+                chunk = line[6:]
+                if chunk == '[DONE]':
+                    break
+                try:
+                    chunk_data = json.loads(chunk)
+                    delta = chunk_data.get('choices', [{}])[0].get('delta', {}).get('content', '')
+                    if delta:
+                        content += delta
+                except json.JSONDecodeError:
+                    continue
+        resp.close()
+
+        if not content:
+            print('Error: Empty response from API')
+            return None
+        return json.loads(content)
     except Exception as e:
-        print(f'Error calling DeepSeek API: {e}')
+        print(f'Error calling SiliconFlow API: {e}')
         return None
 
 
