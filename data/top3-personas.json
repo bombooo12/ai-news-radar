@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T06:12:29.441327Z",
+  "generated_at": "2026-08-26T08:45:04.841757Z",
   "model": "deepseek-chat",
   "personas": [
     {
@@ -49,22 +49,22 @@
       }
     },
     {
-      "story_id": "story_b95e33dbd1e9",
-      "title": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平 / Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "url": "https://openai.com/index/jalapeno-first-results",
+      "story_id": "story_6411634610d0",
+      "title": "量化感知修复：4位压缩模型超越全精度原版 / Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
       "rank": 3,
       "reviews": {
         "cynic": {
           "score": 72,
-          "review": "速度效率领先？先晒出对比基线和完整基准，别只给结论。"
+          "review": "4位压缩反超原版？先晒出评测集和基线再吹，别拿自家弱基线当参照。"
         },
         "paper-police": {
-          "score": 30,
-          "review": "官方博客宣称领先，无论文无代码无第三方评测，证据不足。"
+          "score": 45,
+          "review": "博客给了数字但无代码无复现，等开源或第三方验证再定论。"
         },
         "pragmatic": {
           "score": 72,
-          "review": "推理性能新标杆，但没给API或开源，先观望等开放。"
+          "review": "4位量化模型反超原版，压缩部署可试，但需验证泛化性。"
         }
       }
     }
