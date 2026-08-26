@@ -31,6 +31,10 @@
   --shadow-lg: 0 10px 40px rgba(0,0,0,0.12);
   --radius: 12px;
   --radius-sm: 8px;
+  --success: #10b981;
+  --success-light: #d1fae5;
+  --reject: #ef4444;
+  --reject-light: #fee2e2;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -390,6 +394,94 @@ body {
   text-decoration: underline;
 }
 
+/* Feedback section - NEW */
+.feedback-section {
+  padding: 16px 24px 20px;
+  border-top: 1px solid var(--border);
+  background: #fafaf7;
+}
+
+.feedback-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+
+.feedback-buttons {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.feedback-btn {
+  padding: 8px 16px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: white;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.feedback-btn:hover {
+  border-color: #ccc;
+}
+
+.feedback-btn.selected-use {
+  border-color: var(--success);
+  background: var(--success-light);
+  color: #065f46;
+}
+
+.feedback-btn.selected-skip {
+  border-color: var(--reject);
+  background: var(--reject-light);
+  color: #991b1b;
+}
+
+.feedback-btn.selected-maybe {
+  border-color: var(--warning);
+  background: var(--warning-light);
+  color: #92400e;
+}
+
+.feedback-note {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  font-family: inherit;
+  resize: vertical;
+  min-height: 60px;
+  background: white;
+}
+
+.feedback-note:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.feedback-note::placeholder {
+  color: #aaa;
+}
+
+.feedback-saved {
+  font-size: 12px;
+  color: var(--success);
+  margin-top: 6px;
+  display: none;
+}
+
+.feedback-saved.show {
+  display: block;
+}
+
 /* Weekly plan */
 .weekly-plan {
   background: var(--bg-card);
@@ -440,6 +532,33 @@ body {
   border-top: 1px solid var(--border);
 }
 
+/* AI adjustment banner - NEW */
+.ai-adjustment {
+  background: linear-gradient(135deg, #e8f0fe 0%, #ede9fe 100%);
+  border: 1px solid #c3daea;
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  margin-bottom: 28px;
+  display: none;
+}
+
+.ai-adjustment.show {
+  display: block;
+}
+
+.ai-adjustment h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
+.ai-adjustment p {
+  font-size: 13px;
+  color: var(--text);
+  line-height: 1.5;
+}
+
 /* Responsive */
 @media (max-width: 640px) {
   .container { padding: 16px 14px 40px; }
@@ -447,6 +566,7 @@ body {
   .topic-header { padding: 16px 18px 14px; }
   .angles { padding: 4px 18px 16px; }
   .topic-sources { padding: 0 18px 14px; }
+  .feedback-section { padding: 14px 18px 16px; }
   .week-grid { grid-template-columns: 1fr; }
   .topic-title { font-size: 16px; }
   .angle-tab { min-width: 80px; padding: 8px 10px; font-size: 12px; }
@@ -480,6 +600,12 @@ body {
       </div>
     </div>
     <a href="./index.html" class="back-link">← 返回雷达</a>
+  </div>
+
+  <!-- AI Adjustment Banner -->
+  <div class="ai-adjustment" id="aiAdjustment">
+    <h3>🤖 AI 自主微调说明</h3>
+    <p id="aiAdjustmentText">-</p>
   </div>
 
   <!-- Status -->
@@ -593,13 +719,35 @@ function renderAngleContent(angle, idx) {
   `;
 }
 
+function renderFeedbackSection(topic, index) {
+  const cardId = `topic-${index}`;
+  return `
+    <div class="feedback-section">
+      <div class="feedback-label">💬 我的点评（系统会学习你的偏好）</div>
+      <div class="feedback-buttons">
+        <button class="feedback-btn" data-action="selected" data-card="${cardId}" data-topic="${index}">
+          ✅ 选用
+        </button>
+        <button class="feedback-btn" data-action="maybe" data-card="${cardId}" data-topic="${index}">
+          🤔 考虑
+        </button>
+        <button class="feedback-btn" data-action="rejected" data-card="${cardId}" data-topic="${index}">
+          ❌ 不用
+        </button>
+      </div>
+      <textarea class="feedback-note" id="note-${cardId}" placeholder="写点你的想法，比如：角度不错但标题要改 / 太技术了初学者看不懂 / 这个赛道最近做太多了..." onblur="saveNote('${cardId}', ${index})"></textarea>
+      <div class="feedback-saved" id="saved-${cardId}">✅ 已保存</div>
+    </div>
+  `;
+}
+
 function renderTopic(topic, index) {
   const trackClass = `tag-${topic.track || 'ai_tech'}`;
   const trackName = topic.track_name || TRACK_NAMES[topic.track] || topic.track;
   const angles = topic.angles || [];
   const cardId = `topic-${index}`;
 
-  const sourcesHtml = (topic.source_items || []).slice(0, 3).map((item, i) => {
+  const sourcesHtml = (topic.source_items || []).slice(0, 5).map((item, i) => {
     const url = (topic.source_urls || [])[i] || '#';
     return `<a href="${url}" target="_blank" rel="noopener">${item}</a>`;
   }).join('');
@@ -628,6 +776,7 @@ function renderTopic(topic, index) {
       <div class="topic-sources">
         🔗 信息来源：${sourcesHtml}
       </div>
+      ${renderFeedbackSection(topic, index)}
     </div>
   `;
 }
@@ -639,14 +788,12 @@ function bindAngleTabs() {
       const angleIdx = parseInt(this.dataset.angle);
       const icon = this.dataset.icon;
 
-      // Update tabs
       const card = document.getElementById(cardId);
       card.querySelectorAll('.angle-tab').forEach(t => {
         t.className = 'angle-tab';
       });
       this.classList.add(`active-${icon}`);
 
-      // Update content
       card.querySelectorAll('.angle-content').forEach(c => {
         c.classList.remove('active');
       });
@@ -656,11 +803,183 @@ function bindAngleTabs() {
   });
 }
 
+// Feedback system
+let feedbackData = { feedback_history: [], ai_adjustments: [] };
+let currentRecommendations = null;
+
+function loadFeedbackData() {
+  try {
+    const stored = localStorage.getItem('ai_radar_feedback');
+    if (stored) {
+      feedbackData = JSON.parse(stored);
+    }
+  } catch(e) {
+    console.warn('Could not load feedback from localStorage:', e);
+  }
+}
+
+function saveFeedbackLocally() {
+  try {
+    localStorage.setItem('ai_radar_feedback', JSON.stringify(feedbackData));
+  } catch(e) {
+    console.warn('Could not save feedback to localStorage:', e);
+  }
+}
+
+function markFeedback(topicIdx, action, cardId) {
+  const topic = currentRecommendations.recommendations[topicIdx];
+  if (!topic) return;
+
+  // Update button states
+  const card = document.getElementById(cardId);
+  card.querySelectorAll('.feedback-btn').forEach(btn => {
+    btn.classList.remove('selected-use', 'selected-skip', 'selected-maybe');
+  });
+
+  const btn = card.querySelector(`[data-action="${action}"]`);
+  if (btn) {
+    if (action === 'selected') btn.classList.add('selected-use');
+    else if (action === 'rejected') btn.classList.add('selected-skip');
+    else if (action === 'maybe') btn.classList.add('selected-maybe');
+  }
+
+  // Record feedback
+  const entry = {
+    date: currentRecommendations.date || new Date().toISOString().slice(0,10),
+    topic_title: topic.title,
+    track: topic.track,
+    format: (topic.angles && topic.angles[0]) ? topic.angles[0].format : '',
+    source: (topic.source_items && topic.source_items[0]) || '',
+    action: action,
+    reason: '',
+    note: document.getElementById(`note-${cardId}`) ? document.getElementById(`note-${cardId}`).value : '',
+    timestamp: new Date().toISOString()
+  };
+
+  // Remove existing entry for same topic+date
+  feedbackData.feedback_history = feedbackData.feedback_history.filter(e =>
+    !(e.date === entry.date && e.topic_title === entry.topic_title)
+  );
+  feedbackData.feedback_history.push(entry);
+
+  // Keep last 100 entries
+  if (feedbackData.feedback_history.length > 100) {
+    feedbackData.feedback_history = feedbackData.feedback_history.slice(-100);
+  }
+
+  saveFeedbackLocally();
+
+  // Show saved indicator
+  const saved = document.getElementById(`saved-${cardId}`);
+  if (saved) {
+    saved.classList.add('show');
+    setTimeout(() => saved.classList.remove('show'), 2000);
+  }
+
+  // Generate downloadable feedback file
+  generateFeedbackFile();
+}
+
+function saveNote(cardId, topicIdx) {
+  const note = document.getElementById(`note-${cardId}`);
+  if (!note) return;
+
+  // Find existing feedback entry
+  const topic = currentRecommendations.recommendations[topicIdx];
+  if (!topic) return;
+
+  const date = currentRecommendations.date || new Date().toISOString().slice(0,10);
+  const existing = feedbackData.feedback_history.find(e =>
+    e.date === date && e.topic_title === topic.title
+  );
+
+  if (existing) {
+    existing.note = note.value;
+  } else {
+    // Create a "noted" entry
+    feedbackData.feedback_history.push({
+      date: date,
+      topic_title: topic.title,
+      track: topic.track,
+      format: (topic.angles && topic.angles[0]) ? topic.angles[0].format : '',
+      source: (topic.source_items && topic.source_items[0]) || '',
+      action: 'noted',
+      reason: '',
+      note: note.value,
+      timestamp: new Date().toISOString()
+    });
+  }
+
+  saveFeedbackLocally();
+  generateFeedbackFile();
+
+  const saved = document.getElementById(`saved-${cardId}`);
+  if (saved) {
+    saved.classList.add('show');
+    setTimeout(() => saved.classList.remove('show'), 2000);
+  }
+}
+
+function generateFeedbackFile() {
+  // Generate a downloadable version of feedback.json
+  const blob = new Blob([JSON.stringify(feedbackData, null, 2)], {type: 'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'feedback.json';
+  a.style.display = 'none';
+  document.body.appendChild(a);
+
+  // Show a prompt to download
+  const existingPrompt = document.getElementById('downloadPrompt');
+  if (!existingPrompt) {
+    const prompt = document.createElement('div');
+    prompt.id = 'downloadPrompt';
+    prompt.style.cssText = 'position:fixed;bottom:20px;right:20px;background:#2d6cdf;color:white;padding:14px 20px;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.15);font-size:13px;cursor:pointer;z-index:9999;';
+    prompt.innerHTML = '📥 点击下载 feedback.json<br><span style="font-size:11px;opacity:0.8">上传到仓库 data/feedback.json 让AI学习你的偏好</span>';
+    prompt.onclick = function() {
+      a.click();
+      document.body.removeChild(prompt);
+    };
+    document.body.appendChild(prompt);
+  }
+
+  document.body.removeChild(a);
+}
+
+function bindFeedbackButtons() {
+  document.querySelectorAll('.feedback-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+      const action = this.dataset.action;
+      const cardId = this.dataset.card;
+      const topicIdx = parseInt(this.dataset.topic);
+      markFeedback(topicIdx, action, cardId);
+    });
+  });
+}
+
+function showAiAdjustment() {
+  // Show AI adjustment from last run's analysis
+  const adjustment = feedbackData.ai_adjustments && feedbackData.ai_adjustments[feedbackData.ai_adjustments.length - 1];
+  if (adjustment && adjustment.text) {
+    const banner = document.getElementById('aiAdjustment');
+    document.getElementById('aiAdjustmentText').textContent = adjustment.text;
+    banner.classList.add('show');
+  }
+}
+
 async function loadRecommendations() {
   try {
     const resp = await fetch('./data/recommendations.json?t=' + Date.now());
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     const data = await resp.json();
+    currentRecommendations = data;
+
+    // Load existing feedback
+    loadFeedbackData();
+
+    // Show AI adjustment from previous feedback
+    showAiAdjustment();
 
     // Update status
     document.getElementById('updatedAt').textContent = formatTime(data.generated_at);
@@ -691,7 +1010,12 @@ async function loadRecommendations() {
     document.getElementById('loading').style.display = 'none';
     document.getElementById('recommendations').style.display = 'block';
 
+    // Bind interactions
     bindAngleTabs();
+    bindFeedbackButtons();
+
+    // Restore previous feedback states
+    restoreFeedbackStates();
 
   } catch (e) {
     document.getElementById('loading').innerHTML = `
@@ -700,6 +1024,31 @@ async function loadRecommendations() {
       <div style="margin-top:12px;font-size:12px;color:var(--text-muted)">请确认 recommendations.json 是否已生成</div>
     `;
   }
+}
+
+function restoreFeedbackStates() {
+  if (!currentRecommendations) return;
+  const date = currentRecommendations.date || new Date().toISOString().slice(0,10);
+
+  currentRecommendations.recommendations.forEach((topic, idx) => {
+    const cardId = `topic-${idx}`;
+    const entry = feedbackData.feedback_history.find(e =>
+      e.date === date && e.topic_title === topic.title
+    );
+    if (entry) {
+      const card = document.getElementById(cardId);
+      if (card) {
+        const btn = card.querySelector(`[data-action="${entry.action}"]`);
+        if (btn) {
+          if (entry.action === 'selected') btn.classList.add('selected-use');
+          else if (entry.action === 'rejected') btn.classList.add('selected-skip');
+          else if (entry.action === 'maybe') btn.classList.add('selected-maybe');
+        }
+        const note = document.getElementById(`note-${cardId}`);
+        if (note && entry.note) note.value = entry.note;
+      }
+    }
+  });
 }
 
 loadRecommendations();
