@@ -26,14 +26,14 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 CONFIG_DIR = os.path.join(BASE_DIR, 'config')
 
-# SiliconFlow API (cheaper than DeepSeek direct)
+# SiliconFlow API (DeepSeek-V4-Flash via SiliconFlow, cheaper)
 DEEPSEEK_API_KEY = os.environ.get('SILICONFLOW_API_KEY', '') or os.environ.get('DEEPSEEK_API_KEY', '')
 DEEPSEEK_API_URL = 'https://api.siliconflow.cn/v1/chat/completions'
 DEEPSEEK_MODEL = 'deepseek-ai/DeepSeek-V4-Flash'
 
 # 优化参数
 TRACK_SCORE_THRESHOLD = 3      # 赛道评分阈值（从2提到3）
-TOP_ITEMS_PER_TRACK = 15       # 每赛道取top条目（从10提到15）
+TOP_ITEMS_PER_TRACK = 8        # 每赛道取top条目（控制prompt长度，避免超时）
 LLM_TEMPERATURE = 0.5          # LLM温度（从0.7降到0.5）
 MAX_SOURCE_LINKS = 5          # 来源链接数（从2扩展到5）
 MAX_FEEDBACK_HISTORY = 100     # 保留最近100条反馈
@@ -379,7 +379,7 @@ def call_deepseek(prompt):
     req = urllib.request.Request(DEEPSEEK_API_URL, data=data, headers=headers, method='POST')
 
     try:
-        with urllib.request.urlopen(req, timeout=120) as resp:
+        with urllib.request.urlopen(req, timeout=180) as resp:
             result = json.loads(resp.read().decode('utf-8'))
             content = result['choices'][0]['message']['content']
             return json.loads(content)
