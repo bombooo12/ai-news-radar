@@ -33,7 +33,7 @@ DEEPSEEK_MODEL = 'deepseek-ai/DeepSeek-V4-Flash'
 
 # 优化参数
 TRACK_SCORE_THRESHOLD = 3      # 赛道评分阈值（从2提到3）
-TOP_ITEMS_PER_TRACK = 5        # 每赛道取top条目（精简prompt，避免超时）
+TOP_ITEMS_PER_TRACK = 10       # 每赛道取top条目（流式传输已解决超时）
 LLM_TEMPERATURE = 0.5          # LLM温度（从0.7降到0.5）
 MAX_SOURCE_LINKS = 5          # 来源链接数（从2扩展到5）
 MAX_FEEDBACK_HISTORY = 100     # 保留最近100条反馈
@@ -380,7 +380,7 @@ def call_deepseek(prompt):
     req = urllib.request.Request(DEEPSEEK_API_URL, data=data, headers=headers, method='POST')
 
     try:
-        resp = urllib.request.urlopen(req, timeout=30)
+        resp = urllib.request.urlopen(req, timeout=60)
         content = ''
         for line in resp:
             line = line.decode('utf-8').strip()
