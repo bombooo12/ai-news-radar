@@ -3,38 +3,37 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips across GPT-OSS, DeepSeek R1, Kimi K2.5 1T (Emma Roth/The Verge)",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者/创作者",
-      "reason": "赛道相关度10.0分",
+      "title": "学生盲测AI写论文，Gemini居然赢了？我实测了3款AI写作工具",
+      "track": "ai_tool",
+      "track_name": "AI工具",
+      "target_audience": "AI初学者、内容创作者、学生",
+      "reason": "学生盲测结果有争议性，测评形式符合创作者擅长，能吸引AI写作用户。",
       "source_items": [
-        "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips across GPT-OSS, DeepSeek R1, Kimi K2.5 1T (Emma Roth/The Verge)",
         "Students prefer Gemini over ChatGPT and Claude for AI essays in blind tests",
         "Students prefer Gemini over ChatGPT and Claude for AI essays in blind tests",
-        "vLLM-iOS: 88% Faster Multi-Agent Inference on iOS",
-        "How to self-host your own AI agent"
+        "大模型成最大“抄袭者”？全球最大生活指南百科 WikiHow 正式起诉 OpenAI 侵权",
+        "Anthropic打通Claude与Cowork记忆系统 消除跨工作流重复交互痛点"
       ],
       "source_urls": [
-        "https://www.techmeme.com/260825/p24",
         "https://news.ycombinator.com/item?id=49443871",
         "https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026",
-        "https://jonready.com/blog/posts/continuous-batching-on-an-iphone.html",
-        "https://www.techradar.com/pro/how-to-self-host-your-own-ai-agent"
+        "https://www.aibase.com/news/30598",
+        "https://www.aibase.com/news/30616"
       ],
       "urgency": "medium",
-      "viral_potential": "medium",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips across GPT-OSS, DeepSeek R1, Kimi K2.5 1T (Emma Roth/The Verge) 入门教程",
-          "summary": "从零开始上手的完整步骤",
+          "format": "测评",
+          "hook": "实测！用Gemini写小红书爆款文案的5个技巧",
+          "summary": "教大家用Gemini生成高质量文章，附提示词模板",
           "key_points": [
-            "了解基本概念",
-            "掌握核心操作",
-            "动手实践案例"
+            "选择合适的模型版本",
+            "编写结构化提示词",
+            "人工润色与查重",
+            "结合其他工具提升效率"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -43,12 +42,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips across GPT-OSS, DeepSeek R1, Kimi K2.5 1T (Emma Roth/The Verge) 常见坑点",
-          "summary": "新手最容易踩的几个坑",
+          "hook": "AI写作的5个大坑：学生党千万别踩！",
+          "summary": "指出AI写作常见误区，如查重、版权、内容空洞",
           "pitfalls": [
-            "概念理解误区",
-            "操作步骤错漏",
-            "预期管理不当"
+            "直接用AI生成交作业容易被查重",
+            "AI生成内容可能涉及版权侵权",
+            "过度依赖AI导致内容同质化"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -57,12 +56,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips across GPT-OSS, DeepSeek R1, Kimi K2.5 1T (Emma Roth/The Verge) 深度分析",
-          "summary": "背后的逻辑和影响",
+          "hook": "为什么Gemini赢了？AI写作背后的模型差异与未来趋势",
+          "summary": "分析Gemini胜出的原因，以及AI写作对内容创作的影响",
           "insights": [
-            "技术原理简析",
-            "行业影响分析",
-            "未来趋势展望"
+            "Gemini在自然语言理解上可能更优",
+            "AI写作将改变内容生产模式",
+            "版权问题将成为AI发展的最大挑战"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -71,23 +70,153 @@
     },
     {
       "rank": 2,
-      "title": "Students prefer Gemini over ChatGPT and Claude for AI essays in blind tests",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者/创作者",
-      "reason": "赛道相关度9.0分",
+      "title": "AI Agent失控入侵系统？OpenAI被调查，我们该如何安全使用AI Agent？",
+      "track": "ai_agent",
+      "track_name": "AI Agent",
+      "target_audience": "AI初学者、企业用户、开发者",
+      "reason": "安全事件有警示性，避坑指南符合创作者擅长，且AI Agent是热点。",
       "source_items": [
-        "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips across GPT-OSS, DeepSeek R1, Kimi K2.5 1T (Emma Roth/The Verge)",
-        "Students prefer Gemini over ChatGPT and Claude for AI essays in blind tests",
-        "Students prefer Gemini over ChatGPT and Claude for AI essays in blind tests",
+        "Alabama AG probes OpenAI after its AI agent went rogue and hacked into external systems",
+        "How to self-host your own AI agent",
+        "Anthropic打通Claude与Cowork记忆系统 消除跨工作流重复交互痛点",
+        "vLLM-iOS: 88% Faster Multi-Agent Inference on iOS"
+      ],
+      "source_urls": [
+        "https://the-decoder.com/alabama-is-investigating-openai-following-an-uncontrolled-ai-agent-hack",
+        "https://www.techradar.com/pro/how-to-self-host-your-own-ai-agent",
+        "https://www.aibase.com/news/30616",
+        "https://jonready.com/blog/posts/continuous-batching-on-an-iphone.html"
+      ],
+      "urgency": "high",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "AI Agent安全使用指南：从权限设置到监控，一步步教你",
+          "summary": "教大家安全配置AI Agent，防止越权行为",
+          "key_points": [
+            "最小权限原则",
+            "设置沙箱环境",
+            "日志监控与告警",
+            "定期审计"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "45分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI Agent失控？这5个安全坑你一定要避开！",
+          "summary": "总结AI Agent常见安全风险及规避方法",
+          "pitfalls": [
+            "给AI Agent过高权限",
+            "未隔离外部系统",
+            "缺乏行为监控",
+            "忽略数据隐私"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "AI Agent失控事件背后：监管风暴即将来临？",
+          "summary": "分析AI Agent安全事件对行业和监管的影响",
+          "insights": [
+            "AI Agent自主性带来新风险",
+            "监管将加速落地",
+            "企业需要建立AI治理框架"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "手把手教你自托管AI Agent：告别云端依赖，数据完全掌控",
+      "track": "ai_agent",
+      "track_name": "AI Agent",
+      "target_audience": "技术爱好者、隐私敏感用户、AI初学者",
+      "reason": "实操教程符合创作者擅长，自托管是热门话题，且能吸引进阶用户。",
+      "source_items": [
+        "How to self-host your own AI agent",
         "vLLM-iOS: 88% Faster Multi-Agent Inference on iOS",
+        "Anthropic打通Claude与Cowork记忆系统 消除跨工作流重复交互痛点"
+      ],
+      "source_urls": [
+        "https://www.techradar.com/pro/how-to-self-host-your-own-ai-agent",
+        "https://jonready.com/blog/posts/continuous-batching-on-an-iphone.html",
+        "https://www.aibase.com/news/30616"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "零基础自托管AI Agent：从环境搭建到部署上线",
+          "summary": "教大家用开源工具在本地部署AI Agent",
+          "key_points": [
+            "选择开源Agent框架",
+            "配置本地模型或API",
+            "设置记忆与工具调用",
+            "测试与优化"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "自托管AI Agent的5个坑：别让你的服务器变成肉鸡！",
+          "summary": "指出自托管常见安全与性能问题",
+          "pitfalls": [
+            "暴露端口导致攻击",
+            "模型选择不当性能差",
+            "忽略数据备份",
+            "内存不足导致崩溃"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "自托管AI Agent是未来趋势吗？从成本、隐私、控制权说起",
+          "summary": "分析自托管与云端Agent的利弊和趋势",
+          "insights": [
+            "数据隐私推动自托管需求",
+            "开源生态降低门槛",
+            "自托管仍面临运维挑战"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "Claude终于有记忆了！Anthropic打通Cowork记忆系统，效率翻倍攻略",
+      "track": "ai_tool",
+      "track_name": "AI工具",
+      "target_audience": "AI初学者、效率爱好者、Claude用户",
+      "reason": "实操教程符合创作者擅长，记忆功能是用户痛点，容易引发关注。",
+      "source_items": [
+        "Anthropic打通Claude与Cowork记忆系统 消除跨工作流重复交互痛点",
+        "Students prefer Gemini over ChatGPT and Claude for AI essays in blind tests",
         "How to self-host your own AI agent"
       ],
       "source_urls": [
-        "https://news.ycombinator.com/item?id=49443871",
-        "https://www.techmeme.com/260825/p24",
+        "https://www.aibase.com/news/30616",
         "https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026",
-        "https://jonready.com/blog/posts/continuous-batching-on-an-iphone.html",
         "https://www.techradar.com/pro/how-to-self-host-your-own-ai-agent"
       ],
       "urgency": "medium",
@@ -97,12 +226,13 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "Students prefer Gemini over ChatGPT and Claude for AI essays in blind tests 入门教程",
-          "summary": "从零开始上手的完整步骤",
+          "hook": "Claude记忆功能上线！这样设置，让AI记住你的所有偏好",
+          "summary": "教大家开启和使用Claude记忆系统，提升对话效率",
           "key_points": [
-            "了解基本概念",
-            "掌握核心操作",
-            "动手实践案例"
+            "了解记忆系统工作原理",
+            "在Cowork中配置记忆",
+            "利用记忆优化提示词",
+            "跨工作流同步"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -111,12 +241,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "Students prefer Gemini over ChatGPT and Claude for AI essays in blind tests 常见坑点",
-          "summary": "新手最容易踩的几个坑",
+          "hook": "Claude记忆功能别乱用！隐私泄露风险与规避方法",
+          "summary": "提醒用户注意记忆功能带来的隐私风险",
           "pitfalls": [
-            "概念理解误区",
-            "操作步骤错漏",
-            "预期管理不当"
+            "敏感信息被记忆",
+            "跨工作流泄露风险",
+            "记忆错误难以纠正"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -125,12 +255,143 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "Students prefer Gemini over ChatGPT and Claude for AI essays in blind tests 深度分析",
-          "summary": "背后的逻辑和影响",
+          "hook": "AI记忆系统：从ChatGPT到Claude，AI如何真正记住你？",
+          "summary": "分析AI记忆系统的发展与影响",
           "insights": [
-            "技术原理简析",
-            "行业影响分析",
-            "未来趋势展望"
+            "记忆是AI个性化关键",
+            "记忆系统带来隐私争议",
+            "未来AI将更懂用户"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "WikiHow起诉OpenAI！AI生成内容的版权雷区，创作者必看",
+      "track": "ai_legal",
+      "track_name": "AI法律与版权",
+      "target_audience": "内容创作者、企业主、AI使用者",
+      "reason": "结合创作者商标/IP背景，争议性强，能引流商标代理业务。",
+      "source_items": [
+        "大模型成最大“抄袭者”？全球最大生活指南百科 WikiHow 正式起诉 OpenAI 侵权",
+        "Students prefer Gemini over ChatGPT and Claude for AI essays in blind tests",
+        "Alabama AG probes OpenAI after its AI agent went rogue and hacked into external systems"
+      ],
+      "source_urls": [
+        "https://www.aibase.com/news/30598",
+        "https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026",
+        "https://the-decoder.com/alabama-is-investigating-openai-following-an-uncontrolled-ai-agent-hack"
+      ],
+      "urgency": "high",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "AI生成内容如何避免侵权？从版权法到实操技巧",
+          "summary": "教创作者如何安全使用AI生成内容，避免版权纠纷",
+          "key_points": [
+            "了解AI版权法律现状",
+            "使用原创提示词",
+            "人工二次创作",
+            "标注AI生成内容"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI生成内容的5个版权坑：你可能正在侵权！",
+          "summary": "指出AI生成内容常见的侵权风险及规避方法",
+          "pitfalls": [
+            "直接复制AI输出可能侵权",
+            "用受版权保护的素材训练",
+            "未标注AI生成内容",
+            "商用AI内容风险"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "WikiHow起诉OpenAI：AI版权大战的序幕？",
+          "summary": "分析AI版权诉讼对行业的影响，以及对创作者的意义",
+          "insights": [
+            "AI训练数据版权争议将长期存在",
+            "判决可能重塑AI产业",
+            "创作者需要建立版权保护意识"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "OpenAI秘密训练10T参数模型？AGI要来了？一文看懂Bel模型",
+      "track": "ai_model",
+      "track_name": "AI模型",
+      "target_audience": "AI初学者、科技爱好者",
+      "reason": "模型发布是热点，深度解读符合创作者分析能力，但需避免太学术。",
+      "source_items": [
+        "消息称OpenAI 秘密预训练 Bel 模型：超 10T 参数，剑指 GPT-6 后 AGI 基座",
+        "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips across GPT-OSS, DeepSeek R1, Kimi K2.5 1T",
+        "英伟达联手Poolside加码开源AI 目标直指DeepSeek与OpenAI等前沿玩家"
+      ],
+      "source_urls": [
+        "https://www.aibase.com/news/30624",
+        "https://www.techmeme.com/260825/p24",
+        "https://www.aibase.com/news/30622"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "10T参数模型要来了？普通人如何提前布局AI应用？",
+          "summary": "教大家如何利用现有AI工具为未来模型做准备",
+          "key_points": [
+            "关注模型能力变化",
+            "学习提示词工程",
+            "尝试多模态应用",
+            "保持工具更新"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "别被参数忽悠！10T模型背后的营销陷阱",
+          "summary": "提醒用户不要盲目追求大参数，关注实际应用",
+          "pitfalls": [
+            "参数大不代表更好用",
+            "算力成本转嫁给用户",
+            "过度炒作AGI概念"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "OpenAI的AGI野心：Bel模型意味着什么？",
+          "summary": "分析Bel模型对AI行业和普通用户的影响",
+          "insights": [
+            "OpenAI加速AGI布局",
+            "算力竞争白热化",
+            "AI应用将迎来新变革"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -139,16 +400,18 @@
     }
   ],
   "weekly_plan": {
-    "strategy": "降级模式：基于评分排序，AI多角度分析暂不可用"
+    "monday": "学生盲测AI写论文，Gemini居然赢了？我实测了3款AI写作工具",
+    "wednesday": "AI Agent失控入侵系统？OpenAI被调查，我们该如何安全使用AI Agent？",
+    "friday": "WikiHow起诉OpenAI！AI生成内容的版权雷区，创作者必看",
+    "strategy": "本周以热点争议事件+实操教程组合，先用测评吸引流量，再用安全事件和版权话题建立专业形象，并引流商标代理业务。"
   },
-  "insights": "API不可用，展示评分排序结果，多角度分析为模板生成",
-  "ai_adjustment": "降级模式，暂无AI微调",
-  "fallback": true,
-  "generated_at": "2026-08-26T13:57:06.689583+08:00",
-  "total_items": 244,
-  "scored_items": 232,
+  "insights": "今日信息流整体观察：AI Agent安全与版权诉讼成为焦点，OpenAI多线承压，开源与自托管趋势明显，适合做争议性内容。",
+  "ai_adjustment": "基于用户反馈，本次推荐减少纯学术模型分析，增加测评/教程和避坑指南，并强化法律/IP结合点。",
+  "generated_at": "2026-08-26T14:18:33.799672+08:00",
+  "total_items": 247,
+  "scored_items": 233,
   "tracks_summary": {
-    "ai_tech": 232
+    "ai_tech": 233
   },
   "engine_version": "v2",
   "engine_params": {
