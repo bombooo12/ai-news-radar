@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T23:59:19.857298Z",
+  "generated_at": "2026-08-26T03:38:59.710829Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -48,15 +48,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8519,
-      "importance": 0.8519,
-      "importance_score": 0.8519,
+      "score": 0.8429,
+      "importance": 0.8429,
+      "importance_score": 0.8429,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.94,
-        "recency": 0.9659,
+        "recency": 0.9162,
         "story_heat": 0.0
       },
       "category": "official",
@@ -85,7 +85,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-26T00:19:37.590967Z"
+        "scored_at": "2026-08-26T03:50:20.621418Z"
       }
     },
     {
@@ -133,15 +133,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8466,
-      "importance": 0.8466,
-      "importance_score": 0.8466,
+      "score": 0.8385,
+      "importance": 0.8385,
+      "importance_score": 0.8385,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.8813,
+        "recency": 0.8359,
         "story_heat": 0.0
       },
       "category": "official",
@@ -170,7 +170,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-26T00:19:37.590967Z"
+        "scored_at": "2026-08-26T03:50:20.621418Z"
       }
     },
     {
@@ -218,15 +218,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8421,
-      "importance": 0.8421,
-      "importance_score": 0.8421,
+      "score": 0.8334,
+      "importance": 0.8334,
+      "importance_score": 0.8334,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9453,
+        "recency": 0.8966,
         "story_heat": 0.0
       },
       "category": "official",
@@ -255,7 +255,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-26T00:19:37.590967Z"
+        "scored_at": "2026-08-26T03:50:20.621418Z"
       }
     },
     {
@@ -332,15 +332,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8378,
-      "importance": 0.8378,
-      "importance_score": 0.8378,
+      "score": 0.8306,
+      "importance": 0.8306,
+      "importance_score": 0.8306,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7824,
+        "recency": 0.7422,
         "story_heat": 0.25
       },
       "category": "official",
@@ -370,7 +370,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-26T00:19:37.590967Z"
+        "scored_at": "2026-08-26T03:50:20.621418Z"
       }
     },
     {
@@ -418,15 +418,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8244,
-      "importance": 0.8244,
-      "importance_score": 0.8244,
+      "score": 0.8161,
+      "importance": 0.8161,
+      "importance_score": 0.8161,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.891,
+        "recency": 0.8452,
         "story_heat": 0.0
       },
       "category": "official",
@@ -455,92 +455,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-26T00:19:37.590967Z"
-      }
-    },
-    {
-      "story_id": "story_9ae1e7fe3cbc",
-      "title": "浏览器扩展、网站工具与云登录 / Browser extensions, site tools, and cloud sign-in",
-      "url": "https://developers.openai.com/codex/changelog",
-      "primary_url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "51ed931c2017f8886cbfbea38e595e938427d78b",
-          "title": "浏览器扩展、网站工具与云登录 / Browser extensions, site tools, and cloud sign-in",
-          "title_zh": "浏览器扩展、网站工具与云登录",
-          "title_en": "Browser extensions, site tools, and cloud sign-in",
-          "title_original": "Browser extensions, site tools, and cloud sign-in",
-          "summary": null,
-          "recommend_reason_zh": "本文介绍ChatGPT与Codex最新更新：浏览器扩展支持Edge、Brave、Opera和Vivaldi，Site tools需用GPT-5.6 Sol或Terra，并新增Gmail、Slack、GitHub事件触发任务。",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-25T00:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI Codex Changelog"
-      ],
-      "items": [
-        {
-          "id": "51ed931c2017f8886cbfbea38e595e938427d78b",
-          "title": "浏览器扩展、网站工具与云登录 / Browser extensions, site tools, and cloud sign-in",
-          "title_zh": "浏览器扩展、网站工具与云登录",
-          "title_en": "Browser extensions, site tools, and cloud sign-in",
-          "title_original": "Browser extensions, site tools, and cloud sign-in",
-          "summary": null,
-          "recommend_reason_zh": "本文介绍ChatGPT与Codex最新更新：浏览器扩展支持Edge、Brave、Opera和Vivaldi，Site tools需用GPT-5.6 Sol或Terra，并新增Gmail、Slack、GitHub事件触发任务。",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-25T00:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8173,
-      "importance": 0.8173,
-      "importance_score": 0.8173,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 1.0,
-        "recency": 0.7072,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-25T00:00:00Z",
-      "latest_at": "2026-08-25T00:00:00Z",
-      "primary_item": {
-        "id": "51ed931c2017f8886cbfbea38e595e938427d78b",
-        "title": "浏览器扩展、网站工具与云登录 / Browser extensions, site tools, and cloud sign-in",
-        "title_zh": "浏览器扩展、网站工具与云登录",
-        "title_en": "Browser extensions, site tools, and cloud sign-in",
-        "title_original": "Browser extensions, site tools, and cloud sign-in",
-        "summary": null,
-        "recommend_reason_zh": "本文介绍ChatGPT与Codex最新更新：浏览器扩展支持Edge、Brave、Opera和Vivaldi，Site tools需用GPT-5.6 Sol或Terra，并新增Gmail、Slack、GitHub事件触发任务。",
-        "url": "https://developers.openai.com/codex/changelog",
-        "source": "OpenAI Codex Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 72,
-      "persona_review": "Codex 更新了浏览器和云登录，写代码时切换环境更顺，但要看具体功能。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-26T00:19:37.590967Z"
+        "scored_at": "2026-08-26T03:50:20.621418Z"
       }
     },
     {
@@ -675,15 +590,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8117,
-      "importance": 0.8117,
-      "importance_score": 0.8117,
+      "score": 0.8038,
+      "importance": 0.8038,
+      "importance_score": 0.8038,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8619,
+        "recency": 0.8175,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -712,30 +627,30 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-26T00:19:37.590967Z"
+        "scored_at": "2026-08-26T03:50:20.621418Z"
       }
     },
     {
-      "story_id": "story_0536ff6c73c5",
-      "title": "直接从安全公告中屏蔽用户 / Block users directly from security advisories",
-      "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
-      "primary_url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+      "story_id": "story_95764e895938",
+      "title": "Rule insights dashboard generally available",
+      "url": "https://github.blog/changelog/2026-08-25-rule-insights-dashboard-generally-available",
+      "primary_url": "https://github.blog/changelog/2026-08-25-rule-insights-dashboard-generally-available",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "ddf97cc4234c61cbe446eb6957d1046445f13b83",
-          "title": "直接从安全公告中屏蔽用户 / Block users directly from security advisories",
-          "title_zh": "直接从安全公告中屏蔽用户",
-          "title_en": "Block users directly from security advisories",
-          "title_original": "Block users directly from security advisories",
-          "summary": null,
-          "recommend_reason_zh": "GitHub安全公告页现可直接屏蔽用户，组织仓库限管理员操作，个人仓库限所有者操作，省去跳转设置的繁琐流程，打击垃圾信息更高效。",
-          "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+          "id": "ec43b42734b117b10beb78d90f9227d90f41ef16",
+          "title": "Rule insights dashboard generally available",
+          "title_zh": null,
+          "title_en": "Rule insights dashboard generally available",
+          "title_original": "Rule insights dashboard generally available",
+          "summary": "The rule insights dashboard is now generally available at both the repository and organization levels. You get a visual, high-level view of how GitHub evaluates and enforces your GitHub repository…\nThe rule insights dashboard is now generally available at both the repository and organization levels. You get a visual, high-level view of how GitHub evaluates and enforces your GitHub repository rulesets, so you can spot trends and report on governance without stitching data together by hand.\nThe or",
+          "recommend_reason_zh": null,
+          "url": "https://github.blog/changelog/2026-08-25-rule-insights-dashboard-generally-available",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-25T18:38:57Z"
+          "published_at": "2026-08-25T20:05:35Z"
         }
       ],
       "source_count": 1,
@@ -744,31 +659,31 @@
       ],
       "items": [
         {
-          "id": "ddf97cc4234c61cbe446eb6957d1046445f13b83",
-          "title": "直接从安全公告中屏蔽用户 / Block users directly from security advisories",
-          "title_zh": "直接从安全公告中屏蔽用户",
-          "title_en": "Block users directly from security advisories",
-          "title_original": "Block users directly from security advisories",
-          "summary": null,
-          "recommend_reason_zh": "GitHub安全公告页现可直接屏蔽用户，组织仓库限管理员操作，个人仓库限所有者操作，省去跳转设置的繁琐流程，打击垃圾信息更高效。",
-          "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+          "id": "ec43b42734b117b10beb78d90f9227d90f41ef16",
+          "title": "Rule insights dashboard generally available",
+          "title_zh": null,
+          "title_en": "Rule insights dashboard generally available",
+          "title_original": "Rule insights dashboard generally available",
+          "summary": "The rule insights dashboard is now generally available at both the repository and organization levels. You get a visual, high-level view of how GitHub evaluates and enforces your GitHub repository…\nThe rule insights dashboard is now generally available at both the repository and organization levels. You get a visual, high-level view of how GitHub evaluates and enforces your GitHub repository rulesets, so you can spot trends and report on governance without stitching data together by hand.\nThe or",
+          "recommend_reason_zh": null,
+          "url": "https://github.blog/changelog/2026-08-25-rule-insights-dashboard-generally-available",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-25T18:38:57Z"
+          "published_at": "2026-08-25T20:05:35Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8306,
-      "importance": 0.8306,
-      "importance_score": 0.8306,
+      "score": 0.8254,
+      "importance": 0.8254,
+      "importance_score": 0.8254,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9258,
+        "recency": 0.8966,
         "story_heat": 0.0
       },
       "category": "official",
@@ -777,27 +692,19 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-25T18:38:57Z",
-      "latest_at": "2026-08-25T18:38:57Z",
+      "earliest_at": "2026-08-25T20:05:35Z",
+      "latest_at": "2026-08-25T20:05:35Z",
       "primary_item": {
-        "id": "ddf97cc4234c61cbe446eb6957d1046445f13b83",
-        "title": "直接从安全公告中屏蔽用户 / Block users directly from security advisories",
-        "title_zh": "直接从安全公告中屏蔽用户",
-        "title_en": "Block users directly from security advisories",
-        "title_original": "Block users directly from security advisories",
-        "summary": null,
-        "recommend_reason_zh": "GitHub安全公告页现可直接屏蔽用户，组织仓库限管理员操作，个人仓库限所有者操作，省去跳转设置的繁琐流程，打击垃圾信息更高效。",
-        "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+        "id": "ec43b42734b117b10beb78d90f9227d90f41ef16",
+        "title": "Rule insights dashboard generally available",
+        "title_zh": null,
+        "title_en": "Rule insights dashboard generally available",
+        "title_original": "Rule insights dashboard generally available",
+        "summary": "The rule insights dashboard is now generally available at both the repository and organization levels. You get a visual, high-level view of how GitHub evaluates and enforces your GitHub repository…\nThe rule insights dashboard is now generally available at both the repository and organization levels. You get a visual, high-level view of how GitHub evaluates and enforces your GitHub repository rulesets, so you can spot trends and report on governance without stitching data together by hand.\nThe or",
+        "recommend_reason_zh": null,
+        "url": "https://github.blog/changelog/2026-08-25-rule-insights-dashboard-generally-available",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 72,
-      "persona_review": "GitHub 小功能，省一次跳转，对安全协作有点用，但别指望大变化。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-26T00:19:37.590967Z"
       }
     },
     {
@@ -845,15 +752,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8306,
-      "importance": 0.8306,
-      "importance_score": 0.8306,
+      "score": 0.8229,
+      "importance": 0.8229,
+      "importance_score": 0.8229,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8369,
+        "recency": 0.7938,
         "story_heat": 0.0
       },
       "category": "official",
@@ -882,262 +789,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-26T00:19:37.590967Z"
-      }
-    },
-    {
-      "story_id": "story_4af25ba10386",
-      "title": "为 ChatGPT Work 和 Codex 推出 Admin 插件 / Introducing the Admin plugin for ChatGPT Work and Codex",
-      "url": "https://openai.com/index/introducing-admin-plugin",
-      "primary_url": "https://openai.com/index/introducing-admin-plugin",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "3da80bc21f6165601e41a06fda6af147905e774b",
-          "title": "为 ChatGPT Work 和 Codex 推出 Admin 插件 / Introducing the Admin plugin for ChatGPT Work and Codex",
-          "title_zh": "为 ChatGPT Work 和 Codex 推出 Admin 插件",
-          "title_en": "Introducing the Admin plugin for ChatGPT Work and Codex",
-          "title_original": "Introducing the Admin plugin for ChatGPT Work and Codex",
-          "summary": null,
-          "recommend_reason_zh": "OpenAI推出Admin plugin，在ChatGPT Work和Codex中直接分析工作区用量、管理成员权限并执行变更，可将审批流路由至Slack或Microsoft Teams，且不扩大用户既有权限。",
-          "url": "https://openai.com/index/introducing-admin-plugin",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-25T00:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "3da80bc21f6165601e41a06fda6af147905e774b",
-          "title": "为 ChatGPT Work 和 Codex 推出 Admin 插件 / Introducing the Admin plugin for ChatGPT Work and Codex",
-          "title_zh": "为 ChatGPT Work 和 Codex 推出 Admin 插件",
-          "title_en": "Introducing the Admin plugin for ChatGPT Work and Codex",
-          "title_original": "Introducing the Admin plugin for ChatGPT Work and Codex",
-          "summary": null,
-          "recommend_reason_zh": "OpenAI推出Admin plugin，在ChatGPT Work和Codex中直接分析工作区用量、管理成员权限并执行变更，可将审批流路由至Slack或Microsoft Teams，且不扩大用户既有权限。",
-          "url": "https://openai.com/index/introducing-admin-plugin",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-25T00:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8153,
-      "importance": 0.8153,
-      "importance_score": 0.8153,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.99,
-        "recency": 0.7072,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-25T00:00:00Z",
-      "latest_at": "2026-08-25T00:00:00Z",
-      "primary_item": {
-        "id": "3da80bc21f6165601e41a06fda6af147905e774b",
-        "title": "为 ChatGPT Work 和 Codex 推出 Admin 插件 / Introducing the Admin plugin for ChatGPT Work and Codex",
-        "title_zh": "为 ChatGPT Work 和 Codex 推出 Admin 插件",
-        "title_en": "Introducing the Admin plugin for ChatGPT Work and Codex",
-        "title_original": "Introducing the Admin plugin for ChatGPT Work and Codex",
-        "summary": null,
-        "recommend_reason_zh": "OpenAI推出Admin plugin，在ChatGPT Work和Codex中直接分析工作区用量、管理成员权限并执行变更，可将审批流路由至Slack或Microsoft Teams，且不扩大用户既有权限。",
-        "url": "https://openai.com/index/introducing-admin-plugin",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 75,
-      "persona_review": "团队管理ChatGPT Work和Codex的权限与审计，今天就能用上。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-26T00:19:37.590967Z"
-      }
-    },
-    {
-      "story_id": "story_55a2613433ab",
-      "title": "通过Gmail、Slack和GitHub事件触发定时任务 / Trigger scheduled tasks from Gmail, Slack, and GitHub events",
-      "url": "https://developers.openai.com/codex/changelog",
-      "primary_url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "ab6c6215adcbb368a6762b0ceeb9f3cc14e167d5",
-          "title": "通过Gmail、Slack和GitHub事件触发定时任务 / Trigger scheduled tasks from Gmail, Slack, and GitHub events",
-          "title_zh": "通过Gmail、Slack和GitHub事件触发定时任务",
-          "title_en": "Trigger scheduled tasks from Gmail, Slack, and GitHub events",
-          "title_original": "Trigger scheduled tasks from Gmail, Slack, and GitHub events",
-          "summary": null,
-          "recommend_reason_zh": "ChatGPT定时任务现可由Gmail邮件过滤、Slack频道监听及GitHub PR活动（评论、提交更新、合并）触发，须连接授权应用，Slack应用需在频道内，GitHub需仓库访问权，且不能与时间计划并用。",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-25T00:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI Codex Changelog"
-      ],
-      "items": [
-        {
-          "id": "ab6c6215adcbb368a6762b0ceeb9f3cc14e167d5",
-          "title": "通过Gmail、Slack和GitHub事件触发定时任务 / Trigger scheduled tasks from Gmail, Slack, and GitHub events",
-          "title_zh": "通过Gmail、Slack和GitHub事件触发定时任务",
-          "title_en": "Trigger scheduled tasks from Gmail, Slack, and GitHub events",
-          "title_original": "Trigger scheduled tasks from Gmail, Slack, and GitHub events",
-          "summary": null,
-          "recommend_reason_zh": "ChatGPT定时任务现可由Gmail邮件过滤、Slack频道监听及GitHub PR活动（评论、提交更新、合并）触发，须连接授权应用，Slack应用需在频道内，GitHub需仓库访问权，且不能与时间计划并用。",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-25T00:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8133,
-      "importance": 0.8133,
-      "importance_score": 0.8133,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.98,
-        "recency": 0.7072,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-25T00:00:00Z",
-      "latest_at": "2026-08-25T00:00:00Z",
-      "primary_item": {
-        "id": "ab6c6215adcbb368a6762b0ceeb9f3cc14e167d5",
-        "title": "通过Gmail、Slack和GitHub事件触发定时任务 / Trigger scheduled tasks from Gmail, Slack, and GitHub events",
-        "title_zh": "通过Gmail、Slack和GitHub事件触发定时任务",
-        "title_en": "Trigger scheduled tasks from Gmail, Slack, and GitHub events",
-        "title_original": "Trigger scheduled tasks from Gmail, Slack, and GitHub events",
-        "summary": null,
-        "recommend_reason_zh": "ChatGPT定时任务现可由Gmail邮件过滤、Slack频道监听及GitHub PR活动（评论、提交更新、合并）触发，须连接授权应用，Slack应用需在频道内，GitHub需仓库访问权，且不能与时间计划并用。",
-        "url": "https://developers.openai.com/codex/changelog",
-        "source": "OpenAI Codex Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "Codex 能接 Gmail/Slack/GitHub 触发任务，自动化场景今天就能配。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-26T00:19:37.590967Z"
-      }
-    },
-    {
-      "story_id": "story_2ae3bbe5c601",
-      "title": "规则集中的推送规则现在支持路径例外。 / Push rules in rulesets now support path exceptions",
-      "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
-      "primary_url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "e1c4eac73d8d8b63b5ddd2c669c78b7c2842a6c9",
-          "title": "规则集中的推送规则现在支持路径例外。 / Push rules in rulesets now support path exceptions",
-          "title_zh": "规则集中的推送规则现在支持路径例外。",
-          "title_en": "Push rules in rulesets now support path exceptions",
-          "title_original": "Push rules in rulesets now support path exceptions",
-          "summary": null,
-          "recommend_reason_zh": "GitHub的push rules新增路径异常支持，允许在ruleset中排除特定文件路径，让规则作用于范围内除指定路径外的一切。目前该公共预览功能支持两种规则，并在保存时自动校验模式，便于即时修正错误。",
-          "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-25T17:40:15Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "e1c4eac73d8d8b63b5ddd2c669c78b7c2842a6c9",
-          "title": "规则集中的推送规则现在支持路径例外。 / Push rules in rulesets now support path exceptions",
-          "title_zh": "规则集中的推送规则现在支持路径例外。",
-          "title_en": "Push rules in rulesets now support path exceptions",
-          "title_original": "Push rules in rulesets now support path exceptions",
-          "summary": null,
-          "recommend_reason_zh": "GitHub的push rules新增路径异常支持，允许在ruleset中排除特定文件路径，让规则作用于范围内除指定路径外的一切。目前该公共预览功能支持两种规则，并在保存时自动校验模式，便于即时修正错误。",
-          "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-25T17:40:15Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8283,
-      "importance": 0.8283,
-      "importance_score": 0.8283,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.9128,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-25T17:40:15Z",
-      "latest_at": "2026-08-25T17:40:15Z",
-      "primary_item": {
-        "id": "e1c4eac73d8d8b63b5ddd2c669c78b7c2842a6c9",
-        "title": "规则集中的推送规则现在支持路径例外。 / Push rules in rulesets now support path exceptions",
-        "title_zh": "规则集中的推送规则现在支持路径例外。",
-        "title_en": "Push rules in rulesets now support path exceptions",
-        "title_original": "Push rules in rulesets now support path exceptions",
-        "summary": null,
-        "recommend_reason_zh": "GitHub的push rules新增路径异常支持，允许在ruleset中排除特定文件路径，让规则作用于范围内除指定路径外的一切。目前该公共预览功能支持两种规则，并在保存时自动校验模式，便于即时修正错误。",
-        "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 72,
-      "persona_review": "GitHub 规则集支持路径例外，分支保护更灵活，今天就能配。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-26T00:19:37.590967Z"
+        "scored_at": "2026-08-26T03:50:20.621418Z"
       }
     },
     {
@@ -1185,15 +837,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.813,
-      "importance": 0.813,
-      "importance_score": 0.813,
+      "score": 0.8057,
+      "importance": 0.8057,
+      "importance_score": 0.8057,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7834,
+        "recency": 0.743,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1222,7 +874,168 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-26T00:19:37.590967Z"
+        "scored_at": "2026-08-26T03:50:20.621418Z"
+      }
+    },
+    {
+      "story_id": "story_ddb1a121f62b",
+      "title": "Anthropic 冲击全球最大 IPO：画 30 万亿美元市场蓝图，估值锚定 2 万亿",
+      "url": "https://www.aibase.com/news/30610",
+      "primary_url": "https://www.aibase.com/news/30610",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "c36d75ce522bea77bb66afccc0ad9e7dd20c7d84",
+          "title": "Anthropic 冲击全球最大 IPO：画 30 万亿美元市场蓝图，估值锚定 2 万亿",
+          "title_zh": "Anthropic 冲击全球最大 IPO：画 30 万亿美元市场蓝图，估值锚定 2 万亿",
+          "title_en": null,
+          "title_original": "Anthropic 冲击全球最大 IPO：画 30 万亿美元市场蓝图，估值锚定 2 万亿",
+          "summary": "In its IPO prospectus, Anthropic has presented a potential total addressable market (TAM) forecast of over $30 trillion to support its $2 trillion valuation, su\nIn its IPO prospectus, Anthropic has presented a potential total addressable market (TAM) forecast of over $30 trillion to support its $2 trillion valuation, su\nIn its IPO prospectus, Anthropic has presented a potential total addressable market (TAM) forecast of over $30 trillion to support its $2 trillion valuation, su\nExplore AI Fronti",
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30610",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-26T03:38:59.710829Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "c36d75ce522bea77bb66afccc0ad9e7dd20c7d84",
+          "title": "Anthropic 冲击全球最大 IPO：画 30 万亿美元市场蓝图，估值锚定 2 万亿",
+          "title_zh": "Anthropic 冲击全球最大 IPO：画 30 万亿美元市场蓝图，估值锚定 2 万亿",
+          "title_en": null,
+          "title_original": "Anthropic 冲击全球最大 IPO：画 30 万亿美元市场蓝图，估值锚定 2 万亿",
+          "summary": "In its IPO prospectus, Anthropic has presented a potential total addressable market (TAM) forecast of over $30 trillion to support its $2 trillion valuation, su\nIn its IPO prospectus, Anthropic has presented a potential total addressable market (TAM) forecast of over $30 trillion to support its $2 trillion valuation, su\nIn its IPO prospectus, Anthropic has presented a potential total addressable market (TAM) forecast of over $30 trillion to support its $2 trillion valuation, su\nExplore AI Fronti",
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30610",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-26T03:38:59.710829Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-26T03:38:59.710829Z",
+      "latest_at": "2026-08-26T03:38:59.710829Z",
+      "primary_item": {
+        "id": "c36d75ce522bea77bb66afccc0ad9e7dd20c7d84",
+        "title": "Anthropic 冲击全球最大 IPO：画 30 万亿美元市场蓝图，估值锚定 2 万亿",
+        "title_zh": "Anthropic 冲击全球最大 IPO：画 30 万亿美元市场蓝图，估值锚定 2 万亿",
+        "title_en": null,
+        "title_original": "Anthropic 冲击全球最大 IPO：画 30 万亿美元市场蓝图，估值锚定 2 万亿",
+        "summary": "In its IPO prospectus, Anthropic has presented a potential total addressable market (TAM) forecast of over $30 trillion to support its $2 trillion valuation, su\nIn its IPO prospectus, Anthropic has presented a potential total addressable market (TAM) forecast of over $30 trillion to support its $2 trillion valuation, su\nIn its IPO prospectus, Anthropic has presented a potential total addressable market (TAM) forecast of over $30 trillion to support its $2 trillion valuation, su\nExplore AI Fronti",
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/30610",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_0536ff6c73c5",
+      "title": "直接从安全公告中屏蔽用户 / Block users directly from security advisories",
+      "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+      "primary_url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "ddf97cc4234c61cbe446eb6957d1046445f13b83",
+          "title": "直接从安全公告中屏蔽用户 / Block users directly from security advisories",
+          "title_zh": "直接从安全公告中屏蔽用户",
+          "title_en": "Block users directly from security advisories",
+          "title_original": "Block users directly from security advisories",
+          "summary": null,
+          "recommend_reason_zh": "GitHub安全公告页现可直接屏蔽用户，组织仓库限管理员操作，个人仓库限所有者操作，省去跳转设置的繁琐流程，打击垃圾信息更高效。",
+          "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T18:38:57Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "ddf97cc4234c61cbe446eb6957d1046445f13b83",
+          "title": "直接从安全公告中屏蔽用户 / Block users directly from security advisories",
+          "title_zh": "直接从安全公告中屏蔽用户",
+          "title_en": "Block users directly from security advisories",
+          "title_original": "Block users directly from security advisories",
+          "summary": null,
+          "recommend_reason_zh": "GitHub安全公告页现可直接屏蔽用户，组织仓库限管理员操作，个人仓库限所有者操作，省去跳转设置的繁琐流程，打击垃圾信息更高效。",
+          "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T18:38:57Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8221,
+      "importance": 0.8221,
+      "importance_score": 0.8221,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.8781,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-25T18:38:57Z",
+      "latest_at": "2026-08-25T18:38:57Z",
+      "primary_item": {
+        "id": "ddf97cc4234c61cbe446eb6957d1046445f13b83",
+        "title": "直接从安全公告中屏蔽用户 / Block users directly from security advisories",
+        "title_zh": "直接从安全公告中屏蔽用户",
+        "title_en": "Block users directly from security advisories",
+        "title_original": "Block users directly from security advisories",
+        "summary": null,
+        "recommend_reason_zh": "GitHub安全公告页现可直接屏蔽用户，组织仓库限管理员操作，个人仓库限所有者操作，省去跳转设置的繁琐流程，打击垃圾信息更高效。",
+        "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 72,
+      "persona_review": "GitHub 小功能，省一次跳转，对安全协作有点用，但别指望大变化。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-08-26T03:50:20.621418Z"
       }
     },
     {
@@ -1270,21 +1083,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7501,
-      "importance": 0.7501,
-      "importance_score": 0.7501,
+      "score": 0.7419,
+      "importance": 0.7419,
+      "importance_score": 0.7419,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8862,
+        "recency": 0.8405,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-08-25T15:37:15Z",
       "latest_at": "2026-08-25T15:37:15Z",
@@ -1306,63 +1118,139 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-26T00:19:37.590967Z"
+        "scored_at": "2026-08-26T03:50:20.621418Z"
       }
     },
     {
-      "story_id": "story_bc5800b304fc",
-      "title": "连接、运行、部署：Gradio 中的 AI 工作流 / Wire It, Run It, Deploy It: AI Workflows in Gradio",
-      "url": "https://huggingface.co/blog/gradio-workflow-guide",
-      "primary_url": "https://huggingface.co/blog/gradio-workflow-guide",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
+      "story_id": "story_75763b44f1d0",
+      "title": "Anthropic打通Claude与Cowork记忆系统 消除跨工作流重复交互痛点",
+      "url": "https://www.aibase.com/news/30616",
+      "primary_url": "https://www.aibase.com/news/30616",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "430ba5ce0508f4735c075b6eda70a94f1bd40348",
-          "title": "连接、运行、部署：Gradio 中的 AI 工作流 / Wire It, Run It, Deploy It: AI Workflows in Gradio",
-          "title_zh": "连接、运行、部署：Gradio 中的 AI 工作流",
-          "title_en": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-          "title_original": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-          "summary": null,
-          "recommend_reason_zh": "gr.Workflow 将 AI 流水线变成可拖拽画布，每个节点可运行、中间结果可见，同一图还能作为 REST API 并一键部署到 Hugging Face Spaces，附四个可实操的示例应用。",
-          "url": "https://huggingface.co/blog/gradio-workflow-guide",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-25T00:00:00Z"
+          "id": "9368440e611a9fce578f5bd421db31c12ebe2eec",
+          "title": "Anthropic打通Claude与Cowork记忆系统 消除跨工作流重复交互痛点",
+          "title_zh": "Anthropic打通Claude与Cowork记忆系统 消除跨工作流重复交互痛点",
+          "title_en": null,
+          "title_original": "Anthropic打通Claude与Cowork记忆系统 消除跨工作流重复交互痛点",
+          "summary": "Artificial intelligence startup Anthropic announced on August 25 that it has made a major upgrade to the memory system of its AI assistant Claude, officially br\nArtificial intelligence startup Anthropic announced on August 25 that it has made a major upgrade to the memory system of its AI assistant Claude, officially br\nArtificial intelligence startup Anthropic announced on August 25 that it has made a major upgrade to the memory system of its AI assistant Claude, officially br\nExplore AI Fronti",
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30616",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-26T03:38:59.710829Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "Hugging Face Blog"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "430ba5ce0508f4735c075b6eda70a94f1bd40348",
-          "title": "连接、运行、部署：Gradio 中的 AI 工作流 / Wire It, Run It, Deploy It: AI Workflows in Gradio",
-          "title_zh": "连接、运行、部署：Gradio 中的 AI 工作流",
-          "title_en": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-          "title_original": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-          "summary": null,
-          "recommend_reason_zh": "gr.Workflow 将 AI 流水线变成可拖拽画布，每个节点可运行、中间结果可见，同一图还能作为 REST API 并一键部署到 Hugging Face Spaces，附四个可实操的示例应用。",
-          "url": "https://huggingface.co/blog/gradio-workflow-guide",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-25T00:00:00Z"
+          "id": "9368440e611a9fce578f5bd421db31c12ebe2eec",
+          "title": "Anthropic打通Claude与Cowork记忆系统 消除跨工作流重复交互痛点",
+          "title_zh": "Anthropic打通Claude与Cowork记忆系统 消除跨工作流重复交互痛点",
+          "title_en": null,
+          "title_original": "Anthropic打通Claude与Cowork记忆系统 消除跨工作流重复交互痛点",
+          "summary": "Artificial intelligence startup Anthropic announced on August 25 that it has made a major upgrade to the memory system of its AI assistant Claude, officially br\nArtificial intelligence startup Anthropic announced on August 25 that it has made a major upgrade to the memory system of its AI assistant Claude, officially br\nArtificial intelligence startup Anthropic announced on August 25 that it has made a major upgrade to the memory system of its AI assistant Claude, officially br\nExplore AI Fronti",
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30616",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-26T03:38:59.710829Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8073,
-      "importance": 0.8073,
-      "importance_score": 0.8073,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-26T03:38:59.710829Z",
+      "latest_at": "2026-08-26T03:38:59.710829Z",
+      "primary_item": {
+        "id": "9368440e611a9fce578f5bd421db31c12ebe2eec",
+        "title": "Anthropic打通Claude与Cowork记忆系统 消除跨工作流重复交互痛点",
+        "title_zh": "Anthropic打通Claude与Cowork记忆系统 消除跨工作流重复交互痛点",
+        "title_en": null,
+        "title_original": "Anthropic打通Claude与Cowork记忆系统 消除跨工作流重复交互痛点",
+        "summary": "Artificial intelligence startup Anthropic announced on August 25 that it has made a major upgrade to the memory system of its AI assistant Claude, officially br\nArtificial intelligence startup Anthropic announced on August 25 that it has made a major upgrade to the memory system of its AI assistant Claude, officially br\nArtificial intelligence startup Anthropic announced on August 25 that it has made a major upgrade to the memory system of its AI assistant Claude, officially br\nExplore AI Fronti",
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/30616",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_2ae3bbe5c601",
+      "title": "规则集中的推送规则现在支持路径例外。 / Push rules in rulesets now support path exceptions",
+      "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
+      "primary_url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "e1c4eac73d8d8b63b5ddd2c669c78b7c2842a6c9",
+          "title": "规则集中的推送规则现在支持路径例外。 / Push rules in rulesets now support path exceptions",
+          "title_zh": "规则集中的推送规则现在支持路径例外。",
+          "title_en": "Push rules in rulesets now support path exceptions",
+          "title_original": "Push rules in rulesets now support path exceptions",
+          "summary": null,
+          "recommend_reason_zh": "GitHub的push rules新增路径异常支持，允许在ruleset中排除特定文件路径，让规则作用于范围内除指定路径外的一切。目前该公共预览功能支持两种规则，并在保存时自动校验模式，便于即时修正错误。",
+          "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T17:40:15Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "e1c4eac73d8d8b63b5ddd2c669c78b7c2842a6c9",
+          "title": "规则集中的推送规则现在支持路径例外。 / Push rules in rulesets now support path exceptions",
+          "title_zh": "规则集中的推送规则现在支持路径例外。",
+          "title_en": "Push rules in rulesets now support path exceptions",
+          "title_original": "Push rules in rulesets now support path exceptions",
+          "summary": null,
+          "recommend_reason_zh": "GitHub的push rules新增路径异常支持，允许在ruleset中排除特定文件路径，让规则作用于范围内除指定路径外的一切。目前该公共预览功能支持两种规则，并在保存时自动校验模式，便于即时修正错误。",
+          "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-25T17:40:15Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8198,
+      "importance": 0.8198,
+      "importance_score": 0.8198,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7072,
+        "ai_relevance": 0.87,
+        "recency": 0.8658,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1371,27 +1259,27 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-25T00:00:00Z",
-      "latest_at": "2026-08-25T00:00:00Z",
+      "earliest_at": "2026-08-25T17:40:15Z",
+      "latest_at": "2026-08-25T17:40:15Z",
       "primary_item": {
-        "id": "430ba5ce0508f4735c075b6eda70a94f1bd40348",
-        "title": "连接、运行、部署：Gradio 中的 AI 工作流 / Wire It, Run It, Deploy It: AI Workflows in Gradio",
-        "title_zh": "连接、运行、部署：Gradio 中的 AI 工作流",
-        "title_en": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-        "title_original": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+        "id": "e1c4eac73d8d8b63b5ddd2c669c78b7c2842a6c9",
+        "title": "规则集中的推送规则现在支持路径例外。 / Push rules in rulesets now support path exceptions",
+        "title_zh": "规则集中的推送规则现在支持路径例外。",
+        "title_en": "Push rules in rulesets now support path exceptions",
+        "title_original": "Push rules in rulesets now support path exceptions",
         "summary": null,
-        "recommend_reason_zh": "gr.Workflow 将 AI 流水线变成可拖拽画布，每个节点可运行、中间结果可见，同一图还能作为 REST API 并一键部署到 Hugging Face Spaces，附四个可实操的示例应用。",
-        "url": "https://huggingface.co/blog/gradio-workflow-guide",
-        "source": "Hugging Face Blog",
+        "recommend_reason_zh": "GitHub的push rules新增路径异常支持，允许在ruleset中排除特定文件路径，让规则作用于范围内除指定路径外的一切。目前该公共预览功能支持两种规则，并在保存时自动校验模式，便于即时修正错误。",
+        "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
+        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       },
       "persona_id": "pragmatic",
       "persona_score": 72,
-      "persona_review": "Gradio 工作流指南上线，部署演示项目能直接抄，适合快速交付。",
+      "persona_review": "GitHub 规则集支持路径例外，分支保护更灵活，今天就能配。",
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-26T00:19:37.590967Z"
+        "scored_at": "2026-08-26T03:50:20.621418Z"
       }
     },
     {
@@ -1439,15 +1327,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7383,
-      "importance": 0.7383,
-      "importance_score": 0.7383,
+      "score": 0.7298,
+      "importance": 0.7298,
+      "importance_score": 0.7298,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9207,
+        "recency": 0.8733,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1474,7 +1362,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-26T00:19:37.590967Z"
+        "scored_at": "2026-08-26T03:50:20.621418Z"
       }
     },
     {
@@ -1522,15 +1410,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7378,
-      "importance": 0.7378,
-      "importance_score": 0.7378,
+      "score": 0.7293,
+      "importance": 0.7293,
+      "importance_score": 0.7293,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9176,
+        "recency": 0.8704,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1557,30 +1445,30 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-08-26T00:19:37.590967Z"
+        "scored_at": "2026-08-26T03:50:20.621418Z"
       }
     },
     {
-      "story_id": "story_01e284861740",
-      "title": "印度 Airbound 造\"火箭形\"无人机：自重低于载重，要跟卡车拼货运成本",
-      "url": "https://www.aibase.com/news/30608",
-      "primary_url": "https://www.aibase.com/news/30608",
+      "story_id": "story_2d94419379a3",
+      "title": "Claude 记忆打通 Cowork 与聊天：背景一次说明，两端共享",
+      "url": "https://www.aibase.com/news/30620",
+      "primary_url": "https://www.aibase.com/news/30620",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "7fe31aaa6af2cbc02a828bf1cd9824f319ca2186",
-          "title": "印度 Airbound 造\"火箭形\"无人机：自重低于载重，要跟卡车拼货运成本",
-          "title_zh": "印度 Airbound 造\"火箭形\"无人机：自重低于载重，要跟卡车拼货运成本",
+          "id": "af0fc95266c31572566e3e423e81ae7fef73a31e",
+          "title": "Claude 记忆打通 Cowork 与聊天：背景一次说明，两端共享",
+          "title_zh": "Claude 记忆打通 Cowork 与聊天：背景一次说明，两端共享",
           "title_en": null,
-          "title_original": "印度 Airbound 造\"火箭形\"无人机：自重低于载重，要跟卡车拼货运成本",
-          "summary": null,
-          "recommend_reason_zh": "印度初创Airbound完成3700万美元A轮融资，其火箭形无人机自重低于载重，现款TRT仅1.5kg却能带1kg货，已完成超1.3万次飞行，计划以日均1万架次把空运成本压到与卡车相当。",
-          "url": "https://www.aibase.com/news/30608",
+          "title_original": "Claude 记忆打通 Cowork 与聊天：背景一次说明，两端共享",
+          "summary": "Anthropic announced an update to Claude Cowork's and chat function's memory mechanism, integrating the two systems' memories and managing them uniformly. The of\nAnthropic announced an update to Claude Cowork's and chat function's memory mechanism, integrating the two systems' memories and managing them uniformly. The of\nAnthropic announced an update to Claude Cowork's and chat function's memory mechanism, integrating the two systems' memories and managing them uniformly. The of\nExplore AI Fronti",
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30620",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-08-25T08:59:06.973321Z"
+          "published_at": "2026-08-26T03:38:59.710829Z"
         }
       ],
       "source_count": 1,
@@ -1589,224 +1477,279 @@
       ],
       "items": [
         {
-          "id": "7fe31aaa6af2cbc02a828bf1cd9824f319ca2186",
-          "title": "印度 Airbound 造\"火箭形\"无人机：自重低于载重，要跟卡车拼货运成本",
-          "title_zh": "印度 Airbound 造\"火箭形\"无人机：自重低于载重，要跟卡车拼货运成本",
+          "id": "af0fc95266c31572566e3e423e81ae7fef73a31e",
+          "title": "Claude 记忆打通 Cowork 与聊天：背景一次说明，两端共享",
+          "title_zh": "Claude 记忆打通 Cowork 与聊天：背景一次说明，两端共享",
           "title_en": null,
-          "title_original": "印度 Airbound 造\"火箭形\"无人机：自重低于载重，要跟卡车拼货运成本",
-          "summary": null,
-          "recommend_reason_zh": "印度初创Airbound完成3700万美元A轮融资，其火箭形无人机自重低于载重，现款TRT仅1.5kg却能带1kg货，已完成超1.3万次飞行，计划以日均1万架次把空运成本压到与卡车相当。",
-          "url": "https://www.aibase.com/news/30608",
+          "title_original": "Claude 记忆打通 Cowork 与聊天：背景一次说明，两端共享",
+          "summary": "Anthropic announced an update to Claude Cowork's and chat function's memory mechanism, integrating the two systems' memories and managing them uniformly. The of\nAnthropic announced an update to Claude Cowork's and chat function's memory mechanism, integrating the two systems' memories and managing them uniformly. The of\nAnthropic announced an update to Claude Cowork's and chat function's memory mechanism, integrating the two systems' memories and managing them uniformly. The of\nExplore AI Fronti",
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30620",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-08-25T08:59:06.973321Z"
+          "published_at": "2026-08-26T03:38:59.710829Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7325,
-      "importance": 0.7325,
-      "importance_score": 0.7325,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8052,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance"
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-08-25T08:59:06.973321Z",
-      "latest_at": "2026-08-25T08:59:06.973321Z",
+      "earliest_at": "2026-08-26T03:38:59.710829Z",
+      "latest_at": "2026-08-26T03:38:59.710829Z",
       "primary_item": {
-        "id": "7fe31aaa6af2cbc02a828bf1cd9824f319ca2186",
-        "title": "印度 Airbound 造\"火箭形\"无人机：自重低于载重，要跟卡车拼货运成本",
-        "title_zh": "印度 Airbound 造\"火箭形\"无人机：自重低于载重，要跟卡车拼货运成本",
+        "id": "af0fc95266c31572566e3e423e81ae7fef73a31e",
+        "title": "Claude 记忆打通 Cowork 与聊天：背景一次说明，两端共享",
+        "title_zh": "Claude 记忆打通 Cowork 与聊天：背景一次说明，两端共享",
         "title_en": null,
-        "title_original": "印度 Airbound 造\"火箭形\"无人机：自重低于载重，要跟卡车拼货运成本",
-        "summary": null,
-        "recommend_reason_zh": "印度初创Airbound完成3700万美元A轮融资，其火箭形无人机自重低于载重，现款TRT仅1.5kg却能带1kg货，已完成超1.3万次飞行，计划以日均1万架次把空运成本压到与卡车相当。",
-        "url": "https://www.aibase.com/news/30608",
+        "title_original": "Claude 记忆打通 Cowork 与聊天：背景一次说明，两端共享",
+        "summary": "Anthropic announced an update to Claude Cowork's and chat function's memory mechanism, integrating the two systems' memories and managing them uniformly. The of\nAnthropic announced an update to Claude Cowork's and chat function's memory mechanism, integrating the two systems' memories and managing them uniformly. The of\nAnthropic announced an update to Claude Cowork's and chat function's memory mechanism, integrating the two systems' memories and managing them uniformly. The of\nExplore AI Fronti",
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/30620",
         "source": "AIbase",
         "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "概念货，没量产没价格，等真能下单再说。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-26T00:19:37.590967Z"
       }
     },
     {
-      "story_id": "story_f92e65dfe441",
-      "title": "LangChain 与 Airbyte 集成：让数据摄取达到生产级就绪 / Making Data Ingestion Production Ready： a LangChain-Powered Airbyte Destination",
-      "url": "https://www.langchain.com/blog/making-data-ingestion-production-ready-a-langchain-powered-airbyte-destination",
-      "primary_url": "https://www.langchain.com/blog/making-data-ingestion-production-ready-a-langchain-powered-airbyte-destination",
-      "source": "LangChain：Blog（RSS）",
-      "source_name": "AI HOT",
+      "story_id": "story_93a0e7b8cdf0",
+      "title": "Claude重磅升级：Cowork与日常聊天实现数据互通",
+      "url": "https://www.aibase.com/news/30617",
+      "primary_url": "https://www.aibase.com/news/30617",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "3482ceb1e522771993fee00f2bf7aeff1009b177",
-          "title": "LangChain 与 Airbyte 集成：让数据摄取达到生产级就绪 / Making Data Ingestion Production Ready： a LangChain-Powered Airbyte Destination",
-          "title_zh": "LangChain 与 Airbyte 集成：让数据摄取达到生产级就绪",
-          "title_en": "Making Data Ingestion Production Ready： a LangChain-Powered Airbyte Destination",
-          "title_original": "Making Data Ingestion Production Ready： a LangChain-Powered Airbyte Destination",
-          "summary": "LangChain 与 Airbyte 的集成方案旨在将检索应用扩展至生产环境。该方案通过调度、文本拆分和 50 多种嵌入模型实现数据摄取自动化，帮助开发者构建可规模化的生产级数据管道。",
-          "recommend_reason_zh": "本文介绍LangChain新增的Airbyte destination集成，实现数据摄入的调度与自动化，支持15+种文本分割方式和50+向量存储集成，为生产级检索应用提供可靠数据管道。",
-          "url": "https://www.langchain.com/blog/making-data-ingestion-production-ready-a-langchain-powered-airbyte-destination",
-          "source": "LangChain：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-25T21:12:53Z"
+          "id": "51da4e7bd2352cfab563bf96885a614ff4951f40",
+          "title": "Claude重磅升级：Cowork与日常聊天实现数据互通",
+          "title_zh": "Claude重磅升级：Cowork与日常聊天实现数据互通",
+          "title_en": null,
+          "title_original": "Claude重磅升级：Cowork与日常聊天实现数据互通",
+          "summary": "Anthropic has officially announced a comprehensive update to the memory mechanism of its Claude, successfully breaking down the barriers between Claude Cowork a\nAnthropic has officially announced a comprehensive update to the memory mechanism of its Claude, successfully breaking down the barriers between Claude Cowork a\nAnthropic has officially announced a comprehensive update to the memory mechanism of its Claude, successfully breaking down the barriers between Claude Cowork a\nExplore AI Fronti",
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30617",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-26T03:38:59.710829Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "LangChain：Blog（RSS）"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "3482ceb1e522771993fee00f2bf7aeff1009b177",
-          "title": "LangChain 与 Airbyte 集成：让数据摄取达到生产级就绪 / Making Data Ingestion Production Ready： a LangChain-Powered Airbyte Destination",
-          "title_zh": "LangChain 与 Airbyte 集成：让数据摄取达到生产级就绪",
-          "title_en": "Making Data Ingestion Production Ready： a LangChain-Powered Airbyte Destination",
-          "title_original": "Making Data Ingestion Production Ready： a LangChain-Powered Airbyte Destination",
-          "summary": "LangChain 与 Airbyte 的集成方案旨在将检索应用扩展至生产环境。该方案通过调度、文本拆分和 50 多种嵌入模型实现数据摄取自动化，帮助开发者构建可规模化的生产级数据管道。",
-          "recommend_reason_zh": "本文介绍LangChain新增的Airbyte destination集成，实现数据摄入的调度与自动化，支持15+种文本分割方式和50+向量存储集成，为生产级检索应用提供可靠数据管道。",
-          "url": "https://www.langchain.com/blog/making-data-ingestion-production-ready-a-langchain-powered-airbyte-destination",
-          "source": "LangChain：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-25T21:12:53Z"
+          "id": "51da4e7bd2352cfab563bf96885a614ff4951f40",
+          "title": "Claude重磅升级：Cowork与日常聊天实现数据互通",
+          "title_zh": "Claude重磅升级：Cowork与日常聊天实现数据互通",
+          "title_en": null,
+          "title_original": "Claude重磅升级：Cowork与日常聊天实现数据互通",
+          "summary": "Anthropic has officially announced a comprehensive update to the memory mechanism of its Claude, successfully breaking down the barriers between Claude Cowork a\nAnthropic has officially announced a comprehensive update to the memory mechanism of its Claude, successfully breaking down the barriers between Claude Cowork a\nAnthropic has officially announced a comprehensive update to the memory mechanism of its Claude, successfully breaking down the barriers between Claude Cowork a\nExplore AI Fronti",
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30617",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-26T03:38:59.710829Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7275,
-      "importance": 0.7275,
-      "importance_score": 0.7275,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.61,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9607,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance"
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-08-25T21:12:53Z",
-      "latest_at": "2026-08-25T21:12:53Z",
+      "earliest_at": "2026-08-26T03:38:59.710829Z",
+      "latest_at": "2026-08-26T03:38:59.710829Z",
       "primary_item": {
-        "id": "3482ceb1e522771993fee00f2bf7aeff1009b177",
-        "title": "LangChain 与 Airbyte 集成：让数据摄取达到生产级就绪 / Making Data Ingestion Production Ready： a LangChain-Powered Airbyte Destination",
-        "title_zh": "LangChain 与 Airbyte 集成：让数据摄取达到生产级就绪",
-        "title_en": "Making Data Ingestion Production Ready： a LangChain-Powered Airbyte Destination",
-        "title_original": "Making Data Ingestion Production Ready： a LangChain-Powered Airbyte Destination",
-        "summary": "LangChain 与 Airbyte 的集成方案旨在将检索应用扩展至生产环境。该方案通过调度、文本拆分和 50 多种嵌入模型实现数据摄取自动化，帮助开发者构建可规模化的生产级数据管道。",
-        "recommend_reason_zh": "本文介绍LangChain新增的Airbyte destination集成，实现数据摄入的调度与自动化，支持15+种文本分割方式和50+向量存储集成，为生产级检索应用提供可靠数据管道。",
-        "url": "https://www.langchain.com/blog/making-data-ingestion-production-ready-a-langchain-powered-airbyte-destination",
-        "source": "LangChain：Blog（RSS）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 62,
-      "persona_review": "LangChain 官方出 Airbyte 集成，做数据管线的能少写胶水代码，但先看文档再动手。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-26T00:19:37.590967Z"
-      }
-    },
-    {
-      "story_id": "story_33fb169ced44",
-      "title": "Dylan Patel：Anthropic 与 OpenAI 到 2028 年将控制全球大部分算力 / Dylan Patel - Anthropic & OpenAI will have most of the world's compute by 2028",
-      "url": "https://www.dwarkesh.com/p/dylan-patel-3",
-      "primary_url": "https://www.dwarkesh.com/p/dylan-patel-3",
-      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "5d63273982e062f7d8bb53aeac2027ff9a8ded8f",
-          "title": "Dylan Patel：Anthropic 与 OpenAI 到 2028 年将控制全球大部分算力 / Dylan Patel - Anthropic & OpenAI will have most of the world's compute by 2028",
-          "title_zh": "Dylan Patel：Anthropic 与 OpenAI 到 2028 年将控制全球大部分算力",
-          "title_en": "Dylan Patel - Anthropic & OpenAI will have most of the world's compute by 2028",
-          "title_original": "Dylan Patel - Anthropic & OpenAI will have most of the world's compute by 2028",
-          "summary": "在最新一期播客中，SemiAnalysis 创始人 Dylan Patel 与 Dwarkesh Patel 讨论实验室经济学，预计 Anthropic 和 OpenAI 到 2028 年将控制全球大部分可用 FLOPs，因其能更好变现算力并出价高于其他方。",
-          "recommend_reason_zh": null,
-          "url": "https://www.dwarkesh.com/p/dylan-patel-3",
-          "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-25T15:32:57Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Dwarkesh Patel：Podcast & Blog（RSS）"
-      ],
-      "items": [
-        {
-          "id": "5d63273982e062f7d8bb53aeac2027ff9a8ded8f",
-          "title": "Dylan Patel：Anthropic 与 OpenAI 到 2028 年将控制全球大部分算力 / Dylan Patel - Anthropic & OpenAI will have most of the world's compute by 2028",
-          "title_zh": "Dylan Patel：Anthropic 与 OpenAI 到 2028 年将控制全球大部分算力",
-          "title_en": "Dylan Patel - Anthropic & OpenAI will have most of the world's compute by 2028",
-          "title_original": "Dylan Patel - Anthropic & OpenAI will have most of the world's compute by 2028",
-          "summary": "在最新一期播客中，SemiAnalysis 创始人 Dylan Patel 与 Dwarkesh Patel 讨论实验室经济学，预计 Anthropic 和 OpenAI 到 2028 年将控制全球大部分可用 FLOPs，因其能更好变现算力并出价高于其他方。",
-          "recommend_reason_zh": null,
-          "url": "https://www.dwarkesh.com/p/dylan-patel-3",
-          "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-25T15:32:57Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7229,
-      "importance": 0.7229,
-      "importance_score": 0.7229,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.64,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8853,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-25T15:32:57Z",
-      "latest_at": "2026-08-25T15:32:57Z",
-      "primary_item": {
-        "id": "5d63273982e062f7d8bb53aeac2027ff9a8ded8f",
-        "title": "Dylan Patel：Anthropic 与 OpenAI 到 2028 年将控制全球大部分算力 / Dylan Patel - Anthropic & OpenAI will have most of the world's compute by 2028",
-        "title_zh": "Dylan Patel：Anthropic 与 OpenAI 到 2028 年将控制全球大部分算力",
-        "title_en": "Dylan Patel - Anthropic & OpenAI will have most of the world's compute by 2028",
-        "title_original": "Dylan Patel - Anthropic & OpenAI will have most of the world's compute by 2028",
-        "summary": "在最新一期播客中，SemiAnalysis 创始人 Dylan Patel 与 Dwarkesh Patel 讨论实验室经济学，预计 Anthropic 和 OpenAI 到 2028 年将控制全球大部分可用 FLOPs，因其能更好变现算力并出价高于其他方。",
+        "id": "51da4e7bd2352cfab563bf96885a614ff4951f40",
+        "title": "Claude重磅升级：Cowork与日常聊天实现数据互通",
+        "title_zh": "Claude重磅升级：Cowork与日常聊天实现数据互通",
+        "title_en": null,
+        "title_original": "Claude重磅升级：Cowork与日常聊天实现数据互通",
+        "summary": "Anthropic has officially announced a comprehensive update to the memory mechanism of its Claude, successfully breaking down the barriers between Claude Cowork a\nAnthropic has officially announced a comprehensive update to the memory mechanism of its Claude, successfully breaking down the barriers between Claude Cowork a\nAnthropic has officially announced a comprehensive update to the memory mechanism of its Claude, successfully breaking down the barriers between Claude Cowork a\nExplore AI Fronti",
         "recommend_reason_zh": null,
-        "url": "https://www.dwarkesh.com/p/dylan-patel-3",
-        "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-        "source_name": "AI HOT"
+        "url": "https://www.aibase.com/news/30617",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_c8633ab3e5f7",
+      "title": "OpenAI自研Jalapeno芯片曝光：性能测试全面反超GB300",
+      "url": "https://www.aibase.com/news/30612",
+      "primary_url": "https://www.aibase.com/news/30612",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "3f49dc0298aba80744e4fd094e68222f01aa18c9",
+          "title": "OpenAI自研Jalapeno芯片曝光：性能测试全面反超GB300",
+          "title_zh": "OpenAI自研Jalapeno芯片曝光：性能测试全面反超GB300",
+          "title_en": null,
+          "title_original": "OpenAI自研Jalapeno芯片曝光：性能测试全面反超GB300",
+          "summary": "At a time when the global computing power landscape is undergoing profound reshaping, AI giants are accelerating their efforts to reduce reliance on single hard\nAt a time when the global computing power landscape is undergoing profound reshaping, AI giants are accelerating their efforts to reduce reliance on single hard\nAt a time when the global computing power landscape is undergoing profound reshaping, AI giants are accelerating their efforts to reduce reliance on single hard\nExplore AI Fronti",
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30612",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-26T03:38:59.710829Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "3f49dc0298aba80744e4fd094e68222f01aa18c9",
+          "title": "OpenAI自研Jalapeno芯片曝光：性能测试全面反超GB300",
+          "title_zh": "OpenAI自研Jalapeno芯片曝光：性能测试全面反超GB300",
+          "title_en": null,
+          "title_original": "OpenAI自研Jalapeno芯片曝光：性能测试全面反超GB300",
+          "summary": "At a time when the global computing power landscape is undergoing profound reshaping, AI giants are accelerating their efforts to reduce reliance on single hard\nAt a time when the global computing power landscape is undergoing profound reshaping, AI giants are accelerating their efforts to reduce reliance on single hard\nAt a time when the global computing power landscape is undergoing profound reshaping, AI giants are accelerating their efforts to reduce reliance on single hard\nExplore AI Fronti",
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30612",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-26T03:38:59.710829Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
       },
-      "persona_id": "pragmatic",
-      "persona_score": 25,
-      "persona_review": "算力集中是趋势，但离你写代码很远，等真影响定价再看。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-08-26T00:19:37.590967Z"
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-26T03:38:59.710829Z",
+      "latest_at": "2026-08-26T03:38:59.710829Z",
+      "primary_item": {
+        "id": "3f49dc0298aba80744e4fd094e68222f01aa18c9",
+        "title": "OpenAI自研Jalapeno芯片曝光：性能测试全面反超GB300",
+        "title_zh": "OpenAI自研Jalapeno芯片曝光：性能测试全面反超GB300",
+        "title_en": null,
+        "title_original": "OpenAI自研Jalapeno芯片曝光：性能测试全面反超GB300",
+        "summary": "At a time when the global computing power landscape is undergoing profound reshaping, AI giants are accelerating their efforts to reduce reliance on single hard\nAt a time when the global computing power landscape is undergoing profound reshaping, AI giants are accelerating their efforts to reduce reliance on single hard\nAt a time when the global computing power landscape is undergoing profound reshaping, AI giants are accelerating their efforts to reduce reliance on single hard\nExplore AI Fronti",
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/30612",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_ca9e0be58fae",
+      "title": "Stability AI 完成 7600 万美元 B 轮：EA 与三大唱片巨头齐押注",
+      "url": "https://www.aibase.com/news/30627",
+      "primary_url": "https://www.aibase.com/news/30627",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "970deee819eb74f62f66cf1aa3fb7d948e150dc1",
+          "title": "Stability AI 完成 7600 万美元 B 轮：EA 与三大唱片巨头齐押注",
+          "title_zh": "Stability AI 完成 7600 万美元 B 轮：EA 与三大唱片巨头齐押注",
+          "title_en": null,
+          "title_original": "Stability AI 完成 7600 万美元 B 轮：EA 与三大唱片巨头齐押注",
+          "summary": "Stability AI announced on the 25th in California time that it has completed a $76 million Series B funding round. The funds will be used to drive the developmen\nStability AI announced on the 25th in California time that it has completed a $76 million Series B funding round. The funds will be used to drive the developmen\nStability AI announced on the 25th in California time that it has completed a $76 million Series B funding round. The funds will be used to drive the developmen\nExplore AI Fronti",
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30627",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-26T03:38:59.710829Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "970deee819eb74f62f66cf1aa3fb7d948e150dc1",
+          "title": "Stability AI 完成 7600 万美元 B 轮：EA 与三大唱片巨头齐押注",
+          "title_zh": "Stability AI 完成 7600 万美元 B 轮：EA 与三大唱片巨头齐押注",
+          "title_en": null,
+          "title_original": "Stability AI 完成 7600 万美元 B 轮：EA 与三大唱片巨头齐押注",
+          "summary": "Stability AI announced on the 25th in California time that it has completed a $76 million Series B funding round. The funds will be used to drive the developmen\nStability AI announced on the 25th in California time that it has completed a $76 million Series B funding round. The funds will be used to drive the developmen\nStability AI announced on the 25th in California time that it has completed a $76 million Series B funding round. The funds will be used to drive the developmen\nExplore AI Fronti",
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30627",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-26T03:38:59.710829Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-26T03:38:59.710829Z",
+      "latest_at": "2026-08-26T03:38:59.710829Z",
+      "primary_item": {
+        "id": "970deee819eb74f62f66cf1aa3fb7d948e150dc1",
+        "title": "Stability AI 完成 7600 万美元 B 轮：EA 与三大唱片巨头齐押注",
+        "title_zh": "Stability AI 完成 7600 万美元 B 轮：EA 与三大唱片巨头齐押注",
+        "title_en": null,
+        "title_original": "Stability AI 完成 7600 万美元 B 轮：EA 与三大唱片巨头齐押注",
+        "summary": "Stability AI announced on the 25th in California time that it has completed a $76 million Series B funding round. The funds will be used to drive the developmen\nStability AI announced on the 25th in California time that it has completed a $76 million Series B funding round. The funds will be used to drive the developmen\nStability AI announced on the 25th in California time that it has completed a $76 million Series B funding round. The funds will be used to drive the developmen\nExplore AI Fronti",
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/30627",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     }
   ]

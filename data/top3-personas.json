@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T00:19:37.591127Z",
+  "generated_at": "2026-08-26T03:50:43.766853Z",
   "model": "deepseek-chat",
   "personas": [
     {
@@ -17,50 +17,10 @@
   ],
   "items": [
     {
-      "story_id": "story_55a2613433ab",
-      "title": "通过Gmail、Slack和GitHub事件触发定时任务 / Trigger scheduled tasks from Gmail, Slack, and GitHub events",
-      "url": "https://developers.openai.com/codex/changelog",
-      "rank": 1,
-      "reviews": {
-        "cynic": {
-          "score": 72,
-          "review": "Codex 终于学会看邮件和仓库了，但定时任务这功能，GitHub Actions 早玩腻了。"
-        },
-        "paper-police": {
-          "score": 35,
-          "review": "官方更新但无技术细节，无代码无评测，仅凭 changelog 难证实效。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "Codex 能接 Gmail/Slack/GitHub 触发任务，自动化场景今天就能配。"
-        }
-      }
-    },
-    {
-      "story_id": "story_4af25ba10386",
-      "title": "为 ChatGPT Work 和 Codex 推出 Admin 插件 / Introducing the Admin plugin for ChatGPT Work and Codex",
-      "url": "https://openai.com/index/introducing-admin-plugin",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 70,
-          "review": "Admin插件是刚需，但别指望它解决所有权限混乱，先看看文档再说。"
-        },
-        "paper-police": {
-          "score": 30,
-          "review": "官方博客宣称新插件，无论文无代码无评测，仅凭介绍难证实效。"
-        },
-        "pragmatic": {
-          "score": 75,
-          "review": "团队管理ChatGPT Work和Codex的权限与审计，今天就能用上。"
-        }
-      }
-    },
-    {
       "story_id": "story_4b7b151c884e",
       "title": "2025-03-21\n如何在生产环境前评估 LLM / How to evaluate LLMs before production",
       "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production",
-      "rank": 3,
+      "rank": 1,
       "reviews": {
         "cynic": {
           "score": 72,
@@ -73,6 +33,38 @@
         "pragmatic": {
           "score": 72,
           "review": "评估方法论有实操价值，但无新工具，按需参考。"
+        }
+      }
+    },
+    {
+      "story_id": "story_72c69d1ef3c2",
+      "title": "GitHub Copilot 应用 Customize 标签页正式发布 / GitHub Copilot app Customize tab is generally available",
+      "url": "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available",
+      "rank": 2,
+      "reviews": {
+        "pragmatic": {
+          "score": 72,
+          "review": "Copilot 自定义标签转正，能调模型和指令，今天就能改配置提效。"
+        }
+      }
+    },
+    {
+      "story_id": "story_b95e33dbd1e9",
+      "title": "Jalapeño 首批结果显示，AI 推理速度与效率均达行业领先水平 / Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "url": "https://openai.com/index/jalapeno-first-results",
+      "rank": 3,
+      "reviews": {
+        "cynic": {
+          "score": 72,
+          "review": "速度效率领先？先晒出对比基线和完整基准，别只给结论。"
+        },
+        "paper-police": {
+          "score": 30,
+          "review": "官方博客宣称领先，无论文无代码无第三方评测，证据不足。"
+        },
+        "pragmatic": {
+          "score": 72,
+          "review": "推理性能新标杆，但没给API或开源，先观望等开放。"
         }
       }
     }
