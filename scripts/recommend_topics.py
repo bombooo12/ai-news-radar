@@ -26,10 +26,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 CONFIG_DIR = os.path.join(BASE_DIR, 'config')
 
-# DeepSeek API
-DEEPSEEK_API_KEY = os.environ.get('DEEPSEEK_API_KEY', '')
-DEEPSEEK_API_URL = 'https://api.deepseek.com/v1/chat/completions'
-DEEPSEEK_MODEL = 'deepseek-chat'
+# SiliconFlow API (cheaper than DeepSeek direct)
+DEEPSEEK_API_KEY = os.environ.get('SILICONFLOW_API_KEY', '') or os.environ.get('DEEPSEEK_API_KEY', '')
+DEEPSEEK_API_URL = 'https://api.siliconflow.cn/v1/chat/completions'
+DEEPSEEK_MODEL = 'deepseek-ai/DeepSeek-V4-Flash'
 
 # 优化参数
 TRACK_SCORE_THRESHOLD = 3      # 赛道评分阈值（从2提到3）
@@ -355,9 +355,9 @@ def build_prompt(track_groups, capacity_profile, feedback_analysis, track_config
 
 
 def call_deepseek(prompt):
-    """调用 DeepSeek API（温度降到0.5）"""
+    """调用 SiliconFlow API（DeepSeek-V4-Flash via SiliconFlow）"""
     if not DEEPSEEK_API_KEY:
-        print('Warning: DEEPSEEK_API_KEY not set, skipping LLM recommendation')
+        print('Warning: Neither SILICONFLOW_API_KEY nor DEEPSEEK_API_KEY set, skipping LLM recommendation')
         return None
 
     headers = {
