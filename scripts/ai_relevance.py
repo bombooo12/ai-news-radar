@@ -144,11 +144,20 @@ MULTI_TRACK_KEYWORDS = [
     "ai动画", "ai animation", "剪映", "capcut", "davinci", "video editing", "视频剪辑",
     "ai绘画", "ai art", "ai design", "ai visual", "即梦", "通义万相",
     "short video", "短视频", "ai短剧", "ai drama", "ai movie", "ai film", "短剧", "剧情向",
+    # 设计/视觉包装（AI视频赛道素材）
+    "product design", "industrial design", "3d printing", "3d printer", "3d打印",
+    "concept design", "furniture design", "prototype", "gadget", "工业设计", "产品设计",
     # 个人成长/副业变现
     "副业", "变现", "赚钱", "side hustle", "passive income", "make money", "earn money",
     "副业收入", "个人成长", "效率", "productivity", "self-improvement",
     "创业", "startup", "独立开发", "indie", "freelance", "自由职业",
     "个人ip", "个人品牌", "知识付费", "私域", "社群", "entrepreneur", "financial independence",
+    # 个人理财/金钱管理（副业变现赛道）
+    "credit card", "credit score", "debt", "savings", "mortgage",
+    "retirement", "budget", "personal finance", "financial planning", "money management",
+    "net worth", "401k", "investing", "stock market", "dividend",
+    "portfolio", "cash flow", "paycheck", "wealth", "loan",
+    "interest rate", "理财", "储蓄", "退休金", "预算", "财富", "贷款", "债务", "省钱", "存钱", "记账",
     # 自媒体/创作者经济
     "创作者经济", "creator economy", "自媒体", "内容创作", "content creator", "influencer",
     "涨粉", "流量", "运营策略", "算法推荐", "youtube", "tiktok", "抖音", "小红书", "知乎",
@@ -463,3 +472,4 @@ def add_ai_relevance_fields(record: dict[str, Any]) -> dict[str, Any]:
     out["ai_signals"] = relevance["signals"]
     out["ai_noise"] = relevance["noise"]
     return out
+
