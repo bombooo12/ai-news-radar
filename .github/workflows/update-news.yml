@@ -103,26 +103,13 @@ jobs:
           DEEPSEEK_API_BASE_URL: ${{ vars.DEEPSEEK_API_BASE_URL }}
           DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL }}
           TITLE_ENHANCE_MAX_PER_RUN: ${{ vars.TITLE_ENHANCE_MAX_PER_RUN }}
+          REASON_ENHANCE_MAX_PER_RUN: ${{ vars.REASON_ENHANCE_MAX_PER_RUN }}
         run: |
           if [ -f feeds/follow.opml ]; then
             python scripts/update_news.py --output-dir data --window-hours 24 --archive-days 21 --rss-opml feeds/follow.opml --rss-max-feeds "${RSS_MAX_FEEDS:-10}"
           else
             python scripts/update_news.py --output-dir data --window-hours 24 --archive-days 21
           fi
-
-      - name: Persona scoring
-        env:
-          SILICONFLOW_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
-          DEEPSEEK_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
-          DEEPSEEK_API_BASE_URL: ${{ vars.DEEPSEEK_API_BASE_URL }}
-          DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL }}
-        run: python scripts/persona_score.py --data-dir data
-
-      - name: Generate topic recommendations
-        env:
-          SILICONFLOW_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
-          DEEPSEEK_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
-        run: python scripts/recommend_topics.py
 
       - name: Commit and push changes
         env:
