@@ -106,7 +106,7 @@ jobs:
           REASON_ENHANCE_MAX_PER_RUN: ${{ vars.REASON_ENHANCE_MAX_PER_RUN }}
         run: |
           if [ -f feeds/follow.opml ]; then
-            python scripts/update_news.py --output-dir data --window-hours 24 --archive-days 21 --rss-opml feeds/follow.opml --rss-max-feeds "${RSS_MAX_FEEDS:-10}"
+            python scripts/update_news.py --output-dir data --window-hours 24 --archive-days 21 --rss-opml feeds/follow.opml --rss-max-feeds "${RSS_MAX_FEEDS:-10}" --translate-max-new 0 --translate-max-new-broad 0
           else
             python scripts/update_news.py --output-dir data --window-hours 24 --archive-days 21
           fi
