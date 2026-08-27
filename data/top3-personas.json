@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T06:54:10.407124Z",
+  "generated_at": "2026-08-27T10:32:28.039286Z",
   "model": "deepseek-ai/DeepSeek-V4-Flash",
   "personas": [
     {
@@ -25,6 +25,10 @@
         "cynic": {
           "score": 70,
           "review": "开源是真，但AA指数自家定的吧？定价对标Opus 4.8，怎么不跟同档Flash比？"
+        },
+        "paper-police": {
+          "score": 25,
+          "review": "宣称开源但未附仓库，AA指数无第三方验证，定价对比缺实测。"
         },
         "pragmatic": {
           "score": 92,
@@ -61,6 +65,10 @@
         "cynic": {
           "score": 72,
           "review": "转写模型不新鲜，先晒噪音和口音下的错误率再吹精度。"
+        },
+        "paper-police": {
+          "score": 45,
+          "review": "官方博客给了细节和数字，但未开源无独立验证，等第三方跑分再定论。"
         },
         "pragmatic": {
           "score": 88,

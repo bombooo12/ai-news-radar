@@ -1,102 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_f1559602cda7|pragmatic|0a5c5b24": {
-      "score": 90,
-      "review": "新模型已上线，价格便宜且文本准确率高，适合做图像生成任务的今天就能换。",
-      "title_hash": "e29c528a",
-      "scored_at": "2026-08-06T06:58:58.063261Z"
-    },
-    "story_c2e060323a54|pragmatic|0a5c5b24": {
-      "score": 52,
-      "review": "研究阶段无开源，技能迁移虽好但今天用不上，等仓库放出再动手。",
-      "title_hash": "adc3d23b",
-      "scored_at": "2026-08-06T06:59:00.225252Z"
-    },
-    "story_e08c8df1529a|pragmatic|0a5c5b24": {
-      "score": 88,
-      "review": "开源可自部署，零代码搭工作流，行政运营也能直接上手。",
-      "title_hash": "1287059a",
-      "scored_at": "2026-08-06T06:59:02.327158Z"
-    },
-    "story_1ae472a11fb3|pragmatic|0a5c5b24": {
-      "score": 62,
-      "review": "看清单里有没有直接能装的开源工具，有就上手，没有就存书签。",
-      "title_hash": "f42bf571",
-      "scored_at": "2026-08-06T06:59:05.104525Z"
-    },
-    "story_fd08786c144e|pragmatic|0a5c5b24": {
-      "score": 42,
-      "review": "团队整合是内部事，不影响现有API，等产品落地再看。",
-      "title_hash": "7d1dd1dc",
-      "scored_at": "2026-08-06T06:59:07.506438Z"
-    },
-    "story_542d79e4e679|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "品牌公关事件，与动手无关，AI从业者看看即可。",
-      "title_hash": "d812a5ce",
-      "scored_at": "2026-08-06T06:59:09.681158Z"
-    },
-    "story_f1559602cda7|cynic|f4237a62": {
-      "score": 45,
-      "review": "100%准确率是自家测试集吧？0.03美元怕不是只够出缩略图。",
-      "title_hash": "e29c528a",
-      "scored_at": "2026-08-06T06:59:13.003484Z"
-    },
-    "story_f1559602cda7|paper-police|966065bf": {
-      "score": 25,
-      "review": "只有官方推文宣称性能，无论文无代码无测评，等公开细节再验证。",
-      "title_hash": "e29c528a",
-      "scored_at": "2026-08-06T06:59:15.630713Z"
-    },
-    "story_e08c8df1529a|cynic|f4237a62": {
-      "score": 72,
-      "review": "开源算实诚，但“每个员工零代码”通常意味着文档得先读三遍。",
-      "title_hash": "1287059a",
-      "scored_at": "2026-08-06T06:59:17.975244Z"
-    },
-    "story_e08c8df1529a|paper-police|966065bf": {
-      "score": 20,
-      "review": "标题称开源但无仓库链接无评测，需见代码库和复现结果。",
-      "title_hash": "1287059a",
-      "scored_at": "2026-08-06T06:59:20.776483Z"
-    },
-    "story_78bbd823731f|pragmatic|0a5c5b24": {
-      "score": 52,
-      "review": "论文提醒调对齐时别养出马屁精，但今天改不了代码。",
-      "title_hash": "864a5b84",
-      "scored_at": "2026-08-06T10:19:36.328890Z"
-    },
-    "story_51f2c00be5de|pragmatic|0a5c5b24": {
-      "score": 50,
-      "review": "安全测试提醒代理有欺骗风险，但无具体应对工具，暂不用动。",
-      "title_hash": "880a4588",
-      "scored_at": "2026-08-06T10:19:38.704472Z"
-    },
-    "story_0ff9092054f2|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "百亿大单是资本层面的热闹，不写代码不调API，等真有产品出来再看。",
-      "title_hash": "980fb383",
-      "scored_at": "2026-08-06T10:19:40.588546Z"
-    },
-    "story_39a19f5870bc|pragmatic|0a5c5b24": {
-      "score": 30,
-      "review": "口水战不写代码，等判决结果再评估影响。",
-      "title_hash": "cb034ed5",
-      "scored_at": "2026-08-06T10:19:41.951340Z"
-    },
-    "story_0e6536a40e43|cynic|f4237a62": {
-      "score": 75,
-      "review": "急着把AI功能塞进产品，安全测试倒是没跟上，老戏码了。",
-      "title_hash": "0a238809",
-      "scored_at": "2026-08-06T10:19:45.957286Z"
-    },
-    "story_0e6536a40e43|paper-police|966065bf": {
-      "score": 50,
-      "review": "安全公司披露了细节，但无公开PoC和独立验证，等复现或官方确认。",
-      "title_hash": "0a238809",
-      "scored_at": "2026-08-06T10:19:50.964307Z"
-    },
     "story_432a238f42d9|pragmatic|0a5c5b24": {
       "score": 25,
       "review": "上市定价和估值不影响你调模型，等产品出价格再看。",
@@ -5214,6 +5118,66 @@
       "review": "转写模型不新鲜，先晒噪音和口音下的错误率再吹精度。",
       "title_hash": "d74d210b",
       "scored_at": "2026-08-27T06:53:06.977500Z"
+    },
+    "story_719767637d52|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "照着配一遍就能省下手动分类PR的时间，适合维护多仓库的团队。",
+      "title_hash": "95a8899d",
+      "scored_at": "2026-08-27T10:29:39.431458Z"
+    },
+    "story_6e7dda5dd069|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "组织管理员可统一管控模型使用，今天就能配置策略。",
+      "title_hash": "db413f30",
+      "scored_at": "2026-08-27T10:29:53.130719Z"
+    },
+    "story_2823a4c3156a|pragmatic|0a5c5b24": {
+      "score": 78,
+      "review": "网页自动化操作直接可用，Claude 用户今天就能上手省手工。",
+      "title_hash": "a8055539",
+      "scored_at": "2026-08-27T10:30:24.247357Z"
+    },
+    "story_46274b6bb0f3|pragmatic|0a5c5b24": {
+      "score": 50,
+      "review": "宏观数据好看，但没给具体接口或工具，开发者不用行动。",
+      "title_hash": "d6e12684",
+      "scored_at": "2026-08-27T10:30:34.311555Z"
+    },
+    "story_941f5251b628|pragmatic|0a5c5b24": {
+      "score": 65,
+      "review": "语音操控全家桶对普通用户省事，但没开放API，开发者暂时用不上。",
+      "title_hash": "a991d2ca",
+      "scored_at": "2026-08-27T10:30:51.137056Z"
+    },
+    "story_51b4e0ab40fc|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "Flash版通常便宜快，若API已开放可直接换，先看文档。",
+      "title_hash": "484475dd",
+      "scored_at": "2026-08-27T10:31:10.394582Z"
+    },
+    "story_b7149ac74a3e|pragmatic|0a5c5b24": {
+      "score": 52,
+      "review": "芯片供需紧张可能推高云成本，但今天没有直接可用的动作。",
+      "title_hash": "933ceda5",
+      "scored_at": "2026-08-27T10:31:22.184908Z"
+    },
+    "story_0d7369bae4aa|pragmatic|0a5c5b24": {
+      "score": 60,
+      "review": "用C2PA做内容验证的注意了，Android端可被root绕过，别把它当绝对信任。",
+      "title_hash": "a848fde6",
+      "scored_at": "2026-08-27T10:31:49.457730Z"
+    },
+    "story_741a74c53da2|paper-police|966065bf": {
+      "score": 25,
+      "review": "宣称开源但未附仓库，AA指数无第三方验证，定价对比缺实测。",
+      "title_hash": "41144bfd",
+      "scored_at": "2026-08-27T10:32:04.757185Z"
+    },
+    "story_93586c9b901c|paper-police|966065bf": {
+      "score": 45,
+      "review": "官方博客给了细节和数字，但未开源无独立验证，等第三方跑分再定论。",
+      "title_hash": "d74d210b",
+      "scored_at": "2026-08-27T10:32:28.039229Z"
     }
   }
 }
