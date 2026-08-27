@@ -4,8 +4,7 @@
     <title>Multi-Track AI News Radar RSS</title>
   </head>
   <body>
-    <!-- ============ AI技术赛道（原有33个源保留） ============ -->
-    <!-- 原始示例源 -->
+    <!-- ============ AI技术赛道 ============ -->
     <outline text="OpenAI News" type="rss" xmlUrl="https://openai.com/news/rss.xml" />
     <outline text="Hugging Face Blog" type="rss" xmlUrl="https://huggingface.co/blog/feed.xml" />
     <outline text="Google DeepMind Blog" type="rss" xmlUrl="https://deepmind.google/blog/rss.xml" />
@@ -16,8 +15,6 @@
     <outline text="NVIDIA Generative AI Blog" type="rss" xmlUrl="https://developer.nvidia.com/blog/category/generative-ai/feed/" />
     <outline text="宝玉" type="rss" xmlUrl="https://baoyu.io/feed.xml" />
     <outline text="Simon Willison" type="rss" xmlUrl="https://simonwillison.net/atom/everything/" />
-
-    <!-- Agent 框架 -->
     <outline text="LangChain Releases" type="rss" xmlUrl="https://github.com/langchain-ai/langchain/releases.atom" />
     <outline text="LangGraph Releases" type="rss" xmlUrl="https://github.com/langchain-ai/langgraph/releases.atom" />
     <outline text="CrewAI Releases" type="rss" xmlUrl="https://github.com/crewAIInc/crewAI/releases.atom" />
@@ -26,60 +23,52 @@
     <outline text="LlamaIndex Releases" type="rss" xmlUrl="https://github.com/run-llama/llama_index/releases.atom" />
     <outline text="Phidata Releases" type="rss" xmlUrl="https://github.com/phidatahq/phidata/releases.atom" />
     <outline text="Semantic Kernel Releases" type="rss" xmlUrl="https://github.com/microsoft/semantic-kernel/releases.atom" />
-
-    <!-- AI 绘图/设计 -->
     <outline text="ComfyUI Releases" type="rss" xmlUrl="https://github.com/comfyanonymous/ComfyUI/releases.atom" />
     <outline text="SD WebUI Releases" type="rss" xmlUrl="https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases.atom" />
     <outline text="Fooocus Releases" type="rss" xmlUrl="https://github.com/lllyasviel/Fooocus/releases.atom" />
     <outline text="InvokeAI Releases" type="rss" xmlUrl="https://github.com/invoke-ai/InvokeAI/releases.atom" />
-
-    <!-- 本地部署 AI -->
     <outline text="Ollama Releases" type="rss" xmlUrl="https://github.com/ollama/ollama/releases.atom" />
     <outline text="LocalAI Releases" type="rss" xmlUrl="https://github.com/mudler/LocalAI/releases.atom" />
     <outline text="LM Studio Updates" type="rss" xmlUrl="https://github.com/lmstudio-ai/lms/commits.atom" />
-
-    <!-- AI 推理/服务 -->
     <outline text="vLLM Releases" type="rss" xmlUrl="https://github.com/vllm-project/vllm/releases.atom" />
     <outline text="LiteLLM Releases" type="rss" xmlUrl="https://github.com/BerriAI/litellm/releases.atom" />
     <outline text="Gradio Releases" type="rss" xmlUrl="https://github.com/gradio-app/gradio/releases.atom" />
-
-    <!-- 提示词/学习 -->
     <outline text="OpenAI Cookbook Updates" type="rss" xmlUrl="https://github.com/openai/openai-cookbook/commits.atom" />
     <outline text="Anthropic Cookbook Updates" type="rss" xmlUrl="https://github.com/anthropics/anthropic-cookbook/commits.atom" />
     <outline text="Prompt Engineering Guide" type="rss" xmlUrl="https://github.com/dair-ai/Prompt-Engineering-Guide/commits.atom" />
-
-    <!-- AI 媒体/综合 -->
     <outline text="MIT Tech Review" type="rss" xmlUrl="https://www.technologyreview.com/feed/" />
     <outline text="404 Media" type="rss" xmlUrl="https://www.404media.co/rss/" />
 
     <!-- ============ AI视频/剪辑包装赛道 ============ -->
-    <outline text="r/RunwayML" type="rss" xmlUrl="https://www.reddit.com/r/RunwayML/.rss" />
-    <outline text="r/singularity" type="rss" xmlUrl="https://www.reddit.com/r/singularity/.rss" />
+    <outline text="量子位" type="rss" xmlUrl="https://www.qbitai.com/feed" />
     <outline text="Runway SDK Releases" type="rss" xmlUrl="https://github.com/runwayml/sdk-node/releases.atom" />
     <outline text="Synced Review" type="rss" xmlUrl="https://syncedreview.com/feed/" />
-    <outline text="36kr" type="rss" xmlUrl="https://36kr.com/feed" />
+    <outline text="ToolsDar AI" type="rss" xmlUrl="https://toolsdar.io/feed/rss" />
+    <outline text="Apatero Blog" type="rss" xmlUrl="https://apatero.com/rss.xml" />
+    <outline text="Agentic Brew" type="rss" xmlUrl="https://www.agenticbrew.ai/feed/all.xml" />
+    <outline text="Fast Company AI" type="rss" xmlUrl="https://www.fastcompany.com/section/artificial-intelligence/rss" />
     <outline text="少数派" type="rss" xmlUrl="https://sspai.com/feed" />
     <outline text="极客公园" type="rss" xmlUrl="https://www.geekpark.net/rss" />
     <outline text="爱范儿" type="rss" xmlUrl="https://www.ifanr.com/feed" />
 
     <!-- ============ 个人成长/副业变现赛道 ============ -->
-    <outline text="r/Entrepreneur" type="rss" xmlUrl="https://www.reddit.com/r/Entrepreneur/.rss" />
-    <outline text="r/SideHustle" type="rss" xmlUrl="https://www.reddit.com/r/SideHustle/.rss" />
-    <outline text="r/smallbusiness" type="rss" xmlUrl="https://www.reddit.com/r/smallbusiness/.rss" />
-    <outline text="r/FinancialIndependence" type="rss" xmlUrl="https://www.reddit.com/r/FinancialIndependence/.rss" />
-    <outline text="Shopify Blog" type="rss" xmlUrl="https://www.shopify.com/blog/rss" />
+    <outline text="Side Hustle Nation" type="rss" xmlUrl="https://www.sidehustlenation.com/feed/" />
+    <outline text="Ryan Robinson" type="rss" xmlUrl="https://www.ryrob.com/feed/" />
+    <outline text="Financial Samurai" type="rss" xmlUrl="https://www.financialsamurai.com/feed/" />
+    <outline text="StartupNation" type="rss" xmlUrl="https://startupnation.com/feed/" />
+    <outline text="Money Crashers" type="rss" xmlUrl="https://www.moneycrashers.com/feed/" />
+    <outline text="36氪" type="rss" xmlUrl="https://www.36kr.com/feed" />
 
     <!-- ============ 自媒体/创作者经济赛道 ============ -->
-    <outline text="r/ContentCreators" type="rss" xmlUrl="https://www.reddit.com/r/ContentCreators/.rss" />
-    <outline text="r/YouTube" type="rss" xmlUrl="https://www.reddit.com/r/YouTube/.rss" />
-    <outline text="r/NewTubers" type="rss" xmlUrl="https://www.reddit.com/r/NewTubers/.rss" />
-    <outline text="r/socialmedia" type="rss" xmlUrl="https://www.reddit.com/r/socialmedia/.rss" />
-    <outline text="r/TikTok" type="rss" xmlUrl="https://www.reddit.com/r/TikTok/.rss" />
     <outline text="YouTube Blog" type="rss" xmlUrl="https://blog.youtube/rss/" />
+    <outline text="Social Media Today" type="rss" xmlUrl="https://www.socialmediatoday.com/feeds/news" />
+    <outline text="Social Media Examiner" type="rss" xmlUrl="https://www.socialmediaexaminer.com/feed/" />
+    <outline text="Buffer Resources" type="rss" xmlUrl="https://buffer.com/resources/feed/" />
+    <outline text="Digiday" type="rss" xmlUrl="https://digiday.com/feed/" />
+    <outline text="Influencer Marketing Hub" type="rss" xmlUrl="https://influencermarketinghub.com/feed/" />
 
     <!-- ============ 商标/IP/创业赛道 ============ -->
-    <outline text="r/law" type="rss" xmlUrl="https://www.reddit.com/r/law/.rss" />
-    <outline text="TrademarkEngine Blog" type="rss" xmlUrl="https://www.trademarkengine.com/blog/feed/" />
-    <outline text="VakilSearch Blog" type="rss" xmlUrl="https://vakilsearch.com/blog/rss/" />
+    <outline text="Patently-O" type="rss" xmlUrl="https://patentlyo.com/feed" />
+    <outline text="Carson Patents" type="rss" xmlUrl="https://carsonpatents.com/feed" />
   </body>
 </opml>
