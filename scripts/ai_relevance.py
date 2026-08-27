@@ -138,14 +138,26 @@ BROAD_AI_TERMS = {"agent", "模型", "推理"}
 AI_RELEVANCE_THRESHOLD = 0.65
 AI_BROAD_RELEVANCE_FLOOR = 0.3
 MULTI_TRACK_KEYWORDS = [
-    "副业", "变现", "赚钱", "side hustle", "entrepreneur", "passive income",
-    "创作者经济", "creator economy", "自媒体", "内容创作", "涨粉", "商单",
-    "商标", "trademark", "知识产权", "patent", "版权", "copyright",
-    "sora", "runway", "pika", "heygen", "可灵", "kling",
-    "ai视频", "text-to-video", "剪映", "capcut", "davinci",
-    "即梦", "通义万相", "ai短剧", "短剧",
-    "创业", "startup", "自由职业", "个人ip",
-    "youtube", "tiktok", "小红书", "b站", "公众号",
+    # AI视频/剪辑包装
+    "sora", "runway", "pika", "heygen", "可灵", "kling", "luma", "vidu", "hailuo", "海螺",
+    "ai视频", "text-to-video", "文生视频", "图生视频", "video generation", "视频生成",
+    "ai动画", "ai animation", "剪映", "capcut", "davinci", "video editing", "视频剪辑",
+    "ai绘画", "ai art", "ai design", "ai visual", "即梦", "通义万相",
+    "short video", "短视频", "ai短剧", "ai drama", "ai movie", "ai film", "短剧", "剧情向",
+    # 个人成长/副业变现
+    "副业", "变现", "赚钱", "side hustle", "passive income", "make money", "earn money",
+    "副业收入", "个人成长", "效率", "productivity", "self-improvement",
+    "创业", "startup", "独立开发", "indie", "freelance", "自由职业",
+    "个人ip", "个人品牌", "知识付费", "私域", "社群", "entrepreneur", "financial independence",
+    # 自媒体/创作者经济
+    "创作者经济", "creator economy", "自媒体", "内容创作", "content creator", "influencer",
+    "涨粉", "流量", "运营策略", "算法推荐", "youtube", "tiktok", "抖音", "小红书", "知乎",
+    "公众号", "b站", "instagram", "商单", "品牌合作", "广告", "直播带货",
+    "social media", "社交媒体", "viral", "爆款", "博主", "网红",
+    # 商标/IP/创业
+    "商标", "trademark", "商标注册", "知识产权", "intellectual property", "专利", "patent",
+    "版权", "copyright", "公司注册", "business registration", "营业执照", "工商",
+    "小微企业", "个体户", "创业政策", "small business", "加盟", "brand", "品牌", "ip授权", "ip运营",
 ]
 
 SOURCE_PRIORS = {
@@ -370,6 +382,16 @@ def score_ai_relevance(record: dict[str, Any]) -> dict[str, Any]:
     has_tech = bool(tech_signals)
 
     if not (has_ai or (has_broad_ai and has_tech)):
+        multi_track = matched_keywords(text, MULTI_TRACK_KEYWORDS)
+        if multi_track:
+            return _result(
+                is_ai_related=False,
+                score=max(AI_BROAD_RELEVANCE_FLOOR, source_prior + 0.35),
+                label="multi_track",
+                reason="multi_track_keyword",
+                signals=ai_signals + tech_signals + multi_track,
+                noise=noise,
+            )
         return _result(
             is_ai_related=False,
             score=source_prior + (0.32 if has_broad_ai else 0.0) + (0.08 if has_tech else 0.0),
