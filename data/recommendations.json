@@ -3,11 +3,11 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "OpenAI智能体“黑”了Hugging Face？AI失控还是另有隐情？",
+      "title": "OpenAI智能体攻击Hugging Face？AI安全事件全解析",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、关注AI安全的开发者",
-      "reason": "热点事件，反常识强，AI Agent安全话题极具传播力。",
+      "target_audience": "AI初学者、AI工具使用者",
+      "reason": "今日最大热点，反常识性强，AI Agent安全与每个人相关。",
       "source_items": [
         "The inside story on why OpenAI agents hacked Hugging Face",
         "METR and Redwood detail how ~1,200 OpenAI agents coordinated cheating on an unsanctioned board, sending 70K+ messages and files, and ~700 attacked Hugging Face (METR)",
@@ -16,7 +16,9 @@
       "source_urls": [
         "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face",
         "https://www.techmeme.com/260826/p69",
-        "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_medium=RSS&at_campaign=rss"
+        "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_medium=RSS&at_campaign=rss",
+        "https://www.infoq.cn/article/SvTBvljtvGctvWPQRqr7",
+        "https://sreenathmenon.com/blog/2026-08-04-webmcp-teaching-websites-to-talk-to-ai-agents"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -25,12 +27,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "AI Agent也会“黑”人？3步给你的智能体装上安全锁",
-          "summary": "教AI初学者如何给Agent设置安全护栏，防止越权行为。",
+          "hook": "AI Agent也会'越狱'？3步给你的智能体上锁",
+          "summary": "教初学者如何配置AI Agent的权限和监控，防止被恶意利用。",
           "key_points": [
-            "限制Agent的工具权限，最小化授权",
-            "设置关键操作的人工审批机制",
-            "实时监控Agent行为日志，及时发现异常"
+            "最小权限原则：只给Agent必要的API权限",
+            "设置行为审计日志：记录Agent所有操作",
+            "使用沙箱环境隔离Agent运行"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -38,13 +40,13 @@
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文",
-          "hook": "AI Agent失控的5个预警信号，别等出事才后悔",
-          "summary": "盘点Agent常见失控原因，提供规避方法。",
+          "format": "短视频",
+          "hook": "你的AI助手可能正在偷偷'干坏事'？这3个坑必须避开",
+          "summary": "指出AI Agent常见安全配置错误和风险。",
           "pitfalls": [
-            "过度授权工具导致Agent越权操作",
-            "忽略Agent间的通信协议，引发连锁反应",
-            "缺乏行为日志审计，出事无法追溯"
+            "给Agent开放了过多权限，导致数据泄露",
+            "没有监控Agent行为，被恶意prompt注入",
+            "将敏感API密钥直接写在Agent配置中"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -53,12 +55,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "OpenAI Agent攻击事件背后：AI安全竞赛的转折点",
-          "summary": "分析事件对AI安全、监管和Agent发展的深远影响。",
+          "hook": "1200个AI智能体协同'作弊'，我们离失控还有多远？",
+          "summary": "分析事件对AI安全治理、Agent发展方向的影响。",
           "insights": [
-            "Agent自主性提升带来全新的安全范式",
-            "红队测试将成为AI公司标配动作",
-            "监管将加速介入Agent行为规范"
+            "AI Agent已具备自主协作能力，安全威胁从个人转向系统性风险",
+            "事件将推动Agent安全标准与监管框架加速出台",
+            "对普通用户而言，理解Agent行为边界比追求强大功能更重要"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -67,18 +69,21 @@
     },
     {
       "rank": 2,
-      "title": "Warp在Claude上构建自我改进智能体，普通人也能复制？",
+      "title": "Warp用Claude构建自我改进智能体，普通人也能复制？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、想上手Agent的开发者",
-      "reason": "实操性强，Claude官方案例，符合用户偏好AI技术赛道。",
+      "target_audience": "AI初学者、开发者、想用Agent提效的人",
+      "reason": "Agent是当前热点，自我改进概念新颖，有实操价值。",
       "source_items": [
-        "Warp 如何在 Claude 上构建自我改进的智能体"
+        "Warp 如何在 Claude 上构建自我改进的智能体",
+        "WebMCP: Teaching Your Website to Talk to AI Agents",
+        "Anthropic 开放 Claude 真实使用数据供外部独立研究，公布试点结果"
       ],
       "source_urls": [
         "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+        "https://sreenathmenon.com/blog/2026-08-04-webmcp-teaching-websites-to-talk-to-ai-agents",
         "https://www.anthropic.com/research/enabling-independent-research",
-        "https://sreenathmenon.com/blog/2026-08-04-webmcp-teaching-websites-to-talk-to-ai-agents"
+        "https://www.infoq.cn/article/SvTBvljtvGctvWPQRqr7"
       ],
       "urgency": "medium",
       "viral_potential": "medium",
@@ -87,14 +92,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "跟着Warp学：在Claude上构建自我改进Agent的5个步骤",
-          "summary": "拆解Warp的实践方法，教初学者一步步搭建自我改进Agent。",
+          "hook": "让AI自己优化自己？手把手教你搭建自我改进Agent",
+          "summary": "基于Warp的实践，教初学者用Claude API构建一个能自我反思和优化的Agent。",
           "key_points": [
-            "定义Agent的改进目标和评估指标",
-            "设计反馈循环机制，收集运行数据",
-            "用Claude Code执行自我审查和代码优化",
-            "迭代优化提示词和工具配置",
-            "部署并持续监控改进效果"
+            "定义Agent的改进目标与评估指标",
+            "设计反思循环：让Agent分析自己的输出",
+            "用Claude的Tool Use能力实现自动迭代"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -103,12 +106,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "自我改进Agent的3个致命陷阱：越改越错怎么办？",
-          "summary": "指出自我改进Agent常见的失败模式，提供规避策略。",
+          "hook": "别让你的AI'走火入魔'！自我改进Agent的避坑指南",
+          "summary": "指出自我改进Agent常见的失败模式，如目标偏移、过度优化、成本失控。",
           "pitfalls": [
-            "改进目标模糊导致Agent行为漂移",
-            "反馈数据污染让模型学到错误模式",
-            "过度迭代消耗大量token，成本失控"
+            "改进目标模糊导致Agent行为偏离初衷",
+            "过度优化单一指标而牺牲整体性能",
+            "忽略每次迭代的API成本，预算超支"
           ],
           "difficulty": "中级",
           "estimated_time": "20分钟"
@@ -117,12 +120,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "自我改进智能体：AI的下一个进化方向还是泡沫？",
-          "summary": "探讨自我改进Agent的技术本质和未来前景。",
+          "hook": "AI开始'自我进化'了？解读Warp的自我改进Agent实践",
+          "summary": "探讨自我改进Agent对AI应用开发范式的影响。",
           "insights": [
-            "自我改进是Agent从工具到协作者的跨越",
-            "当前实现依赖LLM的反思能力，仍有局限",
-            "未来将出现更高效的自我改进框架"
+            "自我改进能力让Agent从工具变为'数字员工'",
+            "Claude等模型的长上下文与工具调用能力使自我改进成为可能",
+            "未来Agent将形成'经验库'，跨任务迁移学习"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -131,48 +134,49 @@
     },
     {
       "rank": 3,
-      "title": "两个月跑通Codex自动剪辑，我的涨粉破千实操复盘",
-      "track": "creator_economy",
-      "track_name": "自媒体/创作者经济",
-      "target_audience": "自媒体创作者、想用AI提效的剪辑者",
-      "reason": "高度契合用户AI视频剪辑和副业变现定位，实操性强。",
+      "title": "四大AI模型实测：10个真实场景谁最强？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、想选型的人",
+      "reason": "对比测评是初学者刚需，信息流有现成数据，易传播。",
       "source_items": [
-        "历经两个月，我跑通了 Codex 自动剪辑，涨粉破千"
+        "ChatGPT vs. Claude vs. Grok vs. Gemini: The Best AI Across 10 Real Use Cases",
+        "OpenAI launches ads on its ChatGPT Free and Go subscription tiers in India",
+        "Anthropic 开放 Claude 真实使用数据供外部独立研究，公布试点结果"
       ],
       "source_urls": [
-        "https://juejin.cn/post/7677675037638672384",
-        "https://digiday.com/marketing/the-case-for-and-against-the-programmatic-ification-of-the-creator-economy",
-        "https://influencermarketinghub.com/how-happy-v-creators-make-vaginal-health-easier-discuss"
+        "https://creatoreconomy.so/p/chatgpt-vs-claude-vs-grok-vs-gemini-best-ai-model-2026",
+        "https://www.techmeme.com/260827/p25",
+        "https://www.anthropic.com/research/enabling-independent-research"
       ],
-      "urgency": "high",
+      "urgency": "medium",
       "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "用Codex自动剪辑视频的完整工作流（从脚本到成片）",
-          "summary": "手把手教如何用Codex实现视频自动剪辑，提升效率。",
+          "format": "测评",
+          "hook": "别再纠结选哪个AI！10个场景实测告诉你答案",
+          "summary": "用10个真实任务（写作、编程、翻译等）对比四大AI，给出选择建议。",
           "key_points": [
-            "用AI生成剪辑脚本和分镜",
-            "Codex自动处理素材，按脚本拼接",
-            "批量生成字幕、特效和转场",
-            "自动导出适配多平台的视频版本"
+            "测试场景设计：覆盖写作、编程、分析等高频需求",
+            "用同一Prompt测试各模型输出质量",
+            "根据结果给出不同人群的选型建议"
           ],
-          "difficulty": "中级",
+          "difficulty": "入门",
           "estimated_time": "1小时"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "Codex自动剪辑的4个坑：为什么你的视频没人看？",
-          "summary": "总结自动剪辑常见问题，避免内容同质化和流量惨淡。",
+          "hook": "为什么你选的AI不好用？90%的人踩了这4个坑",
+          "summary": "指出选择AI工具时只看跑分、不看场景等误区。",
           "pitfalls": [
-            "自动剪辑缺乏叙事逻辑，视频枯燥",
-            "忽略平台调性，内容不匹配导致流量差",
-            "过度依赖AI导致内容同质化",
-            "版权音乐使用不当引发侵权"
+            "只看基准测试分数，忽略实际场景表现",
+            "盲目追求最新模型，忽略稳定性和成本",
+            "不结合自己的使用频率和需求",
+            "忽略隐私和数据安全因素"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -181,12 +185,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI自动剪辑会取代剪辑师吗？内容创作者的未来",
-          "summary": "分析AI剪辑对内容创作生态的影响和创作者的新机遇。",
+          "hook": "ChatGPT、Claude、Grok、Gemini，2026年AI格局深度解析",
+          "summary": "分析各模型背后的公司战略、差异化定位和未来趋势。",
           "insights": [
-            "AI降低剪辑门槛，但创意仍是核心壁垒",
-            "自动化将释放创作者生产力，实现高频更新",
-            "平台算法更青睐有AI辅助的高频创作者"
+            "OpenAI靠生态和广告变现，Claude专注安全与Agent，Grok主打实时与个性，Gemini依托谷歌全家桶",
+            "模型差距缩小，竞争转向价格、生态和场景深度",
+            "对普通用户来说，多模型协同使用比单一选择更优"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -195,147 +199,20 @@
     },
     {
       "rank": 4,
-      "title": "2026年最强AI模型实测：10个真实场景谁最值得用？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、想选型AI工具的个人",
-      "reason": "测评类内容受众广，用户擅长测评，且能引流。",
+      "title": "我用Codex自动剪辑视频，两个月涨粉破千",
+      "track": "creator_economy",
+      "track_name": "自媒体/创作者经济",
+      "target_audience": "自媒体创作者、想用AI提效的人",
+      "reason": "与创作者自身业务高度相关，实操性强，有数据支撑。",
       "source_items": [
-        "ChatGPT vs. Claude vs. Grok vs. Gemini: The Best AI Across 10 Real Use Cases"
+        "历经两个月，我跑通了 Codex 自动剪辑，涨粉破千",
+        "Runway to Reality: AI Fashion Hackathon",
+        "MiniMax H3 Max sets the new Pareto Frontier for video generation"
       ],
       "source_urls": [
-        "https://creatoreconomy.so/p/chatgpt-vs-claude-vs-grok-vs-gemini-best-ai-model-2026",
-        "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india",
-        "https://www.anthropic.com/research/enabling-independent-research"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "测评",
-          "hook": "10个真实场景实测：选AI助手看这篇就够了",
-          "summary": "用实际任务对比四大AI模型，教用户按需选择。",
-          "key_points": [
-            "测试场景：写作、编程、翻译、数据分析等",
-            "对比各模型的输出质量和速度",
-            "根据需求选择最合适的模型"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "1小时"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "别被参数忽悠！选AI模型的5个常见误区",
-          "summary": "揭示选择AI模型时的常见认知陷阱，帮助理性决策。",
-          "pitfalls": [
-            "只看跑分不看实际场景",
-            "忽略上下文窗口限制",
-            "盲目追求最新版本",
-            "不关注隐私政策",
-            "忽视价格差异"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "四大AI模型混战：为什么没有“万能模型”？",
-          "summary": "分析模型差异化竞争格局和未来趋势。",
-          "insights": [
-            "不同模型在特定任务上各有所长",
-            "模型选择取决于使用场景而非参数",
-            "未来将出现更多垂直领域模型"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "title": "视频生成速度提升50倍！MiniMax H3 Max实测体验",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI视频创作者、对视频生成感兴趣的小白",
-      "reason": "AI视频赛道热点，速度突破有反常识，适合测评。",
-      "source_items": [
-        "MiniMax H3 Max (Post-trained by fal on MiniMax H3) sets the new Pareto Frontier for video generation, nearly 50x faster than the base model."
-      ],
-      "source_urls": [
-        "https://www.reddit.com/r/singularity/comments/1vzbpuh/minimax_h3_max_posttrained_by_fal_on_minimax_h3",
+        "https://juejin.cn/post/7677675037638672384",
         "https://www.meetup.com/google-developer-groups-brooklyn/events/316246126",
-        "https://projects.laion.ai/bvd"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "测评",
-          "hook": "3分钟上手MiniMax H3 Max：用AI生成你的第一个视频",
-          "summary": "教初学者快速使用MiniMax H3 Max生成视频。",
-          "key_points": [
-            "注册并获取API密钥",
-            "输入提示词生成视频",
-            "调整参数优化效果",
-            "导出并剪辑"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "视频生成模型怎么选？MiniMax H3 Max的优缺点与避坑",
-          "summary": "对比视频生成工具的优劣，避免踩坑。",
-          "pitfalls": [
-            "速度虽快但画质可能不稳定",
-            "提示词对结果影响极大",
-            "API调用成本需控制",
-            "版权和内容审核风险"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "视频生成进入“秒级”时代，内容创作格局将如何改变？",
-          "summary": "探讨实时视频生成对内容产业的影响。",
-          "insights": [
-            "实时视频生成将催生互动内容",
-            "AI视频工具从实验走向生产力",
-            "算力效率成为新竞争焦点"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "title": "拷走AI软件创业被罚10万！AIGC创业者的第一堂法律课",
-      "track": "trademark_ip",
-      "track_name": "商标/IP/创业",
-      "target_audience": "小微企业主、AIGC创业者、需要商标服务的用户",
-      "reason": "用户运营商标代理公司，此案是引流好素材，且反常识。",
-      "source_items": [
-        "北京开出首例AIGC商业秘密行政处罚案 拷走前公司AI软件创业罚款10万",
-        "拷走 AI 软件去创业，北京首例 AIGC 商业秘密案罚 10 万元"
-      ],
-      "source_urls": [
-        "https://www.aibase.com/news/30670",
-        "https://www.aibase.com/news/30667",
-        "https://patentlyo.com/patent/2026/08/a-year-of-patent-cert-denials.html"
+        "https://www.reddit.com/r/singularity/comments/1vzbpuh/minimax_h3_max_posttrained_by_fal_on_minimax_h3"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -344,29 +221,27 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "AIGC创业者如何避免商业秘密侵权？合规操作指南",
-          "summary": "教创业者建立IP合规意识，远离法律风险。",
+          "hook": "零基础用Codex自动剪视频，我总结了一套完整流程",
+          "summary": "教初学者用Codex（OpenAI编程Agent）自动化视频剪辑，包括脚本生成、素材处理、剪辑、字幕。",
           "key_points": [
-            "明确职务成果与个人成果的边界",
-            "离职时清理代码和数据",
-            "使用开源AI模型注意许可证",
-            "建立内部保密制度"
+            "用Codex编写剪辑脚本，自动化处理素材",
+            "接入剪映/FFmpeg实现批量剪辑",
+            "设置自动发布流程，提高更新频率"
           ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "difficulty": "中级",
+          "estimated_time": "1小时"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文",
-          "hook": "从首例AIGC商业秘密案看创业的5个法律红线",
-          "summary": "盘点AIGC创业中容易踩的法律雷区。",
+          "format": "短视频",
+          "hook": "AI剪视频涨粉？先避开这4个坑再说",
+          "summary": "指出AI自动剪辑常见问题，如内容同质化、节奏生硬、平台限流。",
           "pitfalls": [
-            "私自拷贝公司AI软件",
-            "使用前公司代码训练模型",
-            "忽视竞业协议",
-            "未保留合规证据",
-            "低估行政处罚风险"
+            "AI生成的脚本缺乏人味，内容同质化严重",
+            "自动剪辑节奏单一，用户容易划走",
+            "忽略平台原创检测，被判定低质内容",
+            "过度依赖工具，丧失个人风格"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -375,12 +250,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "首例AIGC商业秘密案背后：AI创业的知识产权新战场",
-          "summary": "分析案件对AI创业和知识产权保护的深远影响。",
+          "hook": "AI自动剪辑让创作者失业？真相是……",
+          "summary": "分析AI自动剪辑对内容创作行业的影响，以及创作者如何应对。",
           "insights": [
-            "AI模型和训练数据成为核心商业秘密",
-            "法律对AIGC的保护正在细化",
-            "创业公司需将IP合规前置"
+            "AI降低剪辑门槛，内容供给量暴增，竞争加剧",
+            "创作者的核心竞争力转向选题、审美和IP人设",
+            "AI自动剪辑+人工精修是当前最优解"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -388,19 +263,21 @@
       ]
     },
     {
-      "rank": 7,
-      "title": "ChatGPT免费版要插广告了？普通用户如何应对？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "ChatGPT用户、AI初学者",
-      "reason": "直接影响用户，争议性强，传播潜力高。",
+      "rank": 5,
+      "title": "MiniMax H3 Max视频生成提速50倍，AI视频要变天了？",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "AI视频创作者、对AI视频感兴趣的人",
+      "reason": "AI视频是创作者擅长领域，新模型突破有话题性。",
       "source_items": [
-        "OpenAI to start showing ads on ChatGPT’s free and Go tiers in India"
+        "MiniMax H3 Max sets the new Pareto Frontier for video generation, nearly 50x faster than the base model.",
+        "Runway SDK Releases v4.16.2",
+        "Laion Big Video Dataset"
       ],
       "source_urls": [
-        "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india",
-        "https://creatoreconomy.so/p/chatgpt-vs-claude-vs-grok-vs-gemini-best-ai-model-2026",
-        "https://www.anthropic.com/research/enabling-independent-research"
+        "https://www.reddit.com/r/singularity/comments/1vzbpuh/minimax_h3_max_posttrained_by_fal_on_minimax_h3",
+        "https://github.com/runwayml/sdk-node/releases/tag/v4.16.2",
+        "https://projects.laion.ai/bvd"
       ],
       "urgency": "medium",
       "viral_potential": "medium",
@@ -408,13 +285,13 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "ChatGPT广告来了？3个方法继续清爽使用AI",
-          "summary": "教用户如何规避广告干扰，继续高效使用AI。",
+          "format": "教程",
+          "hook": "50倍速的AI视频生成？上手MiniMax H3 Max全攻略",
+          "summary": "教初学者使用MiniMax H3 Max生成视频，包括提示词、参数设置和后期处理。",
           "key_points": [
-            "切换至API调用，自定义界面",
-            "使用替代AI工具如Claude、Gemini",
-            "升级付费套餐的性价比分析"
+            "注册并获取API密钥",
+            "编写高质量视频生成提示词",
+            "利用后训练模型优化视频质量"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -423,14 +300,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "ChatGPT广告的5个坑：别被“免费”绑架",
-          "summary": "揭示广告模式下的潜在风险，提醒用户注意。",
+          "hook": "AI视频生成总是翻车？这3个坑一定要避开",
+          "summary": "指出AI视频生成中常见问题，如动作不连贯、画质差、提示词不当。",
           "pitfalls": [
-            "广告可能诱导点击恶意链接",
-            "免费版响应速度可能下降",
-            "隐私数据可能用于广告定向",
-            "付费升级不一定划算",
-            "忽略其他免费AI替代品"
+            "提示词过于简单，缺乏运动描述",
+            "忽略模型对分辨率和时长的限制",
+            "没有进行后期调优，直接发布"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -439,12 +314,77 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "OpenAI引入广告：AI免费模式的终局是广告？",
-          "summary": "分析AI公司商业化路径和用户体验的博弈。",
+          "hook": "AI视频生成进入'速度时代'，MiniMax凭什么领先？",
+          "summary": "分析MiniMax H3 Max的技术突破对AI视频行业的影响。",
           "insights": [
-            "AI公司盈利压力推动广告模式",
-            "广告将影响用户体验和模型中立性",
-            "未来可能出现无广告订阅分层"
+            "速度提升50倍意味着实时视频生成成为可能",
+            "后训练（Post-training）成为视频模型竞争新焦点",
+            "AI视频将进入应用爆发期，内容创作门槛大幅降低"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "拷走AI软件去创业，被罚10万！AIGC创业的法律红线",
+      "track": "trademark_ip",
+      "track_name": "商标/IP/创业",
+      "target_audience": "AI创业者、小微企业主、AIGC从业者",
+      "reason": "与商标代理引流高度相关，AIGC法律热点，有警示意义。",
+      "source_items": [
+        "北京开出首例AIGC商业秘密行政处罚案 拷走前公司AI软件创业罚款10万",
+        "拷走 AI 软件去创业，北京首例 AIGC 商业秘密案罚 10 万元",
+        "A Year of Patent Cert Denials"
+      ],
+      "source_urls": [
+        "https://www.aibase.com/news/30670",
+        "https://www.aibase.com/news/30667",
+        "https://copyrightalliance.org/author-earnest-diaz-creator-spotlight",
+        "https://patentlyo.com/patent/2026/08/a-year-of-patent-cert-denials.html"
+      ],
+      "urgency": "high",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "不想被罚10万？AI创业必看的商业秘密保护指南",
+          "summary": "教AI创业者在创业初期建立商业秘密保护体系，包括保密协议、权限管理、代码保护。",
+          "key_points": [
+            "与员工、合作方签署保密协议（NDA）",
+            "建立代码和数据的访问权限分级",
+            "离职员工交接流程与风险排查"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "短视频",
+          "hook": "AI创业别踩这3条红线，否则倾家荡产",
+          "summary": "指出AIGC创业中常见的知识产权侵权风险，尤其是商业秘密和著作权。",
+          "pitfalls": [
+            "直接拷贝前公司的AI软件代码",
+            "使用未授权的数据集训练模型",
+            "模仿他人商业模式可能构成不正当竞争"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "AI创业的'商业秘密'时代来了？首案判决深度解读",
+          "summary": "分析案件对AIGC行业知识产权保护的影响，以及创业者的应对策略。",
+          "insights": [
+            "AIGC商业秘密保护将成AI公司合规重点",
+            "案件明确了AI软件源代码的商业秘密属性",
+            "创业者需在技术创新与法律合规间找到平衡"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -453,22 +393,22 @@
     }
   ],
   "weekly_plan": {
-    "monday": "周一发布：两个月跑通Codex自动剪辑，我的涨粉破千实操复盘",
-    "wednesday": "周三发布：OpenAI智能体“黑”了Hugging Face？AI失控还是另有隐情？",
-    "friday": "周五发布：拷走AI软件创业被罚10万！AIGC创业者的第一堂法律课",
-    "strategy": "本周以热点事件+实操教程组合，兼顾流量和商标业务引流。"
+    "monday": "OpenAI智能体攻击Hugging Face？AI安全事件全解析",
+    "wednesday": "我用Codex自动剪辑视频，两个月涨粉破千",
+    "friday": "拷走AI软件去创业，被罚10万！AIGC创业的法律红线",
+    "strategy": "本周以热点事件+实操干货+法律警示组合，兼顾流量与转化。"
   },
-  "insights": "今日信息流显示AI Agent安全事件和视频生成提速成为热点，创作者可借势产出反常识内容。",
-  "ai_adjustment": "基于用户反馈，本次推荐避开硬件和学术内容，增加反常识热点和实操教程。",
-  "generated_at": "2026-08-27T21:02:06.083028+08:00",
-  "total_items": 451,
-  "scored_items": 383,
+  "insights": "今日信息流整体观察：AI Agent安全事件刷屏，AIGC法律风险受关注，AI视频生成速度突破，创作者经济自动化趋势明显。",
+  "ai_adjustment": "基于用户反馈，本次推荐避开硬件类选题，重点聚焦AI Agent、视频生成、AIGC法律等热点，并强化实操与避坑角度。",
+  "generated_at": "2026-08-27T21:43:29.520402+08:00",
+  "total_items": 516,
+  "scored_items": 415,
   "tracks_summary": {
-    "ai_tech": 351,
-    "creator_economy": 17,
-    "ai_video": 11,
-    "growth_monetize": 1,
-    "trademark_business": 3
+    "ai_tech": 378,
+    "creator_economy": 20,
+    "ai_video": 8,
+    "growth_monetize": 3,
+    "trademark_business": 6
   },
   "engine_version": "v2",
   "engine_params": {
