@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T06:43:46.547680Z",
+  "generated_at": "2026-08-27T10:27:34.909998Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -48,15 +48,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8318,
-      "importance": 0.8318,
-      "importance_score": 0.8318,
+      "score": 0.823,
+      "importance": 0.823,
+      "importance_score": 0.823,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9323,
+        "recency": 0.8834,
         "story_heat": 0.0
       },
       "category": "official",
@@ -78,14 +78,6 @@
         "url": "https://github.blog/changelog/2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 62,
-      "persona_review": "企业管理员可自动更新插件市场，省去手动维护，但普通开发者用不上。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V4-Flash",
-        "scored_at": "2026-08-27T06:44:55.565351Z"
       }
     },
     {
@@ -133,15 +125,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8266,
-      "importance": 0.8266,
-      "importance_score": 0.8266,
+      "score": 0.8185,
+      "importance": 0.8185,
+      "importance_score": 0.8185,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8591,
+        "recency": 0.8141,
         "story_heat": 0.0
       },
       "category": "official",
@@ -210,15 +202,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8197,
-      "importance": 0.8197,
-      "importance_score": 0.8197,
+      "score": 0.8119,
+      "importance": 0.8119,
+      "importance_score": 0.8119,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8204,
+        "recency": 0.7773,
         "story_heat": 0.0
       },
       "category": "official",
@@ -240,99 +232,6 @@
         "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe",
         "source": "Google DeepMind",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 88,
-      "persona_review": "语音转写新模型上线，做实时转录的可以直接换API试效果。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V4-Flash",
-        "scored_at": "2026-08-27T06:44:55.565351Z"
-      }
-    },
-    {
-      "story_id": "story_6b30649509f4",
-      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "primary_url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "588215148c3b72c0715d264ed0cc70f6b4fdc9e9",
-          "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-          "title_zh": null,
-          "title_en": "Bringing ChatGPT for Teachers to more U.S. school districts",
-          "title_original": "Bringing ChatGPT for Teachers to more U.S. school districts",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-26T10:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "588215148c3b72c0715d264ed0cc70f6b4fdc9e9",
-          "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-          "title_zh": null,
-          "title_en": "Bringing ChatGPT for Teachers to more U.S. school districts",
-          "title_original": "Bringing ChatGPT for Teachers to more U.S. school districts",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-26T10:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8134,
-      "importance": 0.8134,
-      "importance_score": 0.8134,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7413,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-26T10:00:00Z",
-      "latest_at": "2026-08-26T10:00:00Z",
-      "primary_item": {
-        "id": "588215148c3b72c0715d264ed0cc70f6b4fdc9e9",
-        "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-        "title_zh": null,
-        "title_en": "Bringing ChatGPT for Teachers to more U.S. school districts",
-        "title_original": "Bringing ChatGPT for Teachers to more U.S. school districts",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "教育场景的官方推广，做教育产品的可留意，普通开发者不用动。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V4-Flash",
-        "scored_at": "2026-08-27T06:44:55.565351Z"
       }
     },
     {
@@ -380,15 +279,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.823,
-      "importance": 0.823,
-      "importance_score": 0.823,
+      "score": 0.8147,
+      "importance": 0.8147,
+      "importance_score": 0.8147,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8834,
+        "recency": 0.8371,
         "story_heat": 0.0
       },
       "category": "official",
@@ -486,15 +385,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7874,
-      "importance": 0.7874,
-      "importance_score": 0.7874,
+      "score": 0.7789,
+      "importance": 0.7789,
+      "importance_score": 0.7789,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9046,
+        "recency": 0.8572,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -516,128 +415,6 @@
         "url": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand",
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 52,
-      "persona_review": "算力供给利好，但今天没有可上手的工具，等价格或配额变化再说。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V4-Flash",
-        "scored_at": "2026-08-27T06:44:55.565351Z"
-      }
-    },
-    {
-      "story_id": "story_5b62f6af7f72",
-      "title": "以色列资助的假美国智库试图利用AI进行宣传",
-      "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
-      "primary_url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "4885376f482f17e357c3cc0163dfa0cf7b713dd4",
-          "title": "以色列资助的假美国智库试图利用AI进行宣传",
-          "title_zh": "以色列资助的假美国智库试图利用AI进行宣传",
-          "title_en": null,
-          "title_original": "以色列资助的假美国智库试图利用AI进行宣传",
-          "summary": "一个打着\"汉诺威公共政策研究所\"旗号的亲以色列网站，在九天内发布了124篇、超56万字的报告，旨在优化内容以引导ChatGPT等AI聊天机器人引用其亲以观点。该网站由美国公司Piro Inc依据《外国代理人登记法》为以色列政府分发内容，其背后是以色列政府数千万美元资助、经Havas Media等第三方转手的更广泛宣传行动。",
-          "recommend_reason_zh": null,
-          "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-26T14:05:28.706000Z"
-        },
-        {
-          "id": "28827361f20d91352021d756755dba29a3b2772b",
-          "title": "以色列资助的假美国智库试图利用AI进行宣传 / Fake US thinktank set up and funded by Israel sought to game AI for propaganda",
-          "title_zh": "以色列资助的假美国智库试图利用AI进行宣传",
-          "title_en": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda",
-          "title_original": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-26T12:11:19Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "items": [
-        {
-          "id": "4885376f482f17e357c3cc0163dfa0cf7b713dd4",
-          "title": "以色列资助的假美国智库试图利用AI进行宣传",
-          "title_zh": "以色列资助的假美国智库试图利用AI进行宣传",
-          "title_en": null,
-          "title_original": "以色列资助的假美国智库试图利用AI进行宣传",
-          "summary": "一个打着\"汉诺威公共政策研究所\"旗号的亲以色列网站，在九天内发布了124篇、超56万字的报告，旨在优化内容以引导ChatGPT等AI聊天机器人引用其亲以观点。该网站由美国公司Piro Inc依据《外国代理人登记法》为以色列政府分发内容，其背后是以色列政府数千万美元资助、经Havas Media等第三方转手的更广泛宣传行动。",
-          "recommend_reason_zh": null,
-          "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-26T14:05:28.706000Z"
-        },
-        {
-          "id": "28827361f20d91352021d756755dba29a3b2772b",
-          "title": "以色列资助的假美国智库试图利用AI进行宣传 / Fake US thinktank set up and funded by Israel sought to game AI for propaganda",
-          "title_zh": "以色列资助的假美国智库试图利用AI进行宣传",
-          "title_en": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda",
-          "title_original": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-26T12:11:19Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7842,
-      "importance": 0.7842,
-      "importance_score": 0.7842,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.82,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7864,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-26T12:11:19Z",
-      "latest_at": "2026-08-26T14:05:28.706000Z",
-      "primary_item": {
-        "id": "4885376f482f17e357c3cc0163dfa0cf7b713dd4",
-        "title": "以色列资助的假美国智库试图利用AI进行宣传",
-        "title_zh": "以色列资助的假美国智库试图利用AI进行宣传",
-        "title_en": null,
-        "title_original": "以色列资助的假美国智库试图利用AI进行宣传",
-        "summary": "一个打着\"汉诺威公共政策研究所\"旗号的亲以色列网站，在九天内发布了124篇、超56万字的报告，旨在优化内容以引导ChatGPT等AI聊天机器人引用其亲以观点。该网站由美国公司Piro Inc依据《外国代理人登记法》为以色列政府分发内容，其背后是以色列政府数千万美元资助、经Havas Media等第三方转手的更广泛宣传行动。",
-        "recommend_reason_zh": null,
-        "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "政治宣传丑闻，跟写代码无关，看个热闹就行。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V4-Flash",
-        "scored_at": "2026-08-27T06:44:55.565351Z"
       }
     },
     {
@@ -714,15 +491,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7839,
-      "importance": 0.7839,
-      "importance_score": 0.7839,
+      "score": 0.7767,
+      "importance": 0.7767,
+      "importance_score": 0.7767,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.83,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7686,
+        "recency": 0.7283,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -744,99 +521,264 @@
         "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
         "source": "Qwen：Blog Retrieval（API）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 88,
-      "persona_review": "开源可下载，想试 Qwen4 架构的今天就能跑，成本效率值得关注。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V4-Flash",
-        "scored_at": "2026-08-27T06:44:55.565351Z"
       }
     },
     {
-      "story_id": "story_716a4067630f",
-      "title": "Learning never stops: How AI makes learning continuous",
-      "url": "https://openai.com/index/learning-never-stops",
-      "primary_url": "https://openai.com/index/learning-never-stops",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
+      "story_id": "story_5b62f6af7f72",
+      "title": "以色列资助的假美国智库试图利用AI进行宣传",
+      "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
+      "primary_url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "b0d741202592d07d3ecf5eb0cfc756b9803bf7d9",
-          "title": "Learning never stops: How AI makes learning continuous",
-          "title_zh": null,
-          "title_en": "Learning never stops: How AI makes learning continuous",
-          "title_original": "Learning never stops: How AI makes learning continuous",
+          "id": "4885376f482f17e357c3cc0163dfa0cf7b713dd4",
+          "title": "以色列资助的假美国智库试图利用AI进行宣传",
+          "title_zh": "以色列资助的假美国智库试图利用AI进行宣传",
+          "title_en": null,
+          "title_original": "以色列资助的假美国智库试图利用AI进行宣传",
+          "summary": "一个打着\"汉诺威公共政策研究所\"旗号的亲以色列网站，在九天内发布了124篇、超56万字的报告，旨在优化内容以引导ChatGPT等AI聊天机器人引用其亲以观点。该网站由美国公司Piro Inc依据《外国代理人登记法》为以色列政府分发内容，其背后是以色列政府数千万美元资助、经Havas Media等第三方转手的更广泛宣传行动。",
+          "recommend_reason_zh": null,
+          "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-26T14:05:28.706000Z"
+        },
+        {
+          "id": "28827361f20d91352021d756755dba29a3b2772b",
+          "title": "以色列资助的假美国智库试图利用AI进行宣传 / Fake US thinktank set up and funded by Israel sought to game AI for propaganda",
+          "title_zh": "以色列资助的假美国智库试图利用AI进行宣传",
+          "title_en": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda",
+          "title_original": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://openai.com/index/learning-never-stops",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-26T10:00:00Z"
+          "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-26T12:11:19Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "items": [
+        {
+          "id": "4885376f482f17e357c3cc0163dfa0cf7b713dd4",
+          "title": "以色列资助的假美国智库试图利用AI进行宣传",
+          "title_zh": "以色列资助的假美国智库试图利用AI进行宣传",
+          "title_en": null,
+          "title_original": "以色列资助的假美国智库试图利用AI进行宣传",
+          "summary": "一个打着\"汉诺威公共政策研究所\"旗号的亲以色列网站，在九天内发布了124篇、超56万字的报告，旨在优化内容以引导ChatGPT等AI聊天机器人引用其亲以观点。该网站由美国公司Piro Inc依据《外国代理人登记法》为以色列政府分发内容，其背后是以色列政府数千万美元资助、经Havas Media等第三方转手的更广泛宣传行动。",
+          "recommend_reason_zh": null,
+          "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-26T14:05:28.706000Z"
+        },
+        {
+          "id": "28827361f20d91352021d756755dba29a3b2772b",
+          "title": "以色列资助的假美国智库试图利用AI进行宣传 / Fake US thinktank set up and funded by Israel sought to game AI for propaganda",
+          "title_zh": "以色列资助的假美国智库试图利用AI进行宣传",
+          "title_en": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda",
+          "title_original": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-26T12:11:19Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7767,
+      "importance": 0.7767,
+      "importance_score": 0.7767,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.82,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7452,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-26T12:11:19Z",
+      "latest_at": "2026-08-26T14:05:28.706000Z",
+      "primary_item": {
+        "id": "4885376f482f17e357c3cc0163dfa0cf7b713dd4",
+        "title": "以色列资助的假美国智库试图利用AI进行宣传",
+        "title_zh": "以色列资助的假美国智库试图利用AI进行宣传",
+        "title_en": null,
+        "title_original": "以色列资助的假美国智库试图利用AI进行宣传",
+        "summary": "一个打着\"汉诺威公共政策研究所\"旗号的亲以色列网站，在九天内发布了124篇、超56万字的报告，旨在优化内容以引导ChatGPT等AI聊天机器人引用其亲以观点。该网站由美国公司Piro Inc依据《外国代理人登记法》为以色列政府分发内容，其背后是以色列政府数千万美元资助、经Havas Media等第三方转手的更广泛宣传行动。",
+        "recommend_reason_zh": null,
+        "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_2823a4c3156a",
+      "title": "Claude 桌面端 Cowork 内置浏览器上线，可独立完成网页操作",
+      "url": "https://www.aibase.com/news/30672",
+      "primary_url": "https://www.aibase.com/news/30672",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "00fc14a30aa905a8e47c7c6805efc071b3ff7895",
+          "title": "Claude 桌面端 Cowork 内置浏览器上线，可独立完成网页操作",
+          "title_zh": "Claude 桌面端 Cowork 内置浏览器上线，可独立完成网页操作",
+          "title_en": null,
+          "title_original": "Claude 桌面端 Cowork 内置浏览器上线，可独立完成网页操作",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30672",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-27T10:27:34.909998Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "OpenAI News"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "b0d741202592d07d3ecf5eb0cfc756b9803bf7d9",
-          "title": "Learning never stops: How AI makes learning continuous",
-          "title_zh": null,
-          "title_en": "Learning never stops: How AI makes learning continuous",
-          "title_original": "Learning never stops: How AI makes learning continuous",
+          "id": "00fc14a30aa905a8e47c7c6805efc071b3ff7895",
+          "title": "Claude 桌面端 Cowork 内置浏览器上线，可独立完成网页操作",
+          "title_zh": "Claude 桌面端 Cowork 内置浏览器上线，可独立完成网页操作",
+          "title_en": null,
+          "title_original": "Claude 桌面端 Cowork 内置浏览器上线，可独立完成网页操作",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://openai.com/index/learning-never-stops",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-26T10:00:00Z"
+          "url": "https://www.aibase.com/news/30672",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-27T10:27:34.909998Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8054,
-      "importance": 0.8054,
-      "importance_score": 0.8054,
-      "importance_label": "官方更新",
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7413,
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-26T10:00:00Z",
-      "latest_at": "2026-08-26T10:00:00Z",
+      "earliest_at": "2026-08-27T10:27:34.909998Z",
+      "latest_at": "2026-08-27T10:27:34.909998Z",
       "primary_item": {
-        "id": "b0d741202592d07d3ecf5eb0cfc756b9803bf7d9",
-        "title": "Learning never stops: How AI makes learning continuous",
-        "title_zh": null,
-        "title_en": "Learning never stops: How AI makes learning continuous",
-        "title_original": "Learning never stops: How AI makes learning continuous",
+        "id": "00fc14a30aa905a8e47c7c6805efc071b3ff7895",
+        "title": "Claude 桌面端 Cowork 内置浏览器上线，可独立完成网页操作",
+        "title_zh": "Claude 桌面端 Cowork 内置浏览器上线，可独立完成网页操作",
+        "title_en": null,
+        "title_original": "Claude 桌面端 Cowork 内置浏览器上线，可独立完成网页操作",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://openai.com/index/learning-never-stops",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
+        "url": "https://www.aibase.com/news/30672",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_46274b6bb0f3",
+      "title": "我国日均词元调用量突破 500 万亿，中国大模型稳居全球第一梯队",
+      "url": "https://www.ithome.com/0/995/136.htm",
+      "primary_url": "https://www.ithome.com/0/995/136.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "4d730cfd75711416a43323bdddde3d77710d2475",
+          "title": "我国日均词元调用量突破 500 万亿，中国大模型稳居全球第一梯队",
+          "title_zh": "我国日均词元调用量突破 500 万亿，中国大模型稳居全球第一梯队",
+          "title_en": null,
+          "title_original": "我国日均词元调用量突破 500 万亿，中国大模型稳居全球第一梯队",
+          "summary": "截至 2026 年 6 月，我国日均词元调用量已突破 500 万亿，中国大模型在全球竞争中位居第一梯队。当前旗舰模型几乎以月为单位更新，竞争焦点转向智能体落地与生态建设，推理算力需求随之爆发。腾讯混元 3 正式版上线第一周，Token 调用量比上一代混元 2 增长 68 倍。",
+          "recommend_reason_zh": null,
+          "url": "https://www.ithome.com/0/995/136.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-27T09:05:46Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "items": [
+        {
+          "id": "4d730cfd75711416a43323bdddde3d77710d2475",
+          "title": "我国日均词元调用量突破 500 万亿，中国大模型稳居全球第一梯队",
+          "title_zh": "我国日均词元调用量突破 500 万亿，中国大模型稳居全球第一梯队",
+          "title_en": null,
+          "title_original": "我国日均词元调用量突破 500 万亿，中国大模型稳居全球第一梯队",
+          "summary": "截至 2026 年 6 月，我国日均词元调用量已突破 500 万亿，中国大模型在全球竞争中位居第一梯队。当前旗舰模型几乎以月为单位更新，竞争焦点转向智能体落地与生态建设，推理算力需求随之爆发。腾讯混元 3 正式版上线第一周，Token 调用量比上一代混元 2 增长 68 倍。",
+          "recommend_reason_zh": null,
+          "url": "https://www.ithome.com/0/995/136.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-27T09:05:46Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7641,
+      "importance": 0.7641,
+      "importance_score": 0.7641,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9805,
+        "story_heat": 0.0
       },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "概念性官宣，没给新工具或接口，做产品的不用急着跟进。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V4-Flash",
-        "scored_at": "2026-08-27T06:44:55.565351Z"
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-27T09:05:46Z",
+      "latest_at": "2026-08-27T09:05:46Z",
+      "primary_item": {
+        "id": "4d730cfd75711416a43323bdddde3d77710d2475",
+        "title": "我国日均词元调用量突破 500 万亿，中国大模型稳居全球第一梯队",
+        "title_zh": "我国日均词元调用量突破 500 万亿，中国大模型稳居全球第一梯队",
+        "title_en": null,
+        "title_original": "我国日均词元调用量突破 500 万亿，中国大模型稳居全球第一梯队",
+        "summary": "截至 2026 年 6 月，我国日均词元调用量已突破 500 万亿，中国大模型在全球竞争中位居第一梯队。当前旗舰模型几乎以月为单位更新，竞争焦点转向智能体落地与生态建设，推理算力需求随之爆发。腾讯混元 3 正式版上线第一周，Token 调用量比上一代混元 2 增长 68 倍。",
+        "recommend_reason_zh": null,
+        "url": "https://www.ithome.com/0/995/136.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -884,15 +826,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7682,
-      "importance": 0.7682,
-      "importance_score": 0.7682,
+      "score": 0.7606,
+      "importance": 0.7606,
+      "importance_score": 0.7606,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.84,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8031,
+        "recency": 0.761,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -913,98 +855,6 @@
         "url": "https://x.com/Alibaba_Qwen/status/2092636376990990503",
         "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 90,
-      "persona_review": "开源且API已上线，今天就能clone或调用，跑任务直接换。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V4-Flash",
-        "scored_at": "2026-08-27T06:44:55.565351Z"
-      }
-    },
-    {
-      "story_id": "story_c52ddd36c744",
-      "title": "0day 同步！商汤小浣熊桌面端首发登陆 openKylin",
-      "url": "https://www.aibase.com/news/30665",
-      "primary_url": "https://www.aibase.com/news/30665",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "4a5d4d6ddcd9f184642d88f3e7e19b5cb608eba0",
-          "title": "0day 同步！商汤小浣熊桌面端首发登陆 openKylin",
-          "title_zh": "0day 同步！商汤小浣熊桌面端首发登陆 openKylin",
-          "title_en": null,
-          "title_original": "0day 同步！商汤小浣熊桌面端首发登陆 openKylin",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30665",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-27T06:43:46.547680Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "4a5d4d6ddcd9f184642d88f3e7e19b5cb608eba0",
-          "title": "0day 同步！商汤小浣熊桌面端首发登陆 openKylin",
-          "title_zh": "0day 同步！商汤小浣熊桌面端首发登陆 openKylin",
-          "title_en": null,
-          "title_original": "0day 同步！商汤小浣熊桌面端首发登陆 openKylin",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30665",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-27T06:43:46.547680Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-27T06:43:46.547680Z",
-      "latest_at": "2026-08-27T06:43:46.547680Z",
-      "primary_item": {
-        "id": "4a5d4d6ddcd9f184642d88f3e7e19b5cb608eba0",
-        "title": "0day 同步！商汤小浣熊桌面端首发登陆 openKylin",
-        "title_zh": "0day 同步！商汤小浣熊桌面端首发登陆 openKylin",
-        "title_en": null,
-        "title_original": "0day 同步！商汤小浣熊桌面端首发登陆 openKylin",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/30665",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 55,
-      "persona_review": "国产系统适配，受众窄，等主流平台再关注。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V4-Flash",
-        "scored_at": "2026-08-27T06:44:55.565351Z"
       }
     },
     {
@@ -1052,15 +902,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7635,
-      "importance": 0.7635,
-      "importance_score": 0.7635,
+      "score": 0.7554,
+      "importance": 0.7554,
+      "importance_score": 0.7554,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.63,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.8586,
+        "recency": 0.8136,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1081,14 +931,6 @@
         "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring",
         "source": "Google Research：Blog（网页）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 55,
-      "persona_review": "医疗AI方向的研究进展，暂无API和开源，做血糖相关项目的可留意。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V4-Flash",
-        "scored_at": "2026-08-27T06:44:55.565351Z"
       }
     },
     {
@@ -1136,15 +978,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7624,
-      "importance": 0.7624,
-      "importance_score": 0.7624,
+      "score": 0.7549,
+      "importance": 0.7549,
+      "importance_score": 0.7549,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.83,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7876,
+        "recency": 0.7463,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1165,14 +1007,6 @@
         "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494157&idx=1&sn=6837b15a07d2518842eb6c6b53a3eb3c",
         "source": "公众号：智谱（GLM）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 92,
-      "persona_review": "开源可下载，价格只有Opus的1/40，跑批量任务直接换。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V4-Flash",
-        "scored_at": "2026-08-27T06:44:55.565351Z"
       }
     },
     {
@@ -1220,15 +1054,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.762,
-      "importance": 0.762,
-      "importance_score": 0.762,
+      "score": 0.7527,
+      "importance": 0.7527,
+      "importance_score": 0.7527,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9854,
+        "recency": 0.9337,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1249,70 +1083,62 @@
         "url": "https://x.com/jietang/status/2092850258573471936",
         "source": "X：唐杰（@jietang）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 88,
-      "persona_review": "低价模型登顶榜单，跑推理任务可立刻换，先验证效果再上生产。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V4-Flash",
-        "scored_at": "2026-08-27T06:44:55.565351Z"
       }
     },
     {
-      "story_id": "story_bd3d56dfd62c",
-      "title": "英伟达预计 2028 财年营收同比增 70%，黄仁勋称实际需求远高于此",
-      "url": "https://www.ithome.com/0/994/807.htm",
-      "primary_url": "https://www.ithome.com/0/994/807.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
+      "story_id": "story_941f5251b628",
+      "title": "Google升级Gemini Live接入Spark，语音直接操控Gmail与全家桶",
+      "url": "https://www.aibase.com/news/30669",
+      "primary_url": "https://www.aibase.com/news/30669",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "4bc41732e256a41dd77e07cdfc954c6ad2729c5a",
-          "title": "英伟达预计 2028 财年营收同比增 70%，黄仁勋称实际需求远高于此",
-          "title_zh": "英伟达预计 2028 财年营收同比增 70%，黄仁勋称实际需求远高于此",
+          "id": "e4490a6cb364f64ac1f62ff42b79f6bfaf0e970a",
+          "title": "Google升级Gemini Live接入Spark，语音直接操控Gmail与全家桶",
+          "title_zh": "Google升级Gemini Live接入Spark，语音直接操控Gmail与全家桶",
           "title_en": null,
-          "title_original": "英伟达预计 2028 财年营收同比增 70%，黄仁勋称实际需求远高于此",
-          "summary": "英伟达预计 2028 财年销售额同比增长约 70%，CEO 黄仁勋称实际市场需求远高于这一数字，增速主要受供应能力限制。公司同时宣布将在 2027 至 2028 年向 AWS 额外供应 200 万块 GPU。第二季度营收同比增长 106% 至 962.2 亿美元，连续第 13 个季度创下营收纪录。",
+          "title_original": "Google升级Gemini Live接入Spark，语音直接操控Gmail与全家桶",
+          "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.ithome.com/0/994/807.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-27T00:20:11Z"
+          "url": "https://www.aibase.com/news/30669",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-27T10:27:34.909998Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "IT之家（RSS）"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "4bc41732e256a41dd77e07cdfc954c6ad2729c5a",
-          "title": "英伟达预计 2028 财年营收同比增 70%，黄仁勋称实际需求远高于此",
-          "title_zh": "英伟达预计 2028 财年营收同比增 70%，黄仁勋称实际需求远高于此",
+          "id": "e4490a6cb364f64ac1f62ff42b79f6bfaf0e970a",
+          "title": "Google升级Gemini Live接入Spark，语音直接操控Gmail与全家桶",
+          "title_zh": "Google升级Gemini Live接入Spark，语音直接操控Gmail与全家桶",
           "title_en": null,
-          "title_original": "英伟达预计 2028 财年营收同比增 70%，黄仁勋称实际需求远高于此",
-          "summary": "英伟达预计 2028 财年销售额同比增长约 70%，CEO 黄仁勋称实际市场需求远高于这一数字，增速主要受供应能力限制。公司同时宣布将在 2027 至 2028 年向 AWS 额外供应 200 万块 GPU。第二季度营收同比增长 106% 至 962.2 亿美元，连续第 13 个季度创下营收纪录。",
+          "title_original": "Google升级Gemini Live接入Spark，语音直接操控Gmail与全家桶",
+          "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.ithome.com/0/994/807.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-27T00:20:11Z"
+          "url": "https://www.aibase.com/news/30669",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-27T10:27:34.909998Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7607,
-      "importance": 0.7607,
-      "importance_score": 0.7607,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.75,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9118,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1320,27 +1146,19 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-27T00:20:11Z",
-      "latest_at": "2026-08-27T00:20:11Z",
+      "earliest_at": "2026-08-27T10:27:34.909998Z",
+      "latest_at": "2026-08-27T10:27:34.909998Z",
       "primary_item": {
-        "id": "4bc41732e256a41dd77e07cdfc954c6ad2729c5a",
-        "title": "英伟达预计 2028 财年营收同比增 70%，黄仁勋称实际需求远高于此",
-        "title_zh": "英伟达预计 2028 财年营收同比增 70%，黄仁勋称实际需求远高于此",
+        "id": "e4490a6cb364f64ac1f62ff42b79f6bfaf0e970a",
+        "title": "Google升级Gemini Live接入Spark，语音直接操控Gmail与全家桶",
+        "title_zh": "Google升级Gemini Live接入Spark，语音直接操控Gmail与全家桶",
         "title_en": null,
-        "title_original": "英伟达预计 2028 财年营收同比增 70%，黄仁勋称实际需求远高于此",
-        "summary": "英伟达预计 2028 财年销售额同比增长约 70%，CEO 黄仁勋称实际市场需求远高于这一数字，增速主要受供应能力限制。公司同时宣布将在 2027 至 2028 年向 AWS 额外供应 200 万块 GPU。第二季度营收同比增长 106% 至 962.2 亿美元，连续第 13 个季度创下营收纪录。",
+        "title_original": "Google升级Gemini Live接入Spark，语音直接操控Gmail与全家桶",
+        "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.ithome.com/0/994/807.htm",
-        "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "需求再高也买不到卡，短期只会更缺货，等实际供货和价格变化。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V4-Flash",
-        "scored_at": "2026-08-27T06:44:55.565351Z"
+        "url": "https://www.aibase.com/news/30669",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -1388,15 +1206,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.802,
-      "importance": 0.802,
-      "importance_score": 0.802,
+      "score": 0.7947,
+      "importance": 0.7947,
+      "importance_score": 0.7947,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7665,
+        "recency": 0.7263,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1418,98 +1236,6 @@
         "url": "https://github.blog/changelog/2026-08-26-github-apps-can-now-access-enterprise-billing-data",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 72,
-      "persona_review": "做企业账单自动化工具的开发者可接新 API，省去手动导出。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V4-Flash",
-        "scored_at": "2026-08-27T06:44:55.565351Z"
-      }
-    },
-    {
-      "story_id": "story_744c13587872",
-      "title": "23 岁创始人带 AI 助理 Instinct 估值飙至 25 亿，半年融 3.5 亿美元",
-      "url": "https://www.aibase.com/news/30656",
-      "primary_url": "https://www.aibase.com/news/30656",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "fd527c4a9222774905eb119f844a89a773600632",
-          "title": "23 岁创始人带 AI 助理 Instinct 估值飙至 25 亿，半年融 3.5 亿美元",
-          "title_zh": "23 岁创始人带 AI 助理 Instinct 估值飙至 25 亿，半年融 3.5 亿美元",
-          "title_en": null,
-          "title_original": "23 岁创始人带 AI 助理 Instinct 估值飙至 25 亿，半年融 3.5 亿美元",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30656",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-27T06:43:46.547680Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "fd527c4a9222774905eb119f844a89a773600632",
-          "title": "23 岁创始人带 AI 助理 Instinct 估值飙至 25 亿，半年融 3.5 亿美元",
-          "title_zh": "23 岁创始人带 AI 助理 Instinct 估值飙至 25 亿，半年融 3.5 亿美元",
-          "title_en": null,
-          "title_original": "23 岁创始人带 AI 助理 Instinct 估值飙至 25 亿，半年融 3.5 亿美元",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30656",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-27T06:43:46.547680Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-27T06:43:46.547680Z",
-      "latest_at": "2026-08-27T06:43:46.547680Z",
-      "primary_item": {
-        "id": "fd527c4a9222774905eb119f844a89a773600632",
-        "title": "23 岁创始人带 AI 助理 Instinct 估值飙至 25 亿，半年融 3.5 亿美元",
-        "title_zh": "23 岁创始人带 AI 助理 Instinct 估值飙至 25 亿，半年融 3.5 亿美元",
-        "title_en": null,
-        "title_original": "23 岁创始人带 AI 助理 Instinct 估值飙至 25 亿，半年融 3.5 亿美元",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/30656",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 20,
-      "persona_review": "融资数字不写代码，等产品开放再看。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V4-Flash",
-        "scored_at": "2026-08-27T06:44:55.565351Z"
       }
     },
     {
@@ -1557,15 +1283,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7375,
-      "importance": 0.7375,
-      "importance_score": 0.7375,
+      "score": 0.7296,
+      "importance": 0.7296,
+      "importance_score": 0.7296,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8326,
+        "recency": 0.789,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1585,120 +1311,104 @@
         "url": "https://claude.com/blog/claude-in-chrome-generally-available",
         "source": "Claude：Blog（网页）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 88,
-      "persona_review": "浏览器里直接用Claude，写代码查资料少切窗口，今天就能试。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V4-Flash",
-        "scored_at": "2026-08-27T06:44:55.565351Z"
       }
     },
     {
-      "story_id": "story_809ef9d986bc",
-      "title": "Anthropic 开放 Claude 真实使用数据供外部独立研究，公布试点结果 / Enabling independent research on how people use Claude",
-      "url": "https://www.anthropic.com/research/enabling-independent-research",
-      "primary_url": "https://www.anthropic.com/research/enabling-independent-research",
-      "source": "Anthropic：Research（发表成果 · 网页）",
+      "story_id": "story_51b4e0ab40fc",
+      "title": "GLM-5.3-Flash：前沿智能进入普惠时代",
+      "url": "https://www.zhipuai.cn/zh/research/163",
+      "primary_url": "https://www.zhipuai.cn/zh/research/163",
+      "source": "智谱：研究（网页内嵌数据）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "098f6cf77d5fa58ef362e1940d0e887881c51ba7",
-          "title": "Anthropic 开放 Claude 真实使用数据供外部独立研究，公布试点结果 / Enabling independent research on how people use Claude",
-          "title_zh": "Anthropic 开放 Claude 真实使用数据供外部独立研究，公布试点结果",
-          "title_en": "Enabling independent research on how people use Claude",
-          "title_original": "Enabling independent research on how people use Claude",
-          "summary": "Anthropic 今年春季启动试点，通过隐私保护工具 Anthropic Insights（原 Clio）向斯坦福大学 SALT Lab、牛津大学人类信息处理实验室及 METR 三个外部机构开放约 25 万段 2026 年 4-5 月的 Claude.ai 或 Claude Code 对话数据，供其独立设计研究并公开发布结果。",
+          "id": "e05b38c8560ddcfbc674c05784f27b593f8764d6",
+          "title": "GLM-5.3-Flash：前沿智能进入普惠时代",
+          "title_zh": "GLM-5.3-Flash：前沿智能进入普惠时代",
+          "title_en": null,
+          "title_original": "GLM-5.3-Flash：前沿智能进入普惠时代",
+          "summary": "智谱上线并开源GLM-5.3-Flash（320B-A18B），这是GLM-5系列首个原生多模态模型，在AA综合智能指数取得57分，与Claude Opus 4.8持平。其定价为GLM-5.3的1/10（限时1/20），为Opus 4.8的1/40，并首次在大规模流量中由国产芯片集群提供算力支持。模型已接入ZCode等平台，同步开放API调用。",
           "recommend_reason_zh": null,
-          "url": "https://www.anthropic.com/research/enabling-independent-research",
-          "source": "Anthropic：Research（发表成果 · 网页）",
+          "url": "https://www.zhipuai.cn/zh/research/163",
+          "source": "智谱：研究（网页内嵌数据）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-08-26T17:30:30.074000Z"
+          "published_at": "2026-08-26T14:00:00Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "Anthropic：Research（发表成果 · 网页）"
+        "智谱：研究（网页内嵌数据）"
       ],
       "items": [
         {
-          "id": "098f6cf77d5fa58ef362e1940d0e887881c51ba7",
-          "title": "Anthropic 开放 Claude 真实使用数据供外部独立研究，公布试点结果 / Enabling independent research on how people use Claude",
-          "title_zh": "Anthropic 开放 Claude 真实使用数据供外部独立研究，公布试点结果",
-          "title_en": "Enabling independent research on how people use Claude",
-          "title_original": "Enabling independent research on how people use Claude",
-          "summary": "Anthropic 今年春季启动试点，通过隐私保护工具 Anthropic Insights（原 Clio）向斯坦福大学 SALT Lab、牛津大学人类信息处理实验室及 METR 三个外部机构开放约 25 万段 2026 年 4-5 月的 Claude.ai 或 Claude Code 对话数据，供其独立设计研究并公开发布结果。",
+          "id": "e05b38c8560ddcfbc674c05784f27b593f8764d6",
+          "title": "GLM-5.3-Flash：前沿智能进入普惠时代",
+          "title_zh": "GLM-5.3-Flash：前沿智能进入普惠时代",
+          "title_en": null,
+          "title_original": "GLM-5.3-Flash：前沿智能进入普惠时代",
+          "summary": "智谱上线并开源GLM-5.3-Flash（320B-A18B），这是GLM-5系列首个原生多模态模型，在AA综合智能指数取得57分，与Claude Opus 4.8持平。其定价为GLM-5.3的1/10（限时1/20），为Opus 4.8的1/40，并首次在大规模流量中由国产芯片集群提供算力支持。模型已接入ZCode等平台，同步开放API调用。",
           "recommend_reason_zh": null,
-          "url": "https://www.anthropic.com/research/enabling-independent-research",
-          "source": "Anthropic：Research（发表成果 · 网页）",
+          "url": "https://www.zhipuai.cn/zh/research/163",
+          "source": "智谱：研究（网页内嵌数据）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-08-26T17:30:30.074000Z"
+          "published_at": "2026-08-26T14:00:00Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7273,
-      "importance": 0.7273,
-      "importance_score": 0.7273,
+      "score": 0.7276,
+      "importance": 0.7276,
+      "importance_score": 0.7276,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.69,
+        "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8262,
+        "recency": 0.7442,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-08-26T17:30:30.074000Z",
-      "latest_at": "2026-08-26T17:30:30.074000Z",
+      "earliest_at": "2026-08-26T14:00:00Z",
+      "latest_at": "2026-08-26T14:00:00Z",
       "primary_item": {
-        "id": "098f6cf77d5fa58ef362e1940d0e887881c51ba7",
-        "title": "Anthropic 开放 Claude 真实使用数据供外部独立研究，公布试点结果 / Enabling independent research on how people use Claude",
-        "title_zh": "Anthropic 开放 Claude 真实使用数据供外部独立研究，公布试点结果",
-        "title_en": "Enabling independent research on how people use Claude",
-        "title_original": "Enabling independent research on how people use Claude",
-        "summary": "Anthropic 今年春季启动试点，通过隐私保护工具 Anthropic Insights（原 Clio）向斯坦福大学 SALT Lab、牛津大学人类信息处理实验室及 METR 三个外部机构开放约 25 万段 2026 年 4-5 月的 Claude.ai 或 Claude Code 对话数据，供其独立设计研究并公开发布结果。",
+        "id": "e05b38c8560ddcfbc674c05784f27b593f8764d6",
+        "title": "GLM-5.3-Flash：前沿智能进入普惠时代",
+        "title_zh": "GLM-5.3-Flash：前沿智能进入普惠时代",
+        "title_en": null,
+        "title_original": "GLM-5.3-Flash：前沿智能进入普惠时代",
+        "summary": "智谱上线并开源GLM-5.3-Flash（320B-A18B），这是GLM-5系列首个原生多模态模型，在AA综合智能指数取得57分，与Claude Opus 4.8持平。其定价为GLM-5.3的1/10（限时1/20），为Opus 4.8的1/40，并首次在大规模流量中由国产芯片集群提供算力支持。模型已接入ZCode等平台，同步开放API调用。",
         "recommend_reason_zh": null,
-        "url": "https://www.anthropic.com/research/enabling-independent-research",
-        "source": "Anthropic：Research（发表成果 · 网页）",
+        "url": "https://www.zhipuai.cn/zh/research/163",
+        "source": "智谱：研究（网页内嵌数据）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 52,
-      "persona_review": "数据开放利于研究，但开发者暂时用不上，等结论落地再看。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V4-Flash",
-        "scored_at": "2026-08-27T06:44:55.565351Z"
       }
     },
     {
-      "story_id": "story_f3aa89b80469",
-      "title": "英伟达 2027 财年半年报归母净利润 1180.1 亿美元，同比增长 161.1%",
-      "url": "https://www.ithome.com/0/994/791.htm",
-      "primary_url": "https://www.ithome.com/0/994/791.htm",
+      "story_id": "story_bd3d56dfd62c",
+      "title": "英伟达预计 2028 财年营收同比增 70%，黄仁勋称实际需求远高于此",
+      "url": "https://www.ithome.com/0/994/807.htm",
+      "primary_url": "https://www.ithome.com/0/994/807.htm",
       "source": "IT之家（RSS）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "d91126ff51738b67487fedc83e98ecb07c436f27",
-          "title": "英伟达 2027 财年半年报归母净利润 1180.1 亿美元，同比增长 161.1%",
-          "title_zh": "英伟达 2027 财年半年报归母净利润 1180.1 亿美元，同比增长 161.1%",
+          "id": "4bc41732e256a41dd77e07cdfc954c6ad2729c5a",
+          "title": "英伟达预计 2028 财年营收同比增 70%，黄仁勋称实际需求远高于此",
+          "title_zh": "英伟达预计 2028 财年营收同比增 70%，黄仁勋称实际需求远高于此",
           "title_en": null,
-          "title_original": "英伟达 2027 财年半年报归母净利润 1180.1 亿美元，同比增长 161.1%",
-          "summary": "英伟达发布 2027 财年半年报，上半年营收 1778.37 亿美元，归母净利润 1180.1 亿美元，同比增长 161.1%，GAAP 毛利率 75%。第二财季营收 962.21 亿美元，同比增长 106%，环比增长 18%，归母净利润 596.88 亿美元，同比增长 126%。数据中心业务第二季度收入 890.23 亿美元，同比增长 117%，Vera Rubin 平台已进入全面量产。",
+          "title_original": "英伟达预计 2028 财年营收同比增 70%，黄仁勋称实际需求远高于此",
+          "summary": "英伟达预计 2028 财年销售额同比增长约 70%，CEO 黄仁勋称实际市场需求远高于这一数字，增速主要受供应能力限制。公司同时宣布将在 2027 至 2028 年向 AWS 额外供应 200 万块 GPU。第二季度营收同比增长 106% 至 962.2 亿美元，连续第 13 个季度创下营收纪录。",
           "recommend_reason_zh": null,
-          "url": "https://www.ithome.com/0/994/791.htm",
+          "url": "https://www.ithome.com/0/994/807.htm",
           "source": "IT之家（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-08-26T20:25:54Z"
+          "published_at": "2026-08-27T00:20:11Z"
         }
       ],
       "source_count": 1,
@@ -1707,58 +1417,202 @@
       ],
       "items": [
         {
-          "id": "d91126ff51738b67487fedc83e98ecb07c436f27",
-          "title": "英伟达 2027 财年半年报归母净利润 1180.1 亿美元，同比增长 161.1%",
-          "title_zh": "英伟达 2027 财年半年报归母净利润 1180.1 亿美元，同比增长 161.1%",
+          "id": "4bc41732e256a41dd77e07cdfc954c6ad2729c5a",
+          "title": "英伟达预计 2028 财年营收同比增 70%，黄仁勋称实际需求远高于此",
+          "title_zh": "英伟达预计 2028 财年营收同比增 70%，黄仁勋称实际需求远高于此",
           "title_en": null,
-          "title_original": "英伟达 2027 财年半年报归母净利润 1180.1 亿美元，同比增长 161.1%",
-          "summary": "英伟达发布 2027 财年半年报，上半年营收 1778.37 亿美元，归母净利润 1180.1 亿美元，同比增长 161.1%，GAAP 毛利率 75%。第二财季营收 962.21 亿美元，同比增长 106%，环比增长 18%，归母净利润 596.88 亿美元，同比增长 126%。数据中心业务第二季度收入 890.23 亿美元，同比增长 117%，Vera Rubin 平台已进入全面量产。",
+          "title_original": "英伟达预计 2028 财年营收同比增 70%，黄仁勋称实际需求远高于此",
+          "summary": "英伟达预计 2028 财年销售额同比增长约 70%，CEO 黄仁勋称实际市场需求远高于这一数字，增速主要受供应能力限制。公司同时宣布将在 2027 至 2028 年向 AWS 额外供应 200 万块 GPU。第二季度营收同比增长 106% 至 962.2 亿美元，连续第 13 个季度创下营收纪录。",
           "recommend_reason_zh": null,
-          "url": "https://www.ithome.com/0/994/791.htm",
+          "url": "https://www.ithome.com/0/994/807.htm",
           "source": "IT之家（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-08-26T20:25:54Z"
+          "published_at": "2026-08-27T00:20:11Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7487,
-      "importance": 0.7487,
-      "importance_score": 0.7487,
+      "score": 0.7521,
+      "importance": 0.7521,
+      "importance_score": 0.7521,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.74,
+        "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8618,
+        "recency": 0.864,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-27T00:20:11Z",
+      "latest_at": "2026-08-27T00:20:11Z",
+      "primary_item": {
+        "id": "4bc41732e256a41dd77e07cdfc954c6ad2729c5a",
+        "title": "英伟达预计 2028 财年营收同比增 70%，黄仁勋称实际需求远高于此",
+        "title_zh": "英伟达预计 2028 财年营收同比增 70%，黄仁勋称实际需求远高于此",
+        "title_en": null,
+        "title_original": "英伟达预计 2028 财年营收同比增 70%，黄仁勋称实际需求远高于此",
+        "summary": "英伟达预计 2028 财年销售额同比增长约 70%，CEO 黄仁勋称实际市场需求远高于这一数字，增速主要受供应能力限制。公司同时宣布将在 2027 至 2028 年向 AWS 额外供应 200 万块 GPU。第二季度营收同比增长 106% 至 962.2 亿美元，连续第 13 个季度创下营收纪录。",
+        "recommend_reason_zh": null,
+        "url": "https://www.ithome.com/0/994/807.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_b7149ac74a3e",
+      "title": "亚马逊订单激增三倍，英伟达芯片成全球大厂“硬通货”",
+      "url": "https://www.aibase.com/news/30671",
+      "primary_url": "https://www.aibase.com/news/30671",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "952fc3c2f9913381b54bf779dc6b6864e95f0084",
+          "title": "亚马逊订单激增三倍，英伟达芯片成全球大厂“硬通货”",
+          "title_zh": "亚马逊订单激增三倍，英伟达芯片成全球大厂“硬通货”",
+          "title_en": null,
+          "title_original": "亚马逊订单激增三倍，英伟达芯片成全球大厂“硬通货”",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30671",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-27T10:27:34.909998Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "952fc3c2f9913381b54bf779dc6b6864e95f0084",
+          "title": "亚马逊订单激增三倍，英伟达芯片成全球大厂“硬通货”",
+          "title_zh": "亚马逊订单激增三倍，英伟达芯片成全球大厂“硬通货”",
+          "title_en": null,
+          "title_original": "亚马逊订单激增三倍，英伟达芯片成全球大厂“硬通货”",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30671",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-27T10:27:34.909998Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-27T10:27:34.909998Z",
+      "latest_at": "2026-08-27T10:27:34.909998Z",
+      "primary_item": {
+        "id": "952fc3c2f9913381b54bf779dc6b6864e95f0084",
+        "title": "亚马逊订单激增三倍，英伟达芯片成全球大厂“硬通货”",
+        "title_zh": "亚马逊订单激增三倍，英伟达芯片成全球大厂“硬通货”",
+        "title_en": null,
+        "title_original": "亚马逊订单激增三倍，英伟达芯片成全球大厂“硬通货”",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/30671",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_0d7369bae4aa",
+      "title": "C2PA相机经不起现实的考验：Android端可被root攻击伪造签名",
+      "url": "https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html",
+      "primary_url": "https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "2394468a8ea996b819314588cee1f91572cc0a31",
+          "title": "C2PA相机经不起现实的考验：Android端可被root攻击伪造签名",
+          "title_zh": "C2PA相机经不起现实的考验：Android端可被root攻击伪造签名",
+          "title_en": null,
+          "title_original": "C2PA相机经不起现实的考验：Android端可被root攻击伪造签名",
+          "summary": "安全研究员David Buchanan指出，C2PA相机认证在Android平台上可被攻破。通过root权限提升漏洞（如CVE-2026-43499），攻击者可利用StrongBox硬件签名任意数据，伪造C2PA签名图像和视频，且无需硬件攻击。该问题无法通过常规补丁修复，已提前90天向相关方报告。",
+          "recommend_reason_zh": null,
+          "url": "https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-26T14:05:27.506000Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "items": [
+        {
+          "id": "2394468a8ea996b819314588cee1f91572cc0a31",
+          "title": "C2PA相机经不起现实的考验：Android端可被root攻击伪造签名",
+          "title_zh": "C2PA相机经不起现实的考验：Android端可被root攻击伪造签名",
+          "title_en": null,
+          "title_original": "C2PA相机经不起现实的考验：Android端可被root攻击伪造签名",
+          "summary": "安全研究员David Buchanan指出，C2PA相机认证在Android平台上可被攻破。通过root权限提升漏洞（如CVE-2026-43499），攻击者可利用StrongBox硬件签名任意数据，伪造C2PA签名图像和视频，且无需硬件攻击。该问题无法通过常规补丁修复，已提前90天向相关方报告。",
+          "recommend_reason_zh": null,
+          "url": "https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-26T14:05:27.506000Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7367,
+      "importance": 0.7367,
+      "importance_score": 0.7367,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.77,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7452,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-08-26T20:25:54Z",
-      "latest_at": "2026-08-26T20:25:54Z",
+      "earliest_at": "2026-08-26T14:05:27.506000Z",
+      "latest_at": "2026-08-26T14:05:27.506000Z",
       "primary_item": {
-        "id": "d91126ff51738b67487fedc83e98ecb07c436f27",
-        "title": "英伟达 2027 财年半年报归母净利润 1180.1 亿美元，同比增长 161.1%",
-        "title_zh": "英伟达 2027 财年半年报归母净利润 1180.1 亿美元，同比增长 161.1%",
+        "id": "2394468a8ea996b819314588cee1f91572cc0a31",
+        "title": "C2PA相机经不起现实的考验：Android端可被root攻击伪造签名",
+        "title_zh": "C2PA相机经不起现实的考验：Android端可被root攻击伪造签名",
         "title_en": null,
-        "title_original": "英伟达 2027 财年半年报归母净利润 1180.1 亿美元，同比增长 161.1%",
-        "summary": "英伟达发布 2027 财年半年报，上半年营收 1778.37 亿美元，归母净利润 1180.1 亿美元，同比增长 161.1%，GAAP 毛利率 75%。第二财季营收 962.21 亿美元，同比增长 106%，环比增长 18%，归母净利润 596.88 亿美元，同比增长 126%。数据中心业务第二季度收入 890.23 亿美元，同比增长 117%，Vera Rubin 平台已进入全面量产。",
+        "title_original": "C2PA相机经不起现实的考验：Android端可被root攻击伪造签名",
+        "summary": "安全研究员David Buchanan指出，C2PA相机认证在Android平台上可被攻破。通过root权限提升漏洞（如CVE-2026-43499），攻击者可利用StrongBox硬件签名任意数据，伪造C2PA签名图像和视频，且无需硬件攻击。该问题无法通过常规补丁修复，已提前90天向相关方报告。",
         "recommend_reason_zh": null,
-        "url": "https://www.ithome.com/0/994/791.htm",
-        "source": "IT之家（RSS）",
+        "url": "https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "财报数字好看，但对开发者没有直接可用的接口或降价信息。等有具体产品动作再看。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V4-Flash",
-        "scored_at": "2026-08-27T06:44:55.565351Z"
       }
     }
   ]
