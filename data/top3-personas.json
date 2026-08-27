@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-26T11:29:12.295898Z",
-  "model": "deepseek-chat",
+  "generated_at": "2026-08-27T04:04:09.414599Z",
+  "model": "deepseek-ai/DeepSeek-V4-Flash",
   "personas": [
     {
       "id": "cynic",
@@ -17,10 +17,46 @@
   ],
   "items": [
     {
+      "story_id": "story_a2e3eb29cde0",
+      "title": "一站式搞定多模型：OpenRouter 推出异步视频生成 API 接入指南",
+      "url": "https://www.aibase.com/news/30637",
+      "rank": 1,
+      "reviews": {
+        "cynic": {
+          "score": 35,
+          "review": "一篇接入指南也配叫行业动态？先跑通demo再说。"
+        },
+        "paper-police": {
+          "score": 25,
+          "review": "只有接入指南，无评测数据，需实际调用验证。"
+        },
+        "pragmatic": {
+          "score": 76,
+          "review": "统一异步接口省去逐个对接，做多模型聚合的今天就能参考。"
+        }
+      }
+    },
+    {
+      "story_id": "story_95764e895938",
+      "title": "Rule insights dashboard generally available",
+      "url": "https://github.blog/changelog/2026-08-25-rule-insights-dashboard-generally-available",
+      "rank": 2,
+      "reviews": {
+        "cynic": {
+          "score": 75,
+          "review": "仪表盘GA了，但规则命中率低时，它只会如实告诉你有多惨。"
+        },
+        "pragmatic": {
+          "score": 75,
+          "review": "规则洞察仪表盘正式可用，做安全扫描的团队可以接上，看规则命中率更方便。"
+        }
+      }
+    },
+    {
       "story_id": "story_4b7b151c884e",
       "title": "2025-03-21\n如何在生产环境前评估 LLM / How to evaluate LLMs before production",
       "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production",
-      "rank": 1,
+      "rank": 3,
       "reviews": {
         "cynic": {
           "score": 72,
@@ -33,38 +69,6 @@
         "pragmatic": {
           "score": 72,
           "review": "评估方法论有实操价值，但无新工具，按需参考。"
-        }
-      }
-    },
-    {
-      "story_id": "story_72c69d1ef3c2",
-      "title": "GitHub Copilot 应用 Customize 标签页正式发布 / GitHub Copilot app Customize tab is generally available",
-      "url": "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available",
-      "rank": 2,
-      "reviews": {
-        "pragmatic": {
-          "score": 72,
-          "review": "Copilot 自定义标签转正，能调模型和指令，今天就能改配置提效。"
-        }
-      }
-    },
-    {
-      "story_id": "story_6411634610d0",
-      "title": "量化感知修复：4位压缩模型超越全精度原版 / Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-      "rank": 3,
-      "reviews": {
-        "cynic": {
-          "score": 72,
-          "review": "4位压缩反超原版？先晒出评测集和基线再吹，别拿自家弱基线当参照。"
-        },
-        "paper-police": {
-          "score": 45,
-          "review": "博客给了数字但无代码无复现，等开源或第三方验证再定论。"
-        },
-        "pragmatic": {
-          "score": 72,
-          "review": "4位量化模型反超原版，压缩部署可试，但需验证泛化性。"
         }
       }
     }

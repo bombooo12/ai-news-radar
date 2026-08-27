@@ -1,234 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_d00dceec4346|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "现有Assistant集成要迁移，尽早检查Gemini兼容性和接口变更。",
-      "title_hash": "89ced6e1",
-      "scored_at": "2026-08-05T12:39:11.965368Z"
-    },
-    "story_e2cae4e7f2b3|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "购物智能体回归亚马逊，对开发者无直接接口价值，关注后续 API 再说。",
-      "title_hash": "e4bb0707",
-      "scored_at": "2026-08-05T12:39:13.756455Z"
-    },
-    "story_5e8e5c7c94d4|pragmatic|0a5c5b24": {
-      "score": 75,
-      "review": "省token的实操技巧，跑Codex和Claude Code任务的可直接参考。",
-      "title_hash": "b80de7f7",
-      "scored_at": "2026-08-05T12:39:16.926729Z"
-    },
-    "story_f70d268aa3c8|pragmatic|0a5c5b24": {
-      "score": 52,
-      "review": "法规先行，L3落地有据可依，但离量产上车还远，做相关开发的可以盯细则。",
-      "title_hash": "c37d7052",
-      "scored_at": "2026-08-05T12:39:20.099852Z"
-    },
-    "story_788cae258ab4|cynic|f4237a62": {
-      "score": 68,
-      "review": "3B 单卡能跑是真本事，'开源 SOTA'记得标注是自家榜单的 SOTA。",
-      "title_hash": "8a053ed5",
-      "scored_at": "2026-08-05T12:39:34.452942Z"
-    },
-    "story_788cae258ab4|paper-police|966065bf": {
-      "score": 10,
-      "review": "只有官方宣称，无论文无代码无第三方评测，开源SOTA无从验证。",
-      "title_hash": "8a053ed5",
-      "scored_at": "2026-08-05T12:39:36.180061Z"
-    },
-    "story_880f77f03b61|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "开放平台框架值得看，但没给接入细节前先别改架构。",
-      "title_hash": "447092cc",
-      "scored_at": "2026-08-05T14:56:06.956446Z"
-    },
-    "story_609acf8848f0|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "现状总结，不提供可上手方案，等有突破再说。",
-      "title_hash": "e1ca7136",
-      "scored_at": "2026-08-05T14:56:09.355080Z"
-    },
-    "story_f817e433f480|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "概念提案，没给可clone代码，等落地再看。",
-      "title_hash": "eff04b9a",
-      "scored_at": "2026-08-05T14:56:17.585133Z"
-    },
-    "story_3739c8d6bfe4|cynic|f4237a62": {
-      "score": 45,
-      "review": "“活人感”全凭自我感觉，敢不敢把前后对比稿贴出来？",
-      "title_hash": "1eba601e",
-      "scored_at": "2026-08-05T14:56:21.013967Z"
-    },
-    "story_3739c8d6bfe4|paper-police|966065bf": {
-      "score": 25,
-      "review": "仅称开源但未见仓库地址和评测，无法验证，等代码和样本再议。",
-      "title_hash": "1eba601e",
-      "scored_at": "2026-08-05T14:56:24.700014Z"
-    },
-    "story_533217fe758f|pragmatic|0a5c5b24": {
-      "score": 50,
-      "review": "数学理论突破，暂无工具或代码可用，围观即可。",
-      "title_hash": "3350fc70",
-      "scored_at": "2026-08-05T17:12:49.758189Z"
-    },
-    "story_3d42f575454c|pragmatic|0a5c5b24": {
-      "score": 60,
-      "review": "小版本迭代，具体变动需查 changelog，常用才值得升级。",
-      "title_hash": "0a296141",
-      "scored_at": "2026-08-05T17:12:53.905572Z"
-    },
-    "story_a22d5ba3f7a7|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "人事变动不影响接口和模型，等新战略落地再看。",
-      "title_hash": "5385fb04",
-      "scored_at": "2026-08-05T17:12:55.803969Z"
-    },
-    "story_049173f25374|pragmatic|0a5c5b24": {
-      "score": 50,
-      "review": "太空算力听着远，Vera Rubin 还没量产，等真上天再关心。",
-      "title_hash": "48f6792c",
-      "scored_at": "2026-08-05T17:12:57.728285Z"
-    },
-    "story_62f2df441b10|cynic|f4237a62": {
-      "score": 68,
-      "review": "Pro后缀越来越廉价，基准测试和部署成本敢不敢一起晒？",
-      "title_hash": "05d22606",
-      "scored_at": "2026-08-05T17:13:01.477804Z"
-    },
-    "story_62f2df441b10|paper-police|966065bf": {
-      "score": 25,
-      "review": "仅官方推特上线消息，无论文无代码无跑分，证据不足。",
-      "title_hash": "05d22606",
-      "scored_at": "2026-08-05T17:13:06.199621Z"
-    },
-    "story_d7cf46c6af61|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "大神离职是行业信号，但新公司没产品，今天不用改代码。",
-      "title_hash": "a21f6dc3",
-      "scored_at": "2026-08-05T19:07:19.380277Z"
-    },
-    "story_2d7cb4009c8c|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "高层换人不改现有 API，短期无影响，长期看方向再动。",
-      "title_hash": "a593435a",
-      "scored_at": "2026-08-05T19:07:21.152607Z"
-    },
-    "story_d002c5a4cf70|pragmatic|0a5c5b24": {
-      "score": 30,
-      "review": "CEO 换人短期内不影响 API，等战略调整再看。",
-      "title_hash": "8b576142",
-      "scored_at": "2026-08-05T19:07:22.853032Z"
-    },
-    "story_20b80d150b2a|cynic|f4237a62": {
-      "score": 82,
-      "review": "功能都真，但推理轨迹和工具调用早该有了，别当大新闻。",
-      "title_hash": "e0b82e84",
-      "scored_at": "2026-08-05T19:07:30.689600Z"
-    },
-    "story_20b80d150b2a|paper-police|966065bf": {
-      "score": 50,
-      "review": "博客列了功能明细，但无代码或评测证据，待独立验证。",
-      "title_hash": "e0b82e84",
-      "scored_at": "2026-08-05T19:07:50.501072Z"
-    },
-    "story_be2586b7721a|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "演示模型生成游戏的能力，但未见开放接口或可复现代码，暂时不用行动。",
-      "title_hash": "ee1f45d6",
-      "scored_at": "2026-08-05T20:55:07.415169Z"
-    },
-    "story_d7b19b7f654d|pragmatic|0a5c5b24": {
-      "score": 30,
-      "review": "平台审核漏洞，对开发者无直接工具影响，但涉合规风险需留意。",
-      "title_hash": "9d17f7ed",
-      "scored_at": "2026-08-05T22:42:42.364353Z"
-    },
-    "story_0e6536a40e43|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "用Rovo的团队今天就要检查权限配置，别等补丁。",
-      "title_hash": "0a238809",
-      "scored_at": "2026-08-05T22:42:44.737747Z"
-    },
-    "story_ad49186cedfd|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "开源工具可直接跑，做广告预算归因的团队能上手试。",
-      "title_hash": "f8640b36",
-      "scored_at": "2026-08-05T22:42:47.287119Z"
-    },
-    "story_671b284df7c7|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "安全传闻，没官方细节，短期不影响选型，先观望。",
-      "title_hash": "ed606dab",
-      "scored_at": "2026-08-06T00:24:27.341235Z"
-    },
-    "story_f35b1af635e4|pragmatic|0a5c5b24": {
-      "score": 52,
-      "review": "安全事件提醒，检查你自己 agent 的沙箱和权限控制。",
-      "title_hash": "8e1a4b2e",
-      "scored_at": "2026-08-06T00:24:29.912961Z"
-    },
-    "story_ef28a1340614|cynic|f4237a62": {
-      "score": 72,
-      "review": "开源参数可查，但'Super'与Robotaxi之间隔着一个真实世界，先上路测再说。",
-      "title_hash": "fe8d97e1",
-      "scored_at": "2026-08-06T00:24:34.171830Z"
-    },
-    "story_ef28a1340614|paper-police|966065bf": {
-      "score": 25,
-      "review": "媒体通稿称开源但无代码无评测，缺实质证据难采信。",
-      "title_hash": "fe8d97e1",
-      "scored_at": "2026-08-06T00:24:39.343720Z"
-    },
-    "story_365bb32d4726|pragmatic|0a5c5b24": {
-      "score": 90,
-      "review": "插件今天就能装，给AI生成代码加道安全闸，写原型时省心。",
-      "title_hash": "572075b6",
-      "scored_at": "2026-08-06T03:52:40.549437Z"
-    },
-    "story_7101c5859f87|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "没明确开放入口，短期用不上，等实际产品再评估。",
-      "title_hash": "41ea8eb0",
-      "scored_at": "2026-08-06T03:52:43.175261Z"
-    },
-    "story_7445223c019d|pragmatic|0a5c5b24": {
-      "score": 52,
-      "review": "电商流量渠道有新变化，但今天不用改代码，先看数据再动。",
-      "title_hash": "795f25e4",
-      "scored_at": "2026-08-06T03:52:44.904515Z"
-    },
-    "story_3fbd6c075cea|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "关注AI生成代码的安全审计，别盲目信任输出。",
-      "title_hash": "ad24c348",
-      "scored_at": "2026-08-06T03:52:47.135962Z"
-    },
-    "story_365bb32d4726|cynic|f4237a62": {
-      "score": 72,
-      "review": "开源安全扫描是好事，但'必备'说得像保险推销，先看扫描覆盖率再说。",
-      "title_hash": "572075b6",
-      "scored_at": "2026-08-06T03:52:49.407662Z"
-    },
-    "story_365bb32d4726|paper-police|966065bf": {
-      "score": 25,
-      "review": "仅公众号宣称开源，无仓库无评测，需官方链接验证。",
-      "title_hash": "572075b6",
-      "scored_at": "2026-08-06T03:52:51.871810Z"
-    },
-    "story_5e8e5c7c94d4|cynic|f4237a62": {
-      "score": 62,
-      "review": "五亿token换来的个人经验，换个模型版本可能就失效了。",
-      "title_hash": "b80de7f7",
-      "scored_at": "2026-08-06T03:52:53.990694Z"
-    },
-    "story_5e8e5c7c94d4|paper-police|966065bf": {
-      "score": 30,
-      "review": "只有公众号经验贴，无代码无评测，5亿token数字无从验证。",
-      "title_hash": "b80de7f7",
-      "scored_at": "2026-08-06T03:52:57.772817Z"
-    },
     "story_f1559602cda7|pragmatic|0a5c5b24": {
       "score": 90,
       "review": "新模型已上线，价格便宜且文本准确率高，适合做图像生成任务的今天就能换。",
@@ -5226,6 +4998,78 @@
       "review": "官方博客给了评估方法细节，但无代码无基准，缺独立验证。",
       "title_hash": "d2d663eb",
       "scored_at": "2026-08-25T22:15:25.923965Z"
+    },
+    "story_4346047ee8ea|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "案例故事，无新工具或API，想参考落地场景可看，但别指望有干货。",
+      "title_hash": "8c0080a7",
+      "scored_at": "2026-08-27T03:59:37.297766Z"
+    },
+    "story_95764e895938|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "规则洞察仪表盘正式可用，做安全扫描的团队可以接上，看规则命中率更方便。",
+      "title_hash": "b8b84bed",
+      "scored_at": "2026-08-27T03:59:41.495193Z"
+    },
+    "story_922544fb38bf|pragmatic|0a5c5b24": {
+      "score": 55,
+      "review": "收入数据是商业信号，不影响选型，做API对比时顺带看一眼即可。",
+      "title_hash": "a6fd0a0e",
+      "scored_at": "2026-08-27T03:59:44.680297Z"
+    },
+    "story_6ec774358beb|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "商业谈判没产品细节，开发者不用动，等K3真开放再说。",
+      "title_hash": "0fdab446",
+      "scored_at": "2026-08-27T03:59:53.913414Z"
+    },
+    "story_c84a4b0b7ec0|pragmatic|0a5c5b24": {
+      "score": 30,
+      "review": "财报影响股价和情绪，不改变今天能用的工具，等数字落地再看。",
+      "title_hash": "ee6edf36",
+      "scored_at": "2026-08-27T04:01:27.272810Z"
+    },
+    "story_04e4cb4fff13|pragmatic|0a5c5b24": {
+      "score": 62,
+      "review": "跑分看看就好，选型还得看自家机型实测，别急着换。",
+      "title_hash": "07e75252",
+      "scored_at": "2026-08-27T04:01:30.426274Z"
+    },
+    "story_0be877002fab|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "融资和营收数字不写代码，等模型或 API 有实际变化再关注。",
+      "title_hash": "7d6afe08",
+      "scored_at": "2026-08-27T04:01:40.396459Z"
+    },
+    "story_a2e3eb29cde0|pragmatic|0a5c5b24": {
+      "score": 76,
+      "review": "统一异步接口省去逐个对接，做多模型聚合的今天就能参考。",
+      "title_hash": "ebd409d4",
+      "scored_at": "2026-08-27T04:02:05.938162Z"
+    },
+    "story_8905d625b3de|pragmatic|0a5c5b24": {
+      "score": 30,
+      "review": "宏观就业趋势，不改变今天的工具选型，入门开发者多学点硬技能更实在。",
+      "title_hash": "35dbf4a8",
+      "scored_at": "2026-08-27T04:02:11.855036Z"
+    },
+    "story_a2e3eb29cde0|cynic|f4237a62": {
+      "score": 35,
+      "review": "一篇接入指南也配叫行业动态？先跑通demo再说。",
+      "title_hash": "ebd409d4",
+      "scored_at": "2026-08-27T04:02:22.933232Z"
+    },
+    "story_a2e3eb29cde0|paper-police|966065bf": {
+      "score": 25,
+      "review": "只有接入指南，无评测数据，需实际调用验证。",
+      "title_hash": "ebd409d4",
+      "scored_at": "2026-08-27T04:02:49.007681Z"
+    },
+    "story_95764e895938|cynic|f4237a62": {
+      "score": 75,
+      "review": "仪表盘GA了，但规则命中率低时，它只会如实告诉你有多惨。",
+      "title_hash": "b8b84bed",
+      "scored_at": "2026-08-27T04:03:05.695716Z"
     }
   }
 }
