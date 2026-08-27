@@ -1,31 +1,102 @@
 {
   "feedback_history": [
     {
+      "date": "2026-08-26",
+      "topic_title": "OpenAI芯片大逆袭：Jalapeño vs Nvidia，AI算力格局要变？",
+      "track": "ai_technology",
+      "format": "图文",
+      "source": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips across GPT-OSS, DeepSeek R1, Kimi K2.5 1T (Emma Roth/The Verge)",
+      "action": "noted",
+      "reason": "",
+      "note": "",
+      "timestamp": "2026-08-26T03:00:52.426Z"
+    },
+    {
+      "date": "2026-08-26",
+      "topic_title": "OpenAI自研芯片吊打英伟达？普通用户需要知道的3件事",
+      "track": "ai_industry",
+      "format": "图文",
+      "source": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt...",
+      "action": "rejected",
+      "reason": "",
+      "note": "我现在暂时不想做偏硬件的内容",
+      "timestamp": "2026-08-26T05:36:54.395Z"
+    },
+    {
+      "date": "2026-08-26",
+      "topic_title": "自己动手，托管一个专属AI智能体（保姆级教程）",
+      "track": "ai_agent",
+      "format": "图文",
+      "source": "How to self-host your own AI agent",
+      "action": "noted",
+      "reason": "",
+      "note": "",
+      "timestamp": "2026-08-26T05:50:13.116Z"
+    },
+    {
+      "date": "2026-08-26",
+      "topic_title": "OpenAI自研芯片Jalapeño曝光：性能碾压Nvidia？AI算力格局要变天",
+      "track": "ai_chip",
+      "format": "图文",
+      "source": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips across GPT-OSS, DeepSeek R1, Kimi K2.5 1T",
+      "action": "maybe",
+      "reason": "",
+      "note": "这个虽然说硬件的，但是反常识比较强，就还可以用。因为一般都知道Nvidia芯片很强，这个自研的还能碾压，就会产生好奇",
+      "timestamp": "2026-08-26T09:56:12.184Z"
+    },
+    {
+      "date": "2026-08-26",
+      "topic_title": "学生盲测Gemini碾压ChatGPT和Claude？AI写作工具要换天了",
+      "track": "ai_writing",
+      "format": "图文",
+      "source": "Students prefer Gemini over ChatGPT and Claude for AI essays in blind tests",
+      "action": "noted",
+      "reason": "",
+      "note": "",
+      "timestamp": "2026-08-26T09:56:20.445Z"
+    },
+    {
+      "date": "2026-08-26",
+      "topic_title": "自托管AI Agent完全指南：把ChatGPT装进自己的服务器",
+      "track": "ai_agent",
+      "format": "视频",
+      "source": "How to self-host your own AI agent",
+      "action": "maybe",
+      "reason": "",
+      "note": "",
+      "timestamp": "2026-08-26T09:56:29.736Z"
+    },
+    {
+      "date": "2026-08-26",
+      "topic_title": "DeepSeek开源Harness：AI智能体基础设施开始“拆分”，普通人怎么用？",
+      "track": "ai_tech",
+      "format": "图文",
+      "source": "DeepSeek 开源 Harness：AI 智能体基础设施开始“拆分”",
+      "action": "selected",
+      "reason": "",
+      "note": "",
+      "timestamp": "2026-08-27T03:36:57.974Z"
+    },
+    {
       "date": "2026-08-25",
       "topic_id": "example_001",
-      "topic_title": "示例：MiniMax视频工具发布",
+      "topic_title": "ç¤ºä¾ï¼MiniMaxè§é¢å·¥å·åå¸",
       "action": "selected",
       "track": "ai_video",
-      "format": "测评/教程",
-      "reason": "想做AI视频工具测评",
+      "format": "æµè¯/æç¨",
+      "reason": "æ³åAIè§é¢å·¥å·æµè¯",
       "source": "Follow Builders"
     },
     {
       "date": "2026-08-25",
       "topic_id": "example_002",
-      "topic_title": "示例：某论文提出新训练方法",
+      "topic_title": "ç¤ºä¾ï¼æè®ºææåºæ°è®­ç»æ¹æ³",
       "action": "rejected",
       "track": "ai_tech",
-      "format": "深度分析",
-      "reason": "太学术，受众不关心",
+      "format": "æ·±åº¦åæ",
+      "reason": "å¤ªå­¦æ¯ï¼åä¼ä¸å³å¿",
       "source": "Hacker News"
     }
   ],
-  "preferences": {
-    "preferred_tracks": [],
-    "preferred_formats": [],
-    "rejected_patterns": [],
-    "source_weights": {}
-  },
-  "notes": "请每天看完推荐后，在 feedback_history 里添加你的反馈。action 填 selected（选用）或 rejected（不用）。format 填你打算用的内容形式。reason 填简短理由。系统会自动学习你的偏好。"
+  "ai_adjustments": []
 }
