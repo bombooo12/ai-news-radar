@@ -62,6 +62,14 @@ tracks:
       - { word: "text-to-video", weight: 3 }
       - { word: "文生视频", weight: 3 }
       - { word: "AI动画", weight: 3 }
+      # 数字人/AI主播 (高权重=3)
+      - { word: "数字人", weight: 3 }
+      - { word: "digital human", weight: 3 }
+      - { word: "虚拟人", weight: 2 }
+      - { word: "AI主播", weight: 2 }
+      - { word: "virtual avatar", weight: 2 }
+      # 通用AI (中权重=2)
+      - { word: "AI", weight: 2 }
       # 视频剪辑 (中权重=2)
       - { word: "剪映", weight: 2 }
       - { word: "CapCut", weight: 2 }
