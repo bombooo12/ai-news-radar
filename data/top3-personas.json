@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T04:04:09.414599Z",
+  "generated_at": "2026-08-27T05:00:40.154307Z",
   "model": "deepseek-ai/DeepSeek-V4-Flash",
   "personas": [
     {
@@ -45,6 +45,10 @@
         "cynic": {
           "score": 75,
           "review": "仪表盘GA了，但规则命中率低时，它只会如实告诉你有多惨。"
+        },
+        "paper-police": {
+          "score": 45,
+          "review": "官方公告确认上线，但无独立评测或复现，需实际使用验证。"
         },
         "pragmatic": {
           "score": 75,
