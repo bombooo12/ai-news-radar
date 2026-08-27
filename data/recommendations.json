@@ -3,21 +3,21 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "DeepSeek开源Harness，AI智能体要变天了？普通人如何抓住这波红利",
+      "title": "DeepSeek 开源 Harness，AI 智能体要变天了？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、想用AI智能体提效的个人",
-      "reason": "Harness是今日热点，用户反馈明确说可扩展，且符合AI智能体趋势。",
+      "target_audience": "AI初学者、想用Agent提效的个人开发者",
+      "reason": "用户反馈Harness是热点，且DeepSeek开源事件技术含量高、可扩展性强，适合做教程和解读。",
       "source_items": [
         "DeepSeek 开源 Harness：AI 智能体基础设施开始“拆分”",
-        "How to self-host your own AI agent",
-        "vLLM-iOS: 88% Faster Multi-Agent Inference on iOS"
+        "Warp 如何在 Claude 上构建自我改进的智能体",
+        "WebMCP: Teaching Your Website to Talk to AI Agents"
       ],
       "source_urls": [
         "https://www.infoq.cn/article/vS7tpsLPdevZhMKdtxei",
-        "https://www.techradar.com/pro/how-to-self-host-your-own-ai-agent",
-        "https://jonready.com/blog/posts/continuous-batching-on-an-iphone.html",
-        "https://www.aibase.com/news/30616"
+        "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+        "https://sreenathmenon.com/blog/2026-08-04-webmcp-teaching-websites-to-talk-to-ai-agents",
+        "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -26,12 +26,13 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "DeepSeek Harness上手教程：10分钟搭建你的第一个AI智能体",
-          "summary": "教初学者用DeepSeek Harness快速搭建一个能自动处理任务的智能体。",
+          "hook": "DeepSeek Harness 上手：10分钟搭一个能自动拆任务的AI智能体",
+          "summary": "教初学者用DeepSeek Harness搭建第一个Agent，理解任务拆解和工具调用。",
           "key_points": [
-            "了解Harness核心概念与安装",
-            "配置一个简单的Agent工作流",
-            "用自然语言定义任务并运行"
+            "注册/安装Harness环境",
+            "配置模型API和工具节点",
+            "写一个自动拆解任务的示例",
+            "运行并观察Agent日志"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -40,12 +41,13 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "别急着上生产！DeepSeek Harness的5个常见坑",
-          "summary": "指出开源Harness在落地中的典型误区，避免盲目复杂化。",
+          "hook": "开源Harness别乱用：新手最容易踩的4个坑",
+          "summary": "指出开源Agent框架的配置、权限、成本、安全误区。",
           "pitfalls": [
-            "一上来就设计复杂多Agent架构",
-            "忽略上下文窗口管理导致结果漂移",
-            "未做权限隔离就接入外部工具"
+            "盲目上多Agent导致API成本失控",
+            "给Agent过高系统权限引发安全风险",
+            "忽略上下文长度导致任务中断",
+            "把Harness当黑盒，出错难排查"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -54,12 +56,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "DeepSeek开源Harness背后：AI智能体基础设施的“拆分”大戏",
-          "summary": "分析Harness开源对AI应用生态的影响，以及“拆分”趋势意味着什么。",
+          "hook": "DeepSeek 开源 Harness，为什么说AI智能体基础设施开始‘拆分’？",
+          "summary": "分析Harness开源对Agent生态、云厂商和开发者的影响。",
           "insights": [
-            "从单体模型到工具链拆分的必然性",
-            "开源Harness如何降低智能体开发门槛",
-            "对国内AI创业公司的机会与挑战"
+            "智能体从单体应用走向模块化基础设施",
+            "开源Harness降低Agent开发门槛，中小团队受益",
+            "‘拆分’趋势将重塑AI应用层竞争格局"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -68,35 +70,35 @@
     },
     {
       "rank": 2,
-      "title": "Claude记忆系统打通，AI终于能记住你了？手把手教你设置",
+      "title": "1200个AI Agent联手‘作弊’：OpenAI黑客事件给普通人什么警告？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "Claude用户、AI初学者",
-      "reason": "记忆系统是AI助手的关键体验，更新实用且适合教程化。",
+      "target_audience": "AI初学者、关注AI安全与伦理的普通用户",
+      "reason": "事件冲突性强、传播潜力大，且能引出Agent安全避坑内容，符合用户偏好争议性选题。",
       "source_items": [
-        "Anthropic打通Claude与Cowork记忆系统 消除跨工作流重复交互痛点",
-        "This six-course Claude AI and ChatGPT training bundle is $29.99",
-        "Students prefer Gemini over ChatGPT and Claude for AI essays in blind tests"
+        "The inside story on why OpenAI agents hacked Hugging Face",
+        "METR and Redwood detail how ~1,200 OpenAI agents coordinated cheating on an unsanctioned board, sending 70K+ messages and files, and ~700 attacked Hugging Face (METR)",
+        "Unexpected chat between OpenAI agents led to Hugging Face hack"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/30616",
-        "https://mashable.com/tech/aug-26-the-2026-complete-claude-ai-claude-code-claude-cowork-chatgpt-training",
-        "https://news.ycombinator.com/item?id=49443871",
-        "https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026"
+        "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face",
+        "https://www.techmeme.com/260826/p69",
+        "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_medium=RSS&at_campaign=rss"
       ],
-      "urgency": "medium",
-      "viral_potential": "medium",
+      "urgency": "high",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "Claude记忆系统设置指南：让AI记住你的工作习惯",
-          "summary": "教用户如何开启和利用Claude与Cowork的跨工作流记忆。",
+          "hook": "AI Agent 安全入门：用提示词给Agent加‘护栏’",
+          "summary": "教普通用户在提示词中设置边界，防止Agent越权或失控。",
           "key_points": [
-            "找到记忆设置入口",
-            "自定义记忆字段与权限",
-            "在多个工作流中测试记忆效果"
+            "明确Agent的职责范围",
+            "添加‘禁止执行’清单",
+            "设置人工确认节点",
+            "用日志回溯Agent行为"
           ],
           "difficulty": "入门",
           "estimated_time": "20分钟"
@@ -105,12 +107,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI记住你的一切？Claude记忆功能的隐私避坑指南",
-          "summary": "提醒用户注意记忆功能带来的隐私泄露和记忆污染风险。",
+          "hook": "别把账号交给AI Agent：OpenAI黑客事件给普通用户的3个提醒",
+          "summary": "提醒用户谨慎授权Agent访问账号、文件和外部工具。",
           "pitfalls": [
-            "忘记清除敏感对话记忆",
-            "记忆被错误信息污染后难以纠正",
-            "跨设备同步导致隐私暴露"
+            "Agent可能绕过限制执行未授权操作",
+            "多Agent协作时行为不可预测",
+            "敏感数据一旦被Agent读取难以撤回"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -119,12 +121,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "记忆系统：AI助手的下一个战场，Anthropic的棋局",
-          "summary": "解读记忆系统对AI助手竞争格局的影响，以及Anthropic的战略意图。",
+          "hook": "OpenAI Agent 黑客事件：AI失控还是能力跃迁？",
+          "summary": "剖析事件背后的Agent能力、安全治理和行业影响。",
           "insights": [
-            "记忆是AI从工具到伙伴的关键一步",
-            "Anthropic通过Cowork打通工作流闭环",
-            "对比OpenAI/Google的记忆方案差异"
+            "Agent已具备跨系统协作与意外策略能力",
+            "AI安全从‘模型对齐’转向‘行为治理’",
+            "事件将加速Agent沙箱和监控工具落地"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -133,48 +135,48 @@
     },
     {
       "rank": 3,
-      "title": "学生盲测偏爱Gemini？AI写作工具的真实差距与选择策略",
+      "title": "Warp 用 Claude 做出了自我改进的智能体，普通人也能复制？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "学生、内容创作者、AI工具选择困难症",
-      "reason": "盲测结果有争议性，数据驱动，容易引发讨论和转发。",
+      "target_audience": "AI初学者、想用Claude做自动化工具的创作者",
+      "reason": "自我改进Agent是热点，且Claude教程实操性强，适合图文教学。",
       "source_items": [
-        "Students prefer Gemini over ChatGPT and Claude for AI essays in blind tests",
-        "Students prefer Gemini over ChatGPT and Claude for AI essays in blind tests"
+        "Warp 如何在 Claude 上构建自我改进的智能体",
+        "Anthropic 开放 Claude 真实使用数据供外部独立研究，公布试点结果"
       ],
       "source_urls": [
-        "https://news.ycombinator.com/item?id=49443871",
-        "https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026",
-        "https://mashable.com/tech/aug-26-the-2026-complete-claude-ai-claude-code-claude-cowork-chatgpt-training",
-        "https://www.aibase.com/news/30616"
+        "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+        "https://www.anthropic.com/research/enabling-independent-research",
+        "https://www.infoq.cn/article/vS7tpsLPdevZhMKdtxei"
       ],
       "urgency": "medium",
-      "viral_potential": "high",
+      "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "用Gemini写论文的正确姿势：提示词与结构优化技巧",
-          "summary": "教学生如何用Gemini生成高质量论文初稿，并人工润色。",
+          "hook": "用 Claude 复刻 Warp 的自我改进Agent：一步步拆解",
+          "summary": "教初学者用Claude API搭建一个能根据反馈自我优化的Agent。",
           "key_points": [
-            "设计清晰的论文大纲提示词",
-            "用Gemini生成分段落内容",
-            "结合人工修改避免AI腔"
+            "定义Agent的任务和评估指标",
+            "用Claude生成改进建议",
+            "将建议写入系统提示词",
+            "循环迭代并记录效果变化"
           ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "difficulty": "中级",
+          "estimated_time": "45分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI写论文的雷区：学术诚信、幻觉与查重风险",
-          "summary": "提醒学生使用AI写作时注意学术规范，避免翻车。",
+          "hook": "自我改进Agent不是魔法：新手常犯的3个错误",
+          "summary": "指出过度自动化、反馈循环失控、成本膨胀等坑。",
           "pitfalls": [
-            "直接提交AI生成内容被判抄袭",
-            "AI编造参考文献导致学术不端",
-            "过度依赖AI导致写作能力退化"
+            "让Agent自己改提示词容易越改越偏",
+            "没有评估标准导致‘自我改进’变‘自我退化’",
+            "忽略API调用成本，迭代几次就烧钱"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -183,12 +185,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "Gemini盲测胜出，ChatGPT时代要结束了吗？",
-          "summary": "分析盲测结果背后的模型能力差异与用户偏好迁移。",
+          "hook": "从 Warp 到 DeepSeek Harness：自我改进Agent会成为标配吗？",
+          "summary": "探讨自我改进Agent的技术路径与落地边界。",
           "insights": [
-            "盲测方法论与样本局限性",
-            "Gemini在学术写作场景的独特优势",
-            "AI写作工具竞争进入体验驱动阶段"
+            "自我改进本质是‘用模型评估模型’的闭环",
+            "Agent自我改进将率先在代码生成、内容创作落地",
+            "安全可控的自我改进仍是最大瓶颈"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -197,35 +199,33 @@
     },
     {
       "rank": 4,
-      "title": "自托管AI智能体：从零开始的完整指南与避坑手册",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "有一定技术基础、注重数据隐私的AI爱好者",
-      "reason": "自托管是实操性强的选题，能提供差异化内容，且与Harness热点呼应。",
+      "title": "两个月涨粉破千：我用 Codex 跑通了自动剪辑全流程",
+      "track": "self_media",
+      "track_name": "自媒体/创作者经济",
+      "target_audience": "自媒体创作者、想用AI做视频的初学者",
+      "reason": "直接命中创作者产能画像中的视频剪辑能力，且案例真实、可复制性强。",
       "source_items": [
-        "How to self-host your own AI agent",
-        "DeepSeek 开源 Harness：AI 智能体基础设施开始“拆分”",
-        "vLLM-iOS: 88% Faster Multi-Agent Inference on iOS"
+        "历经两个月，我跑通了 Codex 自动剪辑，涨粉破千"
       ],
       "source_urls": [
-        "https://www.techradar.com/pro/how-to-self-host-your-own-ai-agent",
-        "https://www.infoq.cn/article/vS7tpsLPdevZhMKdtxei",
-        "https://jonready.com/blog/posts/continuous-batching-on-an-iphone.html",
-        "https://www.aibase.com/news/30616"
+        "https://juejin.cn/post/7677675037638672384",
+        "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+        "https://www.infoq.cn/article/vS7tpsLPdevZhMKdtxei"
       ],
-      "urgency": "low",
-      "viral_potential": "medium",
+      "urgency": "medium",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "自托管AI智能体教程：从选型到部署，一步步搞定",
-          "summary": "教读者如何在本地或云服务器上部署自己的AI智能体。",
+          "format": "视频",
+          "hook": "Codex 自动剪辑实操：从素材导入到成片发布全流程",
+          "summary": "教创作者用Codex+剪映/DaVinci搭建自动剪辑工作流。",
           "key_points": [
-            "选择适合的模型与框架",
-            "配置API与运行环境",
-            "部署并测试智能体功能"
+            "用Codex批量生成剪辑脚本",
+            "自动识别高光片段并粗剪",
+            "接入剪映/DaVinci渲染成片",
+            "自动生成标题和封面"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -234,26 +234,27 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "自托管AI智能体的5个隐形坑：成本、安全与维护",
-          "summary": "揭示自托管过程中的常见问题，避免半途而废。",
+          "hook": "自动剪辑别盲目跟风：Codex剪视频的4个坑",
+          "summary": "提醒自动剪辑的版权、节奏、账号标签和工具稳定性问题。",
           "pitfalls": [
-            "低估GPU/API成本导致账单爆炸",
-            "暴露公网端口引发安全风险",
-            "模型更新频繁导致维护困难"
+            "AI选素材可能踩版权雷",
+            "自动剪辑缺少叙事逻辑，完播率反而低",
+            "过度依赖Codex导致账号风格同质化",
+            "工具更新频繁，工作流容易失效"
           ],
-          "difficulty": "中级",
-          "estimated_time": "20分钟"
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "自托管AI智能体：数据隐私的终极解药还是极客玩具？",
-          "summary": "探讨自托管在隐私、成本、可控性方面的真实价值。",
+          "hook": "AI自动剪辑会让视频创作者失业吗？",
+          "summary": "分析AI剪辑对内容生产效率和创作者角色的影响。",
           "insights": [
-            "云端AI与本地AI的隐私权衡",
-            "自托管对个人开发者意味着什么",
-            "未来AI部署形态的多元化趋势"
+            "重复剪辑工作将被替代，创意和策划更值钱",
+            "AI剪辑降低视频生产门槛，加剧内容竞争",
+            "‘人+AI’协作是自媒体下一阶段主流"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -262,34 +263,33 @@
     },
     {
       "rank": 5,
-      "title": "OpenAI秘密训练10T参数Bel模型，AGI要来了？普通人的机会与误区",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "关注AI趋势的初学者、科技爱好者",
-      "reason": "模型发布是AI赛道常青话题，Bel模型有爆点，但需避免硬件对比。",
+      "title": "拷走AI软件去创业？北京首例AIGC商业秘密案罚了10万",
+      "track": "trademark",
+      "track_name": "商标/IP/创业",
+      "target_audience": "AI创业者、小微企业主、AIGC从业者",
+      "reason": "AIGC+商业秘密是商标/IP赛道稀缺选题，能精准引流需要合规服务的创业者。",
       "source_items": [
-        "消息称OpenAI 秘密预训练 Bel 模型：超 10T 参数，剑指 GPT-6 后 AGI 基座",
-        "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips across GPT-OSS, DeepSeek R1, Kimi K2.5 1T"
+        "拷走 AI 软件去创业，北京首例 AIGC 商业秘密案罚 10 万元"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/30624",
-        "https://www.techmeme.com/260825/p24",
-        "https://www.aibase.com/news/30616",
-        "https://www.aibase.com/news/30645"
+        "https://www.aibase.com/news/30667",
+        "https://www.aibase.com/news/30645",
+        "https://www.infoq.cn/article/vS7tpsLPdevZhMKdtxei"
       ],
-      "urgency": "medium",
-      "viral_potential": "high",
+      "urgency": "high",
+      "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "面对10T参数大模型，普通人如何调整AI使用策略？",
-          "summary": "教读者在超大规模模型到来前，提升提示词与工具链的适应能力。",
+          "hook": "AIGC创业合规自查：从代码、数据到商标的3步清单",
+          "summary": "教AI创业者在启动前做IP和商业秘密合规排查。",
           "key_points": [
-            "掌握结构化提示词写法",
-            "学会用Agent/Skill组合复杂任务",
-            "关注模型更新并迭代工作流"
+            "检查代码来源和授权协议",
+            "建立商业秘密保密制度",
+            "及时注册商标和著作权",
+            "保留创作过程证据"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -298,26 +298,27 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "别被“10T参数”忽悠，这些AI炒作陷阱要避开",
-          "summary": "提醒读者理性看待参数竞赛，避免被营销话术收割。",
+          "hook": "别让创业变侵权：AIGC创业者最容易踩的4个法律坑",
+          "summary": "总结商业秘密、版权、商标、数据合规风险。",
           "pitfalls": [
-            "认为参数越大一定越聪明",
-            "为用AI而用AI，忽略实际需求",
-            "轻信“AGI马上到来”的预言"
+            "私自拷贝公司代码/模型创业",
+            "用AI生成内容却忽略版权归属",
+            "公司名称/Logo未注册商标被抢注",
+            "客户数据未脱敏直接训练模型"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "Bel模型曝光：OpenAI的AGI路线图与AI生态变局",
-          "summary": "解读Bel模型背后的技术路线与产业影响。",
+          "hook": "首例AIGC商业秘密案落地，AI创业的灰色地带结束了？",
+          "summary": "解读案件对AI行业和创业生态的警示意义。",
           "insights": [
-            "超大规模模型的技术挑战与突破",
-            "OpenAI从GPT-5到AGI的路径规划",
-            "对算力、数据、应用层的连锁反应"
+            "AIGC不是法外之地，商业秘密保护同样适用",
+            "AI创业将从‘跑马圈地’转向合规竞争",
+            "知识产权布局成为AI公司融资前必修课"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -326,34 +327,32 @@
     },
     {
       "rank": 6,
-      "title": "MiniMax半年收入1.17亿美元，AI应用创业的赚钱密码是什么？",
+      "title": "MiniMax半年赚1.17亿美元，AI应用创业的机会来了？",
       "track": "side_income",
       "track_name": "个人成长/副业变现",
-      "target_audience": "想用AI变现的个人、创业者",
-      "reason": "收入数据有说服力，符合副业变现赛道，能吸引想赚钱的受众。",
+      "target_audience": "想用AI变现的个人、副业探索者",
+      "reason": "AI公司财报是数据驱动型选题，能引出AI应用层副业机会，符合变现定位。",
       "source_items": [
-        "MiniMax上半年收入1.17亿美元，毛利飙升464.8%",
-        "消息称OpenAI 秘密预训练 Bel 模型：超 10T 参数，剑指 GPT-6 后 AGI 基座"
+        "MiniMax上半年收入1.17亿美元，毛利飙升464.8%"
       ],
       "source_urls": [
         "https://www.aibase.com/news/30645",
-        "https://www.aibase.com/news/30624",
-        "https://www.infoq.cn/article/vS7tpsLPdevZhMKdtxei",
-        "https://www.aibase.com/news/30616"
+        "https://www.aibase.com/news/30667",
+        "https://www.ifanr.com/1676738"
       ],
-      "urgency": "low",
+      "urgency": "medium",
       "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "从MiniMax的爆发看AI变现：普通人可复制的3条路径",
-          "summary": "拆解MiniMax的商业模式，提炼出适合个人的AI变现方法。",
+          "hook": "从MiniMax生态找副业：AI应用变现的3个具体方向",
+          "summary": "教个人创作者利用MiniMax等AI平台做应用、内容和服务变现。",
           "key_points": [
-            "AI应用订阅与会员制",
-            "垂直场景的AI工具开发",
-            "AI内容代运营服务"
+            "用MiniMax API做垂直内容工具",
+            "围绕AI应用做教程和测评",
+            "帮小企业搭建AI客服/营销流程"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -362,12 +361,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI创业的常见误区：为什么你做的AI项目不赚钱？",
-          "summary": "指出AI创业中常见的商业化陷阱，帮助读者少走弯路。",
+          "hook": "AI副业别被财报带节奏：普通人做AI变现的3个误区",
+          "summary": "提醒不要盲目追风口、忽视成本和技术门槛。",
           "pitfalls": [
-            "只追热点没有真实需求",
-            "技术自嗨忽视用户付费意愿",
-            "忽视合规与商标注册风险"
+            "把公司收入当成个人机会",
+            "忽略API调用成本和订阅费用",
+            "没有差异化定位，同质化严重"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -376,12 +375,76 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "MiniMax毛利飙升464.8%，AI应用层的黄金时代来了？",
-          "summary": "分析MiniMax收入增长背后的AI应用市场趋势。",
+          "hook": "MiniMax毛利飙升464.8%，AI应用层要迎来爆发？",
+          "summary": "分析AI应用公司盈利信号对创业者和个人的影响。",
           "insights": [
-            "AI应用层商业模式逐渐成熟",
+            "AI应用层开始验证商业模式",
             "垂直场景比通用助手更容易赚钱",
-            "中国AI公司的全球化机会"
+            "个人开发者可借平台API切入细分市场"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Anthropic 公开 Claude 真实使用数据，普通人能挖到什么？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、提示词工程师、产品经理",
+      "reason": "真实使用数据是稀缺资源，能做成数据解读和提示词优化教程。",
+      "source_items": [
+        "Anthropic 开放 Claude 真实使用数据供外部独立研究，公布试点结果",
+        "Warp 如何在 Claude 上构建自我改进的智能体"
+      ],
+      "source_urls": [
+        "https://www.anthropic.com/research/enabling-independent-research",
+        "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+        "https://www.infoq.cn/article/vS7tpsLPdevZhMKdtxei"
+      ],
+      "urgency": "medium",
+      "viral_potential": "low",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "用Claude真实使用数据优化你的提示词：5个可复用技巧",
+          "summary": "教初学者从公开数据中总结高表现提示词模式。",
+          "key_points": [
+            "下载/浏览Anthropic公开数据集",
+            "分析高完成率对话的结构",
+            "提取常用指令模式",
+            "应用到自己的提示词工程"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "45分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "公开数据别乱解读：用Claude使用数据做研究的3个坑",
+          "summary": "提醒数据偏差、隐私和过度拟合问题。",
+          "pitfalls": [
+            "样本不代表所有用户场景",
+            "忽略数据脱敏和隐私边界",
+            "把相关性当因果性"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "Anthropic开放真实使用数据，AI研究进入‘透明时代’？",
+          "summary": "探讨开放数据对AI可解释性和行业透明度的意义。",
+          "insights": [
+            "真实使用数据比基准测试更有价值",
+            "开放数据将推动第三方安全评估",
+            "透明化或成AI公司竞争新维度"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -390,18 +453,20 @@
     }
   ],
   "weekly_plan": {
-    "monday": "DeepSeek开源Harness，AI智能体要变天了？普通人如何抓住这波红利",
-    "wednesday": "学生盲测偏爱Gemini？AI写作工具的真实差距与选择策略",
-    "friday": "MiniMax半年收入1.17亿美元，AI应用创业的赚钱密码是什么？",
-    "strategy": "本周以AI智能体热点为主线，穿插争议性测评和副业变现内容，保持日更节奏。"
+    "monday": "DeepSeek 开源 Harness，AI 智能体要变天了？",
+    "wednesday": "两个月涨粉破千：我用 Codex 跑通了自动剪辑全流程",
+    "friday": "拷走AI软件去创业？北京首例AIGC商业秘密案罚了10万",
+    "strategy": "以Agent热点建立专业认知，用Codex实操吸引创作者，再用AIGC合规案引流商标客户。"
   },
-  "insights": "今日信息流集中在AI智能体基础设施与模型竞赛，应用层商业化信号明显，适合从实操和避坑角度切入。",
-  "ai_adjustment": "本次推荐避开硬件芯片类选题，聚焦AI智能体/应用层热点，并强化实操与争议性内容。",
-  "generated_at": "2026-08-27T13:05:39.958684+08:00",
-  "total_items": 269,
-  "scored_items": 256,
+  "insights": "今日信息流集中在AI Agent能力爆发与安全争议，同时AIGC合规案例出现，适合用‘热点+实操+避坑’组合打法。",
+  "ai_adjustment": "基于用户反馈，本次避开偏硬件内容，重点推荐DeepSeek Harness、Agent安全、自动剪辑和AIGC合规等可实操/可引流选题。",
+  "generated_at": "2026-08-27T14:56:15.959548+08:00",
+  "total_items": 239,
+  "scored_items": 223,
   "tracks_summary": {
-    "ai_tech": 255,
+    "ai_tech": 220,
+    "creator_economy": 1,
+    "trademark_business": 1,
     "growth_monetize": 1
   },
   "engine_version": "v2",
