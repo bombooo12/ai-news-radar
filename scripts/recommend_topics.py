@@ -37,6 +37,7 @@ TOP_ITEMS_PER_TRACK = 10       # 每赛道取top条目（流式传输已解决�
 LLM_TEMPERATURE = 0.5          # LLM温度（从0.7降到0.5）
 MAX_SOURCE_LINKS = 5          # 来源链接数（从2扩展到5）
 MAX_FEEDBACK_HISTORY = 100     # 保留最近100条反馈
+LLM_CALL_TIMEOUT = 480         # LLM流式调用整体超时（秒），超时后降级为本地fallback推荐，避免工作流挂死
 
 
 def load_json(filepath):
@@ -382,7 +383,12 @@ def call_deepseek(prompt):
     try:
         resp = urllib.request.urlopen(req, timeout=60)
         content = ''
+        deadline = time.time() + LLM_CALL_TIMEOUT
         for line in resp:
+            if time.time() > deadline:
+                print(f'Error: LLM streaming exceeded {LLM_CALL_TIMEOUT}s, using fallback')
+                resp.close()
+                return None
             line = line.decode('utf-8').strip()
             if not line:
                 continue
