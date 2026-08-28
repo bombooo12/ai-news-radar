@@ -46,6 +46,9 @@ jobs:
         env:
           SILICONFLOW_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
           DEEPSEEK_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
+          BACKUP_API_KEY: ${{ secrets.BACKUP_API_KEY }}
+          BACKUP_API_BASE_URL: ${{ vars.BACKUP_API_BASE_URL }}
+          BACKUP_MODEL: ${{ vars.BACKUP_MODEL }}
         run: python scripts/recommend_topics.py
 
       - name: Commit and push changes
