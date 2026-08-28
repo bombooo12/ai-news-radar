@@ -405,7 +405,8 @@ def _stream_once(prompt, api_key, api_url, model, label, disable_thinking=False)
                     break
                 try:
                     chunk_data = json.loads(chunk)
-                    delta = chunk_data.get('choices', [{}])[0].get('delta', {}).get('content', '')
+                    choices = chunk_data.get('choices') or [{}]
+                    delta = choices[0].get('delta', {}).get('content', '')
                     if delta:
                         content += delta
                 except json.JSONDecodeError:
