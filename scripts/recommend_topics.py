@@ -362,7 +362,7 @@ def build_prompt(track_groups, capacity_profile, feedback_analysis, track_config
     return prompt
 
 
-def _stream_once(prompt, api_key, api_url, model, label):
+def _stream_once(prompt, api_key, api_url, model, label, disable_thinking=False):
     """单次流式调用，成功返回解析后的 JSON，失败/超时返回 None"""
     headers = {
         'Content-Type': 'application/json',
@@ -379,6 +379,9 @@ def _stream_once(prompt, api_key, api_url, model, label):
         'response_format': {'type': 'json_object'},
         'stream': True
     }
+    # 备用链路（百炼等）默认走思考模式，禁用后更快更干净
+    if disable_thinking:
+        payload['thinking'] = {'type': 'disabled'}
 
     data = json.dumps(payload).encode('utf-8')
     req = urllib.request.Request(api_url, data=data, headers=headers, method='POST')
@@ -433,7 +436,8 @@ def call_deepseek(prompt):
             print(f'Warning: {label} API key not set, skipping')
             continue
         print(f'Calling LLM ({label}: {model})')
-        result = _stream_once(prompt, api_key, api_url, model, label)
+        result = _stream_once(prompt, api_key, api_url, model, label,
+                              disable_thinking=(label == 'backup'))
         if result:
             print(f'  {label} LLM OK')
             return result
