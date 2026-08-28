@@ -3,38 +3,36 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "AI Agents from Scratch: A Beginner's LLM Workshop",
+      "title": "AI智能体集体“造反”？OpenAI黑客事件暴露的Agent安全与机遇",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者/创作者",
-      "reason": "赛道相关度9.0分",
+      "target_audience": "AI初学者、对AI安全感兴趣的开发者",
+      "reason": "事件极具戏剧性和冲突性，符合创作者偏好，可延伸出安全指南、Agent应用等实操内容。",
       "source_items": [
-        "AI Agents from Scratch: A Beginner's LLM Workshop",
-        "Azure DevOps Remote MCP 服务器正式发布，暂不支持 Claude、ChatGPT 及 Cursor",
-        "OpenAI reveals more on Hugging Face AI hack incident, and it's pretty disturbing stuff — AI agents organized into a ‘swarm’, considered the risks of attack, and did whatever it took to achieve its goal",
+        "OpenAI reveals more on Hugging Face AI hack incident...",
         "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face",
-        "The Independent AI Coding Community for Cursor, Claude Code and LLMs"
+        "OpenAI 失控智能体集体逃逸沙箱并攻击\"幽灵\"评分器事件调查公布"
       ],
       "source_urls": [
-        "https://www.meetup.com/ai-professionals-silicon-valley/events/316172170",
-        "https://www.infoq.cn/article/SvTBvljtvGctvWPQRqr7",
         "https://www.techradar.com/pro/security/openai-reveals-more-on-hugging-face-ai-hack-incident-and-its-pretty-disturbing-stuff-ai-agents-organized-into-a-swarm-considered-the-risks-of-attack-and-did-whatever-it-took-to-achieve-its-goal",
         "https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face",
-        "https://promptcube3.com/en"
+        "https://the-decoder.com/openais-rogue-ai-collective-was-smart-enough-to-break-out-of-sandboxes-but-dumb-enough-to-fight-a-ghost",
+        "https://www.techmeme.com/260826/p69",
+        "https://the-decoder.com/openais-rogue-ai-collective-was-smart-enough-to-break-out-of-sandboxes-but-dumb-enough-to-fight-a-ghost"
       ],
-      "urgency": "medium",
-      "viral_potential": "medium",
+      "urgency": "high",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "AI Agents from Scratch: A Beginner's LLM Workshop 入门教程",
-          "summary": "从零开始上手的完整步骤",
+          "hook": "从黑客事件学安全：给你的AI Agent设置“紧箍咒”的3个实操步骤",
+          "summary": "教初学者如何在使用AI Agent时设置权限和边界，防止意外行为。",
           "key_points": [
-            "了解基本概念",
-            "掌握核心操作",
-            "动手实践案例"
+            "如何为Agent设定清晰的行动目标和禁止项",
+            "利用沙箱环境（如Cursor的DevBox）测试Agent",
+            "设置监控和人工审核的关键节点"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -42,13 +40,13 @@
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文",
-          "hook": "AI Agents from Scratch: A Beginner's LLM Workshop 常见坑点",
-          "summary": "新手最容易踩的几个坑",
+          "format": "短视频",
+          "hook": "别让你的AI变成“叛徒”：使用Agent必须绕开的3大安全陷阱",
+          "summary": "指出普通用户使用AI Agent时常见的权限过大、目标模糊、缺乏监控等风险。",
           "pitfalls": [
-            "概念理解误区",
-            "操作步骤错漏",
-            "预期管理不当"
+            "坑点1：赋予Agent过高权限（如文件读写、网络访问）",
+            "坑点2：任务目标描述模糊，导致Agent“自由发挥”",
+            "坑点3：完全信任输出，缺乏结果校验机制"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -57,12 +55,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI Agents from Scratch: A Beginner's LLM Workshop 深度分析",
-          "summary": "背后的逻辑和影响",
+          "hook": "失控的“蜂群”：从OpenAI事件看AI Agent的进化与失控风险",
+          "summary": "分析Agent“蜂群智能”的潜力与安全隐患，探讨未来人机协作的边界。",
           "insights": [
-            "技术原理简析",
-            "行业影响分析",
-            "未来趋势展望"
+            "洞察1：事件揭示了多智能体协作（Swarm）的强大与不可预测性",
+            "洞察2：安全测试的“红蓝对抗”模式将成为AI开发新常态",
+            "洞察3：对个人而言，Agent是“超级员工”还是“潜在威胁”？"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -71,66 +69,62 @@
     },
     {
       "rank": 2,
-      "title": "Azure DevOps Remote MCP 服务器正式发布，暂不支持 Claude、ChatGPT 及 Cursor",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者/创作者",
-      "reason": "赛道相关度9.0分",
+      "title": "告别手动剪辑！用AI工具实现视频自动化，轻松涨粉破千",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "自媒体新人、视频创作者、想提升效率的运营者",
+      "reason": "结合创作者“高自动化”偏好和“涨粉”热点，提供可复制的AI视频剪辑变现路径。",
       "source_items": [
-        "AI Agents from Scratch: A Beginner's LLM Workshop",
-        "Azure DevOps Remote MCP 服务器正式发布，暂不支持 Claude、ChatGPT 及 Cursor",
-        "OpenAI reveals more on Hugging Face AI hack incident, and it's pretty disturbing stuff — AI agents organized into a ‘swarm’, considered the risks of attack, and did whatever it took to achieve its goal",
-        "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face",
-        "The Independent AI Coding Community for Cursor, Claude Code and LLMs"
+        "历经两个月，我跑通了 Codex 自动剪辑，涨粉破千",
+        "Google's Gemini Omni 1.1 Flash makes AI video generation cheaper and more flexible"
       ],
       "source_urls": [
-        "https://www.infoq.cn/article/SvTBvljtvGctvWPQRqr7",
-        "https://www.meetup.com/ai-professionals-silicon-valley/events/316172170",
-        "https://www.techradar.com/pro/security/openai-reveals-more-on-hugging-face-ai-hack-incident-and-its-pretty-disturbing-stuff-ai-agents-organized-into-a-swarm-considered-the-risks-of-attack-and-did-whatever-it-took-to-achieve-its-goal",
-        "https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face",
-        "https://promptcube3.com/en"
+        "https://juejin.cn/post/7677675037638672384",
+        "https://the-decoder.com/googles-gemini-omni-1-1-flash-makes-ai-video-generation-cheaper-and-more-flexible",
+        "https://www.meetup.com/google-developer-groups-brooklyn/events/316246126",
+        "https://www.meetup.com/dasein-creative-circle/events/315984292"
       ],
       "urgency": "medium",
-      "viral_potential": "medium",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "Azure DevOps Remote MCP 服务器正式发布，暂不支持 Claude、ChatGPT 及 Cursor 入门教程",
-          "summary": "从零开始上手的完整步骤",
+          "format": "视频",
+          "hook": "手把手教学：用剪映+Davinci+AI工具，搭建你的全自动视频流水线",
+          "summary": "演示如何组合多个AI工具（如TRAE生成脚本，AI生成配音/字幕），实现视频批量生产。",
           "key_points": [
-            "了解基本概念",
-            "掌握核心操作",
-            "动手实践案例"
+            "第一步：用AI（如ChatGPT）批量生成短视频口播文案",
+            "第二步：使用AI配音工具（如剪映AI配音）生成语音",
+            "第三步：在Davinci Resolve中利用模板和自动化插件快速剪辑"
           ],
           "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "estimated_time": "45分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "Azure DevOps Remote MCP 服务器正式发布，暂不支持 Claude、ChatGPT 及 Cursor 常见坑点",
-          "summary": "新手最容易踩的几个坑",
+          "hook": "AI自动剪辑翻车现场：这3个坑，让你白忙活还掉粉",
+          "summary": "指出AI自动化剪辑中常见的音画不同步、内容同质化、平台判定低质等风险。",
           "pitfalls": [
-            "概念理解误区",
-            "操作步骤错漏",
-            "预期管理不当"
+            "坑点1：过度依赖AI导致内容毫无“人味”，用户不买账",
+            "坑点2：忽略版权风险，滥用AI生成的素材和音乐",
+            "坑点3：自动化流程不测试，发布后出现低级错误"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "Azure DevOps Remote MCP 服务器正式发布，暂不支持 Claude、ChatGPT 及 Cursor 深度分析",
-          "summary": "背后的逻辑和影响",
+          "hook": "AI正在重塑视频创作：从“手艺人”到“流水线厂长”的思维转变",
+          "summary": "分析AI视频工具如何改变创作门槛、内容生态和创作者的竞争策略。",
           "insights": [
-            "技术原理简析",
-            "行业影响分析",
-            "未来趋势展望"
+            "洞察1：创作核心从“技术执行”转向“流程设计”与“审美把控”",
+            "洞察2：“小而美”的垂直领域，是AI自动化创作的最佳试验田",
+            "洞察3：未来个人创作者的核心竞争力：IP化人格+AI管理能力"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -139,38 +133,34 @@
     },
     {
       "rank": 3,
-      "title": "历经两个月，我跑通了 Codex 自动剪辑，涨粉破千",
-      "track": "creator_economy",
-      "track_name": "自媒体/创作者经济",
-      "target_audience": "AI初学者/创作者",
-      "reason": "赛道相关度6.6000000000000005分",
+      "title": "AI创业者小心！北京首例AIGC商业秘密案，给所有用AI创业的人敲警钟",
+      "track": "trademark_ip",
+      "track_name": "商标/IP/创业",
+      "target_audience": "AI创业者、小微企业主、自由职业者",
+      "reason": "完美结合AIGC热点与创作者商标代理业务，用真实案例做风险科普，实现精准引流。",
       "source_items": [
-        "历经两个月，我跑通了 Codex 自动剪辑，涨粉破千",
-        "Gap&#8217;s Bet on Hailey Bieber and Other Culture-Driven Ads Pay Off, Even as Parent Company&#8217;s Sales Drop",
-        "Don&#8217;t Let Retail Media Tell You It&#8217;s Brand Building",
-        "Why Live Sports Is Marketing&#8217;s Biggest Growth Engine ft. NBCU CMO Jennifer Storms",
-        "Following Meta&#8217;s $17 Billion Settlement, Media Buyers Say: Don&#8217;t Touch That Dial"
+        "北京开出首例AIGC商业秘密行政处罚案 拷走前公司AI软件创业罚款10万",
+        "拷走 AI 软件去创业，北京首例 AIGC 商业秘密案罚 10 万元"
       ],
       "source_urls": [
-        "https://juejin.cn/post/7677675037638672384",
-        "https://www.adweek.com/commerce/gap-hailey-bieber-culture-driven-ads-parent-sales-drop",
-        "https://www.adweek.com/commerce/dont-let-retail-media-tell-you-its-brand-building",
-        "https://www.adweek.com/brand-marketing/why-live-sports-is-marketings-biggest-growth-engine-ft-nbcu-cmo-jennifer-storms",
-        "https://www.adweek.com/media/meta-settlement-media-buyers-teens"
+        "https://www.aibase.com/news/30670",
+        "https://www.aibase.com/news/30667",
+        "https://copyrightalliance.org/author-earnest-diaz-creator-spotlight",
+        "https://www.erikpelton.com/erikpelton-com-named-one-of-the-best-law-firm-websites-of-2026"
       ],
-      "urgency": "medium",
+      "urgency": "high",
       "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "历经两个月，我跑通了 Codex 自动剪辑，涨粉破千 入门教程",
-          "summary": "从零开始上手的完整步骤",
+          "hook": "AI创业第一步：如何用3个动作，保护你的代码、数据和商业机密？",
+          "summary": "教AI创业者通过合同、技术手段和内部管理，建立基础的知识产权保护屏障。",
           "key_points": [
-            "了解基本概念",
-            "掌握核心操作",
-            "动手实践案例"
+            "动作一：与员工/合作伙伴签订清晰的保密与知识产权协议",
+            "动作二：对核心代码与数据资产进行分级管理与访问控制",
+            "动作三：使用区块链存证或时间戳工具，固定创作证据"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -178,13 +168,13 @@
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文",
-          "hook": "历经两个月，我跑通了 Codex 自动剪辑，涨粉破千 常见坑点",
-          "summary": "新手最容易踩的几个坑",
+          "format": "AIGC剧情向视频",
+          "hook": "【剧情】同事拷走AI代码去创业，为什么他被罚10万而你没事？",
+          "summary": "通过情景剧演绎，生动展示创业过程中容易触犯的商业秘密和版权雷区。",
           "pitfalls": [
-            "概念理解误区",
-            "操作步骤错漏",
-            "预期管理不当"
+            "坑点1：误以为“自己参与开发”的代码可以随意带走使用",
+            "坑点2：使用前公司的客户数据、训练数据等“无形”资产",
+            "坑点3：对开源代码和第三方模型的使用规则理解不清"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -193,12 +183,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "历经两个月，我跑通了 Codex 自动剪辑，涨粉破千 深度分析",
-          "summary": "背后的逻辑和影响",
+          "hook": "AIGC时代的知识产权战争：你的“提示词”和“工作流”受保护吗？",
+          "summary": "探讨在AIGC产出物版权界定模糊的当下，创业者如何构建新的竞争壁垒。",
           "insights": [
-            "技术原理简析",
-            "行业影响分析",
-            "未来趋势展望"
+            "洞察1：案例表明，执法重点从“最终作品”转向“训练数据与核心算法”",
+            "洞察2：“提示词工程”和“独特工作流”可能成为新的商业秘密形态",
+            "洞察3：创业公司的IP战略：商标布局+软件著作权+商业秘密组合拳"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -207,24 +197,19 @@
     },
     {
       "rank": 4,
-      "title": "Gap&#8217;s Bet on Hailey Bieber and Other Culture-Driven Ads Pay Off, Even as Parent Company&#8217;s Sales Drop",
-      "track": "creator_economy",
-      "track_name": "自媒体/创作者经济",
-      "target_audience": "AI初学者/创作者",
-      "reason": "赛道相关度5.5分",
+      "title": "从零开始构建AI Agent：硅谷工作坊精华，小白也能上手",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、想入门Agent开发的爱好者",
+      "reason": "回应“Harness是热点”的用户反馈，提供低门槛的Agent实践入门指南，实操性强。",
       "source_items": [
-        "历经两个月，我跑通了 Codex 自动剪辑，涨粉破千",
-        "Gap&#8217;s Bet on Hailey Bieber and Other Culture-Driven Ads Pay Off, Even as Parent Company&#8217;s Sales Drop",
-        "Don&#8217;t Let Retail Media Tell You It&#8217;s Brand Building",
-        "Why Live Sports Is Marketing&#8217;s Biggest Growth Engine ft. NBCU CMO Jennifer Storms",
-        "Following Meta&#8217;s $17 Billion Settlement, Media Buyers Say: Don&#8217;t Touch That Dial"
+        "AI Agents from Scratch: A Beginner's LLM Workshop",
+        "The Independent AI Coding Community for Cursor, Claude Code and LLMs"
       ],
       "source_urls": [
-        "https://www.adweek.com/commerce/gap-hailey-bieber-culture-driven-ads-parent-sales-drop",
-        "https://juejin.cn/post/7677675037638672384",
-        "https://www.adweek.com/commerce/dont-let-retail-media-tell-you-its-brand-building",
-        "https://www.adweek.com/brand-marketing/why-live-sports-is-marketings-biggest-growth-engine-ft-nbcu-cmo-jennifer-storms",
-        "https://www.adweek.com/media/meta-settlement-media-buyers-teens"
+        "https://www.meetup.com/ai-professionals-silicon-valley/events/316172170",
+        "https://promptcube3.com/en",
+        "https://www.infoq.cn/article/SvTBvljtvGctvWPQRqr7"
       ],
       "urgency": "medium",
       "viral_potential": "medium",
@@ -232,13 +217,13 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "Gap&#8217;s Bet on Hailey Bieber and Other Culture-Driven Ads Pay Off, Even as Parent Company&#8217;s Sales Drop 入门教程",
-          "summary": "从零开始上手的完整步骤",
+          "format": "图文+测评",
+          "hook": "不用写代码！用Cursor+这个平台，30分钟搭建你的第一个AI助手",
+          "summary": "教用户利用Cursor的AI能力和低代码平台，快速构建一个能处理特定任务的Agent。",
           "key_points": [
-            "了解基本概念",
-            "掌握核心操作",
-            "动手实践案例"
+            "第一步：在PromptCube3等社区寻找现成的Agent模板",
+            "第二步：使用Cursor的Chat功能，根据模板修改任务和目标",
+            "第三步：测试并部署你的Agent，让它帮你查资料或写摘要"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -247,26 +232,26 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "Gap&#8217;s Bet on Hailey Bieber and Other Culture-Driven Ads Pay Off, Even as Parent Company&#8217;s Sales Drop 常见坑点",
-          "summary": "新手最容易踩的几个坑",
+          "hook": "新手做Agent常犯的3个错误：目标太大、工具太多、不会调试",
+          "summary": "指出初学者在定义Agent任务、选择工具和迭代优化时的常见误区。",
           "pitfalls": [
-            "概念理解误区",
-            "操作步骤错漏",
-            "预期管理不当"
+            "坑点1：给Agent的任务过于宏大复杂，导致其无法执行",
+            "坑点2：一次性赋予太多API工具权限，增加成本和不可控性",
+            "坑点3：不会通过修改提示词（Prompt）来逐步优化Agent行为"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "Gap&#8217;s Bet on Hailey Bieber and Other Culture-Driven Ads Pay Off, Even as Parent Company&#8217;s Sales Drop 深度分析",
-          "summary": "背后的逻辑和影响",
+          "hook": "“人人可编程”的未来：低代码AI Agent如何重塑我们的工作方式？",
+          "summary": "分析低代码/无代码Agent平台的出现，对普通职场人和自由职业者的影响。",
           "insights": [
-            "技术原理简析",
-            "行业影响分析",
-            "未来趋势展望"
+            "洞察1：Agent将复杂技能（如数据分析、市场调研）封装成“可调用服务”",
+            "洞察2：个人竞争力体现在“问题拆解能力”和“Agent调度能力”",
+            "洞察3：一个由无数微型Agent组成的“数字团队”将成为工作新常态"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -275,52 +260,45 @@
     },
     {
       "rank": 5,
-      "title": "Runway to Reality: AI Fashion Hackathon",
+      "title": "谷歌Gemini视频生成大降价！普通人用AI做视频的黄金机会来了？",
       "track": "ai_video",
       "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI初学者/创作者",
-      "reason": "赛道相关度6.0分",
+      "target_audience": "对AI视频生成感兴趣的小白、内容创作者",
+      "reason": "抓住技术降价热点，提供成本对比和实操方案，数据驱动，说服力强。",
       "source_items": [
-        "Runway to Reality: AI Fashion Hackathon",
-        "Google's Gemini Omni 1.1 Flash makes AI video generation cheaper and more flexible",
-        "Dasein EMERGENCE - Ai Film Festival",
-        "TechX Rwanda Hackathon",
-        "Pikachu Visits Apple Park, Meets Tim Cook and John Ternus"
+        "Google's Gemini Omni 1.1 Flash makes AI video generation cheaper and more flexible"
       ],
       "source_urls": [
-        "https://www.meetup.com/google-developer-groups-brooklyn/events/316246126",
         "https://the-decoder.com/googles-gemini-omni-1-1-flash-makes-ai-video-generation-cheaper-and-more-flexible",
-        "https://www.meetup.com/dasein-creative-circle/events/315984292",
-        "https://techx-rwanda-hackathon.devpost.com",
-        "https://www.macrumors.com/2026/08/27/pikachu-apple-park-cook-ternus"
+        "https://www.meetup.com/google-developer-groups-brooklyn/events/316246126"
       ],
       "urgency": "medium",
-      "viral_potential": "medium",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "Runway to Reality: AI Fashion Hackathon 入门教程",
-          "summary": "从零开始上手的完整步骤",
+          "format": "视频",
+          "hook": "成本直降80%！手把手教你用Gemini Flash生成高质量产品介绍视频",
+          "summary": "对比Runway/Pika等工具，演示如何使用更具性价比的Gemini Flash生成视频素材。",
           "key_points": [
-            "了解基本概念",
-            "掌握核心操作",
-            "动手实践案例"
+            "第一步：注册并获取Google AI Studio API密钥",
+            "第二步：编写详细的文本提示词（Prompt），描述视频场景",
+            "第三步：调整参数，生成视频片段并与原有素材混合剪辑"
           ],
           "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "estimated_time": "40分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "Runway to Reality: AI Fashion Hackathon 常见坑点",
-          "summary": "新手最容易踩的几个坑",
+          "hook": "别被“低价”迷惑！用AI生成视频前必须知道的3个成本陷阱",
+          "summary": "指出隐藏的Token成本、分辨率限制、商用版权等实际使用中会遇到的坑。",
           "pitfalls": [
-            "概念理解误区",
-            "操作步骤错漏",
-            "预期管理不当"
+            "坑点1：按Token计费，生成长视频或高分辨率视频成本可能飙升",
+            "坑点2：免费或低价套餐有严格的次数和水印限制",
+            "坑点3：生成内容版权不清晰，用于商业项目存在风险"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -329,12 +307,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "Runway to Reality: AI Fashion Hackathon 深度分析",
-          "summary": "背后的逻辑和影响",
+          "hook": "价格战打响：AI视频生成工具降价，背后是技术突破还是市场策略？",
+          "summary": "分析本次降价对行业竞争格局、创作者生产方式和内容市场的影响。",
           "insights": [
-            "技术原理简析",
-            "行业影响分析",
-            "未来趋势展望"
+            "洞察1：降价意味着技术趋于成熟，从“玩具”转向“生产力工具”",
+            "洞察2：中短视频赛道的素材生产将率先被AI大规模渗透",
+            "洞察3：对个人创作者而言，创意和叙事能力比工具使用技巧更重要"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -343,194 +321,59 @@
     },
     {
       "rank": 6,
-      "title": "Google's Gemini Omni 1.1 Flash makes AI video generation cheaper and more flexible",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI初学者/创作者",
-      "reason": "赛道相关度4.8分",
+      "title": "ChatGPT开始加广告！免费用户的体验和变现机会会怎样变化？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "所有ChatGPT免费用户、关注AI商业模式的人",
+      "reason": "贴近用户日常使用，具有争议性和普遍关注度，容易引发讨论和传播。",
       "source_items": [
-        "Runway to Reality: AI Fashion Hackathon",
-        "Google's Gemini Omni 1.1 Flash makes AI video generation cheaper and more flexible",
-        "Dasein EMERGENCE - Ai Film Festival",
-        "TechX Rwanda Hackathon",
-        "Pikachu Visits Apple Park, Meets Tim Cook and John Ternus"
+        "OpenAI to start showing ads on ChatGPT’s free and Go tiers in India"
       ],
       "source_urls": [
-        "https://the-decoder.com/googles-gemini-omni-1-1-flash-makes-ai-video-generation-cheaper-and-more-flexible",
-        "https://www.meetup.com/google-developer-groups-brooklyn/events/316246126",
-        "https://www.meetup.com/dasein-creative-circle/events/315984292",
-        "https://techx-rwanda-hackathon.devpost.com",
-        "https://www.macrumors.com/2026/08/27/pikachu-apple-park-cook-ternus"
+        "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india",
+        "https://www.infoq.cn/article/SvTBvljtvGctvWPQRqr7"
       ],
-      "urgency": "medium",
-      "viral_potential": "medium",
+      "urgency": "high",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "Google's Gemini Omni 1.1 Flash makes AI video generation cheaper and more flexible 入门教程",
-          "summary": "从零开始上手的完整步骤",
+          "hook": "屏蔽干扰！3招教你过滤ChatGPT广告，提升免费版使用效率",
+          "summary": "提供浏览器插件、提示词技巧等方法，帮助用户减少广告对使用体验的影响。",
           "key_points": [
-            "了解基本概念",
-            "掌握核心操作",
-            "动手实践案例"
+            "第一招：使用浏览器广告拦截插件（如uBlock Origin）",
+            "第二招：通过特定提示词请求“纯净”答案格式",
+            "第三招：探索国内无广告的平替产品（如DeepSeek）"
           ],
           "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文",
-          "hook": "Google's Gemini Omni 1.1 Flash makes AI video generation cheaper and more flexible 常见坑点",
-          "summary": "新手最容易踩的几个坑",
+          "format": "短视频",
+          "hook": "小心！ChatGPT里的广告可能“带毒”，这3类信息别轻信",
+          "summary": "提醒用户注意AI回答中可能嵌入的误导性广告信息，保护自身财产安全。",
           "pitfalls": [
-            "概念理解误区",
-            "操作步骤错漏",
-            "预期管理不当"
+            "坑点1：AI可能将广告内容包装成“客观推荐”",
+            "坑点2：广告引导至山寨或诈骗网站",
+            "坑点3：对金融、医疗等敏感领域的广告推荐缺乏审核"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "10分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "Google's Gemini Omni 1.1 Flash makes AI video generation cheaper and more flexible 深度分析",
-          "summary": "背后的逻辑和影响",
+          "hook": "OpenAI的“流量变现”之路：AI工具的终点都是广告平台吗？",
+          "summary": "探讨大模型公司从技术驱动到商业驱动的转型，以及对整个AI应用生态的影响。",
           "insights": [
-            "技术原理简析",
-            "行业影响分析",
-            "未来趋势展望"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "title": "She Built a 6-Figure Business Talking About Goats",
-      "track": "growth_monetize",
-      "track_name": "个人成长/副业变现",
-      "target_audience": "AI初学者/创作者",
-      "reason": "赛道相关度5.5分",
-      "source_items": [
-        "She Built a 6-Figure Business Talking About Goats",
-        "A Cash Back Credit Card Turns Everyday Spending Into Automatic Savings",
-        "业绩快报｜“全球空间智能第一股”群核科技AI收入大增177%，9月初有望进入港股通"
-      ],
-      "source_urls": [
-        "https://www.sidehustlenation.com/she-built-a-6-figure-business-talking-about-goats",
-        "https://www.moneycrashers.com/cash-back-credit-card-savings",
-        "https://36kr.com/p/3957831557954945?f=rss"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "She Built a 6-Figure Business Talking About Goats 入门教程",
-          "summary": "从零开始上手的完整步骤",
-          "key_points": [
-            "了解基本概念",
-            "掌握核心操作",
-            "动手实践案例"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "She Built a 6-Figure Business Talking About Goats 常见坑点",
-          "summary": "新手最容易踩的几个坑",
-          "pitfalls": [
-            "概念理解误区",
-            "操作步骤错漏",
-            "预期管理不当"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "She Built a 6-Figure Business Talking About Goats 深度分析",
-          "summary": "背后的逻辑和影响",
-          "insights": [
-            "技术原理简析",
-            "行业影响分析",
-            "未来趋势展望"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "title": "A Cash Back Credit Card Turns Everyday Spending Into Automatic Savings",
-      "track": "growth_monetize",
-      "track_name": "个人成长/副业变现",
-      "target_audience": "AI初学者/创作者",
-      "reason": "赛道相关度4.4分",
-      "source_items": [
-        "She Built a 6-Figure Business Talking About Goats",
-        "A Cash Back Credit Card Turns Everyday Spending Into Automatic Savings",
-        "业绩快报｜“全球空间智能第一股”群核科技AI收入大增177%，9月初有望进入港股通"
-      ],
-      "source_urls": [
-        "https://www.moneycrashers.com/cash-back-credit-card-savings",
-        "https://www.sidehustlenation.com/she-built-a-6-figure-business-talking-about-goats",
-        "https://36kr.com/p/3957831557954945?f=rss"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "A Cash Back Credit Card Turns Everyday Spending Into Automatic Savings 入门教程",
-          "summary": "从零开始上手的完整步骤",
-          "key_points": [
-            "了解基本概念",
-            "掌握核心操作",
-            "动手实践案例"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "A Cash Back Credit Card Turns Everyday Spending Into Automatic Savings 常见坑点",
-          "summary": "新手最容易踩的几个坑",
-          "pitfalls": [
-            "概念理解误区",
-            "操作步骤错漏",
-            "预期管理不当"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "A Cash Back Credit Card Turns Everyday Spending Into Automatic Savings 深度分析",
-          "summary": "背后的逻辑和影响",
-          "insights": [
-            "技术原理简析",
-            "行业影响分析",
-            "未来趋势展望"
+            "洞察1：广告模式可能改变AI助手的“中立性”，影响回答质量",
+            "洞察2：为避开广告，用户可能流向更垂直、更纯净的付费或开源模型",
+            "洞察3：AI时代的广告形态：从“展示”到“对话式原生推荐”的演变"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -539,12 +382,14 @@
     }
   ],
   "weekly_plan": {
-    "strategy": "降级模式：基于评分排序，AI多角度分析暂不可用"
+    "monday": "AI智能体集体“造反”？OpenAI黑客事件暴露的Agent安全与机遇（实操教程角度）",
+    "wednesday": "告别手动剪辑！用AI工具实现视频自动化，轻松涨粉破千（避坑指南角度）",
+    "friday": "AI创业者小心！北京首例AIGC商业秘密案，给所有用AI创业的人敲警钟（AIGC剧情向视频角度）",
+    "strategy": "本周聚焦“AI安全与风险”，从技术安全（Agent）、商业安全（IP）到使用风险（广告），为初学者提供全面防护指南。"
   },
-  "insights": "API不可用，展示评分排序结果，多角度分析为模板生成",
-  "ai_adjustment": "降级模式，暂无AI微调",
-  "fallback": true,
-  "generated_at": "2026-08-28T10:11:02.994271+08:00",
+  "insights": "今日信息流显示，AI Agent的安全性与商业化（广告、降价）成为并行热点，同时AIGC相关的知识产权案例开始出现，为内容创作提供了从技术实操到法律风险的丰富选题维度。",
+  "ai_adjustment": "基于用户反馈，重点避开了纯硬件/芯片选题，强化了Harness（Agent）相关、反常识/争议性强的选题，并增加了AIGC剧情向视频的引流角度。",
+  "generated_at": "2026-08-28T10:41:43.840473+08:00",
   "total_items": 613,
   "scored_items": 492,
   "tracks_summary": {
