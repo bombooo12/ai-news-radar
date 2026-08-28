@@ -29,7 +29,7 @@ CONFIG_DIR = os.path.join(BASE_DIR, 'config')
 # SiliconFlow API (DeepSeek-V4-Flash via SiliconFlow, cheaper)
 DEEPSEEK_API_KEY = os.environ.get('SILICONFLOW_API_KEY', '') or os.environ.get('DEEPSEEK_API_KEY', '')
 DEEPSEEK_API_URL = 'https://api.siliconflow.cn/v1/chat/completions'
-DEEPSEEK_MODEL = 'deepseek-ai/DeepSeek-V4-Flash'
+DEEPSEEK_MODEL = 'deepseek-ai/DeepSeek-V3.2'
 
 # 优化参数
 TRACK_SCORE_THRESHOLD = 3      # 赛道评分阈值（从2提到3）
@@ -37,7 +37,7 @@ TOP_ITEMS_PER_TRACK = 10       # 每赛道取top条目（流式传输已解决�
 LLM_TEMPERATURE = 0.5          # LLM温度（从0.7降到0.5）
 MAX_SOURCE_LINKS = 5          # 来源链接数（从2扩展到5）
 MAX_FEEDBACK_HISTORY = 100     # 保留最近100条反馈
-LLM_CALL_TIMEOUT = 480         # LLM流式调用整体超时（秒），超时后降级为本地fallback推荐，避免工作流挂死
+LLM_CALL_TIMEOUT = 600         # LLM流式调用整体超时（秒），超时后降级为本地fallback推荐，避免工作流挂死
 
 
 def load_json(filepath):
