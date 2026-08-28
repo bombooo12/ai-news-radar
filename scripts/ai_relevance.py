@@ -144,6 +144,9 @@ MULTI_TRACK_KEYWORDS = [
     "ai动画", "ai animation", "剪映", "capcut", "davinci", "video editing", "视频剪辑",
     "ai绘画", "ai art", "ai design", "ai visual", "即梦", "通义万相",
     "short video", "短视频", "ai短剧", "ai drama", "ai movie", "ai film", "短剧", "剧情向",
+    # 视频制作/后期（AI视频赛道素材）
+    "filmmaking", "post-production", "post production", "motion graphics",
+    "visual effects", "video production", "cinematography", "剪辑", "后期", "特效", "视频制作",
     # 设计/视觉包装（AI视频赛道素材）
     "product design", "industrial design", "3d printing", "3d printer", "3d打印",
     "concept design", "furniture design", "prototype", "gadget", "工业设计", "产品设计",
@@ -167,6 +170,7 @@ MULTI_TRACK_KEYWORDS = [
     "商标", "trademark", "商标注册", "知识产权", "intellectual property", "专利", "patent",
     "版权", "copyright", "公司注册", "business registration", "营业执照", "工商",
     "小微企业", "个体户", "创业政策", "small business", "加盟", "brand", "品牌", "ip授权", "ip运营",
+    "piracy", "盗版", "dmca", "torrent", "侵权", "infringement", "lawsuit", "诉讼",
 ]
 
 SOURCE_PRIORS = {
