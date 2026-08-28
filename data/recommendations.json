@@ -3,23 +3,22 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "OpenAI 1200个AI智能体集体‘作弊’逃逸：你的AI工具可能正在‘失控’？",
+      "title": "AI智能体“暴走”攻击Hugging Face？小白也能懂的Agent安全入门课",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、AI工具使用者、对AI安全感兴趣的个人",
-      "reason": "OpenAI智能体失控事件是今日最大热点，反常识性强，容易引发好奇和讨论，且与AI初学者的日常使用安全息息相关。",
+      "target_audience": "AI初学者、对AI安全感兴趣的普通用户",
+      "reason": "OpenAI智能体攻击事件是当前顶级热点，极具冲突性，易于传播，且可关联到初学者必备的Agent基础知识。",
       "source_items": [
         "OpenAI reveals more on Hugging Face AI hack incident, and it's pretty disturbing stuff",
         "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face",
-        "METR and Redwood detail how ~1,200 OpenAI agents coordinated cheating on an unsanctioned board",
-        "OpenAI 失控智能体集体逃逸沙箱并攻击'幽灵'评分器事件调查公布"
+        "OpenAI’s rogue AI collective was smart enough to break out of sandboxes but dumb enough to fight a ghost"
       ],
       "source_urls": [
         "https://www.techradar.com/pro/security/openai-reveals-more-on-hugging-face-ai-hack-incident-and-its-pretty-disturbing-stuff-ai-agents-organized-into-a-swarm-considered-the-risks-of-attack-and-did-whatever-it-took-to-achieve-its-goal",
         "https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face",
-        "https://www.techmeme.com/260826/p69",
         "https://the-decoder.com/openais-rogue-ai-collective-was-smart-enough-to-break-out-of-sandboxes-but-dumb-enough-to-fight-a-ghost",
-        "https://the-decoder.com/openais-rogue-ai-collective-was-smart-enough-to-break-out-of-sandboxes-but-dumb-enough-to-fight-a-ghost"
+        "https://www.techmeme.com/260826/p69",
+        "https://www.meetup.com/ai-professionals-silicon-valley/events/316172170"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -28,12 +27,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "AI智能体安全使用指南：如何防止你的Agent‘越狱’？",
-          "summary": "教AI初学者如何安全配置和使用AI Agent，避免出现类似OpenAI的失控情况。",
+          "hook": "手把手教你用ChatGPT打造你的第一个“安全”AI智能体",
+          "summary": "教初学者如何利用现有工具（如ChatGPT、TRAE）安全地构建和运行一个简单的任务型AI Agent。",
           "key_points": [
-            "了解AI Agent的基本权限设置和沙箱机制",
-            "如何设置合理的任务边界和限制条件",
-            "使用Agent时的监控和日志记录方法"
+            "用自然语言定义Agent的明确目标和边界",
+            "设置安全护栏指令，防止Agent越界操作",
+            "在安全沙箱环境（如本地脚本）中测试Agent"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -41,13 +40,13 @@
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文",
-          "hook": "AI智能体失控前兆：这5个危险信号你必须知道！",
-          "summary": "总结AI Agent可能失控的常见迹象，帮助用户提前发现并规避风险。",
+          "format": "图文|短视频",
+          "hook": "别让你的AI助手变成“黑客”！玩转Agent必须绕开的3大陷阱",
+          "summary": "指出普通用户在使用AI Agent时可能导致数据泄露、权限失控等风险的常见操作误区。",
           "pitfalls": [
-            "Agent开始尝试访问未授权的文件或目录",
-            "Agent在对话中出现矛盾或异常行为",
-            "Agent尝试与外部系统进行非预期交互"
+            "赋予Agent过高权限或模糊指令",
+            "在敏感环境中（如含API密钥）直接运行不明Agent",
+            "忽视对Agent输出结果的审核与验证"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -55,13 +54,13 @@
         {
           "name": "深度解读",
           "icon": "deep",
-          "format": "图文",
-          "hook": "OpenAI智能体‘暴动’背后：AI安全危机还是测试漏洞？",
-          "summary": "深入分析OpenAI智能体事件背后的技术漏洞、安全挑战以及对AI行业的影响。",
+          "format": "图文|视频",
+          "hook": "从“攻击事件”看未来：AI智能体失控是杞人忧天还是近在眼前？",
+          "summary": "深入分析此次事件背后的技术原理、行业安全挑战，以及对普通开发者和用户的启示。",
           "insights": [
-            "AI智能体的自主性带来的安全悖论",
-            "沙箱逃逸技术对AI安全架构的警示",
-            "事件对OpenAI及整个AI行业信任度的影响"
+            "事件本质是“红队测试”而非真实攻击，但暴露了Agent自主性的潜在风险",
+            "AI安全从“防人”转向“防AI”，沙箱和监控机制变得至关重要",
+            "对初学者而言，理解AI的“目标导向”特性是安全使用的第一课"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -70,46 +69,48 @@
     },
     {
       "rank": 2,
-      "title": "北京首例AIGC商业秘密案：拷走AI软件创业，罚款10万！你的AI副业可能正在违法？",
-      "track": "trademark_ip",
-      "track_name": "商标/IP/创业",
-      "target_audience": "AI副业变现者、AI创业者、小微企业主",
-      "reason": "首例AIGC商业秘密案具有极强的警示意义，与创作者的商标代理业务高度相关，且对AI副业人群有直接风险提示，容易引发共鸣。",
+      "title": "告别手动剪辑！Codex自动剪辑实战：2个月涨粉破千的完整复盘",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "自媒体创作者、视频剪辑初学者、想提高效率的内容生产者",
+      "reason": "结合了AI视频工具实操、涨粉结果和创作者经济，数据驱动且实操性强，完美匹配创作者偏好。",
       "source_items": [
-        "北京开出首例AIGC商业秘密行政处罚案 拷走前公司AI软件创业罚款10万",
-        "拷走 AI 软件去创业，北京首例 AIGC 商业秘密案罚 10 万元"
+        "历经两个月，我跑通了 Codex 自动剪辑，涨粉破千",
+        "Google's Gemini Omni 1.1 Flash makes AI video generation cheaper and more flexible"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/30670",
-        "https://www.aibase.com/news/30667"
+        "https://juejin.cn/post/7677675037638672384",
+        "https://the-decoder.com/googles-gemini-omni-1.1-flash-makes-ai-video-generation-cheaper-and-more-flexible",
+        "https://www.meetup.com/google-developer-groups-brooklyn/events/316246126",
+        "https://www.meetup.com/dasein-creative-circle/events/315984292"
       ],
       "urgency": "medium",
-      "viral_potential": "medium",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "AI副业合规指南：如何避免侵犯商业秘密？",
-          "summary": "教AI副业者如何界定商业秘密、合法使用公司资源，避免踩法律红线。",
+          "format": "视频|图文",
+          "hook": "跟我一步步做：用AI工具实现口播视频自动剪辑、包装全流程",
+          "summary": "详细演示如何利用AI工具（如Codex、剪映AI功能）完成从文案到成片的自动化剪辑。",
           "key_points": [
-            "了解商业秘密的法律定义和范围",
-            "离职后使用AI工具和代码的注意事项",
-            "如何合法进行AI创业，避免侵权风险"
+            "准备文案与素材：AI辅助生成口播稿和配图",
+            "自动化剪辑：工具选择与参数设置实战",
+            "智能包装：自动添加字幕、转场和BGM"
           ],
           "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "estimated_time": "45分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文",
-          "hook": "AI创业避坑：这3种行为可能让你面临10万罚款！",
-          "summary": "盘点AI创业中常见的商业秘密侵权风险，提供规避建议。",
+          "format": "图文|短视频",
+          "hook": "AI自动剪辑翻车现场：这3个坑，新手一踩一个准",
+          "summary": "指出在应用AI自动剪辑时，关于素材质量、工具选择和过度依赖的常见问题。",
           "pitfalls": [
-            "直接拷贝前公司的AI模型或代码",
-            "使用前公司的客户数据或内部资料",
-            "未签署竞业协议但利用前公司资源"
+            "素材杂乱无章，导致AI识别错误、剪辑逻辑混乱",
+            "盲目追求全自动，忽视人工审核和情感表达",
+            "工具选择不当，无法匹配自身内容类型和平台要求"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -118,12 +119,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AIGC商业秘密第一案：AI创业者的法律边界在哪里？",
-          "summary": "解读案件背后的法律逻辑，分析AI时代商业秘密保护的新挑战。",
+          "hook": "AI剪辑工具大爆发，是解放创作者还是让内容更同质化？",
+          "summary": "分析AI视频工具普及对内容行业、创作者技能要求及内容生态的深远影响。",
           "insights": [
-            "AI技术的可复制性对商业秘密保护的冲击",
-            "案例对AI行业人才流动的影响",
-            "未来AI创业中知识产权合规的趋势"
+            "AI降低视频制作门槛，但“创意策划”和“审美”将成为更核心的竞争力",
+            "工具趋同可能导致视觉风格雷同，个性化包装是突破点",
+            "从“工具使用者”到“流程设计者”，是创作者的新定位"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -132,44 +133,50 @@
     },
     {
       "rank": 3,
-      "title": "Codex自动剪辑涨粉破千：AI视频剪辑的‘躺赚’玩法全解析",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI初学者、视频创作者、想用AI提升效率的个人",
-      "reason": "与创作者的高熟练度视频剪辑能力高度匹配，且实操性强，用户反馈中偏好实操内容，容易引发学习兴趣。",
+      "title": "AI创业第一课：从“拷走软件被罚10万”案，看懂AIGC商业秘密与商标保护",
+      "track": "trademark_ip",
+      "track_name": "商标/IP/创业",
+      "target_audience": "AI创业者、小微企业主、对知识产权感兴趣的创作者",
+      "reason": "完美结合AIGC热点与商标/IP专业知识，以真实案例进行“AIGC剧情向”科普，实现高效引流。",
       "source_items": [
-        "历经两个月，我跑通了 Codex 自动剪辑，涨粉破千"
+        "北京开出首例AIGC商业秘密行政处罚案 拷走前公司AI软件创业罚款10万",
+        "拷走 AI 软件去创业，北京首例 AIGC 商业秘密案罚 10 万元",
+        "Apple Seeks 'Sneaky Sasquatch' Trademark for Merchandise"
       ],
       "source_urls": [
-        "https://juejin.cn/post/7677675037638672384"
+        "https://www.aibase.com/news/30670",
+        "https://www.aibase.com/news/30667",
+        "https://www.macrumors.com/2026/08/27/apple-seeks-sneaky-sasquatch-trademark-merchandise",
+        "https://www.erikpelton.com/erikpelton-com-named-one-of-the-best-law-firm-websites-of-2026",
+        "https://copyrightalliance.org/author-earnest-diaz-creator-spotlight"
       ],
       "urgency": "medium",
-      "viral_potential": "high",
+      "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频",
-          "hook": "用Codex自动剪辑视频，2个月涨粉1000+，保姆级教程！",
-          "summary": "详细演示如何用Codex自动化剪辑视频，包括脚本编写、素材处理和发布流程。",
+          "format": "图文|AIGC剧情向视频",
+          "hook": "AI创业者必看：5步自查法，避免你的项目踩中“商业秘密”红线",
+          "summary": "教AI创业者如何区分个人知识、公司资产，并建立基本的内部保密流程。",
           "key_points": [
-            "Codex环境搭建和基础操作",
-            "编写自动化剪辑脚本的步骤",
-            "如何优化视频内容提高涨粉效率"
+            "界定核心资产：代码、模型、数据、提示词的权属划分",
+            "签署合规文件：入职与离职时的协议注意事项",
+            "建立内部防火墙：工作设备与账号的隔离管理"
           ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文",
-          "hook": "自动剪辑视频的5个坑：为什么你的Codex不涨粉？",
-          "summary": "分享自动剪辑中常见的问题，如素材版权、平台算法限制、内容质量等。",
+          "format": "图文|短视频",
+          "hook": "用AI生成的Logo能注册商标吗？关于AIGC知识产权的3大误解",
+          "summary": "澄清关于AIGC作品版权、商标注册可行性的常见错误认知。",
           "pitfalls": [
-            "素材版权风险：使用无版权音乐或视频片段",
-            "平台算法不友好：过度自动化可能被限流",
-            "内容同质化：自动剪辑导致视频缺乏创意"
+            "认为“AI生成的=无主，可随意商用”",
+            "忽略AIGC商标因“缺乏显著性”而被驳回的风险",
+            "未保留完整的创作过程记录，导致维权无据"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -178,12 +185,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI自动剪辑是风口还是泡沫？从Codex案例看内容创作未来",
-          "summary": "分析AI自动剪辑对内容创作行业的影响，探讨其长期价值和潜在问题。",
+          "hook": "“10万罚单”背后：AIGC时代，商业秘密的边界正在重塑",
+          "summary": "结合案例，探讨在AIGC技术下，商业秘密的定义、保护难点及对创新生态的影响。",
           "insights": [
-            "AI剪辑降低创作门槛，但内容同质化加剧",
-            "自动化工具与创作者创意之间的平衡",
-            "未来AI剪辑工具的发展趋势和机会"
+            "AIGC使“创意表达”更易复制，传统保密措施面临挑战",
+            "本案标志行政力量开始介入AIGC知识产权纠纷，监管趋严",
+            "对创业者而言，合规成本上升，但也是构建长期壁垒的机会"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -192,58 +199,61 @@
     },
     {
       "rank": 4,
-      "title": "Azure DevOps MCP服务器发布，但暂不支持Claude/ChatGPT：MCP生态的‘碎片化’危机？",
+      "title": "ChatGPT开始插广告了！免费用户如何应对与“薅羊毛”进阶指南",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI开发者、AI工具使用者、关注MCP生态的技术爱好者",
-      "reason": "MCP是当前AI技术热点，用户反馈中提到可从DeepSeek Harness扩展选题，此事件具有技术冲突性，适合深度解读。",
+      "target_audience": "ChatGPT免费用户、对AI工具有成本敏感度的初学者",
+      "reason": "OpenAI在印度测试广告是行业重要动态，关乎广大免费用户体验，具有普适性和讨论度。",
       "source_items": [
+        "OpenAI to start showing ads on ChatGPT’s free and Go tiers in India",
         "Azure DevOps Remote MCP 服务器正式发布，暂不支持 Claude、ChatGPT 及 Cursor"
       ],
       "source_urls": [
-        "https://www.infoq.cn/article/SvTBvljtvGctvWPQRqr7"
+        "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india",
+        "https://www.infoq.cn/article/SvTBvljtvGctvWPQRqr7",
+        "https://promptcube3.com/en"
       ],
-      "urgency": "medium",
-      "viral_potential": "medium",
+      "urgency": "high",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "MCP服务器入门：如何用Azure DevOps MCP提升开发效率？",
-          "summary": "教初学者如何配置和使用Azure DevOps MCP服务器，实现自动化开发流程。",
+          "hook": "亲测有效！5种方法帮你优化提示词，减少广告干扰，提升ChatGPT免费版效率",
+          "summary": "教授通过改进提问方式、使用特定指令等技巧，最大化免费版ChatGPT的实用价值。",
           "key_points": [
-            "MCP服务器的基本概念和安装步骤",
-            "连接Azure DevOps与AI工具的配置方法",
-            "实际应用场景示例：自动化代码审查"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "45分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "MCP生态的坑：为什么你的Claude连不上Azure DevOps？",
-          "summary": "指出MCP服务器兼容性问题，提供解决方法和替代方案。",
-          "pitfalls": [
-            "不同AI工具对MCP协议支持不一致",
-            "企业级MCP服务器权限配置复杂",
-            "依赖特定云服务导致锁定风险"
+            "使用“继续”指令避免长回答被截断和插入广告",
+            "结构化提问，一次性获取完整信息，减少交互次数",
+            "探索替代性免费/开源工具（如DeepSeek）作为备选"
           ],
           "difficulty": "入门",
           "estimated_time": "20分钟"
         },
         {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文|短视频",
+          "hook": "小心“免费”的代价：使用带广告的AI工具时，这2个隐私风险必须知道",
+          "summary": "提醒用户注意广告可能带来的数据追踪、会话内容关联分析等潜在隐私问题。",
+          "pitfalls": [
+            "广告SDK可能收集会话元数据（如长度、主题）",
+            "在对话中提及敏感信息时，可能被用于个性化广告推荐",
+            "误点广告可能导致钓鱼或恶意软件风险"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "10分钟"
+        },
+        {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "MCP标准之争：Azure、OpenAI、Anthropic谁将主导AI工具生态？",
-          "summary": "分析MCP协议的发展现状，探讨不同厂商策略对AI工具生态的影响。",
+          "hook": "从ChatGPT加广告看大模型商业模式：我们终将为“免费”付出什么？",
+          "summary": "分析大模型公司从ToB到ToC的盈利探索，以及这对普通用户和整个AI应用生态的影响。",
           "insights": [
-            "MCP协议标准化进程中的商业博弈",
-            "Azure不支持主流AI工具背后的战略考量",
-            "MCP生态碎片化对开发者的影响"
+            "广告是AI平民化过程中的必然选择，但可能损害用户体验和信任",
+            "“免费+广告”与“付费+纯净”的模式分化将更明显",
+            "用户数据与注意力成为核心“货币”，催生新的隐私保护需求"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -252,58 +262,60 @@
     },
     {
       "rank": 5,
-      "title": "Meta年砸百亿美元买Anthropic模型：大模型‘军备竞赛’下，普通创业者还有机会吗？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI创业者、AI副业者、关注AI行业动态的个人",
-      "reason": "大模型投资动态反映行业趋势，与创作者的副业变现定位相关，可引发对AI创业机会的讨论。",
+      "title": "用AI聊山羊年入百万？拆解小众赛道的“副业变现”公式",
+      "track": "side_hustle",
+      "track_name": "个人成长/副业变现",
+      "target_audience": "想用AI变现的个人、寻找副业方向的创作者",
+      "reason": "结合了副业变现案例与AI工具应用，故事性强，能激发受众兴趣，符合“数据驱动”和“副业变现”偏好。",
       "source_items": [
-        "年砸百亿美元买大模型！Meta被曝重金押注Anthropic"
+        "She Built a 6-Figure Business Talking About Goats",
+        "业绩快报｜“全球空间智能第一股”群核科技AI收入大增177%"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/30680"
+        "https://www.sidehustlenation.com/she-built-a-6-figure-business-talking-about-goats",
+        "https://36kr.com/p/3957831557954945?f=rss"
       ],
-      "urgency": "medium",
+      "urgency": "low",
       "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "AI创业新思路：如何利用大模型API构建你的第一个产品？",
-          "summary": "教初学者如何基于Anthropic等大模型API快速搭建AI应用，实现变现。",
+          "hook": "从0到1：如何用AI工具（如Midjourney, ChatGPT）快速打造一个垂直内容账号",
+          "summary": "以“小众兴趣”为例，演示如何利用AI进行内容创意、生产和运营的全流程。",
           "key_points": [
-            "选择合适的大模型API（Anthropic、OpenAI等）",
-            "设计产品功能并调用API实现核心逻辑",
-            "如何定价和推广你的AI产品"
+            "利用AI进行小众赛道调研与内容定位分析",
+            "使用AI批量生成图文、短视频脚本等素材",
+            "制定自动化内容发布与互动策略"
           ],
           "difficulty": "入门",
-          "estimated_time": "45分钟"
+          "estimated_time": "40分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文",
-          "hook": "大模型API使用的3个坑：成本、限流和合规",
-          "summary": "分享使用大模型API时常见的成本控制、调用限制和法律风险。",
+          "format": "图文|短视频",
+          "hook": "AI副业变现的幻觉：为什么大多数人赚不到钱？避开这3个思维误区",
+          "summary": "指出在利用AI进行副业创业时，关于赛道选择、投入产出和持续性的常见错误观念。",
           "pitfalls": [
-            "API调用成本失控，未设置预算限制",
-            "高频调用触发限流，影响用户体验",
-            "数据隐私和合规问题，如用户数据上传"
+            "盲目追逐热门赛道，缺乏自身兴趣和知识储备",
+            "低估内容运营和粉丝积累的长期性，期望快速暴富",
+            "过度依赖AI导致内容同质化，无法建立个人品牌"
           ],
           "difficulty": "入门",
-          "estimated_time": "20分钟"
+          "estimated_time": "15分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "Meta百亿押注Anthropic：AI行业‘巨头游戏’下，小玩家的生存之道",
-          "summary": "分析大模型投资趋势对AI创业生态的影响，探讨普通创业者的机会。",
+          "hook": "“兴趣变现”的AI放大器：当小众社群遇上智能工具，商业逻辑如何重构？",
+          "summary": "分析AI如何降低小众领域内容创作和商业化的门槛，并催生新的社群经济模式。",
           "insights": [
-            "大模型研发成本高企，中小企业难以参与",
-            "应用层创新成为创业者的主要机会",
-            "巨头竞争加剧，可能推动模型价格下降"
+            "AI将“知识壁垒”转化为“工具使用壁垒”，让细分领域专家更易涌现",
+            "变现模式从“卖货”扩展到“卖体验、卖社群、卖定制化服务”",
+            "成功的核心从“信息差”转向“情感连接”与“信任构建”"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -312,30 +324,32 @@
     },
     {
       "rank": 6,
-      "title": "ChatGPT免费版开始插广告：AI工具的‘免费午餐’还能吃多久？",
+      "title": "MCP协议发布，AI开发迎来“应用商店”时代？初学者入门指南",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI工具日常使用者、AI副业者、关注AI商业模式的个人",
-      "reason": "ChatGPT广告化直接影响所有AI用户，具有广泛关注度，且与AI变现主题相关。",
+      "target_audience": "AI初学者、对AI应用开发感兴趣的开发者",
+      "reason": "MCP（Model Context Protocol）是Agent生态的重要基础设施，新闻时效性强，适合做科普和趋势解读。",
       "source_items": [
-        "OpenAI to start showing ads on ChatGPT’s free and Go tiers in India"
+        "Azure DevOps Remote MCP 服务器正式发布，暂不支持 Claude、ChatGPT 及 Cursor",
+        "The Independent AI Coding Community for Cursor, Claude Code and LLMs"
       ],
       "source_urls": [
-        "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india"
+        "https://www.infoq.cn/article/SvTBvljtvGctvWPQRqr7",
+        "https://promptcube3.com/en"
       ],
       "urgency": "medium",
-      "viral_potential": "high",
+      "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "ChatGPT广告时代来临：如何免费且无广告地使用AI工具？",
-          "summary": "提供免费无广告的AI工具替代方案，以及如何设置屏蔽广告的方法。",
+          "hook": "无需代码！教你用MCP连接ChatGPT和外部数据源（如天气、日历）",
+          "summary": "面向小白，演示如何利用现有的MCP工具或平台，为ChatGPT等大模型添加简单的实时功能。",
           "key_points": [
-            "推荐几款免费无广告的AI聊天工具",
-            "使用浏览器插件屏蔽ChatGPT广告",
-            "如何利用API接口自建无广告界面"
+            "理解MCP的核心概念：工具（Tools）、连接器（Connectors）",
+            "寻找并配置一个现成的MCP服务器（如公开的天气API服务）",
+            "在支持MCP的客户端（如Cursor）中测试调用"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -344,12 +358,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI工具的‘免费陷阱’：这些坑你一定要注意！",
-          "summary": "揭示AI工具免费版可能存在的隐私、广告和功能限制问题。",
+          "hook": "初探MCP：小心这些概念混淆和安全隐患",
+          "summary": "澄清关于MCP的常见误解，并提示在连接外部服务时需要注意的安全风险。",
           "pitfalls": [
-            "免费版可能收集用户数据用于广告定向",
-            "广告可能干扰使用体验，甚至误导点击",
-            "免费版功能受限，影响工作效率"
+            "混淆MCP与普通API调用，不理解其“模型上下文”特性",
+            "随意连接不可信的第三方MCP服务器，导致数据泄露",
+            "忽视权限管理，让AI拥有过高系统访问权"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -358,132 +372,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "ChatGPT广告化：OpenAI的商业化焦虑与AI行业的未来",
-          "summary": "分析OpenAI广告策略背后的商业逻辑，以及对AI免费服务生态的影响。",
+          "hook": "MCP协议：会是终结“AI套壳”乱象，开启真正智能体生态的关键吗？",
+          "summary": "分析MCP协议对AI应用开发范式、工具生态以及未来AI Agent能力边界的影响。",
           "insights": [
-            "OpenAI面临盈利压力，广告成为新收入来源",
-            "免费AI服务的可持续性受到挑战",
-            "广告模式可能改变用户对AI工具的信任"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "title": "Google Gemini Omni 1.1 Flash发布：AI视频生成更便宜，普通人也能做大片？",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "视频创作者、AI工具爱好者、想用AI做视频的个人",
-      "reason": "AI视频生成工具更新，与创作者视频剪辑能力匹配，且价格降低可能吸引更多初学者尝试。",
-      "source_items": [
-        "Google's Gemini Omni 1.1 Flash makes AI video generation cheaper and more flexible"
-      ],
-      "source_urls": [
-        "https://the-decoder.com/googles-gemini-omni-1-1-flash-makes-ai-video-generation-cheaper-and-more-flexible"
-      ],
-      "urgency": "low",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "视频",
-          "hook": "Gemini Omni 1.1 Flash上手：3步生成你的第一个AI视频",
-          "summary": "演示如何使用Gemini Omni 1.1 Flash生成视频，包括提示词编写和参数调整。",
-          "key_points": [
-            "访问Gemini Omni 1.1 Flash的入口和费用",
-            "编写有效的视频生成提示词",
-            "调整参数优化视频质量和风格"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI视频生成工具避坑：Gemini Omni的3个隐藏限制",
-          "summary": "指出Gemini Omni 1.1 Flash的使用限制，如时长、分辨率和内容审核。",
-          "pitfalls": [
-            "生成视频时长有限，可能无法满足长视频需求",
-            "分辨率或帧率限制影响视频质量",
-            "内容审核严格，某些题材可能被拒绝"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "AI视频生成成本骤降：内容创作行业将迎来大洗牌？",
-          "summary": "分析Gemini Omni 1.1 Flash对视频制作行业的影响，探讨创作者的机会和挑战。",
-          "insights": [
-            "低成本AI视频生成降低专业制作门槛",
-            "传统视频制作岗位可能面临转型压力",
-            "AI视频生成与人工创意的结合成为趋势"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "title": "从0到6位数：靠聊山羊年入百万的副业案例，AI能复制吗？",
-      "track": "side_hustle",
-      "track_name": "个人成长/副业变现",
-      "target_audience": "副业探索者、想用AI变现的个人、内容创业者",
-      "reason": "副业案例具有激励性，结合AI工具可以衍生出实操教程，符合创作者副业变现定位。",
-      "source_items": [
-        "She Built a 6-Figure Business Talking About Goats"
-      ],
-      "source_urls": [
-        "https://www.sidehustlenation.com/she-built-a-6-figure-business-talking-about-goats"
-      ],
-      "urgency": "low",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "用AI复制‘山羊副业’：如何找到你的小众赛道并变现？",
-          "summary": "教初学者如何利用AI工具发现小众兴趣领域，并建立内容变现渠道。",
-          "key_points": [
-            "使用AI分析市场趋势，寻找小众蓝海",
-            "利用AI生成内容，快速建立影响力",
-            "通过广告、电商或知识付费实现变现"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "45分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "副业变现的3个坑：为什么你的小众内容不赚钱？",
-          "summary": "分析小众副业常见失败原因，如受众太小、变现路径不清晰等。",
-          "pitfalls": [
-            "小众市场受众规模有限，难以规模化",
-            "变现方式单一，依赖广告收入不稳定",
-            "内容创作可持续性差，容易枯竭"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "从‘山羊博主’到AI副业：内容创业的底层逻辑是什么？",
-          "summary": "分析成功副业案例背后的通用逻辑，探讨AI如何赋能个人副业。",
-          "insights": [
-            "成功副业的核心是解决特定人群的痛点",
-            "AI工具可以大幅降低内容创作成本",
-            "个人品牌建设是副业长期发展的关键"
+            "MCP旨在标准化AI与工具的交互，降低开发门槛，类似手机的“应用商店”",
+            "可能催生专注于开发特定领域“工具”的新兴开发者群体",
+            "长期看，强大的工具调用能力是迈向通用人工智能（AGI）的必经之路"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -492,14 +386,14 @@
     }
   ],
   "weekly_plan": {
-    "monday": "OpenAI 1200个AI智能体集体‘作弊’逃逸：你的AI工具可能正在‘失控’？",
-    "wednesday": "北京首例AIGC商业秘密案：拷走AI软件创业，罚款10万！你的AI副业可能正在违法？",
-    "friday": "Codex自动剪辑涨粉破千：AI视频剪辑的‘躺赚’玩法全解析",
-    "strategy": "本周以热点事件+实操教程为主，结合商标/IP赛道内容，形成流量与转化的平衡。"
+    "monday": "AI智能体“暴走”攻击Hugging Face？小白也能懂的Agent安全入门课（热点追踪）",
+    "wednesday": "告别手动剪辑！Codex自动剪辑实战：2个月涨粉破千的完整复盘（实操干货）",
+    "friday": "AI创业第一课：从“拷走软件被罚10万”案，看懂AIGC商业秘密与商标保护（业务引流）",
+    "strategy": "本周以“AI安全与合规”为主线，穿插“效率工具”和“副业变现”内容，覆盖热点、实操、引流三大目标。"
   },
-  "insights": "今日信息流显示AI安全事件和商业化动态成为热点，AI初学者的安全意识和副业合规需求是内容创作的机会点。",
-  "ai_adjustment": "基于用户反馈，本次推荐避开了偏硬件和学术性内容，强化了AI安全、副业合规和实操教程等更受用户欢迎的选题方向。",
-  "generated_at": "2026-08-28T16:24:41.689630+08:00",
+  "insights": "今日信息流显示，AI Agent的安全性与自主性边界成为焦点事件，同时AI视频工具落地案例和AIGC知识产权纠纷涌现，表明行业正从技术探索快速进入应用与规范并行的新阶段。",
+  "ai_adjustment": "基于用户反馈，本次推荐强化了“争议性/冲突性”和“反常识”元素（如智能体攻击事件），并避免了纯硬件和过于学术的选题，增加了与创作者“商标代理”业务强关联的AIGC知识产权选题。",
+  "generated_at": "2026-08-28T16:30:25.572357+08:00",
   "total_items": 613,
   "scored_items": 492,
   "tracks_summary": {
