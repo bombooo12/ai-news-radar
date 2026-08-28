@@ -26,16 +26,17 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 CONFIG_DIR = os.path.join(BASE_DIR, 'config')
 
-# 主链路：硅基流动（DeepSeek-V3.2，TTFT 稳定）
-PRIMARY_API_KEY = os.environ.get('SILICONFLOW_API_KEY', '') or os.environ.get('DEEPSEEK_API_KEY', '')
-PRIMARY_API_URL = 'https://api.siliconflow.cn/v1/chat/completions'
-PRIMARY_MODEL = 'deepseek-ai/DeepSeek-V3.2'
+# 主链路：阿里云百炼（DeepSeek-V4-Flash，TTFT 1.2s，关思考模式更快）
+PRIMARY_API_KEY = os.environ.get('BACKUP_API_KEY', '') or os.environ.get('DEEPSEEK_API_KEY', '')
+PRIMARY_API_BASE = os.environ.get('BACKUP_API_BASE_URL', '') or 'https://dashscope.aliyuncs.com/compatible-mode/v1'
+PRIMARY_API_URL = PRIMARY_API_BASE.rstrip('/') + '/chat/completions'
+PRIMARY_MODEL = os.environ.get('BACKUP_MODEL', '') or 'deepseek-v4-flash-0731'
 
-# 备用链路：默认复用 DEEPSEEK_* 仓库变量（改指百炼/腾讯云等平台即可切换）
-BACKUP_API_KEY = os.environ.get('BACKUP_API_KEY', '') or os.environ.get('DEEPSEEK_API_KEY', '')
-BACKUP_API_BASE = os.environ.get('BACKUP_API_BASE_URL', '') or os.environ.get('DEEPSEEK_API_BASE_URL', '') or 'https://api.siliconflow.cn/v1'
+# 备用链路：硅基流动（DeepSeek-V3.2，TTFT 1-4s）
+BACKUP_API_KEY = os.environ.get('SILICONFLOW_API_KEY', '') or os.environ.get('DEEPSEEK_API_KEY', '')
+BACKUP_API_BASE = os.environ.get('SILICONFLOW_API_BASE_URL', '') or 'https://api.siliconflow.cn/v1'
 BACKUP_API_URL = BACKUP_API_BASE.rstrip('/') + '/chat/completions'
-BACKUP_MODEL = os.environ.get('BACKUP_MODEL', '') or os.environ.get('DEEPSEEK_MODEL', '') or PRIMARY_MODEL
+BACKUP_MODEL = os.environ.get('SILICONFLOW_MODEL', '') or 'deepseek-ai/DeepSeek-V3.2'
 
 # 优化参数
 TRACK_SCORE_THRESHOLD = 3      # 赛道评分阈值（从2提到3）
@@ -438,7 +439,7 @@ def call_deepseek(prompt):
             continue
         print(f'Calling LLM ({label}: {model})')
         result = _stream_once(prompt, api_key, api_url, model, label,
-                              disable_thinking=(label == 'backup'))
+                              disable_thinking=(label == 'primary'))
         if result:
             print(f'  {label} LLM OK')
             return result
