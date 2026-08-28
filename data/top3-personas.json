@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T08:33:42.778568Z",
+  "generated_at": "2026-08-28T21:19:37.963626Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_f91eb53884bc",
-      "title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制 / Gemini Omni 1.1 Flash lets you build with more control",
-      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
+      "story_id": "story_b09bfd8d0320",
+      "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
+      "url": "https://github.com/calmrocks/ai-engineer-notebooks",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 72,
-          "review": "“更强控制”是官方口径，开发者实测前先别急着欢呼。"
+          "score": 75,
+          "review": "开源工具集是干货，但‘免费’和‘无需框架’的便利性，掩盖了Colab本身的不稳定和性能天花板。"
         },
         "paper-police": {
-          "score": 45,
-          "review": "官方博客给了发布信息，但无论文无代码，等第三方评测验证。"
+          "score": 85,
+          "review": "GitHub仓库开源，可直接审查代码与实现，证据确凿。"
         },
         "pragmatic": {
           "score": 88,
-          "review": "新模型已发布，做视频生成的开发者可以直接试，控制力更强。"
+          "review": "开源即用，Colab上免费跑RAG和智能体的现成代码，适合快速实验。"
         }
       }
     },
     {
-      "story_id": "story_b92ae1b5e663",
-      "title": "Gemini 3.5 Transcribe 发布：更精准的实时语音转写模型 / Gemini-3.5-Transcribe",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe",
+      "story_id": "story_e6d6d7fa2d48",
+      "title": "Upcoming changes to GitHub Copilot policies and billing",
+      "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 45,
-          "review": "“更精准”对比的是自家上一代吧？拿第三方基准说话再吹。"
+          "score": 35,
+          "review": "政策与计费调整，本质是涨价通知，就别包装成服务升级了。"
         },
         "paper-police": {
-          "score": 45,
-          "review": "官方博客有发布信息，但无论文无代码无第三方评测，等独立验证。"
+          "score": 10,
+          "review": "官方预告无实质证据，等正式发布再论。"
         },
         "pragmatic": {
-          "score": 88,
-          "review": "实时转写模型已发布，做语音应用的今天就能接 API 试效果。"
+          "score": 85,
+          "review": "直接影响Copilot账单和订阅，需提前查看新条款调整预算。"
         }
       }
     },
     {
-      "story_id": "story_500c35f48384",
-      "title": "Midjourney 开放 V8.2 图像编辑模型测试 / Edit Model for V8",
-      "url": "https://updates.midjourney.com/edit-model-for-v8",
+      "story_id": "story_b6eb5e452efd",
+      "title": "腾讯混元发布 Hy4 preview：770B 总参数、1M 上下文，开源上线",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498484&idx=1&sn=0db140a12b8e18601ac933788045c831",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 62,
-          "review": "测试版就冠上V8.2，编辑效果和翻车率倒是只字未提。"
+          "score": 75,
+          "review": "参数和上下文长度是硬指标，但开源范围和实际性能表现才是真考验。"
         },
         "paper-police": {
-          "score": 25,
-          "review": "官方更新页有说法，但无论文无代码无第三方评测，闭源模型难复现。"
+          "score": 85,
+          "review": "官方发布，参数和上下文长度明确，但需确认开源代码和评测基准是否已完全公开。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "图像编辑模型开放测试，做视觉的今天就能上手试，注意测试版限制。"
+          "review": "770B大模型已开源，可直接下载部署或研究，1M上下文能处理长文档。"
         }
       }
     }
