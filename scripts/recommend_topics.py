@@ -26,10 +26,16 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 CONFIG_DIR = os.path.join(BASE_DIR, 'config')
 
-# SiliconFlow API (DeepSeek-V4-Flash via SiliconFlow, cheaper)
-DEEPSEEK_API_KEY = os.environ.get('SILICONFLOW_API_KEY', '') or os.environ.get('DEEPSEEK_API_KEY', '')
-DEEPSEEK_API_URL = 'https://api.siliconflow.cn/v1/chat/completions'
-DEEPSEEK_MODEL = 'deepseek-ai/DeepSeek-V3.2'
+# 主链路：硅基流动（DeepSeek-V3.2，TTFT 稳定）
+PRIMARY_API_KEY = os.environ.get('SILICONFLOW_API_KEY', '') or os.environ.get('DEEPSEEK_API_KEY', '')
+PRIMARY_API_URL = 'https://api.siliconflow.cn/v1/chat/completions'
+PRIMARY_MODEL = 'deepseek-ai/DeepSeek-V3.2'
+
+# 备用链路：默认复用 DEEPSEEK_* 仓库变量（改指百炼/腾讯云等平台即可切换）
+BACKUP_API_KEY = os.environ.get('BACKUP_API_KEY', '') or os.environ.get('DEEPSEEK_API_KEY', '')
+BACKUP_API_BASE = os.environ.get('BACKUP_API_BASE_URL', '') or os.environ.get('DEEPSEEK_API_BASE_URL', '') or 'https://api.siliconflow.cn/v1'
+BACKUP_API_URL = BACKUP_API_BASE.rstrip('/') + '/chat/completions'
+BACKUP_MODEL = os.environ.get('BACKUP_MODEL', '') or os.environ.get('DEEPSEEK_MODEL', '') or PRIMARY_MODEL
 
 # 优化参数
 TRACK_SCORE_THRESHOLD = 3      # 赛道评分阈值（从2提到3）
@@ -37,7 +43,8 @@ TOP_ITEMS_PER_TRACK = 10       # 每赛道取top条目（流式传输已解决�
 LLM_TEMPERATURE = 0.5          # LLM温度（从0.7降到0.5）
 MAX_SOURCE_LINKS = 5          # 来源链接数（从2扩展到5）
 MAX_FEEDBACK_HISTORY = 100     # 保留最近100条反馈
-LLM_CALL_TIMEOUT = 600         # LLM流式调用整体超时（秒），超时后降级为本地fallback推荐，避免工作流挂死
+FIRST_TOKEN_TIMEOUT = 90       # 等待首token超时即断开重试（应对硅基高峰排队）
+LLM_CALL_TIMEOUT = 600         # 单次流式调用整体超时（秒），超时后降级为本地fallback推荐
 
 
 def load_json(filepath):
@@ -355,19 +362,15 @@ def build_prompt(track_groups, capacity_profile, feedback_analysis, track_config
     return prompt
 
 
-def call_deepseek(prompt):
-    """调用 SiliconFlow API（流式传输，避免超时）"""
-    if not DEEPSEEK_API_KEY:
-        print('Warning: Neither SILICONFLOW_API_KEY nor DEEPSEEK_API_KEY set, skipping LLM recommendation')
-        return None
-
+def _stream_once(prompt, api_key, api_url, model, label):
+    """单次流式调用，成功返回解析后的 JSON，失败/超时返回 None"""
     headers = {
         'Content-Type': 'application/json',
-        'Authorization': f'Bearer {DEEPSEEK_API_KEY}'
+        'Authorization': f'Bearer {api_key}'
     }
 
     payload = {
-        'model': DEEPSEEK_MODEL,
+        'model': model,
         'messages': [
             {'role': 'user', 'content': prompt}
         ],
@@ -378,15 +381,16 @@ def call_deepseek(prompt):
     }
 
     data = json.dumps(payload).encode('utf-8')
-    req = urllib.request.Request(DEEPSEEK_API_URL, data=data, headers=headers, method='POST')
+    req = urllib.request.Request(api_url, data=data, headers=headers, method='POST')
 
     try:
-        resp = urllib.request.urlopen(req, timeout=60)
+        # timeout 同时约束连接与每次读块：首token迟迟不来（服务端排队）会触发 socket 超时
+        resp = urllib.request.urlopen(req, timeout=FIRST_TOKEN_TIMEOUT)
         content = ''
         deadline = time.time() + LLM_CALL_TIMEOUT
         for line in resp:
             if time.time() > deadline:
-                print(f'Error: LLM streaming exceeded {LLM_CALL_TIMEOUT}s, using fallback')
+                print(f'Error: {label} streaming exceeded {LLM_CALL_TIMEOUT}s')
                 resp.close()
                 return None
             line = line.decode('utf-8').strip()
@@ -406,12 +410,35 @@ def call_deepseek(prompt):
         resp.close()
 
         if not content:
-            print('Error: Empty response from API')
+            print(f'Error: {label} empty response')
             return None
         return json.loads(content)
     except Exception as e:
-        print(f'Error calling SiliconFlow API: {e}')
+        print(f'Error: {label} call failed: {e}')
         return None
+
+
+def call_deepseek(prompt):
+    """主链路优先，首token超时/报错后切备用链路，都失败返回 None 走降级推荐"""
+    if not PRIMARY_API_KEY and not BACKUP_API_KEY:
+        print('Warning: No API key set (SILICONFLOW_API_KEY / DEEPSEEK_API_KEY), skipping LLM recommendation')
+        return None
+
+    attempts = [
+        (PRIMARY_API_KEY, PRIMARY_API_URL, PRIMARY_MODEL, 'primary'),
+        (BACKUP_API_KEY, BACKUP_API_URL, BACKUP_MODEL, 'backup'),
+    ]
+    for api_key, api_url, model, label in attempts:
+        if not api_key:
+            print(f'Warning: {label} API key not set, skipping')
+            continue
+        print(f'Calling LLM ({label}: {model})')
+        result = _stream_once(prompt, api_key, api_url, model, label)
+        if result:
+            print(f'  {label} LLM OK')
+            return result
+        print(f'  {label} failed' + ('，切换备用链路' if label == 'primary' else '，使用降级推荐'))
+    return None
 
 
 def generate_fallback_recommendations(track_groups, track_config):
