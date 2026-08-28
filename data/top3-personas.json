@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T13:39:50.914513Z",
+  "generated_at": "2026-08-28T02:02:56.847001Z",
   "model": "deepseek-ai/DeepSeek-V4-Flash",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_741a74c53da2",
-      "title": "GLM-5.3-Flash 开源：320B 总参数、AA 指数 57 分，定价为 Opus 4.8 的 1/40",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494157&idx=1&sn=6837b15a07d2518842eb6c6b53a3eb3c",
+      "story_id": "story_f91eb53884bc",
+      "title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制 / Gemini Omni 1.1 Flash lets you build with more control",
+      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 70,
-          "review": "开源是真，但AA指数自家定的吧？定价对标Opus 4.8，怎么不跟同档Flash比？"
-        },
-        "paper-police": {
-          "score": 25,
-          "review": "宣称开源但未附仓库，AA指数无第三方验证，定价对比缺实测。"
-        },
-        "pragmatic": {
-          "score": 92,
-          "review": "开源可下载，价格只有Opus的1/40，跑批量任务直接换。"
-        }
-      }
-    },
-    {
-      "story_id": "story_ddd2368b2c0c",
-      "title": "Qwen3.8-Flash 开源，Qwen4 架构预览 / API is live on QwenCloud： https://www.qwencloud.com/models/qwen3.8-flash 🙌Let's build something！",
-      "url": "https://x.com/Alibaba_Qwen/status/2092636376990990503",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
           "score": 72,
-          "review": "开源和API是真的，但Qwen4架构预览又是个饼，先等跑分说话。"
-        },
-        "paper-police": {
-          "score": 25,
-          "review": "官方宣称开源和API上线，但无论文无代码链接无评测，无法验证。"
-        },
-        "pragmatic": {
-          "score": 90,
-          "review": "开源且API已上线，今天就能clone或调用，跑任务直接换。"
-        }
-      }
-    },
-    {
-      "story_id": "story_93586c9b901c",
-      "title": "Gemini 3.5 Transcribe 发布：面向实时语音交互的高精度语音转文本模型 / Intelligent transcription with Gemini 3.5 Transcribe",
-      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe",
-      "rank": 3,
-      "reviews": {
-        "cynic": {
-          "score": 72,
-          "review": "转写模型不新鲜，先晒噪音和口音下的错误率再吹精度。"
+          "review": "“更强控制”是官方口径，开发者实测前先别急着欢呼。"
         },
         "paper-police": {
           "score": 45,
-          "review": "官方博客给了细节和数字，但未开源无独立验证，等第三方跑分再定论。"
+          "review": "官方博客给了发布信息，但无论文无代码，等第三方评测验证。"
         },
         "pragmatic": {
           "score": 88,
-          "review": "语音转写新模型上线，做实时转录的可以直接换API试效果。"
+          "review": "新模型已发布，做视频生成的开发者可以直接试，控制力更强。"
+        }
+      }
+    },
+    {
+      "story_id": "story_b92ae1b5e663",
+      "title": "Gemini 3.5 Transcribe 发布：更精准的实时语音转写模型 / Gemini-3.5-Transcribe",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe",
+      "rank": 2,
+      "reviews": {
+        "cynic": {
+          "score": 45,
+          "review": "“更精准”对比的是自家上一代吧？拿第三方基准说话再吹。"
+        },
+        "paper-police": {
+          "score": 45,
+          "review": "官方博客有发布信息，但无论文无代码无第三方评测，等独立验证。"
+        },
+        "pragmatic": {
+          "score": 88,
+          "review": "实时转写模型已发布，做语音应用的今天就能接 API 试效果。"
+        }
+      }
+    },
+    {
+      "story_id": "story_500c35f48384",
+      "title": "Midjourney 开放 V8.2 图像编辑模型测试 / Edit Model for V8",
+      "url": "https://updates.midjourney.com/edit-model-for-v8",
+      "rank": 3,
+      "reviews": {
+        "cynic": {
+          "score": 62,
+          "review": "测试版就冠上V8.2，编辑效果和翻车率倒是只字未提。"
+        },
+        "paper-police": {
+          "score": 25,
+          "review": "官方更新页有说法，但无论文无代码无第三方评测，闭源模型难复现。"
+        },
+        "pragmatic": {
+          "score": 85,
+          "review": "图像编辑模型开放测试，做视觉的今天就能上手试，注意测试版限制。"
         }
       }
     }
