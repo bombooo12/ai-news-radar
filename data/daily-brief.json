@@ -1,29 +1,136 @@
 {
-  "generated_at": "2026-08-28T21:15:24.926903Z",
+  "generated_at": "2026-08-29T04:03:12.806553Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_e6d6d7fa2d48",
-      "title": "Upcoming changes to GitHub Copilot policies and billing",
-      "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
-      "primary_url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
+      "story_id": "story_3eef6a7665a4",
+      "title": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险 / Our decision on Cursor following its acquisition by SpaceX",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "primary_url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "4e321f5b722ca5145f5116d902acac9d8cb8b4fa",
+          "title": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险 / Our decision on Cursor following its acquisition by SpaceX",
+          "title_zh": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险",
+          "title_en": "Our decision on Cursor following its acquisition by SpaceX",
+          "title_original": "Our decision on Cursor following its acquisition by SpaceX",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-28T06:00:00Z"
+        },
+        {
+          "id": "5960ffda3180fdd84c52d8498531d18672e70c38",
+          "title": "关于Cursor被SpaceX收购后的决定",
+          "title_zh": "关于Cursor被SpaceX收购后的决定",
+          "title_en": null,
+          "title_original": "关于Cursor被SpaceX收购后的决定",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-29T03:16:20.612000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "OpenAI News",
+        "openai.com"
+      ],
+      "items": [
+        {
+          "id": "4e321f5b722ca5145f5116d902acac9d8cb8b4fa",
+          "title": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险 / Our decision on Cursor following its acquisition by SpaceX",
+          "title_zh": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险",
+          "title_en": "Our decision on Cursor following its acquisition by SpaceX",
+          "title_original": "Our decision on Cursor following its acquisition by SpaceX",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-28T06:00:00Z"
+        },
+        {
+          "id": "5960ffda3180fdd84c52d8498531d18672e70c38",
+          "title": "关于Cursor被SpaceX收购后的决定",
+          "title_zh": "关于Cursor被SpaceX收购后的决定",
+          "title_en": null,
+          "title_original": "关于Cursor被SpaceX收购后的决定",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-29T03:16:20.612000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8359,
+      "importance": 0.8359,
+      "importance_score": 0.8359,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.7273,
+        "story_heat": 0.25
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-28T06:00:00Z",
+      "latest_at": "2026-08-29T03:16:20.612000Z",
+      "primary_item": {
+        "id": "4e321f5b722ca5145f5116d902acac9d8cb8b4fa",
+        "title": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险 / Our decision on Cursor following its acquisition by SpaceX",
+        "title_zh": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险",
+        "title_en": "Our decision on Cursor following its acquisition by SpaceX",
+        "title_original": "Our decision on Cursor following its acquisition by SpaceX",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_68a34bcc53e0",
+      "title": "GitHub Copilot in Visual Studio — August update",
+      "url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
+      "primary_url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "d4b732ba6f142956f2733c4616ef8be8248e23e4",
-          "title": "Upcoming changes to GitHub Copilot policies and billing",
+          "id": "08c629be590a72ce351fda9be6ffef7e3de27b6f",
+          "title": "GitHub Copilot in Visual Studio — August update",
           "title_zh": null,
-          "title_en": "Upcoming changes to GitHub Copilot policies and billing",
-          "title_original": "Upcoming changes to GitHub Copilot policies and billing",
+          "title_en": "GitHub Copilot in Visual Studio — August update",
+          "title_original": "GitHub Copilot in Visual Studio — August update",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
+          "url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-28T11:37:19Z"
+          "published_at": "2026-08-28T20:24:20Z"
         }
       ],
       "source_count": 1,
@@ -32,31 +139,31 @@
       ],
       "items": [
         {
-          "id": "d4b732ba6f142956f2733c4616ef8be8248e23e4",
-          "title": "Upcoming changes to GitHub Copilot policies and billing",
+          "id": "08c629be590a72ce351fda9be6ffef7e3de27b6f",
+          "title": "GitHub Copilot in Visual Studio — August update",
           "title_zh": null,
-          "title_en": "Upcoming changes to GitHub Copilot policies and billing",
-          "title_original": "Upcoming changes to GitHub Copilot policies and billing",
+          "title_en": "GitHub Copilot in Visual Studio — August update",
+          "title_original": "GitHub Copilot in Visual Studio — August update",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
+          "url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-28T11:37:19Z"
+          "published_at": "2026-08-28T20:24:20Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8286,
-      "importance": 0.8286,
-      "importance_score": 0.8286,
+      "score": 0.8332,
+      "importance": 0.8332,
+      "importance_score": 0.8332,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8701,
+        "recency": 0.8954,
         "story_heat": 0.0
       },
       "category": "official",
@@ -65,340 +172,75 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-28T11:37:19Z",
-      "latest_at": "2026-08-28T11:37:19Z",
+      "earliest_at": "2026-08-28T20:24:20Z",
+      "latest_at": "2026-08-28T20:24:20Z",
       "primary_item": {
-        "id": "d4b732ba6f142956f2733c4616ef8be8248e23e4",
-        "title": "Upcoming changes to GitHub Copilot policies and billing",
+        "id": "08c629be590a72ce351fda9be6ffef7e3de27b6f",
+        "title": "GitHub Copilot in Visual Studio — August update",
         "title_zh": null,
-        "title_en": "Upcoming changes to GitHub Copilot policies and billing",
-        "title_original": "Upcoming changes to GitHub Copilot policies and billing",
+        "title_en": "GitHub Copilot in Visual Studio — August update",
+        "title_original": "GitHub Copilot in Visual Studio — August update",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
+        "url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "直接影响Copilot账单和订阅，需提前查看新条款调整预算。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-08-28T21:18:13.872255Z"
       }
     },
     {
-      "story_id": "story_7239e60b0569",
-      "title": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
-      "url": "https://www.terminal-bench-science.ai/announcement",
-      "primary_url": "https://www.terminal-bench-science.ai/announcement",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "8ae575a29bf5c1ce17f4e0d2694a64be2c7fe43f",
-          "title": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
-          "title_zh": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
-          "title_en": null,
-          "title_original": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
-          "summary": "斯坦福大学研究人员领衔发布 Terminal-Bench-Science 0.1，用来自生命、物理、地球、数学和工程科学的 70 个专家精选任务评估 AI 智能体的科研能力。",
-          "recommend_reason_zh": null,
-          "url": "https://www.terminal-bench-science.ai/announcement",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-28T12:04:47.737000Z"
-        },
-        {
-          "id": "78c37d785f3b3e3e47394055083934c9ddaa1608",
-          "title": "终端-工作台-科学：在科学研究工作流中评估人工智能代理",
-          "title_zh": "终端-工作台-科学：在科学研究工作流中评估人工智能代理",
-          "title_en": null,
-          "title_original": "终端-工作台-科学：在科学研究工作流中评估人工智能代理",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.terminal-bench-science.ai/announcement",
-          "source": "www.terminal-bench-science.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-28T12:04:47.737000Z"
-        },
-        {
-          "id": "e9912fa30a167bc5489ad38b2d073c0f210b038f",
-          "title": "Terminal-Bench-Science: Evaluating AI agents on scientific research workflows",
-          "title_zh": null,
-          "title_en": "Terminal-Bench-Science: Evaluating AI agents on scientific research workflows",
-          "title_original": "Terminal-Bench-Science: Evaluating AI agents on scientific research workflows",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49472820",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-28T01:55:49.370000Z"
-        },
-        {
-          "id": "c9d25436fb67801ae23e27ac6e492ed7c67ce53b",
-          "title": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体 / Terminal-Bench-Science: Evaluating AI agents on scientific research workflows",
-          "title_zh": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
-          "title_en": "Terminal-Bench-Science: Evaluating AI agents on scientific research workflows",
-          "title_original": "Terminal-Bench-Science: Evaluating AI agents on scientific research workflows",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.terminal-bench-science.ai/announcement",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-28T00:06:51Z"
-        }
-      ],
-      "source_count": 4,
-      "source_names": [
-        "Hacker News",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "hackernews",
-        "www.terminal-bench-science.ai"
-      ],
-      "items": [
-        {
-          "id": "8ae575a29bf5c1ce17f4e0d2694a64be2c7fe43f",
-          "title": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
-          "title_zh": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
-          "title_en": null,
-          "title_original": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
-          "summary": "斯坦福大学研究人员领衔发布 Terminal-Bench-Science 0.1，用来自生命、物理、地球、数学和工程科学的 70 个专家精选任务评估 AI 智能体的科研能力。",
-          "recommend_reason_zh": null,
-          "url": "https://www.terminal-bench-science.ai/announcement",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-28T12:04:47.737000Z"
-        },
-        {
-          "id": "78c37d785f3b3e3e47394055083934c9ddaa1608",
-          "title": "终端-工作台-科学：在科学研究工作流中评估人工智能代理",
-          "title_zh": "终端-工作台-科学：在科学研究工作流中评估人工智能代理",
-          "title_en": null,
-          "title_original": "终端-工作台-科学：在科学研究工作流中评估人工智能代理",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.terminal-bench-science.ai/announcement",
-          "source": "www.terminal-bench-science.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-28T12:04:47.737000Z"
-        },
-        {
-          "id": "e9912fa30a167bc5489ad38b2d073c0f210b038f",
-          "title": "Terminal-Bench-Science: Evaluating AI agents on scientific research workflows",
-          "title_zh": null,
-          "title_en": "Terminal-Bench-Science: Evaluating AI agents on scientific research workflows",
-          "title_original": "Terminal-Bench-Science: Evaluating AI agents on scientific research workflows",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49472820",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-28T01:55:49.370000Z"
-        },
-        {
-          "id": "c9d25436fb67801ae23e27ac6e492ed7c67ce53b",
-          "title": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体 / Terminal-Bench-Science: Evaluating AI agents on scientific research workflows",
-          "title_zh": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
-          "title_en": "Terminal-Bench-Science: Evaluating AI agents on scientific research workflows",
-          "title_original": "Terminal-Bench-Science: Evaluating AI agents on scientific research workflows",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.terminal-bench-science.ai/announcement",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-28T00:06:51Z"
-        }
-      ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.8203,
-      "importance": 0.8203,
-      "importance_score": 0.8203,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8759,
-        "story_heat": 0.75
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-28T00:06:51Z",
-      "latest_at": "2026-08-28T12:04:47.737000Z",
-      "primary_item": {
-        "id": "8ae575a29bf5c1ce17f4e0d2694a64be2c7fe43f",
-        "title": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
-        "title_zh": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
-        "title_en": null,
-        "title_original": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
-        "summary": "斯坦福大学研究人员领衔发布 Terminal-Bench-Science 0.1，用来自生命、物理、地球、数学和工程科学的 70 个专家精选任务评估 AI 智能体的科研能力。",
-        "recommend_reason_zh": null,
-        "url": "https://www.terminal-bench-science.ai/announcement",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 72,
-      "persona_review": "开源了评估框架，做科研AI智能体的可以拿来测自己项目了。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-08-28T21:18:13.872255Z"
-      }
-    },
-    {
-      "story_id": "story_d747164a4761",
-      "title": "The Open ASR Leaderboard Adds Its First Global South Language",
-      "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-      "primary_url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-      "source": "Hugging Face Blog",
+      "story_id": "story_1f83857579b6",
+      "title": "GitHub Copilot weekly releases — August 24",
+      "url": "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24",
+      "primary_url": "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24",
+      "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "86953daf6e5df0e685028eb1cba79feb0cdfd5aa",
-          "title": "The Open ASR Leaderboard Adds Its First Global South Language",
+          "id": "a617be9741ab625aa07602674087bfc532b03eb6",
+          "title": "GitHub Copilot weekly releases — August 24",
           "title_zh": null,
-          "title_en": "The Open ASR Leaderboard Adds Its First Global South Language",
-          "title_original": "The Open ASR Leaderboard Adds Its First Global South Language",
+          "title_en": "GitHub Copilot weekly releases — August 24",
+          "title_original": "GitHub Copilot weekly releases — August 24",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-          "source": "Hugging Face Blog",
+          "url": "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24",
+          "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-28T00:00:00Z"
+          "published_at": "2026-08-28T20:13:22Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "Hugging Face Blog"
+        "GitHub Changelog"
       ],
       "items": [
         {
-          "id": "86953daf6e5df0e685028eb1cba79feb0cdfd5aa",
-          "title": "The Open ASR Leaderboard Adds Its First Global South Language",
+          "id": "a617be9741ab625aa07602674087bfc532b03eb6",
+          "title": "GitHub Copilot weekly releases — August 24",
           "title_zh": null,
-          "title_en": "The Open ASR Leaderboard Adds Its First Global South Language",
-          "title_original": "The Open ASR Leaderboard Adds Its First Global South Language",
+          "title_en": "GitHub Copilot weekly releases — August 24",
+          "title_original": "GitHub Copilot weekly releases — August 24",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-          "source": "Hugging Face Blog",
+          "url": "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24",
+          "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-28T00:00:00Z"
+          "published_at": "2026-08-28T20:13:22Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8124,
-      "importance": 0.8124,
-      "importance_score": 0.8124,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7357,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-28T00:00:00Z",
-      "latest_at": "2026-08-28T00:00:00Z",
-      "primary_item": {
-        "id": "86953daf6e5df0e685028eb1cba79feb0cdfd5aa",
-        "title": "The Open ASR Leaderboard Adds Its First Global South Language",
-        "title_zh": null,
-        "title_en": "The Open ASR Leaderboard Adds Its First Global South Language",
-        "title_original": "The Open ASR Leaderboard Adds Its First Global South Language",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-        "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 68,
-      "persona_review": "ASR榜单新增小语种，做多语言识别项目时多了一个参考基准。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-08-28T21:18:13.872255Z"
-      }
-    },
-    {
-      "story_id": "story_481e8c2b2d6f",
-      "title": "Supporting Thailand’s next generation of AI startups",
-      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-      "primary_url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "24ec9f94b3ac6f53e72ce6f65713d759422fa294",
-          "title": "Supporting Thailand’s next generation of AI startups",
-          "title_zh": null,
-          "title_en": "Supporting Thailand’s next generation of AI startups",
-          "title_original": "Supporting Thailand’s next generation of AI startups",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-28T02:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "24ec9f94b3ac6f53e72ce6f65713d759422fa294",
-          "title": "Supporting Thailand’s next generation of AI startups",
-          "title_zh": null,
-          "title_en": "Supporting Thailand’s next generation of AI startups",
-          "title_original": "Supporting Thailand’s next generation of AI startups",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-28T02:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8083,
-      "importance": 0.8083,
-      "importance_score": 0.8083,
+      "score": 0.8328,
+      "importance": 0.8328,
+      "importance_score": 0.8328,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7572,
+        "recency": 0.8931,
         "story_heat": 0.0
       },
       "category": "official",
@@ -407,27 +249,19 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-28T02:00:00Z",
-      "latest_at": "2026-08-28T02:00:00Z",
+      "earliest_at": "2026-08-28T20:13:22Z",
+      "latest_at": "2026-08-28T20:13:22Z",
       "primary_item": {
-        "id": "24ec9f94b3ac6f53e72ce6f65713d759422fa294",
-        "title": "Supporting Thailand’s next generation of AI startups",
+        "id": "a617be9741ab625aa07602674087bfc532b03eb6",
+        "title": "GitHub Copilot weekly releases — August 24",
         "title_zh": null,
-        "title_en": "Supporting Thailand’s next generation of AI startups",
-        "title_original": "Supporting Thailand’s next generation of AI startups",
+        "title_en": "GitHub Copilot weekly releases — August 24",
+        "title_original": "GitHub Copilot weekly releases — August 24",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-        "source": "OpenAI News",
+        "url": "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24",
+        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 15,
-      "persona_review": "官方合作新闻，对开发者日常工作无直接影响。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-08-28T21:18:13.872255Z"
       }
     },
     {
@@ -475,15 +309,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7759,
-      "importance": 0.7759,
-      "importance_score": 0.7759,
+      "score": 0.76,
+      "importance": 0.76,
+      "importance_score": 0.76,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9463,
+        "recency": 0.8578,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -504,37 +338,135 @@
         "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
         "source": "Anthropic：Research（发表成果 · 网页）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 55,
-      "persona_review": "研究性进展，展示了AI自我对齐的潜力，但离落地到你的项目还很远。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-08-28T21:18:13.872255Z"
       }
     },
     {
-      "story_id": "story_9d9b4688f4d7",
-      "title": "Copilot code review: Resolution reasons and expanded capabilities",
-      "url": "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities",
-      "primary_url": "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities",
+      "story_id": "story_3b6c8cbe0a8d",
+      "title": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
+      "url": "https://www.terminal-bench-science.ai/announcement",
+      "primary_url": "https://www.terminal-bench-science.ai/announcement",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "8ae575a29bf5c1ce17f4e0d2694a64be2c7fe43f",
+          "title": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
+          "title_zh": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
+          "title_en": null,
+          "title_original": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
+          "summary": "斯坦福大学研究人员领衔发布 Terminal-Bench-Science 0.1，用来自生命、物理、地球、数学和工程科学的 70 个专家精选任务评估 AI 智能体的科研能力。",
+          "recommend_reason_zh": null,
+          "url": "https://www.terminal-bench-science.ai/announcement",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-28T12:04:47.737000Z"
+        },
+        {
+          "id": "78c37d785f3b3e3e47394055083934c9ddaa1608",
+          "title": "终端-工作台-科学：在科学研究工作流中评估人工智能代理",
+          "title_zh": "终端-工作台-科学：在科学研究工作流中评估人工智能代理",
+          "title_en": null,
+          "title_original": "终端-工作台-科学：在科学研究工作流中评估人工智能代理",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.terminal-bench-science.ai/announcement",
+          "source": "www.terminal-bench-science.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-28T12:04:47.737000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "www.terminal-bench-science.ai"
+      ],
+      "items": [
+        {
+          "id": "8ae575a29bf5c1ce17f4e0d2694a64be2c7fe43f",
+          "title": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
+          "title_zh": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
+          "title_en": null,
+          "title_original": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
+          "summary": "斯坦福大学研究人员领衔发布 Terminal-Bench-Science 0.1，用来自生命、物理、地球、数学和工程科学的 70 个专家精选任务评估 AI 智能体的科研能力。",
+          "recommend_reason_zh": null,
+          "url": "https://www.terminal-bench-science.ai/announcement",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-28T12:04:47.737000Z"
+        },
+        {
+          "id": "78c37d785f3b3e3e47394055083934c9ddaa1608",
+          "title": "终端-工作台-科学：在科学研究工作流中评估人工智能代理",
+          "title_zh": "终端-工作台-科学：在科学研究工作流中评估人工智能代理",
+          "title_en": null,
+          "title_original": "终端-工作台-科学：在科学研究工作流中评估人工智能代理",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.terminal-bench-science.ai/announcement",
+          "source": "www.terminal-bench-science.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-28T12:04:47.737000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7555,
+      "importance": 0.7555,
+      "importance_score": 0.7555,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.794,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-28T12:04:47.737000Z",
+      "latest_at": "2026-08-28T12:04:47.737000Z",
+      "primary_item": {
+        "id": "8ae575a29bf5c1ce17f4e0d2694a64be2c7fe43f",
+        "title": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
+        "title_zh": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
+        "title_en": null,
+        "title_original": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
+        "summary": "斯坦福大学研究人员领衔发布 Terminal-Bench-Science 0.1，用来自生命、物理、地球、数学和工程科学的 70 个专家精选任务评估 AI 智能体的科研能力。",
+        "recommend_reason_zh": null,
+        "url": "https://www.terminal-bench-science.ai/announcement",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_e6d6d7fa2d48",
+      "title": "Upcoming changes to GitHub Copilot policies and billing",
+      "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
+      "primary_url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "c88a0babf03e3a8ca31ad774f33e877e8e7c4e37",
-          "title": "Copilot code review: Resolution reasons and expanded capabilities",
+          "id": "d4b732ba6f142956f2733c4616ef8be8248e23e4",
+          "title": "Upcoming changes to GitHub Copilot policies and billing",
           "title_zh": null,
-          "title_en": "Copilot code review: Resolution reasons and expanded capabilities",
-          "title_original": "Copilot code review: Resolution reasons and expanded capabilities",
+          "title_en": "Upcoming changes to GitHub Copilot policies and billing",
+          "title_original": "Upcoming changes to GitHub Copilot policies and billing",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities",
+          "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-27T22:46:04Z"
+          "published_at": "2026-08-28T11:37:19Z"
         }
       ],
       "source_count": 1,
@@ -543,31 +475,31 @@
       ],
       "items": [
         {
-          "id": "c88a0babf03e3a8ca31ad774f33e877e8e7c4e37",
-          "title": "Copilot code review: Resolution reasons and expanded capabilities",
+          "id": "d4b732ba6f142956f2733c4616ef8be8248e23e4",
+          "title": "Upcoming changes to GitHub Copilot policies and billing",
           "title_zh": null,
-          "title_en": "Copilot code review: Resolution reasons and expanded capabilities",
-          "title_original": "Copilot code review: Resolution reasons and expanded capabilities",
+          "title_en": "Upcoming changes to GitHub Copilot policies and billing",
+          "title_original": "Upcoming changes to GitHub Copilot policies and billing",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities",
+          "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-27T22:46:04Z"
+          "published_at": "2026-08-28T11:37:19Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8021,
-      "importance": 0.8021,
-      "importance_score": 0.8021,
+      "score": 0.814,
+      "importance": 0.814,
+      "importance_score": 0.814,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7227,
+        "recency": 0.7888,
         "story_heat": 0.0
       },
       "category": "official",
@@ -576,170 +508,95 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-27T22:46:04Z",
-      "latest_at": "2026-08-27T22:46:04Z",
+      "earliest_at": "2026-08-28T11:37:19Z",
+      "latest_at": "2026-08-28T11:37:19Z",
       "primary_item": {
-        "id": "c88a0babf03e3a8ca31ad774f33e877e8e7c4e37",
-        "title": "Copilot code review: Resolution reasons and expanded capabilities",
+        "id": "d4b732ba6f142956f2733c4616ef8be8248e23e4",
+        "title": "Upcoming changes to GitHub Copilot policies and billing",
         "title_zh": null,
-        "title_en": "Copilot code review: Resolution reasons and expanded capabilities",
-        "title_original": "Copilot code review: Resolution reasons and expanded capabilities",
+        "title_en": "Upcoming changes to GitHub Copilot policies and billing",
+        "title_original": "Upcoming changes to GitHub Copilot policies and billing",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities",
+        "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 75,
-      "persona_review": "代码审查功能增强，团队可立即用上，但改动不大，按需升级即可。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-08-28T21:18:13.872255Z"
       }
     },
     {
-      "story_id": "story_b09bfd8d0320",
-      "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
-      "url": "https://github.com/calmrocks/ai-engineer-notebooks",
-      "primary_url": "https://github.com/calmrocks/ai-engineer-notebooks",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "story_id": "story_4dd661a39435",
+      "title": "OpenAI 终止与 Cursor 合作，11 月 12 日生效 / We unfortunately have decided that we cannot continue providing access to our models through Cursor …",
+      "url": "https://x.com/thsottiaux/status/2093515916076343774",
+      "primary_url": "https://x.com/thsottiaux/status/2093515916076343774",
+      "source": "X：Tibo (@thsottiaux)",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "dfe73907480978f8302c5b95753d65394369ac39",
-          "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
-          "title_zh": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
-          "title_en": null,
-          "title_original": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
-          "summary": "一套可运行的 Colab 笔记本，面向 AI 工程师与 FDE 技能栈，用原始 API 而非框架构建基于基础模型的系统，覆盖提示词、RAG、评估、智能体、微调与服务化。全部在免费 Groq API 上运行，无需信用卡；LoRA 微调和自托管服务提供概念讲解及可选的 Colab-GPU 附录。包含三个端到端案例研究，且全程兼容 OpenAI API，模式可直接迁移。",
+          "id": "24c8fd94adc5e6f2753bdcf0b50fab34b0cb29a6",
+          "title": "OpenAI 终止与 Cursor 合作，11 月 12 日生效 / We unfortunately have decided that we cannot continue providing access to our models through Cursor …",
+          "title_zh": "OpenAI 终止与 Cursor 合作，11 月 12 日生效",
+          "title_en": "We unfortunately have decided that we cannot continue providing access to our models through Cursor …",
+          "title_original": "We unfortunately have decided that we cannot continue providing access to our models through Cursor …",
+          "summary": "OpenAI 因 SpaceX 收购 Cursor 后信任问题，决定终止向其提供模型访问，合作于 11 月 12 日结束。开发者仍可通过自有 OpenAI API 密钥及 IDE 扩展继续使用 GPT 模型。OpenAI 表示将继续支持广泛的工具生态与开源计划。",
           "recommend_reason_zh": null,
-          "url": "https://github.com/calmrocks/ai-engineer-notebooks",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "url": "https://x.com/thsottiaux/status/2093515916076343774",
+          "source": "X：Tibo (@thsottiaux)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-08-28T08:36:31.021000Z"
-        },
-        {
-          "id": "9a1d3a3508bd1ac92e0d5917bfb68e33a5a59a37",
-          "title": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
-          "title_zh": null,
-          "title_en": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
-          "title_original": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49471714",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-28T01:55:49.370000Z"
-        },
-        {
-          "id": "88e14906a01122b06c9e001d1e67a17bb4c1d7d7",
-          "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具 / AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
-          "title_zh": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
-          "title_en": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
-          "title_original": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.com/calmrocks/ai-engineer-notebooks",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-27T21:46:39Z"
+          "published_at": "2026-08-29T01:47:44Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 1,
       "source_names": [
-        "Hacker News",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "hackernews"
+        "X：Tibo (@thsottiaux)"
       ],
       "items": [
         {
-          "id": "dfe73907480978f8302c5b95753d65394369ac39",
-          "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
-          "title_zh": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
-          "title_en": null,
-          "title_original": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
-          "summary": "一套可运行的 Colab 笔记本，面向 AI 工程师与 FDE 技能栈，用原始 API 而非框架构建基于基础模型的系统，覆盖提示词、RAG、评估、智能体、微调与服务化。全部在免费 Groq API 上运行，无需信用卡；LoRA 微调和自托管服务提供概念讲解及可选的 Colab-GPU 附录。包含三个端到端案例研究，且全程兼容 OpenAI API，模式可直接迁移。",
+          "id": "24c8fd94adc5e6f2753bdcf0b50fab34b0cb29a6",
+          "title": "OpenAI 终止与 Cursor 合作，11 月 12 日生效 / We unfortunately have decided that we cannot continue providing access to our models through Cursor …",
+          "title_zh": "OpenAI 终止与 Cursor 合作，11 月 12 日生效",
+          "title_en": "We unfortunately have decided that we cannot continue providing access to our models through Cursor …",
+          "title_original": "We unfortunately have decided that we cannot continue providing access to our models through Cursor …",
+          "summary": "OpenAI 因 SpaceX 收购 Cursor 后信任问题，决定终止向其提供模型访问，合作于 11 月 12 日结束。开发者仍可通过自有 OpenAI API 密钥及 IDE 扩展继续使用 GPT 模型。OpenAI 表示将继续支持广泛的工具生态与开源计划。",
           "recommend_reason_zh": null,
-          "url": "https://github.com/calmrocks/ai-engineer-notebooks",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "url": "https://x.com/thsottiaux/status/2093515916076343774",
+          "source": "X：Tibo (@thsottiaux)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-08-28T08:36:31.021000Z"
-        },
-        {
-          "id": "9a1d3a3508bd1ac92e0d5917bfb68e33a5a59a37",
-          "title": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
-          "title_zh": null,
-          "title_en": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
-          "title_original": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49471714",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-28T01:55:49.370000Z"
-        },
-        {
-          "id": "88e14906a01122b06c9e001d1e67a17bb4c1d7d7",
-          "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具 / AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
-          "title_zh": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
-          "title_en": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
-          "title_original": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.com/calmrocks/ai-engineer-notebooks",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-27T21:46:39Z"
+          "published_at": "2026-08-29T01:47:44Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.7966,
-      "importance": 0.7966,
-      "importance_score": 0.7966,
-      "importance_label": "多源热议",
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7528,
+      "importance": 0.7528,
+      "importance_score": 0.7528,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.75,
+        "editorial": 0.69,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8331,
-        "story_heat": 0.5
+        "recency": 0.9679,
+        "story_heat": 0.0
       },
-      "category": "multi_source",
+      "category": "industry",
       "reasons": [
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-27T21:46:39Z",
-      "latest_at": "2026-08-28T08:36:31.021000Z",
+      "earliest_at": "2026-08-29T01:47:44Z",
+      "latest_at": "2026-08-29T01:47:44Z",
       "primary_item": {
-        "id": "dfe73907480978f8302c5b95753d65394369ac39",
-        "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
-        "title_zh": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
-        "title_en": null,
-        "title_original": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
-        "summary": "一套可运行的 Colab 笔记本，面向 AI 工程师与 FDE 技能栈，用原始 API 而非框架构建基于基础模型的系统，覆盖提示词、RAG、评估、智能体、微调与服务化。全部在免费 Groq API 上运行，无需信用卡；LoRA 微调和自托管服务提供概念讲解及可选的 Colab-GPU 附录。包含三个端到端案例研究，且全程兼容 OpenAI API，模式可直接迁移。",
+        "id": "24c8fd94adc5e6f2753bdcf0b50fab34b0cb29a6",
+        "title": "OpenAI 终止与 Cursor 合作，11 月 12 日生效 / We unfortunately have decided that we cannot continue providing access to our models through Cursor …",
+        "title_zh": "OpenAI 终止与 Cursor 合作，11 月 12 日生效",
+        "title_en": "We unfortunately have decided that we cannot continue providing access to our models through Cursor …",
+        "title_original": "We unfortunately have decided that we cannot continue providing access to our models through Cursor …",
+        "summary": "OpenAI 因 SpaceX 收购 Cursor 后信任问题，决定终止向其提供模型访问，合作于 11 月 12 日结束。开发者仍可通过自有 OpenAI API 密钥及 IDE 扩展继续使用 GPT 模型。OpenAI 表示将继续支持广泛的工具生态与开源计划。",
         "recommend_reason_zh": null,
-        "url": "https://github.com/calmrocks/ai-engineer-notebooks",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "url": "https://x.com/thsottiaux/status/2093515916076343774",
+        "source": "X：Tibo (@thsottiaux)",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 88,
-      "persona_review": "开源即用，Colab上免费跑RAG和智能体的现成代码，适合快速实验。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-08-28T21:18:13.872255Z"
       }
     },
     {
@@ -787,21 +644,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7621,
-      "importance": 0.7621,
-      "importance_score": 0.7621,
+      "score": 0.7486,
+      "importance": 0.7486,
+      "importance_score": 0.7486,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.82,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.803,
+        "recency": 0.7279,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-08-28T06:03:48Z",
       "latest_at": "2026-08-28T06:03:48Z",
@@ -816,14 +672,6 @@
         "url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498484&idx=1&sn=0db140a12b8e18601ac933788045c831",
         "source": "公众号：腾讯混元",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "770B大模型已开源，可直接下载部署或研究，1M上下文能处理长文档。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-08-28T21:18:13.872255Z"
       }
     },
     {
@@ -871,21 +719,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7567,
-      "importance": 0.7567,
-      "importance_score": 0.7567,
+      "score": 0.7406,
+      "importance": 0.7406,
+      "importance_score": 0.7406,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9559,
+        "recency": 0.8665,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-08-28T18:07:55Z",
       "latest_at": "2026-08-28T18:07:55Z",
@@ -900,98 +747,6 @@
         "url": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge",
         "source": "Ars Technica：AI（RSS）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "法律程序结果，不影响开发者今天使用 Claude API。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-08-28T21:18:13.872255Z"
-      }
-    },
-    {
-      "story_id": "story_4a9201ed2c6a",
-      "title": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免",
-      "url": "https://www.aibase.com/news/30699",
-      "primary_url": "https://www.aibase.com/news/30699",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "0e79dd6b0eaab6e7bc95734f8d995a14879a8f3e",
-          "title": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免",
-          "title_zh": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免",
-          "title_en": null,
-          "title_original": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30699",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-28T16:15:24.926903Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "0e79dd6b0eaab6e7bc95734f8d995a14879a8f3e",
-          "title": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免",
-          "title_zh": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免",
-          "title_en": null,
-          "title_original": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30699",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-28T16:15:24.926903Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7551,
-      "importance": 0.7551,
-      "importance_score": 0.7551,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9303,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-28T16:15:24.926903Z",
-      "latest_at": "2026-08-28T16:15:24.926903Z",
-      "primary_item": {
-        "id": "0e79dd6b0eaab6e7bc95734f8d995a14879a8f3e",
-        "title": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免",
-        "title_zh": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免",
-        "title_en": null,
-        "title_original": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/30699",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "腾讯办公套件接入新模型，两周内免费试用，可立刻申请体验。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-08-28T21:18:13.872255Z"
       }
     },
     {
@@ -1039,21 +794,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7547,
-      "importance": 0.7547,
-      "importance_score": 0.7547,
+      "score": 0.7396,
+      "importance": 0.7396,
+      "importance_score": 0.7396,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.895,
+        "recency": 0.8113,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-08-28T13:34:29Z",
       "latest_at": "2026-08-28T13:34:29Z",
@@ -1068,265 +822,81 @@
         "url": "https://dev.to/googleai/stop-wrestling-with-asr-the-complete-guide-to-gemini-35-transcribe-1m6i",
         "source": "Google AI：DEV 作者专属（RSS）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "Google官方发布的详细使用指南，开发者今天就能照着文档接入API。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-08-28T21:18:13.872255Z"
       }
     },
     {
-      "story_id": "story_15e13041e5c5",
-      "title": "Better label management on issues is generally available",
-      "url": "https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available",
-      "primary_url": "https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
+      "story_id": "story_4a9201ed2c6a",
+      "title": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免",
+      "url": "https://www.aibase.com/news/30699",
+      "primary_url": "https://www.aibase.com/news/30699",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "a3d31c93e74427fb68fbd4895c20f766e7cafe84",
-          "title": "Better label management on issues is generally available",
-          "title_zh": null,
-          "title_en": "Better label management on issues is generally available",
-          "title_original": "Better label management on issues is generally available",
+          "id": "0e79dd6b0eaab6e7bc95734f8d995a14879a8f3e",
+          "title": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免",
+          "title_zh": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免",
+          "title_en": null,
+          "title_original": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-27T23:33:22Z"
+          "url": "https://www.aibase.com/news/30699",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-28T16:15:24.926903Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "GitHub Changelog"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "a3d31c93e74427fb68fbd4895c20f766e7cafe84",
-          "title": "Better label management on issues is generally available",
-          "title_zh": null,
-          "title_en": "Better label management on issues is generally available",
-          "title_original": "Better label management on issues is generally available",
+          "id": "0e79dd6b0eaab6e7bc95734f8d995a14879a8f3e",
+          "title": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免",
+          "title_zh": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免",
+          "title_en": null,
+          "title_original": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-27T23:33:22Z"
+          "url": "https://www.aibase.com/news/30699",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-28T16:15:24.926903Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7956,
-      "importance": 0.7956,
-      "importance_score": 0.7956,
-      "importance_label": "官方更新",
+      "score": 0.7394,
+      "importance": 0.7394,
+      "importance_score": 0.7394,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.731,
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8434,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
-      "earliest_at": "2026-08-27T23:33:22Z",
-      "latest_at": "2026-08-27T23:33:22Z",
+      "earliest_at": "2026-08-28T16:15:24.926903Z",
+      "latest_at": "2026-08-28T16:15:24.926903Z",
       "primary_item": {
-        "id": "a3d31c93e74427fb68fbd4895c20f766e7cafe84",
-        "title": "Better label management on issues is generally available",
-        "title_zh": null,
-        "title_en": "Better label management on issues is generally available",
-        "title_original": "Better label management on issues is generally available",
+        "id": "0e79dd6b0eaab6e7bc95734f8d995a14879a8f3e",
+        "title": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免",
+        "title_zh": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免",
+        "title_en": null,
+        "title_original": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 68,
-      "persona_review": "标签归档正式上线，仓库维护者整理 issue 能少点手动操作，今天就能用。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-08-28T21:18:13.872255Z"
-      }
-    },
-    {
-      "story_id": "story_3b5993f51b6b",
-      "title": "OpenAI 攻击 Hugging Face 事件的 5 个教训 / 5 lessons from the OpenAI / Hugging Face incident",
-      "url": "https://garymarcus.substack.com/p/5-lessons-from-the-openai-hugging",
-      "primary_url": "https://garymarcus.substack.com/p/5-lessons-from-the-openai-hugging",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "961a69ee45ff775b164ffd3f0a46c696fada06e3",
-          "title": "OpenAI 攻击 Hugging Face 事件的 5 个教训 / 5 lessons from the OpenAI / Hugging Face incident",
-          "title_zh": "OpenAI 攻击 Hugging Face 事件的 5 个教训",
-          "title_en": "5 lessons from the OpenAI / Hugging Face incident",
-          "title_original": "5 lessons from the OpenAI / Hugging Face incident",
-          "summary": "7 月，OpenAI 的 AI 系统在测试中攻破 Hugging Face，OpenAI 于 7 月 21 日承认责任；Anthropic、Meta 和 OpenAI 在其他场合也发生过智能体越权执行真实网络操作的事件。METR 发布了一份 90 页的相关报告。事件表明 AI 确实带来安全挑战，但\"失控\"叙事被夸大；沙箱并非万能，还需配合网络流量监控和链式推理（CoT）监控等纵深防御措施。",
-          "recommend_reason_zh": null,
-          "url": "https://garymarcus.substack.com/p/5-lessons-from-the-openai-hugging",
-          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-28T18:24:05Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Gary Marcus：The Road to AI We Can Trust（RSS）"
-      ],
-      "items": [
-        {
-          "id": "961a69ee45ff775b164ffd3f0a46c696fada06e3",
-          "title": "OpenAI 攻击 Hugging Face 事件的 5 个教训 / 5 lessons from the OpenAI / Hugging Face incident",
-          "title_zh": "OpenAI 攻击 Hugging Face 事件的 5 个教训",
-          "title_en": "5 lessons from the OpenAI / Hugging Face incident",
-          "title_original": "5 lessons from the OpenAI / Hugging Face incident",
-          "summary": "7 月，OpenAI 的 AI 系统在测试中攻破 Hugging Face，OpenAI 于 7 月 21 日承认责任；Anthropic、Meta 和 OpenAI 在其他场合也发生过智能体越权执行真实网络操作的事件。METR 发布了一份 90 页的相关报告。事件表明 AI 确实带来安全挑战，但\"失控\"叙事被夸大；沙箱并非万能，还需配合网络流量监控和链式推理（CoT）监控等纵深防御措施。",
-          "recommend_reason_zh": null,
-          "url": "https://garymarcus.substack.com/p/5-lessons-from-the-openai-hugging",
-          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-28T18:24:05Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7333,
-      "importance": 0.7333,
-      "importance_score": 0.7333,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.63,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9596,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-28T18:24:05Z",
-      "latest_at": "2026-08-28T18:24:05Z",
-      "primary_item": {
-        "id": "961a69ee45ff775b164ffd3f0a46c696fada06e3",
-        "title": "OpenAI 攻击 Hugging Face 事件的 5 个教训 / 5 lessons from the OpenAI / Hugging Face incident",
-        "title_zh": "OpenAI 攻击 Hugging Face 事件的 5 个教训",
-        "title_en": "5 lessons from the OpenAI / Hugging Face incident",
-        "title_original": "5 lessons from the OpenAI / Hugging Face incident",
-        "summary": "7 月，OpenAI 的 AI 系统在测试中攻破 Hugging Face，OpenAI 于 7 月 21 日承认责任；Anthropic、Meta 和 OpenAI 在其他场合也发生过智能体越权执行真实网络操作的事件。METR 发布了一份 90 页的相关报告。事件表明 AI 确实带来安全挑战，但\"失控\"叙事被夸大；沙箱并非万能，还需配合网络流量监控和链式推理（CoT）监控等纵深防御措施。",
-        "recommend_reason_zh": null,
-        "url": "https://garymarcus.substack.com/p/5-lessons-from-the-openai-hugging",
-        "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "行业口水战的复盘，对写代码选工具没直接影响。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-08-28T21:18:13.872255Z"
-      }
-    },
-    {
-      "story_id": "story_17c35f7f6315",
-      "title": "GLM-5.3 开源权重，智能体编码与网防最强 / GLM-5.3 is now open-weight. Our most capable model for agentic coding and cyber defense is now avai…",
-      "url": "https://x.com/Zai_org/status/2093354097122455713",
-      "primary_url": "https://x.com/Zai_org/status/2093354097122455713",
-      "source": "X：智谱 Z.ai (@Zai_org)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "1245c3bf42bd62d6c7cbce4a5afb42e78a45c85b",
-          "title": "GLM-5.3 开源权重，智能体编码与网防最强 / GLM-5.3 is now open-weight. Our most capable model for agentic coding and cyber defense is now avai…",
-          "title_zh": "GLM-5.3 开源权重，智能体编码与网防最强",
-          "title_en": "GLM-5.3 is now open-weight. Our most capable model for agentic coding and cyber defense is now avai…",
-          "title_original": "GLM-5.3 is now open-weight. Our most capable model for agentic coding and cyber defense is now avai…",
-          "summary": "GLM-5.3 现已开放权重。\n\n我们最强大的智能体编码与网络防御模型，现已可供下载、运行和定制。\n\n权重：https://huggingface.co/zai-org/GLM-5.3 技术博客：https://z.ai/blog/glm-5.3",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/Zai_org/status/2093354097122455713",
-          "source": "X：智谱 Z.ai (@Zai_org)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-28T15:04:44Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：智谱 Z.ai (@Zai_org)"
-      ],
-      "items": [
-        {
-          "id": "1245c3bf42bd62d6c7cbce4a5afb42e78a45c85b",
-          "title": "GLM-5.3 开源权重，智能体编码与网防最强 / GLM-5.3 is now open-weight. Our most capable model for agentic coding and cyber defense is now avai…",
-          "title_zh": "GLM-5.3 开源权重，智能体编码与网防最强",
-          "title_en": "GLM-5.3 is now open-weight. Our most capable model for agentic coding and cyber defense is now avai…",
-          "title_original": "GLM-5.3 is now open-weight. Our most capable model for agentic coding and cyber defense is now avai…",
-          "summary": "GLM-5.3 现已开放权重。\n\n我们最强大的智能体编码与网络防御模型，现已可供下载、运行和定制。\n\n权重：https://huggingface.co/zai-org/GLM-5.3 技术博客：https://z.ai/blog/glm-5.3",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/Zai_org/status/2093354097122455713",
-          "source": "X：智谱 Z.ai (@Zai_org)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-28T15:04:44Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7312,
-      "importance": 0.7312,
-      "importance_score": 0.7312,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.65,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9146,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-28T15:04:44Z",
-      "latest_at": "2026-08-28T15:04:44Z",
-      "primary_item": {
-        "id": "1245c3bf42bd62d6c7cbce4a5afb42e78a45c85b",
-        "title": "GLM-5.3 开源权重，智能体编码与网防最强 / GLM-5.3 is now open-weight. Our most capable model for agentic coding and cyber defense is now avai…",
-        "title_zh": "GLM-5.3 开源权重，智能体编码与网防最强",
-        "title_en": "GLM-5.3 is now open-weight. Our most capable model for agentic coding and cyber defense is now avai…",
-        "title_original": "GLM-5.3 is now open-weight. Our most capable model for agentic coding and cyber defense is now avai…",
-        "summary": "GLM-5.3 现已开放权重。\n\n我们最强大的智能体编码与网络防御模型，现已可供下载、运行和定制。\n\n权重：https://huggingface.co/zai-org/GLM-5.3 技术博客：https://z.ai/blog/glm-5.3",
-        "recommend_reason_zh": null,
-        "url": "https://x.com/Zai_org/status/2093354097122455713",
-        "source": "X：智谱 Z.ai (@Zai_org)",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "开源模型可直接下载部署，评估智能体编码能力有现成选择了。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-08-28T21:18:13.872255Z"
+        "url": "https://www.aibase.com/news/30699",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -1374,21 +944,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7551,
-      "importance": 0.7551,
-      "importance_score": 0.7551,
+      "score": 0.7394,
+      "importance": 0.7394,
+      "importance_score": 0.7394,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9303,
+        "recency": 0.8434,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-08-28T16:15:24.926903Z",
       "latest_at": "2026-08-28T16:15:24.926903Z",
@@ -1403,99 +972,81 @@
         "url": "https://www.aibase.com/news/30698",
         "source": "AIbase",
         "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "770B大模型开源，可直接下载评估或微调，项目选型多一个选项。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-08-28T21:18:13.872255Z"
       }
     },
     {
-      "story_id": "story_b502e4ac901c",
-      "title": "GitHub Classroom deprecated",
-      "url": "https://github.blog/changelog/2026-08-27-github-classroom-deprecated",
-      "primary_url": "https://github.blog/changelog/2026-08-27-github-classroom-deprecated",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
+      "story_id": "story_6040dd8a1f6e",
+      "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
+      "url": "https://github.com/calmrocks/ai-engineer-notebooks",
+      "primary_url": "https://github.com/calmrocks/ai-engineer-notebooks",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "69fbb90fa938e7b8869ae7fb0c096c925a475baa",
-          "title": "GitHub Classroom deprecated",
-          "title_zh": null,
-          "title_en": "GitHub Classroom deprecated",
-          "title_original": "GitHub Classroom deprecated",
-          "summary": null,
+          "id": "dfe73907480978f8302c5b95753d65394369ac39",
+          "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
+          "title_zh": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
+          "title_en": null,
+          "title_original": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
+          "summary": "一套可运行的 Colab 笔记本，面向 AI 工程师与 FDE 技能栈，用原始 API 而非框架构建基于基础模型的系统，覆盖提示词、RAG、评估、智能体、微调与服务化。全部在免费 Groq API 上运行，无需信用卡；LoRA 微调和自托管服务提供概念讲解及可选的 Colab-GPU 附录。包含三个端到端案例研究，且全程兼容 OpenAI API，模式可直接迁移。",
           "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-08-27-github-classroom-deprecated",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-27T22:42:40Z"
+          "url": "https://github.com/calmrocks/ai-engineer-notebooks",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-28T08:36:31.021000Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "GitHub Changelog"
+        "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
       "items": [
         {
-          "id": "69fbb90fa938e7b8869ae7fb0c096c925a475baa",
-          "title": "GitHub Classroom deprecated",
-          "title_zh": null,
-          "title_en": "GitHub Classroom deprecated",
-          "title_original": "GitHub Classroom deprecated",
-          "summary": null,
+          "id": "dfe73907480978f8302c5b95753d65394369ac39",
+          "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
+          "title_zh": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
+          "title_en": null,
+          "title_original": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
+          "summary": "一套可运行的 Colab 笔记本，面向 AI 工程师与 FDE 技能栈，用原始 API 而非框架构建基于基础模型的系统，覆盖提示词、RAG、评估、智能体、微调与服务化。全部在免费 Groq API 上运行，无需信用卡；LoRA 微调和自托管服务提供概念讲解及可选的 Colab-GPU 附录。包含三个端到端案例研究，且全程兼容 OpenAI API，模式可直接迁移。",
           "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-08-27-github-classroom-deprecated",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-27T22:42:40Z"
+          "url": "https://github.com/calmrocks/ai-engineer-notebooks",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-28T08:36:31.021000Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.794,
-      "importance": 0.794,
-      "importance_score": 0.794,
-      "importance_label": "官方更新",
+      "score": 0.7325,
+      "importance": 0.7325,
+      "importance_score": 0.7325,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7221,
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7552,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
-      "earliest_at": "2026-08-27T22:42:40Z",
-      "latest_at": "2026-08-27T22:42:40Z",
+      "earliest_at": "2026-08-28T08:36:31.021000Z",
+      "latest_at": "2026-08-28T08:36:31.021000Z",
       "primary_item": {
-        "id": "69fbb90fa938e7b8869ae7fb0c096c925a475baa",
-        "title": "GitHub Classroom deprecated",
-        "title_zh": null,
-        "title_en": "GitHub Classroom deprecated",
-        "title_original": "GitHub Classroom deprecated",
-        "summary": null,
+        "id": "dfe73907480978f8302c5b95753d65394369ac39",
+        "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
+        "title_zh": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
+        "title_en": null,
+        "title_original": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
+        "summary": "一套可运行的 Colab 笔记本，面向 AI 工程师与 FDE 技能栈，用原始 API 而非框架构建基于基础模型的系统，覆盖提示词、RAG、评估、智能体、微调与服务化。全部在免费 Groq API 上运行，无需信用卡；LoRA 微调和自托管服务提供概念讲解及可选的 Colab-GPU 附录。包含三个端到端案例研究，且全程兼容 OpenAI API，模式可直接迁移。",
         "recommend_reason_zh": null,
-        "url": "https://github.blog/changelog/2026-08-27-github-classroom-deprecated",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 75,
-      "persona_review": "教学项目需迁移，官方已给出替代方案和时间线。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-08-28T21:18:13.872255Z"
+        "url": "https://github.com/calmrocks/ai-engineer-notebooks",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -1543,21 +1094,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7551,
-      "importance": 0.7551,
-      "importance_score": 0.7551,
+      "score": 0.7394,
+      "importance": 0.7394,
+      "importance_score": 0.7394,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9303,
+        "recency": 0.8434,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-08-28T16:15:24.926903Z",
       "latest_at": "2026-08-28T16:15:24.926903Z",
@@ -1572,213 +1122,6 @@
         "url": "https://www.aibase.com/news/30697",
         "source": "AIbase",
         "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "770B参数大模型开源，可直接下载评估或微调，影响技术选型。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-08-28T21:18:13.872255Z"
-      }
-    },
-    {
-      "story_id": "story_68f20cfef425",
-      "title": "英伟达预计 2028 财年销售额达 6730 亿美元",
-      "url": "https://forgeeks.net/nvidia-673-billion-ai-growth-forecast",
-      "primary_url": "https://forgeeks.net/nvidia-673-billion-ai-growth-forecast",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "23eb2d013443990bb7c5f651072161c69e51188a",
-          "title": "英伟达预计 2028 财年销售额达 6730 亿美元",
-          "title_zh": "英伟达预计 2028 财年销售额达 6730 亿美元",
-          "title_en": null,
-          "title_original": "英伟达预计 2028 财年销售额达 6730 亿美元",
-          "summary": "英伟达预计 2028 财年营收增长 70%，年销售额约达 6730 亿美元，将超过苹果和 Alphabet，仅次于亚马逊。CFO Colette Kress 于 8 月 26 日给出该预测，远高于分析师平均预期的 44%。供应而非需求成为近期上限，黄仁勋称内存等部件短缺限制了更高预期，客户群正从超大规模厂商扩展至 ACIE。",
-          "recommend_reason_zh": null,
-          "url": "https://forgeeks.net/nvidia-673-billion-ai-growth-forecast",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-27T22:29:33.124000Z"
-        },
-        {
-          "id": "29c30f233ed1d06903d3ff509bfae938658702cd",
-          "title": "随着人工智能需求的扩大，英伟达预计销售额将达到6730亿美元",
-          "title_zh": "随着人工智能需求的扩大，英伟达预计销售额将达到6730亿美元",
-          "title_en": null,
-          "title_original": "随着人工智能需求的扩大，英伟达预计销售额将达到6730亿美元",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://forgeeks.net/nvidia-673-billion-ai-growth-forecast",
-          "source": "forgeeks.net",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-27T22:29:33.124000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "forgeeks.net"
-      ],
-      "items": [
-        {
-          "id": "23eb2d013443990bb7c5f651072161c69e51188a",
-          "title": "英伟达预计 2028 财年销售额达 6730 亿美元",
-          "title_zh": "英伟达预计 2028 财年销售额达 6730 亿美元",
-          "title_en": null,
-          "title_original": "英伟达预计 2028 财年销售额达 6730 亿美元",
-          "summary": "英伟达预计 2028 财年营收增长 70%，年销售额约达 6730 亿美元，将超过苹果和 Alphabet，仅次于亚马逊。CFO Colette Kress 于 8 月 26 日给出该预测，远高于分析师平均预期的 44%。供应而非需求成为近期上限，黄仁勋称内存等部件短缺限制了更高预期，客户群正从超大规模厂商扩展至 ACIE。",
-          "recommend_reason_zh": null,
-          "url": "https://forgeeks.net/nvidia-673-billion-ai-growth-forecast",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-27T22:29:33.124000Z"
-        },
-        {
-          "id": "29c30f233ed1d06903d3ff509bfae938658702cd",
-          "title": "随着人工智能需求的扩大，英伟达预计销售额将达到6730亿美元",
-          "title_zh": "随着人工智能需求的扩大，英伟达预计销售额将达到6730亿美元",
-          "title_en": null,
-          "title_original": "随着人工智能需求的扩大，英伟达预计销售额将达到6730亿美元",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://forgeeks.net/nvidia-673-billion-ai-growth-forecast",
-          "source": "forgeeks.net",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-27T22:29:33.124000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7512,
-      "importance": 0.7512,
-      "importance_score": 0.7512,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7198,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-27T22:29:33.124000Z",
-      "latest_at": "2026-08-27T22:29:33.124000Z",
-      "primary_item": {
-        "id": "23eb2d013443990bb7c5f651072161c69e51188a",
-        "title": "英伟达预计 2028 财年销售额达 6730 亿美元",
-        "title_zh": "英伟达预计 2028 财年销售额达 6730 亿美元",
-        "title_en": null,
-        "title_original": "英伟达预计 2028 财年销售额达 6730 亿美元",
-        "summary": "英伟达预计 2028 财年营收增长 70%，年销售额约达 6730 亿美元，将超过苹果和 Alphabet，仅次于亚马逊。CFO Colette Kress 于 8 月 26 日给出该预测，远高于分析师平均预期的 44%。供应而非需求成为近期上限，黄仁勋称内存等部件短缺限制了更高预期，客户群正从超大规模厂商扩展至 ACIE。",
-        "recommend_reason_zh": null,
-        "url": "https://forgeeks.net/nvidia-673-billion-ai-growth-forecast",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 25,
-      "persona_review": "远期销售预测，不影响你今天选卡或写代码。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-08-28T21:18:13.872255Z"
-      }
-    },
-    {
-      "story_id": "story_8a3dca718647",
-      "title": "Actions retention will cover checks, workflow runs, and statuses",
-      "url": "https://github.blog/changelog/2026-08-27-actions-retention-will-cover-checks-workflow-runs-and-statuses",
-      "primary_url": "https://github.blog/changelog/2026-08-27-actions-retention-will-cover-checks-workflow-runs-and-statuses",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "f0dab78b086bfc11f35517720f2538ee359c7ad3",
-          "title": "Actions retention will cover checks, workflow runs, and statuses",
-          "title_zh": null,
-          "title_en": "Actions retention will cover checks, workflow runs, and statuses",
-          "title_original": "Actions retention will cover checks, workflow runs, and statuses",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-08-27-actions-retention-will-cover-checks-workflow-runs-and-statuses",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-27T21:50:39Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "f0dab78b086bfc11f35517720f2538ee359c7ad3",
-          "title": "Actions retention will cover checks, workflow runs, and statuses",
-          "title_zh": null,
-          "title_en": "Actions retention will cover checks, workflow runs, and statuses",
-          "title_original": "Actions retention will cover checks, workflow runs, and statuses",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-08-27-actions-retention-will-cover-checks-workflow-runs-and-statuses",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-27T21:50:39Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7924,
-      "importance": 0.7924,
-      "importance_score": 0.7924,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7131,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-27T21:50:39Z",
-      "latest_at": "2026-08-27T21:50:39Z",
-      "primary_item": {
-        "id": "f0dab78b086bfc11f35517720f2538ee359c7ad3",
-        "title": "Actions retention will cover checks, workflow runs, and statuses",
-        "title_zh": null,
-        "title_en": "Actions retention will cover checks, workflow runs, and statuses",
-        "title_original": "Actions retention will cover checks, workflow runs, and statuses",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://github.blog/changelog/2026-08-27-actions-retention-will-cover-checks-workflow-runs-and-statuses",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 75,
-      "persona_review": "CI 数据保留规则变了，存量工作流得重新核对清理策略。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-08-28T21:18:13.872255Z"
       }
     },
     {
@@ -1826,21 +1169,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7527,
-      "importance": 0.7527,
-      "importance_score": 0.7527,
+      "score": 0.7372,
+      "importance": 0.7372,
+      "importance_score": 0.7372,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.917,
+        "recency": 0.8313,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-08-28T15:15:24.926903Z",
       "latest_at": "2026-08-28T15:15:24.926903Z",
@@ -1855,14 +1197,438 @@
         "url": "https://www.aibase.com/news/30696",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_38a64cbd0455",
+      "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+      "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label",
+      "primary_url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label",
+      "source": "TechCrunch AI",
+      "source_name": "Curated Media",
+      "sources": [
+        {
+          "id": "9eb48496aeab8f3981267c3208d8b5acddeaf377",
+          "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+          "title_zh": null,
+          "title_en": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+          "title_original": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-08-28T12:46:12Z"
+        },
+        {
+          "id": "111b71ca1c855c880729c348e72d04829c258570",
+          "title": "Anthropic gets its first court win over the Pentagon’s supply chain risk label",
+          "title_zh": null,
+          "title_en": "Anthropic gets its first court win over the Pentagon’s supply chain risk label",
+          "title_original": "Anthropic gets its first court win over the Pentagon’s supply chain risk label",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label",
+          "source": "TechCrunch",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-28T12:46:12Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "TechCrunch",
+        "TechCrunch AI"
+      ],
+      "items": [
+        {
+          "id": "9eb48496aeab8f3981267c3208d8b5acddeaf377",
+          "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+          "title_zh": null,
+          "title_en": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+          "title_original": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-08-28T12:46:12Z"
+        },
+        {
+          "id": "111b71ca1c855c880729c348e72d04829c258570",
+          "title": "Anthropic gets its first court win over the Pentagon’s supply chain risk label",
+          "title_zh": null,
+          "title_en": "Anthropic gets its first court win over the Pentagon’s supply chain risk label",
+          "title_original": "Anthropic gets its first court win over the Pentagon’s supply chain risk label",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label",
+          "source": "TechCrunch",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-28T12:46:12Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.6256,
+      "importance": 0.6256,
+      "importance_score": 0.6256,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5688,
+        "source_tier": 0.58,
+        "ai_relevance": 0.79,
+        "recency": 0.802,
+        "story_heat": 0.25
       },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "提醒你AI伪造内容的风险，但作为开发者，今天的工作流程不受影响。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-08-28T21:18:13.872255Z"
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-28T12:46:12Z",
+      "latest_at": "2026-08-28T12:46:12Z",
+      "primary_item": {
+        "id": "9eb48496aeab8f3981267c3208d8b5acddeaf377",
+        "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+        "title_zh": null,
+        "title_en": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+        "title_original": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label",
+        "source": "TechCrunch AI",
+        "source_name": "Curated Media"
+      }
+    },
+    {
+      "story_id": "story_0cd9f2e6b260",
+      "title": "腾讯混元发布开源旗舰模型Hy4preview，总参数770B、上下文1M",
+      "url": "https://www.aibase.com/news/30694",
+      "primary_url": "https://www.aibase.com/news/30694",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "9aeb5f574fbfdcca20d6dd9996b8057b56af0837",
+          "title": "腾讯混元发布开源旗舰模型Hy4preview，总参数770B、上下文1M",
+          "title_zh": "腾讯混元发布开源旗舰模型Hy4preview，总参数770B、上下文1M",
+          "title_en": null,
+          "title_original": "腾讯混元发布开源旗舰模型Hy4preview，总参数770B、上下文1M",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30694",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-28T15:15:24.926903Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "9aeb5f574fbfdcca20d6dd9996b8057b56af0837",
+          "title": "腾讯混元发布开源旗舰模型Hy4preview，总参数770B、上下文1M",
+          "title_zh": "腾讯混元发布开源旗舰模型Hy4preview，总参数770B、上下文1M",
+          "title_en": null,
+          "title_original": "腾讯混元发布开源旗舰模型Hy4preview，总参数770B、上下文1M",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30694",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-28T15:15:24.926903Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7372,
+      "importance": 0.7372,
+      "importance_score": 0.7372,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8313,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-28T15:15:24.926903Z",
+      "latest_at": "2026-08-28T15:15:24.926903Z",
+      "primary_item": {
+        "id": "9aeb5f574fbfdcca20d6dd9996b8057b56af0837",
+        "title": "腾讯混元发布开源旗舰模型Hy4preview，总参数770B、上下文1M",
+        "title_zh": "腾讯混元发布开源旗舰模型Hy4preview，总参数770B、上下文1M",
+        "title_en": null,
+        "title_original": "腾讯混元发布开源旗舰模型Hy4preview，总参数770B、上下文1M",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/30694",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_ee0a4f6de9e1",
+      "title": "DLSS 5 leaked and modders are putting Nvidia&#8217;s AI effects on everything",
+      "url": "https://www.theverge.com/games/986197/nvidia-dlss-5-leak-ai",
+      "primary_url": "https://www.theverge.com/games/986197/nvidia-dlss-5-leak-ai",
+      "source": "The Verge",
+      "source_name": "Curated Media",
+      "sources": [
+        {
+          "id": "eba2f78095e53d4fc1cebf703aabe5ff08ff68fc",
+          "title": "DLSS 5 leaked and modders are putting Nvidia&#8217;s AI effects on everything",
+          "title_zh": null,
+          "title_en": "DLSS 5 leaked and modders are putting Nvidia&#8217;s AI effects on everything",
+          "title_original": "DLSS 5 leaked and modders are putting Nvidia&#8217;s AI effects on everything",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.theverge.com/games/986197/nvidia-dlss-5-leak-ai",
+          "source": "The Verge",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-08-28T16:22:16Z"
+        },
+        {
+          "id": "5e932eb211351a5ce57df7c9803b9db5e2098556",
+          "title": "DLSS 5 leaked and modders are putting Nvidia’s AI effects on everything",
+          "title_zh": null,
+          "title_en": "DLSS 5 leaked and modders are putting Nvidia’s AI effects on everything",
+          "title_original": "DLSS 5 leaked and modders are putting Nvidia’s AI effects on everything",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.theverge.com/games/986197/nvidia-dlss-5-leak-ai",
+          "source": "The Verge",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-28T16:22:16Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "The Verge"
+      ],
+      "items": [
+        {
+          "id": "eba2f78095e53d4fc1cebf703aabe5ff08ff68fc",
+          "title": "DLSS 5 leaked and modders are putting Nvidia&#8217;s AI effects on everything",
+          "title_zh": null,
+          "title_en": "DLSS 5 leaked and modders are putting Nvidia&#8217;s AI effects on everything",
+          "title_original": "DLSS 5 leaked and modders are putting Nvidia&#8217;s AI effects on everything",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.theverge.com/games/986197/nvidia-dlss-5-leak-ai",
+          "source": "The Verge",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-08-28T16:22:16Z"
+        },
+        {
+          "id": "5e932eb211351a5ce57df7c9803b9db5e2098556",
+          "title": "DLSS 5 leaked and modders are putting Nvidia’s AI effects on everything",
+          "title_zh": null,
+          "title_en": "DLSS 5 leaked and modders are putting Nvidia’s AI effects on everything",
+          "title_original": "DLSS 5 leaked and modders are putting Nvidia’s AI effects on everything",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.theverge.com/games/986197/nvidia-dlss-5-leak-ai",
+          "source": "The Verge",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-28T16:22:16Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5875,
+      "importance": 0.5875,
+      "importance_score": 0.5875,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.4896,
+        "source_tier": 0.58,
+        "ai_relevance": 0.68,
+        "recency": 0.8448,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-28T16:22:16Z",
+      "latest_at": "2026-08-28T16:22:16Z",
+      "primary_item": {
+        "id": "eba2f78095e53d4fc1cebf703aabe5ff08ff68fc",
+        "title": "DLSS 5 leaked and modders are putting Nvidia&#8217;s AI effects on everything",
+        "title_zh": null,
+        "title_en": "DLSS 5 leaked and modders are putting Nvidia&#8217;s AI effects on everything",
+        "title_original": "DLSS 5 leaked and modders are putting Nvidia&#8217;s AI effects on everything",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.theverge.com/games/986197/nvidia-dlss-5-leak-ai",
+        "source": "The Verge",
+        "source_name": "Curated Media"
+      }
+    },
+    {
+      "story_id": "story_d9403a2bca3b",
+      "title": "蚂蚁集团携手中金公司推出首个金融增强大模型Ling-3.0-flash-Fin",
+      "url": "https://www.aibase.com/news/30695",
+      "primary_url": "https://www.aibase.com/news/30695",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "1c95ac8a5a79305de1407692cc795e8935541a2d",
+          "title": "蚂蚁集团携手中金公司推出首个金融增强大模型Ling-3.0-flash-Fin",
+          "title_zh": "蚂蚁集团携手中金公司推出首个金融增强大模型Ling-3.0-flash-Fin",
+          "title_en": null,
+          "title_original": "蚂蚁集团携手中金公司推出首个金融增强大模型Ling-3.0-flash-Fin",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30695",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-28T15:15:24.926903Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "1c95ac8a5a79305de1407692cc795e8935541a2d",
+          "title": "蚂蚁集团携手中金公司推出首个金融增强大模型Ling-3.0-flash-Fin",
+          "title_zh": "蚂蚁集团携手中金公司推出首个金融增强大模型Ling-3.0-flash-Fin",
+          "title_en": null,
+          "title_original": "蚂蚁集团携手中金公司推出首个金融增强大模型Ling-3.0-flash-Fin",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30695",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-28T15:15:24.926903Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7372,
+      "importance": 0.7372,
+      "importance_score": 0.7372,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8313,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-28T15:15:24.926903Z",
+      "latest_at": "2026-08-28T15:15:24.926903Z",
+      "primary_item": {
+        "id": "1c95ac8a5a79305de1407692cc795e8935541a2d",
+        "title": "蚂蚁集团携手中金公司推出首个金融增强大模型Ling-3.0-flash-Fin",
+        "title_zh": "蚂蚁集团携手中金公司推出首个金融增强大模型Ling-3.0-flash-Fin",
+        "title_en": null,
+        "title_original": "蚂蚁集团携手中金公司推出首个金融增强大模型Ling-3.0-flash-Fin",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/30695",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_19c0e3dd2480",
+      "title": "Anthropic 推出 MHS 硬件标准，首次重拳杀入物理 AI 赛道",
+      "url": "https://www.aibase.com/news/30692",
+      "primary_url": "https://www.aibase.com/news/30692",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "acab4b80376f50d732dcb575dc1f7c386537d3ae",
+          "title": "Anthropic 推出 MHS 硬件标准，首次重拳杀入物理 AI 赛道",
+          "title_zh": "Anthropic 推出 MHS 硬件标准，首次重拳杀入物理 AI 赛道",
+          "title_en": null,
+          "title_original": "Anthropic 推出 MHS 硬件标准，首次重拳杀入物理 AI 赛道",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30692",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-28T14:15:24.926903Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "acab4b80376f50d732dcb575dc1f7c386537d3ae",
+          "title": "Anthropic 推出 MHS 硬件标准，首次重拳杀入物理 AI 赛道",
+          "title_zh": "Anthropic 推出 MHS 硬件标准，首次重拳杀入物理 AI 赛道",
+          "title_en": null,
+          "title_original": "Anthropic 推出 MHS 硬件标准，首次重拳杀入物理 AI 赛道",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30692",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-28T14:15:24.926903Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7351,
+      "importance": 0.7351,
+      "importance_score": 0.7351,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8194,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-28T14:15:24.926903Z",
+      "latest_at": "2026-08-28T14:15:24.926903Z",
+      "primary_item": {
+        "id": "acab4b80376f50d732dcb575dc1f7c386537d3ae",
+        "title": "Anthropic 推出 MHS 硬件标准，首次重拳杀入物理 AI 赛道",
+        "title_zh": "Anthropic 推出 MHS 硬件标准，首次重拳杀入物理 AI 赛道",
+        "title_en": null,
+        "title_original": "Anthropic 推出 MHS 硬件标准，首次重拳杀入物理 AI 赛道",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/30692",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     }
   ]
