@@ -1,60 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_619c631f8dd4|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "官方话术不必当真，没开放就是没得用，等真发 API 再说。",
-      "title_hash": "4a076afe",
-      "scored_at": "2026-08-08T09:15:25.357201Z"
-    },
-    "story_e1fa47f5bc52|pragmatic|0a5c5b24": {
-      "score": 52,
-      "review": "文档透露苹果将集成阿里千问，但暂无接口和工具，观望即可。",
-      "title_hash": "fd4706a8",
-      "scored_at": "2026-08-08T10:07:55.226571Z"
-    },
-    "story_f60b263d7545|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "浏览器跑在V8隔离里，做爬虫和自动化可关注，等开放再试。",
-      "title_hash": "5ab8558b",
-      "scored_at": "2026-08-08T11:01:44.803044Z"
-    },
-    "story_8d401dc43acf|pragmatic|0a5c5b24": {
-      "score": 52,
-      "review": "模型没开放，短期用不上；但对气象AI赛道是正面信号。",
-      "title_hash": "fcba05a2",
-      "scored_at": "2026-08-08T11:52:12.042238Z"
-    },
-    "story_125df7bc2ccc|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "企业砍AI预算，开发者需重视成本，选型优先性价比方案。",
-      "title_hash": "9ab1ddda",
-      "scored_at": "2026-08-08T13:20:20.548145Z"
-    },
-    "story_1f7d8d6cb096|cynic|f4237a62": {
-      "score": 72,
-      "review": "终于补上企业版的功能缺口，但第三方应用的安全审计怕是又要让管理员头疼。",
-      "title_hash": "78656fd4",
-      "scored_at": "2026-08-08T13:20:22.489730Z"
-    },
-    "story_1f7d8d6cb096|paper-police|966065bf": {
-      "score": 78,
-      "review": "官方changelog有据可查，功能已实装，但缺第三方验证。",
-      "title_hash": "78656fd4",
-      "scored_at": "2026-08-08T13:20:27.756804Z"
-    },
-    "story_90b3cceba55e|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "流量占比预测对开发暂无用，做反爬和流量治理的可留意趋势。",
-      "title_hash": "b89f6af4",
-      "scored_at": "2026-08-08T15:00:39.923285Z"
-    },
-    "story_9e59e9a2b788|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "安全事件复盘，了解一下别重复踩坑，不急着改代码。",
-      "title_hash": "f18055b2",
-      "scored_at": "2026-08-08T15:00:42.305979Z"
-    },
     "story_adfff91a73dc|pragmatic|0a5c5b24": {
       "score": 55,
       "review": "事故复盘可参考，但无直接行动项，安全团队可存档。",
@@ -5000,10 +4946,10 @@
       "scored_at": "2026-08-28T21:19:37.963572Z"
     },
     "story_3eef6a7665a4|pragmatic|0a5c5b24": {
-      "score": 70,
-      "review": "使用Cursor的开发者需准备切换模型或工具，影响现有工作流。",
-      "title_hash": "eb98b016",
-      "scored_at": "2026-08-29T04:04:29.781824Z"
+      "score": 35,
+      "review": "公司收购不影响你今天写代码，等产品功能变了再说。",
+      "title_hash": "d7aa0c46",
+      "scored_at": "2026-08-29T15:04:37.597408Z"
     },
     "story_68a34bcc53e0|pragmatic|0a5c5b24": {
       "score": 85,
@@ -5112,6 +5058,60 @@
       "review": "开源技术博客，提供了用LLM内存做程序分析的实用思路和代码，可借鉴。",
       "title_hash": "182e629a",
       "scored_at": "2026-08-29T09:04:13.992292Z"
+    },
+    "story_ff4f232dd5ce|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "CLI工具版本更新，开发者今天就能升级使用新功能或修复。",
+      "title_hash": "0c8a7f4f",
+      "scored_at": "2026-08-29T15:04:21.747420Z"
+    },
+    "story_1df6423d9095|pragmatic|0a5c5b24": {
+      "score": 88,
+      "review": "开源本地工具，做音乐分离的开发者可以直接下载集成。",
+      "title_hash": "47761258",
+      "scored_at": "2026-08-29T15:04:31.389948Z"
+    },
+    "story_89873725e085|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "开源社区的表态，不影响你今天的开发环境或工具选择。",
+      "title_hash": "449fd910",
+      "scored_at": "2026-08-29T15:04:34.198691Z"
+    },
+    "story_fb6e40a3017d|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "应用案例分享，没开源代码或现成API，自己动手成本高。",
+      "title_hash": "07e73953",
+      "scored_at": "2026-08-29T15:04:41.248183Z"
+    },
+    "story_0602ce370ad9|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "开源工具可直接集成，为LLM和MCP调用提供现成的安全护栏。",
+      "title_hash": "2f14e3bb",
+      "scored_at": "2026-08-29T15:04:48.562372Z"
+    },
+    "story_1df6423d9095|cynic|f4237a62": {
+      "score": 75,
+      "review": "开源本地化是实打实的，但‘分离器’这名字听着像玩具，效果得自己跑跑看。",
+      "title_hash": "47761258",
+      "scored_at": "2026-08-29T15:04:52.025151Z"
+    },
+    "story_1df6423d9095|paper-police|966065bf": {
+      "score": 85,
+      "review": "开源代码仓库已公开，技术实现可直接查验，符合开源发布标准。",
+      "title_hash": "47761258",
+      "scored_at": "2026-08-29T15:04:55.238486Z"
+    },
+    "story_ff4f232dd5ce|cynic|f4237a62": {
+      "score": 75,
+      "review": "版本号都到0.151了，还在修bug和加小功能，离‘革命’还远着呢。",
+      "title_hash": "0c8a7f4f",
+      "scored_at": "2026-08-29T15:04:58.587882Z"
+    },
+    "story_ff4f232dd5ce|paper-police|966065bf": {
+      "score": 65,
+      "review": "官方更新日志提供了具体版本和变更说明，但缺乏独立的性能评测报告。",
+      "title_hash": "0c8a7f4f",
+      "scored_at": "2026-08-29T15:05:07.626351Z"
     }
   }
 }

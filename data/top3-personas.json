@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T09:04:13.992436Z",
+  "generated_at": "2026-08-29T15:05:07.626424Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,10 +17,50 @@
   ],
   "items": [
     {
+      "story_id": "story_1df6423d9095",
+      "title": "StemDeck，一款免费、开源且本地化的AI茎叶分离器",
+      "url": "https://github.com/stemdeckapp/stemdeck",
+      "rank": 1,
+      "reviews": {
+        "cynic": {
+          "score": 75,
+          "review": "开源本地化是实打实的，但‘分离器’这名字听着像玩具，效果得自己跑跑看。"
+        },
+        "paper-police": {
+          "score": 85,
+          "review": "开源代码仓库已公开，技术实现可直接查验，符合开源发布标准。"
+        },
+        "pragmatic": {
+          "score": 88,
+          "review": "开源本地工具，做音乐分离的开发者可以直接下载集成。"
+        }
+      }
+    },
+    {
+      "story_id": "story_ff4f232dd5ce",
+      "title": "Codex CLI 0.151.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "rank": 2,
+      "reviews": {
+        "cynic": {
+          "score": 75,
+          "review": "版本号都到0.151了，还在修bug和加小功能，离‘革命’还远着呢。"
+        },
+        "paper-police": {
+          "score": 65,
+          "review": "官方更新日志提供了具体版本和变更说明，但缺乏独立的性能评测报告。"
+        },
+        "pragmatic": {
+          "score": 85,
+          "review": "CLI工具版本更新，开发者今天就能升级使用新功能或修复。"
+        }
+      }
+    },
+    {
       "story_id": "story_68a34bcc53e0",
       "title": "GitHub Copilot in Visual Studio — August update",
       "url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
-      "rank": 1,
+      "rank": 3,
       "reviews": {
         "cynic": {
           "score": 65,
@@ -33,46 +73,6 @@
         "pragmatic": {
           "score": 85,
           "review": "VS的Copilot有功能更新，开发者可以立刻去体验新特性。"
-        }
-      }
-    },
-    {
-      "story_id": "story_1f83857579b6",
-      "title": "GitHub Copilot weekly releases — August 24",
-      "url": "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 65,
-          "review": "周更日志，无非是些已知功能的常规迭代，别指望有什么惊天动地的突破。"
-        },
-        "paper-police": {
-          "score": 15,
-          "review": "官方博客宣称更新，无论文无代码无独立评测，仅有说法。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "官方周更日志，开发者可立即查看新功能或修复，调整使用方式。"
-        }
-      }
-    },
-    {
-      "story_id": "story_e6d6d7fa2d48",
-      "title": "Upcoming changes to GitHub Copilot policies and billing",
-      "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
-      "rank": 3,
-      "reviews": {
-        "cynic": {
-          "score": 35,
-          "review": "政策与计费调整，本质是涨价通知，就别包装成服务升级了。"
-        },
-        "paper-police": {
-          "score": 10,
-          "review": "官方预告无实质证据，等正式发布再论。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "直接影响Copilot账单和订阅，需提前查看新条款调整预算。"
         }
       }
     }
