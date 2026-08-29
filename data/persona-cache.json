@@ -1,42 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_5e12dcba5aeb|pragmatic|0a5c5b24": {
-      "score": 70,
-      "review": "CLI 小版本迭代，看下 changelog 有没有你要的修复再决定升不升。",
-      "title_hash": "8a650727",
-      "scored_at": "2026-08-07T23:06:42.294192Z"
-    },
-    "story_06de520f313d|pragmatic|0a5c5b24": {
-      "score": 80,
-      "review": "审查力度可调，今天就能配到 CI 里省时间。",
-      "title_hash": "57ae74a8",
-      "scored_at": "2026-08-07T22:06:25.234833Z"
-    },
-    "story_2252b2f8dcb5|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "量化 Copilot 投入产出的官方面板，汇报预算或续费决策时直接引用数据。",
-      "title_hash": "c2897e35",
-      "scored_at": "2026-08-07T23:06:39.702843Z"
-    },
-    "story_b477bfd27d42|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "模型没上线，短期别等，等安全评估完再说。",
-      "title_hash": "dd6adf34",
-      "scored_at": "2026-08-07T23:57:48.497661Z"
-    },
-    "story_1f7d8d6cb096|pragmatic|0a5c5b24": {
-      "score": 78,
-      "review": "企业管理员今天就能装第三方App扩功能，团队协作有更多现成工具可选。",
-      "title_hash": "78656fd4",
-      "scored_at": "2026-08-07T23:57:50.518542Z"
-    },
-    "story_5a089134551b|pragmatic|0a5c5b24": {
-      "score": 65,
-      "review": "官方周更，翻一下 changelog 看有没有踩中你的功能点。",
-      "title_hash": "9dc9e154",
-      "scored_at": "2026-08-08T02:37:17.354007Z"
-    },
     "story_ac99d2dd14d0|pragmatic|0a5c5b24": {
       "score": 72,
       "review": "讲的是规模化用AI写代码怎么控成本，涉及计费策略的团队可参考。",
@@ -5052,6 +5016,96 @@
       "review": "官方发布，参数和上下文长度明确，但需确认开源代码和评测基准是否已完全公开。",
       "title_hash": "31da0220",
       "scored_at": "2026-08-28T21:19:37.963572Z"
+    },
+    "story_3eef6a7665a4|pragmatic|0a5c5b24": {
+      "score": 70,
+      "review": "使用Cursor的开发者需准备切换模型或工具，影响现有工作流。",
+      "title_hash": "eb98b016",
+      "scored_at": "2026-08-29T04:04:29.781824Z"
+    },
+    "story_68a34bcc53e0|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "VS的Copilot有功能更新，开发者可以立刻去体验新特性。",
+      "title_hash": "37fce0e2",
+      "scored_at": "2026-08-29T04:04:33.214817Z"
+    },
+    "story_1f83857579b6|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "官方周更日志，开发者可立即查看新功能或修复，调整使用方式。",
+      "title_hash": "9ef986f7",
+      "scored_at": "2026-08-29T04:04:37.015869Z"
+    },
+    "story_3b6c8cbe0a8d|pragmatic|0a5c5b24": {
+      "score": 65,
+      "review": "开源评估框架，做科研Agent的可以拿来测自己的项目。",
+      "title_hash": "495a1f8c",
+      "scored_at": "2026-08-29T04:04:40.691264Z"
+    },
+    "story_4dd661a39435|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "用Cursor写代码的开发者需尽快寻找替代模型或工具。",
+      "title_hash": "ec12fd2d",
+      "scored_at": "2026-08-29T04:04:44.271662Z"
+    },
+    "story_6040dd8a1f6e|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "开源即用，今天就能在Colab上免费跑RAG和智能体实验。",
+      "title_hash": "9c5fe686",
+      "scored_at": "2026-08-29T04:04:47.733078Z"
+    },
+    "story_38a64cbd0455|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "法律进展不影响开发，不改变API可用性或成本。",
+      "title_hash": "83abc6b3",
+      "scored_at": "2026-08-29T04:04:51.160149Z"
+    },
+    "story_0cd9f2e6b260|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "770B大模型已开源可下载，可直接部署或用于研究。",
+      "title_hash": "3b1189ba",
+      "scored_at": "2026-08-29T04:04:54.463226Z"
+    },
+    "story_ee0a4f6de9e1|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "泄露的DLSS技术被魔改，游戏开发者可以提前研究AI超分方案。",
+      "title_hash": "7532c3c0",
+      "scored_at": "2026-08-29T04:04:59.116019Z"
+    },
+    "story_d9403a2bca3b|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "特定场景的封闭模型，普通开发者用不上，等开放API再说。",
+      "title_hash": "58e484c6",
+      "scored_at": "2026-08-29T04:05:02.783486Z"
+    },
+    "story_19c0e3dd2480|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "新硬件标准离落地还远，开发者短期内用不上。",
+      "title_hash": "249d0144",
+      "scored_at": "2026-08-29T04:05:06.046556Z"
+    },
+    "story_68a34bcc53e0|cynic|f4237a62": {
+      "score": 65,
+      "review": "又是月度更新，修复已知问题，加点小功能，别指望什么革命。",
+      "title_hash": "37fce0e2",
+      "scored_at": "2026-08-29T04:05:09.451360Z"
+    },
+    "story_68a34bcc53e0|paper-police|966065bf": {
+      "score": 15,
+      "review": "官方博客宣称功能更新，无论文、无代码、无独立评测，仅为说法。",
+      "title_hash": "37fce0e2",
+      "scored_at": "2026-08-29T04:05:12.998101Z"
+    },
+    "story_1f83857579b6|cynic|f4237a62": {
+      "score": 65,
+      "review": "周更日志，无非是些已知功能的常规迭代，别指望有什么惊天动地的突破。",
+      "title_hash": "9ef986f7",
+      "scored_at": "2026-08-29T04:05:16.355308Z"
+    },
+    "story_1f83857579b6|paper-police|966065bf": {
+      "score": 15,
+      "review": "官方博客宣称更新，无论文无代码无独立评测，仅有说法。",
+      "title_hash": "9ef986f7",
+      "scored_at": "2026-08-29T04:05:19.761758Z"
     }
   }
 }

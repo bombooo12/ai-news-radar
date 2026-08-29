@@ -108,6 +108,14 @@
         "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 70,
+      "persona_review": "使用Cursor的开发者需准备切换模型或工具，影响现有工作流。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-29T04:04:25.922235Z"
       }
     },
     {
@@ -185,6 +193,14 @@
         "url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "VS的Copilot有功能更新，开发者可以立刻去体验新特性。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-29T04:04:25.922235Z"
       }
     },
     {
@@ -262,6 +278,14 @@
         "url": "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "官方周更日志，开发者可立即查看新功能或修复，调整使用方式。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-29T04:04:25.922235Z"
       }
     },
     {
@@ -338,6 +362,14 @@
         "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
         "source": "Anthropic：Research（发表成果 · 网页）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 55,
+      "persona_review": "研究性进展，展示了AI自我对齐的潜力，但离落地到你的项目还很远。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-29T04:04:25.922235Z"
       }
     },
     {
@@ -444,6 +476,14 @@
         "url": "https://www.terminal-bench-science.ai/announcement",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 65,
+      "persona_review": "开源评估框架，做科研Agent的可以拿来测自己的项目。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-29T04:04:25.922235Z"
       }
     },
     {
@@ -521,6 +561,14 @@
         "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "直接影响Copilot账单和订阅，需提前查看新条款调整预算。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-29T04:04:25.922235Z"
       }
     },
     {
@@ -597,6 +645,14 @@
         "url": "https://x.com/thsottiaux/status/2093515916076343774",
         "source": "X：Tibo (@thsottiaux)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 72,
+      "persona_review": "用Cursor写代码的开发者需尽快寻找替代模型或工具。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-29T04:04:25.922235Z"
       }
     },
     {
@@ -672,6 +728,14 @@
         "url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498484&idx=1&sn=0db140a12b8e18601ac933788045c831",
         "source": "公众号：腾讯混元",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "770B大模型已开源，可直接下载部署或研究，1M上下文能处理长文档。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-29T04:04:25.922235Z"
       }
     },
     {
@@ -747,6 +811,14 @@
         "url": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge",
         "source": "Ars Technica：AI（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "法律程序结果，不影响开发者今天使用 Claude API。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-29T04:04:25.922235Z"
       }
     },
     {
@@ -822,6 +894,14 @@
         "url": "https://dev.to/googleai/stop-wrestling-with-asr-the-complete-guide-to-gemini-35-transcribe-1m6i",
         "source": "Google AI：DEV 作者专属（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "Google官方发布的详细使用指南，开发者今天就能照着文档接入API。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-29T04:04:25.922235Z"
       }
     },
     {
@@ -897,6 +977,14 @@
         "url": "https://www.aibase.com/news/30699",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "腾讯办公套件接入新模型，两周内免费试用，可立刻申请体验。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-29T04:04:25.922235Z"
       }
     },
     {
@@ -972,6 +1060,14 @@
         "url": "https://www.aibase.com/news/30698",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "770B大模型开源，可直接下载评估或微调，项目选型多一个选项。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-29T04:04:25.922235Z"
       }
     },
     {
@@ -1047,6 +1143,14 @@
         "url": "https://github.com/calmrocks/ai-engineer-notebooks",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "开源即用，今天就能在Colab上免费跑RAG和智能体实验。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-29T04:04:25.922235Z"
       }
     },
     {
@@ -1122,6 +1226,14 @@
         "url": "https://www.aibase.com/news/30697",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "770B参数大模型开源，可直接下载评估或微调，影响技术选型。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-29T04:04:25.922235Z"
       }
     },
     {
@@ -1197,6 +1309,14 @@
         "url": "https://www.aibase.com/news/30696",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "提醒你AI伪造内容的风险，但作为开发者，今天的工作流程不受影响。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-29T04:04:25.922235Z"
       }
     },
     {
@@ -1301,6 +1421,14 @@
         "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label",
         "source": "TechCrunch AI",
         "source_name": "Curated Media"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 25,
+      "persona_review": "法律进展不影响开发，不改变API可用性或成本。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-29T04:04:25.922235Z"
       }
     },
     {
@@ -1376,6 +1504,14 @@
         "url": "https://www.aibase.com/news/30694",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "770B大模型已开源可下载，可直接部署或用于研究。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-29T04:04:25.922235Z"
       }
     },
     {
@@ -1479,6 +1615,14 @@
         "url": "https://www.theverge.com/games/986197/nvidia-dlss-5-leak-ai",
         "source": "The Verge",
         "source_name": "Curated Media"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "泄露的DLSS技术被魔改，游戏开发者可以提前研究AI超分方案。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-29T04:04:25.922235Z"
       }
     },
     {
@@ -1554,6 +1698,14 @@
         "url": "https://www.aibase.com/news/30695",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "特定场景的封闭模型，普通开发者用不上，等开放API再说。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-29T04:04:25.922235Z"
       }
     },
     {
@@ -1629,6 +1781,14 @@
         "url": "https://www.aibase.com/news/30692",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "新硬件标准离落地还远，开发者短期内用不上。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-29T04:04:25.922235Z"
       }
     }
   ]

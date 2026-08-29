@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T21:19:37.963626Z",
+  "generated_at": "2026-08-29T04:05:19.761824Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,22 +17,42 @@
   ],
   "items": [
     {
-      "story_id": "story_b09bfd8d0320",
-      "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
-      "url": "https://github.com/calmrocks/ai-engineer-notebooks",
+      "story_id": "story_68a34bcc53e0",
+      "title": "GitHub Copilot in Visual Studio — August update",
+      "url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 75,
-          "review": "开源工具集是干货，但‘免费’和‘无需框架’的便利性，掩盖了Colab本身的不稳定和性能天花板。"
+          "score": 65,
+          "review": "又是月度更新，修复已知问题，加点小功能，别指望什么革命。"
         },
         "paper-police": {
-          "score": 85,
-          "review": "GitHub仓库开源，可直接审查代码与实现，证据确凿。"
+          "score": 15,
+          "review": "官方博客宣称功能更新，无论文、无代码、无独立评测，仅为说法。"
         },
         "pragmatic": {
-          "score": 88,
-          "review": "开源即用，Colab上免费跑RAG和智能体的现成代码，适合快速实验。"
+          "score": 85,
+          "review": "VS的Copilot有功能更新，开发者可以立刻去体验新特性。"
+        }
+      }
+    },
+    {
+      "story_id": "story_1f83857579b6",
+      "title": "GitHub Copilot weekly releases — August 24",
+      "url": "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24",
+      "rank": 2,
+      "reviews": {
+        "cynic": {
+          "score": 65,
+          "review": "周更日志，无非是些已知功能的常规迭代，别指望有什么惊天动地的突破。"
+        },
+        "paper-police": {
+          "score": 15,
+          "review": "官方博客宣称更新，无论文无代码无独立评测，仅有说法。"
+        },
+        "pragmatic": {
+          "score": 85,
+          "review": "官方周更日志，开发者可立即查看新功能或修复，调整使用方式。"
         }
       }
     },
@@ -40,7 +60,7 @@
       "story_id": "story_e6d6d7fa2d48",
       "title": "Upcoming changes to GitHub Copilot policies and billing",
       "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
-      "rank": 2,
+      "rank": 3,
       "reviews": {
         "cynic": {
           "score": 35,
@@ -53,26 +73,6 @@
         "pragmatic": {
           "score": 85,
           "review": "直接影响Copilot账单和订阅，需提前查看新条款调整预算。"
-        }
-      }
-    },
-    {
-      "story_id": "story_b6eb5e452efd",
-      "title": "腾讯混元发布 Hy4 preview：770B 总参数、1M 上下文，开源上线",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498484&idx=1&sn=0db140a12b8e18601ac933788045c831",
-      "rank": 3,
-      "reviews": {
-        "cynic": {
-          "score": 75,
-          "review": "参数和上下文长度是硬指标，但开源范围和实际性能表现才是真考验。"
-        },
-        "paper-police": {
-          "score": 85,
-          "review": "官方发布，参数和上下文长度明确，但需确认开源代码和评测基准是否已完全公开。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "770B大模型已开源，可直接下载部署或研究，1M上下文能处理长文档。"
         }
       }
     }

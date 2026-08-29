@@ -3,20 +3,20 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "Anthropic让Claude自主训练模型：AI自我进化时代来了？",
+      "title": "英伟达129亿美元收购Hugging Face！AI圈最大并购案背后，普通人如何抓住红利？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、AI工具爱好者、关注AI前沿的科技迷",
-      "reason": "Anthropic最新研究突破，反常识且具有未来感，容易引发讨论和传播。",
+      "target_audience": "AI初学者、想用AI变现的个人、关注AI行业动态的从业者",
+      "reason": "巨额并购事件自带流量，且与AI工具生态相关，可结合创作者擅长的实操和避坑角度，吸引AI初学者关注。",
       "source_items": [
+        "曝英伟达129 亿美元收购Hugging Face！黄仁勋：我只后悔没有更早、更多投资OpenAI、Anthropic",
         "Anthropic 让 Claude 自主训练模型以缓解对齐失败",
-        "Anthropic重磅发布模型硬件标准MHS，AI Agent正式迈向实体操控",
-        "年砸百亿美元买大模型！Meta被曝重金押注Anthropic"
+        "Anthropic重磅发布模型硬件标准MHS，AI Agent正式迈向实体操控"
       ],
       "source_urls": [
+        "https://www.infoq.cn/article/Z9bIWfsMCIA9yiLUSDvJ",
         "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
-        "https://www.aibase.com/news/30693",
-        "https://www.aibase.com/news/30680"
+        "https://www.aibase.com/news/30693"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -25,26 +25,28 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "AI自我训练？手把手教你用Claude实现自动化模型微调",
-          "summary": "面向AI初学者，介绍Claude自主训练的基本概念和简单实操方法。",
+          "hook": "英伟达收购Hugging Face后，这5个AI模型下载技巧你一定要会！",
+          "summary": "教初学者如何在Hugging Face上高效下载和使用AI模型，利用平台新功能提升效率。",
           "key_points": [
-            "解释Anthropic的自动化研究员机制",
-            "演示如何设置简单的训练任务",
-            "分享初学者可以尝试的微调案例"
+            "注册Hugging Face账号并了解界面",
+            "搜索和筛选优质模型（按下载量、点赞数）",
+            "使用Transformers库快速调用模型",
+            "利用Inference API免费测试模型",
+            "将模型部署到自己的项目中"
           ],
-          "difficulty": "中级",
+          "difficulty": "入门",
           "estimated_time": "45分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI自主训练是福是祸？普通人需要警惕的3大风险",
-          "summary": "分析AI自我进化可能带来的对齐失败、失控风险，以及如何防范。",
+          "hook": "英伟达收购Hugging Face后，这3个坑千万别踩！",
+          "summary": "提醒初学者在Hugging Face上下载模型时常见的版权、安全、性能问题及规避方法。",
           "pitfalls": [
-            "对齐失败可能导致AI行为偏离人类意图",
-            "自主训练可能放大数据偏见",
-            "监管空白带来的安全隐忧"
+            "模型版权风险：部分模型有特殊许可，商用需谨慎",
+            "模型安全风险：下载到恶意模型可能导致数据泄露",
+            "性能陷阱：盲目追求大参数模型导致资源浪费"
           ],
           "difficulty": "入门",
           "estimated_time": "20分钟"
@@ -53,12 +55,80 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI学会自己教自己，人类还有存在感吗？Anthropic研究背后的深意",
-          "summary": "深入探讨AI自主训练对AI发展、就业、伦理的影响。",
+          "hook": "英伟达收购Hugging Face：AI界的“苹果+App Store”要来了？",
+          "summary": "分析收购背后的战略意图，以及对AI开发者生态、开源社区和普通用户的影响。",
           "insights": [
-            "AI自我进化是AGI的必经之路",
-            "人类角色从训练者转变为监督者",
-            "对AI安全治理提出新挑战"
+            "英伟达从硬件向软件生态延伸，构建AI领域的“操作系统”",
+            "Hugging Face成为模型分发的“应用商店”，开发者依赖度加深",
+            "开源与闭源的博弈加剧，中小企业面临新选择"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时30分钟"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "手把手教你打造第一个有记忆、有角色的AI Agent，小白也能轻松上手！",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、对Agent感兴趣的开发者、想提升效率的职场人",
+      "reason": "Agent是当前热点，文章提供具体实操方法，与创作者擅长教程和图文形式高度契合，且用户反馈对Agent相关选题兴趣高。",
+      "source_items": [
+        "手把手书写你的第一个 AI Agent：当 Skill 有了记忆、角色和主动性",
+        "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
+        "Always-on and self-starting AI agents might be OpenAI's next big play"
+      ],
+      "source_urls": [
+        "https://juejin.cn/post/7678535429227200563",
+        "https://github.com/calmrocks/ai-engineer-notebooks",
+        "https://the-decoder.com/always-on-and-self-starting-ai-agents-might-be-openais-next-big-play"
+      ],
+      "urgency": "medium",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "零基础也能学会！用DeepSeek打造你的第一个AI Agent（附完整代码）",
+          "summary": "教初学者使用DeepSeek和Python一步步构建一个简单的AI Agent，实现记忆和角色设定。",
+          "key_points": [
+            "了解Agent的基本概念和架构",
+            "配置DeepSeek API并编写基础调用代码",
+            "添加记忆功能：使用向量数据库存储对话历史",
+            "设定角色和主动性：通过Prompt工程实现",
+            "测试和部署Agent到本地或云端"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "开发AI Agent最常见的5个坑，你中了几个？",
+          "summary": "总结初学者在构建Agent时容易犯的错误，如上下文管理不当、API调用超时等，并提供解决方案。",
+          "pitfalls": [
+            "上下文窗口限制导致信息丢失",
+            "API调用频率过高触发限流",
+            "Prompt设计不合理导致输出质量差",
+            "忽略错误处理导致程序崩溃",
+            "安全漏洞：未对用户输入进行过滤"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "25分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "AI Agent爆发前夜：从OpenAI到Anthropic，为什么巨头都在押注？",
+          "summary": "分析AI Agent的发展趋势，结合OpenAI和Anthropic的最新动态，探讨Agent对普通用户和开发者的影响。",
+          "insights": [
+            "Agent从概念走向实用，成为AI应用的新范式",
+            "OpenAI的Always-on Agent和Anthropic的自主训练模型预示Agent将更智能",
+            "Agent开发门槛降低，个人开发者迎来新机遇"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -66,18 +136,86 @@
       ]
     },
     {
-      "rank": 2,
-      "title": "开源AI护栏工具Conduct：给LLM和MCP调用装上安全阀",
+      "rank": 3,
+      "title": "AI版权第一案：开源游戏被下架，你的AI创作可能正在侵权？",
+      "track": "trademark_ip",
+      "track_name": "商标/IP/创业",
+      "target_audience": "AI创作者、开源社区用户、需要商标注册服务的小微企业主",
+      "reason": "AI版权纠纷是热点，与创作者商标代理业务强相关，可通过剧情化内容引流，且用户反馈对版权类选题有需求。",
+      "source_items": [
+        "Luanti removed from Google Play due to baseless AI copyright notice",
+        "《Luanti》因一则毫无根据的AI版权通知被移除出Google Play",
+        "Buc-ee’s Thinks It’s Defending a Trademark. Beavercreek, Ohio Thinks It’s Defending Its Identity"
+      ],
+      "source_urls": [
+        "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai",
+        "https://news.ycombinator.com/item?id=49475079",
+        "https://www.inc.com/scott-hutcheson/buc-ees-thinks-its-defending-a-trademark-beavercreek-ohio-thinks-its-defending-its-identity/91397889"
+      ],
+      "urgency": "high",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "AI创作者必看：如何为你的AI作品申请版权保护？",
+          "summary": "教AI创作者如何通过版权登记、水印、时间戳等方式保护自己的AI生成内容。",
+          "key_points": [
+            "了解AI作品的版权归属规则",
+            "在中国版权保护中心进行作品登记",
+            "使用区块链时间戳存证",
+            "在发布平台设置版权声明",
+            "遇到侵权时如何取证和投诉"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI生成内容惹祸上身？这3个版权雷区千万别踩！",
+          "summary": "提醒AI创作者注意使用AI工具时的版权风险，如未经授权使用他人作品训练模型、生成内容与现有作品相似等。",
+          "pitfalls": [
+            "使用受版权保护的素材训练模型可能侵权",
+            "AI生成内容与现有作品高度相似可能构成侵权",
+            "开源项目的许可证条款可能限制AI使用"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "视频",
+          "hook": "AI版权大战：从Luanti下架看AI时代的版权困境",
+          "summary": "以Luanti事件为切入点，分析AI时代版权保护面临的挑战，以及各国法律和平台的应对策略。",
+          "insights": [
+            "AI版权通知的滥用可能导致误伤，需要更完善的审核机制",
+            "开源社区与AI版权保护的矛盾日益凸显",
+            "未来可能出现专门的AI版权法规，创作者需提前适应"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时30分钟"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "腾讯混元770B开源：普通人和小企业如何用上大厂级AI模型？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI开发者、AI初学者、关注AI安全的从业者",
-      "reason": "开源工具，实操性强，符合用户偏好，且涉及AI安全热点。",
+      "target_audience": "AI初学者、中小企业主、想低成本使用AI的个人开发者",
+      "reason": "腾讯混元开源是热点，与创作者受众高度匹配，可提供实操教程帮助初学者快速上手，同时结合商标业务引流。",
       "source_items": [
-        "Show HN: Conduct, open-source guardrails for LLM and MCP tool calls",
+        "腾讯混元大模型王炸升级:770B旗舰新版Hy4preview震撼开源，直奔开源第一梯队",
+        "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
         "Show HN: Conduct, open-source guardrails for LLM and MCP tool calls"
       ],
       "source_urls": [
-        "https://news.ycombinator.com/item?id=49483173",
+        "https://www.aibase.com/news/30697",
+        "https://github.com/calmrocks/ai-engineer-notebooks",
         "https://github.com/sseshachala/conductai"
       ],
       "urgency": "medium",
@@ -87,166 +225,44 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "5分钟给你的AI应用装上护栏：Conduct开源工具快速上手",
-          "summary": "教初学者如何安装和使用Conduct，为LLM和MCP调用添加安全校验。",
+          "hook": "腾讯混元770B开源了！手把手教你本地部署，小白也能跑起来",
+          "summary": "教初学者如何在本地或云服务器上部署腾讯混元模型，并提供简单的API调用示例。",
           "key_points": [
-            "安装Conduct并配置基础规则",
-            "为MCP工具调用添加输入验证",
-            "测试护栏效果并调整策略"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI应用裸奔？不装护栏的3个致命后果",
-          "summary": "指出AI应用不设置护栏可能导致的漏洞、数据泄露和滥用风险。",
-          "pitfalls": [
-            "LLM输出恶意内容导致法律风险",
-            "MCP调用未授权操作造成损失",
-            "缺乏日志审计难以追踪问题"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "AI安全护栏成刚需，开源社区如何重塑AI信任体系？",
-          "summary": "分析AI护栏工具对行业发展的意义，以及开源生态的推动作用。",
-          "insights": [
-            "AI护栏是商业化落地的必要条件",
-            "开源工具降低安全门槛",
-            "护栏标准化趋势初现"
+            "了解混元模型的硬件要求",
+            "使用Ollama或vLLM快速部署",
+            "编写Python代码调用模型API",
+            "使用GPU云服务器降低成本",
+            "测试模型效果并优化参数"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "title": "AI版权碰瓷：开源游戏因一则AI版权通知被下架，小企业如何自保？",
-      "track": "ip_rights",
-      "track_name": "商标/IP/创业",
-      "target_audience": "小微创业者、开源项目维护者、内容创作者",
-      "reason": "AI版权纠纷是热点，且与商标代理业务高度相关，可引流。",
-      "source_items": [
-        "Luanti removed from Google Play due to baseless AI copyright notice",
-        "《Luanti》因一则毫无根据的AI版权通知被移除出Google Play",
-        "Luanti removed from Google Play due to baseless AI copyright notice"
-      ],
-      "source_urls": [
-        "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai",
-        "https://news.ycombinator.com/item?id=49475079",
-        "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai"
-      ],
-      "urgency": "high",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "AI时代版权自保指南：如何应对恶意版权投诉？",
-          "summary": "教创业者和开发者如何应对AI版权投诉，包括申诉流程和预防措施。",
-          "key_points": [
-            "了解DMCA投诉流程和反通知机制",
-            "建立版权证据链（时间戳、原创记录）",
-            "使用商标和版权注册保护自身权益"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI生成内容被投诉侵权？这3个坑千万别踩",
-          "summary": "指出AI内容版权常见陷阱，帮助创作者避免侵权和被侵权风险。",
+          "hook": "开源大模型部署的5个常见坑，腾讯混元也逃不掉！",
+          "summary": "总结部署开源模型时常见的内存不足、依赖冲突、性能瓶颈等问题及解决方案。",
           "pitfalls": [
-            "误用AI生成素材导致侵权",
-            "忽视版权登记导致维权困难",
-            "应对投诉不当导致下架损失"
+            "显存不足导致OOM错误",
+            "依赖库版本冲突",
+            "推理速度慢影响体验",
+            "模型量化导致精度下降",
+            "安全漏洞：未设置访问控制"
           ],
           "difficulty": "入门",
-          "estimated_time": "20分钟"
+          "estimated_time": "25分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI版权乱象：技术漏洞还是法律滞后？从Luanti事件看AI时代的版权困境",
-          "summary": "深入分析AI版权通知滥用现象背后的法律和技术问题。",
+          "hook": "腾讯混元开源背后：国产大模型如何挑战OpenAI？",
+          "summary": "分析腾讯混元开源的战略意义，以及国产大模型在技术、生态和商业化方面的竞争格局。",
           "insights": [
-            "AI生成内容版权归属模糊",
-            "平台审核机制易被滥用",
-            "需要新的法律框架适应AI时代"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "title": "OpenAI押注'常驻AI代理'：你的下一个同事可能不是人",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、职场人士、企业管理者",
-      "reason": "AI代理趋势，与用户关注的Agent方向高度契合，且具有话题性。",
-      "source_items": [
-        "Always-on and self-starting AI agents might be OpenAI's next big play",
-        "Anthropic重磅发布模型硬件标准MHS，AI Agent正式迈向实体操控"
-      ],
-      "source_urls": [
-        "https://the-decoder.com/always-on-and-self-starting-ai-agents-might-be-openais-next-big-play",
-        "https://www.aibase.com/news/30693"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "AI代理入门：用现有工具搭建你的第一个常驻AI助手",
-          "summary": "教初学者利用现有AI工具搭建简单的自动化代理，提升工作效率。",
-          "key_points": [
-            "选择合适的AI代理框架（如AutoGPT）",
-            "配置代理任务和触发条件",
-            "集成到日常工具（如Slack、邮件）"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "45分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI代理失控？部署常驻AI前必须知道的5个坑",
-          "summary": "分析常驻AI代理可能带来的安全、隐私和失控风险。",
-          "pitfalls": [
-            "权限过大导致误操作",
-            "数据泄露风险",
-            "依赖过度导致技能退化"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "AI代理将如何改变工作方式？OpenAI的野心与隐忧",
-          "summary": "探讨常驻AI代理对未来工作模式、就业结构的影响。",
-          "insights": [
-            "AI代理将承担重复性工作",
-            "人机协作成为新常态",
-            "需要重新定义职业角色"
+            "腾讯通过开源吸引开发者，构建生态",
+            "国产大模型在中文场景有优势，但生态仍需完善",
+            "开源与闭源并存，企业需根据需求选择"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -255,48 +271,50 @@
     },
     {
       "rank": 5,
-      "title": "AI电影制作全流程：从Runway到电影节，独立创作者如何用AI拍大片？",
+      "title": "AI视频创作新风口：从Runway到AI电影节，普通人如何靠AI视频赚钱？",
       "track": "ai_video",
       "track_name": "AI视频/剪辑包装",
-      "target_audience": "视频创作者、AI爱好者、电影爱好者",
-      "reason": "AI电影节和Runway活动是热点，与用户AI视频剪辑能力匹配，可展示技能。",
+      "target_audience": "AI视频创作者、想通过AI视频变现的个人、视频剪辑爱好者",
+      "reason": "AI视频是创作者擅长领域，结合Runway更新和AI电影节热点，可提供实操教程和变现思路，且用户反馈对AI视频赛道兴趣高。",
       "source_items": [
         "Runway to Reality: AI Fashion Hackathon",
         "Seattle AI Film Festival 2026",
-        "Dasein EMERGENCE - Ai Film Festival"
+        "Runway SDK Releases v4.17.0"
       ],
       "source_urls": [
         "https://www.meetup.com/google-developer-groups-brooklyn/events/316246126",
         "https://lu.ma/SAIFF",
-        "https://www.meetup.com/dasein-creative-circle/events/315984292"
+        "https://github.com/runwayml/sdk-node/releases/tag/v4.17.0"
       ],
       "urgency": "medium",
-      "viral_potential": "medium",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "视频",
-          "hook": "零基础用AI拍电影：从脚本到成片的完整工作流",
-          "summary": "教初学者使用Runway、剪映等工具制作AI短片，并投稿电影节。",
+          "hook": "用Runway一键生成电影级视频，保姆级教程来了！",
+          "summary": "教初学者使用Runway的文本生成视频功能，从注册到导出完整流程。",
           "key_points": [
-            "用AI生成剧本和分镜",
-            "使用Runway生成视频片段",
-            "剪映Pro剪辑包装成片"
+            "注册Runway账号并选择套餐",
+            "使用Text to Video生成视频片段",
+            "使用Motion Brush控制物体运动",
+            "在剪映中剪辑和添加字幕",
+            "导出高清视频并发布到平台"
           ],
-          "difficulty": "中级",
-          "estimated_time": "2小时"
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI电影创作避坑指南：版权、质量、审美三大陷阱",
-          "summary": "指出AI电影制作中常见的版权、质量不稳定和审美同质化问题。",
+          "hook": "AI视频生成常见的3个坑，让你的视频不再“翻车”！",
+          "summary": "指出AI视频生成中常见的人物变形、逻辑错误、版权风险等问题及解决方法。",
           "pitfalls": [
-            "AI生成素材版权不清晰",
-            "视频质量参差不齐",
-            "同质化严重缺乏创意"
+            "生成视频中人物面部变形",
+            "视频逻辑不连贯，场景切换生硬",
+            "使用AI生成视频可能涉及版权争议"
           ],
           "difficulty": "入门",
           "estimated_time": "20分钟"
@@ -305,12 +323,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI电影节兴起：技术革命还是泡沫？独立电影人的新机遇",
-          "summary": "分析AI电影节对电影产业的影响，以及独立创作者的机会。",
+          "hook": "AI电影节兴起：AI视频会取代传统电影吗？",
+          "summary": "探讨AI视频技术的发展趋势，以及AI电影节对创作者和影视行业的影响。",
           "insights": [
-            "AI降低电影制作门槛",
-            "电影节成为AI作品展示平台",
-            "传统电影行业面临变革"
+            "AI视频生成质量快速提升，接近专业水平",
+            "AI电影节为独立创作者提供展示平台",
+            "传统影视行业面临变革，AI成为辅助工具"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -319,18 +337,20 @@
     },
     {
       "rank": 6,
-      "title": "YouTube创作者新变现渠道：与Amazon合作卖货，你也能用？",
-      "track": "creator_economy",
-      "track_name": "自媒体/创作者经济",
-      "target_audience": "自媒体创作者、YouTube博主、想变现的个人",
-      "reason": "YouTube与Amazon合作是创作者变现新机会，与用户自媒体运营策略相关。",
+      "title": "商标侵权赔千万？三星被Swatch告了，你的品牌名安全吗？",
+      "track": "trademark_ip",
+      "track_name": "商标/IP/创业",
+      "target_audience": "小微企业主、创业者、需要商标注册服务的个人",
+      "reason": "商标侵权案例有警示作用，与创作者商标代理业务直接相关，可通过剧情化内容引流，且用户反馈对商标类选题有需求。",
       "source_items": [
-        "Your favorite YouTube creators can now sell you more stuff thanks to a new partnership with Amazon",
-        "Influencer and Profound Bring Creator Campaigns Into the Race for AI Search Visibility"
+        "英国高院判三星侵犯Swatch商标权赔1160万美元，三星称或上诉",
+        "Buc-ee’s Thinks It’s Defending a Trademark. Beavercreek, Ohio Thinks It’s Defending Its Identity",
+        "There's a new Twitter in town, even though a judge has yet to rule on a trademark injunction"
       ],
       "source_urls": [
-        "https://www.androidpolice.com/youtube-new-partnership-with-amazon",
-        "https://influencermarketinghub.com/influencer-profound-bring-creator-campaigns-ai-search-visibility"
+        "https://36kr.com/newsflashes/3959132041985157?f=rss",
+        "https://www.inc.com/scott-hutcheson/buc-ees-thinks-its-defending-a-trademark-beavercreek-ohio-thinks-its-defending-its-identity/91397889",
+        "https://www.engadget.com/2246550/theres-a-new-twitter-in-town-even-though-a-judge-has-yet-to-rule-on-a-trademark-injunction"
       ],
       "urgency": "medium",
       "viral_potential": "medium",
@@ -339,12 +359,82 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "YouTube+Amazon卖货新玩法：手把手教你开启商品橱窗",
-          "summary": "教创作者如何利用YouTube与Amazon的合作，在视频中直接带货。",
+          "hook": "商标注册全流程指南：从查询到拿证，只需5步！",
+          "summary": "教小微企业主如何自己完成商标注册，包括查询、申请、审查等步骤。",
           "key_points": [
-            "了解合作机制和申请条件",
-            "在视频中嵌入商品链接",
-            "优化商品推荐提高转化率"
+            "商标查询：在中国商标网进行近似检索",
+            "准备申请材料：商标图样、商品/服务类别",
+            "提交申请：线上或线下提交",
+            "等待审查：形式审查和实质审查",
+            "领取注册证：公告期满后领取"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "40分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "商标注册的5个致命误区，小心让你的品牌“裸奔”！",
+          "summary": "总结商标注册中常见的误区，如不进行近似查询、选择类别不当等，并提供规避建议。",
+          "pitfalls": [
+            "未进行近似查询，导致申请被驳回",
+            "商品/服务类别选择不全，保护范围不足",
+            "使用通用名称或描述性词汇，缺乏显著性",
+            "委托不靠谱代理机构，造成损失",
+            "忽视商标续展，导致权利失效"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "25分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "视频",
+          "hook": "从三星赔千万看商标保护：品牌命名背后的法律博弈",
+          "summary": "分析商标侵权的典型案例，探讨品牌命名策略和商标保护的重要性。",
+          "insights": [
+            "商标侵权赔偿金额巨大，企业需重视",
+            "品牌命名需兼顾市场和法律风险",
+            "商标保护是长期战略，需持续监控"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时30分钟"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "AI搜索时代来临：创作者如何让内容被AI推荐？",
+      "track": "creator_economy",
+      "track_name": "自媒体/创作者经济",
+      "target_audience": "自媒体创作者、内容营销人员、想提升内容曝光度的个人",
+      "reason": "AI搜索是新兴趋势，与创作者的自媒体运营策略相关，可提供实操方法帮助创作者适应变化，且用户反馈对运营策略有兴趣。",
+      "source_items": [
+        "Influencer and Profound Bring Creator Campaigns Into the Race for AI Search Visibility",
+        "Meta intensifies its pressure campaign on TikTok and YouTube",
+        "How to Go Live on TikTok Before You Hit 1,000 Followers"
+      ],
+      "source_urls": [
+        "https://influencermarketinghub.com/influencer-profound-bring-creator-campaigns-ai-search-visibility",
+        "https://www.techmeme.com/260828/p21",
+        "https://passionfru.it/how-to-go-live-on-tiktok-before-you-hit-1-000-followers-165556"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "AI搜索优化指南：让你的内容被ChatGPT和Perplexity推荐！",
+          "summary": "教创作者如何优化内容以提升在AI搜索中的可见度，包括结构化数据、关键词策略等。",
+          "key_points": [
+            "了解AI搜索的工作原理",
+            "使用清晰的结构化标题和段落",
+            "在内容中自然融入长尾关键词",
+            "添加FAQ部分，满足AI抓取",
+            "建立高质量外链，提升权威性"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -353,26 +443,26 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "带货翻车预警：YouTube卖货的3个坑，别让粉丝变反感",
-          "summary": "指出过度商业化、选品不当、信任流失等风险。",
+          "hook": "AI搜索优化别踩这3个坑，否则内容可能被AI忽略！",
+          "summary": "指出创作者在AI搜索优化中常见的错误，如过度优化、忽视用户体验等。",
           "pitfalls": [
-            "广告过多导致粉丝流失",
-            "推荐劣质商品损害信誉",
-            "佣金比例不透明"
+            "关键词堆砌导致内容质量下降",
+            "忽视内容深度，无法满足AI摘要需求",
+            "未更新旧内容，导致信息过时"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "创作者经济新拐点：平台与电商深度绑定，中小创作者的机会在哪里？",
-          "summary": "分析YouTube与Amazon合作对创作者经济的深远影响。",
+          "hook": "AI搜索将如何改变内容创作？创作者必须知道的3大趋势",
+          "summary": "分析AI搜索对内容分发和变现模式的影响，以及创作者如何调整策略。",
           "insights": [
-            "平台电商化趋势加速",
-            "中小创作者获得新变现途径",
-            "内容与商业的平衡成为关键"
+            "AI搜索将减少传统搜索流量，内容质量成为关键",
+            "创作者需要与AI建立信任，提供准确、权威的信息",
+            "AI搜索可能催生新的内容变现模式，如AI引用付费"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -380,31 +470,33 @@
       ]
     },
     {
-      "rank": 7,
-      "title": "AI投资回报率怎么算？别只盯着冰山一角，小企业AI预算避坑指南",
+      "rank": 8,
+      "title": "AI ROI计算：你的AI投入真的赚钱了吗？小企业必看！",
       "track": "side_hustle",
       "track_name": "个人成长/副业变现",
-      "target_audience": "小微企业主、创业者、AI工具采购决策者",
-      "reason": "AI ROI是热门话题，与用户商标代理客户（小微企业主）需求契合，可引流。",
+      "target_audience": "小微企业主、创业者、想评估AI投入回报的个人",
+      "reason": "AI ROI是中小企业关注的热点，与创作者商标代理业务的目标客户重合，可提供实用方法帮助决策，同时引流。",
       "source_items": [
-        "Will AI Pay Dividends for Your Firm? To Find Out, Budget for the Whole Iceberg, Not Just the Tip"
+        "Will AI Pay Dividends for Your Firm? To Find Out, Budget for the Whole Iceberg, Not Just the Tip",
+        "优必选：上半年营收12.7亿元，全尺寸具身智能人形机器人收入同比增长1445%"
       ],
       "source_urls": [
-        "https://www.kiplinger.com/business/small-business/how-to-measure-true-ai-roi-for-your-firm"
+        "https://www.kiplinger.com/business/small-business/how-to-measure-true-ai-roi-for-your-firm",
+        "https://36kr.com/newsflashes/3959176160099714?f=rss"
       ],
-      "urgency": "medium",
-      "viral_potential": "medium",
+      "urgency": "low",
+      "viral_potential": "low",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "小企业AI投入回报率计算器：5步评估你的AI投资值不值",
-          "summary": "教小微企业主如何计算AI投资的真实回报，包括隐性成本。",
+          "hook": "3步计算你的AI投资回报率，不再盲目烧钱！",
+          "summary": "教小企业主如何计算AI投入的成本和收益，包括直接和间接效益。",
           "key_points": [
-            "列出AI投入的直接和间接成本",
-            "量化效率提升和收益增长",
-            "使用ROI公式评估投资价值"
+            "列出AI投入的直接成本（软件、硬件、人力）",
+            "量化AI带来的收益（节省时间、增加收入）",
+            "计算ROI并制定优化计划"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -413,26 +505,28 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI预算超支？小企业最容易踩的3个AI投资坑",
-          "summary": "指出AI采购中常见的预算低估、效果夸大和部署困难。",
+          "hook": "AI投资回报的5个误区，99%的企业都算错了！",
+          "summary": "指出企业在计算AI ROI时常见的错误，如忽略隐性成本、高估收益等。",
           "pitfalls": [
-            "只看到软件成本，忽略培训和维护",
-            "期望过高导致失望",
-            "数据质量差影响效果"
+            "忽略数据准备和清洗的成本",
+            "高估AI的自动化程度，低估人工干预",
+            "未考虑模型维护和更新的费用",
+            "忽视员工培训成本",
+            "短期评估导致误判长期价值"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "25分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI不是万能药：小企业如何理性看待AI投资？",
-          "summary": "分析AI投资热潮下小企业应如何制定理性策略。",
+          "hook": "AI投资的冰山模型：为什么大多数企业ROI为负？",
+          "summary": "深入分析AI投资回报率低的原因，以及企业如何制定合理的AI战略。",
           "insights": [
-            "AI投资需与业务目标对齐",
-            "分阶段实施降低风险",
-            "关注长期价值而非短期回报"
+            "AI投资存在“冰山成本”，隐性成本远大于显性",
+            "企业需从流程再造角度评估AI价值",
+            "AI ROI需要长期视角，短期难见成效"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -441,22 +535,22 @@
     }
   ],
   "weekly_plan": {
-    "monday": "Anthropic让Claude自主训练模型：AI自我进化时代来了？",
-    "wednesday": "开源AI护栏工具Conduct：给LLM和MCP调用装上安全阀",
-    "friday": "AI版权碰瓷：开源游戏因一则AI版权通知被下架，小企业如何自保？",
-    "strategy": "本周聚焦AI安全与版权热点，结合实操教程和避坑指南，吸引AI初学者和小微企业主，同时为商标代理业务引流。"
+    "monday": "英伟达收购Hugging Face：AI圈最大并购案，普通人如何抓住红利？",
+    "wednesday": "手把手教你打造第一个AI Agent，小白也能轻松上手！",
+    "friday": "AI版权第一案：你的AI创作可能正在侵权？",
+    "strategy": "本周聚焦AI热点事件和实操教程，结合商标业务引流，保持内容多样性和时效性。"
   },
-  "insights": "今日信息流显示AI代理和AI版权纠纷成为双热点，开源工具和AI电影节为创作者提供了实操和变现的新机会。",
-  "ai_adjustment": "根据历史反馈，本次推荐增加了AI技术赛道的比重，并避开了偏硬件内容，同时强化了与商标代理相关的版权选题以引流。",
-  "generated_at": "2026-08-29T05:20:17.149503+08:00",
-  "total_items": 432,
-  "scored_items": 343,
+  "insights": "今日信息流显示AI Agent和版权话题热度高，腾讯混元开源和英伟达收购Hugging Face是重大事件，适合快速产出内容。",
+  "ai_adjustment": "本次推荐增加了更多AI技术实操选题，减少偏硬件内容，并根据用户反馈偏好强化了Agent和AI视频相关选题。",
+  "generated_at": "2026-08-29T12:06:12.527116+08:00",
+  "total_items": 346,
+  "scored_items": 274,
   "tracks_summary": {
-    "ai_tech": 310,
+    "ai_tech": 244,
     "trademark_business": 7,
     "ai_video": 7,
-    "creator_economy": 15,
-    "growth_monetize": 4
+    "creator_economy": 14,
+    "growth_monetize": 2
   },
   "engine_version": "v2",
   "engine_params": {
