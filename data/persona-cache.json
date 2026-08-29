@@ -1,24 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_ac99d2dd14d0|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "讲的是规模化用AI写代码怎么控成本，涉及计费策略的团队可参考。",
-      "title_hash": "0336bc04",
-      "scored_at": "2026-08-08T07:30:33.272518Z"
-    },
-    "story_06de520f313d|cynic|f4237a62": {
-      "score": 78,
-      "review": "用力分级总算落地，早该如此，不然每次审查都像被AI轰炸。",
-      "title_hash": "57ae74a8",
-      "scored_at": "2026-08-08T07:30:35.161370Z"
-    },
-    "story_06de520f313d|paper-police|966065bf": {
-      "score": 25,
-      "review": "官方changelog宣称全面可用，但无文档无评测数据，待实操验证。",
-      "title_hash": "57ae74a8",
-      "scored_at": "2026-08-08T07:30:36.790460Z"
-    },
     "story_619c631f8dd4|pragmatic|0a5c5b24": {
       "score": 45,
       "review": "官方话术不必当真，没开放就是没得用，等真发 API 再说。",
@@ -5106,6 +5088,30 @@
       "review": "官方博客宣称更新，无论文无代码无独立评测，仅有说法。",
       "title_hash": "9ef986f7",
       "scored_at": "2026-08-29T04:05:19.761758Z"
+    },
+    "story_476454fb33cb|pragmatic|0a5c5b24": {
+      "score": 55,
+      "review": "学术研究进展，展示了多智能体协作解决复杂问题的新范式，可启发架构设计。",
+      "title_hash": "ab00d0fc",
+      "scored_at": "2026-08-29T09:03:55.706775Z"
+    },
+    "story_f868cb38abf4|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "模型权重已开源，可直接下载用于本地部署和智能体开发。",
+      "title_hash": "235eb584",
+      "scored_at": "2026-08-29T09:03:59.372310Z"
+    },
+    "story_0155c1000eca|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "提供了在苹果芯片上运行大模型的具体性能数据和方案，可直接参考部署。",
+      "title_hash": "d30db030",
+      "scored_at": "2026-08-29T09:04:02.785869Z"
+    },
+    "story_ae76d315b7d4|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "开源技术博客，提供了用LLM内存做程序分析的实用思路和代码，可借鉴。",
+      "title_hash": "182e629a",
+      "scored_at": "2026-08-29T09:04:13.992292Z"
     }
   }
 }
