@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T15:05:07.626424Z",
+  "generated_at": "2026-08-30T04:05:03.795613Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_1df6423d9095",
-      "title": "StemDeck，一款免费、开源且本地化的AI茎叶分离器",
-      "url": "https://github.com/stemdeckapp/stemdeck",
+      "story_id": "story_0155c1000eca",
+      "title": "在本地运行 Qwen3.8 27B：来自我的 Mac Studio 的实际数据",
+      "url": "https://terminalbytes.com/run-qwen-3-8-27b-locally",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 75,
-          "review": "开源本地化是实打实的，但‘分离器’这名字听着像玩具，效果得自己跑跑看。"
+          "score": 72,
+          "review": "Mac Studio跑27B模型算力秀肌肉，但成本门槛和通用性闭口不谈。"
         },
         "paper-police": {
-          "score": 85,
-          "review": "开源代码仓库已公开，技术实现可直接查验，符合开源发布标准。"
+          "score": 65,
+          "review": "有个人实测数据，但缺官方论文与开源代码，无法独立复现基准。"
         },
         "pragmatic": {
-          "score": 88,
-          "review": "开源本地工具，做音乐分离的开发者可以直接下载集成。"
+          "score": 85,
+          "review": "提供了在苹果芯片上运行大模型的具体性能数据和方案，可直接参考部署。"
         }
       }
     },
     {
-      "story_id": "story_ff4f232dd5ce",
-      "title": "Codex CLI 0.151.0",
-      "url": "https://developers.openai.com/codex/changelog",
+      "story_id": "story_d97da0ee06f0",
+      "title": "OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX",
+      "url": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 75,
-          "review": "版本号都到0.151了，还在修bug和加小功能，离‘革命’还远着呢。"
+          "score": 65,
+          "review": "商业收购后的常规操作，但‘值得关注’的标签有点小题大做。"
         },
         "paper-police": {
-          "score": 65,
-          "review": "官方更新日志提供了具体版本和变更说明，但缺乏独立的性能评测报告。"
+          "score": 5,
+          "review": "仅为传闻报道，无官方公告或技术细节，查无实据。"
         },
         "pragmatic": {
-          "score": 85,
-          "review": "CLI工具版本更新，开发者今天就能升级使用新功能或修复。"
+          "score": 75,
+          "review": "使用Cursor的开发者需留意，未来可能需更换底层模型或工具链。"
         }
       }
     },
     {
-      "story_id": "story_68a34bcc53e0",
-      "title": "GitHub Copilot in Visual Studio — August update",
-      "url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
+      "story_id": "story_8aec8d862456",
+      "title": "开放世界多智能体环境中的自主数学发现",
+      "url": "https://arxiv.org/abs/2608.23691",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "又是月度更新，修复已知问题，加点小功能，别指望什么革命。"
+          "score": 78,
+          "review": "环境框架开源值得肯定，但‘自主发现’的数学成果目前还相当基础。"
         },
         "paper-police": {
-          "score": 15,
-          "review": "官方博客宣称功能更新，无论文、无代码、无独立评测，仅为说法。"
+          "score": 85,
+          "review": "有arXiv论文，这是严肃工作的起点，但需代码和独立评测佐证。"
         },
         "pragmatic": {
-          "score": 85,
-          "review": "VS的Copilot有功能更新，开发者可以立刻去体验新特性。"
+          "score": 45,
+          "review": "学术论文，离落地还有距离，知道有这方向就行。"
         }
       }
     }

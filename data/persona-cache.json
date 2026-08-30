@@ -1,89 +1,11 @@
 {
   "version": 1,
   "entries": {
-    "story_adfff91a73dc|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "事故复盘可参考，但无直接行动项，安全团队可存档。",
-      "title_hash": "cd0b2685",
-      "scored_at": "2026-08-08T15:54:26.285674Z"
-    },
-    "story_20af52419887|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "升级细节没公开，等API或演示出来再判断值不值得上手。",
-      "title_hash": "43b866b6",
-      "scored_at": "2026-08-08T17:00:20.370071Z"
-    },
-    "story_e9624a9c8fc0|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "爬虫挤爆基础设施，给运维提了个醒：反爬策略该加就加。",
-      "title_hash": "975de59d",
-      "scored_at": "2026-08-08T19:05:51.062136Z"
-    },
-    "story_a1c224640bfa|pragmatic|0a5c5b24": {
-      "score": 62,
-      "review": "benchmark 亮眼但未开放，等 API 上线再评估实际任务。",
-      "title_hash": "0f722d29",
-      "scored_at": "2026-08-08T17:53:09.143020Z"
-    },
-    "story_32ec53e91d06|pragmatic|0a5c5b24": {
-      "score": 20,
-      "review": "教育口政策，不写代码也不改 API，开发者无需关注。",
-      "title_hash": "fe45b840",
-      "scored_at": "2026-08-08T19:50:38.391041Z"
-    },
-    "story_b17925e931ce|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "思路有参考价值，但没现成代码，等具体方案落地再动手。",
-      "title_hash": "47c4776e",
-      "scored_at": "2026-08-08T19:05:54.545095Z"
-    },
-    "story_0a07367e7420|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "找手机的小技巧，对开发工作没直接用处，扫一眼即可。",
-      "title_hash": "05b26ac7",
-      "scored_at": "2026-08-08T19:05:56.880498Z"
-    },
-    "story_2b97640ff5a6|cynic|f4237a62": {
-      "score": 60,
-      "review": "会话互发消息听着新鲜，但跨会话上下文同步的坑怕是没提。",
-      "title_hash": "f3d13e5c",
-      "scored_at": "2026-08-08T19:05:58.676423Z"
-    },
-    "story_2b97640ff5a6|paper-police|966065bf": {
-      "score": 25,
-      "review": "仅官方推文宣称新功能，无文档无代码，待实测验证。",
-      "title_hash": "f3d13e5c",
-      "scored_at": "2026-08-08T19:06:00.648365Z"
-    },
     "story_56cf4cefef8c|pragmatic|0a5c5b24": {
       "score": 78,
       "review": "跨会话传消息，多窗口协作能省点事，适合在用Claude Code的团队。",
       "title_hash": "103708e5",
       "scored_at": "2026-08-09T07:28:01.403112Z"
-    },
-    "story_2252b2f8dcb5|cynic|f4237a62": {
-      "score": 50,
-      "review": "ROI板块能算清员工省下的工时，却算不清订阅费涨了多少。",
-      "title_hash": "c2897e35",
-      "scored_at": "2026-08-08T20:54:48.570339Z"
-    },
-    "story_2252b2f8dcb5|paper-police|966065bf": {
-      "score": 25,
-      "review": "官方更新说明了新板块，但无代码无评测，真假待用户验证。",
-      "title_hash": "c2897e35",
-      "scored_at": "2026-08-08T20:54:51.550451Z"
-    },
-    "story_5a089134551b|cynic|f4237a62": {
-      "score": 50,
-      "review": "每周例行公事，没数据没对比，就说了个'发布'。",
-      "title_hash": "9dc9e154",
-      "scored_at": "2026-08-08T21:51:13.191586Z"
-    },
-    "story_5a089134551b|paper-police|966065bf": {
-      "score": 55,
-      "review": "官方日志有功能细节，但缺论文代码和第三方评测，属发布记录。",
-      "title_hash": "9dc9e154",
-      "scored_at": "2026-08-08T21:51:15.895349Z"
     },
     "story_56cf4cefef8c|cynic|f4237a62": {
       "score": 45,
@@ -96,36 +18,6 @@
       "review": "仅官方文档介绍功能，无论文代码或第三方评测，可信度待验证。",
       "title_hash": "103708e5",
       "scored_at": "2026-08-09T07:28:05.645111Z"
-    },
-    "story_adfff91a73dc|cynic|f4237a62": {
-      "score": 72,
-      "review": "时间线详实，但'意外攻击'的免责声明比事件本身更有看头。",
-      "title_hash": "cd0b2685",
-      "scored_at": "2026-08-08T21:51:29.319321Z"
-    },
-    "story_adfff91a73dc|paper-police|966065bf": {
-      "score": 35,
-      "review": "时间线有出处但无技术报告，事件细节尚待独立验证。",
-      "title_hash": "cd0b2685",
-      "scored_at": "2026-08-08T21:51:33.963091Z"
-    },
-    "story_7bfb99629928|pragmatic|0a5c5b24": {
-      "score": 75,
-      "review": "桌面端能语音操控电脑，可当多步任务助手用，今天就能试。",
-      "title_hash": "61194bd3",
-      "scored_at": "2026-08-08T23:50:54.292637Z"
-    },
-    "story_7bfb99629928|cynic|f4237a62": {
-      "score": 58,
-      "review": "演示里的多步骤挺顺，换你现场试试卡不卡。",
-      "title_hash": "61194bd3",
-      "scored_at": "2026-08-08T23:50:57.643622Z"
-    },
-    "story_7bfb99629928|paper-police|966065bf": {
-      "score": 30,
-      "review": "功能上线有官方公告，但没有技术细节或第三方评测，口说无凭。",
-      "title_hash": "61194bd3",
-      "scored_at": "2026-08-08T23:50:59.891392Z"
     },
     "story_019e440fd20f|pragmatic|0a5c5b24": {
       "score": 40,
@@ -5072,10 +4964,10 @@
       "scored_at": "2026-08-29T15:04:31.389948Z"
     },
     "story_89873725e085|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "开源社区的表态，不影响你今天的开发环境或工具选择。",
-      "title_hash": "449fd910",
-      "scored_at": "2026-08-29T15:04:34.198691Z"
+      "score": 45,
+      "review": "开源社区政策变动，对开发者日常工作暂无直接影响。",
+      "title_hash": "82c68ee5",
+      "scored_at": "2026-08-30T04:04:38.190703Z"
     },
     "story_fb6e40a3017d|pragmatic|0a5c5b24": {
       "score": 35,
@@ -5112,6 +5004,72 @@
       "review": "官方更新日志提供了具体版本和变更说明，但缺乏独立的性能评测报告。",
       "title_hash": "0c8a7f4f",
       "scored_at": "2026-08-29T15:05:07.626351Z"
+    },
+    "story_fc264aa8f148|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "内部案例难复制，对开发者选型或工作流暂无直接影响。",
+      "title_hash": "a46d9ab9",
+      "scored_at": "2026-08-30T04:04:23.333300Z"
+    },
+    "story_cf315c0c523c|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "训练过程的轶事，对实际选型或开发没帮助。",
+      "title_hash": "30aef4e6",
+      "scored_at": "2026-08-30T04:04:26.689207Z"
+    },
+    "story_8aec8d862456|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "学术论文，离落地还有距离，知道有这方向就行。",
+      "title_hash": "ab00d0fc",
+      "scored_at": "2026-08-30T04:04:31.338362Z"
+    },
+    "story_d97da0ee06f0|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "使用Cursor的开发者需留意，未来可能需更换底层模型或工具链。",
+      "title_hash": "8ae56611",
+      "scored_at": "2026-08-30T04:04:34.817002Z"
+    },
+    "story_39fb2b2dec50|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "管理类观点文章，对技术选型和开发工作没有直接指导作用。",
+      "title_hash": "1d2e098d",
+      "scored_at": "2026-08-30T04:04:42.114231Z"
+    },
+    "story_0155c1000eca|cynic|f4237a62": {
+      "score": 72,
+      "review": "Mac Studio跑27B模型算力秀肌肉，但成本门槛和通用性闭口不谈。",
+      "title_hash": "d30db030",
+      "scored_at": "2026-08-30T04:04:46.003707Z"
+    },
+    "story_0155c1000eca|paper-police|966065bf": {
+      "score": 65,
+      "review": "有个人实测数据，但缺官方论文与开源代码，无法独立复现基准。",
+      "title_hash": "d30db030",
+      "scored_at": "2026-08-30T04:04:49.631380Z"
+    },
+    "story_d97da0ee06f0|cynic|f4237a62": {
+      "score": 65,
+      "review": "商业收购后的常规操作，但‘值得关注’的标签有点小题大做。",
+      "title_hash": "8ae56611",
+      "scored_at": "2026-08-30T04:04:53.543995Z"
+    },
+    "story_d97da0ee06f0|paper-police|966065bf": {
+      "score": 5,
+      "review": "仅为传闻报道，无官方公告或技术细节，查无实据。",
+      "title_hash": "8ae56611",
+      "scored_at": "2026-08-30T04:04:56.400445Z"
+    },
+    "story_8aec8d862456|cynic|f4237a62": {
+      "score": 78,
+      "review": "环境框架开源值得肯定，但‘自主发现’的数学成果目前还相当基础。",
+      "title_hash": "ab00d0fc",
+      "scored_at": "2026-08-30T04:05:00.045718Z"
+    },
+    "story_8aec8d862456|paper-police|966065bf": {
+      "score": 85,
+      "review": "有arXiv论文，这是严肃工作的起点，但需代码和独立评测佐证。",
+      "title_hash": "ab00d0fc",
+      "scored_at": "2026-08-30T04:05:03.795558Z"
     }
   }
 }
