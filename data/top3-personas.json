@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T09:04:38.842873Z",
+  "generated_at": "2026-08-30T15:04:44.142185Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,10 +17,30 @@
   ],
   "items": [
     {
+      "story_id": "story_78610e902a47",
+      "title": "Claude Session URL appended to commit messages and PR descriptions by default",
+      "url": "https://news.ycombinator.com/item?id=49498201",
+      "rank": 1,
+      "reviews": {
+        "cynic": {
+          "score": 65,
+          "review": "默认把AI会话链接塞进代码提交信息，这算功能创新还是PR新话术？"
+        },
+        "paper-police": {
+          "score": 40,
+          "review": "功能描述清晰，但无独立第三方评测或开源实现验证其实际效果。"
+        },
+        "pragmatic": {
+          "score": 85,
+          "review": "自动记录AI辅助痕迹，团队协作时追溯上下文很方便。"
+        }
+      }
+    },
+    {
       "story_id": "story_d97da0ee06f0",
       "title": "OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX",
       "url": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
-      "rank": 1,
+      "rank": 2,
       "reviews": {
         "cynic": {
           "score": 65,
@@ -33,26 +53,6 @@
         "pragmatic": {
           "score": 75,
           "review": "使用Cursor的开发者需留意，未来可能需更换底层模型或工具链。"
-        }
-      }
-    },
-    {
-      "story_id": "story_89873725e085",
-      "title": "Debian 投票通过允许“负责任地使用生成式人工智能”",
-      "url": "https://lwn.net/Articles/1091231",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 65,
-          "review": "投票通过‘允许使用’？这也能算新闻，不如说终于承认了现实。"
-        },
-        "paper-police": {
-          "score": 60,
-          "review": "有公开投票记录和社区讨论，但未提供具体技术实现或评测依据。"
-        },
-        "pragmatic": {
-          "score": 45,
-          "review": "开源社区政策变动，对开发者日常工作暂无直接影响。"
         }
       }
     },

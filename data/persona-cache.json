@@ -1,54 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_89f0f7e97237|pragmatic|0a5c5b24": {
-      "score": 52,
-      "review": "玩法更新看着热闹，但没提API或价格变化，先观望再动手。",
-      "title_hash": "665139e7",
-      "scored_at": "2026-08-09T11:01:35.852626Z"
-    },
-    "story_86c94d047e72|pragmatic|0a5c5b24": {
-      "score": 32,
-      "review": "AI成本挤压巨头预算，对选型无直接影响，留意供应商涨价信号。",
-      "title_hash": "8d1e2af8",
-      "scored_at": "2026-08-09T11:01:38.220759Z"
-    },
-    "story_d0c89c4c036a|pragmatic|0a5c5b24": {
-      "score": 52,
-      "review": "事件时间线可作安全复盘参考，但无直接可用的工具或接口变化。",
-      "title_hash": "cd0b2685",
-      "scored_at": "2026-08-09T11:54:10.447136Z"
-    },
-    "story_a845b0ff7812|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "事件时间线值得扫一眼，确认自己没受影响即可，无需行动。",
-      "title_hash": "f18055b2",
-      "scored_at": "2026-08-09T13:28:20.792407Z"
-    },
-    "story_db4e33c200ca|pragmatic|0a5c5b24": {
-      "score": 30,
-      "review": "数据中心选址是公司政治，不影响你写代码，无需行动。",
-      "title_hash": "2cd54b0e",
-      "scored_at": "2026-08-09T13:28:23.425449Z"
-    },
-    "story_ca48e27df6dc|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "概念展示，未见可用实现，等具体代码和 benchmark 再动手。",
-      "title_hash": "63a60006",
-      "scored_at": "2026-08-09T13:28:26.350857Z"
-    },
-    "story_ea708b7a6475|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "攻击事件跟日常开发无关，除非正好用这几家API，否则不用动。",
-      "title_hash": "962ae9a9",
-      "scored_at": "2026-08-09T14:10:27.187807Z"
-    },
-    "story_ed474c29d378|pragmatic|0a5c5b24": {
-      "score": 50,
-      "review": "提醒别盲目信任安全测试，但没给具体工具，暂时不用行动。",
-      "title_hash": "55229b56",
-      "scored_at": "2026-08-09T15:00:31.060688Z"
-    },
     "story_abc8705d02da|pragmatic|0a5c5b24": {
       "score": 50,
       "review": "安全团队的复盘材料，普通开发者等具体防护更新再看。",
@@ -5046,6 +4998,30 @@
       "review": "仅为行业动态周报，无具体模型发布，缺乏可验证的论文、代码或基准测试。",
       "title_hash": "13f32c76",
       "scored_at": "2026-08-30T09:04:38.842826Z"
+    },
+    "story_78610e902a47|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "自动记录AI辅助痕迹，团队协作时追溯上下文很方便。",
+      "title_hash": "17fe1def",
+      "scored_at": "2026-08-30T15:04:21.039697Z"
+    },
+    "story_e533eefb8531|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "法律行业警示案例，但离开发者日常编码和选型较远。",
+      "title_hash": "774064da",
+      "scored_at": "2026-08-30T15:04:27.891686Z"
+    },
+    "story_78610e902a47|cynic|f4237a62": {
+      "score": 65,
+      "review": "默认把AI会话链接塞进代码提交信息，这算功能创新还是PR新话术？",
+      "title_hash": "17fe1def",
+      "scored_at": "2026-08-30T15:04:31.501950Z"
+    },
+    "story_78610e902a47|paper-police|966065bf": {
+      "score": 40,
+      "review": "功能描述清晰，但无独立第三方评测或开源实现验证其实际效果。",
+      "title_hash": "17fe1def",
+      "scored_at": "2026-08-30T15:04:44.142096Z"
     }
   }
 }
