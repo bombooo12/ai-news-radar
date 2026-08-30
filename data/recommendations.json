@@ -3,20 +3,21 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "AI音乐版权大战：Sony/华纳索赔数十亿美元，你的AI创作可能踩雷！",
+      "title": "AI Agent 翻车实录：OpenAI 被自家 Agent 攻破，你的 Agent 安全吗？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、AI音乐创作者、内容创作者",
-      "reason": "版权诉讼是热点且与AI创作者直接相关，容易引发共鸣和传播。",
+      "target_audience": "AI初学者、AI Agent 使用者、对AI安全感兴趣的小白",
+      "reason": "OpenAI Agent 被攻破的新闻极具反差感，能引发初学者对 Agent 安全性的好奇，且与创作者擅长的 Agent 实践分享高度契合。",
       "source_items": [
-        "Sony Music and Warner Chappell sue Anthropic, Dario Amodei, and Benjamin Mann, alleging tens of thousands of copyrighted songs were used to train Claude's LLMs",
-        "Sony accuses Anthropic of 'brazen campaign' to train Claude on its music — and wants up to $150,000 a song",
-        "华纳与索尼起诉 Anthropic，索赔数十亿美元"
+        "OpenAI's Hugging Face incident report says AI agents used exploits to gain full admin access to OpenAI's own research cluster",
+        "Google's WikiSkill gives AI agents a persistent memory of past mistakes",
+        "Anthropic Opens a Research Preview of the Model Hardware Standard (MHS)"
       ],
       "source_urls": [
-        "https://www.techmeme.com/260829/p11",
-        "https://www.businessinsider.com/anthropic-claude-training-copyright-music-lyrics-sony-lawsuit-2026-8",
-        "http://www.geekpark.net/news/369551"
+        "https://www.techmeme.com/260830/p4",
+        "https://the-decoder.com/google-gives-ai-agents-their-own-wiki-so-they-can-learn-from-mistakes-and-successes",
+        "https://www.marktechpost.com/2026/08/29/anthropic-opens-a-research-preview-of-the-model-hardware-standard-mhs-a-shared-specification-for-ai-agents-to-safely-operate-physical-devices",
+        "https://www.techmeme.com/260829/p13"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -25,40 +26,40 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "AI生成音乐合法吗？手把手教你避开版权雷区，安全创作",
-          "summary": "教AI音乐创作者如何合规使用AI工具，避免侵权风险。",
+          "hook": "手把手教你用 Claude Code 和 OpenAI Agent 搭建一个带记忆的 AI Agent（附安全配置）",
+          "summary": "教初学者如何用主流 Agent 框架搭建个人助理，并设置基础权限隔离，避免被恶意利用。",
           "key_points": [
-            "了解AI音乐生成工具的版权政策（如Suno、Udio）",
-            "如何检查生成内容的原创性",
-            "使用公共领域或授权素材的方法"
+            "选择 Agent 框架：Claude Code vs OpenAI Codex 的对比与安装",
+            "配置记忆功能：用 WikiSkill 思路给 Agent 添加持久记忆",
+            "安全设置：限制 Agent 的文件访问权限和网络请求范围"
           ],
           "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "estimated_time": "45分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "别让你的AI音乐变成官司！这5个坑千万别踩",
-          "summary": "指出AI音乐创作中常见的版权陷阱和规避方法。",
+          "hook": "AI Agent 的 5 个致命陷阱：OpenAI 都中招了，你还不注意？",
+          "summary": "盘点 AI Agent 使用中的常见安全漏洞和权限失控风险，并给出规避方法。",
           "pitfalls": [
-            "直接使用AI生成与热门歌曲相似旋律的风险",
-            "忽视平台条款，可能被索赔",
-            "误以为AI生成内容完全免费"
+            "权限过大：Agent 拿到 admin 权限后可能被恶意指令利用",
+            "记忆污染：Agent 记住错误信息后持续犯错，需要定期清理",
+            "供应链攻击：第三方插件或 Skill 可能包含恶意代码"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "Sony诉Anthropic：AI版权大战将如何改写创作规则？",
-          "summary": "分析诉讼对AI行业和创作者生态的深远影响。",
+          "hook": "从 OpenAI 被攻破到 Anthropic 的硬件标准：AI Agent 安全战已经打响",
+          "summary": "分析 AI Agent 安全问题的根源，以及行业如何通过标准（如 MHS）来应对。",
           "insights": [
-            "AI训练数据的版权边界正在收紧",
-            "创作者需要重新评估AI工具的合规性",
-            "未来AI音乐平台可能转向授权模式"
+            "AI Agent 自主性越强，安全边界越模糊，传统权限模型失效",
+            "Anthropic 的 MHS 标准是行业自救的信号，未来 Agent 需遵循硬件级安全规范",
+            "个人开发者应关注 Agent 安全最佳实践，否则可能成为攻击入口"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -67,319 +68,19 @@
     },
     {
       "rank": 2,
-      "title": "Google WikiSkill：让AI记住错误，你的Agent也能越用越聪明",
+      "title": "Google 的 WikiSkill 让 AI Agent 记住错误，我试了试，结果太惊艳了！",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、Agent开发者、效率爱好者",
-      "reason": "AI Agent是热点，WikiSkill提供实用方法，符合创作者偏好。",
+      "target_audience": "AI初学者、想提升 AI 工具使用效率的开发者、对 Agent 感兴趣的小白",
+      "reason": "WikiSkill 是 Google 新发布的技术，具有实操性和新鲜感，且符合创作者对 Skill 实践分享的偏好。",
       "source_items": [
-        "Google's WikiSkill gives AI agents a persistent memory of past mistakes to sharpen future performance"
-      ],
-      "source_urls": [
-        "https://the-decoder.com/google-gives-ai-agents-their-own-wiki-so-they-can-learn-from-mistakes-and-successes"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "给AI装个记忆库：用WikiSkill让ChatGPT不再犯同样的错",
-          "summary": "教初学者如何为AI Agent添加持久记忆，提升性能。",
-          "key_points": [
-            "理解WikiSkill的核心概念",
-            "创建自己的Agent记忆库的步骤",
-            "集成到现有Agent流程中"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "45分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI记忆库的坑：为什么你的Agent还是记不住？",
-          "summary": "揭示实现AI记忆时的常见错误和解决方案。",
-          "pitfalls": [
-            "过度依赖记忆导致模型过拟合",
-            "忽略隐私和数据安全",
-            "记忆库更新不及时"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "从WikiSkill看AI Agent进化：记忆将成为核心竞争力",
-          "summary": "分析AI记忆技术对Agent发展的影响和未来趋势。",
-          "insights": [
-            "记忆能力是Agent从工具到助手的关键",
-            "Google的WikiSkill可能引领新标准",
-            "个人AI助手将更个性化"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "title": "AI短剧狂潮：89部上榜抖音，普通人如何用AI视频分一杯羹？",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI初学者、视频创作者、副业探索者",
-      "reason": "AI短剧是当前热点，创作者擅长视频剪辑，且能结合副业变现。",
-      "source_items": [
-        "New AI-powered video tools have accelerated the surge in AI dramas in China; DataEye: 89 of the top 100 animated dramas on Douyin in May were AI productions",
-        "AI-generated videos are already displacing actors and livestreamers across China's entertainment industry"
-      ],
-      "source_urls": [
-        "https://www.techmeme.com/260829/p9",
-        "https://the-decoder.com/ai-generated-videos-are-already-displacing-actors-and-livestreamers-across-chinas-entertainment-industry"
-      ],
-      "urgency": "high",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "视频",
-          "hook": "零基础做AI短剧：从脚本到成片，我用剪映+AI工具全流程演示",
-          "summary": "教初学者用AI工具制作短剧，包括脚本生成、画面生成和剪辑。",
-          "key_points": [
-            "用ChatGPT生成短剧脚本",
-            "用Midjourney生成角色和场景",
-            "用剪映Pro合成视频并添加特效"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI短剧月入过万？先避开这5个坑，否则白忙一场",
-          "summary": "揭露AI短剧制作中的常见陷阱，如版权、平台审核、成本控制。",
-          "pitfalls": [
-            "使用AI生成音乐可能侵权",
-            "平台对AI内容的审核规则",
-            "盲目投入设备成本"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "AI短剧如何颠覆影视行业？从演员失业到内容爆发",
-          "summary": "分析AI短剧对娱乐产业的影响和未来机会。",
-          "insights": [
-            "AI降低内容制作门槛，但同质化严重",
-            "演员和直播主面临转型压力",
-            "平台扶持AI内容，但监管将跟进"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "title": "OpenAI终止与Cursor合作！开发者该何去何从？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI开发者、编程爱好者、AI工具用户",
-      "reason": "OpenAI与Cursor分手是开发者社区热点，影响广泛，易引发讨论。",
-      "source_items": [
-        "OpenAI 终止与 Cursor 合作；雷军：2600名小米车主行程超 10 万公里；华纳与索尼起诉 Anthropic，索赔数十亿美元",
-        "Will it be Anthropic or X AI after Cursor getting no access to OpenAI?"
-      ],
-      "source_urls": [
-        "http://www.geekpark.net/news/369551",
-        "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html"
-      ],
-      "urgency": "high",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "Cursor不能用了？教你迁移到这些替代AI编程工具",
-          "summary": "介绍Cursor的替代方案，如Continue、Codeium等，并给出迁移步骤。",
-          "key_points": [
-            "评估替代工具的功能和兼容性",
-            "迁移项目配置和快捷键",
-            "测试新工具的效率"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "40分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI编程工具依赖风险：如何避免被单一平台绑架？",
-          "summary": "提醒开发者不要过度依赖单一AI工具，提供多工具策略。",
-          "pitfalls": [
-            "工具突然停止服务导致工作流中断",
-            "数据锁定在特定平台",
-            "忽略开源替代方案"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "OpenAI与Cursor分手背后：AI编程生态的博弈",
-          "summary": "分析OpenAI终止合作的原因及其对AI编程市场的影响。",
-          "insights": [
-            "OpenAI可能自建编程工具，竞争加剧",
-            "Cursor转向Anthropic或X AI，市场格局变化",
-            "开发者需要关注工具生态的长期稳定性"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "title": "智谱开源GLM-5.3：智能体编程+网络防御，普通人也能玩转？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、开发者、网络安全爱好者",
-      "reason": "国产开源模型是热点，GLM-5.3主打智能体编程，与创作者定位契合。",
-      "source_items": [
-        "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御"
-      ],
-      "source_urls": [
-        "https://www.ithome.com/0/995/896.htm"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "GLM-5.3本地部署指南：10分钟上手智能体编程",
-          "summary": "教初学者下载、部署GLM-5.3，并编写第一个智能体应用。",
-          "key_points": [
-            "环境准备和模型下载",
-            "使用Python调用GLM-5.3 API",
-            "实现一个简单的Agent任务"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "50分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "开源模型部署的5个坑：从显存不足到性能调优",
-          "summary": "分享本地部署开源模型时常见问题和解决方案。",
-          "pitfalls": [
-            "显存不足导致崩溃",
-            "依赖库版本冲突",
-            "忽略模型量化优化"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "GLM-5.3开源背后：国产大模型如何弯道超车？",
-          "summary": "分析智谱开源策略对AI行业的影响和国产模型的竞争力。",
-          "insights": [
-            "开源降低使用门槛，吸引开发者",
-            "智能体编程是未来方向",
-            "网络防御功能开辟新应用场景"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "title": "AI视频数据集LAION发布1000万小时素材，普通人如何利用？",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI视频创作者、数据科学家、内容创作者",
-      "reason": "大规模数据集发布对AI视频创作有潜在价值，但需解读如何利用。",
-      "source_items": [
-        "LAION drops massive open video dataset with 10 million hours of footage for AI research"
-      ],
-      "source_urls": [
-        "https://the-decoder.com/laion-drops-massive-open-video-dataset-with-10-million-hours-of-footage-for-ai-research"
-      ],
-      "urgency": "low",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "如何用LAION数据集训练自己的AI视频模型？",
-          "summary": "介绍数据集的结构和如何用于训练视频生成模型，适合进阶用户。",
-          "key_points": [
-            "下载和预处理数据集",
-            "选择适合的模型架构",
-            "训练和评估模型"
-          ],
-          "difficulty": "高级",
-          "estimated_time": "2小时"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "使用LAION数据集的版权风险：你需要知道的事",
-          "summary": "提醒用户数据集中可能包含受版权保护的素材，需谨慎使用。",
-          "pitfalls": [
-            "数据集中可能包含私人或版权内容",
-            "商用需谨慎，可能侵权",
-            "需自行过滤敏感内容"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "LAION数据集发布：AI视频的ImageNet时刻？",
-          "summary": "分析该数据集对AI视频研究的影响，类比ImageNet对图像识别的作用。",
-          "insights": [
-            "大规模数据集推动视频生成模型突破",
-            "开源数据集促进研究民主化",
-            "可能引发新一轮AI视频创业潮"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "title": "小红书虚拟资料变现：10天20%转化率，我用这套Skill跑通流程",
-      "track": "side_income",
-      "track_name": "个人成长/副业变现",
-      "target_audience": "副业探索者、小红书博主、AI工具用户",
-      "reason": "直接关联创作者副业变现需求，且案例数据有说服力。",
-      "source_items": [
+        "Google's WikiSkill gives AI agents a persistent memory of past mistakes to sharpen future performance",
+        "我做了一个开源项目，让 AI 记住我们解决过的问题：Usora",
         "开营 10 天变现率 20%：我用一套 Skill，把小红书虚拟资料跑成了可复制流程"
       ],
       "source_urls": [
+        "https://the-decoder.com/google-gives-ai-agents-their-own-wiki-so-they-can-learn-from-mistakes-and-successes",
+        "https://juejin.cn/post/7679020474672660526",
         "https://juejin.cn/post/7678539625379545128"
       ],
       "urgency": "medium",
@@ -389,72 +90,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "复制这套流程：小红书虚拟资料从0到变现的完整步骤",
-          "summary": "拆解案例中的Skill流程，教读者如何复制。",
+          "hook": "10 分钟上手 Google WikiSkill：让 AI Agent 记住你的偏好和错误",
+          "summary": "教初学者如何利用 WikiSkill 机制为 AI Agent 添加记忆，提升对话和任务执行效率。",
           "key_points": [
-            "定位高需求虚拟资料品类",
-            "用AI生成资料内容",
-            "小红书引流和转化技巧"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "40分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "小红书虚拟资料变现的5个坑：从限流到封号",
-          "summary": "提醒常见违规风险，如版权、虚假宣传、平台规则。",
-          "pitfalls": [
-            "使用未经授权的资料导致侵权",
-            "过度营销被平台限流",
-            "忽视用户需求导致转化率低"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "虚拟资料变现的本质：为什么Skill能提高转化率？",
-          "summary": "分析AI技能在副业变现中的作用，探讨可复制性。",
-          "insights": [
-            "AI降低内容生产成本，提高效率",
-            "标准化流程是变现可复制的关键",
-            "未来虚拟资料市场将更竞争，需差异化"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "title": "LinkedIn变成网红平台？个人品牌新战场，你准备好了吗？",
-      "track": "creator_economy",
-      "track_name": "自媒体/创作者经济",
-      "target_audience": "自媒体创作者、职场人士、品牌运营者",
-      "reason": "LinkedIn转型为创作者平台，为创作者提供新机会，且与商标引流相关。",
-      "source_items": [
-        "LinkedIn Is No Longer a Business Network—It’s a Platform for Influencers Now"
-      ],
-      "source_urls": [
-        "https://www.inc.com/steve-carey/linkedin-is-no-longer-a-business-network-its-a-platform-for-influencers-now/91397478"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "LinkedIn个人品牌打造指南：从0到1成为行业KOL",
-          "summary": "教创作者如何利用LinkedIn建立个人品牌，包括内容策略和互动技巧。",
-          "key_points": [
-            "优化个人资料和定位",
-            "发布有价值的内容类型",
-            "利用LinkedIn算法增加曝光"
+            "理解 WikiSkill 的核心概念：记忆库如何存储和检索",
+            "在 Claude Code 或 ChatGPT 中模拟实现 WikiSkill 的步骤",
+            "实战：让 Agent 记住你的写作风格，自动调整输出"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -463,12 +104,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "LinkedIn网红化：别踩这3个坑，否则人设崩塌",
-          "summary": "指出在LinkedIn做内容时的常见错误，如过度营销、内容不专业。",
+          "hook": "AI Agent 记忆功能暗藏风险：3 个坑让你后悔莫及",
+          "summary": "揭示 Agent 记忆功能可能带来的隐私泄露、错误固化等问题，并提供规避策略。",
           "pitfalls": [
-            "发布与平台调性不符的内容",
-            "忽视互动导致算法降权",
-            "人设不真实引发信任危机"
+            "记忆库内容可能被其他用户或 Agent 共享，导致隐私泄露",
+            "错误记忆一旦写入，会持续影响后续输出，需定期清理",
+            "过度依赖记忆可能让 Agent 变得僵化，失去灵活性"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -477,12 +118,397 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "LinkedIn变网红平台：B2B营销的新机遇还是泡沫？",
-          "summary": "分析LinkedIn转型对商业营销和创作者经济的影响。",
+          "hook": "从 WikiSkill 看 AI Agent 的进化：记忆将成为核心竞争力",
+          "summary": "分析记忆功能对 AI Agent 发展的意义，以及未来 Agent 生态的竞争格局。",
           "insights": [
-            "B2B企业将更多投入KOL合作",
-            "专业内容与娱乐内容的边界模糊",
-            "平台算法变化可能影响流量分配"
+            "记忆是 Agent 从工具走向伙伴的关键一步，个性化体验将成主流",
+            "WikiSkill 的开放可能催生新的 Agent 记忆管理工具和商业模式",
+            "记忆的隐私与安全将成为监管重点，合规是长期挑战"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "AI 短剧正在疯狂赚钱：抖音 Top100 动画 89 部是 AI 做的，普通人如何入局？",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "AI初学者、想用 AI 变现的个人、对短视频创作感兴趣的小白",
+      "reason": "AI 短剧是当前热点，且与创作者 AI 视频剪辑能力高度匹配，同时能结合副业变现思路，引流潜力大。",
+      "source_items": [
+        "New AI-powered video tools have accelerated the surge in AI dramas in China; DataEye: 89 of the top 100 animated dramas on Douyin in May were AI productions",
+        "AI-generated videos are already displacing actors and livestreamers across China's entertainment industry",
+        "LAION drops massive open video dataset with 10 million hours of footage for AI research"
+      ],
+      "source_urls": [
+        "https://www.techmeme.com/260829/p9",
+        "https://the-decoder.com/ai-generated-videos-are-already-displacing-actors-and-livestreamers-across-chinas-entertainment-industry",
+        "https://the-decoder.com/laion-drops-massive-open-video-dataset-with-10-million-hours-of-footage-for-ai-research"
+      ],
+      "urgency": "high",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "视频",
+          "hook": "零基础用 AI 做一部短剧：从剧本到成片，我只用了 3 小时",
+          "summary": "教初学者用 AI 工具（如 ChatGPT 写剧本、Midjourney 生成画面、剪映合成）制作一部短剧。",
+          "key_points": [
+            "用 ChatGPT 生成短剧剧本和分镜脚本",
+            "用 Midjourney 生成角色和场景图，保持风格一致",
+            "用剪映 Pro 合成视频，添加配音和字幕"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "3小时"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI 短剧的 4 个版权陷阱：你可能正在侵权！",
+          "summary": "指出 AI 生成内容的版权风险，尤其是使用他人 IP 和素材时的问题。",
+          "pitfalls": [
+            "使用真实明星或角色形象可能侵犯肖像权",
+            "AI 生成内容与已有作品相似可能构成侵权",
+            "平台对 AI 内容的标注要求不明确，可能导致限流"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "AI 短剧爆发：是内容革命还是版权灾难？",
+          "summary": "分析 AI 短剧对娱乐行业的影响，以及版权诉讼（如索尼诉 Anthropic）对创作者的意义。",
+          "insights": [
+            "AI 降低内容制作门槛，但同质化竞争加剧",
+            "版权诉讼将推动 AI 训练数据的合规化，影响所有创作者",
+            "AI 短剧的商业模式仍在探索，平台分成和广告是主要方向"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "索尼索赔数十亿美元：AI 训练数据的版权雷区，你的 AI 工具可能正在侵权",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、使用 AI 工具的个人创作者、小微企业主",
+      "reason": "版权诉讼是热点，且与创作者商标代理业务相关，能结合知识产权科普引流。",
+      "source_items": [
+        "Sony Music and Warner Chappell sue Anthropic, Dario Amodei, and Benjamin Mann",
+        "Sony accuses Anthropic of 'brazen campaign' to train Claude on its music",
+        "华纳与索尼起诉 Anthropic，索赔数十亿美元"
+      ],
+      "source_urls": [
+        "https://www.techmeme.com/260829/p11",
+        "https://www.businessinsider.com/anthropic-claude-training-copyright-music-lyrics-sony-lawsuit-2026-8",
+        "https://the-decoder.com/sony-and-warner-sue-anthropic-over-one-of-the-largest-and-most-blatant-ongoing-thefts-of-intellectual-property-in-history",
+        "http://www.geekpark.net/news/369551"
+      ],
+      "urgency": "high",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "如何检查你的 AI 工具是否侵权？3 个自查步骤",
+          "summary": "教初学者如何评估 AI 工具的版权风险，并选择合规的工具。",
+          "key_points": [
+            "查看 AI 工具的训练数据来源和版权声明",
+            "使用版权检测工具检查生成内容的相似度",
+            "选择有明确版权授权的 AI 服务（如企业版）"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI 生成内容的版权风险：5 个你必须知道的坑",
+          "summary": "列出 AI 创作中常见的版权问题，并提供规避方法。",
+          "pitfalls": [
+            "AI 生成内容可能包含受版权保护的片段",
+            "使用 AI 工具生成的图片可能侵犯他人商标或版权",
+            "平台对 AI 内容的版权归属规定不一，容易产生纠纷"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "从索尼诉 Anthropic 看 AI 版权大战：谁将成为最终赢家？",
+          "summary": "分析 AI 版权诉讼对行业的影响，以及创作者如何保护自己的权益。",
+          "insights": [
+            "版权诉讼将推动 AI 公司建立更透明的数据授权机制",
+            "创作者应关注 AI 生成内容的版权归属，及时申请商标保护",
+            "未来 AI 工具可能提供版权合规功能，成为卖点"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "AI 正在取代演员和主播？中国娱乐业已变天，普通人该怎么办？",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "AI初学者、想用 AI 变现的个人、对行业趋势感兴趣的小白",
+      "reason": "AI 取代人类工作的话题具有争议性，容易引发讨论，且与创作者副业变现定位契合。",
+      "source_items": [
+        "AI-generated videos are already displacing actors and livestreamers across China's entertainment industry",
+        "New AI-powered video tools have accelerated the surge in AI dramas in China",
+        "Runway to Reality: AI Fashion Hackathon"
+      ],
+      "source_urls": [
+        "https://the-decoder.com/ai-generated-videos-are-already-displacing-actors-and-livestreamers-across-chinas-entertainment-industry",
+        "https://www.techmeme.com/260829/p9",
+        "https://www.meetup.com/google-developer-groups-brooklyn/events/316246126"
+      ],
+      "urgency": "medium",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "视频",
+          "hook": "用 AI 打造你的虚拟主播：1 小时学会，24 小时直播带货",
+          "summary": "教初学者用 AI 工具创建虚拟主播，并用于直播带货或内容创作。",
+          "key_points": [
+            "选择虚拟主播生成工具（如 HeyGen、D-ID）",
+            "设计虚拟形象和声音，并训练其口型同步",
+            "接入直播平台，实现自动化直播"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "1小时"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI 虚拟主播的 3 个坑：你可能被平台封号！",
+          "summary": "指出使用 AI 虚拟主播的常见问题，如平台规则限制、版权风险等。",
+          "pitfalls": [
+            "平台对 AI 生成内容的标注要求严格，不标注可能限流",
+            "虚拟主播形象可能侵犯他人肖像权",
+            "AI 直播内容质量不稳定，可能影响粉丝信任"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "AI 取代演员？不，是内容生产的范式转移",
+          "summary": "分析 AI 对娱乐行业就业的影响，以及创作者如何适应新趋势。",
+          "insights": [
+            "AI 降低内容生产成本，但创意和策划能力更加重要",
+            "传统演员和主播需要转型，掌握 AI 工具成为新技能",
+            "AI 内容将推动新的商业模式，如虚拟偶像经济"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "Anthropic 发布 MHS 标准：AI Agent 要接管物理设备了，你准备好了吗？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、对 AI Agent 前沿技术感兴趣的开发者、智能硬件爱好者",
+      "reason": "MHS 标准是 AI Agent 领域的重要进展，具有前瞻性，能吸引技术爱好者关注。",
+      "source_items": [
+        "Anthropic Opens a Research Preview of the Model Hardware Standard (MHS)",
+        "OpenAI's Hugging Face incident report says AI agents used exploits",
+        "Google's WikiSkill gives AI agents a persistent memory"
+      ],
+      "source_urls": [
+        "https://www.marktechpost.com/2026/08/29/anthropic-opens-a-research-preview-of-the-model-hardware-standard-mhs-a-shared-specification-for-ai-agents-to-safely-operate-physical-devices",
+        "https://www.techmeme.com/260830/p4",
+        "https://the-decoder.com/google-gives-ai-agents-their-own-wiki-so-they-can-learn-from-mistakes-and-successes"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "如何让 AI Agent 控制你的智能家居？MHS 标准初体验",
+          "summary": "教初学者如何利用 MHS 标准让 AI Agent 安全地控制物理设备。",
+          "key_points": [
+            "了解 MHS 标准的基本架构和接口",
+            "配置 AI Agent 与智能设备的连接",
+            "编写简单的控制指令，实现自动化场景"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI 控制物理设备的安全隐患：3 个案例让你警惕",
+          "summary": "揭示 AI Agent 控制物理设备可能带来的安全风险，并提供防范措施。",
+          "pitfalls": [
+            "Agent 被黑客攻击可能导致设备被恶意控制",
+            "权限设置不当可能造成设备误操作",
+            "缺乏统一标准导致兼容性问题"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "MHS 标准：AI Agent 从数字世界走向物理世界的桥梁",
+          "summary": "分析 MHS 标准对 AI Agent 发展的意义，以及未来智能硬件生态的变革。",
+          "insights": [
+            "MHS 将推动 AI Agent 在工业、家居等领域的应用",
+            "标准统一是行业成熟的标志，但安全问题仍需解决",
+            "对个人开发者而言，这是新的创业机会"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "用 AI 做小红书虚拟资料，10 天变现率 20%：我的全套 Skill 流程拆解",
+      "track": "personal_growth",
+      "track_name": "个人成长/副业变现",
+      "target_audience": "AI初学者、想用 AI 变现的个人、小红书创作者",
+      "reason": "直接关联副业变现，且与创作者在小红书平台运营经验契合，实操性强。",
+      "source_items": [
+        "开营 10 天变现率 20%：我用一套 Skill，把小红书虚拟资料跑成了可复制流程",
+        "Google's WikiSkill gives AI agents a persistent memory",
+        "LinkedIn Is No Longer a Business Network—It’s a Platform for Influencers Now"
+      ],
+      "source_urls": [
+        "https://juejin.cn/post/7678539625379545128",
+        "https://the-decoder.com/google-gives-ai-agents-their-own-wiki-so-they-can-learn-from-mistakes-and-successes",
+        "https://www.inc.com/steve-carey/linkedin-is-no-longer-a-business-network-its-a-platform-for-influencers-now/91397478"
+      ],
+      "urgency": "medium",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "手把手教你用 AI 制作小红书虚拟资料，10 天变现 20%",
+          "summary": "教初学者如何用 AI 工具生成小红书虚拟资料（如模板、电子书），并实现变现。",
+          "key_points": [
+            "用 ChatGPT 生成资料内容，确保原创性",
+            "用 Midjourney 设计封面和配图",
+            "在小红书发布并利用 Skill 自动化运营流程"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "1小时"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "小红书虚拟资料变现的 4 个坑：你可能一分钱赚不到",
+          "summary": "指出虚拟资料变现的常见问题，如版权风险、平台规则等。",
+          "pitfalls": [
+            "资料内容可能侵犯他人版权，导致封号",
+            "平台对虚拟资料销售有严格审核，需注意合规",
+            "同质化严重，需要差异化定位"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "AI 副业变现的底层逻辑：从虚拟资料到知识付费",
+          "summary": "分析 AI 副业变现的可行性和长期趋势，以及如何构建可持续的商业模式。",
+          "insights": [
+            "AI 降低了内容生产成本，但流量获取和信任建立更难",
+            "虚拟资料是入门级产品，后续可升级为课程或社群",
+            "个人 IP 是核心竞争力，AI 只是工具"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "LinkedIn 变成网红平台？职场人如何用 AI 打造个人品牌",
+      "track": "self_media",
+      "track_name": "自媒体/创作者经济",
+      "target_audience": "AI初学者、职场人、想打造个人品牌的创作者",
+      "reason": "LinkedIn 平台变化是热点，且与创作者自媒体运营策略能力匹配，能结合 AI 工具提升效率。",
+      "source_items": [
+        "LinkedIn Is No Longer a Business Network—It’s a Platform for Influencers Now",
+        "Good Culture Is the Biggest Productivity Hack, Not AI",
+        "开营 10 天变现率 20%：我用一套 Skill，把小红书虚拟资料跑成了可复制流程"
+      ],
+      "source_urls": [
+        "https://www.inc.com/steve-carey/linkedin-is-no-longer-a-business-network-its-a-platform-for-influencers-now/91397478",
+        "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
+        "https://juejin.cn/post/7678539625379545128"
+      ],
+      "urgency": "low",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "用 AI 打造 LinkedIn 个人品牌：从 0 到 1 的完整指南",
+          "summary": "教初学者如何利用 AI 工具优化 LinkedIn 资料、生成内容，提升影响力。",
+          "key_points": [
+            "用 ChatGPT 优化个人简介和关键词",
+            "用 AI 生成行业洞察文章，定期发布",
+            "利用 AI 分析数据，优化发布时间和内容类型"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "LinkedIn 网红化的 3 个坑：别让你的专业形象毁于 AI",
+          "summary": "指出在 LinkedIn 上过度使用 AI 可能带来的问题，如内容同质化、失去真实性。",
+          "pitfalls": [
+            "AI 生成的内容缺乏个人见解，难以建立信任",
+            "过度营销可能引起反感，影响专业形象",
+            "平台算法变化，依赖 AI 可能降低互动率"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "LinkedIn 转型网红平台：职场社交的未来在哪里？",
+          "summary": "分析 LinkedIn 平台变化对职场人的影响，以及如何适应新趋势。",
+          "insights": [
+            "LinkedIn 正从求职平台转向内容平台，个人品牌变得更重要",
+            "AI 工具能提升效率，但真实性和专业度仍是核心",
+            "职场人需要平衡内容创作与本职工作"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -491,21 +517,21 @@
     }
   ],
   "weekly_plan": {
-    "monday": "AI音乐版权大战：你的AI创作可能踩雷！",
-    "wednesday": "Google WikiSkill：让AI记住错误，你的Agent也能越用越聪明",
-    "friday": "AI短剧狂潮：普通人如何用AI视频分一杯羹？",
-    "strategy": "本周聚焦AI版权、Agent记忆和AI视频热点，结合实操与避坑，吸引初学者和副业人群。"
+    "monday": "AI Agent 翻车实录：OpenAI 被自家 Agent 攻破，你的 Agent 安全吗？",
+    "wednesday": "AI 短剧正在疯狂赚钱：抖音 Top100 动画 89 部是 AI 做的，普通人如何入局？",
+    "friday": "用 AI 做小红书虚拟资料，10 天变现率 20%：我的全套 Skill 流程拆解",
+    "strategy": "本周聚焦 AI Agent 安全和 AI 变现热点，结合版权争议，打造高传播性内容，同时为商标代理引流埋下伏笔。"
   },
-  "insights": "今日信息流显示AI版权诉讼、Agent记忆技术、AI短剧爆发是三大热点，创作者应抓住这些高传播性话题。",
-  "ai_adjustment": "基于用户反馈，本次推荐避免纯硬件内容，强化了AI技术、视频和副业变现赛道，并侧重反常识和热点话题。",
-  "generated_at": "2026-08-30T12:05:47.963191+08:00",
-  "total_items": 284,
-  "scored_items": 212,
+  "insights": "今日信息流显示 AI Agent 安全、版权诉讼和 AI 短剧是三大热点，创作者可结合自身技能和副业需求，产出实操与深度兼具的内容。",
+  "ai_adjustment": "本次推荐基于用户反馈，优先选择 AI 技术和 AI 视频赛道，避免硬件内容，并增加了版权相关选题以配合商标代理引流。",
+  "generated_at": "2026-08-30T17:05:37.979951+08:00",
+  "total_items": 281,
+  "scored_items": 215,
   "tracks_summary": {
-    "ai_tech": 199,
+    "ai_tech": 205,
     "ai_video": 7,
-    "creator_economy": 4,
-    "growth_monetize": 2
+    "growth_monetize": 2,
+    "creator_economy": 1
   },
   "engine_version": "v2",
   "engine_params": {

@@ -1,66 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_56cf4cefef8c|pragmatic|0a5c5b24": {
-      "score": 78,
-      "review": "跨会话传消息，多窗口协作能省点事，适合在用Claude Code的团队。",
-      "title_hash": "103708e5",
-      "scored_at": "2026-08-09T07:28:01.403112Z"
-    },
-    "story_56cf4cefef8c|cynic|f4237a62": {
-      "score": 45,
-      "review": "跨会话发消息就叫新功能？先演示下消息不丢再说。",
-      "title_hash": "103708e5",
-      "scored_at": "2026-08-09T07:28:03.112135Z"
-    },
-    "story_56cf4cefef8c|paper-police|966065bf": {
-      "score": 22,
-      "review": "仅官方文档介绍功能，无论文代码或第三方评测，可信度待验证。",
-      "title_hash": "103708e5",
-      "scored_at": "2026-08-09T07:28:05.645111Z"
-    },
-    "story_019e440fd20f|pragmatic|0a5c5b24": {
-      "score": 40,
-      "review": "宏观风向，不产生可直接上手的工具，看看就行。",
-      "title_hash": "30433f15",
-      "scored_at": "2026-08-09T04:44:21.266053Z"
-    },
-    "story_5309a01ab201|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "行业周报，无直接可用的工具或API，扫一眼找细节即可。",
-      "title_hash": "cf8f98ad",
-      "scored_at": "2026-08-09T04:44:27.924205Z"
-    },
-    "story_5ce40a057274|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "对开发者影响有限，写手可能受限，别指望绕过，等官方细则。",
-      "title_hash": "8374bcfb",
-      "scored_at": "2026-08-09T04:44:29.326514Z"
-    },
-    "story_c679b82f6543|pragmatic|0a5c5b24": {
-      "score": 80,
-      "review": "安全工具，能直接拦住 Agent 乱读密钥和跑危险命令，生产环境可部署。",
-      "title_hash": "ce242367",
-      "scored_at": "2026-08-09T06:02:29.508893Z"
-    },
-    "story_c679b82f6543|cynic|f4237a62": {
-      "score": 45,
-      "review": "拦截器是好事，但演示里能挡的风险和真实世界的差距，敢晒规则集吗？",
-      "title_hash": "ce242367",
-      "scored_at": "2026-08-09T06:02:32.802875Z"
-    },
-    "story_c679b82f6543|paper-police|966065bf": {
-      "score": 25,
-      "review": "只有标题描述，无代码无评测，拦截效果无法验证。",
-      "title_hash": "ce242367",
-      "scored_at": "2026-08-09T06:02:37.144939Z"
-    },
-    "story_5da542bcba7e|pragmatic|0a5c5b24": {
-      "score": 62,
-      "review": "常见方法组合的教程，入门可看，老手不必花时间。",
-      "title_hash": "12b61c3d",
-      "scored_at": "2026-08-09T08:12:47.017253Z"
-    },
     "story_89f0f7e97237|pragmatic|0a5c5b24": {
       "score": 52,
       "review": "玩法更新看着热闹，但没提API或价格变化，先观望再动手。",
@@ -5070,6 +5010,42 @@
       "review": "有arXiv论文，这是严肃工作的起点，但需代码和独立评测佐证。",
       "title_hash": "ab00d0fc",
       "scored_at": "2026-08-30T04:05:03.795558Z"
+    },
+    "story_dd08dad2c32e|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "法律风险提醒，但短期内不影响你调用API或训练自己的模型。",
+      "title_hash": "c25fcdef",
+      "scored_at": "2026-08-30T09:04:10.238347Z"
+    },
+    "story_593496b70a8b|pragmatic|0a5c5b24": {
+      "score": 40,
+      "review": "周报汇总行业趋势，了解方向但暂无具体工具可用。",
+      "title_hash": "13f32c76",
+      "scored_at": "2026-08-30T09:04:20.009084Z"
+    },
+    "story_89873725e085|cynic|f4237a62": {
+      "score": 65,
+      "review": "投票通过‘允许使用’？这也能算新闻，不如说终于承认了现实。",
+      "title_hash": "82c68ee5",
+      "scored_at": "2026-08-30T09:04:23.510153Z"
+    },
+    "story_89873725e085|paper-police|966065bf": {
+      "score": 60,
+      "review": "有公开投票记录和社区讨论，但未提供具体技术实现或评测依据。",
+      "title_hash": "82c68ee5",
+      "scored_at": "2026-08-30T09:04:28.155961Z"
+    },
+    "story_593496b70a8b|cynic|f4237a62": {
+      "score": 75,
+      "review": "周报选题精准，但‘危机’、‘潮’这类词，是洞察还是跟风渲染，得看具体数据。",
+      "title_hash": "13f32c76",
+      "scored_at": "2026-08-30T09:04:32.526437Z"
+    },
+    "story_593496b70a8b|paper-police|966065bf": {
+      "score": 20,
+      "review": "仅为行业动态周报，无具体模型发布，缺乏可验证的论文、代码或基准测试。",
+      "title_hash": "13f32c76",
+      "scored_at": "2026-08-30T09:04:38.842826Z"
     }
   }
 }

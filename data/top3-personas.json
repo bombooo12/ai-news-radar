@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T04:05:03.795613Z",
+  "generated_at": "2026-08-30T09:04:38.842873Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,30 +17,10 @@
   ],
   "items": [
     {
-      "story_id": "story_0155c1000eca",
-      "title": "在本地运行 Qwen3.8 27B：来自我的 Mac Studio 的实际数据",
-      "url": "https://terminalbytes.com/run-qwen-3-8-27b-locally",
-      "rank": 1,
-      "reviews": {
-        "cynic": {
-          "score": 72,
-          "review": "Mac Studio跑27B模型算力秀肌肉，但成本门槛和通用性闭口不谈。"
-        },
-        "paper-police": {
-          "score": 65,
-          "review": "有个人实测数据，但缺官方论文与开源代码，无法独立复现基准。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "提供了在苹果芯片上运行大模型的具体性能数据和方案，可直接参考部署。"
-        }
-      }
-    },
-    {
       "story_id": "story_d97da0ee06f0",
       "title": "OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX",
       "url": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
-      "rank": 2,
+      "rank": 1,
       "reviews": {
         "cynic": {
           "score": 65,
@@ -57,22 +37,42 @@
       }
     },
     {
-      "story_id": "story_8aec8d862456",
-      "title": "开放世界多智能体环境中的自主数学发现",
-      "url": "https://arxiv.org/abs/2608.23691",
-      "rank": 3,
+      "story_id": "story_89873725e085",
+      "title": "Debian 投票通过允许“负责任地使用生成式人工智能”",
+      "url": "https://lwn.net/Articles/1091231",
+      "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 78,
-          "review": "环境框架开源值得肯定，但‘自主发现’的数学成果目前还相当基础。"
+          "score": 65,
+          "review": "投票通过‘允许使用’？这也能算新闻，不如说终于承认了现实。"
         },
         "paper-police": {
-          "score": 85,
-          "review": "有arXiv论文，这是严肃工作的起点，但需代码和独立评测佐证。"
+          "score": 60,
+          "review": "有公开投票记录和社区讨论，但未提供具体技术实现或评测依据。"
         },
         "pragmatic": {
           "score": 45,
-          "review": "学术论文，离落地还有距离，知道有这方向就行。"
+          "review": "开源社区政策变动，对开发者日常工作暂无直接影响。"
+        }
+      }
+    },
+    {
+      "story_id": "story_593496b70a8b",
+      "title": "何夕2077 AI 深度信号周报 (2026-W35)：智能体自治危机、稀疏激活架构与具身智能融资潮",
+      "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-08-30-hexi-2077-ai-weekly-2026-w35",
+      "rank": 3,
+      "reviews": {
+        "cynic": {
+          "score": 75,
+          "review": "周报选题精准，但‘危机’、‘潮’这类词，是洞察还是跟风渲染，得看具体数据。"
+        },
+        "paper-police": {
+          "score": 20,
+          "review": "仅为行业动态周报，无具体模型发布，缺乏可验证的论文、代码或基准测试。"
+        },
+        "pragmatic": {
+          "score": 40,
+          "review": "周报汇总行业趋势，了解方向但暂无具体工具可用。"
         }
       }
     }
