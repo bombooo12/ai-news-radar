@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T15:04:44.142185Z",
+  "generated_at": "2026-08-31T04:06:54.454039Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_78610e902a47",
-      "title": "Claude Session URL appended to commit messages and PR descriptions by default",
-      "url": "https://news.ycombinator.com/item?id=49498201",
+      "story_id": "story_2f756534b2bf",
+      "title": "How to build a diffusion language model",
+      "url": "https://news.ycombinator.com/item?id=49503956",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "默认把AI会话链接塞进代码提交信息，这算功能创新还是PR新话术？"
+          "score": 75,
+          "review": "标题是‘如何构建’，不是‘我们已构建’，干货程度取决于教程本身。"
         },
         "paper-police": {
           "score": 40,
-          "review": "功能描述清晰，但无独立第三方评测或开源实现验证其实际效果。"
+          "review": "仅有技术博客介绍方法，缺乏论文、代码及公开评测结果。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "自动记录AI辅助痕迹，团队协作时追溯上下文很方便。"
+          "review": "开源实现或详细教程，想复现或改进扩散模型可直接参考。"
         }
       }
     },
     {
-      "story_id": "story_d97da0ee06f0",
-      "title": "OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX",
-      "url": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
+      "story_id": "story_78610e902a47",
+      "title": "默认情况下，将 Claude 会话 URL 附加到提交信息和 PR 描述中",
+      "url": "https://github.com/anthropics/claude-code/issues/66504",
       "rank": 2,
       "reviews": {
         "cynic": {
           "score": 65,
-          "review": "商业收购后的常规操作，但‘值得关注’的标签有点小题大做。"
+          "review": "功能实用，但‘多源热议’这标签，不过是三个网站来回说同一件事。"
         },
         "paper-police": {
-          "score": 5,
-          "review": "仅为传闻报道，无官方公告或技术细节，查无实据。"
+          "score": 15,
+          "review": "仅有功能讨论和需求提议，无模型性能证据，无法评估。"
         },
         "pragmatic": {
-          "score": 75,
-          "review": "使用Cursor的开发者需留意，未来可能需更换底层模型或工具链。"
+          "score": 85,
+          "review": "开源工具更新，现在能自动将 Claude 对话链接附到代码提交里，方便追溯。"
         }
       }
     },
     {
-      "story_id": "story_593496b70a8b",
-      "title": "何夕2077 AI 深度信号周报 (2026-W35)：智能体自治危机、稀疏激活架构与具身智能融资潮",
-      "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-08-30-hexi-2077-ai-weekly-2026-w35",
+      "story_id": "story_71cf283c5230",
+      "title": "不到四百美元还能自己动手训练！Hugging Face 推出微型开源双足机器人Microduck",
+      "url": "https://www.aibase.com/news/30705",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 75,
-          "review": "周报选题精准，但‘危机’、‘潮’这类词，是洞察还是跟风渲染，得看具体数据。"
+          "score": 78,
+          "review": "开源和价格是亮点，但‘双足’的实用性和稳定性，恐怕得先过自家地板这一关。"
         },
         "paper-police": {
-          "score": 20,
-          "review": "仅为行业动态周报，无具体模型发布，缺乏可验证的论文、代码或基准测试。"
+          "score": 40,
+          "review": "报道提及开源机器人，但未见论文与独立评测，证据尚不充分。"
         },
         "pragmatic": {
-          "score": 40,
-          "review": "周报汇总行业趋势，了解方向但暂无具体工具可用。"
+          "score": 75,
+          "review": "开源机器人套件，想动手搞具身智能的可以研究代码和硬件方案了。"
         }
       }
     }

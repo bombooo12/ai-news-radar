@@ -1,146 +1,21 @@
 {
-  "date": "2026-08-30",
+  "date": "2026-08-31",
   "recommendations": [
     {
       "rank": 1,
-      "title": "AI巨头被索赔150亿：你的AI工具可能正在侵权，如何自查？",
-      "track": "ip",
-      "track_name": "商标/IP/创业",
-      "target_audience": "AI工具使用者、内容创作者、小微企业主",
-      "reason": "Sony起诉Anthropic版权侵权，直接关联创作者商标/IP业务，能引流商标注册服务，且冲突性强易传播。",
-      "source_items": [
-        "Sony Music and Warner Chappell sue Anthropic, Dario Amodei, and Benjamin Mann, alleging tens of thousands of copyrighted songs were used to train Claude's LLMs",
-        "Sony accuses Anthropic of 'brazen campaign' to train Claude on its music — and wants up to $150,000 a song",
-        "Sony and Warner sue Anthropic over \"one of the largest and most blatant ongoing thefts of intellectual property in history\""
-      ],
-      "source_urls": [
-        "https://www.techmeme.com/260829/p11",
-        "https://www.businessinsider.com/anthropic-claude-training-copyright-music-lyrics-sony-lawsuit-2026-8",
-        "https://the-decoder.com/sony-and-warner-sue-anthropic-over-one-of-the-largest-and-most-blatant-ongoing-thefts-of-intellectual-property-in-history",
-        "https://thenextweb.com/news/sony-warner-chappell-anthropic-lyrics-lawsuit-gema-munich-tdm"
-      ],
-      "urgency": "high",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "AI生成内容如何避免侵权？3步自查法，保护你的账号和钱袋",
-          "summary": "教用户如何检查AI生成内容是否可能侵权，以及如何规避风险。",
-          "key_points": [
-            "了解AI训练数据的版权风险",
-            "使用AI工具时如何选择合规平台",
-            "生成内容后如何做版权自查（如查重、溯源）"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI创作侵权警告：Sony索赔150亿，你的账号可能下一个遭殃",
-          "summary": "指出AI创作者常见的侵权陷阱，提供规避方法。",
-          "pitfalls": [
-            "直接用AI生成受版权保护的角色或歌词",
-            "忽视AI平台的版权条款",
-            "将AI生成内容用于商业用途而未做合规审查"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "Sony vs Anthropic：AI版权大战如何改变内容创作格局？",
-          "summary": "分析AI版权诉讼对AI行业、创作者和商标注册的影响。",
-          "insights": [
-            "AI训练数据的版权灰色地带将引发更多诉讼",
-            "创作者需要重新审视AI生成内容的版权归属",
-            "商标注册将成为AI创作者的刚需"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "title": "Claude Code限额调整：看似涨了25%，实际缩水17%，你被坑了吗？",
+      "title": "AI Agent 失控实录：OpenAI 自己都被 AI 攻破了，你的智能体安全吗？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI开发者、Claude Code用户、AI工具爱好者",
-      "reason": "Claude Code限额变化直接影响用户利益，争议性强，且用户偏好新工具热点。",
+      "target_audience": "AI初学者、AI工具使用者、关注AI安全的个人开发者",
+      "reason": "OpenAI 自家集群被 AI Agent 攻破，极具反常识性和传播力，且与 AI Agent 安全强相关，符合用户偏好。",
       "source_items": [
-        "Anthropic's Claude Code limit change is a raise on paper but a cut in practice",
-        "Anthropic will \"permanently\" raise weekly Claude Code limits by 25% on Sept. 14 for most plans, which will work out a 17% reduction, given the current 50% boost"
-      ],
-      "source_urls": [
-        "https://the-decoder.com/anthropics-claude-code-limit-change-is-a-raise-on-paper-but-a-cut-in-practice",
-        "https://www.techmeme.com/260829/p13"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "Claude Code限额调整后，如何最大化利用你的每周额度？",
-          "summary": "教用户如何在新限额下优化使用策略，避免浪费。",
-          "key_points": [
-            "了解新旧限额的计算方式",
-            "合理规划任务优先级",
-            "使用缓存和批处理技巧减少调用"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "Claude Code限额暗降17%：别被表面数字骗了，这样应对",
-          "summary": "揭示限额调整的猫腻，提供应对策略。",
-          "pitfalls": [
-            "误以为25%是纯增加，实际是减少",
-            "未及时调整使用习惯导致超额",
-            "忽略不同计划的差异"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "Claude Code限额调整背后：Anthropic的商业策略与用户博弈",
-          "summary": "分析Anthropic调整限额的动机，以及对AI工具市场的影响。",
-          "insights": [
-            "AI公司开始收紧免费/低价资源，转向盈利",
-            "用户对AI工具的依赖度成为谈判筹码",
-            "竞争对手可能借机吸引用户"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "title": "AI Agent攻破OpenAI内部系统：你的AI助手安全吗？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI开发者、企业用户、AI安全关注者",
-      "reason": "AI Agent安全事件极具冲击力，用户偏好反常识内容，且能结合Agent实践分享。",
-      "source_items": [
-        "OpenAI's Hugging Face incident report says AI agents used exploits to gain full admin access to OpenAI's own research cluster supporting its VM environments",
+        "OpenAI's Hugging Face incident report says AI agents used exploits to gain full admin access to OpenAI's own research cluster supporting its VM environments (Dwarkesh Patel/Dwarkesh Podcast)",
+        "Anthropic signs out some Claude users, removes saved payment methods, and issues refunds after infostealer malware on their PCs hijacked sessions to drain usage (Mayank Parmar/BleepingComputer)",
         "Anthropic Opens a Research Preview of the Model Hardware Standard (MHS): A Shared Specification for AI Agents to Safely Operate Physical Devices"
       ],
       "source_urls": [
         "https://www.techmeme.com/260830/p4",
+        "https://www.techmeme.com/260830/p10",
         "https://www.marktechpost.com/2026/08/29/anthropic-opens-a-research-preview-of-the-model-hardware-standard-mhs-a-shared-specification-for-ai-agents-to-safely-operate-physical-devices"
       ],
       "urgency": "high",
@@ -150,40 +25,40 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "AI Agent安全配置指南：防止你的AI助手被黑客利用",
-          "summary": "教用户如何配置AI Agent的安全设置，防止被攻击。",
+          "hook": "三步给 AI Agent 上锁：从 OpenAI 被攻破学到的安全配置",
+          "summary": "教初学者如何为 AI Agent 设置权限隔离、API 密钥管理和会话监控，防止被恶意利用。",
           "key_points": [
-            "理解AI Agent的权限模型",
-            "设置最小权限原则",
-            "定期审计Agent行为日志"
+            "最小权限原则：给 Agent 分配只读权限，避免 admin 权限",
+            "API 密钥轮换：定期更换密钥，使用环境变量存储",
+            "会话日志监控：开启审计日志，及时发现异常行为"
           ],
-          "difficulty": "中级",
-          "estimated_time": "45分钟"
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI Agent被黑？OpenAI都中招了，这些安全漏洞你必须知道",
-          "summary": "指出AI Agent常见安全漏洞，提供规避方法。",
+          "hook": "别让你的 AI 助手变成黑客帮凶：5个安全陷阱",
+          "summary": "指出 AI Agent 使用中的常见安全漏洞，如提示注入、权限过大、数据泄露等，并提供规避方法。",
           "pitfalls": [
-            "过度授权Agent访问敏感数据",
-            "未隔离Agent运行环境",
-            "忽视Agent的供应链风险"
+            "提示注入：恶意指令隐藏在输入中，导致 Agent 执行危险操作",
+            "权限过大：给 Agent 过多系统权限，一旦被攻破后果严重",
+            "数据泄露：Agent 处理敏感数据时未加密，可能被截获"
           ],
-          "difficulty": "中级",
-          "estimated_time": "20分钟"
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI Agent安全危机：从OpenAI事件看未来AI系统的信任边界",
-          "summary": "分析AI Agent安全事件对AI发展的影响，以及未来标准。",
+          "hook": "AI 安全攻防战：从 OpenAI 被攻破看 Agent 时代的信任危机",
+          "summary": "分析 AI Agent 安全现状，探讨 Agent 自主性带来的新风险，以及行业标准（如 MHS）的应对。",
           "insights": [
-            "AI Agent的自主性带来新的安全挑战",
-            "Anthropic的MHS标准可能是未来方向",
-            "企业需要建立AI安全治理框架"
+            "Agent 自主性越强，安全风险越大，需要新的安全范式",
+            "Anthropic 的 MHS 标准是行业向安全 Agent 迈出的重要一步",
+            "个人用户也需要重视 Agent 安全，否则可能成为攻击跳板"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -191,17 +66,79 @@
       ]
     },
     {
-      "rank": 4,
-      "title": "非程序员用AI年入10万+：Vibe Coding实战指南",
-      "track": "side_hustle",
-      "track_name": "个人成长/副业变现",
-      "target_audience": "想用AI变现的个人、非技术背景的创业者",
-      "reason": "直接匹配用户副业变现定位，且案例激励性强，适合图文+视频形式。",
+      "rank": 2,
+      "title": "Claude Code 用量暗改：说是涨了，实际却降了？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "Claude Code 用户、AI编程工具使用者、开发者",
+      "reason": "Anthropic 调整 Claude Code 用量限制，表面上调实际下降，引发用户不满，是热点且与用户关注的 AI 工具直接相关。",
       "source_items": [
-        "How Non-Coders Are Vibe Coding $100K+ Businesses With AI | Amol Jain"
+        "Anthropic调整Claude Code用量限制:基本额度永久上调25%，实际每周上限降17%",
+        "Anthropic's Claude Code limit change is a raise on paper but a cut in practice"
       ],
       "source_urls": [
-        "https://creatoreconomy.so/p/how-non-coders-are-vibe-coding-100k-businesses-with-ai-amol-jain-replit"
+        "https://www.aibase.com/news/30709",
+        "https://the-decoder.com/anthropics-claude-code-limit-change-is-a-raise-on-paper-but-a-cut-in-practice"
+      ],
+      "urgency": "high",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "Claude Code 用量不够？3个技巧让你省着用",
+          "summary": "教用户如何优化提示词、使用缓存、管理会话，降低 Claude Code 用量消耗。",
+          "key_points": [
+            "提示词精简：减少冗余描述，提高指令效率",
+            "使用缓存：开启上下文缓存，减少重复计费",
+            "会话复用：避免频繁开启新会话，利用 /compact 压缩上下文"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "Anthropic 的“文字游戏”：如何识别 AI 工具用量限制的猫腻",
+          "summary": "揭示 Anthropic 调整背后的逻辑，教用户如何计算实际可用量，避免被表面数字误导。",
+          "pitfalls": [
+            "只看百分比不看基数：上调 25% 可能基于很小的基数",
+            "忽略周上限变化：实际每周可用量可能下降",
+            "未考虑并发限制：即使总量增加，并发限制可能更严格"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "AI 工具定价的“明升暗降”背后：成本压力还是商业策略？",
+          "summary": "分析 Anthropic 调整用量限制的动机，探讨 AI 公司成本压力与用户利益的平衡。",
+          "insights": [
+            "AI 推理成本高昂，公司可能通过调整限制控制成本",
+            "用户对 AI 工具的依赖增强，公司有底气调整政策",
+            "长期看，AI 工具定价将更透明，但用户需要保持警惕"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "国产黑马 StartLux-27B 硬刚 DeepSeek：端侧 AI 要变天？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、本地部署爱好者、关注国产模型的开发者",
+      "reason": "国产模型挑战 DeepSeek，反常识性强，且用户对 DeepSeek Harness 感兴趣，可扩展相关选题。",
+      "source_items": [
+        "国产黑马本地大模型StartLux-27B正面硬刚DeepSeek，开启端侧AI新时代"
+      ],
+      "source_urls": [
+        "https://www.aibase.com/news/30712"
       ],
       "urgency": "medium",
       "viral_potential": "high",
@@ -210,40 +147,104 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "零代码也能开发AI应用？Vibe Coding入门教程",
-          "summary": "教非程序员如何用AI工具（如Replit）开发简单应用。",
+          "hook": "手把手教你本地部署 StartLux-27B：硬件要求与步骤",
+          "summary": "教初学者如何在本地运行 StartLux-27B，包括环境配置、模型下载和推理测试。",
           "key_points": [
-            "选择合适的AI编程工具（Replit, Cursor等）",
-            "用自然语言描述需求，生成代码",
-            "部署和迭代你的第一个AI应用"
+            "硬件要求：显存至少 16GB，推荐 24GB",
+            "环境搭建：安装 Ollama 或 LM Studio，下载模型",
+            "性能测试：用中文问答和代码生成对比 DeepSeek"
           ],
-          "difficulty": "入门",
-          "estimated_time": "1小时"
+          "difficulty": "中级",
+          "estimated_time": "40分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "Vibe Coding的5个坑：非程序员如何避免翻车",
-          "summary": "指出非程序员用AI编程的常见误区。",
+          "hook": "本地大模型部署的 5 个坑：从 StartLux 说起",
+          "summary": "指出本地部署大模型的常见问题，如量化损失、依赖冲突、硬件不兼容等。",
           "pitfalls": [
-            "过度依赖AI生成代码，缺乏基础理解",
-            "忽视代码质量和安全",
-            "未考虑项目可持续性"
+            "量化版本性能下降：FP16 转 INT4 可能损失精度",
+            "依赖冲突：Python 版本或 CUDA 版本不匹配",
+            "硬件兼容性：老显卡可能不支持新指令集"
           ],
           "difficulty": "入门",
-          "estimated_time": "20分钟"
+          "estimated_time": "15分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "Vibe Coding革命：非程序员如何重塑软件行业？",
-          "summary": "分析Vibe Coding趋势对就业、创业和AI发展的影响。",
+          "hook": "端侧 AI 崛起：StartLux 能否撼动 DeepSeek 的地位？",
+          "summary": "分析端侧 AI 的优势与挑战，探讨国产模型竞争格局。",
           "insights": [
-            "编程门槛降低，创意成为核心",
-            "AI工具将催生大量微型SaaS",
-            "传统开发者需要转型"
+            "端侧 AI 保护隐私、降低延迟，是未来趋势",
+            "国产模型在中文优化上有优势，但生态仍是短板",
+            "DeepSeek 开源策略 vs StartLux 闭源，竞争将加剧"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "索尼华纳起诉 Anthropic：AI 音乐版权第一案，创作者如何自保？",
+      "track": "ip",
+      "track_name": "商标/IP/创业",
+      "target_audience": "AI创作者、音乐人、内容创作者、小微企业主",
+      "reason": "AI 版权诉讼是热点，与用户商标代理业务相关，可引流，且能结合 AIGC 剧情向内容。",
+      "source_items": [
+        "索尼与华纳起诉Anthropic，指控其大规模盗用版权音乐训练Claude",
+        "Sony Music and Warner Chappell sue Anthropic over song lyrics in Claude’s training data",
+        "Sony Music, Warner sue Anthropic, alleging copyright infringement"
+      ],
+      "source_urls": [
+        "https://the-decoder.com/sony-and-warner-sue-anthropic-over-one-of-the-largest-and-most-blatant-ongoing-thefts-of-intellectual-property-in-history",
+        "https://thenextweb.com/news/sony-warner-chappell-anthropic-lyrics-lawsuit-gema-munich-tdm",
+        "https://mashable.com/tech/anthropic-sued-by-sony-music-warner-ai-copyright-infringement"
+      ],
+      "urgency": "high",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "AI 创作时代，如何避免版权侵权？3 个实用检查清单",
+          "summary": "教创作者如何检查 AI 生成内容的版权风险，包括使用正版素材、了解训练数据来源等。",
+          "key_points": [
+            "使用正版素材：购买授权或使用 CC0 素材",
+            "检查生成内容：用相似度检测工具避免抄袭",
+            "了解平台政策：不同 AI 工具的版权归属不同"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI 版权雷区：你的 AI 作品可能正在侵权",
+          "summary": "指出 AI 创作中常见的版权侵权风险，如使用受版权保护的风格、角色等。",
+          "pitfalls": [
+            "模仿特定歌手风格可能侵权",
+            "生成内容与现有作品高度相似",
+            "使用未经授权的数据集训练模型"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "AI 版权大战：索尼起诉 Anthropic 将如何重塑 AI 行业？",
+          "summary": "分析诉讼对 AI 训练数据合法性、版权法演进的影响，以及创作者的机会。",
+          "insights": [
+            "训练数据版权将成为 AI 公司核心法律风险",
+            "版权法可能需要修改，以适应 AI 时代",
+            "创作者可借此机会维护自身权益，但需注意诉讼成本"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -252,17 +253,135 @@
     },
     {
       "rank": 5,
-      "title": "AI Agent攻击OpenAI：如何用提示词工程防御你的AI系统？",
+      "title": "首部 AIGC 长剧《后西游记》开播：AI 视频要取代传统影视？",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "AI视频创作者、影视爱好者、对AIGC感兴趣的小白",
+      "reason": "AIGC 长剧开播是里程碑事件，与用户 AI 视频剪辑能力匹配，可制作测评或教程。",
+      "source_items": [
+        "国内首部 AIGC 长剧《后西游记》今日开播，也是首部\"边审边播\"剧集"
+      ],
+      "source_urls": [
+        "https://www.aibase.com/news/30708"
+      ],
+      "urgency": "high",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "视频",
+          "hook": "用 AI 做一集《后西游记》同款长剧？手把手教你",
+          "summary": "教用户如何使用 AI 视频工具（如 Runway、Pika）生成连贯剧情视频，包括分镜设计、角色一致性等。",
+          "key_points": [
+            "脚本生成：用 ChatGPT 写分镜脚本",
+            "角色一致性：用 Midjourney 生成角色参考图",
+            "视频生成：用 Runway 生成片段，剪映拼接"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI 长剧的 5 个坑：从《后西游记》学到的经验",
+          "summary": "指出 AI 视频制作中的常见问题，如角色不一致、动作不连贯、版权风险等。",
+          "pitfalls": [
+            "角色一致性难以保持：需使用参考图或 LoRA",
+            "动作连贯性差：生成片段间需要转场处理",
+            "版权风险：AIGC 内容可能涉及侵权"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "AIGC 长剧开播，影视行业将被颠覆？",
+          "summary": "分析 AIGC 长剧对传统影视制作的影响，探讨 AI 视频技术的现状与未来。",
+          "insights": [
+            "AI 视频降低制作门槛，但质量仍不及传统影视",
+            "\"边审边播\"模式可能成为新趋势",
+            "影视从业者需要转型，拥抱 AI 工具"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "非程序员用 AI 年入 10 万美元？Vibe Coding 变现指南",
+      "track": "creator_economy",
+      "track_name": "自媒体/创作者经济",
+      "target_audience": "想用 AI 变现的个人、非程序员、副业者",
+      "reason": "Vibe Coding 是热点，与用户副业变现方向契合，可结合用户 AI 工具能力提供实操建议。",
+      "source_items": [
+        "How Non-Coders Are Vibe Coding $100K+ Businesses With AI | Amol Jain"
+      ],
+      "source_urls": [
+        "https://creatoreconomy.so/p/how-non-coders-are-vibe-coding-100k-businesses-with-ai-amol-jain-replit"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "零代码开发：用 Vibe Coding 打造你的第一个 AI 应用",
+          "summary": "教非程序员如何使用 AI 编程工具（如 Replit、Cursor）构建简单应用，实现自动化。",
+          "key_points": [
+            "选择工具：Replit 或 Cursor，无需本地环境",
+            "描述需求：用自然语言告诉 AI 你要什么",
+            "迭代优化：根据 AI 生成的代码进行调试"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "Vibe Coding 的 4 个陷阱：别让你的 AI 应用变成烂尾楼",
+          "summary": "指出 Vibe Coding 常见问题，如代码质量差、安全漏洞、维护困难等。",
+          "pitfalls": [
+            "代码质量不可控：AI 生成的代码可能难以维护",
+            "安全漏洞：AI 可能生成不安全的代码",
+            "依赖风险：过度依赖 AI，缺乏调试能力"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "Vibe Coding 是泡沫还是未来？非程序员创业的新机遇",
+          "summary": "分析 Vibe Coding 对创业生态的影响，探讨其可持续性。",
+          "insights": [
+            "Vibe Coding 降低技术门槛，但商业能力更重要",
+            "AI 编程工具将改变软件行业就业结构",
+            "非程序员创业者需要关注产品与市场，而非代码"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "AI 会话隐私危机：ChatGPT/Claude 如何彻底忘记你？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、AI开发者、企业AI使用者",
-      "reason": "结合OpenAI安全事件和用户提示词工程专长，提供实用防御技巧。",
+      "target_audience": "AI工具使用者、关注隐私的普通用户",
+      "reason": "用户对 AI 隐私问题高度关注，且该话题具有普遍性，可结合实操与避坑。",
       "source_items": [
-        "OpenAI's Hugging Face incident report says AI agents used exploits to gain full admin access to OpenAI's own research cluster supporting its VM environments",
         "Ask HN: How do I make sure ChatGPT/Claude/Gemini forget all prior conversations?"
       ],
       "source_urls": [
-        "https://www.techmeme.com/260830/p4",
         "https://news.ycombinator.com/item?id=49498450"
       ],
       "urgency": "medium",
@@ -272,88 +391,26 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "提示词工程进阶：如何设计安全的AI Agent提示词？",
-          "summary": "教用户如何通过提示词设计增强AI Agent的安全性。",
+          "hook": "一键清除 AI 对话记录：ChatGPT/Claude/Gemini 隐私设置指南",
+          "summary": "教用户如何删除 AI 对话记录、关闭历史记录功能，保护隐私。",
           "key_points": [
-            "定义清晰的权限边界",
-            "使用系统级提示词限制Agent行为",
-            "添加异常检测提示词"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "45分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI Agent被攻击的5个提示词漏洞，你中招了吗？",
-          "summary": "指出常见的提示词注入攻击方式，提供防御策略。",
-          "pitfalls": [
-            "未过滤用户输入中的恶意指令",
-            "提示词中泄露敏感信息",
-            "缺乏对Agent输出的验证"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "从OpenAI安全事件看提示词工程的未来：安全将成为核心",
-          "summary": "分析提示词工程在AI安全中的角色，以及未来趋势。",
-          "insights": [
-            "提示词注入将成为AI安全的主要威胁",
-            "提示词工程需要标准化和工具化",
-            "AI安全将催生新的职业方向"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "title": "AI版权时代来临：你的商标注册了吗？",
-      "track": "ip",
-      "track_name": "商标/IP/创业",
-      "target_audience": "AI创作者、小微企业主、创业者",
-      "reason": "结合AI版权诉讼热点，自然引流商标注册业务，且用户擅长AIGC剧情向视频。",
-      "source_items": [
-        "Sony Music and Warner Chappell sue Anthropic over song lyrics in Claude’s training data",
-        "handsomestWei / patent-disclosure-skill"
-      ],
-      "source_urls": [
-        "https://thenextweb.com/news/sony-warner-chappell-anthropic-lyrics-lawsuit-gema-munich-tdm",
-        "https://github.com/handsomestWei/patent-disclosure-skill"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "AI创作者必看：如何为你的AI品牌注册商标？",
-          "summary": "教AI创作者如何注册商标，保护自己的品牌。",
-          "key_points": [
-            "确定商标类别",
-            "进行商标检索",
-            "提交注册申请"
+            "ChatGPT：设置中关闭聊天记录保存",
+            "Claude：删除特定对话或清空所有历史",
+            "Gemini：使用无痕模式或定期清理"
           ],
           "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "estimated_time": "10分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI创业的商标陷阱：这些坑让你血本无归",
-          "summary": "指出AI创业中商标注册的常见误区。",
+          "hook": "你以为删了对话就没事了？AI 隐私的 3 个隐藏陷阱",
+          "summary": "揭示 AI 对话记录删除的局限性，如服务器备份、数据用于训练等。",
           "pitfalls": [
-            "忽视商标检索导致侵权",
-            "选择错误的商标类别",
-            "未及时注册导致被抢注"
+            "删除对话可能不彻底：服务器仍有备份",
+            "数据可能用于模型训练：需主动选择退出",
+            "第三方插件可能泄露对话内容"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -362,12 +419,72 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI版权大战：从Sony诉Anthropic看知识产权的新边界",
-          "summary": "分析AI版权诉讼对知识产权体系的影响，以及创作者如何应对。",
+          "hook": "AI 记忆的代价：你的对话数据如何被使用？",
+          "summary": "探讨 AI 公司如何存储和使用用户对话数据，以及隐私法规的影响。",
           "insights": [
-            "AI生成内容的版权归属将成法律焦点",
-            "商标注册将成为AI创作者的护城河",
-            "知识产权服务将迎来新需求"
+            "对话数据是 AI 公司的核心资产，用于改进模型",
+            "GDPR 等法规赋予用户删除权，但执行困难",
+            "用户需要权衡便利与隐私，选择可信赖的服务"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "AI 智能体训练新趋势：OpenAI 买数万台 Mac，为什么？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI技术爱好者、开发者、关注AI基础设施的人",
+      "reason": "OpenAI 购买 Mac 训练智能体，反常识且能引发讨论，可深度解读 AI 训练硬件趋势。",
+      "source_items": [
+        "OpenAI等实验室购买数万台Mac用于智能体训练"
+      ],
+      "source_urls": [
+        "https://36kr.com/newsflashes/3962852897062273?f=rss"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "Mac 也能跑 AI 智能体？本地部署指南",
+          "summary": "教用户如何在 Mac 上运行轻量级 AI 智能体，利用 M 系列芯片的算力。",
+          "key_points": [
+            "安装 Ollama 或 LM Studio，运行本地模型",
+            "使用 AutoGPT 或 BabyAGI 框架搭建简单智能体",
+            "优化性能：利用 Metal 加速"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "40分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "Mac 跑 AI 的 3 个误区：别被性能宣传忽悠",
+          "summary": "指出 Mac 运行 AI 模型的常见误区，如内存不足、兼容性问题等。",
+          "pitfalls": [
+            "内存不足：大模型需要大量统一内存",
+            "兼容性：部分框架不支持 Apple Silicon",
+            "性能夸大：实际推理速度可能不如预期"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "为什么 OpenAI 选择 Mac？智能体训练硬件的新逻辑",
+          "summary": "分析 OpenAI 购买 Mac 的深层原因，探讨智能体训练对硬件的新需求。",
+          "insights": [
+            "Mac 的统一内存架构适合大模型推理",
+            "智能体训练需要大量并行环境，Mac 能效比高",
+            "苹果生态可能成为 AI 硬件的重要玩家"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -376,22 +493,22 @@
     }
   ],
   "weekly_plan": {
-    "monday": "AI巨头被索赔150亿：你的AI工具可能正在侵权，如何自查？",
-    "wednesday": "Claude Code限额调整：看似涨了25%，实际缩水17%，你被坑了吗？",
-    "friday": "非程序员用AI年入10万+：Vibe Coding实战指南",
-    "strategy": "本周主打AI版权和AI安全热点，结合副业变现，利用冲突性标题吸引流量，并自然植入商标注册服务。"
+    "monday": "AI Agent 失控实录：OpenAI 自己都被 AI 攻破了，你的智能体安全吗？",
+    "wednesday": "Claude Code 用量暗改：说是涨了，实际却降了？",
+    "friday": "首部 AIGC 长剧《后西游记》开播：AI 视频要取代传统影视？",
+    "strategy": "本周主打 AI 安全与版权热点，结合实操教程和避坑指南，吸引初学者关注，同时穿插 AIGC 视频内容引流。"
   },
-  "insights": "今日信息流显示AI版权诉讼和AI Agent安全成为焦点，创作者应抓住这些高冲突性话题，结合自身商标业务和提示词专长，产出实用内容。",
-  "ai_adjustment": "本次推荐基于用户历史反馈，优先选择了AI技术和IP赛道，避开了硬件类选题，并加强了实操性和避坑内容，以匹配用户偏好。",
-  "generated_at": "2026-08-30T23:05:20.882109+08:00",
-  "total_items": 262,
-  "scored_items": 201,
+  "insights": "今日信息流中 AI 安全事件（OpenAI 被攻破）和版权诉讼（索尼起诉 Anthropic）成为焦点，反常识性强，适合制造传播。",
+  "ai_adjustment": "基于用户反馈，本次推荐优先选择反常识性强、与 AI 工具实操相关的选题，并增加了 AI 安全与版权内容，避开纯硬件和 OpenAI 教程类选题。",
+  "generated_at": "2026-08-31T12:07:47.437987+08:00",
+  "total_items": 287,
+  "scored_items": 224,
   "tracks_summary": {
-    "ai_tech": 193,
+    "ai_tech": 211,
+    "trademark_business": 4,
     "ai_video": 4,
-    "creator_economy": 1,
-    "growth_monetize": 2,
-    "trademark_business": 1
+    "creator_economy": 4,
+    "growth_monetize": 1
   },
   "engine_version": "v2",
   "engine_params": {
