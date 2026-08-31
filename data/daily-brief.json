@@ -78,6 +78,14 @@
         "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 10,
+      "persona_review": "广告收入数据与开发者工作无关，是商业新闻。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-31T15:07:31.589121Z"
       }
     },
     {
@@ -184,6 +192,14 @@
         "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work",
         "source": "Simon Willison 博客",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "一篇概念解析文章，帮你理解新名词，但对实际开发无直接影响。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-31T15:07:31.589121Z"
       }
     },
     {
@@ -260,6 +276,14 @@
         "url": "https://www.ithome.com/0/996/637.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "开源多模态模型可直接下载部署，对标Opus-4.8是重要参考。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-31T15:07:31.589121Z"
       }
     },
     {
@@ -336,6 +360,14 @@
         "url": "https://www.aibase.com/news/30730",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "提醒开发者检查 Claude 会话安全，建议立即更新密码并启用双因素认证。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-31T15:07:31.589121Z"
       }
     },
     {
@@ -411,6 +443,14 @@
         "url": "https://www.oneusefulthing.org/p/agency-and-agents",
         "source": "Ethan Mollick：One Useful Thing（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "安全警示，提醒开发者检查自己部署的智能体权限设置。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-31T15:07:31.589121Z"
       }
     },
     {
@@ -487,6 +527,14 @@
         "url": "https://www.aibase.com/news/30719",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 30,
+      "persona_review": "法规变化与具体开发无关，是产品经理和法务需要跟进的事。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-31T15:07:31.589121Z"
       }
     },
     {
@@ -562,6 +610,14 @@
         "url": "https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ%3D%3D&mid=2247489121&idx=1&sn=f517f5cee108929b49d2b596ebf96a06",
         "source": "公众号：MiniMax（稀宇科技）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 65,
+      "persona_review": "提供了一个现成的AI直播应用案例，开发者可参考其架构和实现思路。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-31T15:07:31.589121Z"
       }
     },
     {
@@ -638,6 +694,14 @@
         "url": "https://www.aibase.com/news/30722",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "提醒你检查Claude账号安全，并备份重要对话记录。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-31T15:07:31.589121Z"
       }
     },
     {
@@ -714,6 +778,14 @@
         "url": "https://www.aibase.com/news/30718",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 40,
+      "persona_review": "只是预训练完成，没开放API或论文，知道有这么个事就行。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-31T15:07:31.589121Z"
       }
     },
     {
@@ -790,6 +862,14 @@
         "url": "https://www.aibase.com/news/30720",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "底层重构可能影响现有项目稳定性，多人会话是实用新功能。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-31T15:07:31.589121Z"
       }
     },
     {
@@ -866,6 +946,14 @@
         "url": "https://www.aibase.com/news/30721",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "新AI工具上线，但未开放使用或提供具体方案，目前只能观望。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-31T15:07:31.589121Z"
       }
     },
     {
@@ -942,6 +1030,14 @@
         "url": "https://www.aibase.com/news/30726",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 25,
+      "persona_review": "股价涨跌跟写代码无关，等它发布新模型或降价再说。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-31T15:07:31.589121Z"
       }
     },
     {
@@ -1075,6 +1171,14 @@
         "url": "https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model",
         "source": "kuleshov-group.github.io",
         "source_name": "Buzzing"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "开源博客提供构建教程，想复现或研究扩散模型可参考。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-31T15:07:31.589121Z"
       }
     },
     {
@@ -1179,6 +1283,14 @@
         "url": "https://news.ycombinator.com/item?id=49510000",
         "source": "hackernews",
         "source_name": "NewsNow"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "通用工具技巧合集，属于常规知识整理，没有新东西。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-31T15:07:31.589121Z"
       }
     },
     {
@@ -1255,6 +1367,14 @@
         "url": "https://www.aibase.com/news/30717",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 25,
+      "persona_review": "内部股权激励与你无关，不影响外部产品价格或API。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-31T15:07:31.589121Z"
       }
     },
     {
@@ -1359,6 +1479,14 @@
         "url": "https://openclaw.ai/blog/openclaw-2-accidentally",
         "source": "openclaw.ai",
         "source_name": "Buzzing"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "开源工具大版本发布，做RAG或Agent的开发者可以评估新特性了。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-31T15:07:31.589121Z"
       }
     },
     {
@@ -1463,6 +1591,14 @@
         "url": "https://sander.ai/2026/08/24/continuous-dlms.html",
         "source": "sander.ai",
         "source_name": "Buzzing"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "新研究思路，了解即可，离实用落地还远。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-31T15:07:31.589121Z"
       }
     },
     {
@@ -1539,6 +1675,14 @@
         "url": "https://www.aibase.com/news/30724",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "法律纠纷离日常开发很远，不用为此调整技术选型。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-31T15:07:31.589121Z"
       }
     },
     {
@@ -1643,6 +1787,14 @@
         "url": "https://news.ycombinator.com/item?id=49506655",
         "source": "hackernews",
         "source_name": "NewsNow"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "一个关于AI代理失控的警示案例，提醒你部署前做好权限隔离。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-31T15:07:31.589121Z"
       }
     },
     {
@@ -1719,6 +1871,14 @@
         "url": "https://www.aibase.com/news/30725",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "预览版未开放，参数翻倍对开发者暂无实际影响，等API。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-08-31T15:07:31.589121Z"
       }
     }
   ]

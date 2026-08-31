@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T09:09:16.563306Z",
+  "generated_at": "2026-08-31T15:08:12.291821Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,42 +17,42 @@
   ],
   "items": [
     {
-      "story_id": "story_2f756534b2bf",
-      "title": "How to build a diffusion language model",
-      "url": "https://news.ycombinator.com/item?id=49503956",
+      "story_id": "story_5f8cb23153f3",
+      "title": "DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8",
+      "url": "https://www.ithome.com/0/996/637.htm",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 75,
-          "review": "标题是‘如何构建’，不是‘我们已构建’，干货程度取决于教程本身。"
+          "score": 65,
+          "review": "‘接近’是个好词，具体是哪个榜单、哪个任务接近，敢不敢亮出来比比？"
         },
         "paper-police": {
-          "score": 40,
-          "review": "仅有技术博客介绍方法，缺乏论文、代码及公开评测结果。"
+          "score": 65,
+          "review": "有开源代码，但宣称接近Opus-4.8需论文或公开评测数据支撑。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "开源实现或详细教程，想复现或改进扩散模型可直接参考。"
+          "review": "开源多模态模型可直接下载部署，对标Opus-4.8是重要参考。"
         }
       }
     },
     {
-      "story_id": "story_78610e902a47",
-      "title": "默认情况下，将 Claude 会话 URL 附加到提交信息和 PR 描述中",
-      "url": "https://github.com/anthropics/claude-code/issues/66504",
+      "story_id": "story_0f2732ec5e84",
+      "title": "Anthropic 发安全警报：信息窃取木马盗走部分用户 Claude 登录会话",
+      "url": "https://www.aibase.com/news/30730",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "功能实用，但‘多源热议’这标签，不过是三个网站来回说同一件事。"
+          "score": 75,
+          "review": "安全警报还算及时，但自家产品被当跳板，这安全牌打得有点疼。"
         },
         "paper-police": {
           "score": 15,
-          "review": "仅有功能讨论和需求提议，无模型性能证据，无法评估。"
+          "review": "仅有媒体报道，无官方公告或技术报告佐证，证据等级低。"
         },
         "pragmatic": {
-          "score": 85,
-          "review": "开源工具更新，现在能自动将 Claude 对话链接附到代码提交里，方便追溯。"
+          "score": 75,
+          "review": "提醒开发者检查 Claude 会话安全，建议立即更新密码并启用双因素认证。"
         }
       }
     },

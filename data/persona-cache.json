@@ -1,72 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_1c29972a7c81|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "蒸馏降本是实用方向，若开源可少烧 GPU，先看有没有仓库。",
-      "title_hash": "b63f0767",
-      "scored_at": "2026-08-10T10:53:26.026503Z"
-    },
-    "story_051c42befe67|pragmatic|0a5c5b24": {
-      "score": 50,
-      "review": "政策定向产业红利，找落户补贴的团队可留意，写代码的暂不用动。",
-      "title_hash": "a84853ad",
-      "scored_at": "2026-08-10T10:53:27.935338Z"
-    },
-    "story_4b75b6d902d4|pragmatic|0a5c5b24": {
-      "score": 20,
-      "review": "愿景不写代码，等有产品再看。",
-      "title_hash": "7dd7fb0c",
-      "scored_at": "2026-08-10T10:53:29.617637Z"
-    },
-    "story_5b5d1dfa241f|pragmatic|0a5c5b24": {
-      "score": 50,
-      "review": "调用量榜是营销话术，无具体模型和价格信息，不用行动。",
-      "title_hash": "cdf348e0",
-      "scored_at": "2026-08-10T10:53:33.499711Z"
-    },
-    "story_895e60ee83c3|pragmatic|0a5c5b24": {
-      "score": 82,
-      "review": "开源可自部署，本地多模态智能体，直接上手试。",
-      "title_hash": "ca2c4dbd",
-      "scored_at": "2026-08-10T12:14:49.523305Z"
-    },
-    "story_376615090e56|pragmatic|0a5c5b24": {
-      "score": 75,
-      "review": "开源权重即将放出，可提前评估接入，但别急着改代码。",
-      "title_hash": "1639a359",
-      "scored_at": "2026-08-10T12:14:53.278040Z"
-    },
-    "story_3711c7beb745|pragmatic|0a5c5b24": {
-      "score": 88,
-      "review": "SGLang 当天支持 Muse Glimmer，跑本地 agent 工作流的可以直接上手。",
-      "title_hash": "a11ef51f",
-      "scored_at": "2026-08-10T12:14:55.580305Z"
-    },
-    "story_3711c7beb745|cynic|f4237a62": {
-      "score": 55,
-      "review": "Day-0支持成了标配，优化的延迟和吞吐数据呢？别只发贺电。",
-      "title_hash": "a11ef51f",
-      "scored_at": "2026-08-10T12:14:59.417606Z"
-    },
-    "story_3711c7beb745|paper-police|966065bf": {
-      "score": 25,
-      "review": "只有合作博客，无评测细节和开源代码，性能存疑待验证。",
-      "title_hash": "a11ef51f",
-      "scored_at": "2026-08-10T12:15:02.498030Z"
-    },
-    "story_88c4bb049e16|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "GPT-5.6 已开放，金融任务可直接接 API，提效明显，适合立即试用。",
-      "title_hash": "b20dacb9",
-      "scored_at": "2026-08-10T13:58:48.131565Z"
-    },
-    "story_d49cfe84ff4f|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "用该订阅的得提前找替代，不用则忽略。",
-      "title_hash": "efa487d5",
-      "scored_at": "2026-08-10T13:58:54.969181Z"
-    },
     "story_1ad67226f47b|pragmatic|0a5c5b24": {
       "score": 55,
       "review": "政策游说信，不涉及API或工具变化，做开发的当行业动向了解即可。",
@@ -4754,10 +4688,10 @@
       "scored_at": "2026-08-31T04:05:17.288628Z"
     },
     "story_2f756534b2bf|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "开源实现或详细教程，想复现或改进扩散模型可直接参考。",
-      "title_hash": "5ded7e08",
-      "scored_at": "2026-08-31T04:05:21.627517Z"
+      "score": 75,
+      "review": "开源博客提供构建教程，想复现或研究扩散模型可参考。",
+      "title_hash": "63129cb2",
+      "scored_at": "2026-08-31T15:07:48.084739Z"
     },
     "story_50ddc3c0d54e|pragmatic|0a5c5b24": {
       "score": 35,
@@ -4902,6 +4836,60 @@
       "review": "仅有新闻通稿，无技术论文、开源代码及可复现的评测数据。",
       "title_hash": "4518c653",
       "scored_at": "2026-08-31T09:09:16.563252Z"
+    },
+    "story_b5eed0f3b98c|pragmatic|0a5c5b24": {
+      "score": 10,
+      "review": "广告收入数据与开发者工作无关，是商业新闻。",
+      "title_hash": "374d8da0",
+      "scored_at": "2026-08-31T15:07:36.654576Z"
+    },
+    "story_5f8cb23153f3|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "开源多模态模型可直接下载部署，对标Opus-4.8是重要参考。",
+      "title_hash": "919002e8",
+      "scored_at": "2026-08-31T15:07:40.127555Z"
+    },
+    "story_0f2732ec5e84|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "提醒开发者检查 Claude 会话安全，建议立即更新密码并启用双因素认证。",
+      "title_hash": "a0ee8417",
+      "scored_at": "2026-08-31T15:07:44.224773Z"
+    },
+    "story_1820ecd798ef|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "通用工具技巧合集，属于常规知识整理，没有新东西。",
+      "title_hash": "0c3a86d8",
+      "scored_at": "2026-08-31T15:07:51.667875Z"
+    },
+    "story_492835039be8|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "开源工具大版本发布，做RAG或Agent的开发者可以评估新特性了。",
+      "title_hash": "7e23cdcb",
+      "scored_at": "2026-08-31T15:07:55.897695Z"
+    },
+    "story_5f8cb23153f3|cynic|f4237a62": {
+      "score": 65,
+      "review": "‘接近’是个好词，具体是哪个榜单、哪个任务接近，敢不敢亮出来比比？",
+      "title_hash": "919002e8",
+      "scored_at": "2026-08-31T15:07:59.692762Z"
+    },
+    "story_5f8cb23153f3|paper-police|966065bf": {
+      "score": 65,
+      "review": "有开源代码，但宣称接近Opus-4.8需论文或公开评测数据支撑。",
+      "title_hash": "919002e8",
+      "scored_at": "2026-08-31T15:08:04.016529Z"
+    },
+    "story_0f2732ec5e84|cynic|f4237a62": {
+      "score": 75,
+      "review": "安全警报还算及时，但自家产品被当跳板，这安全牌打得有点疼。",
+      "title_hash": "a0ee8417",
+      "scored_at": "2026-08-31T15:08:09.164012Z"
+    },
+    "story_0f2732ec5e84|paper-police|966065bf": {
+      "score": 15,
+      "review": "仅有媒体报道，无官方公告或技术报告佐证，证据等级低。",
+      "title_hash": "a0ee8417",
+      "scored_at": "2026-08-31T15:08:12.291749Z"
     }
   }
 }
