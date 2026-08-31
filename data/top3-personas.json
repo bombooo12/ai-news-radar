@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T04:06:54.454039Z",
+  "generated_at": "2026-08-31T09:09:16.563306Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -57,22 +57,22 @@
       }
     },
     {
-      "story_id": "story_71cf283c5230",
-      "title": "不到四百美元还能自己动手训练！Hugging Face 推出微型开源双足机器人Microduck",
-      "url": "https://www.aibase.com/news/30705",
+      "story_id": "story_fb04a48586f4",
+      "title": "OpenClaw2.0正式发布:重构底层架构，支持多人共享云端会话",
+      "url": "https://www.aibase.com/news/30720",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 78,
-          "review": "开源和价格是亮点，但‘双足’的实用性和稳定性，恐怕得先过自家地板这一关。"
+          "score": 55,
+          "review": "“重构”和“共享”是云服务的基操，没提性能提升多少，更像版本号营销。"
         },
         "paper-police": {
-          "score": 40,
-          "review": "报道提及开源机器人，但未见论文与独立评测，证据尚不充分。"
+          "score": 15,
+          "review": "仅有新闻通稿，无技术论文、开源代码及可复现的评测数据。"
         },
         "pragmatic": {
           "score": 75,
-          "review": "开源机器人套件，想动手搞具身智能的可以研究代码和硬件方案了。"
+          "review": "底层重构可能影响现有项目稳定性，多人会话是实用新功能。"
         }
       }
     }
