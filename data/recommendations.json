@@ -3,24 +3,22 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "Claude 被曝入侵企业网络？AI Agent 安全危机全解析与防御指南",
+      "title": "AI智能体集体越狱事件：你的AI Agent安全吗？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、企业用户、AI工具使用者",
-      "reason": "Anthropic 首度详解 Claude 越权事件，安全话题自带流量，且与 Agent 实践直接相关，符合用户对 Agent 的兴趣。",
+      "target_audience": "AI初学者、使用Agent的个人开发者、企业用户",
+      "reason": "AI智能体安全事件是当前热点，与创作者AI赛道高度相关，且容易引发用户对AI工具安全的关注，传播潜力大。",
       "source_items": [
+        "1200 个 AI 智能体集体“越狱”攻击开源社区：独立调查揭出比 OpenAI 自述更严重的真相",
         "防护被关、误连外网：Anthropic 首度详解 Claude“入侵”真实企业事件，全面升级安全防线",
         "Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施",
-        "Anthropic 发安全警报：信息窃取木马盗走部分用户 Claude 登录会话",
-        "Anthropic tightens security on its training environment after Claude agents went rogue 3 times",
-        "Anthropic details security efforts following Claude cyber evaluation incidents, including a weeks-long pause on higher-risk RL and work to curb reward hacking"
+        "Anthropic 发安全警报：信息窃取木马盗走部分用户 Claude 登录会话"
       ],
       "source_urls": [
+        "https://www.aibase.com/news/30752",
         "https://www.aibase.com/news/30736",
         "https://www.anthropic.com/news/improving-alignment-security-efforts",
-        "https://www.aibase.com/news/30730",
-        "https://www.businessinsider.com/anthropic-tightens-training-security-after-claude-agents-went-rogue-2026-8",
-        "https://www.techmeme.com/260831/p43"
+        "https://www.aibase.com/news/30730"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -29,12 +27,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "Claude 越权事件后，如何安全使用 AI Agent？一份给初学者的安全配置指南",
-          "summary": "教用户如何设置权限、隔离环境、监控 Agent 行为，避免类似风险。",
+          "hook": "5步检查你的AI Agent是否安全，防止被越狱攻击",
+          "summary": "教用户如何自查AI Agent的安全配置，避免被恶意指令利用。",
           "key_points": [
-            "理解 Claude Agent 的权限模型与默认配置",
-            "设置最小权限原则与网络隔离",
-            "监控 Agent 日志与异常行为"
+            "检查Agent的权限设置，限制敏感操作",
+            "使用安全沙箱隔离Agent运行环境",
+            "定期更新AI工具和依赖库，修复已知漏洞"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -43,12 +41,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI Agent 越权、盗号？这5个安全坑你必须避开",
-          "summary": "盘点 Anthropic 事件中暴露的常见安全误区，提供规避方法。",
+          "hook": "AI Agent越狱事件频发，这些安全坑你千万别踩",
+          "summary": "列出AI Agent使用中常见的安全陷阱和规避方法。",
           "pitfalls": [
-            "随意关闭安全防护导致越权",
-            "在共享网络环境使用 Agent 导致会话被窃",
-            "忽视 Agent 的权限审查与更新"
+            "不要给Agent开放过多系统权限，防止被滥用",
+            "避免在Agent中存储敏感信息，如密码、API密钥",
+            "警惕第三方Agent插件，可能携带恶意代码"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -57,12 +55,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从 Claude 事件看 AI Agent 安全：企业部署的信任危机与未来",
-          "summary": "分析事件背后的技术原因、行业影响，以及 AI Agent 安全的发展趋势。",
+          "hook": "AI智能体越狱事件背后：开源社区的信任危机与安全博弈",
+          "summary": "分析AI智能体安全事件对开源社区和AI生态的影响，探讨未来的安全趋势。",
           "insights": [
-            "AI Agent 的自主性带来新的安全挑战",
-            "安全对齐将成为 Agent 落地的关键门槛",
-            "企业部署 Agent 需要建立新的安全评估体系"
+            "开源社区的开放性带来安全挑战，需要更严格的审查机制",
+            "AI安全对齐技术仍不成熟，需要更多研究和投入",
+            "企业对AI安全的重视将催生新的安全服务市场"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -71,34 +69,34 @@
     },
     {
       "rank": 2,
-      "title": "Runway 发布 Solaris：实时生成操作界面，AI 视频进入新纪元？",
+      "title": "Runway Solaris：首个界面世界模型，AI视频生成的新革命？",
       "track": "ai_video",
       "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI视频创作者、设计师、技术爱好者",
-      "reason": "Runway 新模型 Solaris 是 AI 视频领域的重大突破，用户偏好新工具，且与视频剪辑能力高度相关。",
+      "target_audience": "AI视频创作者、剪辑师、对AI生成内容感兴趣的用户",
+      "reason": "Runway发布新模型是AI视频领域的重要进展，创作者擅长视频内容，可结合实操演示，吸引AI视频爱好者。",
       "source_items": [
+        "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
         "Runway 发布 Solaris：首个界面世界模型，实时生成操作系统级交互界面",
-        "Runway to Reality: AI Fashion Hackathon",
-        "v4.17.1"
+        "Runway to Reality: AI Fashion Hackathon"
       ],
       "source_urls": [
+        "https://www.aibase.com/news/30756",
         "https://runwayml.com/news/research/introducing-solaris",
-        "https://www.meetup.com/google-developer-groups-brooklyn/events/316246126",
-        "https://github.com/runwayml/sdk-node/releases/tag/v4.17.1"
+        "https://www.meetup.com/google-developer-groups-brooklyn/events/316246126"
       ],
-      "urgency": "high",
+      "urgency": "medium",
       "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "视频",
-          "hook": "Runway Solaris 上手实操：如何用一句话生成可交互的 UI 界面？",
-          "summary": "演示如何使用 Solaris 生成界面视频，并集成到剪辑流程中。",
+          "hook": "用Runway Solaris生成动态UI界面，3分钟上手教程",
+          "summary": "演示如何使用Solaris创建动态界面视频，适合UI设计师和视频创作者。",
           "key_points": [
-            "注册并访问 Solaris 功能",
-            "输入描述生成界面视频",
-            "将生成的视频导入剪映进行二次创作"
+            "注册并登录Runway平台，找到Solaris模型",
+            "输入描述性提示词，生成界面视频片段",
+            "导出视频并在剪映中进一步编辑和包装"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -107,12 +105,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "Runway Solaris 虽强，但这些限制和坑你知道吗？",
-          "summary": "指出 Solaris 的局限性，如生成速度、分辨率、版权问题，帮助用户合理预期。",
+          "hook": "Runway Solaris实测：这些限制和坑你需要注意",
+          "summary": "分享使用Solaris时可能遇到的问题，如生成质量、版权风险等。",
           "pitfalls": [
-            "生成内容可能包含不准确元素",
-            "免费版功能限制多",
-            "生成的界面可能涉及版权风险"
+            "生成界面可能包含不准确或模糊的文本，需后期修正",
+            "免费版有生成次数限制，注意计划选择",
+            "生成的视频可能涉及版权问题，商用需谨慎"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -121,12 +119,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "界面世界模型将如何改变 UI/UX 设计与视频制作？",
-          "summary": "探讨 Solaris 对设计行业和内容创作的影响，以及未来可能性。",
+          "hook": "界面世界模型Solaris：AI视频生成的下一个风口？",
+          "summary": "分析Solaris对AI视频生成领域的影响，以及未来可能的应用场景。",
           "insights": [
-            "界面生成将降低设计门槛",
-            "视频制作与 UI 设计边界模糊",
-            "对传统设计工具构成潜在威胁"
+            "Solaris将改变UI/UX设计流程，实现快速原型制作",
+            "实时生成能力可能推动游戏和交互媒体发展",
+            "对传统视频制作工具构成潜在威胁，但仍有技术局限"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -135,11 +133,11 @@
     },
     {
       "rank": 3,
-      "title": "OpenAI 广告业务年化收入破 10 亿美元：ChatGPT 的商业化野心",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI行业观察者、创业者、自媒体人",
-      "reason": "ChatGPT 广告业务里程碑事件，数据驱动型选题，符合用户偏好，且与创作者经济相关。",
+      "title": "ChatGPT广告业务年收入破10亿美元，AI广告时代来了？",
+      "track": "creator_economy",
+      "track_name": "自媒体/创作者经济",
+      "target_audience": "自媒体创作者、广告从业者、对AI变现感兴趣的用户",
+      "reason": "ChatGPT广告业务增长是创作者经济的重要信号，可结合创作者自身变现需求，提供AI广告的机遇分析。",
       "source_items": [
         "OpenAI says its ChatGPT ad business hits a $1 billion annual run rate",
         "OpenAI’s ChatGPT ads business hits $1 billion run rate as Europe gets self-serve access",
@@ -157,12 +155,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "ChatGPT 广告收入破10亿，普通创作者如何从中分一杯羹？",
-          "summary": "介绍如何利用 ChatGPT 进行内容创作和广告变现，包括联盟营销和广告投放。",
+          "hook": "如何在ChatGPT上投放广告？新手入门指南",
+          "summary": "介绍ChatGPT广告的投放方式、费用和优化技巧，帮助创作者和商家获取流量。",
           "key_points": [
-            "了解 ChatGPT 广告生态与投放方式",
-            "利用 ChatGPT 生成广告文案与创意",
-            "结合自媒体平台进行变现"
+            "了解ChatGPT广告的投放平台和入口",
+            "设置广告预算和定向人群",
+            "优化广告文案和投放策略，提高转化率"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -171,12 +169,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "ChatGPT 广告业务背后的坑：创作者需要警惕的 3 个问题",
-          "summary": "分析广告业务对用户体验的影响、数据隐私问题，以及创作者可能面临的竞争。",
+          "hook": "ChatGPT广告投放的5个常见误区，避免浪费预算",
+          "summary": "指出在ChatGPT广告投放中容易犯的错误，帮助用户避免损失。",
           "pitfalls": [
-            "广告可能影响用户信任",
-            "数据隐私风险",
-            "广告主可能转向 AI 生成内容，挤压创作者空间"
+            "广告文案过于生硬，不符合AI对话场景，导致点击率低",
+            "未设置好转化跟踪，无法衡量广告效果",
+            "忽略广告频次控制，引起用户反感"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -185,12 +183,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从 10 亿广告收入看 OpenAI 的商业化路径与 AI 广告的未来",
-          "summary": "深入分析 OpenAI 广告业务的意义，对广告行业的影响，以及 AI 广告的潜在风险。",
+          "hook": "ChatGPT广告破10亿美元，AI广告将如何重塑营销行业？",
+          "summary": "分析AI广告的兴起对传统广告模式的冲击，以及未来的发展趋势。",
           "insights": [
-            "OpenAI 正在构建新的广告分发渠道",
-            "AI 广告将颠覆传统广告模式",
-            "伦理与监管问题将成为焦点"
+            "AI广告将实现更精准的用户定向和个性化推荐",
+            "广告主需要适应新的广告形式和互动方式",
+            "隐私保护法规将对AI广告提出新挑战"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -199,11 +197,11 @@
     },
     {
       "rank": 4,
-      "title": "AI 造剧也能拿收视第一？《后西游记》AIGC 长剧的爆红密码",
+      "title": "AI造剧《后西游记》收视第一，AIGC短剧的春天来了？",
       "track": "trademark_ip",
       "track_name": "商标/IP/创业",
-      "target_audience": "AIGC创作者、短剧从业者、影视爱好者",
-      "reason": "国内首部 AIGC 长剧开播即飘红，与用户 AIGC 剧情向内容偏好高度契合，且可结合商标 IP 引流。",
+      "target_audience": "短剧创作者、影视从业者、对AIGC应用感兴趣的用户",
+      "reason": "AIGC长剧成功案例与创作者商标代理业务相关，可结合AIGC剧情向内容引流，同时提供IP保护建议。",
       "source_items": [
         "AI 造剧也能拿收视第一：国内首部 AIGC 长剧《后西游记》开播即飘红",
         "从出片到出海：AI MediaKit 重塑短剧全链路生产力"
@@ -212,19 +210,19 @@
         "https://www.aibase.com/news/30743",
         "https://www.infoq.cn/article/L7P7cA3UMXXQJcBfyHuJ"
       ],
-      "urgency": "high",
+      "urgency": "medium",
       "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频",
-          "hook": "用 AI 做一部短剧？从剧本到成片的完整流程拆解",
-          "summary": "教用户如何利用 AI 工具（如 ChatGPT、Midjourney、剪映）制作一部 AIGC 短剧。",
+          "format": "图文",
+          "hook": "用AI工具制作一部短剧：从剧本到成片全流程",
+          "summary": "教用户如何利用AI工具（如ChatGPT、Midjourney、剪映）制作AIGC短剧。",
           "key_points": [
-            "用 AI 生成剧本与分镜",
-            "用 AI 生成角色与场景",
-            "用剪映进行剪辑与配音"
+            "使用ChatGPT生成剧本和分镜脚本",
+            "用Midjourney生成角色和场景图",
+            "用剪映合成视频并添加配音和字幕"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -233,12 +231,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AIGC 短剧爆火，但这些版权和商标坑你必须知道",
-          "summary": "提醒 AIGC 创作者注意版权归属、商标注册、平台规则等风险。",
+          "hook": "AIGC短剧创作中的版权风险，你了解吗？",
+          "summary": "提醒创作者在AIGC短剧中涉及的版权、商标问题，并提供规避建议。",
           "pitfalls": [
-            "AI 生成内容的版权归属不明确",
-            "角色名称可能涉及商标侵权",
-            "平台对 AIGC 内容的审核政策"
+            "使用AI生成的图像可能侵犯他人版权，需使用可商用素材",
+            "短剧名称和角色名需进行商标检索，避免侵权",
+            "AI生成内容可能无法获得版权保护，需注意平台规则"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -247,12 +245,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AIGC 长剧《后西游记》爆红背后：AI 内容创作的新纪元还是昙花一现？",
-          "summary": "分析 AIGC 长剧对影视行业的影响，以及内容创作的未来趋势。",
+          "hook": "《后西游记》爆火背后：AIGC短剧的商业模式与IP价值",
+          "summary": "分析AIGC短剧的商业潜力，以及如何通过IP保护和商标注册实现价值最大化。",
           "insights": [
-            "AIGC 降低影视制作门槛，但内容质量仍是关键",
-            "IP 与商标保护将成为 AIGC 产业的核心",
-            "传统影视公司可能面临转型压力"
+            "AIGC降低短剧制作门槛，但IP价值仍需商标和版权保护",
+            "短剧出海需要提前进行国际商标注册，避免纠纷",
+            "AI生成内容的版权归属问题将影响行业规范"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -261,44 +259,46 @@
     },
     {
       "rank": 5,
-      "title": "AI 视频入门：剪辑思维与转场技巧，让你的作品瞬间提升高级感",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI视频初学者、自媒体新手",
-      "reason": "社区更新内容，与用户定位高度匹配，实操性强，且用户擅长视频剪辑。",
+      "title": "Instagram打击AI网红不标注，自媒体人如何合规运营？",
+      "track": "creator_economy",
+      "track_name": "自媒体/创作者经济",
+      "target_audience": "自媒体创作者、AI网红运营者、品牌方",
+      "reason": "Instagram对AI网红的监管政策直接影响创作者，且与创作者AI赛道和商标代理业务相关，可提供合规建议。",
       "source_items": [
-        "AI视频入门——剪辑思维-转场-拉片提升审美"
+        "Instagram is cracking down on AI influencers who don't self-identify as AI",
+        "Instagram will demote AI-generated influencers if they don't clearly label their account"
       ],
       "source_urls": [
-        "https://waytoagi.feishu.cn/wiki/BSQUwrvyMi87ejkbw4Hc4jwnnOe?from=from_copylink"
+        "https://www.businessinsider.com/instagram-ai-generated-slop-creator-accounts-profile-label-2026-8",
+        "https://www.engadget.com/2246914/instagram-will-demote-ai-generated-influencers-if-they-dont-clearly-label-their-account"
       ],
-      "urgency": "medium",
+      "urgency": "high",
       "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频",
-          "hook": "零基础学 AI 视频剪辑：3 个转场技巧让作品瞬间高级",
-          "summary": "演示如何使用剪映实现专业级转场效果，提升视频质感。",
+          "format": "图文",
+          "hook": "AI网红如何正确标注？Instagram新规合规指南",
+          "summary": "教AI网红运营者如何设置账号标签，避免被降权。",
           "key_points": [
-            "理解剪辑思维与节奏",
-            "掌握常用转场类型与适用场景",
-            "通过拉片学习提升审美"
+            "在账号资料中明确标注AI生成身份",
+            "在内容中定期声明AI生成属性",
+            "遵守平台规则，避免误导用户"
           ],
           "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "estimated_time": "15分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI 视频剪辑新手常犯的 5 个错误，你中了几个？",
-          "summary": "指出新手在 AI 视频剪辑中的常见误区，如过度依赖模板、忽视音频等。",
+          "hook": "AI网红账号被降权？这些坑千万别踩",
+          "summary": "指出AI网红运营中常见的违规行为，帮助用户避免处罚。",
           "pitfalls": [
-            "滥用转场导致视觉疲劳",
-            "忽视音频与画面同步",
-            "过度依赖 AI 自动剪辑"
+            "不标注AI身份，导致账号被降权或封禁",
+            "使用AI生成内容冒充真人，引发信任危机",
+            "忽视平台政策更新，持续违规"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -307,12 +307,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI 时代，剪辑思维比工具更重要？",
-          "summary": "探讨 AI 工具普及后，创作者的核心竞争力是什么。",
+          "hook": "AI网红监管趋严，自媒体生态将如何演变？",
+          "summary": "分析平台对AI内容监管的趋势，以及对创作者经济和品牌合作的影响。",
           "insights": [
-            "AI 降低技术门槛，创意与叙事能力成为关键",
-            "剪辑思维是 AI 无法替代的人类优势",
-            "未来创作者需人机协作"
+            "AI内容透明化将成为行业标准，保护消费者权益",
+            "品牌方将更谨慎选择AI网红合作，注重合规性",
+            "创作者需要平衡AI使用与真实性，建立信任"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -321,30 +321,30 @@
     },
     {
       "rank": 6,
-      "title": "AI 配音出海：多语言内容创作的机遇与陷阱",
-      "track": "creator_economy",
-      "track_name": "自媒体/创作者经济",
-      "target_audience": "自媒体创作者、出海内容团队",
-      "reason": "AI 配音是创作者关注的热点，与用户视频制作能力结合，可拓展新方向。",
+      "title": "AI视频入门：剪辑思维与转场技巧，提升你的视频质感",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "AI视频初学者、剪辑新手、自媒体创作者",
+      "reason": "该选题直接面向AI初学者，提供实操教程，符合创作者定位，且内容形式为图文/视频，产能匹配。",
       "source_items": [
-        "Going Multilingual: What AI Dubbing Actually Does For Creators, and What It Doesn’t"
+        "AI视频入门——剪辑思维-转场-拉片提升审美"
       ],
       "source_urls": [
-        "https://influencermarketinghub.com/ai-dubbing-for-creators"
+        "https://waytoagi.feishu.cn/wiki/BSQUwrvyMi87ejkbw4Hc4jwnnOe?from=from_copylink"
       ],
-      "urgency": "medium",
+      "urgency": "low",
       "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频",
-          "hook": "用 AI 配音一键出海：如何将你的视频翻译成 10 种语言？",
-          "summary": "演示使用 AI 配音工具为视频添加多语言音轨，拓展海外受众。",
+          "format": "图文",
+          "hook": "AI视频剪辑入门：从零开始，掌握转场技巧",
+          "summary": "教初学者如何使用剪映等工具进行基础剪辑，特别是转场效果的应用。",
           "key_points": [
-            "选择合适的 AI 配音工具",
-            "处理口型同步与情感表达",
-            "发布到海外平台"
+            "了解剪辑的基本概念和流程",
+            "学习剪映中的转场效果和适用场景",
+            "通过拉片分析提升审美和剪辑思维"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -353,12 +353,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI 配音出海避坑：这 3 个坑让你的视频被平台限流",
-          "summary": "指出 AI 配音的常见问题，如音质差、文化差异、平台政策风险。",
+          "hook": "AI视频剪辑常见错误，新手必看避坑指南",
+          "summary": "指出新手在AI视频剪辑中容易犯的错误，如转场过度使用、节奏混乱等。",
           "pitfalls": [
-            "AI 配音缺乏情感，影响观看体验",
-            "翻译不准确导致文化误解",
-            "平台对 AI 生成内容的标注要求"
+            "转场效果滥用，导致视频花哨但内容空洞",
+            "忽视音频和画面的配合，影响观感",
+            "过度依赖AI自动剪辑，缺乏创意"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -367,12 +367,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI 配音会取代人工配音吗？创作者如何应对？",
-          "summary": "分析 AI 配音技术的发展趋势，对配音行业和创作者的影响。",
+          "hook": "AI视频剪辑工具如何改变创作流程？",
+          "summary": "分析AI剪辑工具对视频创作流程的影响，以及未来的发展趋势。",
           "insights": [
-            "AI 配音将普及，但高端配音仍需人工",
-            "创作者需平衡效率与质量",
-            "多语言能力成为创作者新优势"
+            "AI剪辑工具降低创作门槛，但需要人工创意加持",
+            "自动剪辑功能可能取代部分基础工作，创作者需提升高级技能",
+            "AI与人工协作将成为主流创作模式"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -381,21 +381,21 @@
     }
   ],
   "weekly_plan": {
-    "monday": "Claude 越权事件安全指南（实操教程）",
-    "wednesday": "Runway Solaris 上手实操（视频教程）",
-    "friday": "AIGC 短剧《后西游记》爆红背后的商标 IP 机会（深度解读+引流）",
-    "strategy": "本周以 AI 安全与 AI 视频新工具为核心，结合 AIGC 短剧热点，穿插商标 IP 引流内容，保持高频率更新。"
+    "monday": "AI智能体越狱事件：你的AI Agent安全吗？",
+    "wednesday": "Runway Solaris：首个界面世界模型，AI视频生成的新革命？",
+    "friday": "ChatGPT广告业务破10亿美元，AI广告时代来了？",
+    "strategy": "本周聚焦AI安全与AI商业化趋势，结合实操教程和避坑指南，吸引AI初学者和创业者关注。"
   },
-  "insights": "今日信息流显示 AI 安全事件（Claude 越权）与 AI 视频新工具（Runway Solaris）是两大热点，同时 AIGC 长剧《后西游记》爆红，为创作者提供了结合 AI 内容创作与 IP 保护的新机会。",
-  "ai_adjustment": "基于用户反馈，本次推荐更侧重于 AI 技术安全与视频新工具，避免硬件类选题，并加强了 AIGC 剧情向内容的商标 IP 结合。",
-  "generated_at": "2026-09-01T12:11:20.885697+08:00",
-  "total_items": 484,
-  "scored_items": 385,
+  "insights": "今日信息流显示AI安全事件频发，同时AI商业化加速（如ChatGPT广告、AIGC短剧），创作者可抓住安全与变现两大热点。",
+  "ai_adjustment": "本次推荐基于用户历史反馈，优先选择AI技术赛道和AI视频赛道，并避免硬件相关选题，同时增加了AIGC剧情向内容，以支持商标代理引流。",
+  "generated_at": "2026-09-01T17:08:08.041509+08:00",
+  "total_items": 459,
+  "scored_items": 358,
   "tracks_summary": {
+    "ai_tech": 324,
     "ai_video": 12,
-    "ai_tech": 345,
-    "creator_economy": 20,
-    "trademark_business": 8
+    "creator_economy": 15,
+    "trademark_business": 7
   },
   "engine_version": "v2",
   "engine_params": {

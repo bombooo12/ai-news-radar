@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T04:10:40.102444Z",
+  "generated_at": "2026-09-01T09:07:28.715550Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -37,42 +37,42 @@
       }
     },
     {
-      "story_id": "story_bd6dbcbcc36a",
-      "title": "GitHub Copilot in VS Code, August 2026 releases",
-      "url": "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases",
+      "story_id": "story_08b8473c055e",
+      "title": "DeepSeek 首个开源多模态模型来了：这双“眼睛”不给人类看图，专供 Agent 干活",
+      "url": "https://www.aibase.com/news/30755",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "常规版本更新，功能修补为主，离‘革命性’还差得远。"
+          "score": 72,
+          "review": "专供Agent干活？听起来像是通用能力不行，只好找个垂直场景讲故事。"
         },
         "paper-police": {
-          "score": 15,
-          "review": "官方博客宣称性能更新，无论文、代码或独立评测佐证。"
+          "score": 45,
+          "review": "报道提及开源模型，但未附论文与独立评测链接，证据链不完整。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "VS Code 里的 Copilot 有官方更新，开发者现在就能去检查新功能。"
+          "review": "开源多模态模型可直接集成，为你的Agent项目提供视觉能力。"
         }
       }
     },
     {
-      "story_id": "story_0e86c779cdf8",
-      "title": "DeepSeek首个视觉实验模型正式开源，3050亿参数对标顶尖水平",
-      "url": "https://www.aibase.com/news/30735",
+      "story_id": "story_f25d703e5962",
+      "title": "科大讯飞旗下词元星火重磅开源两款全新机型",
+      "url": "https://www.aibase.com/news/30748",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 68,
-          "review": "‘实验模型’和‘对标顶尖’放一起，开源诚意有，但‘顶尖’是哪个顶尖？"
+          "score": 55,
+          "review": "开源是好事，但‘重磅’和‘全新’得看代码和性能，别又是参数改改名。"
         },
         "paper-police": {
-          "score": 45,
-          "review": "新闻称开源对标顶尖，但未附论文链接和具体评测基准，需核实。"
+          "score": 65,
+          "review": "有开源代码和官方发布，但未见配套论文及独立评测报告。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "视觉大模型开源可下载，多模态项目有新基座可选。"
+          "review": "开源模型可直接下载部署，马上就能测试或集成。"
         }
       }
     }

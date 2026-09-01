@@ -1,78 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_1ad67226f47b|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "政策游说信，不涉及API或工具变化，做开发的当行业动向了解即可。",
-      "title_hash": "73ccb8f2",
-      "scored_at": "2026-08-11T04:50:09.694836Z"
-    },
-    "story_78643f2f0854|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "Daybreak 若开放 API 可做自动化防御，先查文档再看是否接入。",
-      "title_hash": "cc592005",
-      "scored_at": "2026-08-11T06:19:28.831154Z"
-    },
-    "story_ef2bf8426d8e|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "上市消息不写代码，等 API 和定价变化再说。",
-      "title_hash": "c0db172f",
-      "scored_at": "2026-08-11T04:50:11.454530Z"
-    },
-    "story_aa2cc290b136|pragmatic|0a5c5b24": {
-      "score": 65,
-      "review": "平台开放可试，但细节未披露，先看文档再决定是否接入。",
-      "title_hash": "3d9b58ac",
-      "scored_at": "2026-08-11T04:50:14.035689Z"
-    },
-    "story_df1b9e27c7c6|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "纯宣言没实货，看后续产品再说。",
-      "title_hash": "4870a4ca",
-      "scored_at": "2026-08-11T04:50:16.034720Z"
-    },
-    "story_fca31970616e|cynic|f4237a62": {
-      "score": 66,
-      "review": "省了每次点击，可要是 AI 跑偏了，责任是不是也默认自动？",
-      "title_hash": "e27be057",
-      "scored_at": "2026-08-11T04:50:18.225026Z"
-    },
-    "story_fca31970616e|paper-police|966065bf": {
-      "score": 25,
-      "review": "只有官方推特自述，无代码无文档，自动模式原理无法验证。",
-      "title_hash": "e27be057",
-      "scored_at": "2026-08-11T04:50:22.045370Z"
-    },
-    "story_3cab6a09b116|pragmatic|0a5c5b24": {
-      "score": 62,
-      "review": "专用模型未明确开放情况，有需求等API上线再看。",
-      "title_hash": "4337847f",
-      "scored_at": "2026-08-11T06:19:31.569988Z"
-    },
-    "story_1d745777aa0d|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "有现成流水线思路，做视频音频生成的可直接参考实现。",
-      "title_hash": "17cb0e8b",
-      "scored_at": "2026-08-11T06:19:33.490266Z"
-    },
-    "story_1afc977519d1|pragmatic|0a5c5b24": {
-      "score": 75,
-      "review": "多了子代理和远程控制，写代码的能直接试用，功能落地可验证。",
-      "title_hash": "f83a09c6",
-      "scored_at": "2026-08-11T06:19:35.532641Z"
-    },
-    "story_4ea5136decec|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "对溯源合规有帮助，但API用户感知不强，先确认是否影响现有生成结果。",
-      "title_hash": "0d5e4a5f",
-      "scored_at": "2026-08-11T07:59:04.723134Z"
-    },
-    "story_a5ebfc1b3422|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "模型路线图猜测，没开放API前不影响选型，等实锤。",
-      "title_hash": "f5484396",
-      "scored_at": "2026-08-11T07:59:08.324308Z"
-    },
     "story_2e9310d5724c|pragmatic|0a5c5b24": {
       "score": 70,
       "review": "Claude 输出自动带隐形水印，做内容溯源的今天就能用，但注意服务端处理。",
@@ -4902,6 +4830,96 @@
       "review": "新闻称开源对标顶尖，但未附论文链接和具体评测基准，需核实。",
       "title_hash": "9ff232d3",
       "scored_at": "2026-09-01T04:10:40.102396Z"
+    },
+    "story_faa62a90bef8|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "了解安全风险案例，但具体漏洞已修复，无需立即行动。",
+      "title_hash": "4b9539fc",
+      "scored_at": "2026-09-01T09:06:32.148606Z"
+    },
+    "story_738e46a2b277|pragmatic|0a5c5b24": {
+      "score": 12,
+      "review": "个别用户误用案例，对开发者工作无实际影响。",
+      "title_hash": "be164f4b",
+      "scored_at": "2026-09-01T09:06:36.068271Z"
+    },
+    "story_a7f053021921|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "OpenAI收入数据，对开发者选型或使用产品无直接影响。",
+      "title_hash": "f3e974a6",
+      "scored_at": "2026-09-01T09:06:39.683171Z"
+    },
+    "story_08b8473c055e|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "开源多模态模型可直接集成，为你的Agent项目提供视觉能力。",
+      "title_hash": "6479b21a",
+      "scored_at": "2026-09-01T09:06:42.629032Z"
+    },
+    "story_34e1bbef1d56|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "股价涨跌不影响你选型，等模型发布且能用了再说。",
+      "title_hash": "b8d32979",
+      "scored_at": "2026-09-01T09:06:46.721950Z"
+    },
+    "story_d50e38f3313d|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "UI/UX设计师和前端可关注交互原型新工具，但需等开放试用。",
+      "title_hash": "410734c5",
+      "scored_at": "2026-09-01T09:06:51.720865Z"
+    },
+    "story_18a954a364e8|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "开源大模型可直接部署，端侧长上下文应用有新选择。",
+      "title_hash": "53d47241",
+      "scored_at": "2026-09-01T09:06:55.934341Z"
+    },
+    "story_175ffde23042|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "行业垂直模型发布，无具体产品细节，对开发者暂无直接用处。",
+      "title_hash": "235f32a8",
+      "scored_at": "2026-09-01T09:06:59.294363Z"
+    },
+    "story_f25d703e5962|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "开源模型可直接下载部署，马上就能测试或集成。",
+      "title_hash": "9888ff0c",
+      "scored_at": "2026-09-01T09:07:02.977751Z"
+    },
+    "story_290daf4b2b31|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "讨论代码所有权归属，属于法律和伦理探讨，不影响今天的开发工作。",
+      "title_hash": "c4ade6d3",
+      "scored_at": "2026-09-01T09:07:06.150885Z"
+    },
+    "story_00a15fcdfcdb|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "国家层面的长期投资，不影响你今天选型或写代码。",
+      "title_hash": "bc15a5a0",
+      "scored_at": "2026-09-01T09:07:09.781069Z"
+    },
+    "story_08b8473c055e|cynic|f4237a62": {
+      "score": 72,
+      "review": "专供Agent干活？听起来像是通用能力不行，只好找个垂直场景讲故事。",
+      "title_hash": "6479b21a",
+      "scored_at": "2026-09-01T09:07:13.500623Z"
+    },
+    "story_08b8473c055e|paper-police|966065bf": {
+      "score": 45,
+      "review": "报道提及开源模型，但未附论文与独立评测链接，证据链不完整。",
+      "title_hash": "6479b21a",
+      "scored_at": "2026-09-01T09:07:21.671914Z"
+    },
+    "story_f25d703e5962|cynic|f4237a62": {
+      "score": 55,
+      "review": "开源是好事，但‘重磅’和‘全新’得看代码和性能，别又是参数改改名。",
+      "title_hash": "9888ff0c",
+      "scored_at": "2026-09-01T09:07:25.387812Z"
+    },
+    "story_f25d703e5962|paper-police|966065bf": {
+      "score": 65,
+      "review": "有开源代码和官方发布，但未见配套论文及独立评测报告。",
+      "title_hash": "9888ff0c",
+      "scored_at": "2026-09-01T09:07:28.715490Z"
     }
   }
 }
