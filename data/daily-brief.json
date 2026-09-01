@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T04:05:00.633277Z",
+  "generated_at": "2026-09-01T09:05:13.082114Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -48,15 +48,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8557,
-      "importance": 0.8557,
-      "importance_score": 0.8557,
+      "score": 0.8439,
+      "importance": 0.8439,
+      "importance_score": 0.8439,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.9427,
+        "recency": 0.877,
         "story_heat": 0.0
       },
       "category": "official",
@@ -78,14 +78,6 @@
         "url": "https://developers.openai.com/codex/changelog",
         "source": "OpenAI Codex Changelog",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "CLI工具更新，开发者今天就能升级使用新功能或修复。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-01T04:09:06.155200Z"
       }
     },
     {
@@ -133,15 +125,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8273,
-      "importance": 0.8273,
-      "importance_score": 0.8273,
+      "score": 0.8156,
+      "importance": 0.8156,
+      "importance_score": 0.8156,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.9292,
+        "recency": 0.8645,
         "story_heat": 0.0
       },
       "category": "official",
@@ -162,207 +154,29 @@
         "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
         "source": "Anthropic：Newsroom（网页）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 55,
-      "persona_review": "了解大模型潜在风险，但对日常开发选型暂无直接影响。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-01T04:09:06.155200Z"
       }
     },
     {
-      "story_id": "story_bd6dbcbcc36a",
-      "title": "GitHub Copilot in VS Code, August 2026 releases",
-      "url": "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases",
-      "primary_url": "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "040868e794334d9663e1bc0910d606d026adb98d",
-          "title": "GitHub Copilot in VS Code, August 2026 releases",
-          "title_zh": null,
-          "title_en": "GitHub Copilot in VS Code, August 2026 releases",
-          "title_original": "GitHub Copilot in VS Code, August 2026 releases",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-31T08:39:54Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "040868e794334d9663e1bc0910d606d026adb98d",
-          "title": "GitHub Copilot in VS Code, August 2026 releases",
-          "title_zh": null,
-          "title_en": "GitHub Copilot in VS Code, August 2026 releases",
-          "title_original": "GitHub Copilot in VS Code, August 2026 releases",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-31T08:39:54Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.808,
-      "importance": 0.808,
-      "importance_score": 0.808,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7555,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-31T08:39:54Z",
-      "latest_at": "2026-08-31T08:39:54Z",
-      "primary_item": {
-        "id": "040868e794334d9663e1bc0910d606d026adb98d",
-        "title": "GitHub Copilot in VS Code, August 2026 releases",
-        "title_zh": null,
-        "title_en": "GitHub Copilot in VS Code, August 2026 releases",
-        "title_original": "GitHub Copilot in VS Code, August 2026 releases",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "VS Code 里的 Copilot 有官方更新，开发者现在就能去检查新功能。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-01T04:09:06.155200Z"
-      }
-    },
-    {
-      "story_id": "story_582378d45ba0",
-      "title": "Polimill builds Japan's next-generation public AI infrastructure",
-      "url": "https://openai.com/index/polimill",
-      "primary_url": "https://openai.com/index/polimill",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "1e84f18a2c8bbc68b17cceaa1bd2f965738acf98",
-          "title": "Polimill builds Japan's next-generation public AI infrastructure",
-          "title_zh": null,
-          "title_en": "Polimill builds Japan's next-generation public AI infrastructure",
-          "title_original": "Polimill builds Japan's next-generation public AI infrastructure",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/polimill",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-31T07:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "1e84f18a2c8bbc68b17cceaa1bd2f965738acf98",
-          "title": "Polimill builds Japan's next-generation public AI infrastructure",
-          "title_zh": null,
-          "title_en": "Polimill builds Japan's next-generation public AI infrastructure",
-          "title_original": "Polimill builds Japan's next-generation public AI infrastructure",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/polimill",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-31T07:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8048,
-      "importance": 0.8048,
-      "importance_score": 0.8048,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7375,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-31T07:00:00Z",
-      "latest_at": "2026-08-31T07:00:00Z",
-      "primary_item": {
-        "id": "1e84f18a2c8bbc68b17cceaa1bd2f965738acf98",
-        "title": "Polimill builds Japan's next-generation public AI infrastructure",
-        "title_zh": null,
-        "title_en": "Polimill builds Japan's next-generation public AI infrastructure",
-        "title_original": "Polimill builds Japan's next-generation public AI infrastructure",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://openai.com/index/polimill",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 40,
-      "persona_review": "日本基建计划，对海外开发者暂无直接影响，了解即可。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-01T04:09:06.155200Z"
-      }
-    },
-    {
-      "story_id": "story_d31c62ca0cca",
-      "title": "AI 代理实验室 Manus 正式恢复独立运营 开启通用智能体新阶段",
-      "url": "https://www.aibase.com/news/30745",
-      "primary_url": "https://www.aibase.com/news/30745",
+      "story_id": "story_faa62a90bef8",
+      "title": "1200 个 AI 智能体集体“越狱”攻击开源社区：独立调查揭出比 OpenAI 自述更严重的真相",
+      "url": "https://www.aibase.com/news/30752",
+      "primary_url": "https://www.aibase.com/news/30752",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "ebd7891564d0d58bc3bfd0ced77676324c194b26",
-          "title": "AI 代理实验室 Manus 正式恢复独立运营 开启通用智能体新阶段",
-          "title_zh": "AI 代理实验室 Manus 正式恢复独立运营 开启通用智能体新阶段",
+          "id": "4f68efb077aa099833250b7eb6a349b1a462132c",
+          "title": "1200 个 AI 智能体集体“越狱”攻击开源社区：独立调查揭出比 OpenAI 自述更严重的真相",
+          "title_zh": "1200 个 AI 智能体集体“越狱”攻击开源社区：独立调查揭出比 OpenAI 自述更严重的真相",
           "title_en": null,
-          "title_original": "AI 代理实验室 Manus 正式恢复独立运营 开启通用智能体新阶段",
+          "title_original": "1200 个 AI 智能体集体“越狱”攻击开源社区：独立调查揭出比 OpenAI 自述更严重的真相",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30745",
+          "url": "https://www.aibase.com/news/30752",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-01T04:05:00.633277Z"
+          "published_at": "2026-09-01T09:05:13.082114Z"
         }
       ],
       "source_count": 1,
@@ -371,18 +185,18 @@
       ],
       "items": [
         {
-          "id": "ebd7891564d0d58bc3bfd0ced77676324c194b26",
-          "title": "AI 代理实验室 Manus 正式恢复独立运营 开启通用智能体新阶段",
-          "title_zh": "AI 代理实验室 Manus 正式恢复独立运营 开启通用智能体新阶段",
+          "id": "4f68efb077aa099833250b7eb6a349b1a462132c",
+          "title": "1200 个 AI 智能体集体“越狱”攻击开源社区：独立调查揭出比 OpenAI 自述更严重的真相",
+          "title_zh": "1200 个 AI 智能体集体“越狱”攻击开源社区：独立调查揭出比 OpenAI 自述更严重的真相",
           "title_en": null,
-          "title_original": "AI 代理实验室 Manus 正式恢复独立运营 开启通用智能体新阶段",
+          "title_original": "1200 个 AI 智能体集体“越狱”攻击开源社区：独立调查揭出比 OpenAI 自述更严重的真相",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30745",
+          "url": "https://www.aibase.com/news/30752",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-01T04:05:00.633277Z"
+          "published_at": "2026-09-01T09:05:13.082114Z"
         }
       ],
       "item_count": 1,
@@ -403,27 +217,19 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-01T04:05:00.633277Z",
-      "latest_at": "2026-09-01T04:05:00.633277Z",
+      "earliest_at": "2026-09-01T09:05:13.082114Z",
+      "latest_at": "2026-09-01T09:05:13.082114Z",
       "primary_item": {
-        "id": "ebd7891564d0d58bc3bfd0ced77676324c194b26",
-        "title": "AI 代理实验室 Manus 正式恢复独立运营 开启通用智能体新阶段",
-        "title_zh": "AI 代理实验室 Manus 正式恢复独立运营 开启通用智能体新阶段",
+        "id": "4f68efb077aa099833250b7eb6a349b1a462132c",
+        "title": "1200 个 AI 智能体集体“越狱”攻击开源社区：独立调查揭出比 OpenAI 自述更严重的真相",
+        "title_zh": "1200 个 AI 智能体集体“越狱”攻击开源社区：独立调查揭出比 OpenAI 自述更严重的真相",
         "title_en": null,
-        "title_original": "AI 代理实验室 Manus 正式恢复独立运营 开启通用智能体新阶段",
+        "title_original": "1200 个 AI 智能体集体“越狱”攻击开源社区：独立调查揭出比 OpenAI 自述更严重的真相",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/30745",
+        "url": "https://www.aibase.com/news/30752",
         "source": "AIbase",
         "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "公司架构变动，对开发者当前的工具选择无直接影响。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-01T04:09:06.155200Z"
       }
     },
     {
@@ -471,21 +277,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7606,
-      "importance": 0.7606,
-      "importance_score": 0.7606,
+      "score": 0.7488,
+      "importance": 0.7488,
+      "importance_score": 0.7488,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9445,
+        "recency": 0.8787,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-09-01T00:07:51Z",
       "latest_at": "2026-09-01T00:07:51Z",
@@ -500,14 +305,82 @@
         "url": "https://x.com/AnthropicAI/status/2094577944056430865",
         "source": "X：Anthropic (@AnthropicAI)",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_738e46a2b277",
+      "title": "57 岁男子听信 AI 指路抄近道，被困深山耗尽体力，事后 AI 竟回“哈哈，确实！”",
+      "url": "https://www.aibase.com/news/30754",
+      "primary_url": "https://www.aibase.com/news/30754",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "2c5828ccd525985def3b53b56cf619cb18ca0723",
+          "title": "57 岁男子听信 AI 指路抄近道，被困深山耗尽体力，事后 AI 竟回“哈哈，确实！”",
+          "title_zh": "57 岁男子听信 AI 指路抄近道，被困深山耗尽体力，事后 AI 竟回“哈哈，确实！”",
+          "title_en": null,
+          "title_original": "57 岁男子听信 AI 指路抄近道，被困深山耗尽体力，事后 AI 竟回“哈哈，确实！”",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30754",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-01T09:05:13.082114Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "2c5828ccd525985def3b53b56cf619cb18ca0723",
+          "title": "57 岁男子听信 AI 指路抄近道，被困深山耗尽体力，事后 AI 竟回“哈哈，确实！”",
+          "title_zh": "57 岁男子听信 AI 指路抄近道，被困深山耗尽体力，事后 AI 竟回“哈哈，确实！”",
+          "title_en": null,
+          "title_original": "57 岁男子听信 AI 指路抄近道，被困深山耗尽体力，事后 AI 竟回“哈哈，确实！”",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30754",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-01T09:05:13.082114Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
       },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "学术研究，揭示了风险但暂无实操影响，知道即可。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-01T04:09:06.155200Z"
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-01T09:05:13.082114Z",
+      "latest_at": "2026-09-01T09:05:13.082114Z",
+      "primary_item": {
+        "id": "2c5828ccd525985def3b53b56cf619cb18ca0723",
+        "title": "57 岁男子听信 AI 指路抄近道，被困深山耗尽体力，事后 AI 竟回“哈哈，确实！”",
+        "title_zh": "57 岁男子听信 AI 指路抄近道，被困深山耗尽体力，事后 AI 竟回“哈哈，确实！”",
+        "title_en": null,
+        "title_original": "57 岁男子听信 AI 指路抄近道，被困深山耗尽体力，事后 AI 竟回“哈哈，确实！”",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/30754",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -555,15 +428,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7415,
-      "importance": 0.7415,
-      "importance_score": 0.7415,
+      "score": 0.7316,
+      "importance": 0.7316,
+      "importance_score": 0.7316,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7881,
+        "recency": 0.7331,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -583,37 +456,29 @@
         "url": "https://www.ithome.com/0/996/637.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "开源多模态模型可直接下载部署，对标Opus-4.8是重要参考。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-01T04:09:06.155200Z"
       }
     },
     {
-      "story_id": "story_0eca5e8307df",
-      "title": "Anthropic豪掷350亿美元联手Lambda加码云端算力",
-      "url": "https://www.aibase.com/news/30731",
-      "primary_url": "https://www.aibase.com/news/30731",
+      "story_id": "story_a7f053021921",
+      "title": "ChatGPT Ads上线不足200天年化收入突破10 亿美元",
+      "url": "https://www.aibase.com/news/30753",
+      "primary_url": "https://www.aibase.com/news/30753",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "b1ef7988e81fc8e3accf84dec6fcace25548e4f8",
-          "title": "Anthropic豪掷350亿美元联手Lambda加码云端算力",
-          "title_zh": "Anthropic豪掷350亿美元联手Lambda加码云端算力",
+          "id": "cb00f810632d0913ccd4dd2c2b2f91a3492afd95",
+          "title": "ChatGPT Ads上线不足200天年化收入突破10 亿美元",
+          "title_zh": "ChatGPT Ads上线不足200天年化收入突破10 亿美元",
           "title_en": null,
-          "title_original": "Anthropic豪掷350亿美元联手Lambda加码云端算力",
+          "title_original": "ChatGPT Ads上线不足200天年化收入突破10 亿美元",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30731",
+          "url": "https://www.aibase.com/news/30753",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-01T04:05:00.633277Z"
+          "published_at": "2026-09-01T09:05:13.082114Z"
         }
       ],
       "source_count": 1,
@@ -622,18 +487,18 @@
       ],
       "items": [
         {
-          "id": "b1ef7988e81fc8e3accf84dec6fcace25548e4f8",
-          "title": "Anthropic豪掷350亿美元联手Lambda加码云端算力",
-          "title_zh": "Anthropic豪掷350亿美元联手Lambda加码云端算力",
+          "id": "cb00f810632d0913ccd4dd2c2b2f91a3492afd95",
+          "title": "ChatGPT Ads上线不足200天年化收入突破10 亿美元",
+          "title_zh": "ChatGPT Ads上线不足200天年化收入突破10 亿美元",
           "title_en": null,
-          "title_original": "Anthropic豪掷350亿美元联手Lambda加码云端算力",
+          "title_original": "ChatGPT Ads上线不足200天年化收入突破10 亿美元",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30731",
+          "url": "https://www.aibase.com/news/30753",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-01T04:05:00.633277Z"
+          "published_at": "2026-09-01T09:05:13.082114Z"
         }
       ],
       "item_count": 1,
@@ -654,50 +519,42 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-01T04:05:00.633277Z",
-      "latest_at": "2026-09-01T04:05:00.633277Z",
+      "earliest_at": "2026-09-01T09:05:13.082114Z",
+      "latest_at": "2026-09-01T09:05:13.082114Z",
       "primary_item": {
-        "id": "b1ef7988e81fc8e3accf84dec6fcace25548e4f8",
-        "title": "Anthropic豪掷350亿美元联手Lambda加码云端算力",
-        "title_zh": "Anthropic豪掷350亿美元联手Lambda加码云端算力",
+        "id": "cb00f810632d0913ccd4dd2c2b2f91a3492afd95",
+        "title": "ChatGPT Ads上线不足200天年化收入突破10 亿美元",
+        "title_zh": "ChatGPT Ads上线不足200天年化收入突破10 亿美元",
         "title_en": null,
-        "title_original": "Anthropic豪掷350亿美元联手Lambda加码云端算力",
+        "title_original": "ChatGPT Ads上线不足200天年化收入突破10 亿美元",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/30731",
+        "url": "https://www.aibase.com/news/30753",
         "source": "AIbase",
         "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "算力军备竞赛的行业新闻，不影响你今天选哪个云服务商。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-01T04:09:06.155200Z"
       }
     },
     {
-      "story_id": "story_0e86c779cdf8",
-      "title": "DeepSeek首个视觉实验模型正式开源，3050亿参数对标顶尖水平",
-      "url": "https://www.aibase.com/news/30735",
-      "primary_url": "https://www.aibase.com/news/30735",
+      "story_id": "story_08b8473c055e",
+      "title": "DeepSeek 首个开源多模态模型来了：这双“眼睛”不给人类看图，专供 Agent 干活",
+      "url": "https://www.aibase.com/news/30755",
+      "primary_url": "https://www.aibase.com/news/30755",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "bdb4b03081d3a9650092f36ad911c26482f26ac3",
-          "title": "DeepSeek首个视觉实验模型正式开源，3050亿参数对标顶尖水平",
-          "title_zh": "DeepSeek首个视觉实验模型正式开源，3050亿参数对标顶尖水平",
+          "id": "ee5489ec174cd4fbdbb794774853cb85224c8a04",
+          "title": "DeepSeek 首个开源多模态模型来了：这双“眼睛”不给人类看图，专供 Agent 干活",
+          "title_zh": "DeepSeek 首个开源多模态模型来了：这双“眼睛”不给人类看图，专供 Agent 干活",
           "title_en": null,
-          "title_original": "DeepSeek首个视觉实验模型正式开源，3050亿参数对标顶尖水平",
+          "title_original": "DeepSeek 首个开源多模态模型来了：这双“眼睛”不给人类看图，专供 Agent 干活",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30735",
+          "url": "https://www.aibase.com/news/30755",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-01T04:05:00.633277Z"
+          "published_at": "2026-09-01T09:05:13.082114Z"
         }
       ],
       "source_count": 1,
@@ -706,18 +563,18 @@
       ],
       "items": [
         {
-          "id": "bdb4b03081d3a9650092f36ad911c26482f26ac3",
-          "title": "DeepSeek首个视觉实验模型正式开源，3050亿参数对标顶尖水平",
-          "title_zh": "DeepSeek首个视觉实验模型正式开源，3050亿参数对标顶尖水平",
+          "id": "ee5489ec174cd4fbdbb794774853cb85224c8a04",
+          "title": "DeepSeek 首个开源多模态模型来了：这双“眼睛”不给人类看图，专供 Agent 干活",
+          "title_zh": "DeepSeek 首个开源多模态模型来了：这双“眼睛”不给人类看图，专供 Agent 干活",
           "title_en": null,
-          "title_original": "DeepSeek首个视觉实验模型正式开源，3050亿参数对标顶尖水平",
+          "title_original": "DeepSeek 首个开源多模态模型来了：这双“眼睛”不给人类看图，专供 Agent 干活",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30735",
+          "url": "https://www.aibase.com/news/30755",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-01T04:05:00.633277Z"
+          "published_at": "2026-09-01T09:05:13.082114Z"
         }
       ],
       "item_count": 1,
@@ -738,50 +595,42 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-01T04:05:00.633277Z",
-      "latest_at": "2026-09-01T04:05:00.633277Z",
+      "earliest_at": "2026-09-01T09:05:13.082114Z",
+      "latest_at": "2026-09-01T09:05:13.082114Z",
       "primary_item": {
-        "id": "bdb4b03081d3a9650092f36ad911c26482f26ac3",
-        "title": "DeepSeek首个视觉实验模型正式开源，3050亿参数对标顶尖水平",
-        "title_zh": "DeepSeek首个视觉实验模型正式开源，3050亿参数对标顶尖水平",
+        "id": "ee5489ec174cd4fbdbb794774853cb85224c8a04",
+        "title": "DeepSeek 首个开源多模态模型来了：这双“眼睛”不给人类看图，专供 Agent 干活",
+        "title_zh": "DeepSeek 首个开源多模态模型来了：这双“眼睛”不给人类看图，专供 Agent 干活",
         "title_en": null,
-        "title_original": "DeepSeek首个视觉实验模型正式开源，3050亿参数对标顶尖水平",
+        "title_original": "DeepSeek 首个开源多模态模型来了：这双“眼睛”不给人类看图，专供 Agent 干活",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/30735",
+        "url": "https://www.aibase.com/news/30755",
         "source": "AIbase",
         "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "视觉大模型开源可下载，多模态项目有新基座可选。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-01T04:09:06.155200Z"
       }
     },
     {
-      "story_id": "story_f3938deafa58",
-      "title": "Instagram推AI个人资料新规:未公开标注将面临降权限流",
-      "url": "https://www.aibase.com/news/30733",
-      "primary_url": "https://www.aibase.com/news/30733",
+      "story_id": "story_34e1bbef1d56",
+      "title": "MiniMax新模型引爆股价大涨超20%，下半年蓄势冲击3万亿参数",
+      "url": "https://www.aibase.com/news/30751",
+      "primary_url": "https://www.aibase.com/news/30751",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "841e769a59c4dbe64086aa689d16066676394d25",
-          "title": "Instagram推AI个人资料新规:未公开标注将面临降权限流",
-          "title_zh": "Instagram推AI个人资料新规:未公开标注将面临降权限流",
+          "id": "9ed7f687304b1cf12ba7396369721865d3531713",
+          "title": "MiniMax新模型引爆股价大涨超20%，下半年蓄势冲击3万亿参数",
+          "title_zh": "MiniMax新模型引爆股价大涨超20%，下半年蓄势冲击3万亿参数",
           "title_en": null,
-          "title_original": "Instagram推AI个人资料新规:未公开标注将面临降权限流",
+          "title_original": "MiniMax新模型引爆股价大涨超20%，下半年蓄势冲击3万亿参数",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30733",
+          "url": "https://www.aibase.com/news/30751",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-01T04:05:00.633277Z"
+          "published_at": "2026-09-01T09:05:13.082114Z"
         }
       ],
       "source_count": 1,
@@ -790,18 +639,18 @@
       ],
       "items": [
         {
-          "id": "841e769a59c4dbe64086aa689d16066676394d25",
-          "title": "Instagram推AI个人资料新规:未公开标注将面临降权限流",
-          "title_zh": "Instagram推AI个人资料新规:未公开标注将面临降权限流",
+          "id": "9ed7f687304b1cf12ba7396369721865d3531713",
+          "title": "MiniMax新模型引爆股价大涨超20%，下半年蓄势冲击3万亿参数",
+          "title_zh": "MiniMax新模型引爆股价大涨超20%，下半年蓄势冲击3万亿参数",
           "title_en": null,
-          "title_original": "Instagram推AI个人资料新规:未公开标注将面临降权限流",
+          "title_original": "MiniMax新模型引爆股价大涨超20%，下半年蓄势冲击3万亿参数",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30733",
+          "url": "https://www.aibase.com/news/30751",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-01T04:05:00.633277Z"
+          "published_at": "2026-09-01T09:05:13.082114Z"
         }
       ],
       "item_count": 1,
@@ -822,50 +671,42 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-01T04:05:00.633277Z",
-      "latest_at": "2026-09-01T04:05:00.633277Z",
+      "earliest_at": "2026-09-01T09:05:13.082114Z",
+      "latest_at": "2026-09-01T09:05:13.082114Z",
       "primary_item": {
-        "id": "841e769a59c4dbe64086aa689d16066676394d25",
-        "title": "Instagram推AI个人资料新规:未公开标注将面临降权限流",
-        "title_zh": "Instagram推AI个人资料新规:未公开标注将面临降权限流",
+        "id": "9ed7f687304b1cf12ba7396369721865d3531713",
+        "title": "MiniMax新模型引爆股价大涨超20%，下半年蓄势冲击3万亿参数",
+        "title_zh": "MiniMax新模型引爆股价大涨超20%，下半年蓄势冲击3万亿参数",
         "title_en": null,
-        "title_original": "Instagram推AI个人资料新规:未公开标注将面临降权限流",
+        "title_original": "MiniMax新模型引爆股价大涨超20%，下半年蓄势冲击3万亿参数",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/30733",
+        "url": "https://www.aibase.com/news/30751",
         "source": "AIbase",
         "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "平台运营规则更新，仅提醒内容创作者需注意标注。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-01T04:09:06.155200Z"
       }
     },
     {
-      "story_id": "story_8fd2f4035342",
-      "title": "​35 亿美元押注联发科：英伟达联手打造覆盖 AI 工厂到 PC 的下一代计算平台",
-      "url": "https://www.aibase.com/news/30747",
-      "primary_url": "https://www.aibase.com/news/30747",
+      "story_id": "story_d50e38f3313d",
+      "title": "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
+      "url": "https://www.aibase.com/news/30756",
+      "primary_url": "https://www.aibase.com/news/30756",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "96d288338f75e896213c1b6a05f8585077b74913",
-          "title": "​35 亿美元押注联发科：英伟达联手打造覆盖 AI 工厂到 PC 的下一代计算平台",
-          "title_zh": "​35 亿美元押注联发科：英伟达联手打造覆盖 AI 工厂到 PC 的下一代计算平台",
+          "id": "993b62ebd3b045f88455749478a3a8a0eb01d374",
+          "title": "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
+          "title_zh": "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
           "title_en": null,
-          "title_original": "​35 亿美元押注联发科：英伟达联手打造覆盖 AI 工厂到 PC 的下一代计算平台",
+          "title_original": "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30747",
+          "url": "https://www.aibase.com/news/30756",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-01T04:05:00.633277Z"
+          "published_at": "2026-09-01T09:05:13.082114Z"
         }
       ],
       "source_count": 1,
@@ -874,18 +715,18 @@
       ],
       "items": [
         {
-          "id": "96d288338f75e896213c1b6a05f8585077b74913",
-          "title": "​35 亿美元押注联发科：英伟达联手打造覆盖 AI 工厂到 PC 的下一代计算平台",
-          "title_zh": "​35 亿美元押注联发科：英伟达联手打造覆盖 AI 工厂到 PC 的下一代计算平台",
+          "id": "993b62ebd3b045f88455749478a3a8a0eb01d374",
+          "title": "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
+          "title_zh": "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
           "title_en": null,
-          "title_original": "​35 亿美元押注联发科：英伟达联手打造覆盖 AI 工厂到 PC 的下一代计算平台",
+          "title_original": "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30747",
+          "url": "https://www.aibase.com/news/30756",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-01T04:05:00.633277Z"
+          "published_at": "2026-09-01T09:05:13.082114Z"
         }
       ],
       "item_count": 1,
@@ -906,50 +747,42 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-01T04:05:00.633277Z",
-      "latest_at": "2026-09-01T04:05:00.633277Z",
+      "earliest_at": "2026-09-01T09:05:13.082114Z",
+      "latest_at": "2026-09-01T09:05:13.082114Z",
       "primary_item": {
-        "id": "96d288338f75e896213c1b6a05f8585077b74913",
-        "title": "​35 亿美元押注联发科：英伟达联手打造覆盖 AI 工厂到 PC 的下一代计算平台",
-        "title_zh": "​35 亿美元押注联发科：英伟达联手打造覆盖 AI 工厂到 PC 的下一代计算平台",
+        "id": "993b62ebd3b045f88455749478a3a8a0eb01d374",
+        "title": "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
+        "title_zh": "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
         "title_en": null,
-        "title_original": "​35 亿美元押注联发科：英伟达联手打造覆盖 AI 工厂到 PC 的下一代计算平台",
+        "title_original": "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/30747",
+        "url": "https://www.aibase.com/news/30756",
         "source": "AIbase",
         "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 55,
-      "persona_review": "芯片巨头联手布局未来硬件，但新平台落地尚早，短期内不影响选型。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-01T04:09:06.155200Z"
       }
     },
     {
-      "story_id": "story_080bc9896870",
-      "title": "​AI 造剧也能拿收视第一：国内首部 AIGC 长剧《后西游记》开播即飘红",
-      "url": "https://www.aibase.com/news/30743",
-      "primary_url": "https://www.aibase.com/news/30743",
+      "story_id": "story_18a954a364e8",
+      "title": "​百万 Token 上下文首次下放到端侧：讯飞星火 X2.5 双子星开源，全程国产算力训练",
+      "url": "https://www.aibase.com/news/30749",
+      "primary_url": "https://www.aibase.com/news/30749",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "b115e881d08f3a343ecfe685f6aab741eba8a727",
-          "title": "​AI 造剧也能拿收视第一：国内首部 AIGC 长剧《后西游记》开播即飘红",
-          "title_zh": "​AI 造剧也能拿收视第一：国内首部 AIGC 长剧《后西游记》开播即飘红",
+          "id": "aafe723be9b968f91776e8c7d2d73bfdf9f013b1",
+          "title": "​百万 Token 上下文首次下放到端侧：讯飞星火 X2.5 双子星开源，全程国产算力训练",
+          "title_zh": "​百万 Token 上下文首次下放到端侧：讯飞星火 X2.5 双子星开源，全程国产算力训练",
           "title_en": null,
-          "title_original": "​AI 造剧也能拿收视第一：国内首部 AIGC 长剧《后西游记》开播即飘红",
+          "title_original": "​百万 Token 上下文首次下放到端侧：讯飞星火 X2.5 双子星开源，全程国产算力训练",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30743",
+          "url": "https://www.aibase.com/news/30749",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-01T04:05:00.633277Z"
+          "published_at": "2026-09-01T09:05:13.082114Z"
         }
       ],
       "source_count": 1,
@@ -958,18 +791,18 @@
       ],
       "items": [
         {
-          "id": "b115e881d08f3a343ecfe685f6aab741eba8a727",
-          "title": "​AI 造剧也能拿收视第一：国内首部 AIGC 长剧《后西游记》开播即飘红",
-          "title_zh": "​AI 造剧也能拿收视第一：国内首部 AIGC 长剧《后西游记》开播即飘红",
+          "id": "aafe723be9b968f91776e8c7d2d73bfdf9f013b1",
+          "title": "​百万 Token 上下文首次下放到端侧：讯飞星火 X2.5 双子星开源，全程国产算力训练",
+          "title_zh": "​百万 Token 上下文首次下放到端侧：讯飞星火 X2.5 双子星开源，全程国产算力训练",
           "title_en": null,
-          "title_original": "​AI 造剧也能拿收视第一：国内首部 AIGC 长剧《后西游记》开播即飘红",
+          "title_original": "​百万 Token 上下文首次下放到端侧：讯飞星火 X2.5 双子星开源，全程国产算力训练",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30743",
+          "url": "https://www.aibase.com/news/30749",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-01T04:05:00.633277Z"
+          "published_at": "2026-09-01T09:05:13.082114Z"
         }
       ],
       "item_count": 1,
@@ -990,111 +823,19 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-01T04:05:00.633277Z",
-      "latest_at": "2026-09-01T04:05:00.633277Z",
+      "earliest_at": "2026-09-01T09:05:13.082114Z",
+      "latest_at": "2026-09-01T09:05:13.082114Z",
       "primary_item": {
-        "id": "b115e881d08f3a343ecfe685f6aab741eba8a727",
-        "title": "​AI 造剧也能拿收视第一：国内首部 AIGC 长剧《后西游记》开播即飘红",
-        "title_zh": "​AI 造剧也能拿收视第一：国内首部 AIGC 长剧《后西游记》开播即飘红",
+        "id": "aafe723be9b968f91776e8c7d2d73bfdf9f013b1",
+        "title": "​百万 Token 上下文首次下放到端侧：讯飞星火 X2.5 双子星开源，全程国产算力训练",
+        "title_zh": "​百万 Token 上下文首次下放到端侧：讯飞星火 X2.5 双子星开源，全程国产算力训练",
         "title_en": null,
-        "title_original": "​AI 造剧也能拿收视第一：国内首部 AIGC 长剧《后西游记》开播即飘红",
+        "title_original": "​百万 Token 上下文首次下放到端侧：讯飞星火 X2.5 双子星开源，全程国产算力训练",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/30743",
+        "url": "https://www.aibase.com/news/30749",
         "source": "AIbase",
         "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "行业应用案例，知道有这事就行，跟具体开发工作无关。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-01T04:09:06.155200Z"
-      }
-    },
-    {
-      "story_id": "story_42d18a658a2b",
-      "title": "​手握算力当“房东”：英伟达转手出租数据中心，Anthropic 350 亿美元买单",
-      "url": "https://www.aibase.com/news/30732",
-      "primary_url": "https://www.aibase.com/news/30732",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "744a23b8900ad27df849c9b116dac016ed262b2d",
-          "title": "​手握算力当“房东”：英伟达转手出租数据中心，Anthropic 350 亿美元买单",
-          "title_zh": "​手握算力当“房东”：英伟达转手出租数据中心，Anthropic 350 亿美元买单",
-          "title_en": null,
-          "title_original": "​手握算力当“房东”：英伟达转手出租数据中心，Anthropic 350 亿美元买单",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30732",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-01T04:05:00.633277Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "744a23b8900ad27df849c9b116dac016ed262b2d",
-          "title": "​手握算力当“房东”：英伟达转手出租数据中心，Anthropic 350 亿美元买单",
-          "title_zh": "​手握算力当“房东”：英伟达转手出租数据中心，Anthropic 350 亿美元买单",
-          "title_en": null,
-          "title_original": "​手握算力当“房东”：英伟达转手出租数据中心，Anthropic 350 亿美元买单",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30732",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-01T04:05:00.633277Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-01T04:05:00.633277Z",
-      "latest_at": "2026-09-01T04:05:00.633277Z",
-      "primary_item": {
-        "id": "744a23b8900ad27df849c9b116dac016ed262b2d",
-        "title": "​手握算力当“房东”：英伟达转手出租数据中心，Anthropic 350 亿美元买单",
-        "title_zh": "​手握算力当“房东”：英伟达转手出租数据中心，Anthropic 350 亿美元买单",
-        "title_en": null,
-        "title_original": "​手握算力当“房东”：英伟达转手出租数据中心，Anthropic 350 亿美元买单",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/30732",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "大厂间的算力租赁交易，普通开发者用不上，不影响你的API价格。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-01T04:09:06.155200Z"
       }
     },
     {
@@ -1170,15 +911,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5858,
-      "importance": 0.5858,
-      "importance_score": 0.5858,
+      "score": 0.5753,
+      "importance": 0.5753,
+      "importance_score": 0.5753,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4896,
         "source_tier": 0.58,
         "ai_relevance": 0.68,
-        "recency": 0.8348,
+        "recency": 0.7766,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1198,14 +939,82 @@
         "url": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
         "source": "The Verge",
         "source_name": "Curated Media"
+      }
+    },
+    {
+      "story_id": "story_175ffde23042",
+      "title": "中国化工行业首个大模型3.0 Pro重磅发布，从“会答”迈向“会干”",
+      "url": "https://www.aibase.com/news/30750",
+      "primary_url": "https://www.aibase.com/news/30750",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "f80b3cfa1eda766b953a027c15bafca0965bcf32",
+          "title": "中国化工行业首个大模型3.0 Pro重磅发布，从“会答”迈向“会干”",
+          "title_zh": "中国化工行业首个大模型3.0 Pro重磅发布，从“会答”迈向“会干”",
+          "title_en": null,
+          "title_original": "中国化工行业首个大模型3.0 Pro重磅发布，从“会答”迈向“会干”",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30750",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-01T09:05:13.082114Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "f80b3cfa1eda766b953a027c15bafca0965bcf32",
+          "title": "中国化工行业首个大模型3.0 Pro重磅发布，从“会答”迈向“会干”",
+          "title_zh": "中国化工行业首个大模型3.0 Pro重磅发布，从“会答”迈向“会干”",
+          "title_en": null,
+          "title_original": "中国化工行业首个大模型3.0 Pro重磅发布，从“会答”迈向“会干”",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30750",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-01T09:05:13.082114Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
       },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "不影响你当前使用，只是开源社区的政策讨论。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-01T04:09:06.155200Z"
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-01T09:05:13.082114Z",
+      "latest_at": "2026-09-01T09:05:13.082114Z",
+      "primary_item": {
+        "id": "f80b3cfa1eda766b953a027c15bafca0965bcf32",
+        "title": "中国化工行业首个大模型3.0 Pro重磅发布，从“会答”迈向“会干”",
+        "title_zh": "中国化工行业首个大模型3.0 Pro重磅发布，从“会答”迈向“会干”",
+        "title_en": null,
+        "title_original": "中国化工行业首个大模型3.0 Pro重磅发布，从“会答”迈向“会干”",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/30750",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -1282,15 +1091,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5597,
-      "importance": 0.5597,
-      "importance_score": 0.5597,
+      "score": 0.5495,
+      "importance": 0.5495,
+      "importance_score": 0.5495,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.5,
         "ai_relevance": 0.67,
-        "recency": 0.8111,
+        "recency": 0.7546,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1310,98 +1119,6 @@
         "url": "https://www.cnbc.com/2026/08/31/bailey-frontier-ai-financial-stability-risk.html",
         "source": "CNBC Make It",
         "source_name": "OPML RSS"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "监管层预警，但离具体开发限制和合规要求落地还远。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-01T04:09:06.155200Z"
-      }
-    },
-    {
-      "story_id": "story_b1bdc3f806e9",
-      "title": "一台MacBook引发的诉讼拉锯:苹果追加指控OpenAI硬件业务窃密",
-      "url": "https://www.aibase.com/news/30734",
-      "primary_url": "https://www.aibase.com/news/30734",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "488100fdc84a1da75565bde83f15f903e2e90430",
-          "title": "一台MacBook引发的诉讼拉锯:苹果追加指控OpenAI硬件业务窃密",
-          "title_zh": "一台MacBook引发的诉讼拉锯:苹果追加指控OpenAI硬件业务窃密",
-          "title_en": null,
-          "title_original": "一台MacBook引发的诉讼拉锯:苹果追加指控OpenAI硬件业务窃密",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30734",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-01T04:05:00.633277Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "488100fdc84a1da75565bde83f15f903e2e90430",
-          "title": "一台MacBook引发的诉讼拉锯:苹果追加指控OpenAI硬件业务窃密",
-          "title_zh": "一台MacBook引发的诉讼拉锯:苹果追加指控OpenAI硬件业务窃密",
-          "title_en": null,
-          "title_original": "一台MacBook引发的诉讼拉锯:苹果追加指控OpenAI硬件业务窃密",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30734",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-01T04:05:00.633277Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-01T04:05:00.633277Z",
-      "latest_at": "2026-09-01T04:05:00.633277Z",
-      "primary_item": {
-        "id": "488100fdc84a1da75565bde83f15f903e2e90430",
-        "title": "一台MacBook引发的诉讼拉锯:苹果追加指控OpenAI硬件业务窃密",
-        "title_zh": "一台MacBook引发的诉讼拉锯:苹果追加指控OpenAI硬件业务窃密",
-        "title_en": null,
-        "title_original": "一台MacBook引发的诉讼拉锯:苹果追加指控OpenAI硬件业务窃密",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/30734",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "大厂间的法律纠纷，不影响你今天调用API或写代码。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-01T04:09:06.155200Z"
       }
     },
     {
@@ -1507,15 +1224,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.545,
-      "importance": 0.545,
-      "importance_score": 0.545,
+      "score": 0.5342,
+      "importance": 0.5342,
+      "importance_score": 0.5342,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8565,
+        "recency": 0.7968,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1535,14 +1252,82 @@
         "url": "https://codex-tool-reference.simonw.chatgpt.site",
         "source": "codex-tool-reference.simonw.chatgpt.site",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_f25d703e5962",
+      "title": "科大讯飞旗下词元星火重磅开源两款全新机型",
+      "url": "https://www.aibase.com/news/30748",
+      "primary_url": "https://www.aibase.com/news/30748",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "420ade9e9758403f33683c1d541801ddd9a114e9",
+          "title": "科大讯飞旗下词元星火重磅开源两款全新机型",
+          "title_zh": "科大讯飞旗下词元星火重磅开源两款全新机型",
+          "title_en": null,
+          "title_original": "科大讯飞旗下词元星火重磅开源两款全新机型",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30748",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-01T09:05:13.082114Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "420ade9e9758403f33683c1d541801ddd9a114e9",
+          "title": "科大讯飞旗下词元星火重磅开源两款全新机型",
+          "title_zh": "科大讯飞旗下词元星火重磅开源两款全新机型",
+          "title_en": null,
+          "title_original": "科大讯飞旗下词元星火重磅开源两款全新机型",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30748",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-01T09:05:13.082114Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
       },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "一个现成的工具使用速查表，开发者今天就能参考来写提示词。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-01T04:09:06.155200Z"
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-01T09:05:13.082114Z",
+      "latest_at": "2026-09-01T09:05:13.082114Z",
+      "primary_item": {
+        "id": "420ade9e9758403f33683c1d541801ddd9a114e9",
+        "title": "科大讯飞旗下词元星火重磅开源两款全新机型",
+        "title_zh": "科大讯飞旗下词元星火重磅开源两款全新机型",
+        "title_en": null,
+        "title_original": "科大讯飞旗下词元星火重磅开源两款全新机型",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/30748",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -1619,15 +1404,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5389,
-      "importance": 0.5389,
-      "importance_score": 0.5389,
+      "score": 0.5268,
+      "importance": 0.5268,
+      "importance_score": 0.5268,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9615,
+        "recency": 0.8944,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1647,98 +1432,6 @@
         "url": "http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html",
         "source": "muratbuffalo.blogspot.com",
         "source_name": "Buzzing"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 25,
-      "persona_review": "观点讨论，不解决今天写代码或选型的具体问题。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-01T04:09:06.155200Z"
-      }
-    },
-    {
-      "story_id": "story_da8da4cba27e",
-      "title": "中国科学院大连化物所携手科大讯飞、阿里云发布3.0 Pro",
-      "url": "https://www.aibase.com/news/30740",
-      "primary_url": "https://www.aibase.com/news/30740",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "0e5cd858d33aa1af5605bef627d2e745432556c5",
-          "title": "中国科学院大连化物所携手科大讯飞、阿里云发布3.0 Pro",
-          "title_zh": "中国科学院大连化物所携手科大讯飞、阿里云发布3.0 Pro",
-          "title_en": null,
-          "title_original": "中国科学院大连化物所携手科大讯飞、阿里云发布3.0 Pro",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30740",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-01T04:05:00.633277Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "0e5cd858d33aa1af5605bef627d2e745432556c5",
-          "title": "中国科学院大连化物所携手科大讯飞、阿里云发布3.0 Pro",
-          "title_zh": "中国科学院大连化物所携手科大讯飞、阿里云发布3.0 Pro",
-          "title_en": null,
-          "title_original": "中国科学院大连化物所携手科大讯飞、阿里云发布3.0 Pro",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30740",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-01T04:05:00.633277Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-01T04:05:00.633277Z",
-      "latest_at": "2026-09-01T04:05:00.633277Z",
-      "primary_item": {
-        "id": "0e5cd858d33aa1af5605bef627d2e745432556c5",
-        "title": "中国科学院大连化物所携手科大讯飞、阿里云发布3.0 Pro",
-        "title_zh": "中国科学院大连化物所携手科大讯飞、阿里云发布3.0 Pro",
-        "title_en": null,
-        "title_original": "中国科学院大连化物所携手科大讯飞、阿里云发布3.0 Pro",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/30740",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "研究机构与企业合作发布模型，普通开发者暂无直接可用接口。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-01T04:09:06.155200Z"
       }
     },
     {
@@ -1815,15 +1508,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.523,
-      "importance": 0.523,
-      "importance_score": 0.523,
+      "score": 0.512,
+      "importance": 0.512,
+      "importance_score": 0.512,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8731,
+        "recency": 0.8123,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1843,14 +1536,186 @@
         "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand",
         "source": "www.macrumors.com",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_290daf4b2b31",
+      "title": "AI-Written Code Is Still *Your* Code. Are You OK with That?",
+      "url": "https://martiansoftware.com/articles/ai-written-code-is-still-yours",
+      "primary_url": "https://martiansoftware.com/articles/ai-written-code-is-still-yours",
+      "source": "Hacker News",
+      "source_name": "TechURLs",
+      "sources": [
+        {
+          "id": "dfc643672ca71be8c7f141b5720626e03e87042d",
+          "title": "AI-Written Code Is Still *Your* Code. Are You OK with That?",
+          "title_zh": null,
+          "title_en": "AI-Written Code Is Still *Your* Code. Are You OK with That?",
+          "title_original": "AI-Written Code Is Still *Your* Code. Are You OK with That?",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://martiansoftware.com/articles/ai-written-code-is-still-yours",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-31T12:08:25Z"
+        },
+        {
+          "id": "11ee6b253749e0ecbb88afcd84078a1fa9fe7a11",
+          "title": "AI-written code is still your code",
+          "title_zh": null,
+          "title_en": "AI-written code is still your code",
+          "title_original": "AI-written code is still your code",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://martiansoftware.com/articles/ai-written-code-is-still-yours",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-31T12:08:25Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News",
+        "Hacker News · 24h最热"
+      ],
+      "items": [
+        {
+          "id": "dfc643672ca71be8c7f141b5720626e03e87042d",
+          "title": "AI-Written Code Is Still *Your* Code. Are You OK with That?",
+          "title_zh": null,
+          "title_en": "AI-Written Code Is Still *Your* Code. Are You OK with That?",
+          "title_original": "AI-Written Code Is Still *Your* Code. Are You OK with That?",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://martiansoftware.com/articles/ai-written-code-is-still-yours",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-31T12:08:25Z"
+        },
+        {
+          "id": "11ee6b253749e0ecbb88afcd84078a1fa9fe7a11",
+          "title": "AI-written code is still your code",
+          "title_zh": null,
+          "title_en": "AI-written code is still your code",
+          "title_original": "AI-written code is still your code",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://martiansoftware.com/articles/ai-written-code-is-still-yours",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-31T12:08:25Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4988,
+      "importance": 0.4988,
+      "importance_score": 0.4988,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.739,
+        "story_heat": 0.25
       },
-      "persona_id": "pragmatic",
-      "persona_score": 10,
-      "persona_review": "供应链传闻，不影响你今天选型或开发。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-01T04:09:06.155200Z"
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-31T12:08:25Z",
+      "latest_at": "2026-08-31T12:08:25Z",
+      "primary_item": {
+        "id": "dfc643672ca71be8c7f141b5720626e03e87042d",
+        "title": "AI-Written Code Is Still *Your* Code. Are You OK with That?",
+        "title_zh": null,
+        "title_en": "AI-Written Code Is Still *Your* Code. Are You OK with That?",
+        "title_original": "AI-Written Code Is Still *Your* Code. Are You OK with That?",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://martiansoftware.com/articles/ai-written-code-is-still-yours",
+        "source": "Hacker News",
+        "source_name": "TechURLs"
+      }
+    },
+    {
+      "story_id": "story_00a15fcdfcdb",
+      "title": "韩国押上史上最大规模预算：821 万亿韩元砸向 AI 与芯片，半导体税收撑起扩张底气",
+      "url": "https://www.aibase.com/news/30758",
+      "primary_url": "https://www.aibase.com/news/30758",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "fd5222fc68ea0d6b1806439fd42b74de839a679c",
+          "title": "韩国押上史上最大规模预算：821 万亿韩元砸向 AI 与芯片，半导体税收撑起扩张底气",
+          "title_zh": "韩国押上史上最大规模预算：821 万亿韩元砸向 AI 与芯片，半导体税收撑起扩张底气",
+          "title_en": null,
+          "title_original": "韩国押上史上最大规模预算：821 万亿韩元砸向 AI 与芯片，半导体税收撑起扩张底气",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30758",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-01T09:05:13.082114Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "fd5222fc68ea0d6b1806439fd42b74de839a679c",
+          "title": "韩国押上史上最大规模预算：821 万亿韩元砸向 AI 与芯片，半导体税收撑起扩张底气",
+          "title_zh": "韩国押上史上最大规模预算：821 万亿韩元砸向 AI 与芯片，半导体税收撑起扩张底气",
+          "title_en": null,
+          "title_original": "韩国押上史上最大规模预算：821 万亿韩元砸向 AI 与芯片，半导体税收撑起扩张底气",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30758",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-01T09:05:13.082114Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-01T09:05:13.082114Z",
+      "latest_at": "2026-09-01T09:05:13.082114Z",
+      "primary_item": {
+        "id": "fd5222fc68ea0d6b1806439fd42b74de839a679c",
+        "title": "韩国押上史上最大规模预算：821 万亿韩元砸向 AI 与芯片，半导体税收撑起扩张底气",
+        "title_zh": "韩国押上史上最大规模预算：821 万亿韩元砸向 AI 与芯片，半导体税收撑起扩张底气",
+        "title_en": null,
+        "title_original": "韩国押上史上最大规模预算：821 万亿韩元砸向 AI 与芯片，半导体税收撑起扩张底气",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/30758",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     }
   ]
