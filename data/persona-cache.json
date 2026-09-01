@@ -1,66 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_2e9310d5724c|pragmatic|0a5c5b24": {
-      "score": 70,
-      "review": "Claude 输出自动带隐形水印，做内容溯源的今天就能用，但注意服务端处理。",
-      "title_hash": "1f51ef75",
-      "scored_at": "2026-08-11T09:30:29.891197Z"
-    },
-    "story_4beb0dde8446|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "数学研究离工程落地远，开发者不用行动。",
-      "title_hash": "fc8dd95b",
-      "scored_at": "2026-08-11T09:30:32.513884Z"
-    },
-    "story_2ce1fd385677|pragmatic|0a5c5b24": {
-      "score": 88,
-      "review": "开源可 clone，1.3B 参数直接跑真实任务，低资源场景今天就能试。",
-      "title_hash": "d6b505bb",
-      "scored_at": "2026-08-11T10:29:44.402759Z"
-    },
-    "story_2ce1fd385677|cynic|f4237a62": {
-      "score": 48,
-      "review": "1.3B激活参数听着省，怎么不报总参数？开源链接和基准呢？",
-      "title_hash": "d6b505bb",
-      "scored_at": "2026-08-11T10:29:49.423383Z"
-    },
-    "story_2ce1fd385677|paper-police|966065bf": {
-      "score": 25,
-      "review": "只看到公众号宣称开源，无代码无benchmark，无法验证。",
-      "title_hash": "d6b505bb",
-      "scored_at": "2026-08-11T10:29:52.956870Z"
-    },
-    "story_025a725a5231|pragmatic|0a5c5b24": {
-      "score": 50,
-      "review": "数学能力再强也没开放API，短期不影响开发，关注后续产品化。",
-      "title_hash": "15e48ca3",
-      "scored_at": "2026-08-11T12:11:01.044648Z"
-    },
-    "story_9fbb4447f967|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "语言选型老话题，观点参考可以，别指望看完就能动手。",
-      "title_hash": "4d74c329",
-      "scored_at": "2026-08-11T12:11:02.555837Z"
-    },
-    "story_eddc237df9be|pragmatic|0a5c5b24": {
-      "score": 52,
-      "review": "研究向的token优化方案，等有可跑代码再动手。",
-      "title_hash": "4338b71a",
-      "scored_at": "2026-08-11T14:02:07.459550Z"
-    },
-    "story_f527ac6baab4|pragmatic|0a5c5b24": {
-      "score": 75,
-      "review": "本地跑智能体有新选择，但需确认是否开源，能下载就值。",
-      "title_hash": "04ab77da",
-      "scored_at": "2026-08-11T14:02:09.427035Z"
-    },
-    "story_2172d913ef6d|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "自查是否在用该类工具，尽快轮换凭证并检查暴露记录。",
-      "title_hash": "2d769870",
-      "scored_at": "2026-08-11T14:02:12.100791Z"
-    },
     "story_bdd68ac35b2d|pragmatic|0a5c5b24": {
       "score": 70,
       "review": "账单能按模型拆了，做成本核算的直接受益，改下报表就行。",
@@ -4920,6 +4860,72 @@
       "review": "有开源代码和官方发布，但未见配套论文及独立评测报告。",
       "title_hash": "9888ff0c",
       "scored_at": "2026-09-01T09:07:28.715490Z"
+    },
+    "story_8ba38180ebe6|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "开源了200+可直接用的WebGPU核心，本地推理性能优化有现成轮子了。",
+      "title_hash": "e2a91803",
+      "scored_at": "2026-09-01T15:06:03.247922Z"
+    },
+    "story_d2daab157b0c|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "GitHub Team订阅的Copilot模型权限有变，需检查现有项目是否受影响。",
+      "title_hash": "0a9737e8",
+      "scored_at": "2026-09-01T15:06:06.708182Z"
+    },
+    "story_0ccf033da9a1|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "提醒数据中心选址或用电成本可能上涨，但暂无直接影响。",
+      "title_hash": "92a811f3",
+      "scored_at": "2026-09-01T15:06:09.943225Z"
+    },
+    "story_e56fdeaae0c9|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "已有Marvis的用户可以扩展工具链，直接接入更多模型提升效率。",
+      "title_hash": "1e418188",
+      "scored_at": "2026-09-01T15:06:13.965124Z"
+    },
+    "story_c51d67ee2678|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "名人吐槽不解决技术选型问题，对集成方案无实际指导。",
+      "title_hash": "0eec7238",
+      "scored_at": "2026-09-01T15:06:17.015181Z"
+    },
+    "story_48f071bde448|pragmatic|0a5c5b24": {
+      "score": 30,
+      "review": "是行业组织的法律呼吁，不直接影响今天的开发选型或成本。",
+      "title_hash": "88b0a5f5",
+      "scored_at": "2026-09-01T15:06:20.346096Z"
+    },
+    "story_417795a6a239|pragmatic|0a5c5b24": {
+      "score": 30,
+      "review": "一篇个人博客观点，对实际开发选型或技术方案无直接影响。",
+      "title_hash": "f902d5a0",
+      "scored_at": "2026-09-01T15:06:26.939859Z"
+    },
+    "story_8ba38180ebe6|cynic|f4237a62": {
+      "score": 85,
+      "review": "开源200+核心，把WebGPU的脏活累活都干了，这次是真在填坑。",
+      "title_hash": "e2a91803",
+      "scored_at": "2026-09-01T15:06:31.444535Z"
+    },
+    "story_8ba38180ebe6|paper-police|966065bf": {
+      "score": 55,
+      "review": "官方博客详述了技术实现与基准测试，但未提供独立的论文或第三方复现验证。",
+      "title_hash": "e2a91803",
+      "scored_at": "2026-09-01T15:06:35.021364Z"
+    },
+    "story_d2daab157b0c|cynic|f4237a62": {
+      "score": 65,
+      "review": "给团队计划换个模型就发个公告，这算哪门子‘更新’？",
+      "title_hash": "0a9737e8",
+      "scored_at": "2026-09-01T15:06:39.648085Z"
+    },
+    "story_d2daab157b0c|paper-police|966065bf": {
+      "score": 15,
+      "review": "仅有官方博客宣称功能更新，无论文、代码或独立评测佐证。",
+      "title_hash": "0a9737e8",
+      "scored_at": "2026-09-01T15:06:43.165875Z"
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T09:07:28.715550Z",
+  "generated_at": "2026-09-01T15:06:43.165933Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -37,42 +37,42 @@
       }
     },
     {
-      "story_id": "story_08b8473c055e",
-      "title": "DeepSeek 首个开源多模态模型来了：这双“眼睛”不给人类看图，专供 Agent 干活",
-      "url": "https://www.aibase.com/news/30755",
+      "story_id": "story_8ba38180ebe6",
+      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+      "url": "https://huggingface.co/blog/webgpu-kernels",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 72,
-          "review": "专供Agent干活？听起来像是通用能力不行，只好找个垂直场景讲故事。"
+          "score": 85,
+          "review": "开源200+核心，把WebGPU的脏活累活都干了，这次是真在填坑。"
         },
         "paper-police": {
-          "score": 45,
-          "review": "报道提及开源模型，但未附论文与独立评测链接，证据链不完整。"
+          "score": 55,
+          "review": "官方博客详述了技术实现与基准测试，但未提供独立的论文或第三方复现验证。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "开源多模态模型可直接集成，为你的Agent项目提供视觉能力。"
+          "review": "开源了200+可直接用的WebGPU核心，本地推理性能优化有现成轮子了。"
         }
       }
     },
     {
-      "story_id": "story_f25d703e5962",
-      "title": "科大讯飞旗下词元星火重磅开源两款全新机型",
-      "url": "https://www.aibase.com/news/30748",
+      "story_id": "story_d2daab157b0c",
+      "title": "Copilot model access update for GitHub Team plans",
+      "url": "https://github.blog/changelog/2026-08-31-copilot-model-access-update-for-github-team-plans",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 55,
-          "review": "开源是好事，但‘重磅’和‘全新’得看代码和性能，别又是参数改改名。"
+          "score": 65,
+          "review": "给团队计划换个模型就发个公告，这算哪门子‘更新’？"
         },
         "paper-police": {
-          "score": 65,
-          "review": "有开源代码和官方发布，但未见配套论文及独立评测报告。"
+          "score": 15,
+          "review": "仅有官方博客宣称功能更新，无论文、代码或独立评测佐证。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "开源模型可直接下载部署，马上就能测试或集成。"
+          "review": "GitHub Team订阅的Copilot模型权限有变，需检查现有项目是否受影响。"
         }
       }
     }
