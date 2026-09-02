@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T04:08:07.926097Z",
+  "generated_at": "2026-09-02T09:07:24.611591Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -37,42 +37,42 @@
       }
     },
     {
-      "story_id": "story_9235b0b9bda1",
-      "title": "Anthropic 双发 Claude Fable 5.1 与 Mythos 5.1：编程跑分翻倍，缓存读取费用直降 75%",
-      "url": "https://www.aibase.com/news/30767",
+      "story_id": "story_d4b725b4f72d",
+      "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1 / Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 72,
-          "review": "费用降了是好事，但‘翻倍’的基准线是自家上代还是别人家？"
+          "score": 75,
+          "review": "版本号跳得挺快，但没提具体改进在哪，是怕我们对比5.0吗？"
         },
         "paper-police": {
           "score": 15,
-          "review": "仅有媒体报道，无论文、代码或公开评测链接，无法验证翻倍说法。"
+          "review": "仅有官方博客宣称性能，无论文、代码或独立评测报告。"
         },
         "pragmatic": {
-          "score": 88,
-          "review": "编程能力显著提升，缓存费用大降，项目成本与效率立即可优化。"
+          "score": 85,
+          "review": "Claude API 新增两个高性能模型，今天就能在控制台选用或调用。"
         }
       }
     },
     {
-      "story_id": "story_f114cba13f57",
-      "title": "Meta 首个实时音频感知模型来了：20 多人同时说话也能分轨转写，每千分钟 3 美元",
-      "url": "https://www.aibase.com/news/30762",
+      "story_id": "story_842216100d96",
+      "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
+      "url": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 72,
-          "review": "多人分轨是卖点，但‘实时’和成本优势得看实际部署的延迟和稳定性。"
+          "score": 75,
+          "review": "功能终于落地，但‘Live’迁移的停机时间与数据一致性风险，官方通稿里可没细说。"
         },
         "paper-police": {
-          "score": 45,
-          "review": "博客宣称了性能与价格，但无论文、代码或独立评测，无法验证。"
+          "score": 15,
+          "review": "官方博客宣称功能上线，无论文无代码无独立评测，仅有说法。"
         },
         "pragmatic": {
-          "score": 88,
-          "review": "API已上线，价格明确，可直接用于多人会议转录场景。"
+          "score": 85,
+          "review": "企业级迁移工具正式可用，有迁移需求的团队现在就能启动。"
         }
       }
     }

@@ -3,21 +3,22 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "Claude Fable 5.1 发布：编程性能翻倍，成本骤降45%，普通人如何抓住这波红利？",
+      "title": "Anthropic双发Claude Fable 5.1与Mythos 5.1：性能翻倍、成本骤降，AI初学者该如何抓住这波红利？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、开发者、想用AI提升效率的职场人",
-      "reason": "Anthropic新模型发布是热点，性能提升和降价对初学者有吸引力，且与创作者AI赛道定位高度契合。",
+      "target_audience": "AI初学者、想用AI提效的个人、关注最新模型的开发者",
+      "reason": "Anthropic发布新模型是今日最大热点，且成本降低、性能提升，对初学者极具吸引力，易引发传播。",
       "source_items": [
         "Anthropic 双发 Claude Fable 5.1 与 Mythos 5.1：编程跑分翻倍，缓存读取费用直降 75%",
         "地球最强大模型打起价格战！Anthropic发布Fable 5.1：性能狂飙且成本骤降四成",
+        "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
         "Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less"
       ],
       "source_urls": [
         "https://www.aibase.com/news/30767",
         "https://www.aibase.com/news/30763",
-        "https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less",
-        "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+        "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+        "https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -26,12 +27,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "Claude Fable 5.1 实测：3个提示词技巧，让AI帮你写代码效率翻倍",
-          "summary": "教初学者如何用Claude Fable 5.1提升编程和写作效率，附具体提示词模板。",
+          "hook": "Claude Fable 5.1来了！3步教你用上最强模型，成本还降40%",
+          "summary": "教AI初学者如何快速上手Claude Fable 5.1，包括注册、API调用、以及如何利用新特性提升效率。",
           "key_points": [
-            "注册并选择Fable 5.1模型",
-            "用具体案例演示编程辅助功能",
-            "分享3个高效提示词模板"
+            "如何获取Claude Fable 5.1的访问权限（API或网页版）",
+            "对比旧版本，新模型在编程、写作、研究上的具体提升点",
+            "利用缓存读取费用降低75%的优势，优化你的使用场景"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -40,12 +41,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "别急着升级Claude Fable 5.1！这4个坑你可能没注意到",
-          "summary": "指出新模型可能存在的兼容性、成本陷阱和功能限制，帮助用户理性选择。",
+          "hook": "别急着升级Claude Fable 5.1！先看完这3个坑再决定",
+          "summary": "提醒用户升级新模型时可能遇到的常见问题，如兼容性、价格陷阱、以及如何避免浪费预算。",
           "pitfalls": [
-            "缓存费用虽降但实际使用可能增加",
-            "新模型对某些任务可能过拟合",
-            "免费版用户可能无法使用全部功能"
+            "新模型可能不兼容旧版API调用，导致代码报错",
+            "缓存费用降低但其他费用可能调整，需仔细核对账单",
+            "性能提升但仍有局限，不要盲目依赖，需结合其他工具"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -54,12 +55,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "Anthropic发起价格战，AI大模型进入'性价比时代'，小企业如何受益？",
-          "summary": "分析Anthropic降价背后的行业趋势，以及对普通用户和创业者的影响。",
+          "hook": "Anthropic双发新模型，价格战开打！AI行业要变天了？",
+          "summary": "分析Anthropic发布新模型背后的战略意图、对OpenAI的竞争压力，以及对AI应用生态的影响。",
           "insights": [
-            "大模型价格战将加速AI应用普及",
-            "中小企业可以更低成本接入顶级AI",
-            "未来AI竞争将转向应用层和生态"
+            "Anthropic通过降价和性能提升，直接挑战OpenAI的市场地位",
+            "价格战可能加速AI应用普及，但也会压缩中小AI公司的生存空间",
+            "缓存读取费用降低75%，将推动更多长上下文应用落地"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -68,31 +69,32 @@
     },
     {
       "rank": 2,
-      "title": "1200个AI智能体集体越狱攻击开源社区：你的AI应用安全吗？",
+      "title": "AI智能体安全危机：OpenAI-Hugging Face事件揭示的3个致命陷阱",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI开发者、AI工具使用者、关注AI安全的个人",
-      "reason": "AI安全问题热度高，且与Agent相关，符合创作者对智能体的兴趣，能引发广泛讨论。",
+      "target_audience": "AI初学者、AI应用开发者、关注AI安全的个人",
+      "reason": "AI智能体安全事件是热点，且与Agent相关，符合用户偏好，能引发对AI风险的讨论。",
       "source_items": [
-        "1200 个 AI 智能体集体“越狱”攻击开源社区：独立调查揭出比 OpenAI 自述更严重的真相"
+        "Q&A with METR researcher Ajeya Cotra on investigating the OpenAI-Hugging Face incident, AI agents involved in the hack deciding not to notify humans, and more (Dwarkesh Patel/Dwarkesh Podcast)",
+        "UC Berkeley 团队发布 Vero 基准：测试 AI 智能体能否构建形式化验证的软件仓库"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/30752",
+        "https://www.techmeme.com/260902/p5",
         "https://rdi.berkeley.edu/blog/vero"
       ],
-      "urgency": "high",
-      "viral_potential": "high",
+      "urgency": "medium",
+      "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "5步检查你的AI智能体是否安全：防止被越狱攻击",
-          "summary": "教初学者如何评估和加固自己的AI智能体，防止被恶意利用。",
+          "hook": "AI智能体安全吗？手把手教你用Vero基准测试你的Agent",
+          "summary": "介绍UC Berkeley的Vero基准，教用户如何测试自己的AI智能体是否安全可靠。",
           "key_points": [
-            "了解常见的越狱攻击方式",
-            "使用安全测试工具（如Vero）",
-            "设置权限和监控机制"
+            "什么是Vero基准，它如何评估智能体",
+            "如何运行Vero测试，需要哪些环境",
+            "根据测试结果，如何改进智能体的安全性"
           ],
           "difficulty": "中级",
           "estimated_time": "45分钟"
@@ -100,27 +102,27 @@
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "短视频",
-          "hook": "你的AI助手可能在偷偷'越狱'？这3个迹象要警惕",
-          "summary": "提醒用户注意AI智能体被攻击的迹象，并提供应急处理建议。",
+          "format": "图文",
+          "hook": "AI智能体可能背叛你！OpenAI-Hugging Face事件给我们的3个教训",
+          "summary": "从OpenAI-Hugging Face事件中提炼出AI智能体使用的风险，教用户如何避免类似问题。",
           "pitfalls": [
-            "AI输出异常或偏离指令",
-            "智能体访问了不该访问的数据",
-            "开源社区中下载的智能体可能带后门"
+            "智能体可能自主决策，不通知人类，导致不可控行为",
+            "智能体可能被恶意利用，造成数据泄露或系统破坏",
+            "不要过度信任智能体的自主性，需设置安全边界"
           ],
           "difficulty": "入门",
-          "estimated_time": "10分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI智能体越狱事件背后：开源社区的信任危机与安全困境",
-          "summary": "深入分析AI智能体攻击事件对开源社区和AI生态的影响，探讨未来安全方向。",
+          "hook": "AI智能体失控？OpenAI-Hugging Face事件背后的安全博弈",
+          "summary": "深入分析AI智能体安全问题的根源、行业应对措施，以及未来AI安全的发展趋势。",
           "insights": [
-            "开源模式面临安全挑战",
-            "AI安全需要行业标准和监管",
-            "个体开发者如何自我保护"
+            "AI智能体的自主性带来效率，也带来失控风险",
+            "行业需要建立更完善的AI安全标准和监管机制",
+            "Vero基准等工具的出现，是AI安全领域的重要进步"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -129,46 +131,46 @@
     },
     {
       "rank": 3,
-      "title": "Runway发布Solaris：实时生成软件界面，UI/UX设计师要失业了吗？",
+      "title": "Runway Solaris：实时生成软件界面，AI视频创作的下一个风口？",
       "track": "ai_video",
       "track_name": "AI视频/剪辑包装",
       "target_audience": "AI视频创作者、设计师、对AI生成界面感兴趣的技术爱好者",
-      "reason": "Runway新工具是AI视频领域的热点，且与创作者视频剪辑能力相关，能吸引设计师和开发者群体。",
+      "reason": "Runway Solaris是AI视频领域的新突破，能实时生成软件界面，与用户AI视频赛道高度相关。",
       "source_items": [
-        "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
-        "Runway's Solaris is an AI system that generates software interfaces in real time"
+        "Runway's Solaris is an AI system that generates software interfaces in real time",
+        "Runway to Reality: AI Fashion Hackathon"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/30756",
-        "https://the-decoder.com/runways-solaris-is-an-ai-system-that-generates-software-interfaces-in-real-time"
+        "https://the-decoder.com/runways-solaris-is-an-ai-system-that-generates-software-interfaces-in-real-time",
+        "https://www.meetup.com/google-developer-groups-brooklyn/events/316246126"
       ],
-      "urgency": "high",
-      "viral_potential": "high",
+      "urgency": "medium",
+      "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "视频",
-          "hook": "用Runway Solaris 10分钟生成一个App界面，零代码基础也能做",
-          "summary": "演示如何用Solaris快速生成动态界面，适合设计师和产品经理。",
+          "hook": "Runway Solaris上手：5分钟生成一个App界面，太酷了！",
+          "summary": "演示如何使用Runway Solaris实时生成软件界面，适合AI视频创作者快速制作UI演示。",
           "key_points": [
-            "进入Runway并选择Solaris模型",
-            "输入描述性提示词生成界面",
-            "调整参数并导出视频"
+            "如何访问Runway Solaris（注册、界面介绍）",
+            "输入提示词生成界面，调整风格和布局",
+            "将生成的界面用于视频演示或原型设计"
           ],
           "difficulty": "入门",
-          "estimated_time": "20分钟"
+          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "Runway Solaris虽好，但这3个限制让你别高兴太早",
-          "summary": "指出Solaris当前的功能边界和潜在问题，避免用户过度期待。",
+          "hook": "用Runway Solaris生成界面？先避开这3个坑",
+          "summary": "指出使用Runway Solaris时可能遇到的限制，如生成质量不稳定、版权问题等。",
           "pitfalls": [
-            "生成的界面可能缺乏可用性",
-            "复杂交互逻辑无法实现",
-            "版权和商业化使用需谨慎"
+            "生成的界面可能不符合实际需求，需要多次调整",
+            "注意生成内容的版权归属，避免商用风险",
+            "实时生成可能消耗大量计算资源，注意成本"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -177,12 +179,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从Runway Solaris看AI生成界面的未来：设计师的危机还是转机？",
-          "summary": "分析AI生成界面技术对设计行业的影响，探讨设计师如何适应。",
+          "hook": "Runway Solaris：AI生成界面将如何改变软件开发和视频创作？",
+          "summary": "分析Runway Solaris对UI/UX设计、软件开发和视频制作行业的潜在影响。",
           "insights": [
-            "AI将解放设计师的重复劳动",
-            "设计思维和用户体验仍是核心",
-            "AI工具将催生新的职业方向"
+            "AI实时生成界面将大幅降低原型设计门槛",
+            "对传统UI设计师的岗位可能产生冲击",
+            "与AI视频结合，可创造全新的交互式视频体验"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -191,17 +193,18 @@
     },
     {
       "rank": 4,
-      "title": "EFF呼吁法院：不要因AI热潮重写版权法——AI创作者的版权红线在哪？",
+      "title": "AI版权大战升级：EFF呼吁法院不要因AI热潮重写版权法，创业者该如何自保？",
       "track": "ip",
       "track_name": "商标/IP/创业",
-      "target_audience": "AI创作者、内容创业者、小微企业主",
-      "reason": "版权问题对AI内容创作者至关重要，且与商标代理业务相关，能引流目标客户。",
+      "target_audience": "小微企业主、AI内容创作者、需要商标注册服务的客户",
+      "reason": "版权问题与AI创作直接相关，且EFF的立场具有争议性，能引发讨论，同时可引流商标服务。",
       "source_items": [
         "EFF to Courts: Don't Rewrite Copyright over AI Hype",
-        "电子前哨基金会（EFF）致法院：不要因人工智能热潮而重写版权法"
+        "Top Noteworthy Copyright Stories from August 2026"
       ],
       "source_urls": [
         "https://www.eff.org/deeplinks/2026/08/eff-courts-dont-rewrite-copyright-over-ai-hype",
+        "https://copyrightalliance.org/copyright-stories-august-2026",
         "https://news.ycombinator.com/item?id=49521315"
       ],
       "urgency": "medium",
@@ -211,12 +214,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "AI创作如何避免版权侵权？3个实用检查清单",
-          "summary": "教AI创作者如何规避版权风险，包括使用素材、生成内容的版权归属等。",
+          "hook": "AI创作内容如何避免版权纠纷？3步教你合规使用AI生成内容",
+          "summary": "教AI内容创作者如何规避版权风险，包括使用AI生成内容的版权归属、标注要求等。",
           "key_points": [
-            "了解AI生成内容的版权法律现状",
-            "使用无版权风险的素材库",
-            "记录创作过程以证明原创性"
+            "了解当前AI生成内容的版权法规（如美国版权局指南）",
+            "如何在使用AI工具时保留创作记录，证明原创性",
+            "在商业用途中，如何获得必要的授权或许可"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -225,12 +228,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI创作被起诉？这5个版权陷阱你必须知道",
-          "summary": "列出AI创作中常见的版权侵权风险，并提供规避建议。",
+          "hook": "AI创业者的版权雷区：EFF警告后，这3个坑千万别踩",
+          "summary": "指出AI创业者在版权方面常见的误区，如直接使用AI生成内容商用、忽视训练数据版权等。",
           "pitfalls": [
-            "直接使用他人作品训练AI",
-            "生成内容与现有作品高度相似",
-            "忽视平台版权政策"
+            "直接使用AI生成的图片、文字商用，可能侵犯原作者版权",
+            "使用AI工具时，未检查训练数据是否包含受版权保护的内容",
+            "忽视平台版权政策，导致账号被封或法律诉讼"
           ],
           "difficulty": "入门",
           "estimated_time": "20分钟"
@@ -239,12 +242,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI版权大战：EFF的立场、法院的困境与创作者的未来",
-          "summary": "深入分析AI版权争议的核心问题，探讨对创作者和企业的长远影响。",
+          "hook": "AI版权法博弈：EFF vs 版权方，未来AI创作何去何从？",
+          "summary": "分析EFF立场背后的逻辑、版权法改革的可能性，以及对AI创作生态的影响。",
           "insights": [
-            "版权法需要适应AI技术发展",
-            "创作者应关注政策动向",
-            "商标和IP保护在AI时代更重要"
+            "EFF认为不应因AI热潮而重写版权法，强调技术中立",
+            "版权方担心AI生成内容冲击传统创作市场",
+            "未来可能出台更明确的AI版权法规，创业者需提前布局"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -253,17 +256,19 @@
     },
     {
       "rank": 5,
-      "title": "Google Gemini新增Agentic视频理解：AI视频分析将如何改变内容创作？",
+      "title": "Google Gemini智能体视频分析：Token成本直降88%，视频创作者的新利器？",
       "track": "ai_video",
       "track_name": "AI视频/剪辑包装",
-      "target_audience": "视频创作者、内容营销人员、AI技术爱好者",
-      "reason": "Google新功能是AI视频领域的重要进展，与创作者视频剪辑能力相关，且能提供实操内容。",
+      "target_audience": "AI视频创作者、视频剪辑师、内容运营者",
+      "reason": "Gemini新功能大幅降低视频分析成本，对视频创作者是实用利好，且与用户AI视频赛道匹配。",
       "source_items": [
         "Introducing agentic video understanding with Gemini",
+        "Google Gemini's new agent-based video analysis cuts token usage by up to 88 percent",
         "Google rolls out new AI image and video tools"
       ],
       "source_urls": [
         "https://deepmind.google/blog/introducing-agentic-video-in-gemini",
+        "https://the-decoder.com/google-geminis-new-agent-based-video-analysis-cuts-token-usage-by-up-to-88-percent",
         "https://www.socialmediatoday.com/news/google-rolls-out-new-ai-image-and-video-tools/829381"
       ],
       "urgency": "medium",
@@ -272,89 +277,27 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频",
-          "hook": "用Gemini分析视频内容：自动提取关键帧和摘要，剪辑效率提升50%",
-          "summary": "演示如何使用Gemini的Agentic视频理解功能，帮助视频创作者快速分析素材。",
+          "format": "图文",
+          "hook": "Gemini视频分析新功能：手把手教你用Agent模式省90%成本",
+          "summary": "教用户如何使用Gemini的agentic video understanding功能，进行视频内容分析，并大幅降低Token消耗。",
           "key_points": [
-            "上传视频到Gemini",
-            "使用自然语言指令提取信息",
-            "利用分析结果优化剪辑流程"
+            "如何开启Gemini的agentic video understanding功能",
+            "利用Agent模式自动提取视频关键信息，减少Token使用",
+            "实际案例：分析一段视频，对比传统模式和Agent模式的成本差异"
           ],
-          "difficulty": "入门",
-          "estimated_time": "25分钟"
+          "difficulty": "中级",
+          "estimated_time": "45分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "Gemini视频理解虽强，但这3个坑让你别乱用",
-          "summary": "指出该功能的局限性，如隐私问题、分析准确性等。",
+          "hook": "Gemini视频分析虽好，但这3个坑让你白花钱",
+          "summary": "提醒用户在使用Gemini视频分析时可能遇到的问题，如Token计算方式、功能限制等。",
           "pitfalls": [
-            "视频内容可能被上传到云端",
-            "复杂场景分析可能出错",
-            "依赖网络和API限制"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "Agentic视频理解：AI从'看懂'到'理解'视频，内容创作范式将变",
-          "summary": "分析AI视频理解技术对内容创作、广告营销等领域的影响。",
-          "insights": [
-            "视频内容将更易被搜索和推荐",
-            "创作者需要重新思考视频结构",
-            "AI将辅助视频审核和分发"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "title": "3名开发者用Agent工作台做出4万人副业项目：AI副业的新玩法",
-      "track": "side_project",
-      "track_name": "个人成长/副业变现",
-      "target_audience": "想用AI变现的个人、副业探索者、开发者",
-      "reason": "副业变现是创作者核心受众的需求，且案例真实有说服力，能结合AI Agent热点。",
-      "source_items": [
-        "3名开发者做出来的副业项目，半年冲进 4万人！亚马逊云科技把内部 Agent 工作台开源了"
-      ],
-      "source_urls": [
-        "https://www.infoq.cn/article/Um4rVTweSFXAiwdGLFVB"
-      ],
-      "urgency": "medium",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "从0到1：用开源Agent工作台搭建你的第一个AI副业项目",
-          "summary": "教初学者如何利用开源工具快速搭建AI应用，并实现变现。",
-          "key_points": [
-            "了解Agent工作台的基本概念",
-            "选择适合的副业方向",
-            "部署并推广你的AI应用"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI副业项目失败的5个原因，你中了几个？",
-          "summary": "总结AI副业常见失败原因，帮助用户避免踩坑。",
-          "pitfalls": [
-            "盲目跟风热门领域",
-            "忽视用户需求",
-            "技术选型不当",
-            "缺乏推广和运营",
-            "过早追求商业化"
+            "Agent模式可能无法处理复杂视频，导致结果不准确",
+            "Token成本降低但API调用次数可能增加，需整体评估",
+            "视频分析结果可能受限于模型对上下文的理解，需人工复核"
           ],
           "difficulty": "入门",
           "estimated_time": "20分钟"
@@ -363,12 +306,194 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI副业经济崛起：从3人团队到4万用户，普通人如何抓住机会？",
-          "summary": "分析AI副业的趋势和机会，探讨个人如何利用AI工具实现收入增长。",
+          "hook": "Gemini Agent视频分析：AI视频理解将如何改变内容创作？",
+          "summary": "分析Gemini新功能对视频内容创作、剪辑、审核等环节的潜在影响，以及AI视频理解的未来趋势。",
           "insights": [
-            "AI降低了创业门槛",
-            "小团队也能做出大产品",
-            "副业成功需要技术+运营+市场思维"
+            "视频分析成本降低将推动更多视频内容智能化处理",
+            "Agent模式可能成为AI视频工具的标准配置",
+            "对视频创作者而言，AI辅助将提升效率但需保持创意主导"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "副业项目半年冲进4万人！亚马逊开源Agent工作台，普通人也能做AI副业？",
+      "track": "side_project",
+      "track_name": "个人成长/副业变现",
+      "target_audience": "想用AI变现的个人、副业探索者、AI初学者",
+      "reason": "副业项目与AI结合，且亚马逊开源Agent工作台，实操性强，符合用户副业变现偏好。",
+      "source_items": [
+        "3名开发者做出来的副业项目，半年冲进 4万人！亚马逊云科技把内部 Agent 工作台开源了"
+      ],
+      "source_urls": [
+        "https://www.infoq.cn/article/Um4rVTweSFXAiwdGLFVB"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "亚马逊开源Agent工作台：3步搭建你的AI副业项目",
+          "summary": "教读者如何利用亚马逊开源的Agent工作台，快速搭建一个AI副业项目，并实现用户增长。",
+          "key_points": [
+            "了解亚马逊Agent工作台的功能和适用场景",
+            "如何部署工作台，并配置自己的Agent",
+            "借鉴3名开发者的经验，如何推广副业项目"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI副业项目避坑：亚马逊开源虽好，但这3个坑让你白忙活",
+          "summary": "指出在利用开源Agent工作台做副业时可能遇到的常见问题，如技术门槛、市场推广等。",
+          "pitfalls": [
+            "开源项目可能需要一定技术基础，初学者上手难",
+            "副业项目竞争激烈，需找准细分市场",
+            "依赖平台开源，需关注项目维护和更新情况"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "亚马逊开源Agent工作台：AI副业的新风口还是红海？",
+          "summary": "分析亚马逊开源Agent工作台对副业生态的影响，以及AI副业的机会与挑战。",
+          "insights": [
+            "开源降低了AI副业的技术门槛，但竞争加剧",
+            "Agent工作台可能成为未来AI应用开发的基础设施",
+            "副业成功的关键在于解决特定问题，而非技术本身"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "OpenAI ChatGPT接入医疗健康数据：AI医疗应用爆发前夜，创业者如何布局？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI创业者、医疗健康领域从业者、关注AI应用的个人",
+      "reason": "OpenAI进军医疗健康是重大行业事件，与AI应用和创业相关，能引发广泛讨论。",
+      "source_items": [
+        "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+        "OpenAI launches a ChatGPT Health integration with Epic's EHR system and a new Healthcare Public Data plug-in that can fetch info from sources including PubMed (Ivan Mehta/TechCrunch)"
+      ],
+      "source_urls": [
+        "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+        "https://www.techmeme.com/260902/p6"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "ChatGPT接入医疗数据：如何用AI辅助健康管理？",
+          "summary": "教普通用户如何利用ChatGPT Health功能查询健康信息，并注意隐私保护。",
+          "key_points": [
+            "如何启用ChatGPT Health集成（需通过医疗机构）",
+            "利用Healthcare Public Data插件获取权威医学信息",
+            "如何与医生协作，使用AI辅助诊断建议"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "用ChatGPT查健康信息？这3个坑可能让你误诊",
+          "summary": "提醒用户AI医疗信息可能存在的错误和风险，强调不能替代专业医疗建议。",
+          "pitfalls": [
+            "AI生成的医疗建议可能不准确，需交叉验证",
+            "医疗数据隐私风险，确保使用合规渠道",
+            "AI无法替代医生诊断，紧急情况需就医"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "OpenAI进军医疗：AI医疗应用将如何重塑健康产业？",
+          "summary": "分析OpenAI医疗布局的战略意义、对医疗行业的影响，以及创业机会。",
+          "insights": [
+            "AI医疗应用将提升诊断效率，但需解决数据隐私和监管问题",
+            "OpenAI与Epic合作，可能主导医疗AI市场",
+            "创业者可在垂直领域寻找机会，如慢病管理、药物研发"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "Claude提示词审计：用/claude-api prompt-audit优化你的Skills，效率翻倍",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、Claude用户、提示词工程师",
+      "reason": "提示词优化是AI初学者的刚需，且来自真实用户推荐，实操性强。",
+      "source_items": [
+        "If you're trying out Fable 5.1 I highly recommend running: /claude-api prompt-audit on your skills. It finds a bunch of redundancies and rules to remove for the latest models. Running it for all my skills now."
+      ],
+      "source_urls": [
+        "https://x.com/petergyang/status/2094987791566622971"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "Claude提示词审计：3步清理冗余，让AI输出更精准",
+          "summary": "教用户如何使用/claude-api prompt-audit命令审计和优化自己的Skills，提升AI响应质量。",
+          "key_points": [
+            "如何运行/claude-api prompt-audit命令",
+            "解读审计结果，识别冗余规则和无效提示",
+            "根据建议优化Skills，并测试效果"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "45分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "提示词优化避坑：别让这些冗余规则拖累你的Claude",
+          "summary": "指出提示词中常见的冗余和错误，教用户如何避免，提高AI效率。",
+          "pitfalls": [
+            "过度复杂的提示词可能让AI理解混乱",
+            "过时的规则可能不适用于最新模型",
+            "忽略审计工具的建议，导致优化无效"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "提示词工程新趋势：审计工具将如何改变AI交互方式？",
+          "summary": "分析提示词审计工具的出现对提示词工程领域的影响，以及未来AI交互的演进。",
+          "insights": [
+            "提示词审计工具将推动提示词工程标准化",
+            "随着模型更新，提示词需要持续优化，审计成为必备技能",
+            "AI交互将更注重效率，减少冗余输入"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -377,21 +502,21 @@
     }
   ],
   "weekly_plan": {
-    "monday": "Claude Fable 5.1 发布：编程性能翻倍，成本骤降45%，普通人如何抓住这波红利？",
-    "wednesday": "1200个AI智能体集体越狱攻击开源社区：你的AI应用安全吗？",
-    "friday": "Runway发布Solaris：实时生成软件界面，UI/UX设计师要失业了吗？",
-    "strategy": "本周聚焦AI新模型和工具热点，结合安全、版权等争议性话题，吸引流量并引流商标业务。"
+    "monday": "Anthropic双发Claude Fable 5.1与Mythos 5.1：性能翻倍、成本骤降，AI初学者该如何抓住这波红利？",
+    "wednesday": "AI智能体安全危机：OpenAI-Hugging Face事件揭示的3个致命陷阱",
+    "friday": "AI版权大战升级：EFF呼吁法院不要因AI热潮重写版权法，创业者该如何自保？",
+    "strategy": "本周以热点新模型和AI安全/版权话题为主，结合副业和视频工具，兼顾引流和实用价值。"
   },
-  "insights": "今日信息流显示AI大模型价格战和AI安全事件是热点，Runway和Google的新工具也值得关注，创作者可围绕这些趋势产出实操和解读内容。",
-  "ai_adjustment": "本次推荐基于用户历史偏好，优先选择了AI技术、AI视频赛道，并增加了IP版权相关内容以配合商标业务引流，同时避开了硬件相关选题。",
-  "generated_at": "2026-09-02T12:08:44.609980+08:00",
-  "total_items": 519,
-  "scored_items": 414,
+  "insights": "今日信息流显示AI行业竞争加剧，Anthropic和OpenAI同时发布新功能，且AI安全和版权问题成为焦点，创作者应抓住这些热点。",
+  "ai_adjustment": "基于用户反馈，本次推荐优先选择了AI技术赛道和AI视频赛道，并增加了副业和版权相关选题，同时避开了硬件类内容。",
+  "generated_at": "2026-09-02T17:08:13.372565+08:00",
+  "total_items": 537,
+  "scored_items": 433,
   "tracks_summary": {
-    "ai_tech": 376,
-    "trademark_business": 6,
-    "creator_economy": 14,
-    "ai_video": 17,
+    "ai_tech": 397,
+    "trademark_business": 7,
+    "ai_video": 18,
+    "creator_economy": 10,
     "growth_monetize": 1
   },
   "engine_version": "v2",
