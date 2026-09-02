@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T09:07:24.611591Z",
+  "generated_at": "2026-09-02T15:12:22.422716Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -57,22 +57,22 @@
       }
     },
     {
-      "story_id": "story_842216100d96",
-      "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
-      "url": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
+      "story_id": "story_e664187f9e97",
+      "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+      "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 75,
-          "review": "功能终于落地，但‘Live’迁移的停机时间与数据一致性风险，官方通稿里可没细说。"
+          "score": 65,
+          "review": "IBM和Confluent的常规合作官宣，技术栈整合，离‘实时智能’的宏大叙事还有点远。"
         },
         "paper-police": {
-          "score": 15,
-          "review": "官方博客宣称功能上线，无论文无代码无独立评测，仅有说法。"
+          "score": 45,
+          "review": "技术博客公布了合作与模型信息，但缺乏独立的性能评测报告与复现细节。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "企业级迁移工具正式可用，有迁移需求的团队现在就能启动。"
+          "review": "IBM时序模型已上Confluent平台，可直接用于实时流数据处理任务。"
         }
       }
     }

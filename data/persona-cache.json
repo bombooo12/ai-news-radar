@@ -1,54 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_ad70cc461272|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "三个产品信息密度低，无接口细节，观望即可。",
-      "title_hash": "5680e9d2",
-      "scored_at": "2026-08-12T10:39:24.069733Z"
-    },
-    "story_a04023a0a935|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "财报不写代码，等具体模型或API开放再看。",
-      "title_hash": "5c3a3c97",
-      "scored_at": "2026-08-12T10:39:26.570289Z"
-    },
-    "story_fc6202e68e51|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "跨会话传消息能减少重复上下文，长期多步任务可参考，但需实测适配。",
-      "title_hash": "703c134c",
-      "scored_at": "2026-08-12T10:39:29.363867Z"
-    },
-    "story_c27a5b0e8673|pragmatic|0a5c5b24": {
-      "score": 52,
-      "review": "讲的是落地方法论，没新品没接口，做方案时可参考，但今天用不上。",
-      "title_hash": "941d296c",
-      "scored_at": "2026-08-12T14:05:05.328602Z"
-    },
-    "story_208a14008235|pragmatic|0a5c5b24": {
-      "score": 88,
-      "review": "Meta 开放权重模型已在 OpenRouter 上线，直接调 API 就能体验，跑任务的可以立刻试。",
-      "title_hash": "16405c3a",
-      "scored_at": "2026-08-12T14:05:08.983440Z"
-    },
-    "story_06cb8c904cd7|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "又是愿景宣言，没有产品出来前对开发者零影响。",
-      "title_hash": "53b2798a",
-      "scored_at": "2026-08-12T14:05:11.680278Z"
-    },
-    "story_208a14008235|cynic|f4237a62": {
-      "score": 68,
-      "review": "开源是真，但'首个'纯粹是自家实验室自封，性能数据呢？",
-      "title_hash": "16405c3a",
-      "scored_at": "2026-08-12T14:05:13.628212Z"
-    },
-    "story_208a14008235|paper-police|966065bf": {
-      "score": 25,
-      "review": "仅推文称开源上线，无代码仓库无评测，待实际跑分验证。",
-      "title_hash": "16405c3a",
-      "scored_at": "2026-08-12T14:05:16.713262Z"
-    },
     "story_3479a70ad230|pragmatic|0a5c5b24": {
       "score": 88,
       "review": "3B小模型开源可跑边缘端，视觉任务今天就能试，省部署成本。",
@@ -4878,6 +4830,48 @@
       "review": "官方博客宣称功能上线，无论文无代码无独立评测，仅有说法。",
       "title_hash": "5c60efcf",
       "scored_at": "2026-09-02T09:07:24.611543Z"
+    },
+    "story_e664187f9e97|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "IBM时序模型已上Confluent平台，可直接用于实时流数据处理任务。",
+      "title_hash": "f569419d",
+      "scored_at": "2026-09-02T15:11:56.794507Z"
+    },
+    "story_9154b7af34e8|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "生态合作是商务新闻，等具体功能上线再评估。",
+      "title_hash": "6e9f60db",
+      "scored_at": "2026-09-02T15:12:03.425210Z"
+    },
+    "story_8067e80125ef|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "个人开发者今天就能在天猫买到官方API套餐，月付门槛低。",
+      "title_hash": "594d66d2",
+      "scored_at": "2026-09-02T15:12:06.998546Z"
+    },
+    "story_c2955229fde1|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "特定行业解决方案，通用开发者用不上，不用管。",
+      "title_hash": "e40b90a6",
+      "scored_at": "2026-09-02T15:12:09.596496Z"
+    },
+    "story_c5bbc19a185e|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "个人仓库讨论区新增拉黑功能，需要管理社区的项目今天就能用。",
+      "title_hash": "20b60337",
+      "scored_at": "2026-09-02T15:12:13.171923Z"
+    },
+    "story_e664187f9e97|cynic|f4237a62": {
+      "score": 65,
+      "review": "IBM和Confluent的常规合作官宣，技术栈整合，离‘实时智能’的宏大叙事还有点远。",
+      "title_hash": "f569419d",
+      "scored_at": "2026-09-02T15:12:17.458477Z"
+    },
+    "story_e664187f9e97|paper-police|966065bf": {
+      "score": 45,
+      "review": "技术博客公布了合作与模型信息，但缺乏独立的性能评测报告与复现细节。",
+      "title_hash": "f569419d",
+      "scored_at": "2026-09-02T15:12:22.422667Z"
     }
   }
 }
