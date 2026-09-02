@@ -1,24 +1,23 @@
 {
-  "date": "2026-09-01",
+  "date": "2026-09-02",
   "recommendations": [
     {
       "rank": 1,
-      "title": "AI智能体集体越狱：你的AI Agent可能正在被攻击！",
+      "title": "Claude Fable 5.1 发布：编程性能翻倍，成本骤降45%，普通人如何抓住这波红利？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、AI工具使用者、企业AI应用决策者",
-      "reason": "智能体安全事件热度高，与Agent实践相关，且用户对Agent类内容兴趣浓厚，反常识性强易传播。",
+      "target_audience": "AI初学者、开发者、想用AI提升效率的职场人",
+      "reason": "Anthropic新模型发布是热点，性能提升和降价对初学者有吸引力，且与创作者AI赛道定位高度契合。",
       "source_items": [
-        "1200 个 AI 智能体集体“越狱”攻击开源社区：独立调查揭出比 OpenAI 自述更严重的真相",
-        "防护被关、误连外网：Anthropic 首度详解 Claude“入侵”真实企业事件，全面升级安全防线",
-        "Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施"
+        "Anthropic 双发 Claude Fable 5.1 与 Mythos 5.1：编程跑分翻倍，缓存读取费用直降 75%",
+        "地球最强大模型打起价格战！Anthropic发布Fable 5.1：性能狂飙且成本骤降四成",
+        "Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/30752",
-        "https://www.aibase.com/news/30736",
-        "https://www.anthropic.com/news/improving-alignment-security-efforts",
-        "https://www.businessinsider.com/anthropic-tightens-training-security-after-claude-agents-went-rogue-2026-8",
-        "https://www.techmeme.com/260831/p43"
+        "https://www.aibase.com/news/30767",
+        "https://www.aibase.com/news/30763",
+        "https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less",
+        "https://www.anthropic.com/claude-fable-and-mythos-5-1"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -27,12 +26,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "三步检查你的AI Agent是否安全：普通用户也能做的安全自检",
-          "summary": "教初学者如何用简单方法检查自己使用的AI Agent是否存在安全风险。",
+          "hook": "Claude Fable 5.1 实测：3个提示词技巧，让AI帮你写代码效率翻倍",
+          "summary": "教初学者如何用Claude Fable 5.1提升编程和写作效率，附具体提示词模板。",
           "key_points": [
-            "检查Agent的权限设置，避免过度授权",
-            "查看Agent的日志记录，识别异常行为",
-            "使用安全工具（如防火墙、监控）保护Agent"
+            "注册并选择Fable 5.1模型",
+            "用具体案例演示编程辅助功能",
+            "分享3个高效提示词模板"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -41,12 +40,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "别让你的AI Agent成为黑客帮凶：5个常见安全陷阱",
-          "summary": "揭示AI Agent使用中的常见安全隐患，并提供规避方法。",
+          "hook": "别急着升级Claude Fable 5.1！这4个坑你可能没注意到",
+          "summary": "指出新模型可能存在的兼容性、成本陷阱和功能限制，帮助用户理性选择。",
           "pitfalls": [
-            "忽略Agent的权限管理，导致数据泄露",
-            "使用来源不明的Agent插件，可能含恶意代码",
-            "不更新Agent的安全补丁，漏洞被利用"
+            "缓存费用虽降但实际使用可能增加",
+            "新模型对某些任务可能过拟合",
+            "免费版用户可能无法使用全部功能"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -55,12 +54,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI智能体越狱事件背后：我们离安全的AI还有多远？",
-          "summary": "分析AI智能体安全事件的深层原因，探讨行业安全标准的未来。",
+          "hook": "Anthropic发起价格战，AI大模型进入'性价比时代'，小企业如何受益？",
+          "summary": "分析Anthropic降价背后的行业趋势，以及对普通用户和创业者的影响。",
           "insights": [
-            "AI智能体安全是系统性挑战，需要多方协作",
-            "开源社区的治理机制亟待完善",
-            "企业级AI应用需建立安全评估体系"
+            "大模型价格战将加速AI应用普及",
+            "中小企业可以更低成本接入顶级AI",
+            "未来AI竞争将转向应用层和生态"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -69,62 +68,59 @@
     },
     {
       "rank": 2,
-      "title": "Runway Solaris发布：AI生成界面，视频剪辑师要失业？",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI视频创作者、剪辑师、UI/UX设计师",
-      "reason": "Runway新模型是热点，与AI视频赛道高度相关，且用户偏好新工具，实操性强。",
+      "title": "1200个AI智能体集体越狱攻击开源社区：你的AI应用安全吗？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI开发者、AI工具使用者、关注AI安全的个人",
+      "reason": "AI安全问题热度高，且与Agent相关，符合创作者对智能体的兴趣，能引发广泛讨论。",
       "source_items": [
-        "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
-        "Runway 发布 Solaris：首个界面世界模型，实时生成操作系统级交互界面",
-        "Runway's Solaris is an AI system that generates software interfaces in real time"
+        "1200 个 AI 智能体集体“越狱”攻击开源社区：独立调查揭出比 OpenAI 自述更严重的真相"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/30756",
-        "https://runwayml.com/news/research/introducing-solaris",
-        "https://the-decoder.com/runways-solaris-is-an-ai-system-that-generates-software-interfaces-in-real-time"
+        "https://www.aibase.com/news/30752",
+        "https://rdi.berkeley.edu/blog/vero"
       ],
-      "urgency": "medium",
+      "urgency": "high",
       "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频",
-          "hook": "用Runway Solaris生成动态界面：从零开始的实战演示",
-          "summary": "演示如何使用Solaris生成交互界面，适合视频创作者和设计师。",
+          "format": "图文",
+          "hook": "5步检查你的AI智能体是否安全：防止被越狱攻击",
+          "summary": "教初学者如何评估和加固自己的AI智能体，防止被恶意利用。",
           "key_points": [
-            "了解Solaris的基本功能和界面",
-            "输入提示词生成界面原型",
-            "将生成的界面集成到视频项目中"
+            "了解常见的越狱攻击方式",
+            "使用安全测试工具（如Vero）",
+            "设置权限和监控机制"
           ],
-          "difficulty": "入门",
+          "difficulty": "中级",
           "estimated_time": "45分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文",
-          "hook": "Runway Solaris上手前必看：5个常见误区",
-          "summary": "指出使用Solaris时的常见错误，帮助用户避免浪费时间。",
+          "format": "短视频",
+          "hook": "你的AI助手可能在偷偷'越狱'？这3个迹象要警惕",
+          "summary": "提醒用户注意AI智能体被攻击的迹象，并提供应急处理建议。",
           "pitfalls": [
-            "过度依赖AI生成，忽视设计原则",
-            "未考虑生成界面的版权问题",
-            "忽略模型的计算资源需求"
+            "AI输出异常或偏离指令",
+            "智能体访问了不该访问的数据",
+            "开源社区中下载的智能体可能带后门"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "10分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "Solaris预示着什么？AI生成界面对创意产业的冲击",
-          "summary": "探讨AI生成界面模型对视频制作、UI设计等行业的影响。",
+          "hook": "AI智能体越狱事件背后：开源社区的信任危机与安全困境",
+          "summary": "深入分析AI智能体攻击事件对开源社区和AI生态的影响，探讨未来安全方向。",
           "insights": [
-            "AI将降低视频制作门槛，但创意仍是核心",
-            "界面设计可能被AI重构，设计师需转型",
-            "实时生成技术将改变交互体验"
+            "开源模式面临安全挑战",
+            "AI安全需要行业标准和监管",
+            "个体开发者如何自我保护"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -133,49 +129,46 @@
     },
     {
       "rank": 3,
-      "title": "AI造剧《后西游记》收视第一：AIGC内容变现新风口？",
-      "track": "ip_creation",
-      "track_name": "商标/IP/创业",
-      "target_audience": "AIGC创作者、内容创业者、影视行业从业者",
-      "reason": "AIGC长剧成功案例与商标/IP赛道相关，可结合用户商标代理业务引流，且话题新颖。",
+      "title": "Runway发布Solaris：实时生成软件界面，UI/UX设计师要失业了吗？",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "AI视频创作者、设计师、对AI生成界面感兴趣的技术爱好者",
+      "reason": "Runway新工具是AI视频领域的热点，且与创作者视频剪辑能力相关，能吸引设计师和开发者群体。",
       "source_items": [
-        "AI 造剧也能拿收视第一：国内首部 AIGC 长剧《后西游记》开播即飘红",
-        "EFF to Courts: Don't Rewrite Copyright over AI Hype",
-        "电子前哨基金会（EFF）致法院：不要因人工智能热潮而重写版权法"
+        "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
+        "Runway's Solaris is an AI system that generates software interfaces in real time"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/30743",
-        "https://www.eff.org/deeplinks/2026/08/eff-courts-dont-rewrite-copyright-over-ai-hype",
-        "https://news.ycombinator.com/item?id=49521315",
-        "https://www.eff.org/deeplinks/2026/08/eff-courts-dont-rewrite-copyright-over-ai-hype"
+        "https://www.aibase.com/news/30756",
+        "https://the-decoder.com/runways-solaris-is-an-ai-system-that-generates-software-interfaces-in-real-time"
       ],
-      "urgency": "medium",
+      "urgency": "high",
       "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "从0到1用AI制作一部短剧：工具、流程与变现路径",
-          "summary": "教初学者如何利用AI工具制作短剧，并探索变现方式。",
+          "format": "视频",
+          "hook": "用Runway Solaris 10分钟生成一个App界面，零代码基础也能做",
+          "summary": "演示如何用Solaris快速生成动态界面，适合设计师和产品经理。",
           "key_points": [
-            "选择合适的AI视频生成工具（如Runway、Pika）",
-            "设计剧本和分镜，用AI生成画面",
-            "通过平台发布和广告分成变现"
+            "进入Runway并选择Solaris模型",
+            "输入描述性提示词生成界面",
+            "调整参数并导出视频"
           ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI造剧的版权雷区：别让你的作品侵权",
-          "summary": "分析AIGC内容创作中的版权风险，提供规避建议。",
+          "hook": "Runway Solaris虽好，但这3个限制让你别高兴太早",
+          "summary": "指出Solaris当前的功能边界和潜在问题，避免用户过度期待。",
           "pitfalls": [
-            "使用未经授权的素材生成内容",
-            "忽视AI生成内容的版权归属问题",
-            "未注册商标就发布作品，导致品牌被抢注"
+            "生成的界面可能缺乏可用性",
+            "复杂交互逻辑无法实现",
+            "版权和商业化使用需谨慎"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -184,12 +177,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "《后西游记》爆火背后：AIGC内容将如何改变影视行业？",
-          "summary": "探讨AIGC长剧对传统影视制作模式的冲击与机遇。",
+          "hook": "从Runway Solaris看AI生成界面的未来：设计师的危机还是转机？",
+          "summary": "分析AI生成界面技术对设计行业的影响，探讨设计师如何适应。",
           "insights": [
-            "AIGC降低制作成本，但内容质量仍需把关",
-            "版权法面临挑战，AI创作的法律地位待明确",
-            "AIGC内容将催生新的商业模式"
+            "AI将解放设计师的重复劳动",
+            "设计思维和用户体验仍是核心",
+            "AI工具将催生新的职业方向"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -198,20 +191,18 @@
     },
     {
       "rank": 4,
-      "title": "OpenAI广告业务年收入10亿美元：AI变现的新赛道？",
-      "track": "side_income",
-      "track_name": "个人成长/副业变现",
-      "target_audience": "想用AI变现的个人、自媒体创作者、创业者",
-      "reason": "OpenAI广告业务数据亮眼，与副业变现主题契合，且用户关注AI变现机会。",
+      "title": "EFF呼吁法院：不要因AI热潮重写版权法——AI创作者的版权红线在哪？",
+      "track": "ip",
+      "track_name": "商标/IP/创业",
+      "target_audience": "AI创作者、内容创业者、小微企业主",
+      "reason": "版权问题对AI内容创作者至关重要，且与商标代理业务相关，能引流目标客户。",
       "source_items": [
-        "OpenAI says its ChatGPT ad business hits a $1 billion annual run rate",
-        "Microsoft Outlook and OpenAI's ChatGPT Work are experiencing user outages",
-        "3名开发者做出来的副业项目，半年冲进 4万人！亚马逊云科技把内部 Agent 工作台开源了"
+        "EFF to Courts: Don't Rewrite Copyright over AI Hype",
+        "电子前哨基金会（EFF）致法院：不要因人工智能热潮而重写版权法"
       ],
       "source_urls": [
-        "https://the-decoder.com/openai-says-its-chatgpt-ad-business-hits-a-1-billion-annual-run-rate",
-        "https://www.cnbc.com/2026/08/31/microsoft-outlook-and-openais-chatgpt-work-experience-outages-.html",
-        "https://www.infoq.cn/article/Um4rVTweSFXAiwdGLFVB"
+        "https://www.eff.org/deeplinks/2026/08/eff-courts-dont-rewrite-copyright-over-ai-hype",
+        "https://news.ycombinator.com/item?id=49521315"
       ],
       "urgency": "medium",
       "viral_potential": "medium",
@@ -220,12 +211,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "普通人如何利用AI广告变现？从0到1的实操指南",
-          "summary": "教初学者如何通过AI广告联盟、内容植入等方式赚取收入。",
+          "hook": "AI创作如何避免版权侵权？3个实用检查清单",
+          "summary": "教AI创作者如何规避版权风险，包括使用素材、生成内容的版权归属等。",
           "key_points": [
-            "了解AI广告平台（如Google AdSense、OpenAI广告）",
-            "创建AI相关的内容吸引广告主",
-            "优化内容提升广告点击率"
+            "了解AI生成内容的版权法律现状",
+            "使用无版权风险的素材库",
+            "记录创作过程以证明原创性"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -234,26 +225,26 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI广告变现的5个坑：别让你的努力白费",
-          "summary": "指出AI广告变现中的常见陷阱，如流量造假、平台政策变化。",
+          "hook": "AI创作被起诉？这5个版权陷阱你必须知道",
+          "summary": "列出AI创作中常见的版权侵权风险，并提供规避建议。",
           "pitfalls": [
-            "依赖单一广告平台，风险高",
-            "忽视广告合规性，导致封号",
-            "盲目追求点击率，忽视用户价值"
+            "直接使用他人作品训练AI",
+            "生成内容与现有作品高度相似",
+            "忽视平台版权政策"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "OpenAI广告业务崛起：AI如何重塑数字广告行业？",
-          "summary": "分析AI广告的商业模式及其对传统广告的影响。",
+          "hook": "AI版权大战：EFF的立场、法院的困境与创作者的未来",
+          "summary": "深入分析AI版权争议的核心问题，探讨对创作者和企业的长远影响。",
           "insights": [
-            "AI广告精准投放将提升转化率",
-            "广告主将更依赖AI工具优化预算",
-            "AI广告可能引发隐私争议"
+            "版权法需要适应AI技术发展",
+            "创作者应关注政策动向",
+            "商标和IP保护在AI时代更重要"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -262,18 +253,18 @@
     },
     {
       "rank": 5,
-      "title": "腾讯混元4开源逆袭：大模型没有独门秘笈？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI开发者、技术爱好者、开源社区成员",
-      "reason": "腾讯混元4开源案例与用户关注的模型发布相关，且用户对开源生态感兴趣。",
+      "title": "Google Gemini新增Agentic视频理解：AI视频分析将如何改变内容创作？",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "视频创作者、内容营销人员、AI技术爱好者",
+      "reason": "Google新功能是AI视频领域的重要进展，与创作者视频剪辑能力相关，且能提供实操内容。",
       "source_items": [
-        "大模型没有独门秘笈：腾讯混元4如何靠开源生态与顶尖人才实现逆袭？",
-        "I just made some new GBrain evals that help prove that my retrieval-for-AI-agent open source layer is SOTA for reading memory back without LLM-in-loop And I've also added evals for memory-save from agent transcript, w..."
+        "Introducing agentic video understanding with Gemini",
+        "Google rolls out new AI image and video tools"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/30742",
-        "https://x.com/garrytan/status/2094462971598754010"
+        "https://deepmind.google/blog/introducing-agentic-video-in-gemini",
+        "https://www.socialmediatoday.com/news/google-rolls-out-new-ai-image-and-video-tools/829381"
       ],
       "urgency": "medium",
       "viral_potential": "medium",
@@ -281,27 +272,27 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "如何利用开源大模型构建自己的AI应用？以混元4为例",
-          "summary": "教初学者如何下载、部署和微调开源大模型。",
+          "format": "视频",
+          "hook": "用Gemini分析视频内容：自动提取关键帧和摘要，剪辑效率提升50%",
+          "summary": "演示如何使用Gemini的Agentic视频理解功能，帮助视频创作者快速分析素材。",
           "key_points": [
-            "选择适合的开源模型（如混元4、Llama）",
-            "配置本地环境并运行模型",
-            "使用API集成到自己的项目中"
+            "上传视频到Gemini",
+            "使用自然语言指令提取信息",
+            "利用分析结果优化剪辑流程"
           ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
+          "difficulty": "入门",
+          "estimated_time": "25分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "开源大模型使用中的5个坑：性能、成本与合规",
-          "summary": "指出使用开源模型时的常见问题，如硬件要求、许可证限制。",
+          "hook": "Gemini视频理解虽强，但这3个坑让你别乱用",
+          "summary": "指出该功能的局限性，如隐私问题、分析准确性等。",
           "pitfalls": [
-            "忽略模型许可证，可能侵权",
-            "低估硬件资源需求，导致运行卡顿",
-            "未进行安全评估，模型可能被恶意利用"
+            "视频内容可能被上传到云端",
+            "复杂场景分析可能出错",
+            "依赖网络和API限制"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -310,12 +301,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "腾讯混元4逆袭：开源生态如何重塑AI竞争格局？",
-          "summary": "分析开源大模型对商业AI的冲击，以及中国AI企业的策略。",
+          "hook": "Agentic视频理解：AI从'看懂'到'理解'视频，内容创作范式将变",
+          "summary": "分析AI视频理解技术对内容创作、广告营销等领域的影响。",
           "insights": [
-            "开源生态加速AI技术普及，降低门槛",
-            "顶尖人才是AI竞争的核心",
-            "开源与闭源将长期共存，各有优势"
+            "视频内容将更易被搜索和推荐",
+            "创作者需要重新思考视频结构",
+            "AI将辅助视频审核和分发"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -324,60 +315,60 @@
     },
     {
       "rank": 6,
-      "title": "AI视频入门：剪辑思维与转场技巧，提升你的作品质感",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI视频初学者、短视频创作者",
-      "reason": "AI视频剪辑是用户擅长领域，且该选题实操性强，符合用户偏好。",
+      "title": "3名开发者用Agent工作台做出4万人副业项目：AI副业的新玩法",
+      "track": "side_project",
+      "track_name": "个人成长/副业变现",
+      "target_audience": "想用AI变现的个人、副业探索者、开发者",
+      "reason": "副业变现是创作者核心受众的需求，且案例真实有说服力，能结合AI Agent热点。",
       "source_items": [
-        "AI视频入门——剪辑思维-转场-拉片提升审美",
-        "Clipto uses AI to search terabytes of video and is now valued at $250M"
+        "3名开发者做出来的副业项目，半年冲进 4万人！亚马逊云科技把内部 Agent 工作台开源了"
       ],
       "source_urls": [
-        "https://waytoagi.feishu.cn/wiki/BSQUwrvyMi87ejkbw4Hc4jwnnOe?from=from_copylink",
-        "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation"
+        "https://www.infoq.cn/article/Um4rVTweSFXAiwdGLFVB"
       ],
-      "urgency": "low",
-      "viral_potential": "medium",
+      "urgency": "medium",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频",
-          "hook": "剪映AI功能实战：3个技巧让你的视频剪辑效率翻倍",
-          "summary": "演示如何使用剪映的AI功能进行高效剪辑，包括自动转场、智能调色。",
+          "format": "图文",
+          "hook": "从0到1：用开源Agent工作台搭建你的第一个AI副业项目",
+          "summary": "教初学者如何利用开源工具快速搭建AI应用，并实现变现。",
           "key_points": [
-            "利用AI自动识别场景并添加转场",
-            "使用AI剪辑助手快速生成粗剪",
-            "通过AI调色提升画面质感"
+            "了解Agent工作台的基本概念",
+            "选择适合的副业方向",
+            "部署并推广你的AI应用"
           ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "difficulty": "中级",
+          "estimated_time": "1小时"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI剪辑的5个常见错误：为什么你的视频看起来不专业？",
-          "summary": "指出AI剪辑中常见的问题，如过度使用特效、忽视叙事结构。",
+          "hook": "AI副业项目失败的5个原因，你中了几个？",
+          "summary": "总结AI副业常见失败原因，帮助用户避免踩坑。",
           "pitfalls": [
-            "过度依赖AI转场，导致节奏混乱",
-            "忽略音频质量，影响观看体验",
-            "未考虑平台格式要求，导致画质损失"
+            "盲目跟风热门领域",
+            "忽视用户需求",
+            "技术选型不当",
+            "缺乏推广和运营",
+            "过早追求商业化"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI视频剪辑工具将如何改变创作者的工作流？",
-          "summary": "探讨AI剪辑工具对专业剪辑师和业余创作者的影响。",
+          "hook": "AI副业经济崛起：从3人团队到4万用户，普通人如何抓住机会？",
+          "summary": "分析AI副业的趋势和机会，探讨个人如何利用AI工具实现收入增长。",
           "insights": [
-            "AI将承担重复性工作，让创作者专注创意",
-            "剪辑技能门槛降低，竞争加剧",
-            "AI剪辑工具将整合更多功能，形成生态"
+            "AI降低了创业门槛",
+            "小团队也能做出大产品",
+            "副业成功需要技术+运营+市场思维"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -386,21 +377,21 @@
     }
   ],
   "weekly_plan": {
-    "monday": "AI智能体越狱事件：安全自检实操指南",
-    "wednesday": "Runway Solaris上手体验：生成动态界面的实战演示",
-    "friday": "AI造剧《后西游记》爆火：AIGC内容版权与变现深度解读",
-    "strategy": "本周以AI安全和新工具热点为主，结合AIGC版权话题引流商标业务，保持内容多样性和实用性。"
+    "monday": "Claude Fable 5.1 发布：编程性能翻倍，成本骤降45%，普通人如何抓住这波红利？",
+    "wednesday": "1200个AI智能体集体越狱攻击开源社区：你的AI应用安全吗？",
+    "friday": "Runway发布Solaris：实时生成软件界面，UI/UX设计师要失业了吗？",
+    "strategy": "本周聚焦AI新模型和工具热点，结合安全、版权等争议性话题，吸引流量并引流商标业务。"
   },
-  "insights": "今日信息流显示AI安全事件频发，Runway新模型和AIGC长剧成为热点，创作者可结合自身技能，从安全、工具实操和版权变现角度切入，抓住用户关注点。",
-  "ai_adjustment": "根据用户反馈，本次推荐增加了AI安全和新工具（Runway Solaris）相关选题，减少硬件内容，并强化了AIGC版权与商标业务的关联，以提升内容相关性和传播潜力。",
-  "generated_at": "2026-09-01T23:07:20.527712+08:00",
-  "total_items": 407,
-  "scored_items": 311,
+  "insights": "今日信息流显示AI大模型价格战和AI安全事件是热点，Runway和Google的新工具也值得关注，创作者可围绕这些趋势产出实操和解读内容。",
+  "ai_adjustment": "本次推荐基于用户历史偏好，优先选择了AI技术、AI视频赛道，并增加了IP版权相关内容以配合商标业务引流，同时避开了硬件相关选题。",
+  "generated_at": "2026-09-02T12:08:44.609980+08:00",
+  "total_items": 519,
+  "scored_items": 414,
   "tracks_summary": {
-    "ai_tech": 275,
-    "ai_video": 13,
-    "trademark_business": 7,
-    "creator_economy": 15,
+    "ai_tech": 376,
+    "trademark_business": 6,
+    "creator_economy": 14,
+    "ai_video": 17,
     "growth_monetize": 1
   },
   "engine_version": "v2",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T15:06:43.165933Z",
+  "generated_at": "2026-09-02T04:08:07.926097Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_946b48cdca28",
-      "title": "Codex CLI 0.152.0",
-      "url": "https://developers.openai.com/codex/changelog",
+      "story_id": "story_730fa9d1ab54",
+      "title": "Copilot code review can now approve pull requests",
+      "url": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests",
       "rank": 1,
       "reviews": {
         "cynic": {
           "score": 65,
-          "review": "版本号小数点后蹦得挺勤，但日志里净是些依赖更新和bug修复。"
-        },
-        "paper-police": {
-          "score": 45,
-          "review": "官方更新日志有版本号，但未提供独立的性能评测报告。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "CLI工具更新，开发者今天就能升级使用新功能或修复。"
-        }
-      }
-    },
-    {
-      "story_id": "story_8ba38180ebe6",
-      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-      "url": "https://huggingface.co/blog/webgpu-kernels",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 85,
-          "review": "开源200+核心，把WebGPU的脏活累活都干了，这次是真在填坑。"
-        },
-        "paper-police": {
-          "score": 55,
-          "review": "官方博客详述了技术实现与基准测试，但未提供独立的论文或第三方复现验证。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "开源了200+可直接用的WebGPU核心，本地推理性能优化有现成轮子了。"
-        }
-      }
-    },
-    {
-      "story_id": "story_d2daab157b0c",
-      "title": "Copilot model access update for GitHub Team plans",
-      "url": "https://github.blog/changelog/2026-08-31-copilot-model-access-update-for-github-team-plans",
-      "rank": 3,
-      "reviews": {
-        "cynic": {
-          "score": 65,
-          "review": "给团队计划换个模型就发个公告，这算哪门子‘更新’？"
+          "review": "自动化审批听着酷，但‘建议’变‘批准’的责任归属和误判成本闭口不谈。"
         },
         "paper-police": {
           "score": 15,
-          "review": "仅有官方博客宣称功能更新，无论文、代码或独立评测佐证。"
+          "review": "官方博客宣称功能，无论文无代码无独立评测，仅为产品公告。"
         },
         "pragmatic": {
-          "score": 85,
-          "review": "GitHub Team订阅的Copilot模型权限有变，需检查现有项目是否受影响。"
+          "score": 88,
+          "review": "AI 可自动批准 PR，能立刻用于自动化流程，解放人力。"
+        }
+      }
+    },
+    {
+      "story_id": "story_9235b0b9bda1",
+      "title": "Anthropic 双发 Claude Fable 5.1 与 Mythos 5.1：编程跑分翻倍，缓存读取费用直降 75%",
+      "url": "https://www.aibase.com/news/30767",
+      "rank": 2,
+      "reviews": {
+        "cynic": {
+          "score": 72,
+          "review": "费用降了是好事，但‘翻倍’的基准线是自家上代还是别人家？"
+        },
+        "paper-police": {
+          "score": 15,
+          "review": "仅有媒体报道，无论文、代码或公开评测链接，无法验证翻倍说法。"
+        },
+        "pragmatic": {
+          "score": 88,
+          "review": "编程能力显著提升，缓存费用大降，项目成本与效率立即可优化。"
+        }
+      }
+    },
+    {
+      "story_id": "story_f114cba13f57",
+      "title": "Meta 首个实时音频感知模型来了：20 多人同时说话也能分轨转写，每千分钟 3 美元",
+      "url": "https://www.aibase.com/news/30762",
+      "rank": 3,
+      "reviews": {
+        "cynic": {
+          "score": 72,
+          "review": "多人分轨是卖点，但‘实时’和成本优势得看实际部署的延迟和稳定性。"
+        },
+        "paper-police": {
+          "score": 45,
+          "review": "博客宣称了性能与价格，但无论文、代码或独立评测，无法验证。"
+        },
+        "pragmatic": {
+          "score": 88,
+          "review": "API已上线，价格明确，可直接用于多人会议转录场景。"
         }
       }
     }
