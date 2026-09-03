@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T09:07:12.984982Z",
+  "generated_at": "2026-09-03T15:07:20.301913Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_0a991ead0e43",
-      "title": "Codex CLI 0.153.0",
-      "url": "https://developers.openai.com/codex/changelog",
+      "story_id": "story_edf252f7cb9c",
+      "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+      "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 75,
-          "review": "版本号更新勤快，但日志里净是些依赖升级和bug修复，说好的新功能呢？"
+          "score": 78,
+          "review": "350M小模型调100步就敢说“更好”，这基线是啥？敢不敢跟大模型比？"
         },
         "paper-police": {
-          "score": 65,
-          "review": "官方更新日志提供了变更细节，但无独立评测验证其实际效果。"
+          "score": 45,
+          "review": "技术博客有训练细节和数字，但未提供论文与完整可复现代码。"
         },
         "pragmatic": {
-          "score": 85,
-          "review": "CLI工具新版本发布，开发者可立即更新使用新功能或修复。"
+          "score": 88,
+          "review": "开源了训练方法，想提升模型结构化输出能力的可以直接参考实现。"
         }
       }
     },
     {
-      "story_id": "story_42b25cdf8d9b",
-      "title": "用 TRL 和 OpenEnv 训练编码模型画水彩：Hugging Face 全流程开源复现 / Training a coding model to paint watercolours with TRL and OpenEnv",
-      "url": "https://huggingface.co/blog/train-to-paint-with-code",
+      "story_id": "story_16469548a272",
+      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "url": "https://huggingface.co/blog/Hcompany/neomme",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 85,
-          "review": "开源全流程和代码，诚意十足，但‘画水彩’这应用场景多少有点行为艺术。"
+          "score": 72,
+          "review": "开源和效率是亮点，但‘原生’和‘多语言’的实际泛化能力，还得看真刀真枪的评测。"
         },
         "paper-police": {
-          "score": 85,
-          "review": "官方博客附详细流程与代码，开源复现路径清晰，证据确凿。"
+          "score": 45,
+          "review": "技术博客公布了评测数字，但未见论文与开源代码，无法独立验证。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "开源全流程代码，想用RL训练模型画画的可以直接抄作业。"
+          "review": "开源多模态编码器已发布，可直接下载集成到你的跨语言图文项目中。"
         }
       }
     },
     {
-      "story_id": "story_f2e8c1eb7be1",
-      "title": "Content exclusions generally available in Copilot app and CLI",
-      "url": "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
+      "story_id": "story_49f7f7e715ad",
+      "title": "CodeQL 2.26.4 improves GitHub actions security detections",
+      "url": "https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "终于把测试功能转正，但‘排除内容’这基础权限管理也值得发篇稿？"
+          "score": 68,
+          "review": "版本号更新，安全检测确实有改进，但离‘革命性’还差得远。"
         },
         "paper-police": {
-          "score": 15,
-          "review": "官方博客宣称功能上线，无论文无代码无独立评测，仅有说法。"
+          "score": 40,
+          "review": "官方博客提供了更新细节，但缺乏独立的第三方安全评测验证。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "GitHub Copilot 内容排除功能正式可用，现在就能在项目里屏蔽特定代码建议。"
+          "review": "安全扫描工具更新，CI/CD流水线今天就能用上更强的检测。"
         }
       }
     }
