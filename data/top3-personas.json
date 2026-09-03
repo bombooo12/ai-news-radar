@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T05:35:52.883577Z",
+  "generated_at": "2026-09-03T09:07:12.984982Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -37,10 +37,30 @@
       }
     },
     {
+      "story_id": "story_42b25cdf8d9b",
+      "title": "用 TRL 和 OpenEnv 训练编码模型画水彩：Hugging Face 全流程开源复现 / Training a coding model to paint watercolours with TRL and OpenEnv",
+      "url": "https://huggingface.co/blog/train-to-paint-with-code",
+      "rank": 2,
+      "reviews": {
+        "cynic": {
+          "score": 85,
+          "review": "开源全流程和代码，诚意十足，但‘画水彩’这应用场景多少有点行为艺术。"
+        },
+        "paper-police": {
+          "score": 85,
+          "review": "官方博客附详细流程与代码，开源复现路径清晰，证据确凿。"
+        },
+        "pragmatic": {
+          "score": 85,
+          "review": "开源全流程代码，想用RL训练模型画画的可以直接抄作业。"
+        }
+      }
+    },
+    {
       "story_id": "story_f2e8c1eb7be1",
       "title": "Content exclusions generally available in Copilot app and CLI",
       "url": "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
-      "rank": 2,
+      "rank": 3,
       "reviews": {
         "cynic": {
           "score": 65,
@@ -53,26 +73,6 @@
         "pragmatic": {
           "score": 85,
           "review": "GitHub Copilot 内容排除功能正式可用，现在就能在项目里屏蔽特定代码建议。"
-        }
-      }
-    },
-    {
-      "story_id": "story_e664187f9e97",
-      "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
-      "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
-      "rank": 3,
-      "reviews": {
-        "cynic": {
-          "score": 65,
-          "review": "IBM和Confluent的常规合作官宣，技术栈整合，离‘实时智能’的宏大叙事还有点远。"
-        },
-        "paper-police": {
-          "score": 45,
-          "review": "技术博客公布了合作与模型信息，但缺乏独立的性能评测报告与复现细节。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "IBM时序模型已上Confluent平台，可直接用于实时流数据处理任务。"
         }
       }
     }

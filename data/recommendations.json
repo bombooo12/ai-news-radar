@@ -3,11 +3,11 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "Meta Muse Spark 1.3 实测：编程能力逼近 GPT-5.6，普通开发者该换吗？",
+      "title": "Meta Muse Spark 1.3 发布：编程能力硬刚 GPT-5.6，AI 编程进入三国杀时代？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、开发者、提示词爱好者",
-      "reason": "Meta新模型发布是热点，且与用户关注的GPT/Claude对比，反常识性强，易引发讨论。",
+      "target_audience": "AI初学者、开发者、关注AI趋势的科技爱好者",
+      "reason": "Meta 新模型发布是热点，且与 OpenAI、Anthropic 形成对比，容易引发讨论和传播。",
       "source_items": [
         "Meta 发布 Muse Spark 1.3，Intelligence Index 得 61-62 分逼近 Claude 与 GPT-5.6",
         "Meta王牌AI大模型Muse Spark 1.3发布：编程能力硬刚GPT-5.6 Sol",
@@ -25,40 +25,40 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "3步上手Meta Muse Spark 1.3：用API调用、提示词优化、实测编程能力",
-          "summary": "教AI初学者如何快速体验Meta Muse Spark 1.3，并对比它与GPT-5.6的编程表现。",
+          "hook": "手把手教你用 Muse Spark 1.3 写代码：从安装到实战，小白也能上手",
+          "summary": "教初学者如何注册、使用 Muse Spark 1.3 进行简单的编程任务，如生成脚本、调试代码。",
           "key_points": [
-            "注册并获取API密钥",
-            "用Python调用Muse Spark 1.3完成一个简单编程任务",
-            "对比相同提示词下GPT-5.6的输出质量"
+            "注册与访问 Muse Spark 1.3 的步骤",
+            "用自然语言描述需求生成代码的示例",
+            "如何将生成的代码集成到项目中"
           ],
           "difficulty": "入门",
-          "estimated_time": "45分钟"
+          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "别急着换模型！Meta Muse Spark 1.3的5个隐藏坑",
-          "summary": "指出Muse Spark 1.3在中文支持、API稳定性、上下文长度等方面的不足，避免盲目迁移。",
+          "hook": "别急着换！Muse Spark 1.3 的 5 个隐藏坑，看完再决定要不要用",
+          "summary": "指出 Muse Spark 1.3 在编程场景中的常见问题，如代码质量不稳定、对复杂项目支持有限等。",
           "pitfalls": [
-            "中文理解能力可能不如GPT-5.6，需额外测试",
-            "API调用限制和价格可能不透明",
-            "生态工具链不成熟，插件和集成少"
+            "生成的代码可能存在安全隐患，需人工审查",
+            "对中文注释的支持可能不如英文",
+            "免费版有调用次数限制，需注意用量"
           ],
           "difficulty": "入门",
-          "estimated_time": "20分钟"
+          "estimated_time": "15分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "Meta Muse Spark 1.3逼近GPT-5.6，AI竞争格局要变天？",
-          "summary": "分析Meta新模型对OpenAI、Anthropic的冲击，以及开源与闭源的未来走向。",
+          "hook": "Meta 硬刚 OpenAI：Muse Spark 1.3 发布，AI 编程竞争进入白热化",
+          "summary": "分析 Muse Spark 1.3 发布的战略意义，以及 AI 编程工具市场的竞争格局。",
           "insights": [
-            "Meta用开源策略蚕食OpenAI市场份额",
-            "编程能力成为模型竞争的关键战场",
-            "对开发者和企业的成本影响深远"
+            "Meta 选择编程场景切入，意在争夺开发者生态",
+            "与 GPT-5.6 的差距缩小，但生态仍是短板",
+            "AI 编程将成为大模型厂商的必争之地"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -67,107 +67,44 @@
     },
     {
       "rank": 2,
-      "title": "Anthropic 开源电商 Agent 架构：小白也能搭建自动购物助手？",
+      "title": "Anthropic 开源电商 Agent 架构：普通人也能用 AI 做电商？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、电商从业者、Agent爱好者",
-      "reason": "Anthropic开源commerce-agents，是Agent落地的好案例，实操性强，符合用户偏好。",
+      "target_audience": "电商从业者、AI初学者、想用AI变现的个人",
+      "reason": "Anthropic 开源 commerce-agents 参考实现，是实操性极强的选题，符合创作者偏好。",
       "source_items": [
         "Anthropic 发布电商 Agent 架构与生产实践指南，并开源 commerce-agents 参考实现"
       ],
       "source_urls": [
         "https://claude.com/blog/the-anatomy-of-effective-commerce-agents"
       ],
-      "urgency": "medium",
+      "urgency": "high",
       "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "手把手教你用Anthropic开源项目搭建一个电商比价Agent",
-          "summary": "基于commerce-agents，用Claude API实现一个自动比价、下单的Agent。",
+          "hook": "零基础搭建电商 AI 客服：Anthropic 开源项目实战教程",
+          "summary": "教读者如何部署 commerce-agents 项目，实现自动回复、订单查询等功能。",
           "key_points": [
-            "克隆commerce-agents仓库并配置环境",
-            "用Claude API实现商品搜索和比价逻辑",
-            "集成到微信或Telegram机器人"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1.5小时"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "电商Agent开发避坑：Anthropic架构的3个致命误区",
-          "summary": "指出在实现电商Agent时常见的架构设计错误、支付安全问题、以及API成本失控风险。",
-          "pitfalls": [
-            "忽略用户授权和支付安全，导致法律风险",
-            "过度依赖单一模型，导致稳定性差",
-            "未考虑API调用成本，容易超预算"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "Anthropic开源电商Agent，是颠覆亚马逊还是给Shopify做嫁衣？",
-          "summary": "探讨电商Agent对零售业的影响，以及开源策略背后的商业意图。",
-          "insights": [
-            "Agent将改变消费者购物习惯，从搜索到自动决策",
-            "开源是为了抢占Agent生态标准",
-            "对中小电商是机遇也是威胁"
+            "克隆项目并配置环境",
+            "接入 Claude API 的步骤",
+            "测试并部署到自己的电商平台"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "title": "AI智能体失控？OpenAI/Hugging Face攻击事件给普通用户的警示",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、AI工具使用者、关注AI安全的个人",
-      "reason": "METR调查报告揭示AI智能体攻击事件，涉及安全与伦理，易引发关注，且用户历史对反常识内容感兴趣。",
-      "source_items": [
-        "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
-        "METR Report on OpenAI / Hugging Face Hacking Incident",
-        "Q&A with METR researcher Ajeya Cotra on investigating the OpenAI-Hugging Face incident"
-      ],
-      "source_urls": [
-        "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
-        "https://www.techmeme.com/260902/p5"
-      ],
-      "urgency": "medium",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "如何给AI智能体上锁？普通用户也能用的3个安全设置",
-          "summary": "教用户如何在使用Claude、GPT等智能体时设置权限、限制行为，防止意外操作。",
-          "key_points": [
-            "设置API密钥权限范围",
-            "使用沙箱环境运行Agent",
-            "定期审查Agent日志"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI智能体攻击事件：你的数据可能正在被悄悄利用",
-          "summary": "揭示AI智能体可能带来的数据泄露、越权操作等风险，并提供防范建议。",
+          "hook": "别乱用 AI 做电商客服！这些坑会让你损失客户",
+          "summary": "提醒读者在部署电商 Agent 时需要注意的隐私、安全、用户体验问题。",
           "pitfalls": [
-            "智能体可能访问敏感数据并外传",
-            "权限过大导致系统被恶意控制",
-            "缺乏审计机制，事后难以追溯"
+            "AI 回复可能泄露用户隐私，需设置数据脱敏",
+            "对复杂售后问题处理不当，需要人工介入",
+            "开源项目可能存在安全漏洞，需及时更新"
           ],
           "difficulty": "入门",
           "estimated_time": "20分钟"
@@ -176,25 +113,25 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "当AI学会攻击：OpenAI/Hugging Face事件背后的安全危机",
-          "summary": "分析AI智能体安全问题的根源，探讨行业监管与伦理挑战。",
+          "hook": "Anthropic 开源电商 Agent，是布局电商 AI 的野心还是普惠？",
+          "summary": "分析 Anthropic 开源电商 Agent 的动机和对电商行业的影响。",
           "insights": [
-            "AI智能体自主性增强带来不可控风险",
-            "安全研究滞后于能力发展",
-            "需要建立行业安全标准和责任机制"
+            "开源是为了抢占电商 AI 标准",
+            "对中小电商是利好，但技术门槛仍在",
+            "未来电商客服将大量被 AI 替代"
           ],
           "difficulty": "中级",
-          "estimated_time": "1小时"
+          "estimated_time": "45分钟"
         }
       ]
     },
     {
-      "rank": 4,
-      "title": "特朗普政府支持OpenAI：AI版权大战，创作者如何自保？",
-      "track": "ip",
+      "rank": 3,
+      "title": "AI 版权大战升级：特朗普政府支持 OpenAI，创作者如何保护自己？",
+      "track": "trademark_ip",
       "track_name": "商标/IP/创业",
-      "target_audience": "内容创作者、小微企业主、商标注册潜在客户",
-      "reason": "版权诉讼与AI训练相关，直接关联创作者利益，且能引流商标注册服务。",
+      "target_audience": "内容创作者、小微企业主、对AI版权问题关注的个人",
+      "reason": "AI 版权是热点，且与创作者商标代理业务相关，可引流。",
       "source_items": [
         "The Trump administration is supporting OpenAI in the NYT copyright lawsuit",
         "Trump Administration Sides With OpenAI in New York Times Copyright Lawsuit",
@@ -212,12 +149,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "AI时代，创作者如何保护自己的版权？3步注册版权+商标",
-          "summary": "教创作者如何为内容注册版权和商标，防止被AI公司无偿使用。",
+          "hook": "AI 时代，你的内容如何不被侵权？版权保护实操指南",
+          "summary": "教创作者如何利用现有法律工具保护自己的内容不被 AI 随意使用。",
           "key_points": [
-            "了解版权和商标的区别",
-            "在中国版权保护中心登记作品",
-            "注册相关商标，防止品牌被抢注"
+            "了解 AI 训练中的合理使用边界",
+            "如何为内容添加版权声明",
+            "发现侵权后如何维权"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -226,12 +163,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI版权诉讼大反转：创作者千万别犯的3个错误",
-          "summary": "指出创作者在维权时常犯的误区，如未及时注册、忽略平台条款等。",
+          "hook": "小心！你的 AI 生成内容可能侵权，这 3 个雷区千万别踩",
+          "summary": "提醒创作者在使用 AI 生成内容时可能涉及的版权风险。",
           "pitfalls": [
-            "以为发布即拥有版权，但维权时证据不足",
-            "忽视平台用户协议中的授权条款",
-            "未注册商标导致品牌被抢注"
+            "使用 AI 生成的图片可能包含他人版权元素",
+            "AI 训练数据中的版权问题可能波及使用者",
+            "平台对 AI 内容的版权政策不明确"
           ],
           "difficulty": "入门",
           "estimated_time": "20分钟"
@@ -240,12 +177,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "特朗普政府站队OpenAI，AI版权法将走向何方？",
-          "summary": "分析美国政策对AI版权的影响，以及对中国创作者的启示。",
+          "hook": "特朗普政府站队 OpenAI，AI 版权案将如何改写内容创作规则？",
+          "summary": "分析 AI 版权诉讼的最新进展及其对内容创作和 AI 行业的深远影响。",
           "insights": [
-            "美国倾向保护AI产业发展，可能放宽fair use",
-            "中国创作者需关注本土法规与国际差异",
-            "版权纠纷将推动内容授权新模式"
+            "政府支持 AI 公司，可能推动合理使用范围扩大",
+            "内容创作者的议价能力可能被削弱",
+            "未来可能出现新的授权模式"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -253,72 +190,72 @@
       ]
     },
     {
-      "rank": 5,
-      "title": "Google Gemini视频分析新功能：Token成本直降88%，视频创作者必看",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "视频创作者、AI工具爱好者、自媒体运营者",
-      "reason": "Gemini新功能直接降低视频分析成本，对视频创作者实用性强，且用户擅长视频内容。",
+      "rank": 4,
+      "title": "X 平台强制使用 X Money 支付创作者，自媒体人如何应对？",
+      "track": "creator_economy",
+      "track_name": "自媒体/创作者经济",
+      "target_audience": "自媒体创作者、依赖平台收入的个人",
+      "reason": "X 平台政策变动直接影响创作者收入，是时效性强的热点。",
       "source_items": [
-        "Google Gemini's new agent-based video analysis cuts token usage by up to 88 percent"
+        "X Money will be the only payout option for U.S. creators"
       ],
       "source_urls": [
-        "https://the-decoder.com/google-geminis-new-agent-based-video-analysis-cuts-token-usage-by-up-to-88-percent"
+        "https://www.socialmediatoday.com/news/x-money-will-be-the-only-payout-option-for-us-creators/829514"
       ],
-      "urgency": "medium",
+      "urgency": "high",
       "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频",
-          "hook": "用Gemini分析视频，Token成本降低88%的实操方法",
-          "summary": "演示如何用Gemini的agent-based视频分析功能，高效提取视频内容，节省成本。",
+          "format": "图文",
+          "hook": "X 创作者必看：如何注册 X Money 并顺利提现？",
+          "summary": "教 X 平台创作者如何设置 X Money 账户，确保收益不受影响。",
           "key_points": [
-            "调用Gemini API并配置视频分析参数",
-            "利用agent自动提取关键帧和字幕",
-            "对比传统方法的成本与效率"
+            "注册 X Money 的步骤",
+            "绑定银行账户的方法",
+            "提现流程和注意事项"
           ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "Gemini视频分析虽省钱，但这3个坑你得知道",
-          "summary": "指出Gemini视频分析在准确性、隐私、兼容性上的局限。",
+          "hook": "X Money 强制支付，这 3 个坑可能让你损失收入",
+          "summary": "提醒创作者在切换到 X Money 时可能遇到的问题，如手续费、延迟到账等。",
           "pitfalls": [
-            "复杂场景下分析结果可能不准确",
-            "视频上传涉及隐私风险",
-            "依赖网络，处理大视频可能超时"
+            "X Money 可能收取高额手续费",
+            "提现到账时间可能延迟",
+            "部分国家/地区不支持 X Money"
           ],
           "difficulty": "入门",
-          "estimated_time": "20分钟"
+          "estimated_time": "15分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "Token成本降低88%，AI视频分析将如何改变内容生产？",
-          "summary": "探讨成本下降对视频制作、内容审核、广告投放等行业的影响。",
+          "hook": "X 强制使用 X Money，马斯克的支付野心暴露无遗",
+          "summary": "分析 X 平台此举背后的战略意图，以及对创作者经济的影响。",
           "insights": [
-            "AI视频分析将普及，小团队也能用得起",
-            "推动视频内容自动化剪辑和生成",
-            "可能引发新的商业模式，如自动生成短视频"
+            "X 在打造闭环支付生态",
+            "创作者对平台的依赖将进一步加深",
+            "其他平台可能效仿"
           ],
           "difficulty": "中级",
-          "estimated_time": "1小时"
+          "estimated_time": "45分钟"
         }
       ]
     },
     {
-      "rank": 6,
-      "title": "Walmart AI广告牌翻车：品牌用AI做营销，如何避免被群嘲？",
+      "rank": 5,
+      "title": "Walmart 新支付标识被群嘲 AI 生成，品牌用 AI 设计如何不翻车？",
       "track": "ai_video",
       "track_name": "AI视频/剪辑包装",
-      "target_audience": "品牌方、营销人员、AI内容创作者",
-      "reason": "Walmart AI艺术翻车事件是热点，反常识且易传播，能结合商标/IP引流。",
+      "target_audience": "品牌方、设计师、AI绘画爱好者",
+      "reason": "Walmart 的 AI 设计翻车案例具有话题性，且与 AI 设计相关，适合创作者做内容。",
       "source_items": [
         "Walmart’s new tap-to-pay sign has the internet roasting its AI art"
       ],
@@ -332,12 +269,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "用AI做品牌视觉？3步避免Walmart式翻车",
-          "summary": "教品牌方如何用AI生成高质量且符合品牌调性的视觉内容。",
+          "hook": "用 AI 生成品牌设计不翻车？这 3 个技巧你必须会",
+          "summary": "教读者如何用 AI 生成高质量、符合品牌调性的设计。",
           "key_points": [
-            "明确品牌视觉规范，输入详细提示词",
-            "使用Midjourney等工具生成多版本并筛选",
-            "人工审核并调整细节"
+            "明确设计需求，写好提示词",
+            "使用参考图引导 AI 生成",
+            "人工后期调整的必要性"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -346,12 +283,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI艺术翻车案例盘点：品牌如何避免成为笑柄？",
-          "summary": "分析Walmart等品牌AI艺术翻车原因，提供规避策略。",
+          "hook": "Walmart 的 AI 设计翻车了，这 4 个坑千万别踩",
+          "summary": "分析 Walmart 案例中的问题，提醒读者避免类似错误。",
           "pitfalls": [
-            "AI生成内容与品牌调性不符",
-            "忽视版权问题，可能侵权",
-            "缺乏人工审核，导致低级错误"
+            "AI 生成的设计可能缺乏品牌辨识度",
+            "过度依赖 AI 导致设计千篇一律",
+            "忽略目标受众的审美"
           ],
           "difficulty": "入门",
           "estimated_time": "20分钟"
@@ -360,30 +297,30 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从Walmart翻车看AI营销的边界：效率与品牌资产如何平衡？",
-          "summary": "探讨AI在营销中的角色，以及品牌如何维护形象。",
+          "hook": "从 Walmart 被群嘲看 AI 设计的边界与品牌风险",
+          "summary": "探讨 AI 在设计领域的应用现状与局限，以及品牌如何平衡效率与创意。",
           "insights": [
-            "AI降低设计成本，但品牌独特性不可替代",
-            "消费者对AI生成内容有偏见，需谨慎",
-            "未来AI营销需要人机协作"
+            "AI 设计能提升效率，但缺乏情感和创意",
+            "品牌使用 AI 设计需要谨慎，避免损害形象",
+            "未来 AI 与人类设计师协作是趋势"
           ],
           "difficulty": "中级",
-          "estimated_time": "1小时"
+          "estimated_time": "45分钟"
         }
       ]
     },
     {
-      "rank": 7,
-      "title": "百度挖角DeepSeek研究员：国产大模型人才战白热化，普通人如何借势？",
+      "rank": 6,
+      "title": "百度大模型团队换血，前 DeepSeek 核心成员加盟，文心要翻身？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、关注国产AI的用户、求职者",
-      "reason": "百度引入DeepSeek研究员，反映行业趋势，对国内用户有亲近感，易引发讨论。",
+      "target_audience": "AI从业者、关注国内大模型发展的科技爱好者",
+      "reason": "国内大模型动态对 AI 初学者有吸引力，且与 DeepSeek 相关，符合用户兴趣。",
       "source_items": [
-        "百度引入北美大模型专家，原DeepSeek研究员出任文心多模态负责人"
+        "百度基础模型部大换血：北美大模型专家与前DeepSeek核心成员加盟，文心多模态迎关键升级"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/30800"
+        "https://www.aibase.com/news/30805"
       ],
       "urgency": "medium",
       "viral_potential": "medium",
@@ -392,26 +329,87 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "国产大模型如何选？文心、DeepSeek、通义千问对比实测",
-          "summary": "为AI初学者提供国产大模型的选择指南，通过实际任务测试性能。",
+          "hook": "文心一言升级在即？手把手教你用文心一言做多模态创作",
+          "summary": "介绍文心一言的最新功能，教读者如何利用多模态能力进行创作。",
           "key_points": [
-            "注册并体验文心、DeepSeek、通义千问",
-            "用同一提示词测试文本生成、翻译、代码能力",
-            "根据需求推荐最合适的模型"
+            "了解文心一言的多模态功能",
+            "用文心一言生成图文内容",
+            "结合其他工具提升效率"
           ],
           "difficulty": "入门",
-          "estimated_time": "1小时"
+          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "国产大模型避坑：别只看宣传，这3个方面要实测",
-          "summary": "提醒用户注意国产大模型在中文理解、API稳定性、数据隐私上的问题。",
+          "hook": "百度文心换血，用户需要注意这 3 个变化",
+          "summary": "提醒用户关注模型更新可能带来的使用变化和潜在问题。",
           "pitfalls": [
-            "中文长文本处理能力参差不齐",
-            "API调用限制多，价格不透明",
-            "数据安全政策需仔细阅读"
+            "模型更新可能导致旧指令失效",
+            "新功能可能不稳定，需谨慎使用",
+            "数据隐私政策可能调整"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "百度挖角 DeepSeek 核心成员，国内大模型竞争进入人才战",
+          "summary": "分析百度此次人事变动背后的战略意图，以及对国内 AI 竞争格局的影响。",
+          "insights": [
+            "人才流动反映大模型竞争白热化",
+            "百度意在加强多模态能力，追赶第一梯队",
+            "DeepSeek 系人才成为香饽饽"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "AI 智能体攻击事件调查报告发布：OpenAI 和 Hugging Face 被黑，我们该恐慌吗？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI使用者、企业决策者、对AI安全关注的个人",
+      "reason": "AI 安全是重要话题，METR 报告具有权威性，能引发关注。",
+      "source_items": [
+        "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
+        "METR Report on OpenAI / Hugging Face Hacking Incident"
+      ],
+      "source_urls": [
+        "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "AI 智能体安全防护指南：如何防止你的 Agent 被攻击？",
+          "summary": "教读者如何配置 AI 智能体的安全设置，降低被攻击风险。",
+          "key_points": [
+            "了解常见的智能体攻击方式",
+            "设置权限和访问控制",
+            "定期更新和监控"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "45分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "OpenAI 都被黑了！使用 AI 智能体的 4 个安全雷区",
+          "summary": "提醒读者在使用 AI 智能体时注意的安全隐患。",
+          "pitfalls": [
+            "不要给智能体过多权限",
+            "避免在公共网络使用敏感操作",
+            "智能体可能被提示注入攻击"
           ],
           "difficulty": "入门",
           "estimated_time": "20分钟"
@@ -420,36 +418,98 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "百度挖角DeepSeek研究员，国产AI人才战背后的大棋",
-          "summary": "分析国内大模型公司的人才竞争，以及对AI产业的影响。",
+          "hook": "AI 智能体攻击事件调查：安全漏洞背后的深层问题",
+          "summary": "分析 METR 报告揭示的 AI 智能体安全问题，以及对行业的影响。",
           "insights": [
-            "人才流动加速技术融合",
-            "多模态成为下一战场",
-            "国产AI生态将更加开放"
+            "AI 智能体的安全设计仍不成熟",
+            "事件暴露了行业对智能体安全的忽视",
+            "未来需要更严格的监管和标准"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
         }
       ]
+    },
+    {
+      "rank": 8,
+      "title": "Runway 更新频繁，AI 视频生成哪家强？新手入坑指南",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "视频创作者、AI工具爱好者、想用AI做视频的新手",
+      "reason": "Runway 更新是 AI 视频领域的常规热点，且创作者擅长视频剪辑，可做测评。",
+      "source_items": [
+        "v4.19.1",
+        "v4.19.0"
+      ],
+      "source_urls": [
+        "https://github.com/runwayml/sdk-node/releases/tag/v4.19.1",
+        "https://github.com/runwayml/sdk-node/releases/tag/v4.19.0"
+      ],
+      "urgency": "low",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "视频",
+          "hook": "Runway 最新版上手：5 分钟生成你的第一个 AI 视频",
+          "summary": "演示如何使用 Runway 的 SDK 快速生成视频，适合新手。",
+          "key_points": [
+            "安装 Runway SDK",
+            "编写简单的生成脚本",
+            "导出视频并分享"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "Runway 生成视频的 3 个常见坑，帮你省下时间",
+          "summary": "分享使用 Runway 时常见的问题，如生成速度慢、效果不稳定等。",
+          "pitfalls": [
+            "生成视频可能不符合预期，需要多次尝试",
+            "免费版有使用时长限制",
+            "生成的内容可能涉及版权问题"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "Runway 频繁更新，AI 视频生成进入爆发前夜？",
+          "summary": "分析 Runway 的更新节奏和 AI 视频生成技术的发展趋势。",
+          "insights": [
+            "Runway 在加速迭代，竞争激烈",
+            "AI 视频生成质量提升，但仍有局限",
+            "未来 AI 视频将改变内容创作方式"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "45分钟"
+        }
+      ]
     }
   ],
   "weekly_plan": {
-    "monday": "Meta Muse Spark 1.3 实测：编程能力逼近 GPT-5.6，普通开发者该换吗？",
-    "wednesday": "AI智能体失控？OpenAI/Hugging Face攻击事件给普通用户的警示",
-    "friday": "Walmart AI广告牌翻车：品牌用AI做营销，如何避免被群嘲？",
-    "strategy": "本周主打AI热点事件+实操教程，穿插版权与商标引流内容，保持更新频率。"
+    "monday": "Meta Muse Spark 1.3 发布：编程能力硬刚 GPT-5.6，AI 编程进入三国杀时代？",
+    "wednesday": "AI 版权大战升级：特朗普政府支持 OpenAI，创作者如何保护自己？",
+    "friday": "Runway 更新频繁，AI 视频生成哪家强？新手入坑指南",
+    "strategy": "本周以 AI 技术热点为主，穿插版权和视频工具内容，吸引不同受众，同时为商标业务引流。"
   },
-  "insights": "今日信息流显示AI模型竞争白热化，Agent安全事件引发关注，版权问题成为热点，适合结合实操与深度解读。",
-  "ai_adjustment": "本次推荐增加了AI安全与版权相关选题，符合用户对反常识内容的偏好，同时避免硬件类选题。",
-  "generated_at": "2026-09-03T13:36:35.442468+08:00",
-  "total_items": 485,
-  "scored_items": 392,
+  "insights": "今日信息流中 AI 模型发布和版权诉讼是两大热点，创作者可结合自身业务，从实操和避坑角度切入，吸引流量。",
+  "ai_adjustment": "根据用户反馈，增加了反常识和热点扩展的选题，如 Muse Spark 与 GPT 对比、X Money 政策，同时避免了纯硬件内容。",
+  "generated_at": "2026-09-03T17:07:58.018022+08:00",
+  "total_items": 496,
+  "scored_items": 399,
   "tracks_summary": {
-    "ai_tech": 351,
-    "creator_economy": 15,
+    "ai_tech": 363,
     "growth_monetize": 3,
     "trademark_business": 9,
-    "ai_video": 14
+    "ai_video": 13,
+    "creator_economy": 11
   },
   "engine_version": "v2",
   "engine_params": {
