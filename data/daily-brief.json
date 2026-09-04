@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T04:05:25.979873Z",
+  "generated_at": "2026-09-04T09:05:01.660832Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -135,15 +135,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8623,
-      "importance": 0.8623,
-      "importance_score": 0.8623,
+      "score": 0.8523,
+      "importance": 0.8523,
+      "importance_score": 0.8523,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.91,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7926,
+        "recency": 0.7375,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -165,14 +165,6 @@
         "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
         "source": "NVIDIA Blog（RSS）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "短期内不影响你使用模型和工具，但长期看生态可能被重塑。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-04T04:06:43.422974Z"
       }
     },
     {
@@ -249,15 +241,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8423,
-      "importance": 0.8423,
-      "importance_score": 0.8423,
+      "score": 0.8322,
+      "importance": 0.8322,
+      "importance_score": 0.8322,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8071,
+        "recency": 0.751,
         "story_heat": 0.25
       },
       "category": "official",
@@ -280,14 +272,6 @@
         "url": "https://openai.com/index/daybreak-for-frontline-defenders",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "企业级安全合作计划，普通开发者用不上，等具体产品功能再说。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-04T04:06:43.422974Z"
       }
     },
     {
@@ -364,15 +348,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8381,
-      "importance": 0.8381,
-      "importance_score": 0.8381,
+      "score": 0.8277,
+      "importance": 0.8277,
+      "importance_score": 0.8277,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8282,
+        "recency": 0.7706,
         "story_heat": 0.25
       },
       "category": "official",
@@ -395,14 +379,6 @@
         "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model",
         "source": "Google DeepMind",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 70,
-      "persona_review": "模型性能提升显著，但未开放API，对开发者而言目前只是技术参考。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-04T04:06:43.422974Z"
       }
     },
     {
@@ -450,15 +426,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8375,
-      "importance": 0.8375,
-      "importance_score": 0.8375,
+      "score": 0.8265,
+      "importance": 0.8265,
+      "importance_score": 0.8265,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.875,
+        "recency": 0.8141,
         "story_heat": 0.0
       },
       "category": "official",
@@ -480,14 +456,83 @@
         "url": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_16469548a272",
+      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "url": "https://huggingface.co/blog/Hcompany/neomme",
+      "primary_url": "https://huggingface.co/blog/Hcompany/neomme",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "d93c1f6b932dc05ebde205846d094df62f896547",
+          "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+          "title_zh": null,
+          "title_en": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+          "title_original": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://huggingface.co/blog/Hcompany/neomme",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-03T13:13:48Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "items": [
+        {
+          "id": "d93c1f6b932dc05ebde205846d094df62f896547",
+          "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+          "title_zh": null,
+          "title_en": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+          "title_original": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://huggingface.co/blog/Hcompany/neomme",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-03T13:13:48Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8151,
+      "importance": 0.8151,
+      "importance_score": 0.8151,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.7507,
+        "story_heat": 0.0
       },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "Copilot用户今天就能用上新模型，代码生成能力有实际提升。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-04T04:06:43.422974Z"
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-03T13:13:48Z",
+      "latest_at": "2026-09-03T13:13:48Z",
+      "primary_item": {
+        "id": "d93c1f6b932dc05ebde205846d094df62f896547",
+        "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+        "title_zh": null,
+        "title_en": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+        "title_original": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://huggingface.co/blog/Hcompany/neomme",
+        "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -593,15 +638,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8256,
-      "importance": 0.8256,
-      "importance_score": 0.8256,
+      "score": 0.8138,
+      "importance": 0.8138,
+      "importance_score": 0.8138,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9444,
+        "recency": 0.8787,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -623,99 +668,6 @@
         "url": "https://arcprize.org/blog/astra",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 72,
-      "persona_review": "新SOTA模型，选型时多一个性能参考，但未开放使用。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-04T04:06:43.422974Z"
-      }
-    },
-    {
-      "story_id": "story_16469548a272",
-      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-      "url": "https://huggingface.co/blog/Hcompany/neomme",
-      "primary_url": "https://huggingface.co/blog/Hcompany/neomme",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "d93c1f6b932dc05ebde205846d094df62f896547",
-          "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-          "title_zh": null,
-          "title_en": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-          "title_original": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://huggingface.co/blog/Hcompany/neomme",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-03T13:13:48Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "items": [
-        {
-          "id": "d93c1f6b932dc05ebde205846d094df62f896547",
-          "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-          "title_zh": null,
-          "title_en": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-          "title_original": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://huggingface.co/blog/Hcompany/neomme",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-03T13:13:48Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8252,
-      "importance": 0.8252,
-      "importance_score": 0.8252,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.8069,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-03T13:13:48Z",
-      "latest_at": "2026-09-03T13:13:48Z",
-      "primary_item": {
-        "id": "d93c1f6b932dc05ebde205846d094df62f896547",
-        "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-        "title_zh": null,
-        "title_en": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-        "title_original": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://huggingface.co/blog/Hcompany/neomme",
-        "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "开源多模态编码器已发布，可直接下载集成到你的跨语言图文项目中。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-04T04:06:43.422974Z"
       }
     },
     {
@@ -763,15 +715,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8232,
-      "importance": 0.8232,
-      "importance_score": 0.8232,
+      "score": 0.8126,
+      "importance": 0.8126,
+      "importance_score": 0.8126,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8398,
+        "recency": 0.7814,
         "story_heat": 0.0
       },
       "category": "official",
@@ -793,14 +745,6 @@
         "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once",
         "source": "GitHub AI & ML",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "GitHub Copilot 新手应用已上线，可同时运行多个AI助手辅助编码。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-04T04:06:43.422974Z"
       }
     },
     {
@@ -848,15 +792,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8227,
-      "importance": 0.8227,
-      "importance_score": 0.8227,
+      "score": 0.8108,
+      "importance": 0.8108,
+      "importance_score": 0.8108,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.93,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9563,
+        "recency": 0.8898,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -877,14 +821,6 @@
         "url": "https://x.com/steipete/status/2095678161052901828",
         "source": "X：Peter Steinberger (@steipete)",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 30,
-      "persona_review": "只是传闻，没官宣前不影响任何技术选型或使用。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-04T04:06:43.422974Z"
       }
     },
     {
@@ -961,15 +897,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8035,
-      "importance": 0.8035,
-      "importance_score": 0.8035,
+      "score": 0.7923,
+      "importance": 0.7923,
+      "importance_score": 0.7923,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.82,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8937,
+        "recency": 0.8316,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -991,99 +927,112 @@
         "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra",
         "source": "Simon Willison 博客",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 20,
-      "persona_review": "ARC-AGI分数是研究指标，对当前开发选型无直接影响。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-04T04:06:43.422974Z"
       }
     },
     {
-      "story_id": "story_840d5d322fa1",
-      "title": "Upcoming deprecation of selected GitHub Copilot models",
-      "url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
-      "primary_url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
+      "story_id": "story_9a9faf27130f",
+      "title": "OpenAI 发布 GPT-6 Astra：1.05M 上下文的计算机操作模型，因触及 Critical 网络安全阈值而限制访问 / OpenAI Releases GPT-6 Astra： A 1.05M-Context Computer-Use Model Gated Behind a 'Critical' Cyber Threshold",
+      "url": "https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold",
+      "primary_url": "https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold",
+      "source": "MarkTechPost（RSS）",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "fedccde1eb5192d77c242bfdfbf6ca8980c40fec",
-          "title": "Upcoming deprecation of selected GitHub Copilot models",
-          "title_zh": null,
-          "title_en": "Upcoming deprecation of selected GitHub Copilot models",
-          "title_original": "Upcoming deprecation of selected GitHub Copilot models",
+          "id": "8ce0ce55d6fca71709600be77bb102bc2fdce2e6",
+          "title": "OpenAI 发布 GPT-6 Astra：1.05M 上下文的计算机操作模型，因触及 Critical 网络安全阈值而限制访问 / OpenAI Releases GPT-6 Astra： A 1.05M-Context Computer-Use Model Gated Behind a 'Critical' Cyber Threshold",
+          "title_zh": "OpenAI 发布 GPT-6 Astra：1.05M 上下文的计算机操作模型，因触及 Critical 网络安全阈值而限制访问",
+          "title_en": "OpenAI Releases GPT-6 Astra： A 1.05M-Context Computer-Use Model Gated Behind a 'Critical' Cyber Threshold",
+          "title_original": "OpenAI Releases GPT-6 Astra： A 1.05M-Context Computer-Use Model Gated Behind a 'Critical' Cyber Threshold",
+          "summary": "OpenAI 发布 GPT-6 Astra，定位为计算机操作模型，提供 1，050，000 token 上下文窗口、128，000 最大输出 token，2026 年 4 月 30 日知识截止，OSWorld V2-Offline 得分 72.6%（GPT-5.6 Sol 为 65.7%），平均任务时间从约 75 分钟降至 40 分钟。",
+          "recommend_reason_zh": null,
+          "url": "https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-03T21:16:11Z"
+        },
+        {
+          "id": "5a83b277e62ea149fe6aa88a224bc1b842b20ec5",
+          "title": "OpenAI 发布 GPT-6 Astra：1.05M 上下文的计算机操作模型，因触及 Critical 网络安全阈值而限制访问 / OpenAI Releases GPT-6 Astra: A 1.05M-Context Computer-Use Model Gated Behind a ‘Critical’ Cyber Threshold",
+          "title_zh": "OpenAI 发布 GPT-6 Astra：1.05M 上下文的计算机操作模型，因触及 Critical 网络安全阈值而限制访问",
+          "title_en": "OpenAI Releases GPT-6 Astra: A 1.05M-Context Computer-Use Model Gated Behind a ‘Critical’ Cyber Threshold",
+          "title_original": "OpenAI Releases GPT-6 Astra: A 1.05M-Context Computer-Use Model Gated Behind a ‘Critical’ Cyber Threshold",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-03T19:40:14Z"
+          "url": "https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-09-03T21:16:11Z"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "GitHub Changelog"
+        "MarkTechPost Research",
+        "MarkTechPost（RSS）"
       ],
       "items": [
         {
-          "id": "fedccde1eb5192d77c242bfdfbf6ca8980c40fec",
-          "title": "Upcoming deprecation of selected GitHub Copilot models",
-          "title_zh": null,
-          "title_en": "Upcoming deprecation of selected GitHub Copilot models",
-          "title_original": "Upcoming deprecation of selected GitHub Copilot models",
+          "id": "8ce0ce55d6fca71709600be77bb102bc2fdce2e6",
+          "title": "OpenAI 发布 GPT-6 Astra：1.05M 上下文的计算机操作模型，因触及 Critical 网络安全阈值而限制访问 / OpenAI Releases GPT-6 Astra： A 1.05M-Context Computer-Use Model Gated Behind a 'Critical' Cyber Threshold",
+          "title_zh": "OpenAI 发布 GPT-6 Astra：1.05M 上下文的计算机操作模型，因触及 Critical 网络安全阈值而限制访问",
+          "title_en": "OpenAI Releases GPT-6 Astra： A 1.05M-Context Computer-Use Model Gated Behind a 'Critical' Cyber Threshold",
+          "title_original": "OpenAI Releases GPT-6 Astra： A 1.05M-Context Computer-Use Model Gated Behind a 'Critical' Cyber Threshold",
+          "summary": "OpenAI 发布 GPT-6 Astra，定位为计算机操作模型，提供 1，050，000 token 上下文窗口、128，000 最大输出 token，2026 年 4 月 30 日知识截止，OSWorld V2-Offline 得分 72.6%（GPT-5.6 Sol 为 65.7%），平均任务时间从约 75 分钟降至 40 分钟。",
+          "recommend_reason_zh": null,
+          "url": "https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-03T21:16:11Z"
+        },
+        {
+          "id": "5a83b277e62ea149fe6aa88a224bc1b842b20ec5",
+          "title": "OpenAI 发布 GPT-6 Astra：1.05M 上下文的计算机操作模型，因触及 Critical 网络安全阈值而限制访问 / OpenAI Releases GPT-6 Astra: A 1.05M-Context Computer-Use Model Gated Behind a ‘Critical’ Cyber Threshold",
+          "title_zh": "OpenAI 发布 GPT-6 Astra：1.05M 上下文的计算机操作模型，因触及 Critical 网络安全阈值而限制访问",
+          "title_en": "OpenAI Releases GPT-6 Astra: A 1.05M-Context Computer-Use Model Gated Behind a ‘Critical’ Cyber Threshold",
+          "title_original": "OpenAI Releases GPT-6 Astra: A 1.05M-Context Computer-Use Model Gated Behind a ‘Critical’ Cyber Threshold",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-03T19:40:14Z"
+          "url": "https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-09-03T21:16:11Z"
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8314,
-      "importance": 0.8314,
-      "importance_score": 0.8314,
-      "importance_label": "官方更新",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7914,
+      "importance": 0.7914,
+      "importance_score": 0.7914,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.8855,
-        "story_heat": 0.0
+        "editorial": 0.81,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8432,
+        "story_heat": 0.25
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
+        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-03T19:40:14Z",
-      "latest_at": "2026-09-03T19:40:14Z",
+      "earliest_at": "2026-09-03T21:16:11Z",
+      "latest_at": "2026-09-03T21:16:11Z",
       "primary_item": {
-        "id": "fedccde1eb5192d77c242bfdfbf6ca8980c40fec",
-        "title": "Upcoming deprecation of selected GitHub Copilot models",
-        "title_zh": null,
-        "title_en": "Upcoming deprecation of selected GitHub Copilot models",
-        "title_original": "Upcoming deprecation of selected GitHub Copilot models",
-        "summary": null,
+        "id": "8ce0ce55d6fca71709600be77bb102bc2fdce2e6",
+        "title": "OpenAI 发布 GPT-6 Astra：1.05M 上下文的计算机操作模型，因触及 Critical 网络安全阈值而限制访问 / OpenAI Releases GPT-6 Astra： A 1.05M-Context Computer-Use Model Gated Behind a 'Critical' Cyber Threshold",
+        "title_zh": "OpenAI 发布 GPT-6 Astra：1.05M 上下文的计算机操作模型，因触及 Critical 网络安全阈值而限制访问",
+        "title_en": "OpenAI Releases GPT-6 Astra： A 1.05M-Context Computer-Use Model Gated Behind a 'Critical' Cyber Threshold",
+        "title_original": "OpenAI Releases GPT-6 Astra： A 1.05M-Context Computer-Use Model Gated Behind a 'Critical' Cyber Threshold",
+        "summary": "OpenAI 发布 GPT-6 Astra，定位为计算机操作模型，提供 1，050，000 token 上下文窗口、128，000 最大输出 token，2026 年 4 月 30 日知识截止，OSWorld V2-Offline 得分 72.6%（GPT-5.6 Sol 为 65.7%），平均任务时间从约 75 分钟降至 40 分钟。",
         "recommend_reason_zh": null,
-        "url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 75,
-      "persona_review": "使用受影响模型的开发者需关注迁移计划，避免服务中断。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-04T04:06:43.422974Z"
+        "url": "https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold",
+        "source": "MarkTechPost（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -1160,15 +1109,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8012,
-      "importance": 0.8012,
-      "importance_score": 0.8012,
+      "score": 0.7904,
+      "importance": 0.7904,
+      "importance_score": 0.7904,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.83,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8644,
+        "recency": 0.8043,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1190,14 +1139,83 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
         "source": "The Verge：AI（RSS）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_840d5d322fa1",
+      "title": "Upcoming deprecation of selected GitHub Copilot models",
+      "url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
+      "primary_url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "fedccde1eb5192d77c242bfdfbf6ca8980c40fec",
+          "title": "Upcoming deprecation of selected GitHub Copilot models",
+          "title_zh": null,
+          "title_en": "Upcoming deprecation of selected GitHub Copilot models",
+          "title_original": "Upcoming deprecation of selected GitHub Copilot models",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-03T19:40:14Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "fedccde1eb5192d77c242bfdfbf6ca8980c40fec",
+          "title": "Upcoming deprecation of selected GitHub Copilot models",
+          "title_zh": null,
+          "title_en": "Upcoming deprecation of selected GitHub Copilot models",
+          "title_original": "Upcoming deprecation of selected GitHub Copilot models",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-03T19:40:14Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8203,
+      "importance": 0.8203,
+      "importance_score": 0.8203,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8239,
+        "story_heat": 0.0
       },
-      "persona_id": "pragmatic",
-      "persona_score": 10,
-      "persona_review": "AGI口号不写代码，等API和价格出来再说。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-04T04:06:43.422974Z"
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-03T19:40:14Z",
+      "latest_at": "2026-09-03T19:40:14Z",
+      "primary_item": {
+        "id": "fedccde1eb5192d77c242bfdfbf6ca8980c40fec",
+        "title": "Upcoming deprecation of selected GitHub Copilot models",
+        "title_zh": null,
+        "title_en": "Upcoming deprecation of selected GitHub Copilot models",
+        "title_original": "Upcoming deprecation of selected GitHub Copilot models",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -1245,15 +1263,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8009,
-      "importance": 0.8009,
-      "importance_score": 0.8009,
+      "score": 0.789,
+      "importance": 0.789,
+      "importance_score": 0.789,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.86,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9515,
+        "recency": 0.8853,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1274,14 +1292,6 @@
         "url": "https://www.ithome.com/0/998/248.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 25,
-      "persona_review": "收购案未定，不影响你今天调用Hugging Face的API或模型。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-04T04:06:43.422974Z"
       }
     },
     {
@@ -1329,15 +1339,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7994,
-      "importance": 0.7994,
-      "importance_score": 0.7994,
+      "score": 0.7874,
+      "importance": 0.7874,
+      "importance_score": 0.7874,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.85,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9602,
+        "recency": 0.8934,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1358,14 +1368,6 @@
         "url": "https://x.com/frxiaobei/status/2095682473745363068",
         "source": "X：小北 (@frxiaobei)",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "非官方发布，真实性存疑，等OpenAI正式公告再行动。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-04T04:06:43.422974Z"
       }
     },
     {
@@ -1442,15 +1444,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7953,
-      "importance": 0.7953,
-      "importance_score": 0.7953,
+      "score": 0.7844,
+      "importance": 0.7844,
+      "importance_score": 0.7844,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8648,
+        "recency": 0.8046,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1472,14 +1474,6 @@
         "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model",
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 75,
-      "persona_review": "新模型已发布，但争议点可能影响其作为可靠自动化工具的稳定性。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-04T04:06:43.422974Z"
       }
     },
     {
@@ -1527,15 +1521,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8227,
-      "importance": 0.8227,
-      "importance_score": 0.8227,
+      "score": 0.8128,
+      "importance": 0.8128,
+      "importance_score": 0.8128,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7927,
+        "recency": 0.7375,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1557,14 +1551,6 @@
         "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "GPT-6 Astra已开放API，可立即用于处理长文档和复杂分析任务。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-04T04:06:43.422974Z"
       }
     },
     {
@@ -1670,15 +1656,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8226,
-      "importance": 0.8226,
-      "importance_score": 0.8226,
+      "score": 0.8108,
+      "importance": 0.8108,
+      "importance_score": 0.8108,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9444,
+        "recency": 0.8787,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1700,14 +1686,6 @@
         "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "展示用AI辅助移植老游戏的具体工作流，代码和思路可直接参考。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-04T04:06:43.422974Z"
       }
     },
     {
@@ -1755,15 +1733,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7905,
-      "importance": 0.7905,
-      "importance_score": 0.7905,
+      "score": 0.7783,
+      "importance": 0.7783,
+      "importance_score": 0.7783,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9772,
+        "recency": 0.9093,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1784,14 +1762,6 @@
         "url": "https://x.com/AYi_AInotes/status/2095700816980222311",
         "source": "X：阿易 AI Notes (@AYi_AInotes)",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "新模型已发布，主打桌面自动化和安全，开发者可评估其新能力是否适配项目。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-04T04:06:43.422974Z"
       }
     },
     {
@@ -1839,15 +1809,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7884,
-      "importance": 0.7884,
-      "importance_score": 0.7884,
+      "score": 0.7774,
+      "importance": 0.7774,
+      "importance_score": 0.7774,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.86,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8824,
+        "recency": 0.821,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1868,14 +1838,6 @@
         "url": "https://the-decoder.com/gpt-6-astra-is-the-first-model-making-openai-willing-to-declare-the-agi-era",
         "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 15,
-      "persona_review": "未发布的产品和愿景宣言，对当前开发工作无直接影响。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-04T04:06:43.422974Z"
       }
     },
     {
@@ -1923,15 +1885,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7877,
-      "importance": 0.7877,
-      "importance_score": 0.7877,
+      "score": 0.7769,
+      "importance": 0.7769,
+      "importance_score": 0.7769,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.87,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8618,
+        "recency": 0.8018,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1952,98 +1914,6 @@
         "url": "https://x.com/sundarpichai/status/2095569375373984139",
         "source": "X：Sundar Pichai (@sundarpichai)",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 10,
-      "persona_review": "CEO祝贺推文，无实质信息，对开发者工作无影响。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-04T04:06:43.422974Z"
-      }
-    },
-    {
-      "story_id": "story_e6a6758f70a2",
-      "title": "NVIDIA 宣布收购 Hugging Face，黄仁勋与纳德拉表态开放模型生态 / Looking forward to this ecosystem with open models continuing to flourish and grow with NVIDIA and H…",
-      "url": "https://x.com/satyanadella/status/2095587182039969861",
-      "primary_url": "https://x.com/satyanadella/status/2095587182039969861",
-      "source": "X：Satya Nadella (@satyanadella)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "d151d2c34faf3535048acc29be8e88550fa0e0ec",
-          "title": "NVIDIA 宣布收购 Hugging Face，黄仁勋与纳德拉表态开放模型生态 / Looking forward to this ecosystem with open models continuing to flourish and grow with NVIDIA and H…",
-          "title_zh": "NVIDIA 宣布收购 Hugging Face，黄仁勋与纳德拉表态开放模型生态",
-          "title_en": "Looking forward to this ecosystem with open models continuing to flourish and grow with NVIDIA and H…",
-          "title_original": "Looking forward to this ecosystem with open models continuing to flourish and grow with NVIDIA and H…",
-          "summary": "NVIDIA 宣布收购 Hugging Face，黄仁勋称开放模型能增强安全与网络安全、加速创新与扩散并支持主权，让开发者、初创公司、大学、行业和国家都能构建、定制并受益于 AI。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/satyanadella/status/2095587182039969861",
-          "source": "X：Satya Nadella (@satyanadella)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-03T18:58:12Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Satya Nadella (@satyanadella)"
-      ],
-      "items": [
-        {
-          "id": "d151d2c34faf3535048acc29be8e88550fa0e0ec",
-          "title": "NVIDIA 宣布收购 Hugging Face，黄仁勋与纳德拉表态开放模型生态 / Looking forward to this ecosystem with open models continuing to flourish and grow with NVIDIA and H…",
-          "title_zh": "NVIDIA 宣布收购 Hugging Face，黄仁勋与纳德拉表态开放模型生态",
-          "title_en": "Looking forward to this ecosystem with open models continuing to flourish and grow with NVIDIA and H…",
-          "title_original": "Looking forward to this ecosystem with open models continuing to flourish and grow with NVIDIA and H…",
-          "summary": "NVIDIA 宣布收购 Hugging Face，黄仁勋称开放模型能增强安全与网络安全、加速创新与扩散并支持主权，让开发者、初创公司、大学、行业和国家都能构建、定制并受益于 AI。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/satyanadella/status/2095587182039969861",
-          "source": "X：Satya Nadella (@satyanadella)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-03T18:58:12Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7814,
-      "importance": 0.7814,
-      "importance_score": 0.7814,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.84,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8766,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-03T18:58:12Z",
-      "latest_at": "2026-09-03T18:58:12Z",
-      "primary_item": {
-        "id": "d151d2c34faf3535048acc29be8e88550fa0e0ec",
-        "title": "NVIDIA 宣布收购 Hugging Face，黄仁勋与纳德拉表态开放模型生态 / Looking forward to this ecosystem with open models continuing to flourish and grow with NVIDIA and H…",
-        "title_zh": "NVIDIA 宣布收购 Hugging Face，黄仁勋与纳德拉表态开放模型生态",
-        "title_en": "Looking forward to this ecosystem with open models continuing to flourish and grow with NVIDIA and H…",
-        "title_original": "Looking forward to this ecosystem with open models continuing to flourish and grow with NVIDIA and H…",
-        "summary": "NVIDIA 宣布收购 Hugging Face，黄仁勋称开放模型能增强安全与网络安全、加速创新与扩散并支持主权，让开发者、初创公司、大学、行业和国家都能构建、定制并受益于 AI。",
-        "recommend_reason_zh": null,
-        "url": "https://x.com/satyanadella/status/2095587182039969861",
-        "source": "X：Satya Nadella (@satyanadella)",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "巨头收购案，短期内不影响你调用Hugging Face的API或下载模型。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-04T04:06:43.422974Z"
       }
     }
   ]
