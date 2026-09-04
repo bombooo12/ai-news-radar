@@ -165,6 +165,14 @@
         "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
         "source": "NVIDIA Blog（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "短期内不影响你使用模型和工具，但长期看生态可能被重塑。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-04T09:06:28.699326Z"
       }
     },
     {
@@ -272,6 +280,14 @@
         "url": "https://openai.com/index/daybreak-for-frontline-defenders",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "企业级安全合作计划，普通开发者用不上，等具体产品功能再说。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-04T09:06:28.699326Z"
       }
     },
     {
@@ -379,6 +395,14 @@
         "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model",
         "source": "Google DeepMind",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 70,
+      "persona_review": "模型性能提升显著，但未开放API，对开发者而言目前只是技术参考。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-04T09:06:28.699326Z"
       }
     },
     {
@@ -456,6 +480,14 @@
         "url": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "Copilot用户今天就能用上新模型，代码生成能力有实际提升。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-04T09:06:28.699326Z"
       }
     },
     {
@@ -533,6 +565,14 @@
         "url": "https://huggingface.co/blog/Hcompany/neomme",
         "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "开源多模态编码器已发布，可直接下载集成到你的跨语言图文项目中。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-04T09:06:28.699326Z"
       }
     },
     {
@@ -668,6 +708,14 @@
         "url": "https://arcprize.org/blog/astra",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 72,
+      "persona_review": "新SOTA模型，选型时多一个性能参考，但未开放使用。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-04T09:06:28.699326Z"
       }
     },
     {
@@ -745,6 +793,14 @@
         "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once",
         "source": "GitHub AI & ML",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "GitHub Copilot 新手应用已上线，可同时运行多个AI助手辅助编码。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-04T09:06:28.699326Z"
       }
     },
     {
@@ -821,6 +877,14 @@
         "url": "https://x.com/steipete/status/2095678161052901828",
         "source": "X：Peter Steinberger (@steipete)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 30,
+      "persona_review": "只是传闻，没官宣前不影响任何技术选型或使用。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-04T09:06:28.699326Z"
       }
     },
     {
@@ -927,6 +991,14 @@
         "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra",
         "source": "Simon Willison 博客",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 20,
+      "persona_review": "ARC-AGI分数是研究指标，对当前开发选型无直接影响。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-04T09:06:28.699326Z"
       }
     },
     {
@@ -1033,6 +1105,14 @@
         "url": "https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold",
         "source": "MarkTechPost（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "模型虽强但被严格限制访问，开发者目前用不上，只能观望。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-04T09:06:28.699326Z"
       }
     },
     {
@@ -1139,6 +1219,14 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
         "source": "The Verge：AI（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 10,
+      "persona_review": "AGI口号不写代码，等API和价格出来再说。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-04T09:06:28.699326Z"
       }
     },
     {
@@ -1216,6 +1304,14 @@
         "url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "使用受影响模型的开发者需关注迁移计划，避免服务中断。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-04T09:06:28.699326Z"
       }
     },
     {
@@ -1292,6 +1388,14 @@
         "url": "https://www.ithome.com/0/998/248.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 25,
+      "persona_review": "收购案未定，不影响你今天调用Hugging Face的API或模型。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-04T09:06:28.699326Z"
       }
     },
     {
@@ -1368,6 +1472,14 @@
         "url": "https://x.com/frxiaobei/status/2095682473745363068",
         "source": "X：小北 (@frxiaobei)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "非官方发布，真实性存疑，等OpenAI正式公告再行动。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-04T09:06:28.699326Z"
       }
     },
     {
@@ -1474,6 +1586,14 @@
         "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model",
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "新模型已发布，但争议点可能影响其作为可靠自动化工具的稳定性。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-04T09:06:28.699326Z"
       }
     },
     {
@@ -1551,6 +1671,14 @@
         "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "GPT-6 Astra已开放API，可立即用于处理长文档和复杂分析任务。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-04T09:06:28.699326Z"
       }
     },
     {
@@ -1686,6 +1814,14 @@
         "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "展示用AI辅助移植老游戏的具体工作流，代码和思路可直接参考。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-04T09:06:28.699326Z"
       }
     },
     {
@@ -1762,6 +1898,14 @@
         "url": "https://x.com/AYi_AInotes/status/2095700816980222311",
         "source": "X：阿易 AI Notes (@AYi_AInotes)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "新模型已发布，主打桌面自动化和安全，开发者可评估其新能力是否适配项目。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-04T09:06:28.699326Z"
       }
     },
     {
@@ -1838,6 +1982,14 @@
         "url": "https://the-decoder.com/gpt-6-astra-is-the-first-model-making-openai-willing-to-declare-the-agi-era",
         "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 15,
+      "persona_review": "未发布的产品和愿景宣言，对当前开发工作无直接影响。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-04T09:06:28.699326Z"
       }
     },
     {
@@ -1914,6 +2066,14 @@
         "url": "https://x.com/sundarpichai/status/2095569375373984139",
         "source": "X：Sundar Pichai (@sundarpichai)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 10,
+      "persona_review": "CEO祝贺推文，无实质信息，对开发者工作无影响。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-04T09:06:28.699326Z"
       }
     }
   ]

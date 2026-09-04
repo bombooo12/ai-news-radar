@@ -3,22 +3,22 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "GPT-6 Astra发布！AI初学者必看的5个新功能实操指南",
+      "title": "GPT-6 Astra发布！AI初学者如何第一时间低成本尝鲜？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、想用AI提效的个人",
-      "reason": "GPT-6 Astra是今日最大热点，用户对新模型兴趣高，且与AI初学者定位高度契合。",
+      "target_audience": "AI初学者、对GPT-6好奇但预算有限的个人",
+      "reason": "GPT-6发布是今日最大热点，符合创作者对新模型/工具的兴趣，且可从初学者视角切入，避开纯硬件或纯理论内容。",
       "source_items": [
         "OpenAI 发布 GPT-6 Astra，基准全面超越 Claude Fable 5.1",
         "Artificial Analysis 评测 GPT-6 Astra：编码智能体追平 Fable 5 但价格涨至 2.5 倍",
-        "OpenAI 发布 GPT-6 Astra，官方基准显示 ARC-AGI-3 得分 99.9%"
+        "OpenAI发布GPT-6Astra:行业迈入AGI时代，性能多维跃升并重塑安全边界"
       ],
       "source_urls": [
         "https://x.com/kimmonismus/status/2095589174686400914",
         "https://x.com/ArtificialAnlys/status/2095595489031000350",
-        "https://x.com/kimmonismus/status/2095585966102614182",
-        "https://36kr.com/p/3968346621751812?f=rss",
-        "https://openai.com/index/playco-game-prototyping-with-astra"
+        "https://www.aibase.com/news/30824",
+        "https://openai.com/index/legora-financial-statement-review-with-astra",
+        "https://36kr.com/p/3968346621751812?f=rss"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -27,12 +27,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "GPT-6 Astra来了！5个新功能让你效率翻倍（附详细操作步骤）",
-          "summary": "教AI初学者快速上手GPT-6 Astra的新功能，包括编码智能体、ARC-AGI-3等。",
+          "hook": "手把手教你：不用花大钱，三步免费体验GPT-6核心能力",
+          "summary": "教用户如何通过官方文档、免费试用额度或平替工具，低成本体验GPT-6的新特性。",
           "key_points": [
-            "如何访问GPT-6 Astra（订阅、界面变化）",
-            "新功能演示：编码智能体、图像生成、数据分析",
-            "与GPT-5.6对比：哪些功能值得升级"
+            "查找并申请OpenAI官方免费试用（或新用户优惠）",
+            "利用GPT-6的API文档，用简单代码调用特定功能",
+            "用Claude或DeepSeek等免费工具，模拟实现GPT-6的某项核心能力（如长文档分析）"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -41,12 +41,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "别急着升级GPT-6 Astra！这3个坑你必须知道",
-          "summary": "分析GPT-6 Astra的涨价、功能限制和稳定性问题，帮用户避免盲目升级。",
+          "hook": "GPT-6别乱冲！新手最容易踩的3个付费陷阱",
+          "summary": "指出盲目订阅、API滥用、被“套壳”应用收割等常见风险。",
           "pitfalls": [
-            "价格涨至2.5倍，但性能提升有限，性价比不高",
-            "部分功能（如编码智能体）仍不稳定，可能影响工作",
-            "官方基准与第三方评测差异大，别被营销数据迷惑"
+            "陷阱1：不看用量直接订阅最贵套餐，结果根本用不完",
+            "陷阱2：盲目调用高成本API（如长上下文），导致天价账单",
+            "陷阱3：轻信第三方“GPT-6”应用，可能只是旧模型套壳加价"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -55,12 +55,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "GPT-6 Astra发布，AI竞争进入新阶段？深度解析OpenAI的战略",
-          "summary": "从模型能力、价格策略、市场竞争三个维度解读GPT-6 Astra背后的商业逻辑。",
+          "hook": "GPT-6 Astra真能“碾压”Claude？从基准测试看AI巨头的营销战",
+          "summary": "分析GPT-6与Claude Fable 5.1基准测试背后的技术差异、营销策略及对普通用户的实际影响。",
           "insights": [
-            "OpenAI用高基准分数吸引关注，但实际体验可能打折",
-            "价格上调反映AI商业化压力，未来可能更多分层定价",
-            "与Claude、Meta的竞争加剧，AI技术迭代速度远超预期"
+            "洞察1：ARC-AGI得分的“刷榜”现象，高分不等于通用智能",
+            "洞察2：价格翻倍背后的逻辑：OpenAI从技术领先转向商业收割？",
+            "洞察3：对初学者而言，模型“军备竞赛”远不如掌握提示词工程重要"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -69,49 +69,48 @@
     },
     {
       "rank": 2,
-      "title": "全球AI大罢工：ChatGPT、Claude、Grok同时宕机，我们如何应对？",
+      "title": "三大AI集体宕机！你的数字员工“罢工”时怎么办？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、依赖AI工具的自媒体人",
-      "reason": "宕机事件影响广泛，用户有切身体会，且能结合副业变现场景提供实用建议。",
+      "target_audience": "依赖AI工具工作、学习、变现的个人",
+      "reason": "宕机事件具有强冲突性和话题性，易传播。可结合创作者擅长的Agent/Skill实践，提供应急预案，实用性强。",
       "source_items": [
         "全球三大AI集体“大罢工”：ChatGPT、Claude与Grok突发大规模宕机现已全部恢复",
-        "ChatGPT, Claude, Gemini down: What we know about the AI outages",
-        "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告"
+        "ChatGPT, Claude, Gemini down: What we know about the AI outages"
       ],
       "source_urls": [
         "https://www.aibase.com/news/30819",
         "https://mashable.com/tech/openai-chatgpt-outage-updates-grok-gemini",
-        "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
-        "https://www.aibase.com/news/30786"
+        "https://x.com/ArtificialAnlys/status/2095595489031000350",
+        "https://www.socialmediaexaminer.com/change-gems-and-gpts-into-skills-train-autonomous-ai-employees-and-industry-news"
       ],
-      "urgency": "medium",
-      "viral_potential": "medium",
+      "urgency": "high",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "AI工具集体宕机怎么办？3个备用方案让你工作不断档",
-          "summary": "提供AI工具替代方案和应急处理流程，确保工作连续性。",
+          "format": "视频",
+          "hook": "【保姆级教程】用DeepSeek+剪映，5分钟搭建永不“罢工”的AI工作流",
+          "summary": "教用户利用本地/国产模型和自动化工具，搭建一个不依赖单一云端AI的备用工作流程。",
           "key_points": [
-            "备用AI工具推荐：DeepSeek、Gemini、本地模型",
-            "如何快速切换工作流（提示词迁移、数据备份）",
-            "建立个人AI工具冗余机制，避免单点故障"
+            "配置DeepSeek API作为ChatGPT的备用方案",
+            "使用Zapier或Make连接多个AI工具，设置故障转移",
+            "用剪映的AI功能完成基础的文案转视频任务，作为内容备份"
           ],
           "difficulty": "入门",
-          "estimated_time": "20分钟"
+          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI宕机损失惨重？这3个坑让你避免依赖单一工具",
-          "summary": "分析依赖单一AI工具的风险，提供多工具协同策略。",
+          "hook": "你的数字资产危了！AI宕机时最易丢失的3类数据",
+          "summary": "指出在AI对话中丢失的定制提示词、未保存的生成内容、工作流程上下文等风险。",
           "pitfalls": [
-            "过度依赖ChatGPT，宕机时无法工作",
-            "没有备份提示词和对话记录，恢复后丢失",
-            "忽略免费替代品，浪费成本"
+            "坑点1：存放在聊天记录里的“机密提示词”因会话重置而丢失",
+            "坑点2：AI生成到一半的文案、代码，因刷新页面而前功尽弃",
+            "坑点3：依赖云端AI运行的自动化工作流（Agent）全面中断，影响业务"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -120,12 +119,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI大罢工背后：基础设施脆弱性暴露，未来如何保障？",
-          "summary": "从技术、安全、商业角度分析AI服务宕机的原因和影响。",
+          "hook": "从“集体宕机”到“英伟达收购Hugging Face”：AI世界的中心化与我们的脆弱性",
+          "summary": "分析此次宕机事件折射出的AI基础设施中心化风险，以及巨头收购对开源生态和普通开发者的影响。",
           "insights": [
-            "AI服务集中化导致单点故障风险高",
-            "智能体攻击事件频发，安全投入不足",
-            "企业级AI服务需要更可靠的SLA保障"
+            "洞察1：AI服务如水电，但我们只有“一根水管”，风险集中",
+            "洞察2：英伟达收购Hugging Face，是硬件巨头对软件生态的“终极控制”？",
+            "洞察3：对个人和小微企业，拥抱多元化和“可迁移”的技能才是抗风险关键"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -134,19 +133,18 @@
     },
     {
       "rank": 3,
-      "title": "Meta王牌AI模型Muse Spark 1.3发布：编程能力硬刚GPT-5.6，小白也能用？",
+      "title": "将GPTs变成Skills：训练你的第一个“自动赚钱”AI员工",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、对编程感兴趣的创作者",
-      "reason": "Meta新模型发布，编程能力是亮点，且用户对反常识内容感兴趣（自研碾压Nvidia）。",
+      "target_audience": "想用AI变现的个人、小微创业者、对Agent感兴趣的初学者",
+      "reason": "紧扣“Skill”和“Autonomous AI Employees”热点，完美匹配创作者对Agent/Skill实践分享的偏好，且与副业变现强相关。",
       "source_items": [
-        "Meta王牌AI大模型Muse Spark 1.3发布：编程能力硬刚GPT-5.6 Sol",
-        "OpenAI 发布 GPT-6 Astra，基准全面超越 Claude Fable 5.1"
+        "Change Gems and GPTs Into Skills, Train Autonomous AI Employees, and Industry News"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/30786",
-        "https://x.com/kimmonismus/status/2095589174686400914",
-        "https://x.com/ArtificialAnlys/status/2095595489031000350"
+        "https://www.socialmediaexaminer.com/change-gems-and-gpts-into-skills-train-autonomous-ai-employees-and-industry-news",
+        "https://x.com/ArtificialAnlys/status/2095595489031000350",
+        "https://openai.com/index/legora-financial-statement-review-with-astra"
       ],
       "urgency": "medium",
       "viral_potential": "high",
@@ -154,41 +152,41 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "Muse Spark 1.3上手教程：用自然语言写代码，小白也能做小工具",
-          "summary": "教初学者用Muse Spark 1.3生成代码，实现简单自动化。",
+          "format": "视频+图文",
+          "hook": "零代码！用ChatGPT+Zapier，打造自动回复客户咨询的AI客服",
+          "summary": "一步步教用户如何将定制化的GPT转化为一个能处理邮件、消息的自动化Skill。",
           "key_points": [
-            "注册和访问Muse Spark 1.3",
-            "用自然语言描述需求，生成Python脚本",
-            "实际案例：自动整理文件、爬取网页数据"
+            "在ChatGPT中创建一个针对你业务的客服助手GPT",
+            "使用Zapier连接Gmail/微信客服与这个GPT的API",
+            "设置触发条件和回复模板，实现7x24小时自动应答"
           ],
           "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "estimated_time": "45分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "Muse Spark 1.3编程能力很强？先看看这3个坑再决定用不用",
-          "summary": "指出Muse Spark 1.3的局限性和潜在问题，避免用户踩坑。",
+          "hook": "别让AI员工“闯祸”！部署自动AI必须绕开的3个法律雷区",
+          "summary": "指出在训练和使用“AI员工”时可能涉及的版权、隐私和虚假宣传风险。",
           "pitfalls": [
-            "生成代码可能存在安全漏洞，需人工审查",
-            "对复杂项目支持有限，容易出错",
-            "免费版限制多，高级功能需付费"
+            "雷区1：AI生成的回复侵犯第三方版权或商标",
+            "雷区2：自动处理客户数据，可能违反隐私法规（如GDPR）",
+            "雷区3：AI做出无法兑现的承诺，导致商业欺诈风险"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "Meta挑战OpenAI：Muse Spark 1.3能否改变AI编程格局？",
-          "summary": "分析Meta在AI编程领域的布局，以及与OpenAI的竞争态势。",
+          "hook": "从“工具”到“员工”：AI Skill化如何重塑小微企业的成本结构？",
+          "summary": "分析AI技能化对个人副业和小微企业人力成本、服务模式带来的根本性改变。",
           "insights": [
-            "Meta开源策略可能吸引更多开发者",
-            "编程能力成为AI模型竞争新焦点",
-            "未来AI编程工具将改变软件开发流程"
+            "洞察1：AI Skill将固定人力成本转化为可预测的弹性算力成本",
+            "洞察2：一人公司通过组合多个AI Skill，可实现“虚拟团队”运营",
+            "洞察3：未来竞争关键：从购买AI工具，转向设计和训练专属AI技能的能力"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -197,49 +195,48 @@
     },
     {
       "rank": 4,
-      "title": "AI视频生成新玩法：从Runway到MiniMax，如何用AI做出电影级短片？",
+      "title": "用AI把“回忆”变流量：品牌怀旧营销的AIGC实战手册",
       "track": "ai_video",
       "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI初学者、视频创作者、自媒体人",
-      "reason": "AI视频是用户历史偏好赛道，且信息流中有多个相关活动，可结合实操教程。",
+      "target_audience": "内容创作者、小微品牌主、对AI视频感兴趣的用户",
+      "reason": "结合“怀旧营销”热点与创作者擅长的AIGC剧情向内容，能自然引流至商标/IP服务，且无需真人出镜。",
       "source_items": [
-        "Runway to Reality: AI Fashion Hackathon",
-        "OpenBuilder & MiniMax AI Video night",
+        "How Delta, Peanuts, and Yahoo Use Nostalgia to Reconnect Iconic Brands With Culture",
         "Why video is the first frontier as AI learns to read the physical world"
       ],
       "source_urls": [
-        "https://www.meetup.com/google-developer-groups-brooklyn/events/316246126",
-        "https://lu.ma/sznak684",
+        "https://www.adweek.com/brand-marketing/how-delta-peanuts-and-yahoo-use-nostalgia-to-reconnect-iconic-brands-with-culture",
         "https://thenextweb.com/news/video-first-frontier-ai-physical-world-lumana",
-        "https://www.meetup.com/dasein-creative-circle/events/315984292"
+        "https://www.meetup.com/dasein-creative-circle/events/315984292",
+        "https://lu.ma/sznak684"
       ],
       "urgency": "medium",
-      "viral_potential": "medium",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "视频",
-          "hook": "用AI生成电影级短片：Runway、MiniMax实战教程（附提示词）",
-          "summary": "教用户用AI视频工具生成短片，包括提示词技巧和剪辑流程。",
+          "hook": "【剪映Pro实战】用AI生成“90年代老广告”，让你的品牌瞬间有故事",
+          "summary": "教用户使用Midjourney生成怀旧风格画面，用剪映的AI配音、特效包装成复古广告片。",
           "key_points": [
-            "选择合适的AI视频工具（Runway、MiniMax、Pika）",
-            "编写高质量视频提示词（场景、动作、风格）",
-            "用剪映Pro进行后期包装，提升质感"
+            "用Midjourney生成带有年代感的产品场景图（提示词技巧）",
+            "在剪映Pro中利用“老电影”滤镜和噪点特效营造复古感",
+            "使用AI配音生成具有时代特色的广告旁白，并添加背景音乐"
           ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
+          "difficulty": "入门",
+          "estimated_time": "40分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI视频生成常见3大坑：画质崩坏、版权风险、成本失控",
-          "summary": "指出AI视频制作中的常见问题，提供规避方法。",
+          "hook": "怀旧营销翻车警告！AI生成“经典”时最易侵权的3个细节",
+          "summary": "指出在复刻经典形象、使用老歌、模仿特定品牌风格时容易踩中的版权和商标雷区。",
           "pitfalls": [
-            "生成视频分辨率低，需要后期修复",
-            "素材版权不明确，商用有风险",
-            "免费额度有限，容易产生高额费用"
+            "坑点1：AI生成的怀旧人物形象，可能无意中模仿了仍在世的明星肖像",
+            "坑点2：使用“听起来像”某首经典老歌的AI生成音乐，仍有侵权风险",
+            "坑点3：模仿竞争对手鼎盛时期的视觉风格，可能构成不正当竞争"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -248,12 +245,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI视频是AI理解物理世界的第一步？未来内容创作将颠覆",
-          "summary": "探讨AI视频技术对内容创作行业的影响和未来趋势。",
+          "hook": "当AI学会“阅读”物理世界：怀旧视频为何是情感连接的最高效形式？",
+          "summary": "结合神经科学和传播学，分析AI生成的怀旧内容为何能快速激发共鸣、建立品牌信任。",
           "insights": [
-            "AI视频生成将降低创作门槛，人人都是导演",
-            "传统影视制作流程可能被重构",
-            "AI视频与AR/VR结合，创造全新体验"
+            "洞察1：怀旧感降低大脑批判性，是AI生成内容获取信任的“捷径”",
+            "洞察2：视频融合视听，是承载集体记忆、激活“情感模拟”的最高效载体",
+            "洞察3：对于新品牌，用AI创造“伪集体记忆”，是低成本构建品牌资产的新策略"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -262,58 +259,60 @@
     },
     {
       "rank": 5,
-      "title": "副业新神器？Anker便携式印花打印机，能否成为你的赚钱利器？",
+      "title": "个人织物打印机来袭：AIGC设计+定制T恤，副业变现新玩法？",
       "track": "side_hustle",
       "track_name": "个人成长/副业变现",
-      "target_audience": "想用AI变现的个人、副业爱好者",
-      "reason": "副业选题符合用户变现需求，且Anker产品具有实操性，可结合AI设计。",
+      "target_audience": "想寻找AI变现途径的创作者、手工爱好者、小微创业者",
+      "reason": "结合硬件创新与AIGC，提供从设计到生产的完整副业思路，实操性强，有争议性（是否值得投入）。",
       "source_items": [
         "Anker's 'personal fabric printer' will let you print customs designs on t-shirts and bags — new 'Direct-to-Garment' printing looks perfect for your side hustles"
       ],
       "source_urls": [
-        "https://www.techradar.com/computing/printers-scanners/ankers-personal-fabric-printer-will-let-you-print-customs-designs-on-t-shirts-and-bags-new-direct-to-garment-printing-looks-perfect-for-your-side-hustles"
+        "https://www.techradar.com/computing/printers-scanners/ankers-personal-fabric-printer-will-let-you-print-customs-designs-on-t-shirts-and-bags-new-direct-to-garment-printing-looks-perfect-for-your-side-hustles",
+        "https://www.meetup.com/google-developer-groups-brooklyn/events/316246126",
+        "https://www.makeuseof.com/asus-wants-you-to-own-your-ai-instead-of-cloud"
       ],
-      "urgency": "low",
+      "urgency": "medium",
       "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "用Anker印花打印机+AI设计，在家就能做定制T恤副业",
-          "summary": "教用户如何结合AI绘图工具和Anker打印机，开展定制T恤副业。",
+          "format": "图文+视频",
+          "hook": "从Midjourney到一件T恤：AI设计变现全流程拆解（无打印机版）",
+          "summary": "教用户如何用AI生成设计图，并利用国内现有平台（如淘宝定制）实现小批量生产与销售。",
           "key_points": [
-            "使用Midjourney生成独特图案",
-            "Anker打印机操作流程（打印、转印）",
-            "在电商平台开店，接单变现"
+            "用Midjourney或DALL-E 3生成高分辨率、适合印刷的潮流图案",
+            "使用Canva等工具添加文字、排版，制作成品效果图",
+            "对接淘宝/1688上的定制工厂，了解起订量、面料和成本核算"
           ],
           "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "estimated_time": "40分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "定制T恤副业3大坑：成本高、版权问题、销量难保证",
-          "summary": "分析定制T恤副业的潜在风险，提供规避建议。",
+          "hook": "别急着买打印机！个人服装定制副业3大“烧钱”陷阱",
+          "summary": "指出盲目购买设备、低估运营成本、忽视知识产权问题等风险。",
           "pitfalls": [
-            "打印机和耗材成本高，回本周期长",
-            "使用AI生成图案可能涉及版权纠纷",
-            "市场竞争激烈，销量不稳定"
+            "陷阱1：设备投入大，但订单不稳定，回本周期远超预期",
+            "陷阱2：墨水、耗材、仓储、售后等隐性成本被忽略",
+            "陷阱3：销售AI生成的网红同款图案，极易引发版权纠纷"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从Anker印花打印机看副业趋势：硬件+AI如何改变个人创业",
-          "summary": "探讨硬件设备与AI结合对个人副业的影响。",
+          "hook": "“拥有你的AI”与“打印你的设计”：硬件民主化如何重塑创意副业？",
+          "summary": "分析从云端AI到本地AI，从大型工厂到个人制造设备的技术趋势，对个人创意变现模式的深远影响。",
           "insights": [
-            "AI降低设计门槛，硬件降低生产门槛",
-            "个性化定制市场潜力巨大",
-            "副业工具越来越专业化，竞争加剧"
+            "洞察1：技术民主化让“创意-生产-销售”闭环在个人工作室中完成",
+            "洞察2：风险从“生产过剩”转向“设计过载”，独特性和IP成为核心",
+            "洞察3：未来副业形态：基于个人AI和微型制造设备的“手工艺人2.0”"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -322,96 +321,33 @@
     },
     {
       "rank": 6,
-      "title": "AI智能体攻击事件调查：你的AI助手安全吗？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、企业主、对AI安全感兴趣的用户",
-      "reason": "智能体攻击事件是热点，且用户对反常识内容感兴趣，可结合商标/IP安全引流。",
+      "title": "“精品”商标已泛滥？AIGC时代如何打造真正值钱的品牌IP",
+      "track": "ip_business",
+      "track_name": "商标/IP/创业",
+      "target_audience": "小微创业者、品牌主、需要商标注册服务的用户",
+      "reason": "直接关联创作者的商标代理业务，用行业热点切入，通过AIGC剧情向内容实现高自动化引流，符合其偏好。",
       "source_items": [
-        "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
-        "8点1氪丨字节跳动被曝获近300亿美元贷款；OpenAI正式发布GPT-6 Astra；英伟达129.3亿美元收购Hugging Face"
+        "Weekly take: Is 'boutique' becoming a meaningless label?",
+        "Strings Attached: The House Hearing on Renewing USPTO Fee Setting Authority"
       ],
       "source_urls": [
-        "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
-        "https://36kr.com/p/3968346621751812?f=rss",
-        "https://www.aibase.com/news/30819"
+        "https://www.managingip.com/article/2guix72gqrbcwfrpdfz0g/patents/weekly-take-is-boutique-becoming-a-meaningless-label",
+        "https://patentlyo.com/patent/2026/09/strings-attached-the-house-hearing-on-renewing-uspto-fee-setting-authority.html",
+        "https://legalblogs.wolterskluwer.com/patent-blog/g-125-two-decisions-for-the-price-of-one"
       ],
-      "urgency": "medium",
+      "urgency": "low",
       "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "如何保护你的AI智能体？5个安全设置教程",
-          "summary": "教用户为AI智能体设置安全防护，防止攻击。",
+          "format": "视频（AIGC剧情向）",
+          "hook": "【AI小剧场】用ChatGPT帮你给品牌起名，并一键查询商标能否注册",
+          "summary": "通过AI生成的动画剧情，演示如何利用AI工具进行品牌名创意和初步的商标可注册性筛查。",
           "key_points": [
-            "开启双重认证",
-            "限制智能体权限",
-            "定期审查日志"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI智能体被攻击？这3个坑让你防不胜防",
-          "summary": "揭示智能体攻击的常见方式，提供防范建议。",
-          "pitfalls": [
-            "提示注入攻击",
-            "数据泄露风险",
-            "第三方插件漏洞"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "智能体攻击事件背后：AI安全将成下一个风口？",
-          "summary": "分析AI安全市场前景，以及对企业的影响。",
-          "insights": [
-            "AI安全需求激增，相关创业机会出现",
-            "企业需要重视AI合规和知识产权保护",
-            "智能体安全标准亟待建立"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "title": "商标注册新趋势：AI时代如何保护你的品牌IP？",
-      "track": "trademark_ip",
-      "track_name": "商标/IP/创业",
-      "target_audience": "小微企业主、创业者、自媒体人",
-      "reason": "结合AI热点和商标业务，为用户引流，且信息流中有相关专利新闻。",
-      "source_items": [
-        "Strings Attached: The House Hearing on Renewing USPTO Fee Setting Authority",
-        "Bringing value to business: Shook Lin & Bok’s IP offering"
-      ],
-      "source_urls": [
-        "https://patentlyo.com/patent/2026/09/strings-attached-the-house-hearing-on-renewing-uspto-fee-setting-authority.html",
-        "https://www.managingip.com/article/2gu734eivs562kimhmlmo/patents/bringing-value-to-business-shook-lin-boks-ip-offering",
-        "https://legalblogs.wolterskluwer.com/patent-blog/g-125-two-decisions-for-the-price-of-one"
-      ],
-      "urgency": "low",
-      "viral_potential": "low",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "AI创业必看：如何用AI工具快速完成商标注册流程",
-          "summary": "教创业者利用AI工具查询商标、准备材料，提高注册成功率。",
-          "key_points": [
-            "使用AI商标查询工具（如商标局官网、第三方工具）",
-            "AI辅助撰写商标说明",
-            "提交申请流程详解"
+            "用ChatGPT根据行业、调性生成一系列品牌名选项",
+            "教授如何利用国家知识产权局官网或第三方工具进行近似查询",
+            "展示一个因未查询而注册失败的反面案例（剧情化）"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -420,12 +356,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "商标注册常见3大坑：驳回、异议、侵权，如何避免？",
-          "summary": "总结商标注册的常见陷阱，提供规避策略。",
+          "hook": "你的品牌名可能白起了！AIGC创业者最常忽略的3个商标死穴",
+          "summary": "指出用AI生成的通用名称、忽视类别保护、被他人抢注等常见问题。",
           "pitfalls": [
-            "商标近似查询不全面，导致驳回",
-            "未及时续展，商标失效",
-            "使用AI生成logo可能侵犯他人版权"
+            "死穴1：选用AI生成的描述性过强的通用词汇，缺乏显著性",
+            "死穴2：只注册核心类别，忽略了业务延伸或防御性类别",
+            "死穴3：在公开测试或众筹前未提交申请，导致创意被抢注"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -434,12 +370,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI生成内容的知识产权归谁？商标注册新挑战",
-          "summary": "探讨AI生成内容在知识产权领域的法律问题。",
+          "hook": "从“标签”到“资产”：在AIGC复制泛滥的时代，品牌IP的终极价值是什么？",
+          "summary": "探讨当设计、文案都能被轻易AI化时，真正的品牌护城河如何构建，商标的价值如何重估。",
           "insights": [
-            "AI生成作品的版权归属尚不明确",
-            "商标注册中AI生成标识的审查标准",
-            "企业需要提前布局IP策略"
+            "洞察1：AI降低创意门槛，使得“品牌共识”和“情感体验”成为更稀缺的资产",
+            "洞察2：商标从“法律保护符号”向“品牌数字资产核心凭证”演进",
+            "洞察3：小微品牌策略：聚焦细分社群，用深度互动构建AI难以复制的“关系产权”"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -448,20 +384,20 @@
     }
   ],
   "weekly_plan": {
-    "monday": "GPT-6 Astra发布！AI初学者必看的5个新功能实操指南",
-    "wednesday": "全球AI大罢工：ChatGPT、Claude、Grok同时宕机，我们如何应对？",
-    "friday": "AI视频生成新玩法：从Runway到MiniMax，如何用AI做出电影级短片？",
-    "strategy": "本周以GPT-6 Astra热点为主，穿插AI安全、副业和商标内容，保持更新频率。"
+    "monday": "GPT-6 Astra发布！AI初学者如何第一时间低成本尝鲜？（蹭热点，高流量）",
+    "wednesday": "三大AI集体宕机！你的数字员工“罢工”时怎么办？（冲突性，强实用）",
+    "friday": "用AI把“回忆”变流量：品牌怀旧营销的AIGC实战手册（结合业务引流，视觉化）",
+    "strategy": "以GPT-6热点开局，用宕机事件承接，周末以怀旧营销进行业务引流，形成“技术-风险-应用”的内容闭环。"
   },
-  "insights": "今日信息流显示AI模型竞争激烈，GPT-6 Astra和Muse Spark 1.3相继发布，同时AI安全事件频发，AI视频和副业工具也有新动态，创作者可抓住热点，结合实操和避坑内容吸引流量。",
-  "ai_adjustment": "根据用户反馈，本次推荐增加了GPT-6 Astra和Muse Spark等新模型内容，减少硬件相关内容，并强化了实操和避坑角度，以满足用户对反常识和热点内容的偏好。",
-  "generated_at": "2026-09-04T12:08:47.194898+08:00",
-  "total_items": 584,
-  "scored_items": 474,
+  "insights": "今日信息流呈现“技术突破（GPT-6）与基础设施风险（宕机）并存”的鲜明对比，同时AI应用正加速向物理世界（视频、制造）和传统领域（营销、IP）渗透，为创作者提供了从技术实操到商业洞察的丰富选题空间。",
+  "ai_adjustment": "基于用户反馈，重点推荐了其偏好的AI技术和AI视频赛道，并围绕热点（GPT-6、Harness/Skill概念）展开；同时避开纯硬件选题，增加了数据驱动和争议性角度以提升传播潜力。",
+  "generated_at": "2026-09-04T17:11:48.613926+08:00",
+  "total_items": 588,
+  "scored_items": 483,
   "tracks_summary": {
-    "ai_tech": 444,
-    "creator_economy": 19,
-    "ai_video": 7,
+    "ai_tech": 450,
+    "creator_economy": 20,
+    "ai_video": 9,
     "growth_monetize": 1,
     "trademark_business": 3
   },
