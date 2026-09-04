@@ -1,48 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_0ce2047b51cc|pragmatic|0a5c5b24": {
-      "score": 52,
-      "review": "融资渠道新花样，写代码的暂时用不上，看自家公司要不要碰。",
-      "title_hash": "8e5ef7f5",
-      "scored_at": "2026-08-14T10:35:19.808665Z"
-    },
-    "story_7877e29da15e|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "换个吉祥物不写代码，开发工作零影响，不用管。",
-      "title_hash": "54acd137",
-      "scored_at": "2026-08-14T10:35:21.461672Z"
-    },
-    "story_8d30d003a2da|pragmatic|0a5c5b24": {
-      "score": 78,
-      "review": "办公场景直接能用，百万上下文处理长文档是刚需，可以上手试。",
-      "title_hash": "ea0f8dad",
-      "scored_at": "2026-08-14T10:35:23.922489Z"
-    },
-    "story_df3cadd6dc23|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "苹果中国区AI策略变动，开发者暂无直接可用的接口，观望即可。",
-      "title_hash": "b43d9857",
-      "scored_at": "2026-08-14T11:27:08.416310Z"
-    },
-    "story_2be09835e8e6|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "这是篇叙事文章，不是工具发布，动手党没必要现在看。",
-      "title_hash": "33db23b6",
-      "scored_at": "2026-08-14T11:27:10.654145Z"
-    },
-    "story_5634b0a754f6|pragmatic|0a5c5b24": {
-      "score": 88,
-      "review": "开源就能拉下来试，长程智能体和多模态推理的基准可以自己跑一遍。",
-      "title_hash": "c427e273",
-      "scored_at": "2026-08-14T12:15:16.855616Z"
-    },
-    "story_3c124a5494f7|pragmatic|0a5c5b24": {
-      "score": 50,
-      "review": "公司变动对今天无直接影响，等功能或定价变化再动手。",
-      "title_hash": "0007653d",
-      "scored_at": "2026-08-14T13:57:30.478158Z"
-    },
     "story_e5e76630b687|pragmatic|0a5c5b24": {
       "score": 68,
       "review": "价格战对开发者是好事，但等具体降价再动手，不用急。",
@@ -4656,6 +4614,60 @@
       "review": "官方博客宣称性能，无论文无代码，也无独立第三方评测。",
       "title_hash": "68b60f94",
       "scored_at": "2026-09-04T09:06:39.981224Z"
+    },
+    "story_90d39dc2e7da|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "基准测试打架，AGI预测提前，对选型没帮助，知道就行。",
+      "title_hash": "ec10fc61",
+      "scored_at": "2026-09-04T15:06:53.533786Z"
+    },
+    "story_b1e5809801b0|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "安全研究案例，对日常开发无直接影响，了解即可。",
+      "title_hash": "bd0d05da",
+      "scored_at": "2026-09-04T15:06:56.239567Z"
+    },
+    "story_35c1287f0d07|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "了解AI安全风险案例，但暂不影响当前API使用或开发决策。",
+      "title_hash": "61f440e8",
+      "scored_at": "2026-09-04T15:07:00.502893Z"
+    },
+    "story_e92f9b15b9d9|pragmatic|0a5c5b24": {
+      "score": 15,
+      "review": "名人花边新闻，与开发者实际工作无关。",
+      "title_hash": "ea1b8593",
+      "scored_at": "2026-09-04T15:07:03.760542Z"
+    },
+    "story_09f1f8cfa0a6|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "开源模型全家桶已发布，可直接下载部署或研究其训练流程。",
+      "title_hash": "be9cd09d",
+      "scored_at": "2026-09-04T15:07:07.547169Z"
+    },
+    "story_d93119f5014c|pragmatic|0a5c5b24": {
+      "score": 68,
+      "review": "性能追平但价格大涨，选型时成本成为关键考量。",
+      "title_hash": "dc695c87",
+      "scored_at": "2026-09-04T15:07:11.180584Z"
+    },
+    "story_34850ef34725|pragmatic|0a5c5b24": {
+      "score": 40,
+      "review": "早期客户内测，普通开发者还用不上，知道有这回事就行。",
+      "title_hash": "b534b49c",
+      "scored_at": "2026-09-04T15:07:17.700659Z"
+    },
+    "story_09f1f8cfa0a6|cynic|f4237a62": {
+      "score": 82,
+      "review": "0.9B到375B全开源还附训练日志，诚意够足，但‘A23B’这参数命名是怕人看懂吗？",
+      "title_hash": "be9cd09d",
+      "scored_at": "2026-09-04T15:07:22.480421Z"
+    },
+    "story_09f1f8cfa0a6|paper-police|966065bf": {
+      "score": 85,
+      "review": "官方博客发布，模型开源且覆盖完整训练周期，证据链完整。",
+      "title_hash": "be9cd09d",
+      "scored_at": "2026-09-04T15:07:25.860015Z"
     }
   }
 }

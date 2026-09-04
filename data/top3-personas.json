@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T09:06:39.981273Z",
+  "generated_at": "2026-09-04T15:07:25.860060Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -37,42 +37,42 @@
       }
     },
     {
-      "story_id": "story_16469548a272",
-      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-      "url": "https://huggingface.co/blog/Hcompany/neomme",
+      "story_id": "story_9dd7043831a5",
+      "title": "GitHub Copilot app for Beginners: Run several agents at once",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 72,
-          "review": "开源和效率是亮点，但‘原生’和‘多语言’的实际泛化能力，还得看真刀真枪的评测。"
+          "score": 45,
+          "review": "给已有功能套个‘新手版’壳子，多开几个窗口就算‘同时运行’了？"
         },
         "paper-police": {
-          "score": 45,
-          "review": "技术博客公布了评测数字，但未见论文与开源代码，无法独立验证。"
+          "score": 15,
+          "review": "仅有官方博客介绍功能，无论文、代码或独立评测，证据不足。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "开源多模态编码器已发布，可直接下载集成到你的跨语言图文项目中。"
+          "review": "GitHub Copilot 新手应用已上线，可同时运行多个AI助手辅助编码。"
         }
       }
     },
     {
-      "story_id": "story_7818dad3e51c",
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "story_id": "story_09f1f8cfa0a6",
+      "title": "IFM 发布 K2 Horizon 六款开源模型，覆盖 0.9B 到 375B-A23B 并开放完整训练生命周期",
+      "url": "https://ifm.ai/blog/k2",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 40,
-          "review": "精心剪辑的演示视频，闭口不谈成本、错误率和真实工作流的复杂性。"
+          "score": 82,
+          "review": "0.9B到375B全开源还附训练日志，诚意够足，但‘A23B’这参数命名是怕人看懂吗？"
         },
         "paper-police": {
-          "score": 15,
-          "review": "官方博客宣称性能，无论文无代码，也无独立第三方评测。"
+          "score": 85,
+          "review": "官方博客发布，模型开源且覆盖完整训练周期，证据链完整。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "GPT-6 Astra已开放API，可立即用于处理长文档和复杂分析任务。"
+          "review": "开源模型全家桶已发布，可直接下载部署或研究其训练流程。"
         }
       }
     }
