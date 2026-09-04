@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T15:07:20.301913Z",
+  "generated_at": "2026-09-04T04:08:05.557229Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,22 +17,22 @@
   ],
   "items": [
     {
-      "story_id": "story_edf252f7cb9c",
-      "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
-      "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+      "story_id": "story_af7f559f57ce",
+      "title": "Gemini 3.8 Flash is now available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 78,
-          "review": "350M小模型调100步就敢说“更好”，这基线是啥？敢不敢跟大模型比？"
+          "score": 55,
+          "review": "换个模型就叫更新，性能提升和实际成本闭口不谈，老套路了。"
         },
         "paper-police": {
-          "score": 45,
-          "review": "技术博客有训练细节和数字，但未提供论文与完整可复现代码。"
+          "score": 15,
+          "review": "官方博客宣称集成，无论文无代码无独立评测，仅有说法。"
         },
         "pragmatic": {
-          "score": 88,
-          "review": "开源了训练方法，想提升模型结构化输出能力的可以直接参考实现。"
+          "score": 85,
+          "review": "Copilot用户今天就能用上新模型，代码生成能力有实际提升。"
         }
       }
     },
@@ -57,22 +57,22 @@
       }
     },
     {
-      "story_id": "story_49f7f7e715ad",
-      "title": "CodeQL 2.26.4 improves GitHub actions security detections",
-      "url": "https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections",
+      "story_id": "story_9dd7043831a5",
+      "title": "GitHub Copilot app for Beginners: Run several agents at once",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 68,
-          "review": "版本号更新，安全检测确实有改进，但离‘革命性’还差得远。"
+          "score": 45,
+          "review": "给已有功能套个‘新手版’壳子，多开几个窗口就算‘同时运行’了？"
         },
         "paper-police": {
-          "score": 40,
-          "review": "官方博客提供了更新细节，但缺乏独立的第三方安全评测验证。"
+          "score": 15,
+          "review": "仅有官方博客介绍功能，无论文、代码或独立评测，证据不足。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "安全扫描工具更新，CI/CD流水线今天就能用上更强的检测。"
+          "review": "GitHub Copilot 新手应用已上线，可同时运行多个AI助手辅助编码。"
         }
       }
     }
