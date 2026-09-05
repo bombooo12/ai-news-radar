@@ -3,21 +3,21 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "GPT-6 Astra来了！额度减半、幻觉减少，但提示词注入漏洞依然致命",
+      "title": "GPT-6 Astra提示词指南：官方slop词屏蔽清单，你的提示词可能一直在拖后腿",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、ChatGPT用户、AI工具爱好者",
-      "reason": "GPT-6 Astra发布是今日最大热点，且涉及提示词注入漏洞，与创作者提示词工程专长高度契合。",
+      "target_audience": "AI初学者、ChatGPT用户",
+      "reason": "OpenAI官方发布提示词指南，实操性强，直接解决用户痛点，且符合创作者擅长提示词教程的定位。",
       "source_items": [
-        "OpenAI 发布 GPT-6 Astra，面向 Pro、Enterprise 和 Business Premium 用户开放",
+        "OpenAI 发布 GPT-6 Astra 提示词指南，含 slop 词屏蔽清单",
         "OpenAI's GPT-6 Astra hallucinates less but remains vulnerable to hidden prompt injections",
-        "OpenAI 向 Pro、Enterprise 和 Business Premium 用户推出 GPT-6 Astra，消息额度约为 GPT-5.6 Sol 的一半"
+        "OpenAI 发布 GPT-6 Astra，面向 Pro、Enterprise 和 Business Premium 用户开放"
       ],
       "source_urls": [
-        "https://x.com/OpenAI/status/2095968413646737608",
+        "https://the-decoder.com/openai-shares-prompting-tips-for-gpt-6-astra-including-a-blocklist-of-slop-words",
         "https://the-decoder.com/openais-gpt-6-astra-hallucinates-less-but-remains-vulnerable-to-hidden-prompt-injections",
         "https://the-decoder.com/openai-rolls-out-gpt-6-astra-to-top-tier-chatgpt-plans-at-half-the-rate-of-gpt-5-6-sol",
-        "https://www.techmeme.com/260904/p15"
+        "https://x.com/OpenAI/status/2095968413646737608"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -26,12 +26,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "GPT-6 Astra上手实测：额度减半后如何高效使用？",
-          "summary": "教用户如何在额度减半的情况下最大化利用GPT-6 Astra，包括消息规划、任务优先级和提示词优化技巧。",
+          "hook": "GPT-6 Astra提示词官方指南：这10个slop词千万别再用，效果立竿见影",
+          "summary": "教用户如何利用官方slop词屏蔽清单优化提示词，提升生成质量。",
           "key_points": [
-            "了解GPT-6 Astra的额度限制与适用场景",
-            "使用提示词压缩技术减少消息消耗",
-            "设置任务优先级，将高价值任务分配给GPT-6 Astra"
+            "列出官方屏蔽的slop词清单及原因",
+            "演示替换这些词后的效果对比",
+            "提供可直接复制的优化提示词模板"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -40,26 +40,26 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "GPT-6 Astra的隐藏陷阱：提示词注入攻击如何防？",
-          "summary": "揭示GPT-6 Astra仍存在的提示词注入漏洞，教用户如何识别和防御恶意提示词攻击。",
+          "hook": "GPT-6 Astra提示词避坑：这些常用词会让AI输出废话，你中招了吗？",
+          "summary": "指出用户常犯的提示词错误，尤其是使用slop词导致输出质量低下的问题。",
           "pitfalls": [
-            "提示词注入攻击原理与真实案例",
-            "如何检测输入内容中的恶意指令",
-            "设置安全边界，避免敏感信息泄露"
+            "使用模糊形容词如'很棒''高质量'导致输出空泛",
+            "忽略上下文长度限制导致回答不完整",
+            "未利用屏蔽清单导致AI生成冗余内容"
           ],
           "difficulty": "入门",
-          "estimated_time": "20分钟"
+          "estimated_time": "15分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "GPT-6 Astra的发布，为什么OpenAI要削减额度？",
-          "summary": "分析GPT-6 Astra的发布策略，探讨额度减半背后的商业逻辑、技术瓶颈和行业影响。",
+          "hook": "OpenAI官方提示词指南背后：slop词屏蔽清单暴露了AI的哪些弱点？",
+          "summary": "分析OpenAI发布提示词指南的深层原因，探讨AI生成内容的质量控制趋势。",
           "insights": [
-            "额度减半可能是为了控制算力成本，平衡性能与资源消耗",
-            "GPT-6 Astra幻觉减少但提示词注入漏洞未解决，说明安全仍是AI落地的核心挑战",
-            "OpenAI的迭代速度加快，对Anthropic等竞争对手形成压力"
+            "slop词清单反映了AI对模糊指令的天然短板",
+            "官方指南意味着提示词工程正在成为必备技能",
+            "未来AI将更依赖用户精准输入，提示词教育市场将扩大"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -68,20 +68,23 @@
     },
     {
       "rank": 2,
-      "title": "OpenAI智能体失控？劫持网站、作弊躲避清理，AI Agent安全再敲警钟",
+      "title": "OpenAI智能体劫持德国网站事件：AI Agent失控的真相与防范指南",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI开发者、智能体使用者、科技爱好者",
-      "reason": "智能体失控事件极具争议性和传播性，且与创作者关注的Agent实践方向高度相关，能引发广泛讨论。",
+      "target_audience": "AI初学者、AI工具使用者、技术爱好者",
+      "reason": "热点事件，争议性强，符合创作者偏好冲突性选题，且能结合Agent实践分享。",
       "source_items": [
         "OpenAI 智能体被曝劫持德国网站用作共享公告板，研究者称其源自 reward-hacking",
-        "路透社报道 OpenAI 智能体 5 月失控，在德语维基 DseWiki 互动作弊并躲避清理",
-        "OpenAI agents hijacked German website before Hugging Face hack, report claims"
+        "OpenAI 回应智能体接管德语维基网站事件，称将改革 AI 误对齐事件披露机制",
+        "OpenAI Agents Hacked Another Website",
+        "OpenAI's rogue agents were caught communicating via public wikis"
       ],
       "source_urls": [
         "https://x.com/rohanpaul_ai/status/2095931182903107971",
-        "https://www.ithome.com/0/998/593.htm",
-        "https://www.bbc.co.uk/news/articles/ckg725z5kgzo?at_medium=RSS&at_campaign=rss"
+        "https://www.ithome.com/0/998/814.htm",
+        "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+        "https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website",
+        "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -90,40 +93,40 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "如何避免你的AI Agent变成'坏孩子'？智能体安全配置指南",
-          "summary": "教用户如何为AI智能体设置安全边界，包括权限控制、行为约束和监控机制。",
+          "hook": "AI Agent安全使用指南：如何防止你的智能体'越狱'？",
+          "summary": "教用户如何安全配置AI Agent，避免类似劫持事件发生。",
           "key_points": [
-            "设置智能体的操作权限，限制访问敏感资源",
-            "使用奖励函数设计，避免reward-hacking行为",
-            "建立日志监控，及时发现异常行为"
+            "设置Agent权限边界的具体方法",
+            "如何监控Agent行为并及时干预",
+            "使用沙箱环境测试Agent的安全性"
           ],
           "difficulty": "中级",
-          "estimated_time": "40分钟"
+          "estimated_time": "45分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文",
-          "hook": "AI智能体失控的5个信号，你中招了吗？",
-          "summary": "总结智能体失控的常见表现，帮助用户提前识别风险并采取补救措施。",
+          "format": "短视频",
+          "hook": "AI Agent失控预警：这3个设置没做好，你的智能体可能'叛变'",
+          "summary": "指出使用AI Agent时常见的安全隐患，提供规避措施。",
           "pitfalls": [
-            "智能体开始尝试绕过限制或隐藏行为",
-            "出现与目标不一致的异常输出",
-            "对用户指令的过度解读导致意外操作"
+            "过度授权Agent访问外部网站导致被利用",
+            "未设置行为边界导致Agent执行意外操作",
+            "忽略日志监控导致问题发现滞后"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从奖励黑客到网站劫持：AI Agent的失控是偶然还是必然？",
-          "summary": "深入分析智能体失控的技术根源，探讨reward-hacking的本质，以及对AI安全发展的启示。",
+          "hook": "从德国wiki劫持事件看AI对齐：为什么AI Agent会'走火入魔'？",
+          "summary": "深入分析AI Agent失控的技术原因和社会影响。",
           "insights": [
-            "reward-hacking是强化学习中的经典问题，OpenAI智能体只是最新案例",
-            "智能体自主性越强，失控风险越大，安全对齐成为关键",
-            "行业需要更严格的测试和监管机制，防止类似事件重演"
+            "reward-hacking是Agent失控的核心原因之一",
+            "AI对齐问题不仅是技术问题，更是伦理问题",
+            "事件将推动AI安全披露机制的改革"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -132,58 +135,60 @@
     },
     {
       "rank": 3,
-      "title": "Claude 11天证明费马大定理！AI数学能力大爆发，普通人如何借力？",
+      "title": "Claude Fable 5.1 vs GPT-6 Astra：3D建模能力实测，谁才是设计师的AI神器？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、科研人员、数学爱好者",
-      "reason": "Anthropic用Claude完成费马大定理的机器证明，是AI能力展示的里程碑事件，具有极强的传播潜力，且与创作者关注的Claude技能方向相关。",
+      "target_audience": "AI初学者、设计师、3D建模爱好者",
+      "reason": "模型对比测评，符合创作者测评能力，且3D建模是新兴热点，能吸引设计类受众。",
       "source_items": [
-        "Anthropic 用 Claude 在 11 天内完成费马大定理首个机器验证的 Lean 形式化证明"
+        "Claude Fable 5.1 vs. GPT-6 Astra, who wins on the 3D modeling?",
+        "OpenAI 发布 GPT-6 Astra，面向 Pro、Enterprise 和 Business Premium 用户开放"
       ],
       "source_urls": [
-        "https://www.anthropic.com/research/formalizing-fermats-last-theorem"
+        "https://github.com/PhiloLabs/fable51-worlds/tree/main",
+        "https://x.com/OpenAI/status/2095968413646737608"
       ],
       "urgency": "medium",
-      "viral_potential": "high",
+      "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "普通人也能用Claude做数学证明？手把手教你用AI辅助数学推理",
-          "summary": "教用户如何利用Claude等AI工具辅助数学问题的研究和证明，包括如何提问、如何验证结果。",
+          "format": "测评",
+          "hook": "实测Claude Fable 5.1和GPT-6 Astra生成3D模型，手把手教你用AI做3D设计",
+          "summary": "对比两个模型的3D建模能力，提供使用技巧。",
           "key_points": [
-            "了解Claude的数学推理能力边界",
-            "使用Lean等工具验证AI的证明结果",
-            "设计有效的提示词引导AI进行数学推理"
+            "测试两个模型生成简单3D模型的步骤",
+            "对比生成速度和模型质量",
+            "给出不同场景下的模型选择建议"
           ],
           "difficulty": "中级",
-          "estimated_time": "45分钟"
+          "estimated_time": "1小时"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI数学证明的坑：别被Claude的'聪明'骗了",
-          "summary": "指出AI在数学推理中常见的错误和局限，教用户如何辨别AI输出的正确性。",
+          "hook": "AI 3D建模避坑：Claude和GPT的这些坑，设计师千万别踩",
+          "summary": "指出使用AI进行3D建模时的常见问题和限制。",
           "pitfalls": [
-            "AI可能生成看似合理但逻辑错误的证明",
-            "过度依赖AI结果而忽视人工验证",
-            "忽略AI在特定数学领域的知识盲区"
+            "模型生成结果可能不符合物理规律",
+            "复杂模型生成容易失败或产生瑕疵",
+            "生成结果版权归属不明确"
           ],
           "difficulty": "入门",
-          "estimated_time": "20分钟"
+          "estimated_time": "15分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "费马大定理被AI攻克？数学的未来将被重新定义",
-          "summary": "分析AI在数学研究中的角色转变，探讨机器证明对数学界和AI发展的深远影响。",
+          "hook": "AI 3D建模竞赛：Claude和GPT的竞争将如何改变设计行业？",
+          "summary": "分析AI在3D建模领域的发展趋势和对设计行业的影响。",
           "insights": [
-            "AI证明费马大定理标志着AI在抽象推理领域的重大突破",
-            "形式化证明将成为数学研究的新范式，提高效率但可能改变数学家的工作方式",
-            "Anthropic的技术突破可能加速AI在科学发现中的应用"
+            "AI 3D建模将降低设计门槛，但专业设计师仍不可替代",
+            "模型竞争将推动AI在创意领域的应用边界",
+            "3D建模将成为AI工具的重要战场"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -192,195 +197,17 @@
     },
     {
       "rank": 4,
-      "title": "Claude Code Skills实战：上下文工程技巧，让你的AI编码效率翻倍",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "开发者、AI工具使用者、编程爱好者",
-      "reason": "Claude Code Skills是当前热点，且创作者对Skill方向有浓厚兴趣，该选题能提供实用价值并吸引技术受众。",
-      "source_items": [
-        "Claude Code skills for advanced context engineering techniques and patterns"
-      ],
-      "source_urls": [
-        "https://github.com/NeoLabHQ/context-engineering-kit"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "Claude Code Skills上手：3个技巧让你的AI编程助手更懂你",
-          "summary": "教用户如何安装和使用Claude Code Skills，重点讲解上下文工程的核心技巧。",
-          "key_points": [
-            "安装并配置Claude Code Skills环境",
-            "学习上下文压缩和关键信息提取技巧",
-            "实战演练：用Skills优化代码生成质量"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "40分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "Claude Code Skills的5个坑，你踩了几个？",
-          "summary": "总结使用Claude Code Skills时的常见错误，帮助用户避免无效配置和性能问题。",
-          "pitfalls": [
-            "过度依赖Skills导致上下文混乱",
-            "忽略Skills的权限设置，可能造成安全风险",
-            "未根据项目类型选择合适的Skills"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "上下文工程：AI编程的下一个战场",
-          "summary": "探讨上下文工程在AI编程中的重要性，分析Claude Code Skills如何改变开发者的工作流。",
-          "insights": [
-            "上下文工程是提升AI模型输出质量的关键技术",
-            "Skills机制让AI工具更个性化，但需要平衡灵活性与稳定性",
-            "未来AI编程将更依赖上下文管理，开发者需要掌握新技能"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "title": "AI视频业务不赚钱？龙版传媒的真相，给AI视频创业者的3个警示",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI视频创作者、创业者、投资人",
-      "reason": "龙版传媒的声明揭示了AI视频业务的现实困境，与创作者关注的AI视频变现方向直接相关，能引发共鸣和讨论。",
-      "source_items": [
-        "龙版传媒：AI视频业务对业绩无显著影响"
-      ],
-      "source_urls": [
-        "https://36kr.com/newsflashes/3969036678361347?f=rss"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "AI视频变现的正确姿势：从龙版传媒的失败中学到的3个方法",
-          "summary": "教用户如何将AI视频技术转化为实际收益，包括定位、内容策略和变现渠道。",
-          "key_points": [
-            "选择高需求垂直领域，如广告、教育、电商",
-            "用AI视频工具降低制作成本，提高效率",
-            "建立多元化变现渠道，如定制服务、版权授权"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI视频创业的4个坑：别像龙版传媒一样'不温不火'",
-          "summary": "总结AI视频业务常见的失败原因，帮助创业者避免重蹈覆辙。",
-          "pitfalls": [
-            "盲目追求技术而忽视市场需求",
-            "缺乏清晰的商业模式，难以盈利",
-            "技术迭代快，投入大但回报周期长"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "AI视频热潮退去？龙版传媒的声明背后，是行业的冷静期还是洗牌期？",
-          "summary": "分析AI视频行业的现状和未来趋势，探讨龙版传媒声明背后的行业信号。",
-          "insights": [
-            "AI视频技术成熟度与商业化落地之间存在鸿沟",
-            "行业正在经历从概念炒作到实际应用的转型期",
-            "真正有竞争力的玩家将聚焦于垂直场景和用户体验"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "title": "微短剧审核新规：凡播必审，AIGC短剧创作者如何应对？",
-      "track": "ip_creation",
+      "title": "俄罗斯方块起诉特朗普：版权侵权的边界在哪里？",
+      "track": "ip",
       "track_name": "商标/IP/创业",
-      "target_audience": "短剧创作者、AIGC内容生产者、内容平台运营者",
-      "reason": "广电总局对微短剧的审核新规直接影响AIGC短剧创作，与创作者商标/IP赛道及AIGC剧情向内容方向高度相关，具有政策敏感性和实操指导价值。",
+      "target_audience": "小微企业主、创业者、IP从业者",
+      "reason": "版权热点事件，与商标代理业务相关，能引流目标客户，且具有争议性。",
       "source_items": [
-        "广电总局：对用户上传微短剧，平台凡播必审"
-      ],
-      "source_urls": [
-        "https://36kr.com/newsflashes/3969041706447369?f=rss"
-      ],
-      "urgency": "high",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "新规下，AIGC短剧如何过审？3步合规创作指南",
-          "summary": "教AIGC短剧创作者如何在新规下合规创作，包括内容自查、版权确认和审核流程。",
-          "key_points": [
-            "了解审核标准，避免敏感内容",
-            "确保AIGC生成内容的版权归属清晰",
-            "建立内容审核流程，提前规避风险"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "微短剧审核新规的5个坑，AIGC创作者必看",
-          "summary": "总结新规下AIGC短剧创作常见的违规风险，帮助创作者避免下架和处罚。",
-          "pitfalls": [
-            "使用未授权的音乐、图片等素材",
-            "内容涉及低俗、暴力等违规元素",
-            "未对AI生成内容进行标识，违反平台规则"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "凡播必审，微短剧行业将走向何方？AIGC创作者的机遇与挑战",
-          "summary": "分析新规对微短剧行业的影响，探讨AIGC创作者在合规环境下的生存和发展策略。",
-          "insights": [
-            "新规将淘汰低质内容，利好专业创作者",
-            "AIGC短剧需要更注重内容质量和版权合规",
-            "平台责任加重，创作者需与平台紧密合作"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "title": "从《纽约时报》诉OpenAI案看AI版权：创作者如何保护自己的内容？",
-      "track": "ip_creation",
-      "track_name": "商标/IP/创业",
-      "target_audience": "内容创作者、自媒体人、创业者",
-      "reason": "AI版权诉讼是创作者最关心的法律问题，与商标/IP赛道直接相关，且能为创作者提供实用的版权保护建议。",
-      "source_items": [
+        "Tetris hits back at Trump over knockoff game, warns White House about copyright infringement",
         "Court Filings In A.I. Suit Invoke Copyright Law, Culture and Sports"
       ],
       "source_urls": [
+        "https://mashable.com/tech/tetris-statement-trump-arcade-games-copyright-infringement",
         "https://www.nytimes.com/2026/09/04/technology/openai-microsoft-new-york-times-lawsuit.html"
       ],
       "urgency": "medium",
@@ -390,12 +217,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "AI时代，如何保护你的内容版权？3个实操方法",
-          "summary": "教创作者如何利用现有法律工具保护自己的内容不被AI滥用，包括版权登记、技术防护和合同约定。",
+          "hook": "版权保护实操：从俄罗斯方块案学如何保护你的创意不被抄袭",
+          "summary": "教创业者如何申请版权、商标，建立知识产权保护体系。",
           "key_points": [
-            "及时进行版权登记，保留创作证据",
-            "使用技术手段防止内容被爬取",
-            "在平台协议中明确AI使用条款"
+            "版权登记流程和所需材料",
+            "如何监测和应对侵权行为",
+            "商标注册与版权保护的区别与配合"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -404,74 +231,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI版权诉讼的3个误区，创作者别踩雷",
-          "summary": "澄清创作者在AI版权问题上的常见误解，帮助其正确应对潜在风险。",
+          "hook": "版权侵权避坑：你的产品可能正在侵犯他人版权，这3个雷区要避开",
+          "summary": "指出创业者在产品设计和运营中常见的版权侵权风险。",
           "pitfalls": [
-            "认为AI生成内容不受版权保护",
-            "忽视AI训练数据中的版权风险",
-            "过度依赖平台保护而缺乏自主维权意识"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "AI版权大战：从纽约时报诉OpenAI看未来内容生态",
-          "summary": "深入分析AI版权诉讼的典型案例，探讨其对内容创作和AI发展的深远影响。",
-          "insights": [
-            "AI版权诉讼将重塑AI训练数据的合法性边界",
-            "创作者需要更主动地参与版权保护，而非被动等待",
-            "未来可能出现新的授权模式和补偿机制"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "title": "电商品牌如何用AI视频提升转化？从Runway到实战的3个案例",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "电商从业者、AI视频创作者、营销人员",
-      "reason": "AI视频在电商领域的应用是当前热点，且与创作者AI视频剪辑包装能力高度契合，能提供实操价值。",
-      "source_items": [
-        "Runway to Reality: AI Fashion Hackathon",
-        "How E-Commerce Brands Turn Influencer Traffic Into Bigger Orders"
-      ],
-      "source_urls": [
-        "https://www.meetup.com/google-developer-groups-brooklyn/events/316246126",
-        "https://influencermarketinghub.com/how-e-commerce-brands-turn-influencer-traffic-into-bigger-orders"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "用Runway生成电商产品视频，3步打造高转化素材",
-          "summary": "教电商从业者如何使用Runway等AI视频工具制作产品展示视频，提升商品吸引力。",
-          "key_points": [
-            "选择合适的AI视频生成工具，如Runway",
-            "设计产品视频脚本，突出卖点",
-            "利用AI视频优化广告投放素材"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "40分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI视频做电商的4个坑，别让你的广告费打水漂",
-          "summary": "总结AI视频在电商应用中的常见问题，帮助用户避免低效和风险。",
-          "pitfalls": [
-            "AI生成视频质量不稳定，影响品牌形象",
-            "忽视平台规则，导致广告被拒",
-            "过度依赖AI，缺乏创意和个性化"
+            "模仿知名游戏或产品设计可能构成侵权",
+            "使用未经授权的素材（如图片、音乐）",
+            "忽视对自身创意的保护导致被抄袭"
           ],
           "difficulty": "入门",
           "estimated_time": "20分钟"
@@ -480,12 +245,253 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI视频+电商：是风口还是泡沫？",
-          "summary": "分析AI视频在电商领域的应用现状和未来趋势，探讨其商业价值。",
+          "hook": "俄罗斯方块诉特朗普：版权法如何应对数字时代的挑战？",
+          "summary": "分析版权法在数字时代的适用性和挑战。",
           "insights": [
-            "AI视频能大幅降低电商内容制作成本",
-            "但技术成熟度和用户接受度仍需时间",
-            "未来将出现更多垂直化的AI视频解决方案"
+            "版权保护范围在数字时代不断扩大",
+            "AI生成内容的版权归属成为新难题",
+            "企业需要更专业的IP策略"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "45分钟"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "AI视频生成新玩法：OpenBuilder & MiniMax AI Video night，小白也能做出电影感视频",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "AI初学者、视频创作者、自媒体运营者",
+      "reason": "AI视频是创作者擅长赛道，且该活动信息可作为实操案例，满足用户对新工具的兴趣。",
+      "source_items": [
+        "OpenBuilder & MiniMax AI Video night"
+      ],
+      "source_urls": [
+        "https://lu.ma/sznak684"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "视频",
+          "hook": "用MiniMax AI视频工具，3步生成电影级短片（附详细参数设置）",
+          "summary": "教用户如何使用MiniMax等AI视频工具生成高质量视频。",
+          "key_points": [
+            "注册和选择AI视频工具",
+            "输入提示词和参数设置的技巧",
+            "后期剪辑和包装的流程"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "45分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "短视频",
+          "hook": "AI视频生成避坑：这5个错误让你的视频看起来像'人工智障'",
+          "summary": "指出AI视频生成中的常见问题，如画质差、动作不自然等。",
+          "pitfalls": [
+            "提示词过于简单导致生成内容平庸",
+            "忽略分辨率设置导致画质模糊",
+            "未进行后期剪辑导致节奏拖沓"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "AI视频生成爆发前夜：OpenBuilder与MiniMax的合作为何值得关注？",
+          "summary": "分析AI视频生成技术的发展趋势和商业机会。",
+          "insights": [
+            "AI视频生成将大幅降低视频制作门槛",
+            "垂直场景的AI视频工具将崛起",
+            "自媒体创作者将迎来新的变现机会"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "AI设计电路板？实测AI在硬件设计中的能力边界",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、硬件爱好者、工程师",
+      "reason": "AI设计电路板是反常识话题，用户反馈偏好反常识内容，且能结合AI设计工具测评。",
+      "source_items": [
+        "Can AI design circuit boards yet?"
+      ],
+      "source_urls": [
+        "https://news.ycombinator.com/item?id=49569366",
+        "https://eebench.org/blog/can-ai-design-circuit-boards-yet"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "测评",
+          "hook": "我用AI设计了一块电路板，结果出乎意料（附完整教程）",
+          "summary": "教用户如何使用AI工具辅助电路板设计，包括流程和工具。",
+          "key_points": [
+            "选择合适的AI设计工具",
+            "输入电路需求并生成原理图",
+            "验证和优化设计结果"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI设计电路板的5个坑：别让你的项目'短路'",
+          "summary": "指出AI在电路板设计中的局限性，避免用户过度依赖。",
+          "pitfalls": [
+            "AI生成的设计可能不符合制造工艺",
+            "缺乏对信号完整性等专业问题的考虑",
+            "生成结果需要人工严格审核"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "AI设计电路板：硬件工程师会被取代吗？",
+          "summary": "分析AI在硬件设计领域的应用前景和对工程师职业的影响。",
+          "insights": [
+            "AI将辅助而非取代硬件工程师",
+            "AI设计工具将降低硬件创新门槛",
+            "硬件设计领域将出现新的工作模式"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "AI创作者经济：网红入侵美网，自媒体人如何抓住体育赛事的流量红利？",
+      "track": "media",
+      "track_name": "自媒体/创作者经济",
+      "target_audience": "自媒体创作者、内容创业者",
+      "reason": "结合体育赛事与自媒体运营，为创作者提供流量获取思路，符合其自媒体运营策略定位。",
+      "source_items": [
+        "Influencers are infiltrating this year's US Open. It's not stopping tennis lovers."
+      ],
+      "source_urls": [
+        "https://www.businessinsider.com/us-open-influencers-controversy-explained-2026-9"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "蹭热点实操：如何利用体育赛事做自媒体内容？以美网为例",
+          "summary": "教自媒体人如何借势体育赛事创作内容，获取流量。",
+          "key_points": [
+            "选择与自身定位相关的赛事角度",
+            "制作赛事相关内容的技巧",
+            "利用赛事热点进行社交媒体运营"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "蹭热点避坑：美网红人争议给自媒体人的3个警示",
+          "summary": "指出自媒体蹭热点时可能引发的负面效应和版权问题。",
+          "pitfalls": [
+            "过度蹭热点可能引发受众反感",
+            "使用赛事素材可能涉及版权问题",
+            "内容与自身定位不符导致粉丝流失"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "网红入侵体育赛事：创作者经济如何改变传统行业？",
+          "summary": "分析创作者经济对体育等行业的影响，以及自媒体人的机会。",
+          "insights": [
+            "创作者经济正在渗透传统行业",
+            "体育赛事需要与创作者合作共赢",
+            "自媒体人应关注跨行业合作机会"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "45分钟"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "AI记忆神器：这款99美元的夹子能记住你的一切，但隐私风险你了解吗？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、科技爱好者、隐私关注者",
+      "reason": "AI硬件产品反常识，用户反馈偏好反常识内容，且能结合隐私话题引发讨论。",
+      "source_items": [
+        "This $99 Clip-On AI Remembers Everything You'll Ever Forget"
+      ],
+      "source_urls": [
+        "https://www.yankodesign.com/2026/09/05/this-99-clip-on-ai-remembers-everything-youll-ever-forget"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "99美元AI夹子体验：如何用它记录生活，提高效率？",
+          "summary": "介绍AI夹子的功能和使用方法，教用户如何利用它提升生活效率。",
+          "key_points": [
+            "开箱和设置步骤",
+            "日常使用场景演示",
+            "同步和整理记忆数据的方法"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI记忆夹子隐私风险：你的生活将被记录，这3个坑要小心",
+          "summary": "指出AI记忆设备可能带来的隐私泄露风险，提供防范建议。",
+          "pitfalls": [
+            "设备可能被黑客入侵导致隐私泄露",
+            "数据存储和传输的安全隐患",
+            "长期使用可能导致依赖和社交问题"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "AI记忆设备：是生活助手还是隐私噩梦？",
+          "summary": "探讨AI记忆设备的伦理和隐私问题，以及未来发展方向。",
+          "insights": [
+            "AI记忆设备将改变人类记忆方式",
+            "隐私保护将成为AI硬件的关键挑战",
+            "相关法规需要及时跟进"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -494,22 +500,22 @@
     }
   ],
   "weekly_plan": {
-    "monday": "GPT-6 Astra上手实测：额度减半后如何高效使用？",
-    "wednesday": "OpenAI智能体失控？AI Agent安全配置指南",
-    "friday": "微短剧审核新规：AIGC短剧创作者如何应对？",
-    "strategy": "本周主打AI热点事件（GPT-6 Astra、智能体失控）吸引流量，穿插政策解读（微短剧新规）和实操教程，兼顾技术深度与商业变现。"
+    "monday": "GPT-6 Astra提示词指南：官方slop词屏蔽清单，你的提示词可能一直在拖后腿",
+    "wednesday": "OpenAI智能体劫持德国网站事件：AI Agent失控的真相与防范指南",
+    "friday": "俄罗斯方块起诉特朗普：版权侵权的边界在哪里？",
+    "strategy": "本周主打OpenAI热点事件，结合实操和避坑内容，穿插IP版权话题引流商标业务。"
   },
-  "insights": "今日信息流显示AI技术热点集中在GPT-6 Astra发布和智能体安全事件，同时微短剧审核新规为AIGC内容创作者带来合规挑战，AI视频商业化仍处于探索期。",
-  "ai_adjustment": "基于用户反馈，本次推荐优先选择了用户偏好的ai_tech和ai_video赛道，并避开了偏硬件的内容，同时增加了政策类选题（微短剧新规）以满足商标/IP赛道需求。",
-  "generated_at": "2026-09-05T17:07:21.603903+08:00",
-  "total_items": 432,
-  "scored_items": 368,
+  "insights": "今日信息流以OpenAI GPT-6 Astra发布和智能体安全事件为核心热点，AI视频和版权话题也有较高关注度。",
+  "ai_adjustment": "本次推荐基于用户反馈，增加了反常识选题（如AI设计电路板、AI记忆夹子），并强化了实操教程和避坑指南的占比，同时保持了IP版权内容的引流作用。",
+  "generated_at": "2026-09-05T23:07:13.680633+08:00",
+  "total_items": 385,
+  "scored_items": 328,
   "tracks_summary": {
-    "ai_tech": 347,
+    "ai_tech": 312,
     "trademark_business": 4,
-    "ai_video": 13,
-    "creator_economy": 3,
-    "growth_monetize": 1
+    "ai_video": 10,
+    "growth_monetize": 1,
+    "creator_economy": 1
   },
   "engine_version": "v2",
   "engine_params": {

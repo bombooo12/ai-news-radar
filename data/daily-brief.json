@@ -107,6 +107,14 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
         "source": "The Verge：AI（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "内部流程调整，不影响开发者当前使用的API和模型。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-05T15:05:59.917108Z"
       }
     },
     {
@@ -214,6 +222,14 @@
         "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration",
         "source": "GitHub AI & ML",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "研究预览，开源了评估框架，可复现其多模型编排思路以优化成本。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-05T15:05:59.917108Z"
       }
     },
     {
@@ -291,6 +307,14 @@
         "url": "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "GitHub Copilot用户今天就能用上GPT-6，代码生成能力直接升级。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-05T15:05:59.917108Z"
       }
     },
     {
@@ -367,6 +391,14 @@
         "url": "https://www.ithome.com/0/998/814.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "了解AI安全事件处理流程，但短期内不影响你的开发工作。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-05T15:05:59.917108Z"
       }
     },
     {
@@ -443,6 +475,14 @@
         "url": "https://the-decoder.com/openai-shares-prompting-tips-for-gpt-6-astra-including-a-blocklist-of-slop-words",
         "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 65,
+      "persona_review": "官方提示词指南和屏蔽词清单，写提示时可以对照优化。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-05T15:05:59.917108Z"
       }
     },
     {
@@ -520,6 +560,14 @@
         "url": "https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "Copilot周更日志，开发者可立刻查看新功能并调整使用习惯。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-05T15:05:59.917108Z"
       }
     },
     {
@@ -626,6 +674,14 @@
         "url": "https://x.com/OpenAI/status/2095968413646737608",
         "source": "X：OpenAI (@OpenAI)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "新旗舰模型已开放，付费用户现在就能在ChatGPT Work里用上。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-05T15:05:59.917108Z"
       }
     },
     {
@@ -702,6 +758,14 @@
         "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685905&idx=1&sn=2a6327daa3fb1d5573a824afd63af7f6",
         "source": "公众号：数字生命卡兹克",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 65,
+      "persona_review": "实测对比帮你选型，但Astra未全面开放，结论仅供参考。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-05T15:05:59.917108Z"
       }
     },
     {
@@ -808,6 +872,14 @@
         "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
         "source": "Anthropic：Research（发表成果 · 网页）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "展示AI辅助形式化验证的潜力，但离日常开发工具还很远。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-05T15:05:59.917108Z"
       }
     },
     {
@@ -884,6 +956,14 @@
         "url": "https://github.com/anthropics/fermats-last-theorem",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "Lean 4 验证的里程碑，对形式化验证和数学工具开发者有参考价值。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-05T15:05:59.917108Z"
       }
     },
     {
@@ -960,6 +1040,14 @@
         "url": "https://www.ithome.com/0/998/758.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 10,
+      "persona_review": "法律纠纷对开发者日常工作无直接影响，无需为此调整技术选型。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-05T15:05:59.917108Z"
       }
     },
     {
@@ -1036,6 +1124,14 @@
         "url": "https://x.com/sama/status/2096008528834244741",
         "source": "X：Sam Altman (@sama)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "GPT-6 Astra已全面开放给付费用户，现在就能在API里用上。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-05T15:05:59.917108Z"
       }
     },
     {
@@ -1112,6 +1208,14 @@
         "url": "https://the-decoder.com/openai-rolls-out-gpt-6-astra-to-top-tier-chatgpt-plans-at-half-the-rate-of-gpt-5-6-sol",
         "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "付费用户现在就能用上更强的GPT-6，但消息额度减半，需留意用量。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-05T15:05:59.917108Z"
       }
     },
     {
@@ -1187,6 +1291,14 @@
         "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis",
         "source": "Simon Willison 博客",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 40,
+      "persona_review": "一个有趣的安全研究案例，但离实际部署的AI系统还很远。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-05T15:05:59.917108Z"
       }
     },
     {
@@ -1264,6 +1376,14 @@
         "url": "https://github.blog/changelog/2026-09-04-new-api-endpoint-provides-privacy-safe-star-history-data",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "新增API可直接获取项目star历史数据，无需爬虫，今天就能用。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-05T15:05:59.917108Z"
       }
     },
     {
@@ -1339,6 +1459,14 @@
         "url": "https://x.com/rohanpaul_ai/status/2095931182903107971",
         "source": "X：Rohan Paul (@rohanpaul_ai)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "了解智能体潜在安全风险，但无具体防御工具发布，仅需保持警惕。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-05T15:05:59.917108Z"
       }
     },
     {
@@ -1415,6 +1543,14 @@
         "url": "https://www.ithome.com/0/998/630.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 25,
+      "persona_review": "IPO时间表变动，对开发者日常选型和使用没影响。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-05T15:05:59.917108Z"
       }
     },
     {
@@ -1490,6 +1626,14 @@
         "url": "https://x.com/OpenAI/status/2096133504417616165",
         "source": "X：OpenAI (@OpenAI)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "制定内部事故处理框架，对开发者日常工作暂无直接影响。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-05T15:05:59.917108Z"
       }
     },
     {
@@ -1566,6 +1710,14 @@
         "url": "https://the-decoder.com/openais-gpt-6-astra-hallucinates-less-but-remains-vulnerable-to-hidden-prompt-injections",
         "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 65,
+      "persona_review": "提醒你给GPT-6设计系统提示时，仍要防范间接注入攻击。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-05T15:05:59.917108Z"
       }
     },
     {
@@ -1642,6 +1794,14 @@
         "url": "https://www.ithome.com/0/998/661.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "产品已上线，Plus/Pro用户现在就能用上GPT-6 Astra了。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-05T15:05:59.917108Z"
       }
     }
   ]
