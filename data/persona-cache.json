@@ -1,126 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_e5e76630b687|pragmatic|0a5c5b24": {
-      "score": 68,
-      "review": "价格战对开发者是好事，但等具体降价再动手，不用急。",
-      "title_hash": "dbd9be1c",
-      "scored_at": "2026-08-14T15:22:17.799776Z"
-    },
-    "story_203ecf6e9943|pragmatic|0a5c5b24": {
-      "score": 75,
-      "review": "官方教程可直接照着做，把交付流程接到 GitHub，但先确认场景是否匹配。",
-      "title_hash": "36553b2d",
-      "scored_at": "2026-08-14T16:20:16.021899Z"
-    },
-    "story_0276dc6b6132|pragmatic|0a5c5b24": {
-      "score": 60,
-      "review": "生态盘点供选型参考，无新工具，看趋势即可。",
-      "title_hash": "3d3375db",
-      "scored_at": "2026-08-14T19:23:28.321826Z"
-    },
-    "story_a5a9de1a4652|pragmatic|0a5c5b24": {
-      "score": 88,
-      "review": "新模型开源，能直接下载跑，值得动手试试。",
-      "title_hash": "f235d85b",
-      "scored_at": "2026-08-14T16:20:19.955352Z"
-    },
-    "story_c0648d9766a4|pragmatic|0a5c5b24": {
-      "score": 30,
-      "review": "收购不写代码，等看Cursor后续路线再动。",
-      "title_hash": "c38efde9",
-      "scored_at": "2026-08-14T16:20:22.446088Z"
-    },
-    "story_a55195371b1b|cynic|f4237a62": {
-      "score": 42,
-      "review": "V4 Pro？官方都没发，第三方平台先上新，参数和基准都没晒，价格倒是挺会挑着报。",
-      "title_hash": "48961ee1",
-      "scored_at": "2026-08-14T16:20:25.744858Z"
-    },
-    "story_a55195371b1b|paper-police|966065bf": {
-      "score": 25,
-      "review": "指标来自单篇新闻，无官方文档和基准，等官方发布再验真。",
-      "title_hash": "48961ee1",
-      "scored_at": "2026-08-14T16:20:28.435471Z"
-    },
-    "story_02ec0b642bd2|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "评论文章不产出代码，看标题就知道没上手价值。",
-      "title_hash": "2eef84a0",
-      "scored_at": "2026-08-14T17:28:20.891192Z"
-    },
-    "story_5634b0a754f6|cynic|f4237a62": {
-      "score": 35,
-      "review": "280B敢叫轻量，先把推理成本压下来再谈长程智能。",
-      "title_hash": "c427e273",
-      "scored_at": "2026-08-14T17:28:22.709443Z"
-    },
-    "story_5634b0a754f6|paper-police|966065bf": {
-      "score": 25,
-      "review": "官方号宣称开源280B模型，但无代码无论文无评测链接，无法核实。",
-      "title_hash": "c427e273",
-      "scored_at": "2026-08-14T17:28:24.784691Z"
-    },
-    "story_3ded9ed73b65|pragmatic|0a5c5b24": {
-      "score": 88,
-      "review": "Copilot 里直接换模型，写代码的今天就能试。",
-      "title_hash": "b28fa372",
-      "scored_at": "2026-08-14T18:21:02.896628Z"
-    },
-    "story_3ac0651d574b|pragmatic|0a5c5b24": {
-      "score": 70,
-      "review": "官方每周例行更新，具体功能未提，翻 changelog 看有没有影响你流程的改动。",
-      "title_hash": "34454a8f",
-      "scored_at": "2026-08-14T18:21:05.318060Z"
-    },
-    "story_298c63614044|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "做内容生成的可关水印了，但非核心功能，不影响选型。",
-      "title_hash": "e0283d51",
-      "scored_at": "2026-08-14T18:21:08.046699Z"
-    },
-    "story_3ded9ed73b65|cynic|f4237a62": {
-      "score": 75,
-      "review": "Copilot换个模型不算突破，跑稳了再喊不迟。",
-      "title_hash": "b28fa372",
-      "scored_at": "2026-08-14T18:21:09.680751Z"
-    },
-    "story_3ded9ed73b65|paper-police|966065bf": {
-      "score": 30,
-      "review": "官方公告可用，无性能数据无评测，第三方未验证。",
-      "title_hash": "b28fa372",
-      "scored_at": "2026-08-14T18:21:15.766463Z"
-    },
-    "story_4a31f336fa32|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "聊天里能用了，但 API 未同步开放，写代码的还得等。",
-      "title_hash": "16624c97",
-      "scored_at": "2026-08-14T19:23:29.864516Z"
-    },
-    "story_b8125cc46db3|pragmatic|0a5c5b24": {
-      "score": 62,
-      "review": "水印机制原理说明，暂无 API 可调用，写检测工具的人可先读。",
-      "title_hash": "2f5b5d4a",
-      "scored_at": "2026-08-14T20:07:17.986334Z"
-    },
-    "story_18cc8e6fbb9e|pragmatic|0a5c5b24": {
-      "score": 48,
-      "review": "水印移除是平台策略调整，对开发者日常没直接影响，不用管。",
-      "title_hash": "67a7758f",
-      "scored_at": "2026-08-14T20:07:20.238500Z"
-    },
-    "story_e27bfcf013b4|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "多回调 URI 和 token 刷新，做 OAuth 集成的今天就能改配置。",
-      "title_hash": "4e93393a",
-      "scored_at": "2026-08-14T23:46:11.170337Z"
-    },
-    "story_7aa12c11fa17|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "Claude Code 使用技巧合集，正在用的能提效，但没新功能，非用户可跳过。",
-      "title_hash": "eb6f2905",
-      "scored_at": "2026-08-15T04:02:55.143142Z"
-    },
     "story_3d0ee750d14d|pragmatic|0a5c5b24": {
       "score": 48,
       "review": "同态加密还有性能瓶颈，现阶段无库可抄，观望即可。",
@@ -4668,6 +4548,132 @@
       "review": "官方博客发布，模型开源且覆盖完整训练周期，证据链完整。",
       "title_hash": "be9cd09d",
       "scored_at": "2026-09-04T15:07:25.860015Z"
+    },
+    "story_0f3277bac9d6|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "研究预览，开源了评估框架，可复现其多模型编排思路以优化成本。",
+      "title_hash": "e7417170",
+      "scored_at": "2026-09-05T04:06:26.634729Z"
+    },
+    "story_1f3f9b7a140c|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "GitHub Copilot用户今天就能用上GPT-6，代码生成能力直接升级。",
+      "title_hash": "b6f319b8",
+      "scored_at": "2026-09-05T04:06:30.405464Z"
+    },
+    "story_e7cbcef29db3|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "Copilot周更日志，开发者可立刻查看新功能并调整使用习惯。",
+      "title_hash": "c73096e3",
+      "scored_at": "2026-09-05T04:06:34.526578Z"
+    },
+    "story_f2dd19138871|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "展示AI辅助形式化验证的潜力，但离日常开发工具还很远。",
+      "title_hash": "a8d8cf0e",
+      "scored_at": "2026-09-05T04:06:37.845858Z"
+    },
+    "story_20abcae7f739|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "IPO时间表变动，对开发者日常选型和使用没影响。",
+      "title_hash": "7f23c07d",
+      "scored_at": "2026-09-05T04:06:41.410355Z"
+    },
+    "story_013a8ac40c9d|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "GPT-6 Astra已全面开放给付费用户，现在就能在API里用上。",
+      "title_hash": "6d05bdd6",
+      "scored_at": "2026-09-05T04:06:44.850812Z"
+    },
+    "story_fe67d000c4c1|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "新旗舰模型已开放，付费用户现在就能在ChatGPT Work里用上。",
+      "title_hash": "bedcc90e",
+      "scored_at": "2026-09-05T04:06:48.564847Z"
+    },
+    "story_3759d425a2e2|pragmatic|0a5c5b24": {
+      "score": 65,
+      "review": "提醒你给GPT-6设计系统提示时，仍要防范间接注入攻击。",
+      "title_hash": "49442466",
+      "scored_at": "2026-09-05T04:06:52.171900Z"
+    },
+    "story_caa38c965ed0|pragmatic|0a5c5b24": {
+      "score": 40,
+      "review": "一个有趣的安全研究案例，但离实际部署的AI系统还很远。",
+      "title_hash": "03091065",
+      "scored_at": "2026-09-05T04:06:55.711086Z"
+    },
+    "story_5cd952bee704|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "产品已上线，Plus/Pro用户现在就能用上GPT-6 Astra了。",
+      "title_hash": "978d6938",
+      "scored_at": "2026-09-05T04:07:00.250912Z"
+    },
+    "story_a4c37a83ad98|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "新增API可直接获取项目star历史数据，无需爬虫，今天就能用。",
+      "title_hash": "b79ffa69",
+      "scored_at": "2026-09-05T04:07:03.723540Z"
+    },
+    "story_f42a0209c2da|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "了解智能体潜在安全风险，但无具体防御工具发布，仅需保持警惕。",
+      "title_hash": "0e640266",
+      "scored_at": "2026-09-05T04:07:06.879152Z"
+    },
+    "story_b16389bef877|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "融资和估值不影响你今天的选型，等它服务开放了再说。",
+      "title_hash": "e58db53e",
+      "scored_at": "2026-09-05T04:07:13.458753Z"
+    },
+    "story_0967e2ddb4a9|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "投资组合是公司财务，不影响你今天选GPU或写代码。",
+      "title_hash": "14daf9ec",
+      "scored_at": "2026-09-05T04:07:16.409893Z"
+    },
+    "story_b5a6ce3538f8|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "提醒从业者注意生成内容的真实性问题，但暂无具体解决方案。",
+      "title_hash": "e8587c1c",
+      "scored_at": "2026-09-05T04:07:19.420148Z"
+    },
+    "story_1f3f9b7a140c|cynic|f4237a62": {
+      "score": 75,
+      "review": "终于把GPT-6塞进Copilot了，但没说清楚比之前版本强在哪，别是换个名字就上架。",
+      "title_hash": "b6f319b8",
+      "scored_at": "2026-09-05T04:07:23.678831Z"
+    },
+    "story_1f3f9b7a140c|paper-police|966065bf": {
+      "score": 15,
+      "review": "官方博客宣称性能，无论文无代码无独立评测，证据不足。",
+      "title_hash": "b6f319b8",
+      "scored_at": "2026-09-05T04:07:29.843696Z"
+    },
+    "story_e7cbcef29db3|cynic|f4237a62": {
+      "score": 65,
+      "review": "每周例行的功能修补，离“革命性”还差得远，别指望有惊喜。",
+      "title_hash": "c73096e3",
+      "scored_at": "2026-09-05T04:07:36.129929Z"
+    },
+    "story_e7cbcef29db3|paper-police|966065bf": {
+      "score": 15,
+      "review": "官方更新日志仅有功能描述，无论文、代码或独立评测数据。",
+      "title_hash": "c73096e3",
+      "scored_at": "2026-09-05T04:07:39.489740Z"
+    },
+    "story_a4c37a83ad98|cynic|f4237a62": {
+      "score": 70,
+      "review": "API功能是实的，但‘隐私安全’这词现在跟‘全新体验’一样廉价。",
+      "title_hash": "b79ffa69",
+      "scored_at": "2026-09-05T04:07:42.883095Z"
+    },
+    "story_a4c37a83ad98|paper-police|966065bf": {
+      "score": 15,
+      "review": "官方博客宣称新功能，无论文代码，也无第三方评测报告。",
+      "title_hash": "b79ffa69",
+      "scored_at": "2026-09-05T04:07:46.713809Z"
     }
   }
 }

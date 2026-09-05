@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T15:07:25.860060Z",
+  "generated_at": "2026-09-05T04:07:46.713854Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_af7f559f57ce",
-      "title": "Gemini 3.8 Flash is now available in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
+      "story_id": "story_1f3f9b7a140c",
+      "title": "GPT-6 Astra is generally available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 55,
-          "review": "换个模型就叫更新，性能提升和实际成本闭口不谈，老套路了。"
+          "score": 75,
+          "review": "终于把GPT-6塞进Copilot了，但没说清楚比之前版本强在哪，别是换个名字就上架。"
         },
         "paper-police": {
           "score": 15,
-          "review": "官方博客宣称集成，无论文无代码无独立评测，仅有说法。"
+          "review": "官方博客宣称性能，无论文无代码无独立评测，证据不足。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "Copilot用户今天就能用上新模型，代码生成能力有实际提升。"
+          "review": "GitHub Copilot用户今天就能用上GPT-6，代码生成能力直接升级。"
         }
       }
     },
     {
-      "story_id": "story_9dd7043831a5",
-      "title": "GitHub Copilot app for Beginners: Run several agents at once",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once",
+      "story_id": "story_e7cbcef29db3",
+      "title": "GitHub Copilot weekly releases — August 31",
+      "url": "https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 45,
-          "review": "给已有功能套个‘新手版’壳子，多开几个窗口就算‘同时运行’了？"
+          "score": 65,
+          "review": "每周例行的功能修补，离“革命性”还差得远，别指望有惊喜。"
         },
         "paper-police": {
           "score": 15,
-          "review": "仅有官方博客介绍功能，无论文、代码或独立评测，证据不足。"
+          "review": "官方更新日志仅有功能描述，无论文、代码或独立评测数据。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "GitHub Copilot 新手应用已上线，可同时运行多个AI助手辅助编码。"
+          "review": "Copilot周更日志，开发者可立刻查看新功能并调整使用习惯。"
         }
       }
     },
     {
-      "story_id": "story_09f1f8cfa0a6",
-      "title": "IFM 发布 K2 Horizon 六款开源模型，覆盖 0.9B 到 375B-A23B 并开放完整训练生命周期",
-      "url": "https://ifm.ai/blog/k2",
+      "story_id": "story_a4c37a83ad98",
+      "title": "New API endpoint provides privacy-safe star history data",
+      "url": "https://github.blog/changelog/2026-09-04-new-api-endpoint-provides-privacy-safe-star-history-data",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 82,
-          "review": "0.9B到375B全开源还附训练日志，诚意够足，但‘A23B’这参数命名是怕人看懂吗？"
+          "score": 70,
+          "review": "API功能是实的，但‘隐私安全’这词现在跟‘全新体验’一样廉价。"
         },
         "paper-police": {
-          "score": 85,
-          "review": "官方博客发布，模型开源且覆盖完整训练周期，证据链完整。"
+          "score": 15,
+          "review": "官方博客宣称新功能，无论文代码，也无第三方评测报告。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "开源模型全家桶已发布，可直接下载部署或研究其训练流程。"
+          "review": "新增API可直接获取项目star历史数据，无需爬虫，今天就能用。"
         }
       }
     }
