@@ -1,168 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_b004ea508d1a|pragmatic|0a5c5b24": {
-      "score": 70,
-      "review": "可编辑上下文图思路实用，想折腾LLM对话管理的可以试，但生态未验证。",
-      "title_hash": "22875aae",
-      "scored_at": "2026-08-15T21:44:46.669041Z"
-    },
-    "story_461e5611a9d5|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "观点文，没给具体工具或方法，看完不用改代码。",
-      "title_hash": "78457d61",
-      "scored_at": "2026-08-15T17:45:30.546904Z"
-    },
-    "story_353de4c443a8|pragmatic|0a5c5b24": {
-      "score": 62,
-      "review": "BDD 库发新版，在用 Yadda 的可以看升级点，非该栈不必动。",
-      "title_hash": "97e5aabf",
-      "scored_at": "2026-08-15T16:51:59.420271Z"
-    },
-    "story_203ecf6e9943|cynic|f4237a62": {
-      "score": 68,
-      "review": "指南看着挺全，但跑通流程的演示环境都配好了吗？",
-      "title_hash": "36553b2d",
-      "scored_at": "2026-08-15T15:44:53.017495Z"
-    },
-    "story_203ecf6e9943|paper-police|966065bf": {
-      "score": 48,
-      "review": "官方教程有具体步骤，但无独立验证，实操后才能确认效果。",
-      "title_hash": "36553b2d",
-      "scored_at": "2026-08-15T15:44:55.825356Z"
-    },
-    "story_f64b1a3994c2|pragmatic|0a5c5b24": {
-      "score": 42,
-      "review": "属于AI跨学科预警，不写代码，搞生物安全的才需要盯。",
-      "title_hash": "fc1ac756",
-      "scored_at": "2026-08-15T16:51:55.598925Z"
-    },
-    "story_7fbd0e2e70a1|pragmatic|0a5c5b24": {
-      "score": 40,
-      "review": "泛泛讨论现状，没有新工具或数据，等具体落地再看。",
-      "title_hash": "bbc20630",
-      "scored_at": "2026-08-15T16:51:57.070535Z"
-    },
-    "story_b235d2a8da13|pragmatic|0a5c5b24": {
-      "score": 68,
-      "review": "验证 LLM 写的 GPU 代码有实用价值，但没开源就先观望，跑通再入。",
-      "title_hash": "c4df3648",
-      "scored_at": "2026-08-15T16:52:01.765686Z"
-    },
-    "story_d572412cd374|cynic|f4237a62": {
-      "score": 62,
-      "review": "232 倍提升的前提写清楚了吗？怕是只挑了最慢的基线。",
-      "title_hash": "fc779cf7",
-      "scored_at": "2026-08-15T16:52:03.854734Z"
-    },
-    "story_d572412cd374|paper-police|966065bf": {
-      "score": 25,
-      "review": "只有博客自述，无代码无基准，232倍无从验证。",
-      "title_hash": "fc779cf7",
-      "scored_at": "2026-08-15T16:52:06.108017Z"
-    },
-    "story_b004ea508d1a|cynic|f4237a62": {
-      "score": 55,
-      "review": "概念有点意思，但只有个demo页，没看到实际效果对比。",
-      "title_hash": "22875aae",
-      "scored_at": "2026-08-15T21:44:58.054922Z"
-    },
-    "story_b004ea508d1a|paper-police|966065bf": {
-      "score": 15,
-      "review": "只有项目页和HN讨论，无论文无代码无评测，无法验证效果。",
-      "title_hash": "22875aae",
-      "scored_at": "2026-08-15T21:44:59.312800Z"
-    },
-    "story_e676b61085b8|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "研究性对比，跟今天写代码无关，等有可用的上下文管理方案再看。",
-      "title_hash": "cde68f2f",
-      "scored_at": "2026-08-15T22:45:50.707906Z"
-    },
-    "story_fe87bc97dd0a|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "收购案不改变现有 API 和定价，动手写代码的不用管。",
-      "title_hash": "c6369dee",
-      "scored_at": "2026-08-15T20:49:27.320949Z"
-    },
-    "story_737248ef9162|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "行业综述，无新模型或工具，做药物研发的可扫一眼。",
-      "title_hash": "4d7d94bb",
-      "scored_at": "2026-08-15T21:44:44.613580Z"
-    },
-    "story_6a65f744a5e9|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "批评性文章，未涉及具体工具变化，暂不影响选型。",
-      "title_hash": "0d53b07e",
-      "scored_at": "2026-08-15T21:44:50.014406Z"
-    },
-    "story_79edf3446ec2|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "宏观评论，不写代码，等具体产品再关注。",
-      "title_hash": "e9de78fb",
-      "scored_at": "2026-08-15T21:44:55.274266Z"
-    },
-    "story_01c472791cae|pragmatic|0a5c5b24": {
-      "score": 50,
-      "review": "AI制药综述，了解行业现状可以，但无落地工具，今天用不上。",
-      "title_hash": "0e00dbc4",
-      "scored_at": "2026-08-16T03:19:12.357261Z"
-    },
-    "story_171205bf2b4a|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "训练数据来源的争议，不影响今天调用API，等模型发布再看。",
-      "title_hash": "b8be8278",
-      "scored_at": "2026-08-15T22:45:54.051990Z"
-    },
-    "story_dbeb44805b60|pragmatic|0a5c5b24": {
-      "score": 52,
-      "review": "水印细节对内容平台有参考价值，普通开发者暂无需行动。",
-      "title_hash": "5c650630",
-      "scored_at": "2026-08-15T23:42:55.663647Z"
-    },
-    "story_dfcb40835c8c|pragmatic|0a5c5b24": {
-      "score": 65,
-      "review": "低成本 DIY 监控 Claude 用量，动手党可照着抄，非刚需但实用。",
-      "title_hash": "8eb393ab",
-      "scored_at": "2026-08-15T23:42:57.796089Z"
-    },
-    "story_dfcb40835c8c|cynic|f4237a62": {
-      "score": 72,
-      "review": "给 38 美元的屏写 HUD，这是把省钱和折腾都玩明白了。",
-      "title_hash": "8eb393ab",
-      "scored_at": "2026-08-15T23:42:59.805572Z"
-    },
-    "story_dfcb40835c8c|paper-police|966065bf": {
-      "score": 25,
-      "review": "只有标题没有代码和实测数据，无法验证HUD功能与成本。",
-      "title_hash": "8eb393ab",
-      "scored_at": "2026-08-15T23:43:06.694079Z"
-    },
-    "story_3415e330fba4|pragmatic|0a5c5b24": {
-      "score": 70,
-      "review": "老代码GPU迁移有参考价值，但工具未必开源，先看细节再动手。",
-      "title_hash": "71b0e235",
-      "scored_at": "2026-08-16T03:19:14.600687Z"
-    },
-    "story_58174a0827d8|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "个人项目展示，无可用链接，观望即可。",
-      "title_hash": "4171c808",
-      "scored_at": "2026-08-16T03:19:16.388597Z"
-    },
-    "story_3415e330fba4|cynic|f4237a62": {
-      "score": 62,
-      "review": "250k行旧代码，AI帮了多少？先亮出纯手工移植的基线再吹。",
-      "title_hash": "71b0e235",
-      "scored_at": "2026-08-16T03:19:20.149034Z"
-    },
-    "story_3415e330fba4|paper-police|966065bf": {
-      "score": 20,
-      "review": "只有HN标题，无论文代码或评测，移植效果不可验证。",
-      "title_hash": "71b0e235",
-      "scored_at": "2026-08-16T03:19:23.813911Z"
-    },
     "story_d6709d221949|pragmatic|0a5c5b24": {
       "score": 52,
       "review": "周报性质，多为事件汇总，无直接可用的新工具或API，看趋势即可。",
@@ -4608,6 +4446,90 @@
       "review": "实测对比帮你选型，但Astra未全面开放，结论仅供参考。",
       "title_hash": "fa43765a",
       "scored_at": "2026-09-05T15:06:22.813283Z"
+    },
+    "story_e1e7a08cca0d|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "承诺未来会更透明，但对当前开发选型无直接影响。",
+      "title_hash": "5b4f4cf8",
+      "scored_at": "2026-09-06T04:06:26.975677Z"
+    },
+    "story_d13713a4e40b|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "公司内部流程调整，对开发者近期使用API无直接影响。",
+      "title_hash": "05135777",
+      "scored_at": "2026-09-06T04:06:32.909609Z"
+    },
+    "story_4d1ff3880451|pragmatic|0a5c5b24": {
+      "score": 65,
+      "review": "新模型在特定榜单领先，选型时可多一个参考数据点。",
+      "title_hash": "4ce2b801",
+      "scored_at": "2026-09-06T04:06:36.800721Z"
+    },
+    "story_2c7dd97ccc7e|pragmatic|0a5c5b24": {
+      "score": 15,
+      "review": "没有产品细节的早期演示，对当前项目选型无影响。",
+      "title_hash": "303e099c",
+      "scored_at": "2026-09-06T04:06:40.994825Z"
+    },
+    "story_f0b96624cb5e|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "学术概念探讨，了解风险即可，不影响当前开发选型。",
+      "title_hash": "638788ad",
+      "scored_at": "2026-09-06T04:06:48.196712Z"
+    },
+    "story_a9bf5b8e0227|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "一篇关于AI运维风险的讨论，提醒工程师警惕过度依赖，但无具体工具或方案。",
+      "title_hash": "a342c48d",
+      "scored_at": "2026-09-06T04:06:51.462563Z"
+    },
+    "story_6b663a3b490f|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "开源工具，为AI编程智能体提供基于Git的持久记忆，可直接集成使用。",
+      "title_hash": "f4f1f377",
+      "scored_at": "2026-09-06T04:06:56.422269Z"
+    },
+    "story_f4353980ee92|pragmatic|0a5c5b24": {
+      "score": 65,
+      "review": "Claude系统提示词更新，写歌词等任务可能受限，需调整使用策略。",
+      "title_hash": "142d67a0",
+      "scored_at": "2026-09-06T04:06:59.812277Z"
+    },
+    "story_bf4a1e858a01|cynic|f4237a62": {
+      "score": 65,
+      "review": "给高端用户限量尝鲜，性能提升没提，先提消息额度减半。",
+      "title_hash": "a2b625f9",
+      "scored_at": "2026-09-06T04:07:04.370475Z"
+    },
+    "story_bf4a1e858a01|paper-police|966065bf": {
+      "score": 15,
+      "review": "仅第三方网站报道，无官方声明、论文、代码或独立评测，证据严重不足。",
+      "title_hash": "a2b625f9",
+      "scored_at": "2026-09-06T04:07:07.750064Z"
+    },
+    "story_6b663a3b490f|cynic|f4237a62": {
+      "score": 65,
+      "review": "把记忆存进Git是个好点子，但‘原生’和‘持久’能解决多少实际幻觉问题，存疑。",
+      "title_hash": "f4f1f377",
+      "scored_at": "2026-09-06T04:07:11.193522Z"
+    },
+    "story_6b663a3b490f|paper-police|966065bf": {
+      "score": 45,
+      "review": "项目已发布，但未提供论文或独立评测报告，仅有代码和介绍。",
+      "title_hash": "f4f1f377",
+      "scored_at": "2026-09-06T04:07:15.094063Z"
+    },
+    "story_1997e8c82d30|cynic|f4237a62": {
+      "score": 95,
+      "review": "代码全开源，机器验证铁证如山，这次吹的牛是纯金的。",
+      "title_hash": "6991c2bd",
+      "scored_at": "2026-09-06T04:07:22.289272Z"
+    },
+    "story_1997e8c82d30|paper-police|966065bf": {
+      "score": 95,
+      "review": "GitHub仓库即开源代码，Lean4证明可机器检查，铁证如山。",
+      "title_hash": "6991c2bd",
+      "scored_at": "2026-09-06T04:07:28.827014Z"
     }
   }
 }
