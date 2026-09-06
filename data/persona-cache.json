@@ -1,30 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_d6709d221949|pragmatic|0a5c5b24": {
-      "score": 52,
-      "review": "周报性质，多为事件汇总，无直接可用的新工具或API，看趋势即可。",
-      "title_hash": "7962472c",
-      "scored_at": "2026-08-16T04:07:33.694846Z"
-    },
-    "story_e5da5f0992d1|pragmatic|0a5c5b24": {
-      "score": 68,
-      "review": "本地验证凭证可补强 CI 信任链，先看文档再决定接不接。",
-      "title_hash": "45e853b8",
-      "scored_at": "2026-08-16T05:51:18.602707Z"
-    },
-    "story_e5da5f0992d1|cynic|f4237a62": {
-      "score": 60,
-      "review": "本地验证凭证听着新鲜，但没看到怎么防作弊，先跑几个任务看看。",
-      "title_hash": "45e853b8",
-      "scored_at": "2026-08-16T05:51:22.080515Z"
-    },
-    "story_e5da5f0992d1|paper-police|966065bf": {
-      "score": 8,
-      "review": "仅 HN 帖子无论文无代码，验证凭证可行性未证，空谈概念。",
-      "title_hash": "45e853b8",
-      "scored_at": "2026-08-16T05:51:23.798024Z"
-    },
     "story_7a8d440461c0|pragmatic|0a5c5b24": {
       "score": 35,
       "review": "纯研究实验，验证数据上限影响，不改代码不换 API，看个结论即可。",
@@ -4466,10 +4442,10 @@
       "scored_at": "2026-09-06T04:06:36.800721Z"
     },
     "story_2c7dd97ccc7e|pragmatic|0a5c5b24": {
-      "score": 15,
-      "review": "没有产品细节的早期演示，对当前项目选型无影响。",
-      "title_hash": "303e099c",
-      "scored_at": "2026-09-06T04:06:40.994825Z"
+      "score": 0,
+      "review": "域名可疑，GPT-6是虚构产品，纯属假新闻浪费时间。",
+      "title_hash": "4491f409",
+      "scored_at": "2026-09-06T09:06:45.569989Z"
     },
     "story_f0b96624cb5e|pragmatic|0a5c5b24": {
       "score": 45,
@@ -4530,6 +4506,36 @@
       "review": "GitHub仓库即开源代码，Lean4证明可机器检查，铁证如山。",
       "title_hash": "6991c2bd",
       "scored_at": "2026-09-06T04:07:28.827014Z"
+    },
+    "story_5c53403fc048|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "基准测试争议是行业八卦，不影响你选模型或写代码。",
+      "title_hash": "d106c85e",
+      "scored_at": "2026-09-06T09:06:41.864447Z"
+    },
+    "story_4d1ff3880451|cynic|f4237a62": {
+      "score": 65,
+      "review": "只提一个特定榜单的领先，闭口不谈更通用的编程基准，这波操作很熟练。",
+      "title_hash": "4ce2b801",
+      "scored_at": "2026-09-06T09:06:49.025293Z"
+    },
+    "story_4d1ff3880451|paper-police|966065bf": {
+      "score": 15,
+      "review": "仅有第三方推文宣称评测结果，无官方论文、代码或可复现的评测报告。",
+      "title_hash": "4ce2b801",
+      "scored_at": "2026-09-06T09:06:52.741614Z"
+    },
+    "story_a23ce047f1f9|cynic|f4237a62": {
+      "score": 55,
+      "review": "教用户怎么用，顺便屏蔽‘废话词’，这算产品功能还是用户培训？",
+      "title_hash": "c346ae32",
+      "scored_at": "2026-09-06T09:06:58.239436Z"
+    },
+    "story_a23ce047f1f9|paper-police|966065bf": {
+      "score": 15,
+      "review": "仅为第三方媒体报道，无官方论文、代码或可验证的评测数据。",
+      "title_hash": "c346ae32",
+      "scored_at": "2026-09-06T09:07:07.836175Z"
     }
   }
 }
