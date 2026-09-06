@@ -1,36 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_7a8d440461c0|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "纯研究实验，验证数据上限影响，不改代码不换 API，看个结论即可。",
-      "title_hash": "c9bbbc77",
-      "scored_at": "2026-08-16T10:48:44.006647Z"
-    },
-    "story_0bf300873ab5|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "多智能体踩坑总结，架构选型前可扫一眼，但暂无直接可用的工具。",
-      "title_hash": "1e988a23",
-      "scored_at": "2026-08-16T11:45:32.686434Z"
-    },
-    "story_ad56c119c312|pragmatic|0a5c5b24": {
-      "score": 65,
-      "review": "系统提示变了可能影响应用行为，先跑测试再上线。",
-      "title_hash": "b24385a2",
-      "scored_at": "2026-08-16T14:46:22.949104Z"
-    },
-    "story_ad56c119c312|cynic|f4237a62": {
-      "score": 65,
-      "review": "系统提示更新是常态，但行为改变才是关键，别拿文档凑数。",
-      "title_hash": "b24385a2",
-      "scored_at": "2026-08-16T14:46:27.405090Z"
-    },
-    "story_ad56c119c312|paper-police|966065bf": {
-      "score": 45,
-      "review": "官方文档更新有细节，但无代码无第三方验证，待复现确认。",
-      "title_hash": "b24385a2",
-      "scored_at": "2026-08-16T14:46:30.879219Z"
-    },
     "story_02084b7684a5|pragmatic|0a5c5b24": {
       "score": 45,
       "review": "中间商倒卖API额度，省钱可留意但流动性差，先观望。",
@@ -4536,6 +4506,24 @@
       "review": "仅为第三方媒体报道，无官方论文、代码或可验证的评测数据。",
       "title_hash": "c346ae32",
       "scored_at": "2026-09-06T09:07:07.836175Z"
+    },
+    "story_53984a021b24|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "行业观察文章，不提供具体工具或方案，了解即可。",
+      "title_hash": "40d8dea6",
+      "scored_at": "2026-09-06T15:06:41.751581Z"
+    },
+    "story_e1e7a08cca0d|cynic|f4237a62": {
+      "score": 65,
+      "review": "出事了才想起来要‘制定框架’，透明度这作业补得有点晚。",
+      "title_hash": "5b4f4cf8",
+      "scored_at": "2026-09-06T15:06:44.754381Z"
+    },
+    "story_e1e7a08cca0d|paper-police|966065bf": {
+      "score": 15,
+      "review": "仅有官方承认和承诺，无具体事故报告或框架细节，证据不足。",
+      "title_hash": "5b4f4cf8",
+      "scored_at": "2026-09-06T15:06:50.580248Z"
     }
   }
 }

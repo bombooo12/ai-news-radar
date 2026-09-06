@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T09:07:07.836231Z",
+  "generated_at": "2026-09-06T15:06:50.580302Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -57,22 +57,22 @@
       }
     },
     {
-      "story_id": "story_a23ce047f1f9",
-      "title": "OpenAI 发布 GPT-6 Astra 提示词指南，含 slop 词屏蔽清单 / OpenAI shares prompting tips for GPT-6 Astra including a blocklist of slop words",
-      "url": "https://the-decoder.com/openai-shares-prompting-tips-for-gpt-6-astra-including-a-blocklist-of-slop-words",
+      "story_id": "story_e1e7a08cca0d",
+      "title": "OpenAI 承认 wiki 事件，称正在制定更透明的事故披露框架 / OpenAI confirms 'wiki incident，' says it's 'working on a framework' for more disclosure",
+      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 55,
-          "review": "教用户怎么用，顺便屏蔽‘废话词’，这算产品功能还是用户培训？"
+          "score": 65,
+          "review": "出事了才想起来要‘制定框架’，透明度这作业补得有点晚。"
         },
         "paper-police": {
           "score": 15,
-          "review": "仅为第三方媒体报道，无官方论文、代码或可验证的评测数据。"
+          "review": "仅有官方承认和承诺，无具体事故报告或框架细节，证据不足。"
         },
         "pragmatic": {
-          "score": 65,
-          "review": "官方提示词指南和屏蔽词清单，写提示时可以对照优化。"
+          "score": 45,
+          "review": "承诺未来会更透明，但对当前开发选型无直接影响。"
         }
       }
     }
