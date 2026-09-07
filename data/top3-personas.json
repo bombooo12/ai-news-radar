@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T15:06:50.580302Z",
+  "generated_at": "2026-09-07T04:08:19.621587Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_6b663a3b490f",
-      "title": "OKF Agent Memory – Git-native persistent memory for AI coding agents",
-      "url": "https://news.ycombinator.com/item?id=49581240",
+      "story_id": "story_f5c486b1ef2a",
+      "title": "MathKernel: An evidence-aware multi-engine mathematics kernel and MCP server",
+      "url": "https://news.ycombinator.com/item?id=49592366",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "把记忆存进Git是个好点子，但‘原生’和‘持久’能解决多少实际幻觉问题，存疑。"
+          "score": 70,
+          "review": "多引擎听起来很美，但‘证据感知’的具体实现和性能基准在哪？"
         },
         "paper-police": {
           "score": 45,
-          "review": "项目已发布，但未提供论文或独立评测报告，仅有代码和介绍。"
+          "review": "项目描述清晰，但缺乏论文、开源代码及独立评测报告佐证其效能。"
         },
         "pragmatic": {
-          "score": 85,
-          "review": "开源工具，为AI编程智能体提供基于Git的持久记忆，可直接集成使用。"
+          "score": 82,
+          "review": "开源数学推理引擎，可直接集成到你的AI应用里增强逻辑能力。"
         }
       }
     },
     {
-      "story_id": "story_4d1ff3880451",
-      "title": "OpenAI GPT-6 Astra 登顶 Code Arena WebDev 榜首，领先 Claude Fable 5.1 达 35 分 / GPT-6 Astra from OpenAI claimed a top spot on WebDev Arena， surpassing recently released Claude Fabl…",
-      "url": "https://x.com/testingcatalog/status/2096350628054176240",
+      "story_id": "story_a0689e4c8b0e",
+      "title": "千问开放平台再上新10+金融服务智能体，证券、基金、期货、保险一个入口直连",
+      "url": "https://www.aibase.com/news/30865",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "只提一个特定榜单的领先，闭口不谈更通用的编程基准，这波操作很熟练。"
+          "score": 45,
+          "review": "又是“智能体”扎堆上新，具体解决了哪家机构的哪个真问题？"
         },
         "paper-police": {
           "score": 15,
-          "review": "仅有第三方推文宣称评测结果，无官方论文、代码或可复现的评测报告。"
+          "review": "仅有平台功能发布新闻，无具体模型论文、代码或独立评测数据支撑。"
         },
         "pragmatic": {
-          "score": 65,
-          "review": "新模型在特定榜单领先，选型时可多一个参考数据点。"
+          "score": 70,
+          "review": "金融场景的现成智能体工具箱，做相关应用的可以接入试试效果。"
         }
       }
     },
     {
-      "story_id": "story_e1e7a08cca0d",
-      "title": "OpenAI 承认 wiki 事件，称正在制定更透明的事故披露框架 / OpenAI confirms 'wiki incident，' says it's 'working on a framework' for more disclosure",
-      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
+      "story_id": "story_a7723992e0de",
+      "title": "GPT-6 Astra测试数据罗生门：OpenAI频繁修改成绩引「刷榜」质疑，大模型基准测试信任危机爆发",
+      "url": "https://www.aibase.com/news/30852",
       "rank": 3,
       "reviews": {
         "cynic": {
           "score": 65,
-          "review": "出事了才想起来要‘制定框架’，透明度这作业补得有点晚。"
+          "review": "测试数据改来改去，自家榜单的公信力先被自己刷掉了。"
         },
         "paper-police": {
           "score": 15,
-          "review": "仅有官方承认和承诺，无具体事故报告或框架细节，证据不足。"
+          "review": "仅有媒体报道的质疑，无官方论文、代码或可复现的基准测试数据佐证。"
         },
         "pragmatic": {
           "score": 45,
-          "review": "承诺未来会更透明，但对当前开发选型无直接影响。"
+          "review": "知道基准测试有水分就行，选模型时别只看榜单分数。"
         }
       }
     }
