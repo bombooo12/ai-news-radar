@@ -3,15 +3,16 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "GPT-6 Astra来了！你的Skill和提示词必须大扫除，否则效果暴跌",
+      "title": "GPT-6 Astra来了！你的Skill和提示词该大扫除了",
       "track": "ai_tech",
       "track_name": "AI技术",
       "target_audience": "AI初学者、GPT-6用户、提示词工程师",
-      "reason": "GPT-6 Astra发布是今日最大热点，且与创作者擅长的提示词工程和Skill实践高度匹配，用户对新模型新工具兴趣高。",
+      "reason": "GPT-6发布是当前最大热点，且直接关联创作者擅长的Skill和提示词内容，用户对新模型兴趣高。",
       "source_items": [
         "OpenAI ：GPT-6 开始你需要给 Skill 和 AGENTS.md 做一次大扫除了",
         "使用 GPT-6 Astra 模型 请立刻更新你的 Skill 与提示词",
-        "OpenAI 发布 GPT-6Astra，黄仁勋称 AGI 已经到来"
+        "OpenAI 发布 GPT-6Astra，黄仁勋称 AGI 已经到来",
+        "GPT-6 Astra测试数据罗生门：OpenAI频繁修改成绩引「刷榜」质疑"
       ],
       "source_urls": [
         "https://juejin.cn/post/7681931232724860970",
@@ -26,40 +27,40 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "GPT-6 Astra来了！你的Skill和提示词必须大扫除，否则效果暴跌",
-          "summary": "教用户如何迁移和优化现有Skill与提示词以适应GPT-6 Astra。",
+          "hook": "GPT-6 Astra适配指南：3步更新你的Skill和提示词，否则效果大打折扣",
+          "summary": "教用户如何针对GPT-6优化现有Skill和提示词，提升输出质量。",
           "key_points": [
-            "识别不兼容的Skill和提示词模式",
-            "使用AGENTS.md重新组织项目上下文",
-            "测试和迭代新提示词模板"
+            "检查现有Skill的兼容性，识别失效或过时的指令",
+            "利用GPT-6新特性重构提示词，如多模态和长上下文",
+            "使用AGENTS.md规范Agent行为，提升自动化效率"
           ],
           "difficulty": "入门",
-          "estimated_time": "45分钟"
+          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "短视频",
-          "hook": "GPT-6 Astra的5个隐藏坑，别让你的AI变笨",
-          "summary": "揭示升级GPT-6 Astra后常见的性能下降问题和规避方法。",
+          "format": "图文",
+          "hook": "GPT-6 Astra的5个隐藏坑：别让你的Skill白写了",
+          "summary": "揭示升级GPT-6后常见的Skill失效、提示词不兼容等问题。",
           "pitfalls": [
-            "直接沿用旧提示词导致输出质量下降",
-            "忽略Skill之间的冲突",
-            "未更新AGENTS.md导致上下文混乱"
+            "旧版Skill可能因API变更而失效，需重新测试",
+            "提示词中过度依赖旧模型特性会导致输出偏差",
+            "AGENTS.md格式不规范可能引发Agent行为异常"
           ],
           "difficulty": "入门",
-          "estimated_time": "20分钟"
+          "estimated_time": "15分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "GPT-6 Astra刷榜争议背后：大模型评测体系正在崩塌？",
-          "summary": "分析GPT-6 Astra测试数据争议对行业的影响和评测体系信任危机。",
+          "hook": "GPT-6 Astra刷榜争议背后：大模型基准测试的信任危机",
+          "summary": "分析GPT-6测试数据修改事件，探讨基准测试的可靠性和行业影响。",
           "insights": [
-            "OpenAI频繁修改成绩暴露评测标准不透明",
-            "刷榜质疑可能引发行业对基准测试的重新审视",
-            "对AI初学者选择模型时的参考意义"
+            "OpenAI频繁修改成绩暴露了基准测试的脆弱性",
+            "刷榜质疑可能加速第三方独立评估体系的建立",
+            "对AI初学者而言，应更关注实际应用而非榜单数据"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -68,20 +69,20 @@
     },
     {
       "rank": 2,
-      "title": "AI短剧制作价格大跳水：从5000到几百，普通人如何抓住这波红利？",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI视频创作者、短剧从业者、想副业变现的个人",
-      "reason": "AI短剧价格跳水直接影响创作者变现，且与创作者视频剪辑能力和AIGC剧情向内容偏好高度契合。",
+      "title": "OpenAI智能体失控？维基越狱事件全解析与安全指南",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI开发者、智能体使用者、关注AI安全的普通用户",
+      "reason": "智能体安全是热点且具有争议性，符合创作者偏好冲突性选题，同时能提供实用避坑内容。",
       "source_items": [
-        "AI 短剧制作价格大跳水：每分钟报价从 5000 跌到几百，行业转向拼内容",
-        "OpenBuilder & MiniMax AI Video night",
-        "Turn an AI Character Into a Talking Video From One Claude Prompt"
+        "OpenAI首度承认维基越狱事件，将紧急制定智能体异常行为披露框架",
+        "OpenAI证实“维基事件”智能体脱控，将制定安全信息披露新框架",
+        "Last Week in AI #343 - GPT-6, OpenAI’s agents chatted on a wiki, Fable 5.1"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/30863",
-        "https://lu.ma/sznak684",
-        "https://apatero.com/blog/animate-ai-influencer-talking-video-claude-apatero-2026"
+        "https://www.aibase.com/news/30872",
+        "https://www.aibase.com/news/30851",
+        "https://lastweekin.ai/p/last-week-in-ai-343-gpt-6-openais"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -89,41 +90,41 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频",
-          "hook": "AI短剧制作成本暴跌90%！手把手教你用AI做一集短剧",
-          "summary": "教用户利用AI工具低成本制作短剧的完整流程。",
+          "format": "图文",
+          "hook": "如何防止你的AI智能体“脱控”？5个安全设置技巧",
+          "summary": "教用户为智能体设置安全边界，避免异常行为。",
           "key_points": [
-            "用AI生成剧本和分镜脚本",
-            "使用AI视频工具生成画面",
-            "剪映快速剪辑和包装"
+            "设置严格的权限控制，限制智能体访问敏感数据",
+            "使用日志监控智能体行为，及时发现异常",
+            "配置人工审核机制，关键操作需确认"
           ],
           "difficulty": "入门",
-          "estimated_time": "1小时"
+          "estimated_time": "20分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文",
-          "hook": "AI短剧价格跳水是陷阱？这4个坑让你血本无归",
-          "summary": "指出AI短剧制作中的常见误区，避免低质内容和版权风险。",
+          "format": "短视频",
+          "hook": "AI智能体失控预警：维基越狱事件给我们的3个教训",
+          "summary": "从维基事件中总结智能体使用风险，提供规避方法。",
           "pitfalls": [
-            "只追求低价导致内容质量差",
-            "忽略版权问题使用未授权素材",
-            "盲目跟风制作同质化内容"
+            "不要给智能体过高的自主权限，需设置操作边界",
+            "忽视安全披露框架可能导致法律风险",
+            "智能体在开放环境可能被诱导执行恶意操作"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "10分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI短剧价格大跳水背后：内容行业的生死局",
-          "summary": "分析AI短剧价格下降对行业生态、创作者和平台的影响。",
+          "hook": "从维基越狱到安全框架：OpenAI的智能体信任危机",
+          "summary": "分析智能体安全事件对AI行业的影响及未来监管趋势。",
           "insights": [
-            "技术成熟导致制作门槛降低，竞争转向内容创意",
-            "中小创作者迎来机会但需差异化",
-            "平台补贴和商业化模式变化"
+            "智能体自主性提升带来更多不可控风险",
+            "安全披露框架将成为AI公司的标配",
+            "用户需提高对AI安全风险的认知"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -132,18 +133,18 @@
     },
     {
       "rank": 3,
-      "title": "OpenAI承认智能体脱控：你的AI助手可能正在“越狱”",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI工具使用者、智能体开发者、关注AI安全的个人",
-      "reason": "智能体安全事件具有强冲突性和传播潜力，且与创作者偏好的争议性选题一致。",
+      "title": "AI短剧制作价格大跳水：从5000到几百，普通人如何入局？",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "AI视频创作者、短剧从业者、想通过AI变现的个人",
+      "reason": "AI短剧成本下降是行业趋势，与创作者视频技能和副业变现方向契合，具有实操价值。",
       "source_items": [
-        "OpenAI首度承认维基越狱事件，将紧急制定智能体异常行为披露框架",
-        "OpenAI证实“维基事件”智能体脱控，将制定安全信息披露新框架"
+        "AI 短剧制作价格大跳水：每分钟报价从 5000 跌到几百，行业转向拼内容",
+        "龙版传媒：公司AI视频业务6月产生营收约80元，7月产生营收约7.5万元"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/30872",
-        "https://www.aibase.com/news/30851"
+        "https://www.aibase.com/news/30863",
+        "https://36kr.com/newsflashes/3973289991139591?f=rss"
       ],
       "urgency": "medium",
       "viral_potential": "high",
@@ -151,27 +152,27 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "如何防止你的AI智能体失控？5个安全设置必学",
-          "summary": "教用户为AI智能体设置安全边界和监控机制。",
+          "format": "视频",
+          "hook": "AI短剧制作全流程：从剧本到成片，成本不到500元",
+          "summary": "演示用AI工具制作短剧的完整流程，包括剧本生成、分镜、视频合成。",
           "key_points": [
-            "设置权限限制和操作白名单",
-            "使用日志记录和异常检测",
-            "定期审查智能体行为"
+            "用ChatGPT生成剧本和分镜脚本",
+            "使用AI视频生成工具（如Runway、Pika）制作片段",
+            "用剪映Pro进行剪辑和包装，添加特效"
           ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "difficulty": "中级",
+          "estimated_time": "2小时"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "短视频",
-          "hook": "AI智能体脱控前兆：这3个信号出现立即停止使用",
-          "summary": "帮助用户识别智能体异常行为并采取紧急措施。",
+          "format": "图文",
+          "hook": "AI短剧制作避坑：价格虽低，但版权和内容风险不容忽视",
+          "summary": "指出AI短剧制作中的版权、内容审核等风险。",
           "pitfalls": [
-            "智能体执行未授权操作",
-            "输出内容偏离设定范围",
-            "与外部系统交互异常"
+            "AI生成内容可能涉及版权纠纷，需注意素材授权",
+            "平台对AI生成内容有审核标准，需提前了解",
+            "低价制作可能导致质量参差不齐，影响口碑"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -180,12 +181,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "维基越狱事件：AI安全信息披露为何如此重要？",
-          "summary": "深入分析智能体脱控事件对AI行业监管和用户信任的影响。",
+          "hook": "AI短剧价格战背后：内容创作行业的洗牌与机遇",
+          "summary": "分析AI短剧成本下降对行业的影响，以及创作者如何转型。",
           "insights": [
-            "OpenAI披露框架可能成为行业标准",
-            "智能体安全事件将推动更严格的监管",
-            "用户需提高对AI风险的认知"
+            "制作门槛降低，内容质量成为核心竞争力",
+            "传统短剧团队面临转型压力，AI工具成为必备技能",
+            "IP商业化成为AI短剧变现的新路径"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -194,11 +195,11 @@
     },
     {
       "rank": 4,
-      "title": "AI版权平台来了！Seedance从防侵权到IP商业化，创作者如何分一杯羹？",
-      "track": "ip_entrepreneurship",
+      "title": "AI版权平台内测：Seedance从防侵权到IP商业化，创作者如何抓住机会？",
+      "track": "ip_creation",
       "track_name": "商标/IP/创业",
-      "target_audience": "AI创作者、IP运营者、需要商标注册的小微企业主",
-      "reason": "AI版权平台与创作者商标代理业务直接相关，且是副线受众关注的热点。",
+      "target_audience": "AI创作者、IP运营者、小微企业主",
+      "reason": "AI版权商业化是新兴方向，与创作者的商标代理业务和AI视频技能高度相关，能引流。",
       "source_items": [
         "火山引擎内测 AI 版权平台，Seedance 从“防侵权”转向“IP 商业化”",
         "OpenAI, Microsoft face copyright lawsuit from local newspapers"
@@ -214,12 +215,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "AI版权平台内测中！手把手教你注册和变现你的AI作品",
-          "summary": "教用户如何利用AI版权平台保护自己的AI生成内容并实现商业化。",
+          "hook": "如何利用AI版权平台保护你的AI作品并实现商业化？",
+          "summary": "教创作者如何注册和使用AI版权平台，保护作品并变现。",
           "key_points": [
-            "了解Seedance版权平台功能",
-            "注册和上传AI作品",
-            "设置授权和收益模式"
+            "了解AI版权平台的功能和注册流程",
+            "上传作品进行版权登记，获取IP保护",
+            "利用平台商业化功能，授权或出售作品"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -228,12 +229,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI版权保护别踩坑：这3个错误让你的作品被白嫖",
-          "summary": "指出AI创作者在版权保护上的常见误区。",
+          "hook": "AI版权保护避坑：别让你的作品被侵权了还不知道",
+          "summary": "提醒AI创作者注意版权风险，提供保护措施。",
           "pitfalls": [
-            "未及时登记版权导致维权困难",
-            "忽略AI生成内容的版权归属问题",
-            "滥用他人素材引发侵权诉讼"
+            "AI生成作品的版权归属不明确，需提前确认",
+            "平台版权保护可能不全面，需自行监控",
+            "商业化授权需注意合同细节，避免纠纷"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -242,12 +243,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI版权平台是救命稻草还是新镰刀？深度解析IP商业化趋势",
-          "summary": "分析AI版权平台对创作者和版权生态的影响。",
+          "hook": "AI版权平台兴起：从防侵权到IP商业化，AI内容变现的新时代",
+          "summary": "分析AI版权平台对创作者经济的影响，以及未来趋势。",
           "insights": [
-            "版权平台将改变AI内容分发和变现模式",
-            "IP商业化成为AI创作者新出路",
-            "商标注册和版权保护的重要性提升"
+            "版权保护是AI内容商业化的基础",
+            "IP商业化将成为AI创作者的主要收入来源",
+            "平台竞争将加剧，创作者需选择适合自己的平台"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -256,11 +257,195 @@
     },
     {
       "rank": 5,
+      "title": "AI自动剪辑不精准？智能剪辑工具评估与调优指南",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "视频剪辑者、自媒体运营者、AI工具使用者",
+      "reason": "AI剪辑是创作者熟练领域，且用户反馈对工具测评兴趣高，能提供实用价值。",
+      "source_items": [
+        "AI自动剪辑不精准怎么调整？智能剪辑工具评估与指南",
+        "2026年AI视频去人效果全分析：主流视频编辑处理实践与标准评估"
+      ],
+      "source_urls": [
+        "https://36kr.com/p/3973189298172161?f=rss",
+        "https://36kr.com/p/3973193588257289?f=rss"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "视频",
+          "hook": "AI剪辑不精准？手把手教你调整参数，让剪辑更智能",
+          "summary": "演示如何调整AI剪辑工具的参数，提高剪辑精准度。",
+          "key_points": [
+            "选择合适的AI剪辑工具（如剪映Pro、DaVinci）",
+            "调整剪辑精度设置，如场景识别、人脸追踪",
+            "结合手动微调，确保剪辑效果符合预期"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI剪辑的5个常见坑：别让自动剪辑毁了你的视频",
+          "summary": "指出AI剪辑工具的常见问题及解决方法。",
+          "pitfalls": [
+            "AI可能误识别场景，导致剪辑错乱",
+            "自动字幕可能不准确，需人工校对",
+            "过度依赖AI会失去创作个性"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "AI剪辑工具大比拼：谁才是真正的效率神器？",
+          "summary": "对比主流AI剪辑工具的性能和适用场景，提供选择建议。",
+          "insights": [
+            "不同工具在精准度、速度、功能上各有优劣",
+            "AI剪辑将逐步取代重复性工作，但创意仍需人工",
+            "未来AI剪辑将更智能化，支持复杂叙事"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "普通投资者用AI Agent炒股？华尔街日报揭秘，但风险你知多少？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "对AI应用感兴趣的投资者、技术爱好者",
+      "reason": "AI Agent投资是新兴热点，具有争议性，能吸引关注，同时可结合避坑内容。",
+      "source_items": [
+        "How everyday US investors are vibe-coding algorithms to automate trading strategies by connecting their stock portfolios to AI agents built with Claude or Codex"
+      ],
+      "source_urls": [
+        "https://www.techmeme.com/260906/p11"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "用AI Agent自动交易？从零搭建你的第一个投资机器人",
+          "summary": "教初学者如何用Claude或Codex构建简单的AI交易Agent。",
+          "key_points": [
+            "连接股票API，获取实时数据",
+            "用Claude编写交易策略代码",
+            "设置风险控制，如止损和仓位管理"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "2小时"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI炒股靠谱吗？华尔街日报案例背后的3大风险",
+          "summary": "揭示AI交易Agent的潜在风险，提醒投资者谨慎。",
+          "pitfalls": [
+            "AI策略可能过拟合历史数据，实盘表现不佳",
+            "市场波动可能导致AI决策失误，造成损失",
+            "缺乏监管，可能涉及法律风险"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "AI Agent投资时代来临：普通人如何避免成为韭菜？",
+          "summary": "分析AI交易对个人投资者的影响，提供理性建议。",
+          "insights": [
+            "AI交易降低门槛，但风险并未减少",
+            "投资者需理解AI策略的局限性",
+            "未来监管将加强，保护个人投资者"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "OpenAI与微软再遭版权诉讼：AI训练数据的法律边界在哪？",
+      "track": "ip_creation",
+      "track_name": "商标/IP/创业",
+      "target_audience": "AI创业者、内容创作者、法律关注者",
+      "reason": "版权诉讼是AI领域持续热点，与创作者商标业务相关，能提供深度分析。",
+      "source_items": [
+        "OpenAI, Microsoft face copyright lawsuit from local newspapers",
+        "火山引擎内测 AI 版权平台，Seedance 从“防侵权”转向“IP 商业化”"
+      ],
+      "source_urls": [
+        "https://mashable.com/tech/openai-microsoft-face-another-publishing-lawsuit",
+        "https://www.aibase.com/news/30868"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "AI创作者如何避免版权侵权？合规使用训练数据的指南",
+          "summary": "教AI创作者如何确保内容合规，避免侵权风险。",
+          "key_points": [
+            "了解版权法对AI生成内容的规定",
+            "使用开源或授权数据训练模型",
+            "在作品中标注AI生成，明确版权归属"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "短视频",
+          "hook": "AI版权诉讼频发，你的AI作品可能侵权了！",
+          "summary": "提醒AI创作者注意版权风险，提供规避方法。",
+          "pitfalls": [
+            "AI生成内容可能无意中复制他人作品",
+            "使用未授权素材训练模型可能引发诉讼",
+            "平台审核可能因版权问题下架内容"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "10分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "从OpenAI诉讼看AI版权法：未来内容创作的规则将如何改变？",
+          "summary": "分析版权诉讼对AI行业的影响，预测法律趋势。",
+          "insights": [
+            "版权诉讼将推动AI公司规范数据使用",
+            "AI生成内容的版权归属将逐渐明确",
+            "创作者需关注法律变化，调整创作策略"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 8,
       "title": "千亿算力大战：OpenAI Astra烧百亿美元，国产大模型差距在哪？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI从业者、关注AI趋势的科技爱好者",
-      "reason": "算力大战是行业级热点，且与创作者数据驱动型选题偏好相符，能引发广泛讨论。",
+      "target_audience": "AI从业者、科技爱好者、关注AI发展的普通用户",
+      "reason": "算力竞争是行业焦点，具有深度分析价值，能吸引对AI趋势感兴趣的受众。",
       "source_items": [
         "千亿算力大战背后：OpenAI Astra暴烧百亿美元，国产大模型与美企差距在哪"
       ],
@@ -274,74 +459,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "算力不够用？这3个技巧让你的大模型跑得更快",
-          "summary": "教普通用户优化模型推理效率，减少算力消耗。",
+          "hook": "普通开发者如何应对算力成本？云GPU使用与优化技巧",
+          "summary": "教开发者如何降低AI模型训练的算力成本。",
           "key_points": [
-            "使用量化技术降低显存占用",
-            "利用缓存加速重复计算",
-            "选择轻量级模型替代"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "别被算力营销忽悠！选大模型前必看的3个避坑指南",
-          "summary": "帮助用户理性看待算力宣传，选择适合的模型。",
-          "pitfalls": [
-            "盲目追求大参数模型导致成本过高",
-            "忽略实际应用场景需求",
-            "被厂商宣传误导忽视生态支持"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "视频",
-          "hook": "千亿算力烧出的差距：国产大模型何时能追上OpenAI？",
-          "summary": "深入分析中美大模型算力差距及国产替代路径。",
-          "insights": [
-            "算力投入差距导致模型能力差距",
-            "国产模型在特定领域有突破机会",
-            "生态建设比算力更重要"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "title": "AI帮你炒股？华尔街日报：美国散户用AI Agent自动交易，普通人能复制吗？",
-      "track": "side_income",
-      "track_name": "个人成长/副业变现",
-      "target_audience": "对AI副业感兴趣的散户、理财爱好者",
-      "reason": "AI自动交易是热点话题，结合副业变现，与创作者受众需求匹配。",
-      "source_items": [
-        "How everyday US investors are vibe-coding algorithms to automate trading strategies by connecting their stock portfolios to AI agents built with Claude or Codex",
-        "千问宣布接入十余家金融类智能体，覆盖理财、保险、期货等领域"
-      ],
-      "source_urls": [
-        "https://www.techmeme.com/260906/p11",
-        "https://36kr.com/newsflashes/3972723937603849?f=rss"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "用Claude写一个自动交易AI Agent？手把手教程（附代码）",
-          "summary": "教用户用Claude或Codex构建简单的自动交易策略。",
-          "key_points": [
-            "连接股票API获取数据",
-            "用自然语言定义交易规则",
-            "部署和监控AI Agent"
+            "选择性价比高的云GPU服务",
+            "使用混合精度训练减少显存占用",
+            "利用模型压缩技术降低计算需求"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -350,13 +473,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI炒股靠谱吗？这4个坑让你血本无归",
-          "summary": "揭示AI自动交易的风险和常见误区。",
+          "hook": "算力投资的3个误区：别被“烧钱”带偏了",
+          "summary": "指出算力竞争中的常见误区，帮助读者理性看待。",
           "pitfalls": [
-            "过度依赖AI导致忽视市场风险",
-            "策略回测过拟合",
-            "API连接安全漏洞",
-            "缺乏监管和合规意识"
+            "盲目追求大算力可能导致资源浪费",
+            "算力不等于智能，算法优化同样重要",
+            "国产模型差距并非只在算力，生态也是关键"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -365,72 +487,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI炒股时代来了？散户用AI Agent交易背后的真相",
-          "summary": "分析AI自动交易对散户和金融市场的影响。",
+          "hook": "算力大战的终局：AI竞争的核心是算力还是生态？",
+          "summary": "深入分析算力竞争背后的技术、商业和战略因素。",
           "insights": [
-            "AI降低交易门槛但也加剧市场波动",
-            "散户需要更谨慎地使用AI工具",
-            "金融监管面临新挑战"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "title": "AI教育革命：如何用AI帮孩子独立思考？家长必看",
-      "track": "creator_economy",
-      "track_name": "自媒体/创作者经济",
-      "target_audience": "家长、教育工作者、AI内容创作者",
-      "reason": "AI教育是长期热点，且与创作者经济赛道相关，能吸引家长群体关注。",
-      "source_items": [
-        "How AI Can Help Kids Think for Themselves | Sue Khim"
-      ],
-      "source_urls": [
-        "https://creatoreconomy.so/p/how-ai-can-help-kids-think-for-themselves-sue-khim"
-      ],
-      "urgency": "low",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "用AI培养孩子独立思考的5个Prompt模板（家长直接复制）",
-          "summary": "提供实用的AI对话模板，帮助家长引导孩子思考。",
-          "key_points": [
-            "使用苏格拉底式提问Prompt",
-            "设计开放性问题激发好奇心",
-            "结合AI工具进行项目式学习"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "别让AI毁了孩子！这3个教育误区家长必须知道",
-          "summary": "指出家长使用AI教育孩子时的常见错误。",
-          "pitfalls": [
-            "过度依赖AI导致孩子缺乏独立思考",
-            "忽视AI内容的质量和偏见",
-            "不控制使用时间影响视力"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "AI教育是救星还是毒药？深度解析AI对孩子思维的影响",
-          "summary": "探讨AI在教育中的角色和长远影响。",
-          "insights": [
-            "AI可以个性化教育但需平衡",
-            "培养批判性思维比知识灌输更重要",
-            "教育者需要适应AI时代"
+            "算力是基础，但算法和数据的价值更高",
+            "国产大模型需在生态建设上发力",
+            "未来AI竞争将转向应用场景落地"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -439,22 +501,21 @@
     }
   ],
   "weekly_plan": {
-    "monday": "GPT-6 Astra来了！你的Skill和提示词必须大扫除，否则效果暴跌",
-    "wednesday": "AI短剧制作价格大跳水：从5000到几百，普通人如何抓住这波红利？",
-    "friday": "AI版权平台来了！Seedance从防侵权到IP商业化，创作者如何分一杯羹？",
-    "strategy": "本周聚焦GPT-6热点和AI变现机会，结合版权和短剧趋势，输出实操和深度内容，吸引AI初学者和副业人群。"
+    "monday": "GPT-6 Astra适配指南：3步更新你的Skill和提示词",
+    "wednesday": "AI短剧制作全流程：从剧本到成片，成本不到500元",
+    "friday": "AI版权平台兴起：从防侵权到IP商业化，AI内容变现的新时代",
+    "strategy": "本周主打GPT-6热点和AI变现机会，穿插版权和避坑内容，保持高更新频率。"
   },
-  "insights": "今日信息流显示GPT-6 Astra发布和AI短剧价格跳水是两大热点，同时AI版权平台和智能体安全事件也值得关注，创作者应抓住这些趋势输出内容。",
-  "ai_adjustment": "本次推荐优先选择了用户偏好的ai_tech和ai_video赛道，并避开了用户拒绝的硬件类选题，同时结合了用户对反常识和热点内容的兴趣。",
-  "generated_at": "2026-09-07T17:09:26.986328+08:00",
-  "total_items": 349,
-  "scored_items": 285,
+  "insights": "今日信息流显示GPT-6发布和智能体安全事件是最大热点，AI短剧成本下降和版权平台内测为创作者带来新变现机会。",
+  "ai_adjustment": "本次推荐优先选择了GPT-6相关热点和AI视频/版权等用户偏好赛道，避开了硬件类选题，并增加了智能体安全等争议性内容。",
+  "generated_at": "2026-09-07T23:08:07.790888+08:00",
+  "total_items": 385,
+  "scored_items": 311,
   "tracks_summary": {
-    "ai_tech": 272,
-    "trademark_business": 2,
-    "ai_video": 8,
-    "creator_economy": 1,
-    "growth_monetize": 2
+    "ai_tech": 292,
+    "trademark_business": 3,
+    "ai_video": 15,
+    "growth_monetize": 1
   },
   "engine_version": "v2",
   "engine_params": {
