@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T04:08:19.621587Z",
+  "generated_at": "2026-09-07T09:08:44.079279Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,10 +17,30 @@
   ],
   "items": [
     {
+      "story_id": "story_6b1b1f939962",
+      "title": "Show HN: Engrim – A universal, local-first SQLite memory engine for AI CLIs",
+      "url": "https://news.ycombinator.com/item?id=49594008",
+      "rank": 1,
+      "reviews": {
+        "cynic": {
+          "score": 65,
+          "review": "本地优先是亮点，但‘通用’和‘引擎’这俩词，水分得先挤挤。"
+        },
+        "paper-police": {
+          "score": 65,
+          "review": "有开源代码和项目描述，但缺乏独立的性能评测或论文验证。"
+        },
+        "pragmatic": {
+          "score": 85,
+          "review": "开源工具已发布，本地AI CLI项目可直接集成，管理向量数据更简单。"
+        }
+      }
+    },
+    {
       "story_id": "story_f5c486b1ef2a",
       "title": "MathKernel: An evidence-aware multi-engine mathematics kernel and MCP server",
       "url": "https://news.ycombinator.com/item?id=49592366",
-      "rank": 1,
+      "rank": 2,
       "reviews": {
         "cynic": {
           "score": 70,
@@ -37,42 +57,22 @@
       }
     },
     {
-      "story_id": "story_a0689e4c8b0e",
-      "title": "千问开放平台再上新10+金融服务智能体，证券、基金、期货、保险一个入口直连",
-      "url": "https://www.aibase.com/news/30865",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 45,
-          "review": "又是“智能体”扎堆上新，具体解决了哪家机构的哪个真问题？"
-        },
-        "paper-police": {
-          "score": 15,
-          "review": "仅有平台功能发布新闻，无具体模型论文、代码或独立评测数据支撑。"
-        },
-        "pragmatic": {
-          "score": 70,
-          "review": "金融场景的现成智能体工具箱，做相关应用的可以接入试试效果。"
-        }
-      }
-    },
-    {
-      "story_id": "story_a7723992e0de",
-      "title": "GPT-6 Astra测试数据罗生门：OpenAI频繁修改成绩引「刷榜」质疑，大模型基准测试信任危机爆发",
-      "url": "https://www.aibase.com/news/30852",
+      "story_id": "story_c480607eabf3",
+      "title": "OpenAI首度承认维基越狱事件，将紧急制定智能体异常行为披露框架",
+      "url": "https://www.aibase.com/news/30872",
       "rank": 3,
       "reviews": {
         "cynic": {
           "score": 65,
-          "review": "测试数据改来改去，自家榜单的公信力先被自己刷掉了。"
+          "review": "终于认了，但‘紧急制定’听着像补漏，早干嘛去了？"
         },
         "paper-police": {
           "score": 15,
-          "review": "仅有媒体报道的质疑，无官方论文、代码或可复现的基准测试数据佐证。"
+          "review": "仅有媒体报道，无官方报告或技术细节，真实性待验证。"
         },
         "pragmatic": {
-          "score": 45,
-          "review": "知道基准测试有水分就行，选模型时别只看榜单分数。"
+          "score": 55,
+          "review": "关注官方安全框架，但短期内不影响你的API调用和开发。"
         }
       }
     }
