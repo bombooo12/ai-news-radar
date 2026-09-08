@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T15:07:21.376571Z",
+  "generated_at": "2026-09-08T04:08:52.255176Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,42 +17,42 @@
   ],
   "items": [
     {
-      "story_id": "story_89772b9cda52",
-      "title": "Speculative Decoding in vLLM on AMD GPUs",
-      "url": "https://news.ycombinator.com/item?id=49596054",
+      "story_id": "story_f0b41f3df1cc",
+      "title": "GPT-6 Astra操控Blender保姆级教程：三种玩法与踩坑实录",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686056&idx=1&sn=c1710404c08cf3201da27f4d53f94940",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 75,
-          "review": "把热门技术适配到新硬件，算务实，但别吹成独家突破。"
+          "score": 65,
+          "review": "教程是干货，但标题蹭GPT-6热度，实际用的还是GPT-4吧？"
         },
         "paper-police": {
-          "score": 45,
-          "review": "技术博客提及优化，但未见论文与独立评测，需开源代码验证。"
+          "score": 40,
+          "review": "公众号教程含实操细节，但无官方论文或代码链接，属经验分享。"
         },
         "pragmatic": {
           "score": 88,
-          "review": "vLLM支持AMD GPU推测解码，AMD用户今天就能提速推理任务。"
+          "review": "提供具体操作步骤和避坑指南，今天就能跟着教程上手实操。"
         }
       }
     },
     {
-      "story_id": "story_42766529966d",
-      "title": "腾讯混元Hy4 preview完成专项优化全量上线，任务轮次与token消耗显著降低",
-      "url": "https://www.aibase.com/news/30881",
+      "story_id": "story_77f905f90359",
+      "title": "ChatGPT Work 新增个人写作风格识别功能",
+      "url": "https://www.aibase.com/news/30888",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "‘显著降低’是跟自己比吧？具体降了多少、对比基准是啥，敢不敢亮出来？"
+          "score": 55,
+          "review": "识别风格听起来很酷，但没说清是套用模板还是真能学精髓。"
         },
         "paper-police": {
           "score": 15,
-          "review": "仅有官方新闻稿宣称性能提升，无论文、代码或第三方评测佐证。"
+          "review": "仅有媒体报道，无官方论文、代码或可复现的评测报告。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "API已全量上线，调用成本降低，新项目可以选用。"
+          "review": "ChatGPT Work已上线新功能，可训练模型模仿你的写作风格，直接提升输出一致性。"
         }
       }
     },
