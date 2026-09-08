@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T04:08:52.255176Z",
+  "generated_at": "2026-09-08T09:08:23.651918Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -37,42 +37,42 @@
       }
     },
     {
-      "story_id": "story_77f905f90359",
-      "title": "ChatGPT Work 新增个人写作风格识别功能",
-      "url": "https://www.aibase.com/news/30888",
+      "story_id": "story_89772b9cda52",
+      "title": "基于AMD GPU的vLLM中的推测性解码",
+      "url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 55,
-          "review": "识别风格听起来很酷，但没说清是套用模板还是真能学精髓。"
+          "score": 78,
+          "review": "AMD GPU终于能蹭上推测解码的热饭了，但实测性能提升和兼容性才是硬道理。"
         },
         "paper-police": {
-          "score": 15,
-          "review": "仅有媒体报道，无官方论文、代码或可复现的评测报告。"
+          "score": 45,
+          "review": "技术博客有细节，但缺论文与开源代码，无法独立验证性能。"
         },
         "pragmatic": {
-          "score": 85,
-          "review": "ChatGPT Work已上线新功能，可训练模型模仿你的写作风格，直接提升输出一致性。"
+          "score": 82,
+          "review": "AMD GPU用户现在能用vLLM加速推理，直接提升部署效率。"
         }
       }
     },
     {
-      "story_id": "story_6b1b1f939962",
-      "title": "Show HN: Engrim – A universal, local-first SQLite memory engine for AI CLIs",
-      "url": "https://news.ycombinator.com/item?id=49594008",
+      "story_id": "story_2a18f45ec375",
+      "title": "ChatGPT Work 迎来重磅升级：精准克隆个人写作风格",
+      "url": "https://www.aibase.com/news/30905",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "本地优先是亮点，但‘通用’和‘引擎’这俩词，水分得先挤挤。"
+          "score": 55,
+          "review": "克隆写作风格？先说说对多少篇样本、哪种文体有效，别又是特定场景的魔术。"
         },
         "paper-police": {
-          "score": 65,
-          "review": "有开源代码和项目描述，但缺乏独立的性能评测或论文验证。"
+          "score": 15,
+          "review": "仅一篇行业报道，无论文、代码或可验证的基准测试。"
         },
         "pragmatic": {
-          "score": 85,
-          "review": "开源工具已发布，本地AI CLI项目可直接集成，管理向量数据更简单。"
+          "score": 75,
+          "review": "写作助手功能增强，需要调教但能提升内容产出效率。"
         }
       }
     }
