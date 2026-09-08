@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T09:08:23.651918Z",
+  "generated_at": "2026-09-08T15:09:03.297943Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -37,42 +37,42 @@
       }
     },
     {
-      "story_id": "story_89772b9cda52",
-      "title": "基于AMD GPU的vLLM中的推测性解码",
-      "url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus",
+      "story_id": "story_be047988843b",
+      "title": "The Work Now Within Reach",
+      "url": "https://openai.com/index/the-work-now-within-reach",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 78,
-          "review": "AMD GPU终于能蹭上推测解码的热饭了，但实测性能提升和兼容性才是硬道理。"
+          "score": 75,
+          "review": "又是‘赋能’叙事，具体能做什么、成本多高、限制在哪？请展开说说。"
         },
         "paper-police": {
-          "score": 45,
-          "review": "技术博客有细节，但缺论文与开源代码，无法独立验证性能。"
+          "score": 15,
+          "review": "官方博客宣称能力提升，但无论文、代码或公开评测报告佐证。"
         },
         "pragmatic": {
-          "score": 82,
-          "review": "AMD GPU用户现在能用vLLM加速推理，直接提升部署效率。"
+          "score": 85,
+          "review": "OpenAI发布新模型或能力，开发者现在就能接入API使用。"
         }
       }
     },
     {
-      "story_id": "story_2a18f45ec375",
-      "title": "ChatGPT Work 迎来重磅升级：精准克隆个人写作风格",
-      "url": "https://www.aibase.com/news/30905",
+      "story_id": "story_613d849d5200",
+      "title": "DeepSeek V4.1-Flash内测：更强的视觉智能，更极致的速度与成本",
+      "url": "https://www.aibase.com/news/30911",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 55,
-          "review": "克隆写作风格？先说说对多少篇样本、哪种文体有效，别又是特定场景的魔术。"
+          "score": 65,
+          "review": "“更强”、“极致”都是好词，但内测数据和对比基线在哪？先亮出来看看。"
         },
         "paper-police": {
           "score": 15,
-          "review": "仅一篇行业报道，无论文、代码或可验证的基准测试。"
+          "review": "仅有媒体新闻稿宣称性能，无论文、代码或公开评测报告。"
         },
         "pragmatic": {
-          "score": 75,
-          "review": "写作助手功能增强，需要调教但能提升内容产出效率。"
+          "score": 85,
+          "review": "新模型内测开放，开发者可申请体验，关注视觉任务性能提升。"
         }
       }
     }
