@@ -1,42 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_44ee19ab3371|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "讲团队用AI的观察报告，没具体工具，选型参考可以扫一眼。",
-      "title_hash": "b785ab25",
-      "scored_at": "2026-08-19T09:55:06.194077Z"
-    },
-    "story_9d19a0dc02ff|pragmatic|0a5c5b24": {
-      "score": 65,
-      "review": "客服系统开发需关注国标，9月前有缓冲期可自查。",
-      "title_hash": "9b3634a2",
-      "scored_at": "2026-08-19T10:53:57.198590Z"
-    },
-    "story_8b228c716737|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "运动垂类模型备案通过，但未开放API，普通开发者用不上。",
-      "title_hash": "98530adc",
-      "scored_at": "2026-08-19T10:54:00.247086Z"
-    },
-    "story_be580d9263f2|pragmatic|0a5c5b24": {
-      "score": 82,
-      "review": "Q4量化检查点可直接用，精度损失小，适合边缘部署，省内存的今天就能试。",
-      "title_hash": "6b6ba3f7",
-      "scored_at": "2026-08-19T14:58:00.147116Z"
-    },
-    "story_24b8f639b701|pragmatic|0a5c5b24": {
-      "score": 78,
-      "review": "GitHub 官方功能，能直接看组织仓库质量趋势，适合团队管理员日常监控。",
-      "title_hash": "4e581a5e",
-      "scored_at": "2026-08-19T14:03:36.438834Z"
-    },
-    "story_ea98d8ec85c1|pragmatic|0a5c5b24": {
-      "score": 78,
-      "review": "可视化模型结构，调试和讲原理能用上，但非日常刚需。",
-      "title_hash": "8b1bea0e",
-      "scored_at": "2026-08-19T14:58:02.148674Z"
-    },
     "story_fe9df585279b|pragmatic|0a5c5b24": {
       "score": 72,
       "review": "看是否开放 API，能直接用才有价值，先观望。",
@@ -3974,10 +3938,10 @@
       "scored_at": "2026-09-09T04:06:56.844327Z"
     },
     "story_6c71d9371c7c|pragmatic|0a5c5b24": {
-      "score": 10,
-      "review": "量子计算实验离日常开发太远，目前没实际用处。",
-      "title_hash": "e1d1db2d",
-      "scored_at": "2026-09-09T04:07:00.147355Z"
+      "score": 15,
+      "review": "旧闻包装，Codex项目已停止，对当前工作无实际帮助。",
+      "title_hash": "00f4b4bf",
+      "scored_at": "2026-09-09T15:06:37.591457Z"
     },
     "story_8cad3bc87ed3|pragmatic|0a5c5b24": {
       "score": 85,
@@ -4092,6 +4056,66 @@
       "review": "旧闻披露，不涉及具体技术或产品，对开发者日常工作无直接影响。",
       "title_hash": "7830da32",
       "scored_at": "2026-09-09T09:07:03.962360Z"
+    },
+    "story_fee049a1c565|pragmatic|0a5c5b24": {
+      "score": 88,
+      "review": "GitHub 官方推出代码质量自动修复代理，今天就能在项目里用。",
+      "title_hash": "785ec0c0",
+      "scored_at": "2026-09-09T15:06:46.534941Z"
+    },
+    "story_068c3c65edc6|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "学术伦理争议，不影响今天调用API或使用模型。",
+      "title_hash": "d376f9b6",
+      "scored_at": "2026-09-09T15:06:49.437280Z"
+    },
+    "story_e9165c96a062|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "学术界的优先权争议，不影响你今天调用任何API。",
+      "title_hash": "3d247c2d",
+      "scored_at": "2026-09-09T15:06:54.084648Z"
+    },
+    "story_406d0c1436b1|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "地缘政治指控，对开发者日常选型和使用暂无直接影响。",
+      "title_hash": "926f6412",
+      "scored_at": "2026-09-09T15:06:58.182656Z"
+    },
+    "story_b5338694e8b0|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "专家观点，了解AI数学推理的现状和局限，但今天干活用不上。",
+      "title_hash": "5972de80",
+      "scored_at": "2026-09-09T15:07:01.861711Z"
+    },
+    "story_817352332488|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "行业活动预告，对开发者日常工作无直接影响，了解即可。",
+      "title_hash": "f60cffc4",
+      "scored_at": "2026-09-09T15:07:18.082404Z"
+    },
+    "story_1e0e5586f10e|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "一份宏观研究报告，对开发者日常选型或编码没有直接影响。",
+      "title_hash": "aac70c64",
+      "scored_at": "2026-09-09T15:07:21.232018Z"
+    },
+    "story_21118e655f54|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "行业会议前瞻，没有具体产品或工具发布，与当前开发无关。",
+      "title_hash": "2b744eb3",
+      "scored_at": "2026-09-09T15:07:23.981430Z"
+    },
+    "story_fee049a1c565|cynic|f4237a62": {
+      "score": 65,
+      "review": "又是‘Agentic’这词，不就是高级点的自动修复？看实际修复率和引入新bug的概率吧。",
+      "title_hash": "785ec0c0",
+      "scored_at": "2026-09-09T15:07:35.611623Z"
+    },
+    "story_fee049a1c565|paper-police|966065bf": {
+      "score": 45,
+      "review": "官方博客提供了功能细节，但无独立论文、代码或第三方评测验证其效果。",
+      "title_hash": "785ec0c0",
+      "scored_at": "2026-09-09T15:07:39.233416Z"
     }
   }
 }

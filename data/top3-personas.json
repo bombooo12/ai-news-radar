@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T09:07:03.962544Z",
+  "generated_at": "2026-09-09T15:07:39.233506Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,10 +17,30 @@
   ],
   "items": [
     {
+      "story_id": "story_fee049a1c565",
+      "title": "Remediate Code Quality findings with agentic autofix",
+      "url": "https://github.blog/changelog/2026-09-09-remediate-code-quality-findings-with-agentic-autofix",
+      "rank": 1,
+      "reviews": {
+        "cynic": {
+          "score": 65,
+          "review": "又是‘Agentic’这词，不就是高级点的自动修复？看实际修复率和引入新bug的概率吧。"
+        },
+        "paper-police": {
+          "score": 45,
+          "review": "官方博客提供了功能细节，但无独立论文、代码或第三方评测验证其效果。"
+        },
+        "pragmatic": {
+          "score": 88,
+          "review": "GitHub 官方推出代码质量自动修复代理，今天就能在项目里用。"
+        }
+      }
+    },
+    {
       "story_id": "story_8876e98eb3be",
       "title": "Enterprise-managed sandbox in Copilot for JetBrains",
       "url": "https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains",
-      "rank": 1,
+      "rank": 2,
       "reviews": {
         "cynic": {
           "score": 75,
@@ -33,26 +53,6 @@
         "pragmatic": {
           "score": 85,
           "review": "企业版IDE插件新增沙盒功能，用公司代码训练时安全性有保障了。"
-        }
-      }
-    },
-    {
-      "story_id": "story_16900b8aedbb",
-      "title": "OpenAI 发布 ChatGPT Images 2.5 图像模型 / Introducing ChatGPT Images 2.5",
-      "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 65,
-          "review": "版本号从2跳到2.5，这0.5的进步是挤牙膏还是真优化？等实测。"
-        },
-        "paper-police": {
-          "score": 15,
-          "review": "仅有官方博客宣称，无论文、代码或独立评测可查证。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "新图像模型已上线，做文生图的今天就能去API或ChatGPT里试用。"
         }
       }
     },
