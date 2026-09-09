@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T15:09:03.297943Z",
+  "generated_at": "2026-09-09T04:08:15.295506Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_f0b41f3df1cc",
-      "title": "GPT-6 Astra操控Blender保姆级教程：三种玩法与踩坑实录",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686056&idx=1&sn=c1710404c08cf3201da27f4d53f94940",
+      "story_id": "story_8876e98eb3be",
+      "title": "Enterprise-managed sandbox in Copilot for JetBrains",
+      "url": "https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "教程是干货，但标题蹭GPT-6热度，实际用的还是GPT-4吧？"
-        },
-        "paper-police": {
-          "score": 40,
-          "review": "公众号教程含实操细节，但无官方论文或代码链接，属经验分享。"
-        },
-        "pragmatic": {
-          "score": 88,
-          "review": "提供具体操作步骤和避坑指南，今天就能跟着教程上手实操。"
-        }
-      }
-    },
-    {
-      "story_id": "story_be047988843b",
-      "title": "The Work Now Within Reach",
-      "url": "https://openai.com/index/the-work-now-within-reach",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
           "score": 75,
-          "review": "又是‘赋能’叙事，具体能做什么、成本多高、限制在哪？请展开说说。"
+          "review": "给企业加个安全沙盒，功能实在但宣传得像是重大突破，老功能新包装罢了。"
         },
         "paper-police": {
           "score": 15,
-          "review": "官方博客宣称能力提升，但无论文、代码或公开评测报告佐证。"
+          "review": "官方博客仅宣布功能，无论文、代码或独立性能评测。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "OpenAI发布新模型或能力，开发者现在就能接入API使用。"
+          "review": "企业版IDE插件新增沙盒功能，用公司代码训练时安全性有保障了。"
         }
       }
     },
     {
-      "story_id": "story_613d849d5200",
-      "title": "DeepSeek V4.1-Flash内测：更强的视觉智能，更极致的速度与成本",
-      "url": "https://www.aibase.com/news/30911",
+      "story_id": "story_16900b8aedbb",
+      "title": "OpenAI 发布 ChatGPT Images 2.5 图像模型 / Introducing ChatGPT Images 2.5",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "rank": 2,
+      "reviews": {
+        "cynic": {
+          "score": 65,
+          "review": "版本号从2跳到2.5，这0.5的进步是挤牙膏还是真优化？等实测。"
+        },
+        "paper-police": {
+          "score": 15,
+          "review": "仅有官方博客宣称，无论文、代码或独立评测可查证。"
+        },
+        "pragmatic": {
+          "score": 85,
+          "review": "新图像模型已上线，做文生图的今天就能去API或ChatGPT里试用。"
+        }
+      }
+    },
+    {
+      "story_id": "story_d7d617c533bb",
+      "title": "Anthropic 讲解用 Claude Platform 降低成本并提升性能的三个方法 / https://x.com/i/article/2095208140753317888",
+      "url": "https://x.com/ClaudeDevs/status/2097369738968195513",
       "rank": 3,
       "reviews": {
         "cynic": {
           "score": 65,
-          "review": "“更强”、“极致”都是好词，但内测数据和对比基线在哪？先亮出来看看。"
+          "review": "官方教你省钱，潜台词是默认你之前花了不少冤枉钱。"
         },
         "paper-police": {
-          "score": 15,
-          "review": "仅有媒体新闻稿宣称性能，无论文、代码或公开评测报告。"
+          "score": 45,
+          "review": "官方博客提供了方法说明，但缺乏独立、可复现的性能基准数据。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "新模型内测开放，开发者可申请体验，关注视觉任务性能提升。"
+          "review": "官方给出具体优化技巧，直接调整调用方式就能省钱提效。"
         }
       }
     }

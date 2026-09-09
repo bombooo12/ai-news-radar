@@ -1,22 +1,22 @@
 {
-  "date": "2026-09-08",
+  "date": "2026-09-09",
   "recommendations": [
     {
       "rank": 1,
-      "title": "GPT-6 Astra 零失误通关人机验证，AI 已彻底击碎验证码？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、关注AI前沿的普通用户",
-      "reason": "GPT-6 Astra 刷屏，反常识性强，用户对新技术好奇，且可延伸出安全、验证码失效等话题。",
+      "title": "Runway 发布 Adobe 插件：Premiere Pro 里直接生成视频，剪辑师要失业了？",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "AI初学者、视频剪辑爱好者、自媒体创作者",
+      "reason": "Runway 插件直击视频创作者痛点，实操性强，且与创作者视频剪辑能力高度匹配。",
       "source_items": [
-        "AI彻底击碎“人机验证”：GPT-6 Astra零失误通关48个游戏关卡",
-        "GPT-6 Astra 刷屏，日本 AI 教授点赞梁文锋：这才是 AGI 之路",
-        "OpenAI 详解 GPT-Live 架构如何实现了连续的有状态语音交互"
+        "Runway 发布 Adobe 插件，可在 Premiere Pro 和 After Effects 内直接生成与编辑",
+        "Runway ARR 突破 2 亿美元：视频热潮退去，公司押注世界模型",
+        "Adobe is trying to make its AI generators idiot-proof in Premiere"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/30887",
-        "https://www.aibase.com/news/30886",
-        "https://www.infoq.cn/article/rdESg5icYIZ71J7xb69K"
+        "https://runwayml.com/news/company-news/runway-for-adobe",
+        "https://www.aibase.com/news/30917",
+        "https://www.theverge.com/tech/991133/adobe-is-trying-to-make-its-ai-generators-idiot-proof-in-premiere"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -24,13 +24,14 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "还在手动输入验证码？GPT-6 Astra 教你如何自动通关",
-          "summary": "教用户如何利用 GPT-6 Astra 的视觉能力自动识别并解决常见验证码，提升效率。",
+          "format": "视频",
+          "hook": "Premiere 里直接生成视频？Runway 插件保姆级教程，30分钟上手",
+          "summary": "教用户如何在 Premiere Pro 中安装并使用 Runway 插件，实现 AI 视频生成与编辑。",
           "key_points": [
-            "了解 GPT-6 Astra 的视觉识别能力",
-            "配置 API 并编写简单的自动化脚本",
-            "测试不同验证码类型（滑块、图形、文字）的通过率"
+            "插件安装与配置步骤",
+            "在时间线上直接生成视频片段",
+            "利用文本提示词编辑现有素材",
+            "与 After Effects 的联动技巧"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -38,13 +39,14 @@
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "短视频",
-          "hook": "验证码已失效？小心你的账号安全！AI 时代验证码避坑指南",
-          "summary": "指出验证码被 AI 破解后，普通用户可能面临的安全风险，并给出保护账号的建议。",
+          "format": "图文",
+          "hook": "Runway 插件别急着装！这5个坑踩了白花钱",
+          "summary": "指出使用 Runway 插件时的常见问题，如版权风险、生成质量不稳定、订阅费用陷阱等。",
           "pitfalls": [
-            "依赖验证码作为唯一安全防线，账号易被盗",
-            "使用 AI 自动破解验证码可能违反平台规则",
-            "忽略双因素认证，安全风险倍增"
+            "生成内容版权归属不明确，商用需谨慎",
+            "插件对硬件要求高，低配电脑容易崩溃",
+            "订阅制陷阱：免费试用后自动扣费",
+            "生成视频分辨率限制，导出可能模糊"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -53,12 +55,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "验证码已死？GPT-6 Astra 背后的 AI 安全博弈",
-          "summary": "分析 AI 攻破验证码对网络安全、身份认证行业的深远影响，以及未来的替代方案。",
+          "hook": "Runway 押注世界模型，视频生成行业要变天了？",
+          "summary": "分析 Runway 从视频生成工具转向世界模型的战略布局，以及对内容创作行业的影响。",
           "insights": [
-            "验证码作为图灵测试的终结，推动新的身份验证技术",
-            "AI 与安全攻防的军备竞赛将加速",
-            "对普通用户而言，安全意识需要升级"
+            "Runway ARR 突破2亿美元，但视频热潮退去，世界模型是下一个风口",
+            "与 Adobe 合作是生态整合，还是被收编？",
+            "AI 视频生成将如何改变影视制作流程？"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -67,48 +69,50 @@
     },
     {
       "rank": 2,
-      "title": "微信开源 WeMM-Embedding 多模态大模型：国产 AI 的逆袭？",
+      "title": "OpenAI 1万智能体攻克千禧年难题：AI 科研时代来了，普通人如何抓住机会？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、对国产AI感兴趣的开发者",
-      "reason": "微信开源多模态模型，相关度高，且用户历史偏好反常识内容，国产模型碾压国际榜单有话题性。",
+      "target_audience": "AI初学者、科技爱好者、副业变现人群",
+      "reason": "OpenAI 智能体协同攻克数学难题，话题性强，易引发讨论，且与创作者关注的 Agent 方向契合。",
       "source_items": [
-        "每日调用量破 10 亿次！微信开源 WeMM-Embedding 多模态大模型，全面领跑国际权威榜单",
-        "Anthropic与OpenAI谋求上市即获投资级评级",
-        "ChatGPT Work 迎来重磅升级：精准克隆个人写作风格"
+        "10000 个 AI 智能体跑 88 小时，OpenAI 宣布攻克千禧年大奖难题，陶哲轩既点赞又担忧",
+        "OpenAI 秘密王牌曝光：1万名 AI 智能体协同作战，88小时暴力攻克千禧年数学难题",
+        "Emad Mostaque 称 OpenAI 智能体求解 Navier-Stokes 千禧年难题是迈向 ASI 的里程碑"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/30896",
-        "https://36kr.com/newsflashes/3974703689068805?f=rss",
-        "https://www.aibase.com/news/30905"
+        "https://www.aibase.com/news/30914",
+        "https://www.aibase.com/news/30919",
+        "https://x.com/EMostaque/status/2097378223138959719"
       ],
-      "urgency": "medium",
+      "urgency": "high",
       "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "5 分钟上手微信开源 WeMM-Embedding，轻松实现多模态搜索",
-          "summary": "教初学者如何下载、部署并使用 WeMM-Embedding 进行图文检索等简单任务。",
+          "hook": "1万智能体协同作战？手把手教你用 Agent 解决复杂问题",
+          "summary": "以 OpenAI 案例为引，教初学者如何用多智能体框架（如 AutoGen、CrewAI）解决实际问题。",
           "key_points": [
-            "获取模型和运行环境",
-            "编写 Python 调用示例",
-            "实现一个简单的图文匹配应用"
+            "理解多智能体协作的基本概念",
+            "搭建简单的多智能体系统（以 AutoGen 为例）",
+            "分配任务角色与协作流程",
+            "实际案例：用多智能体完成市场调研报告"
           ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "difficulty": "中级",
+          "estimated_time": "1小时"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "国产大模型开源，别急着用！这些坑你必须知道",
-          "summary": "提醒用户使用开源模型时常见的坑，如硬件要求、数据隐私、版本兼容性等。",
+          "hook": "AI 智能体很强大？但这些坑让你血本无归",
+          "summary": "提醒用户在使用 AI 智能体时的常见误区，如过度依赖、成本失控、安全风险等。",
           "pitfalls": [
-            "模型体积大，本地部署需高性能 GPU",
-            "开源协议限制，商用需谨慎",
-            "中文语料有偏差，需微调才能达到最佳效果"
+            "智能体生成结果不可靠，需人工验证",
+            "多智能体协作成本高，API 费用失控",
+            "安全风险：智能体可能被提示词注入攻击",
+            "盲目跟风，实际业务场景不适用"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -117,12 +121,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "微信开源多模态模型，国产 AI 能否弯道超车？",
-          "summary": "分析微信开源背后的战略意图，以及国产 AI 与国际巨头的竞争格局。",
+          "hook": "AI 攻克千禧年难题：是科研革命，还是人类自掘坟墓？",
+          "summary": "探讨 AI 在科学研究中的角色，分析其对科研生态、人类智力价值的影响。",
           "insights": [
-            "微信生态数据优势，模型更懂中文场景",
-            "开源策略意在建立开发者生态",
-            "国产 AI 在垂直领域有望突破"
+            "AI 智能体协同是科研新范式，但人类创造力仍不可替代",
+            "陶哲轩的担忧：AI 可能让数学研究失去意义？",
+            "从科研到商业：AI 智能体将如何改变知识工作？"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -131,212 +135,18 @@
     },
     {
       "rank": 3,
-      "title": "ChatGPT Work 重磅升级：精准克隆你的写作风格，效率翻倍！",
+      "title": "ChatGPT Images 2.5 实测：草图秒变精美图片，设计师要慌了？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "自媒体创作者、文案工作者、AI初学者",
-      "reason": "ChatGPT Work 升级与创作者日常工作强相关，实操性强，且容易引发用户尝试。",
+      "target_audience": "AI初学者、设计师、自媒体创作者",
+      "reason": "OpenAI 新模型发布，实操性强，用户关注度高，且与创作者关注的 AI 工具测评方向一致。",
       "source_items": [
-        "ChatGPT Work 迎来重磅升级：精准克隆个人写作风格",
-        "ChatGPT Work 新增个人写作风格识别功能",
-        "OpenAI 详解 GPT-Live 架构如何实现了连续的有状态语音交互"
+        "OpenAI 推出 ChatGPT Images 2.5，延迟砍半并解锁草图微调",
+        "OpenAI 上线 GPT Image 2.5，作者实测新版与 image2 的生图差异"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/30905",
-        "https://www.aibase.com/news/30888",
-        "https://www.infoq.cn/article/rdESg5icYIZ71J7xb69K"
-      ],
-      "urgency": "high",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "让 AI 模仿你的文风：ChatGPT Work 写作风格克隆教程",
-          "summary": "一步步教用户如何设置和使用 ChatGPT Work 的写作风格克隆功能，提升创作效率。",
-          "key_points": [
-            "进入 ChatGPT Work 设置界面",
-            "上传历史文章作为风格样本",
-            "测试生成效果并调整参数"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "短视频",
-          "hook": "AI 克隆你的文风？小心版权和隐私风险！",
-          "summary": "提醒用户使用写作风格克隆时可能遇到的版权、隐私问题，以及如何规避。",
-          "pitfalls": [
-            "上传的样本可能包含敏感信息",
-            "克隆风格可能涉及版权侵权",
-            "过度依赖 AI 导致创作同质化"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "AI 写作风格克隆：是创作利器还是创意杀手？",
-          "summary": "探讨 AI 写作风格克隆对内容创作生态的影响，以及创作者如何应对。",
-          "insights": [
-            "个性化 AI 助手将成趋势",
-            "创作者需建立独特风格以保持竞争力",
-            "AI 辅助创作与原创的边界将模糊"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "title": "Meta 智能体 Muse 开启封闭测试：AI 管家真的来了？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、科技爱好者、效率控",
-      "reason": "Meta 智能体 Muse 跨应用管理财务，与用户副业变现、效率提升需求契合，且新工具容易引发好奇。",
-      "source_items": [
-        "Meta智能体AI“Muse”开启封闭测试 支持跨应用与个人财务管理",
-        "Building Production-Ready AI: Agentic Systems, RAG & Responsible AI",
-        "OpenAI 详解 GPT-Live 架构如何实现了连续的有状态语音交互"
-      ],
-      "source_urls": [
-        "https://www.aibase.com/news/30902",
-        "https://www.meetup.com/pydata_seattle/events/316322058",
-        "https://www.infoq.cn/article/rdESg5icYIZ71J7xb69K"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "抢先体验 Meta Muse：如何申请内测并设置你的 AI 助手",
-          "summary": "教用户如何申请 Muse 内测资格，并完成基础设置，体验跨应用管理。",
-          "key_points": [
-            "申请 Muse 内测资格",
-            "连接常用应用（如邮箱、日历、银行）",
-            "设置财务提醒和任务自动化"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "短视频",
-          "hook": "AI 管家帮你管钱？这些隐私风险你必须知道",
-          "summary": "提醒用户使用跨应用智能体时，注意数据安全和隐私泄露风险。",
-          "pitfalls": [
-            "连接银行账户可能泄露财务数据",
-            "智能体权限过大，可能被恶意利用",
-            "封闭测试阶段稳定性差，可能丢失数据"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "Meta Muse 开启 AI 智能体新纪元：个人数字管家的未来",
-          "summary": "分析 Muse 对个人效率、隐私保护、AI 生态的影响，以及智能体发展的趋势。",
-          "insights": [
-            "智能体将成个人数字生活的中心",
-            "隐私与便利的平衡是最大挑战",
-            "Meta 布局 AI 生态，与 OpenAI 竞争加剧"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "title": "可灵 AI 亮相多伦多电影节：AI 视频创作的新高度？",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "视频创作者、AI工具爱好者、影视从业者",
-      "reason": "可灵 AI 参展国际电影节，与用户视频剪辑能力契合，且 AI 视频是热门赛道，容易引发讨论。",
-      "source_items": [
-        "可灵AI正式官宣亮相2026多伦多国际电影节市场",
-        "AI Filmmaking Masterclass + Hackathon",
-        "Adobe is trying to make its AI generators idiot-proof in Premiere"
-      ],
-      "source_urls": [
-        "https://www.aibase.com/news/30900",
-        "https://lu.ma/pw54q8np",
-        "https://www.theverge.com/tech/991133/adobe-is-trying-to-make-its-ai-generators-idiot-proof-in-premiere"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "视频",
-          "hook": "用可灵 AI 制作电影感短片：从提示词到成片全流程",
-          "summary": "教用户如何使用可灵 AI 生成高质量视频素材，并结合剪映进行后期包装。",
-          "key_points": [
-            "掌握可灵 AI 的提示词技巧",
-            "生成不同风格的视频片段",
-            "在剪映中剪辑、调色、加特效"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI 视频生成，别踩这些坑！可灵 AI 使用避坑指南",
-          "summary": "总结 AI 视频生成中的常见问题，如版权、内容质量、平台限制等。",
-          "pitfalls": [
-            "生成内容可能涉及版权争议",
-            "视频质量不稳定，需多次尝试",
-            "平台对 AI 生成内容的审核严格"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "可灵 AI 登上国际电影节，中国 AI 视频的崛起之路",
-          "summary": "分析可灵 AI 亮相多伦多电影节的意义，以及中国 AI 视频工具在国际市场的竞争力。",
-          "insights": [
-            "中国 AI 视频工具已具备国际竞争力",
-            "AI 视频将改变影视制作流程",
-            "创作者需适应 AI 辅助创作的新模式"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "title": "Adobe Premiere 推出 AI 生成器：剪辑新手也能秒变大神？",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "视频剪辑初学者、自媒体创作者",
-      "reason": "Adobe 在 Premiere 中集成 AI 生成器，与用户视频剪辑技能直接相关，且对初学者友好，容易传播。",
-      "source_items": [
-        "Adobe is trying to make its AI generators idiot-proof in Premiere",
-        "可灵AI正式官宣亮相2026多伦多国际电影节市场",
-        "AI Filmmaking Masterclass + Hackathon"
-      ],
-      "source_urls": [
-        "https://www.theverge.com/tech/991133/adobe-is-trying-to-make-its-ai-generators-idiot-proof-in-premiere",
-        "https://www.aibase.com/news/30900",
-        "https://lu.ma/pw54q8np"
+        "https://www.aibase.com/news/30912",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247510824&idx=1&sn=025a8b7c5fec54d8a00c8632f55f8d98"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -345,26 +155,28 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "视频",
-          "hook": "Premiere 新 AI 功能实测：一句话生成视频素材，剪辑效率翻倍",
-          "summary": "演示 Premiere 新增的 AI 生成功能，教用户如何快速生成视频片段和特效。",
+          "hook": "ChatGPT Images 2.5 保姆级教程：草图秒变大片，小白也能上手",
+          "summary": "演示如何使用 ChatGPT Images 2.5 从草图生成高质量图片，包括提示词技巧和微调方法。",
           "key_points": [
-            "找到 AI 生成功能的入口",
-            "输入描述生成视频素材",
-            "将 AI 素材融入剪辑流程"
+            "进入 ChatGPT Images 2.5 界面",
+            "上传草图并撰写提示词",
+            "利用微调功能调整细节",
+            "导出高清图片的技巧"
           ],
           "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "Premiere AI 生成器，别高兴太早！这些限制你知道吗",
-          "summary": "指出 Premiere AI 生成器的局限性，如生成质量、版权、性能要求等。",
+          "hook": "ChatGPT Images 2.5 生成图片，这3个坑别踩！",
+          "summary": "指出使用新模型时的常见问题，如版权风险、生成内容不当、付费陷阱等。",
           "pitfalls": [
-            "生成内容可能不满足专业需求",
-            "需要高性能电脑才能流畅运行",
-            "AI 生成素材的版权归属不明确"
+            "生成图片可能包含版权元素，商用需谨慎",
+            "草图微调功能可能过度修改，失去原意",
+            "免费额度有限，注意用量",
+            "生成速度提升但质量不稳定，需多次尝试"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -373,12 +185,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "Adobe 拥抱 AI，视频剪辑行业的未来将走向何方？",
-          "summary": "分析 Adobe 集成 AI 对视频剪辑行业的影响，以及创作者如何适应变化。",
+          "hook": "ChatGPT Images 2.5 发布，AI 生图进入'草图时代'，设计师何去何从？",
+          "summary": "分析 AI 生图技术的演进趋势，以及对设计行业就业市场的影响。",
           "insights": [
-            "AI 将降低视频创作门槛",
-            "传统剪辑师需要转型",
-            "AI 与人工协作是未来趋势"
+            "从文本到草图，AI 生图越来越贴近创作流程",
+            "AI 工具降低设计门槛，但创意和审美仍是人类优势",
+            "设计师如何利用 AI 工具提升效率而非被替代？"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -386,21 +198,17 @@
       ]
     },
     {
-      "rank": 7,
-      "title": "Instagram 用户遭假版权索赔勒索：创作者如何保护自己？",
-      "track": "trademark",
-      "track_name": "商标/IP/创业",
-      "target_audience": "自媒体创作者、小微企业主、Instagram用户",
-      "reason": "假版权勒索事件与创作者利益直接相关，且能结合商标代理业务引流，实用性强。",
+      "rank": 4,
+      "title": "DaVinci Resolve 21.1 接入 Claude Code 和 ChatGPT Codex：剪辑师的 AI 外挂来了",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "视频剪辑师、自媒体创作者、AI工具爱好者",
+      "reason": "与创作者使用的 DaVinci 剪辑工具直接相关，实操性强，且能展示 AI 与剪辑工作流的结合。",
       "source_items": [
-        "Scammers demand ransoms from Instagram users over fake copyright claims",
-        "Türkiye: Rights holders not liable for customs storage of criminally seized counterfeits",
-        "Behind the case:  IKEA furnishes favourable CJEU decision in political TM dispute"
+        "达芬奇 DaVinci Resolve 21.1 发布：接入 Claude Code 与 ChatGPT Codex"
       ],
       "source_urls": [
-        "https://www.bbc.co.uk/news/articles/cjw54ww73qjo?at_medium=RSS&at_campaign=rss",
-        "https://www.managingip.com/article/2gvaxywqvm5rybw0xiygw/sponsored-content/turkiye-rights-holders-not-liable-for-customs-storage-of-criminally-seized-counterfeits",
-        "https://www.managingip.com/article/2gv9m9wg0h72goscdisxs/trademarks/behind-the-case-ikea-furnishes-favourable-cjeu-decision-in-political-tm-dispute"
+        "https://www.aibase.com/news/30920"
       ],
       "urgency": "high",
       "viral_potential": "medium",
@@ -408,27 +216,29 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "收到假版权索赔？三步教你识别并反击勒索",
-          "summary": "教创作者如何识别虚假版权索赔，并采取正确的应对措施，保护自己的账号和权益。",
+          "format": "视频",
+          "hook": "DaVinci Resolve 21.1 新功能实测：用 AI 写剪辑脚本，效率翻倍",
+          "summary": "演示如何在 DaVinci Resolve 21.1 中调用 Claude Code 和 ChatGPT Codex 辅助剪辑，如自动生成字幕、剪辑建议等。",
           "key_points": [
-            "核实索赔方的真实身份",
-            "了解平台版权申诉流程",
-            "保留证据并报警或咨询专业人士"
+            "更新到 DaVinci Resolve 21.1",
+            "配置 AI 插件（Claude Code / ChatGPT Codex）",
+            "用 AI 生成剪辑脚本和分镜",
+            "利用 AI 自动识别场景并添加标记"
           ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "difficulty": "中级",
+          "estimated_time": "40分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "短视频",
-          "hook": "别被假版权勒索骗了！创作者必看的避坑指南",
-          "summary": "总结常见的版权勒索手段，提供预防措施，避免创作者上当受骗。",
+          "format": "图文",
+          "hook": "DaVinci Resolve 21.1 接入 AI，这3个坑别踩！",
+          "summary": "提醒用户在使用 AI 辅助剪辑时的注意事项，如隐私泄露、生成内容版权、软件稳定性等。",
           "pitfalls": [
-            "不要轻易点击可疑链接或支付赎金",
-            "定期备份内容，防止被删除",
-            "了解平台政策，及时申诉"
+            "AI 生成内容可能包含版权素材，商用需谨慎",
+            "插件需要网络连接，可能泄露项目隐私",
+            "AI 建议不一定准确，需人工审核",
+            "新版本可能不稳定，注意备份项目"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -437,12 +247,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "假版权索赔背后的黑色产业链，创作者如何自保？",
-          "summary": "深入分析假版权勒索的产业链，探讨平台、法律和创作者三方如何共同应对。",
+          "hook": "剪辑软件接入 AI 编程助手，视频创作进入'人机协作'新时代",
+          "summary": "分析 AI 编程助手进入剪辑软件的意义，探讨未来视频创作流程的变革。",
           "insights": [
-            "版权保护机制存在漏洞",
-            "创作者法律意识需提高",
-            "平台需加强审核和申诉机制"
+            "AI 编程助手不只是写代码，还能理解剪辑逻辑",
+            "剪辑师的角色从操作者转向创意总监",
+            "AI 工具整合是趋势，但专业软件壁垒仍在"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -450,21 +260,17 @@
       ]
     },
     {
-      "rank": 8,
-      "title": "Anthropic 与 OpenAI 谋求上市：AI 巨头资本化将如何影响普通用户？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、科技投资者、关注AI趋势的普通用户",
-      "reason": "AI 巨头上市是重大行业事件，影响深远，且用户历史偏好深度解读，容易引发讨论。",
+      "rank": 5,
+      "title": "首部AIGC漫改武侠大片《山竹刀》上线：AI 如何颠覆影视行业？",
+      "track": "trademark",
+      "track_name": "商标/IP/创业",
+      "target_audience": "影视爱好者、AI创作者、小微企业主",
+      "reason": "AIGC 影视作品与创作者商标代理业务结合，可探讨 IP 保护，同时具有话题性。",
       "source_items": [
-        "Anthropic与OpenAI谋求上市即获投资级评级",
-        "OpenAI 详解 GPT-Live 架构如何实现了连续的有状态语音交互",
-        "GPT-6 Astra 刷屏，日本 AI 教授点赞梁文锋：这才是 AGI 之路"
+        "首部AIGC漫改武侠大片《山竹刀》全网独家上线：当AI技术碰撞东方美学"
       ],
       "source_urls": [
-        "https://36kr.com/newsflashes/3974703689068805?f=rss",
-        "https://www.infoq.cn/article/rdESg5icYIZ71J7xb69K",
-        "https://www.aibase.com/news/30886"
+        "https://www.aibase.com/news/30915"
       ],
       "urgency": "medium",
       "viral_potential": "medium",
@@ -473,26 +279,90 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "AI 巨头上市，普通人如何抓住投资机会？",
-          "summary": "介绍 AI 公司上市对普通投资者的影响，以及如何通过股票、基金等方式参与。",
+          "hook": "从《山竹刀》看 AIGC 电影制作流程：普通人也能拍大片？",
+          "summary": "拆解 AIGC 电影的制作流程，教用户如何用 AI 工具制作自己的短片。",
           "key_points": [
-            "了解 AI 公司上市的基本信息",
-            "评估投资风险与收益",
-            "选择适合自己的投资方式"
+            "剧本创作：用 ChatGPT 生成故事大纲",
+            "分镜设计：用 Midjourney 生成概念图",
+            "视频生成：用可灵或 Runway 生成动态画面",
+            "剪辑合成：用剪映或 DaVinci 完成后期"
           ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "difficulty": "中级",
+          "estimated_time": "1小时"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "短视频",
-          "hook": "AI 股票火热，别盲目跟风！投资 AI 的三大避坑法则",
-          "summary": "提醒投资者注意 AI 概念股的风险，避免盲目追高。",
+          "format": "图文",
+          "hook": "AIGC 创作热潮下，你的作品可能侵权！这3个坑必须知道",
+          "summary": "针对 AIGC 创作者，讲解版权和商标风险，如 AI 生成内容的版权归属、使用他人风格的风险等。",
           "pitfalls": [
-            "AI 公司估值过高，泡沫风险",
-            "技术迭代快，公司可能被淘汰",
-            "市场波动大，需长期持有"
+            "AI 生成内容版权归属不明确，可能不受保护",
+            "模仿他人风格可能构成侵权",
+            "使用 AI 工具生成的内容可能包含他人商标",
+            "AIGC 作品商用需谨慎，法律尚不完善"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "《山竹刀》上线，AIGC 电影是未来还是昙花一现？",
+          "summary": "分析 AIGC 电影的技术现状、市场前景，以及对传统影视行业的冲击。",
+          "insights": [
+            "AIGC 降低影视制作门槛，但艺术性仍是挑战",
+            "IP 保护成为 AIGC 行业发展的关键问题",
+            "AIGC 电影可能催生新的商业模式和平台"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "Claude 账号被盗刷？Anthropic 用户如何保护自己的 AI 账号安全",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI工具使用者、Claude用户、技术爱好者",
+      "reason": "账号安全问题具有普遍性，能引发用户共鸣，且提供实用避坑指南。",
+      "source_items": [
+        "你的 Claude 额度凭空蒸发了？Anthropic 证实账号被黑客盗用"
+      ],
+      "source_urls": [
+        "https://www.aibase.com/news/30916"
+      ],
+      "urgency": "high",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "Claude 账号安全设置指南：5步防止被盗刷",
+          "summary": "教用户如何设置强密码、开启双重验证、监控账号活动等。",
+          "key_points": [
+            "设置复杂密码并定期更换",
+            "开启双重验证（2FA）",
+            "检查账号登录设备",
+            "设置消费限额（如果有）"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "Claude 账号被盗刷？这些习惯让你成为黑客目标",
+          "summary": "指出导致账号被盗的常见坏习惯，如使用弱密码、在公共网络登录等。",
+          "pitfalls": [
+            "使用与其他网站相同的密码",
+            "点击钓鱼邮件中的链接",
+            "在公共 Wi-Fi 下登录账号",
+            "将 API 密钥泄露在公开代码库"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -501,12 +371,136 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "OpenAI 上市，AGI 之路的资本博弈",
-          "summary": "分析 OpenAI 和 Anthropic 上市背后的战略意图，以及对 AI 行业格局的影响。",
+          "hook": "AI 账号安全：为什么黑客盯上了你的 Claude 和 ChatGPT？",
+          "summary": "分析 AI 账号被盗的产业链，探讨 AI 服务商的安全责任和用户自我保护策略。",
           "insights": [
-            "资本化将加速 AI 技术商业化",
-            "AI 公司面临盈利压力",
-            "开源与闭源的路线之争将加剧"
+            "AI 账号成为黑客攻击目标，因为 API 额度可被转卖",
+            "Anthropic 等公司需要加强安全措施，但用户也要负责",
+            "AI 账号安全将成为新的网络安全细分领域"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "可灵AI亮相多伦多电影节：中国 AI 视频工具如何走向世界？",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "AI视频创作者、出海创业者、科技爱好者",
+      "reason": "可灵 AI 出海动态，结合中国 AI 工具国际化话题，具有传播潜力。",
+      "source_items": [
+        "可灵AI正式官宣亮相2026多伦多国际电影节市场"
+      ],
+      "source_urls": [
+        "https://www.aibase.com/news/30900"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "视频",
+          "hook": "用可灵 AI 制作电影级短片：从脚本到成片全流程",
+          "summary": "演示如何使用可灵 AI 生成高质量视频片段，并用于电影感短片创作。",
+          "key_points": [
+            "注册并熟悉可灵 AI 界面",
+            "用提示词生成视频片段",
+            "调整参数获得电影感效果",
+            "在剪映中合成完整短片"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "可灵 AI 生成视频，这3个坑让你白费功夫",
+          "summary": "指出使用可灵 AI 时的常见问题，如生成速度慢、内容限制、版权风险等。",
+          "pitfalls": [
+            "生成视频分辨率有限，高清需付费",
+            "内容审核严格，敏感词容易触发",
+            "生成结果不可控，需多次尝试",
+            "商用版权需确认，避免侵权"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "可灵 AI 亮相国际电影节，中国 AI 视频工具出海能成功吗？",
+          "summary": "分析中国 AI 视频工具的国际竞争力、市场策略和挑战。",
+          "insights": [
+            "可灵 AI 的技术实力已获国际认可",
+            "出海面临 Runway 等国际巨头的竞争",
+            "文化差异和本地化是出海关键"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "微信开源 WeMM-Embedding 多模态大模型：中小企业如何利用开源 AI 降本增效？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、技术创业者、中小企业主",
+      "reason": "微信开源模型，关注度高，且与创作者副业变现和商标代理业务相关，可提供商业应用思路。",
+      "source_items": [
+        "每日调用量破 10 亿次！微信开源 WeMM-Embedding 多模态大模型，全面领跑国际权威榜单"
+      ],
+      "source_urls": [
+        "https://www.aibase.com/news/30896"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "微信开源大模型怎么用？手把手教你部署 WeMM-Embedding",
+          "summary": "教初学者如何在自己的项目中集成 WeMM-Embedding 模型，实现文本和图像的特征提取。",
+          "key_points": [
+            "了解 WeMM-Embedding 的功能和应用场景",
+            "获取模型权重并部署到本地或云服务器",
+            "使用 Python 调用模型进行 embedding 计算",
+            "实际案例：搭建一个简单的语义搜索系统"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "开源大模型虽好，但部署前这3个坑必须知道",
+          "summary": "提醒用户在使用开源模型时的常见问题，如硬件要求、技术门槛、许可证限制等。",
+          "pitfalls": [
+            "模型体积大，需要高配置硬件",
+            "部署过程复杂，需要一定编程基础",
+            "开源许可证可能限制商用",
+            "模型更新快，需持续维护"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "微信开源大模型，是技术共享还是生态布局？",
+          "summary": "分析微信开源 WeMM-Embedding 的战略意图，以及对 AI 行业的影响。",
+          "insights": [
+            "微信开源是抢占 AI 生态入口",
+            "开源模型降低 AI 应用门槛，利好中小企业",
+            "国内大厂开源竞争加剧，技术壁垒逐渐消失"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -515,22 +509,22 @@
     }
   ],
   "weekly_plan": {
-    "monday": "GPT-6 Astra 零失误通关人机验证，AI 已彻底击碎验证码？",
-    "wednesday": "ChatGPT Work 重磅升级：精准克隆你的写作风格，效率翻倍！",
-    "friday": "Adobe Premiere 推出 AI 生成器：剪辑新手也能秒变大神？",
-    "strategy": "本周主打 AI 技术前沿和实用工具，结合热点事件，穿插避坑内容，保持更新频率。"
+    "monday": "Runway 插件实操教程（视频）",
+    "wednesday": "ChatGPT Images 2.5 避坑指南（图文）",
+    "friday": "AIGC 电影版权风险深度解读（图文）",
+    "strategy": "本周主打 AI 视频和 AI 生图热点，结合实操和避坑内容，吸引初学者关注。"
   },
-  "insights": "今日信息流显示 AI 技术（GPT-6、智能体、开源模型）和 AI 视频工具（可灵、Adobe）是热点，且与创作者技能高度契合，可重点挖掘。",
-  "ai_adjustment": "根据历史反馈，优先推荐反常识性强、新模型新工具相关选题，避开硬件内容，并增加多角度创作方案。",
-  "generated_at": "2026-09-08T23:09:51.860428+08:00",
-  "total_items": 379,
-  "scored_items": 296,
+  "insights": "今日信息流中 AI 视频生成和 OpenAI 动态是绝对热点，且与创作者产能高度匹配，建议优先产出。",
+  "ai_adjustment": "根据用户反馈，本次推荐增加了 AI 视频和 AI 技术赛道的内容，并避免硬件相关选题，同时强化了实操和避坑角度。",
+  "generated_at": "2026-09-09T12:09:05.612147+08:00",
+  "total_items": 475,
+  "scored_items": 391,
   "tracks_summary": {
-    "ai_tech": 262,
-    "creator_economy": 10,
-    "trademark_business": 6,
-    "ai_video": 17,
-    "growth_monetize": 1
+    "ai_video": 21,
+    "ai_tech": 338,
+    "creator_economy": 22,
+    "trademark_business": 8,
+    "growth_monetize": 2
   },
   "engine_version": "v2",
   "engine_params": {
