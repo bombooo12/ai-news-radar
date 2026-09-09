@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T04:05:08.681579Z",
+  "generated_at": "2026-09-09T09:05:21.879568Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -106,15 +106,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8606,
-      "importance": 0.8606,
-      "importance_score": 0.8606,
+      "score": 0.851,
+      "importance": 0.851,
+      "importance_score": 0.851,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7702,
+        "recency": 0.7165,
         "story_heat": 0.5
       },
       "category": "official",
@@ -137,14 +137,6 @@
         "url": "https://openai.com/index/navier-stokes-solution",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 65,
-      "persona_review": "展示了AI辅助科研的潜力，但解答本身未经数学界验证，无法直接应用。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-09T04:06:24.456911Z"
       }
     },
     {
@@ -279,15 +271,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8562,
-      "importance": 0.8562,
-      "importance_score": 0.8562,
+      "score": 0.8454,
+      "importance": 0.8454,
+      "importance_score": 0.8454,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.85,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8587,
+        "recency": 0.7989,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -309,14 +301,6 @@
         "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician",
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "学术口水战，不影响你调用API或选择模型。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-09T04:06:24.456911Z"
       }
     },
     {
@@ -364,15 +348,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8545,
-      "importance": 0.8545,
-      "importance_score": 0.8545,
+      "score": 0.8422,
+      "importance": 0.8422,
+      "importance_score": 0.8422,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.94,
-        "recency": 0.9806,
+        "recency": 0.9122,
         "story_heat": 0.0
       },
       "category": "official",
@@ -394,186 +378,113 @@
         "url": "https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "企业版IDE插件新增沙盒功能，用公司代码训练时安全性有保障了。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-09T04:06:24.456911Z"
       }
     },
     {
-      "story_id": "story_93b4d1afb6fc",
-      "title": "Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元 / Mistral raises €3B to make sovereign， open-weight AI the technology frontier Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion.",
-      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
-      "primary_url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
-      "source": "Mistral AI：News（网页）",
-      "source_name": "AI HOT",
+      "story_id": "story_6c71d9371c7c",
+      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "url": "https://openai.com/index/codex-quantum-computing-experiments",
+      "primary_url": "https://openai.com/index/codex-quantum-computing-experiments",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "f8b48d2f2bbcd06f7f26f01950712a2702b75663",
-          "title": "Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元 / Mistral raises €3B to make sovereign， open-weight AI the technology frontier Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion.",
-          "title_zh": "Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元",
-          "title_en": "Mistral raises €3B to make sovereign， open-weight AI the technology frontier Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion.",
-          "title_original": "Mistral raises €3B to make sovereign， open-weight AI the technology frontier Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion.",
-          "summary": "Mistral 宣布完成 30 亿欧元 D 轮融资，投后估值超过 210 亿欧元，公司称这是欧洲科技公司有史以来最大的股权融资，距其成立三年。",
-          "recommend_reason_zh": null,
-          "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
-          "source": "Mistral AI：News（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-08T05:58:27.839000Z"
-        },
-        {
-          "id": "c29c64c5acf58ef412fc779d4311fea3d8c8b34f",
-          "title": "Mistral 筹集 30 亿欧元，力图将主权、无权重限制的人工智能打造为技术前沿",
-          "title_zh": "Mistral 筹集 30 亿欧元，力图将主权、无权重限制的人工智能打造为技术前沿",
-          "title_en": null,
-          "title_original": "Mistral 筹集 30 亿欧元，力图将主权、无权重限制的人工智能打造为技术前沿",
+          "id": "13b2c55da9da69c3375d377db1ddbb2cd903e5ab",
+          "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+          "title_zh": null,
+          "title_en": "How GPT-5.6 Sol helps run quantum computing experiments",
+          "title_original": "How GPT-5.6 Sol helps run quantum computing experiments",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
-          "source": "mistral.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-08T06:48:43.523000Z"
+          "url": "https://openai.com/index/codex-quantum-computing-experiments",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-08T17:00:00Z"
         },
         {
-          "id": "f334cccbcaea5049296537c60a694c156e76b8aa",
-          "title": "Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元 / Mistral raises €3B",
-          "title_zh": "Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元",
-          "title_en": "Mistral raises €3B",
-          "title_original": "Mistral raises €3B",
+          "id": "351a4ba2c29a5a061bc92b822eb300b89b6a46fe",
+          "title": "How GPT‑5.6 Sol helps run quantum computing experiments",
+          "title_zh": null,
+          "title_en": "How GPT‑5.6 Sol helps run quantum computing experiments",
+          "title_original": "How GPT‑5.6 Sol helps run quantum computing experiments",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-08T05:06:23Z"
-        },
-        {
-          "id": "8e190181b6c1c5d04ece2e4e2a266e969ad1d7b7",
-          "title": "Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元 / Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
-          "title_zh": "Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元",
-          "title_en": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
-          "title_original": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
+          "url": "https://openai.com/index/codex-quantum-computing-experiments",
           "source": "Hacker News",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-09-08T05:06:23Z"
+          "published_at": "2026-09-09T07:22:46Z"
         }
       ],
-      "source_count": 4,
+      "source_count": 2,
       "source_names": [
         "Hacker News",
-        "Hacker News (黑客新闻)",
-        "Mistral AI：News（网页）",
-        "mistral.ai"
+        "OpenAI News"
       ],
       "items": [
         {
-          "id": "f8b48d2f2bbcd06f7f26f01950712a2702b75663",
-          "title": "Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元 / Mistral raises €3B to make sovereign， open-weight AI the technology frontier Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion.",
-          "title_zh": "Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元",
-          "title_en": "Mistral raises €3B to make sovereign， open-weight AI the technology frontier Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion.",
-          "title_original": "Mistral raises €3B to make sovereign， open-weight AI the technology frontier Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion.",
-          "summary": "Mistral 宣布完成 30 亿欧元 D 轮融资，投后估值超过 210 亿欧元，公司称这是欧洲科技公司有史以来最大的股权融资，距其成立三年。",
-          "recommend_reason_zh": null,
-          "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
-          "source": "Mistral AI：News（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-08T05:58:27.839000Z"
-        },
-        {
-          "id": "c29c64c5acf58ef412fc779d4311fea3d8c8b34f",
-          "title": "Mistral 筹集 30 亿欧元，力图将主权、无权重限制的人工智能打造为技术前沿",
-          "title_zh": "Mistral 筹集 30 亿欧元，力图将主权、无权重限制的人工智能打造为技术前沿",
-          "title_en": null,
-          "title_original": "Mistral 筹集 30 亿欧元，力图将主权、无权重限制的人工智能打造为技术前沿",
+          "id": "13b2c55da9da69c3375d377db1ddbb2cd903e5ab",
+          "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+          "title_zh": null,
+          "title_en": "How GPT-5.6 Sol helps run quantum computing experiments",
+          "title_original": "How GPT-5.6 Sol helps run quantum computing experiments",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
-          "source": "mistral.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-08T06:48:43.523000Z"
+          "url": "https://openai.com/index/codex-quantum-computing-experiments",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-08T17:00:00Z"
         },
         {
-          "id": "f334cccbcaea5049296537c60a694c156e76b8aa",
-          "title": "Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元 / Mistral raises €3B",
-          "title_zh": "Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元",
-          "title_en": "Mistral raises €3B",
-          "title_original": "Mistral raises €3B",
+          "id": "351a4ba2c29a5a061bc92b822eb300b89b6a46fe",
+          "title": "How GPT‑5.6 Sol helps run quantum computing experiments",
+          "title_zh": null,
+          "title_en": "How GPT‑5.6 Sol helps run quantum computing experiments",
+          "title_original": "How GPT‑5.6 Sol helps run quantum computing experiments",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-08T05:06:23Z"
-        },
-        {
-          "id": "8e190181b6c1c5d04ece2e4e2a266e969ad1d7b7",
-          "title": "Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元 / Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
-          "title_zh": "Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元",
-          "title_en": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
-          "title_original": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
+          "url": "https://openai.com/index/codex-quantum-computing-experiments",
           "source": "Hacker News",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-09-08T05:06:23Z"
+          "published_at": "2026-09-09T07:22:46Z"
         }
       ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.8418,
-      "importance": 0.8418,
-      "importance_score": 0.8418,
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8477,
+      "importance": 0.8477,
+      "importance_score": 0.8477,
       "importance_label": "官方更新",
       "importance_breakdown": {
-        "editorial": 0.72,
+        "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 1.0,
-        "recency": 0.7267,
-        "story_heat": 0.75
+        "ai_relevance": 0.95,
+        "recency": 0.7927,
+        "story_heat": 0.25
       },
       "category": "official",
       "reasons": [
+        "official_source",
         "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-08T05:06:23Z",
-      "latest_at": "2026-09-08T06:48:43.523000Z",
+      "earliest_at": "2026-09-08T17:00:00Z",
+      "latest_at": "2026-09-09T07:22:46Z",
       "primary_item": {
-        "id": "f8b48d2f2bbcd06f7f26f01950712a2702b75663",
-        "title": "Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元 / Mistral raises €3B to make sovereign， open-weight AI the technology frontier Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion.",
-        "title_zh": "Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元",
-        "title_en": "Mistral raises €3B to make sovereign， open-weight AI the technology frontier Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion.",
-        "title_original": "Mistral raises €3B to make sovereign， open-weight AI the technology frontier Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion.",
-        "summary": "Mistral 宣布完成 30 亿欧元 D 轮融资，投后估值超过 210 亿欧元，公司称这是欧洲科技公司有史以来最大的股权融资，距其成立三年。",
+        "id": "13b2c55da9da69c3375d377db1ddbb2cd903e5ab",
+        "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+        "title_zh": null,
+        "title_en": "How GPT-5.6 Sol helps run quantum computing experiments",
+        "title_original": "How GPT-5.6 Sol helps run quantum computing experiments",
+        "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
-        "source": "Mistral AI：News（网页）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 25,
-      "persona_review": "融资新闻不写代码，等看到新模型或降价再说。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-09T04:06:24.456911Z"
+        "url": "https://openai.com/index/codex-quantum-computing-experiments",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -621,15 +532,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8277,
-      "importance": 0.8277,
-      "importance_score": 0.8277,
+      "score": 0.8174,
+      "importance": 0.8174,
+      "importance_score": 0.8174,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8205,
+        "recency": 0.7633,
         "story_heat": 0.0
       },
       "category": "official",
@@ -651,14 +562,312 @@
         "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
         "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_a927f6f1604a",
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
+      "primary_url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
+      "source": "Google DeepMind",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "bd408293d32e3b3ed026e5399e9e52f6ca55576d",
+          "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+          "title_zh": null,
+          "title_en": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+          "title_original": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
+          "source": "Google DeepMind",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-08T14:00:15Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Google DeepMind"
+      ],
+      "items": [
+        {
+          "id": "bd408293d32e3b3ed026e5399e9e52f6ca55576d",
+          "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+          "title_zh": null,
+          "title_en": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+          "title_original": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
+          "source": "Google DeepMind",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-08T14:00:15Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8006,
+      "importance": 0.8006,
+      "importance_score": 0.8006,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.7591,
+        "story_heat": 0.0
       },
-      "persona_id": "pragmatic",
-      "persona_score": 65,
-      "persona_review": "讨论模型安全拒绝策略的技术博客，做内容审核或RLHF的可以看看思路。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-09T04:06:24.456911Z"
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-08T14:00:15Z",
+      "latest_at": "2026-09-08T14:00:15Z",
+      "primary_item": {
+        "id": "bd408293d32e3b3ed026e5399e9e52f6ca55576d",
+        "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+        "title_zh": null,
+        "title_en": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+        "title_original": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
+        "source": "Google DeepMind",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_625fc1a7b32c",
+      "title": "美国政府指控 DeepSeek 等 6 家中国 AI 公司工业规模蒸馏美国模型 / In a new allegation， the U.S. government has accused 6 Chinese AI firms of using large-scale distill…",
+      "url": "https://x.com/rohanpaul_ai/status/2097605329123147987",
+      "primary_url": "https://x.com/rohanpaul_ai/status/2097605329123147987",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "1620b5faa9067f76aea6d138ef3d777192a6a077",
+          "title": "美国政府指控 DeepSeek 等 6 家中国 AI 公司工业规模蒸馏美国模型 / In a new allegation， the U.S. government has accused 6 Chinese AI firms of using large-scale distill…",
+          "title_zh": "美国政府指控 DeepSeek 等 6 家中国 AI 公司工业规模蒸馏美国模型",
+          "title_en": "In a new allegation， the U.S. government has accused 6 Chinese AI firms of using large-scale distill…",
+          "title_original": "In a new allegation， the U.S. government has accused 6 Chinese AI firms of using large-scale distill…",
+          "summary": "NSA、CISA 和 FBI 发布联合公告 AA26-251A，指控 DeepSeek、月之暗面、阿里、MiniMax、阶跃星辰和 Z .AI 自 2024 年底起对美国前沿模型进行工业规模蒸馏。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/rohanpaul_ai/status/2097605329123147987",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-09T08:37:36Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Rohan Paul (@rohanpaul_ai)"
+      ],
+      "items": [
+        {
+          "id": "1620b5faa9067f76aea6d138ef3d777192a6a077",
+          "title": "美国政府指控 DeepSeek 等 6 家中国 AI 公司工业规模蒸馏美国模型 / In a new allegation， the U.S. government has accused 6 Chinese AI firms of using large-scale distill…",
+          "title_zh": "美国政府指控 DeepSeek 等 6 家中国 AI 公司工业规模蒸馏美国模型",
+          "title_en": "In a new allegation， the U.S. government has accused 6 Chinese AI firms of using large-scale distill…",
+          "title_original": "In a new allegation， the U.S. government has accused 6 Chinese AI firms of using large-scale distill…",
+          "summary": "NSA、CISA 和 FBI 发布联合公告 AA26-251A，指控 DeepSeek、月之暗面、阿里、MiniMax、阶跃星辰和 Z .AI 自 2024 年底起对美国前沿模型进行工业规模蒸馏。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/rohanpaul_ai/status/2097605329123147987",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-09T08:37:36Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7934,
+      "importance": 0.7934,
+      "importance_score": 0.7934,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.81,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9933,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-09T08:37:36Z",
+      "latest_at": "2026-09-09T08:37:36Z",
+      "primary_item": {
+        "id": "1620b5faa9067f76aea6d138ef3d777192a6a077",
+        "title": "美国政府指控 DeepSeek 等 6 家中国 AI 公司工业规模蒸馏美国模型 / In a new allegation， the U.S. government has accused 6 Chinese AI firms of using large-scale distill…",
+        "title_zh": "美国政府指控 DeepSeek 等 6 家中国 AI 公司工业规模蒸馏美国模型",
+        "title_en": "In a new allegation， the U.S. government has accused 6 Chinese AI firms of using large-scale distill…",
+        "title_original": "In a new allegation， the U.S. government has accused 6 Chinese AI firms of using large-scale distill…",
+        "summary": "NSA、CISA 和 FBI 发布联合公告 AA26-251A，指控 DeepSeek、月之暗面、阿里、MiniMax、阶跃星辰和 Z .AI 自 2024 年底起对美国前沿模型进行工业规模蒸馏。",
+        "recommend_reason_zh": null,
+        "url": "https://x.com/rohanpaul_ai/status/2097605329123147987",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_cca71c225d5c",
+      "title": "GitHub Enterprise Server 3.22 is now generally available",
+      "url": "https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available",
+      "primary_url": "https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "81992c21c827e3d016b7b2c3b9c1b99e8713c4a3",
+          "title": "GitHub Enterprise Server 3.22 is now generally available",
+          "title_zh": null,
+          "title_en": "GitHub Enterprise Server 3.22 is now generally available",
+          "title_original": "GitHub Enterprise Server 3.22 is now generally available",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-08T21:52:42Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "81992c21c827e3d016b7b2c3b9c1b99e8713c4a3",
+          "title": "GitHub Enterprise Server 3.22 is now generally available",
+          "title_zh": null,
+          "title_en": "GitHub Enterprise Server 3.22 is now generally available",
+          "title_original": "GitHub Enterprise Server 3.22 is now generally available",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-08T21:52:42Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8171,
+      "importance": 0.8171,
+      "importance_score": 0.8171,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.8505,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-08T21:52:42Z",
+      "latest_at": "2026-09-08T21:52:42Z",
+      "primary_item": {
+        "id": "81992c21c827e3d016b7b2c3b9c1b99e8713c4a3",
+        "title": "GitHub Enterprise Server 3.22 is now generally available",
+        "title_zh": null,
+        "title_en": "GitHub Enterprise Server 3.22 is now generally available",
+        "title_original": "GitHub Enterprise Server 3.22 is now generally available",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_4eab73573707",
+      "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
+      "url": "https://www.ithome.com/1/000/188.htm",
+      "primary_url": "https://www.ithome.com/1/000/188.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "fa808e6855f412167058a091985bcbf806b32686",
+          "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
+          "title_zh": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
+          "title_en": null,
+          "title_original": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
+          "summary": "路透社报道称，DeepSeek 已聘请中信证券筹备科创板上市，目标今年递交 IPO 申请、明年挂牌，募资将用于算力基建、模型研发、芯片自研与人才激励。公司正推进新一轮融资，目标估值约 5000 亿元人民币，此前 6 月完成约 74 亿美元首轮外部融资，投后估值超 500 亿美元；2026 年前 7 个月营收约 4.75 亿元。",
+          "recommend_reason_zh": null,
+          "url": "https://www.ithome.com/1/000/188.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-09T06:41:51Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "items": [
+        {
+          "id": "fa808e6855f412167058a091985bcbf806b32686",
+          "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
+          "title_zh": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
+          "title_en": null,
+          "title_original": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
+          "summary": "路透社报道称，DeepSeek 已聘请中信证券筹备科创板上市，目标今年递交 IPO 申请、明年挂牌，募资将用于算力基建、模型研发、芯片自研与人才激励。公司正推进新一轮融资，目标估值约 5000 亿元人民币，此前 6 月完成约 74 亿美元首轮外部融资，投后估值超 500 亿美元；2026 年前 7 个月营收约 4.75 亿元。",
+          "recommend_reason_zh": null,
+          "url": "https://www.ithome.com/1/000/188.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-09T06:41:51Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7795,
+      "importance": 0.7795,
+      "importance_score": 0.7795,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.78,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.966,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-09T06:41:51Z",
+      "latest_at": "2026-09-09T06:41:51Z",
+      "primary_item": {
+        "id": "fa808e6855f412167058a091985bcbf806b32686",
+        "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
+        "title_zh": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
+        "title_en": null,
+        "title_original": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
+        "summary": "路透社报道称，DeepSeek 已聘请中信证券筹备科创板上市，目标今年递交 IPO 申请、明年挂牌，募资将用于算力基建、模型研发、芯片自研与人才激励。公司正推进新一轮融资，目标估值约 5000 亿元人民币，此前 6 月完成约 74 亿美元首轮外部融资，投后估值超 500 亿美元；2026 年前 7 个月营收约 4.75 亿元。",
+        "recommend_reason_zh": null,
+        "url": "https://www.ithome.com/1/000/188.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -735,15 +944,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8467,
-      "importance": 0.8467,
-      "importance_score": 0.8467,
+      "score": 0.8368,
+      "importance": 0.8368,
+      "importance_score": 0.8368,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.787,
+        "recency": 0.7322,
         "story_heat": 0.25
       },
       "category": "official",
@@ -766,184 +975,82 @@
         "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "新图像模型已上线，做文生图的今天就能去API或ChatGPT里试用。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-09T04:06:24.456911Z"
       }
     },
     {
-      "story_id": "story_a927f6f1604a",
-      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
-      "primary_url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
-      "source": "Google DeepMind",
-      "source_name": "Official AI Updates",
+      "story_id": "story_81a955344f56",
+      "title": "Simon Willison 评纳维-斯托克斯千禧年问题求解背后的 OpenAI 与 Anthropic 争议",
+      "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes",
+      "primary_url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "bd408293d32e3b3ed026e5399e9e52f6ca55576d",
-          "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-          "title_zh": null,
-          "title_en": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-          "title_original": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-          "summary": null,
+          "id": "4ca6399dafe0adffa194169ae0a6d73115a35b73",
+          "title": "Simon Willison 评纳维-斯托克斯千禧年问题求解背后的 OpenAI 与 Anthropic 争议",
+          "title_zh": "Simon Willison 评纳维-斯托克斯千禧年问题求解背后的 OpenAI 与 Anthropic 争议",
+          "title_en": null,
+          "title_original": "Simon Willison 评纳维-斯托克斯千禧年问题求解背后的 OpenAI 与 Anthropic 争议",
+          "summary": "Simon Willison 评论 OpenAI 用未发布模型在约 88 小时内求解纳维-斯托克斯存在性与光滑性问题，并经 GPT-6 Astra 完成 17 小时 Lean 形式化验证。",
           "recommend_reason_zh": null,
-          "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
-          "source": "Google DeepMind",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-08T14:00:15Z"
+          "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-09T07:10:03.765000Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "Google DeepMind"
+        "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
       "items": [
         {
-          "id": "bd408293d32e3b3ed026e5399e9e52f6ca55576d",
-          "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-          "title_zh": null,
-          "title_en": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-          "title_original": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-          "summary": null,
+          "id": "4ca6399dafe0adffa194169ae0a6d73115a35b73",
+          "title": "Simon Willison 评纳维-斯托克斯千禧年问题求解背后的 OpenAI 与 Anthropic 争议",
+          "title_zh": "Simon Willison 评纳维-斯托克斯千禧年问题求解背后的 OpenAI 与 Anthropic 争议",
+          "title_en": null,
+          "title_original": "Simon Willison 评纳维-斯托克斯千禧年问题求解背后的 OpenAI 与 Anthropic 争议",
+          "summary": "Simon Willison 评论 OpenAI 用未发布模型在约 88 小时内求解纳维-斯托克斯存在性与光滑性问题，并经 GPT-6 Astra 完成 17 小时 Lean 形式化验证。",
           "recommend_reason_zh": null,
-          "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
-          "source": "Google DeepMind",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-08T14:00:15Z"
+          "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-09T07:10:03.765000Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8109,
-      "importance": 0.8109,
-      "importance_score": 0.8109,
-      "importance_label": "官方更新",
+      "score": 0.7747,
+      "importance": 0.7747,
+      "importance_score": 0.7747,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.816,
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9726,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-08T14:00:15Z",
-      "latest_at": "2026-09-08T14:00:15Z",
+      "earliest_at": "2026-09-09T07:10:03.765000Z",
+      "latest_at": "2026-09-09T07:10:03.765000Z",
       "primary_item": {
-        "id": "bd408293d32e3b3ed026e5399e9e52f6ca55576d",
-        "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-        "title_zh": null,
-        "title_en": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-        "title_original": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-        "summary": null,
+        "id": "4ca6399dafe0adffa194169ae0a6d73115a35b73",
+        "title": "Simon Willison 评纳维-斯托克斯千禧年问题求解背后的 OpenAI 与 Anthropic 争议",
+        "title_zh": "Simon Willison 评纳维-斯托克斯千禧年问题求解背后的 OpenAI 与 Anthropic 争议",
+        "title_en": null,
+        "title_original": "Simon Willison 评纳维-斯托克斯千禧年问题求解背后的 OpenAI 与 Anthropic 争议",
+        "summary": "Simon Willison 评论 OpenAI 用未发布模型在约 88 小时内求解纳维-斯托克斯存在性与光滑性问题，并经 GPT-6 Astra 完成 17 小时 Lean 形式化验证。",
         "recommend_reason_zh": null,
-        "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
-        "source": "Google DeepMind",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 55,
-      "persona_review": "生物信息学领域的重要工具，但普通AI开发者用不上。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-09T04:06:24.456911Z"
-      }
-    },
-    {
-      "story_id": "story_cca71c225d5c",
-      "title": "GitHub Enterprise Server 3.22 is now generally available",
-      "url": "https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available",
-      "primary_url": "https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "81992c21c827e3d016b7b2c3b9c1b99e8713c4a3",
-          "title": "GitHub Enterprise Server 3.22 is now generally available",
-          "title_zh": null,
-          "title_en": "GitHub Enterprise Server 3.22 is now generally available",
-          "title_original": "GitHub Enterprise Server 3.22 is now generally available",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-08T21:52:42Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "81992c21c827e3d016b7b2c3b9c1b99e8713c4a3",
-          "title": "GitHub Enterprise Server 3.22 is now generally available",
-          "title_zh": null,
-          "title_en": "GitHub Enterprise Server 3.22 is now generally available",
-          "title_original": "GitHub Enterprise Server 3.22 is now generally available",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-08T21:52:42Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8286,
-      "importance": 0.8286,
-      "importance_score": 0.8286,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.9143,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-08T21:52:42Z",
-      "latest_at": "2026-09-08T21:52:42Z",
-      "primary_item": {
-        "id": "81992c21c827e3d016b7b2c3b9c1b99e8713c4a3",
-        "title": "GitHub Enterprise Server 3.22 is now generally available",
-        "title_zh": null,
-        "title_en": "GitHub Enterprise Server 3.22 is now generally available",
-        "title_original": "GitHub Enterprise Server 3.22 is now generally available",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 70,
-      "persona_review": "企业自托管用户需评估升级，涉及多项安全与功能更新。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-09T04:06:24.456911Z"
+        "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -991,15 +1098,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7841,
-      "importance": 0.7841,
-      "importance_score": 0.7841,
+      "score": 0.7723,
+      "importance": 0.7723,
+      "importance_score": 0.7723,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9416,
+        "recency": 0.876,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1020,14 +1127,82 @@
         "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes",
         "source": "Simon Willison 博客",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_45d9b52bc2e9",
+      "title": "Anthropic顶尖大牛愤然离职：AI失控倒计时，人类正在饮鸩止渴",
+      "url": "https://www.aibase.com/news/30931",
+      "primary_url": "https://www.aibase.com/news/30931",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "9e0a0d22e6f66ab6dcab5efb3c60532304609367",
+          "title": "Anthropic顶尖大牛愤然离职：AI失控倒计时，人类正在饮鸩止渴",
+          "title_zh": "Anthropic顶尖大牛愤然离职：AI失控倒计时，人类正在饮鸩止渴",
+          "title_en": null,
+          "title_original": "Anthropic顶尖大牛愤然离职：AI失控倒计时，人类正在饮鸩止渴",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30931",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-09T09:05:21.879568Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "9e0a0d22e6f66ab6dcab5efb3c60532304609367",
+          "title": "Anthropic顶尖大牛愤然离职：AI失控倒计时，人类正在饮鸩止渴",
+          "title_zh": "Anthropic顶尖大牛愤然离职：AI失控倒计时，人类正在饮鸩止渴",
+          "title_en": null,
+          "title_original": "Anthropic顶尖大牛愤然离职：AI失控倒计时，人类正在饮鸩止渴",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30931",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-09T09:05:21.879568Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
       },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "学术圈的口水战，不影响你今天选哪个模型写代码。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-09T04:06:24.456911Z"
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-09T09:05:21.879568Z",
+      "latest_at": "2026-09-09T09:05:21.879568Z",
+      "primary_item": {
+        "id": "9e0a0d22e6f66ab6dcab5efb3c60532304609367",
+        "title": "Anthropic顶尖大牛愤然离职：AI失控倒计时，人类正在饮鸩止渴",
+        "title_zh": "Anthropic顶尖大牛愤然离职：AI失控倒计时，人类正在饮鸩止渴",
+        "title_en": null,
+        "title_original": "Anthropic顶尖大牛愤然离职：AI失控倒计时，人类正在饮鸩止渴",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/30931",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -1075,15 +1250,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7744,
-      "importance": 0.7744,
-      "importance_score": 0.7744,
+      "score": 0.7637,
+      "importance": 0.7637,
+      "importance_score": 0.7637,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.8524,
+        "recency": 0.793,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1104,99 +1279,6 @@
         "url": "https://x.com/ClaudeDevs/status/2097369738968195513",
         "source": "X：Claude Devs (@ClaudeDevs)",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "官方给出具体优化技巧，直接调整调用方式就能省钱提效。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-09T04:06:24.456911Z"
-      }
-    },
-    {
-      "story_id": "story_6c71d9371c7c",
-      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
-      "url": "https://openai.com/index/codex-quantum-computing-experiments",
-      "primary_url": "https://openai.com/index/codex-quantum-computing-experiments",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "13b2c55da9da69c3375d377db1ddbb2cd903e5ab",
-          "title": "How GPT-5.6 Sol helps run quantum computing experiments",
-          "title_zh": null,
-          "title_en": "How GPT-5.6 Sol helps run quantum computing experiments",
-          "title_original": "How GPT-5.6 Sol helps run quantum computing experiments",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/codex-quantum-computing-experiments",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-08T17:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "13b2c55da9da69c3375d377db1ddbb2cd903e5ab",
-          "title": "How GPT-5.6 Sol helps run quantum computing experiments",
-          "title_zh": null,
-          "title_en": "How GPT-5.6 Sol helps run quantum computing experiments",
-          "title_original": "How GPT-5.6 Sol helps run quantum computing experiments",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/codex-quantum-computing-experiments",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-08T17:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8334,
-      "importance": 0.8334,
-      "importance_score": 0.8334,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.8521,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-08T17:00:00Z",
-      "latest_at": "2026-09-08T17:00:00Z",
-      "primary_item": {
-        "id": "13b2c55da9da69c3375d377db1ddbb2cd903e5ab",
-        "title": "How GPT-5.6 Sol helps run quantum computing experiments",
-        "title_zh": null,
-        "title_en": "How GPT-5.6 Sol helps run quantum computing experiments",
-        "title_original": "How GPT-5.6 Sol helps run quantum computing experiments",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://openai.com/index/codex-quantum-computing-experiments",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 10,
-      "persona_review": "量子计算实验离日常开发太远，目前没实际用处。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-09T04:06:24.456911Z"
       }
     },
     {
@@ -1244,15 +1326,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7734,
-      "importance": 0.7734,
-      "importance_score": 0.7734,
+      "score": 0.7615,
+      "importance": 0.7615,
+      "importance_score": 0.7615,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9489,
+        "recency": 0.8827,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1273,98 +1355,6 @@
         "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247510824&idx=1&sn=025a8b7c5fec54d8a00c8632f55f8d98",
         "source": "公众号：卡尔的AI沃茨",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "新模型已上线，作者实测对比，选型时可直接参考效果差异。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-09T04:06:24.456911Z"
-      }
-    },
-    {
-      "story_id": "story_c9f7e5306c31",
-      "title": "10000 个 AI 智能体跑 88 小时，OpenAI 宣布攻克千禧年大奖难题，陶哲轩既点赞又担忧",
-      "url": "https://www.aibase.com/news/30914",
-      "primary_url": "https://www.aibase.com/news/30914",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "eebcb50008de9bf9f816c76ad5bdf7c9afbacc6b",
-          "title": "10000 个 AI 智能体跑 88 小时，OpenAI 宣布攻克千禧年大奖难题，陶哲轩既点赞又担忧",
-          "title_zh": "10000 个 AI 智能体跑 88 小时，OpenAI 宣布攻克千禧年大奖难题，陶哲轩既点赞又担忧",
-          "title_en": null,
-          "title_original": "10000 个 AI 智能体跑 88 小时，OpenAI 宣布攻克千禧年大奖难题，陶哲轩既点赞又担忧",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30914",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-09T04:05:08.681579Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "eebcb50008de9bf9f816c76ad5bdf7c9afbacc6b",
-          "title": "10000 个 AI 智能体跑 88 小时，OpenAI 宣布攻克千禧年大奖难题，陶哲轩既点赞又担忧",
-          "title_zh": "10000 个 AI 智能体跑 88 小时，OpenAI 宣布攻克千禧年大奖难题，陶哲轩既点赞又担忧",
-          "title_en": null,
-          "title_original": "10000 个 AI 智能体跑 88 小时，OpenAI 宣布攻克千禧年大奖难题，陶哲轩既点赞又担忧",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30914",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-09T04:05:08.681579Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-09T04:05:08.681579Z",
-      "latest_at": "2026-09-09T04:05:08.681579Z",
-      "primary_item": {
-        "id": "eebcb50008de9bf9f816c76ad5bdf7c9afbacc6b",
-        "title": "10000 个 AI 智能体跑 88 小时，OpenAI 宣布攻克千禧年大奖难题，陶哲轩既点赞又担忧",
-        "title_zh": "10000 个 AI 智能体跑 88 小时，OpenAI 宣布攻克千禧年大奖难题，陶哲轩既点赞又担忧",
-        "title_en": null,
-        "title_original": "10000 个 AI 智能体跑 88 小时，OpenAI 宣布攻克千禧年大奖难题，陶哲轩既点赞又担忧",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/30914",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "学术突破，但离工程应用还很远，不影响当前开发选型。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-09T04:06:24.456911Z"
       }
     },
     {
@@ -1412,15 +1402,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7633,
-      "importance": 0.7633,
-      "importance_score": 0.7633,
+      "score": 0.7525,
+      "importance": 0.7525,
+      "importance_score": 0.7525,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8593,
+        "recency": 0.7994,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1441,14 +1431,6 @@
         "url": "https://x.com/EMostaque/status/2097378223138959719",
         "source": "X：Emad Mostaque (@EMostaque)",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "大佬祝贺，但没新工具或方案，对写代码没帮助。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-09T04:06:24.456911Z"
       }
     },
     {
@@ -1496,21 +1478,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7599,
-      "importance": 0.7599,
-      "importance_score": 0.7599,
+      "score": 0.7492,
+      "importance": 0.7492,
+      "importance_score": 0.7492,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8574,
+        "recency": 0.7976,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-09-08T17:25:41Z",
       "latest_at": "2026-09-08T17:25:41Z",
@@ -1525,14 +1506,6 @@
         "url": "https://x.com/polynoamial/status/2097375837670785447",
         "source": "X：Noam Brown (@polynoamial)",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "远期成本预测，对当前项目选型和技术栈无直接影响。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-09T04:06:24.456911Z"
       }
     },
     {
@@ -1580,15 +1553,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8196,
-      "importance": 0.8196,
-      "importance_score": 0.8196,
+      "score": 0.8088,
+      "importance": 0.8088,
+      "importance_score": 0.8088,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8645,
+        "recency": 0.8042,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1610,14 +1583,82 @@
         "url": "https://github.blog/changelog/2026-09-08-new-customer-portal-help-github-com",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_cc30c02dca56",
+      "title": "《The Intercept》披露美国国防部曾要求 OpenAI 提供对军事指令最低拒绝率的特别版 AI",
+      "url": "https://www.ithome.com/1/000/277.htm",
+      "primary_url": "https://www.ithome.com/1/000/277.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "bcea9ff3278a72a45b3fee6a836cc966c89b7d3f",
+          "title": "《The Intercept》披露美国国防部曾要求 OpenAI 提供对军事指令最低拒绝率的特别版 AI",
+          "title_zh": "《The Intercept》披露美国国防部曾要求 OpenAI 提供对军事指令最低拒绝率的特别版 AI",
+          "title_en": null,
+          "title_original": "《The Intercept》披露美国国防部曾要求 OpenAI 提供对军事指令最低拒绝率的特别版 AI",
+          "summary": "《The Intercept》通过 FOIA 诉讼获得的文件显示，美国国防部曾在 P00003 合同中要求 OpenAI 提供对军事指令具有最低拒绝率的特别版模型，双方对此均否认，称该文件只是草案。五角大楼律师一度确认其为正式版本后多次改口，OpenAI 已于 2 月 27 日签署允许部署到美军机密网络的最新版协议。",
+          "recommend_reason_zh": null,
+          "url": "https://www.ithome.com/1/000/277.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-09T08:00:26Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "items": [
+        {
+          "id": "bcea9ff3278a72a45b3fee6a836cc966c89b7d3f",
+          "title": "《The Intercept》披露美国国防部曾要求 OpenAI 提供对军事指令最低拒绝率的特别版 AI",
+          "title_zh": "《The Intercept》披露美国国防部曾要求 OpenAI 提供对军事指令最低拒绝率的特别版 AI",
+          "title_en": null,
+          "title_original": "《The Intercept》披露美国国防部曾要求 OpenAI 提供对军事指令最低拒绝率的特别版 AI",
+          "summary": "《The Intercept》通过 FOIA 诉讼获得的文件显示，美国国防部曾在 P00003 合同中要求 OpenAI 提供对军事指令具有最低拒绝率的特别版模型，双方对此均否认，称该文件只是草案。五角大楼律师一度确认其为正式版本后多次改口，OpenAI 已于 2 月 27 日签署允许部署到美军机密网络的最新版协议。",
+          "recommend_reason_zh": null,
+          "url": "https://www.ithome.com/1/000/277.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-09T08:00:26Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7768,
+      "importance": 0.7768,
+      "importance_score": 0.7768,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9845,
+        "story_heat": 0.0
       },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "只是官网帮助页面改版，不影响API和日常开发。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-09T04:06:24.456911Z"
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-09T08:00:26Z",
+      "latest_at": "2026-09-09T08:00:26Z",
+      "primary_item": {
+        "id": "bcea9ff3278a72a45b3fee6a836cc966c89b7d3f",
+        "title": "《The Intercept》披露美国国防部曾要求 OpenAI 提供对军事指令最低拒绝率的特别版 AI",
+        "title_zh": "《The Intercept》披露美国国防部曾要求 OpenAI 提供对军事指令最低拒绝率的特别版 AI",
+        "title_en": null,
+        "title_original": "《The Intercept》披露美国国防部曾要求 OpenAI 提供对军事指令最低拒绝率的特别版 AI",
+        "summary": "《The Intercept》通过 FOIA 诉讼获得的文件显示，美国国防部曾在 P00003 合同中要求 OpenAI 提供对军事指令具有最低拒绝率的特别版模型，双方对此均否认，称该文件只是草案。五角大楼律师一度确认其为正式版本后多次改口，OpenAI 已于 2 月 27 日签署允许部署到美军机密网络的最新版协议。",
+        "recommend_reason_zh": null,
+        "url": "https://www.ithome.com/1/000/277.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -1665,21 +1706,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7517,
-      "importance": 0.7517,
-      "importance_score": 0.7517,
+      "score": 0.7398,
+      "importance": 0.7398,
+      "importance_score": 0.7398,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9448,
+        "recency": 0.8789,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-09-09T00:09:00Z",
       "latest_at": "2026-09-09T00:09:00Z",
@@ -1694,264 +1734,6 @@
         "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686094&idx=1&sn=c06c40993f7ab28f2302619e4b89986b",
         "source": "公众号：数字生命卡兹克",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 65,
-      "persona_review": "教你根据任务选推理等级，能省下API调用成本。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-09T04:06:24.456911Z"
-      }
-    },
-    {
-      "story_id": "story_c12e0d8f1817",
-      "title": "数学家巴克马斯特宣布多项方程 blowup 结果并公开与 OpenAI 沟通经过",
-      "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
-      "primary_url": "https://cims.nyu.edu/~tristanb/statement.pdf",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "ab134c36a54fea581c80987fa5900787b6c80ef1",
-          "title": "数学家巴克马斯特宣布多项方程 blowup 结果并公开与 OpenAI 沟通经过",
-          "title_zh": "数学家巴克马斯特宣布多项方程 blowup 结果并公开与 OpenAI 沟通经过",
-          "title_en": null,
-          "title_original": "数学家巴克马斯特宣布多项方程 blowup 结果并公开与 OpenAI 沟通经过",
-          "summary": "特里斯坦·巴克马斯特（Tristan Buckmaster）与 Levent Alpöge 公开三项有限时间 blowup 结果，涵盖带光滑强迫的不可压缩多孔介质方程。",
-          "recommend_reason_zh": null,
-          "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-08T07:20:02.739000Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "items": [
-        {
-          "id": "ab134c36a54fea581c80987fa5900787b6c80ef1",
-          "title": "数学家巴克马斯特宣布多项方程 blowup 结果并公开与 OpenAI 沟通经过",
-          "title_zh": "数学家巴克马斯特宣布多项方程 blowup 结果并公开与 OpenAI 沟通经过",
-          "title_en": null,
-          "title_original": "数学家巴克马斯特宣布多项方程 blowup 结果并公开与 OpenAI 沟通经过",
-          "summary": "特里斯坦·巴克马斯特（Tristan Buckmaster）与 Levent Alpöge 公开三项有限时间 blowup 结果，涵盖带光滑强迫的不可压缩多孔介质方程。",
-          "recommend_reason_zh": null,
-          "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-08T07:20:02.739000Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.751,
-      "importance": 0.751,
-      "importance_score": 0.751,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.82,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7411,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-08T07:20:02.739000Z",
-      "latest_at": "2026-09-08T07:20:02.739000Z",
-      "primary_item": {
-        "id": "ab134c36a54fea581c80987fa5900787b6c80ef1",
-        "title": "数学家巴克马斯特宣布多项方程 blowup 结果并公开与 OpenAI 沟通经过",
-        "title_zh": "数学家巴克马斯特宣布多项方程 blowup 结果并公开与 OpenAI 沟通经过",
-        "title_en": null,
-        "title_original": "数学家巴克马斯特宣布多项方程 blowup 结果并公开与 OpenAI 沟通经过",
-        "summary": "特里斯坦·巴克马斯特（Tristan Buckmaster）与 Levent Alpöge 公开三项有限时间 blowup 结果，涵盖带光滑强迫的不可压缩多孔介质方程。",
-        "recommend_reason_zh": null,
-        "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "纯学术讨论，对开发者选型或写代码无直接影响。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-09T04:06:24.456911Z"
-      }
-    },
-    {
-      "story_id": "story_433201069aa6",
-      "title": "OpenAI 智能体团队宣布求解 Navier-Stokes 千禧年大奖难题并向独立证明者致贺 / We congratulate Levent Alpöge and Tristan Buckmaster on their remarkable mathematical work. We （the…",
-      "url": "https://x.com/OpenAI/status/2097375276384567642",
-      "primary_url": "https://x.com/OpenAI/status/2097375276384567642",
-      "source": "X：OpenAI (@OpenAI)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "2a75ecefe6f4767a37ed33681139055bb1e041ab",
-          "title": "OpenAI 智能体团队宣布求解 Navier-Stokes 千禧年大奖难题并向独立证明者致贺 / We congratulate Levent Alpöge and Tristan Buckmaster on their remarkable mathematical work. We （the…",
-          "title_zh": "OpenAI 智能体团队宣布求解 Navier-Stokes 千禧年大奖难题并向独立证明者致贺",
-          "title_en": "We congratulate Levent Alpöge and Tristan Buckmaster on their remarkable mathematical work. We （the…",
-          "title_original": "We congratulate Levent Alpöge and Tristan Buckmaster on their remarkable mathematical work. We （the…",
-          "summary": "OpenAI 宣布由一组智能体使用一个能力显著超过 GPT-6 Astra 的下一代模型给出 Navier-Stokes 千禧年大奖难题的解，该问题关注三维光滑流体运动的描述是否会失效，已悬置约 90 年。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/OpenAI/status/2097375276384567642",
-          "source": "X：OpenAI (@OpenAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-08T17:23:27Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：OpenAI (@OpenAI)"
-      ],
-      "items": [
-        {
-          "id": "2a75ecefe6f4767a37ed33681139055bb1e041ab",
-          "title": "OpenAI 智能体团队宣布求解 Navier-Stokes 千禧年大奖难题并向独立证明者致贺 / We congratulate Levent Alpöge and Tristan Buckmaster on their remarkable mathematical work. We （the…",
-          "title_zh": "OpenAI 智能体团队宣布求解 Navier-Stokes 千禧年大奖难题并向独立证明者致贺",
-          "title_en": "We congratulate Levent Alpöge and Tristan Buckmaster on their remarkable mathematical work. We （the…",
-          "title_original": "We congratulate Levent Alpöge and Tristan Buckmaster on their remarkable mathematical work. We （the…",
-          "summary": "OpenAI 宣布由一组智能体使用一个能力显著超过 GPT-6 Astra 的下一代模型给出 Navier-Stokes 千禧年大奖难题的解，该问题关注三维光滑流体运动的描述是否会失效，已悬置约 90 年。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/OpenAI/status/2097375276384567642",
-          "source": "X：OpenAI (@OpenAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-08T17:23:27Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7448,
-      "importance": 0.7448,
-      "importance_score": 0.7448,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.73,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8569,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-09-08T17:23:27Z",
-      "latest_at": "2026-09-08T17:23:27Z",
-      "primary_item": {
-        "id": "2a75ecefe6f4767a37ed33681139055bb1e041ab",
-        "title": "OpenAI 智能体团队宣布求解 Navier-Stokes 千禧年大奖难题并向独立证明者致贺 / We congratulate Levent Alpöge and Tristan Buckmaster on their remarkable mathematical work. We （the…",
-        "title_zh": "OpenAI 智能体团队宣布求解 Navier-Stokes 千禧年大奖难题并向独立证明者致贺",
-        "title_en": "We congratulate Levent Alpöge and Tristan Buckmaster on their remarkable mathematical work. We （the…",
-        "title_original": "We congratulate Levent Alpöge and Tristan Buckmaster on their remarkable mathematical work. We （the…",
-        "summary": "OpenAI 宣布由一组智能体使用一个能力显著超过 GPT-6 Astra 的下一代模型给出 Navier-Stokes 千禧年大奖难题的解，该问题关注三维光滑流体运动的描述是否会失效，已悬置约 90 年。",
-        "recommend_reason_zh": null,
-        "url": "https://x.com/OpenAI/status/2097375276384567642",
-        "source": "X：OpenAI (@OpenAI)",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 10,
-      "persona_review": "祝贺数学家，与AI开发者的日常工作无关。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-09T04:06:24.456911Z"
-      }
-    },
-    {
-      "story_id": "story_8bc5596ddee1",
-      "title": "Sam Altman 回应与 Anthropic 研究员的 Navier-Stokes 证明发布争议 / I spent much of the weekend talking with the team who did this work. Seb--and everyone else--acted w…",
-      "url": "https://x.com/sama/status/2097385167002415140",
-      "primary_url": "https://x.com/sama/status/2097385167002415140",
-      "source": "X：Sam Altman (@sama)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "4d4d3f72ee65c0125c3bdd2e78058da395b37929",
-          "title": "Sam Altman 回应与 Anthropic 研究员的 Navier-Stokes 证明发布争议 / I spent much of the weekend talking with the team who did this work. Seb--and everyone else--acted w…",
-          "title_zh": "Sam Altman 回应与 Anthropic 研究员的 Navier-Stokes 证明发布争议",
-          "title_en": "I spent much of the weekend talking with the team who did this work. Seb--and everyone else--acted w…",
-          "title_original": "I spent much of the weekend talking with the team who did this work. Seb--and everyone else--acted w…",
-          "summary": "Sam Altman 发文回应与 Anthropic 一方围绕 Euler/Navier-Stokes 证明发布的争议，称对方只有 Euler 结果、双方协调失败，并称对方以抄袭指控相威胁。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/sama/status/2097385167002415140",
-          "source": "X：Sam Altman (@sama)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-08T18:02:46Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Sam Altman (@sama)"
-      ],
-      "items": [
-        {
-          "id": "4d4d3f72ee65c0125c3bdd2e78058da395b37929",
-          "title": "Sam Altman 回应与 Anthropic 研究员的 Navier-Stokes 证明发布争议 / I spent much of the weekend talking with the team who did this work. Seb--and everyone else--acted w…",
-          "title_zh": "Sam Altman 回应与 Anthropic 研究员的 Navier-Stokes 证明发布争议",
-          "title_en": "I spent much of the weekend talking with the team who did this work. Seb--and everyone else--acted w…",
-          "title_original": "I spent much of the weekend talking with the team who did this work. Seb--and everyone else--acted w…",
-          "summary": "Sam Altman 发文回应与 Anthropic 一方围绕 Euler/Navier-Stokes 证明发布的争议，称对方只有 Euler 结果、双方协调失败，并称对方以抄袭指控相威胁。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/sama/status/2097385167002415140",
-          "source": "X：Sam Altman (@sama)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-08T18:02:46Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7433,
-      "importance": 0.7433,
-      "importance_score": 0.7433,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.865,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-09-08T18:02:46Z",
-      "latest_at": "2026-09-08T18:02:46Z",
-      "primary_item": {
-        "id": "4d4d3f72ee65c0125c3bdd2e78058da395b37929",
-        "title": "Sam Altman 回应与 Anthropic 研究员的 Navier-Stokes 证明发布争议 / I spent much of the weekend talking with the team who did this work. Seb--and everyone else--acted w…",
-        "title_zh": "Sam Altman 回应与 Anthropic 研究员的 Navier-Stokes 证明发布争议",
-        "title_en": "I spent much of the weekend talking with the team who did this work. Seb--and everyone else--acted w…",
-        "title_original": "I spent much of the weekend talking with the team who did this work. Seb--and everyone else--acted w…",
-        "summary": "Sam Altman 发文回应与 Anthropic 一方围绕 Euler/Navier-Stokes 证明发布的争议，称对方只有 Euler 结果、双方协调失败，并称对方以抄袭指控相威胁。",
-        "recommend_reason_zh": null,
-        "url": "https://x.com/sama/status/2097385167002415140",
-        "source": "X：Sam Altman (@sama)",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 25,
-      "persona_review": "高层口水仗，不影响你调模型或写代码。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-09T04:06:24.456911Z"
       }
     }
   ]
