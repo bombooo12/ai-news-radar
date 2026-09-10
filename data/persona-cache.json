@@ -1,192 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_fe9df585279b|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "看是否开放 API，能直接用才有价值，先观望。",
-      "title_hash": "fdbddaa1",
-      "scored_at": "2026-08-19T15:50:53.863369Z"
-    },
-    "story_6f961ee70bee|pragmatic|0a5c5b24": {
-      "score": 68,
-      "review": "做企业级应用可放心传敏感数据，但先确认覆盖哪些模型。",
-      "title_hash": "37a163a4",
-      "scored_at": "2026-08-19T17:48:08.003149Z"
-    },
-    "story_5de36c6f8e14|pragmatic|0a5c5b24": {
-      "score": 30,
-      "review": "收购暂不影响调用，等计费或API变化再动手。",
-      "title_hash": "9c30e7fa",
-      "scored_at": "2026-08-19T17:48:09.994546Z"
-    },
-    "story_c773429fa020|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "入门教程，老用户不用看，新手照着点一遍即可。",
-      "title_hash": "27b419ff",
-      "scored_at": "2026-08-19T19:00:27.374507Z"
-    },
-    "story_0a0c7233557b|pragmatic|0a5c5b24": {
-      "score": 75,
-      "review": "H20上部署万亿参数模型的优化思路，跑推理的可以抄方案，但需确认是否有开源代码。",
-      "title_hash": "d2519a7b",
-      "scored_at": "2026-08-19T19:00:30.927551Z"
-    },
-    "story_0151b8de64e8|pragmatic|0a5c5b24": {
-      "score": 30,
-      "review": "收购先观望定价和服务条款，现有API照常用。",
-      "title_hash": "c05b3c0c",
-      "scored_at": "2026-08-19T19:00:33.747419Z"
-    },
-    "story_65f7ae8f351a|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "面向普通用户的学习技巧，无 API 或代码可抄，开发者不用管。",
-      "title_hash": "f9c92047",
-      "scored_at": "2026-08-19T19:45:58.612287Z"
-    },
-    "story_be580d9263f2|cynic|f4237a62": {
-      "score": 55,
-      "review": "97%恢复精度？怕是跟全精度比，量化损失本来就没多少。",
-      "title_hash": "6b6ba3f7",
-      "scored_at": "2026-08-19T20:49:22.012250Z"
-    },
-    "story_be580d9263f2|paper-police|966065bf": {
-      "score": 45,
-      "review": "官方博客给出97%精度恢复的数字，缺少论文和第三方复现，权重开源情况待查。",
-      "title_hash": "6b6ba3f7",
-      "scored_at": "2026-08-19T20:49:25.331045Z"
-    },
-    "story_5eb7373b87f5|pragmatic|0a5c5b24": {
-      "score": 82,
-      "review": "数据合规需求直接可满足，企业客户可立刻评估接入。",
-      "title_hash": "37a163a4",
-      "scored_at": "2026-08-19T21:46:07.400128Z"
-    },
-    "story_c2a932b4c177|pragmatic|0a5c5b24": {
-      "score": 75,
-      "review": "小版本更新，Actions 和 JS 查询更准，用 CodeQL 的可以顺手升级。",
-      "title_hash": "da52a273",
-      "scored_at": "2026-08-19T21:46:09.388915Z"
-    },
-    "story_cf8446af2124|pragmatic|0a5c5b24": {
-      "score": 82,
-      "review": "Mac 本地 30 秒出视频，免云免 CUDA，想玩生成视频的今天就能试。",
-      "title_hash": "87409c65",
-      "scored_at": "2026-08-19T21:46:11.370379Z"
-    },
-    "story_5eb7373b87f5|cynic|f4237a62": {
-      "score": 68,
-      "review": "零保留算实在，但条款细则没晒全，先别急着鼓掌。",
-      "title_hash": "37a163a4",
-      "scored_at": "2026-08-19T21:46:13.512666Z"
-    },
-    "story_5eb7373b87f5|paper-police|966065bf": {
-      "score": 30,
-      "review": "官方说零保留，无技术报告无第三方核验，等独立验证再提级。",
-      "title_hash": "37a163a4",
-      "scored_at": "2026-08-19T21:46:15.369110Z"
-    },
-    "story_ad1cf550f418|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "模型迭代节奏放缓，短期不影响现有 API，选型可继续观望。",
-      "title_hash": "61e716ce",
-      "scored_at": "2026-08-19T22:44:57.480413Z"
-    },
-    "story_6be122ea69ff|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "临时故障，等恢复即可，不影响选型。",
-      "title_hash": "a4baea5c",
-      "scored_at": "2026-08-20T01:57:28.804418Z"
-    },
-    "story_8d0553fb4a53|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "上市时间表不解决今天的技术问题，等真招股再关注。",
-      "title_hash": "17d11184",
-      "scored_at": "2026-08-20T01:57:30.215632Z"
-    },
-    "story_6bbd57344177|pragmatic|0a5c5b24": {
-      "score": 48,
-      "review": "服务中断影响当天可用性，但属于偶发事件，不需要改选型。",
-      "title_hash": "64f71f84",
-      "scored_at": "2026-08-20T01:57:31.781525Z"
-    },
-    "story_299363b260a1|pragmatic|0a5c5b24": {
-      "score": 52,
-      "review": "搜索和Gemini更新偏产品端，等API开放再评估，现在不用动。",
-      "title_hash": "8fd61fec",
-      "scored_at": "2026-08-20T01:57:33.683217Z"
-    },
-    "story_066cef4d76cd|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "企业级隐私合规更稳了，但需确认API具体开启方式，适合数据敏感场景。",
-      "title_hash": "dc54613d",
-      "scored_at": "2026-08-20T01:57:37.205949Z"
-    },
-    "story_7ef48461ffb7|pragmatic|0a5c5b24": {
-      "score": 20,
-      "review": "上市融资跟写代码没关系，等真发API再看不迟。",
-      "title_hash": "39f12933",
-      "scored_at": "2026-08-20T01:57:38.741087Z"
-    },
-    "story_5ee4e916b509|pragmatic|0a5c5b24": {
-      "score": 30,
-      "review": "收购落地但接口未变，短期不影响调用，等整合后的价格再说。",
-      "title_hash": "fb94cc0c",
-      "scored_at": "2026-08-20T01:57:41.280592Z"
-    },
-    "story_5544f6c0c06c|pragmatic|0a5c5b24": {
-      "score": 50,
-      "review": "电视端AI助手落地，暂无开发接口，观望即可。",
-      "title_hash": "cdc022cc",
-      "scored_at": "2026-08-20T01:57:43.196357Z"
-    },
-    "story_f4583eda883d|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "讲思路没代码，看完不能立马上手，闲时读读就好。",
-      "title_hash": "a01a942d",
-      "scored_at": "2026-08-20T01:57:45.164711Z"
-    },
-    "story_cf8446af2124|cynic|f4237a62": {
-      "score": 68,
-      "review": "本地30秒出片听着香，可480P五秒视频的实用场景和画质，敢不敢放原片对比？",
-      "title_hash": "87409c65",
-      "scored_at": "2026-08-20T01:57:47.487975Z"
-    },
-    "story_cf8446af2124|paper-police|966065bf": {
-      "score": 10,
-      "review": "仅社交媒体宣称，无论文无代码无评测，数字无法验证。",
-      "title_hash": "87409c65",
-      "scored_at": "2026-08-20T01:57:48.970376Z"
-    },
-    "story_796e9c69bcbe|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "趋势预测而已，没有可落地的接口或硬件，观望即可。",
-      "title_hash": "ea6943bc",
-      "scored_at": "2026-08-20T03:14:55.394373Z"
-    },
-    "story_82b715fa8ad8|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "Mac端应用而已，不是API或开源，开发者看看就好，除非你重度用Meta生态。",
-      "title_hash": "35d2ec1c",
-      "scored_at": "2026-08-20T03:15:02.048474Z"
-    },
-    "story_d343d6dbf0c6|pragmatic|0a5c5b24": {
-      "score": 30,
-      "review": "上市计划不写代码，等真上市再看不迟。",
-      "title_hash": "29467965",
-      "scored_at": "2026-08-20T03:15:04.067503Z"
-    },
-    "story_20942fdcc0cb|pragmatic|0a5c5b24": {
-      "score": 75,
-      "review": "Codex加了危险操作拦截，跑自动化任务时多道保险，用它的今天就能受益。",
-      "title_hash": "e0dc0845",
-      "scored_at": "2026-08-20T04:01:16.674117Z"
-    },
-    "story_c4fc7d4e70c8|pragmatic|0a5c5b24": {
-      "score": 50,
-      "review": "痛点共识而已，没给方案和工具，做具身的等落地细节。",
-      "title_hash": "665be4ea",
-      "scored_at": "2026-08-20T04:01:20.441102Z"
-    },
     "story_97e04846adb3|pragmatic|0a5c5b24": {
       "score": 55,
       "review": "收购落地前OpenRouter照常用，关心后续定价和API变化。",
@@ -4116,6 +3930,132 @@
       "review": "官方博客提供了功能细节，但无独立论文、代码或第三方评测验证其效果。",
       "title_hash": "785ec0c0",
       "scored_at": "2026-09-09T15:07:39.233416Z"
+    },
+    "story_7909c6cf5087|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "新模型已发布，面向工作场景，可直接评估其专业能力是否适合你的项目。",
+      "title_hash": "96bc3114",
+      "scored_at": "2026-09-10T04:06:31.625406Z"
+    },
+    "story_b361718ee020|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "企业级权限管理已上线，管理员现在就能细化控制Copilot Agent的操作范围。",
+      "title_hash": "91786775",
+      "scored_at": "2026-09-10T04:06:38.035906Z"
+    },
+    "story_ea4f77cf3524|pragmatic|0a5c5b24": {
+      "score": 88,
+      "review": "可直接商用且性能领先的时间序列模型，项目选型多了个靠谱选项。",
+      "title_hash": "c08df2a8",
+      "scored_at": "2026-09-10T04:06:42.029592Z"
+    },
+    "story_0a10715b8943|pragmatic|0a5c5b24": {
+      "score": 10,
+      "review": "对开发者无用，是面向普通用户的搜索产品功能更新。",
+      "title_hash": "18490d04",
+      "scored_at": "2026-09-10T04:06:46.282064Z"
+    },
+    "story_799f696687f7|pragmatic|0a5c5b24": {
+      "score": 48,
+      "review": "专家对传闻的技术解析，帮你理解前沿概念，但离实际应用还很远。",
+      "title_hash": "c5d980cc",
+      "scored_at": "2026-09-10T04:06:50.095847Z"
+    },
+    "story_218a1539238c|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "ARM64 Linux开发者现在能原生运行CodeQL，分析效率提升。",
+      "title_hash": "5389a3f9",
+      "scored_at": "2026-09-10T04:06:56.453241Z"
+    },
+    "story_5969262efc42|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "董事会人事变动，对开发者日常使用的API和工具无直接影响。",
+      "title_hash": "988d474a",
+      "scored_at": "2026-09-10T04:06:59.863227Z"
+    },
+    "story_c1742d135f37|pragmatic|0a5c5b24": {
+      "score": 10,
+      "review": "官方博客的温情案例，对开发者工作无直接影响。",
+      "title_hash": "8b260ee0",
+      "scored_at": "2026-09-10T04:07:03.204943Z"
+    },
+    "story_81441f1b3696|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "分析师对收购的估值评论，不影响你今天用HF或CUDA。",
+      "title_hash": "09daab79",
+      "scored_at": "2026-09-10T04:07:15.301871Z"
+    },
+    "story_eaab8e4ac533|pragmatic|0a5c5b24": {
+      "score": 52,
+      "review": "了解API供应商的安全事故，评估其服务可靠性时多一个参考项。",
+      "title_hash": "87cf31c8",
+      "scored_at": "2026-09-10T04:07:18.419963Z"
+    },
+    "story_2d7c9d621d9e|pragmatic|0a5c5b24": {
+      "score": 55,
+      "review": "了解大模型安全风险案例，但暂时不影响你的API调用和开发。",
+      "title_hash": "fa039fb4",
+      "scored_at": "2026-09-10T04:07:39.106995Z"
+    },
+    "story_fe90894c67b0|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "看大厂如何复盘安全漏洞，对设计高风险应用有参考价值。",
+      "title_hash": "e3ef7b81",
+      "scored_at": "2026-09-10T04:07:46.438732Z"
+    },
+    "story_cb60067aa36b|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "企业安全功能试用门槛降低，现在就能申请评估是否值得购买。",
+      "title_hash": "01c57883",
+      "scored_at": "2026-09-10T04:07:50.981051Z"
+    },
+    "story_ddf3578155d9|pragmatic|0a5c5b24": {
+      "score": 82,
+      "review": "提供了用AI重构大型遗留代码的具体方法论和工具链，可复用到类似项目。",
+      "title_hash": "393a09e4",
+      "scored_at": "2026-09-10T04:07:55.239123Z"
+    },
+    "story_266dc2269e8a|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "政策倡议与你今天的代码无关，等具体法规落地再说。",
+      "title_hash": "6d299017",
+      "scored_at": "2026-09-10T04:07:59.188843Z"
+    },
+    "story_ea4f77cf3524|cynic|f4237a62": {
+      "score": 78,
+      "review": "商业友好许可值得肯定，但‘SOTA’这顶帽子，得看是在哪个具体数据集上戴的。",
+      "title_hash": "c08df2a8",
+      "scored_at": "2026-09-10T04:08:02.764173Z"
+    },
+    "story_ea4f77cf3524|paper-police|966065bf": {
+      "score": 75,
+      "review": "有官方技术博客和模型发布，但未见独立论文或第三方评测报告。",
+      "title_hash": "c08df2a8",
+      "scored_at": "2026-09-10T04:08:10.169688Z"
+    },
+    "story_7909c6cf5087|cynic|f4237a62": {
+      "score": 75,
+      "review": "专攻工作场景听着务实，但‘下一代’的饼画得太大，等实测看能卷过多少Copilot。",
+      "title_hash": "96bc3114",
+      "scored_at": "2026-09-10T04:08:19.428272Z"
+    },
+    "story_7909c6cf5087|paper-police|966065bf": {
+      "score": 15,
+      "review": "仅有官方博客宣称性能，无论文、代码或第三方评测，证据不足。",
+      "title_hash": "96bc3114",
+      "scored_at": "2026-09-10T04:08:45.816845Z"
+    },
+    "story_b361718ee020|cynic|f4237a62": {
+      "score": 78,
+      "review": "功能是实打实的权限管理，但‘企业级’这词儿的水分，得看具体能管多细。",
+      "title_hash": "91786775",
+      "scored_at": "2026-09-10T04:08:50.214092Z"
+    },
+    "story_b361718ee020|paper-police|966065bf": {
+      "score": 15,
+      "review": "官方博客宣布功能，无论文无代码无独立评测，仅为产品公告。",
+      "title_hash": "91786775",
+      "scored_at": "2026-09-10T04:08:54.270581Z"
     }
   }
 }

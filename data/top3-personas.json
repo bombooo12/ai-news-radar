@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T15:07:39.233506Z",
+  "generated_at": "2026-09-10T04:08:54.270634Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_fee049a1c565",
-      "title": "Remediate Code Quality findings with agentic autofix",
-      "url": "https://github.blog/changelog/2026-09-09-remediate-code-quality-findings-with-agentic-autofix",
+      "story_id": "story_ea4f77cf3524",
+      "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+      "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "又是‘Agentic’这词，不就是高级点的自动修复？看实际修复率和引入新bug的概率吧。"
+          "score": 78,
+          "review": "商业友好许可值得肯定，但‘SOTA’这顶帽子，得看是在哪个具体数据集上戴的。"
         },
         "paper-police": {
-          "score": 45,
-          "review": "官方博客提供了功能细节，但无独立论文、代码或第三方评测验证其效果。"
+          "score": 75,
+          "review": "有官方技术博客和模型发布，但未见独立论文或第三方评测报告。"
         },
         "pragmatic": {
           "score": 88,
-          "review": "GitHub 官方推出代码质量自动修复代理，今天就能在项目里用。"
+          "review": "可直接商用且性能领先的时间序列模型，项目选型多了个靠谱选项。"
         }
       }
     },
     {
-      "story_id": "story_8876e98eb3be",
-      "title": "Enterprise-managed sandbox in Copilot for JetBrains",
-      "url": "https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains",
+      "story_id": "story_7909c6cf5087",
+      "title": "OpenAI 发布 GPT-6 Astra，面向专业工作场景 / GPT-6 Astra: The next generation in intelligence for work",
+      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
       "rank": 2,
       "reviews": {
         "cynic": {
           "score": 75,
-          "review": "给企业加个安全沙盒，功能实在但宣传得像是重大突破，老功能新包装罢了。"
+          "review": "专攻工作场景听着务实，但‘下一代’的饼画得太大，等实测看能卷过多少Copilot。"
         },
         "paper-police": {
           "score": 15,
-          "review": "官方博客仅宣布功能，无论文、代码或独立性能评测。"
+          "review": "仅有官方博客宣称性能，无论文、代码或第三方评测，证据不足。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "企业版IDE插件新增沙盒功能，用公司代码训练时安全性有保障了。"
+          "review": "新模型已发布，面向工作场景，可直接评估其专业能力是否适合你的项目。"
         }
       }
     },
     {
-      "story_id": "story_d7d617c533bb",
-      "title": "Anthropic 讲解用 Claude Platform 降低成本并提升性能的三个方法 / https://x.com/i/article/2095208140753317888",
-      "url": "https://x.com/ClaudeDevs/status/2097369738968195513",
+      "story_id": "story_b361718ee020",
+      "title": "Enterprise managed permissions for GitHub Copilot agent operations",
+      "url": "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "官方教你省钱，潜台词是默认你之前花了不少冤枉钱。"
+          "score": 78,
+          "review": "功能是实打实的权限管理，但‘企业级’这词儿的水分，得看具体能管多细。"
         },
         "paper-police": {
-          "score": 45,
-          "review": "官方博客提供了方法说明，但缺乏独立、可复现的性能基准数据。"
+          "score": 15,
+          "review": "官方博客宣布功能，无论文无代码无独立评测，仅为产品公告。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "官方给出具体优化技巧，直接调整调用方式就能省钱提效。"
+          "review": "企业级权限管理已上线，管理员现在就能细化控制Copilot Agent的操作范围。"
         }
       }
     }
