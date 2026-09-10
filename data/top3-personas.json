@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T04:08:54.270634Z",
+  "generated_at": "2026-09-10T09:06:59.137232Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,10 +17,30 @@
   ],
   "items": [
     {
+      "story_id": "story_bcd7d71a4aa4",
+      "title": "DeepSeek 发布 V4.1-Flash，API 价格同步下调",
+      "url": "https://api-docs.deepseek.com/zh-cn/updates",
+      "rank": 1,
+      "reviews": {
+        "cynic": {
+          "score": 75,
+          "review": "降价是实打实的，但V4.1-Flash相比V4.1的‘闪光点’在哪，文档里没细说。"
+        },
+        "paper-police": {
+          "score": 15,
+          "review": "仅有官方更新日志宣称性能与降价，无论文代码及第三方评测佐证。"
+        },
+        "pragmatic": {
+          "score": 92,
+          "review": "API已上线且降价，调用成本降低，项目可以立即评估使用。"
+        }
+      }
+    },
+    {
       "story_id": "story_ea4f77cf3524",
       "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
       "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
-      "rank": 1,
+      "rank": 2,
       "reviews": {
         "cynic": {
           "score": 78,
@@ -40,7 +60,7 @@
       "story_id": "story_7909c6cf5087",
       "title": "OpenAI 发布 GPT-6 Astra，面向专业工作场景 / GPT-6 Astra: The next generation in intelligence for work",
       "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-      "rank": 2,
+      "rank": 3,
       "reviews": {
         "cynic": {
           "score": 75,
@@ -53,26 +73,6 @@
         "pragmatic": {
           "score": 85,
           "review": "新模型已发布，面向工作场景，可直接评估其专业能力是否适合你的项目。"
-        }
-      }
-    },
-    {
-      "story_id": "story_b361718ee020",
-      "title": "Enterprise managed permissions for GitHub Copilot agent operations",
-      "url": "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations",
-      "rank": 3,
-      "reviews": {
-        "cynic": {
-          "score": 78,
-          "review": "功能是实打实的权限管理，但‘企业级’这词儿的水分，得看具体能管多细。"
-        },
-        "paper-police": {
-          "score": 15,
-          "review": "官方博客宣布功能，无论文无代码无独立评测，仅为产品公告。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "企业级权限管理已上线，管理员现在就能细化控制Copilot Agent的操作范围。"
         }
       }
     }
