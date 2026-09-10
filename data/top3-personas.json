@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T09:06:59.137232Z",
+  "generated_at": "2026-09-10T15:07:38.524389Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -57,22 +57,22 @@
       }
     },
     {
-      "story_id": "story_7909c6cf5087",
-      "title": "OpenAI 发布 GPT-6 Astra，面向专业工作场景 / GPT-6 Astra: The next generation in intelligence for work",
-      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "story_id": "story_b361718ee020",
+      "title": "Enterprise managed permissions for GitHub Copilot agent operations",
+      "url": "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 75,
-          "review": "专攻工作场景听着务实，但‘下一代’的饼画得太大，等实测看能卷过多少Copilot。"
+          "score": 78,
+          "review": "功能是实打实的权限管理，但‘企业级’这词儿的水分，得看具体能管多细。"
         },
         "paper-police": {
           "score": 15,
-          "review": "仅有官方博客宣称性能，无论文、代码或第三方评测，证据不足。"
+          "review": "官方博客宣布功能，无论文无代码无独立评测，仅为产品公告。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "新模型已发布，面向工作场景，可直接评估其专业能力是否适合你的项目。"
+          "review": "企业级权限管理已上线，管理员现在就能细化控制Copilot Agent的操作范围。"
         }
       }
     }
