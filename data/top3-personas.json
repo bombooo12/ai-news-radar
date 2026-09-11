@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T15:07:38.524389Z",
+  "generated_at": "2026-09-11T04:08:53.025499Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -37,42 +37,42 @@
       }
     },
     {
-      "story_id": "story_ea4f77cf3524",
-      "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
-      "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+      "story_id": "story_b2726331d325",
+      "title": "OpenAI 在 ChatGPT Work 中推出 Data agent / Now everyone can put data to work",
+      "url": "https://openai.com/index/put-data-to-work",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 78,
-          "review": "商业友好许可值得肯定，但‘SOTA’这顶帽子，得看是在哪个具体数据集上戴的。"
+          "score": 65,
+          "review": "又是‘人人可用’的营销话术，具体能处理多大、多脏的数据集，敢不敢说？"
         },
         "paper-police": {
-          "score": 75,
-          "review": "有官方技术博客和模型发布，但未见独立论文或第三方评测报告。"
+          "score": 15,
+          "review": "官方博客宣称功能，无论文、无代码、无独立评测，仅为说法。"
         },
         "pragmatic": {
-          "score": 88,
-          "review": "可直接商用且性能领先的时间序列模型，项目选型多了个靠谱选项。"
+          "score": 85,
+          "review": "ChatGPT Work 里可以直接用 Data Agent 处理数据了，今天就能试试自动化分析流程。"
         }
       }
     },
     {
-      "story_id": "story_b361718ee020",
-      "title": "Enterprise managed permissions for GitHub Copilot agent operations",
-      "url": "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations",
+      "story_id": "story_d376123c7d4c",
+      "title": "Control GitHub Actions cache access with cache-mode",
+      "url": "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 78,
-          "review": "功能是实打实的权限管理，但‘企业级’这词儿的水分，得看具体能管多细。"
+          "score": 85,
+          "review": "终于给缓存加权限了，这功能早该有，但好歹是实打实的改进。"
         },
         "paper-police": {
           "score": 15,
-          "review": "官方博客宣布功能，无论文无代码无独立评测，仅为产品公告。"
+          "review": "官方博客宣布功能，无论文无代码无独立评测，仅有单方说法。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "企业级权限管理已上线，管理员现在就能细化控制Copilot Agent的操作范围。"
+          "review": "GitHub Actions 缓存新增精细控制，今天就能优化流水线安全与速度。"
         }
       }
     }

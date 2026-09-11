@@ -78,6 +78,14 @@
         "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "一个具体的研究案例，了解AI在科研的应用模式，但离日常开发较远。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-11T04:06:41.257373Z"
       }
     },
     {
@@ -155,6 +163,14 @@
         "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser",
         "source": "GitHub AI & ML",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 70,
+      "persona_review": "官方教程，帮你快速上手 Copilot 的实用功能，新手可以照着学。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-11T04:06:41.257373Z"
       }
     },
     {
@@ -232,6 +248,14 @@
         "url": "https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 70,
+      "persona_review": "GitHub PR页面改版预览，UI/UX有变，开发工作流或需微调适应。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-11T04:06:41.257373Z"
       }
     },
     {
@@ -309,6 +333,14 @@
         "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips",
         "source": "Google AI Blog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 10,
+      "persona_review": "谷歌博客的生活小贴士，与AI开发或工具无关，不用看。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-11T04:06:41.257373Z"
       }
     },
     {
@@ -415,6 +447,14 @@
         "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek",
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "行业口水仗，不影响你调用API或选模型，知道就行。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-11T04:06:41.257373Z"
       }
     },
     {
@@ -492,6 +532,14 @@
         "url": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 82,
+      "persona_review": "GitHub AI扫描API开放公测，可集成到你的CI/CD流程里了。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-11T04:06:41.257373Z"
       }
     },
     {
@@ -597,6 +645,14 @@
         "url": "https://www.aibase.com/news/30980",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "想升级Plus的用户得排队了，新项目选型要考虑供应稳定性。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-11T04:06:41.257373Z"
       }
     },
     {
@@ -674,6 +730,14 @@
         "url": "https://openai.com/index/put-data-to-work",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "ChatGPT Work 里可以直接用 Data Agent 处理数据了，今天就能试试自动化分析流程。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-11T04:06:41.257373Z"
       }
     },
     {
@@ -780,6 +844,14 @@
         "url": "https://the-decoder.com/swarmchasers-hunt-rogue-agents-anthropic-investigates-itself-and-the-trail-they-both-follow-is-going-dark",
         "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "安全事件复盘和追踪方法，对构建生产级AI系统有长期参考价值。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-11T04:06:41.257373Z"
       }
     },
     {
@@ -856,6 +928,14 @@
         "url": "https://www.marktechpost.com/2026/09/10/deepseek-ai-released-deepseek-v4-1-flash-with-1m-context-fp4-kv-cache-and-cross-layer-attention-reuse",
         "source": "MarkTechPost（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "新模型已发布，1M上下文和FP4 KV缓存能直接提升推理效率、降低成本。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-11T04:06:41.257373Z"
       }
     },
     {
@@ -932,6 +1012,14 @@
         "url": "https://shopify.engineering/back-to-native",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 70,
+      "persona_review": "跨平台方案选型的重要参考，新项目需重新评估RN的长期风险。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-11T04:06:41.257373Z"
       }
     },
     {
@@ -1009,6 +1097,14 @@
         "url": "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "GitHub Actions 缓存新增精细控制，今天就能优化流水线安全与速度。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-11T04:06:41.257373Z"
       }
     },
     {
@@ -1085,6 +1181,14 @@
         "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
         "source": "Anthropic：Research（发表成果 · 网页）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "一份关于模型能力边界的研究报告，了解即可，不影响当前开发。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-11T04:06:41.257373Z"
       }
     },
     {
@@ -1162,6 +1266,14 @@
         "url": "https://openai.com/index/introducing-chatgpt-financial-services",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "金融行业专用版ChatGPT已发布，相关开发者可评估接入方案。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-11T04:06:41.257373Z"
       }
     },
     {
@@ -1237,6 +1349,14 @@
         "url": "https://cursor.com/blog/projects",
         "source": "Cursor Blog",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "Cursor新功能已上线，可立刻用于分解和管理大型编程项目。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-11T04:06:41.257373Z"
       }
     },
     {
@@ -1312,6 +1432,14 @@
         "url": "https://x.com/kimmonismus/status/2097962333767102665",
         "source": "X：Kim (@kimmonismus)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "新架构模型已发布，做多模态任务的开发者可以上手测试了。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-11T04:06:41.257373Z"
       }
     },
     {
@@ -1387,6 +1515,14 @@
         "url": "https://x.com/elonmusk/status/2098217236771295567",
         "source": "X：Elon Musk (@elonmusk, xAI)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "Grok的摘要能力展示，但对你选型或开发没直接影响。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-11T04:06:41.257373Z"
       }
     },
     {
@@ -1462,6 +1598,14 @@
         "url": "https://api-docs.deepseek.com/zh-cn/updates",
         "source": "DeepSeek：API 更新日志",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 92,
+      "persona_review": "API已上线且降价，调用成本降低，项目可以立即评估使用。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-11T04:06:41.257373Z"
       }
     },
     {
@@ -1538,6 +1682,14 @@
         "url": "https://www.aibase.com/news/30982",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "安全研究进展，提醒开发者注意输入过滤，但暂无现成补丁。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-11T04:06:41.257373Z"
       }
     },
     {
@@ -1613,6 +1765,14 @@
         "url": "https://x.com/WorkBuddy_AI/status/2098076348749324362",
         "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "新模型已上线可免费试用两周，开发者可立即接入测试性能。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-11T04:06:41.257373Z"
       }
     }
   ]
