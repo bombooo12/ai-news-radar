@@ -3,11 +3,11 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "DeepSeek偷偷用Claude训练？揭秘AI大厂的蒸馏攻防战",
+      "title": "DeepSeek偷偷用Claude训练？AI大厂互撕背后的真相与你的机会",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、AI工具使用者、科技爱好者",
-      "reason": "Anthropic指控DeepSeek等蒸馏Claude，争议性强，符合用户偏好冲突性选题，且与DeepSeek相关易扩展。",
+      "target_audience": "AI初学者、AI工具使用者、关注AI行业动态的从业者",
+      "reason": "DeepSeek和Anthropic的蒸馏争议是今日最大热点，冲突性强，且与创作者历史偏好（DeepSeek Harness）高度相关，易引发讨论。",
       "source_items": [
         "Anthropic 报告指控阿里、月之暗面与 DeepSeek 对 Claude 发起蒸馏攻击",
         "DeepSeek and Moonshot were quietly relaying customer prompts to Claude",
@@ -16,7 +16,8 @@
       "source_urls": [
         "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek",
         "https://twitter.com/IntCyberDigest/status/2098149671957103005",
-        "https://the-decoder.com/swarmchasers-hunt-rogue-agents-anthropic-investigates-itself-and-the-trail-they-both-follow-is-going-dark"
+        "https://the-decoder.com/swarmchasers-hunt-rogue-agents-anthropic-investigates-itself-and-the-trail-they-both-follow-is-going-dark",
+        "https://www.aibase.com/news/30973"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -25,89 +26,26 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "如何用提示词工程保护你的AI模型不被‘蒸馏’？",
-          "summary": "教AI开发者和普通用户如何通过提示词设计、API调用限制等方式防止模型被蒸馏。",
+          "hook": "如何用DeepSeek安全高效地学习Claude？避免踩到蒸馏红线",
+          "summary": "教AI初学者如何合法利用开源模型和API，避免触发蒸馏争议，同时提升自己的提示词工程能力。",
           "key_points": [
-            "理解蒸馏攻击的原理：通过大量查询目标模型输出，训练自己的模型",
-            "设计防蒸馏提示词：添加随机噪声、限制输出长度、使用水印",
-            "设置API访问控制：频率限制、IP白名单、异常检测"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "45分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "别再用DeepSeek套壳Claude了！小心被Anthropic封号",
-          "summary": "警告使用第三方API中转或蒸馏行为的风险，提供合规使用AI模型的建议。",
-          "pitfalls": [
-            "使用非官方API中转服务可能导致数据泄露和封号",
-            "蒸馏行为可能违反服务条款，面临法律诉讼",
-            "依赖蒸馏模型可能导致模型质量不稳定，长期不可持续"
+            "了解蒸馏与正常使用的边界，避免违反服务条款",
+            "利用DeepSeek官方文档和开源模型进行合法学习",
+            "通过对比测试提升提示词设计能力，不依赖转发提示词"
           ],
           "difficulty": "入门",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "蒸馏攻防战：AI大厂如何互相‘偷师’？",
-          "summary": "分析蒸馏攻击背后的商业竞争、技术伦理和AI安全趋势。",
-          "insights": [
-            "蒸馏是AI行业普遍现象，但被公开指控极为罕见，反映竞争白热化",
-            "Anthropic的指控可能引发行业对AI知识产权保护的重新审视",
-            "未来AI模型将加强防御机制，蒸馏成本将大幅上升"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "title": "OpenAI GPT-Live-1 API上线：电话客服要被AI取代了？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、开发者、小微企业主",
-      "reason": "GPT-Live-1支持全双工语音和电话智能体，是AI应用落地的重要里程碑，用户对OpenAI新工具感兴趣。",
-      "source_items": [
-        "OpenAI正式上线GPT-Live-1 API：支持打断处理、工具调用与电话智能体",
-        "OpenAI 将 GPT-Live-1 引入 API：全双工语音、支持打断，可接电话做客服"
-      ],
-      "source_urls": [
-        "https://www.aibase.com/news/30973",
-        "https://www.aibase.com/news/30977",
-        "https://openai.com/index/put-data-to-work"
-      ],
-      "urgency": "high",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "视频",
-          "hook": "5分钟搭建一个AI电话客服，用GPT-Live-1 API",
-          "summary": "演示如何调用GPT-Live-1 API，实现一个简单的电话客服机器人。",
-          "key_points": [
-            "注册OpenAI API并获取GPT-Live-1访问权限",
-            "使用Python调用API，配置全双工语音参数",
-            "集成电话接口（如Twilio），实现接听和应答"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
+          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "GPT-Live-1电话客服的5个坑：延迟、费用、隐私",
-          "summary": "提醒开发者和企业在使用GPT-Live-1时可能遇到的性能、成本和合规问题。",
+          "hook": "别乱用AI提示词！DeepSeek事件给普通用户的3个警示",
+          "summary": "提醒普通用户不要盲目转发提示词或使用非官方渠道，避免卷入数据泄露和版权风险。",
           "pitfalls": [
-            "全双工语音对网络延迟要求高，需优化服务器位置",
-            "API调用费用可能超出预期，需设置预算监控",
-            "处理用户隐私数据需符合GDPR等法规，否则面临罚款"
+            "使用非官方API转发提示词可能泄露隐私数据",
+            "盲目模仿大厂提示词可能涉及版权问题",
+            "轻信'蒸馏教程'可能导致账号被封禁"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -116,12 +54,75 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "GPT-Live-1背后：OpenAI的语音野心与客服行业变革",
-          "summary": "分析GPT-Live-1对客服行业、AI语音交互市场的深远影响。",
+          "hook": "AI大厂互撕背后：蒸馏技术如何重塑行业格局？",
+          "summary": "深度分析蒸馏技术对AI行业的影响，以及中国AI公司与美国公司的竞争态势。",
           "insights": [
-            "GPT-Live-1将大幅降低智能客服的搭建成本，中小企业受益",
-            "全双工语音交互是AI从聊天机器人走向真实助手的关键一步",
-            "传统客服外包行业可能面临转型压力，AI替代效应显现"
+            "蒸馏是AI行业普遍现象，但涉及商业机密时成为竞争武器",
+            "Anthropic的指控可能加剧中美AI技术脱钩",
+            "对创业者而言，依赖单一模型的风险加大，多模型策略成为趋势"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "GPT-Live-1 API上线：0.05美元/分钟，普通人也能做语音AI应用？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、想用AI变现的个人开发者、对语音交互感兴趣的小白",
+      "reason": "OpenAI新API上线，价格亲民，功能强大，适合做教程和变现思路分享，且与创作者'AI工具测评'能力匹配。",
+      "source_items": [
+        "OpenAI正式上线GPT-Live-1 API：支持打断处理、工具调用与电话智能体",
+        "OpenAI 开放 GPT-Live-1 API：每分钟 0.05 美元，把 ChatGPT 同款语音能力交给开发者"
+      ],
+      "source_urls": [
+        "https://www.aibase.com/news/30973",
+        "https://www.aibase.com/news/30994",
+        "https://developers.openai.com/api/docs/guides/agents-api/overview"
+      ],
+      "urgency": "high",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "视频",
+          "hook": "5分钟上手GPT-Live-1：搭建你的第一个语音助手",
+          "summary": "演示如何注册、调用API，并搭建一个简单的电话智能体。",
+          "key_points": [
+            "注册OpenAI账号并获取API密钥",
+            "调用GPT-Live-1 API实现语音对话",
+            "集成工具调用，实现简单任务（如查天气）"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "GPT-Live-1 API的5个隐藏坑：别让你的账单爆炸",
+          "summary": "提醒开发者注意API的计费方式、并发限制和延迟问题。",
+          "pitfalls": [
+            "每分钟0.05美元，但长对话可能快速消耗额度",
+            "免费额度有限，需设置预算提醒",
+            "语音识别准确率受噪音影响，需优化音频输入"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "GPT-Live-1 API发布：语音交互的'iPhone时刻'来了？",
+          "summary": "分析语音API对智能客服、语音助手、教育等行业的颠覆性影响。",
+          "insights": [
+            "语音交互将成AI应用标配，开发者需提前布局",
+            "低价API可能催生大量语音应用创业机会",
+            "对传统呼叫中心行业构成巨大冲击"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -130,13 +131,13 @@
     },
     {
       "rank": 3,
-      "title": "亚马逊Prime Video上线AI口型同步，视频翻译迎来革命？",
+      "title": "AI口型同步技术来了！亚马逊Prime Video如何让配音'天衣无缝'？",
       "track": "ai_video",
       "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI视频创作者、自媒体人、影视爱好者",
-      "reason": "AI口型同步技术是视频创作领域的痛点，用户擅长视频剪辑，且此技术对AI视频创作者有直接价值。",
+      "target_audience": "视频创作者、自媒体人、AI工具爱好者",
+      "reason": "AI口型同步技术对视频创作者是刚需，且创作者擅长视频剪辑，能快速产出实用教程。",
       "source_items": [
-        "告别配音“对不上嘴”！亚马逊Prime Video重磅上线AI口型同步技术"
+        "告别配音'对不上嘴'！亚马逊Prime Video重磅上线AI口型同步技术"
       ],
       "source_urls": [
         "https://www.aibase.com/news/30961",
@@ -150,12 +151,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "视频",
-          "hook": "用AI口型同步工具，让你的视频翻译不再尴尬",
-          "summary": "演示如何使用AI口型同步工具（如Prime Video的技术）为视频配音换语言，保持口型一致。",
+          "hook": "剪映+AI口型同步：让你的视频配音完美对嘴",
+          "summary": "教视频创作者利用AI口型同步工具，解决配音对不上嘴的问题。",
           "key_points": [
-            "选择支持口型同步的AI视频工具（如HeyGen、D-ID）",
-            "上传视频，选择目标语言，自动生成配音并调整口型",
-            "后期用剪映Pro进行微调，确保音画同步"
+            "选择合适的AI口型同步工具（如亚马逊、第三方）",
+            "在剪映中导入视频和配音，应用口型同步",
+            "调整参数，优化效果，导出高质量视频"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -164,12 +165,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI口型同步的3个坑：版权、质量、伦理",
-          "summary": "提醒创作者使用AI口型同步技术时注意版权、内容质量和伦理问题。",
+          "hook": "AI口型同步的3个坑：别让你的视频变得诡异",
+          "summary": "提醒创作者注意口型同步的常见问题，如表情僵硬、延迟等。",
           "pitfalls": [
-            "未经授权翻译他人视频可能侵犯版权",
-            "AI生成的口型在复杂场景下可能失真，影响观感",
-            "深度伪造风险，需标注AI生成内容避免误导"
+            "过度依赖AI可能导致表情不自然",
+            "口型同步对原始素材质量要求高",
+            "部分工具可能改变原视频画质"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -178,12 +179,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI口型同步技术如何改变全球视频内容分发？",
-          "summary": "分析AI口型同步技术对影视译制、短视频出海、全球化内容创作的革命性影响。",
+          "hook": "AI口型同步技术：视频创作的'降维打击'还是'双刃剑'？",
+          "summary": "分析AI口型同步技术对影视、自媒体、教育等行业的影响，以及潜在的法律风险。",
           "insights": [
-            "口型同步技术将大幅降低视频本地化成本，推动内容出海",
-            "影视译制行业可能面临颠覆，传统配音演员需求减少",
-            "AI生成的逼真口型引发伦理争议，需建立监管框架"
+            "大幅降低视频本地化成本，全球化内容创作门槛降低",
+            "可能引发深度伪造（Deepfake）担忧，需加强监管",
+            "对配音演员、翻译行业构成挑战"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -192,17 +193,18 @@
     },
     {
       "rank": 4,
-      "title": "AI智能体失控？Swarmchasers追踪OpenAI rogue agents的真相",
+      "title": "智能体商业'ChatGPT时刻'已至？蚂蚁集团CEO的预言靠谱吗？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、技术爱好者、安全从业者",
-      "reason": "AI智能体安全事件是热点，且与用户关注的Agent赛道相关，能引发讨论。",
+      "target_audience": "AI创业者、企业主、关注智能体趋势的从业者",
+      "reason": "蚂蚁集团CEO的言论具有行业风向标意义，且智能体是创作者关注的赛道，适合深度解读和变现思路分享。",
       "source_items": [
-        "Swarmchasers 追踪疑似 OpenAI 智能体，Anthropic 复查自身四起安全事件",
-        "Swarmchasers hunt rogue agents, Anthropic investigates itself, and the trail they both follow is going dark"
+        "蚂蚁集团CEO韩歆毅:智能体商业的'ChatGPT'时刻已经到来",
+        "蚂蚁集团韩歆毅宣告智能体'ChatGPT'时刻已至"
       ],
       "source_urls": [
-        "https://the-decoder.com/swarmchasers-hunt-rogue-agents-anthropic-investigates-itself-and-the-trail-they-both-follow-is-going-dark",
+        "https://www.aibase.com/news/30987",
+        "https://www.aibase.com/news/30997",
         "https://developers.openai.com/api/docs/guides/agents-api/overview"
       ],
       "urgency": "medium",
@@ -212,40 +214,40 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "如何用Swarmchasers工具监控你的AI智能体？",
-          "summary": "教AI开发者如何部署监控工具，防止智能体出现异常行为。",
+          "hook": "普通人如何抓住智能体商业红利？从0到1搭建你的第一个智能体",
+          "summary": "教初学者利用现有平台（如Coze、Dify）搭建一个简单的智能体，并接入微信或网站。",
           "key_points": [
-            "了解Swarmchasers的工作原理：追踪智能体行为轨迹",
-            "部署开源监控工具，设置异常行为告警",
-            "定期审查智能体日志，发现潜在风险"
+            "选择智能体开发平台（Coze、Dify等）",
+            "设计智能体的核心功能和对话流程",
+            "发布并测试，迭代优化"
           ],
-          "difficulty": "中级",
+          "difficulty": "入门",
           "estimated_time": "1小时"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI智能体失控的5个信号，你中招了吗？",
-          "summary": "列举AI智能体可能失控的常见迹象，提供预防措施。",
+          "hook": "智能体创业的5个坑：别被'ChatGPT时刻'忽悠了",
+          "summary": "提醒创业者不要盲目跟风，注意智能体商业化中的技术、成本和市场风险。",
           "pitfalls": [
-            "智能体开始执行未授权的操作（如发送邮件）",
-            "对话中出现与训练数据不符的异常输出",
-            "智能体试图访问敏感数据或系统权限"
+            "智能体技术尚未成熟，用户体验可能不佳",
+            "开发成本高，变现模式不清晰",
+            "大厂入局，竞争激烈，小团队难生存"
           ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "difficulty": "中级",
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI智能体安全：从Swarmchasers看未来AI治理",
-          "summary": "探讨AI智能体失控风险背后的技术挑战和行业治理趋势。",
+          "hook": "智能体商业的'ChatGPT时刻'：真相还是炒作？",
+          "summary": "深入分析智能体商业化的现状、挑战和未来趋势，评估蚂蚁集团CEO言论的可信度。",
           "insights": [
-            "智能体自主性增强带来安全漏洞，需要新的监控体系",
-            "Anthropic自查安全事件表明行业对AI安全的重视",
-            "未来AI智能体将内置安全机制，如沙箱、权限控制"
+            "智能体技术已从概念走向落地，但大规模商业化仍需时间",
+            "蚂蚁集团在金融场景的智能体应用具有示范效应",
+            "中小企业应关注垂直场景的智能体机会"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -254,11 +256,76 @@
     },
     {
       "rank": 5,
-      "title": "AI商标注册避坑指南：你的AI产品名可能已被抢注",
-      "track": "ip_entrepreneurship",
+      "title": "AI Filmmaking Masterclass：如何用AI拍出电影级短片？",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "视频创作者、电影爱好者、AI工具玩家",
+      "reason": "AI电影制作是热门趋势，创作者擅长视频剪辑，可结合实操教程和工具测评，吸引对AI视频感兴趣的用户。",
+      "source_items": [
+        "AI Filmmaking Masterclass + Hackathon",
+        "Runway to Reality: AI Fashion Hackathon",
+        "Dasein EMERGENCE - Ai Film Festival"
+      ],
+      "source_urls": [
+        "https://lu.ma/pw54q8np",
+        "https://www.meetup.com/google-developer-groups-brooklyn/events/316246126",
+        "https://www.meetup.com/dasein-creative-circle/events/315984292",
+        "https://lu.ma/sznak684"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "视频",
+          "hook": "用AI工具从零制作一部电影级短片：完整工作流",
+          "summary": "演示如何使用Runway、Midjourney、剪映等工具，从剧本到成片的完整流程。",
+          "key_points": [
+            "用ChatGPT生成剧本和分镜脚本",
+            "用Midjourney生成场景和角色图",
+            "用Runway生成动态视频，剪映剪辑成片"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "2小时"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI电影制作的3个坑：别让你的大片变成'车祸现场'",
+          "summary": "提醒创作者注意AI生成视频的连贯性、版权和工具成本问题。",
+          "pitfalls": [
+            "AI生成视频的连贯性差，需要后期大量调整",
+            "使用AI生成素材可能涉及版权纠纷",
+            "工具订阅费用高，需合理规划预算"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "AI电影时代来临：传统影视行业会被颠覆吗？",
+          "summary": "分析AI电影制作对影视行业的冲击，以及独立创作者的机遇。",
+          "insights": [
+            "AI降低电影制作门槛，独立创作者迎来黄金时代",
+            "传统影视公司需转型，拥抱AI技术",
+            "AI电影在叙事和情感表达上仍有局限，人类创意不可替代"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "商标注册代理公司如何用AIGC剧情向视频引流？",
+      "track": "trademark",
       "track_name": "商标/IP/创业",
-      "target_audience": "AI创业者、小微企业主、自媒体人",
-      "reason": "结合AI赛道与商标代理业务，为用户引流，且WIPO案例有参考价值。",
+      "target_audience": "小微企业主、创业者、商标注册需求者",
+      "reason": "结合创作者商标代理公司背景，利用AIGC剧情向视频引流，是差异化竞争点，且信息流中有商标相关案例。",
       "source_items": [
         "How Moldova's Din Inimă Brands Used Trademarks to Build a Homegrown Fashion Industry",
         "India: Where can IP owners sue for online infringement?"
@@ -268,198 +335,6 @@
         "https://www.managingip.com/article/2gvlckbfalg5hn4whds00/sponsored-content/india-where-can-ip-owners-sue-for-online-infringement",
         "https://patentlyo.com/patent/2026/09/take-or-license-can-a-contract-cap-trade-secret-damages-at-a-royalty.html"
       ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "AI产品商标注册全流程：从查询到拿证只要5步",
-          "summary": "教AI创业者如何为AI产品注册商标，避免侵权风险。",
-          "key_points": [
-            "商标查询：在商标局官网检索是否已被注册",
-            "选择类别：AI产品涉及第9类、42类等，需全面覆盖",
-            "提交申请：准备材料，委托代理或自行申请",
-            "审查与异议：应对审查意见或他人异议",
-            "领取证书：注册成功后维护商标权益"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI创业公司最常见的5个商标坑，第3个最致命",
-          "summary": "指出AI公司在商标注册中的常见错误，提供规避建议。",
-          "pitfalls": [
-            "只注册核心类别，导致其他类别被抢注",
-            "使用未注册的商标就投入市场，面临侵权诉讼",
-            "商标命名与已有品牌相似，审查被驳回",
-            "忽视海外商标注册，出海时遭遇纠纷",
-            "未及时续展，商标失效"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "从Moldova时尚品牌看商标如何助力AI产业崛起",
-          "summary": "分析商标策略对新兴AI产业发展的推动作用，借鉴国际经验。",
-          "insights": [
-            "商标是品牌资产的核心，能提升AI产品市场竞争力",
-            "发展中国家通过商标保护培育本土AI品牌",
-            "AI领域商标纠纷将增多，提前布局是关键"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "title": "AI营销自动化：80%的营销工作交给AI，你该怎么做？",
-      "track": "creator_economy",
-      "track_name": "自媒体/创作者经济",
-      "target_audience": "自媒体人、营销从业者、中小企业主",
-      "reason": "AI营销自动化是自媒体人提升效率的关键，且用户擅长图文和视频，可结合自身经验。",
-      "source_items": [
-        "The 80% of Marketing That AI Should Take Off Your Plate With Rafa Flores",
-        "How to Build an AI Dashboard That Makes Your Case for You"
-      ],
-      "source_urls": [
-        "https://www.adweek.com/brand-marketing/the-80-of-marketing-that-ai-should-take-off-your-plate-with-rafa-flores",
-        "https://www.adweek.com/brand-marketing/how-to-build-an-ai-dashboard-that-makes-your-case-for-you",
-        "https://buffer.com/resources/digital-marketing-tools"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "用AI自动化你的营销流程：从内容生成到发布只需1小时",
-          "summary": "教自媒体人使用AI工具（如ChatGPT、Buffer）自动化内容创作和发布。",
-          "key_points": [
-            "用ChatGPT批量生成社交媒体文案",
-            "使用Buffer等工具定时发布到各平台",
-            "用AI分析数据，优化内容策略"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI营销自动化的3个坑：内容同质化、账号限流、数据偏差",
-          "summary": "提醒自媒体人过度依赖AI营销的风险，提供平衡建议。",
-          "pitfalls": [
-            "AI生成内容缺乏个性，导致读者疲劳",
-            "频繁发布AI内容可能被平台判定为营销号",
-            "AI数据分析可能忽略情感因素，决策失误"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "AI营销自动化是解放还是取代？创作者经济的新变局",
-          "summary": "探讨AI营销自动化对创作者经济的影响，分析机遇与挑战。",
-          "insights": [
-            "AI将承担重复性营销工作，让创作者专注创意",
-            "内容同质化加剧，个性化成为核心竞争力",
-            "AI工具将重塑营销行业就业结构"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "title": "OpenAI暂停ChatGPT Pro注册，背后隐藏着什么信号？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI工具用户、AI创业者、科技观察者",
-      "reason": "ChatGPT Pro暂停注册是重要市场信号，用户关注OpenAI动态，且能引发讨论。",
-      "source_items": [
-        "OpenAI 暂停 ChatGPT Pro 200 美元档新用户注册与升级"
-      ],
-      "source_urls": [
-        "https://www.aibase.com/news/30980",
-        "https://openai.com/index/put-data-to-work"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "ChatGPT Pro暂停注册，你还有哪些替代方案？",
-          "summary": "介绍ChatGPT Pro的替代AI工具，帮助用户继续高效工作。",
-          "key_points": [
-            "评估需求：是否真的需要Pro功能？",
-            "替代工具：Claude Pro、DeepSeek、Gemini Advanced",
-            "成本对比：免费版+API组合方案"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "别急着升级ChatGPT Pro，先看看这3个坑",
-          "summary": "分析ChatGPT Pro的潜在问题，帮助用户理性决策。",
-          "pitfalls": [
-            "Pro功能可能并非刚需，浪费200美元/月",
-            "OpenAI可能随时调整政策，服务不稳定",
-            "依赖单一AI工具风险高，建议多元化"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "ChatGPT Pro暂停注册：OpenAI的算力危机还是商业策略？",
-          "summary": "分析OpenAI暂停注册背后的原因，推测其商业策略和行业影响。",
-          "insights": [
-            "算力不足可能是主因，GPT-5训练消耗巨大",
-            "暂停注册可能是为了控制成本，提高盈利",
-            "此举可能影响用户对OpenAI的信任，竞争对手受益"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "title": "AI电影制作大师课+黑客松，普通人也能拍AI电影？",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI视频创作者、电影爱好者、技术极客",
-      "reason": "AI电影制作是视频创作的前沿方向，用户擅长视频剪辑，且相关活动提供实操灵感。",
-      "source_items": [
-        "AI Filmmaking Masterclass + Hackathon",
-        "Dasein EMERGENCE - Ai Film Festival",
-        "OpenBuilder & MiniMax AI Video night"
-      ],
-      "source_urls": [
-        "https://lu.ma/pw54q8np",
-        "https://www.meetup.com/dasein-creative-circle/events/315984292",
-        "https://lu.ma/sznak684"
-      ],
       "urgency": "low",
       "viral_potential": "medium",
       "angles": [
@@ -467,12 +342,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "视频",
-          "hook": "用AI工具制作一部短片：从脚本到成片全流程",
-          "summary": "教初学者使用AI视频生成工具（如Runway、Pika）制作短片。",
+          "hook": "AIGC剧情向视频制作全攻略：用AI生成你的品牌故事",
+          "summary": "教商标代理公司或小微企业主如何用AI工具制作剧情向短视频，吸引潜在客户。",
           "key_points": [
-            "用ChatGPT生成剧本和分镜脚本",
-            "使用AI视频生成工具生成画面素材",
-            "用剪映Pro剪辑、配音、加特效"
+            "用ChatGPT生成剧情脚本，融入商标注册痛点",
+            "用Midjourney生成角色和场景，剪映合成视频",
+            "在视频中植入商标注册知识，引导私信咨询"
           ],
           "difficulty": "中级",
           "estimated_time": "2小时"
@@ -481,12 +356,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI电影制作的5个坑：版权、质量、伦理",
-          "summary": "提醒AI电影创作者注意版权、内容质量和伦理问题。",
+          "hook": "商标注册的5个常见误区：别让你的品牌'裸奔'",
+          "summary": "科普商标注册中的常见陷阱，如类别选择、近似商标、续展等。",
           "pitfalls": [
-            "AI生成内容可能侵犯他人版权（如角色形象）",
-            "AI生成视频质量不稳定，需大量后期处理",
-            "深度伪造技术可能被滥用，需标注AI生成"
+            "只注册核心类别，导致其他类别被抢注",
+            "未做商标检索，注册后才发现侵权",
+            "忽视商标续展，导致商标失效"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -495,12 +370,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI电影时代来临：好莱坞会被颠覆吗？",
-          "summary": "分析AI电影制作对传统影视行业的冲击和未来趋势。",
+          "hook": "从Moldova时尚品牌看商标如何驱动产业升级",
+          "summary": "分析商标在品牌建设和产业发展中的作用，结合国际案例，为国内创业者提供启示。",
           "insights": [
-            "AI降低电影制作门槛，独立创作者迎来机会",
-            "传统影视公司可能转型为AI内容提供商",
-            "AI电影将引发新的艺术形式和叙事方式"
+            "商标是品牌资产的核心，有助于提升产品溢价",
+            "区域品牌建设需要集体商标和地理标志",
+            "跨境电商中商标保护尤为重要"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -509,22 +384,22 @@
     }
   ],
   "weekly_plan": {
-    "monday": "DeepSeek偷偷用Claude训练？揭秘AI大厂的蒸馏攻防战",
-    "wednesday": "OpenAI GPT-Live-1 API上线：电话客服要被AI取代了？",
-    "friday": "AI商标注册避坑指南：你的AI产品名可能已被抢注",
-    "strategy": "本周主打AI热点事件+商标引流，利用争议性话题吸引流量，同时穿插商标干货内容转化潜在客户。"
+    "monday": "DeepSeek偷偷用Claude训练？AI大厂互撕背后的真相与你的机会",
+    "wednesday": "GPT-Live-1 API上线：0.05美元/分钟，普通人也能做语音AI应用？",
+    "friday": "AI口型同步技术来了！亚马逊Prime Video如何让配音'天衣无缝'？",
+    "strategy": "本周主打AI热点事件+实操教程，结合商标引流内容，形成'热点引流+专业转化'的节奏。"
   },
-  "insights": "今日信息流显示AI安全（蒸馏攻击、智能体失控）和AI语音交互（GPT-Live-1）是热点，同时AI视频口型同步技术有新突破，适合结合用户AI+商标的复合定位。",
-  "ai_adjustment": "基于用户反馈，本次推荐增加了DeepSeek和GPT-Live-1等热点AI技术选题，并强化了商标引流内容，同时避开了硬件类选题。",
-  "generated_at": "2026-09-11T12:09:45.290978+08:00",
-  "total_items": 514,
-  "scored_items": 427,
+  "insights": "今日信息流显示AI大厂竞争加剧（蒸馏争议、API发布），智能体商业化和AI视频工具是热点，创作者应抓住冲突性话题和实用工具教程，快速产出内容。",
+  "ai_adjustment": "基于用户历史反馈，优先推荐AI技术赛道和AI视频赛道，避免硬件类内容，增加智能体和API相关选题，并融入商标引流角度。",
+  "generated_at": "2026-09-11T17:08:03.280062+08:00",
+  "total_items": 526,
+  "scored_items": 438,
   "tracks_summary": {
-    "ai_tech": 388,
-    "creator_economy": 19,
+    "ai_tech": 399,
+    "creator_economy": 17,
     "growth_monetize": 2,
     "trademark_business": 6,
-    "ai_video": 12
+    "ai_video": 14
   },
   "engine_version": "v2",
   "engine_params": {
