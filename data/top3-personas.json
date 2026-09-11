@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T09:07:22.681504Z",
+  "generated_at": "2026-09-11T15:08:03.227261Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,22 +17,42 @@
   ],
   "items": [
     {
-      "story_id": "story_b2726331d325",
-      "title": "OpenAI 在 ChatGPT Work 中推出 Data agent / Now everyone can put data to work",
-      "url": "https://openai.com/index/put-data-to-work",
+      "story_id": "story_9cc4559ef9f0",
+      "title": "实测 DeepSeek V4.1 Flash：价格大降、原生带视觉，作者用游戏与城市生成任务验证表现",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247511119&idx=1&sn=0f53b5017e41b16afc9b201966ce2bda",
       "rank": 1,
       "reviews": {
         "cynic": {
+          "score": 75,
+          "review": "价格降了是实打实的，但用游戏和城市生成来验证视觉能力，样本太窄了点。"
+        },
+        "paper-police": {
+          "score": 45,
+          "review": "公众号实测给出数字，但无论文代码与公开基准，需第三方复现验证。"
+        },
+        "pragmatic": {
+          "score": 88,
+          "review": "新模型降价且开放视觉API，做多模态应用的成本和门槛都降了。"
+        }
+      }
+    },
+    {
+      "story_id": "story_34d4cb4529b2",
+      "title": "GitHub Copilot weekly releases — September 7",
+      "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
+      "rank": 2,
+      "reviews": {
+        "cynic": {
           "score": 65,
-          "review": "又是‘人人可用’的营销话术，具体能处理多大、多脏的数据集，敢不敢说？"
+          "review": "周更日志，修修补补是常态，别指望每次都是惊天动地的大更新。"
         },
         "paper-police": {
           "score": 15,
-          "review": "官方博客宣称功能，无论文、无代码、无独立评测，仅为说法。"
+          "review": "官方博客宣称更新，无论文无代码无独立评测，仅有说法。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "ChatGPT Work 里可以直接用 Data Agent 处理数据了，今天就能试试自动化分析流程。"
+          "review": "Copilot周更，新功能或修复今天就能在编辑器里用上。"
         }
       }
     },
@@ -40,7 +60,7 @@
       "story_id": "story_d376123c7d4c",
       "title": "Control GitHub Actions cache access with cache-mode",
       "url": "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode",
-      "rank": 2,
+      "rank": 3,
       "reviews": {
         "cynic": {
           "score": 85,
@@ -53,26 +73,6 @@
         "pragmatic": {
           "score": 85,
           "review": "GitHub Actions 缓存新增精细控制，今天就能优化流水线安全与速度。"
-        }
-      }
-    },
-    {
-      "story_id": "story_8435ae56fbea",
-      "title": "MAI-Code-1-Flash deprecated",
-      "url": "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated",
-      "rank": 3,
-      "reviews": {
-        "cynic": {
-          "score": 15,
-          "review": "一个模型被弃用都能发篇官方日志，这维护成本是得有多高。"
-        },
-        "paper-police": {
-          "score": 15,
-          "review": "仅有官方博客公告，无论文、代码或独立评测佐证其性能与影响。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "模型已弃用，使用相关API或集成的项目需立即更换备选方案。"
         }
       }
     }
