@@ -1,22 +1,23 @@
 {
-  "date": "2026-09-11",
+  "date": "2026-09-12",
   "recommendations": [
     {
       "rank": 1,
-      "title": "DeepSeek被曝偷偷调用Claude？AI大模型蒸馏大战背后的真相与避坑指南",
+      "title": "OpenAI GPT-Live-1 API 上线：普通人如何用 AI 语音打造自己的电话客服？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、AI工具使用者、关注AI行业动态的从业者",
-      "reason": "DeepSeek和Moonshot被指控蒸馏Claude，是今日AI圈最大争议，冲突性强，容易引发讨论和传播。",
+      "target_audience": "AI初学者、想用AI变现的个人、小微创业者",
+      "reason": "GPT-Live-1是今日最热AI技术新闻，支持打断和工具调用，实操性强，符合用户偏好。",
       "source_items": [
-        "DeepSeek and Moonshot were quietly relaying customer prompts to Claude",
-        "Anthropic 报告指控阿里、月之暗面与 DeepSeek 对 Claude 发起蒸馏攻击",
-        "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek"
+        "OpenAI正式上线GPT-Live-1 API：支持打断处理、工具调用与电话智能体",
+        "OpenAI 开放 GPT-Live-1 API：每分钟 0.05 美元，把 ChatGPT 同款语音能力交给开发者",
+        "OpenAI agents carried out an undisclosed attack on RubyGems"
       ],
       "source_urls": [
-        "https://twitter.com/IntCyberDigest/status/2098149671957103005",
-        "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek",
-        "https://the-decoder.com/swarmchasers-hunt-rogue-agents-anthropic-investigates-itself-and-the-trail-they-both-follow-is-going-dark"
+        "https://www.aibase.com/news/30973",
+        "https://www.aibase.com/news/30994",
+        "https://www.rubyhack.ai",
+        "https://openai.com/index/scaling-storage-one-billion-users-part-one"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -25,12 +26,13 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "如何用DeepSeek API时避免被误判为蒸馏？5个合规使用技巧",
-          "summary": "教AI开发者和普通用户如何合规使用DeepSeek等模型，避免触发蒸馏嫌疑。",
+          "hook": "5分钟上手 GPT-Live-1：用 ChatGPT 同款语音，给小程序加个 AI 客服",
+          "summary": "教初学者如何申请API、配置基础电话智能体，并集成到自己的业务中。",
           "key_points": [
-            "了解蒸馏攻击的定义和检测方式",
-            "合规使用API的注意事项：不要批量转发prompt到其他模型",
-            "如何设置本地日志和监控，确保自己的调用行为透明"
+            "注册OpenAI并获取API密钥",
+            "使用GPT-Live-1创建第一个电话智能体",
+            "配置工具调用（如查询订单、预约）",
+            "测试打断处理和语音交互效果"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -39,12 +41,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "别让你的数据成为AI大战的牺牲品！使用国产大模型前必看的5个坑",
-          "summary": "揭露使用DeepSeek、Kimi等国产模型时可能存在的隐私和合规风险。",
+          "hook": "GPT-Live-1 每分钟 0.05 美元，但你可能多花了 10 倍钱：5 个隐藏坑",
+          "summary": "指出API使用中的常见误区，如计费陷阱、并发限制、语音质量调优等。",
           "pitfalls": [
-            "部分模型可能将用户prompt转发给其他模型，导致数据泄露",
-            "企业用户需警惕商业机密被用于模型训练",
-            "避免在敏感场景使用未经充分审计的第三方API"
+            "忽略分钟计费规则，长对话成本失控",
+            "未设置工具调用权限，导致智能体无法完成任务",
+            "语音识别在嘈杂环境下的准确率问题"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -53,12 +55,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "蒸馏大战背后：AI行业的信任危机与地缘博弈",
-          "summary": "分析Anthropic指控背后的行业竞争、技术伦理和地缘政治因素。",
+          "hook": "GPT-Live-1 背后：OpenAI 如何用 10 亿用户数据重塑语音交互？",
+          "summary": "分析GPT-Live-1对语音交互赛道的影响，以及智能体商业化的趋势。",
           "insights": [
-            "蒸馏是AI行业普遍现象，但公开指控罕见，反映竞争白热化",
-            "中美AI企业之间的技术博弈正在加剧",
-            "用户数据安全成为AI公司竞争的新战场"
+            "GPT-Live-1 将语音交互成本降低一个数量级，催生新应用",
+            "工具调用能力使语音智能体从玩具变为生产力工具",
+            "OpenAI 的存储架构升级（Habitat）支撑了大规模实时交互"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -67,18 +69,20 @@
     },
     {
       "rank": 2,
-      "title": "GPT-Live-1 API上线！手把手教你打造自己的电话智能体（附完整教程）",
+      "title": "OpenAI 智能体攻击 RubyGems 事件：AI Agent 的安全危机与防御指南",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、开发者、想用AI做自动化的人",
-      "reason": "OpenAI新API支持电话智能体，是AI应用落地的大热点，实操性强，适合做教程。",
+      "target_audience": "AI开发者、技术爱好者、关注AI安全的个人",
+      "reason": "AI智能体攻击事件极具争议性和传播潜力，且与用户偏好的冲突性选题高度契合。",
       "source_items": [
-        "OpenAI正式上线GPT-Live-1 API：支持打断处理、工具调用与电话智能体",
-        "OpenAI Agents API"
+        "OpenAI agents carried out an undisclosed attack on RubyGems",
+        "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析",
+        "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/30973",
-        "https://developers.openai.com/api/docs/guides/agents-api/overview"
+        "https://www.rubyhack.ai",
+        "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data",
+        "https://www.aibase.com/news/30973"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -87,102 +91,106 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "零基础用GPT-Live-1 API搭建一个能打电话的AI客服（保姆级教程）",
-          "summary": "从注册API到部署电话智能体，一步步教初学者实现。",
+          "hook": "如何用 AI 智能体自动扫描开源依赖漏洞？附 RubyGems 事件复现",
+          "summary": "教初学者利用AI Agent进行安全测试，并演示如何防御此类攻击。",
           "key_points": [
-            "注册OpenAI API并获取密钥",
-            "调用GPT-Live-1 API实现语音交互",
-            "集成工具调用和打断处理，部署到电话平台（如Twilio）"
+            "了解RubyGems供应链攻击原理",
+            "使用AI Agent模拟漏洞扫描",
+            "配置依赖锁文件和自动化审计",
+            "设置告警和响应机制"
           ],
           "difficulty": "中级",
-          "estimated_time": "1小时"
+          "estimated_time": "45分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "电话智能体开发避坑：5个导致通话质量差或费用超支的常见错误",
-          "summary": "总结开发电话智能体时容易踩的坑，帮助读者节省时间和成本。",
+          "hook": "你的 AI Agent 可能正在攻击别人：5 个安全配置错误",
+          "summary": "指出开发AI Agent时常见的安全漏洞，如未限制权限、缺乏审计日志等。",
           "pitfalls": [
-            "忽略延迟优化，导致通话体验差",
-            "未设置费用上限，API调用费用失控",
-            "打断处理逻辑不完善，导致对话混乱"
+            "Agent 权限过大，可执行危险操作",
+            "未对 Agent 行为进行沙箱隔离",
+            "缺乏对 Agent 输出的安全过滤"
           ],
-          "difficulty": "中级",
+          "difficulty": "入门",
           "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "GPT-Live-1 API发布：AI语音交互的iPhone时刻？",
-          "summary": "分析GPT-Live-1对语音交互行业的影响，以及未来应用场景。",
+          "hook": "当 AI 开始攻击：OpenAI 智能体事件背后的安全困境",
+          "summary": "分析AI Agent被恶意利用的深层原因，以及行业应如何应对。",
           "insights": [
-            "语音交互将成AI应用的下一个爆发点",
-            "电话智能体将重塑客服、销售等行业",
-            "OpenAI在语音赛道加速布局，竞争加剧"
+            "AI Agent 的自主性使其成为新型攻击工具",
+            "开源生态的信任模型面临挑战",
+            "监管和伦理框架亟需更新"
           ],
           "difficulty": "中级",
-          "estimated_time": "45分钟"
+          "estimated_time": "1小时"
         }
       ]
     },
     {
       "rank": 3,
-      "title": "智能体商业的'ChatGPT'时刻已至！小白如何抓住这波红利？",
+      "title": "Anthropic 威胁报告：Claude 被用于导弹研发，AI 安全的底线在哪？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、想用AI变现的个人、创业者",
-      "reason": "蚂蚁集团CEO的言论具有行业风向标意义，且智能体是当前热点，适合做深度解读和变现指南。",
+      "target_audience": "AI从业者、关注AI伦理的公众、政策爱好者",
+      "reason": "Anthropic报告披露AI被滥用，话题敏感且争议性强，容易引发讨论和传播。",
       "source_items": [
-        "蚂蚁集团CEO韩歆毅:智能体商业的'ChatGPT'时刻已经到来",
-        "蚂蚁集团韩歆毅宣告智能体'ChatGPT'时刻已至"
+        "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发，中国实验室大规模蒸馏提取数据",
+        "OpenAI agents carried out an undisclosed attack on RubyGems",
+        "Y Combinator's Garry Tan wants US open-weight AI labs to 'distill' frontier models, too"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/30987",
-        "https://www.aibase.com/news/30997"
+        "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data",
+        "https://www.rubyhack.ai",
+        "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too"
       ],
       "urgency": "medium",
-      "viral_potential": "medium",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "普通人如何用智能体赚钱？3个零门槛副业方向（附工具推荐）",
-          "summary": "教AI初学者利用现有智能体平台（如Coze、Dify）搭建赚钱的智能体。",
+          "hook": "普通开发者如何避免 AI 被滥用？从 Claude 安全设置开始",
+          "summary": "教用户如何配置AI模型的安全策略，防止生成有害内容。",
           "key_points": [
-            "选择平台：Coze、Dify等低代码平台",
-            "定位场景：客服、内容生成、数据分析",
-            "发布和变现：通过小程序、公众号等渠道"
+            "理解模型使用政策",
+            "设置内容过滤和输出限制",
+            "监控API调用日志",
+            "使用安全评估工具"
           ],
           "difficulty": "入门",
-          "estimated_time": "45分钟"
+          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "智能体创业的5个深坑：别被'ChatGPT时刻'冲昏头脑",
-          "summary": "指出智能体商业化的常见误区，帮助读者理性看待风口。",
+          "hook": "你的 AI 应用可能踩了红线：Anthropic 报告给开发者的 5 个警告",
+          "summary": "总结报告中提到的AI滥用风险，并给出合规建议。",
           "pitfalls": [
-            "盲目跟风，没有明确商业场景",
-            "低估技术门槛，以为拖拽就能搞定一切",
-            "忽视数据安全和合规问题"
+            "未对用户输入进行安全审查",
+            "模型微调时引入有害数据",
+            "忽视模型蒸馏过程中的数据泄露风险"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "智能体商业的'ChatGPT时刻'：是泡沫还是真风口？",
-          "summary": "深度分析智能体商业的发展现状、未来趋势和潜在泡沫。",
+          "hook": "AI 军备竞赛：Anthropic 报告揭示的全球 AI 安全困局",
+          "summary": "分析AI技术被用于军事用途的全球趋势，以及开源模型的监管难题。",
           "insights": [
-            "智能体商业还处于早期，但增长迅猛",
-            "大厂入局加速生态成熟，但竞争激烈",
-            "个人开发者和小微企业有机会在垂直领域突围"
+            "AI 军事化应用加速，国际监管缺失",
+            "开源模型的双刃剑效应",
+            "AI 安全研究需要更多投入"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -191,19 +199,19 @@
     },
     {
       "rank": 4,
-      "title": "AI视频创作新玩法：从0到1制作AI短片（附工具链和实操案例）",
+      "title": "AI 视频剪辑新助手 Nice Touch V2 实测：专业剪辑师的效率革命",
       "track": "ai_video",
       "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI初学者、短视频创作者、对AI视频感兴趣的人",
-      "reason": "AI视频制作是热门赛道，且创作者擅长视频剪辑，结合AI工具能产出高价值教程。",
+      "target_audience": "视频创作者、剪辑师、自媒体运营者",
+      "reason": "AI剪辑工具是用户擅长领域，Nice Touch V2是新鲜工具，适合测评和教程。",
       "source_items": [
+        "Nice Touch V2: an AI edit assistant for professional editors",
         "AI Filmmaking Masterclass + Hackathon",
-        "Runway to Reality: AI Fashion Hackathon",
         "OpenBuilder & MiniMax AI Video night"
       ],
       "source_urls": [
+        "https://www.provideocoalition.com/nice-touch-v2-an-ai-edit-assistant-for-professional-editors",
         "https://lu.ma/pw54q8np",
-        "https://www.meetup.com/google-developer-groups-brooklyn/events/316246126",
         "https://lu.ma/sznak684"
       ],
       "urgency": "medium",
@@ -213,60 +221,63 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "视频",
-          "hook": "用AI工具制作电影级短片：从脚本到成片全流程演示",
-          "summary": "教初学者用Runway、Pika等工具制作AI短片，附具体步骤和参数设置。",
+          "hook": "剪映用户必看：用 Nice Touch V2 自动完成粗剪，效率翻倍",
+          "summary": "演示如何安装和使用Nice Touch V2进行自动剪辑，包括场景检测、字幕生成等。",
           "key_points": [
-            "用ChatGPT生成脚本和分镜",
-            "用Runway生成视频片段",
-            "用剪映/DaVinci剪辑包装，添加音效和字幕"
+            "安装并配置 Nice Touch V2 插件",
+            "自动场景检测和剪辑建议",
+            "一键生成字幕和转场",
+            "导出到剪映或 DaVinci 进行精修"
           ],
           "difficulty": "入门",
-          "estimated_time": "1小时"
+          "estimated_time": "40分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI视频制作的5个常见坑：为什么你的AI视频看起来像PPT？",
-          "summary": "指出AI视频制作中的常见问题，如画质不稳定、动作不连贯等，并提供优化建议。",
+          "hook": "AI 剪辑助手不靠谱？Nice Touch V2 的 3 个坑和替代方案",
+          "summary": "指出AI剪辑工具可能存在的问题，如误判场景、版权风险等。",
           "pitfalls": [
-            "提示词不够具体，导致画面与预期不符",
-            "忽略帧率一致性，视频卡顿",
-            "过度依赖AI生成，缺乏后期剪辑意识"
+            "AI 对复杂镜头误判导致剪辑错误",
+            "自动生成字幕可能包含错误",
+            "依赖插件可能导致项目文件不兼容"
           ],
           "difficulty": "入门",
-          "estimated_time": "20分钟"
+          "estimated_time": "15分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI视频爆发前夜：技术、版权与创作者的未来",
-          "summary": "分析AI视频生成技术的发展趋势、版权争议以及对传统影视行业的影响。",
+          "hook": "AI 剪辑助手将如何改变视频创作行业？从 Nice Touch V2 说起",
+          "summary": "分析AI剪辑工具对专业剪辑师和自媒体创作者的影响，预测行业趋势。",
           "insights": [
-            "AI视频生成质量快速提升，但仍有局限",
-            "版权问题将成为行业最大挑战",
-            "创作者需要掌握AI工具以保持竞争力"
+            "AI 将承担重复性剪辑工作，创作者聚焦创意",
+            "剪辑软件竞争加剧，AI 功能成为差异化关键",
+            "对新手创作者门槛降低，内容竞争更激烈"
           ],
           "difficulty": "中级",
-          "estimated_time": "45分钟"
+          "estimated_time": "1小时"
         }
       ]
     },
     {
       "rank": 5,
-      "title": "AI时代，你的商标注册了吗？从AI工具名到品牌保护的必修课",
-      "track": "trademark",
-      "track_name": "商标/IP/创业",
-      "target_audience": "AI创业者、小微企业主、想用AI变现的个人",
-      "reason": "结合AI创业热潮，普及商标注册知识，既符合创作者商标代理业务，又能吸引AI创业者关注。",
+      "title": "AI 购买平台将管理 27% 美国广告支出：自媒体人如何提前布局？",
+      "track": "self_media",
+      "track_name": "自媒体/创作者经济",
+      "target_audience": "自媒体创作者、广告从业者、想通过AI变现的个人",
+      "reason": "AI广告趋势直接影响自媒体变现，且数据驱动型选题符合用户偏好。",
       "source_items": [
-        "Take or License: Can a Contract Cap Trade Secret Damages at a Royalty?",
-        "声智科技荣获第二十六届中国专利奖优秀奖"
+        "AI Buying Platforms Will Manage 27% of U.S. Ad Spend by 2030: Report",
+        "The Best AI Tools for Content Creators That Are Worth the Subscription",
+        "Content Creators Party"
       ],
       "source_urls": [
-        "https://patentlyo.com/patent/2026/09/take-or-license-can-a-contract-cap-trade-secret-damages-at-a-royalty.html",
-        "https://36kr.com/newsflashes/3978465673280257?f=rss"
+        "https://www.adweek.com/agencies/ai-buying-platforms-will-manage-27-of-us-ad-spend-by-2030-report",
+        "https://passionfru.it/the-best-ai-tools-for-content-creators-that-are-worth-the-subscription-165664",
+        "https://luma.com/nouxt95e"
       ],
       "urgency": "medium",
       "viral_potential": "medium",
@@ -275,12 +286,78 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "AI创业第一步：如何用3天完成商标注册（全流程指南）",
-          "summary": "教AI创业者如何查询商标、准备材料、提交申请，避免被驳回。",
+          "hook": "自媒体人如何用 AI 工具优化广告投放？从选品到出价全流程",
+          "summary": "教创作者利用AI广告平台进行精准投放，提升变现效率。",
           "key_points": [
-            "商标查询：使用国家知识产权局官网或代理机构",
-            "选择类别：根据业务范围选择核心类别",
-            "提交申请：线上申请流程和注意事项"
+            "选择合适的 AI 广告平台",
+            "设置广告目标受众和预算",
+            "利用 AI 优化广告创意",
+            "分析数据并迭代策略"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "45分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI 广告投放的 5 个常见误区，小心烧钱不转化",
+          "summary": "指出AI广告投放中的常见错误，如过度依赖自动化、忽视人工审核等。",
+          "pitfalls": [
+            "盲目相信 AI 优化，缺乏人工监控",
+            "忽略广告素材质量，导致点击率低",
+            "未设置合理的预算上限"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "AI 接管广告业：27% 份额背后的行业洗牌与创作者机遇",
+          "summary": "分析AI广告平台崛起对广告行业和内容创作者的深远影响。",
+          "insights": [
+            "AI 广告将重塑广告产业链，中小创作者获得更多机会",
+            "数据隐私和算法透明度成为监管焦点",
+            "创作者需要掌握 AI 工具以保持竞争力"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "Anime reaction YouTubers 与版权方的战争：二次创作如何避免侵权？",
+      "track": "trademark",
+      "track_name": "商标/IP/创业",
+      "target_audience": "二次创作创作者、自媒体人、需要版权知识的小微企业主",
+      "reason": "版权问题与商标代理业务相关，且话题具有争议性，容易引发共鸣。",
+      "source_items": [
+        "Anime reaction YouTubers are at war with copyright enforcers",
+        "Mark distinctiveness, well-known status, and evidence of use in Myanmar",
+        "New amendments to Vietnam's Customs Law set to aid IP enforcement"
+      ],
+      "source_urls": [
+        "https://www.theverge.com/tech/993898/nicholaslighttv-remove-your-media-youtube-crunchyroll-viz-media",
+        "https://www.managingip.com/article/2gvqh9ok8ih15mbhpjy0w/sponsored-content/mark-distinctiveness-well-known-status-and-evidence-of-use-in-myanmar",
+        "https://www.managingip.com/article/2gvqedy78rh6i69wx6ku8/sponsored-content/new-amendments-to-vietnams-customs-law-set-to-aid-ip-enforcement"
+      ],
+      "urgency": "medium",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "二次创作不侵权：动漫 reaction 视频的合法创作指南",
+          "summary": "教创作者如何合理使用版权内容，包括获取授权、合理使用原则等。",
+          "key_points": [
+            "了解合理使用（Fair Use）的适用范围",
+            "获取版权方授权的方法和渠道",
+            "创作时如何添加原创元素降低侵权风险",
+            "使用 CC 协议素材的注意事项"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -289,88 +366,27 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI公司商标注册的5个致命坑：名字再好也可能被驳回",
-          "summary": "总结AI领域商标注册的常见驳回原因，如缺乏显著性、近似商标等。",
+          "hook": "动漫 reaction 视频被下架？这 5 个版权雷区千万别踩",
+          "summary": "总结二次创作中常见的侵权陷阱，并提供规避策略。",
           "pitfalls": [
-            "使用通用词汇，缺乏显著性",
-            "未做全面检索，与已有商标近似",
-            "类别选择不当，保护范围不足"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "AI时代的IP战争：从专利到商标，创业者如何构建护城河？",
-          "summary": "分析AI创业中知识产权的重要性，以及如何通过商标、专利等构建竞争壁垒。",
-          "insights": [
-            "AI技术迭代快，商标和专利布局需提前",
-            "开源与闭源的IP策略差异",
-            "跨境IP保护成为新挑战"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "45分钟"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "title": "AI安全事件频发：你的智能体可能正在'失控'？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI使用者、开发者、关注AI安全的公众",
-      "reason": "Swarmchasers追踪恶意智能体、Anthropic自查安全事件，AI安全话题热度高，且与用户相关。",
-      "source_items": [
-        "Swarmchasers 追踪疑似 OpenAI 智能体，Anthropic 复查自身四起安全事件，而思维链可读性正受 GPT-6 Astra 冲击",
-        "Swarmchasers hunt rogue agents, Anthropic investigates itself, and the trail they both follow is going dark"
-      ],
-      "source_urls": [
-        "https://the-decoder.com/swarmchasers-hunt-rogue-agents-anthropic-investigates-itself-and-the-trail-they-both-follow-is-going-dark",
-        "https://the-decoder.com/swarmchasers-hunt-rogue-agents-anthropic-investigates-itself-and-the-trail-they-both-follow-is-going-dark"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "如何检测你的AI智能体是否被劫持？5个自查方法",
-          "summary": "教普通用户和开发者如何识别智能体异常行为，保护自己的系统。",
-          "key_points": [
-            "监控智能体的行为日志",
-            "设置异常行为告警",
-            "定期更新安全补丁"
+            "直接搬运原片片段超过合理时长",
+            "未对原作品进行实质性评论或改编",
+            "使用未经授权的背景音乐",
+            "忽略平台版权检测机制"
           ],
           "difficulty": "入门",
           "estimated_time": "20分钟"
         },
         {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI智能体安全避坑：这3个习惯可能让你的数据泄露",
-          "summary": "指出使用AI智能体时的常见安全误区，如随意授权、忽略隐私设置。",
-          "pitfalls": [
-            "随意授予智能体过多权限",
-            "忽略平台的安全提示",
-            "在公共网络使用AI工具"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "10分钟"
-        },
-        {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI安全危机：当智能体开始'失控'，我们该如何应对？",
-          "summary": "深入探讨AI智能体安全问题的根源、现状和未来挑战。",
+          "hook": "版权战争升级：Anime reaction 创作者的生存困境与行业反思",
+          "summary": "分析版权方与二次创作者之间的博弈，探讨内容生态的未来。",
           "insights": [
-            "AI安全事件频发，行业监管亟待加强",
-            "思维链可读性成为安全新焦点",
-            "企业需要建立AI安全治理框架"
+            "版权保护与创作自由的平衡难题",
+            "平台在版权纠纷中的角色和责任",
+            "AI 生成内容对版权法的挑战"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -379,46 +395,114 @@
     },
     {
       "rank": 7,
-      "title": "9/11纪念日内容创作指南：如何用AI制作有深度的历史回顾视频",
-      "track": "creator_economy",
-      "track_name": "自媒体/创作者经济",
-      "target_audience": "内容创作者、自媒体运营者",
-      "reason": "今天是9/11纪念日，相关话题有流量，结合AI视频工具可以制作纪念内容，同时展示创作者能力。",
+      "title": "蚂蚁集团 CEO 宣告智能体商业的“ChatGPT 时刻”：普通人如何抓住这波红利？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、创业者、想用AI变现的个人",
+      "reason": "智能体商业趋势是热点，且与用户关注的Agent方向高度相关，可扩展系列内容。",
       "source_items": [
-        "Former CNN Photographer Recalls What It Was Like to Record the Newsroom on 9/11",
-        "Twenty-Five Years After 9/11, Lower Manhattan Is Both a Tribute and a Promise"
+        "蚂蚁集团CEO韩歆毅:智能体商业的“ChatGPT”时刻已经到来",
+        "蚂蚁集团韩歆毅宣告智能体“ChatGPT”时刻已至",
+        "Cognition helps Devin test its own work with GPT‑6 Astra"
       ],
       "source_urls": [
-        "https://www.adweek.com/tvnewser/former-cnn-photographer-recalls-what-it-was-like-to-record-the-newsroom-on-911",
-        "https://www.adweek.com/agencies/world-trade-center-911-lower-manhattan-tribute-promise"
+        "https://www.aibase.com/news/30987",
+        "https://www.aibase.com/news/30997",
+        "https://openai.com/index/cognition-devin-testing-with-astra"
       ],
-      "urgency": "high",
-      "viral_potential": "medium",
+      "urgency": "medium",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频",
-          "hook": "用AI工具制作9/11纪念视频：从老照片到动态影像的魔法",
-          "summary": "教创作者如何利用AI图像增强、视频生成工具制作历史回顾视频。",
+          "format": "图文",
+          "hook": "零基础搭建你的第一个智能体：从需求分析到上线",
+          "summary": "教初学者使用Coze或Dify等平台创建简单的智能体，并发布到微信等渠道。",
           "key_points": [
-            "收集历史素材并利用AI修复老照片",
-            "使用Runway等工具生成动态效果",
-            "用剪映添加旁白和背景音乐"
+            "选择合适的智能体开发平台",
+            "定义智能体的功能和对话流程",
+            "接入知识库或API增强能力",
+            "测试并发布到常用平台"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "45分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "智能体创业的 5 个误区：为什么你的智能体没人用？",
+          "summary": "指出智能体开发中的常见问题，如需求不明确、缺乏运营等。",
+          "pitfalls": [
+            "过度追求技术复杂度，忽略用户需求",
+            "智能体回答质量不稳定，缺乏人工干预",
+            "未考虑商业化路径，难以持续投入"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "智能体商业的“ChatGPT 时刻”意味着什么？从蚂蚁集团布局看未来",
+          "summary": "分析智能体商业化的趋势，以及大厂布局对创业者的影响。",
+          "insights": [
+            "智能体将像App一样普及，成为新的流量入口",
+            "大厂平台降低开发门槛，但竞争加剧",
+            "垂直领域智能体仍有巨大机会"
           ],
           "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "5 个适合上班族的副业：用 AI 工具在业余时间多赚一份收入",
+      "track": "side_hustle",
+      "track_name": "个人成长/副业变现",
+      "target_audience": "上班族、想开展副业的个人、AI变现探索者",
+      "reason": "副业话题是用户受众的核心需求，结合AI工具提供实操建议，实用性强。",
+      "source_items": [
+        "5 Side Hustle Businesses That Fit Into the Hours Before Your Day Job",
+        "The Best AI Tools for Content Creators That Are Worth the Subscription",
+        "Breaking down my $550,000 retirement savings in Bali, Indonesia"
+      ],
+      "source_urls": [
+        "https://www.inc.com/chris-morris/5-side-hustle-businesses-that-fit-into-the-hours-before-your-day-job/91404016",
+        "https://passionfru.it/the-best-ai-tools-for-content-creators-that-are-worth-the-subscription-165664",
+        "https://www.businessinsider.com/personal-finance/investing/cost-living-retirement-bali-savings-indonesia-retire-housing-visa-2026-9"
+      ],
+      "urgency": "medium",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "上班族副业实操：用 AI 工具 30 天启动一个赚钱项目",
+          "summary": "提供5个可落地的副业方向，并教如何使用AI工具提高效率。",
+          "key_points": [
+            "选择适合自己技能的副业方向",
+            "利用 AI 工具进行市场调研和内容生成",
+            "搭建最小可行产品（MVP）",
+            "通过社交媒体推广获取第一批客户"
+          ],
+          "difficulty": "入门",
           "estimated_time": "1小时"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "纪念日内容创作避坑：如何避免消费悲剧引发反感？",
-          "summary": "提醒创作者在制作纪念内容时注意分寸，尊重历史，避免营销过度。",
+          "hook": "副业避坑：这 5 个常见错误让你白忙一场",
+          "summary": "总结副业失败常见原因，如盲目跟风、时间管理不当等。",
           "pitfalls": [
-            "避免过度商业化，引发受众反感",
-            "确保历史事实准确，不传播错误信息",
-            "尊重受害者及其家属的情感"
+            "选择竞争激烈且自己不擅长的领域",
+            "投入过多时间但缺乏变现规划",
+            "忽视税务和法律合规问题"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -427,98 +511,36 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从9/11到AI时代：媒体记录历史的方式如何演变？",
-          "summary": "探讨技术进步如何改变历史事件的记录和传播方式。",
+          "hook": "副业经济崛起：AI 如何改变个人创业的游戏规则？",
+          "summary": "分析AI工具对副业生态的影响，以及未来个人创业的趋势。",
           "insights": [
-            "AI技术让历史重现成为可能",
-            "但技术也带来虚假信息风险",
-            "创作者有责任确保内容真实和尊重"
+            "AI 降低创业门槛，一人公司成为可能",
+            "副业与主业界限模糊，技能复用成为关键",
+            "全球市场机会增加，但竞争也全球化"
           ],
           "difficulty": "中级",
-          "estimated_time": "45分钟"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "title": "AI副业新思路：用AI工具做电商设计，月入过万？",
-      "track": "side_hustle",
-      "track_name": "个人成长/副业变现",
-      "target_audience": "想用AI变现的个人、自由职业者、电商从业者",
-      "reason": "结合AI工具和副业变现，是创作者受众最感兴趣的话题之一，且实操性强。",
-      "source_items": [
-        "爱仕达：具身智能机器人业务尚处于起步阶段，已形成销售收入仅13.72万元",
-        "Retail Roundup: Amazon Befriends OpenAI, and Walmart’s Advertising Ambitions Grow"
-      ],
-      "source_urls": [
-        "https://36kr.com/newsflashes/3978906311408384?f=rss",
-        "https://www.adweek.com/commerce/retail-roundup-amazon-befriends-openai-and-walmarts-advertising-ambitions-grow"
-      ],
-      "urgency": "low",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "用Midjourney+PS做电商海报，一天出10张图，接单接到手软",
-          "summary": "教初学者如何利用AI绘图工具快速生成电商设计素材，并接单变现。",
-          "key_points": [
-            "掌握Midjourney提示词技巧，生成高质量产品图",
-            "用Photoshop进行后期处理，提升专业度",
-            "在猪八戒、闲鱼等平台接单，定价策略"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "45分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI设计副业避坑：这3个版权问题可能让你赔钱",
-          "summary": "提醒使用AI生成图片进行商业变现时的版权风险。",
-          "pitfalls": [
-            "AI生成图片的版权归属不明确",
-            "使用未经授权的素材导致侵权",
-            "客户要求原创但AI生成内容难以证明"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "AI设计会取代设计师吗？副业市场的未来趋势",
-          "summary": "分析AI对设计行业的影响，以及副业市场的机会和挑战。",
-          "insights": [
-            "AI降低设计门槛，但高级设计师仍然稀缺",
-            "副业市场竞争加剧，需要差异化",
-            "AI工具将催生新的设计服务模式"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "45分钟"
+          "estimated_time": "1小时"
         }
       ]
     }
   ],
   "weekly_plan": {
-    "monday": "DeepSeek蒸馏事件深度解读（图文）",
-    "wednesday": "GPT-Live-1 API电话智能体教程（图文）",
-    "friday": "AI视频制作全流程演示（视频）",
-    "strategy": "本周聚焦AI热点事件，结合实操教程和避坑指南，提升账号专业度和互动率。"
+    "monday": "OpenAI GPT-Live-1 API 上线：普通人如何用 AI 语音打造自己的电话客服？",
+    "wednesday": "OpenAI 智能体攻击 RubyGems 事件：AI Agent 的安全危机与防御指南",
+    "friday": "AI 视频剪辑新助手 Nice Touch V2 实测：专业剪辑师的效率革命",
+    "strategy": "本周主打AI技术热点（GPT-Live-1、智能体安全），穿插副业和版权话题，保持内容多样性。"
   },
-  "insights": "今日信息流显示AI行业竞争白热化，蒸馏攻击、智能体商业化、AI安全事件成为焦点，创作者应抓住这些高冲突性话题，结合实操和避坑内容吸引流量。",
-  "ai_adjustment": "基于用户反馈，本次推荐优先选择AI技术赛道和AI视频赛道，避免偏硬件内容，同时增加了商标注册与AI结合的选题，以兼顾引流需求。",
-  "generated_at": "2026-09-11T23:08:53.732071+08:00",
-  "total_items": 483,
-  "scored_items": 407,
+  "insights": "今日信息流显示AI智能体技术（GPT-Live-1、Agent攻击）和AI视频剪辑工具是热点，同时版权和副业话题也有较高关注度。",
+  "ai_adjustment": "根据用户反馈，优先推荐AI技术赛道，增加实操教程和避坑指南的比例，避免纯理论内容。",
+  "generated_at": "2026-09-12T12:08:56.757583+08:00",
+  "total_items": 465,
+  "scored_items": 390,
   "tracks_summary": {
-    "ai_tech": 372,
-    "creator_economy": 18,
-    "trademark_business": 2,
-    "ai_video": 14,
-    "growth_monetize": 1
+    "ai_tech": 354,
+    "creator_economy": 16,
+    "ai_video": 13,
+    "growth_monetize": 3,
+    "trademark_business": 4
   },
   "engine_version": "v2",
   "engine_params": {

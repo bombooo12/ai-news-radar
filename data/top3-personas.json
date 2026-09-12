@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T15:08:03.227261Z",
+  "generated_at": "2026-09-12T04:08:03.904973Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -37,42 +37,42 @@
       }
     },
     {
-      "story_id": "story_34d4cb4529b2",
-      "title": "GitHub Copilot weekly releases — September 7",
-      "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
+      "story_id": "story_86ff3d2b9b70",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "rank": 2,
       "reviews": {
         "cynic": {
           "score": 65,
-          "review": "周更日志，修修补补是常态，别指望每次都是惊天动地的大更新。"
+          "review": "把自家搜索质量押注在未发布的模型上，这信任来得有点早。"
         },
         "paper-police": {
           "score": 15,
-          "review": "官方博客宣称更新，无论文无代码无独立评测，仅有说法。"
+          "review": "官方博客宣称性能，无论文、代码及独立评测支持。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "Copilot周更，新功能或修复今天就能在编辑器里用上。"
+          "review": "GPT-6 Astra已开放给Perplexity使用，其端到端系统能力可供集成参考。"
         }
       }
     },
     {
-      "story_id": "story_d376123c7d4c",
-      "title": "Control GitHub Actions cache access with cache-mode",
-      "url": "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode",
+      "story_id": "story_adeb9fe0ee2f",
+      "title": "Add VS Code Agents to Copilot usage metrics",
+      "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 85,
-          "review": "终于给缓存加权限了，这功能早该有，但好歹是实打实的改进。"
+          "score": 65,
+          "review": "把自家产品整合进统计口径，算力消耗和真实价值还是两码事。"
         },
         "paper-police": {
           "score": 15,
-          "review": "官方博客宣布功能，无论文无代码无独立评测，仅有单方说法。"
+          "review": "仅有官方博客更新，无论文、代码及独立评测佐证。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "GitHub Actions 缓存新增精细控制，今天就能优化流水线安全与速度。"
+          "review": "Copilot计费更透明，用VS Code Agents的团队现在就能查用量了。"
         }
       }
     }
