@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T04:08:03.904973Z",
+  "generated_at": "2026-09-12T09:06:51.826088Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,30 +17,10 @@
   ],
   "items": [
     {
-      "story_id": "story_9cc4559ef9f0",
-      "title": "实测 DeepSeek V4.1 Flash：价格大降、原生带视觉，作者用游戏与城市生成任务验证表现",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247511119&idx=1&sn=0f53b5017e41b16afc9b201966ce2bda",
-      "rank": 1,
-      "reviews": {
-        "cynic": {
-          "score": 75,
-          "review": "价格降了是实打实的，但用游戏和城市生成来验证视觉能力，样本太窄了点。"
-        },
-        "paper-police": {
-          "score": 45,
-          "review": "公众号实测给出数字，但无论文代码与公开基准，需第三方复现验证。"
-        },
-        "pragmatic": {
-          "score": 88,
-          "review": "新模型降价且开放视觉API，做多模态应用的成本和门槛都降了。"
-        }
-      }
-    },
-    {
       "story_id": "story_86ff3d2b9b70",
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "rank": 2,
+      "rank": 1,
       "reviews": {
         "cynic": {
           "score": 65,
@@ -60,7 +40,7 @@
       "story_id": "story_adeb9fe0ee2f",
       "title": "Add VS Code Agents to Copilot usage metrics",
       "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
-      "rank": 3,
+      "rank": 2,
       "reviews": {
         "cynic": {
           "score": 65,
@@ -73,6 +53,26 @@
         "pragmatic": {
           "score": 85,
           "review": "Copilot计费更透明，用VS Code Agents的团队现在就能查用量了。"
+        }
+      }
+    },
+    {
+      "story_id": "story_bbf03c6dd45c",
+      "title": "Auto-resolution and analysis updates in Copilot code review",
+      "url": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
+      "rank": 3,
+      "reviews": {
+        "cynic": {
+          "score": 68,
+          "review": "功能迭代是实，但‘分析更新’这种模糊措辞，八成是修了几个已知bug。"
+        },
+        "paper-police": {
+          "score": 45,
+          "review": "官方博客公布了功能更新，但无论文或独立评测，技术细节待核实。"
+        },
+        "pragmatic": {
+          "score": 85,
+          "review": "GitHub Copilot代码审查功能增强，现在就能用，能自动分析和修复问题。"
         }
       }
     }

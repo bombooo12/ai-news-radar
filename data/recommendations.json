@@ -3,21 +3,18 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "OpenAI GPT-Live-1 API 上线：普通人如何用 AI 语音打造自己的电话客服？",
+      "title": "AI智能体攻击RubyGems：你的开源项目可能成为下一个目标",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、想用AI变现的个人、小微创业者",
-      "reason": "GPT-Live-1是今日最热AI技术新闻，支持打断和工具调用，实操性强，符合用户偏好。",
+      "target_audience": "AI初学者、开发者、开源项目维护者",
+      "reason": "OpenAI智能体攻击事件是今日热点，具有高传播潜力，且与AI Agent安全相关，符合创作者偏好。",
       "source_items": [
-        "OpenAI正式上线GPT-Live-1 API：支持打断处理、工具调用与电话智能体",
-        "OpenAI 开放 GPT-Live-1 API：每分钟 0.05 美元，把 ChatGPT 同款语音能力交给开发者",
-        "OpenAI agents carried out an undisclosed attack on RubyGems"
+        "OpenAI agents carried out an undisclosed attack on RubyGems",
+        "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/30973",
-        "https://www.aibase.com/news/30994",
         "https://www.rubyhack.ai",
-        "https://openai.com/index/scaling-storage-one-billion-users-part-one"
+        "https://www.rubyhack.ai"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -26,13 +23,13 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "5分钟上手 GPT-Live-1：用 ChatGPT 同款语音，给小程序加个 AI 客服",
-          "summary": "教初学者如何申请API、配置基础电话智能体，并集成到自己的业务中。",
+          "hook": "AI智能体安全防护指南：5步保护你的开源项目",
+          "summary": "教初学者如何为开源项目设置基本安全防护，防止AI智能体攻击。",
           "key_points": [
-            "注册OpenAI并获取API密钥",
-            "使用GPT-Live-1创建第一个电话智能体",
-            "配置工具调用（如查询订单、预约）",
-            "测试打断处理和语音交互效果"
+            "了解AI智能体攻击的常见方式",
+            "设置强密码和双因素认证",
+            "监控异常访问和依赖变更",
+            "使用安全扫描工具"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -41,12 +38,13 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "GPT-Live-1 每分钟 0.05 美元，但你可能多花了 10 倍钱：5 个隐藏坑",
-          "summary": "指出API使用中的常见误区，如计费陷阱、并发限制、语音质量调优等。",
+          "hook": "AI智能体攻击的5个常见误区，你中招了吗？",
+          "summary": "揭示开发者对AI智能体攻击的常见误解，并提供规避方法。",
           "pitfalls": [
-            "忽略分钟计费规则，长对话成本失控",
-            "未设置工具调用权限，导致智能体无法完成任务",
-            "语音识别在嘈杂环境下的准确率问题"
+            "认为开源项目不会成为攻击目标",
+            "忽视依赖包的安全性",
+            "未及时更新安全补丁",
+            "过度信任自动化工具"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -55,12 +53,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "GPT-Live-1 背后：OpenAI 如何用 10 亿用户数据重塑语音交互？",
-          "summary": "分析GPT-Live-1对语音交互赛道的影响，以及智能体商业化的趋势。",
+          "hook": "AI智能体攻击背后：开源生态的信任危机与未来",
+          "summary": "分析AI智能体攻击对开源生态的影响，以及未来安全趋势。",
           "insights": [
-            "GPT-Live-1 将语音交互成本降低一个数量级，催生新应用",
-            "工具调用能力使语音智能体从玩具变为生产力工具",
-            "OpenAI 的存储架构升级（Habitat）支撑了大规模实时交互"
+            "AI智能体攻击将成常态，安全需前置设计",
+            "开源社区的信任机制面临挑战",
+            "平台方需加强AI行为监管"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -69,63 +67,62 @@
     },
     {
       "rank": 2,
-      "title": "OpenAI 智能体攻击 RubyGems 事件：AI Agent 的安全危机与防御指南",
+      "title": "Anthropic威胁报告：Claude被用于导弹研发，AI安全红线在哪？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI开发者、技术爱好者、关注AI安全的个人",
-      "reason": "AI智能体攻击事件极具争议性和传播潜力，且与用户偏好的冲突性选题高度契合。",
+      "target_audience": "AI初学者、AI从业者、关注AI伦理的普通用户",
+      "reason": "涉及AI滥用与安全，话题敏感且具有争议性，容易引发讨论和传播。",
       "source_items": [
-        "OpenAI agents carried out an undisclosed attack on RubyGems",
-        "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析",
-        "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发"
+        "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发，中国实验室大规模蒸馏提取数据",
+        "How hackers used Claude for missiles, drone swarms, and surveillance, while Chinese labs mined it for training data"
       ],
       "source_urls": [
-        "https://www.rubyhack.ai",
         "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data",
-        "https://www.aibase.com/news/30973"
+        "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data"
       ],
-      "urgency": "high",
+      "urgency": "medium",
       "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "如何用 AI 智能体自动扫描开源依赖漏洞？附 RubyGems 事件复现",
-          "summary": "教初学者利用AI Agent进行安全测试，并演示如何防御此类攻击。",
+          "hook": "普通用户如何识别AI工具被滥用的迹象？",
+          "summary": "教用户如何在使用AI工具时保持警惕，识别潜在的滥用场景。",
           "key_points": [
-            "了解RubyGems供应链攻击原理",
-            "使用AI Agent模拟漏洞扫描",
-            "配置依赖锁文件和自动化审计",
-            "设置告警和响应机制"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "45分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "你的 AI Agent 可能正在攻击别人：5 个安全配置错误",
-          "summary": "指出开发AI Agent时常见的安全漏洞，如未限制权限、缺乏审计日志等。",
-          "pitfalls": [
-            "Agent 权限过大，可执行危险操作",
-            "未对 Agent 行为进行沙箱隔离",
-            "缺乏对 Agent 输出的安全过滤"
+            "留意异常的使用场景",
+            "检查AI工具的日志记录",
+            "了解AI工具的安全政策",
+            "报告可疑行为"
           ],
           "difficulty": "入门",
           "estimated_time": "20分钟"
         },
         {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI安全避坑：你的AI使用习惯可能正在助长滥用",
+          "summary": "指出普通用户在使用AI时可能无意中助长滥用的行为，并提供改进建议。",
+          "pitfalls": [
+            "忽视AI工具的使用条款",
+            "在敏感领域过度依赖AI",
+            "未关注AI生成内容的潜在风险",
+            "轻信AI的决策"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "当 AI 开始攻击：OpenAI 智能体事件背后的安全困境",
-          "summary": "分析AI Agent被恶意利用的深层原因，以及行业应如何应对。",
+          "hook": "AI军备竞赛：从Claude滥用事件看全球AI治理困境",
+          "summary": "深入分析AI技术被滥用的根源，探讨全球AI治理的挑战与出路。",
           "insights": [
-            "AI Agent 的自主性使其成为新型攻击工具",
-            "开源生态的信任模型面临挑战",
-            "监管和伦理框架亟需更新"
+            "AI技术的中立性与双刃剑效应",
+            "国际AI治理框架的缺失",
+            "企业责任与政府监管的平衡"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -134,20 +131,18 @@
     },
     {
       "rank": 3,
-      "title": "Anthropic 威胁报告：Claude 被用于导弹研发，AI 安全的底线在哪？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI从业者、关注AI伦理的公众、政策爱好者",
-      "reason": "Anthropic报告披露AI被滥用，话题敏感且争议性强，容易引发讨论和传播。",
+      "title": "Instagram算法揭秘：没有算法，互动量减半，创作者何去何从？",
+      "track": "creator_economy",
+      "track_name": "自媒体/创作者经济",
+      "target_audience": "自媒体创作者、内容运营者、品牌方",
+      "reason": "Instagram算法话题直接关联创作者流量焦虑，具有高共鸣度，且信息流中有相关新闻。",
       "source_items": [
-        "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发，中国实验室大规模蒸馏提取数据",
-        "OpenAI agents carried out an undisclosed attack on RubyGems",
-        "Y Combinator's Garry Tan wants US open-weight AI labs to 'distill' frontier models, too"
+        "Instagram's head says engagement falls by half without the algorithm",
+        "Instagram负责人表示，如果没有算法，用户互动量将减少一半"
       ],
       "source_urls": [
-        "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data",
-        "https://www.rubyhack.ai",
-        "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too"
+        "https://thenextweb.com/news/mosseri-instagram-algorithm-opt-out-engagement-australia",
+        "https://thenextweb.com/news/mosseri-instagram-algorithm-opt-out-engagement-australia"
       ],
       "urgency": "medium",
       "viral_potential": "high",
@@ -156,13 +151,13 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "普通开发者如何避免 AI 被滥用？从 Claude 安全设置开始",
-          "summary": "教用户如何配置AI模型的安全策略，防止生成有害内容。",
+          "hook": "算法时代的内容策略：5招提升Instagram互动率",
+          "summary": "教创作者如何利用算法机制提升内容互动率，包括发布时间、内容形式等。",
           "key_points": [
-            "理解模型使用政策",
-            "设置内容过滤和输出限制",
-            "监控API调用日志",
-            "使用安全评估工具"
+            "理解算法推荐逻辑",
+            "优化内容发布时间",
+            "使用互动性强的格式",
+            "引导用户互动"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -171,26 +166,27 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "你的 AI 应用可能踩了红线：Anthropic 报告给开发者的 5 个警告",
-          "summary": "总结报告中提到的AI滥用风险，并给出合规建议。",
+          "hook": "别被算法绑架：创作者常见的5个流量误区",
+          "summary": "指出创作者在追求流量时常犯的错误，如过度依赖算法、忽视内容质量等。",
           "pitfalls": [
-            "未对用户输入进行安全审查",
-            "模型微调时引入有害数据",
-            "忽视模型蒸馏过程中的数据泄露风险"
+            "盲目追求热点而失去特色",
+            "忽视与粉丝的深度互动",
+            "只关注数据而忽略内容价值",
+            "频繁改变内容方向"
           ],
           "difficulty": "入门",
-          "estimated_time": "20分钟"
+          "estimated_time": "15分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI 军备竞赛：Anthropic 报告揭示的全球 AI 安全困局",
-          "summary": "分析AI技术被用于军事用途的全球趋势，以及开源模型的监管难题。",
+          "hook": "算法与创作者：谁在掌控谁？",
+          "summary": "探讨算法对创作者生态的深远影响，分析创作者如何与算法共舞。",
           "insights": [
-            "AI 军事化应用加速，国际监管缺失",
-            "开源模型的双刃剑效应",
-            "AI 安全研究需要更多投入"
+            "算法决定内容分发，创作者需适应规则",
+            "算法依赖可能导致内容同质化",
+            "未来创作者需多平台布局降低风险"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -199,20 +195,16 @@
     },
     {
       "rank": 4,
-      "title": "AI 视频剪辑新助手 Nice Touch V2 实测：专业剪辑师的效率革命",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "视频创作者、剪辑师、自媒体运营者",
-      "reason": "AI剪辑工具是用户擅长领域，Nice Touch V2是新鲜工具，适合测评和教程。",
+      "title": "AI Buying Platforms将管理27%广告支出，自媒体人如何借势？",
+      "track": "creator_economy",
+      "track_name": "自媒体/创作者经济",
+      "target_audience": "自媒体创作者、广告从业者、品牌营销人员",
+      "reason": "AI广告购买趋势对自媒体变现模式有直接影响，且数据驱动型选题符合创作者偏好。",
       "source_items": [
-        "Nice Touch V2: an AI edit assistant for professional editors",
-        "AI Filmmaking Masterclass + Hackathon",
-        "OpenBuilder & MiniMax AI Video night"
+        "AI Buying Platforms Will Manage 27% of U.S. Ad Spend by 2030: Report"
       ],
       "source_urls": [
-        "https://www.provideocoalition.com/nice-touch-v2-an-ai-edit-assistant-for-professional-editors",
-        "https://lu.ma/pw54q8np",
-        "https://lu.ma/sznak684"
+        "https://www.adweek.com/agencies/ai-buying-platforms-will-manage-27-of-us-ad-spend-by-2030-report"
       ],
       "urgency": "medium",
       "viral_potential": "medium",
@@ -220,42 +212,42 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频",
-          "hook": "剪映用户必看：用 Nice Touch V2 自动完成粗剪，效率翻倍",
-          "summary": "演示如何安装和使用Nice Touch V2进行自动剪辑，包括场景检测、字幕生成等。",
+          "format": "图文",
+          "hook": "自媒体人如何利用AI广告平台提升变现效率？",
+          "summary": "介绍AI广告购买平台的基本原理，教创作者如何接入并优化广告收益。",
           "key_points": [
-            "安装并配置 Nice Touch V2 插件",
-            "自动场景检测和剪辑建议",
-            "一键生成字幕和转场",
-            "导出到剪映或 DaVinci 进行精修"
+            "了解AI广告平台的运作方式",
+            "选择合适的平台入驻",
+            "优化内容以匹配广告主需求",
+            "监控数据并调整策略"
           ],
-          "difficulty": "入门",
-          "estimated_time": "40分钟"
+          "difficulty": "中级",
+          "estimated_time": "45分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI 剪辑助手不靠谱？Nice Touch V2 的 3 个坑和替代方案",
-          "summary": "指出AI剪辑工具可能存在的问题，如误判场景、版权风险等。",
+          "hook": "AI广告的坑：创作者需警惕的3大风险",
+          "summary": "揭示AI广告购买中的常见陷阱，如数据不透明、收益分成不合理等。",
           "pitfalls": [
-            "AI 对复杂镜头误判导致剪辑错误",
-            "自动生成字幕可能包含错误",
-            "依赖插件可能导致项目文件不兼容"
+            "平台数据造假风险",
+            "广告内容与品牌调性不符",
+            "过度依赖平台导致被动"
           ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "difficulty": "中级",
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI 剪辑助手将如何改变视频创作行业？从 Nice Touch V2 说起",
-          "summary": "分析AI剪辑工具对专业剪辑师和自媒体创作者的影响，预测行业趋势。",
+          "hook": "AI广告时代：创作者经济的下一个拐点",
+          "summary": "分析AI广告购买对创作者经济模式的长期影响，探讨创作者如何适应。",
           "insights": [
-            "AI 将承担重复性剪辑工作，创作者聚焦创意",
-            "剪辑软件竞争加剧，AI 功能成为差异化关键",
-            "对新手创作者门槛降低，内容竞争更激烈"
+            "AI将重塑广告投放效率，创作者需提升数据素养",
+            "中小创作者可能获得更多广告机会",
+            "平台权力进一步集中，创作者需多元化收入"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -264,20 +256,16 @@
     },
     {
       "rank": 5,
-      "title": "AI 购买平台将管理 27% 美国广告支出：自媒体人如何提前布局？",
-      "track": "self_media",
-      "track_name": "自媒体/创作者经济",
-      "target_audience": "自媒体创作者、广告从业者、想通过AI变现的个人",
-      "reason": "AI广告趋势直接影响自媒体变现，且数据驱动型选题符合用户偏好。",
+      "title": "AI视频编辑助手Nice Touch V2：专业剪辑师的效率革命",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "视频创作者、剪辑师、AI工具爱好者",
+      "reason": "AI视频编辑工具是创作者关注的焦点，且Nice Touch V2是新产品，具有时效性和实操性。",
       "source_items": [
-        "AI Buying Platforms Will Manage 27% of U.S. Ad Spend by 2030: Report",
-        "The Best AI Tools for Content Creators That Are Worth the Subscription",
-        "Content Creators Party"
+        "Nice Touch V2: an AI edit assistant for professional editors"
       ],
       "source_urls": [
-        "https://www.adweek.com/agencies/ai-buying-platforms-will-manage-27-of-us-ad-spend-by-2030-report",
-        "https://passionfru.it/the-best-ai-tools-for-content-creators-that-are-worth-the-subscription-165664",
-        "https://luma.com/nouxt95e"
+        "https://www.provideocoalition.com/nice-touch-v2-an-ai-edit-assistant-for-professional-editors"
       ],
       "urgency": "medium",
       "viral_potential": "medium",
@@ -285,79 +273,14 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "自媒体人如何用 AI 工具优化广告投放？从选品到出价全流程",
-          "summary": "教创作者利用AI广告平台进行精准投放，提升变现效率。",
+          "format": "视频",
+          "hook": "Nice Touch V2上手体验：AI如何帮你省下3小时剪辑时间",
+          "summary": "通过实际操作演示，教观众如何使用Nice Touch V2进行高效剪辑。",
           "key_points": [
-            "选择合适的 AI 广告平台",
-            "设置广告目标受众和预算",
-            "利用 AI 优化广告创意",
-            "分析数据并迭代策略"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "45分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI 广告投放的 5 个常见误区，小心烧钱不转化",
-          "summary": "指出AI广告投放中的常见错误，如过度依赖自动化、忽视人工审核等。",
-          "pitfalls": [
-            "盲目相信 AI 优化，缺乏人工监控",
-            "忽略广告素材质量，导致点击率低",
-            "未设置合理的预算上限"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "AI 接管广告业：27% 份额背后的行业洗牌与创作者机遇",
-          "summary": "分析AI广告平台崛起对广告行业和内容创作者的深远影响。",
-          "insights": [
-            "AI 广告将重塑广告产业链，中小创作者获得更多机会",
-            "数据隐私和算法透明度成为监管焦点",
-            "创作者需要掌握 AI 工具以保持竞争力"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "title": "Anime reaction YouTubers 与版权方的战争：二次创作如何避免侵权？",
-      "track": "trademark",
-      "track_name": "商标/IP/创业",
-      "target_audience": "二次创作创作者、自媒体人、需要版权知识的小微企业主",
-      "reason": "版权问题与商标代理业务相关，且话题具有争议性，容易引发共鸣。",
-      "source_items": [
-        "Anime reaction YouTubers are at war with copyright enforcers",
-        "Mark distinctiveness, well-known status, and evidence of use in Myanmar",
-        "New amendments to Vietnam's Customs Law set to aid IP enforcement"
-      ],
-      "source_urls": [
-        "https://www.theverge.com/tech/993898/nicholaslighttv-remove-your-media-youtube-crunchyroll-viz-media",
-        "https://www.managingip.com/article/2gvqh9ok8ih15mbhpjy0w/sponsored-content/mark-distinctiveness-well-known-status-and-evidence-of-use-in-myanmar",
-        "https://www.managingip.com/article/2gvqedy78rh6i69wx6ku8/sponsored-content/new-amendments-to-vietnams-customs-law-set-to-aid-ip-enforcement"
-      ],
-      "urgency": "medium",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "二次创作不侵权：动漫 reaction 视频的合法创作指南",
-          "summary": "教创作者如何合理使用版权内容，包括获取授权、合理使用原则等。",
-          "key_points": [
-            "了解合理使用（Fair Use）的适用范围",
-            "获取版权方授权的方法和渠道",
-            "创作时如何添加原创元素降低侵权风险",
-            "使用 CC 协议素材的注意事项"
+            "安装与配置Nice Touch V2",
+            "利用AI自动剪辑功能",
+            "调整AI剪辑结果",
+            "导出高质量视频"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -366,143 +289,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "动漫 reaction 视频被下架？这 5 个版权雷区千万别踩",
-          "summary": "总结二次创作中常见的侵权陷阱，并提供规避策略。",
+          "hook": "AI剪辑工具避坑：Nice Touch V2的局限与替代方案",
+          "summary": "指出AI剪辑工具的常见问题，如过度依赖AI导致创意受限，并提供替代方案。",
           "pitfalls": [
-            "直接搬运原片片段超过合理时长",
-            "未对原作品进行实质性评论或改编",
-            "使用未经授权的背景音乐",
-            "忽略平台版权检测机制"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "版权战争升级：Anime reaction 创作者的生存困境与行业反思",
-          "summary": "分析版权方与二次创作者之间的博弈，探讨内容生态的未来。",
-          "insights": [
-            "版权保护与创作自由的平衡难题",
-            "平台在版权纠纷中的角色和责任",
-            "AI 生成内容对版权法的挑战"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "title": "蚂蚁集团 CEO 宣告智能体商业的“ChatGPT 时刻”：普通人如何抓住这波红利？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、创业者、想用AI变现的个人",
-      "reason": "智能体商业趋势是热点，且与用户关注的Agent方向高度相关，可扩展系列内容。",
-      "source_items": [
-        "蚂蚁集团CEO韩歆毅:智能体商业的“ChatGPT”时刻已经到来",
-        "蚂蚁集团韩歆毅宣告智能体“ChatGPT”时刻已至",
-        "Cognition helps Devin test its own work with GPT‑6 Astra"
-      ],
-      "source_urls": [
-        "https://www.aibase.com/news/30987",
-        "https://www.aibase.com/news/30997",
-        "https://openai.com/index/cognition-devin-testing-with-astra"
-      ],
-      "urgency": "medium",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "零基础搭建你的第一个智能体：从需求分析到上线",
-          "summary": "教初学者使用Coze或Dify等平台创建简单的智能体，并发布到微信等渠道。",
-          "key_points": [
-            "选择合适的智能体开发平台",
-            "定义智能体的功能和对话流程",
-            "接入知识库或API增强能力",
-            "测试并发布到常用平台"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "45分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "智能体创业的 5 个误区：为什么你的智能体没人用？",
-          "summary": "指出智能体开发中的常见问题，如需求不明确、缺乏运营等。",
-          "pitfalls": [
-            "过度追求技术复杂度，忽略用户需求",
-            "智能体回答质量不稳定，缺乏人工干预",
-            "未考虑商业化路径，难以持续投入"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "智能体商业的“ChatGPT 时刻”意味着什么？从蚂蚁集团布局看未来",
-          "summary": "分析智能体商业化的趋势，以及大厂布局对创业者的影响。",
-          "insights": [
-            "智能体将像App一样普及，成为新的流量入口",
-            "大厂平台降低开发门槛，但竞争加剧",
-            "垂直领域智能体仍有巨大机会"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "title": "5 个适合上班族的副业：用 AI 工具在业余时间多赚一份收入",
-      "track": "side_hustle",
-      "track_name": "个人成长/副业变现",
-      "target_audience": "上班族、想开展副业的个人、AI变现探索者",
-      "reason": "副业话题是用户受众的核心需求，结合AI工具提供实操建议，实用性强。",
-      "source_items": [
-        "5 Side Hustle Businesses That Fit Into the Hours Before Your Day Job",
-        "The Best AI Tools for Content Creators That Are Worth the Subscription",
-        "Breaking down my $550,000 retirement savings in Bali, Indonesia"
-      ],
-      "source_urls": [
-        "https://www.inc.com/chris-morris/5-side-hustle-businesses-that-fit-into-the-hours-before-your-day-job/91404016",
-        "https://passionfru.it/the-best-ai-tools-for-content-creators-that-are-worth-the-subscription-165664",
-        "https://www.businessinsider.com/personal-finance/investing/cost-living-retirement-bali-savings-indonesia-retire-housing-visa-2026-9"
-      ],
-      "urgency": "medium",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "上班族副业实操：用 AI 工具 30 天启动一个赚钱项目",
-          "summary": "提供5个可落地的副业方向，并教如何使用AI工具提高效率。",
-          "key_points": [
-            "选择适合自己技能的副业方向",
-            "利用 AI 工具进行市场调研和内容生成",
-            "搭建最小可行产品（MVP）",
-            "通过社交媒体推广获取第一批客户"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "1小时"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "副业避坑：这 5 个常见错误让你白忙一场",
-          "summary": "总结副业失败常见原因，如盲目跟风、时间管理不当等。",
-          "pitfalls": [
-            "选择竞争激烈且自己不擅长的领域",
-            "投入过多时间但缺乏变现规划",
-            "忽视税务和法律合规问题"
+            "AI剪辑可能忽略创意细节",
+            "工具兼容性问题",
+            "过度依赖AI导致技能退化"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -511,12 +303,197 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "副业经济崛起：AI 如何改变个人创业的游戏规则？",
-          "summary": "分析AI工具对副业生态的影响，以及未来个人创业的趋势。",
+          "hook": "AI剪辑助手将取代剪辑师？专业剪辑的未来之路",
+          "summary": "分析AI剪辑工具对剪辑行业的影响，探讨剪辑师如何与AI协作。",
           "insights": [
-            "AI 降低创业门槛，一人公司成为可能",
-            "副业与主业界限模糊，技能复用成为关键",
-            "全球市场机会增加，但竞争也全球化"
+            "AI将承担重复性工作，剪辑师转向创意决策",
+            "剪辑行业门槛降低，竞争加剧",
+            "人机协作是未来剪辑的主流模式"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "Y Combinator呼吁美国开放权重模型蒸馏：AI民主化还是安全危机？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI从业者、创业者、关注AI政策的普通用户",
+      "reason": "涉及AI模型开源与蒸馏的争议性话题，与创作者关注的AI技术趋势相关，且具有政策讨论价值。",
+      "source_items": [
+        "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too"
+      ],
+      "source_urls": [
+        "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "小白也能懂的模型蒸馏：原理与入门实践",
+          "summary": "用通俗语言解释模型蒸馏的概念，并指导初学者进行简单的蒸馏实验。",
+          "key_points": [
+            "什么是模型蒸馏",
+            "蒸馏的基本流程",
+            "使用开源工具进行蒸馏",
+            "评估蒸馏效果"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "模型蒸馏的5个常见误区，避免踩坑",
+          "summary": "指出模型蒸馏中的常见错误，如数据泄露、性能损失等，并提供规避方法。",
+          "pitfalls": [
+            "忽视数据隐私",
+            "蒸馏后模型性能下降",
+            "过度蒸馏导致泛化能力差",
+            "未考虑法律风险"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "开放权重与蒸馏：美国AI战略的转向？",
+          "summary": "分析Y Combinator呼吁背后的政治与经济考量，探讨开放权重对全球AI格局的影响。",
+          "insights": [
+            "开放权重可促进创新，但可能削弱领先优势",
+            "蒸馏技术使小公司也能利用大模型能力",
+            "中美AI竞争背景下，开放与封闭的博弈"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Anime Reaction YouTubers与版权执法者的战争：创作者如何避免侵权？",
+      "track": "trademark_ip",
+      "track_name": "商标/IP/创业",
+      "target_audience": "视频创作者、二次元内容创作者、自媒体人",
+      "reason": "版权问题与创作者息息相关，且动漫反应视频是热门内容形式，具有高共鸣度。",
+      "source_items": [
+        "Anime reaction YouTubers are at war with copyright enforcers"
+      ],
+      "source_urls": [
+        "https://www.theverge.com/tech/993898/nicholaslighttv-remove-your-media-youtube-crunchyroll-viz-media"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "二次元创作者必看：如何合法做动漫反应视频",
+          "summary": "教创作者如何在不侵权的前提下制作动漫反应视频，包括合理使用原则、素材处理等。",
+          "key_points": [
+            "了解合理使用原则",
+            "获取版权方授权",
+            "使用平台版权库",
+            "添加原创评论和内容"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "版权投诉避坑：动漫反应视频的5个高风险行为",
+          "summary": "指出动漫反应视频中常见的侵权风险，并提供规避建议。",
+          "pitfalls": [
+            "直接搬运整段动漫",
+            "未添加实质性评论",
+            "使用未授权背景音乐",
+            "忽视平台版权政策"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "版权战争背后：二次元创作的未来在哪里？",
+          "summary": "分析版权执法对二次元创作生态的影响，探讨创作者与版权方的平衡之道。",
+          "insights": [
+            "版权保护与创作自由的冲突",
+            "平台在版权纠纷中的角色",
+            "二次元创作的合法化路径"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "Perplexity信任GPT-6 Astra：AI搜索的未来已来？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、搜索用户、科技爱好者",
+      "reason": "GPT-6 Astra与Perplexity的合作是AI技术前沿动态，且与创作者关注的模型发布相关。",
+      "source_items": [
+        "Perplexity trusts GPT-6 Astra with end-to-end systems"
+      ],
+      "source_urls": [
+        "https://openai.com/index/perplexity-improving-accuracy-with-astra"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "GPT-6 Astra实测：Perplexity搜索体验升级指南",
+          "summary": "通过实际测试，展示GPT-6 Astra在Perplexity中的表现，教用户如何利用新功能。",
+          "key_points": [
+            "了解GPT-6 Astra的新特性",
+            "在Perplexity中启用GPT-6 Astra",
+            "对比不同搜索场景的效果",
+            "优化搜索提示词"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI搜索的坑：GPT-6 Astra可能让你失望的3个场景",
+          "summary": "指出AI搜索工具在特定场景下的局限性，帮助用户合理预期。",
+          "pitfalls": [
+            "实时信息更新不及时",
+            "对复杂查询理解偏差",
+            "隐私问题需关注"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "GPT-6 Astra与Perplexity合作：AI搜索的商业模式变革",
+          "summary": "分析GPT-6 Astra对Perplexity乃至整个AI搜索行业的影响，探讨未来搜索的商业模式。",
+          "insights": [
+            "AI搜索将更依赖大模型能力",
+            "合作模式可能成为常态",
+            "传统搜索引擎面临挑战"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -525,20 +502,20 @@
     }
   ],
   "weekly_plan": {
-    "monday": "OpenAI GPT-Live-1 API 上线：普通人如何用 AI 语音打造自己的电话客服？",
-    "wednesday": "OpenAI 智能体攻击 RubyGems 事件：AI Agent 的安全危机与防御指南",
-    "friday": "AI 视频剪辑新助手 Nice Touch V2 实测：专业剪辑师的效率革命",
-    "strategy": "本周主打AI技术热点（GPT-Live-1、智能体安全），穿插副业和版权话题，保持内容多样性。"
+    "monday": "AI智能体攻击RubyGems：你的开源项目可能成为下一个目标",
+    "wednesday": "Instagram算法揭秘：没有算法，互动量减半，创作者何去何从？",
+    "friday": "AI视频编辑助手Nice Touch V2：专业剪辑师的效率革命",
+    "strategy": "本周聚焦AI安全与创作者经济热点，结合实操教程与深度解读，兼顾流量与专业度。"
   },
-  "insights": "今日信息流显示AI智能体技术（GPT-Live-1、Agent攻击）和AI视频剪辑工具是热点，同时版权和副业话题也有较高关注度。",
-  "ai_adjustment": "根据用户反馈，优先推荐AI技术赛道，增加实操教程和避坑指南的比例，避免纯理论内容。",
-  "generated_at": "2026-09-12T12:08:56.757583+08:00",
-  "total_items": 465,
-  "scored_items": 390,
+  "insights": "今日信息流显示AI安全与版权问题成为热点，同时AI广告与视频工具为创作者带来新机遇。",
+  "ai_adjustment": "基于用户反馈，本次推荐增加了AI安全与版权相关选题，并强化了实操与避坑角度，避免纯硬件内容。",
+  "generated_at": "2026-09-12T17:07:40.332838+08:00",
+  "total_items": 419,
+  "scored_items": 343,
   "tracks_summary": {
-    "ai_tech": 354,
-    "creator_economy": 16,
-    "ai_video": 13,
+    "ai_tech": 316,
+    "creator_economy": 9,
+    "ai_video": 11,
     "growth_monetize": 3,
     "trademark_business": 4
   },
