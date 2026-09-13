@@ -1,45 +1,99 @@
 {
-  "generated_at": "2026-09-12T15:04:47.119046Z",
+  "generated_at": "2026-09-13T04:05:59.364118Z",
   "timezone": "Asia/Shanghai",
   "root_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
   "history_url": "https://waytoagi.feishu.cn/wiki/FjiOwWp2giA7hRk6jjfcPioCnAc",
   "window_days": 7,
-  "latest_date": "2026-09-10",
-  "count_today": 5,
+  "latest_date": "2026-09-12",
+  "count_today": 6,
   "updates_today": [
     {
-      "date": "2026-09-10",
-      "title": "非工程师怎么用好 Grok Bot？",
-      "summary": "作者把散落在Grok Bot官方企业版博客、指南库、开发文档里的案例全拼到了一起，包含招聘、销售、市场、财务、再加设计，共同整理成今天这篇文章——「非工程师到底怎么用好 Grok Bot」",
-      "url": "https://waytoagi.feishu.cn/wiki/O0wVwge7yifAhpkEtRZcwPv8nme?from=from_copylink"
+      "date": "2026-09-12",
+      "title": "开源协议完全指南：有哪些、怎么用、应该怎么选",
+      "summary": "还在为上传 GitHub 项目该选什么开源协议发愁？这篇文章拆解了MIT、Apache、GPL 等主流许可证的规则，以及开源、免费、源码可见三者的区别。不管是开发小工具、制作Skill，都能快速匹配合适的协议，守住知识产权边界。",
+      "url": "https://waytoagi.feishu.cn/wiki/OcAQwSrJfi77ozkO1HvckIDIn6b?from=from_copylink"
     },
     {
-      "date": "2026-09-10",
-      "title": "看完苹果 2026 秋季发布会，学到的 AI 硬件设计思路",
-      "summary": "苹果发布了首款折叠屏 iPhone，也更新了耳机和手表。借着这场发布会，我们一起来探索下：做 AI 硬件，我们能向苹果偷师什么？从功能放在哪台设备上，到用户怎么检查 AI 的结果，这些具体设计里，有不少值得拆开看的产品思路。",
-      "url": "https://waytoagi.feishu.cn/wiki/QskTwJwV6i4Rh1k3jZpc3nc1nbb?from=from_copylink"
+      "date": "2026-09-12",
+      "title": "如何让 GPT-6 Astra 顺利跑完任务（AGENTS.md 设置指南）",
+      "summary": "大家给 Agent 配规则，核心都在防止它把任务跑偏。可GPT-6 Astra的问题恰好翻转了——它更容易因为边界不够清楚而提前停下，旧配置里的“刹车”反而成了完成任务的障碍。作者从 AGENTS.md 入手，详解了关于GPT-6 Astra，哪些规则该删、怎样把模糊限制改成明确的完成标准和审批边界，再配合验证机制，少打断Agent。",
+      "url": "https://waytoagi.feishu.cn/wiki/NtSWwGf4niHJGhkOyxEctcEsn5f?from=from_copylink"
     },
     {
-      "date": "2026-09-10",
-      "title": "Grok Bot产品负责人：只用几个人，如何在30天内做出Grok Bot？丨Lenny",
-      "summary": "Grok Bot 产品负责人复盘了几人团队如何在一个月做出内部原型，以及如何靠两百多位真实用户的陪跑、界面删减和底层改进，把它推向公开发布的。产品人快来一起学习下！",
-      "url": "https://waytoagi.feishu.cn/wiki/LuQAwK6H4iawJOkQkSJcH8dPnxc?from=from_copylink"
+      "date": "2026-09-12",
+      "title": "吴恩达老师「AI 工程技能地图」系列完整解读：构建 AI 应用 × 软件工程基础 × 驾驭编程智能体 × 塑造构建",
+      "summary": "AI 让软件开发发生了根本性变化，但在充满炒作和噪音的环境中，开发者很难判断哪些技能真正值得投入学习，团队同样难以判断该招聘什么样的人。吴恩达这套技能地图很适合想补齐 AI 工程能力的开发者，也适合带团队的人做学习和招聘参考。",
+      "url": "https://waytoagi.feishu.cn/wiki/BskMwL7Pbi7GxAkOfuqcD2cYnVU?from=from_copylink"
     },
     {
-      "date": "2026-09-10",
-      "title": "GPT Image 2.5 提示词与图像编辑完全指南及核心实战案例全景解析",
-      "summary": "小互这份文章拆解了 GPT Image 2.5 全套官方实操指南，附带 API 参数规范、8大提示词心法与 22 个实战案例。而且还提供了可直接参考的工程级提示词模板与落地工具包。快来上手试试！",
-      "url": "https://waytoagi.feishu.cn/wiki/Dhq7wggOjivlv1kvqLncEUFPnjz?from=from_copylink"
+      "date": "2026-09-12",
+      "title": "万字长文 | Agent 工程解析（一）：上下文管理",
+      "summary": "最近 OpenAI 和 Anthropic 相继把上下文窗口干到了1M，但上下文窗口是不是越大越好？作者这篇文章就从底层原理出发，以 Claude Code 为例，彻底揭开大模型的上下文管理的神秘面纱。",
+      "url": "https://waytoagi.feishu.cn/wiki/O3VAwaZmnihXt6k9Fdjc4WKFnoh?from=from_copylink"
     },
     {
-      "date": "2026-09-10",
-      "title": "DeepSeek V4.1 Flash 开源：全新架构",
-      "summary": "DeepSeek开源V4.1 Flash，采用创新非对称的MoE架构，550B总参数，输入仅激活 8B、输出激活 16B，Agent相关基准测试变现都有大幅跃升。配套DeepSeek Harness也进行了同步迭代，补上了文件读写、子 Agent 对话、任务协作和缓存保留等实用能力。",
-      "url": "https://waytoagi.feishu.cn/wiki/UagowlyXcitnpqk1CKOcOxeznzb?from=from_copylink"
+      "date": "2026-09-12",
+      "title": "OpenAI 亲自教你，如何用好 GPT-6 Astra",
+      "summary": "作者结合 OpenAI 的最新指南，拆解了“少写提示词”的具体做法：删掉无用的 Skill，让描述只保留精确触发条件，主文件做路由、按需加载细节；任务里少规定每一步，多写清完成标准、可自主操作和必须询问的边界。作者还给了一段提示词，能让 Astra 盘点机器级和项目级配置。一起上手试试！",
+      "url": "https://waytoagi.feishu.cn/wiki/QzLawwHeBisiXbkVeXDcd9WMn0e?from=from_copylink"
+    },
+    {
+      "date": "2026-09-12",
+      "title": "GPT-6 Astra 社区作品集",
+      "summary": "关于GPT-6 Astra，OpenAI 发布了来自其社区的一些开发者案例合集，一起来看看！",
+      "url": "https://waytoagi.feishu.cn/wiki/LXQuwJTPQiA0e8kn2TvcyWFQnAh?from=from_copylink"
     }
   ],
-  "count_7d": 28,
+  "count_7d": 30,
   "updates_7d": [
+    {
+      "date": "2026-09-12",
+      "title": "开源协议完全指南：有哪些、怎么用、应该怎么选",
+      "summary": "还在为上传 GitHub 项目该选什么开源协议发愁？这篇文章拆解了MIT、Apache、GPL 等主流许可证的规则，以及开源、免费、源码可见三者的区别。不管是开发小工具、制作Skill，都能快速匹配合适的协议，守住知识产权边界。",
+      "url": "https://waytoagi.feishu.cn/wiki/OcAQwSrJfi77ozkO1HvckIDIn6b?from=from_copylink"
+    },
+    {
+      "date": "2026-09-12",
+      "title": "如何让 GPT-6 Astra 顺利跑完任务（AGENTS.md 设置指南）",
+      "summary": "大家给 Agent 配规则，核心都在防止它把任务跑偏。可GPT-6 Astra的问题恰好翻转了——它更容易因为边界不够清楚而提前停下，旧配置里的“刹车”反而成了完成任务的障碍。作者从 AGENTS.md 入手，详解了关于GPT-6 Astra，哪些规则该删、怎样把模糊限制改成明确的完成标准和审批边界，再配合验证机制，少打断Agent。",
+      "url": "https://waytoagi.feishu.cn/wiki/NtSWwGf4niHJGhkOyxEctcEsn5f?from=from_copylink"
+    },
+    {
+      "date": "2026-09-12",
+      "title": "吴恩达老师「AI 工程技能地图」系列完整解读：构建 AI 应用 × 软件工程基础 × 驾驭编程智能体 × 塑造构建",
+      "summary": "AI 让软件开发发生了根本性变化，但在充满炒作和噪音的环境中，开发者很难判断哪些技能真正值得投入学习，团队同样难以判断该招聘什么样的人。吴恩达这套技能地图很适合想补齐 AI 工程能力的开发者，也适合带团队的人做学习和招聘参考。",
+      "url": "https://waytoagi.feishu.cn/wiki/BskMwL7Pbi7GxAkOfuqcD2cYnVU?from=from_copylink"
+    },
+    {
+      "date": "2026-09-12",
+      "title": "万字长文 | Agent 工程解析（一）：上下文管理",
+      "summary": "最近 OpenAI 和 Anthropic 相继把上下文窗口干到了1M，但上下文窗口是不是越大越好？作者这篇文章就从底层原理出发，以 Claude Code 为例，彻底揭开大模型的上下文管理的神秘面纱。",
+      "url": "https://waytoagi.feishu.cn/wiki/O3VAwaZmnihXt6k9Fdjc4WKFnoh?from=from_copylink"
+    },
+    {
+      "date": "2026-09-12",
+      "title": "OpenAI 亲自教你，如何用好 GPT-6 Astra",
+      "summary": "作者结合 OpenAI 的最新指南，拆解了“少写提示词”的具体做法：删掉无用的 Skill，让描述只保留精确触发条件，主文件做路由、按需加载细节；任务里少规定每一步，多写清完成标准、可自主操作和必须询问的边界。作者还给了一段提示词，能让 Astra 盘点机器级和项目级配置。一起上手试试！",
+      "url": "https://waytoagi.feishu.cn/wiki/QzLawwHeBisiXbkVeXDcd9WMn0e?from=from_copylink"
+    },
+    {
+      "date": "2026-09-12",
+      "title": "GPT-6 Astra 社区作品集",
+      "summary": "关于GPT-6 Astra，OpenAI 发布了来自其社区的一些开发者案例合集，一起来看看！",
+      "url": "https://waytoagi.feishu.cn/wiki/LXQuwJTPQiA0e8kn2TvcyWFQnAh?from=from_copylink"
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Grok Bot 蓝皮书 v0.1｜让 Grok Bot 做你全部工作的大管家",
+      "summary": "黄叔这篇 Grok Bot 蓝皮书带你上手这套自带云端电脑的 AI 协作系统。你只需要下达目标，搭建的 AI 员工便能自主分工、交接任务，24 小时在云端持续运行。文中还有大量实操案例，如果你不懂代码，也能跟着一起搭建自动化工作流，把自己从繁杂事务中解放出来。",
+      "url": "https://waytoagi.feishu.cn/wiki/FAnxwKzS2imcC7k7yTccnTJVnjc?from=from_copylink"
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Codex 实战系列｜零代码画出复杂架构图",
+      "summary": "你是不是也还在为方案架构图反复调整方框、连线而耗费大量时间？作者用Codex搭配Draw.io MCP的工作流，能自动生成可编辑的图表，就算是多层、数十个模块的复杂大图也能搞定。文中还附带了完整配置教程、多种实战案例与绘图编辑技巧，做PPT、项目方案的大家可以直接上手实操。",
+      "url": "https://waytoagi.feishu.cn/wiki/LAqgwqibui6pdnkjBm9cqRVHnjb?from=from_copylink"
+    },
     {
       "date": "2026-09-10",
       "title": "非工程师怎么用好 Grok Bot？",
@@ -171,42 +225,6 @@
       "title": "6000字故事｜带你入门 GPT-6 Astra ，小白直接照着做",
       "summary": "最近GPT-6 Astra + 3D的玩法疯狂刷屏。如果你还不太清楚怎么玩儿，作者这篇文章可以带你入门GPT-6 Astra：怎么交代要求，怎么给材料，怎么看截图，答案不对时怎么改，最后拿到什么结果才算做完。",
       "url": "https://waytoagi.feishu.cn/wiki/F0kAwUNd7ioTYnkJUGac3BLWnBd?from=from_copylink"
-    },
-    {
-      "date": "2026-09-06",
-      "title": "详解 大语言模型 的 KV 缓存工程",
-      "summary": "这篇文章把 KV 缓存工程拆成一张清晰的地图：从公式看成本来源，再对比GQA/MQA、跨层共享、滑动窗口、MLA、量化、驱逐、分页、前缀复用、CPU 卸载等12种方案，讲清楚了每种方式到底省了什么、代价是什么。做 LLM 推理部署、长上下文应用和成本优化的朋友，可以读一读。",
-      "url": "https://waytoagi.feishu.cn/wiki/KjKIwbuVJiPbSgk3S5xcZCRonIc?from=from_copylink"
-    },
-    {
-      "date": "2026-09-06",
-      "title": "改硬件/做3D/PPT/自动剪辑/... GPT-6 Astra的重置额度我一篇实测完了",
-      "summary": "卡尔用 GPT-6 Astra 连续实测了外设快捷键配置、罗技鼠标工作流、Blender建模与运动镜头、3D 游戏、真人口播剪辑、PPT二次美化多个实战案例。快来看看效果如何！",
-      "url": "https://waytoagi.feishu.cn/wiki/Q4KFw7WVeiD4I1keMXDcpFE0nq6?from=from_copylink"
-    },
-    {
-      "date": "2026-09-06",
-      "title": "手把手教你把摄像头接入WorkBuddy：宠物看护项目零基础100%复刻教程，可拓展多应用场景",
-      "summary": "这篇文章适合养宠人、智能家居玩家，以及想用WorkBuddy跑通第一个Agent项目的小白看。作者借助Agent对接家用监控摄像头，实现了自动查找宠物、定时巡检、生成宠物日记与异常提醒。项目已经开源，快来上手试试！",
-      "url": "https://waytoagi.feishu.cn/wiki/Hk1Jw88eWieZdekiDGmc7nStnNh?from=from_copylink"
-    },
-    {
-      "date": "2026-09-06",
-      "title": "万字长文！AI大模型开源史：谁把模型交到了普通人手里？",
-      "summary": "这篇长文复盘了 2022‑2025 开源模型的发展历程。纵览 LLaMA 引爆社区、国产模型崛起、DeepSeek‑R1 搅动全球市场，直至 OpenAI 重新拥抱开放权重的行业转折。可以帮你从权重、代码、数据、许可证四个维度甄别模型的真实开放程度，跳出参数崇拜，看懂开源模型给普通开发者带来的机会与价值。",
-      "url": "https://waytoagi.feishu.cn/wiki/YRZxwvhPGigVd2koKyacwgxknXg?from=from_copylink"
-    },
-    {
-      "date": "2026-09-06",
-      "title": "Codex 实战系列｜ 史上最全 PPT 做做技能合集",
-      "summary": "很多人用AI做 PPT，第一步就卡在“到底该用哪个工具”。作者把Codex 里常见的 PPT Skill 按场景进行了划分。经常做培训、汇报、演讲的人，可以直接拿它当选型清单，少踩一些“格式交不了、后期改不动”的坑。",
-      "url": "https://waytoagi.feishu.cn/wiki/LiZdwmeObi3VBQk6uIicuHZAnbd?from=from_copylink"
-    },
-    {
-      "date": "2026-09-06",
-      "title": "8.31—9.6｜本周顶级 AI 论文",
-      "summary": "最近看Agent论文，很容易被一堆新名词绕晕；本周精选的10篇论文帮你把这一周真正值得关注的方向拎了出来。内容覆盖长上下文怎么降低成本，编码Agent如何连续性开发，Skill 怎么从运行经验里实现自我进化，长任务怎样用显式状态替代无限聊天记录，以及推荐系统、电商经营、研究类Agent、长期记忆和持久化Agent的新评测。",
-      "url": "https://waytoagi.feishu.cn/wiki/WuCCw2RuuiWCVnkmSaTc73BjnOc?from=from_copylink"
     }
   ],
   "warning": null,
