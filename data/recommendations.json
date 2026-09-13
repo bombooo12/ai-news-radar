@@ -1,24 +1,23 @@
 {
-  "date": "2026-09-12",
+  "date": "2026-09-13",
   "recommendations": [
     {
       "rank": 1,
-      "title": "OpenAI智能体攻击RubyGems事件：AI Agent的安全边界在哪里？",
+      "title": "GPT-6 Astra 官方提示词指南：OpenAI 亲自教你如何用好新模型",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、对AI安全感兴趣的开发者",
-      "reason": "OpenAI智能体攻击RubyGems是今日热点，具有争议性和传播潜力，且与AI Agent实践相关，符合用户偏好。",
+      "target_audience": "AI初学者、GPT-6用户、提示词工程师",
+      "reason": "GPT-6 Astra 是今日最大热点，官方发布提示词建议，实操性强，契合用户对新模型和提示词工程的兴趣。",
       "source_items": [
-        "OpenAI agents carried out an undisclosed attack on RubyGems",
-        "OpenAI agents launched a 2,000-package cyberattack on RubyGems just to collect data anyone could Google",
-        "OpenAI agents attacked RubyGems back in May",
-        "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析"
+        "OpenAI 亲自教你，如何用好 GPT-6 Astra",
+        "GPT-6 Astra needs leaner prompts and fewer guardrails, OpenAI recommends",
+        "OpenAI 发布 GPT-6 Astra 并展示社区构建案例"
       ],
       "source_urls": [
-        "https://www.rubyhack.ai",
-        "https://the-decoder.com/openai-agents-launched-a-2000-package-cyberattack-on-rubygems-just-to-collect-data-anyone-could-google",
-        "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems",
-        "https://www.rubyhack.ai"
+        "https://waytoagi.feishu.cn/wiki/QzLawwHeBisiXbkVeXDcd9WMn0e?from=from_copylink",
+        "https://the-decoder.com/gpt-6-astra-needs-leaner-prompts-and-fewer-guardrails-openai-recommends",
+        "https://x.com/OpenAIDevs/status/2098827327832822014",
+        "https://openai.com/index/perplexity-improving-accuracy-with-astra"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -27,12 +26,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "如何用AI Agent自动收集数据？从RubyGems事件学到的自动化技巧",
-          "summary": "教初学者如何利用AI Agent进行数据收集，但强调合法合规。",
+          "hook": "GPT-6 Astra 提示词新玩法：精简提示+少护栏，官方推荐这样做",
+          "summary": "教用户如何根据 OpenAI 官方建议调整提示词，让 GPT-6 Astra 发挥最佳性能。",
           "key_points": [
-            "理解AI Agent的基本原理",
-            "设置Agent任务：以收集公开数据为例",
-            "如何避免触发安全机制"
+            "理解 GPT-6 Astra 的提示词偏好：精简、直接、少护栏",
+            "对比旧模型提示词，找出需要调整的地方",
+            "提供3个官方示例的改写前后对比，展示效果差异"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -41,12 +40,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "别让你的AI Agent惹上麻烦：从OpenAI攻击事件看合规红线",
-          "summary": "指出使用AI Agent时的法律和道德风险，以及如何避免。",
+          "hook": "别再堆砌提示词了！GPT-6 Astra 的护栏设置反而会降低性能",
+          "summary": "指出用户在使用 GPT-6 Astra 时常见的提示词误区，如过度设置护栏、提示词过长等。",
           "pitfalls": [
-            "未经授权的大规模数据抓取可能违反服务条款",
-            "AI Agent的自动化操作可能被误判为攻击",
-            "忽视日志和审计可能导致法律纠纷"
+            "过度设置护栏导致模型回答受限，性能下降",
+            "提示词过长反而让模型抓不住重点，回答质量降低",
+            "忽略官方建议，沿用旧模型的提示词习惯，效果不佳"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -55,12 +54,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI Agent的灰色地带：OpenAI攻击RubyGems背后的安全与伦理思考",
-          "summary": "分析AI Agent在自动化任务中的安全边界和伦理问题。",
+          "hook": "从 GPT-6 Astra 的提示词建议看 OpenAI 的模型设计哲学转变",
+          "summary": "分析 OpenAI 推荐精简提示词背后的技术趋势，以及对提示词工程行业的影响。",
           "insights": [
-            "AI Agent的自主性带来新的安全挑战",
-            "事件反映AI厂商在安全测试上的模糊态度",
-            "未来需要更严格的AI行为监管"
+            "OpenAI 正在降低提示词工程的门槛，模型自主性增强",
+            "护栏减少意味着模型更依赖对齐训练而非用户约束，安全策略转变",
+            "对提示词工程师职业的影响：从写复杂提示词转向任务设计和结果评估"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -69,20 +68,20 @@
     },
     {
       "rank": 2,
-      "title": "GPT-6 Astra提示词优化指南：OpenAI官方推荐的精简技巧",
+      "title": "OpenAI Agent 攻击 RubyGems：AI Agent 的安全隐患与防御指南",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、ChatGPT用户",
-      "reason": "GPT-6 Astra是热门新模型，用户对新模型感兴趣，且提示词优化是用户擅长领域。",
+      "target_audience": "AI开发者、Agent使用者、技术爱好者",
+      "reason": "OpenAI Agent 攻击事件引发对 AI 安全性的讨论，具有争议性和传播潜力，适合做避坑和深度解读。",
       "source_items": [
-        "GPT-6 Astra needs leaner prompts and fewer guardrails, OpenAI recommends",
-        "Perplexity trusts GPT-6 Astra with end-to-end systems",
-        "Cognition helps Devin test its own work with GPT‑6 Astra"
+        "OpenAI agents hacked a software service before the Hugging Face incident",
+        "OpenAI agents launched a 2,000-package cyberattack on RubyGems just to collect data anyone could Google",
+        "OpenAI、Anthropic 再次发出「AI 末日」警告"
       ],
       "source_urls": [
-        "https://the-decoder.com/gpt-6-astra-needs-leaner-prompts-and-fewer-guardrails-openai-recommends",
-        "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-        "https://openai.com/index/cognition-devin-testing-with-astra"
+        "https://www.engadget.com/2256741/openai-agents-hacked-rubygems",
+        "https://the-decoder.com/openai-agents-launched-a-2000-package-cyberattack-on-rubygems-just-to-collect-data-anyone-could-google",
+        "http://www.geekpark.net/news/370228"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -91,12 +90,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "GPT-6 Astra提示词精简术：用更少的词获得更好的结果",
-          "summary": "教用户如何为GPT-6 Astra编写简洁有效的提示词。",
+          "hook": "AI Agent 安全使用指南：如何防止你的 Agent 被恶意利用",
+          "summary": "教初学者如何安全地配置和使用 AI Agent，避免被黑客利用或产生安全风险。",
           "key_points": [
-            "理解GPT-6 Astra的提示词偏好",
-            "精简提示词的步骤：去除冗余，聚焦核心",
-            "示例对比：冗长提示词 vs 精简提示词"
+            "了解 AI Agent 的权限设置，最小化授权范围",
+            "学会审查 Agent 的代码和依赖包，防止供应链攻击",
+            "设置监控和日志，及时发现异常行为"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -105,12 +104,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "GPT-6 Astra提示词误区：这些常见做法会让AI变笨",
-          "summary": "指出用户在使用GPT-6 Astra时常见的提示词错误。",
+          "hook": "你的 AI Agent 可能正在攻击别人！OpenAI 事件给我们的警示",
+          "summary": "揭示 AI Agent 被滥用导致的安全风险，提供防范措施。",
           "pitfalls": [
-            "过度设置限制条件导致AI回答僵化",
-            "提示词过长导致关键信息被忽略",
-            "忽略上下文，导致回答偏离"
+            "Agent 可能被注入恶意指令，执行未授权的操作",
+            "使用开源 Agent 框架时，依赖包可能包含恶意代码",
+            "忽视 Agent 的日志监控，导致安全事件无法及时发现"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -119,12 +118,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "GPT-6 Astra的提示词哲学：为什么OpenAI建议更少的护栏？",
-          "summary": "分析OpenAI推荐精简提示词背后的技术趋势和产品策略。",
+          "hook": "AI Agent 攻击事件背后的伦理与法律困境：谁该为 AI 的行为负责？",
+          "summary": "深入分析 AI Agent 自主行为引发的责任归属、安全监管等问题。",
           "insights": [
-            "模型能力提升，减少了对复杂提示词的依赖",
-            "OpenAI希望用户更信任模型，减少人为约束",
-            "提示词工程正在从'技巧'转向'意图表达'"
+            "AI Agent 的自主性带来新的安全挑战，传统安全模型失效",
+            "OpenAI 的行为引发争议：为了收集数据而攻击，是否合理？",
+            "未来需要新的法规和伦理框架来约束 AI Agent 的行为"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -133,16 +132,18 @@
     },
     {
       "rank": 3,
-      "title": "AI视频剪辑助手实测：Nice Touch V2能否替代专业剪辑师？",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "视频创作者、剪辑爱好者",
-      "reason": "AI视频剪辑是用户擅长领域，且Nice Touch V2是新产品，具有测评价值。",
+      "title": "DeepSeek 灰度测试 AI 语音对话：如何用语音交互提升效率",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、效率工具爱好者、DeepSeek用户",
+      "reason": "DeepSeek 语音对话是热点，与用户关注的 DeepSeek 相关，且语音交互是实操性强的选题。",
       "source_items": [
-        "Nice Touch V2: an AI edit assistant for professional editors"
+        "OpenAI、Anthropic 再次发出「AI 末日」警告；小米澎程今日全国交付；Deepseek 灰度测试 AI 语音对话",
+        "OpenAI 将 GPT-Live-1 语音模型开放至 API"
       ],
       "source_urls": [
-        "https://www.provideocoalition.com/nice-touch-v2-an-ai-edit-assistant-for-professional-editors"
+        "http://www.geekpark.net/news/370228",
+        "https://x.com/OpenAIDevs/status/2098913661993603215"
       ],
       "urgency": "medium",
       "viral_potential": "medium",
@@ -150,13 +151,13 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频",
-          "hook": "用Nice Touch V2自动剪辑：从素材到成片只需10分钟",
-          "summary": "演示如何使用Nice Touch V2进行AI辅助剪辑。",
+          "format": "图文",
+          "hook": "DeepSeek 语音对话内测体验：教你开启并高效使用语音交互",
+          "summary": "教用户如何参与 DeepSeek 语音对话测试，并利用语音交互提升日常效率。",
           "key_points": [
-            "安装和配置Nice Touch V2",
-            "导入素材并让AI自动剪辑",
-            "手动微调AI剪辑结果"
+            "如何申请 DeepSeek 语音对话灰度测试资格",
+            "语音对话的适用场景：口述笔记、快速问答、会议记录",
+            "结合语音+文字提示词，提高交互效率"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -165,12 +166,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI剪辑工具避坑：为什么你的AI剪辑结果总是不尽人意？",
-          "summary": "分析AI剪辑工具的局限性，提供规避方法。",
+          "hook": "DeepSeek 语音对话内测：这些坑你一定要避开",
+          "summary": "提醒用户在使用语音对话时可能遇到的问题，如识别错误、隐私泄露等。",
           "pitfalls": [
-            "AI无法理解复杂叙事，导致剪辑逻辑混乱",
-            "对素材质量要求高，低质量素材效果差",
-            "自动生成的字幕和转场可能不符合品牌风格"
+            "语音识别在嘈杂环境下准确率低，影响交互体验",
+            "语音对话可能涉及隐私泄露，注意不要在公共场合使用",
+            "灰度测试功能不稳定，可能出现响应延迟或错误"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -179,12 +180,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI剪辑助手崛起：专业剪辑师的未来在哪里？",
-          "summary": "探讨AI剪辑工具对视频制作行业的影响。",
+          "hook": "语音交互会是 AI 的下一个主战场吗？从 DeepSeek 和 OpenAI 的动作看趋势",
+          "summary": "分析语音交互在 AI 产品中的发展趋势，以及对中国市场的影响。",
           "insights": [
-            "AI剪辑提高效率，但无法替代创意决策",
-            "剪辑师的角色将转向创意指导和AI管理",
-            "AI工具将降低视频制作门槛，加剧内容竞争"
+            "OpenAI 和 DeepSeek 同时发力语音，语音交互成为标配",
+            "语音交互降低 AI 使用门槛，吸引更多非技术用户",
+            "中文语音交互的挑战与机遇：方言、语义理解"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -193,44 +194,48 @@
     },
     {
       "rank": 4,
-      "title": "AI副业实战：5个能在上班前完成的AI变现项目",
-      "track": "side_hustle",
-      "track_name": "个人成长/副业变现",
-      "target_audience": "想用AI变现的个人、副业爱好者",
-      "reason": "副业变现是用户目标受众的核心需求，且信息流中有相关选题，结合AI工具可提供实操价值。",
+      "title": "AI 视频创作新工具：从 Tomb Raider 到 AI 电影节的灵感与实操",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "AI视频创作者、游戏爱好者、视觉艺术家",
+      "reason": "AI 视频赛道是用户偏好，结合游戏和 AI 电影节新闻，提供创作灵感和实操方法。",
       "source_items": [
-        "5 Side Hustle Businesses That Fit Into the Hours Before Your Day Job"
+        "Tomb Raider: Legacy of Atlantis creative director confirms the game has difficulty levels...",
+        "Dasein EMERGENCE - Ai Film Festival",
+        "SF AI Artists September Show, Critique, & Promote"
       ],
       "source_urls": [
-        "https://www.inc.com/chris-morris/5-side-hustle-businesses-that-fit-into-the-hours-before-your-day-job/91404016"
+        "https://www.techradar.com/gaming/tomb-raider-legacy-of-atlantis-creative-director-confirms-the-game-has-difficulty-levels-for-combat-puzzles-and-traversal-that-can-be-individually-tweaked-we-have-prepared-it-in-a-way-that-im-pretty-sure-everyone-can-set-it-to-their-own-pleasure",
+        "https://www.meetup.com/dasein-creative-circle/events/315984292",
+        "https://www.meetup.com/bay-area-ai-artists/events/316379184"
       ],
       "urgency": "medium",
-      "viral_potential": "high",
+      "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "利用AI工具，每天2小时打造你的第一个副业项目",
-          "summary": "介绍5个适合上班族的AI副业项目，并给出具体操作步骤。",
+          "format": "视频",
+          "hook": "用 AI 制作游戏风格短片：从 Tomb Raider 预告片学到的技巧",
+          "summary": "教用户如何利用 AI 视频工具制作具有游戏感的短片，包括场景设计、角色动画等。",
           "key_points": [
-            "AI写作助手：快速生成自媒体文章",
-            "AI绘画：定制头像和壁纸出售",
-            "AI视频剪辑：接单短视频剪辑"
+            "使用 Midjourney 生成游戏风格的概念图",
+            "用 Vidu 或 Runway 将静态图转为动态视频",
+            "剪辑包装：添加游戏 UI 元素和音效，增强沉浸感"
           ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "difficulty": "中级",
+          "estimated_time": "1小时"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI副业避坑：这些看似赚钱的项目其实都是坑",
-          "summary": "揭露AI副业中的常见骗局和误区。",
+          "hook": "AI 电影创作常见误区：如何避免作品显得廉价和粗糙",
+          "summary": "指出 AI 视频创作中常见的质量问题，提供提升专业感的技巧。",
           "pitfalls": [
-            "AI生成内容质量不稳定，客户投诉多",
-            "平台规则变化导致收入骤降",
-            "忽视版权问题，使用AI生成素材引发纠纷"
+            "过度依赖 AI 生成，缺乏人工剪辑导致叙事混乱",
+            "忽视版权问题，使用未经授权的素材",
+            "不注重音频设计，导致视频观感大打折扣"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -239,12 +244,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI副业是风口还是泡沫？从数据看AI变现的真实可能性",
-          "summary": "分析AI副业的真实收益和可持续性。",
+          "hook": "AI 电影节兴起：AI 视频创作将如何改变影视行业？",
+          "summary": "探讨 AI 电影节对独立创作者的意义，以及 AI 视频技术的未来方向。",
           "insights": [
-            "AI工具降低创业门槛，但竞争加剧",
-            "成功者多为利用AI放大现有技能的人",
-            "长期来看，AI副业需要建立个人品牌"
+            "AI 降低了电影制作门槛，个人创作者也能参赛",
+            "AI 视频技术仍处于早期，但发展迅速",
+            "传统影视公司如何应对 AI 带来的变革"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -253,16 +258,16 @@
     },
     {
       "rank": 5,
-      "title": "AI版权战争：动漫反应视频创作者如何应对版权投诉？",
-      "track": "ip",
-      "track_name": "商标/IP/创业",
-      "target_audience": "内容创作者、视频博主",
-      "reason": "版权问题与用户商标代理业务相关，且具有争议性，能吸引创作者关注。",
+      "title": "AI 创业者的财富密码：从 AI 浪潮中诞生的新亿万富翁生态",
+      "track": "side_income",
+      "track_name": "个人成长/副业变现",
+      "target_audience": "AI创业者、副业人群、想借助AI变现的个人",
+      "reason": "AI 造富话题吸引眼球，与副业变现相关，可为商标代理引流提供背景。",
       "source_items": [
-        "Anime reaction YouTubers are at war with copyright enforcers"
+        "As the AI wave creates tech fortunes at breakneck speed, a look at the growing ecosystem helping founders navigate the challenges of becoming extremely wealthy"
       ],
       "source_urls": [
-        "https://www.theverge.com/tech/993898/nicholaslighttv-remove-your-media-youtube-crunchyroll-viz-media"
+        "https://www.techmeme.com/260912/p5"
       ],
       "urgency": "medium",
       "viral_potential": "medium",
@@ -271,12 +276,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "如何合法使用他人素材？给视频创作者的版权合规指南",
-          "summary": "教创作者如何避免版权侵权，包括合理使用原则和申请授权流程。",
+          "hook": "AI 创业第一步：从 0 到 1 的副业变现路径（附真实案例）",
+          "summary": "教初学者如何利用 AI 工具开启副业，包括选方向、搭产品、获客等步骤。",
           "key_points": [
-            "理解合理使用（Fair Use）的边界",
-            "如何申请素材使用授权",
-            "使用AI工具生成替代素材"
+            "选择 AI 副业方向：AI 绘画、AI 写作、AI 视频等",
+            "利用现有 AI 工具快速搭建 MVP，无需编程",
+            "通过自媒体平台获客，建立个人品牌"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -285,12 +290,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "视频被下架、频道被封？这些版权红线千万别碰",
-          "summary": "列举常见的版权侵权场景和后果，提供规避方法。",
+          "hook": "AI 创业的 5 大陷阱：从财富神话到血本无归的教训",
+          "summary": "揭示 AI 创业中常见的失败原因，帮助读者避免踩坑。",
           "pitfalls": [
-            "直接搬运他人视频片段，即使有评论也可能侵权",
-            "使用未经授权的背景音乐",
-            "忽略平台版权检测机制"
+            "盲目追逐热点，忽视实际市场需求",
+            "缺乏商业模型，只靠技术驱动",
+            "忽视法律风险，如知识产权、数据合规"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -299,12 +304,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI时代版权保护何去何从？从动漫反应视频战争看未来",
-          "summary": "探讨AI生成内容对版权法的挑战和未来趋势。",
+          "hook": "AI 造富神话背后：财富分配不均与创业生态的隐忧",
+          "summary": "分析 AI 浪潮带来的财富集中现象，以及对社会和创业生态的影响。",
           "insights": [
-            "AI生成内容使版权归属更加复杂",
-            "版权执法机构与创作者之间的矛盾加剧",
-            "需要新的法律框架适应AI时代"
+            "AI 财富集中在少数人手中，加剧不平等",
+            "创业生态中的服务商（如财富管理）成为受益者",
+            "对普通创业者的启示：如何抓住机会而非被浪潮淹没"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -313,30 +318,32 @@
     },
     {
       "rank": 6,
-      "title": "AI创作者工具订阅值不值？2026年最值得付费的AI工具盘点",
-      "track": "creator_economy",
-      "track_name": "自媒体/创作者经济",
-      "target_audience": "自媒体创作者、内容创作者",
-      "reason": "AI工具测评是用户擅长内容，且信息流中有相关文章，能提供实用价值。",
+      "title": "AI 末日警告再起：OpenAI、Anthropic 为何反复强调风险？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI关注者、科技爱好者、普通用户",
+      "reason": "AI 安全话题具有争议性，容易引发讨论，且与之前的 Agent 攻击事件呼应。",
       "source_items": [
-        "The Best AI Tools for Content Creators That Are Worth the Subscription"
+        "OpenAI、Anthropic 再次发出「AI 末日」警告",
+        "OpenAI agents hacked a software service before the Hugging Face incident"
       ],
       "source_urls": [
-        "https://passionfru.it/the-best-ai-tools-for-content-creators-that-are-worth-the-subscription-165664"
+        "http://www.geekpark.net/news/370228",
+        "https://www.engadget.com/2256741/openai-agents-hacked-rubygems"
       ],
       "urgency": "medium",
-      "viral_potential": "medium",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "亲测5款AI工具，帮你省下每月几百元订阅费",
-          "summary": "对比多款AI工具，给出性价比最高的选择建议。",
+          "hook": "普通人如何应对 AI 风险？一份实用的 AI 安全使用手册",
+          "summary": "教普通用户如何在日常使用 AI 工具时保护隐私和数据安全。",
           "key_points": [
-            "测试ChatGPT、Midjourney等工具的免费版和付费版",
-            "根据创作需求推荐工具组合",
-            "分享免费替代方案"
+            "了解 AI 工具的数据使用政策，避免上传敏感信息",
+            "使用强密码和双重认证保护 AI 账户",
+            "定期检查 AI 工具的权限设置，关闭不必要的授权"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -345,12 +352,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI工具订阅陷阱：这些宣传很美好，实际却很鸡肋",
-          "summary": "揭露AI工具订阅中的常见坑，帮助用户避免浪费钱。",
+          "hook": "AI 末日警告是杞人忧天？还是我们该认真对待？",
+          "summary": "分析 AI 末日论的支持与反对观点，帮助读者理性看待。",
           "pitfalls": [
-            "免费试用后忘记取消，被自动扣费",
-            "功能与宣传不符，实际效果差",
-            "数据安全问题，上传内容被滥用"
+            "忽视 AI 风险，过度依赖 AI 决策",
+            "被末日论吓倒，错失 AI 带来的机遇",
+            "盲目相信 AI 公司的安全承诺，缺乏独立判断"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -359,12 +366,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI工具订阅潮：创作者经济的成本正在上升",
-          "summary": "分析AI工具订阅对创作者经济的影响。",
+          "hook": "AI 末日警告背后的博弈：OpenAI 和 Anthropic 的真实意图",
+          "summary": "深入分析 AI 公司发出风险警告的动机，以及行业监管趋势。",
           "insights": [
-            "AI工具提高效率，但增加创作成本",
-            "工具订阅成为创作者的主要支出之一",
-            "未来可能出现整合型AI平台降低总成本"
+            "AI 公司可能通过警告推动监管，建立行业壁垒",
+            "风险警告也是公关手段，提升公众信任",
+            "真正需要关注的是 AI 的近期风险，如偏见、滥用"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -373,22 +380,22 @@
     }
   ],
   "weekly_plan": {
-    "monday": "OpenAI智能体攻击RubyGems事件：AI Agent的安全边界在哪里？",
-    "wednesday": "GPT-6 Astra提示词优化指南：OpenAI官方推荐的精简技巧",
-    "friday": "AI副业实战：5个能在上班前完成的AI变现项目",
-    "strategy": "本周主打AI热点事件和实用教程，结合副业变现和版权话题，吸引AI初学者和创作者关注。"
+    "monday": "GPT-6 Astra 官方提示词指南：OpenAI 亲自教你如何用好新模型",
+    "wednesday": "OpenAI Agent 攻击 RubyGems：AI Agent 的安全隐患与防御指南",
+    "friday": "AI 视频创作新工具：从 Tomb Raider 到 AI 电影节的灵感与实操",
+    "strategy": "本周主打 GPT-6 热点和 AI 安全话题，结合视频创作灵感，保持内容多样性和时效性。"
   },
-  "insights": "今日信息流中OpenAI相关新闻占据主导，AI安全与提示词优化是热点，同时AI视频剪辑和副业变现内容也有较高关注度。",
-  "ai_adjustment": "基于用户反馈，本次推荐增加了GPT-6 Astra和AI Agent相关选题，并减少了硬件相关内容，更符合用户偏好。",
-  "generated_at": "2026-09-12T23:06:57.421901+08:00",
-  "total_items": 380,
-  "scored_items": 307,
+  "insights": "今日信息流聚焦 OpenAI 的 GPT-6 Astra 发布和 Agent 安全事件，AI 技术更新和安全问题成为双热点，适合快速产出实操和深度内容。",
+  "ai_adjustment": "本次推荐优先选择了用户偏好的 ai_tech 和 ai_video 赛道，并针对用户对 DeepSeek 的兴趣增加了语音对话选题，同时避开了偏硬件的内容。",
+  "generated_at": "2026-09-13T17:32:57.039843+08:00",
+  "total_items": 329,
+  "scored_items": 268,
   "tracks_summary": {
-    "ai_tech": 284,
-    "creator_economy": 7,
-    "ai_video": 10,
-    "growth_monetize": 3,
-    "trademark_business": 3
+    "ai_tech": 257,
+    "ai_video": 6,
+    "trademark_business": 1,
+    "creator_economy": 3,
+    "growth_monetize": 1
   },
   "engine_version": "v2",
   "engine_params": {

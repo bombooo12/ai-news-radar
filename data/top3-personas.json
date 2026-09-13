@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T15:06:20.651350Z",
+  "generated_at": "2026-09-13T09:32:17.415580Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,10 +17,30 @@
   ],
   "items": [
     {
+      "story_id": "story_b025ab79dc77",
+      "title": "OpenAI 将 GPT-Live-1 语音模型开放至 API / 📞 1-800-ChatGPT",
+      "url": "https://x.com/OpenAIDevs/status/2098913661993603215",
+      "rank": 1,
+      "reviews": {
+        "cynic": {
+          "score": 75,
+          "review": "API开放是好事，但‘1-800’这种营销噱头，不如说说延迟和成本的实际数字。"
+        },
+        "paper-police": {
+          "score": 15,
+          "review": "仅有官方推文宣称，无论文、代码及独立评测，证据不足。"
+        },
+        "pragmatic": {
+          "score": 95,
+          "review": "API 已开放，今天就能给应用加上实时语音交互功能。"
+        }
+      }
+    },
+    {
       "story_id": "story_86ff3d2b9b70",
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "rank": 1,
+      "rank": 2,
       "reviews": {
         "cynic": {
           "score": 65,
@@ -37,42 +57,22 @@
       }
     },
     {
-      "story_id": "story_adeb9fe0ee2f",
-      "title": "Add VS Code Agents to Copilot usage metrics",
-      "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 65,
-          "review": "把自家产品整合进统计口径，算力消耗和真实价值还是两码事。"
-        },
-        "paper-police": {
-          "score": 15,
-          "review": "仅有官方博客更新，无论文、代码及独立评测佐证。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "Copilot计费更透明，用VS Code Agents的团队现在就能查用量了。"
-        }
-      }
-    },
-    {
-      "story_id": "story_bbf03c6dd45c",
-      "title": "Auto-resolution and analysis updates in Copilot code review",
-      "url": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
+      "story_id": "story_462f3ecf41bf",
+      "title": "OpenAI 发布 GPT-6 Astra 并展示社区构建案例 / https://x.com/i/article/2098531824528220160",
+      "url": "https://x.com/OpenAIDevs/status/2098827327832822014",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 68,
-          "review": "功能迭代是实，但‘分析更新’这种模糊措辞，八成是修了几个已知bug。"
+          "score": 75,
+          "review": "案例展示挺花哨，但具体性能提升和成本闭口不谈，还是熟悉的配方。"
         },
         "paper-police": {
-          "score": 45,
-          "review": "官方博客公布了功能更新，但无论文或独立评测，技术细节待核实。"
+          "score": 15,
+          "review": "仅有官方推文展示案例，无论文、代码或公开评测数据。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "GitHub Copilot代码审查功能增强，现在就能用，能自动分析和修复问题。"
+          "review": "GPT-6 Astra已发布，开发者现在就可以接入使用新能力。"
         }
       }
     }
