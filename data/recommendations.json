@@ -3,21 +3,18 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "GPT-6 Astra 官方提示词指南：OpenAI 亲自教你如何用好新模型",
+      "title": "OpenAI 又发末日警告？别慌，AI 安全背后的真相与商机",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、GPT-6用户、提示词工程师",
-      "reason": "GPT-6 Astra 是今日最大热点，官方发布提示词建议，实操性强，契合用户对新模型和提示词工程的兴趣。",
+      "target_audience": "AI初学者、科技爱好者、创业者",
+      "reason": "OpenAI、Anthropic 再次发出AI末日警告，话题性强，且与AI安全、AI Agent相关，适合深度解读和避坑内容。",
       "source_items": [
-        "OpenAI 亲自教你，如何用好 GPT-6 Astra",
-        "GPT-6 Astra needs leaner prompts and fewer guardrails, OpenAI recommends",
-        "OpenAI 发布 GPT-6 Astra 并展示社区构建案例"
+        "OpenAI、Anthropic 再次发出「AI 末日」警告；小米澎程今日全国交付；Deepseek 灰度测试 AI 语音对话",
+        "OpenAI agents hacked a software service before the Hugging Face incident"
       ],
       "source_urls": [
-        "https://waytoagi.feishu.cn/wiki/QzLawwHeBisiXbkVeXDcd9WMn0e?from=from_copylink",
-        "https://the-decoder.com/gpt-6-astra-needs-leaner-prompts-and-fewer-guardrails-openai-recommends",
-        "https://x.com/OpenAIDevs/status/2098827327832822014",
-        "https://openai.com/index/perplexity-improving-accuracy-with-astra"
+        "http://www.geekpark.net/news/370228",
+        "https://www.engadget.com/2256741/openai-agents-hacked-rubygems"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -26,12 +23,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "GPT-6 Astra 提示词新玩法：精简提示+少护栏，官方推荐这样做",
-          "summary": "教用户如何根据 OpenAI 官方建议调整提示词，让 GPT-6 Astra 发挥最佳性能。",
+          "hook": "AI 安全不是玄学：3 个实用技巧，让你的 AI 应用不被黑客盯上",
+          "summary": "教初学者如何为 AI 应用添加基本安全防护，如输入过滤、权限控制等。",
           "key_points": [
-            "理解 GPT-6 Astra 的提示词偏好：精简、直接、少护栏",
-            "对比旧模型提示词，找出需要调整的地方",
-            "提供3个官方示例的改写前后对比，展示效果差异"
+            "了解常见的 AI 攻击方式（提示注入、数据投毒）",
+            "使用 OpenAI 安全最佳实践（如内容审核、输出过滤）",
+            "部署 AI Agent 时设置最小权限和审计日志"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -40,12 +37,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "别再堆砌提示词了！GPT-6 Astra 的护栏设置反而会降低性能",
-          "summary": "指出用户在使用 GPT-6 Astra 时常见的提示词误区，如过度设置护栏、提示词过长等。",
+          "hook": "AI 末日警告是营销？别被带节奏！这 3 个坑千万别踩",
+          "summary": "分析 AI 末日警告背后的商业动机，提醒读者不要盲目恐慌或忽视风险。",
           "pitfalls": [
-            "过度设置护栏导致模型回答受限，性能下降",
-            "提示词过长反而让模型抓不住重点，回答质量降低",
-            "忽略官方建议，沿用旧模型的提示词习惯，效果不佳"
+            "将 AI 末日论当作流量密码，制造恐慌",
+            "忽视 AI 安全导致数据泄露或合规问题",
+            "盲目相信 AI 安全承诺，不进行独立验证"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -54,12 +51,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从 GPT-6 Astra 的提示词建议看 OpenAI 的模型设计哲学转变",
-          "summary": "分析 OpenAI 推荐精简提示词背后的技术趋势，以及对提示词工程行业的影响。",
+          "hook": "AI 末日警告背后的博弈：OpenAI、Anthropic 在下一盘什么棋？",
+          "summary": "从商业竞争、监管压力、技术伦理等角度解读 AI 安全警告的深层逻辑。",
           "insights": [
-            "OpenAI 正在降低提示词工程的门槛，模型自主性增强",
-            "护栏减少意味着模型更依赖对齐训练而非用户约束，安全策略转变",
-            "对提示词工程师职业的影响：从写复杂提示词转向任务设计和结果评估"
+            "AI 安全警告可能是为了争取监管优势，打击竞争对手",
+            "AI Agent 的自主性带来真实风险，但过度渲染末日论会阻碍技术发展",
+            "AI 安全将成为新的创业赛道，合规服务需求增长"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -68,19 +65,15 @@
     },
     {
       "rank": 2,
-      "title": "OpenAI Agent 攻击 RubyGems：AI Agent 的安全隐患与防御指南",
+      "title": "DeepSeek 灰度测试 AI 语音对话：普通人如何抢先体验并变现？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI开发者、Agent使用者、技术爱好者",
-      "reason": "OpenAI Agent 攻击事件引发对 AI 安全性的讨论，具有争议性和传播潜力，适合做避坑和深度解读。",
+      "target_audience": "AI初学者、副业变现者、效率爱好者",
+      "reason": "DeepSeek 语音对话是热点，用户历史反馈对 DeepSeek 相关选题兴趣高，且适合实操教程和变现思路。",
       "source_items": [
-        "OpenAI agents hacked a software service before the Hugging Face incident",
-        "OpenAI agents launched a 2,000-package cyberattack on RubyGems just to collect data anyone could Google",
-        "OpenAI、Anthropic 再次发出「AI 末日」警告"
+        "OpenAI、Anthropic 再次发出「AI 末日」警告；小米澎程今日全国交付；Deepseek 灰度测试 AI 语音对话"
       ],
       "source_urls": [
-        "https://www.engadget.com/2256741/openai-agents-hacked-rubygems",
-        "https://the-decoder.com/openai-agents-launched-a-2000-package-cyberattack-on-rubygems-just-to-collect-data-anyone-could-google",
         "http://www.geekpark.net/news/370228"
       ],
       "urgency": "high",
@@ -90,26 +83,26 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "AI Agent 安全使用指南：如何防止你的 Agent 被恶意利用",
-          "summary": "教初学者如何安全地配置和使用 AI Agent，避免被黑客利用或产生安全风险。",
+          "hook": "DeepSeek 语音对话内测体验：手把手教你申请资格并玩转语音交互",
+          "summary": "教读者如何获取 DeepSeek 语音对话的测试资格，并演示基本用法。",
           "key_points": [
-            "了解 AI Agent 的权限设置，最小化授权范围",
-            "学会审查 Agent 的代码和依赖包，防止供应链攻击",
-            "设置监控和日志，及时发现异常行为"
+            "申请内测资格的方法（关注官方渠道、填写表单）",
+            "语音对话的基本操作（唤醒、提问、多轮对话）",
+            "结合语音场景的实用技巧（如语音速记、语音控制）"
           ],
           "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "你的 AI Agent 可能正在攻击别人！OpenAI 事件给我们的警示",
-          "summary": "揭示 AI Agent 被滥用导致的安全风险，提供防范措施。",
+          "hook": "DeepSeek 语音对话内测，别踩这 3 个坑！",
+          "summary": "提醒用户注意内测阶段的限制、隐私风险以及常见使用误区。",
           "pitfalls": [
-            "Agent 可能被注入恶意指令，执行未授权的操作",
-            "使用开源 Agent 框架时，依赖包可能包含恶意代码",
-            "忽视 Agent 的日志监控，导致安全事件无法及时发现"
+            "内测资格有限，谨防诈骗链接",
+            "语音数据可能被用于训练，注意隐私保护",
+            "语音识别准确率有限，重要信息需二次确认"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -118,46 +111,48 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI Agent 攻击事件背后的伦理与法律困境：谁该为 AI 的行为负责？",
-          "summary": "深入分析 AI Agent 自主行为引发的责任归属、安全监管等问题。",
+          "hook": "DeepSeek 语音对话上线，AI 语音交互将如何改变内容创作？",
+          "summary": "分析 AI 语音对话对内容创作、自媒体运营和副业变现的影响。",
           "insights": [
-            "AI Agent 的自主性带来新的安全挑战，传统安全模型失效",
-            "OpenAI 的行为引发争议：为了收集数据而攻击，是否合理？",
-            "未来需要新的法规和伦理框架来约束 AI Agent 的行为"
+            "AI 语音对话将降低内容创作门槛，语音类内容爆发",
+            "语音交互可能成为 AI 应用的新入口，改变用户习惯",
+            "自媒体人可利用语音对话快速生成视频脚本、播客内容"
           ],
           "difficulty": "中级",
-          "estimated_time": "1小时"
+          "estimated_time": "45分钟"
         }
       ]
     },
     {
       "rank": 3,
-      "title": "DeepSeek 灰度测试 AI 语音对话：如何用语音交互提升效率",
+      "title": "OpenAI GPT-6 Astra 发布：Perplexity 都在用，你还不学？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、效率工具爱好者、DeepSeek用户",
-      "reason": "DeepSeek 语音对话是热点，与用户关注的 DeepSeek 相关，且语音交互是实操性强的选题。",
+      "target_audience": "AI初学者、开发者、效率工具爱好者",
+      "reason": "GPT-6 Astra 是重大模型发布，Perplexity 的采用验证了其价值，用户偏好新模型新工具，适合实操和深度解读。",
       "source_items": [
-        "OpenAI、Anthropic 再次发出「AI 末日」警告；小米澎程今日全国交付；Deepseek 灰度测试 AI 语音对话",
-        "OpenAI 将 GPT-Live-1 语音模型开放至 API"
+        "Perplexity trusts GPT-6 Astra with end-to-end systems",
+        "OpenAI 发布 GPT-6 Astra 并展示社区构建案例",
+        "OpenAI 亲自教你，如何用好 GPT-6 Astra"
       ],
       "source_urls": [
-        "http://www.geekpark.net/news/370228",
-        "https://x.com/OpenAIDevs/status/2098913661993603215"
+        "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+        "https://x.com/OpenAIDevs/status/2098827327832822014",
+        "https://waytoagi.feishu.cn/wiki/QzLawwHeBisiXbkVeXDcd9WMn0e?from=from_copylink"
       ],
-      "urgency": "medium",
-      "viral_potential": "medium",
+      "urgency": "high",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "DeepSeek 语音对话内测体验：教你开启并高效使用语音交互",
-          "summary": "教用户如何参与 DeepSeek 语音对话测试，并利用语音交互提升日常效率。",
+          "hook": "GPT-6 Astra 保姆级教程：从零开始，用上最强 AI 模型",
+          "summary": "教初学者如何通过 API 或 ChatGPT 使用 GPT-6 Astra，并展示实际应用场景。",
           "key_points": [
-            "如何申请 DeepSeek 语音对话灰度测试资格",
-            "语音对话的适用场景：口述笔记、快速问答、会议记录",
-            "结合语音+文字提示词，提高交互效率"
+            "了解 GPT-6 Astra 的新特性（多模态、长上下文、Agent能力）",
+            "通过 OpenAI API 调用 GPT-6 Astra（代码示例）",
+            "在 ChatGPT 中启用 GPT-6 Astra 并体验高级功能"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -166,12 +161,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "DeepSeek 语音对话内测：这些坑你一定要避开",
-          "summary": "提醒用户在使用语音对话时可能遇到的问题，如识别错误、隐私泄露等。",
+          "hook": "GPT-6 Astra 虽强，但这 3 个坑你一定要避开！",
+          "summary": "提醒用户注意 GPT-6 Astra 的幻觉问题、成本陷阱和过度依赖风险。",
           "pitfalls": [
-            "语音识别在嘈杂环境下准确率低，影响交互体验",
-            "语音对话可能涉及隐私泄露，注意不要在公共场合使用",
-            "灰度测试功能不稳定，可能出现响应延迟或错误"
+            "GPT-6 Astra 仍会产生幻觉，重要决策需人工校验",
+            "API 调用成本可能很高，注意用量监控",
+            "不要盲目认为 AI 能完全替代人类，保持批判性思维"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -180,12 +175,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "语音交互会是 AI 的下一个主战场吗？从 DeepSeek 和 OpenAI 的动作看趋势",
-          "summary": "分析语音交互在 AI 产品中的发展趋势，以及对中国市场的影响。",
+          "hook": "GPT-6 Astra 发布，AI 竞争进入新阶段：谁将笑到最后？",
+          "summary": "分析 GPT-6 Astra 的技术突破、行业影响以及 OpenAI 的竞争策略。",
           "insights": [
-            "OpenAI 和 DeepSeek 同时发力语音，语音交互成为标配",
-            "语音交互降低 AI 使用门槛，吸引更多非技术用户",
-            "中文语音交互的挑战与机遇：方言、语义理解"
+            "GPT-6 Astra 的多模态和 Agent 能力将推动 AI 应用落地",
+            "Perplexity 的采用表明 GPT-6 Astra 在真实场景中的价值",
+            "AI 模型竞争从参数转向实用性和生态，OpenAI 领先但面临挑战"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -194,62 +189,58 @@
     },
     {
       "rank": 4,
-      "title": "AI 视频创作新工具：从 Tomb Raider 到 AI 电影节的灵感与实操",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI视频创作者、游戏爱好者、视觉艺术家",
-      "reason": "AI 视频赛道是用户偏好，结合游戏和 AI 电影节新闻，提供创作灵感和实操方法。",
+      "title": "OpenAI Agent 又搞事情？AI Agent 安全实战：从被黑到防御",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、开发者、技术爱好者",
+      "reason": "OpenAI Agent 被黑事件是热点，与 AI Agent 安全相关，用户对 Agent 实践感兴趣，适合避坑和深度解读。",
       "source_items": [
-        "Tomb Raider: Legacy of Atlantis creative director confirms the game has difficulty levels...",
-        "Dasein EMERGENCE - Ai Film Festival",
-        "SF AI Artists September Show, Critique, & Promote"
+        "OpenAI agents hacked a software service before the Hugging Face incident"
       ],
       "source_urls": [
-        "https://www.techradar.com/gaming/tomb-raider-legacy-of-atlantis-creative-director-confirms-the-game-has-difficulty-levels-for-combat-puzzles-and-traversal-that-can-be-individually-tweaked-we-have-prepared-it-in-a-way-that-im-pretty-sure-everyone-can-set-it-to-their-own-pleasure",
-        "https://www.meetup.com/dasein-creative-circle/events/315984292",
-        "https://www.meetup.com/bay-area-ai-artists/events/316379184"
+        "https://www.engadget.com/2256741/openai-agents-hacked-rubygems"
       ],
-      "urgency": "medium",
+      "urgency": "high",
       "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频",
-          "hook": "用 AI 制作游戏风格短片：从 Tomb Raider 预告片学到的技巧",
-          "summary": "教用户如何利用 AI 视频工具制作具有游戏感的短片，包括场景设计、角色动画等。",
+          "format": "图文",
+          "hook": "AI Agent 安全加固指南：5 个步骤，让你的 Agent 不被攻破",
+          "summary": "教初学者如何为 AI Agent 添加安全防护，包括输入验证、权限控制、日志监控等。",
           "key_points": [
-            "使用 Midjourney 生成游戏风格的概念图",
-            "用 Vidu 或 Runway 将静态图转为动态视频",
-            "剪辑包装：添加游戏 UI 元素和音效，增强沉浸感"
+            "对 Agent 的输入进行严格过滤，防止提示注入",
+            "设置最小权限原则，限制 Agent 的 API 访问范围",
+            "启用审计日志，监控 Agent 的异常行为"
           ],
           "difficulty": "中级",
-          "estimated_time": "1小时"
+          "estimated_time": "45分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI 电影创作常见误区：如何避免作品显得廉价和粗糙",
-          "summary": "指出 AI 视频创作中常见的质量问题，提供提升专业感的技巧。",
+          "hook": "OpenAI Agent 被黑事件警示：这 3 个安全漏洞你也有！",
+          "summary": "分析 OpenAI Agent 被黑的原因，提醒读者检查自己的 AI 应用是否存在类似漏洞。",
           "pitfalls": [
-            "过度依赖 AI 生成，缺乏人工剪辑导致叙事混乱",
-            "忽视版权问题，使用未经授权的素材",
-            "不注重音频设计，导致视频观感大打折扣"
+            "过度信任 Agent 的输出，未进行安全校验",
+            "API 密钥管理不当，泄露后导致数据泄露",
+            "忽视供应链安全，使用了不安全的第三方库"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI 电影节兴起：AI 视频创作将如何改变影视行业？",
-          "summary": "探讨 AI 电影节对独立创作者的意义，以及 AI 视频技术的未来方向。",
+          "hook": "AI Agent 安全事件频发，我们该如何与 AI 共存？",
+          "summary": "探讨 AI Agent 的安全风险、监管趋势以及未来的安全解决方案。",
           "insights": [
-            "AI 降低了电影制作门槛，个人创作者也能参赛",
-            "AI 视频技术仍处于早期，但发展迅速",
-            "传统影视公司如何应对 AI 带来的变革"
+            "AI Agent 的自主性带来新的安全挑战，传统安全方案失效",
+            "AI 安全将成为新兴市场，安全审计和防护工具需求增长",
+            "监管机构将加强对 AI Agent 的监管，合规成本上升"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -258,78 +249,16 @@
     },
     {
       "rank": 5,
-      "title": "AI 创业者的财富密码：从 AI 浪潮中诞生的新亿万富翁生态",
-      "track": "side_income",
-      "track_name": "个人成长/副业变现",
-      "target_audience": "AI创业者、副业人群、想借助AI变现的个人",
-      "reason": "AI 造富话题吸引眼球，与副业变现相关，可为商标代理引流提供背景。",
-      "source_items": [
-        "As the AI wave creates tech fortunes at breakneck speed, a look at the growing ecosystem helping founders navigate the challenges of becoming extremely wealthy"
-      ],
-      "source_urls": [
-        "https://www.techmeme.com/260912/p5"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "AI 创业第一步：从 0 到 1 的副业变现路径（附真实案例）",
-          "summary": "教初学者如何利用 AI 工具开启副业，包括选方向、搭产品、获客等步骤。",
-          "key_points": [
-            "选择 AI 副业方向：AI 绘画、AI 写作、AI 视频等",
-            "利用现有 AI 工具快速搭建 MVP，无需编程",
-            "通过自媒体平台获客，建立个人品牌"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI 创业的 5 大陷阱：从财富神话到血本无归的教训",
-          "summary": "揭示 AI 创业中常见的失败原因，帮助读者避免踩坑。",
-          "pitfalls": [
-            "盲目追逐热点，忽视实际市场需求",
-            "缺乏商业模型，只靠技术驱动",
-            "忽视法律风险，如知识产权、数据合规"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "AI 造富神话背后：财富分配不均与创业生态的隐忧",
-          "summary": "分析 AI 浪潮带来的财富集中现象，以及对社会和创业生态的影响。",
-          "insights": [
-            "AI 财富集中在少数人手中，加剧不平等",
-            "创业生态中的服务商（如财富管理）成为受益者",
-            "对普通创业者的启示：如何抓住机会而非被浪潮淹没"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "title": "AI 末日警告再起：OpenAI、Anthropic 为何反复强调风险？",
+      "title": "Houthis 用 Claude Code 开发导弹软件？AI 武器化的伦理与监管",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI关注者、科技爱好者、普通用户",
-      "reason": "AI 安全话题具有争议性，容易引发讨论，且与之前的 Agent 攻击事件呼应。",
+      "target_audience": "AI初学者、科技爱好者、政策关注者",
+      "reason": "AI 武器化是极具争议性的话题，容易引发讨论和传播，且与 AI 安全、伦理相关，适合深度解读。",
       "source_items": [
-        "OpenAI、Anthropic 再次发出「AI 末日」警告",
-        "OpenAI agents hacked a software service before the Hugging Face incident"
+        "Houthis Used Claude Code to Develop Missile Guidance Software: Anthropic"
       ],
       "source_urls": [
-        "http://www.geekpark.net/news/370228",
-        "https://www.engadget.com/2256741/openai-agents-hacked-rubygems"
+        "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo"
       ],
       "urgency": "medium",
       "viral_potential": "high",
@@ -338,12 +267,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "普通人如何应对 AI 风险？一份实用的 AI 安全使用手册",
-          "summary": "教普通用户如何在日常使用 AI 工具时保护隐私和数据安全。",
+          "hook": "AI 编程工具的安全使用指南：如何防止你的代码被滥用？",
+          "summary": "教开发者和内容创作者如何在使用 AI 编程工具时避免生成有害代码。",
           "key_points": [
-            "了解 AI 工具的数据使用政策，避免上传敏感信息",
-            "使用强密码和双重认证保护 AI 账户",
-            "定期检查 AI 工具的权限设置，关闭不必要的授权"
+            "了解 AI 编程工具的滥用风险（如生成恶意代码）",
+            "使用 AI 编程工具时添加道德和安全提示词",
+            "对 AI 生成的代码进行安全审查和合规检查"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -352,12 +281,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI 末日警告是杞人忧天？还是我们该认真对待？",
-          "summary": "分析 AI 末日论的支持与反对观点，帮助读者理性看待。",
+          "hook": "AI 编程工具被武器化？这 3 个坑你千万要避开！",
+          "summary": "提醒用户注意 AI 编程工具的潜在风险，避免无意中生成违规内容。",
           "pitfalls": [
-            "忽视 AI 风险，过度依赖 AI 决策",
-            "被末日论吓倒，错失 AI 带来的机遇",
-            "盲目相信 AI 公司的安全承诺，缺乏独立判断"
+            "忽视 AI 编程工具的滥用风险，可能被用于非法用途",
+            "未对 AI 生成的代码进行审查，导致安全漏洞",
+            "在敏感领域使用 AI 编程工具，可能引发伦理争议"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -366,35 +295,214 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI 末日警告背后的博弈：OpenAI 和 Anthropic 的真实意图",
-          "summary": "深入分析 AI 公司发出风险警告的动机，以及行业监管趋势。",
+          "hook": "AI 武器化：技术中立还是责任在人类？",
+          "summary": "分析 AI 武器化事件背后的伦理问题、监管挑战以及 AI 公司的责任。",
           "insights": [
-            "AI 公司可能通过警告推动监管，建立行业壁垒",
-            "风险警告也是公关手段，提升公众信任",
-            "真正需要关注的是 AI 的近期风险，如偏见、滥用"
+            "AI 技术的中立性受到挑战，开发者需承担社会责任",
+            "AI 监管需要国际合作，防止技术被恶意使用",
+            "AI 公司应加强安全措施，防止模型被滥用"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
         }
       ]
+    },
+    {
+      "rank": 6,
+      "title": "Apple 想用你的私人数据训练 AI？隐私与 AI 的平衡之道",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、苹果用户、隐私关注者",
+      "reason": "Apple 训练 AI 的隐私争议是热点，与用户相关性强，容易引发讨论，适合避坑和深度解读。",
+      "source_items": [
+        "Apple wants to train AI on your private personal data"
+      ],
+      "source_urls": [
+        "https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "如何在 AI 时代保护隐私？5 个设置让你的数据更安全",
+          "summary": "教用户如何调整手机和 AI 应用的隐私设置，减少数据被收集的风险。",
+          "key_points": [
+            "关闭不必要的 AI 功能（如 Siri 改进、个性化广告）",
+            "使用端侧 AI 模型，减少数据上传",
+            "定期检查应用权限，限制数据访问"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "Apple 收集你的数据训练 AI？这 3 个隐私陷阱要小心！",
+          "summary": "揭示 AI 训练中常见的隐私风险，提醒用户注意数据泄露。",
+          "pitfalls": [
+            "默认设置可能允许数据被用于 AI 训练，需手动关闭",
+            "第三方应用可能通过 AI 接口间接获取数据",
+            "云同步功能可能将数据上传至服务器，增加风险"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "Apple 的 AI 隐私悖论：既要智能又要隐私，可能吗？",
+          "summary": "分析 Apple 在 AI 训练中的隐私保护技术（如差分隐私、联邦学习）及其局限性。",
+          "insights": [
+            "Apple 采用差分隐私和联邦学习，但仍有数据泄露风险",
+            "隐私与 AI 性能之间存在权衡，用户需做出选择",
+            "AI 公司应提供更透明的数据使用政策，增强用户信任"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "45分钟"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Markiplier 电影赚 5000 万？自媒体人如何复制他的成功？",
+      "track": "creator_economy",
+      "track_name": "自媒体/创作者经济",
+      "target_audience": "自媒体创作者、内容创业者、副业变现者",
+      "reason": "Markiplier 的成功案例对自媒体人有启发，用户对自媒体运营和变现感兴趣，适合实操和深度解读。",
+      "source_items": [
+        "YouTuber Markiplier's movie made over $50 million. Here's his advice for creators looking to level up."
+      ],
+      "source_urls": [
+        "https://www.businessinsider.com/markiplier-advice-youtuber-dont-need-hollywood-creator-help-level-up-2026-9"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "从 YouTuber 到电影制作人：Markiplier 的 3 个变现策略",
+          "summary": "拆解 Markiplier 的成功路径，教自媒体人如何拓展收入来源。",
+          "key_points": [
+            "建立个人品牌，积累忠实粉丝",
+            "尝试多元内容形式（如电影、周边）",
+            "利用粉丝经济，实现跨平台变现"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "自媒体人别踩这 3 个坑！Markiplier 成功的反面教材",
+          "summary": "分析自媒体人常见的失败原因，提醒读者避免盲目扩张。",
+          "pitfalls": [
+            "盲目追求大制作，忽视内容质量",
+            "过度依赖单一平台，风险高",
+            "忽视粉丝需求，导致粉丝流失"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "自媒体人的新出路：从内容创作者到 IP 运营者",
+          "summary": "探讨自媒体人如何通过 IP 化运营实现商业价值最大化。",
+          "insights": [
+            "自媒体人不再只是内容生产者，而是 IP 运营者",
+            "IP 化运营需要跨领域合作和品牌建设",
+            "AI 工具可以帮助自媒体人提高效率，但核心仍是创意和粉丝关系"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "AI 也能做股票分析？Analyst Index 的赚钱逻辑与风险",
+      "track": "side_hustle",
+      "track_name": "个人成长/副业变现",
+      "target_audience": "AI初学者、副业变现者、理财爱好者",
+      "reason": "AI 股票分析是热门副业方向，但风险高，适合避坑和深度解读，与用户副业变现定位契合。",
+      "source_items": [
+        "Show HN: Analyst Index – analysts who make money telling you good stock calls"
+      ],
+      "source_urls": [
+        "https://www.analystidx.com"
+      ],
+      "urgency": "low",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "用 AI 做股票分析？手把手教你搭建自己的 AI 投资助手",
+          "summary": "教初学者如何利用 AI 工具（如 ChatGPT）进行基础股票分析。",
+          "key_points": [
+            "使用 AI 工具获取股票基本面数据",
+            "利用 AI 生成投资报告和风险评估",
+            "结合人工判断，避免盲目跟从 AI"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI 股票分析靠谱吗？这 3 个坑让你血本无归！",
+          "summary": "揭示 AI 股票分析的局限性，提醒用户不要依赖 AI 做投资决策。",
+          "pitfalls": [
+            "AI 无法预测市场波动，历史数据不代表未来",
+            "AI 可能产生幻觉，提供错误建议",
+            "投资有风险，AI 分析不能替代专业理财顾问"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "AI 炒股是风口还是韭菜？深度解析 AI 投资工具的真相",
+          "summary": "分析 AI 投资工具的商业模式、市场前景和潜在风险。",
+          "insights": [
+            "AI 投资工具市场快速增长，但监管尚不明确",
+            "AI 分析只能作为辅助工具，不能替代人类判断",
+            "副业变现需谨慎，避免因投资失败导致损失"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "45分钟"
+        }
+      ]
     }
   ],
   "weekly_plan": {
-    "monday": "GPT-6 Astra 官方提示词指南：OpenAI 亲自教你如何用好新模型",
-    "wednesday": "OpenAI Agent 攻击 RubyGems：AI Agent 的安全隐患与防御指南",
-    "friday": "AI 视频创作新工具：从 Tomb Raider 到 AI 电影节的灵感与实操",
-    "strategy": "本周主打 GPT-6 热点和 AI 安全话题，结合视频创作灵感，保持内容多样性和时效性。"
+    "monday": "DeepSeek 语音对话内测体验：手把手教你申请资格并玩转语音交互",
+    "wednesday": "GPT-6 Astra 保姆级教程：从零开始，用上最强 AI 模型",
+    "friday": "OpenAI 又发末日警告？别慌，AI 安全背后的真相与商机",
+    "strategy": "本周聚焦 AI 热点事件（DeepSeek 语音、GPT-6 Astra、AI 安全），结合实操教程和深度解读，吸引 AI 初学者关注。"
   },
-  "insights": "今日信息流聚焦 OpenAI 的 GPT-6 Astra 发布和 Agent 安全事件，AI 技术更新和安全问题成为双热点，适合快速产出实操和深度内容。",
-  "ai_adjustment": "本次推荐优先选择了用户偏好的 ai_tech 和 ai_video 赛道，并针对用户对 DeepSeek 的兴趣增加了语音对话选题，同时避开了偏硬件的内容。",
-  "generated_at": "2026-09-13T17:32:57.039843+08:00",
-  "total_items": 329,
-  "scored_items": 268,
+  "insights": "今日信息流显示 AI 安全、新模型发布（GPT-6 Astra）和 AI 语音交互成为热点，同时 AI 在金融和创作领域的应用也备受关注。",
+  "ai_adjustment": "基于用户反馈，本次推荐优先选择了 AI 技术赛道，并增加了 DeepSeek 相关选题，同时避开了偏硬件的内容。",
+  "generated_at": "2026-09-13T23:07:35.076211+08:00",
+  "total_items": 288,
+  "scored_items": 232,
   "tracks_summary": {
-    "ai_tech": 257,
-    "ai_video": 6,
-    "trademark_business": 1,
-    "creator_economy": 3,
+    "ai_tech": 224,
+    "ai_video": 5,
+    "creator_economy": 2,
     "growth_monetize": 1
   },
   "engine_version": "v2",
