@@ -4530,6 +4530,60 @@
       "review": "仅有媒体报道，未见官方论文、代码或可复现的评测报告。",
       "title_hash": "43641020",
       "scored_at": "2026-09-14T09:09:10.489089Z"
+    },
+    "story_d3bf2f654fce|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "单次演示的benchmark看看就好，不改变现有模型选型。",
+      "title_hash": "6a26f33f",
+      "scored_at": "2026-09-14T15:09:34.193610Z"
+    },
+    "story_2268a781ebb4|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "开源了可直接评估或微调的搜索增强模型，为RAG应用提供了新选项。",
+      "title_hash": "2ddff242",
+      "scored_at": "2026-09-14T15:09:46.214901Z"
+    },
+    "story_906bc814a899|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "PPT工具升级，一句话生成可编辑文件，今天做汇报就能用。",
+      "title_hash": "6b3c001f",
+      "scored_at": "2026-09-14T15:09:57.070559Z"
+    },
+    "story_d4545e7d3db9|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "行业大佬表态，但没提供任何可用的工具或法律路径。",
+      "title_hash": "3ac1c994",
+      "scored_at": "2026-09-14T15:10:08.973614Z"
+    },
+    "story_bdb10c710254|pragmatic|0a5c5b24": {
+      "score": 70,
+      "review": "模块化设计可能影响硬件选型，但需等实际交付和SDK再评估。",
+      "title_hash": "064d7152",
+      "scored_at": "2026-09-14T15:10:16.627084Z"
+    },
+    "story_d582dca2239a|pragmatic|0a5c5b24": {
+      "score": 88,
+      "review": "可直接克隆的PyTorch架构实现，适合学习和快速实验。",
+      "title_hash": "071ebad0",
+      "scored_at": "2026-09-14T15:10:22.452123Z"
+    },
+    "story_d0c7c6be7a83|pragmatic|0a5c5b24": {
+      "score": 40,
+      "review": "只是代码层面的可能性，苹果没开放接口，现在换不了。",
+      "title_hash": "18bf8694",
+      "scored_at": "2026-09-14T15:10:25.303611Z"
+    },
+    "story_d582dca2239a|cynic|f4237a62": {
+      "score": 75,
+      "review": "又一个PyTorch复现轮子，亮点是‘现代’和‘大型’，但没提具体实现了哪个模型。",
+      "title_hash": "071ebad0",
+      "scored_at": "2026-09-14T15:10:29.530006Z"
+    },
+    "story_d582dca2239a|paper-police|966065bf": {
+      "score": 85,
+      "review": "GitHub仓库公开，架构实现可查，但未见配套论文与基准评测报告。",
+      "title_hash": "071ebad0",
+      "scored_at": "2026-09-14T15:10:40.489674Z"
     }
   }
 }

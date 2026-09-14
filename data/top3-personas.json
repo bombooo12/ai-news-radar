@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T09:09:10.489175Z",
+  "generated_at": "2026-09-14T15:10:40.489731Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -57,22 +57,22 @@
       }
     },
     {
-      "story_id": "story_86ff3d2b9b70",
-      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "story_id": "story_d582dca2239a",
+      "title": "OpenArch——现代大型语言模型（LLM）架构的 PyTorch 实现",
+      "url": "https://github.com/anuj0456/OpenArch",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "把自家搜索质量押注在未发布的模型上，这信任来得有点早。"
+          "score": 75,
+          "review": "又一个PyTorch复现轮子，亮点是‘现代’和‘大型’，但没提具体实现了哪个模型。"
         },
         "paper-police": {
-          "score": 15,
-          "review": "官方博客宣称性能，无论文、代码及独立评测支持。"
+          "score": 85,
+          "review": "GitHub仓库公开，架构实现可查，但未见配套论文与基准评测报告。"
         },
         "pragmatic": {
-          "score": 85,
-          "review": "GPT-6 Astra已开放给Perplexity使用，其端到端系统能力可供集成参考。"
+          "score": 88,
+          "review": "可直接克隆的PyTorch架构实现，适合学习和快速实验。"
         }
       }
     }
