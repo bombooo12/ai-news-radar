@@ -3,20 +3,21 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "DeepSeek Code 2.0 传闻炸场：3万亿参数如何改变AI编程格局？",
+      "title": "DeepSeek 3万亿参数新模型将至，AI初学者如何提前布局？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、开发者、AI工具爱好者",
-      "reason": "DeepSeek 新模型传闻是热点，用户关注新模型，且与GPT-6 Astra对比有冲突性，易传播。",
+      "target_audience": "AI初学者、想用AI变现的个人",
+      "reason": "DeepSeek新模型是今日最大热点，用户历史反馈对DeepSeek相关选题高度感兴趣，且能扩展系列内容。",
       "source_items": [
+        "爆料称 DeepSeek 下一波大模型将至：3 万亿参数，性能剑指 GPT-6 Astra",
         "DeepSeek 传闻将推 3 万亿参数 Code 2.0，剑指 GPT-6 Astra",
-        "Perplexity trusts GPT-6 Astra with end-to-end systems",
         "OpenAI 关停史上最快模型 GPT-5.3-Codex-Spark：从发布到下线只活了 7 个月"
       ],
       "source_urls": [
+        "https://www.aibase.com/news/31026",
         "https://www.aibase.com/news/31014",
-        "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-        "https://www.aibase.com/news/31021"
+        "https://www.aibase.com/news/31021",
+        "https://openai.com/index/perplexity-improving-accuracy-with-astra"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -25,40 +26,40 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "DeepSeek Code 2.0 还没发布？先用这些技巧提前体验AI编程新趋势！",
-          "summary": "教读者如何用现有AI编程工具（如DeepSeek、Claude Code）实现类似Code 2.0的编程效率。",
+          "hook": "DeepSeek 3万亿参数模型要来了！现在学会这5个提示词技巧，新模型上线直接起飞",
+          "summary": "教AI初学者如何提前掌握DeepSeek模型的核心用法，包括提示词优化和常见任务实操。",
           "key_points": [
-            "对比现有AI编程工具（DeepSeek、Claude Code、GitHub Copilot）的优缺点",
-            "分享提示词工程技巧，提升AI生成代码的准确率",
-            "演示如何用AI工具自动化代码审查和重构"
+            "了解DeepSeek当前版本与即将发布版本的差异",
+            "学习针对DeepSeek的提示词优化技巧（角色设定、分步指令）",
+            "实操案例：用DeepSeek生成文章、代码、数据分析报告"
           ],
           "difficulty": "入门",
-          "estimated_time": "45分钟"
+          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "别被3万亿参数忽悠！DeepSeek Code 2.0 传闻背后的5个坑",
-          "summary": "提醒读者不要盲目相信模型参数和传闻，避免被营销误导，理性选择AI编程工具。",
+          "hook": "DeepSeek新模型还没发布，这些坑你已经可以提前避开！",
+          "summary": "提醒用户避免盲目期待新模型、避免使用过时教程、避免忽略API价格变化。",
           "pitfalls": [
-            "参数大不等于性能强，实际效果要看基准测试和场景适配",
-            "新模型发布初期往往有炒作成分，等待真实评测再决定是否迁移",
-            "警惕模型快速迭代导致的兼容性问题（如GPT-5.3-Codex-Spark下线）"
+            "不要轻信非官方渠道的性能爆料，避免被割韭菜",
+            "旧版提示词可能不兼容新模型，需要及时更新学习资料",
+            "关注API定价变化，避免成本超支"
           ],
           "difficulty": "入门",
-          "estimated_time": "20分钟"
+          "estimated_time": "15分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "3万亿参数的野心：DeepSeek Code 2.0 如何挑战 GPT-6 Astra 的霸主地位？",
-          "summary": "分析DeepSeek Code 2.0传闻背后的技术趋势、市场竞争和AI编程未来走向。",
+          "hook": "3万亿参数意味着什么？DeepSeek新模型背后的技术博弈与行业影响",
+          "summary": "分析DeepSeek新模型对AI行业格局、开源社区和普通用户的影响。",
           "insights": [
-            "AI编程模型正从通用大模型向垂直领域进化，参数竞赛白热化",
-            "DeepSeek的崛起可能打破OpenAI和Anthropic的双寡头格局",
-            "模型快速迭代对开发者生态的影响：是机遇还是负担？"
+            "参数规模竞赛背后是算力与数据的双重较量",
+            "DeepSeek与GPT-6 Astra的竞争将推动AI应用平民化",
+            "对国内AI生态的影响：国产模型崛起与产业链机会"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -67,176 +68,47 @@
     },
     {
       "rank": 2,
-      "title": "智能体跑长任务总翻车？AWS、Claude Code、Manus 的四套解决方案全解析",
+      "title": "智能体跑长任务总翻车？四套框架帮你解决“失忆跑题”",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、Agent实践者、技术爱好者",
-      "reason": "智能体长任务失忆是用户痛点，用户对Agent/Skill实践感兴趣，且内容实操性强。",
+      "target_audience": "AI初学者、想用AI工具提效的个人",
+      "reason": "智能体长任务处理是AI应用中的痛点，用户历史反馈对Agent相关选题感兴趣，且实操性强。",
       "source_items": [
         "智能体跑长任务为何\"失忆跑题\"：AWS、Claude Code、Manus 们用四套框架机制给出答案",
-        "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
         "Building Production-Ready AI: Agentic Systems, RAG & Responsible AI"
       ],
       "source_urls": [
         "https://www.aibase.com/news/31020",
-        "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
-        "https://www.meetup.com/pydata_seattle/events/316322058"
+        "https://www.meetup.com/pydata_seattle/events/316322058",
+        "https://www.meetup.com/agentic-ai-context-builders/events/316217896"
       ],
       "urgency": "medium",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "告别智能体失忆！四套框架让AI长任务稳定跑完",
-          "summary": "教读者如何用AWS、Claude Code、Manus的框架机制解决智能体长任务中的上下文丢失问题。",
-          "key_points": [
-            "解释智能体失忆的原因：上下文窗口限制、注意力分散、状态管理缺失",
-            "演示如何用Claude Code的Memory机制保持对话状态",
-            "分享Manus的模块化任务分解技巧，避免跑题"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "智能体长任务必翻车？这5个坑90%的人都会踩",
-          "summary": "总结智能体长任务中的常见陷阱，提供规避方法。",
-          "pitfalls": [
-            "忽略上下文管理，导致模型遗忘关键指令",
-            "过度依赖单一模型，不结合外部知识库（RAG）",
-            "没有设置任务检查点，出错后难以回溯"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "从失忆到记忆：智能体如何突破长任务瓶颈？",
-          "summary": "分析智能体长任务技术演进、行业解决方案和未来趋势。",
-          "insights": [
-            "智能体记忆机制是AI应用落地的关键瓶颈",
-            "AWS、Claude Code、Manus的框架代表了不同技术路线",
-            "未来智能体将更依赖外部记忆和知识图谱（GraphRAG）"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "title": "OpenAI 关停 GPT-5.3-Codex-Spark：7个月寿命背后的AI产品生死法则",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、创业者、产品经理",
-      "reason": "模型快速迭代和关停是热点，用户关注新模型，且内容有冲突性，易引发讨论。",
-      "source_items": [
-        "OpenAI 关停史上最快模型 GPT-5.3-Codex-Spark：从发布到下线只活了 7 个月",
-        "OpenAI 亲自教你，如何用好 GPT-6 Astra",
-        "OpenAI’s next ChatGPT ad format: click to chat, not to site"
-      ],
-      "source_urls": [
-        "https://www.aibase.com/news/31021",
-        "https://waytoagi.feishu.cn/wiki/QzLawwHeBisiXbkVeXDcd9WMn0e?from=from_copylink",
-        "https://digiday.com/marketing/openais-next-chatgpt-ad-format-click-to-chat-not-to-site"
-      ],
-      "urgency": "high",
       "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "GPT-5.3-Codex-Spark 下线了？别慌！迁移到 GPT-6 Astra 的完整指南",
-          "summary": "教用户如何从旧模型迁移到新模型，避免业务中断。",
+          "hook": "智能体一跑长任务就“失忆”？用这4个框架，让它稳定跑完整个流程",
+          "summary": "介绍AWS、Claude Code、Manus等使用的四套框架，教用户如何为智能体设计长任务处理机制。",
           "key_points": [
-            "评估现有AI应用对模型的依赖程度",
-            "对比GPT-5.3-Codex-Spark和GPT-6 Astra的API差异",
-            "提供迁移步骤和测试方法"
+            "理解长任务失忆的根本原因：上下文窗口限制与注意力漂移",
+            "学习四种框架：记忆增强、任务分解、状态持久化、循环校验",
+            "实操：用Claude Code构建一个多步骤任务智能体"
           ],
           "difficulty": "中级",
-          "estimated_time": "1小时"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI模型说下线就下线！如何避免被OpenAI的更新打个措手不及？",
-          "summary": "提醒用户关注模型生命周期，制定应对策略。",
-          "pitfalls": [
-            "不要将核心业务完全绑定在单一模型上",
-            "定期关注模型弃用公告，提前规划迁移",
-            "建立模型版本监控和回滚机制"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "7个月就下线：GPT-5.3-Codex-Spark 的短命揭示了AI行业的什么秘密？",
-          "summary": "分析模型快速迭代背后的商业逻辑和行业趋势。",
-          "insights": [
-            "AI模型迭代速度远超预期，产品生命周期缩短",
-            "OpenAI的战略重心转向GPT-6 Astra，旧模型让位",
-            "对开发者而言，模型可替代性成为重要考量"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "title": "Grok Bot 实操指南：闲鱼上架、小红书做图、短视频制作一网打尽",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI初学者、副业变现人群、自媒体创作者",
-      "reason": "Grok Bot应用案例实用，用户偏好副业变现和实操内容，且与视频制作相关。",
-      "source_items": [
-        "Grok Bot 应用指南实操案例：闲鱼上架、小红书做图、找工具、做短视频、整理收藏",
-        "OpenAI’s next ChatGPT ad format: click to chat, not to site",
-        "Show HN: Analyst Index – analysts who make money telling you good stock calls"
-      ],
-      "source_urls": [
-        "https://waytoagi.feishu.cn/wiki/AyupwGFq0i73bfkIFw9cuuwvnyg?from=from_copylink",
-        "https://digiday.com/marketing/openais-next-chatgpt-ad-format-click-to-chat-not-to-site",
-        "https://www.analystidx.com"
-      ],
-      "urgency": "medium",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "视频",
-          "hook": "用Grok Bot一键生成小红书爆款图？实操演示来了！",
-          "summary": "演示如何用Grok Bot快速制作小红书图片和短视频，提升效率。",
-          "key_points": [
-            "Grok Bot的基本功能和设置",
-            "用Grok Bot生成小红书配图的提示词技巧",
-            "结合剪映快速剪辑短视频的流程"
-          ],
-          "difficulty": "入门",
           "estimated_time": "45分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "Grok Bot 做副业？这5个坑让你白忙一场",
-          "summary": "提醒用户在使用AI工具做副业时的常见误区。",
+          "hook": "智能体跑长任务总翻车？这4个坑90%的人都踩过",
+          "summary": "指出智能体长任务中的常见陷阱，如上下文丢失、任务漂移、资源消耗过大。",
           "pitfalls": [
-            "过度依赖AI生成内容，缺乏原创性导致限流",
-            "忽略平台规则，使用AI生成违规内容被封号",
-            "盲目跟风副业项目，没有明确变现路径"
+            "忽略上下文管理导致智能体“忘记”早期指令",
+            "任务分解不当导致子任务之间逻辑断裂",
+            "过度依赖单一模型，没有设置校验机制"
           ],
           "difficulty": "入门",
           "estimated_time": "20分钟"
@@ -245,12 +117,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从Grok Bot到AI副业：普通人如何抓住AI红利？",
-          "summary": "分析AI工具在副业变现中的应用场景和未来趋势。",
+          "hook": "从“失忆跑题”看智能体进化：四套框架背后的AI工程哲学",
+          "summary": "深入分析智能体长任务处理的技术演进和行业趋势。",
           "insights": [
-            "AI工具降低了内容创作门槛，但也加剧了同质化竞争",
-            "副业成功的关键在于AI+个人特色，而非单纯依赖工具",
-            "未来AI副业将向垂直领域深耕，如AI+电商、AI+教育"
+            "智能体从“对话工具”向“自主执行者”转变的必经之路",
+            "框架设计背后的权衡：记忆成本 vs 执行效率",
+            "未来智能体将如何影响工作流自动化"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -258,21 +130,17 @@
       ]
     },
     {
-      "rank": 5,
-      "title": "Claude Code 被用于导弹制导？AI安全边界再引热议",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、科技爱好者、关注AI伦理的人群",
-      "reason": "AI安全争议性话题，用户偏好冲突性选题，且与Claude Code相关，能引发广泛讨论。",
+      "rank": 3,
+      "title": "Grok Bot 实战：从闲鱼到小红书，一个AI助手搞定副业全流程",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "想用AI变现的个人、AI初学者",
+      "reason": "Grok Bot实操案例与副业变现高度相关，用户历史偏好ai_video赛道，且内容形式适合图文教程。",
       "source_items": [
-        "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
-        "Malicious OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers in May",
-        "Building Production-Ready AI: Agentic Systems, RAG & Responsible AI"
+        "Grok Bot 应用指南实操案例：闲鱼上架、小红书做图、找工具、做短视频、整理收藏"
       ],
       "source_urls": [
-        "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
-        "https://slashdot.org/story/26/09/12/2318204/malicious-openai-agents-linked-to-rubygems-campaign-that-gained-rce-on-rubydoc-servers-in-may",
-        "https://www.meetup.com/pydata_seattle/events/316322058"
+        "https://waytoagi.feishu.cn/wiki/AyupwGFq0i73bfkIFw9cuuwvnyg?from=from_copylink"
       ],
       "urgency": "medium",
       "viral_potential": "high",
@@ -281,62 +149,62 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "AI安全防护实战：如何防止你的AI工具被恶意利用？",
-          "summary": "教读者如何在使用AI工具时加强安全防护，避免被滥用。",
+          "hook": "Grok Bot 实战指南：从闲鱼上架到小红书做图，5个副业场景一网打尽",
+          "summary": "手把手教读者用Grok Bot完成闲鱼商品上架、小红书配图、短视频制作等副业任务。",
           "key_points": [
-            "了解AI工具的安全漏洞和攻击面",
-            "设置权限和访问控制，限制AI工具的敏感操作",
-            "使用安全插件和监控工具，检测异常行为"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "你的AI工具可能成为帮凶？这5个安全漏洞必须警惕",
-          "summary": "提醒用户注意AI工具的安全风险，并提供规避方法。",
-          "pitfalls": [
-            "默认配置不安全，未修改API密钥和权限",
-            "忽略AI生成内容的潜在恶意代码",
-            "未及时更新AI工具版本，存在已知漏洞"
+            "闲鱼上架：用Grok Bot生成商品标题、描述和关键词",
+            "小红书做图：利用Grok Bot生成配图和文案",
+            "短视频制作：用Grok Bot辅助脚本创作和素材整理"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
         },
         {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "Grok Bot 副业实操的5个坑，你中招了吗？",
+          "summary": "揭示使用Grok Bot做副业时的常见误区，如内容同质化、平台规则风险、过度依赖。",
+          "pitfalls": [
+            "生成内容同质化严重，缺乏个人特色",
+            "忽视平台规则，可能导致账号限流",
+            "过度依赖AI，缺乏人工审核导致错误"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI武器化：从导弹制导到网络攻击，技术中立还是责任缺失？",
-          "summary": "分析AI技术被滥用的案例，探讨AI伦理和安全治理的挑战。",
+          "hook": "Grok Bot 走红背后：AI助手如何重塑副业生态？",
+          "summary": "分析Grok Bot这类AI助手对副业人群的影响，以及未来副业趋势。",
           "insights": [
-            "AI技术的双刃剑效应日益凸显，安全治理滞后",
-            "Anthropic等公司面临AI被恶意使用的伦理困境",
-            "全球AI监管框架亟需建立，但技术发展速度远超政策"
+            "AI工具降低副业门槛，但竞争加剧",
+            "从“工具”到“伙伴”：AI助手在副业中的角色演变",
+            "副业变现的新模式：人机协作"
           ],
           "difficulty": "中级",
-          "estimated_time": "1小时"
+          "estimated_time": "45分钟"
         }
       ]
     },
     {
-      "rank": 6,
-      "title": "ChatGPT 广告新玩法：点击即聊天，营销人的AI革命",
+      "rank": 4,
+      "title": "OpenAI关停GPT-5.3-Codex-Spark：快速迭代背后的风险与机遇",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "自媒体创作者、营销人员、小微企业主",
-      "reason": "OpenAI广告模式创新，与用户商标代理引流需求相关，且内容新颖，有传播潜力。",
+      "target_audience": "AI初学者、关注AI行业动态的个人",
+      "reason": "OpenAI关停模型是行业重要事件，用户历史反馈对OpenAI动态感兴趣，且能引发对AI依赖的思考。",
       "source_items": [
-        "OpenAI’s next ChatGPT ad format: click to chat, not to site",
-        "OpenAI 亲自教你，如何用好 GPT-6 Astra",
-        "YouTuber Markiplier's movie made over $50 million. Here's his advice for creators looking to level up."
+        "OpenAI 关停史上最快模型 GPT-5.3-Codex-Spark：从发布到下线只活了 7 个月",
+        "Perplexity trusts GPT-6 Astra with end-to-end systems",
+        "OpenAI’s next ChatGPT ad format: click to chat, not to site"
       ],
       "source_urls": [
-        "https://digiday.com/marketing/openais-next-chatgpt-ad-format-click-to-chat-not-to-site",
-        "https://waytoagi.feishu.cn/wiki/QzLawwHeBisiXbkVeXDcd9WMn0e?from=from_copylink",
-        "https://www.businessinsider.com/markiplier-advice-youtuber-dont-need-hollywood-creator-help-level-up-2026-9"
+        "https://www.aibase.com/news/31021",
+        "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+        "https://digiday.com/marketing/openais-next-chatgpt-ad-format-click-to-chat-not-to-site"
       ],
       "urgency": "medium",
       "viral_potential": "medium",
@@ -345,12 +213,137 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "ChatGPT广告新玩法：如何用点击即聊模式提升转化率？",
-          "summary": "教营销人员如何利用ChatGPT的聊天广告模式进行引流和转化。",
+          "hook": "GPT-5.3-Codex-Spark下线了，你的工作流该怎么办？迁移指南来了",
+          "summary": "教用户如何从被关停的模型迁移到新模型，包括API切换、提示词调整和成本对比。",
           "key_points": [
-            "了解ChatGPT广告的运作机制和投放方式",
-            "设计聊天式广告脚本，引导用户互动",
-            "结合商标注册服务，用聊天广告精准获客"
+            "评估当前依赖GPT-5.3-Codex-Spark的工作流",
+            "迁移到GPT-6 Astra或其他模型的步骤",
+            "调整提示词以适配新模型特性"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "OpenAI关停模型，你的业务受影响了吗？这3个避坑策略请收好",
+          "summary": "提醒用户避免过度依赖单一AI模型，提供模型切换的应急方案。",
+          "pitfalls": [
+            "不要将所有业务绑定在单一模型上",
+            "定期备份提示词和配置，方便快速迁移",
+            "关注模型生命周期，提前规划替代方案"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "从GPT-5.3关停看AI行业的“快消品”逻辑：模型迭代背后的商业考量",
+          "summary": "分析OpenAI快速迭代和关停模型背后的商业策略，以及对用户的影响。",
+          "insights": [
+            "模型迭代速度加快，用户面临“升级疲劳”",
+            "OpenAI的商业策略：用新模型吸引用户，淘汰旧模型降低成本",
+            "对开发者和企业的启示：建立模型无关的架构"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "AI玩具引发儿童反感？家长必知的AI产品避坑指南",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "家长、AI初学者、关注AI伦理的个人",
+      "reason": "AI玩具的负面研究引发关注，结合用户能做的AIGC剧情向内容，可制作趣味视频引流。",
+      "source_items": [
+        "A New Study Let Kids Play With AI-Powered Toys. By Stage 3, They Wanted to Throw Them in the Ocean"
+      ],
+      "source_urls": [
+        "https://www.inc.com/bill-murphy-jr/a-new-study-let-kids-play-with-ai-powered-toys-by-stage-3-they-wanted-to-throw-them-in-the-ocean/91404771"
+      ],
+      "urgency": "low",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "AI玩具怎么选？这份家长选购指南请收好",
+          "summary": "教家长如何挑选适合孩子的AI玩具，包括功能评估、安全性和教育价值。",
+          "key_points": [
+            "了解AI玩具的类型和功能",
+            "评估孩子的年龄和兴趣匹配度",
+            "关注隐私安全和内容质量"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "孩子玩AI玩具3个阶段后想扔掉？家长必看的避坑指南",
+          "summary": "揭示AI玩具的常见问题，如交互体验差、内容单一、隐私风险。",
+          "pitfalls": [
+            "AI玩具交互不自然，孩子容易失去兴趣",
+            "内容更新慢，缺乏长期吸引力",
+            "隐私泄露风险，家长需谨慎选择品牌"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "视频",
+          "hook": "AI玩具为何让孩子“想扔掉”？背后是AI伦理与儿童发展的冲突",
+          "summary": "分析AI玩具在儿童发展中的利弊，探讨AI伦理和产品设计问题。",
+          "insights": [
+            "AI玩具的“拟人化”可能影响儿童社交能力",
+            "产品设计缺乏对儿童心理的深入研究",
+            "AI伦理在儿童产品中的重要性"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "45分钟"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "AI视频创作新趋势：从AI电影节看独立创作者的机遇",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "AI视频创作者、想用AI做内容变现的个人",
+      "reason": "AI电影节和视觉AI工作流是AI视频赛道的新热点，用户擅长视频剪辑，可结合实操分享。",
+      "source_items": [
+        "Dasein EMERGENCE - Ai Film Festival",
+        "Sept 22 - FiftyOne Agent: Automate Visual AI Workflows with Natural Language",
+        "SF AI Artists September Show, Critique, & Promote"
+      ],
+      "source_urls": [
+        "https://www.meetup.com/dasein-creative-circle/events/315984292",
+        "https://www.meetup.com/vancouver-ai-machine-learning-and-computer-vision-meetup/events/316064255",
+        "https://www.meetup.com/new-york-ai-machine-learning-data-science/events/316064309",
+        "https://www.meetup.com/bay-area-ai-artists/events/316379184"
+      ],
+      "urgency": "low",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "视频",
+          "hook": "用AI做电影？从0到1教你制作一部AI短片（附工具清单）",
+          "summary": "教用户如何利用AI工具制作短片，包括脚本生成、画面生成、剪辑包装。",
+          "key_points": [
+            "用ChatGPT生成剧本和分镜脚本",
+            "用Midjourney生成关键帧画面",
+            "用剪映Pro进行剪辑和配音"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -359,26 +352,26 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "ChatGPT广告别乱投！这5个坑让你的预算打水漂",
-          "summary": "提醒广告主注意ChatGPT广告的潜在风险和误区。",
+          "hook": "AI视频创作常见的5个坑，新手必看！",
+          "summary": "指出AI视频创作中的常见问题，如版权风险、风格一致性、技术限制。",
           "pitfalls": [
-            "广告内容过于生硬，用户反感导致低点击率",
-            "忽略聊天广告的语境，导致品牌形象受损",
-            "未设置有效的转化跟踪，无法评估ROI"
+            "AI生成内容的版权归属不明确",
+            "画面风格不一致，需要多次调整",
+            "过度依赖AI导致作品缺乏创意"
           ],
           "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "点击即聊：ChatGPT广告如何重塑数字营销？",
-          "summary": "分析ChatGPT广告模式对营销行业的影响和未来趋势。",
+          "hook": "AI电影节兴起：AI视频创作将如何改变影视行业？",
+          "summary": "分析AI视频创作对独立电影人和影视行业的潜在影响。",
           "insights": [
-            "广告从展示转向对话，用户参与度更高",
-            "AI驱动的个性化广告将成主流，但隐私问题待解",
-            "对中小企业而言，聊天广告可能成为低成本获客新渠道"
+            "AI降低电影制作门槛，独立创作者迎来春天",
+            "AI生成内容的质量和创意边界",
+            "传统影视行业的应对策略"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -387,20 +380,16 @@
     },
     {
       "rank": 7,
-      "title": "Markiplier 电影赚5000万美元！创作者如何复制他的成功？",
-      "track": "creator_economy",
-      "track_name": "自媒体/创作者经济",
-      "target_audience": "自媒体创作者、内容创业者、副业人群",
-      "reason": "创作者经济热点，用户运营自媒体，且内容有励志和实操价值。",
+      "title": "AI时代商标保护新挑战：你的AI产品名称可能被抢注",
+      "track": "trademark",
+      "track_name": "商标/IP/创业",
+      "target_audience": "小微企业主、AI创业者、需要商标注册服务的个人",
+      "reason": "结合AI赛道与商标代理业务，为AI创业者提供商标保护建议，引流精准客户。",
       "source_items": [
-        "YouTuber Markiplier's movie made over $50 million. Here's his advice for creators looking to level up.",
-        "YouTube report examines mainstream culture",
-        "Show HN: Analyst Index – analysts who make money telling you good stock calls"
+        "Exclusive: ABG IP bets on regional innovation hubs with fifth Spain office"
       ],
       "source_urls": [
-        "https://www.businessinsider.com/markiplier-advice-youtuber-dont-need-hollywood-creator-help-level-up-2026-9",
-        "https://www.socialmediatoday.com/news/youtube-report-examines-mainstream-culture/830235",
-        "https://www.analystidx.com"
+        "https://www.managingip.com/article/2gvr3ls5lnusnsp81ou80/patents/exclusive-abg-ip-bets-on-regional-innovation-hubs-with-fifth-spain-office"
       ],
       "urgency": "medium",
       "viral_potential": "medium",
@@ -409,40 +398,40 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "从YouTuber到电影导演：Markiplier的成功路径拆解",
-          "summary": "分析Markiplier的成功经验，提炼可复制的创作者成长策略。",
+          "hook": "AI产品起名后，如何快速注册商标？3步搞定",
+          "summary": "教AI创业者如何为产品注册商标，包括查询、申请、维护。",
           "key_points": [
-            "Markiplier如何从游戏主播转型为电影制作人",
-            "利用粉丝基础进行众筹和推广的实操方法",
-            "创作者如何拓展收入来源，避免单一依赖平台"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "45分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "别盲目学Markiplier！这5个坑让你血本无归",
-          "summary": "提醒创作者不要盲目模仿成功案例，避免常见误区。",
-          "pitfalls": [
-            "忽视自身粉丝基础，贸然跨界导致失败",
-            "低估内容制作的成本和时间投入",
-            "没有明确的变现模式，靠情怀难以持续"
+            "商标查询：避免与现有商标冲突",
+            "申请流程：选择类别和提交材料",
+            "维护策略：监控侵权和续展"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
         },
         {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI创业公司商标注册的5个坑，别让你的品牌裸奔",
+          "summary": "提醒AI创业者注意商标注册的常见陷阱，如类别选择错误、被抢注风险。",
+          "pitfalls": [
+            "商标类别选择不当，保护范围不足",
+            "未及时注册，被竞争对手抢注",
+            "忽略国际商标保护，出海受阻"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "创作者经济2.0：Markiplier的成功预示着什么？",
-          "summary": "分析创作者经济的演变趋势和未来机会。",
+          "hook": "AI时代的知识产权博弈：商标抢注、专利战与开源困境",
+          "summary": "分析AI行业的知识产权热点问题，以及创业者如何应对。",
           "insights": [
-            "创作者正从平台依赖转向多元化IP开发",
-            "粉丝经济的力量正在重塑娱乐产业",
-            "AI工具为创作者提供了新的生产力和变现可能"
+            "AI技术快速迭代导致商标抢注现象频发",
+            "开源与专利保护的平衡",
+            "知识产权布局成为AI创业的核心竞争力"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -451,62 +440,60 @@
     },
     {
       "rank": 8,
-      "title": "AI Agent 安全危机：RubyGems 攻击事件揭示的供应链风险",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI开发者、技术爱好者、企业IT决策者",
-      "reason": "AI Agent安全事件是热点，用户关注Agent实践，且内容有警示价值。",
+      "title": "YouTube创作者年入5000万？Markiplier的逆袭给自媒体人的启示",
+      "track": "creator_economy",
+      "track_name": "自媒体/创作者经济",
+      "target_audience": "自媒体创作者、想通过内容变现的个人",
+      "reason": "Markiplier的成功案例对自媒体人有激励作用，结合用户的自媒体运营经验，可输出深度分析。",
       "source_items": [
-        "Malicious OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers in May",
-        "智能体跑长任务为何\"失忆跑题\"：AWS、Claude Code、Manus 们用四套框架机制给出答案",
-        "Building Production-Ready AI: Agentic Systems, RAG & Responsible AI"
+        "YouTuber Markiplier's movie made over $50 million. Here's his advice for creators looking to level up.",
+        "YouTube report examines mainstream culture"
       ],
       "source_urls": [
-        "https://slashdot.org/story/26/09/12/2318204/malicious-openai-agents-linked-to-rubygems-campaign-that-gained-rce-on-rubydoc-servers-in-may",
-        "https://www.aibase.com/news/31020",
-        "https://www.meetup.com/pydata_seattle/events/316322058"
+        "https://www.businessinsider.com/markiplier-advice-youtuber-dont-need-hollywood-creator-help-level-up-2026-9",
+        "https://www.socialmediatoday.com/news/youtube-report-examines-mainstream-culture/830235"
       ],
-      "urgency": "high",
+      "urgency": "low",
       "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "AI Agent安全加固：从RubyGems攻击中学习防御技巧",
-          "summary": "教开发者如何保护AI Agent免受供应链攻击。",
+          "hook": "从YouTuber到电影制作人：Markiplier的5个可复制经验",
+          "summary": "总结Markiplier的成功经验，教自媒体人如何拓展内容形式和变现渠道。",
           "key_points": [
-            "了解AI Agent供应链攻击的常见方式",
-            "使用依赖扫描工具检测恶意包",
-            "实施最小权限原则，限制Agent的操作范围"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "你的AI Agent可能被劫持？这5个安全漏洞必须修复",
-          "summary": "提醒开发者注意AI Agent的安全漏洞，提供修复建议。",
-          "pitfalls": [
-            "未验证第三方库的完整性，引入恶意代码",
-            "Agent权限过大，被攻击后造成严重破坏",
-            "缺乏日志监控，无法及时发现异常行为"
+            "建立个人IP，打造独特人设",
+            "跨平台内容分发策略",
+            "从线上到线下的变现路径"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
         },
         {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "自媒体人别学Markiplier？这3个坑你必须知道",
+          "summary": "提醒自媒体人不要盲目模仿成功案例，避免陷入内容同质化和过度商业化。",
+          "pitfalls": [
+            "盲目追求大制作，忽视内容质量",
+            "过度商业化导致粉丝流失",
+            "忽视平台算法变化，流量下滑"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI Agent安全：从RubyGems事件看供应链攻击的新趋势",
-          "summary": "分析AI Agent供应链攻击的威胁和应对策略。",
+          "hook": "从YouTube到好莱坞：创作者经济的下一站",
+          "summary": "分析创作者经济的演变趋势，以及自媒体人如何抓住机会。",
           "insights": [
-            "AI Agent的自主性使其成为攻击者的理想目标",
-            "供应链攻击正从传统软件向AI生态蔓延",
-            "企业需要建立AI安全治理框架，涵盖开发到部署全流程"
+            "创作者经济从流量变现转向IP价值变现",
+            "平台与创作者的关系正在重塑",
+            "AI工具对创作者经济的赋能与冲击"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -515,20 +502,21 @@
     }
   ],
   "weekly_plan": {
-    "monday": "DeepSeek Code 2.0 传闻炸场：3万亿参数如何改变AI编程格局？",
-    "wednesday": "智能体跑长任务总翻车？AWS、Claude Code、Manus 的四套解决方案全解析",
-    "friday": "Grok Bot 实操指南：闲鱼上架、小红书做图、短视频制作一网打尽",
-    "strategy": "本周以AI技术热点和实操内容为主，穿插副业变现案例，保持高更新频率，利用冲突性选题吸引流量。"
+    "monday": "DeepSeek 3万亿参数新模型将至，AI初学者如何提前布局？",
+    "wednesday": "智能体跑长任务总翻车？四套框架帮你解决“失忆跑题”",
+    "friday": "Grok Bot 实战：从闲鱼到小红书，一个AI助手搞定副业全流程",
+    "strategy": "本周主打AI热点+实操教程，兼顾副业变现和商标引流，保持日更节奏。"
   },
-  "insights": "今日信息流显示AI模型快速迭代和智能体安全成为焦点，DeepSeek与OpenAI的竞争加剧，创作者可抓住热点输出对比和实操内容。",
-  "ai_adjustment": "根据用户反馈，优先推荐了DeepSeek和智能体相关选题，并增加了副业变现内容，避开了偏硬件和纯理论选题。",
-  "generated_at": "2026-09-14T12:09:44.544931+08:00",
-  "total_items": 345,
-  "scored_items": 284,
+  "insights": "今日信息流聚焦DeepSeek新模型、智能体长任务处理和OpenAI模型迭代，AI技术热点密集，适合结合实操和避坑内容快速产出。",
+  "ai_adjustment": "基于用户历史反馈，优先推荐DeepSeek和智能体相关选题，避免硬件内容，增加副业变现和商标引流角度。",
+  "generated_at": "2026-09-14T17:10:05.739409+08:00",
+  "total_items": 381,
+  "scored_items": 316,
   "tracks_summary": {
-    "ai_tech": 275,
-    "ai_video": 6,
+    "ai_tech": 305,
+    "ai_video": 7,
     "creator_economy": 2,
+    "trademark_business": 1,
     "growth_monetize": 1
   },
   "engine_version": "v2",

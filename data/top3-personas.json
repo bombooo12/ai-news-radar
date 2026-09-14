@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T04:08:50.076730Z",
+  "generated_at": "2026-09-14T09:09:10.489175Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,10 +17,50 @@
   ],
   "items": [
     {
+      "story_id": "story_3a1702cd4763",
+      "title": "DeepSeek-V4.1-Flash上线千问AI平台，API与Token Plan同步开放",
+      "url": "https://www.aibase.com/news/31028",
+      "rank": 1,
+      "reviews": {
+        "cynic": {
+          "score": 75,
+          "review": "模型上架和API开放是实打实的，但‘Flash’这名号听着像提速版，具体快多少没提。"
+        },
+        "paper-police": {
+          "score": 15,
+          "review": "仅有平台上线新闻，无论文、代码或公开评测数据佐证性能。"
+        },
+        "pragmatic": {
+          "score": 88,
+          "review": "新模型API已开放，今天就能接入测试，影响选型决策。"
+        }
+      }
+    },
+    {
+      "story_id": "story_b01914df6cf3",
+      "title": "OpenAI 推出 Agents API：把 Codex 拆成云端服务，\"造 Agent\" 变成一次 API 调用",
+      "url": "https://www.aibase.com/news/31025",
+      "rank": 2,
+      "reviews": {
+        "cynic": {
+          "score": 70,
+          "review": "把现有能力打包成新API，方便是真方便，但离‘造Agent’还差得远。"
+        },
+        "paper-police": {
+          "score": 15,
+          "review": "仅有媒体报道，未见官方论文、代码或可复现的评测报告。"
+        },
+        "pragmatic": {
+          "score": 88,
+          "review": "API已上线，可直接调用云端能力快速构建智能体，降低开发门槛。"
+        }
+      }
+    },
+    {
       "story_id": "story_86ff3d2b9b70",
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "rank": 1,
+      "rank": 3,
       "reviews": {
         "cynic": {
           "score": 65,
@@ -33,46 +73,6 @@
         "pragmatic": {
           "score": 85,
           "review": "GPT-6 Astra已开放给Perplexity使用，其端到端系统能力可供集成参考。"
-        }
-      }
-    },
-    {
-      "story_id": "story_55918f87707d",
-      "title": "​月之暗面王牌主力模型K2.8Preview全量上线，性能直逼旗舰K3",
-      "url": "https://www.aibase.com/news/31016",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 45,
-          "review": "自家‘王牌’只敢跟自家‘旗舰’比，这‘直逼’的水分够开船了。"
-        },
-        "paper-police": {
-          "score": 15,
-          "review": "仅有新闻通稿宣称性能，无论文、代码或公开评测报告佐证。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "主力模型全量上线，今天就能申请或调用，性能对标旗舰版。"
-        }
-      }
-    },
-    {
-      "story_id": "story_d8481b3089e2",
-      "title": "微软扩展 Copilot 模型库:SpaceXAI Grok 正式上线 Word、Excel 与 PowerPoint",
-      "url": "https://www.aibase.com/news/31013",
-      "rank": 3,
-      "reviews": {
-        "cynic": {
-          "score": 65,
-          "review": "不过是给应用商店加了款新模型，就敢叫‘扩展模型库’？微软的文案组真省事。"
-        },
-        "paper-police": {
-          "score": 15,
-          "review": "仅为行业动态报道，未见论文、代码或可复现的评测数据。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "Grok模型已集成进Office，今天就能在Word/PPT里直接调用。"
         }
       }
     }
