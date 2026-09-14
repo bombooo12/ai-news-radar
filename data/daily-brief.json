@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T09:06:45.668365Z",
+  "generated_at": "2026-09-14T15:07:58.761562Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -48,15 +48,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8378,
-      "importance": 0.8378,
-      "importance_score": 0.8378,
+      "score": 0.8247,
+      "importance": 0.8247,
+      "importance_score": 0.8247,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8767,
+        "recency": 0.8037,
         "story_heat": 0.0
       },
       "category": "official",
@@ -78,128 +78,385 @@
         "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "GPT-6 Astra已开放给Perplexity使用，其端到端系统能力可供集成参考。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-14T09:07:56.380335Z"
       }
     },
     {
-      "story_id": "story_7e7a8cf3aa37",
-      "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件 / Houthis Used Claude Code to Develop Missile Guidance Software： Anthropic",
-      "url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
-      "primary_url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
-      "source": "Hacker News：AI 热帖",
-      "source_name": "AI HOT",
+      "story_id": "story_d3bf2f654fce",
+      "title": "GPT-6 Astra展现恐怖统治力：模拟售货机一年狂揽1.5万美元，成绩碾压Claude近3倍",
+      "url": "https://www.aibase.com/news/31035",
+      "primary_url": "https://www.aibase.com/news/31035",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "233ba3a473d4d2792fa6ebaf00eff4c46865c136",
-          "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件 / Houthis Used Claude Code to Develop Missile Guidance Software： Anthropic",
-          "title_zh": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
-          "title_en": "Houthis Used Claude Code to Develop Missile Guidance Software： Anthropic",
-          "title_original": "Houthis Used Claude Code to Develop Missile Guidance Software： Anthropic",
-          "summary": "Anthropic 9 月威胁报告披露，据评估极可能关联胡塞组织的也门小组使用 Claude Code 开发制导火箭、射程超 2，000 公里弹道导弹及名为 R2000 的高超声速滑翔载具概念的相关软件。",
-          "recommend_reason_zh": null,
-          "url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
-          "source": "Hacker News：AI 热帖",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-13T14:15:40Z"
-        },
-        {
-          "id": "f4225f36746e9b8dc3591016dc656bc51bd60f48",
-          "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件 / Houthis Used Claude Code to Develop Missile Guidance Software: Anthropic",
-          "title_zh": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
-          "title_en": "Houthis Used Claude Code to Develop Missile Guidance Software: Anthropic",
-          "title_original": "Houthis Used Claude Code to Develop Missile Guidance Software: Anthropic",
+          "id": "345c5cfafa8636c607e133d25ccbf5214eed7133",
+          "title": "GPT-6 Astra展现恐怖统治力：模拟售货机一年狂揽1.5万美元，成绩碾压Claude近3倍",
+          "title_zh": "GPT-6 Astra展现恐怖统治力：模拟售货机一年狂揽1.5万美元，成绩碾压Claude近3倍",
+          "title_en": null,
+          "title_original": "GPT-6 Astra展现恐怖统治力：模拟售货机一年狂揽1.5万美元，成绩碾压Claude近3倍",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-13T14:15:40Z"
+          "url": "https://www.aibase.com/news/31035",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-14T15:07:58.761562Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "Hacker News (黑客新闻)",
-        "Hacker News：AI 热帖"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "233ba3a473d4d2792fa6ebaf00eff4c46865c136",
-          "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件 / Houthis Used Claude Code to Develop Missile Guidance Software： Anthropic",
-          "title_zh": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
-          "title_en": "Houthis Used Claude Code to Develop Missile Guidance Software： Anthropic",
-          "title_original": "Houthis Used Claude Code to Develop Missile Guidance Software： Anthropic",
-          "summary": "Anthropic 9 月威胁报告披露，据评估极可能关联胡塞组织的也门小组使用 Claude Code 开发制导火箭、射程超 2，000 公里弹道导弹及名为 R2000 的高超声速滑翔载具概念的相关软件。",
-          "recommend_reason_zh": null,
-          "url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
-          "source": "Hacker News：AI 热帖",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-13T14:15:40Z"
-        },
-        {
-          "id": "f4225f36746e9b8dc3591016dc656bc51bd60f48",
-          "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件 / Houthis Used Claude Code to Develop Missile Guidance Software: Anthropic",
-          "title_zh": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
-          "title_en": "Houthis Used Claude Code to Develop Missile Guidance Software: Anthropic",
-          "title_original": "Houthis Used Claude Code to Develop Missile Guidance Software: Anthropic",
+          "id": "345c5cfafa8636c607e133d25ccbf5214eed7133",
+          "title": "GPT-6 Astra展现恐怖统治力：模拟售货机一年狂揽1.5万美元，成绩碾压Claude近3倍",
+          "title_zh": "GPT-6 Astra展现恐怖统治力：模拟售货机一年狂揽1.5万美元，成绩碾压Claude近3倍",
+          "title_en": null,
+          "title_original": "GPT-6 Astra展现恐怖统治力：模拟售货机一年狂揽1.5万美元，成绩碾压Claude近3倍",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-13T14:15:40Z"
+          "url": "https://www.aibase.com/news/31035",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-14T15:07:58.761562Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7887,
-      "importance": 0.7887,
-      "importance_score": 0.7887,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.85,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7617,
-        "story_heat": 0.25
+        "recency": 1.0,
+        "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-13T14:15:40Z",
-      "latest_at": "2026-09-13T14:15:40Z",
+      "earliest_at": "2026-09-14T15:07:58.761562Z",
+      "latest_at": "2026-09-14T15:07:58.761562Z",
       "primary_item": {
-        "id": "233ba3a473d4d2792fa6ebaf00eff4c46865c136",
-        "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件 / Houthis Used Claude Code to Develop Missile Guidance Software： Anthropic",
-        "title_zh": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
-        "title_en": "Houthis Used Claude Code to Develop Missile Guidance Software： Anthropic",
-        "title_original": "Houthis Used Claude Code to Develop Missile Guidance Software： Anthropic",
-        "summary": "Anthropic 9 月威胁报告披露，据评估极可能关联胡塞组织的也门小组使用 Claude Code 开发制导火箭、射程超 2，000 公里弹道导弹及名为 R2000 的高超声速滑翔载具概念的相关软件。",
+        "id": "345c5cfafa8636c607e133d25ccbf5214eed7133",
+        "title": "GPT-6 Astra展现恐怖统治力：模拟售货机一年狂揽1.5万美元，成绩碾压Claude近3倍",
+        "title_zh": "GPT-6 Astra展现恐怖统治力：模拟售货机一年狂揽1.5万美元，成绩碾压Claude近3倍",
+        "title_en": null,
+        "title_original": "GPT-6 Astra展现恐怖统治力：模拟售货机一年狂揽1.5万美元，成绩碾压Claude近3倍",
+        "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
-        "source": "Hacker News：AI 热帖",
-        "source_name": "AI HOT"
+        "url": "https://www.aibase.com/news/31035",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_2268a781ebb4",
+      "title": "小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496383&idx=1&sn=2db8607f797615a3647d9fec7e54f448",
+      "primary_url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496383&idx=1&sn=2db8607f797615a3647d9fec7e54f448",
+      "source": "公众号：小红书技术（dots.llm）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "add1184de4e05e7931adf227851a985e2925cc49",
+          "title": "小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先",
+          "title_zh": "小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先",
+          "title_en": null,
+          "title_original": "小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先",
+          "summary": "小红书 AllSpark 团队发布并开源 Search Agent 模型 Iris，权重和评测代码已公开，数据与训练配方将陆续公布。",
+          "recommend_reason_zh": null,
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496383&idx=1&sn=2db8607f797615a3647d9fec7e54f448",
+          "source": "公众号：小红书技术（dots.llm）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-14T09:59:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：小红书技术（dots.llm）"
+      ],
+      "items": [
+        {
+          "id": "add1184de4e05e7931adf227851a985e2925cc49",
+          "title": "小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先",
+          "title_zh": "小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先",
+          "title_en": null,
+          "title_original": "小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先",
+          "summary": "小红书 AllSpark 团队发布并开源 Search Agent 模型 Iris，权重和评测代码已公开，数据与训练配方将陆续公布。",
+          "recommend_reason_zh": null,
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496383&idx=1&sn=2db8607f797615a3647d9fec7e54f448",
+          "source": "公众号：小红书技术（dots.llm）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-14T09:59:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7427,
+      "importance": 0.7427,
+      "importance_score": 0.7427,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.68,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9283,
+        "story_heat": 0.0
       },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "提醒开发者注意AI代码生成的安全合规风险，但无具体工具或方案。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-14T09:07:56.380335Z"
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-09-14T09:59:00Z",
+      "latest_at": "2026-09-14T09:59:00Z",
+      "primary_item": {
+        "id": "add1184de4e05e7931adf227851a985e2925cc49",
+        "title": "小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先",
+        "title_zh": "小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先",
+        "title_en": null,
+        "title_original": "小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先",
+        "summary": "小红书 AllSpark 团队发布并开源 Search Agent 模型 Iris，权重和评测代码已公开，数据与训练配方将陆续公布。",
+        "recommend_reason_zh": null,
+        "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496383&idx=1&sn=2db8607f797615a3647d9fec7e54f448",
+        "source": "公众号：小红书技术（dots.llm）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_906bc814a899",
+      "title": "WorkBuddy 升级 PPT 能力:一句话生成可上台版，原文件可续改",
+      "url": "https://www.aibase.com/news/31036",
+      "primary_url": "https://www.aibase.com/news/31036",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "4ec9865629999878aa081ea717c64b628ce9c445",
+          "title": "WorkBuddy 升级 PPT 能力:一句话生成可上台版，原文件可续改",
+          "title_zh": "WorkBuddy 升级 PPT 能力:一句话生成可上台版，原文件可续改",
+          "title_en": null,
+          "title_original": "WorkBuddy 升级 PPT 能力:一句话生成可上台版，原文件可续改",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31036",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-14T15:07:58.761562Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "4ec9865629999878aa081ea717c64b628ce9c445",
+          "title": "WorkBuddy 升级 PPT 能力:一句话生成可上台版，原文件可续改",
+          "title_zh": "WorkBuddy 升级 PPT 能力:一句话生成可上台版，原文件可续改",
+          "title_en": null,
+          "title_original": "WorkBuddy 升级 PPT 能力:一句话生成可上台版，原文件可续改",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31036",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-14T15:07:58.761562Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-14T15:07:58.761562Z",
+      "latest_at": "2026-09-14T15:07:58.761562Z",
+      "primary_item": {
+        "id": "4ec9865629999878aa081ea717c64b628ce9c445",
+        "title": "WorkBuddy 升级 PPT 能力:一句话生成可上台版，原文件可续改",
+        "title_zh": "WorkBuddy 升级 PPT 能力:一句话生成可上台版，原文件可续改",
+        "title_en": null,
+        "title_original": "WorkBuddy 升级 PPT 能力:一句话生成可上台版，原文件可续改",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/31036",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_d4545e7d3db9",
+      "title": "YC 总裁反对封杀蒸馏：与其禁，不如让开源实验室走“正门”合法获取能力",
+      "url": "https://www.aibase.com/news/31037",
+      "primary_url": "https://www.aibase.com/news/31037",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "fd8aa902d1168231ed3252fcada6912a59d70915",
+          "title": "YC 总裁反对封杀蒸馏：与其禁，不如让开源实验室走“正门”合法获取能力",
+          "title_zh": "YC 总裁反对封杀蒸馏：与其禁，不如让开源实验室走“正门”合法获取能力",
+          "title_en": null,
+          "title_original": "YC 总裁反对封杀蒸馏：与其禁，不如让开源实验室走“正门”合法获取能力",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31037",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-14T15:07:58.761562Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "fd8aa902d1168231ed3252fcada6912a59d70915",
+          "title": "YC 总裁反对封杀蒸馏：与其禁，不如让开源实验室走“正门”合法获取能力",
+          "title_zh": "YC 总裁反对封杀蒸馏：与其禁，不如让开源实验室走“正门”合法获取能力",
+          "title_en": null,
+          "title_original": "YC 总裁反对封杀蒸馏：与其禁，不如让开源实验室走“正门”合法获取能力",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31037",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-14T15:07:58.761562Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-14T15:07:58.761562Z",
+      "latest_at": "2026-09-14T15:07:58.761562Z",
+      "primary_item": {
+        "id": "fd8aa902d1168231ed3252fcada6912a59d70915",
+        "title": "YC 总裁反对封杀蒸馏：与其禁，不如让开源实验室走“正门”合法获取能力",
+        "title_zh": "YC 总裁反对封杀蒸馏：与其禁，不如让开源实验室走“正门”合法获取能力",
+        "title_en": null,
+        "title_original": "YC 总裁反对封杀蒸馏：与其禁，不如让开源实验室走“正门”合法获取能力",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/31037",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_bdb10c710254",
+      "title": "蓝虫具身发布模块化人形机器人“小白”，0. 98 万元起售",
+      "url": "https://www.aibase.com/news/31038",
+      "primary_url": "https://www.aibase.com/news/31038",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "2df63aaf65a7d3e448fe25dc9ed0abe5f070885c",
+          "title": "蓝虫具身发布模块化人形机器人“小白”，0. 98 万元起售",
+          "title_zh": "蓝虫具身发布模块化人形机器人“小白”，0. 98 万元起售",
+          "title_en": null,
+          "title_original": "蓝虫具身发布模块化人形机器人“小白”，0. 98 万元起售",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31038",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-14T15:07:58.761562Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "2df63aaf65a7d3e448fe25dc9ed0abe5f070885c",
+          "title": "蓝虫具身发布模块化人形机器人“小白”，0. 98 万元起售",
+          "title_zh": "蓝虫具身发布模块化人形机器人“小白”，0. 98 万元起售",
+          "title_en": null,
+          "title_original": "蓝虫具身发布模块化人形机器人“小白”，0. 98 万元起售",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31038",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-14T15:07:58.761562Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-14T15:07:58.761562Z",
+      "latest_at": "2026-09-14T15:07:58.761562Z",
+      "primary_item": {
+        "id": "2df63aaf65a7d3e448fe25dc9ed0abe5f070885c",
+        "title": "蓝虫具身发布模块化人形机器人“小白”，0. 98 万元起售",
+        "title_zh": "蓝虫具身发布模块化人形机器人“小白”，0. 98 万元起售",
+        "title_en": null,
+        "title_original": "蓝虫具身发布模块化人形机器人“小白”，0. 98 万元起售",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/31038",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -247,15 +504,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7526,
+      "importance": 0.7526,
+      "importance_score": 0.7526,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9167,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -276,14 +533,6 @@
         "url": "https://www.aibase.com/news/31029",
         "source": "AIbase",
         "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 25,
-      "persona_review": "行业领袖的公开表态，不影响你今天选哪个API或写哪行代码。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-14T09:07:56.380335Z"
       }
     },
     {
@@ -331,15 +580,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7526,
+      "importance": 0.7526,
+      "importance_score": 0.7526,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9167,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -360,14 +609,6 @@
         "url": "https://www.aibase.com/news/31028",
         "source": "AIbase",
         "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 88,
-      "persona_review": "新模型API已开放，今天就能接入测试，影响选型决策。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-14T09:07:56.380335Z"
       }
     },
     {
@@ -415,15 +656,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7526,
+      "importance": 0.7526,
+      "importance_score": 0.7526,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9167,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -444,14 +685,214 @@
         "url": "https://www.aibase.com/news/31030",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_d582dca2239a",
+      "title": "OpenArch——现代大型语言模型（LLM）架构的 PyTorch 实现",
+      "url": "https://github.com/anuj0456/OpenArch",
+      "primary_url": "https://github.com/anuj0456/OpenArch",
+      "source": "github.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "b02d988aa26fb7dee2636a5d83f3fb64d8dfee8c",
+          "title": "OpenArch——现代大型语言模型（LLM）架构的 PyTorch 实现",
+          "title_zh": "OpenArch——现代大型语言模型（LLM）架构的 PyTorch 实现",
+          "title_en": null,
+          "title_original": "OpenArch——现代大型语言模型（LLM）架构的 PyTorch 实现",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.com/anuj0456/OpenArch",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-14T14:58:59.070000Z"
+        },
+        {
+          "id": "dbe371efe824f7ecd6e4521b1878aff3b62724a8",
+          "title": "OpenArch——现代大型语言模型（LLM）架构的 PyTorch 实现 / OpenArch – PyTorch implementations of modern LLM architectures",
+          "title_zh": "OpenArch——现代大型语言模型（LLM）架构的 PyTorch 实现",
+          "title_en": "OpenArch – PyTorch implementations of modern LLM architectures",
+          "title_original": "OpenArch – PyTorch implementations of modern LLM architectures",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.com/anuj0456/OpenArch",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-14T07:55:19Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "github.com"
+      ],
+      "items": [
+        {
+          "id": "b02d988aa26fb7dee2636a5d83f3fb64d8dfee8c",
+          "title": "OpenArch——现代大型语言模型（LLM）架构的 PyTorch 实现",
+          "title_zh": "OpenArch——现代大型语言模型（LLM）架构的 PyTorch 实现",
+          "title_en": null,
+          "title_original": "OpenArch——现代大型语言模型（LLM）架构的 PyTorch 实现",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.com/anuj0456/OpenArch",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-14T14:58:59.070000Z"
+        },
+        {
+          "id": "dbe371efe824f7ecd6e4521b1878aff3b62724a8",
+          "title": "OpenArch——现代大型语言模型（LLM）架构的 PyTorch 实现 / OpenArch – PyTorch implementations of modern LLM architectures",
+          "title_zh": "OpenArch——现代大型语言模型（LLM）架构的 PyTorch 实现",
+          "title_en": "OpenArch – PyTorch implementations of modern LLM architectures",
+          "title_original": "OpenArch – PyTorch implementations of modern LLM architectures",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.com/anuj0456/OpenArch",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-14T07:55:19Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5454,
+      "importance": 0.5454,
+      "importance_score": 0.5454,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9978,
+        "story_heat": 0.25
       },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "音乐生成模型已开放API，今天就能接入项目试用。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-14T09:07:56.380335Z"
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-14T07:55:19Z",
+      "latest_at": "2026-09-14T14:58:59.070000Z",
+      "primary_item": {
+        "id": "b02d988aa26fb7dee2636a5d83f3fb64d8dfee8c",
+        "title": "OpenArch——现代大型语言模型（LLM）架构的 PyTorch 实现",
+        "title_zh": "OpenArch——现代大型语言模型（LLM）架构的 PyTorch 实现",
+        "title_en": null,
+        "title_original": "OpenArch——现代大型语言模型（LLM）架构的 PyTorch 实现",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://github.com/anuj0456/OpenArch",
+        "source": "github.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_d0c7c6be7a83",
+      "title": "代码显示，苹果的Siri人工智能可被Claude或ChatGPT取代",
+      "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude",
+      "primary_url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude",
+      "source": "www.macrumors.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "006e3387b4d75bc7eb9a02058cd2a9ee779f7b7d",
+          "title": "代码显示，苹果的Siri人工智能可被Claude或ChatGPT取代",
+          "title_zh": "代码显示，苹果的Siri人工智能可被Claude或ChatGPT取代",
+          "title_en": null,
+          "title_original": "代码显示，苹果的Siri人工智能可被Claude或ChatGPT取代",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude",
+          "source": "www.macrumors.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-14T14:10:25.991000Z"
+        },
+        {
+          "id": "8cdff480a309aacb2291a9080c4e1c6359c8124d",
+          "title": "代码显示，苹果的Siri人工智能可被Claude或ChatGPT取代 / Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
+          "title_zh": "代码显示，苹果的Siri人工智能可被Claude或ChatGPT取代",
+          "title_en": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
+          "title_original": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-14T12:01:32Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News",
+        "www.macrumors.com"
+      ],
+      "items": [
+        {
+          "id": "006e3387b4d75bc7eb9a02058cd2a9ee779f7b7d",
+          "title": "代码显示，苹果的Siri人工智能可被Claude或ChatGPT取代",
+          "title_zh": "代码显示，苹果的Siri人工智能可被Claude或ChatGPT取代",
+          "title_en": null,
+          "title_original": "代码显示，苹果的Siri人工智能可被Claude或ChatGPT取代",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude",
+          "source": "www.macrumors.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-14T14:10:25.991000Z"
+        },
+        {
+          "id": "8cdff480a309aacb2291a9080c4e1c6359c8124d",
+          "title": "代码显示，苹果的Siri人工智能可被Claude或ChatGPT取代 / Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
+          "title_zh": "代码显示，苹果的Siri人工智能可被Claude或ChatGPT取代",
+          "title_en": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
+          "title_original": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-14T12:01:32Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5433,
+      "importance": 0.5433,
+      "importance_score": 0.5433,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9862,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-14T12:01:32Z",
+      "latest_at": "2026-09-14T14:10:25.991000Z",
+      "primary_item": {
+        "id": "006e3387b4d75bc7eb9a02058cd2a9ee779f7b7d",
+        "title": "代码显示，苹果的Siri人工智能可被Claude或ChatGPT取代",
+        "title_zh": "代码显示，苹果的Siri人工智能可被Claude或ChatGPT取代",
+        "title_en": null,
+        "title_original": "代码显示，苹果的Siri人工智能可被Claude或ChatGPT取代",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude",
+        "source": "www.macrumors.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -499,15 +940,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7526,
+      "importance": 0.7526,
+      "importance_score": 0.7526,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9167,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -528,350 +969,6 @@
         "url": "https://www.aibase.com/news/31025",
         "source": "AIbase",
         "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 88,
-      "persona_review": "API已上线，可直接调用云端能力快速构建智能体，降低开发门槛。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-14T09:07:56.380335Z"
-      }
-    },
-    {
-      "story_id": "story_8d38aba00a88",
-      "title": "Suno发布v6音乐模型：联合华纳、BMG 共创，自然语言就能改歌、混音、采样",
-      "url": "https://www.aibase.com/news/31033",
-      "primary_url": "https://www.aibase.com/news/31033",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "e8f08078b8e71f8fa3fa222dc446dc661877bec9",
-          "title": "Suno发布v6音乐模型：联合华纳、BMG 共创，自然语言就能改歌、混音、采样",
-          "title_zh": "Suno发布v6音乐模型：联合华纳、BMG 共创，自然语言就能改歌、混音、采样",
-          "title_en": null,
-          "title_original": "Suno发布v6音乐模型：联合华纳、BMG 共创，自然语言就能改歌、混音、采样",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31033",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-14T09:06:45.668365Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "e8f08078b8e71f8fa3fa222dc446dc661877bec9",
-          "title": "Suno发布v6音乐模型：联合华纳、BMG 共创，自然语言就能改歌、混音、采样",
-          "title_zh": "Suno发布v6音乐模型：联合华纳、BMG 共创，自然语言就能改歌、混音、采样",
-          "title_en": null,
-          "title_original": "Suno发布v6音乐模型：联合华纳、BMG 共创，自然语言就能改歌、混音、采样",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31033",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-14T09:06:45.668365Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-14T09:06:45.668365Z",
-      "latest_at": "2026-09-14T09:06:45.668365Z",
-      "primary_item": {
-        "id": "e8f08078b8e71f8fa3fa222dc446dc661877bec9",
-        "title": "Suno发布v6音乐模型：联合华纳、BMG 共创，自然语言就能改歌、混音、采样",
-        "title_zh": "Suno发布v6音乐模型：联合华纳、BMG 共创，自然语言就能改歌、混音、采样",
-        "title_en": null,
-        "title_original": "Suno发布v6音乐模型：联合华纳、BMG 共创，自然语言就能改歌、混音、采样",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31033",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 75,
-      "persona_review": "新模型能直接用自然语言编辑音乐，做配乐或内容生成的可以试试。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-14T09:07:56.380335Z"
-      }
-    },
-    {
-      "story_id": "story_861de1dbfcce",
-      "title": "奥尔特曼支持给 AI“控速”：不是叫停技术进步，而是别让能力跑在对齐前面",
-      "url": "https://www.aibase.com/news/31031",
-      "primary_url": "https://www.aibase.com/news/31031",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "2dcaa2d42cf97ef03f03e70933aeb173371b16ee",
-          "title": "奥尔特曼支持给 AI“控速”：不是叫停技术进步，而是别让能力跑在对齐前面",
-          "title_zh": "奥尔特曼支持给 AI“控速”：不是叫停技术进步，而是别让能力跑在对齐前面",
-          "title_en": null,
-          "title_original": "奥尔特曼支持给 AI“控速”：不是叫停技术进步，而是别让能力跑在对齐前面",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31031",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-14T09:06:45.668365Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "2dcaa2d42cf97ef03f03e70933aeb173371b16ee",
-          "title": "奥尔特曼支持给 AI“控速”：不是叫停技术进步，而是别让能力跑在对齐前面",
-          "title_zh": "奥尔特曼支持给 AI“控速”：不是叫停技术进步，而是别让能力跑在对齐前面",
-          "title_en": null,
-          "title_original": "奥尔特曼支持给 AI“控速”：不是叫停技术进步，而是别让能力跑在对齐前面",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31031",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-14T09:06:45.668365Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-14T09:06:45.668365Z",
-      "latest_at": "2026-09-14T09:06:45.668365Z",
-      "primary_item": {
-        "id": "2dcaa2d42cf97ef03f03e70933aeb173371b16ee",
-        "title": "奥尔特曼支持给 AI“控速”：不是叫停技术进步，而是别让能力跑在对齐前面",
-        "title_zh": "奥尔特曼支持给 AI“控速”：不是叫停技术进步，而是别让能力跑在对齐前面",
-        "title_en": null,
-        "title_original": "奥尔特曼支持给 AI“控速”：不是叫停技术进步，而是别让能力跑在对齐前面",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31031",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 25,
-      "persona_review": "行业大佬的宏观表态，不影响你今天选模型或写代码。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-14T09:07:56.380335Z"
-      }
-    },
-    {
-      "story_id": "story_f36e94d1541f",
-      "title": "宇树人形机器人G1+发布:电机、视觉、交互与续航全面增强 标准版售价9.5万元",
-      "url": "https://www.aibase.com/news/31032",
-      "primary_url": "https://www.aibase.com/news/31032",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "b6a2cbb5ccebd54ad3152895f4163f9701ead5c8",
-          "title": "宇树人形机器人G1+发布:电机、视觉、交互与续航全面增强 标准版售价9.5万元",
-          "title_zh": "宇树人形机器人G1+发布:电机、视觉、交互与续航全面增强 标准版售价9.5万元",
-          "title_en": null,
-          "title_original": "宇树人形机器人G1+发布:电机、视觉、交互与续航全面增强 标准版售价9.5万元",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31032",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-14T09:06:45.668365Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "b6a2cbb5ccebd54ad3152895f4163f9701ead5c8",
-          "title": "宇树人形机器人G1+发布:电机、视觉、交互与续航全面增强 标准版售价9.5万元",
-          "title_zh": "宇树人形机器人G1+发布:电机、视觉、交互与续航全面增强 标准版售价9.5万元",
-          "title_en": null,
-          "title_original": "宇树人形机器人G1+发布:电机、视觉、交互与续航全面增强 标准版售价9.5万元",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31032",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-14T09:06:45.668365Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-14T09:06:45.668365Z",
-      "latest_at": "2026-09-14T09:06:45.668365Z",
-      "primary_item": {
-        "id": "b6a2cbb5ccebd54ad3152895f4163f9701ead5c8",
-        "title": "宇树人形机器人G1+发布:电机、视觉、交互与续航全面增强 标准版售价9.5万元",
-        "title_zh": "宇树人形机器人G1+发布:电机、视觉、交互与续航全面增强 标准版售价9.5万元",
-        "title_en": null,
-        "title_original": "宇树人形机器人G1+发布:电机、视觉、交互与续航全面增强 标准版售价9.5万元",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31032",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "特定硬件新品发布，与多数开发者日常开发无关。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-14T09:07:56.380335Z"
-      }
-    },
-    {
-      "story_id": "story_f1e6b95ca9c3",
-      "title": "爆料称 DeepSeek 下一波大模型将至：3 万亿参数，性能剑指 GPT-6 Astra",
-      "url": "https://www.aibase.com/news/31026",
-      "primary_url": "https://www.aibase.com/news/31026",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "bd07b217956dd8a67c767e0e3ec20a2fbea80989",
-          "title": "爆料称 DeepSeek 下一波大模型将至：3 万亿参数，性能剑指 GPT-6 Astra",
-          "title_zh": "爆料称 DeepSeek 下一波大模型将至：3 万亿参数，性能剑指 GPT-6 Astra",
-          "title_en": null,
-          "title_original": "爆料称 DeepSeek 下一波大模型将至：3 万亿参数，性能剑指 GPT-6 Astra",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31026",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-14T09:06:45.668365Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "bd07b217956dd8a67c767e0e3ec20a2fbea80989",
-          "title": "爆料称 DeepSeek 下一波大模型将至：3 万亿参数，性能剑指 GPT-6 Astra",
-          "title_zh": "爆料称 DeepSeek 下一波大模型将至：3 万亿参数，性能剑指 GPT-6 Astra",
-          "title_en": null,
-          "title_original": "爆料称 DeepSeek 下一波大模型将至：3 万亿参数，性能剑指 GPT-6 Astra",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31026",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-14T09:06:45.668365Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-14T09:06:45.668365Z",
-      "latest_at": "2026-09-14T09:06:45.668365Z",
-      "primary_item": {
-        "id": "bd07b217956dd8a67c767e0e3ec20a2fbea80989",
-        "title": "爆料称 DeepSeek 下一波大模型将至：3 万亿参数，性能剑指 GPT-6 Astra",
-        "title_zh": "爆料称 DeepSeek 下一波大模型将至：3 万亿参数，性能剑指 GPT-6 Astra",
-        "title_en": null,
-        "title_original": "爆料称 DeepSeek 下一波大模型将至：3 万亿参数，性能剑指 GPT-6 Astra",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31026",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 30,
-      "persona_review": "参数爆料无产品，等官方发布和API再说。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-14T09:07:56.380335Z"
       }
     },
     {
@@ -948,15 +1045,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.544,
-      "importance": 0.544,
-      "importance_score": 0.544,
+      "score": 0.5292,
+      "importance": 0.5292,
+      "importance_score": 0.5292,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9901,
+        "recency": 0.9076,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -976,33 +1073,25 @@
         "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
         "source": "www.interconnects.ai",
         "source_name": "Buzzing"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "一份书单，对解决手头技术问题没有直接帮助。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-14T09:07:56.380335Z"
       }
     },
     {
-      "story_id": "story_a7e839f33384",
-      "title": "百图生科牵手华大智造：联合构建专属细胞大模型，押注\"设备+模型+智能体\"一体化",
-      "url": "https://www.aibase.com/news/31027",
-      "primary_url": "https://www.aibase.com/news/31027",
+      "story_id": "story_8d38aba00a88",
+      "title": "Suno发布v6音乐模型：联合华纳、BMG 共创，自然语言就能改歌、混音、采样",
+      "url": "https://www.aibase.com/news/31033",
+      "primary_url": "https://www.aibase.com/news/31033",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "cf66c680557c818a9cf364882f4eb2714970b81b",
-          "title": "百图生科牵手华大智造：联合构建专属细胞大模型，押注\"设备+模型+智能体\"一体化",
-          "title_zh": "百图生科牵手华大智造：联合构建专属细胞大模型，押注\"设备+模型+智能体\"一体化",
+          "id": "e8f08078b8e71f8fa3fa222dc446dc661877bec9",
+          "title": "Suno发布v6音乐模型：联合华纳、BMG 共创，自然语言就能改歌、混音、采样",
+          "title_zh": "Suno发布v6音乐模型：联合华纳、BMG 共创，自然语言就能改歌、混音、采样",
           "title_en": null,
-          "title_original": "百图生科牵手华大智造：联合构建专属细胞大模型，押注\"设备+模型+智能体\"一体化",
+          "title_original": "Suno发布v6音乐模型：联合华纳、BMG 共创，自然语言就能改歌、混音、采样",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31027",
+          "url": "https://www.aibase.com/news/31033",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
@@ -1015,14 +1104,14 @@
       ],
       "items": [
         {
-          "id": "cf66c680557c818a9cf364882f4eb2714970b81b",
-          "title": "百图生科牵手华大智造：联合构建专属细胞大模型，押注\"设备+模型+智能体\"一体化",
-          "title_zh": "百图生科牵手华大智造：联合构建专属细胞大模型，押注\"设备+模型+智能体\"一体化",
+          "id": "e8f08078b8e71f8fa3fa222dc446dc661877bec9",
+          "title": "Suno发布v6音乐模型：联合华纳、BMG 共创，自然语言就能改歌、混音、采样",
+          "title_zh": "Suno发布v6音乐模型：联合华纳、BMG 共创，自然语言就能改歌、混音、采样",
           "title_en": null,
-          "title_original": "百图生科牵手华大智造：联合构建专属细胞大模型，押注\"设备+模型+智能体\"一体化",
+          "title_original": "Suno发布v6音乐模型：联合华纳、BMG 共创，自然语言就能改歌、混音、采样",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31027",
+          "url": "https://www.aibase.com/news/31033",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
@@ -1031,15 +1120,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7526,
+      "importance": 0.7526,
+      "importance_score": 0.7526,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9167,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1050,24 +1139,16 @@
       "earliest_at": "2026-09-14T09:06:45.668365Z",
       "latest_at": "2026-09-14T09:06:45.668365Z",
       "primary_item": {
-        "id": "cf66c680557c818a9cf364882f4eb2714970b81b",
-        "title": "百图生科牵手华大智造：联合构建专属细胞大模型，押注\"设备+模型+智能体\"一体化",
-        "title_zh": "百图生科牵手华大智造：联合构建专属细胞大模型，押注\"设备+模型+智能体\"一体化",
+        "id": "e8f08078b8e71f8fa3fa222dc446dc661877bec9",
+        "title": "Suno发布v6音乐模型：联合华纳、BMG 共创，自然语言就能改歌、混音、采样",
+        "title_zh": "Suno发布v6音乐模型：联合华纳、BMG 共创，自然语言就能改歌、混音、采样",
         "title_en": null,
-        "title_original": "百图生科牵手华大智造：联合构建专属细胞大模型，押注\"设备+模型+智能体\"一体化",
+        "title_original": "Suno发布v6音乐模型：联合华纳、BMG 共创，自然语言就能改歌、混音、采样",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31027",
+        "url": "https://www.aibase.com/news/31033",
         "source": "AIbase",
         "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "企业间合作框架协议，对普通开发者来说没有可用的产品或接口。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-14T09:07:56.380335Z"
       }
     },
     {
@@ -1144,15 +1225,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5239,
-      "importance": 0.5239,
-      "importance_score": 0.5239,
+      "score": 0.5107,
+      "importance": 0.5107,
+      "importance_score": 0.5107,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8782,
+        "recency": 0.8051,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1172,14 +1253,6 @@
         "url": "https://www.science.org/content/article/chilling-warning-or-overreaction-ai-bioweapons-report-divides-experts",
         "source": "Hacker News",
         "source_name": "TechURLs"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "专家争论风险，但没影响你今天的模型调用或安全策略。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-14T09:07:56.380335Z"
       }
     },
     {
@@ -1256,15 +1329,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5201,
-      "importance": 0.5201,
-      "importance_score": 0.5201,
+      "score": 0.5072,
+      "importance": 0.5072,
+      "importance_score": 0.5072,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.857,
+        "recency": 0.7856,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1284,14 +1357,6 @@
         "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
         "source": "www.vals.ai",
         "source_name": "Buzzing"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "学术趣味大于实用，了解模型推理能力上限的参考案例。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-14T09:07:56.380335Z"
       }
     },
     {
@@ -1368,15 +1433,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5121,
-      "importance": 0.5121,
-      "importance_score": 0.5121,
+      "score": 0.4999,
+      "importance": 0.4999,
+      "importance_score": 0.4999,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8127,
+        "recency": 0.7451,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1396,14 +1461,6 @@
         "url": "https://twitter.com/DavidSacks/status/2098973625252708460",
         "source": "twitter.com",
         "source_name": "Buzzing"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 10,
-      "persona_review": "投资人的个人观点，不影响你今天选模型或写代码。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-14T09:07:56.380335Z"
       }
     },
     {
@@ -1480,15 +1537,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5099,
-      "importance": 0.5099,
-      "importance_score": 0.5099,
+      "score": 0.4979,
+      "importance": 0.4979,
+      "importance_score": 0.4979,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8006,
+        "recency": 0.7339,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1508,37 +1565,29 @@
         "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too",
         "source": "techcrunch.com",
         "source_name": "Buzzing"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "行业呼吁，尚无具体工具或标准出台，开发者无需行动。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-14T09:07:56.380335Z"
       }
     },
     {
-      "story_id": "story_c751bec5886c",
-      "title": "Anthropic CEO呼吁全行业放缓 AI 发展，马斯克与奥特曼齐声赞同",
-      "url": "https://www.aibase.com/news/31008",
-      "primary_url": "https://www.aibase.com/news/31008",
+      "story_id": "story_861de1dbfcce",
+      "title": "奥尔特曼支持给 AI“控速”：不是叫停技术进步，而是别让能力跑在对齐前面",
+      "url": "https://www.aibase.com/news/31031",
+      "primary_url": "https://www.aibase.com/news/31031",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "fcaab7f4aab5fd8c9a99d7b8783b6ea2ab2a7e76",
-          "title": "Anthropic CEO呼吁全行业放缓 AI 发展，马斯克与奥特曼齐声赞同",
-          "title_zh": "Anthropic CEO呼吁全行业放缓 AI 发展，马斯克与奥特曼齐声赞同",
+          "id": "2dcaa2d42cf97ef03f03e70933aeb173371b16ee",
+          "title": "奥尔特曼支持给 AI“控速”：不是叫停技术进步，而是别让能力跑在对齐前面",
+          "title_zh": "奥尔特曼支持给 AI“控速”：不是叫停技术进步，而是别让能力跑在对齐前面",
           "title_en": null,
-          "title_original": "Anthropic CEO呼吁全行业放缓 AI 发展，马斯克与奥特曼齐声赞同",
+          "title_original": "奥尔特曼支持给 AI“控速”：不是叫停技术进步，而是别让能力跑在对齐前面",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31008",
+          "url": "https://www.aibase.com/news/31031",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-14T04:05:42.114025Z"
+          "published_at": "2026-09-14T09:06:45.668365Z"
         }
       ],
       "source_count": 1,
@@ -1547,31 +1596,31 @@
       ],
       "items": [
         {
-          "id": "fcaab7f4aab5fd8c9a99d7b8783b6ea2ab2a7e76",
-          "title": "Anthropic CEO呼吁全行业放缓 AI 发展，马斯克与奥特曼齐声赞同",
-          "title_zh": "Anthropic CEO呼吁全行业放缓 AI 发展，马斯克与奥特曼齐声赞同",
+          "id": "2dcaa2d42cf97ef03f03e70933aeb173371b16ee",
+          "title": "奥尔特曼支持给 AI“控速”：不是叫停技术进步，而是别让能力跑在对齐前面",
+          "title_zh": "奥尔特曼支持给 AI“控速”：不是叫停技术进步，而是别让能力跑在对齐前面",
           "title_en": null,
-          "title_original": "Anthropic CEO呼吁全行业放缓 AI 发展，马斯克与奥特曼齐声赞同",
+          "title_original": "奥尔特曼支持给 AI“控速”：不是叫停技术进步，而是别让能力跑在对齐前面",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31008",
+          "url": "https://www.aibase.com/news/31031",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-14T04:05:42.114025Z"
+          "published_at": "2026-09-14T09:06:45.668365Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.755,
-      "importance": 0.755,
-      "importance_score": 0.755,
+      "score": 0.7526,
+      "importance": 0.7526,
+      "importance_score": 0.7526,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9301,
+        "recency": 0.9167,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1579,50 +1628,42 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-14T04:05:42.114025Z",
-      "latest_at": "2026-09-14T04:05:42.114025Z",
+      "earliest_at": "2026-09-14T09:06:45.668365Z",
+      "latest_at": "2026-09-14T09:06:45.668365Z",
       "primary_item": {
-        "id": "fcaab7f4aab5fd8c9a99d7b8783b6ea2ab2a7e76",
-        "title": "Anthropic CEO呼吁全行业放缓 AI 发展，马斯克与奥特曼齐声赞同",
-        "title_zh": "Anthropic CEO呼吁全行业放缓 AI 发展，马斯克与奥特曼齐声赞同",
+        "id": "2dcaa2d42cf97ef03f03e70933aeb173371b16ee",
+        "title": "奥尔特曼支持给 AI“控速”：不是叫停技术进步，而是别让能力跑在对齐前面",
+        "title_zh": "奥尔特曼支持给 AI“控速”：不是叫停技术进步，而是别让能力跑在对齐前面",
         "title_en": null,
-        "title_original": "Anthropic CEO呼吁全行业放缓 AI 发展，马斯克与奥特曼齐声赞同",
+        "title_original": "奥尔特曼支持给 AI“控速”：不是叫停技术进步，而是别让能力跑在对齐前面",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31008",
+        "url": "https://www.aibase.com/news/31031",
         "source": "AIbase",
         "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 15,
-      "persona_review": "大佬们的宏观倡议，不影响你今天写代码和选型。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-14T09:07:56.380335Z"
       }
     },
     {
-      "story_id": "story_fcde66dea627",
-      "title": "Anthropic 牵手 Rum Group 签下 137 亿美元算力大单，背后是特朗普关联的社交老玩家",
-      "url": "https://www.aibase.com/news/31019",
-      "primary_url": "https://www.aibase.com/news/31019",
+      "story_id": "story_f36e94d1541f",
+      "title": "宇树人形机器人G1+发布:电机、视觉、交互与续航全面增强 标准版售价9.5万元",
+      "url": "https://www.aibase.com/news/31032",
+      "primary_url": "https://www.aibase.com/news/31032",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "2250cec3f8841cd321ff5e073a6989776485c372",
-          "title": "Anthropic 牵手 Rum Group 签下 137 亿美元算力大单，背后是特朗普关联的社交老玩家",
-          "title_zh": "Anthropic 牵手 Rum Group 签下 137 亿美元算力大单，背后是特朗普关联的社交老玩家",
+          "id": "b6a2cbb5ccebd54ad3152895f4163f9701ead5c8",
+          "title": "宇树人形机器人G1+发布:电机、视觉、交互与续航全面增强 标准版售价9.5万元",
+          "title_zh": "宇树人形机器人G1+发布:电机、视觉、交互与续航全面增强 标准版售价9.5万元",
           "title_en": null,
-          "title_original": "Anthropic 牵手 Rum Group 签下 137 亿美元算力大单，背后是特朗普关联的社交老玩家",
+          "title_original": "宇树人形机器人G1+发布:电机、视觉、交互与续航全面增强 标准版售价9.5万元",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31019",
+          "url": "https://www.aibase.com/news/31032",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-14T04:05:42.114025Z"
+          "published_at": "2026-09-14T09:06:45.668365Z"
         }
       ],
       "source_count": 1,
@@ -1631,31 +1672,31 @@
       ],
       "items": [
         {
-          "id": "2250cec3f8841cd321ff5e073a6989776485c372",
-          "title": "Anthropic 牵手 Rum Group 签下 137 亿美元算力大单，背后是特朗普关联的社交老玩家",
-          "title_zh": "Anthropic 牵手 Rum Group 签下 137 亿美元算力大单，背后是特朗普关联的社交老玩家",
+          "id": "b6a2cbb5ccebd54ad3152895f4163f9701ead5c8",
+          "title": "宇树人形机器人G1+发布:电机、视觉、交互与续航全面增强 标准版售价9.5万元",
+          "title_zh": "宇树人形机器人G1+发布:电机、视觉、交互与续航全面增强 标准版售价9.5万元",
           "title_en": null,
-          "title_original": "Anthropic 牵手 Rum Group 签下 137 亿美元算力大单，背后是特朗普关联的社交老玩家",
+          "title_original": "宇树人形机器人G1+发布:电机、视觉、交互与续航全面增强 标准版售价9.5万元",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31019",
+          "url": "https://www.aibase.com/news/31032",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-14T04:05:42.114025Z"
+          "published_at": "2026-09-14T09:06:45.668365Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.755,
-      "importance": 0.755,
-      "importance_score": 0.755,
+      "score": 0.7526,
+      "importance": 0.7526,
+      "importance_score": 0.7526,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9301,
+        "recency": 0.9167,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1663,195 +1704,19 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-14T04:05:42.114025Z",
-      "latest_at": "2026-09-14T04:05:42.114025Z",
+      "earliest_at": "2026-09-14T09:06:45.668365Z",
+      "latest_at": "2026-09-14T09:06:45.668365Z",
       "primary_item": {
-        "id": "2250cec3f8841cd321ff5e073a6989776485c372",
-        "title": "Anthropic 牵手 Rum Group 签下 137 亿美元算力大单，背后是特朗普关联的社交老玩家",
-        "title_zh": "Anthropic 牵手 Rum Group 签下 137 亿美元算力大单，背后是特朗普关联的社交老玩家",
+        "id": "b6a2cbb5ccebd54ad3152895f4163f9701ead5c8",
+        "title": "宇树人形机器人G1+发布:电机、视觉、交互与续航全面增强 标准版售价9.5万元",
+        "title_zh": "宇树人形机器人G1+发布:电机、视觉、交互与续航全面增强 标准版售价9.5万元",
         "title_en": null,
-        "title_original": "Anthropic 牵手 Rum Group 签下 137 亿美元算力大单，背后是特朗普关联的社交老玩家",
+        "title_original": "宇树人形机器人G1+发布:电机、视觉、交互与续航全面增强 标准版售价9.5万元",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31019",
+        "url": "https://www.aibase.com/news/31032",
         "source": "AIbase",
         "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "百亿订单是资本故事，对开发者选型没影响，不用管。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-14T09:07:56.380335Z"
-      }
-    },
-    {
-      "story_id": "story_0ba17f82df93",
-      "title": "OpenAI 关停史上最快模型 GPT-5.3-Codex-Spark：从发布到下线只活了 7 个月",
-      "url": "https://www.aibase.com/news/31021",
-      "primary_url": "https://www.aibase.com/news/31021",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "dad28f17f7891b987089bc575296dd47b77433e3",
-          "title": "OpenAI 关停史上最快模型 GPT-5.3-Codex-Spark：从发布到下线只活了 7 个月",
-          "title_zh": "OpenAI 关停史上最快模型 GPT-5.3-Codex-Spark：从发布到下线只活了 7 个月",
-          "title_en": null,
-          "title_original": "OpenAI 关停史上最快模型 GPT-5.3-Codex-Spark：从发布到下线只活了 7 个月",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31021",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-14T04:05:42.114025Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "dad28f17f7891b987089bc575296dd47b77433e3",
-          "title": "OpenAI 关停史上最快模型 GPT-5.3-Codex-Spark：从发布到下线只活了 7 个月",
-          "title_zh": "OpenAI 关停史上最快模型 GPT-5.3-Codex-Spark：从发布到下线只活了 7 个月",
-          "title_en": null,
-          "title_original": "OpenAI 关停史上最快模型 GPT-5.3-Codex-Spark：从发布到下线只活了 7 个月",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31021",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-14T04:05:42.114025Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.755,
-      "importance": 0.755,
-      "importance_score": 0.755,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9301,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-14T04:05:42.114025Z",
-      "latest_at": "2026-09-14T04:05:42.114025Z",
-      "primary_item": {
-        "id": "dad28f17f7891b987089bc575296dd47b77433e3",
-        "title": "OpenAI 关停史上最快模型 GPT-5.3-Codex-Spark：从发布到下线只活了 7 个月",
-        "title_zh": "OpenAI 关停史上最快模型 GPT-5.3-Codex-Spark：从发布到下线只活了 7 个月",
-        "title_en": null,
-        "title_original": "OpenAI 关停史上最快模型 GPT-5.3-Codex-Spark：从发布到下线只活了 7 个月",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31021",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "一个已下线的模型，对当前项目选型无影响。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-14T09:07:56.380335Z"
-      }
-    },
-    {
-      "story_id": "story_0fe0151f08d9",
-      "title": "OpenAI确认暂缓上市计划 Sam Altman称2026年IPO并不明智",
-      "url": "https://www.aibase.com/news/31005",
-      "primary_url": "https://www.aibase.com/news/31005",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "da0bf8b28b3bc705e329dd4cd0fe10e2f79b8fbf",
-          "title": "OpenAI确认暂缓上市计划 Sam Altman称2026年IPO并不明智",
-          "title_zh": "OpenAI确认暂缓上市计划 Sam Altman称2026年IPO并不明智",
-          "title_en": null,
-          "title_original": "OpenAI确认暂缓上市计划 Sam Altman称2026年IPO并不明智",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31005",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-14T04:05:42.114025Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "da0bf8b28b3bc705e329dd4cd0fe10e2f79b8fbf",
-          "title": "OpenAI确认暂缓上市计划 Sam Altman称2026年IPO并不明智",
-          "title_zh": "OpenAI确认暂缓上市计划 Sam Altman称2026年IPO并不明智",
-          "title_en": null,
-          "title_original": "OpenAI确认暂缓上市计划 Sam Altman称2026年IPO并不明智",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31005",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-14T04:05:42.114025Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.755,
-      "importance": 0.755,
-      "importance_score": 0.755,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9301,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-14T04:05:42.114025Z",
-      "latest_at": "2026-09-14T04:05:42.114025Z",
-      "primary_item": {
-        "id": "da0bf8b28b3bc705e329dd4cd0fe10e2f79b8fbf",
-        "title": "OpenAI确认暂缓上市计划 Sam Altman称2026年IPO并不明智",
-        "title_zh": "OpenAI确认暂缓上市计划 Sam Altman称2026年IPO并不明智",
-        "title_en": null,
-        "title_original": "OpenAI确认暂缓上市计划 Sam Altman称2026年IPO并不明智",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31005",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 25,
-      "persona_review": "公司内部财务安排，不影响你调用API或使用产品。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-14T09:07:56.380335Z"
       }
     }
   ]
