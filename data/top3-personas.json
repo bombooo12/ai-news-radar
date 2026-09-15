@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T04:10:19.766840Z",
+  "generated_at": "2026-09-15T09:09:58.624090Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -37,22 +37,22 @@
       }
     },
     {
-      "story_id": "story_7ca2db178349",
-      "title": "Claude Opus 5.2 深夜灰度上线：响应更快，还治好了“偷懒病”",
-      "url": "https://www.aibase.com/news/31039",
+      "story_id": "story_7cfec37da01f",
+      "title": "利用备忘录法（非AI生成）将eBPF的CPU开销降低约90%",
+      "url": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 68,
-          "review": "‘偷懒病’是好了，但‘深夜灰度’这剂量，怕不是只给少数VIP试了药？"
+          "score": 75,
+          "review": "个人博客的技术分享，降90%听着吓人，但没提对比的基线是什么负载和场景。"
         },
         "paper-police": {
-          "score": 15,
-          "review": "仅有媒体报道，无官方论文、代码或公开评测数据佐证。"
+          "score": 45,
+          "review": "博客给出了具体数字，但无论文与开源代码，无法独立验证。"
         },
         "pragmatic": {
-          "score": 85,
-          "review": "Claude Opus已可试用，响应速度提升，拒绝回答的情况减少。"
+          "score": 88,
+          "review": "开源博客详述具体优化技巧，eBPF开发者可直接借鉴实现。"
         }
       }
     },

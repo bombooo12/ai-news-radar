@@ -1,179 +1,11 @@
 {
   "version": 1,
   "entries": {
-    "story_bc5800b304fc|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "Gradio 工作流指南上线，部署演示项目能直接抄，适合快速交付。",
-      "title_hash": "de8c97fb",
-      "scored_at": "2026-08-25T08:03:53.794246Z"
-    },
-    "story_23b9168d3a9a|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "新模型进IDE，写代码能直接省token，今天就能试。",
-      "title_hash": "e91eeb5b",
-      "scored_at": "2026-08-25T08:03:55.333930Z"
-    },
-    "story_2cdc7641002b|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "贴纸功能对开发者无实际API价值，社交集成属产品层，暂不用跟进。",
-      "title_hash": "4c712b38",
-      "scored_at": "2026-08-25T08:03:56.344672Z"
-    },
-    "story_929ed190248c|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "方向明确但无产品细节，观望即可，等具体 API 或开源。",
-      "title_hash": "dad8bccf",
-      "scored_at": "2026-08-25T08:03:57.197939Z"
-    },
-    "story_a3a30019dba2|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "GPT-5.6进Kiro，编码场景可试，但先看定价和API兼容再切。",
-      "title_hash": "03f5a737",
-      "scored_at": "2026-08-25T08:03:58.225222Z"
-    },
-    "story_a6532975a7e9|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "诉讼离代码远，除非你靠爬WikiHow做训练数据，否则先观望。",
-      "title_hash": "c357c83e",
-      "scored_at": "2026-08-25T08:03:59.484684Z"
-    },
-    "story_82df8058db94|pragmatic|0a5c5b24": {
-      "score": 30,
-      "review": "高管喊话不写代码，多模型接入是常识，等具体方案再说。",
-      "title_hash": "f103ca4b",
-      "scored_at": "2026-08-25T08:04:00.378543Z"
-    },
-    "story_7c313959a64a|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "提醒别锁死单一模型，但没给工具或方案，等具体实践。",
-      "title_hash": "b030d87b",
-      "scored_at": "2026-08-25T08:04:01.524770Z"
-    },
-    "story_e0ba1a9f4659|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "硬件+大模型落地场景，但明年才卖，现在不用动。",
-      "title_hash": "9b889dd1",
-      "scored_at": "2026-08-25T08:04:02.604818Z"
-    },
-    "story_4954fa834dbf|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "华尔街用人习惯的讨论，跟开发者写代码没关系。",
-      "title_hash": "dd7996ee",
-      "scored_at": "2026-08-25T08:04:03.465142Z"
-    },
-    "story_a382eafa5b52|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "理论攻击面分析，无现成利用代码，安全研究者可参考，开发暂不用动。",
-      "title_hash": "5be61865",
-      "scored_at": "2026-08-25T08:04:04.316276Z"
-    },
-    "story_c36705ab0524|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "贴纸功能对开发者无实际用途，娱乐向更新，不必关注。",
-      "title_hash": "3db22455",
-      "scored_at": "2026-08-25T08:04:05.352485Z"
-    },
-    "story_be780896c4e6|pragmatic|0a5c5b24": {
-      "score": 20,
-      "review": "招聘帖不是技术动态，对开发者没实际用处。",
-      "title_hash": "ab0794f7",
-      "scored_at": "2026-08-25T08:04:06.578257Z"
-    },
-    "story_b8bb488a06af|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "版本黑箱影响选型判断，但无具体 API 变化，暂不用动手。",
-      "title_hash": "2b967a5f",
-      "scored_at": "2026-08-25T08:04:07.445077Z"
-    },
-    "story_66cede55297b|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "模型身份揭秘，对选型无直接影响，等实际开放再试。",
-      "title_hash": "12ef8e54",
-      "scored_at": "2026-08-25T08:04:08.505967Z"
-    },
-    "story_113a05038284|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "讨论帖没落地代码，选型前先看生态再动手。",
-      "title_hash": "e3c54473",
-      "scored_at": "2026-08-25T08:04:09.487635Z"
-    },
-    "story_f0557e55844b|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "Browser-Use插件能直接操作浏览器，自动化测试和爬虫场景可抄方案，但需确认稳定性。",
-      "title_hash": "46742444",
-      "scored_at": "2026-08-25T08:04:10.420739Z"
-    },
     "story_974793f4f4f9|pragmatic|0a5c5b24": {
       "score": 20,
       "review": "怀旧文不写代码，对开发者没实际用途。",
       "title_hash": "b0b608ff",
       "scored_at": "2026-08-25T11:28:25.197506Z"
-    },
-    "story_0ef3e31b1b6f|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "生物皮肤测试AI听着玄，但离你写代码选型太远，等有API再说。",
-      "title_hash": "28c1aba0",
-      "scored_at": "2026-08-25T08:04:12.227426Z"
-    },
-    "story_a9daf0366880|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "估值和IPO跟开发者无关，没产品没API，等戒指能跑模型再说。",
-      "title_hash": "00dea597",
-      "scored_at": "2026-08-25T08:04:13.526487Z"
-    },
-    "story_23b9168d3a9a|cynic|f4237a62": {
-      "score": 55,
-      "review": "性价比？先公布价格和基准测试再说，别拿Kiro当遮羞布。",
-      "title_hash": "e91eeb5b",
-      "scored_at": "2026-08-25T08:04:14.853246Z"
-    },
-    "story_23b9168d3a9a|paper-police|966065bf": {
-      "score": 15,
-      "review": "仅官方博客宣称性能，无论文无代码无第三方评测，证据不足。",
-      "title_hash": "e91eeb5b",
-      "scored_at": "2026-08-25T08:04:15.718728Z"
-    },
-    "story_bc5800b304fc|cynic|f4237a62": {
-      "score": 72,
-      "review": "Gradio 教程中规中矩，但'工作流'这词被用滥了，别指望真能编排复杂流程。",
-      "title_hash": "de8c97fb",
-      "scored_at": "2026-08-25T08:04:16.794683Z"
-    },
-    "story_bc5800b304fc|paper-police|966065bf": {
-      "score": 45,
-      "review": "官方博客有细节但无代码链接，等复现再定论。",
-      "title_hash": "de8c97fb",
-      "scored_at": "2026-08-25T08:04:18.194147Z"
-    },
-    "story_a3a30019dba2|cynic|f4237a62": {
-      "score": 45,
-      "review": "性价比革命？先晒出和旧版的完整对比数据，别只拿营销话术糊弄人。",
-      "title_hash": "03f5a737",
-      "scored_at": "2026-08-25T08:04:19.063422Z"
-    },
-    "story_a3a30019dba2|paper-police|966065bf": {
-      "score": 20,
-      "review": "仅官方宣称性能提升，无论文无代码无评测，性价比革命缺数据支撑。",
-      "title_hash": "03f5a737",
-      "scored_at": "2026-08-25T08:04:20.017368Z"
-    },
-    "story_79b9ec90a382|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "音乐行业规则调整，对开发者影响有限，除非做AI音乐工具需关注准入标准。",
-      "title_hash": "c43c1f45",
-      "scored_at": "2026-08-25T08:49:38.606096Z"
-    },
-    "story_60dddcf38635|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "路线图而已，等模型真开放了再评估，现在不用动。",
-      "title_hash": "48605ddc",
-      "scored_at": "2026-08-25T08:49:39.524506Z"
-    },
-    "story_c4b1ff481103|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "界面升级不改变模型能力，等 API 或功能开放再动手。",
-      "title_hash": "89a86b75",
-      "scored_at": "2026-08-25T08:49:40.376771Z"
     },
     "story_4c08adc024bd|pragmatic|0a5c5b24": {
       "score": 40,
@@ -4740,6 +4572,78 @@
       "review": "第三方平台发布评测数字，但无开源代码与独立复现，证据尚不完整。",
       "title_hash": "55fb07aa",
       "scored_at": "2026-09-15T04:10:19.766787Z"
+    },
+    "story_c447b2fec530|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "官方桌面客户端要来了，跨平台支持，用自家模型更方便。",
+      "title_hash": "b32e48c7",
+      "scored_at": "2026-09-15T09:08:50.364392Z"
+    },
+    "story_6c028e31f14b|pragmatic|0a5c5b24": {
+      "score": 65,
+      "review": "榜单成绩可作选型参考，但需等API或开源发布才能实测。",
+      "title_hash": "8d5179d5",
+      "scored_at": "2026-09-15T09:09:08.390062Z"
+    },
+    "story_e73a75567feb|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "开源模型可下载研究，其记忆模块设计值得借鉴。",
+      "title_hash": "802452f2",
+      "scored_at": "2026-09-15T09:09:11.437904Z"
+    },
+    "story_021c8eb04323|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "公关回应，不影响现有开发接口和调用方式。",
+      "title_hash": "a5839542",
+      "scored_at": "2026-09-15T09:09:14.241364Z"
+    },
+    "story_7a99be4187e4|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "CEO表态不解决具体问题，对开发者选型或写代码无影响。",
+      "title_hash": "a62cc10e",
+      "scored_at": "2026-09-15T09:09:21.133845Z"
+    },
+    "story_f571d5a44852|pragmatic|0a5c5b24": {
+      "score": 30,
+      "review": "行业动态而已，不涉及具体产品或API变更，对今天写代码没影响。",
+      "title_hash": "fb9d4498",
+      "scored_at": "2026-09-15T09:09:24.365459Z"
+    },
+    "story_749cd19070dd|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "巨头闭门会议，对开发者当前选型或开发无直接影响。",
+      "title_hash": "7e070065",
+      "scored_at": "2026-09-15T09:09:35.471672Z"
+    },
+    "story_4771199a8ed2|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "长期愿景，对开发者当前的工具和成本无直接影响。",
+      "title_hash": "402072ef",
+      "scored_at": "2026-09-15T09:09:41.927995Z"
+    },
+    "story_6b48114331e8|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "大佬观点，听听就好，不影响你今天选哪个API或框架。",
+      "title_hash": "e4738ac1",
+      "scored_at": "2026-09-15T09:09:44.983366Z"
+    },
+    "story_7cfec37da01f|pragmatic|0a5c5b24": {
+      "score": 88,
+      "review": "开源博客详述具体优化技巧，eBPF开发者可直接借鉴实现。",
+      "title_hash": "165bbd97",
+      "scored_at": "2026-09-15T09:09:48.477307Z"
+    },
+    "story_7cfec37da01f|cynic|f4237a62": {
+      "score": 75,
+      "review": "个人博客的技术分享，降90%听着吓人，但没提对比的基线是什么负载和场景。",
+      "title_hash": "165bbd97",
+      "scored_at": "2026-09-15T09:09:52.563675Z"
+    },
+    "story_7cfec37da01f|paper-police|966065bf": {
+      "score": 45,
+      "review": "博客给出了具体数字，但无论文与开源代码，无法独立验证。",
+      "title_hash": "165bbd97",
+      "scored_at": "2026-09-15T09:09:58.624051Z"
     }
   }
 }
