@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T09:09:58.624090Z",
+  "generated_at": "2026-09-15T15:07:50.222003Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -37,30 +37,10 @@
       }
     },
     {
-      "story_id": "story_7cfec37da01f",
-      "title": "利用备忘录法（非AI生成）将eBPF的CPU开销降低约90%",
-      "url": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 75,
-          "review": "个人博客的技术分享，降90%听着吓人，但没提对比的基线是什么负载和场景。"
-        },
-        "paper-police": {
-          "score": 45,
-          "review": "博客给出了具体数字，但无论文与开源代码，无法独立验证。"
-        },
-        "pragmatic": {
-          "score": 88,
-          "review": "开源博客详述具体优化技巧，eBPF开发者可直接借鉴实现。"
-        }
-      }
-    },
-    {
       "story_id": "story_592b799d103e",
       "title": "Fireworks 评测 DeepSeek-V4.1-Flash：DeepSWE 达 GPT-6 Astra 水准、成本仅 1/15 / DeepSeek-V4.1-Flash on Fireworks： Astra-level DeepSWE at 1/15th the cost",
       "url": "https://fireworks.ai/blog/DeepSeek-V4.1-Flash-Astra",
-      "rank": 3,
+      "rank": 2,
       "reviews": {
         "cynic": {
           "score": 65,
@@ -73,6 +53,26 @@
         "pragmatic": {
           "score": 85,
           "review": "第三方评测显示新模型性价比极高，选型时可直接参考其成本数据。"
+        }
+      }
+    },
+    {
+      "story_id": "story_c447b2fec530",
+      "title": "DeepSeek Harness 官方桌面端即将就绪：三大平台支持，用 V4.1 Flash 还是自家最香",
+      "url": "https://www.aibase.com/news/31057",
+      "rank": 3,
+      "reviews": {
+        "cynic": {
+          "score": 65,
+          "review": "自家模型配自家客户端，优化是应该的，算不上什么香不香。"
+        },
+        "paper-police": {
+          "score": 12,
+          "review": "仅有'即将就绪'的报道，无论文、代码或可验证的评测数据。"
+        },
+        "pragmatic": {
+          "score": 75,
+          "review": "官方桌面客户端要来了，跨平台支持，用自家模型更方便。"
         }
       }
     }

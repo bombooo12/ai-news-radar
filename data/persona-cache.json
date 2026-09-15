@@ -1,72 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_974793f4f4f9|pragmatic|0a5c5b24": {
-      "score": 20,
-      "review": "怀旧文不写代码，对开发者没实际用途。",
-      "title_hash": "b0b608ff",
-      "scored_at": "2026-08-25T11:28:25.197506Z"
-    },
-    "story_4c08adc024bd|pragmatic|0a5c5b24": {
-      "score": 40,
-      "review": "安全报告看看即可，不影响日常开发选型。",
-      "title_hash": "3e68da72",
-      "scored_at": "2026-08-25T09:24:50.066906Z"
-    },
-    "story_01e284861740|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "概念货，没量产没价格，等真能下单再说。",
-      "title_hash": "668daed8",
-      "scored_at": "2026-08-25T09:24:51.024906Z"
-    },
-    "story_82cd7b823da3|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "星链加语音是场景创新，但没开放API，开发者暂时用不上。",
-      "title_hash": "01c72d16",
-      "scored_at": "2026-08-25T09:24:51.848009Z"
-    },
-    "story_6411634610d0|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "4位量化模型反超原版，压缩部署可试，但需验证泛化性。",
-      "title_hash": "f6e17aca",
-      "scored_at": "2026-08-25T14:40:41.899284Z"
-    },
-    "story_451d09e98bb5|pragmatic|0a5c5b24": {
-      "score": 70,
-      "review": "新芯片参数没细看，做本地推理的等真机跑分再换。",
-      "title_hash": "994bb6ca",
-      "scored_at": "2026-08-25T14:40:43.068003Z"
-    },
-    "story_e78ba6d6ecd7|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "新硬件对本地跑模型有提升，但没具体价格和性能数据，先观望。",
-      "title_hash": "c10228d8",
-      "scored_at": "2026-08-25T14:40:44.152846Z"
-    },
-    "story_77e205d8388b|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "行业趋势综述，无具体工具或数据，动手前不用细读。",
-      "title_hash": "c59bc843",
-      "scored_at": "2026-08-25T14:40:45.314524Z"
-    },
-    "story_18ba3e730a24|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "Plus用户额度恢复，跑长任务的今天能多用几轮，但别指望质变。",
-      "title_hash": "222a89f1",
-      "scored_at": "2026-08-25T14:40:46.700516Z"
-    },
-    "story_6411634610d0|cynic|f4237a62": {
-      "score": 72,
-      "review": "4位压缩反超原版？先晒出评测集和基线再吹，别拿自家弱基线当参照。",
-      "title_hash": "f6e17aca",
-      "scored_at": "2026-08-25T14:40:47.780304Z"
-    },
-    "story_6411634610d0|paper-police|966065bf": {
-      "score": 45,
-      "review": "博客给了数字但无代码无复现，等开源或第三方验证再定论。",
-      "title_hash": "f6e17aca",
-      "scored_at": "2026-08-25T14:40:48.688720Z"
-    },
     "story_2e1e1831ce49|pragmatic|0a5c5b24": {
       "score": 65,
       "review": "IBM 新模型技术细节公开，做企业级部署的可以看下架构思路。",
@@ -4644,6 +4578,60 @@
       "review": "博客给出了具体数字，但无论文与开源代码，无法独立验证。",
       "title_hash": "165bbd97",
       "scored_at": "2026-09-15T09:09:58.624051Z"
+    },
+    "story_b933e12f991b|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "官方宏观报告，了解趋势可以，但今天写代码用不上。",
+      "title_hash": "4b3229d3",
+      "scored_at": "2026-09-15T15:07:08.530644Z"
+    },
+    "story_76c680c2d727|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "了解模型优化有数据标注环节，但用户隐私风险是老生常谈。",
+      "title_hash": "2adb3292",
+      "scored_at": "2026-09-15T15:07:11.616105Z"
+    },
+    "story_37bd0d5d25f4|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "巨头间的公关姿态，不影响你今天的模型选型和API调用。",
+      "title_hash": "85e51f07",
+      "scored_at": "2026-09-15T15:07:23.251169Z"
+    },
+    "story_997717c36cc4|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "学者的呼吁不改变开发计划，不影响今天的技术选型。",
+      "title_hash": "7483e322",
+      "scored_at": "2026-09-15T15:07:28.257127Z"
+    },
+    "story_caabc17c9180|pragmatic|0a5c5b24": {
+      "score": 65,
+      "review": "新语音模型发布，做音频生成或TTS选型时可以加入对比列表。",
+      "title_hash": "4a6f101f",
+      "scored_at": "2026-09-15T15:07:32.054519Z"
+    },
+    "story_8aad15377fca|pragmatic|0a5c5b24": {
+      "score": 55,
+      "review": "提醒你AI安全基准可能有坑，但没给出可直接用的新工具。",
+      "title_hash": "033143aa",
+      "scored_at": "2026-09-15T15:07:39.963985Z"
+    },
+    "story_f21ffcc883e9|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "收购案离产品落地很远，开发者无需为此调整任何计划。",
+      "title_hash": "7e243d2e",
+      "scored_at": "2026-09-15T15:07:43.943163Z"
+    },
+    "story_c447b2fec530|cynic|f4237a62": {
+      "score": 65,
+      "review": "自家模型配自家客户端，优化是应该的，算不上什么香不香。",
+      "title_hash": "b32e48c7",
+      "scored_at": "2026-09-15T15:07:47.166629Z"
+    },
+    "story_c447b2fec530|paper-police|966065bf": {
+      "score": 12,
+      "review": "仅有'即将就绪'的报道，无论文、代码或可验证的评测数据。",
+      "title_hash": "b32e48c7",
+      "scored_at": "2026-09-15T15:07:50.221950Z"
     }
   }
 }

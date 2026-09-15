@@ -3,267 +3,11 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "GPT-6 Astra 模拟经营碾压 Claude 3倍：AI Agent 自主赚钱能力大测评",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、想用AI变现的个人",
-      "reason": "GPT-6 Astra 热点话题，模拟经营场景直观展示AI Agent变现潜力，符合用户偏好新模型和争议性选题。",
-      "source_items": [
-        "GPT-6 Astra 模拟经营售货机一年狂赚 1.5 万美元，成绩碾压 Claude 近 3 倍",
-        "GPT-6 Astra展现恐怖统治力：模拟售货机一年狂揽1.5万美元，成绩碾压Claude近3倍"
-      ],
-      "source_urls": [
-        "https://www.aibase.com/news/31049",
-        "https://www.aibase.com/news/31035"
-      ],
-      "urgency": "high",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "我用GPT-6 Astra开了一家虚拟售货机，一年赚了1.5万美元（附完整Prompt）",
-          "summary": "教读者如何用GPT-6 Astra模拟经营售货机，包括设置初始条件、制定决策策略、优化利润的完整步骤。",
-          "key_points": [
-            "创建模拟经营环境的Prompt模板",
-            "设定经营目标与约束条件",
-            "让AI自主决策并记录利润变化",
-            "对比不同AI的表现，调整策略"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "别被1.5万美元骗了！GPT-6 Astra模拟经营背后的5个陷阱",
-          "summary": "揭露模拟经营测试的局限性，包括数据偏差、过度拟合和实际应用差距，帮助读者理性看待AI能力。",
-          "pitfalls": [
-            "模拟环境过于理想化，不代表真实市场",
-            "AI可能通过投机取巧而非真实经营能力获得高分",
-            "单次测试的随机性可能导致结果不可靠"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "GPT-6 Astra碾压Claude背后：AI Agent的'赚钱能力'离真实商业还有多远？",
-          "summary": "分析AI Agent在模拟经营中的表现差异，探讨其背后的技术原因和对未来AI商业化应用的影响。",
-          "insights": [
-            "模拟经营测试反映的是AI的决策优化能力，而非真实商业智慧",
-            "GPT-6 Astra的强化学习策略可能更适应这类任务",
-            "AI Agent在真实商业场景中仍面临数据获取、风险控制等挑战"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "title": "苹果Siri可被Claude/ChatGPT接管：你的iPhone要变天了？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、iPhone用户、科技爱好者",
-      "reason": "苹果Siri引入外部AI模型是重大生态变化，话题性强，用户关注度高，且与AI工具使用直接相关。",
-      "source_items": [
-        "代码挖出猛料：苹果 Siri 可被 Claude 或 ChatGPT 接管，欧盟 DMA 或是推手",
-        "代码挖出苹果底牌：Siri 可换成 Claude 或 ChatGPT，模型委托与推理提供方两套机制曝光",
-        "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows"
-      ],
-      "source_urls": [
-        "https://www.aibase.com/news/31046",
-        "https://www.aibase.com/news/31041",
-        "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude"
-      ],
-      "urgency": "high",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "手把手教你：如何把Siri默认模型换成Claude或ChatGPT（无需越狱）",
-          "summary": "教用户如何在iPhone上设置Siri使用第三方AI模型，包括检查系统版本、修改设置、测试效果等步骤。",
-          "key_points": [
-            "检查iOS版本是否支持模型切换",
-            "在设置中找到Siri与搜索选项",
-            "选择默认AI模型并授权",
-            "测试Siri回答质量与响应速度"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "换Siri模型前必看：隐私风险、兼容性问题、以及苹果的隐藏限制",
-          "summary": "提醒用户在切换Siri模型时注意隐私泄露、功能兼容性和苹果政策限制。",
-          "pitfalls": [
-            "第三方AI模型可能收集你的语音数据",
-            "部分原生功能（如快捷指令）可能无法正常工作",
-            "苹果可能随时通过系统更新限制此功能"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "苹果开放Siri给Claude/ChatGPT：欧盟DMA如何逼出一个开放生态？",
-          "summary": "分析苹果在欧盟DMA压力下开放Siri的战略意义，以及对AI助手市场竞争格局的影响。",
-          "insights": [
-            "DMA法规是推动苹果开放生态的关键力量",
-            "苹果可能借此减少自研AI压力，转向平台化",
-            "对Claude和ChatGPT是巨大流量入口，但也面临苹果的管控"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "title": "恶意AI智能体攻击RubyGems：开源生态的供应链危机来了？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "开发者、AI初学者、关注AI安全的个人",
-      "reason": "AI智能体攻击开源生态是新兴安全威胁，具有警示意义，能引发开发者社区讨论，符合争议性选题偏好。",
-      "source_items": [
-        "恶意 AI 智能体攻击 RubyGems.org：YARD 执行任意代码与 Fastly 缓存密钥利用分析",
-        "What a time to be alive – rouge AI agents attack RubyGems.org"
-      ],
-      "source_urls": [
-        "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive",
-        "https://news.ycombinator.com/item?id=41523456"
-      ],
-      "urgency": "high",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "AI智能体攻击开源库？教你用3步保护你的Ruby项目（含代码示例）",
-          "summary": "教开发者如何检测和防御针对RubyGems的恶意AI智能体攻击，包括依赖审计、安全扫描和权限控制。",
-          "key_points": [
-            "使用bundle-audit检查已知漏洞",
-            "配置Gemfile锁定版本并定期更新",
-            "启用2FA和访问令牌限制",
-            "监控异常依赖变更"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "45分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "你的开源项目正在被AI智能体盯上！5个安全漏洞自查清单",
-          "summary": "列出开源项目常见安全弱点，以及如何避免成为AI智能体攻击的目标。",
-          "pitfalls": [
-            "依赖包来源不明，未验证签名",
-            "CI/CD流程中权限过大",
-            "缓存密钥泄露在公共仓库",
-            "未及时更新依赖库"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "当AI学会攻击：RubyGems事件揭示的AI安全新纪元",
-          "summary": "分析AI智能体攻击开源生态的动机、技术手段，以及对整个软件供应链安全的影响。",
-          "insights": [
-            "AI智能体攻击成本低、自动化程度高，威胁被放大",
-            "开源生态的信任模型面临挑战",
-            "需要新的安全机制，如AI行为审计和智能监控"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "title": "Adobe Premiere Pro 引入生成式AI工具：剪辑师要失业了？",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "视频创作者、剪辑师、AI工具爱好者",
-      "reason": "Adobe在IBC 2026发布生成式媒体工具，直接进入Premiere Pro时间线，与用户视频剪辑能力高度相关。",
-      "source_items": [
-        "PVC at IBC 2026: Adobe Debuts Generative Media Tool to Bring AI Directly into Premiere Pro Timeline",
-        "Battle of the NLE AI Assistants"
-      ],
-      "source_urls": [
-        "https://www.provideocoalition.com/pvc-at-ibc-2026-adobe-debuts-generative-media-tool-to-bring-ai-directly-into-premiere-pro-timeline",
-        "https://www.provideocoalition.com/battle-of-the-nle-ai-assistants"
-      ],
-      "urgency": "medium",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "Premiere Pro新AI工具实测：一键生成B-roll、自动匹配素材，剪辑效率翻倍",
-          "summary": "演示如何在Premiere Pro中使用新的生成式AI工具，包括生成素材、智能剪辑、自动调色等功能。",
-          "key_points": [
-            "安装最新版Premiere Pro并找到AI工具入口",
-            "使用文本提示生成B-roll素材",
-            "利用AI自动剪辑对话场景",
-            "通过AI生成转场和特效"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "40分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI剪辑工具虽好，但这4个坑让你素材全毁！",
-          "summary": "提醒用户在使用AI剪辑工具时注意版权、质量、工作流程和性能问题。",
-          "pitfalls": [
-            "AI生成的素材可能涉及版权争议",
-            "自动剪辑可能破坏原有叙事逻辑",
-            "对硬件要求高，低配电脑可能卡顿",
-            "过度依赖AI导致创意同质化"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "从Premiere Pro的AI化看视频剪辑的未来：人机协作还是机器主导？",
-          "summary": "探讨AI工具在专业剪辑软件中的角色演变，以及对剪辑师职业技能的影响。",
-          "insights": [
-            "AI将取代重复性工作，但创意决策仍需人类",
-            "剪辑师需要学习如何与AI协作，而非对抗",
-            "生成式AI可能降低视频制作门槛，但专业价值更高"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "title": "Side Hustlers用新工具收入翻倍：AI副业赚钱的真实数据与策略",
+      "title": "AI副业新工具实测：新手用它月收入翻倍？",
       "track": "side_hustle",
       "track_name": "个人成长/副业变现",
-      "target_audience": "想用AI变现的个人、副业探索者",
-      "reason": "直接关联副业变现，数据驱动，符合用户偏好，且能结合AI工具推荐。",
+      "target_audience": "想用AI变现的个人、AI初学者",
+      "reason": "结合热点副业话题与AI工具，实操性强，直接切中用户“赚钱”需求，易传播。",
       "source_items": [
         "Side Hustlers Using New Tools Report Twice the Monthly Income"
       ],
@@ -276,14 +20,75 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "我靠AI工具做副业，月收入翻倍了！分享我的5个实操方法",
-          "summary": "分享使用AI工具提升副业收入的5个具体方法，包括内容生成、自动化客服、数据分析等。",
+          "format": "图文+视频",
+          "hook": "手把手教学：用3款AI工具，打造你的第一个副业项目",
+          "summary": "从零开始，用ChatGPT、Midjourney等工具，完成从创意到交付的完整副业流程。",
           "key_points": [
-            "用ChatGPT批量生成小红书文案",
-            "用Midjourney制作设计素材出售",
-            "用AI自动回复客户消息",
-            "用AI分析销售数据优化定价"
+            "用AI确定高需求副业方向",
+            "用AI工具生成内容/设计素材",
+            "自动化交付与客户沟通流程"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "45分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI副业三大坑：别让你的时间被工具浪费",
+          "summary": "指出新手用AI做副业时最容易陷入的效率陷阱、平台风险和定价误区。",
+          "pitfalls": [
+            "沉迷测试工具，忽略产出交付",
+            "在错误平台发布，流量为0",
+            "定价过低，沦为AI苦力"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "“月入翻倍”背后：AI如何重塑个人副业价值链？",
+          "summary": "分析AI副业工具流行的底层逻辑，以及对未来个人工作模式的深远影响。",
+          "insights": [
+            "AI将副业门槛从“技能”转向“创意与流程管理”",
+            "工具普及加剧内卷，差异化策略是关键",
+            "个人品牌比单次交付更具长期价值"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "苹果Siri能被ChatGPT接管？代码揭秘与小白实践",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、对AI手机应用感兴趣的小白",
+      "reason": "结合苹果与OpenAI/Claude的热点，技术揭秘+实操可能性，争议性强，易引发讨论和传播。",
+      "source_items": [
+        "代码挖出猛料：苹果 Siri 可被 Claude 或 ChatGPT 接管，欧盟 DMA 或是推手",
+        "代码挖出苹果底牌：Siri 可换成 Claude 或 ChatGPT，模型委托与推理提供方两套机制曝光"
+      ],
+      "source_urls": [
+        "https://www.aibase.com/news/31046",
+        "https://www.aibase.com/news/31041"
+      ],
+      "urgency": "high",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "视频（录屏）",
+          "hook": "无需越狱！模拟实现“Siri调用ChatGPT”的三种野路子",
+          "summary": "教用户利用快捷指令、第三方App等现有工具，在iPhone上实现类似“Siri调用大模型”的功能。",
+          "key_points": [
+            "用iOS快捷指令桥接API",
+            "利用具备语音功能的第三方AI App",
+            "设置自动化触发场景"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -292,13 +97,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "副业收入翻倍？小心这5个AI副业陷阱",
-          "summary": "揭露AI副业中的常见骗局、过度承诺和版权风险，帮助读者理性看待。",
+          "hook": "小心封号！DIY“智能Siri”必须绕开的隐私与安全雷区",
+          "summary": "指出自行连接API可能导致的账号风险、隐私泄露问题，并提供安全配置建议。",
           "pitfalls": [
-            "AI生成内容可能涉及版权纠纷",
-            "很多AI副业课程是割韭菜",
-            "依赖单一平台风险高",
-            "AI工具成本可能侵蚀利润"
+            "API密钥明文存储导致泄露",
+            "第三方App过度获取权限",
+            "自动化指令误触发造成损失"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -307,12 +111,198 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI副业收入翻倍背后：新工具如何重塑零工经济？",
-          "summary": "分析AI工具如何改变副业生态，包括技能要求、收入分配和长期趋势。",
+          "hook": "代码背后的战争：苹果、OpenAI与欧盟的AI生态博弈",
+          "summary": "解读代码爆料背后的商业逻辑、监管影响，以及对我们未来使用手机AI的启示。",
           "insights": [
-            "AI工具降低了副业门槛，但也加剧竞争",
-            "掌握AI工具成为副业成功的关键技能",
-            "平台经济与AI结合，可能出现新的剥削形式"
+            "DMA法规如何迫使苹果开放生态",
+            "苹果的“模型商店”野心与现有AI巨头的冲突",
+            "用户数据主权在AI时代面临的挑战"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "你的ChatGPT对话正被真人审核？OpenAI“莉莉计划”全解析",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "所有AI工具用户、关注数据隐私的初学者",
+      "reason": "涉及用户隐私和模型训练内幕，具有极强争议性和普适性，容易引发用户共鸣和广泛传播。",
+      "source_items": [
+        "404 Media 曝光 OpenAI 莉莉计划：人工审核 ChatGPT 聊天记录以优化模型",
+        "你的ChatGPT对话可能被真人看过:OpenAI人工审核机制曝光"
+      ],
+      "source_urls": [
+        "https://www.ithome.com/1/002/750.htm",
+        "https://www.aibase.com/news/31044"
+      ],
+      "urgency": "high",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "隐私设置指南：三步锁死你的AI聊天记录，避免被“围观”",
+          "summary": "详细讲解在ChatGPT、Claude等主流AI工具中，如何开启或确认隐私设置，最大限度保护对话。",
+          "key_points": [
+            "检查并关闭模型训练数据共享选项",
+            "了解不同订阅计划的隐私条款差异",
+            "使用临时会话或本地化部署工具"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文+短视频",
+          "hook": "这些对话千万别跟AI聊！真人审核员最“感兴趣”的5类内容",
+          "summary": "列举最可能被标记和人工审核的敏感对话类型，帮助用户规避不必要的隐私暴露。",
+          "pitfalls": [
+            "详细个人信息（身份证号、地址）",
+            "违法违规内容的具体策划",
+            "公司核心商业机密与源代码",
+            "他人隐私的详细描述",
+            "极端情绪与暴力倾向表达"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "“莉莉计划”与AI进化的悖论：没有人工审核，就没有更好的AI？",
+          "summary": "探讨人工审核在AI安全与性能提升中的必要性，以及用户隐私与技术进步之间的永恒矛盾。",
+          "insights": [
+            "人工审核是解决AI“幻觉”和有害输出的必要之恶",
+            "匿名化与差分隐私技术能否真正保护用户？",
+            "开源透明与商业闭源模型在隐私策略上的根本分歧"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "像导演一样思考：用AI工具Seedance制作电影感短视频",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "AI初学者、视频剪辑爱好者、想提升内容质感的自媒体人",
+      "reason": "将专业的电影思维与AI视频工具结合，提供高阶教程，满足用户对“质感提升”的需求，区别于基础工具介绍。",
+      "source_items": [
+        "How to Think Like a Filmmaker: AI Video With Seedance"
+      ],
+      "source_urls": [
+        "https://www.socialmediaexaminer.com/how-to-think-like-a-filmmaker-ai-video-with-seedance"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "视频（DaVinci/剪映录屏）",
+          "hook": "零成本拍大片：用Seedance+剪映，三步做出电影感开场",
+          "summary": "演示如何用Seedance生成具有特定氛围和运镜的AI视频素材，并在剪映中完成调色、配音和剪辑。",
+          "key_points": [
+            "在Seedance中使用导演思维关键词生成视频",
+            "将AI素材导入剪辑软件进行二次构图与节奏调整",
+            "添加电影感LUT、音效和字幕包装"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "40分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI视频“塑料感”太重？避开这4个提示词雷区",
+          "summary": "指出导致AI视频生硬、虚假的常见提示词问题，并提供优化思路。",
+          "pitfalls": [
+            "过度依赖“4K，逼真”等空洞词汇",
+            "忽略镜头语言描述（如“推拉摇移”）",
+            "角色动作描述不符合物理规律",
+            "场景元素过多导致画面混乱"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "从Seedance看AI视频进化：工具在学，你的审美跟上了吗？",
+          "summary": "分析AI视频工具如何内化电影语言，以及创作者应如何培养“导演思维”来驾驭工具，而非被工具同化。",
+          "insights": [
+            "AI工具正在编码化经典电影语法",
+            "创作者的独特审美将成为新的竞争壁垒",
+            "未来视频创作是“人设定框架，AI填充细节”的协作模式"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "跨境品牌合作踩坑记：用AIGC剧情视频科普商标风险",
+      "track": "trademark",
+      "track_name": "商标/IP/创业",
+      "target_audience": "需要商标注册服务的小微企业主、对IP合作感兴趣的创业者",
+      "reason": "完美结合创作者商标代理业务与AIGC剧情向内容偏好，用生动形式做专业科普，实现高效引流。",
+      "source_items": [
+        "Transboundary brand collaborations in China: from pre-execution to termination"
+      ],
+      "source_urls": [
+        "https://www.managingip.com/article/2gwcha17zl3ydyvsep14w/sponsored-content/transboundary-brand-collaborations-in-china-from-pre-execution-to-termination"
+      ],
+      "urgency": "low",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "AIGC剧情向视频",
+          "hook": "【AI小剧场】创业老板必看：三步自查你的品牌合作合同",
+          "summary": "用AI生成虚拟人物和场景，演绎一个品牌合作案例，并分步拆解合同中必须关注的商标授权条款。",
+          "key_points": [
+            "第一步：确认商标所有权与许可范围",
+            "第二步：审查合作地域与渠道限制",
+            "第三步：明确合作终止后的商标处理方式"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "制作3天"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "联名一时爽，侵权火葬场：跨境品牌合作四大隐形坑",
+          "summary": "列举跨境合作中容易被忽略的商标风险，如商标类别不全、海外抢注、文化禁忌等。",
+          "pitfalls": [
+            "合作方商标未覆盖关键商品/服务类别",
+            "未提前进行目标市场商标检索",
+            "品牌元素改编不慎引发文化冲突",
+            "合同对侵权责任界定模糊"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "从“冰墩墩”到“酱香拿铁”：中国品牌合作IP策略的进化",
+          "summary": "结合近期案例，分析国内品牌在IP合作中，商标管理与商业策略如何从粗放走向精细。",
+          "insights": [
+            "商标从“保护标识”变为“合作资产包”的核心组件",
+            "短期爆款与长期品牌价值的平衡",
+            "AIGC时代，商标确权与侵权认定面临的新挑战"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -321,11 +311,11 @@
     },
     {
       "rank": 6,
-      "title": "YouTube Shorts变现全攻略：2026年最新要求与收益预估",
+      "title": "YouTube Shorts新规全解读：不接广告也能赚钱的“骚操作”",
       "track": "creator_economy",
       "track_name": "自媒体/创作者经济",
-      "target_audience": "自媒体创作者、YouTube新手",
-      "reason": "YouTube Shorts变现是创作者关心的热点，与用户自媒体运营策略直接相关。",
+      "target_audience": "想用AI变现的个人、自媒体新人、视频创作者",
+      "reason": "直接关联平台变现规则，提供“非主流”变现思路，满足创作者对“新机会”的渴望，实操性强。",
       "source_items": [
         "YouTube Shorts Monetization: Requirements, Pay, and What to Expect"
       ],
@@ -333,34 +323,33 @@
         "https://passionfru.it/youtube-shorts-monetization-requirements-pay-and-what-to-expect-165682"
       ],
       "urgency": "medium",
-      "viral_potential": "medium",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "2026年YouTube Shorts变现全流程：从0到1开通收益（附条件清单）",
-          "summary": "详细讲解YouTube Shorts变现的申请条件、步骤和收益计算方式。",
+          "format": "视频（录屏）",
+          "hook": "不靠播放量！用AI批量生成Shorts，靠“电商”和“订阅”赚美金",
+          "summary": "演示如何利用AI工具快速生成垂直类Shorts内容，并引导至联盟营销、付费社群等非广告收益路径。",
           "key_points": [
-            "满足1000订阅和1000万Short观看时长",
-            "加入YouTube合作伙伴计划",
-            "设置AdSense账户",
-            "了解收益分成比例"
+            "用ChatGPT生成爆款Shorts脚本与标签",
+            "用AI工具批量生成或混剪视频素材",
+            "在简介和视频中巧妙设置引流钩子"
           ],
           "difficulty": "入门",
-          "estimated_time": "25分钟"
+          "estimated_time": "35分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "YouTube Shorts变现的5个误区：为什么你赚不到钱？",
-          "summary": "指出创作者在Shorts变现中常见的错误，如内容质量低、违规操作等。",
+          "hook": "Shorts变现两大误区：盲目追热点和忽视“社区准则”",
+          "summary": "指出新手在追逐Shorts流量和变现时，最容易导致账号受限或无效努力的错误做法。",
           "pitfalls": [
-            "重复上传他人内容导致版权问题",
-            "忽视Shorts的垂直格式和时长限制",
-            "过度追求数量而忽略质量",
-            "不了解平台政策变化"
+            "内容与频道定位完全不符，粉丝不转化",
+            "滥用标签、标题党触发平台审核",
+            "引流方式过于生硬，被判定为垃圾内容",
+            "忽视音乐、素材的版权问题"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -369,137 +358,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "YouTube Shorts变现背后的算法逻辑：如何让平台为你打工？",
-          "summary": "分析YouTube Shorts的推荐算法、用户行为模式和变现策略。",
+          "hook": "YouTube Shorts的货币化困局与AI创作者的新出路",
+          "summary": "分析Shorts当前低单价变现模式的局限性，以及AI工具如何帮助创作者突破内容瓶颈，构建多元收入。",
           "insights": [
-            "Shorts的算法更重视完播率和互动率",
-            "变现收益与广告主投放意愿相关",
-            "创作者需要平衡内容质量与商业化"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "title": "AI智能体可读写的甘特图工具ProGantt：项目管理新范式？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "项目经理、AI工具爱好者、创业者",
-      "reason": "ProGantt通过MCP让AI智能体读写甘特图，是Agent应用的新场景，对创业者有吸引力。",
-      "source_items": [
-        "ProGantt: Gantt charts your AI agent can read and write via MCP"
-      ],
-      "source_urls": [
-        "https://progantt.com"
-      ],
-      "urgency": "low",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "用ProGantt + AI智能体自动更新项目进度：5分钟上手教程",
-          "summary": "教用户如何将ProGantt与AI智能体连接，实现项目计划的自动更新和优化。",
-          "key_points": [
-            "注册ProGantt并创建项目",
-            "配置MCP服务器连接AI智能体",
-            "让AI根据任务完成情况自动调整甘特图",
-            "设置提醒和异常预警"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "40分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI管理项目进度？小心这3个坑让计划更混乱",
-          "summary": "提醒用户在使用AI管理甘特图时可能遇到的问题，如数据不准确、过度自动化等。",
-          "pitfalls": [
-            "AI可能误解任务依赖关系",
-            "自动调整可能导致资源冲突",
-            "过度依赖AI而忽视人工判断"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "从ProGantt看AI Agent如何改变项目管理软件",
-          "summary": "分析AI智能体在项目管理中的应用趋势，以及对传统项目管理工具的冲击。",
-          "insights": [
-            "AI Agent将实现项目管理的自动化闭环",
-            "MCP协议成为AI与工具交互的标准",
-            "项目管理软件从'记录工具'变为'智能助手'"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "title": "AI领导者想踩刹车？AI安全监管背后的博弈与创业机会",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI从业者、创业者、关注AI政策的个人",
-      "reason": "AI安全监管是热点话题，涉及政策、商业和伦理，能引发深度讨论，且与商标注册业务有潜在关联。",
-      "source_items": [
-        "AI leaders want to hit the brakes after years of reckless speed",
-        "'Dr. Frankenstein is telling us the monster is escaping': US lawmakers desperately want to set up AI guardrails before midterm elections"
-      ],
-      "source_urls": [
-        "https://arstechnica.com/ai/2026/09/ai-leaders-want-to-hit-the-brakes-after-years-of-reckless-speed",
-        "https://www.techradar.com/pro/dr-frankenstein-is-telling-us-the-monster-is-escaping-us-lawmakers-desperately-want-to-set-up-ai-guardrails-before-midterm-elections"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "AI监管来了：创业者如何提前布局合规？3步自查指南",
-          "summary": "教AI创业者如何应对即将到来的监管，包括合规自查、数据治理和知识产权保护。",
-          "key_points": [
-            "了解国内外AI监管法规框架",
-            "建立数据合规和隐私保护机制",
-            "申请AI相关商标和专利保护",
-            "制定应急预案应对政策变化"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI创业别踩红线：5个合规风险点，你可能正在犯",
-          "summary": "指出AI创业者在数据使用、算法透明度、知识产权等方面的常见合规风险。",
-          "pitfalls": [
-            "使用未授权数据训练模型",
-            "算法歧视导致法律纠纷",
-            "忽视AI生成内容的版权归属",
-            "未注册相关知识产权"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "AI刹车论：从'快速行动'到'审慎监管'，行业拐点已至？",
-          "summary": "分析AI行业从野蛮生长到监管收紧的转变，探讨对创新和创业的影响。",
-          "insights": [
-            "监管趋严将淘汰不合规的小公司，利好大厂",
-            "AI安全将成为新的创业赛道",
-            "全球AI监管标准尚未统一，存在套利空间"
+            "平台补贴模式难以持续，创作者需自建变现闭环",
+            "AI降低了内容生产成本，但加剧了同质化竞争",
+            "未来趋势：AI辅助的“小批量、多批次、重互动”创作模式"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -508,22 +372,22 @@
     }
   ],
   "weekly_plan": {
-    "monday": "GPT-6 Astra模拟经营碾压Claude 3倍：AI Agent自主赚钱能力大测评",
-    "wednesday": "苹果Siri可被Claude/ChatGPT接管：你的iPhone要变天了？",
-    "friday": "Side Hustlers用新工具收入翻倍：AI副业赚钱的真实数据与策略",
-    "strategy": "本周主打AI热点+副业变现，利用高传播性选题吸引流量，穿插实操教程提升粉丝粘性。"
+    "monday": "你的ChatGPT对话正被真人审核？OpenAI“莉莉计划”全解析（避坑指南角度）",
+    "wednesday": "AI副业新工具实测：新手用它月收入翻倍？（实操教程角度）",
+    "friday": "跨境品牌合作踩坑记：用AIGC剧情视频科普商标风险（AIGC剧情视频）",
+    "strategy": "本周聚焦“隐私与搞钱”，以高争议性话题引爆流量，穿插高价值实操教程，并以AIGC剧情视频实现业务引流。"
   },
-  "insights": "今日信息流显示AI Agent在模拟经营、安全攻击、工具集成等方向多点开花，GPT-6 Astra和苹果Siri开放生态成为最热话题，AI副业变现数据也极具吸引力。",
-  "ai_adjustment": "根据历史反馈，优先推荐AI技术赛道和视频剪辑相关选题，避免硬件内容，并增加副业变现和创作者经济选题以匹配用户兴趣。",
-  "generated_at": "2026-09-15T17:10:53.904564+08:00",
-  "total_items": 513,
-  "scored_items": 431,
+  "insights": "今日信息流显示，AI技术热点集中于大模型生态博弈（苹果/OpenAI）与内部机制曝光（人工审核），同时副业变现与视频创作工具的结合仍是创作者经济中的高需求方向。",
+  "ai_adjustment": "基于用户反馈“对新模型、新工具感兴趣”及“Harness是热点”，本次推荐侧重实操性工具教程（如Seedance、副业工具）及热点技术解读（Siri接管、莉莉计划），并避免硬件相关选题。",
+  "generated_at": "2026-09-15T23:10:51.791982+08:00",
+  "total_items": 520,
+  "scored_items": 425,
   "tracks_summary": {
-    "ai_tech": 403,
-    "ai_video": 11,
-    "creator_economy": 11,
-    "growth_monetize": 2,
-    "trademark_business": 4
+    "ai_tech": 395,
+    "ai_video": 8,
+    "creator_economy": 14,
+    "trademark_business": 6,
+    "growth_monetize": 2
   },
   "engine_version": "v2",
   "engine_params": {
