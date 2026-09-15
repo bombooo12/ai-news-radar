@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T15:10:40.489731Z",
+  "generated_at": "2026-09-15T04:10:19.766840Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_3a1702cd4763",
-      "title": "DeepSeek-V4.1-Flash上线千问AI平台，API与Token Plan同步开放",
-      "url": "https://www.aibase.com/news/31028",
+      "story_id": "story_e31e702be431",
+      "title": "Configure cost and quality in Copilot auto model selection",
+      "url": "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 75,
-          "review": "模型上架和API开放是实打实的，但‘Flash’这名号听着像提速版，具体快多少没提。"
+          "score": 72,
+          "review": "总算让用户自己权衡钱包和智商了，早该有的功能别吹成创新。"
         },
         "paper-police": {
           "score": 15,
-          "review": "仅有平台上线新闻，无论文、代码或公开评测数据佐证性能。"
+          "review": "仅有官方博客宣称功能，无论文、代码或独立评测佐证。"
         },
         "pragmatic": {
           "score": 88,
-          "review": "新模型API已开放，今天就能接入测试，影响选型决策。"
+          "review": "GitHub Copilot 可手动调节成本与质量平衡，今天就能在设置里改。"
         }
       }
     },
     {
-      "story_id": "story_b01914df6cf3",
-      "title": "OpenAI 推出 Agents API：把 Codex 拆成云端服务，\"造 Agent\" 变成一次 API 调用",
-      "url": "https://www.aibase.com/news/31025",
+      "story_id": "story_7ca2db178349",
+      "title": "Claude Opus 5.2 深夜灰度上线：响应更快，还治好了“偷懒病”",
+      "url": "https://www.aibase.com/news/31039",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 70,
-          "review": "把现有能力打包成新API，方便是真方便，但离‘造Agent’还差得远。"
+          "score": 68,
+          "review": "‘偷懒病’是好了，但‘深夜灰度’这剂量，怕不是只给少数VIP试了药？"
         },
         "paper-police": {
           "score": 15,
-          "review": "仅有媒体报道，未见官方论文、代码或可复现的评测报告。"
+          "review": "仅有媒体报道，无官方论文、代码或公开评测数据佐证。"
         },
         "pragmatic": {
-          "score": 88,
-          "review": "API已上线，可直接调用云端能力快速构建智能体，降低开发门槛。"
+          "score": 85,
+          "review": "Claude Opus已可试用，响应速度提升，拒绝回答的情况减少。"
         }
       }
     },
     {
-      "story_id": "story_d582dca2239a",
-      "title": "OpenArch——现代大型语言模型（LLM）架构的 PyTorch 实现",
-      "url": "https://github.com/anuj0456/OpenArch",
+      "story_id": "story_592b799d103e",
+      "title": "Fireworks 评测 DeepSeek-V4.1-Flash：DeepSWE 达 GPT-6 Astra 水准、成本仅 1/15 / DeepSeek-V4.1-Flash on Fireworks： Astra-level DeepSWE at 1/15th the cost",
+      "url": "https://fireworks.ai/blog/DeepSeek-V4.1-Flash-Astra",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 75,
-          "review": "又一个PyTorch复现轮子，亮点是‘现代’和‘大型’，但没提具体实现了哪个模型。"
+          "score": 65,
+          "review": "成本优势是亮点，但‘达水准’的对比基准和具体任务定义敢不敢摊开说？"
         },
         "paper-police": {
-          "score": 85,
-          "review": "GitHub仓库公开，架构实现可查，但未见配套论文与基准评测报告。"
+          "score": 40,
+          "review": "第三方平台发布评测数字，但无开源代码与独立复现，证据尚不完整。"
         },
         "pragmatic": {
-          "score": 88,
-          "review": "可直接克隆的PyTorch架构实现，适合学习和快速实验。"
+          "score": 85,
+          "review": "第三方评测显示新模型性价比极高，选型时可直接参考其成本数据。"
         }
       }
     }
