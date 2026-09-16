@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T15:07:50.222003Z",
+  "generated_at": "2026-09-16T04:08:55.525340Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_e31e702be431",
-      "title": "Configure cost and quality in Copilot auto model selection",
-      "url": "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection",
+      "story_id": "story_47bd15dd2064",
+      "title": "GitHub Copilot suggests custom properties definitions",
+      "url": "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 72,
-          "review": "总算让用户自己权衡钱包和智商了，早该有的功能别吹成创新。"
+          "score": 65,
+          "review": "功能是实打实的，但‘智能’程度和‘建议’的准确性，得等开发者真用起来才知道。"
         },
         "paper-police": {
           "score": 15,
-          "review": "仅有官方博客宣称功能，无论文、代码或独立评测佐证。"
+          "review": "仅有官方博客功能宣称，无论文、代码或独立评测佐证。"
         },
         "pragmatic": {
           "score": 88,
-          "review": "GitHub Copilot 可手动调节成本与质量平衡，今天就能在设置里改。"
+          "review": "Copilot现在能自动补全CSS自定义属性，写样式时能省不少重复劳动。"
         }
       }
     },
     {
-      "story_id": "story_592b799d103e",
-      "title": "Fireworks 评测 DeepSeek-V4.1-Flash：DeepSWE 达 GPT-6 Astra 水准、成本仅 1/15 / DeepSeek-V4.1-Flash on Fireworks： Astra-level DeepSWE at 1/15th the cost",
-      "url": "https://fireworks.ai/blog/DeepSeek-V4.1-Flash-Astra",
+      "story_id": "story_f627ffc73bd0",
+      "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking / Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
       "rank": 2,
       "reviews": {
         "cynic": {
           "score": 65,
-          "review": "成本优势是亮点，但‘达水准’的对比基准和具体任务定义敢不敢摊开说？"
+          "review": "名字越长越唬人，Extended Thinking 听着像给思考过程加了个进度条。"
         },
         "paper-police": {
-          "score": 40,
-          "review": "第三方平台发布评测数字，但无开源代码与独立复现，证据尚不完整。"
+          "score": 15,
+          "review": "官方博客宣称性能，无论文无代码无第三方评测，证据不足。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "第三方评测显示新模型性价比极高，选型时可直接参考其成本数据。"
+          "review": "新模型API已发布，支持扩展思考，今天就能申请试用或集成。"
         }
       }
     },
     {
-      "story_id": "story_c447b2fec530",
-      "title": "DeepSeek Harness 官方桌面端即将就绪：三大平台支持，用 V4.1 Flash 还是自家最香",
-      "url": "https://www.aibase.com/news/31057",
+      "story_id": "story_9d2155aa5b6f",
+      "title": "Enforce GitHub Advanced Security configurations",
+      "url": "https://github.blog/changelog/2026-09-15-enforce-github-advanced-security-configurations",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "自家模型配自家客户端，优化是应该的，算不上什么香不香。"
+          "score": 75,
+          "review": "功能是实打实的，但‘强制执行’这个词听起来比实际功能更吓人。"
         },
         "paper-police": {
-          "score": 12,
-          "review": "仅有'即将就绪'的报道，无论文、代码或可验证的评测数据。"
+          "score": 15,
+          "review": "官方博客宣布功能，无论文无代码无独立评测，仅有说法。"
         },
         "pragmatic": {
-          "score": 75,
-          "review": "官方桌面客户端要来了，跨平台支持，用自家模型更方便。"
+          "score": 85,
+          "review": "可直接在组织层面统一配置安全策略，提升团队代码安全基线。"
         }
       }
     }

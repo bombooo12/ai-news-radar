@@ -137,6 +137,14 @@
         "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
         "source": "Google DeepMind",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "新模型API已发布，支持扩展思考，今天就能申请试用或集成。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-16T04:06:33.259821Z"
       }
     },
     {
@@ -214,6 +222,14 @@
         "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
         "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 72,
+      "persona_review": "开源了评估Agent一致性的方法，做测试和调优时可以参考。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-16T04:06:33.259821Z"
       }
     },
     {
@@ -291,6 +307,14 @@
         "url": "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 88,
+      "persona_review": "Copilot现在能自动补全CSS自定义属性，写样式时能省不少重复劳动。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-16T04:06:33.259821Z"
       }
     },
     {
@@ -368,6 +392,14 @@
         "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact",
         "source": "Google AI Blog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 25,
+      "persona_review": "谷歌官方博客的愿景宣传，与具体开发工具或技术无关。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-16T04:06:33.259821Z"
       }
     },
     {
@@ -445,6 +477,14 @@
         "url": "https://github.blog/changelog/2026-09-15-enforce-github-advanced-security-configurations",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "可直接在组织层面统一配置安全策略，提升团队代码安全基线。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-16T04:06:33.259821Z"
       }
     },
     {
@@ -522,6 +562,14 @@
         "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people",
         "source": "Google AI Blog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 25,
+      "persona_review": "官方愿景宣传，没有新工具或API，对当前工作无影响。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-16T04:06:33.259821Z"
       }
     },
     {
@@ -598,6 +646,14 @@
         "url": "https://www.aibase.com/news/31073",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 65,
+      "persona_review": "关注其API更新，可能影响语音交互类应用的设计与选型。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-16T04:06:33.259821Z"
       }
     },
     {
@@ -704,6 +760,14 @@
         "url": "https://the-decoder.com/not-everyone-is-convinced-that-big-ais-proposed-development-slowdown-is-really-about-safety",
         "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 25,
+      "persona_review": "巨头间的公关姿态，不影响你今天的模型选型和API调用。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-16T04:06:33.259821Z"
       }
     },
     {
@@ -780,6 +844,14 @@
         "url": "https://newsletter.pragmaticengineer.com/p/openai-software-factory",
         "source": "Pragmatic Engineer（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "内部工程实践分享，可借鉴思路，但无具体工具或代码发布。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-16T04:06:33.259821Z"
       }
     },
     {
@@ -857,6 +929,14 @@
         "url": "https://github.blog/changelog/2026-09-15-sha-1-in-https-on-github-sunset",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "HTTPS配置需更新，依赖旧证书的CI/CD流水线今天就得检查。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-16T04:06:33.259821Z"
       }
     },
     {
@@ -934,6 +1014,14 @@
         "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language",
         "source": "Google AI Blog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "官方愿景发布，等具体API或模型开源了再动手不迟。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-16T04:06:33.259821Z"
       }
     },
     {
@@ -1009,6 +1097,14 @@
         "url": "https://www.ithome.com/1/002/750.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "了解模型优化有数据标注环节，但用户隐私风险是老生常谈。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-16T04:06:33.259821Z"
       }
     },
     {
@@ -1084,6 +1180,14 @@
         "url": "https://x.com/arena/status/2099971741993050236",
         "source": "X：Arena (@arena)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 65,
+      "persona_review": "榜单更新影响模型选型，做图像生成网页的开发者需要参考。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-16T04:06:33.259821Z"
       }
     },
     {
@@ -1160,6 +1264,14 @@
         "url": "https://www.aibase.com/news/31068",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 70,
+      "persona_review": "Meta整合了AI工具的商业订阅方案，做海外营销或内容创作可评估成本。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-16T04:06:33.259821Z"
       }
     },
     {
@@ -1235,6 +1347,14 @@
         "url": "https://x.com/AravSrinivas/status/2099957318935028173",
         "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 82,
+      "persona_review": "开源了自研数据库方案，做高并发检索的团队可以研究借鉴。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-16T04:06:33.259821Z"
       }
     },
     {
@@ -1312,6 +1432,14 @@
         "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026",
         "source": "Google AI Blog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "官方宏观报告，了解趋势可以，但今天写代码用不上。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-16T04:06:33.259821Z"
       }
     },
     {
@@ -1388,6 +1516,14 @@
         "url": "https://www.aibase.com/news/31070",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "GPT-5.5和Codex即将停用，依赖其API的项目需立即迁移或寻找替代方案。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-16T04:06:33.259821Z"
       }
     },
     {
@@ -1464,6 +1600,14 @@
         "url": "https://www.aibase.com/news/31080",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "厂商常规产品发布，对开发者而言，等具体API或开源后再评估。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-16T04:06:33.259821Z"
       }
     },
     {
@@ -1540,6 +1684,14 @@
         "url": "https://www.aibase.com/news/31074",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 40,
+      "persona_review": "交互愿景很酷，但没开放API或产品，目前只是概念展示。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-16T04:06:33.259821Z"
       }
     },
     {
@@ -1616,6 +1768,14 @@
         "url": "https://www.aibase.com/news/31078",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "提醒你注意API服务条款，别在聊天里放敏感数据。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-16T04:06:33.259821Z"
       }
     }
   ]
