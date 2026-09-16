@@ -3,22 +3,21 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "AI智能体浪潮来袭！Vivo、OpenAI、Salesforce都在押注，普通人如何上车？",
+      "title": "AI广告新纪元！OpenAI推出“赞助智能体”，普通创作者如何抓住这波流量红利？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、想用AI提升效率的个人、对Agent/Skill感兴趣的小白",
-      "reason": "智能体（Agent/Skill）是当前AI技术热点，信息流密集，且符合创作者对新模型/工具的兴趣偏好，可做成系列内容。",
+      "target_audience": "AI初学者、想用AI变现的个人、自媒体创作者",
+      "reason": "OpenAI重大商业更新，将AI智能体与广告变现结合，对创作者是全新机会，实操性强且有争议性。",
       "source_items": [
-        "vivo 正式发布智能体大模型矩阵，并重磅预研 30B MoE 端侧大模型",
-        "Gergely Orosz 探访 OpenAI：Codex 驱动的智能体软件工厂",
-        "Salesforce in Claude is now available in beta. It brings your accounts, opportunities, and pipeline into Claude, with 37 pre-built sales skills."
+        "OpenAI expands ChatGPT ads with Sponsored Agents",
+        "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify",
+        "OpenAI is testing Sponsored Agents, which let users chat with business-sponsored agents and visit advertiser websites via ChatGPT ads"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/31091",
-        "https://newsletter.pragmaticengineer.com/p/openai-software-factory",
-        "https://x.com/claudeai/status/2099876514330206578",
-        "https://www.meetup.com/pydata_seattle/events/316322058",
-        "https://www.meetup.com/agentic-ai-context-builders/events/316217896"
+        "https://openai.com/index/reimagining-advertising-with-ai",
+        "https://news.ycombinator.com/item?id=49727041",
+        "https://www.techmeme.com/260916/p30",
+        "https://www.aibase.com/news/31070"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -27,12 +26,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "手把手教学：用ChatGPT+DeepSeek打造你的第一个AI工作助理",
-          "summary": "教AI初学者如何利用免费工具，通过提示词工程创建一个能处理特定任务的简易智能体。",
+          "hook": "手把手教你申请“赞助智能体”：把ChatGPT变成你的24小时业务员",
+          "summary": "教AI初学者如何理解并申请体验OpenAI的赞助智能体功能，将AI转化为引流工具。",
           "key_points": [
-            "定义助理的核心任务（如信息整理、邮件草拟）",
-            "设计结构化提示词，明确输入输出",
-            "在DeepSeek/ChatGPT中测试并迭代优化"
+            "解读“赞助智能体”是什么，与传统广告的区别",
+            "申请测试资格的步骤与技巧（模拟申请流程）",
+            "如何设计一个能吸引用户对话的智能体基础设定"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -40,13 +39,13 @@
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文",
-          "hook": "别被“智能体”忽悠了！新手最容易踩的三大坑",
-          "summary": "指出AI初学者在接触智能体概念时常见的误解和无效尝试，并提供正确思路。",
+          "format": "短视频",
+          "hook": "“赞助智能体”三大天坑：别让你的AI客服变成品牌杀手",
+          "summary": "指出在设计和部署赞助智能体时，可能触犯平台规则、损害品牌形象的常见陷阱。",
           "pitfalls": [
-            "坑点1：认为Agent必须写代码，其实用好提示词就能入门",
-            "坑点2：盲目追求复杂功能，忽略了解决具体问题的核心",
-            "坑点3：忽视数据隐私，把敏感信息喂给公开模型"
+            "坑点1：过度营销导致对话被标记为垃圾信息",
+            "坑点2：智能体回答不准确或引发争议的法律风险",
+            "坑点3：忽视用户体验，导致流量来了却留不住"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -55,12 +54,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从OpenAI到Vivo：为何所有巨头都在疯狂布局“智能体”？",
-          "summary": "分析智能体（Agent/Skill）成为AI下一战场的底层逻辑、商业价值及对普通人的机会。",
+          "hook": "从GPT-5.5下线到赞助智能体：OpenAI的“AI即服务”野心与你的机会",
+          "summary": "分析OpenAI近期动作背后的商业逻辑，以及普通创作者在AI平台化趋势下的新定位。",
           "insights": [
-            "洞察1：智能体是AI从“聊天”走向“做事”的关键跃迁",
-            "洞察2：端侧模型（如Vivo 30B MoE）让个人AI助理更私密、更实时",
-            "洞察3：未来竞争在于生态，谁能提供最多、最好用的Skill谁就赢"
+            "洞察1：GPT-5.5下线意味着OpenAI正加速产品线向“智能体”与“服务”转型",
+            "洞察2：赞助智能体是AI变现的“平台化”尝试，类似早期的应用商店",
+            "洞察3：对小微企业和个人IP而言，这是低成本获取精准流量的新渠道"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -69,82 +68,18 @@
     },
     {
       "rank": 2,
-      "title": "用AI拍电影？Seedance教程+国产Vidu S2发布，视频创作门槛彻底崩了",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI初学者、视频内容创作者、对AI视频生成感兴趣的小白",
-      "reason": "结合海外Seedance教程和国产Vidu S2发布，热点性强，实操教程和工具测评是创作者擅长且受众需求高的内容。",
-      "source_items": [
-        "How to Think Like a Filmmaker: AI Video With Seedance",
-        "生数科技正式发布 Vidu S2，支持实时编辑、动态参考图与头显适配"
-      ],
-      "source_urls": [
-        "https://www.socialmediaexaminer.com/how-to-think-like-a-filmmaker-ai-video-with-seedance",
-        "https://www.aibase.com/news/31093",
-        "https://mp.weixin.qq.com/s?__biz=MzkzMDQ5NTQwMQ%3D%3D&mid=2247489246&idx=2&sn=b23b39da69f6c75594eccac11854111f",
-        "https://entertainment.slashdot.org/story/26/09/14/0115231/while-hollywood-fears-an-ai-future-chinas-film-industry-is-embracing-it"
-      ],
-      "urgency": "high",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "视频",
-          "hook": "零基础用AI生成电影感短片：Seedance工作流全揭秘",
-          "summary": "通过视频剪辑演示，一步步教用户如何利用Seedance等AI工具构思并生成一个有故事性的短视频。",
-          "key_points": [
-            "用ChatGPT生成分镜脚本和提示词",
-            "在Seedance/Pika等工具中生成关键画面",
-            "使用剪映进行配音、转场和包装合成"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "45分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文+短视频",
-          "hook": "AI生成视频的“鬼畜”陷阱：如何避免人物扭曲、画面闪烁？",
-          "summary": "指出AI视频生成中常见的画面质量问题，并提供具体的提示词技巧和后期修复方法。",
-          "pitfalls": [
-            "坑点1：人物连续动作中的“恐怖谷”效应及规避",
-            "坑点2：画面闪烁、元素突变的原因和稳定技巧",
-            "坑点3：忽视版权，直接使用生成内容可能侵权"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "Vidu S2发布，好莱坞恐惧，中国影业拥抱：AI视频的冰与火之歌",
-          "summary": "对比分析国内外对AI视频的态度差异，解读Vidu S2技术亮点背后的产业趋势和普通人机会。",
-          "insights": [
-            "洞察1：实时编辑和空间视频是下一代内容交互的核心",
-            "洞察2：中国应用层创新可能绕过底层模型短板，快速落地",
-            "洞察3：对个人创作者而言，叙事和创意能力将比工具操作更重要"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "title": "B站单日涨粉3万！拆解“野人先生”流量密码，AI创作者如何复制？",
+      "title": "告别加班！用AI三步自动化90%内容工作流，实测效果大公开",
       "track": "自媒体/创作者经济",
       "track_name": "自媒体/创作者经济",
-      "target_audience": "AI初学者、自媒体创作者、想用AI变现的个人",
-      "reason": "结合“野人先生”涨粉案例，符合创作者对争议性/数据驱动型内容的偏好，能将AI工具与自媒体运营策略结合。",
+      "target_audience": "AI初学者、自媒体创作者、内容运营者",
+      "reason": "完美契合创作者“自动化”偏好，实操性强，直接解决内容生产痛点，数据驱动有说服力。",
       "source_items": [
-        "早报｜雷军同日到访宇树与B站/罗永浩差评带来流量，野人先生单日涨粉近3万/鸿蒙智行确认问界合作调整，赛力斯主导"
+        "My 3-Step System to Automate 90% of My Content Workflow with AI"
       ],
       "source_urls": [
+        "https://creatoreconomy.so/p/my-3-step-system-to-automate-90-of",
         "https://www.ifanr.com/1680293",
-        "https://www.socialmediaexaminer.com/instagram-email-subscriber-tactic-no-ad-youtube-strategy-and-industry-news",
-        "https://www.adweek.com/brand-marketing/snaps-grace-kao-on-conversational-marketing-and-the-future-of-brand-engagement"
+        "https://www.adweek.com/creativity/bobbie-enlists-nara-smith-for-a-satirical-take-on-parenting-pressure"
       ],
       "urgency": "medium",
       "viral_potential": "high",
@@ -152,13 +87,13 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "三步法：用AI批量生成“争议性”内容标题和文案，撬动平台流量",
-          "summary": "教用户如何利用AI工具分析热点、制造话题冲突，快速生产容易引发传播的内容雏形。",
+          "format": "视频",
+          "hook": "【剪映+Davinci+AI】全流程演示：如何用AI自动生成图文、视频脚本和剪辑",
+          "summary": "通过屏幕录制，展示从选题、文案生成、到视频剪辑包装的完整AI自动化流程。",
           "key_points": [
-            "用AI工具监控和提炼当日争议热点",
-            "学习“反常识”标题公式，并用AI批量生成变体",
-            "用AI辅助撰写具有讨论空间的文案框架"
+            "第一步：用ChatGPT/TRAE批量生成选题和文案大纲",
+            "第二步：用Midjourney生成配图或AI视频工具生成素材",
+            "第三步：利用剪映/Davinci的AI功能快速剪辑成片"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -167,12 +102,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "小心被封号！“黑红”流量玩法背后的三大雷区",
-          "summary": "指出追求争议性流量时容易触犯平台规则、引发负面反噬的风险，并提供安全操作建议。",
+          "hook": "AI自动化内容三大“翻车”现场：为什么你的内容没人看？",
+          "summary": "指出盲目追求自动化导致内容同质化、失去个人风格、平台判定低质的风险。",
           "pitfalls": [
-            "坑点1：为博眼球散布虚假信息或过度引战",
-            "坑点2：忽视内容价值，导致粉丝留存率极低",
-            "坑点3：触碰政治、性别等敏感话题红线"
+            "坑点1：过度依赖AI导致内容缺乏灵魂和独特性",
+            "坑点2：不同平台算法喜好不同，一套流程走天下效果差",
+            "坑点3：忽视版权风险，AI生成的图片/文案可能侵权"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -181,12 +116,77 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从“野人先生”到罗永浩：差评流量为何在当下成为爆款引擎？",
-          "summary": "分析当下社交媒体环境中，“负面情绪”和“冲突叙事”更容易获得传播的底层算法和用户心理。",
+          "hook": "从“野人先生”爆火看AI自动化：流量密码是效率，更是“人味”",
+          "summary": "结合热点案例，分析在AI自动化时代，如何平衡效率与人性化表达，打造爆款。",
           "insights": [
-            "洞察1：算法偏好“互动率”，争议内容天然驱动评论转发",
-            "洞察2：用户疲劳于完美人设，真实甚至负面的表达更显可信",
-            "洞察3：流量玩法可借鉴，但长期品牌需回归价值提供"
+            "洞察1：AI解决的是“量产”问题，但“爆款”仍需基于人性的洞察和创意",
+            "洞察2：未来创作者的核心竞争力：AI工具使用能力 + 独特视角与审美",
+            "洞察3：自动化工作流是基础，但成功的IP需要建立情感连接和信任"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "智能体“软件工厂”来了！普通人如何用RAG搭建自己的专属AI助手？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、对Agent/Skill感兴趣的用户、小微创业者",
+      "reason": "结合OpenAI智能体工厂和RAG热点，提供面向初学者的实操方案，符合用户对新模型/工具的兴趣。",
+      "source_items": [
+        "Gergely Orosz 探访 OpenAI：Codex 驱动的智能体软件工厂",
+        "Building Production-Ready AI: Agentic Systems, RAG & Responsible AI",
+        "vivo 正式发布智能体大模型矩阵"
+      ],
+      "source_urls": [
+        "https://newsletter.pragmaticengineer.com/p/openai-software-factory",
+        "https://www.meetup.com/pydata_seattle/events/316322058",
+        "https://www.aibase.com/news/31091",
+        "https://www.infoq.cn/video/bj4Q9E2PBJfUWIRZkutu"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "零代码！用ChatGPT+免费工具，为你的商标代理公司打造“知识库AI客服”",
+          "summary": "教用户如何利用现有的AI工具和简单流程，搭建一个能回答专业问题的RAG式智能体。",
+          "key_points": [
+            "核心步骤1：整理商标注册常见问题文档（知识库）",
+            "核心步骤2：使用ChatGPT File Upload或类似工具喂给AI",
+            "核心步骤3：设计提示词，让AI基于文档精准回答，并引导转化"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "短视频",
+          "hook": "RAG智能体三大“幻觉”：小心你的AI助手胡说八道害你丢客户",
+          "summary": "指出搭建RAG系统时，AI“幻觉”、知识库更新不及时、回答不准确等风险。",
+          "pitfalls": [
+            "坑点1：AI可能“编造”知识库中没有的答案（幻觉）",
+            "坑点2：知识库文档格式混乱，导致AI理解错误",
+            "坑点3：未设置安全边界，AI可能给出错误法律或业务建议"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "从OpenAI软件工厂到vivo大模型矩阵：智能体时代，小公司如何“借力”生存？",
+          "summary": "分析大厂智能体战略下，小微企业和个人如何利用公开工具和API，构建自己的竞争壁垒。",
+          "insights": [
+            "洞察1：智能体正在成为新的“操作系统”，应用生态是关键",
+            "洞察2：对于垂直领域（如商标），高质量、专属的知识库是核心资产",
+            "洞察3：未来竞争不是比谁的大模型强，而是比谁能更好地将AI与业务结合"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -195,82 +195,18 @@
     },
     {
       "rank": 4,
-      "title": "你的AI创作有版权吗？OpenAI人工审核聊天记录，给所有创作者敲响警钟",
+      "title": "AIGC剧情向视频实战：如何用AI自动生成“商标维权”故事，低成本引流获客？",
       "track": "商标/IP/创业",
       "track_name": "商标/IP/创业",
-      "target_audience": "AI初学者、内容创作者、需要商标/IP服务的小微企业主",
-      "reason": "将AI热点（OpenAI审核）与创作者的商标/IP业务结合，用AIGC剧情向内容科普版权风险，实现高效引流。",
+      "target_audience": "需要商标注册服务的小微企业主、对AIGC剧情感兴趣的内容创作者",
+      "reason": "完美结合创作者“AIGC剧情向引流”的偏好和自身业务，实操性强，能直接服务副线目标。",
       "source_items": [
-        "404 Media 曝光 OpenAI 莉莉计划：人工审核 ChatGPT 聊天记录以优化模型",
-        "Transboundary brand collaborations in China: from pre-execution to termination"
+        "从概率生成到稳定交付：AIGC专业内容生产的工程化挑战"
       ],
       "source_urls": [
-        "https://www.ithome.com/1/002/750.htm",
-        "https://www.managingip.com/article/2gwcha17zl3ydyvsep14w/sponsored-content/transboundary-brand-collaborations-in-china-from-pre-execution-to-termination",
-        "https://copyrightalliance.org/michelle-shocked-creator-member-catch-up",
-        "https://www.managingip.com/article/2gwd3awxgz3qwr1u47nr4/sponsored-content/philippines-draft-guidelines-on-ai-unpacking-the-key-points-as-consultation-held"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "AIGC剧情向视频",
-          "hook": "【AI小剧场】我用AI画的logo，怎么就被告侵权了？",
-          "summary": "通过AI生成的动画短片，演示一个创作者因使用AI生成商业标识而陷入版权纠纷的故事，引出问题。",
-          "key_points": [
-            "用Midjourney生成一个疑似侵权某品牌的logo",
-            "展示收到律师函的戏剧化情节",
-            "视频结尾给出“如何自查”的步骤提示"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "3小时（含AI生成时间）"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "用AI搞副业？这四类内容最容易惹上版权官司",
-          "summary": "明确指出AI生成内容在商业使用中风险最高的领域，并提供具体的规避和核查清单。",
-          "pitfalls": [
-            "坑点1：直接使用AI生成的、带有明显现有品牌元素的图案",
-            "坑点2：将AI生成的文案、代码声称原创并售卖",
-            "坑点3：用名人肖像或受版权保护的画风进行AI训练和生成"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "OpenAI偷偷审核你的聊天，AI版权“罗生门”才刚刚开始",
-          "summary": "深度分析AI公司审核用户数据背后的法律、伦理困境，以及对未来AIGC版权归属和商业化的深远影响。",
-          "insights": [
-            "洞察1：用户提示词和生成物，版权归属在法律上仍是灰色地带",
-            "洞察2：平台审核是为合规，但也可能扼杀创新和隐私",
-            "洞察3：未来“AI内容溯源”技术将成为版权确认的关键"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "title": "告别无效提示词！用Claude新技能“销售专家”，实战演练AI副业变现",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "想用AI变现的个人、AI初学者、小微创业者",
-      "reason": "紧扣Claude新发布的Salesforce技能，将AI工具与“副业变现”强结合，实操性强，符合创作者和受众需求。",
-      "source_items": [
-        "Salesforce in Claude is now available in beta. It brings your accounts, opportunities, and pipeline into Claude, with 37 pre-built sales skills."
-      ],
-      "source_urls": [
-        "https://x.com/claudeai/status/2099876514330206578",
-        "https://www.aibase.com/news/31067",
-        "https://www.socialmediaexaminer.com/instagram-email-subscriber-tactic-no-ad-youtube-strategy-and-industry-news"
+        "https://www.infoq.cn/video/bj4Q9E2PBJfUWIRZkutu",
+        "https://www.aibase.com/news/31093",
+        "https://entertainment.slashdot.org/story/26/09/14/0115231/while-hollywood-fears-an-ai-future-chinas-film-industry-is-embracing-it"
       ],
       "urgency": "medium",
       "viral_potential": "high",
@@ -278,27 +214,27 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文+录屏",
-          "hook": "模拟创业：用Claude销售技能，半小时搞定你的第一份商业计划书",
-          "summary": "教用户如何利用Claude的内置技能，快速完成市场分析、客户画像、销售策略等创业核心模块。",
+          "format": "视频",
+          "hook": "【全AI制作】三步生成“商标被抢注”情景剧：从脚本到成片，无需演员和拍摄",
+          "summary": "演示如何用AI工具链（文案、图像、语音、视频合成）完整制作一个业务引流短视频。",
           "key_points": [
-            "激活并使用Claude的“市场研究”和“客户洞察”技能",
-            "根据AI分析结果，构建简单的销售漏斗模型",
-            "让Claude辅助撰写一份一页纸商业计划书摘要"
+            "第一步：用ChatGPT生成带有冲突和反转的商标纠纷短剧脚本",
+            "第二步：用Midjourney/类似工具生成角色和场景图，或使用Vidu S2等视频生成工具",
+            "第三步：用剪映搭配AI配音、字幕、音效完成剪辑包装"
           ],
           "difficulty": "入门",
-          "estimated_time": "40分钟"
+          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI谈钱伤感情？用Claude做销售模拟时千万别说的三句话",
-          "summary": "指出在利用AI进行销售或商业模拟时，因提示词不当可能导致结果虚假或无效的常见问题。",
+          "hook": "AIGC剧情视频引流五大“翻车点”：搞不好反而损害专业形象",
+          "summary": "指出在利用AIGC制作专业领域剧情内容时，可能出现的法律、伦理和品牌形象问题。",
           "pitfalls": [
-            "坑点1：提问过于空泛，如“怎么赚钱”，AI只能给出鸡汤",
-            "坑点2：输入虚假或矛盾的业务数据，导致分析结论完全错误",
-            "坑点3：完全依赖AI输出，不做任何现实校验和逻辑判断"
+            "坑点1：剧情夸张失实，涉嫌诋毁同行或误导观众",
+            "坑点2：AI生成的人物形象或场景可能存在版权风险",
+            "坑点3：过度追求流量，内容低俗化，与专业服务定位不符"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -307,12 +243,74 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从“聊天”到“谈生意”：Claude集成Salesforce，预示了AI怎样的未来？",
-          "summary": "分析AI工具从通用对话向垂直领域深度集成（如CRM）的趋势，及其对个人副业和小微企业工作流的重塑。",
+          "hook": "好莱坞恐惧，中国电影拥抱：从产业差异看AIGC内容创业的黄金窗口期",
+          "summary": "结合国内外对AI内容的态度差异，分析当前阶段个人和小团队在AIGC内容创业中的独特优势。",
           "insights": [
-            "洞察1：AI的竞争正从“模型能力”转向“生态系统”和“工作流集成”",
-            "洞察2：未来每个职业都可能拥有专属的AI技能包，门槛降低、效率飙升",
-            "洞察3：个人需要学习的是“如何指挥AI协同工作”，而非单一工具操作"
+            "洞察1：在传统内容生产体系犹豫时，灵活的个人创作者已抢占AIGC内容心智",
+            "洞察2：AIGC降低了专业内容门槛，让“知识服务可视化（剧情化）”成为可能",
+            "洞察3：对于商标/IP这类垂直领域，AIGC剧情是建立认知、传递复杂知识的有效形式"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "AI视频编辑新王牌？深度测评“生数科技Vidu S2”，实时编辑到底有多强？",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "AI初学者、视频剪辑爱好者、自媒体创作者",
+      "reason": "匹配创作者在AI视频赛道的高选用率，新工具测评符合“对新模型/工具感兴趣”的反馈，实操测评内容易传播。",
+      "source_items": [
+        "​生数科技正式发布 Vidu S2，支持实时编辑、动态参考图与头显适配"
+      ],
+      "source_urls": [
+        "https://www.aibase.com/news/31093",
+        "https://www.meetup.com/bay-area-ai-artists/events/316379184",
+        "https://www.meetup.com/singapore-computer-vision-meetup/events/316064248"
+      ],
+      "urgency": "high",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "测评",
+          "hook": "Vidu S2首发实测：如何用“动态参考图”功能，一键让静态照片“动”起来？",
+          "summary": "通过实际案例操作，展示Vidu S2的核心新功能，并给出具体的操作步骤和效果对比。",
+          "key_points": [
+            "核心步骤1：准备一张人物或产品静态照片作为基础",
+            "核心步骤2：上传一段动作视频或选择预设动作作为“动态参考图”",
+            "核心步骤3：调整参数并生成，观察照片中元素的运动效果"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "短视频",
+          "hook": "别急着付费！Vidu S2目前三大“硬伤”，小白劝退指南",
+          "summary": "基于实测，指出Vidu S2在现阶段对初学者不友好的地方、隐藏成本和使用限制。",
+          "pitfalls": [
+            "坑点1：对硬件要求高，普通电脑可能无法流畅运行",
+            "坑点2：“实时编辑”有延迟，并非真正的零延迟",
+            "坑点3：生成结果不稳定，需要多次尝试和精细调参"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "从Sora到Vidu S2：AI视频生成从“炫技”走向“实用”的关键一步是什么？",
+          "summary": "分析Vidu S2强调的“实时编辑”等功能背后，AI视频工具发展的趋势和商业化路径。",
+          "insights": [
+            "洞察1：“可控性”和“工作流集成”是AI视频工具能否被创作者采纳的关键",
+            "洞察2：国内AI视频团队正尝试通过垂直场景（如电商、教育）实现差异化",
+            "洞察3：对于普通创作者，关注工具是否能提升现有工作流效率，比追求“效果爆炸”更重要"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -321,21 +319,21 @@
     }
   ],
   "weekly_plan": {
-    "monday": "AI智能体浪潮来袭！Vivo、OpenAI、Salesforce都在押注，普通人如何上车？（实操教程角度）",
-    "wednesday": "用AI拍电影？Seedance教程+国产Vidu S2发布，视频创作门槛彻底崩了（避坑指南角度）",
-    "friday": "你的AI创作有版权吗？OpenAI人工审核聊天记录，给所有创作者敲响警钟（AIGC剧情向视频角度）",
-    "strategy": "本周聚焦“AI热点工具实操+风险警示”，用高实操性内容吸引初学者，并用版权话题自然引流至商标/IP业务。"
+    "monday": "AI广告新纪元！OpenAI推出“赞助智能体”，普通创作者如何抓住这波流量红利？（实操教程角度）",
+    "wednesday": "告别加班！用AI三步自动化90%内容工作流，实测效果大公开（避坑指南角度）",
+    "friday": "AIGC剧情向视频实战：如何用AI自动生成“商标维权”故事，低成本引流获客？（实操教程角度）",
+    "strategy": "本周聚焦“AI+变现”与“AI+自动化”，以热点工具测评和业务结合案例为主，穿插深度趋势解读，强化实操和引流属性。"
   },
-  "insights": "今日信息流显示，AI技术正加速向“智能体/技能”的实用化、与“视频生成”的工业化迈进，同时自媒体流量玩法与AI版权问题成为交织的热点。",
-  "ai_adjustment": "基于用户反馈“对新模型、新工具比较感兴趣”和“Harness是热点”，本次推荐重点围绕Agent/Skill、新视频模型等工具类热点展开，并规避了硬件相关选题。",
-  "generated_at": "2026-09-16T17:12:42.991901+08:00",
-  "total_items": 526,
-  "scored_items": 432,
+  "insights": "今日信息流显示，AI正从技术探索加速转向商业应用和生态构建（如OpenAI赞助智能体、智能体软件工厂），同时内容创作的自动化与AIGC剧情化成为明确的效率与引流趋势。",
+  "ai_adjustment": "基于用户“对新模型/工具感兴趣”和“Harness是热点”的反馈，本次推荐强化了AI技术赛道的新工具、新功能解读（如Vidu S2、赞助智能体），并增加了AIGC剧情向与商标业务结合的具体选题。",
+  "generated_at": "2026-09-16T23:14:50.122788+08:00",
+  "total_items": 478,
+  "scored_items": 390,
   "tracks_summary": {
-    "creator_economy": 20,
-    "ai_tech": 401,
-    "ai_video": 7,
-    "trademark_business": 3,
+    "creator_economy": 16,
+    "ai_tech": 366,
+    "ai_video": 6,
+    "trademark_business": 1,
     "growth_monetize": 1
   },
   "engine_version": "v2",
