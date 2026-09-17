@@ -1,78 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_4346047ee8ea|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "案例故事，无新工具或API，想参考落地场景可看，但别指望有干货。",
-      "title_hash": "8c0080a7",
-      "scored_at": "2026-08-27T03:59:37.297766Z"
-    },
-    "story_95764e895938|pragmatic|0a5c5b24": {
-      "score": 75,
-      "review": "规则洞察仪表盘正式可用，做安全扫描的团队可以接上，看规则命中率更方便。",
-      "title_hash": "b8b84bed",
-      "scored_at": "2026-08-27T03:59:41.495193Z"
-    },
-    "story_922544fb38bf|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "收入数据是商业信号，不影响选型，做API对比时顺带看一眼即可。",
-      "title_hash": "a6fd0a0e",
-      "scored_at": "2026-08-27T03:59:44.680297Z"
-    },
-    "story_6ec774358beb|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "商业谈判没产品细节，开发者不用动，等K3真开放再说。",
-      "title_hash": "0fdab446",
-      "scored_at": "2026-08-27T03:59:53.913414Z"
-    },
-    "story_c84a4b0b7ec0|pragmatic|0a5c5b24": {
-      "score": 30,
-      "review": "财报影响股价和情绪，不改变今天能用的工具，等数字落地再看。",
-      "title_hash": "ee6edf36",
-      "scored_at": "2026-08-27T04:01:27.272810Z"
-    },
-    "story_04e4cb4fff13|pragmatic|0a5c5b24": {
-      "score": 62,
-      "review": "跑分看看就好，选型还得看自家机型实测，别急着换。",
-      "title_hash": "07e75252",
-      "scored_at": "2026-08-27T04:01:30.426274Z"
-    },
-    "story_0be877002fab|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "融资和营收数字不写代码，等模型或 API 有实际变化再关注。",
-      "title_hash": "7d6afe08",
-      "scored_at": "2026-08-27T04:01:40.396459Z"
-    },
-    "story_a2e3eb29cde0|pragmatic|0a5c5b24": {
-      "score": 76,
-      "review": "统一异步接口省去逐个对接，做多模型聚合的今天就能参考。",
-      "title_hash": "ebd409d4",
-      "scored_at": "2026-08-27T04:02:05.938162Z"
-    },
-    "story_8905d625b3de|pragmatic|0a5c5b24": {
-      "score": 30,
-      "review": "宏观就业趋势，不改变今天的工具选型，入门开发者多学点硬技能更实在。",
-      "title_hash": "35dbf4a8",
-      "scored_at": "2026-08-27T04:02:11.855036Z"
-    },
-    "story_a2e3eb29cde0|cynic|f4237a62": {
-      "score": 35,
-      "review": "一篇接入指南也配叫行业动态？先跑通demo再说。",
-      "title_hash": "ebd409d4",
-      "scored_at": "2026-08-27T04:02:22.933232Z"
-    },
-    "story_a2e3eb29cde0|paper-police|966065bf": {
-      "score": 25,
-      "review": "只有接入指南，无评测数据，需实际调用验证。",
-      "title_hash": "ebd409d4",
-      "scored_at": "2026-08-27T04:02:49.007681Z"
-    },
-    "story_95764e895938|cynic|f4237a62": {
-      "score": 75,
-      "review": "仪表盘GA了，但规则命中率低时，它只会如实告诉你有多惨。",
-      "title_hash": "b8b84bed",
-      "scored_at": "2026-08-27T04:03:05.695716Z"
-    },
     "story_b2c58e34aaf2|pragmatic|0a5c5b24": {
       "score": 55,
       "review": "京东内部物流优化，不开放API，普通开发者用不上，仅作行业落地参考。",
@@ -4704,6 +4632,126 @@
       "review": "官方博客仅宣布功能更新，无论文、代码或第三方评测支撑其AI能力。",
       "title_hash": "90718fc2",
       "scored_at": "2026-09-16T15:08:38.796907Z"
+    },
+    "story_524b99f2deb6|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "提供了用AI辅助大型代码迁移的真实案例和具体方法，可参考其工程实践。",
+      "title_hash": "2793ca96",
+      "scored_at": "2026-09-17T04:07:10.392162Z"
+    },
+    "story_6210c4b108ab|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "企业管理员现在可以正式申请提高Copilot预算上限了。",
+      "title_hash": "dd98c4e9",
+      "scored_at": "2026-09-17T04:07:13.631182Z"
+    },
+    "story_a3ab3422578f|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "Claude产品线统一，Docs、Slides等新功能已上线，可直接试用。",
+      "title_hash": "4e3f185f",
+      "scored_at": "2026-09-17T04:07:20.392357Z"
+    },
+    "story_76db13fd8fea|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "公开了评估框架和案例，对做安全评估的团队有参考价值。",
+      "title_hash": "2065e078",
+      "scored_at": "2026-09-17T04:07:23.769420Z"
+    },
+    "story_d6e73104d607|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "GitHub SSO授权自动化，管理企业PAT和SSH密钥的合规工作可以简化了。",
+      "title_hash": "c16c6a2e",
+      "scored_at": "2026-09-17T04:07:28.874384Z"
+    },
+    "story_636869304a68|pragmatic|0a5c5b24": {
+      "score": 65,
+      "review": "披露了未发布模型的安全风险，提醒从业者需关注指令鲁棒性设计。",
+      "title_hash": "3ce80158",
+      "scored_at": "2026-09-17T04:07:32.099368Z"
+    },
+    "story_df20ed226138|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "安全警示有参考价值，但具体漏洞和防护措施未明，仍需等待技术细节。",
+      "title_hash": "0fa1d2d4",
+      "scored_at": "2026-09-17T04:07:36.400420Z"
+    },
+    "story_4b28983f879b|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "SCIM接口加了新字段，做企业用户同步的开发者需要知道。",
+      "title_hash": "720bccd5",
+      "scored_at": "2026-09-17T04:07:39.549537Z"
+    },
+    "story_8ce36e5af566|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "官方社会影响报告，与开发者选型或技术实现无关。",
+      "title_hash": "555123ad",
+      "scored_at": "2026-09-17T04:07:42.716338Z"
+    },
+    "story_b8d37f3b3430|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "监管口水战，不影响你今天调API或选模型。",
+      "title_hash": "8dffb878",
+      "scored_at": "2026-09-17T04:07:46.941202Z"
+    },
+    "story_bb49b6e3b62b|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "提供了具体插件方案，可立即操作以优化GPT使用成本。",
+      "title_hash": "ab9bd463",
+      "scored_at": "2026-09-17T04:08:02.947296Z"
+    },
+    "story_180d89046d07|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "Claude 对话内直接处理文档和PPT，能立刻提升办公和内容生成效率。",
+      "title_hash": "5ab0e207",
+      "scored_at": "2026-09-17T04:08:07.825719Z"
+    },
+    "story_8c35cf0772a6|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "方法论文章，不提供新工具或API，对写代码没直接帮助。",
+      "title_hash": "8cf5a2b9",
+      "scored_at": "2026-09-17T04:08:12.068283Z"
+    },
+    "story_93ada1416ace|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "只是算力基建布局，对开发者近期选型和使用没直接影响。",
+      "title_hash": "0d2fc473",
+      "scored_at": "2026-09-17T04:08:15.498235Z"
+    },
+    "story_20d27da6a9f4|pragmatic|0a5c5b24": {
+      "score": 15,
+      "review": "官网宣传稿，没有新工具或API，对开发者无实际影响。",
+      "title_hash": "6267f011",
+      "scored_at": "2026-09-17T04:08:18.439446Z"
+    },
+    "story_fe2e25c6840c|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "Claude桌面端整合，多任务切换更顺滑，可以试试新工作流。",
+      "title_hash": "e441f5b3",
+      "scored_at": "2026-09-17T04:08:21.709705Z"
+    },
+    "story_6210c4b108ab|cynic|f4237a62": {
+      "score": 35,
+      "review": "功能是加了，但花钱买更多额度的功能，也值得专门发个GA公告？",
+      "title_hash": "dd98c4e9",
+      "scored_at": "2026-09-17T04:08:26.923695Z"
+    },
+    "story_6210c4b108ab|paper-police|966065bf": {
+      "score": 15,
+      "review": "仅有官方博客功能通告，无技术细节、评测数据或第三方验证。",
+      "title_hash": "dd98c4e9",
+      "scored_at": "2026-09-17T04:08:31.151338Z"
+    },
+    "story_d6e73104d607|cynic|f4237a62": {
+      "score": 75,
+      "review": "功能是实在的，但‘自动化’听着像新东西，其实早该有了。",
+      "title_hash": "c16c6a2e",
+      "scored_at": "2026-09-17T04:08:34.492719Z"
+    },
+    "story_d6e73104d607|paper-police|966065bf": {
+      "score": 45,
+      "review": "官方博客公布了功能细节，但无独立评测或可复现的基准。",
+      "title_hash": "c16c6a2e",
+      "scored_at": "2026-09-17T04:08:46.730149Z"
     }
   }
 }

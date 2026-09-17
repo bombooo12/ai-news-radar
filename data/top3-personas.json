@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T15:08:38.797005Z",
+  "generated_at": "2026-09-17T04:08:46.730216Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,42 +17,42 @@
   ],
   "items": [
     {
-      "story_id": "story_47bd15dd2064",
-      "title": "GitHub Copilot suggests custom properties definitions",
-      "url": "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions",
+      "story_id": "story_6210c4b108ab",
+      "title": "Copilot budget increase requests are generally available",
+      "url": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "功能是实打实的，但‘智能’程度和‘建议’的准确性，得等开发者真用起来才知道。"
+          "score": 35,
+          "review": "功能是加了，但花钱买更多额度的功能，也值得专门发个GA公告？"
         },
         "paper-police": {
           "score": 15,
-          "review": "仅有官方博客功能宣称，无论文、代码或独立评测佐证。"
+          "review": "仅有官方博客功能通告，无技术细节、评测数据或第三方验证。"
         },
         "pragmatic": {
-          "score": 88,
-          "review": "Copilot现在能自动补全CSS自定义属性，写样式时能省不少重复劳动。"
+          "score": 85,
+          "review": "企业管理员现在可以正式申请提高Copilot预算上限了。"
         }
       }
     },
     {
-      "story_id": "story_f627ffc73bd0",
-      "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking / Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
+      "story_id": "story_d6e73104d607",
+      "title": "Automate SSO authorization for classic PATs and SSH keys",
+      "url": "https://github.blog/changelog/2026-09-16-automate-sso-authorization-for-classic-pats-and-ssh-keys",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "名字越长越唬人，Extended Thinking 听着像给思考过程加了个进度条。"
+          "score": 75,
+          "review": "功能是实在的，但‘自动化’听着像新东西，其实早该有了。"
         },
         "paper-police": {
-          "score": 15,
-          "review": "官方博客宣称性能，无论文无代码无第三方评测，证据不足。"
+          "score": 45,
+          "review": "官方博客公布了功能细节，但无独立评测或可复现的基准。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "新模型API已发布，支持扩展思考，今天就能申请试用或集成。"
+          "review": "GitHub SSO授权自动化，管理企业PAT和SSH密钥的合规工作可以简化了。"
         }
       }
     },
