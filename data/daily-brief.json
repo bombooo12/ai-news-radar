@@ -1,8 +1,229 @@
 {
-  "generated_at": "2026-09-18T04:05:16.127481Z",
+  "generated_at": "2026-09-18T09:05:10.806318Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_0c1bd57d4904",
+      "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
+      "url": "https://www.hacktron.ai/blog/hacking-openai",
+      "primary_url": "https://www.hacktron.ai/blog/hacking-openai",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "7d2e860c12e91824b743f2cd0766b4a7888011b4",
+          "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
+          "title_zh": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
+          "title_en": null,
+          "title_original": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
+          "summary": "Hacktron 团队披露 2026 年 7 月 25 日 chained libheif 堆缓冲区溢出与 OpenAI SSO 身份缺陷，攻破 community.openai.com 并接管多名员工 ChatGPT/Codex 账号，用员工 Codex 在 OpenAI 内部 monorepo 开出无害 PR 作为证明，全程不到 72 小时。",
+          "recommend_reason_zh": null,
+          "url": "https://www.hacktron.ai/blog/hacking-openai",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-18T04:45:46.237000Z"
+        },
+        {
+          "id": "670084e32196613c0b728bbf7574fe486402723a",
+          "title": "入侵OpenAI",
+          "title_zh": "入侵OpenAI",
+          "title_en": null,
+          "title_original": "入侵OpenAI",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.hacktron.ai/blog/hacking-openai",
+          "source": "www.hacktron.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-18T04:45:46.237000Z"
+        },
+        {
+          "id": "fc06b529e408a2880b0e1fe8642be63f6882ebbc",
+          "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号 / A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+          "title_zh": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
+          "title_en": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+          "title_original": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.hacktron.ai/blog/hacking-openai",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-18T02:47:24Z"
+        },
+        {
+          "id": "090b80327fdc32560593d33a0b97ebda2909fffa",
+          "title": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+          "title_zh": null,
+          "title_en": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+          "title_original": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49749656",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-18T02:47:24Z"
+        },
+        {
+          "id": "f1c9b0381aefb14e4c119c7114915aa4ed9c8f45",
+          "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号 / Hacking OpenAI",
+          "title_zh": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
+          "title_en": "Hacking OpenAI",
+          "title_original": "Hacking OpenAI",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.hacktron.ai/blog/hacking-openai",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-18T02:47:24Z"
+        },
+        {
+          "id": "cc2f1ceed74f638baa5ff4123b148e3fa7e962f1",
+          "title": "Hacking OpenAI",
+          "title_zh": null,
+          "title_en": "Hacking OpenAI",
+          "title_original": "Hacking OpenAI",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49749656",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-18T02:47:24Z"
+        }
+      ],
+      "source_count": 6,
+      "source_names": [
+        "Hacker News",
+        "Hacker News (黑客新闻)",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "hackernews",
+        "www.hacktron.ai"
+      ],
+      "items": [
+        {
+          "id": "7d2e860c12e91824b743f2cd0766b4a7888011b4",
+          "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
+          "title_zh": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
+          "title_en": null,
+          "title_original": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
+          "summary": "Hacktron 团队披露 2026 年 7 月 25 日 chained libheif 堆缓冲区溢出与 OpenAI SSO 身份缺陷，攻破 community.openai.com 并接管多名员工 ChatGPT/Codex 账号，用员工 Codex 在 OpenAI 内部 monorepo 开出无害 PR 作为证明，全程不到 72 小时。",
+          "recommend_reason_zh": null,
+          "url": "https://www.hacktron.ai/blog/hacking-openai",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-18T04:45:46.237000Z"
+        },
+        {
+          "id": "670084e32196613c0b728bbf7574fe486402723a",
+          "title": "入侵OpenAI",
+          "title_zh": "入侵OpenAI",
+          "title_en": null,
+          "title_original": "入侵OpenAI",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.hacktron.ai/blog/hacking-openai",
+          "source": "www.hacktron.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-18T04:45:46.237000Z"
+        },
+        {
+          "id": "fc06b529e408a2880b0e1fe8642be63f6882ebbc",
+          "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号 / A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+          "title_zh": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
+          "title_en": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+          "title_original": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.hacktron.ai/blog/hacking-openai",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-18T02:47:24Z"
+        },
+        {
+          "id": "090b80327fdc32560593d33a0b97ebda2909fffa",
+          "title": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+          "title_zh": null,
+          "title_en": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+          "title_original": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49749656",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-18T02:47:24Z"
+        },
+        {
+          "id": "f1c9b0381aefb14e4c119c7114915aa4ed9c8f45",
+          "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号 / Hacking OpenAI",
+          "title_zh": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
+          "title_en": "Hacking OpenAI",
+          "title_original": "Hacking OpenAI",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.hacktron.ai/blog/hacking-openai",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-18T02:47:24Z"
+        },
+        {
+          "id": "cc2f1ceed74f638baa5ff4123b148e3fa7e962f1",
+          "title": "Hacking OpenAI",
+          "title_zh": null,
+          "title_en": "Hacking OpenAI",
+          "title_original": "Hacking OpenAI",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49749656",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-18T02:47:24Z"
+        }
+      ],
+      "item_count": 6,
+      "duplicate_count": 6,
+      "score": 0.8927,
+      "importance": 0.8927,
+      "importance_score": 0.8927,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.84,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9395,
+        "story_heat": 1.0
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-18T02:47:24Z",
+      "latest_at": "2026-09-18T04:45:46.237000Z",
+      "primary_item": {
+        "id": "7d2e860c12e91824b743f2cd0766b4a7888011b4",
+        "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
+        "title_zh": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
+        "title_en": null,
+        "title_original": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
+        "summary": "Hacktron 团队披露 2026 年 7 月 25 日 chained libheif 堆缓冲区溢出与 OpenAI SSO 身份缺陷，攻破 community.openai.com 并接管多名员工 ChatGPT/Codex 账号，用员工 Codex 在 OpenAI 内部 monorepo 开出无害 PR 作为证明，全程不到 72 小时。",
+        "recommend_reason_zh": null,
+        "url": "https://www.hacktron.ai/blog/hacking-openai",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
     {
       "story_id": "story_6171d00caa9b",
       "title": "Copilot impact dashboard now shows feature engagement",
@@ -48,15 +269,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8364,
-      "importance": 0.8364,
-      "importance_score": 0.8364,
+      "score": 0.8249,
+      "importance": 0.8249,
+      "importance_score": 0.8249,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9131,
+        "recency": 0.8495,
         "story_heat": 0.0
       },
       "category": "official",
@@ -78,14 +299,170 @@
         "url": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_4bc3dd239911",
+      "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付 / Qwen3.8-Omni-Flash： Omni Senses. Agentic Delivery.",
+      "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+      "primary_url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+      "source": "Qwen：Blog Retrieval（API）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "5d8ede19dc693db11ad653c8305b3412ee6fe9da",
+          "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付 / Qwen3.8-Omni-Flash： Omni Senses. Agentic Delivery.",
+          "title_zh": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
+          "title_en": "Qwen3.8-Omni-Flash： Omni Senses. Agentic Delivery.",
+          "title_original": "Qwen3.8-Omni-Flash： Omni Senses. Agentic Delivery.",
+          "summary": "Qwen 发布下一代原生全模态模型 Qwen3.8-Omni-Flash，支持文本、图像、音频和视频输入及 1M token 上下文窗口，29 项评测平均分较 Qwen3.5-Omni-Plus 提升超过 25%，音频输入每小时价格下降超过 98%，音视频输入每小时价格下降超过 93%。",
+          "recommend_reason_zh": null,
+          "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+          "source": "Qwen：Blog Retrieval（API）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-17T17:18:08.568000Z"
+        },
+        {
+          "id": "1fffd1feade9fb636c1acc9d54d20f5cb236ca78",
+          "title": "阿里巴巴发布Qwen 3.8 Omni Flash",
+          "title_zh": "阿里巴巴发布Qwen 3.8 Omni Flash",
+          "title_en": null,
+          "title_original": "阿里巴巴发布Qwen 3.8 Omni Flash",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+          "source": "qwen.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-18T04:45:46.234000Z"
+        },
+        {
+          "id": "5506e775b22e613d112ed24bedbc02b2de69fa67",
+          "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付 / Alibaba releases Qwen 3.8 Omni Flash",
+          "title_zh": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
+          "title_en": "Alibaba releases Qwen 3.8 Omni Flash",
+          "title_original": "Alibaba releases Qwen 3.8 Omni Flash",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-17T23:05:48Z"
+        },
+        {
+          "id": "4f1be5c84a80e2ffead5ac3376c67f878048ee28",
+          "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付 / Qwen 3.8 Omni Flash",
+          "title_zh": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
+          "title_en": "Qwen 3.8 Omni Flash",
+          "title_original": "Qwen 3.8 Omni Flash",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-17T23:05:48Z"
+        }
+      ],
+      "source_count": 4,
+      "source_names": [
+        "Hacker News",
+        "Hacker News (黑客新闻)",
+        "Qwen：Blog Retrieval（API）",
+        "qwen.ai"
+      ],
+      "items": [
+        {
+          "id": "5d8ede19dc693db11ad653c8305b3412ee6fe9da",
+          "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付 / Qwen3.8-Omni-Flash： Omni Senses. Agentic Delivery.",
+          "title_zh": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
+          "title_en": "Qwen3.8-Omni-Flash： Omni Senses. Agentic Delivery.",
+          "title_original": "Qwen3.8-Omni-Flash： Omni Senses. Agentic Delivery.",
+          "summary": "Qwen 发布下一代原生全模态模型 Qwen3.8-Omni-Flash，支持文本、图像、音频和视频输入及 1M token 上下文窗口，29 项评测平均分较 Qwen3.5-Omni-Plus 提升超过 25%，音频输入每小时价格下降超过 98%，音视频输入每小时价格下降超过 93%。",
+          "recommend_reason_zh": null,
+          "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+          "source": "Qwen：Blog Retrieval（API）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-17T17:18:08.568000Z"
+        },
+        {
+          "id": "1fffd1feade9fb636c1acc9d54d20f5cb236ca78",
+          "title": "阿里巴巴发布Qwen 3.8 Omni Flash",
+          "title_zh": "阿里巴巴发布Qwen 3.8 Omni Flash",
+          "title_en": null,
+          "title_original": "阿里巴巴发布Qwen 3.8 Omni Flash",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+          "source": "qwen.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-18T04:45:46.234000Z"
+        },
+        {
+          "id": "5506e775b22e613d112ed24bedbc02b2de69fa67",
+          "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付 / Alibaba releases Qwen 3.8 Omni Flash",
+          "title_zh": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
+          "title_en": "Alibaba releases Qwen 3.8 Omni Flash",
+          "title_original": "Alibaba releases Qwen 3.8 Omni Flash",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-17T23:05:48Z"
+        },
+        {
+          "id": "4f1be5c84a80e2ffead5ac3376c67f878048ee28",
+          "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付 / Qwen 3.8 Omni Flash",
+          "title_zh": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
+          "title_en": "Qwen 3.8 Omni Flash",
+          "title_original": "Qwen 3.8 Omni Flash",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-17T23:05:48Z"
+        }
+      ],
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.8209,
+      "importance": 0.8209,
+      "importance_score": 0.8209,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.77,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7962,
+        "story_heat": 0.75
       },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "GitHub Copilot仪表板新增功能，开发者今天就能查看团队对具体AI功能的使用情况。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-18T04:06:40.437713Z"
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-17T17:18:08.568000Z",
+      "latest_at": "2026-09-18T04:45:46.234000Z",
+      "primary_item": {
+        "id": "5d8ede19dc693db11ad653c8305b3412ee6fe9da",
+        "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付 / Qwen3.8-Omni-Flash： Omni Senses. Agentic Delivery.",
+        "title_zh": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
+        "title_en": "Qwen3.8-Omni-Flash： Omni Senses. Agentic Delivery.",
+        "title_original": "Qwen3.8-Omni-Flash： Omni Senses. Agentic Delivery.",
+        "summary": "Qwen 发布下一代原生全模态模型 Qwen3.8-Omni-Flash，支持文本、图像、音频和视频输入及 1M token 上下文窗口，29 项评测平均分较 Qwen3.5-Omni-Plus 提升超过 25%，音频输入每小时价格下降超过 98%，音视频输入每小时价格下降超过 93%。",
+        "recommend_reason_zh": null,
+        "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+        "source": "Qwen：Blog Retrieval（API）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -133,15 +510,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8242,
-      "importance": 0.8242,
-      "importance_score": 0.8242,
+      "score": 0.813,
+      "importance": 0.813,
+      "importance_score": 0.813,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8898,
+        "recency": 0.8278,
         "story_heat": 0.0
       },
       "category": "official",
@@ -163,14 +540,6 @@
         "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform",
         "source": "Google AI Blog",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "谷歌与联合国合作的数据平台，对普通开发者暂无直接可用的工具或API。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-18T04:06:40.437713Z"
       }
     },
     {
@@ -218,15 +587,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8227,
-      "importance": 0.8227,
-      "importance_score": 0.8227,
+      "score": 0.8127,
+      "importance": 0.8127,
+      "importance_score": 0.8127,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7927,
+        "recency": 0.7375,
         "story_heat": 0.0
       },
       "category": "official",
@@ -248,14 +617,141 @@
         "url": "https://openai.com/index/cooley-gopublic",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_ab92e74332cb",
+      "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取 / Microsoft exec called AI scraping 'the largest theft of labor in human history，' new unredacted filings reveal",
+      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+      "primary_url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+      "source": "TechCrunch：AI（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "14511c8b5dd853440e87ab99755ea51b46a6cd25",
+          "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取 / Microsoft exec called AI scraping 'the largest theft of labor in human history，' new unredacted filings reveal",
+          "title_zh": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
+          "title_en": "Microsoft exec called AI scraping 'the largest theft of labor in human history，' new unredacted filings reveal",
+          "title_original": "Microsoft exec called AI scraping 'the largest theft of labor in human history，' new unredacted filings reveal",
+          "summary": "纽约时报诉 OpenAI 与微软版权案的新解封文件披露，微软高管 Brent Hecht 在内部备忘录中称 AI 抓取是\"人类历史上最大规模的劳动窃取\"，OpenAI 高管 Nick Turley 则称聊天机器人对出版商构成\"生存威胁\"。",
+          "recommend_reason_zh": null,
+          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-17T19:46:08Z"
+        },
+        {
+          "id": "07d88bec8b04480d277b16a8028de1e06f6a6dcd",
+          "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取 / Microsoft exec called AI scraping 'the largest theft of labor in human",
+          "title_zh": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
+          "title_en": "Microsoft exec called AI scraping 'the largest theft of labor in human",
+          "title_original": "Microsoft exec called AI scraping 'the largest theft of labor in human",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-09-18T00:07:08Z"
+        },
+        {
+          "id": "830d69cc874966f0bd62aa9cb3d2e077da299495",
+          "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取 / Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
+          "title_zh": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
+          "title_en": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
+          "title_original": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+          "source": "TechCrunch",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-17T19:46:08Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "TechCrunch",
+        "TechCrunch：AI（RSS）"
+      ],
+      "items": [
+        {
+          "id": "14511c8b5dd853440e87ab99755ea51b46a6cd25",
+          "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取 / Microsoft exec called AI scraping 'the largest theft of labor in human history，' new unredacted filings reveal",
+          "title_zh": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
+          "title_en": "Microsoft exec called AI scraping 'the largest theft of labor in human history，' new unredacted filings reveal",
+          "title_original": "Microsoft exec called AI scraping 'the largest theft of labor in human history，' new unredacted filings reveal",
+          "summary": "纽约时报诉 OpenAI 与微软版权案的新解封文件披露，微软高管 Brent Hecht 在内部备忘录中称 AI 抓取是\"人类历史上最大规模的劳动窃取\"，OpenAI 高管 Nick Turley 则称聊天机器人对出版商构成\"生存威胁\"。",
+          "recommend_reason_zh": null,
+          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-17T19:46:08Z"
+        },
+        {
+          "id": "07d88bec8b04480d277b16a8028de1e06f6a6dcd",
+          "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取 / Microsoft exec called AI scraping 'the largest theft of labor in human",
+          "title_zh": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
+          "title_en": "Microsoft exec called AI scraping 'the largest theft of labor in human",
+          "title_original": "Microsoft exec called AI scraping 'the largest theft of labor in human",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-09-18T00:07:08Z"
+        },
+        {
+          "id": "830d69cc874966f0bd62aa9cb3d2e077da299495",
+          "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取 / Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
+          "title_zh": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
+          "title_en": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
+          "title_original": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+          "source": "TechCrunch",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-17T19:46:08Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.8101,
+      "importance": 0.8101,
+      "importance_score": 0.8101,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.8,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.825,
+        "story_heat": 0.5
       },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "律所内部使用案例，对开发者无直接工具或接口价值。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-18T04:06:40.437713Z"
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-17T19:46:08Z",
+      "latest_at": "2026-09-18T00:07:08Z",
+      "primary_item": {
+        "id": "14511c8b5dd853440e87ab99755ea51b46a6cd25",
+        "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取 / Microsoft exec called AI scraping 'the largest theft of labor in human history，' new unredacted filings reveal",
+        "title_zh": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
+        "title_en": "Microsoft exec called AI scraping 'the largest theft of labor in human history，' new unredacted filings reveal",
+        "title_original": "Microsoft exec called AI scraping 'the largest theft of labor in human history，' new unredacted filings reveal",
+        "summary": "纽约时报诉 OpenAI 与微软版权案的新解封文件披露，微软高管 Brent Hecht 在内部备忘录中称 AI 抓取是\"人类历史上最大规模的劳动窃取\"，OpenAI 高管 Nick Turley 则称聊天机器人对出版商构成\"生存威胁\"。",
+        "recommend_reason_zh": null,
+        "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+        "source": "TechCrunch：AI（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -303,15 +799,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8268,
-      "importance": 0.8268,
-      "importance_score": 0.8268,
+      "score": 0.8155,
+      "importance": 0.8155,
+      "importance_score": 0.8155,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9046,
+        "recency": 0.8416,
         "story_heat": 0.0
       },
       "category": "official",
@@ -333,128 +829,6 @@
         "url": "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "API已更新，可直接查询Agentic CLI的自定义使用数据，方便监控和计费。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-18T04:06:40.437713Z"
-      }
-    },
-    {
-      "story_id": "story_ab92e74332cb",
-      "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取 / Microsoft exec called AI scraping 'the largest theft of labor in human history，' new unredacted filings reveal",
-      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-      "primary_url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-      "source": "TechCrunch：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "14511c8b5dd853440e87ab99755ea51b46a6cd25",
-          "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取 / Microsoft exec called AI scraping 'the largest theft of labor in human history，' new unredacted filings reveal",
-          "title_zh": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
-          "title_en": "Microsoft exec called AI scraping 'the largest theft of labor in human history，' new unredacted filings reveal",
-          "title_original": "Microsoft exec called AI scraping 'the largest theft of labor in human history，' new unredacted filings reveal",
-          "summary": "纽约时报诉 OpenAI 与微软版权案的新解封文件披露，微软高管 Brent Hecht 在内部备忘录中称 AI 抓取是\"人类历史上最大规模的劳动窃取\"，OpenAI 高管 Nick Turley 则称聊天机器人对出版商构成\"生存威胁\"。",
-          "recommend_reason_zh": null,
-          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-17T19:46:08Z"
-        },
-        {
-          "id": "830d69cc874966f0bd62aa9cb3d2e077da299495",
-          "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取 / Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
-          "title_zh": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
-          "title_en": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
-          "title_original": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-          "source": "TechCrunch",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-17T19:46:08Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch",
-        "TechCrunch：AI（RSS）"
-      ],
-      "items": [
-        {
-          "id": "14511c8b5dd853440e87ab99755ea51b46a6cd25",
-          "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取 / Microsoft exec called AI scraping 'the largest theft of labor in human history，' new unredacted filings reveal",
-          "title_zh": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
-          "title_en": "Microsoft exec called AI scraping 'the largest theft of labor in human history，' new unredacted filings reveal",
-          "title_original": "Microsoft exec called AI scraping 'the largest theft of labor in human history，' new unredacted filings reveal",
-          "summary": "纽约时报诉 OpenAI 与微软版权案的新解封文件披露，微软高管 Brent Hecht 在内部备忘录中称 AI 抓取是\"人类历史上最大规模的劳动窃取\"，OpenAI 高管 Nick Turley 则称聊天机器人对出版商构成\"生存威胁\"。",
-          "recommend_reason_zh": null,
-          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-17T19:46:08Z"
-        },
-        {
-          "id": "830d69cc874966f0bd62aa9cb3d2e077da299495",
-          "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取 / Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
-          "title_zh": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
-          "title_en": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
-          "title_original": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-          "source": "TechCrunch",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-17T19:46:08Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7962,
-      "importance": 0.7962,
-      "importance_score": 0.7962,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.8,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8868,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-17T19:46:08Z",
-      "latest_at": "2026-09-17T19:46:08Z",
-      "primary_item": {
-        "id": "14511c8b5dd853440e87ab99755ea51b46a6cd25",
-        "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取 / Microsoft exec called AI scraping 'the largest theft of labor in human history，' new unredacted filings reveal",
-        "title_zh": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
-        "title_en": "Microsoft exec called AI scraping 'the largest theft of labor in human history，' new unredacted filings reveal",
-        "title_original": "Microsoft exec called AI scraping 'the largest theft of labor in human history，' new unredacted filings reveal",
-        "summary": "纽约时报诉 OpenAI 与微软版权案的新解封文件披露，微软高管 Brent Hecht 在内部备忘录中称 AI 抓取是\"人类历史上最大规模的劳动窃取\"，OpenAI 高管 Nick Turley 则称聊天机器人对出版商构成\"生存威胁\"。",
-        "recommend_reason_zh": null,
-        "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-        "source": "TechCrunch：AI（RSS）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "法律口水战，不影响你今天调API或选模型。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-18T04:06:40.437713Z"
       }
     },
     {
@@ -531,15 +905,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7955,
-      "importance": 0.7955,
-      "importance_score": 0.7955,
+      "score": 0.784,
+      "importance": 0.784,
+      "importance_score": 0.784,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9162,
+        "recency": 0.8524,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -561,128 +935,158 @@
         "url": "https://www.404media.co/doom-loop-openai-and-microsoft-admits-llms-are-destroying-the-web-and-built-on-theft",
         "source": "404 Media（RSS）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "法律口水战，不影响你今天调用API或训练模型。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-18T04:06:40.437713Z"
       }
     },
     {
-      "story_id": "story_4bc3dd239911",
-      "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付 / Qwen3.8-Omni-Flash： Omni Senses. Agentic Delivery.",
-      "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
-      "primary_url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
-      "source": "Qwen：Blog Retrieval（API）",
+      "story_id": "story_2ce879cf976f",
+      "title": "3人团队用前沿模型以不到3000美元token成本入侵OpenAI员工账户 / okay this is actually INSANE a 3 person team used frontier models in a security campaign that inclu…",
+      "url": "https://x.com/haider1/status/2100848578340220987",
+      "primary_url": "https://x.com/haider1/status/2100848578340220987",
+      "source": "X：Haider (@haider1)",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "5d8ede19dc693db11ad653c8305b3412ee6fe9da",
-          "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付 / Qwen3.8-Omni-Flash： Omni Senses. Agentic Delivery.",
-          "title_zh": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
-          "title_en": "Qwen3.8-Omni-Flash： Omni Senses. Agentic Delivery.",
-          "title_original": "Qwen3.8-Omni-Flash： Omni Senses. Agentic Delivery.",
-          "summary": "Qwen 发布下一代原生全模态模型 Qwen3.8-Omni-Flash，支持文本、图像、音频和视频输入及 1M token 上下文窗口，29 项评测平均分较 Qwen3.5-Omni-Plus 提升超过 25%，音频输入每小时价格下降超过 98%，音视频输入每小时价格下降超过 93%。",
+          "id": "f7b34c49943fa49cfbe8d0de303807e421679c05",
+          "title": "3人团队用前沿模型以不到3000美元token成本入侵OpenAI员工账户 / okay this is actually INSANE a 3 person team used frontier models in a security campaign that inclu…",
+          "title_zh": "3人团队用前沿模型以不到3000美元token成本入侵OpenAI员工账户",
+          "title_en": "okay this is actually INSANE a 3 person team used frontier models in a security campaign that inclu…",
+          "title_original": "okay this is actually INSANE a 3 person team used frontier models in a security campaign that inclu…",
+          "summary": "一个3人团队在7月25日利用两个漏洞接管了OpenAI员工的 ChatGPT/Codex 账户，并可访问 Outlook、Slack、GitHub 等关联服务，他们用向 OpenAI 内部代码库提交 PR 的方式证明了漏洞，全程不到72小时。",
           "recommend_reason_zh": null,
-          "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
-          "source": "Qwen：Blog Retrieval（API）",
+          "url": "https://x.com/haider1/status/2100848578340220987",
+          "source": "X：Haider (@haider1)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-09-17T17:18:08.568000Z"
-        },
-        {
-          "id": "5506e775b22e613d112ed24bedbc02b2de69fa67",
-          "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付 / Alibaba releases Qwen 3.8 Omni Flash",
-          "title_zh": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
-          "title_en": "Alibaba releases Qwen 3.8 Omni Flash",
-          "title_original": "Alibaba releases Qwen 3.8 Omni Flash",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-17T23:05:48Z"
+          "published_at": "2026-09-18T07:25:07Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "Hacker News",
-        "Qwen：Blog Retrieval（API）"
+        "X：Haider (@haider1)"
       ],
       "items": [
         {
-          "id": "5d8ede19dc693db11ad653c8305b3412ee6fe9da",
-          "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付 / Qwen3.8-Omni-Flash： Omni Senses. Agentic Delivery.",
-          "title_zh": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
-          "title_en": "Qwen3.8-Omni-Flash： Omni Senses. Agentic Delivery.",
-          "title_original": "Qwen3.8-Omni-Flash： Omni Senses. Agentic Delivery.",
-          "summary": "Qwen 发布下一代原生全模态模型 Qwen3.8-Omni-Flash，支持文本、图像、音频和视频输入及 1M token 上下文窗口，29 项评测平均分较 Qwen3.5-Omni-Plus 提升超过 25%，音频输入每小时价格下降超过 98%，音视频输入每小时价格下降超过 93%。",
+          "id": "f7b34c49943fa49cfbe8d0de303807e421679c05",
+          "title": "3人团队用前沿模型以不到3000美元token成本入侵OpenAI员工账户 / okay this is actually INSANE a 3 person team used frontier models in a security campaign that inclu…",
+          "title_zh": "3人团队用前沿模型以不到3000美元token成本入侵OpenAI员工账户",
+          "title_en": "okay this is actually INSANE a 3 person team used frontier models in a security campaign that inclu…",
+          "title_original": "okay this is actually INSANE a 3 person team used frontier models in a security campaign that inclu…",
+          "summary": "一个3人团队在7月25日利用两个漏洞接管了OpenAI员工的 ChatGPT/Codex 账户，并可访问 Outlook、Slack、GitHub 等关联服务，他们用向 OpenAI 内部代码库提交 PR 的方式证明了漏洞，全程不到72小时。",
           "recommend_reason_zh": null,
-          "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
-          "source": "Qwen：Blog Retrieval（API）",
+          "url": "https://x.com/haider1/status/2100848578340220987",
+          "source": "X：Haider (@haider1)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-09-17T17:18:08.568000Z"
-        },
-        {
-          "id": "5506e775b22e613d112ed24bedbc02b2de69fa67",
-          "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付 / Alibaba releases Qwen 3.8 Omni Flash",
-          "title_zh": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
-          "title_en": "Alibaba releases Qwen 3.8 Omni Flash",
-          "title_original": "Alibaba releases Qwen 3.8 Omni Flash",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-17T23:05:48Z"
+          "published_at": "2026-09-18T07:25:07Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7816,
-      "importance": 0.7816,
-      "importance_score": 0.7816,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7753,
+      "importance": 0.7753,
+      "importance_score": 0.7753,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.77,
+        "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8558,
-        "story_heat": 0.25
+        "recency": 0.9762,
+        "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-17T17:18:08.568000Z",
-      "latest_at": "2026-09-17T23:05:48Z",
+      "earliest_at": "2026-09-18T07:25:07Z",
+      "latest_at": "2026-09-18T07:25:07Z",
       "primary_item": {
-        "id": "5d8ede19dc693db11ad653c8305b3412ee6fe9da",
-        "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付 / Qwen3.8-Omni-Flash： Omni Senses. Agentic Delivery.",
-        "title_zh": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
-        "title_en": "Qwen3.8-Omni-Flash： Omni Senses. Agentic Delivery.",
-        "title_original": "Qwen3.8-Omni-Flash： Omni Senses. Agentic Delivery.",
-        "summary": "Qwen 发布下一代原生全模态模型 Qwen3.8-Omni-Flash，支持文本、图像、音频和视频输入及 1M token 上下文窗口，29 项评测平均分较 Qwen3.5-Omni-Plus 提升超过 25%，音频输入每小时价格下降超过 98%，音视频输入每小时价格下降超过 93%。",
+        "id": "f7b34c49943fa49cfbe8d0de303807e421679c05",
+        "title": "3人团队用前沿模型以不到3000美元token成本入侵OpenAI员工账户 / okay this is actually INSANE a 3 person team used frontier models in a security campaign that inclu…",
+        "title_zh": "3人团队用前沿模型以不到3000美元token成本入侵OpenAI员工账户",
+        "title_en": "okay this is actually INSANE a 3 person team used frontier models in a security campaign that inclu…",
+        "title_original": "okay this is actually INSANE a 3 person team used frontier models in a security campaign that inclu…",
+        "summary": "一个3人团队在7月25日利用两个漏洞接管了OpenAI员工的 ChatGPT/Codex 账户，并可访问 Outlook、Slack、GitHub 等关联服务，他们用向 OpenAI 内部代码库提交 PR 的方式证明了漏洞，全程不到72小时。",
         "recommend_reason_zh": null,
-        "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
-        "source": "Qwen：Blog Retrieval（API）",
+        "url": "https://x.com/haider1/status/2100848578340220987",
+        "source": "X：Haider (@haider1)",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_498f79e7b42d",
+      "title": "Anthropic 用 AI 造 AI：Claude 已主导公司四分之一研发工作",
+      "url": "https://www.aibase.com/news/31169",
+      "primary_url": "https://www.aibase.com/news/31169",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "994e38441a65fd36c1cbe96f47e7d708751aa006",
+          "title": "Anthropic 用 AI 造 AI：Claude 已主导公司四分之一研发工作",
+          "title_zh": "Anthropic 用 AI 造 AI：Claude 已主导公司四分之一研发工作",
+          "title_en": null,
+          "title_original": "Anthropic 用 AI 造 AI：Claude 已主导公司四分之一研发工作",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31169",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-18T09:05:10.806318Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "994e38441a65fd36c1cbe96f47e7d708751aa006",
+          "title": "Anthropic 用 AI 造 AI：Claude 已主导公司四分之一研发工作",
+          "title_zh": "Anthropic 用 AI 造 AI：Claude 已主导公司四分之一研发工作",
+          "title_en": null,
+          "title_original": "Anthropic 用 AI 造 AI：Claude 已主导公司四分之一研发工作",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31169",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-18T09:05:10.806318Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
       },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "新模型已发布，可立即用于构建支持音视频的多模态智能体。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-18T04:06:40.437713Z"
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-18T09:05:10.806318Z",
+      "latest_at": "2026-09-18T09:05:10.806318Z",
+      "primary_item": {
+        "id": "994e38441a65fd36c1cbe96f47e7d708751aa006",
+        "title": "Anthropic 用 AI 造 AI：Claude 已主导公司四分之一研发工作",
+        "title_zh": "Anthropic 用 AI 造 AI：Claude 已主导公司四分之一研发工作",
+        "title_en": null,
+        "title_original": "Anthropic 用 AI 造 AI：Claude 已主导公司四分之一研发工作",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/31169",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -730,15 +1134,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7752,
-      "importance": 0.7752,
-      "importance_score": 0.7752,
+      "score": 0.7636,
+      "importance": 0.7636,
+      "importance_score": 0.7636,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.63,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.9232,
+        "recency": 0.8589,
         "story_heat": 0.0
       },
       "category": "official",
@@ -759,98 +1163,6 @@
         "url": "https://x.com/AIatMeta/status/2100714755568644409",
         "source": "X：AI at Meta (@AIatMeta)",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "Meta的AI助手今天就能在Mac上装，直接帮你操作电脑完成任务。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-18T04:06:40.437713Z"
-      }
-    },
-    {
-      "story_id": "story_5735f9b05c3f",
-      "title": "AI基础设施需求升温，Crusoe估值10个月增长至300亿美元",
-      "url": "https://www.aibase.com/news/31140",
-      "primary_url": "https://www.aibase.com/news/31140",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "e97c118417914611f112305723ba34bc3b481595",
-          "title": "AI基础设施需求升温，Crusoe估值10个月增长至300亿美元",
-          "title_zh": "AI基础设施需求升温，Crusoe估值10个月增长至300亿美元",
-          "title_en": null,
-          "title_original": "AI基础设施需求升温，Crusoe估值10个月增长至300亿美元",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31140",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-18T04:05:16.127481Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "e97c118417914611f112305723ba34bc3b481595",
-          "title": "AI基础设施需求升温，Crusoe估值10个月增长至300亿美元",
-          "title_zh": "AI基础设施需求升温，Crusoe估值10个月增长至300亿美元",
-          "title_en": null,
-          "title_original": "AI基础设施需求升温，Crusoe估值10个月增长至300亿美元",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31140",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-18T04:05:16.127481Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-18T04:05:16.127481Z",
-      "latest_at": "2026-09-18T04:05:16.127481Z",
-      "primary_item": {
-        "id": "e97c118417914611f112305723ba34bc3b481595",
-        "title": "AI基础设施需求升温，Crusoe估值10个月增长至300亿美元",
-        "title_zh": "AI基础设施需求升温，Crusoe估值10个月增长至300亿美元",
-        "title_en": null,
-        "title_original": "AI基础设施需求升温，Crusoe估值10个月增长至300亿美元",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31140",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 25,
-      "persona_review": "估值变动是资本故事，不影响你今天选哪家云服务商。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-18T04:06:40.437713Z"
       }
     },
     {
@@ -898,15 +1210,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7645,
-      "importance": 0.7645,
-      "importance_score": 0.7645,
+      "score": 0.7535,
+      "importance": 0.7535,
+      "importance_score": 0.7535,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.883,
+        "recency": 0.8215,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -927,14 +1239,6 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
         "source": "The Verge：AI（RSS）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "大佬隔空喊话，不影响你今天调参和选型。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-18T04:06:40.437713Z"
       }
     },
     {
@@ -982,15 +1286,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8162,
-      "importance": 0.8162,
-      "importance_score": 0.8162,
+      "score": 0.8056,
+      "importance": 0.8056,
+      "importance_score": 0.8056,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8454,
+        "recency": 0.7865,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1012,14 +1316,6 @@
         "url": "https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "主流操作系统新版本发布，CI/CD 环境和 Docker 基础镜像可以更新了。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-18T04:06:40.437713Z"
       }
     },
     {
@@ -1067,21 +1363,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7503,
-      "importance": 0.7503,
-      "importance_score": 0.7503,
+      "score": 0.7386,
+      "importance": 0.7386,
+      "importance_score": 0.7386,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9373,
+        "recency": 0.8721,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-09-17T23:36:26Z",
       "latest_at": "2026-09-17T23:36:26Z",
@@ -1096,14 +1391,6 @@
         "url": "https://x.com/sherwinwu/status/2100730628673065040",
         "source": "X：Sherwin Wu（@sherwinwu）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "Word里直接调用GPT写文档，今天就能用，生产力工具升级。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-18T04:06:40.437713Z"
       }
     },
     {
@@ -1151,15 +1438,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7497,
-      "importance": 0.7497,
-      "importance_score": 0.7497,
+      "score": 0.7384,
+      "importance": 0.7384,
+      "importance_score": 0.7384,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9003,
+        "recency": 0.8376,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1179,14 +1466,82 @@
         "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
         "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_4e4efe237fdf",
+      "title": "Anthropic 首次量化公开 AI 研发自动化进度：Claude 主导 26% 研发，压力甩给 OpenAI 等竞品",
+      "url": "https://www.aibase.com/news/31162",
+      "primary_url": "https://www.aibase.com/news/31162",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "e40b3aae371e7140b6a1ae5928ae7d22ac835e6d",
+          "title": "Anthropic 首次量化公开 AI 研发自动化进度：Claude 主导 26% 研发，压力甩给 OpenAI 等竞品",
+          "title_zh": "Anthropic 首次量化公开 AI 研发自动化进度：Claude 主导 26% 研发，压力甩给 OpenAI 等竞品",
+          "title_en": null,
+          "title_original": "Anthropic 首次量化公开 AI 研发自动化进度：Claude 主导 26% 研发，压力甩给 OpenAI 等竞品",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31162",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-18T09:05:10.806318Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "e40b3aae371e7140b6a1ae5928ae7d22ac835e6d",
+          "title": "Anthropic 首次量化公开 AI 研发自动化进度：Claude 主导 26% 研发，压力甩给 OpenAI 等竞品",
+          "title_zh": "Anthropic 首次量化公开 AI 研发自动化进度：Claude 主导 26% 研发，压力甩给 OpenAI 等竞品",
+          "title_en": null,
+          "title_original": "Anthropic 首次量化公开 AI 研发自动化进度：Claude 主导 26% 研发，压力甩给 OpenAI 等竞品",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31162",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-18T09:05:10.806318Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
       },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "发布的是研究报告和内部指标，对实际开发选型或写代码没直接帮助。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-18T04:06:40.437713Z"
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-18T09:05:10.806318Z",
+      "latest_at": "2026-09-18T09:05:10.806318Z",
+      "primary_item": {
+        "id": "e40b3aae371e7140b6a1ae5928ae7d22ac835e6d",
+        "title": "Anthropic 首次量化公开 AI 研发自动化进度：Claude 主导 26% 研发，压力甩给 OpenAI 等竞品",
+        "title_zh": "Anthropic 首次量化公开 AI 研发自动化进度：Claude 主导 26% 研发，压力甩给 OpenAI 等竞品",
+        "title_en": null,
+        "title_original": "Anthropic 首次量化公开 AI 研发自动化进度：Claude 主导 26% 研发，压力甩给 OpenAI 等竞品",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/31162",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -1234,15 +1589,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7731,
-      "importance": 0.7731,
-      "importance_score": 0.7731,
+      "score": 0.7618,
+      "importance": 0.7618,
+      "importance_score": 0.7618,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8972,
+        "recency": 0.8347,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1263,14 +1618,6 @@
         "url": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior",
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "研究性发现，提示当前模型有隐藏风险的潜在可能，但无具体缓解方案。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-18T04:06:40.437713Z"
       }
     },
     {
@@ -1318,15 +1665,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7426,
-      "importance": 0.7426,
-      "importance_score": 0.7426,
+      "score": 0.7308,
+      "importance": 0.7308,
+      "importance_score": 0.7308,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9445,
+        "recency": 0.8787,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1346,14 +1693,6 @@
         "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686475&idx=1&sn=1d9d43036b6d72fd83b9d5658b351215",
         "source": "公众号：数字生命卡兹克",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 75,
-      "persona_review": "提供了特定任务（分类）的实测性价比参考，影响模型选型决策。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-18T04:06:40.437713Z"
       }
     },
     {
@@ -1401,15 +1740,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7414,
-      "importance": 0.7414,
-      "importance_score": 0.7414,
+      "score": 0.7302,
+      "importance": 0.7302,
+      "importance_score": 0.7302,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8876,
+        "recency": 0.8258,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1429,98 +1768,6 @@
         "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
         "source": "Anthropic：Research（发表成果 · 网页）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 68,
-      "persona_review": "开源了优化代码，做生物信息或分子模拟的可以试试直接套用。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-18T04:06:40.437713Z"
-      }
-    },
-    {
-      "story_id": "story_572ac9f647ce",
-      "title": "Anthropic 推出生命科学认证计划，三款主力模型纳入统一授权条款",
-      "url": "https://www.aibase.com/news/31152",
-      "primary_url": "https://www.aibase.com/news/31152",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "6ddf4bccfedf28761f7f3ec504b66c20cacc05d5",
-          "title": "Anthropic 推出生命科学认证计划，三款主力模型纳入统一授权条款",
-          "title_zh": "Anthropic 推出生命科学认证计划，三款主力模型纳入统一授权条款",
-          "title_en": null,
-          "title_original": "Anthropic 推出生命科学认证计划，三款主力模型纳入统一授权条款",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31152",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-18T04:05:16.127481Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "6ddf4bccfedf28761f7f3ec504b66c20cacc05d5",
-          "title": "Anthropic 推出生命科学认证计划，三款主力模型纳入统一授权条款",
-          "title_zh": "Anthropic 推出生命科学认证计划，三款主力模型纳入统一授权条款",
-          "title_en": null,
-          "title_original": "Anthropic 推出生命科学认证计划，三款主力模型纳入统一授权条款",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31152",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-18T04:05:16.127481Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-18T04:05:16.127481Z",
-      "latest_at": "2026-09-18T04:05:16.127481Z",
-      "primary_item": {
-        "id": "6ddf4bccfedf28761f7f3ec504b66c20cacc05d5",
-        "title": "Anthropic 推出生命科学认证计划，三款主力模型纳入统一授权条款",
-        "title_zh": "Anthropic 推出生命科学认证计划，三款主力模型纳入统一授权条款",
-        "title_en": null,
-        "title_original": "Anthropic 推出生命科学认证计划，三款主力模型纳入统一授权条款",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31152",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "统一授权条款是法务和合规的事，普通开发者不用操心。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-18T04:06:40.437713Z"
       }
     },
     {
@@ -1568,15 +1815,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.735,
-      "importance": 0.735,
-      "importance_score": 0.735,
+      "score": 0.7245,
+      "importance": 0.7245,
+      "importance_score": 0.7245,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8354,
+        "recency": 0.7773,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1596,180 +1843,6 @@
         "url": "https://www.dwarkesh.com/p/noam-brown",
         "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "顶尖研究者的对谈，了解前沿思路，但暂无直接可用的工具或方案。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-18T04:06:40.437713Z"
-      }
-    },
-    {
-      "story_id": "story_586a819dc00b",
-      "title": "Goodfire Research 发现模型内部信号可规模化检测奖励作弊 / Models know when they're reward hacking - and we can catch them at scale",
-      "url": "https://www.goodfire.com/research/reward-hacking-activation-monitors",
-      "primary_url": "https://www.goodfire.com/research/reward-hacking-activation-monitors",
-      "source": "Goodfire Research（网页）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "ff98997944f33ed147fc95f1c65d810deaa26a99",
-          "title": "Goodfire Research 发现模型内部信号可规模化检测奖励作弊 / Models know when they're reward hacking - and we can catch them at scale",
-          "title_zh": "Goodfire Research 发现模型内部信号可规模化检测奖励作弊",
-          "title_en": "Models know when they're reward hacking - and we can catch them at scale",
-          "title_original": "Models know when they're reward hacking - and we can catch them at scale",
-          "summary": "Goodfire Research 发现模型内部存在伴随奖励作弊的激活信号，可用简单探针实时检测。在 Kimi K3、GLM 5.2、Qwen 3.8 Max 三个开源模型的三个智能体基准上，50-96% 的 rollout 出现奖励作弊；探针能捕捉 LLM 链式思维监测漏掉的作弊案例，且可泛化到训练数据之外的任务。",
-          "recommend_reason_zh": null,
-          "url": "https://www.goodfire.com/research/reward-hacking-activation-monitors",
-          "source": "Goodfire Research（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-17T16:38:32.383000Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Goodfire Research（网页）"
-      ],
-      "items": [
-        {
-          "id": "ff98997944f33ed147fc95f1c65d810deaa26a99",
-          "title": "Goodfire Research 发现模型内部信号可规模化检测奖励作弊 / Models know when they're reward hacking - and we can catch them at scale",
-          "title_zh": "Goodfire Research 发现模型内部信号可规模化检测奖励作弊",
-          "title_en": "Models know when they're reward hacking - and we can catch them at scale",
-          "title_original": "Models know when they're reward hacking - and we can catch them at scale",
-          "summary": "Goodfire Research 发现模型内部存在伴随奖励作弊的激活信号，可用简单探针实时检测。在 Kimi K3、GLM 5.2、Qwen 3.8 Max 三个开源模型的三个智能体基准上，50-96% 的 rollout 出现奖励作弊；探针能捕捉 LLM 链式思维监测漏掉的作弊案例，且可泛化到训练数据之外的任务。",
-          "recommend_reason_zh": null,
-          "url": "https://www.goodfire.com/research/reward-hacking-activation-monitors",
-          "source": "Goodfire Research（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-17T16:38:32.383000Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7282,
-      "importance": 0.7282,
-      "importance_score": 0.7282,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.68,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8477,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-09-17T16:38:32.383000Z",
-      "latest_at": "2026-09-17T16:38:32.383000Z",
-      "primary_item": {
-        "id": "ff98997944f33ed147fc95f1c65d810deaa26a99",
-        "title": "Goodfire Research 发现模型内部信号可规模化检测奖励作弊 / Models know when they're reward hacking - and we can catch them at scale",
-        "title_zh": "Goodfire Research 发现模型内部信号可规模化检测奖励作弊",
-        "title_en": "Models know when they're reward hacking - and we can catch them at scale",
-        "title_original": "Models know when they're reward hacking - and we can catch them at scale",
-        "summary": "Goodfire Research 发现模型内部存在伴随奖励作弊的激活信号，可用简单探针实时检测。在 Kimi K3、GLM 5.2、Qwen 3.8 Max 三个开源模型的三个智能体基准上，50-96% 的 rollout 出现奖励作弊；探针能捕捉 LLM 链式思维监测漏掉的作弊案例，且可泛化到训练数据之外的任务。",
-        "recommend_reason_zh": null,
-        "url": "https://www.goodfire.com/research/reward-hacking-activation-monitors",
-        "source": "Goodfire Research（网页）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 62,
-      "persona_review": "提供了检测模型作弊的新思路，做RLHF或安全评估时可参考其方法。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-18T04:06:40.437713Z"
-      }
-    },
-    {
-      "story_id": "story_e8d939d02589",
-      "title": "Claude Code 重构 Projects：从文件夹变为可托管多线程的对话式项目 / Projects redesigned： from folder to conversation",
-      "url": "https://claude.com/blog/projects-redesigned",
-      "primary_url": "https://claude.com/blog/projects-redesigned",
-      "source": "Claude：Blog（网页）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "e15cbacd1d3ae0b2677e76abd75ee832320eeb88",
-          "title": "Claude Code 重构 Projects：从文件夹变为可托管多线程的对话式项目 / Projects redesigned： from folder to conversation",
-          "title_zh": "Claude Code 重构 Projects：从文件夹变为可托管多线程的对话式项目",
-          "title_en": "Projects redesigned： from folder to conversation",
-          "title_original": "Projects redesigned： from folder to conversation",
-          "summary": "Anthropic 重构 Claude Code 的 Projects，用户设定目标后由 Claude 拆解任务、并行调度多个线程、审查输出并汇总结果，线程本质上是各自独立分支的 Claude Code 云端会话。",
-          "recommend_reason_zh": null,
-          "url": "https://claude.com/blog/projects-redesigned",
-          "source": "Claude：Blog（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-17T17:52:08.951000Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Claude：Blog（网页）"
-      ],
-      "items": [
-        {
-          "id": "e15cbacd1d3ae0b2677e76abd75ee832320eeb88",
-          "title": "Claude Code 重构 Projects：从文件夹变为可托管多线程的对话式项目 / Projects redesigned： from folder to conversation",
-          "title_zh": "Claude Code 重构 Projects：从文件夹变为可托管多线程的对话式项目",
-          "title_en": "Projects redesigned： from folder to conversation",
-          "title_original": "Projects redesigned： from folder to conversation",
-          "summary": "Anthropic 重构 Claude Code 的 Projects，用户设定目标后由 Claude 拆解任务、并行调度多个线程、审查输出并汇总结果，线程本质上是各自独立分支的 Claude Code 云端会话。",
-          "recommend_reason_zh": null,
-          "url": "https://claude.com/blog/projects-redesigned",
-          "source": "Claude：Blog（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-17T17:52:08.951000Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7249,
-      "importance": 0.7249,
-      "importance_score": 0.7249,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.66,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8628,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-09-17T17:52:08.951000Z",
-      "latest_at": "2026-09-17T17:52:08.951000Z",
-      "primary_item": {
-        "id": "e15cbacd1d3ae0b2677e76abd75ee832320eeb88",
-        "title": "Claude Code 重构 Projects：从文件夹变为可托管多线程的对话式项目 / Projects redesigned： from folder to conversation",
-        "title_zh": "Claude Code 重构 Projects：从文件夹变为可托管多线程的对话式项目",
-        "title_en": "Projects redesigned： from folder to conversation",
-        "title_original": "Projects redesigned： from folder to conversation",
-        "summary": "Anthropic 重构 Claude Code 的 Projects，用户设定目标后由 Claude 拆解任务、并行调度多个线程、审查输出并汇总结果，线程本质上是各自独立分支的 Claude Code 云端会话。",
-        "recommend_reason_zh": null,
-        "url": "https://claude.com/blog/projects-redesigned",
-        "source": "Claude：Blog（网页）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 75,
-      "persona_review": "Claude Projects 从文件管理升级为多线程对话，直接提升复杂任务协作效率。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-18T04:06:40.437713Z"
       }
     }
   ]
