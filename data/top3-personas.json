@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T09:06:50.315029Z",
+  "generated_at": "2026-09-18T15:07:07.794861Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,10 +17,30 @@
   ],
   "items": [
     {
+      "story_id": "story_96a1341fc9d6",
+      "title": "逆向分析指 ZCode 登录后静默打包 Git 历史并加密上传至 Aliyun OSS / ZCode， the GLM coding agent， silently uploads your Git history",
+      "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
+      "rank": 1,
+      "reviews": {
+        "cynic": {
+          "score": 85,
+          "review": "逆向分析实锤，静默上传用户代码历史，这‘智能’助理的隐私条款是摆设？"
+        },
+        "paper-police": {
+          "score": 45,
+          "review": "逆向分析报告提供了技术细节，但缺乏独立第三方复现验证。"
+        },
+        "pragmatic": {
+          "score": 85,
+          "review": "使用ZCode前需注意隐私风险，其会未经明确同意上传代码历史。"
+        }
+      }
+    },
+    {
       "story_id": "story_6171d00caa9b",
       "title": "Copilot impact dashboard now shows feature engagement",
       "url": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
-      "rank": 1,
+      "rank": 2,
       "reviews": {
         "cynic": {
           "score": 65,
@@ -40,7 +60,7 @@
       "story_id": "story_4bc3dd239911",
       "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付 / Qwen3.8-Omni-Flash： Omni Senses. Agentic Delivery.",
       "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
-      "rank": 2,
+      "rank": 3,
       "reviews": {
         "cynic": {
           "score": 72,
@@ -53,26 +73,6 @@
         "pragmatic": {
           "score": 85,
           "review": "新模型已发布，可立即用于构建支持音视频的多模态智能体。"
-        }
-      }
-    },
-    {
-      "story_id": "story_633c0a236b12",
-      "title": "Agentic CLI customizations now in the usage metrics API",
-      "url": "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api",
-      "rank": 3,
-      "reviews": {
-        "cynic": {
-          "score": 55,
-          "review": "把已有的CLI功能接入统计API，算个功能整合，就别包装成什么重大突破了。"
-        },
-        "paper-police": {
-          "score": 15,
-          "review": "仅有官方博客更新，无论文、代码或独立评测支持其宣称。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "API已更新，可直接查询Agentic CLI的自定义使用数据，方便监控和计费。"
         }
       }
     }

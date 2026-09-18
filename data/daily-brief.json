@@ -222,6 +222,14 @@
         "url": "https://www.hacktron.ai/blog/hacking-openai",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 70,
+      "persona_review": "提醒检查依赖库安全，关注SSO配置，避免类似社工攻击。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-18T15:06:22.418213Z"
       }
     },
     {
@@ -299,6 +307,14 @@
         "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp",
         "source": "GitHub AI & ML",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 65,
+      "persona_review": "讨论RAG和MCP的行业观点，影响技术选型思路，值得开发者思考。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-18T15:06:22.418213Z"
       }
     },
     {
@@ -434,6 +450,14 @@
         "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
         "source": "Hacker News：AI 热帖",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "使用ZCode前需注意隐私风险，其会未经明确同意上传代码历史。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-18T15:06:22.418213Z"
       }
     },
     {
@@ -627,6 +651,14 @@
         "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "法律口水战，不影响你今天调API或选模型。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-18T15:06:22.418213Z"
       }
     },
     {
@@ -704,6 +736,14 @@
         "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench",
         "source": "Google AI Blog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "团队人事变动，对开发者近期工作没直接影响。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-18T15:06:22.418213Z"
       }
     },
     {
@@ -781,6 +821,14 @@
         "url": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "GitHub Copilot仪表板新增功能，开发者今天就能查看团队对具体AI功能的使用情况。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-18T15:06:22.418213Z"
       }
     },
     {
@@ -945,6 +993,14 @@
         "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
         "source": "Qwen：Blog Retrieval（API）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "新模型已发布，可立即用于构建支持音视频的多模态智能体。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-18T15:06:22.418213Z"
       }
     },
     {
@@ -1022,6 +1078,14 @@
         "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week",
         "source": "Google AI Blog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 10,
+      "persona_review": "品牌营销案例，对开发者没有技术或工具上的直接价值。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-18T15:06:22.418213Z"
       }
     },
     {
@@ -1128,6 +1192,14 @@
         "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai",
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "了解AI辅助安全测试的新案例，但具体漏洞已修复，无需行动。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-18T15:06:22.418213Z"
       }
     },
     {
@@ -1205,6 +1277,14 @@
         "url": "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "API已更新，可直接查询Agentic CLI的自定义使用数据，方便监控和计费。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-18T15:06:22.418213Z"
       }
     },
     {
@@ -1311,6 +1391,14 @@
         "url": "https://www.404media.co/doom-loop-openai-and-microsoft-admits-llms-are-destroying-the-web-and-built-on-theft",
         "source": "404 Media（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "法律口水战，不影响你今天调用API或训练模型。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-18T15:06:22.418213Z"
       }
     },
     {
@@ -1387,6 +1475,14 @@
         "url": "https://x.com/haider1/status/2100848578340220987",
         "source": "X：Haider (@haider1)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 65,
+      "persona_review": "提醒你检查API密钥和员工安全意识，这是低成本高威胁的真实案例。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-18T15:06:22.418213Z"
       }
     },
     {
@@ -1463,6 +1559,14 @@
         "url": "https://www.aibase.com/news/31169",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "内部研发效率的公关稿，对开发者选型或使用没直接影响。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-18T15:06:22.418213Z"
       }
     },
     {
@@ -1539,6 +1643,14 @@
         "url": "https://x.com/AIatMeta/status/2100714755568644409",
         "source": "X：AI at Meta (@AIatMeta)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "Meta的AI助手今天就能在Mac上装，直接帮你操作电脑完成任务。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-18T15:06:22.418213Z"
       }
     },
     {
@@ -1614,6 +1726,14 @@
         "url": "https://tessl.io/blog/ai-agent-evaluation-starts-with-evidence",
         "source": "Tessl：产品与工程博客",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 72,
+      "persona_review": "提供了35万行Rust代码的实践复盘，做评估系统时可参考其工程方案。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-18T15:06:22.418213Z"
       }
     },
     {
@@ -1689,6 +1809,14 @@
         "url": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai",
         "source": "Trail of Bits：AI安全研究",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "展示了用Agent审计复杂系统的具体方法，为安全工程师提供了可参考的实践框架。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-18T15:06:22.418213Z"
       }
     },
     {
@@ -1764,6 +1892,14 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
         "source": "The Verge：AI（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "大佬隔空喊话，不影响你今天调参和选型。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-18T15:06:22.418213Z"
       }
     },
     {
@@ -1841,6 +1977,14 @@
         "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform",
         "source": "Google AI Blog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "谷歌与联合国合作的数据平台，对普通开发者暂无直接可用的工具或API。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-18T15:06:22.418213Z"
       }
     },
     {
@@ -1918,6 +2062,14 @@
         "url": "https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "主流操作系统新版本发布，CI/CD 环境和 Docker 基础镜像可以更新了。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-18T15:06:22.418213Z"
       }
     },
     {
@@ -1993,6 +2145,14 @@
         "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
         "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "发布的是研究报告和内部指标，对实际开发选型或写代码没直接帮助。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-18T15:06:22.418213Z"
       }
     }
   ]
