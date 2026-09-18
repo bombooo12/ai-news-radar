@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T04:08:39.736247Z",
+  "generated_at": "2026-09-18T09:06:50.315029Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -37,10 +37,30 @@
       }
     },
     {
+      "story_id": "story_4bc3dd239911",
+      "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付 / Qwen3.8-Omni-Flash： Omni Senses. Agentic Delivery.",
+      "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+      "rank": 2,
+      "reviews": {
+        "cynic": {
+          "score": 72,
+          "review": "‘Flash’听着快，但没给具体延迟和成本数据，交付给谁看？"
+        },
+        "paper-police": {
+          "score": 45,
+          "review": "官方博客公布了评测数字，但未见论文与开源代码，无法独立验证。"
+        },
+        "pragmatic": {
+          "score": 85,
+          "review": "新模型已发布，可立即用于构建支持音视频的多模态智能体。"
+        }
+      }
+    },
+    {
       "story_id": "story_633c0a236b12",
       "title": "Agentic CLI customizations now in the usage metrics API",
       "url": "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api",
-      "rank": 2,
+      "rank": 3,
       "reviews": {
         "cynic": {
           "score": 55,
@@ -53,26 +73,6 @@
         "pragmatic": {
           "score": 85,
           "review": "API已更新，可直接查询Agentic CLI的自定义使用数据，方便监控和计费。"
-        }
-      }
-    },
-    {
-      "story_id": "story_58ddcdd75710",
-      "title": "Ubuntu 26 generally available and latest migration",
-      "url": "https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration",
-      "rank": 3,
-      "reviews": {
-        "cynic": {
-          "score": 65,
-          "review": "版本号+1的例行升级，亮点是迁移指南，但‘革命性’就别提了。"
-        },
-        "paper-police": {
-          "score": 65,
-          "review": "官方发布日志，版本与迁移信息明确，但无独立性能评测报告。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "主流操作系统新版本发布，CI/CD 环境和 Docker 基础镜像可以更新了。"
         }
       }
     }
