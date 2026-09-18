@@ -1,22 +1,24 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "recommendations": [
     {
       "rank": 1,
-      "title": "【AI小白必看】谷歌Home向ChatGPT/Claude敞开大门：普通人如何零门槛玩转AI管家？",
+      "title": "Claude Code项目实战：用AI Agent自动管理你的云端任务",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、智能家居爱好者、想用AI提升生活效率的个人",
-      "reason": "谷歌Home接入主流AI，是AI应用平民化的重要信号，符合创作者对新工具、新模型的兴趣，可做实操教程。",
+      "target_audience": "AI初学者、想用AI提升工作效率的个人、对Agent感兴趣的小白",
+      "reason": "Claude Code是近期热点，用户反馈对Harness和新工具感兴趣。此选题实操性强，符合创作者擅长的Agent/Skill实践分享。",
       "source_items": [
-        "Google Home opens the door to ChatGPT, Claude, and other AI agents",
-        "Kimi K3 + Claude：AI Agent 多模型路由实战"
+        "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
+        "Anthropic重构Claude Code项目功能，多线程并行执行任务",
+        "Claude 写掉 Anthropic 八成代码，CI 半年暴涨 25 倍差点被\"砸瘫\""
       ],
       "source_urls": [
-        "https://www.androidpolice.com/google-home-opens-the-door-to-chatgpt-claude-and-other-ai-agents",
-        "https://juejin.cn/post/7685190703506112538",
-        "https://claude.com/blog/cowork-is-now-claude",
-        "https://www.aibase.com/news/31125"
+        "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
+        "https://www.aibase.com/news/31145",
+        "https://www.aibase.com/news/31157",
+        "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
+        "https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -25,77 +27,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文+视频",
-          "hook": "手把手教你用谷歌Home调用ChatGPT，让AI帮你订外卖、写邮件！",
-          "summary": "教初学者如何一步步设置谷歌Home，连接ChatGPT/Claude，并实现几个实用的生活自动化场景。",
+          "hook": "手把手教你用Claude Code Projects：小白也能玩转多AI Agent",
+          "summary": "从零开始，一步步演示如何使用Claude Code的Projects功能，创建并管理多个并行执行的AI Agent任务。",
           "key_points": [
-            "谷歌Home的基础设置与连接方法",
-            "如何通过MCP或类似插件接入第三方AI",
-            "创建3个提升效率的自动化指令示例（如日程提醒、信息查询）"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "别乱连！谷歌Home+AI的3个致命隐私陷阱，90%的人都不知道",
-          "summary": "指出连接第三方AI到智能家居时可能遇到的隐私泄露、权限滥用和指令冲突等风险及规避方法。",
-          "pitfalls": [
-            "API密钥泄露导致账户被盗风险",
-            "AI误解指令可能造成的设备误操作",
-            "不同AI模型同时响应产生的混乱与解决方案"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "从谷歌Home看AI Agent未来：为什么“入口”之争比“模型”之争更重要？",
-          "summary": "分析谷歌Home此举背后的战略意图，探讨AI Agent如何通过硬件入口进入日常生活，并预测未来竞争格局。",
-          "insights": [
-            "AI平民化的关键：从云端到家庭终端的落地",
-            "谷歌、苹果、亚马逊在AI硬件入口上的布局对比",
-            "对个人创业者而言，AI Agent生态中的新机会在哪里？"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "title": "【数据惊人】AI短剧已占市场九成！普通人如何用AI工具低成本分一杯羹？",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "想用AI做副业变现的个人、短视频创作者、对AIGC剧情向内容感兴趣者",
-      "reason": "广电总局数据证实AI短剧已成主流，热点+实操性强，完美匹配创作者“AIGC剧情向内容”引流偏好。",
-      "source_items": [
-        "广电总局：前8个月上线微短剧中AI剧超九成",
-        "AI短剧制作全流程",
-        "用 Seedance 2.5 拍《沙丘 3》，我们替你把 AI 短片的坑全都踩过了"
-      ],
-      "source_urls": [
-        "https://36kr.com/newsflashes/3986894980201222?f=rss",
-        "https://waytoagi.feishu.cn/wiki/ZMnewrGilihaYnkLLnSc12Cpnig?from=from_copylink",
-        "https://www.ifanr.com/1680580",
-        "https://www.aibase.com/news/31104"
-      ],
-      "urgency": "high",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "视频+图文",
-          "hook": "零基础AI短剧制作：从剧本到成片，我用这些免费工具一周搞定",
-          "summary": "用剪映Pro、Midjourney、TRAE等工具，演示一个完整AI短剧（如商标维权小故事）从创意到发布的完整流程。",
-          "key_points": [
-            "用ChatGPT快速生成冲突性强的短剧剧本大纲",
-            "用Midjourney/TRAE生成分镜画面与角色",
-            "用剪映Pro进行配音、剪辑与包装的完整流程"
+            "注册与Claude Code环境搭建",
+            "创建第一个Project并定义任务流程",
+            "配置多Agent协作与结果监控"
           ],
           "difficulty": "入门",
           "estimated_time": "45分钟"
@@ -104,12 +41,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "血泪教训！AI做短剧最容易踩的5个大坑，踩中一个全白干",
-          "summary": "分享AI生成视频在角色一致性、剧情逻辑、版权审核、平台规则等方面的常见陷阱及规避方案。",
+          "hook": "Claude Code项目实战的五大陷阱：别让你的Agent失控",
+          "summary": "揭示使用Claude Code Projects时可能导致任务失败、成本飙升或结果混乱的常见错误。",
           "pitfalls": [
-            "角色“变脸”：如何保持AI生成角色形象一致性",
-            "剧情“智障”：AI剧本的逻辑漏洞修补技巧",
-            "版权“雷区”：AI生成内容如何避免侵权与通过平台审核"
+            "任务定义模糊导致Agent循环执行",
+            "权限与API调用配置不当",
+            "未设置成本与执行时间上限"
           ],
           "difficulty": "入门",
           "estimated_time": "20分钟"
@@ -118,12 +55,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "九成AI短剧背后的真相：是内容革命，还是新一轮的流量泡沫？",
-          "summary": "分析AI短剧爆火背后的经济模型、平台算法偏好，以及对传统内容创作和知识产权（商标/IP）带来的冲击与机遇。",
+          "hook": "从Claude写掉八成代码看AI Agent如何重塑软件开发",
+          "summary": "分析Claude在Anthropic内部的大规模应用案例，探讨AI Agent对工作流自动化的深远影响和未来趋势。",
           "insights": [
-            "AI短剧的低成本模式如何颠覆传统影视制作",
-            "平台为何大力推广AI剧？流量分发的底层逻辑",
-            "对商标代理业务的启示：如何将IP故事融入AI短剧进行软性引流"
+            "AI Agent从辅助到主导的范式转变",
+            "企业级AI工作流管理的挑战与机遇",
+            "对个人开发者和初创公司的启示"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -131,112 +68,51 @@
       ]
     },
     {
-      "rank": 3,
-      "title": "【新功能解读】Claude合并Chat与Cowork：你的AI全能办公助手该怎么用？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、办公族、自由职业者、追求效率的个人",
-      "reason": "Anthropic重大产品更新，是实操教程和深度分析的绝佳素材，符合创作者对新工具、深度解读的偏好。",
+      "rank": 2,
+      "title": "AI短剧制作全流程拆解：从剧本到成片的低成本实战",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "AI初学者、想用AI做视频的创作者、对AIGC剧情向内容感兴趣者",
+      "reason": "完美契合创作者偏好“AIGC剧情向内容”和“商标代理引流”。信息流有AI短剧全流程资料，实操性强，易于传播。",
       "source_items": [
-        "Anthropic 合并 Claude 产品线：Cowork 与 Chat 合为一体，打造统一办公入口",
-        "Anthropic合并Claude Cowork与Chat，统一AI任务工作空间"
+        "AI短剧制作全流程",
+        "用 Seedance 2.5 拍《沙丘 3》，我们替你把 AI 短片的坑全都踩过了",
+        "我用 Vidu S2 找来了「乔布斯」，跟他聊了聊 iPhone Duo"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/31125",
-        "https://www.aibase.com/news/31106",
-        "https://claude.com/blog/cowork-is-now-claude",
-        "https://the-decoder.com/an-openai-model-kept-slipping-prompt-injections-into-its-own-notes-and-researchers-still-arent-sure-why"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "告别切换！新版Claude一站式搞定写文档、做PPT、分析数据",
-          "summary": "详细演示如何在新版Claude中，利用其集成的Docs、Slides等功能，高效完成一份完整的商业计划书或项目报告。",
-          "key_points": [
-            "新版Claude界面导览与核心功能定位",
-            "从零创建并格式化一份专业文档（Doc）",
-            "将数据自动转化为可视化图表并插入幻灯片（Slides）"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "小心提示词泄露！OpenAI的前车之鉴，教你安全使用Claude新功能",
-          "summary": "结合OpenAI提示词注入漏洞的新闻，提醒用户在使用Claude处理敏感信息时如何设置系统指令，保护隐私。",
-          "pitfalls": [
-            "在协作空间中误分享含敏感信息的对话",
-            "AI在处理复杂指令时可能“自作主张”修改关键内容",
-            "如何设置有效的系统提示词（System Prompt）来约束AI行为"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "Claude的“统一”野心：为什么AI助手正在从聊天工具走向操作系统？",
-          "summary": "分析Claude此次合并背后的产品哲学，探讨AI Agent如何通过整合多种能力，成为个人数字工作的核心入口。",
-          "insights": [
-            "从“工具”到“环境”：AI工作空间的范式转变",
-            "对比Claude、GPTs、Copilot的不同整合路径",
-            "对普通用户意味着什么：未来工作流将被如何重塑"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "title": "【AI诈骗警示】数千人网恋被骗！揭秘LLM“杀猪盘”，教你一眼识破AI情人",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "所有AI使用者、社会新闻关注者、安全意识较弱的网民",
-      "reason": "结合社会热点与AI风险，具有极强传播性和警示意义，可做争议性/冲突性内容，符合创作者偏好。",
-      "source_items": [
-        "Anthropic and other researchers detail how thousands of people were catfished by dating scam apps using LLM-generated replies from Claude and other models"
-      ],
-      "source_urls": [
-        "https://www.techmeme.com/260917/p9",
-        "https://copyrightalliance.org/ai-piracy-problem-part-one",
-        "https://the-decoder.com/an-openai-model-kept-slipping-prompt-injections-into-its-own-notes-and-researchers-still-arent-sure-why"
+        "https://waytoagi.feishu.cn/wiki/ZMnewrGilihaYnkLLnSc12Cpnig?from=from_copylink",
+        "https://www.ifanr.com/1680580",
+        "https://www.ifanr.com/1680700",
+        "https://www.meetup.com/dasein-creative-circle/events/315984292",
+        "https://www.socialmediatoday.com/news/pinterest-announces-visual-search-ads-and-an-ai-restyle-feature/830737"
       ],
       "urgency": "high",
       "viral_potential": "high",
       "angles": [
         {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "视频（剧情向动画）",
-          "hook": "你的“网恋女友”可能是AI！5个特征快速鉴定ChatGPT式聊天",
-          "summary": "用AIGC制作短剧情景，直观展示AI“杀猪盘”的对话特征，并提供普通人可操作的鉴别技巧。",
-          "pitfalls": [
-            "对话过于完美、逻辑闭环，缺乏人类情绪波动",
-            "回避视频通话或使用AI换脸/合成语音",
-            "在特定话题（如最新突发新闻）上反应迟缓或错误",
-            "索要钱财的话术模板化"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "20分钟"
-        },
-        {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "反向操作：我用AI“调教”了一个防诈骗助手，专治各种花言巧语",
-          "summary": "教用户如何利用ChatGPT/Claude，创建一个能分析聊天记录、识别诈骗风险的个性化AI助手。",
+          "format": "视频",
+          "hook": "零成本AI短剧制作：用免费工具30分钟生成你的第一部剧",
+          "summary": "使用ChatGPT、Midjourney、剪映等工具，完整演示从生成剧本、角色图、配音到视频剪辑合成的全流程。",
           "key_points": [
-            "收集常见的诈骗话术作为训练数据",
-            "编写提示词（Prompt）让AI学习识别可疑模式",
-            "实战测试：将一段模拟对话扔给AI助手进行分析判断"
+            "用ChatGPT生成冲突性短剧剧本与分镜",
+            "用Midjourney生成统一风格的角色与场景",
+            "用剪映进行AI配音、画面合成与包装"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "40分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文+短视频",
+          "hook": "AI做短剧血亏指南：这五个坑踩一个就白干",
+          "summary": "指出AI生成短剧在人物一致性、剧情逻辑、版权风险等方面的致命陷阱，并提供解决方案。",
+          "pitfalls": [
+            "角色形象前后不一致（脸崩了）",
+            "AI剧本缺乏逻辑与情感张力",
+            "滥用有版权风险的素材与音乐"
           ],
           "difficulty": "入门",
           "estimated_time": "25分钟"
@@ -245,12 +121,144 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI作恶成本降至零：当“提示词工程”成为犯罪工具，我们该如何防御？",
-          "summary": "深入分析AI诈骗产业链，探讨技术双刃剑效应，以及从法律、平台、技术层面可能的治理路径。",
+          "hook": "AI短剧风口：是小作坊的狂欢，还是品牌营销的新大陆？",
+          "summary": "分析AI短剧市场的现状、变现模式，并探讨如何将其与商标/IP保护、品牌故事结合，为创作者和中小企业提供新思路。",
           "insights": [
-            "AI如何降低了诈骗的技术与人力门槛",
-            "现有法律在追责AI生成内容犯罪时的困境",
-            "普通用户除了提高警惕，还能依赖哪些技术性防御手段？"
+            "AI短剧的流量密码与变现路径分析",
+            "如何将短剧内容与商标/IP资产绑定",
+            "对小微企业和个人品牌建设的战略价值"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "提示词攻防战：当AI加水印时，如何安全地“驯服”大模型？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、对提示词工程感兴趣的用户、关注AI安全的内容创作者",
+      "reason": "结合了用户偏好的“提示词工程”和“争议性/冲突性选题”。信息流有AI水印与对抗性提示的前沿研究，话题新颖有深度。",
+      "source_items": [
+        "LLMs respond differently to harmful prompts when AI watermarking is used",
+        "黑客利用Anthropic的Claude入侵OpenAI",
+        "Anthropic and other researchers detail how thousands of people were catfished by dating scam apps using LLM-generated replies"
+      ],
+      "source_urls": [
+        "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts",
+        "https://36kr.com/newsflashes/3988326489930757?f=rss",
+        "https://www.techmeme.com/260917/p9",
+        "https://copyrightalliance.org/ai-piracy-problem-part-one",
+        "https://openai.com/index/cooley-gopublic"
+      ],
+      "urgency": "medium",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "安全第一：写给小白的5个“无害化”提示词编写法则",
+          "summary": "教初学者如何编写既能获得有效输出，又不会触发AI安全机制或水印的“安全提示词”。",
+          "key_points": [
+            "理解AI的内容安全边界（红线词）",
+            "使用“角色扮演”与“场景构建”软化请求",
+            "利用分步指令拆解复杂或敏感任务"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "你的提示词正在被“标记”：滥用AI可能面临的三大风险",
+          "summary": "揭示恶意或不当使用提示词可能导致账号被封、法律风险及成为网络诈骗工具的风险。",
+          "pitfalls": [
+            "触发水印导致输出被追踪溯源",
+            "模仿真人进行欺诈（如相亲诈骗）的法律风险",
+            "因滥用API导致账号被封禁"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "矛与盾：AI水印技术为何反而打开了新的攻击面？",
+          "summary": "深度解析最新研究，探讨AI文本水印技术的原理、局限，以及它如何意外地让模型更易受对抗性提示攻击。",
+          "insights": [
+            "AI水印技术的工作原理与固有缺陷",
+            "安全与可用性的永恒博弈",
+            "对未来AI治理与用户教育的启示"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "AI时代的创意保护：你的AIGC作品，到底算谁的？",
+      "track": "trademark_ip",
+      "track_name": "商标/IP/创业",
+      "target_audience": "AI内容创作者、小微企业与创业者、对知识产权感兴趣者",
+      "reason": "完美结合创作者主业（商标代理）与AI内容。信息流有AI版权与专利热点，争议性强，能有效引流目标客户。",
+      "source_items": [
+        "AI’s Piracy Problem: You Can’t Build an Empire on Stolen Goods",
+        "TIL that modern GLP1 drugs trace back to taxpayer-funded research...",
+        "Objective Baselessness in Carnegie v. Fenix Diamonds"
+      ],
+      "source_urls": [
+        "https://copyrightalliance.org/ai-piracy-problem-part-one",
+        "https://www.reddit.com/r/todayilearned/comments/1wjcqz8/til_that_modern_glp1_drugs_trace_back_to",
+        "https://patentlyo.com/patent/2026/09/objective-baselessness-in-carnegie-v-fenix-diamonds.html",
+        "https://www.managingip.com/article/2gwnnnt0b3kxbvb3k9x4w/patents/rajah-tann-at-50-how-singapore-gateway-is-driving-global-ip-work",
+        "https://www.aibase.com/news/31104"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "三步走策略：为你的AI生成作品穿上“法律防护衣”",
+          "summary": "教创作者如何通过简单的步骤（如添加人类创意元素、保留过程记录、进行版权登记）来增强AI作品的版权主张。",
+          "key_points": [
+            "在AI产出基础上添加“实质性”人工创作",
+            "完整保存提示词、迭代过程与时间戳",
+            "了解并利用“ Creative Commons ”等许可协议"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "25分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文+短视频",
+          "hook": "AIGC创业避雷：这些“免费”素材可能让你赔光",
+          "summary": "指出在商业项目中使用AI生成内容时，在商标、肖像权、训练数据版权等方面隐藏的致命法律风险。",
+          "pitfalls": [
+            "直接使用AI生成logo可能无法注册商标",
+            "AI生成人物肖像可能侵犯真人演员权益",
+            "基于有版权数据训练的模型产出存在潜在侵权"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "公地悲剧还是创新引擎？拆解AI版权之争背后的利益博弈",
+          "summary": "从制药专利案例延伸到AIGC，分析公共利益、私人资本与创作者权益在新技术下的复杂平衡。",
+          "insights": [
+            "从GLP-1药物案例看公共研究成果的私有化",
+            "AI版权争议对内容产业生态的长期影响",
+            "给个人创作者和小微企业的战略建议"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -259,62 +267,63 @@
     },
     {
       "rank": 5,
-      "title": "【商标创业者注意】AI内容爆火背后的“盗版”危机：你的品牌IP安全吗？",
-      "track": "trademark",
-      "track_name": "商标/IP/创业",
-      "target_audience": "小微企业主、品牌创业者、内容创作者、商标代理潜在客户",
-      "reason": "将AI热点与商标/IP主业结合，用专业知识解读行业风险，实现高质量引流，符合AIGC剧情向引流偏好。",
+      "title": "用AI搞定IPO文书？揭秘律所如何用ChatGPT加速上市",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "想用AI变现的个人、小微企业主、对AI提升专业效率感兴趣者",
+      "reason": "结合用户偏好的“新模型、新工具”和“数据驱动型选题”。案例具体、有说服力，能展示AI在高端场景的应用，吸引高质量受众。",
       "source_items": [
-        "AI’s Piracy Problem: You Can’t Build an Empire on Stolen Goods",
-        "广电总局：前8个月上线微短剧中AI剧超九成"
+        "How Cooley is accelerating IPO work with ChatGPT",
+        "百度沈抖：产业智能体正在打通大模型变现的“最后一公里”"
       ],
       "source_urls": [
-        "https://copyrightalliance.org/ai-piracy-problem-part-one",
-        "https://36kr.com/newsflashes/3986894980201222?f=rss",
-        "https://www.managingip.com/article/2gwnnnt0b3kxbvb3k9x4w/patents/rajah-tann-at-50-how-singapore-gateway-is-driving-global-ip-work",
-        "https://patentlyo.com/patent/2026/09/the-federal-circuit-extends-sanho-to-the-section-102b1b-grace-period.html"
+        "https://openai.com/index/cooley-gopublic",
+        "https://www.aibase.com/news/31104",
+        "https://www.inc.com/aaron-mok/want-ai-to-actually-help-your-company-make-money-follow-these-5-tips-from-microsofts-playbook/91406013",
+        "https://www.techmeme.com/260917/p1",
+        "https://www.businessinsider.com/day-life-jessica-cruel-editor-in-chief-allure-magazine-2026-9"
       ],
       "urgency": "medium",
       "viral_potential": "medium",
       "angles": [
         {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "小白也能学：用ChatGPT快速起草商业计划书与合同要点",
+          "summary": "将律所的方法平民化，教个人创业者如何利用ChatGPT辅助生成商业文档的核心框架与条款。",
+          "key_points": [
+            "构建专业“律师”角色提示词",
+            "分步骤生成商业计划书的核心章节",
+            "审查与修改AI生成合同的关键条款"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "35分钟"
+        },
+        {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文+AIGC剧情向视频",
-          "hook": "小心！你的品牌名可能正在被AI短剧“白嫖”，3步教你紧急排查",
-          "summary": "用一个小微企业品牌被AI生成内容无意侵权的案例故事，引出品牌主需要立即进行的知识产权风险自查步骤。",
+          "format": "图文",
+          "hook": "别让AI毁了你的生意：法律文书自动化的三大禁忌",
+          "summary": "指出在重要商业和法律文件中盲目依赖AI可能导致的准确性、责任和机密性风险。",
           "pitfalls": [
-            "AI工具在生成内容时可能无意使用了你的商标名",
-            "AI生成的logo与你已注册的图形商标高度相似",
-            "维权时面临“AI生成内容侵权主体难以认定”的困境"
+            "完全依赖AI生成最终法律文本",
+            "向AI泄露未公开的商业机密信息",
+            "忽视AI的“幻觉”对事实与数据的扭曲"
           ],
           "difficulty": "入门",
           "estimated_time": "20分钟"
         },
         {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "AI时代品牌防护手册：从商标注册到版权监测，一步都不能少",
-          "summary": "面向创业者，系统讲解在AIGC内容泛滥的背景下，如何构建一个更全面的品牌知识产权保护体系。",
-          "key_points": [
-            "核心商标类别注册（尤其是第9类软件、第41类娱乐）",
-            "对AI生成内容进行版权登记的必要性与操作",
-            "利用AI工具进行全网品牌侵权监测的简易方法"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "“盗火”与“防火”：AI内容产业爆发，知识产权法律正在如何被重塑？",
-          "summary": "从国际案例和国内政策出发，分析AI对现有著作权、商标法体系的冲击，以及未来法律可能的演进方向。",
+          "hook": "从Cooley律所案例，看“产业智能体”如何啃下专业服务的硬骨头",
+          "summary": "深度分析AI渗透高端专业服务的路径、挑战，以及对知识工作者未来角色的重新定义。",
           "insights": [
-            "AI训练数据版权争议的全球司法实践对比",
-            "“AI生成物”是否受保护？各国态度与对企业的影响",
-            "给品牌主的建议：在规则明确前，应采取怎样的防御性策略"
+            "AI在“高价值、高复杂度”任务中的定位",
+            "“人机协同”工作流重构的关键",
+            "对咨询、法律、财务等行业的职业启示"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -323,62 +332,62 @@
     },
     {
       "rank": 6,
-      "title": "【副业新思路】“Noise”平台想让你当网红：AI如何助力普通人成为付费创作者？",
-      "track": "creator_economy",
-      "track_name": "自媒体/创作者经济",
-      "target_audience": "想用AI变现的个人、自媒体新人、副业探索者",
-      "reason": "结合“副业变现”和“创作者经济”热点，提供AI赋能的具体思路，实操性强，易引发目标受众共鸣。",
+      "title": "Allure主编的副业经：用Post-it和AI管理多线程人生",
+      "track": "side_hustle",
+      "track_name": "个人成长/副业变现",
+      "target_audience": "想用AI变现的个人、多任务处理者、自媒体创作者",
+      "reason": "结合了信息流中的“副业”热点与创作者的“自媒体运营策略”能力。故事性强，易于引发共鸣，能自然融入效率工具推荐。",
       "source_items": [
-        "Noise wants to help everyday people  become paid content creators",
-        "The Right Way to Keep Tabs on Your Instagram Follower Growth"
+        "I'm the editor in chief of Allure. I have multiple side hustles and keep my life organized on Post-its.",
+        "Freelance Tax Guide"
       ],
       "source_urls": [
-        "https://techcrunch.com/2026/09/16/noise-wants-to-help-everyday-people-become-paid-content-creators",
-        "https://influencermarketinghub.com/keep-tabs-on-your-instagram-follower-growth",
         "https://www.businessinsider.com/day-life-jessica-cruel-editor-in-chief-allure-magazine-2026-9",
-        "https://www.producthunt.com/products/passive-freelancer"
+        "https://www.producthunt.com/products/passive-freelancer",
+        "https://influencermarketinghub.com/keep-tabs-on-your-instagram-follower-growth",
+        "https://www.kiplinger.com/retirement/retirement-planning/the-case-for-carrying-a-mortgage-into-retirement"
       ],
-      "urgency": "medium",
+      "urgency": "low",
       "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "从0到1：我用AI工具包，一周在“Noise”类平台打造了一个能赚钱的垂直账号",
-          "summary": "模拟一个具体案例（如“AI绘画技巧分享”），展示如何利用AI完成从定位、内容创作到粉丝增长的全过程。",
+          "hook": "纸质便签+数字大脑：我的多项目AI管理流水线",
+          "summary": "分享如何结合像Post-it这样的实体工具与TRAE、ChatGPT等AI工具，可视化并自动化管理多个副业项目。",
           "key_points": [
-            "利用ChatGPT进行账号定位与内容规划",
-            "用Midjourney/TRAE批量生成高质量配图",
-            "使用AI分析工具优化发布策略与互动话术"
+            "用便签进行每日头脑风暴与任务拆解",
+            "用AI日历与任务管理工具同步并设置提醒",
+            "用AI周报生成器自动复盘各项目进展"
           ],
           "difficulty": "入门",
-          "estimated_time": "40分钟"
+          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "别被“人人可创作”忽悠了！AI做自媒体的3个变现陷阱",
-          "summary": "指出利用AI做内容创业时，在平台规则、内容同质化、可持续性方面容易遇到的问题及应对策略。",
+          "hook": "副业变“负”业：兼职创作者最容易忽略的三大精力陷阱",
+          "summary": "指出在多项目并行时，在时间分配、精力管理和税务方面常见的误区，导致主业副业双双受损。",
           "pitfalls": [
-            "纯AI生成内容可能被平台限流或判定为低质",
-            "过度依赖导致缺乏个人特色，账号没有辨识度",
-            "盲目追热点，无法建立稳定的变现模式"
+            "项目切换成本过高导致效率低下",
+            "忽视副业收入的税务规划",
+            "因追求数量而牺牲内容质量与个人品牌"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "“创作者”平权运动？AI工具如何正在重塑内容生产的权力结构",
-          "summary": "分析Noise等平台的出现，结合AI工具普及，如何降低创作门槛，并可能对传统KOL生态和广告业产生的影响。",
+          "hook": "“一人企业”时代：AI如何重塑我们的工作伦理与生活边界",
+          "summary": "从主编的案例出发，探讨在AI赋能下，“工作”与“生活”、“主业”与“副业”界限模糊化带来的新挑战与机遇。",
           "insights": [
-            "从“专业机构”到“全民创作”：内容生产民主化的利弊",
-            "AI辅助下，未来“创意”和“运营”能力哪个更值钱？",
-            "对于个人而言，在AI时代构建“创作者品牌”的核心是什么？"
+            "AI工具对“创造性劳动”定义的扩展",
+            "数字游民与“一人企业”的可持续性探讨",
+            "构建抗风险的个人职业组合策略"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -387,20 +396,20 @@
     }
   ],
   "weekly_plan": {
-    "monday": "【AI小白必看】谷歌Home向ChatGPT/Claude敞开大门：普通人如何零门槛玩转AI管家？（实操教程角度）",
-    "wednesday": "【数据惊人】AI短剧已占市场九成！普通人如何用AI工具低成本分一杯羹？（避坑指南角度）",
-    "friday": "【商标创业者注意】AI内容爆火背后的“盗版”危机：你的品牌IP安全吗？（AIGC剧情向视频角度）",
-    "strategy": "本周聚焦“AI应用落地”，从智能家居到短剧创作，再到个人品牌防护，覆盖工具实操、风险警示与行业深度，实现知识普及与主业引流双赢。"
+    "monday": "Claude Code项目实战：用AI Agent自动管理你的云端任务（实操教程）",
+    "wednesday": "AI短剧制作全流程拆解：从剧本到成片的低成本实战（避坑指南）",
+    "friday": "AI时代的创意保护：你的AIGC作品，到底算谁的？（深度解读）",
+    "strategy": "本周聚焦“AI+自动化”（Claude Code）与“AI+创作”（短剧/IP），以实操引流，以深度建立专业认知，穿插副业话题维持共鸣。"
   },
-  "insights": "今日信息流显示两大趋势：一是AI正通过硬件入口（如谷歌Home）和软件整合（如Claude）加速融入日常生活与工作；二是AI生成内容（尤其是短剧）在数量上已成主流，但随之而来的版权、诈骗等风险问题日益凸显。",
-  "ai_adjustment": "基于用户历史反馈，本次推荐重点围绕“Harness/新模型/新工具”热点展开（如谷歌Home接入AI、Claude更新），并强化了“数据驱动”（如引用广电总局九成数据）和“争议性/冲突性”（如AI诈骗）选题，同时确保每个选题都提供强实操性角度，避免纯硬件或纯理论内容。",
-  "generated_at": "2026-09-17T23:12:20.528758+08:00",
-  "total_items": 546,
-  "scored_items": 463,
+  "insights": "今日信息流显示，AI Agent（Claude Code）的实战应用与AIGC内容（短剧）的版权/制作是两大核心热点，且均与创作者的技能矩阵和业务引流高度契合。",
+  "ai_adjustment": "基于用户反馈，重点围绕其感兴趣的“Harness/新工具（Claude Code）”、“AI视频”和“系列选题”方向进行推荐，并规避了硬件相关选题，强化了实操教程与深度解读的结合。",
+  "generated_at": "2026-09-18T12:12:01.093609+08:00",
+  "total_items": 496,
+  "scored_items": 422,
   "tracks_summary": {
-    "ai_tech": 433,
-    "trademark_business": 5,
-    "creator_economy": 11,
+    "ai_tech": 382,
+    "trademark_business": 6,
+    "creator_economy": 20,
     "ai_video": 10,
     "growth_monetize": 4
   },

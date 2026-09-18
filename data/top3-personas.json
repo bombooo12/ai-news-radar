@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T15:08:50.793480Z",
+  "generated_at": "2026-09-18T04:08:39.736247Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_6210c4b108ab",
-      "title": "Copilot budget increase requests are generally available",
-      "url": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
+      "story_id": "story_6171d00caa9b",
+      "title": "Copilot impact dashboard now shows feature engagement",
+      "url": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 35,
-          "review": "功能是加了，但花钱买更多额度的功能，也值得专门发个GA公告？"
+          "score": 65,
+          "review": "给已有的数据看板加了个新图表，就这也能叫‘影响’？"
         },
         "paper-police": {
           "score": 15,
-          "review": "仅有官方博客功能通告，无技术细节、评测数据或第三方验证。"
+          "review": "仅为官方博客功能更新，无论文、代码或独立评测支撑。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "企业管理员现在可以正式申请提高Copilot预算上限了。"
+          "review": "GitHub Copilot仪表板新增功能，开发者今天就能查看团队对具体AI功能的使用情况。"
         }
       }
     },
     {
-      "story_id": "story_d6e73104d607",
-      "title": "Automate SSO authorization for classic PATs and SSH keys",
-      "url": "https://github.blog/changelog/2026-09-16-automate-sso-authorization-for-classic-pats-and-ssh-keys",
+      "story_id": "story_633c0a236b12",
+      "title": "Agentic CLI customizations now in the usage metrics API",
+      "url": "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 75,
-          "review": "功能是实在的，但‘自动化’听着像新东西，其实早该有了。"
+          "score": 55,
+          "review": "把已有的CLI功能接入统计API，算个功能整合，就别包装成什么重大突破了。"
         },
         "paper-police": {
-          "score": 45,
-          "review": "官方博客公布了功能细节，但无独立评测或可复现的基准。"
+          "score": 15,
+          "review": "仅有官方博客更新，无论文、代码或独立评测支持其宣称。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "GitHub SSO授权自动化，管理企业PAT和SSH密钥的合规工作可以简化了。"
+          "review": "API已更新，可直接查询Agentic CLI的自定义使用数据，方便监控和计费。"
         }
       }
     },
     {
-      "story_id": "story_a3ab3422578f",
-      "title": "Anthropic 将 Claude Cowork 与聊天合并为统一的 Claude，并推出 Docs、Slides 等功能 / Claude Cowork and chat are now one Claude",
-      "url": "https://claude.com/blog/cowork-is-now-claude",
+      "story_id": "story_58ddcdd75710",
+      "title": "Ubuntu 26 generally available and latest migration",
+      "url": "https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 55,
-          "review": "把两个功能合并成一个，再塞点新东西，就叫重大更新了？"
+          "score": 65,
+          "review": "版本号+1的例行升级，亮点是迁移指南，但‘革命性’就别提了。"
         },
         "paper-police": {
-          "score": 15,
-          "review": "仅有官方博客宣传，无论文、代码或独立评测，证据不足。"
+          "score": 65,
+          "review": "官方发布日志，版本与迁移信息明确，但无独立性能评测报告。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "Claude产品线统一，Docs、Slides等新功能已上线，可直接试用。"
+          "review": "主流操作系统新版本发布，CI/CD 环境和 Docker 基础镜像可以更新了。"
         }
       }
     }
