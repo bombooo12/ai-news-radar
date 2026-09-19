@@ -1,24 +1,21 @@
 {
-  "date": "2026-09-18",
+  "date": "2026-09-19",
   "recommendations": [
     {
       "rank": 1,
-      "title": "用Claude入侵OpenAI？深度拆解AI安全攻防战与普通人警示",
+      "title": "用AI智能体守护你的时间！从Scale AI创始人的提示词到小白实操",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、对AI安全和伦理感兴趣的用户",
-      "reason": "结合今日最热新闻，满足用户对“新模型、新工具”的兴趣，兼具技术、争议性和安全警示，易于传播。",
+      "target_audience": "AI初学者、效率追求者、想用AI管理日程的个人",
+      "reason": "结合顶尖AI公司创始人的热点提示词，提供从概念到实操的完整路径，强实操性，符合用户对Agent和提示词的兴趣。",
       "source_items": [
-        "白帽黑客用 Claude 攻破 OpenAI 员工 ChatGPT 账户，拿到 6500 美元赏金",
-        "研究团队用 Claude Opus 5 入侵 OpenAI，获 6500 美元漏洞赏金",
-        "Hackers Used Anthropic's Claude to Break into OpenAI"
+        "Alexandr Wang 转发一份让 AI 智能体保护日历通勤时间的 Muse 提示词",
+        "Grab 智能体框架 LLM-Kit 加速 AI 智能体生产部署"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/31159",
-        "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai",
-        "https://36kr.com/newsflashes/3988326489930757?f=rss",
-        "https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883",
-        "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling"
+        "https://x.com/alexandr_wang/status/2101141362607632873",
+        "https://www.infoq.cn/article/AFC40lL0yaxVCDvBRFOK",
+        "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -27,12 +24,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "手把手教你：如何用AI工具进行基础的“安全自查”？",
-          "summary": "教普通用户利用ChatGPT/Claude等工具检查自己的账号密码、API密钥是否存在常见安全隐患。",
+          "hook": "手把手教你：用ChatGPT/DeepSeek打造你的专属时间守护智能体",
+          "summary": "教用户如何将Alexandr Wang提到的“Muse提示词”本地化，用免费工具实现日程自动化防护。",
           "key_points": [
-            "使用AI模拟常见社工攻击话术，测试自身警惕性",
-            "检查公开信息（如GitHub）是否泄露敏感数据的方法",
-            "设置高强度密码和二次验证的AI辅助最佳实践"
+            "获取并解读原版Muse提示词的核心逻辑",
+            "使用ChatGPT/DeepSeek构建基础日程分析Agent",
+            "设置自动化规则并连接日历API（可选）"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -40,15 +37,13 @@
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文+短视频",
-          "hook": "小心！你的AI助手可能变成“黑客帮凶”，这5个坑千万别踩",
-          "summary": "指出普通用户在使用AI时可能无意中助长安全风险的常见行为。",
+          "format": "短视频",
+          "hook": "别让智能体变“智障体”！搭建个人Agent的3大天坑",
+          "summary": "指出初学者在构建个人智能体时，在隐私、提示词模糊、过度自动化方面的常见陷阱。",
           "pitfalls": [
-            "在AI对话中泄露个人身份信息（PII）",
-            "让AI编写可能存在漏洞的代码或脚本",
-            "使用AI处理未脱敏的机密文档",
-            "盲目相信AI提供的安全建议",
-            "在不可信平台使用相同API密钥"
+            "隐私泄露坑：千万别把完整日历直接喂给公开AI",
+            "目标模糊坑：如何写出具体、可执行的Agent指令",
+            "过度依赖坑：AI是助手，不是决策者，关键事项仍需人工确认"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -57,13 +52,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI vs AI：安全攻防进入“智能体战争”时代，我们该如何自处？",
-          "summary": "分析本次事件背后的技术逻辑、AI安全行业趋势以及对个人和企业的长远影响。",
+          "hook": "从“保护通勤时间”看未来：个人AI智能体将如何重塑我们的工作流？",
+          "summary": "分析这个案例背后，个人Agent从概念走向普及的趋势、挑战及对个人效率的深远影响。",
           "insights": [
-            "事件还原：Claude是如何被用作攻击工具的？",
-            "AI安全“矛与盾”的同步进化：自动化攻击与自动化防御",
-            "对开源模型和闭源商业模型的潜在安全冲击",
-            "给AI初学者的核心建议：在享受便利时守住安全底线"
+            "趋势洞察：AI智能体正从企业级应用下沉到个人场景",
+            "技术门槛降低：LLM-Kit等框架如何让小白也能玩转Agent",
+            "未来展望：个人AI助理将成为数字生活的“操作系统”"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -72,47 +66,49 @@
     },
     {
       "rank": 2,
-      "title": "RAG已死？Skill当立！GitHub热文解读AI应用开发新范式",
+      "title": "Claude攻破OpenAI！AI互搏背后的安全警示与小白防护指南",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、对Agent和AI应用开发感兴趣的开发者、技术爱好者",
-      "reason": "直接回应用户对“Harness”等新工具/框架的兴趣，解读前沿技术争论，提供实操和认知升级。",
+      "target_audience": "AI初学者、关注AI安全与伦理的用户、对Claude/OpenAI感兴趣的人",
+      "reason": "极具争议性和传播性的热点事件，完美契合用户对“争议性/冲突性”内容的偏好，可延伸至实操防护。",
       "source_items": [
-        "Should you read the code, is RAG dead, and did Skills kill MCP?",
-        "Grab 智能体框架 LLM-Kit 加速 AI 智能体生产部署"
+        "白帽黑客用 Claude 攻破 OpenAI 员工 ChatGPT 账户，拿到 6500 美元赏金",
+        "研究团队用 Claude Opus 5 入侵 OpenAI，获 6500 美元漏洞赏金",
+        "Security researchers used Anthropic's Claude to hack OpenAI's internal systems in under 72 hours"
       ],
       "source_urls": [
-        "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp",
-        "https://www.infoq.cn/article/AFC40lL0yaxVCDvBRFOK",
-        "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects"
+        "https://www.aibase.com/news/31159",
+        "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai",
+        "https://the-decoder.com/security-researchers-used-anthropics-claude-to-hack-openais-internal-systems-in-under-72-hours",
+        "https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot"
       ],
-      "urgency": "medium",
+      "urgency": "high",
       "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频（录屏）",
-          "hook": "零代码！用Claude Code Projects快速搭建你的第一个AI智能体工作流",
-          "summary": "通过可视化操作，演示如何使用Claude Code的Projects功能管理多AI Agent任务。",
+          "format": "图文",
+          "hook": "你的AI账户安全吗？5步设置，锁死你的ChatGPT和Claude",
+          "summary": "教普通用户如何加固自己的主流AI工具账户，避免成为“AI互搏”的牺牲品。",
           "key_points": [
-            "Claude Code Projects界面初识与项目创建",
-            "配置不同的AI角色（如写代码、检查错误）",
-            "串联任务步骤，实现一个自动生成报告的小型工作流"
+            "开启双重认证（2FA）的详细步骤",
+            "审查和管理API密钥与对话历史",
+            "设置登录提醒和可疑活动监控"
           ],
           "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文",
-          "hook": "从RAG转向Skill？别急，先避开这3个认知陷阱",
-          "summary": "指出在追赶“Skill”新概念时，初学者容易产生的误解和错误实践。",
+          "format": "短视频",
+          "hook": "AI安全三大幻觉：你以为安全了，其实黑客笑了",
+          "summary": "指出用户在AI账户安全上常见的认知误区和操作漏洞。",
           "pitfalls": [
-            "误区：Skill万能，可以完全替代RAG",
-            "陷阱：盲目追求复杂Skill，忽视简单提示词优化",
-            "风险：过早陷入框架选择焦虑，而非解决具体问题"
+            "幻觉一：“免费账户没人盯”——恰恰是自动化攻击的目标",
+            "幻觉二：“复杂密码就够用”——忽略API密钥和会话劫持风险",
+            "幻觉三：“AI公司会保护我”——个人安全习惯才是第一道防线"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -121,13 +117,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "深度解读：RAG、Skill、MCP、Agent——AI应用架构的“战国时代”",
-          "summary": "梳理几种主流技术范式的定义、关系、适用场景及未来可能的技术融合方向。",
+          "hook": "AI攻防战开幕：当Claude成为打开OpenAI大门的钥匙",
+          "summary": "深度分析此次事件对AI行业安全范式、模型竞争格局及未来监管的深远影响。",
           "insights": [
-            "概念厘清：RAG、Skill、MCP、Agent分别是什么？",
-            "从“检索增强”到“技能调用”：AI能力集成方式的演进",
-            "开源框架（如LLM-Kit）如何降低智能体开发门槛？",
-            "对AI应用创业者和小开发者的机会判断"
+            "范式转变：AI安全从“防人”进入“防AI”新时代",
+            "竞争新维度：模型“攻击性”与“防御性”或成评估指标",
+            "监管前瞻：AI互搏事件将如何加速全球AI安全立法进程"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -136,32 +131,31 @@
     },
     {
       "rank": 3,
-      "title": "小红书AI助手Cura爆火！拆解创作者如何用AI实现收入增长118%",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "想用AI变现的个人、自媒体创作者、小红书用户",
-      "reason": "结合平台官方动态与“副业变现”需求，提供可直接落地的AI工具应用案例，数据驱动有说服力。",
+      "title": "RAG已死？Skill当立？GitHub热文拆解AI应用开发新范式",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、对AI应用开发感兴趣的技术小白、关注RAG和Agent的开发者",
+      "reason": "直接回应GitHub官方博客热点讨论，技术争议性强，符合用户对“新模型、新工具”的兴趣，可做深度科普。",
       "source_items": [
-        "小红书发布商业创作者AI助手Cura，获得收入买手同比增长118%"
+        "Should you read the code, is RAG dead, and did Skills kill MCP?"
       ],
       "source_urls": [
-        "https://36kr.com/newsflashes/3988634173586440?f=rss",
-        "https://sproutsocial.com/insights/social-media-discoverability",
-        "https://digiday.com/sponsored/the-state-of-subscriber-engagement-in-the-ai-era-publishers-first-party-relationship-strategies"
+        "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp",
+        "https://www.techmeme.com/260918/p39"
       ],
-      "urgency": "high",
-      "viral_potential": "high",
+      "urgency": "medium",
+      "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频（剪映包装）",
-          "hook": "跟我做！用AI工具5分钟生成一条高点击率小红书封面和文案",
-          "summary": "模拟小红书Cura的功能，使用Midjourney+ChatGPT等通用AI工具，复现高效的笔记创作流程。",
+          "format": "图文",
+          "hook": "告别复杂RAG！用Claude Code的Skill功能，10分钟搭建专属知识库问答",
+          "summary": "利用Anthropic新支持的AGENTS.md和Skill功能，演示一个极简的、无需复杂向量数据库的AI应用搭建过程。",
           "key_points": [
-            "用Midjourney生成吸引眼球的“多巴胺”风格封面图",
-            "用ChatGPT根据热点生成爆款标题和种草文案",
-            "利用剪映的AI功能快速生成视频字幕和包装"
+            "理解Skill与RAG的核心区别：从“检索”到“调用”",
+            "在Claude Code中创建你的第一个简单Skill（如查询天气）",
+            "将多个Skill组合，实现一个连贯的问答流程"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -170,28 +164,26 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "用了AI流量反而差？小红书AI创作必须绕开的4个雷区",
-          "summary": "指出滥用AI导致内容同质化、违规、低质等常见问题，并提供解决方案。",
+          "hook": "从RAG转向Skill？小心这3个认知陷阱让你白忙一场",
+          "summary": "指出初学者在理解RAG与Skill关系、技术选型和应用场景上的常见误区。",
           "pitfalls": [
-            "雷区：AI生成文案过于通用，缺乏个人真实体验",
-            "雷区：图片过度修饰，违反平台“真实分享”原则",
-            "雷区：盲目追热点，内容与账号定位不符",
-            "雷区：忽视平台算法对“人工干预”内容的识别"
+            "陷阱一：非此即彼——Skill并非在所有场景都优于RAG",
+            "陷阱二：忽视成本——频繁调用外部API的Skill可能更烧钱",
+            "陷阱三：过度设计——为简单需求搭建复杂的Skill链"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从Cura到Sora：AI如何重塑“创作者经济”的流量与变现逻辑？",
-          "summary": "分析AI工具如何从内容创作、粉丝互动、商业变现全链路赋能创作者，并展望未来趋势。",
+          "hook": "MCP、Skill、RAG：一场关于AI“手脚”与“大脑”的路线之争",
+          "summary": "深入解读GitHub文章背后的技术思潮，分析AI应用架构从集中式知识库到分布式能力调用的演进逻辑。",
           "insights": [
-            "平台方视角：为什么小红书要大力推广AI助手？",
-            "“AI原生创作者”的核心竞争力是什么？",
-            "AI工具普及下，普通创作者的“护城河”在哪里？",
-            "结合商标/IP业务，探讨AIGC内容的知识产权保护新需求"
+            "技术演进：从RAG（增强记忆）到Skill/MCP（扩展手脚）是必然",
+            "生态竞争：OpenAI与Anthropic在AI应用层标准上的暗中角力",
+            "开发者未来：掌握“编排”能力比掌握单一技术更重要"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -200,32 +192,33 @@
     },
     {
       "rank": 4,
-      "title": "Pinterest推出AI视觉搜索广告：电商与创作者的新流量金矿？",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "对AI视觉营销、电商、副业变现感兴趣的用户",
-      "reason": "抓住Pinterest新功能热点，将AI视觉技术与商业变现结合，符合用户对“实操”和“变现”的偏好。",
+      "title": "AIGC创作必看！迪士尼“真香”事件背后的版权博弈与避坑法则",
+      "track": "trademark_ip",
+      "track_name": "商标/IP/创业",
+      "target_audience": "AIGC创作者、小微创业者、对AI版权问题困惑的用户",
+      "reason": "完美结合用户“商标/IP科普”需求和“AIGC剧情向”偏好，用迪士尼戏剧性事件切入，有冲突、有干货、能引流。",
       "source_items": [
-        "Pinterest announces visual search ads and an AI restyle feature"
+        "Disney hires ex-CEO of AI company it accused of copyright infringement",
+        "纽约时报版权诉讼披露：微软高管内部称训练 AI 是人类历史上最大规模劳动窃取"
       ],
       "source_urls": [
-        "https://www.socialmediatoday.com/news/pinterest-announces-visual-search-ads-and-an-ai-restyle-feature/830737",
-        "https://www.inc.com/annabel-burba/her-plant-based-seafood-brand-was-about-to-run-out-of-money-then-she-went-viral-on-tiktok/91406619",
-        "https://www.yankodesign.com/2026/09/17/pikachu-just-got-hidden-inside-your-coffee-mug-and-pokemon-fans-are-going-to-lose-it"
+        "https://www.engadget.com/2262703/disney-hires-ex-ceo-of-ai-company-it-accused-of-copyright-infringement",
+        "https://www.ithome.com/1/004/356.htm",
+        "https://www.engadget.com/2262978/sony-music-and-umg-say-sunos-new-models-still-violates-their-copyright"
       ],
       "urgency": "medium",
-      "viral_potential": "medium",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频（录屏+包装）",
-          "hook": "手把手教学：如何用AI生成Pinterest“视觉搜索”友好型爆款图片？",
-          "summary": "演示如何制作容易被Pinterest AI识别和推荐的、高转化率的商品或灵感图片。",
+          "format": "视频（AIGC剧情向）",
+          "hook": "（剧情）我的AI画作被指侵权？三步自查法教你安全使用AIGC",
+          "summary": "通过一个虚拟的AIGC创作者故事，演示如何检查自己的AI生成内容是否可能涉及版权风险。",
           "key_points": [
-            "分析Pinterest热门图片的视觉元素和构图",
-            "使用Midjourney或Leonardo.ai生成符合调性的场景图",
-            "利用Canva或PS进行二次加工，优化关键词标签"
+            "第一步：追溯提示词——你的灵感来源是否过于“具体”？",
+            "第二步：使用反查工具——用AI检测AI，初步筛查相似度",
+            "第三步：添加“安全垫”——如何在作品中融入独创性元素"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -234,27 +227,27 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "Pinterest AI广告投放初体验：我踩过的3个坑和烧掉的冤枉钱",
-          "summary": "以初学者视角，分享在尝试新广告功能时可能遇到的预算、定位、素材问题。",
+          "hook": "AIGC变现路上，这4类版权“雷区”一踩就炸",
+          "summary": "明确指出AIGC创作者在商业变现中最容易触雷的四种内容类型。",
           "pitfalls": [
-            "坑：对“视觉搜索”理解偏差，导致广告无法触发",
-            "坑：AI生成图片风格与平台用户审美不符",
-            "坑：没有设置好转化追踪，无法衡量ROI"
+            "雷区一：生成有明显品牌标识（Logo、角色）的内容",
+            "雷区二：模仿特定艺术家风格并进行大量商业售卖",
+            "雷区三：使用未授权的人物肖像或名人照片进行训练和生成",
+            "雷区四：忽视平台条款，在严禁AIGC的平台发布作品"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "“以图搜图”进入AI时代：视觉搜索广告将如何改变电商格局？",
-          "summary": "深入分析Pinterest这一举措背后的技术原理、对中小卖家的机会，以及与其他平台（如TikTok Shop）的竞争差异。",
+          "hook": "从诉讼到雇佣：迪士尼的“转身”揭示了AIGC版权的何种未来？",
+          "summary": "分析迪士尼行为背后的商业逻辑，解读大公司对AIGC版权从“堵”到“疏”的策略转变及行业影响。",
           "insights": [
-            "技术拆解：AI如何理解图片并匹配广告？",
-            "对独立站和跨境小卖家的流量红利期判断",
-            "创作者如何通过制作“可搜索”的视觉内容获利？",
-            "结合商标业务，提醒卖家注意图片中的知识产权风险"
+            "商业本质：巨头诉讼是为谈判桌争取筹码，而非消灭技术",
+            "趋势判断：“许可”和“合作”将逐步取代“禁止”成为主流",
+            "创作者启示：个人创作者应关注“合规化”工具和平台，而非因噎废食"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -263,19 +256,17 @@
     },
     {
       "rank": 5,
-      "title": "Meta版权系统被滥用？AIGC时代创作者必须知道的IP避坑指南",
-      "track": "商标/IP/创业",
-      "track_name": "商标/IP/创业",
-      "target_audience": "AIGC创作者、小微创业者、需要商标/IP服务的潜在客户",
-      "reason": "巧妙结合热点事件与创作者自身商标代理业务，以“避坑”和“科普”形式进行软性引流，符合“AIGC剧情向”偏好。",
+      "title": "小红书AI助手爆火，收入翻倍？拆解平台工具红利下的创作者新机会",
+      "track": "creator_economy",
+      "track_name": "自媒体/创作者经济",
+      "target_audience": "自媒体创作者、小红书玩家、想用AI提升内容效率的个人",
+      "reason": "结合平台官方工具发布和收入增长数据，提供实操性强的“AI+运营”策略，直接服务于用户“自媒体运营策略”和“副业变现”需求。",
       "source_items": [
-        "Meta’s Copyright System Is Being Weaponized Against Albanian Protesters",
-        "TIL that modern GLP1 drugs trace back to taxpayer-funded research..."
+        "小红书发布商业创作者AI助手Cura，获得收入买手同比增长118%"
       ],
       "source_urls": [
-        "https://www.wired.com/story/metas-copyright-system-is-being-weaponized-against-albanian-protesters",
-        "https://www.reddit.com/r/todayilearned/comments/1wjcqz8/til_that_modern_glp1_drugs_trace_back_to",
-        "https://patentlyo.com/patent/2026/09/objective-baselessness-in-carnegie-v-fenix-diamonds.html"
+        "https://36kr.com/newsflashes/3988634173586440?f=rss",
+        "https://influencermarketinghub.com/creator-ambassador-programs"
       ],
       "urgency": "medium",
       "viral_potential": "medium",
@@ -283,13 +274,13 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "三步自查法：你的AIGC作品会不会被告侵权？",
-          "summary": "提供一套简单的流程，帮助AIGC创作者初步判断自己作品的法律风险。",
+          "format": "图文+视频（录屏）",
+          "hook": "实测小红书Cura AI助手：从写文案到做图，效率提升300%的全流程",
+          "summary": "一步步演示如何利用小红书新推出的Cura AI助手，完成从选题、文案撰写到配图建议的全套内容生产。",
           "key_points": [
-            "第一步：追溯你的AI提示词中是否包含明确受版权保护的元素",
-            "第二步：检查生成结果与现有知名作品的相似度（工具推荐）",
-            "第三步：在不同平台发布时，如何正确标注和声明版权"
+            "Cura助手的入口与核心功能界面详解",
+            "用AI生成10个爆款笔记标题的实战技巧",
+            "结合AI建议，快速制作符合平台调性的封面图"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -297,13 +288,13 @@
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "AIGC剧情向短视频",
-          "hook": "剧情短片：我的爆款视频一夜下架，只因用了AI生成的BGM？",
-          "summary": "通过一个虚构的短视频故事，生动展示AIGC创作中常见的音乐、字体、图片版权陷阱。",
+          "format": "短视频",
+          "hook": "小心！滥用小红书AI助手，可能让你的账号被限流",
+          "summary": "指出使用平台AI工具时，在内容同质化、标签滥用、违规词规避等方面的风险。",
           "pitfalls": [
-            "坑：使用AI生成的旋律可能与现有歌曲高度相似",
-            "坑：AI“模仿风格”绘制的角色可能侵犯他人IP",
-            "坑：平台版权投诉系统可能被恶意利用（呼应Meta事件）"
+            "坑一：文案过度依赖AI，导致缺乏个人IP温度和辨识度",
+            "坑二：盲目采用AI推荐的热门标签，可能与内容不匹配",
+            "坑三：忽视AI可能生成的平台敏感词或违规表述"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -312,78 +303,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从Meta事件到开源专利：AIGC将如何重塑知识产权游戏规则？",
-          "summary": "探讨在AI生成内容普及的背景下，版权、专利制度面临的挑战与可能的变革方向。",
+          "hook": "“AI助手”是蜜糖还是枷锁？平台、创作者与算法的权力再分配",
+          "summary": "分析平台推出AI工具对内容生态、创作者自主性及流量分配规则的深层影响。",
           "insights": [
-            "Meta事件折射出的平台版权治理困境",
-            "AIGC的“原创性”认定在法律上的模糊地带",
-            "对创业者启示：是抢先注册商标/专利，还是拥抱开源协作？",
-            "（自然植入）在不确定中，为何专业商标代理服务价值凸显"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "title": "Anthropic量化AI研发自动化：Claude主导26%工作，打工人何去何从？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、关注AI对职业影响的职场人、技术管理者",
-      "reason": "回应“Harness是热点”的反馈，聚焦AI研发自动化这一前沿且具争议性的话题，容易引发讨论和传播。",
-      "source_items": [
-        "Anthropic 首次量化公开 AI 研发自动化进度：Claude 主导 26% 研发，压力甩给 OpenAI 等竞品",
-        "Anthropic 用 Claude 优化 30 多个开源生物分子模型，平均提速约 4 倍并开源全部代码"
-      ],
-      "source_urls": [
-        "https://www.aibase.com/news/31162",
-        "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
-        "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai"
-      ],
-      "urgency": "medium",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "视频（录屏）",
-          "hook": "普通人也能用！让Claude帮你自动化处理重复性文档工作",
-          "summary": "演示如何用Claude（或类似大模型）批量处理会议纪要、周报、信息整理等办公任务。",
-          "key_points": [
-            "设置Claude的个性化指令，让它理解你的工作风格",
-            "演示批量处理多份文档并提取关键信息的流程",
-            "将输出结果自动整理成表格或PPT草稿"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "盲目追求“AI自动化”？这4个思维误区可能让你失业更快",
-          "summary": "指出在拥抱AI自动化时，职场人容易产生的错误心态和策略。",
-          "pitfalls": [
-            "误区：只让AI做执行，自己停止深度思考",
-            "陷阱：过度依赖，导致对业务全貌失去掌控",
-            "风险：忽视AI产出中的隐藏错误和偏见",
-            "短视：不学习如何管理和优化AI工作流"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "26%只是一个开始：AI研发自动化将如何重构科技公司与人才市场？",
-          "summary": "深入分析Anthropic报告的数据意义，预测其对软件开发、科研乃至其他知识型行业的影响。",
-          "insights": [
-            "拆解“26%研发工作”具体包含哪些环节？",
-            "对比OpenAI等竞争对手的自动化策略差异",
-            "对程序员和初级研究员是威胁还是解放？",
-            "未来哪些技能会成为“人机协同”时代的新刚需？"
+            "平台视角：AI工具是标准化内容生产、提高商业效率的“抓手”",
+            "创作者困境：在享受便利的同时，如何避免沦为“AI流水线工人”？",
+            "未来博弈：拥有独特洞察和真人温度的创作者，价值将不降反升"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -392,22 +317,22 @@
     }
   ],
   "weekly_plan": {
-    "monday": "用Claude入侵OpenAI？深度拆解AI安全攻防战与普通人警示（蹭热点，引爆流量）",
-    "wednesday": "小红书AI助手Cura爆火！拆解创作者如何用AI实现收入增长118%（结合平台，提供干货）",
-    "friday": "Meta版权系统被滥用？AIGC时代创作者必须知道的IP避坑指南（结合自身业务，软性引流）",
-    "strategy": "本周以“AI安全与伦理”、“AI商业变现”、“AIGC与知识产权”为主线，热点与干货结合，穿插引流内容。"
+    "monday": "Claude攻破OpenAI！AI互搏背后的安全警示与小白防护指南",
+    "wednesday": "用AI智能体守护你的时间！从Scale AI创始人的提示词到小白实操",
+    "friday": "AIGC创作必看！迪士尼“真香”事件背后的版权博弈与避坑法则（AIGC剧情向视频）",
+    "strategy": "本周聚焦“AI安全”与“AI赋能”两大主线，以热点争议事件吸引流量，以深度实操内容建立专业度，并用剧情化IP内容实现商业引流。"
   },
-  "insights": "今日信息流显示，AI技术热点集中在安全攻防、Agent/Skill范式演进及研发自动化；AI与商业的结合（如Pinterest视觉搜索、小红书Cura）正成为明确的变现和流量增长点。",
-  "ai_adjustment": "基于用户反馈，重点围绕“Harness”、“新模型新工具”和“系列选题”展开，避免硬件相关，并强化了实操教程和深度解读的平衡。",
-  "generated_at": "2026-09-18T23:10:34.613109+08:00",
-  "total_items": 455,
-  "scored_items": 394,
+  "insights": "今日信息流显示，AI技术赛道热点密集，尤其围绕“AI攻防”（安全）与“AI互操作”（Agent/Skill）展开，争议性强；同时，AIGC版权议题与平台AI工具发布，为“AI+创作/运营”提供了丰富的实操与引流结合点。",
+  "ai_adjustment": "基于用户反馈，重点围绕其感兴趣的“新模型/新工具”（如Harness）和“Agent/Skill”方向进行选题挖掘，并强化了“实操教程”角度的细节；同时，将“商标/IP”内容以更吸引人的“AIGC剧情向”形式包装，以符合其引流需求。",
+  "generated_at": "2026-09-19T12:10:48.500164+08:00",
+  "total_items": 396,
+  "scored_items": 339,
   "tracks_summary": {
-    "ai_tech": 367,
-    "growth_monetize": 2,
-    "creator_economy": 12,
-    "ai_video": 9,
-    "trademark_business": 4
+    "ai_tech": 305,
+    "creator_economy": 16,
+    "trademark_business": 7,
+    "growth_monetize": 3,
+    "ai_video": 8
   },
   "engine_version": "v2",
   "engine_params": {
