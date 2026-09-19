@@ -3,22 +3,20 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "AI攻防战升级：Claude黑入OpenAI，普通人如何保护自己的AI账户？",
+      "title": "Meta的Muse登顶免费榜！手把手教你用AI智能体当你的私人“时间保镖”",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、关注AI安全的用户、对AI工具感兴趣的小白",
-      "reason": "热点事件，安全话题自带争议和传播性，可结合实操教程和避坑指南，完美契合创作者偏好。",
+      "target_audience": "AI初学者、效率追求者、想用AI管理日程的个人",
+      "reason": "结合Muse登顶热点与创始人分享的提示词，实操性强，符合用户对新工具和Agent的兴趣，能直接教用户如何保护时间。",
       "source_items": [
-        "白帽黑客用 Claude 攻破 OpenAI 员工 ChatGPT 账户，拿到 6500 美元赏金",
-        "研究团队用 Claude Opus 5 入侵 OpenAI，获 6500 美元漏洞赏金",
-        "Security researchers used Anthropic's Claude to hack OpenAI's internal systems in under 72 hours"
+        "Meta's personal AI agent Muse climbs to No. 1 among free apps on Apple's US App Store, ahead of ChatGPT",
+        "Alexandr Wang 转发一份让 AI 智能体保护日历通勤时间的 Muse 提示词"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/31159",
-        "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai",
-        "https://the-decoder.com/security-researchers-used-anthropics-claude-to-hack-openais-internal-systems-in-under-72-hours",
-        "https://www.techmeme.com/260918/p39",
-        "https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot"
+        "https://x.com/alexandr_wang/status/2101141362607632873",
+        "https://www.techmeme.com/260918/p36",
+        "https://the-decoder.com/unity-launches-official-plugins-for-claude-code-and-openai-codex-to-stop-ai-agents-from-using-outdated-tutorials",
+        "https://www.meetup.com/pydata_seattle/events/316322058"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -26,14 +24,14 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "手把手教你设置ChatGPT/Claude账户的5层安全防护",
-          "summary": "从密码管理到API密钥保护，一步步加固你的AI工具账户。",
+          "format": "图文+视频",
+          "hook": "保姆级教程：用Muse或ChatGPT智能体，自动守护你的日历和通勤时间",
+          "summary": "一步步教你如何设置和部署AI智能体，让它自动为你拒绝不合理的会议安排，保护你的专注时间。",
           "key_points": [
-            "开启两步验证（2FA）的具体步骤",
-            "检查并管理历史登录设备与活跃会话",
-            "安全生成和使用API密钥的最佳实践",
-            "设置会话历史记录与数据保留策略"
+            "获取并理解Alexandr Wang分享的提示词模板",
+            "在Muse或ChatGPT中配置智能体角色与权限",
+            "设置触发条件与自动化响应规则",
+            "测试并优化智能体行为"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -41,14 +39,13 @@
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "短视频",
-          "hook": "别让你的ChatGPT提示词成为黑客的钥匙！三大禁忌",
-          "summary": "揭示在AI对话中泄露个人隐私和账户信息的常见陷阱。",
+          "format": "图文",
+          "hook": "别让你的AI助理得罪同事！部署“时间保镖”智能体必须避开的3个坑",
+          "summary": "指出在设置AI智能体管理日程时，容易导致的沟通误会、权限泄露和过度自动化风险。",
           "pitfalls": [
-            "在公开对话中粘贴包含个人信息的提示词",
-            "在第三方平台随意输入你的API密钥",
-            "使用过于简单或重复的密码",
-            "忽视官方安全公告和更新提醒"
+            "坑点1：AI回复语气生硬，破坏职场关系",
+            "坑点2：权限设置不当，泄露敏感日程信息",
+            "坑点3：过度自动化，错过真正重要的紧急会议"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -57,13 +54,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI互殴时代：Claude黑入OpenAI，对我们意味着什么？",
-          "summary": "分析AI安全事件背后的技术逻辑、商业竞争与未来趋势。",
+          "hook": "从Muse登顶看趋势：为什么“个人AI代理”是下一个必争之地？",
+          "summary": "分析Muse快速崛起背后的逻辑，以及个人AI代理（Personal AI Agent）将如何重塑我们的工作流和生活习惯。",
           "insights": [
-            "事件揭示了AI Agent在自动化渗透测试中的强大能力",
-            "AI公司间的“红蓝对抗”将成为常态，加速安全技术迭代",
-            "普通用户需警惕“AI社工攻击”，安全意识比技术更重要",
-            "该事件可能推动行业建立更严格的AI伦理与安全标准"
+            "洞察1：AI正从“工具”演变为主动的“代理”，接管重复决策",
+            "洞察2：巨头布局个人AI代理，意在成为用户的数字生活入口",
+            "洞察3：未来竞争关键：谁能更好地理解并保护用户的“注意力”和“时间”"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -72,49 +68,49 @@
     },
     {
       "rank": 2,
-      "title": "Skill vs MCP vs RAG：AI智能体框架混战，初学者该站哪边？",
+      "title": "Claude“黑”了OpenAI？深度拆解AI攻防战，给你的AIGC项目敲响警钟",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、想了解AI智能体开发的爱好者、技术小白",
-      "reason": "技术热点，有争议性（RAG已死？），符合用户对新模型新工具的兴趣，可做成系列选题。",
+      "target_audience": "AI初学者、开发者、关注AI安全的内容创作者",
+      "reason": "事件戏剧性强，冲突性足，容易传播。可结合用户“对新模型、新工具感兴趣”的反馈，从安全角度做深度和避坑内容。",
       "source_items": [
-        "Should you read the code, is RAG dead, and did Skills kill MCP?",
-        "Grab 智能体框架 LLM-Kit 加速 AI 智能体生产部署"
+        "Security researchers used Anthropic's Claude to hack OpenAI's internal systems in under 72 hours",
+        "OpenAI 'ethically hacked' with help of Anthropic's Claude chatbot",
+        "Claude couldn't hack OpenAI. Then Anthropic shipped Opus 5"
       ],
       "source_urls": [
-        "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp",
-        "https://www.infoq.cn/article/AFC40lL0yaxVCDvBRFOK",
-        "https://x.com/alexandr_wang/status/2101141362607632873"
+        "https://the-decoder.com/security-researchers-used-anthropics-claude-to-hack-openais-internal-systems-in-under-72-hours",
+        "https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot",
+        "https://thenewstack.io/claude-exploits-openai-forum",
+        "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist"
       ],
       "urgency": "high",
-      "viral_potential": "medium",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文+视频",
-          "hook": "零代码体验：用ChatGPT+Skill功能，10分钟创建一个日程管理智能体",
-          "summary": "无需编程，利用现有AI平台的Skill功能，快速打造一个能帮你安排时间的AI助手。",
+          "format": "图文",
+          "hook": "小白也能懂：用AI工具给你的项目和账号做一次“安全体检”",
+          "summary": "教普通用户如何利用现有AI工具（如Claude、GPT）检查自己的公开信息、API密钥设置是否存在安全隐患。",
           "key_points": [
-            "在ChatGPT/Claude中寻找并启用“日历”或“任务管理”类Skill",
-            "用自然语言描述你的需求，让AI理解工作流程",
-            "测试智能体功能，并根据反馈优化指令",
-            "分享你的智能体配置（导出提示词）"
+            "如何用AI分析你的社交媒体公开信息泄露的风险",
+            "检查API密钥和密码设置常见弱点的提示词模板",
+            "模拟“善意”攻击：让AI帮你寻找系统逻辑漏洞"
           ],
           "difficulty": "入门",
-          "estimated_time": "20分钟"
+          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文",
-          "hook": "别被概念忽悠！初学AI智能体最容易踩的3个大坑",
-          "summary": "帮助初学者理清概念，避免在复杂的技术栈选择中迷失方向。",
+          "format": "图文+短视频",
+          "hook": "你的提示词正在出卖你！AIGC时代必须警惕的3大安全陷阱",
+          "summary": "指出普通用户在使用AI工具时，无意中可能泄露隐私、被诱导产生有害内容或导致账号被盗的风险。",
           "pitfalls": [
-            "盲目追求最新框架，忽视基础提示词工程",
-            "混淆Skill（功能）、MCP（协议）和完整智能体框架的适用场景",
-            "试图用单一技术（如纯RAG）解决所有问题，导致效果不佳",
-            "忽略数据隐私，将敏感信息喂给不成熟的智能体"
+            "坑点1：在公开对话中泄露个人身份信息（PII）",
+            "坑点2：使用来路不明的提示词或插件，可能内含恶意代码",
+            "坑点3：过度授权AI访问核心数据，无异于“开门揖盗”"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -123,13 +119,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI智能体“三国杀”：Skill、MCP、RAG，谁才是未来？",
-          "summary": "深入分析三大技术路线的优劣、适用场景及融合趋势。",
+          "hook": "AI攻防战升级：“白帽黑客”用Claude入侵OpenAI，预示着什么？",
+          "summary": "解读此次“伦理黑客”事件背后的技术细节、行业影响，以及AI安全从“事后补救”到“主动防御”的范式转变。",
           "insights": [
-            "Skill是应用层快速集成的捷径，降低了使用门槛",
-            "MCP旨在建立统一通信协议，解决智能体“巴别塔”问题",
-            "RAG并未“死亡”，而是进化为智能体可靠记忆的核心组件",
-            "未来属于“Skill+MCP+RAG”的融合模式，实现能力、通信与知识的统一"
+            "洞察1：AI能力双刃剑，安全测试本身已成为AI的重要应用场景",
+            "洞察2：大模型公司间的竞争与合作，在安全领域呈现出复杂态势",
+            "洞察3：对个人和中小企业而言，AI安全意识将成为新的数字素养"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -138,18 +133,21 @@
     },
     {
       "rank": 3,
-      "title": "用AI批量生成短视频？先看看匡威的“翻车”广告！",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI初学者、自媒体创作者、对AI视频感兴趣的小白",
-      "reason": "结合热点营销事件与AI视频创作，有冲突性和警示意义，可自然过渡到商标/IP保护话题。",
+      "title": "迪士尼“招安”侵权对手CEO！AIGC创作者必须懂的版权避坑与商标布局",
+      "track": "trademark_ip",
+      "track_name": "商标/IP/创业",
+      "target_audience": "AIGC内容创作者、小微创业者、需要商标服务的企业主",
+      "reason": "完美结合AI热点与创作者的商标代理业务，用争议性事件（迪士尼操作）切入，引流效果强，符合“AIGC剧情向”偏好。",
       "source_items": [
-        "Converse Apologizes After Roiling Social Media With Ads That Evoke a Lynching"
+        "Disney hires ex-CEO of AI company it accused of copyright infringement",
+        "Sony Music and UMG say Suno's new models still violates their copyright",
+        "纽约时报版权诉讼披露：微软高管内部称训练 AI 是人类历史上最大规模劳动窃取"
       ],
       "source_urls": [
-        "https://www.adweek.com/brand-marketing/converse-roils-social-media-with-ads-that-evoke-a-lynching",
         "https://www.engadget.com/2262703/disney-hires-ex-ceo-of-ai-company-it-accused-of-copyright-infringement",
-        "https://www.wired.com/story/metas-copyright-system-is-being-weaponized-against-albanian-protesters"
+        "https://www.engadget.com/2262978/sony-music-and-umg-say-sunos-new-models-still-violates-their-copyright",
+        "https://www.ithome.com/1/004/356.htm",
+        "https://www.managingip.com/article/2gwvfm5zfdh5qk6qf4yrk/trademarks/lead-before-you-feel-ready-morgan-lewis-lawyer-marks-30-years"
       ],
       "urgency": "medium",
       "viral_potential": "high",
@@ -157,44 +155,43 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频",
-          "hook": "安全第一！用AI生成营销视频前必做的5项合规检查",
-          "summary": "教你如何系统性地检查AI生成内容，避免文化、伦理和法律风险。",
+          "format": "视频（AIGC剧情向）",
+          "hook": "【剧情】你的AI绘画火了，却收到律师函？三步教你安全使用素材并注册商标",
+          "summary": "通过一个虚拟的AIGC创作者故事，戏剧化地展示如何排查版权风险、使用合规素材，并为自己创作的IP申请商标保护。",
           "key_points": [
-            "使用图片/视频生成工具时，仔细检查其内容安全过滤器设置",
-            "生成后，人工审核画面中的符号、场景是否可能引发误解",
-            "利用反向图片搜索，检查生成元素是否无意中“撞车”知名IP",
-            "准备一份简单的“敏感性检查清单”"
+            "第一步：用免费工具快速筛查你的AIGC作品是否存在侵权风险",
+            "第二步：寻找可商用的AI模型与训练数据源（附清单）",
+            "第三步：为你的原创AI角色或品牌名称，申请商标的简易流程"
           ],
           "difficulty": "入门",
-          "estimated_time": "25分钟"
+          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "短视频",
-          "hook": "AI做视频别乱用素材！这些免费网站可能让你吃官司",
-          "summary": "指出在使用AI视频工具和外部素材时，常见的版权与肖像权陷阱。",
+          "format": "图文",
+          "hook": "AIGC变现路上最大的雷：不是技术，是版权！这5种情况千万别碰",
+          "summary": "明确指出AIGC创作者在商业化过程中，最容易踩中的版权雷区，并提供具体的规避建议。",
           "pitfalls": [
-            "误以为AI生成的内容就100%无版权风险（可能模仿受保护风格）",
-            "使用所谓“免费商用”素材网站，但未仔细阅读其授权条款",
-            "在AI生成的视频中使用了可辨识的真人面孔而未获授权",
-            "忽视了背景音乐、字体等细节的版权问题"
+            "坑点1：直接用AI生成有明显IP特征的角色（如迪士尼风格公主）",
+            "坑点2：使用未明确授权可商用的AI模型生成商品",
+            "坑点3：在提示词中提及特定品牌或名人，导致侵权",
+            "坑点4：忽视AI工具本身的用户协议中对版权的规定",
+            "坑点5：对“模仿风格”与“复制表达”的法律界限认识模糊"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从匡威翻车到迪士尼诉讼：AIGC时代，品牌营销的“红线”在哪？",
-          "summary": "分析AIGC如何重塑创意生产流程，以及随之而来的品牌风险管控新挑战。",
+          "hook": "从“诉讼”到“招安”：迪士尼的操作，揭示了AIGC时代版权博弈的什么新规则？",
+          "summary": "深度分析迪士尼先告后招的案例，探讨大公司面对AIGC冲击时，从法律对抗转向人才与技术收购的底层逻辑。",
           "insights": [
-            "AIGC提高了内容生产效率，但降低了人工审核的介入深度，风险前移",
-            "文化敏感性和社会语境理解是当前AI的短板，也是品牌最大雷区",
-            "大公司通过诉讼确立AIGC版权规则，小创作者需更加谨慎",
-            "未来“AI审核师”或“AI伦理提示词工程师”可能成为新职业"
+            "洞察1：顶级公司的策略：将外部创新威胁，通过收购人才内部化",
+            "洞察2：AIGC版权战的核心，逐渐从“是否侵权”转向“如何定义与分配价值”",
+            "洞察3：对独立创作者而言，建立独特的、难以被简单复制的“数据+风格”壁垒变得至关重要"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -203,101 +200,32 @@
     },
     {
       "rank": 4,
-      "title": "你的AI副业侵权了吗？纽约时报诉讼揭露的“劳动窃取”",
-      "track": "trademark_ip",
-      "track_name": "商标/IP/创业",
-      "target_audience": "想用AI变现的个人、小微创业者、自媒体创作者",
-      "reason": "将重大版权诉讼与创作者副业结合，提供实用的避坑指南，并自然引出商标/IP保护服务。",
+      "title": "AI视频侵权第一案！“Techno Viking”胜诉，给视频创作者的警示录",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "视频创作者、自媒体博主、对AI视频感兴趣的小白",
+      "reason": "结合经典网络迷因和AI视频侵权热点，故事性强，能自然引出肖像权、版权科普，与创作者的法律背景结合。",
       "source_items": [
-        "纽约时报版权诉讼披露：微软高管内部称训练 AI 是人类历史上最大规模劳动窃取",
-        "Disney hires ex-CEO of AI company it accused of copyright infringement"
+        "A fairly recent photo of the Techno Viking who unwillingly and unwittingly became one of the internet's 1st viral stars when a video of him dancing to techno after helping a woman was uploaded to the internet. He sued the uploader for illegal use of his likeness and won."
       ],
       "source_urls": [
-        "https://www.ithome.com/1/004/356.htm",
+        "https://www.reddit.com/r/interesting/comments/1wkkk8c/a_fairly_recent_photo_of_the_techno_viking_who",
         "https://www.engadget.com/2262703/disney-hires-ex-ceo-of-ai-company-it-accused-of-copyright-infringement",
-        "https://www.engadget.com/2262978/sony-music-and-umg-say-sunos-new-models-still-violates-their-copyright",
-        "https://www.managingip.com/article/2gwvfm5zfdh5qk6qf4yrk/trademarks/lead-before-you-feel-ready-morgan-lewis-lawyer-marks-30-years"
+        "https://www.engadget.com/2262978/sony-music-and-umg-say-sunos-new-models-still-violates-their-copyright"
       ],
       "urgency": "medium",
-      "viral_potential": "medium",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "三步自查法：快速判断你的AI生成内容是否“安全”",
-          "summary": "为AI创作者提供一套简单的流程，评估其作品的法律风险等级。",
+          "format": "视频（剪辑包装）",
+          "hook": "剪映/达芬奇实操：如何用AI工具，安全合法地给经典网络视频做“变脸”二创？",
+          "summary": "教授使用AI换脸、风格化工具时，如何通过技术处理（如获得授权、进行足够程度的改编）来规避肖像权和版权风险。",
           "key_points": [
-            "第一步：追溯“灵感来源”，检查是否直接模仿了特定作品风格",
-            "第二步：使用“原创度”检测工具（如Copyscape）进行基础比对",
-            "第三步：评估商业用途，如果用于盈利，需采取更严格的审查标准",
-            "建立自己的“安全素材库”（字体、音乐、无版权图片源）"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI写作/绘画变现，这些“免费数据源”用了就可能被告",
-          "summary": "明确指出哪些常见的“训练数据”或“参考素材”存在高侵权风险。",
-          "pitfalls": [
-            "直接用受版权保护的书籍、文章全文作为AI微调数据",
-            "以某位知名画家的全集作品为样本训练绘画模型并商用",
-            "生成与知名IP（如迪士尼角色）高度相似的内容进行销售",
-            "忽视AI工具服务条款中关于生成内容版权归属和责任的规定"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "“劳动窃取”论战背后：AI训练数据的版权困局与创业者出路",
-          "summary": "深入探讨版权诉讼对AI行业和个体创作者的长远影响，并提供建设性建议。",
-          "insights": [
-            "诉讼的核心是数据所有权与AI进步公共性之间的根本矛盾",
-            "未来“数据许可市场”和“版权清算所”模式可能成为解决方案",
-            "对于小微创业者和个人，聚焦“原创提示词+合法授权数据”是安全路径",
-            "及早为你的AI创作品牌注册商标，是在新规则下建立自身资产的关键"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "title": "播客主播的5条“长寿”秘诀，AI能帮上忙吗？",
-      "track": "creator_economy",
-      "track_name": "自媒体/创作者经济",
-      "target_audience": "自媒体创作者、想建立个人品牌的AI初学者、副业探索者",
-      "reason": "结合创作者经济热点与AI工具应用，提供可落地的运营策略，符合创作者“自媒体运营策略”的能做范围。",
-      "source_items": [
-        "iHeart Podcasters Share 5 Lessons for Building an Enduring Franchise",
-        "The Participation Test for Creator Partnerships"
-      ],
-      "source_urls": [
-        "https://www.adweek.com/media/iheart-podcasters-share-5-crucial-lessons-for-building-an-enduring-franchise",
-        "https://influencermarketinghub.com/creator-ambassador-programs",
-        "https://www.nerdwallet.com/finance/learn/best-way-to-make-money-quiz"
-      ],
-      "urgency": "low",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "视频",
-          "hook": "用AI克隆你的声音？低成本制作播客多平台内容矩阵",
-          "summary": "展示如何利用AI语音工具，将一期核心播客内容，快速衍生出短视频、图文、金句卡片。",
-          "key_points": [
-            "使用工具（如TRAE）提取播客音频精华，生成文字稿",
-            "利用AI语音合成（需合规授权）生成短视频口播片段",
-            "基于文字稿，用ChatGPT批量生成社交媒体文案和话题标签",
-            "用Canva或AI绘图工具，制作配套的封面图和信息图"
+            "寻找可免费商用的经典视频素材库",
+            "使用AI工具进行“面目全非”式风格化改编的步骤",
+            "为二创作品添加原创元素，提升转换性使用的认定可能"
           ],
           "difficulty": "入门",
           "estimated_time": "40分钟"
@@ -306,13 +234,76 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "想用AI做播客？小心这3个让你“速生速死”的陷阱",
-          "summary": "指出盲目依赖AI做内容可能导致缺乏个性、违规和可持续性差的问题。",
+          "hook": "小心被告！用AI做视频混剪、鬼畜，必须绕开的4个法律深坑",
+          "summary": "针对B站、抖音等平台常见的二创形式，明确指出其中潜藏的肖像权、著作权和名誉权侵权风险。",
           "pitfalls": [
-            "过度依赖AI生成脚本，导致内容同质化，失去个人风格",
-            "使用未授权的AI声音克隆技术，侵犯他人权益或平台政策",
-            "只注重AI批量生产，忽视与听众的真实互动和社区建设",
-            "没有清晰的变现规划，陷入为更新而更新的疲劳战"
+            "坑点1：未经允许使用素人清晰正脸影像，即使只是背景",
+            "坑点2：对影视片段进行简单拼接，未形成新的“转换性”表达",
+            "坑点3：AI换脸用于恶搞、诽谤或商业广告",
+            "坑点4：忽略视频中所用背景音乐、字体的版权"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "“Techno Viking”17年后胜诉：在AI生成时代，我们的“数字肖像”还安全吗？",
+          "summary": "透过经典案例，探讨在AI深度伪造和视频生成技术普及的当下，个人肖像权保护面临的新挑战与法律演进。",
+          "insights": [
+            "洞察1：网络时代的“被遗忘权”与“肖像自主权”冲突加剧",
+            "洞察2：AI技术降低了侵权门槛，但电子取证技术也让维权更可操作",
+            "洞察3：未来趋势：从“禁止使用”到“协议授权”，可能出现个人数字肖像管理平台"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "告别过时教程！Unity官方AI插件发布，游戏开发与内容创作的新效率革命",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "对AI编程、游戏开发感兴趣的初学者，内容创作者",
+      "reason": "工具更新类热点，实操性强，符合用户“对新工具感兴趣”的反馈。可以延伸到用AI辅助内容创作（如游戏解说视频制作）。",
+      "source_items": [
+        "Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials"
+      ],
+      "source_urls": [
+        "https://the-decoder.com/unity-launches-official-plugins-for-claude-code-and-openai-codex-to-stop-ai-agents-from-using-outdated-tutorials",
+        "https://www.techmeme.com/260918/p39",
+        "https://www.meetup.com/pydata_seattle/events/316322058"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "视频（录屏）",
+          "hook": "零基础也能玩！用Unity官方AI插件，10分钟生成你的第一个互动小游戏",
+          "summary": "面向完全不懂编程的用户，演示如何安装Unity AI插件，并通过自然语言描述让AI生成可运行的简单游戏代码。",
+          "key_points": [
+            "在Unity Asset Store中查找并安装官方Claude Code插件",
+            "用中文描述你想实现的简单游戏机制（如“控制方块跳跃躲避障碍”）",
+            "解读AI生成的代码，并学习如何微调参数",
+            "打包并分享你的小游戏"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI写代码虽爽，但别踩坑！使用Unity AI插件的3个常见陷阱",
+          "summary": "指出依赖AI生成代码时，容易产生的代码冗余、性能低下、难以调试和维护等问题。",
+          "pitfalls": [
+            "坑点1：盲目相信AI生成的“最优解”，代码效率低下",
+            "坑点2：AI基于老旧教程生成过时API的代码，导致项目报错",
+            "坑点3：对生成代码逻辑不理解，后续修改和调试无从下手"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -321,13 +312,74 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI时代，创作者“长寿”的秘诀：是工具，更是策略",
-          "summary": "分析在AI辅助下，个人创作者构建持久品牌的核心要素与策略转型。",
+          "hook": "Unity为何亲自下场做AI插件？从“工具链”到“生态大脑”的野心",
+          "summary": "分析Unity推出官方AI插件的战略意图，以及这对游戏开发、乃至更广泛的实时3D内容创作领域意味着什么。",
           "insights": [
-            "AI解决的是“生产效率”，但“战略定位”和“情感连接”仍需人类主导",
-            "未来成功创作者的核心能力是“AI提示词工程”+“个人洞察力”的结合",
-            "建立以“个人IP”为中心的多模态内容生态系统，而非单一内容形式",
-            "与AI协作的关键在于明确分工：AI处理重复和扩展，人类专注创意与决策"
+            "洞察1：降低创作门槛，扩大开发者生态，是平台的核心利益",
+            "洞察2：官方插件旨在规范AI工具使用，确保代码质量与项目兼容性",
+            "洞察3：未来游戏开发流程将被重塑，策划、美术与程序的界限进一步模糊"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "Converse广告翻车启示录：品牌如何用AIGC做营销，才能不踩雷、真出圈？",
+      "track": "creator_economy",
+      "track_name": "自媒体/创作者经济",
+      "target_audience": "自媒体运营者、品牌营销人员、对内容创作有追求的AI初学者",
+      "reason": "结合最新的品牌营销翻车事件，讨论AIGC在内容创作中的伦理与风险，有争议性，易传播，且能升华到方法论。",
+      "source_items": [
+        "Converse Apologizes After Roiling Social Media With Ads That Evoke a Lynching"
+      ],
+      "source_urls": [
+        "https://www.adweek.com/brand-marketing/converse-roils-social-media-with-ads-that-evoke-a-lynching",
+        "https://influencermarketinghub.com/creator-ambassador-programs",
+        "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist"
+      ],
+      "urgency": "medium",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "用AI批量生成营销文案和视觉？先做好这3步“安全审查”",
+          "summary": "提供一个可操作的检查清单，帮助创作者在使用AIGC生成营销内容前，系统性排查文化、伦理和法律风险。",
+          "key_points": [
+            "第一步：提示词审查——避免隐含敏感历史、文化或性别偏见",
+            "第二步：多模型交叉验证——让不同AI审查生成内容的情感倾向",
+            "第三步：人工“红队”测试——组建小型多元团队进行内容预判"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "25分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "短视频",
+          "hook": "AIGC营销翻车集锦：这些“高级感”提示词，可能让你瞬间社死",
+          "summary": "通过盘点近期AIGC营销翻车案例，总结出几类高风险提示词和视觉风格，警示创作者避雷。",
+          "pitfalls": [
+            "坑点1：追求“复古”、“怀旧”风格，无意中复刻了痛苦历史意象",
+            "坑点2：使用“多元”、“团结”等关键词，却因AI偏见导致形象刻板",
+            "坑点3：模仿“争议性”艺术风格博眼球，极易引发舆论反噬"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "10分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "从Converse到其他品牌：AIGC时代，品牌营销的“敏感性”为何变得如此脆弱？",
+          "summary": "探讨在社交媒体放大镜和AI“无意识偏见”的双重作用下，品牌进行大规模个性化内容创作时面临的全新挑战。",
+          "insights": [
+            "洞察1：AIGC放大了训练数据中的社会偏见，让“无意冒犯”变得更容易",
+            "洞察2：去中心化的社交媒体，使得小群体的文化敏感点能迅速引爆成全球危机",
+            "洞察3：未来品牌需要既懂技术又懂人文的“AI内容伦理官”角色"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -336,22 +388,22 @@
     }
   ],
   "weekly_plan": {
-    "monday": "AI攻防战升级：Claude黑入OpenAI，普通人如何保护自己的AI账户？",
-    "wednesday": "Skill vs MCP vs RAG：AI智能体框架混战，初学者该站哪边？",
-    "friday": "你的AI副业侵权了吗？纽约时报诉讼揭露的“劳动窃取”",
-    "strategy": "本周聚焦“AI安全与合规”，从技术安全、框架选择到版权风险，为AI初学者构建系统性的风险认知与实操指南。"
+    "monday": "Meta的Muse登顶免费榜！手把手教你用AI智能体当你的私人“时间保镖”（实操教程）",
+    "wednesday": "Claude“黑”了OpenAI？深度拆解AI攻防战，给你的AIGC项目敲响警钟（避坑指南）",
+    "friday": "迪士尼“招安”侵权对手CEO！AIGC创作者必须懂的版权避坑与商标布局（AIGC剧情向视频）",
+    "strategy": "本周聚焦“AI安全与合规”，从个人效率工具、技术攻防到商业版权，层层递进，既追热点又强化专业人设与业务引流。"
   },
-  "insights": "今日信息流显示，AI安全事件（Claude黑OpenAI）和AI智能体技术演进（Skill/MCP）是两大核心热点，同时AIGC的版权与伦理风险（匡威广告、纽约时报诉讼）持续凸显，为创作者提供了结合热点、实操与风险警示的丰富选题空间。",
-  "ai_adjustment": "基于用户反馈“Harness是热点”及对新工具的兴趣，本次推荐强化了对AI智能体技术栈（Skill/MCP）的解读；同时严格避开硬件相关选题，并增加AIGC剧情向（匡威案例）和商标/IP引流（版权诉讼）的内容比重。",
-  "generated_at": "2026-09-19T17:09:32.697843+08:00",
-  "total_items": 410,
-  "scored_items": 353,
+  "insights": "今日信息流显示，AI Agent的应用（如Muse）与安全风险（如Claude黑客事件）并存，同时AIGC版权纠纷与品牌营销翻车案例频发，“安全、合规、伦理”成为横跨技术和内容创作领域的关键词。",
+  "ai_adjustment": "基于用户对“Harness是热点”和“对新模型、新工具比较感兴趣”的反馈，重点推荐了涉及新工具（Muse、Unity插件）和热点事件（Claude黑客）的选题；并强化了“AIGC剧情向”内容用于商标业务引流的结合。",
+  "generated_at": "2026-09-19T23:13:12.347525+08:00",
+  "total_items": 348,
+  "scored_items": 293,
   "tracks_summary": {
-    "ai_tech": 325,
-    "creator_economy": 12,
-    "trademark_business": 7,
+    "ai_tech": 274,
+    "creator_economy": 5,
+    "trademark_business": 4,
     "ai_video": 8,
-    "growth_monetize": 1
+    "growth_monetize": 2
   },
   "engine_version": "v2",
   "engine_params": {

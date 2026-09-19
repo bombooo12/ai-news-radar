@@ -1,65 +1,11 @@
 {
   "version": 1,
   "entries": {
-    "story_3eef6a7665a4|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "公司收购不影响你今天写代码，等产品功能变了再说。",
-      "title_hash": "d7aa0c46",
-      "scored_at": "2026-08-29T15:04:37.597408Z"
-    },
-    "story_ff4f232dd5ce|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "CLI工具版本更新，开发者今天就能升级使用新功能或修复。",
-      "title_hash": "0c8a7f4f",
-      "scored_at": "2026-08-29T15:04:21.747420Z"
-    },
-    "story_1df6423d9095|pragmatic|0a5c5b24": {
-      "score": 88,
-      "review": "开源本地工具，做音乐分离的开发者可以直接下载集成。",
-      "title_hash": "47761258",
-      "scored_at": "2026-08-29T15:04:31.389948Z"
-    },
     "story_89873725e085|pragmatic|0a5c5b24": {
       "score": 45,
       "review": "开源社区政策变动，对开发者日常工作暂无直接影响。",
       "title_hash": "82c68ee5",
       "scored_at": "2026-08-30T04:04:38.190703Z"
-    },
-    "story_fb6e40a3017d|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "应用案例分享，没开源代码或现成API，自己动手成本高。",
-      "title_hash": "07e73953",
-      "scored_at": "2026-08-29T15:04:41.248183Z"
-    },
-    "story_0602ce370ad9|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "开源工具可直接集成，为LLM和MCP调用提供现成的安全护栏。",
-      "title_hash": "2f14e3bb",
-      "scored_at": "2026-08-29T15:04:48.562372Z"
-    },
-    "story_1df6423d9095|cynic|f4237a62": {
-      "score": 75,
-      "review": "开源本地化是实打实的，但‘分离器’这名字听着像玩具，效果得自己跑跑看。",
-      "title_hash": "47761258",
-      "scored_at": "2026-08-29T15:04:52.025151Z"
-    },
-    "story_1df6423d9095|paper-police|966065bf": {
-      "score": 85,
-      "review": "开源代码仓库已公开，技术实现可直接查验，符合开源发布标准。",
-      "title_hash": "47761258",
-      "scored_at": "2026-08-29T15:04:55.238486Z"
-    },
-    "story_ff4f232dd5ce|cynic|f4237a62": {
-      "score": 75,
-      "review": "版本号都到0.151了，还在修bug和加小功能，离‘革命’还远着呢。",
-      "title_hash": "0c8a7f4f",
-      "scored_at": "2026-08-29T15:04:58.587882Z"
-    },
-    "story_ff4f232dd5ce|paper-police|966065bf": {
-      "score": 65,
-      "review": "官方更新日志提供了具体版本和变更说明，但缺乏独立的性能评测报告。",
-      "title_hash": "0c8a7f4f",
-      "scored_at": "2026-08-29T15:05:07.626351Z"
     },
     "story_fc264aa8f148|pragmatic|0a5c5b24": {
       "score": 35,
@@ -4596,6 +4542,54 @@
       "review": "CI/CD流程今天就能用，为自动化任务创建更安全的专用令牌。",
       "title_hash": "cdeb8709",
       "scored_at": "2026-09-19T09:06:30.586498Z"
+    },
+    "story_1b4175524ae8|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "提醒AI安全风险，但无具体漏洞细节或修补方案。",
+      "title_hash": "f363ab4c",
+      "scored_at": "2026-09-19T15:06:08.583702Z"
+    },
+    "story_8c99f7e036fd|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "大厂间的商务合作，不影响你选型或使用模型。",
+      "title_hash": "6de374c8",
+      "scored_at": "2026-09-19T15:06:12.644751Z"
+    },
+    "story_441122723a77|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "融资新闻，等它做出能用的工具或开源代码再说。",
+      "title_hash": "95d9cb91",
+      "scored_at": "2026-09-19T15:06:15.869307Z"
+    },
+    "story_2b554203cccf|pragmatic|0a5c5b24": {
+      "score": 68,
+      "review": "新研究思路，想优化推理成本或构建多模型系统的可以看看。",
+      "title_hash": "199249db",
+      "scored_at": "2026-09-19T15:06:19.903249Z"
+    },
+    "story_77dcce9e2385|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "个人博客分享审美观点，对实际做图没技术指导。",
+      "title_hash": "636a0196",
+      "scored_at": "2026-09-19T15:06:23.578004Z"
+    },
+    "story_fc4c74fcbc57|pragmatic|0a5c5b24": {
+      "score": 10,
+      "review": "非官方演示，GPT-6产品未发布，对当前工作无影响。",
+      "title_hash": "38d46a09",
+      "scored_at": "2026-09-19T15:06:27.494236Z"
+    },
+    "story_38f7cda29bd5|cynic|f4237a62": {
+      "score": 78,
+      "review": "权限细分是实在改进，但‘更安全’的宣传里，默认配置的坑总比承诺多。",
+      "title_hash": "cdeb8709",
+      "scored_at": "2026-09-19T15:06:31.023782Z"
+    },
+    "story_38f7cda29bd5|paper-police|966065bf": {
+      "score": 15,
+      "review": "官方博客宣布功能，无论文代码，亦无独立性能评测报告。",
+      "title_hash": "cdeb8709",
+      "scored_at": "2026-09-19T15:06:36.228326Z"
     }
   }
 }

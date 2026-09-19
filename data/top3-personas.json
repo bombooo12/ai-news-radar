@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T09:06:30.586667Z",
+  "generated_at": "2026-09-19T15:06:36.228373Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -57,22 +57,22 @@
       }
     },
     {
-      "story_id": "story_96a1341fc9d6",
-      "title": "逆向分析指 ZCode 登录后静默打包 Git 历史并加密上传至 Aliyun OSS / ZCode， the GLM coding agent， silently uploads your Git history",
-      "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
+      "story_id": "story_38f7cda29bd5",
+      "title": "Stage-only npm tokens for safer automation",
+      "url": "https://github.blog/changelog/2026-09-18-stage-only-npm-tokens-for-safer-automation",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 85,
-          "review": "逆向分析实锤，静默上传用户代码历史，这‘智能’助理的隐私条款是摆设？"
+          "score": 78,
+          "review": "权限细分是实在改进，但‘更安全’的宣传里，默认配置的坑总比承诺多。"
         },
         "paper-police": {
-          "score": 45,
-          "review": "逆向分析报告提供了技术细节，但缺乏独立第三方复现验证。"
+          "score": 15,
+          "review": "官方博客宣布功能，无论文代码，亦无独立性能评测报告。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "使用ZCode前需注意隐私风险，其会未经明确同意上传代码历史。"
+          "review": "CI/CD流程今天就能用，为自动化任务创建更安全的专用令牌。"
         }
       }
     }
