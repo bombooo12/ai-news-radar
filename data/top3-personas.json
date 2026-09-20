@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T13:25:58.426233Z",
+  "generated_at": "2026-09-20T17:51:26.190084Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,10 +17,30 @@
   ],
   "items": [
     {
+      "story_id": "story_67bbb2f19d0e",
+      "title": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像 / Qwen-Image-2.1： Compact， Efficient， and Unified Image Creation",
+      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+      "rank": 1,
+      "reviews": {
+        "cynic": {
+          "score": 72,
+          "review": "统一生成与编辑听着不错，但‘原生支持透明图像’这亮点，多少有点凑数了。"
+        },
+        "paper-police": {
+          "score": 65,
+          "review": "有官方技术博客和评测数字，但未见独立论文或第三方复现。"
+        },
+        "pragmatic": {
+          "score": 85,
+          "review": "开源模型可直接下载，支持透明图像生成，有明确应用场景。"
+        }
+      }
+    },
+    {
       "story_id": "story_919e226efbae",
       "title": "DeepSeek明确调休日计费规则，中秋国庆迎来十天\"半价窗口\"",
       "url": "https://www.aibase.com/news/31191",
-      "rank": 1,
+      "rank": 2,
       "reviews": {
         "cynic": {
           "score": 45,
@@ -40,7 +60,7 @@
       "story_id": "story_99589b68f290",
       "title": "微信 AI 团队开源 WeKnora：知识库不再只“动嘴”，还能在沙箱里“动手”",
       "url": "https://www.aibase.com/news/31201",
-      "rank": 2,
+      "rank": 3,
       "reviews": {
         "cynic": {
           "score": 65,
@@ -53,26 +73,6 @@
         "pragmatic": {
           "score": 85,
           "review": "开源项目已发布，可立即集成带代码执行能力的知识库系统。"
-        }
-      }
-    },
-    {
-      "story_id": "story_67bbb2f19d0e",
-      "title": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像 / Qwen-Image-2.1： Compact， Efficient， and Unified Image Creation",
-      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
-      "rank": 3,
-      "reviews": {
-        "cynic": {
-          "score": 72,
-          "review": "统一生成与编辑听着不错，但‘原生支持透明图像’这亮点，多少有点凑数了。"
-        },
-        "paper-police": {
-          "score": 65,
-          "review": "有官方技术博客和评测数字，但未见独立论文或第三方复现。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "开源模型可直接下载，支持透明图像生成，有明确应用场景。"
         }
       }
     }
