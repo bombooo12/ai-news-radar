@@ -3,21 +3,16 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "AI安全大翻车！黑客用Claude攻破OpenAI，我们如何安全使用AI？",
+      "title": "AI理财新玩法：用ChatGPT Finances的6个提示词，轻松管好你的钱包",
       "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、对AI安全和工具测评感兴趣的用户",
-      "reason": "结合安全漏洞热点，可延伸至AI工具使用安全、数据隐私等实操和避坑内容，争议性强易传播。",
+      "track_name": "AI技术（Agent/提示词/Skill/AI设计/模型发布）",
+      "target_audience": "AI初学者、对个人理财感兴趣的用户",
+      "reason": "热点工具+实用场景，用户反馈对新工具感兴趣，且“提示词工程”在创作者能力范围内，实操性强。",
       "source_items": [
-        "Claude couldn't hack OpenAI. Then Anthropic shipped Opus 5",
-        "Three researchers used Claude to reach OpenAI’s internal code. OpenAI paid $6,500 and closed the hole in 14 hours.",
-        "Gemini Breached Three Outside Systems, and Claude-Using Researchers Breached OpenAI"
+        "My next podcast episode is almost guaranteed to save you some money. It's with my friend @ebloch, product lead for ChatGPT Finances at @OpenAI. I asked him to share six practical personal finance prompts that anyone c..."
       ],
       "source_urls": [
-        "https://thenewstack.io/claude-exploits-openai-forum",
-        "https://thenextweb.com/news/hacktron-claude-openai-bug-bounty-6500-guardrails-paper",
-        "https://slashdot.org/story/26/09/19/0518206/gemini-breached-three-outside-systems-and-claude-using-researchers-breached-openai",
-        "https://nypost.com/2026/09/19/us-news/openai-anthropic-oversold-security-breaches-to-pressure-feds-into-protecting-turf-insiders"
+        "https://x.com/petergyang/status/2101342055352201519"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -26,13 +21,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "手把手教你设置AI工具的“安全锁”：5步保护你的对话和文件",
-          "summary": "教用户如何在使用ChatGPT、Claude等AI时，通过设置、提示词和工具规避隐私泄露风险。",
+          "hook": "手把手教你用ChatGPT Finances，6个提示词搞定月度预算",
+          "summary": "一步步教用户如何找到并使用ChatGPT Finances功能，并展示6个理财提示词的具体用法和预期效果。",
           "key_points": [
-            "禁用模型记忆功能的操作步骤",
-            "敏感信息输入的替代方案（如使用代码）",
-            "第三方插件/集成的安全检查清单",
-            "定期清理对话记录的方法"
+            "如何开启ChatGPT Finances功能",
+            "6个核心理财提示词（预算、储蓄、投资等）的完整输入示例",
+            "如何解读和分析AI给出的理财建议"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -41,13 +35,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "短视频",
-          "hook": "别让AI卖了你的秘密！4个90%的人都踩过的AI安全大坑",
-          "summary": "指出用户在使用AI时常见的隐私和安全误区，并提供规避方法。",
+          "hook": "小心！用AI理财的3个致命误区，别让机器人坑了你的钱",
+          "summary": "指出使用AI进行财务规划时常见的误解、数据隐私风险以及过度依赖AI的陷阱。",
           "pitfalls": [
-            "坑点1：在对话中直接输入身份证号、地址等敏感信息",
-            "坑点2：随意授权AI工具访问你的云盘或工作文件",
-            "坑点3：使用来路不明的第三方AI代理（Agent）",
-            "坑点4：忽视AI模型的“记忆”功能，以为对话是私密的"
+            "误区：把AI建议当绝对真理，忽视个人实际情况",
+            "风险：输入过多敏感财务信息导致隐私泄露",
+            "陷阱：过度优化短期收益，忽视长期财务健康"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -56,12 +49,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "巨头互撕的真相：OpenAI和Anthropic为何“夸大”安全漏洞？",
-          "summary": "分析此次安全事件背后的商业博弈、AI安全竞赛的本质以及对普通开发者和用户的影响。",
+          "hook": "从ChatGPT Finances看AI如何重塑个人金融：是助手还是颠覆者？",
+          "summary": "分析AI个人理财工具的发展趋势、对传统金融顾问行业的潜在冲击，以及未来可能出现的商业模式。",
           "insights": [
-            "洞察1：安全事件成为AI公司秀肌肉和争取政策支持的公关手段",
-            "洞察2：“越狱”与“防护”的军备竞赛将如何塑造未来的AI产品设计",
-            "洞察3：对AI初学者和创业者的启示：如何在依赖AI的同时构建安全底线"
+            "AI理财工具如何降低金融服务门槛",
+            "数据安全与个性化服务的平衡难题",
+            "AI在复杂财务决策（如税务、遗产规划）中的局限性"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -70,11 +63,71 @@
     },
     {
       "rank": 2,
-      "title": "游戏开发革命！Unity官方AI插件实测，新手也能做游戏？",
+      "title": "Runway新革命：实时操控的AI视频流，小白也能做导演",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装（AI视频生成/视频剪辑/视觉包装）",
+      "target_audience": "AI初学者、视频内容创作者、对AI视频生成感兴趣的小白",
+      "reason": "AI视频赛道是创作者高频选用方向，Runway是头部工具，实时生成是颠覆性热点，符合“新工具、新模型”的兴趣点。",
+      "source_items": [
+        "Runway wants to turn AI video generation into a live stream you control in real time"
+      ],
+      "source_urls": [
+        "https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time"
+      ],
+      "urgency": "high",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "视频",
+          "hook": "零基础教程：用Runway实时模式，5分钟生成你的第一条AI短片",
+          "summary": "通过屏幕录制，演示如何使用Runway的实时视频生成功能，从输入提示词到微调画面，生成一段完整短视频。",
+          "key_points": [
+            "Runway实时模式的界面与核心功能讲解",
+            "如何用自然语言实时引导画面变化",
+            "结合剪映进行后期剪辑与包装的快速流程"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "Runway实时生成翻车实录：这5个坑，新手一踩一个准",
+          "summary": "总结在尝试Runway实时视频生成时，新手最容易遇到的提示词无效、画面崩坏、逻辑混乱等问题及解决方案。",
+          "pitfalls": [
+            "坑点：提示词过于抽象，导致画面失控",
+            "坑点：实时调整过快，AI跟不上节奏",
+            "坑点：忽略初始画面设定，导致风格突变"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "“实时流”是AI视频的终极形态吗？深度解析Runway新功能的行业冲击",
+          "summary": "探讨实时AI视频生成对内容创作流程、影视工业以及UGC生态的深远影响，并对比其他竞品的战略差异。",
+          "insights": [
+            "实时生成如何将“创作”变为“对话”",
+            "对短视频和直播行业的降维打击潜力",
+            "技术背后：模型响应速度与算力成本的博弈"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "Unity官方AI插件发布：游戏开发者的新外挂，还是淘汰的开始？",
       "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、对AI编程和游戏开发感兴趣的小白、独立开发者",
-      "reason": "工具实操性强，符合“新模型、新工具”的兴趣点，能做成系列教程，从浅入深。",
+      "track_name": "AI技术（Agent/提示词/Skill/AI设计/模型发布）",
+      "target_audience": "AI初学者、对游戏开发或AI应用感兴趣的个人开发者、小微创业者",
+      "reason": "结合AI Agent和热门开发工具Unity，新闻热度高，且“Agent/Skill实践分享”是创作者能做的内容，具有争议性和讨论空间。",
       "source_items": [
         "Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials",
         "Unity推出Claude Code与OpenAI Codex官方插件，提供31项开发技能"
@@ -89,14 +142,13 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频",
-          "hook": "零代码基础，用AI插件30分钟做出你的第一个Unity小游戏",
-          "summary": "通过屏幕录制，演示如何安装Unity官方AI插件，并用自然语言指令生成一个简单的游戏场景和逻辑。",
+          "format": "视频+图文",
+          "hook": "不用看教程了！用Unity官方AI插件，让Claude帮你写游戏代码",
+          "summary": "演示如何安装并配置Unity的Claude Code插件，并通过具体案例（如创建一个简单的移动脚本）展示AI辅助开发的效率提升。",
           "key_points": [
-            "Unity编辑器中插件的安装与配置",
-            "用中文/英文向Claude Code描述你的游戏想法",
-            "解读并调试AI生成的C#代码",
-            "运行并测试你的第一个AI辅助游戏"
+            "Unity AI插件的安装与授权步骤",
+            "如何向Claude Code描述需求并生成可用代码",
+            "将AI生成的代码集成到Unity项目中的注意事项"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -105,12 +157,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "Unity AI插件三大“水土不服”问题及完美解决方案",
-          "summary": "指出国内用户使用Unity官方AI插件时可能遇到的网络、版本和提示词问题，并提供解决思路。",
+          "hook": "警惕！用AI插件做游戏开发的4大隐患，项目可能烂尾",
+          "summary": "指出过度依赖AI生成代码可能导致的技术债务、项目架构混乱、调试困难以及版权合规风险。",
           "pitfalls": [
-            "坑点1：插件依赖的API服务在国内访问不稳定或受限",
-            "坑点2：生成的代码基于过时的Unity版本或教程（插件初衷要解决的问题）",
-            "坑点3：模糊的提示词导致AI生成无关或低质代码"
+            "隐患：AI代码缺乏优化，导致性能瓶颈",
+            "隐患：生成代码与项目现有架构不兼容",
+            "隐患：对AI代码理解不深，无法有效调试和迭代"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -119,75 +171,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "“杀死”过时教程？Unity官方插件如何重塑游戏开发学习路径",
-          "summary": "分析Unity此举对游戏开发教育、独立开发者生态以及未来AI编程助手形态的深远影响。",
+          "hook": "Unity联手OpenAI/Anthropic：是赋能开发者，还是开启新一轮内卷？",
+          "summary": "分析官方AI插件对游戏开发行业人才结构、工作流程和中小工作室生存策略的长期影响。",
           "insights": [
-            "洞察1：从“搜索教程”到“描述需求”，AI如何降低开发学习曲线",
-            "洞察2：官方插件的推出，标志着引擎厂商对AI工具态度的转变",
-            "洞察3：对游戏开发新手和培训机构意味着什么？机会与挑战并存"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "title": "AI短剧出海掘金：掌阅案例拆解，普通人如何用AIGC分一杯羹？",
-      "track": "trademark_ip",
-      "track_name": "商标/IP/创业",
-      "target_audience": "想用AI变现的个人、对AIGC剧情向内容感兴趣者、小微创业者",
-      "reason": "完美结合“AIGC剧情向内容”引流偏好和“商标/IP”创业主线，实操性强，有变现想象空间。",
-      "source_items": [
-        "主题演讲：掌阅 · AI短剧出海｜36氪2026 East Forward 出海大会"
-      ],
-      "source_urls": [
-        "https://36kr.com/p/3991133875616771?f=rss"
-      ],
-      "urgency": "medium",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "视频",
-          "hook": "用AI克隆一个“掌阅式”出海短剧：从剧本到成片的全流程演示",
-          "summary": "使用ChatGPT、Midjourney、TRAE等工具，一步步演示如何生成一个面向海外市场的微短剧剧本、分镜和视频素材。",
-          "key_points": [
-            "用提示词工程生成符合海外观众口味的短剧剧本大纲",
-            "利用Midjourney生成风格统一的角色与场景图",
-            "使用TRAE或类似工具将图文脚本转化为动态视频",
-            "添加字幕、音效的快速剪辑技巧（剪映Pro）"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI短剧出海，小心这5个让你血本无归的版权和法律陷阱",
-          "summary": "结合商标代理专业知识，指出在制作和发行AI短剧时，在IP、肖像权、平台规则等方面的高风险点。",
-          "pitfalls": [
-            "坑点1：AI生成的角色肖像与他人肖像权冲突",
-            "坑点2：剧本或素材无意中侵犯现有影视剧版权",
-            "坑点3：未了解目标市场（如欧美）的AI生成内容标注法规",
-            "坑点4：短剧名称或品牌未做商标检索，导致日后纠纷",
-            "坑点5：对海外平台（如YouTube Shorts, TikTok）的社区准则理解不足"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "掌阅为何押注AI短剧出海？拆解背后的IP战略与流量新逻辑",
-          "summary": "分析传统内容平台布局AI短剧的动机，探讨AIGC如何重塑内容生产、IP孵化和流量获取的商业模式。",
-          "insights": [
-            "洞察1：AI短剧是低成本、高效率的IP“压力测试”与孵化器",
-            "洞察2：从“购买版权”到“制造版权”，AIGC如何改变平台内容生态",
-            "洞察3：对个人创作者和小团队的意义：绕过传统壁垒，直接参与全球内容竞争"
+            "“AI结对编程”是否会降低初级程序员门槛？",
+            "工具链的官方AI化，如何重塑开发者的核心竞争力？",
+            "对独立游戏开发者和教育市场带来的新机遇"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -196,105 +185,44 @@
     },
     {
       "rank": 4,
-      "title": "机器人杀人喜剧？GPT-6与Claude的物理AI安全测试，离我们多远？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、对AI安全和未来趋势感兴趣的科技爱好者",
-      "reason": "话题具有科幻感和争议性，容易引发好奇和讨论，可以从模型能力解读延伸到日常AI使用边界思考。",
+      "title": "从副业到50万美金：这位创始人的AI辅助创业故事，你能复制吗？",
+      "track": "personal_growth",
+      "track_name": "个人成长/副业变现（副业/赚钱/个人成长/效率）",
+      "target_audience": "想用AI变现的个人、有副业想法的AI初学者、小微创业者",
+      "reason": "完美匹配“副业变现思路”的创作方向，故事性强，容易引发共鸣和传播，同时可自然融入AI工具的使用场景。",
       "source_items": [
-        "GPT-6 Astra and Claude Fable turn robot arms into slapstick killer robots in new safety benchmark"
+        "How This Founder Turned Her Side Hustle Into a $500,000 Business"
       ],
       "source_urls": [
-        "https://the-decoder.com/gpt-6-astra-and-claude-fable-turn-robot-arms-into-slapstick-killer-robots-in-new-safety-benchmark"
+        "https://www.inc.com/chris-morris/how-this-founder-turned-her-side-hustle-into-a-500000-business/91404875"
       ],
-      "urgency": "low",
+      "urgency": "medium",
       "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "给你的AI聊天机器人设置“安全护栏”：3个防止它“胡说八道”的提示词技巧",
-          "summary": "将前沿的安全测试话题落地，教用户如何通过系统提示词（System Prompt）约束AI的回答范围和行为。",
+          "hook": "拆解案例：她用哪些AI工具，把业余爱好变成赚钱生意？",
+          "summary": "基于报道中的案例，推测并实际演示创业者可能用到的AI工具（如Midjourney做设计、ChatGPT写文案、AI分析市场），规划一条可模仿的副业启动路径。",
           "key_points": [
-            "在ChatGPT/Claude中编写“角色设定”和“行为准则”",
-            "使用“红队”提示词测试你设定的安全规则是否牢固",
-            "针对不同场景（客服、创作、咨询）的安全提示词模板"
+            "如何用AI进行低成本市场调研与创意验证",
+            "利用AIGC工具快速打造最小可行性产品（MVP）",
+            "AI在营销、客服等环节提升效率的具体方法"
           ],
           "difficulty": "入门",
-          "estimated_time": "20分钟"
+          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "短视频",
-          "hook": "别让AI变成“杠精”或“危险分子”：和AI聊天时必须警惕的3个信号",
-          "summary": "指出当AI对话出现哪些迹象时，用户应该保持警惕，并给出应对策略。",
+          "hook": "别只看到50万！AI创业路上，90%的人倒在这3个坑里",
+          "summary": "结合常见失败案例，指出在利用AI进行副业创业时，在选品、流量、运营和合规方面容易犯的错误。",
           "pitfalls": [
-            "坑点1：AI开始过度承诺其能力或给出绝对肯定但无依据的回答",
-            "坑点2：AI被诱导后，输出具有偏见、攻击性或危险性的内容",
-            "坑点3：AI混淆虚构与现实，并将错误信息以极其自信的口吻传递"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "10分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "从“杀死开关”到“机器人喜剧”：我们该如何理解AI的“安全”？",
-          "summary": "结合加州“杀死开关”法案和机器人安全测试，探讨AI安全定义的演变、技术挑战与伦理困境。",
-          "insights": [
-            "洞察1：AI安全从“代码漏洞”扩展到“目标对齐”和“物理世界影响”",
-            "洞察2：用“喜剧”方式测试安全，反映了研究者怎样的无奈与新思路？",
-            "洞察3：对普通人的启示：我们与强AI共存前，必须建立哪些认知？"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "title": "用AI自动化你的视觉工作流：FiftyOne Agent实测，告别重复劳动",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI初学者、自媒体创作者、对AI视觉处理感兴趣的用户",
-      "reason": "聚焦AI视频/视觉赛道，工具实操性强，符合“Agent/Skill实践分享”的能力范围，能产出高价值教程。",
-      "source_items": [
-        "Sept 22 - FiftyOne Agent: Automate Visual AI Workflows with Natural Language"
-      ],
-      "source_urls": [
-        "https://www.meetup.com/artificial-intelligence-deep-learning/events/316064264"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "视频",
-          "hook": "一句话管理千张图片：用FiftyOne Agent自动筛选、标注、分类你的素材库",
-          "summary": "演示如何利用FiftyOne Agent，通过自然语言指令对大量图片或视频帧进行智能管理，提升创作效率。",
-          "key_points": [
-            "FiftyOne环境快速搭建与数据集导入",
-            "用自然语言指令（如“找出所有包含狗的图片”）进行智能检索",
-            "使用AI模型批量自动打标签和分类",
-            "将处理好的数据集导出用于后续训练或分析"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "40分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI视觉工作流自动化，新手最容易浪费时间的3个配置误区",
-          "summary": "指出在设置和使用FiftyOne等AI视觉平台时，在环境、模型选择和提示词上的常见问题。",
-          "pitfalls": [
-            "坑点1：在本地部署时，因环境配置错误导致工具无法运行",
-            "坑点2：盲目选择大型模型，导致处理速度慢、成本高，而小模型已足够",
-            "坑点3：给Agent的指令过于模糊，导致结果不准确，需要多次调整"
+            "坑点：迷信AI万能，忽视产品和市场需求本质",
+            "坑点：陷入工具纠结，迟迟没有行动",
+            "坑点：忽略版权与合规，导致法律风险"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -303,12 +231,72 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "“自然语言”成为新API：FiftyOne Agent如何重新定义人机交互？",
-          "summary": "分析以自然语言驱动复杂工具这一趋势背后的技术原理，及其对未来软件设计和创作者工作方式的改变。",
+          "hook": "“一人公司”时代到来：AI如何重构个体与组织的竞争力边界？",
+          "summary": "从宏观趋势分析AI技术如何赋能个体，催生更多微型创业和“一人公司”，并探讨其对传统雇佣关系的挑战。",
           "insights": [
-            "洞察1：从“学习软件”到“描述需求”，AI Agent如何降低专业工具门槛",
-            "洞察2：这对Midjourney、Photoshop等传统创意工具意味着什么？",
-            "洞察3：创作者的核心竞争力将如何从“操作技巧”转向“需求定义与审美”"
+            "AI如何将“技能差”转化为“决策差”和“效率差”？",
+            "个体价值变现的新模式：从出卖时间到运营系统",
+            "未来成功“一人公司”的核心能力模型预测"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "剪映Hub+AI助手“小映”上线：国产剪辑软件要全面AI化了吗？",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装（AI视频生成/视频剪辑/视觉包装）",
+      "target_audience": "AI初学者、视频剪辑爱好者、自媒体创作者",
+      "reason": "国产头部工具重大更新，贴近中文用户，且“剪映”是创作者熟悉并擅长的工具，测评和教程产出门槛低，实用性强。",
+      "source_items": [
+        "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映”"
+      ],
+      "source_urls": [
+        "https://www.aibase.com/news/31206"
+      ],
+      "urgency": "high",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "视频",
+          "hook": "抢先体验！用剪映Hub和AI助手“小映”，3分钟搞定一条口播视频",
+          "summary": "通过实际剪辑一个案例（如知识分享口播），全程展示如何利用“剪映Hub”的素材和“小映”的AI功能（如智能剪口播、写文案）提升效率。",
+          "key_points": [
+            "剪映Hub的注册、资源查找与一键应用",
+            "如何唤醒并使用移动端“小映”AI助手",
+            "AI生成文案与智能剪辑功能的配合工作流"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "别急着升级！剪映新AI功能的3个“水土不服”问题",
+          "summary": "指出新功能在实际使用中可能出现的识别不准、风格固化、与个人工作流冲突等问题，并提供替代方案或调整建议。",
+          "pitfalls": [
+            "问题：AI剪口播误删重要语气词或停顿",
+            "问题：Hub模板同质化严重，缺乏独特性",
+            "问题：AI生成文案过于机械，需要大量修改"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "从工具到生态：拆解剪映的AI野望，如何靠“Hub”绑定创作者？",
+          "summary": "分析剪映此次更新背后的战略意图，即通过AI和素材生态构建护城河，并探讨其对国内视频创作软件竞争格局的影响。",
+          "insights": [
+            "“AI助手+素材平台”模式如何提升用户粘性",
+            "剪映的AI路径与Premiere、DaVinci Resolve的差异",
+            "对普通创作者而言，是效率提升还是创意扼杀？"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -317,60 +305,58 @@
     },
     {
       "rank": 6,
-      "title": "网红因未标注广告被重罚！自媒体创作者必须知道的合规红线",
-      "track": "self_media",
-      "track_name": "自媒体/创作者经济",
-      "target_audience": "自媒体创作者、想用AI变现的个人、小微创业者",
-      "reason": "结合时事热点，提供实用的合规指南，与“商标/IP”知识可联动，风险提示类内容易引发关注和收藏。",
+      "title": "AI短剧出海掘金：掌阅的案例与普通人可复制的低成本入场姿势",
+      "track": "trademark_ip",
+      "track_name": "商标/IP/创业（商标注册/知识产权/创业政策/AIGC引流）",
+      "target_audience": "对AIGC剧情向内容感兴趣者、小微创业者、需要商标/IP服务的企业主",
+      "reason": "完美契合创作者“AIGC剧情向内容引流”的偏好，将热点（AI短剧）与自身业务（商标/IP）结合，实现内容为业务导流。",
       "source_items": [
-        "California Gov. Gavin Newsom signs a law that will penalize influencers who do not properly disclose paid political content, with fines of up to $5K per post"
+        "主题演讲：掌阅 · AI短剧出海｜36氪2026 East Forward 出海大会"
       ],
       "source_urls": [
-        "https://www.techmeme.com/260919/p13"
+        "https://36kr.com/p/3991133875616771?f=rss"
       ],
-      "urgency": "high",
+      "urgency": "medium",
       "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "一张图看懂：不同平台（公众号、小红书、抖音）的广告合规标注全指南",
-          "summary": "以信息图或清晰列表形式，汇总国内主流内容平台对商业推广内容的明确标注要求和操作位置。",
+          "format": "视频",
+          "hook": "零成本启动！用AI工具包，制作你的第一部“出海”短剧",
+          "summary": "使用ChatGPT写剧本、Midjourney做分镜、Runway/剪映生成视频，演示制作一部简易AI短剧的全流程，并介绍海外发布的免费渠道。",
           "key_points": [
-            "微信公众号“广告”标签的添加方法与审核要点",
-            "小红书品牌合作标记（报备笔记）的完整流程",
-            "抖音短视频和直播挂载购物车及声明“广告”的规则",
-            "知乎回答中如何合规地提及产品或服务"
+            "如何用AI生成具有“网感”和跨文化潜力的短剧剧本",
+            "利用AI图像和视频工具快速制作视觉内容",
+            "YouTube Shorts/TikTok等平台发布与标签策略"
           ],
           "difficulty": "入门",
-          "estimated_time": "25分钟"
+          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "短视频",
-          "hook": "除了“广告”二字，这4种隐晦的推广方式也可能让你被罚！",
-          "summary": "指出那些容易被创作者忽略但可能被认定为商业推广的行为，并提供清晰的规避建议。",
+          "format": "图文",
+          "hook": "AI短剧出海，小心踩到文化和版权的“雷区”",
+          "summary": "指出在制作和发布AI短剧时，在内容题材、文化差异、音乐版权、演员肖像权（AI生成）等方面容易忽视的风险。",
           "pitfalls": [
-            "坑点1：接受免费产品或旅行招待后进行“体验分享”",
-            "坑点2：在视频中“无意”露出品牌Logo或产品，且未声明合作",
-            "坑点3：使用品牌方提供的特定话题或脚本进行创作",
-            "坑点4： affiliate营销（分销链接）未进行明确收益声明"
+            "雷区：剧情触碰宗教、种族等敏感话题",
+            "雷区：使用未授权音乐或模仿知名IP形象",
+            "雷区：AI生成人物肖像可能引发的法律争议"
           ],
           "difficulty": "入门",
-          "estimated_time": "10分钟"
+          "estimated_time": "15分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从加州法案看全球趋势：内容创作者的“信任税”时代来临",
-          "summary": "分析国内外对自媒体广告监管趋严的深层原因，探讨这对创作者经济商业模式和用户信任体系的长远影响。",
+          "hook": "掌阅为何押注AI短剧出海？背后是内容工业的“成本革命”与IP新逻辑",
+          "summary": "分析AI短剧对传统影视制作成本的颠覆性影响，以及“快速试错、数据反馈、IP孵化”的新内容生产模式，自然引出早期IP保护（商标）的重要性。",
           "insights": [
-            "洞察1：监管收紧是“注意力经济”过度商业化后的必然回调",
-            "洞察2：“合规成本”上升，将如何淘汰劣质营销号，利好优质创作者？",
-            "洞察3：创作者建立长期信任的核心，从“是否标注广告”转向“内容真实价值”"
+            "AI如何将短剧从“劳动力密集型”转为“创意与数据密集型”？",
+            "从“剧带货”到“剧生IP”，AI短剧的商业模式演进",
+            "创业者启示：在AI内容爆发前夜，为何要抢先布局品牌与商标？"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -379,22 +365,22 @@
     }
   ],
   "weekly_plan": {
-    "monday": "AI安全大翻车！黑客用Claude攻破OpenAI，我们如何安全使用AI？（发布深度解读或避坑指南，引发工作日讨论）",
-    "wednesday": "用AI自动化你的视觉工作流：FiftyOne Agent实测，告别重复劳动（发布实操教程，提供实用价值）",
-    "friday": "AI短剧出海掘金：掌阅案例拆解，普通人如何用AIGC分一杯羹？（发布实操或深度解读，为周末的创作/创业灵感蓄力）",
-    "strategy": "本周以“安全”和“效率”为核心，穿插高传播性的热点解读和具变现潜力的实操指南，平衡流量与价值。"
+    "monday": "AI理财新玩法：用ChatGPT Finances的6个提示词，轻松管好你的钱包（实操教程）",
+    "wednesday": "Runway新革命：实时操控的AI视频流，小白也能做导演（实操教程）",
+    "friday": "从副业到50万美金：这位创始人的AI辅助创业故事，你能复制吗？（深度解读）",
+    "strategy": "本周聚焦“AI+实用场景”，以高实操性教程吸引流量，用深度内容和副业案例提升粘性，并在AI短剧选题中巧妙植入业务引流。"
   },
-  "insights": "今日信息流显示，AI安全（漏洞、测试、监管）成为焦点，同时AI工具正加速向专业领域（如Unity开发、视觉工作流）渗透，为创作者提供了从热点解读到垂直工具教学的大量选题机会。",
-  "ai_adjustment": "基于用户反馈，重点围绕“Harness热点”、“新模型新工具”和“系列选题”进行推荐，强化了DeepSeek相关生态（虽未直接提及，但通过Claude、OpenAI事件关联）、工具实操教程和可系列化的选题（如AI短剧、AI安全），并完全避免了硬件相关选题。",
-  "generated_at": "2026-09-20T12:12:23.672031+08:00",
-  "total_items": 269,
-  "scored_items": 224,
+  "insights": "今日信息流显示，AI正加速渗透到具体垂直场景（理财、开发、视频剪辑），工具更新频繁且强调实时交互与生态整合，为创作者提供了丰富的“工具测评+场景应用”选题机会。",
+  "ai_adjustment": "基于用户反馈“对新模型、新工具比较感兴趣”和“Harness是热点”，本次推荐重点选取了ChatGPT Finances、Runway实时生成、Unity AI插件等新工具/功能作为核心选题，并强化了实操教程角度。",
+  "generated_at": "2026-09-20T21:32:32.840807+08:00",
+  "total_items": 283,
+  "scored_items": 239,
   "tracks_summary": {
-    "ai_tech": 216,
+    "ai_tech": 227,
+    "ai_video": 9,
     "trademark_business": 1,
-    "ai_video": 5,
-    "creator_economy": 1,
-    "growth_monetize": 1
+    "growth_monetize": 1,
+    "creator_economy": 1
   },
   "engine_version": "v2",
   "engine_params": {

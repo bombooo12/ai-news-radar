@@ -1,42 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_dd08dad2c32e|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "法律风险提醒，但短期内不影响你调用API或训练自己的模型。",
-      "title_hash": "c25fcdef",
-      "scored_at": "2026-08-30T09:04:10.238347Z"
-    },
-    "story_593496b70a8b|pragmatic|0a5c5b24": {
-      "score": 40,
-      "review": "周报汇总行业趋势，了解方向但暂无具体工具可用。",
-      "title_hash": "13f32c76",
-      "scored_at": "2026-08-30T09:04:20.009084Z"
-    },
-    "story_89873725e085|cynic|f4237a62": {
-      "score": 65,
-      "review": "投票通过‘允许使用’？这也能算新闻，不如说终于承认了现实。",
-      "title_hash": "82c68ee5",
-      "scored_at": "2026-08-30T09:04:23.510153Z"
-    },
-    "story_89873725e085|paper-police|966065bf": {
-      "score": 60,
-      "review": "有公开投票记录和社区讨论，但未提供具体技术实现或评测依据。",
-      "title_hash": "82c68ee5",
-      "scored_at": "2026-08-30T09:04:28.155961Z"
-    },
-    "story_593496b70a8b|cynic|f4237a62": {
-      "score": 75,
-      "review": "周报选题精准，但‘危机’、‘潮’这类词，是洞察还是跟风渲染，得看具体数据。",
-      "title_hash": "13f32c76",
-      "scored_at": "2026-08-30T09:04:32.526437Z"
-    },
-    "story_593496b70a8b|paper-police|966065bf": {
-      "score": 20,
-      "review": "仅为行业动态周报，无具体模型发布，缺乏可验证的论文、代码或基准测试。",
-      "title_hash": "13f32c76",
-      "scored_at": "2026-08-30T09:04:38.842826Z"
-    },
     "story_78610e902a47|pragmatic|0a5c5b24": {
       "score": 85,
       "review": "开源工具更新，现在能自动将 Claude 对话链接附到代码提交里，方便追溯。",
@@ -4656,6 +4620,138 @@
       "review": "仅为产品功能报道，未见独立性能评测或技术细节。",
       "title_hash": "eac8fd0e",
       "scored_at": "2026-09-20T04:09:03.188309Z"
+    },
+    "story_768e87b81386|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "估值和IPO时间变动，对开发者当前选型或开发没影响。",
+      "title_hash": "23113a11",
+      "scored_at": "2026-09-20T13:23:31.040402Z"
+    },
+    "story_67bbb2f19d0e|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "开源模型可直接下载，支持透明图像生成，有明确应用场景。",
+      "title_hash": "27818534",
+      "scored_at": "2026-09-20T13:23:38.887459Z"
+    },
+    "story_ddac4dc50eac|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "看看榜单了解模型排名还行，但榜单本身不是能调用的工具。",
+      "title_hash": "362f5e09",
+      "scored_at": "2026-09-20T13:23:42.252026Z"
+    },
+    "story_14c13d81a3a8|pragmatic|0a5c5b24": {
+      "score": 55,
+      "review": "提供了一个模型横向对比的参考榜单，选型时可以多看一眼。",
+      "title_hash": "ef99545e",
+      "scored_at": "2026-09-20T13:23:46.124901Z"
+    },
+    "story_919e226efbae|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "调休日API半价，规划中秋国庆的模型调用能省不少钱。",
+      "title_hash": "f7c68c7b",
+      "scored_at": "2026-09-20T13:23:54.013513Z"
+    },
+    "story_c8c3263ec134|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "学术突破离实际应用很远，不影响你今天选模型或写代码。",
+      "title_hash": "2b3279df",
+      "scored_at": "2026-09-20T13:23:57.471801Z"
+    },
+    "story_0c9b9ccf9cc3|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "原型机发布，离实际应用和开发者可用还很远，看看就好。",
+      "title_hash": "03162984",
+      "scored_at": "2026-09-20T13:24:01.588384Z"
+    },
+    "story_1f54ce7e4b83|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "下月进厂、年底掰手腕，都是远期展望，对当前开发没实际帮助。",
+      "title_hash": "fc84c33f",
+      "scored_at": "2026-09-20T13:24:09.021852Z"
+    },
+    "story_59e8eb3eb9e5|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "讨论版权困境，但没给开发者提供具体规避或处理方案。",
+      "title_hash": "afa612da",
+      "scored_at": "2026-09-20T13:24:13.598663Z"
+    },
+    "story_24e06ede9452|pragmatic|0a5c5b24": {
+      "score": 70,
+      "review": "视频创作者可试用新AI工具，看能否提升剪辑效率。",
+      "title_hash": "40093123",
+      "scored_at": "2026-09-20T13:24:17.689734Z"
+    },
+    "story_d33cb89128f1|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "一篇观点文章，提醒你注意AI代码的质量管理，但没给具体工具或方法。",
+      "title_hash": "be1bfb09",
+      "scored_at": "2026-09-20T13:24:22.516591Z"
+    },
+    "story_f7f3d62fb233|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "全是预告和猜测，没一个能立刻用上，等真发布了再说。",
+      "title_hash": "05c5993c",
+      "scored_at": "2026-09-20T13:24:33.629014Z"
+    },
+    "story_c096011f87e1|pragmatic|0a5c5b24": {
+      "score": 60,
+      "review": "展示了AI具身化的一个应用场景，但距离开发者能直接调用或复现还很远。",
+      "title_hash": "1c5549f3",
+      "scored_at": "2026-09-20T13:24:47.696882Z"
+    },
+    "story_99589b68f290|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "开源项目已发布，可立即集成带代码执行能力的知识库系统。",
+      "title_hash": "2e29796e",
+      "scored_at": "2026-09-20T13:24:56.040845Z"
+    },
+    "story_2bc862ec5d7e|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "IPO前的市场传言，对开发者选型无实际影响。",
+      "title_hash": "8d5276e0",
+      "scored_at": "2026-09-20T13:24:59.909589Z"
+    },
+    "story_6bc1ec806a2b|pragmatic|0a5c5b24": {
+      "score": 10,
+      "review": "政治人物的口水战，不影响你写代码或选模型。",
+      "title_hash": "e8d2d6e1",
+      "scored_at": "2026-09-20T13:25:08.034119Z"
+    },
+    "story_919e226efbae|cynic|f4237a62": {
+      "score": 45,
+      "review": "半价窗口听着大方，先看看调休日定义和计费基线是不是又挖了新坑。",
+      "title_hash": "f7c68c7b",
+      "scored_at": "2026-09-20T13:25:16.033833Z"
+    },
+    "story_919e226efbae|paper-police|966065bf": {
+      "score": 8,
+      "review": "仅为一则行业动态报道，无官方计费规则文档或技术实现细节可查。",
+      "title_hash": "f7c68c7b",
+      "scored_at": "2026-09-20T13:25:19.581485Z"
+    },
+    "story_99589b68f290|cynic|f4237a62": {
+      "score": 65,
+      "review": "开源是好事，但‘动手’能力具体指啥？别又是换个包装的Agent框架。",
+      "title_hash": "2e29796e",
+      "scored_at": "2026-09-20T13:25:23.529388Z"
+    },
+    "story_99589b68f290|paper-police|966065bf": {
+      "score": 65,
+      "review": "有开源代码和博客，但未见独立评测与论文，证据链不完整。",
+      "title_hash": "2e29796e",
+      "scored_at": "2026-09-20T13:25:43.668285Z"
+    },
+    "story_67bbb2f19d0e|cynic|f4237a62": {
+      "score": 72,
+      "review": "统一生成与编辑听着不错，但‘原生支持透明图像’这亮点，多少有点凑数了。",
+      "title_hash": "27818534",
+      "scored_at": "2026-09-20T13:25:53.745877Z"
+    },
+    "story_67bbb2f19d0e|paper-police|966065bf": {
+      "score": 65,
+      "review": "有官方技术博客和评测数字，但未见独立论文或第三方复现。",
+      "title_hash": "27818534",
+      "scored_at": "2026-09-20T13:25:58.426179Z"
     }
   }
 }

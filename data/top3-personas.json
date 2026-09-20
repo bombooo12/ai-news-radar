@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T04:09:03.188357Z",
+  "generated_at": "2026-09-20T13:25:58.426233Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_e1fd0d999371",
-      "title": "MiniMax 开源 Code CLI：命令行编程工具亮出 76.7% 通过率，把企业级 harness 摊在阳光下",
-      "url": "https://www.aibase.com/news/31189",
+      "story_id": "story_919e226efbae",
+      "title": "DeepSeek明确调休日计费规则，中秋国庆迎来十天\"半价窗口\"",
+      "url": "https://www.aibase.com/news/31191",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 72,
-          "review": "开源评测工具值得肯定，但76.7%的通过率是哪个基准、对比谁，敢不敢说清楚？"
-        },
-        "paper-police": {
           "score": 45,
-          "review": "仅技术博客公布评测数字，未提供论文与开源代码，无法独立验证。"
-        },
-        "pragmatic": {
-          "score": 88,
-          "review": "开源命令行编程工具可直接试用，高通过率基准测试方法也值得参考。"
-        }
-      }
-    },
-    {
-      "story_id": "story_9e712b92557c",
-      "title": "SpaceXAI 推出 Grok Voice Transcribe 2.0：错误率砍半、价格纹丝不动，流式语音识别登顶榜单",
-      "url": "https://www.aibase.com/news/31183",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 75,
-          "review": "榜单登顶？先问问是哪个榜，对比的又是哪个版本的老模型。"
+          "review": "半价窗口听着大方，先看看调休日定义和计费基线是不是又挖了新坑。"
         },
         "paper-police": {
-          "score": 15,
-          "review": "仅新闻稿宣称登顶，无论文、代码或公开评测链接，证据不足。"
-        },
-        "pragmatic": {
-          "score": 88,
-          "review": "榜单新王，错误率减半，做语音识别的项目可以立刻评估接入。"
-        }
-      }
-    },
-    {
-      "story_id": "story_2cfaa4801b8e",
-      "title": "ChatGPT 正式入驻 Word：免费用户也能用，办公文档里三套 AI 同台厮杀",
-      "url": "https://www.aibase.com/news/31184",
-      "rank": 3,
-      "reviews": {
-        "cynic": {
-          "score": 65,
-          "review": "把现成AI塞进Office算啥厮杀？微软自己左手打右手罢了。"
-        },
-        "paper-police": {
-          "score": 15,
-          "review": "仅为产品功能报道，未见独立性能评测或技术细节。"
+          "score": 8,
+          "review": "仅为一则行业动态报道，无官方计费规则文档或技术实现细节可查。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "Word用户今天就能免费调用ChatGPT，写文档和改稿子更方便了。"
+          "review": "调休日API半价，规划中秋国庆的模型调用能省不少钱。"
+        }
+      }
+    },
+    {
+      "story_id": "story_99589b68f290",
+      "title": "微信 AI 团队开源 WeKnora：知识库不再只“动嘴”，还能在沙箱里“动手”",
+      "url": "https://www.aibase.com/news/31201",
+      "rank": 2,
+      "reviews": {
+        "cynic": {
+          "score": 65,
+          "review": "开源是好事，但‘动手’能力具体指啥？别又是换个包装的Agent框架。"
+        },
+        "paper-police": {
+          "score": 65,
+          "review": "有开源代码和博客，但未见独立评测与论文，证据链不完整。"
+        },
+        "pragmatic": {
+          "score": 85,
+          "review": "开源项目已发布，可立即集成带代码执行能力的知识库系统。"
+        }
+      }
+    },
+    {
+      "story_id": "story_67bbb2f19d0e",
+      "title": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像 / Qwen-Image-2.1： Compact， Efficient， and Unified Image Creation",
+      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+      "rank": 3,
+      "reviews": {
+        "cynic": {
+          "score": 72,
+          "review": "统一生成与编辑听着不错，但‘原生支持透明图像’这亮点，多少有点凑数了。"
+        },
+        "paper-police": {
+          "score": 65,
+          "review": "有官方技术博客和评测数字，但未见独立论文或第三方复现。"
+        },
+        "pragmatic": {
+          "score": 85,
+          "review": "开源模型可直接下载，支持透明图像生成，有明确应用场景。"
         }
       }
     }
