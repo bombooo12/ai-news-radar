@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T15:06:36.228373Z",
+  "generated_at": "2026-09-20T04:09:03.188357Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_8b8113a300b2",
-      "title": "Copilot code review: An improved review experience",
-      "url": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
+      "story_id": "story_e1fd0d999371",
+      "title": "MiniMax 开源 Code CLI：命令行编程工具亮出 76.7% 通过率，把企业级 harness 摊在阳光下",
+      "url": "https://www.aibase.com/news/31189",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 68,
-          "review": "体验改进是好事，但‘改进’了多少？和谁比？数据呢？"
+          "score": 72,
+          "review": "开源评测工具值得肯定，但76.7%的通过率是哪个基准、对比谁，敢不敢说清楚？"
         },
         "paper-police": {
-          "score": 15,
-          "review": "官方博客宣称功能改进，无论文无代码无独立评测，证据不足。"
+          "score": 45,
+          "review": "仅技术博客公布评测数字，未提供论文与开源代码，无法独立验证。"
         },
         "pragmatic": {
-          "score": 85,
-          "review": "GitHub Copilot代码审查功能已更新，今天就能在项目里试用新体验。"
+          "score": 88,
+          "review": "开源命令行编程工具可直接试用，高通过率基准测试方法也值得参考。"
         }
       }
     },
     {
-      "story_id": "story_48ff8a06680b",
-      "title": "Manage the code coverage ruleset condition with the REST API",
-      "url": "https://github.blog/changelog/2026-09-18-manage-the-code-coverage-ruleset-condition-with-the-rest-api",
+      "story_id": "story_9e712b92557c",
+      "title": "SpaceXAI 推出 Grok Voice Transcribe 2.0：错误率砍半、价格纹丝不动，流式语音识别登顶榜单",
+      "url": "https://www.aibase.com/news/31183",
       "rank": 2,
       "reviews": {
         "cynic": {
           "score": 75,
-          "review": "API接口扩展是实在更新，但‘管理’这词用得太大，本质是多了个开关。"
+          "review": "榜单登顶？先问问是哪个榜，对比的又是哪个版本的老模型。"
         },
         "paper-police": {
-          "score": 40,
-          "review": "官方技术博客提供了功能细节，但无独立评测或论文支撑。"
+          "score": 15,
+          "review": "仅新闻稿宣称登顶，无论文、代码或公开评测链接，证据不足。"
         },
         "pragmatic": {
-          "score": 85,
-          "review": "REST API 新增代码覆盖率规则管理，自动化流水线今天就能集成。"
+          "score": 88,
+          "review": "榜单新王，错误率减半，做语音识别的项目可以立刻评估接入。"
         }
       }
     },
     {
-      "story_id": "story_38f7cda29bd5",
-      "title": "Stage-only npm tokens for safer automation",
-      "url": "https://github.blog/changelog/2026-09-18-stage-only-npm-tokens-for-safer-automation",
+      "story_id": "story_2cfaa4801b8e",
+      "title": "ChatGPT 正式入驻 Word：免费用户也能用，办公文档里三套 AI 同台厮杀",
+      "url": "https://www.aibase.com/news/31184",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 78,
-          "review": "权限细分是实在改进，但‘更安全’的宣传里，默认配置的坑总比承诺多。"
+          "score": 65,
+          "review": "把现成AI塞进Office算啥厮杀？微软自己左手打右手罢了。"
         },
         "paper-police": {
           "score": 15,
-          "review": "官方博客宣布功能，无论文代码，亦无独立性能评测报告。"
+          "review": "仅为产品功能报道，未见独立性能评测或技术细节。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "CI/CD流程今天就能用，为自动化任务创建更安全的专用令牌。"
+          "review": "Word用户今天就能免费调用ChatGPT，写文档和改稿子更方便了。"
         }
       }
     }

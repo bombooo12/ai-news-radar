@@ -1,78 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_89873725e085|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "开源社区政策变动，对开发者日常工作暂无直接影响。",
-      "title_hash": "82c68ee5",
-      "scored_at": "2026-08-30T04:04:38.190703Z"
-    },
-    "story_fc264aa8f148|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "内部案例难复制，对开发者选型或工作流暂无直接影响。",
-      "title_hash": "a46d9ab9",
-      "scored_at": "2026-08-30T04:04:23.333300Z"
-    },
-    "story_cf315c0c523c|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "训练过程的轶事，对实际选型或开发没帮助。",
-      "title_hash": "30aef4e6",
-      "scored_at": "2026-08-30T04:04:26.689207Z"
-    },
-    "story_8aec8d862456|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "学术论文，离落地还有距离，知道有这方向就行。",
-      "title_hash": "ab00d0fc",
-      "scored_at": "2026-08-30T04:04:31.338362Z"
-    },
-    "story_d97da0ee06f0|pragmatic|0a5c5b24": {
-      "score": 75,
-      "review": "使用Cursor的开发者需留意，未来可能需更换底层模型或工具链。",
-      "title_hash": "8ae56611",
-      "scored_at": "2026-08-30T04:04:34.817002Z"
-    },
-    "story_39fb2b2dec50|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "管理类观点文章，对技术选型和开发工作没有直接指导作用。",
-      "title_hash": "1d2e098d",
-      "scored_at": "2026-08-30T04:04:42.114231Z"
-    },
-    "story_0155c1000eca|cynic|f4237a62": {
-      "score": 72,
-      "review": "Mac Studio跑27B模型算力秀肌肉，但成本门槛和通用性闭口不谈。",
-      "title_hash": "d30db030",
-      "scored_at": "2026-08-30T04:04:46.003707Z"
-    },
-    "story_0155c1000eca|paper-police|966065bf": {
-      "score": 65,
-      "review": "有个人实测数据，但缺官方论文与开源代码，无法独立复现基准。",
-      "title_hash": "d30db030",
-      "scored_at": "2026-08-30T04:04:49.631380Z"
-    },
-    "story_d97da0ee06f0|cynic|f4237a62": {
-      "score": 65,
-      "review": "商业收购后的常规操作，但‘值得关注’的标签有点小题大做。",
-      "title_hash": "8ae56611",
-      "scored_at": "2026-08-30T04:04:53.543995Z"
-    },
-    "story_d97da0ee06f0|paper-police|966065bf": {
-      "score": 5,
-      "review": "仅为传闻报道，无官方公告或技术细节，查无实据。",
-      "title_hash": "8ae56611",
-      "scored_at": "2026-08-30T04:04:56.400445Z"
-    },
-    "story_8aec8d862456|cynic|f4237a62": {
-      "score": 78,
-      "review": "环境框架开源值得肯定，但‘自主发现’的数学成果目前还相当基础。",
-      "title_hash": "ab00d0fc",
-      "scored_at": "2026-08-30T04:05:00.045718Z"
-    },
-    "story_8aec8d862456|paper-police|966065bf": {
-      "score": 85,
-      "review": "有arXiv论文，这是严肃工作的起点，但需代码和独立评测佐证。",
-      "title_hash": "ab00d0fc",
-      "scored_at": "2026-08-30T04:05:03.795558Z"
-    },
     "story_dd08dad2c32e|pragmatic|0a5c5b24": {
       "score": 35,
       "review": "法律风险提醒，但短期内不影响你调用API或训练自己的模型。",
@@ -4590,6 +4518,144 @@
       "review": "官方博客宣布功能，无论文代码，亦无独立性能评测报告。",
       "title_hash": "cdeb8709",
       "scored_at": "2026-09-19T15:06:36.228326Z"
+    },
+    "story_ef95692bbaba|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "诉讼口水战，不影响你今天调API或选模型。",
+      "title_hash": "583b3ac8",
+      "scored_at": "2026-09-20T04:06:50.740935Z"
+    },
+    "story_d1c800dec247|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "还在考虑阶段，等模型真发布了再研究也不迟。",
+      "title_hash": "c374d418",
+      "scored_at": "2026-09-20T04:06:53.343729Z"
+    },
+    "story_d7d2979d88d1|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "10月中开源，可以提前评估是否值得集成到技术栈里。",
+      "title_hash": "a743a694",
+      "scored_at": "2026-09-20T04:07:06.404115Z"
+    },
+    "story_2cfaa4801b8e|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "Word用户今天就能免费调用ChatGPT，写文档和改稿子更方便了。",
+      "title_hash": "eac8fd0e",
+      "scored_at": "2026-09-20T04:07:11.608782Z"
+    },
+    "story_e1fd0d999371|pragmatic|0a5c5b24": {
+      "score": 88,
+      "review": "开源命令行编程工具可直接试用，高通过率基准测试方法也值得参考。",
+      "title_hash": "c7546beb",
+      "scored_at": "2026-09-20T04:07:15.513837Z"
+    },
+    "story_9e712b92557c|pragmatic|0a5c5b24": {
+      "score": 88,
+      "review": "榜单新王，错误率减半，做语音识别的项目可以立刻评估接入。",
+      "title_hash": "ce12fe0d",
+      "scored_at": "2026-09-20T04:07:19.806907Z"
+    },
+    "story_d221c93d18a9|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "工具更新，修复了关键Bug，用Termexo的开发者可以立即升级。",
+      "title_hash": "2b8de7c1",
+      "scored_at": "2026-09-20T04:07:34.300898Z"
+    },
+    "story_98f7eb83a544|pragmatic|0a5c5b24": {
+      "score": 10,
+      "review": "政客提议改名和建新机构，对开发者写代码没任何影响。",
+      "title_hash": "9adf5166",
+      "scored_at": "2026-09-20T04:07:37.750772Z"
+    },
+    "story_6c906a6b84d7|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "开源了一个新架构模型，想尝试低成本决策任务的可以研究代码。",
+      "title_hash": "786e21cb",
+      "scored_at": "2026-09-20T04:07:50.104509Z"
+    },
+    "story_f4d7dbb9fffa|pragmatic|0a5c5b24": {
+      "score": 70,
+      "review": "Unity插件已可用，想用AI辅助游戏开发的可以立刻上手试试。",
+      "title_hash": "e51d61a6",
+      "scored_at": "2026-09-20T04:07:53.707988Z"
+    },
+    "story_d1a0ed8697f7|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "Unity开发者今天就能用，直接在编辑器里调用Claude和Codex写代码。",
+      "title_hash": "41ff0eff",
+      "scored_at": "2026-09-20T04:07:57.772829Z"
+    },
+    "story_2145f994e6f8|pragmatic|0a5c5b24": {
+      "score": 15,
+      "review": "观点讨论，与具体技术选型或开发实践无关。",
+      "title_hash": "9fbac585",
+      "scored_at": "2026-09-20T04:08:01.471460Z"
+    },
+    "story_2354f61307ce|pragmatic|0a5c5b24": {
+      "score": 70,
+      "review": "开源了可直接部署的国产大模型，长上下文支持消费级显卡，技术选型多一个选项。",
+      "title_hash": "6e1f2a02",
+      "scored_at": "2026-09-20T04:08:16.442986Z"
+    },
+    "story_874b8a85f11d|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "同传场景有新工具可选，延迟指标对实时应用选型有参考价值。",
+      "title_hash": "5965c161",
+      "scored_at": "2026-09-20T04:08:20.017370Z"
+    },
+    "story_a1a7ab465c4b|pragmatic|0a5c5b24": {
+      "score": 55,
+      "review": "了解AI安全测试的潜在风险，但具体防御方案未明。",
+      "title_hash": "ad1289c4",
+      "scored_at": "2026-09-20T04:08:23.213322Z"
+    },
+    "story_f57f0f882ed6|pragmatic|0a5c5b24": {
+      "score": 70,
+      "review": "新模型在基准测试中表现突出，选型时可将其加入对比列表。",
+      "title_hash": "78e2fc55",
+      "scored_at": "2026-09-20T04:08:27.010408Z"
+    },
+    "story_7dbc15ea0b15|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "延迟指标有参考价值，做实时语音应用时可纳入对比测试。",
+      "title_hash": "f988855c",
+      "scored_at": "2026-09-20T04:08:31.201179Z"
+    },
+    "story_e1fd0d999371|cynic|f4237a62": {
+      "score": 72,
+      "review": "开源评测工具值得肯定，但76.7%的通过率是哪个基准、对比谁，敢不敢说清楚？",
+      "title_hash": "c7546beb",
+      "scored_at": "2026-09-20T04:08:40.127206Z"
+    },
+    "story_e1fd0d999371|paper-police|966065bf": {
+      "score": 45,
+      "review": "仅技术博客公布评测数字，未提供论文与开源代码，无法独立验证。",
+      "title_hash": "c7546beb",
+      "scored_at": "2026-09-20T04:08:43.554837Z"
+    },
+    "story_9e712b92557c|cynic|f4237a62": {
+      "score": 75,
+      "review": "榜单登顶？先问问是哪个榜，对比的又是哪个版本的老模型。",
+      "title_hash": "ce12fe0d",
+      "scored_at": "2026-09-20T04:08:52.478502Z"
+    },
+    "story_9e712b92557c|paper-police|966065bf": {
+      "score": 15,
+      "review": "仅新闻稿宣称登顶，无论文、代码或公开评测链接，证据不足。",
+      "title_hash": "ce12fe0d",
+      "scored_at": "2026-09-20T04:08:56.123230Z"
+    },
+    "story_2cfaa4801b8e|cynic|f4237a62": {
+      "score": 65,
+      "review": "把现成AI塞进Office算啥厮杀？微软自己左手打右手罢了。",
+      "title_hash": "eac8fd0e",
+      "scored_at": "2026-09-20T04:09:00.563512Z"
+    },
+    "story_2cfaa4801b8e|paper-police|966065bf": {
+      "score": 15,
+      "review": "仅为产品功能报道，未见独立性能评测或技术细节。",
+      "title_hash": "eac8fd0e",
+      "scored_at": "2026-09-20T04:09:03.188309Z"
     }
   }
 }
