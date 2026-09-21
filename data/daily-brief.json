@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T17:49:32.832300Z",
+  "generated_at": "2026-09-21T09:27:48.563757Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -40,6 +40,20 @@
           "published_at": "2026-09-20T14:40:14.401000Z"
         },
         {
+          "id": "9f5e3621a5271eb86e036a8d0a08c719b98c9ba1",
+          "title": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像 / Qwen Image 2.1",
+          "title_zh": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像",
+          "title_en": "Qwen Image 2.1",
+          "title_original": "Qwen Image 2.1",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-20T13:09:25Z"
+        },
+        {
           "id": "aab421d5ea2118e7efff30044fa8b9703ebea7d6",
           "title": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像 / Qwen-Image-2.1: Compact, efficient, and unified image creation",
           "title_zh": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像",
@@ -54,7 +68,7 @@
           "published_at": "2026-09-20T13:09:25Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 4,
       "source_names": [
         "Hacker News (黑客新闻)",
         "Qwen：Blog Retrieval（API）",
@@ -90,6 +104,20 @@
           "published_at": "2026-09-20T14:40:14.401000Z"
         },
         {
+          "id": "9f5e3621a5271eb86e036a8d0a08c719b98c9ba1",
+          "title": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像 / Qwen Image 2.1",
+          "title_zh": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像",
+          "title_en": "Qwen Image 2.1",
+          "title_original": "Qwen Image 2.1",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-20T13:09:25Z"
+        },
+        {
           "id": "aab421d5ea2118e7efff30044fa8b9703ebea7d6",
           "title": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像 / Qwen-Image-2.1: Compact, efficient, and unified image creation",
           "title_zh": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像",
@@ -104,18 +132,18 @@
           "published_at": "2026-09-20T13:09:25Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.8031,
-      "importance": 0.8031,
-      "importance_score": 0.8031,
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.7946,
+      "importance": 0.7946,
+      "importance_score": 0.7946,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9193,
-        "story_heat": 0.5
+        "recency": 0.7335,
+        "story_heat": 0.75
       },
       "category": "multi_source",
       "reasons": [
@@ -136,128 +164,120 @@
         "url": "https://qwen.ai/blog?id=qwen-image-2.1",
         "source": "Qwen：Blog Retrieval（API）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "开源模型可直接下载，支持透明图像生成，有明确应用场景。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-20T17:50:43.208040Z"
       }
     },
     {
-      "story_id": "story_ef95692bbaba",
-      "title": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
-      "primary_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
+      "story_id": "story_a682219ecb2e",
+      "title": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号",
+      "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
+      "primary_url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "34e7b5ab86917cef138ec6aa4edbe0dad8b9c08e",
-          "title": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用",
-          "title_zh": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用",
+          "id": "844d7f12ef7fac27524e36cc5345e97f538ad2cc",
+          "title": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号",
+          "title_zh": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号",
           "title_en": null,
-          "title_original": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用",
-          "summary": "纽约时报在起诉 OpenAI 和微软的版权案中提交法律简报并申请即决判决，引用双方内部文件称 AI 抓取是\"人类历史上最大规模的劳动力盗用\"，OpenAI ChatGPT 负责人称其对出版商是\"生存威胁\"。文件还显示 Copilot 使纽约时报的点击率相比 Bing 搜索最多下降 93%，且 Nadella 在证词中表示付费墙内容应获得授权，这些内容可能削弱 OpenAI 的合理使用抗辩。",
+          "title_original": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号",
+          "summary": "作者通过自己手机上的流量捕获复现了 OpenAI 广告收集器机制：bzr.openai.com 在 .openai.com 域设置 __obi Cookie，绑定 ChatGPT 账号（或稳定的匿名主体），投放广告的商家站点加载 OpenAI 像素代码时会把 __obi 连同浏览和购买数据回传给 OpenAI。",
           "recommend_reason_zh": null,
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
+          "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
           "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-09-19T23:58:19.151000Z"
+          "published_at": "2026-09-20T18:05:38.317000Z"
         },
         {
-          "id": "d8ca7c66fdf0de89083765a6bd0fa4d72bcd54ab",
-          "title": "微软高管：AI“是人类历史上规模最大的劳动力盗用”",
-          "title_zh": "微软高管：AI“是人类历史上规模最大的劳动力盗用”",
-          "title_en": null,
-          "title_original": "微软高管：AI“是人类历史上规模最大的劳动力盗用”",
+          "id": "ab4dd49f01223a9b4cce0964a27827350d8692f4",
+          "title": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号 / ChatGPT now knows what you do on other websites via ad collector",
+          "title_zh": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号",
+          "title_en": "ChatGPT now knows what you do on other websites via ad collector",
+          "title_original": "ChatGPT now knows what you do on other websites via ad collector",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
-          "source": "www.tomshardware.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-19T23:58:19.151000Z"
+          "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-20T15:18:44Z"
         },
         {
-          "id": "db0a741db6728ddf6a35dfb6c2ac2c45b97669c6",
-          "title": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用 / Microsoft director: AI scraping 'the largest theft of labor in human history'",
-          "title_zh": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用",
-          "title_en": "Microsoft director: AI scraping 'the largest theft of labor in human history'",
-          "title_original": "Microsoft director: AI scraping 'the largest theft of labor in human history'",
+          "id": "7d18b5731ef9e28fff4e0ab0474ddc3c6c89b701",
+          "title": "ChatGPT now knows what you do on other websites via ad collector",
+          "title_zh": null,
+          "title_en": "ChatGPT now knows what you do on other websites via ad collector",
+          "title_original": "ChatGPT now knows what you do on other websites via ad collector",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-09-19T18:21:30Z"
+          "url": "https://news.ycombinator.com/item?id=49776729",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-20T15:18:44Z"
         }
       ],
       "source_count": 3,
       "source_names": [
-        "Hacker News · 24h最热",
+        "Hacker News",
         "Hacker News 热门（buzzing.cc 中文翻译）",
-        "www.tomshardware.com"
+        "hackernews"
       ],
       "items": [
         {
-          "id": "34e7b5ab86917cef138ec6aa4edbe0dad8b9c08e",
-          "title": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用",
-          "title_zh": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用",
+          "id": "844d7f12ef7fac27524e36cc5345e97f538ad2cc",
+          "title": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号",
+          "title_zh": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号",
           "title_en": null,
-          "title_original": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用",
-          "summary": "纽约时报在起诉 OpenAI 和微软的版权案中提交法律简报并申请即决判决，引用双方内部文件称 AI 抓取是\"人类历史上最大规模的劳动力盗用\"，OpenAI ChatGPT 负责人称其对出版商是\"生存威胁\"。文件还显示 Copilot 使纽约时报的点击率相比 Bing 搜索最多下降 93%，且 Nadella 在证词中表示付费墙内容应获得授权，这些内容可能削弱 OpenAI 的合理使用抗辩。",
+          "title_original": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号",
+          "summary": "作者通过自己手机上的流量捕获复现了 OpenAI 广告收集器机制：bzr.openai.com 在 .openai.com 域设置 __obi Cookie，绑定 ChatGPT 账号（或稳定的匿名主体），投放广告的商家站点加载 OpenAI 像素代码时会把 __obi 连同浏览和购买数据回传给 OpenAI。",
           "recommend_reason_zh": null,
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
+          "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
           "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-09-19T23:58:19.151000Z"
+          "published_at": "2026-09-20T18:05:38.317000Z"
         },
         {
-          "id": "d8ca7c66fdf0de89083765a6bd0fa4d72bcd54ab",
-          "title": "微软高管：AI“是人类历史上规模最大的劳动力盗用”",
-          "title_zh": "微软高管：AI“是人类历史上规模最大的劳动力盗用”",
-          "title_en": null,
-          "title_original": "微软高管：AI“是人类历史上规模最大的劳动力盗用”",
+          "id": "ab4dd49f01223a9b4cce0964a27827350d8692f4",
+          "title": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号 / ChatGPT now knows what you do on other websites via ad collector",
+          "title_zh": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号",
+          "title_en": "ChatGPT now knows what you do on other websites via ad collector",
+          "title_original": "ChatGPT now knows what you do on other websites via ad collector",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
-          "source": "www.tomshardware.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-19T23:58:19.151000Z"
+          "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-20T15:18:44Z"
         },
         {
-          "id": "db0a741db6728ddf6a35dfb6c2ac2c45b97669c6",
-          "title": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用 / Microsoft director: AI scraping 'the largest theft of labor in human history'",
-          "title_zh": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用",
-          "title_en": "Microsoft director: AI scraping 'the largest theft of labor in human history'",
-          "title_original": "Microsoft director: AI scraping 'the largest theft of labor in human history'",
+          "id": "7d18b5731ef9e28fff4e0ab0474ddc3c6c89b701",
+          "title": "ChatGPT now knows what you do on other websites via ad collector",
+          "title_zh": null,
+          "title_en": "ChatGPT now knows what you do on other websites via ad collector",
+          "title_original": "ChatGPT now knows what you do on other websites via ad collector",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-09-19T18:21:30Z"
+          "url": "https://news.ycombinator.com/item?id=49776729",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-20T15:18:44Z"
         }
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7917,
-      "importance": 0.7917,
-      "importance_score": 0.7917,
+      "score": 0.7938,
+      "importance": 0.7938,
+      "importance_score": 0.7938,
       "importance_label": "多源热议",
       "importance_breakdown": {
-        "editorial": 0.77,
+        "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7727,
+        "recency": 0.801,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -266,50 +286,42 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-19T18:21:30Z",
-      "latest_at": "2026-09-19T23:58:19.151000Z",
+      "earliest_at": "2026-09-20T15:18:44Z",
+      "latest_at": "2026-09-20T18:05:38.317000Z",
       "primary_item": {
-        "id": "34e7b5ab86917cef138ec6aa4edbe0dad8b9c08e",
-        "title": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用",
-        "title_zh": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用",
+        "id": "844d7f12ef7fac27524e36cc5345e97f538ad2cc",
+        "title": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号",
+        "title_zh": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号",
         "title_en": null,
-        "title_original": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用",
-        "summary": "纽约时报在起诉 OpenAI 和微软的版权案中提交法律简报并申请即决判决，引用双方内部文件称 AI 抓取是\"人类历史上最大规模的劳动力盗用\"，OpenAI ChatGPT 负责人称其对出版商是\"生存威胁\"。文件还显示 Copilot 使纽约时报的点击率相比 Bing 搜索最多下降 93%，且 Nadella 在证词中表示付费墙内容应获得授权，这些内容可能削弱 OpenAI 的合理使用抗辩。",
+        "title_original": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号",
+        "summary": "作者通过自己手机上的流量捕获复现了 OpenAI 广告收集器机制：bzr.openai.com 在 .openai.com 域设置 __obi Cookie，绑定 ChatGPT 账号（或稳定的匿名主体），投放广告的商家站点加载 OpenAI 像素代码时会把 __obi 连同浏览和购买数据回传给 OpenAI。",
         "recommend_reason_zh": null,
-        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
+        "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 25,
-      "persona_review": "诉讼口水战，不影响你今天调API或选模型。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-20T17:50:43.208040Z"
       }
     },
     {
-      "story_id": "story_768e87b81386",
-      "title": "Anthropic 把 IPO 推到 11 月：2 万亿美元估值剑指 SpaceX 纪录，安全警告成上市前的\"护身符\"",
-      "url": "https://www.aibase.com/news/31199",
-      "primary_url": "https://www.aibase.com/news/31199",
+      "story_id": "story_02e8ffac48ba",
+      "title": "Claude Opus 5. 5 疑遭内测泄露：跳级直冲GPT-6，百万Token价格腰斩至 4 美元",
+      "url": "https://www.aibase.com/news/31231",
+      "primary_url": "https://www.aibase.com/news/31231",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "8c3b0e698ba2c868806c1f6f036ca6441eeec335",
-          "title": "Anthropic 把 IPO 推到 11 月：2 万亿美元估值剑指 SpaceX 纪录，安全警告成上市前的\"护身符\"",
-          "title_zh": "Anthropic 把 IPO 推到 11 月：2 万亿美元估值剑指 SpaceX 纪录，安全警告成上市前的\"护身符\"",
+          "id": "f1528efce967282e3ffc899eb06e10ffa20c90eb",
+          "title": "Claude Opus 5. 5 疑遭内测泄露：跳级直冲GPT-6，百万Token价格腰斩至 4 美元",
+          "title_zh": "Claude Opus 5. 5 疑遭内测泄露：跳级直冲GPT-6，百万Token价格腰斩至 4 美元",
           "title_en": null,
-          "title_original": "Anthropic 把 IPO 推到 11 月：2 万亿美元估值剑指 SpaceX 纪录，安全警告成上市前的\"护身符\"",
+          "title_original": "Claude Opus 5. 5 疑遭内测泄露：跳级直冲GPT-6，百万Token价格腰斩至 4 美元",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31199",
+          "url": "https://www.aibase.com/news/31231",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-20T13:22:06.100963Z"
+          "published_at": "2026-09-21T09:27:48.563757Z"
         }
       ],
       "source_count": 1,
@@ -318,31 +330,31 @@
       ],
       "items": [
         {
-          "id": "8c3b0e698ba2c868806c1f6f036ca6441eeec335",
-          "title": "Anthropic 把 IPO 推到 11 月：2 万亿美元估值剑指 SpaceX 纪录，安全警告成上市前的\"护身符\"",
-          "title_zh": "Anthropic 把 IPO 推到 11 月：2 万亿美元估值剑指 SpaceX 纪录，安全警告成上市前的\"护身符\"",
+          "id": "f1528efce967282e3ffc899eb06e10ffa20c90eb",
+          "title": "Claude Opus 5. 5 疑遭内测泄露：跳级直冲GPT-6，百万Token价格腰斩至 4 美元",
+          "title_zh": "Claude Opus 5. 5 疑遭内测泄露：跳级直冲GPT-6，百万Token价格腰斩至 4 美元",
           "title_en": null,
-          "title_original": "Anthropic 把 IPO 推到 11 月：2 万亿美元估值剑指 SpaceX 纪录，安全警告成上市前的\"护身符\"",
+          "title_original": "Claude Opus 5. 5 疑遭内测泄露：跳级直冲GPT-6，百万Token价格腰斩至 4 美元",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31199",
+          "url": "https://www.aibase.com/news/31231",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-20T13:22:06.100963Z"
+          "published_at": "2026-09-21T09:27:48.563757Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7564,
-      "importance": 0.7564,
-      "importance_score": 0.7564,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9377,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -350,50 +362,194 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-20T13:22:06.100963Z",
-      "latest_at": "2026-09-20T13:22:06.100963Z",
+      "earliest_at": "2026-09-21T09:27:48.563757Z",
+      "latest_at": "2026-09-21T09:27:48.563757Z",
       "primary_item": {
-        "id": "8c3b0e698ba2c868806c1f6f036ca6441eeec335",
-        "title": "Anthropic 把 IPO 推到 11 月：2 万亿美元估值剑指 SpaceX 纪录，安全警告成上市前的\"护身符\"",
-        "title_zh": "Anthropic 把 IPO 推到 11 月：2 万亿美元估值剑指 SpaceX 纪录，安全警告成上市前的\"护身符\"",
+        "id": "f1528efce967282e3ffc899eb06e10ffa20c90eb",
+        "title": "Claude Opus 5. 5 疑遭内测泄露：跳级直冲GPT-6，百万Token价格腰斩至 4 美元",
+        "title_zh": "Claude Opus 5. 5 疑遭内测泄露：跳级直冲GPT-6，百万Token价格腰斩至 4 美元",
         "title_en": null,
-        "title_original": "Anthropic 把 IPO 推到 11 月：2 万亿美元估值剑指 SpaceX 纪录，安全警告成上市前的\"护身符\"",
+        "title_original": "Claude Opus 5. 5 疑遭内测泄露：跳级直冲GPT-6，百万Token价格腰斩至 4 美元",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31199",
+        "url": "https://www.aibase.com/news/31231",
         "source": "AIbase",
         "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 25,
-      "persona_review": "估值和IPO时间变动，对开发者当前选型或开发没影响。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-20T17:50:43.208040Z"
       }
     },
     {
-      "story_id": "story_e7fee7b1503f",
-      "title": "Qwen-Image-2.1 已支持 ComfyUI，开源权重开放下载 / Qwen-Image-2.1 is now supported in ComfyUI！ Try it now and share your creations！ 🖼️",
-      "url": "https://x.com/Alibaba_Qwen/status/2101670814953455780",
-      "primary_url": "https://x.com/Alibaba_Qwen/status/2101670814953455780",
+      "story_id": "story_f20bbdeba1e2",
+      "title": "Kimi 发布 Kimi Code Desktop 1.0，macOS 与 Windows 版同步上线",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484344&idx=1&sn=047cf702ff02ab334e3ea2ba8e34b4a6",
+      "primary_url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484344&idx=1&sn=047cf702ff02ab334e3ea2ba8e34b4a6",
+      "source": "公众号：月之暗面（Kimi）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "db5c34aadee5e59351366b04dbf21e0d4feb57ca",
+          "title": "Kimi 发布 Kimi Code Desktop 1.0，macOS 与 Windows 版同步上线",
+          "title_zh": "Kimi 发布 Kimi Code Desktop 1.0，macOS 与 Windows 版同步上线",
+          "title_en": null,
+          "title_original": "Kimi 发布 Kimi Code Desktop 1.0，macOS 与 Windows 版同步上线",
+          "summary": "Kimi（月之暗面）发布 Kimi Code Desktop 1.0，作为 Kimi Code 官方桌面客户端，macOS（Apple 与 Intel 芯片）和 Windows 版同步上线，下载地址为 kimi.com/code。",
+          "recommend_reason_zh": null,
+          "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484344&idx=1&sn=047cf702ff02ab334e3ea2ba8e34b4a6",
+          "source": "公众号：月之暗面（Kimi）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-21T07:54:32Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：月之暗面（Kimi）"
+      ],
+      "items": [
+        {
+          "id": "db5c34aadee5e59351366b04dbf21e0d4feb57ca",
+          "title": "Kimi 发布 Kimi Code Desktop 1.0，macOS 与 Windows 版同步上线",
+          "title_zh": "Kimi 发布 Kimi Code Desktop 1.0，macOS 与 Windows 版同步上线",
+          "title_en": null,
+          "title_original": "Kimi 发布 Kimi Code Desktop 1.0，macOS 与 Windows 版同步上线",
+          "summary": "Kimi（月之暗面）发布 Kimi Code Desktop 1.0，作为 Kimi Code 官方桌面客户端，macOS（Apple 与 Intel 芯片）和 Windows 版同步上线，下载地址为 kimi.com/code。",
+          "recommend_reason_zh": null,
+          "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484344&idx=1&sn=047cf702ff02ab334e3ea2ba8e34b4a6",
+          "source": "公众号：月之暗面（Kimi）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-21T07:54:32Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7606,
+      "importance": 0.7606,
+      "importance_score": 0.7606,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.71,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9778,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-21T07:54:32Z",
+      "latest_at": "2026-09-21T07:54:32Z",
+      "primary_item": {
+        "id": "db5c34aadee5e59351366b04dbf21e0d4feb57ca",
+        "title": "Kimi 发布 Kimi Code Desktop 1.0，macOS 与 Windows 版同步上线",
+        "title_zh": "Kimi 发布 Kimi Code Desktop 1.0，macOS 与 Windows 版同步上线",
+        "title_en": null,
+        "title_original": "Kimi 发布 Kimi Code Desktop 1.0，macOS 与 Windows 版同步上线",
+        "summary": "Kimi（月之暗面）发布 Kimi Code Desktop 1.0，作为 Kimi Code 官方桌面客户端，macOS（Apple 与 Intel 芯片）和 Windows 版同步上线，下载地址为 kimi.com/code。",
+        "recommend_reason_zh": null,
+        "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484344&idx=1&sn=047cf702ff02ab334e3ea2ba8e34b4a6",
+        "source": "公众号：月之暗面（Kimi）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_b27cd7e4992a",
+      "title": "Google 确认 Gemini 在 Irregular 安全测试中访问 3 家真实公司系统，与 OpenAI、Anthropic、Meta 属同一评估事故 / You too Google！ Google Confirms Gemini Breached 3 Companies in AI Security Tests",
+      "url": "https://www.marktechpost.com/2026/09/20/you-too-google-google-confirms-gemini-breached-3-companies-in-ai-security-tests",
+      "primary_url": "https://www.marktechpost.com/2026/09/20/you-too-google-google-confirms-gemini-breached-3-companies-in-ai-security-tests",
+      "source": "MarkTechPost（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "e7934196a7be1cf52a62f81ea6d8d9b348e216c3",
+          "title": "Google 确认 Gemini 在 Irregular 安全测试中访问 3 家真实公司系统，与 OpenAI、Anthropic、Meta 属同一评估事故 / You too Google！ Google Confirms Gemini Breached 3 Companies in AI Security Tests",
+          "title_zh": "Google 确认 Gemini 在 Irregular 安全测试中访问 3 家真实公司系统，与 OpenAI、Anthropic、Meta 属同一评估事故",
+          "title_en": "You too Google！ Google Confirms Gemini Breached 3 Companies in AI Security Tests",
+          "title_original": "You too Google！ Google Confirms Gemini Breached 3 Companies in AI Security Tests",
+          "summary": "Google 于 9 月 18 日确认，Gemini 模型在 5 月由第三方安全评估方 Irregular 组织的 capture-the-flag 测试中访问了 3 家真实公司的系统，起因是本应离线的测试环境因 bug 开放了互联网访问。",
+          "recommend_reason_zh": null,
+          "url": "https://www.marktechpost.com/2026/09/20/you-too-google-google-confirms-gemini-breached-3-companies-in-ai-security-tests",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-20T20:20:56Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "MarkTechPost（RSS）"
+      ],
+      "items": [
+        {
+          "id": "e7934196a7be1cf52a62f81ea6d8d9b348e216c3",
+          "title": "Google 确认 Gemini 在 Irregular 安全测试中访问 3 家真实公司系统，与 OpenAI、Anthropic、Meta 属同一评估事故 / You too Google！ Google Confirms Gemini Breached 3 Companies in AI Security Tests",
+          "title_zh": "Google 确认 Gemini 在 Irregular 安全测试中访问 3 家真实公司系统，与 OpenAI、Anthropic、Meta 属同一评估事故",
+          "title_en": "You too Google！ Google Confirms Gemini Breached 3 Companies in AI Security Tests",
+          "title_original": "You too Google！ Google Confirms Gemini Breached 3 Companies in AI Security Tests",
+          "summary": "Google 于 9 月 18 日确认，Gemini 模型在 5 月由第三方安全评估方 Irregular 组织的 capture-the-flag 测试中访问了 3 家真实公司的系统，起因是本应离线的测试环境因 bug 开放了互联网访问。",
+          "recommend_reason_zh": null,
+          "url": "https://www.marktechpost.com/2026/09/20/you-too-google-google-confirms-gemini-breached-3-companies-in-ai-security-tests",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-20T20:20:56Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7545,
+      "importance": 0.7545,
+      "importance_score": 0.7545,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.78,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8275,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-20T20:20:56Z",
+      "latest_at": "2026-09-20T20:20:56Z",
+      "primary_item": {
+        "id": "e7934196a7be1cf52a62f81ea6d8d9b348e216c3",
+        "title": "Google 确认 Gemini 在 Irregular 安全测试中访问 3 家真实公司系统，与 OpenAI、Anthropic、Meta 属同一评估事故 / You too Google！ Google Confirms Gemini Breached 3 Companies in AI Security Tests",
+        "title_zh": "Google 确认 Gemini 在 Irregular 安全测试中访问 3 家真实公司系统，与 OpenAI、Anthropic、Meta 属同一评估事故",
+        "title_en": "You too Google！ Google Confirms Gemini Breached 3 Companies in AI Security Tests",
+        "title_original": "You too Google！ Google Confirms Gemini Breached 3 Companies in AI Security Tests",
+        "summary": "Google 于 9 月 18 日确认，Gemini 模型在 5 月由第三方安全评估方 Irregular 组织的 capture-the-flag 测试中访问了 3 家真实公司的系统，起因是本应离线的测试环境因 bug 开放了互联网访问。",
+        "recommend_reason_zh": null,
+        "url": "https://www.marktechpost.com/2026/09/20/you-too-google-google-confirms-gemini-breached-3-companies-in-ai-security-tests",
+        "source": "MarkTechPost（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_1f933272e9f7",
+      "title": "通义千问发布 Qwen-Image-2.1：7B 单检查点同时支持图像生成与编辑 / Qwen-Image-2.1 × @HuggingApps： live demo on Spaces！ 🖼 One single checkpoint for generation and edit…",
+      "url": "https://x.com/Alibaba_Qwen/status/2101866671900401913",
+      "primary_url": "https://x.com/Alibaba_Qwen/status/2101866671900401913",
       "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "063ef50ea9ab58ed253b2a1718d5383016f17485",
-          "title": "Qwen-Image-2.1 已支持 ComfyUI，开源权重开放下载 / Qwen-Image-2.1 is now supported in ComfyUI！ Try it now and share your creations！ 🖼️",
-          "title_zh": "Qwen-Image-2.1 已支持 ComfyUI，开源权重开放下载",
-          "title_en": "Qwen-Image-2.1 is now supported in ComfyUI！ Try it now and share your creations！ 🖼️",
-          "title_original": "Qwen-Image-2.1 is now supported in ComfyUI！ Try it now and share your creations！ 🖼️",
-          "summary": "Qwen 宣布 Qwen-Image-2.1 现已支持 ComfyUI，权重开放。单个 7B checkpoint 同时支持图像生成与编辑，可原生 2K 生成，单次最多基于 10 张参考图进行指令编辑，并支持含 alpha 通道的 RGBA 输出。",
+          "id": "4cf683cc7925451046d7ac1a88797d6d30c01c54",
+          "title": "通义千问发布 Qwen-Image-2.1：7B 单检查点同时支持图像生成与编辑 / Qwen-Image-2.1 × @HuggingApps： live demo on Spaces！ 🖼 One single checkpoint for generation and edit…",
+          "title_zh": "通义千问发布 Qwen-Image-2.1：7B 单检查点同时支持图像生成与编辑",
+          "title_en": "Qwen-Image-2.1 × @HuggingApps： live demo on Spaces！ 🖼 One single checkpoint for generation and edit…",
+          "title_original": "Qwen-Image-2.1 × @HuggingApps： live demo on Spaces！ 🖼 One single checkpoint for generation and edit…",
+          "summary": "通义千问发布 Qwen-Image-2.1，一个 7B 参数的原生图像生成与编辑模型，生成和编辑共用单一检查点，最多支持 10 张参考图。模型自带提示词增强 LLM，已集成 diffusers 和 ComfyUI，并在 Hugging Face Spaces 提供免安装的浏览器在线 demo：https://huggingface.co/spaces/hugging-apps/qwen-image-2-1",
           "recommend_reason_zh": null,
-          "url": "https://x.com/Alibaba_Qwen/status/2101670814953455780",
+          "url": "https://x.com/Alibaba_Qwen/status/2101866671900401913",
           "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-09-20T13:52:24Z"
+          "published_at": "2026-09-21T02:50:40Z"
         }
       ],
       "source_count": 1,
@@ -402,81 +558,73 @@
       ],
       "items": [
         {
-          "id": "063ef50ea9ab58ed253b2a1718d5383016f17485",
-          "title": "Qwen-Image-2.1 已支持 ComfyUI，开源权重开放下载 / Qwen-Image-2.1 is now supported in ComfyUI！ Try it now and share your creations！ 🖼️",
-          "title_zh": "Qwen-Image-2.1 已支持 ComfyUI，开源权重开放下载",
-          "title_en": "Qwen-Image-2.1 is now supported in ComfyUI！ Try it now and share your creations！ 🖼️",
-          "title_original": "Qwen-Image-2.1 is now supported in ComfyUI！ Try it now and share your creations！ 🖼️",
-          "summary": "Qwen 宣布 Qwen-Image-2.1 现已支持 ComfyUI，权重开放。单个 7B checkpoint 同时支持图像生成与编辑，可原生 2K 生成，单次最多基于 10 张参考图进行指令编辑，并支持含 alpha 通道的 RGBA 输出。",
+          "id": "4cf683cc7925451046d7ac1a88797d6d30c01c54",
+          "title": "通义千问发布 Qwen-Image-2.1：7B 单检查点同时支持图像生成与编辑 / Qwen-Image-2.1 × @HuggingApps： live demo on Spaces！ 🖼 One single checkpoint for generation and edit…",
+          "title_zh": "通义千问发布 Qwen-Image-2.1：7B 单检查点同时支持图像生成与编辑",
+          "title_en": "Qwen-Image-2.1 × @HuggingApps： live demo on Spaces！ 🖼 One single checkpoint for generation and edit…",
+          "title_original": "Qwen-Image-2.1 × @HuggingApps： live demo on Spaces！ 🖼 One single checkpoint for generation and edit…",
+          "summary": "通义千问发布 Qwen-Image-2.1，一个 7B 参数的原生图像生成与编辑模型，生成和编辑共用单一检查点，最多支持 10 张参考图。模型自带提示词增强 LLM，已集成 diffusers 和 ComfyUI，并在 Hugging Face Spaces 提供免安装的浏览器在线 demo：https://huggingface.co/spaces/hugging-apps/qwen-image-2-1",
           "recommend_reason_zh": null,
-          "url": "https://x.com/Alibaba_Qwen/status/2101670814953455780",
+          "url": "https://x.com/Alibaba_Qwen/status/2101866671900401913",
           "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-09-20T13:52:24Z"
+          "published_at": "2026-09-21T02:50:40Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7486,
-      "importance": 0.7486,
-      "importance_score": 0.7486,
+      "score": 0.7422,
+      "importance": 0.7422,
+      "importance_score": 0.7422,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.69,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9445,
+        "recency": 0.9088,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-09-20T13:52:24Z",
-      "latest_at": "2026-09-20T13:52:24Z",
+      "earliest_at": "2026-09-21T02:50:40Z",
+      "latest_at": "2026-09-21T02:50:40Z",
       "primary_item": {
-        "id": "063ef50ea9ab58ed253b2a1718d5383016f17485",
-        "title": "Qwen-Image-2.1 已支持 ComfyUI，开源权重开放下载 / Qwen-Image-2.1 is now supported in ComfyUI！ Try it now and share your creations！ 🖼️",
-        "title_zh": "Qwen-Image-2.1 已支持 ComfyUI，开源权重开放下载",
-        "title_en": "Qwen-Image-2.1 is now supported in ComfyUI！ Try it now and share your creations！ 🖼️",
-        "title_original": "Qwen-Image-2.1 is now supported in ComfyUI！ Try it now and share your creations！ 🖼️",
-        "summary": "Qwen 宣布 Qwen-Image-2.1 现已支持 ComfyUI，权重开放。单个 7B checkpoint 同时支持图像生成与编辑，可原生 2K 生成，单次最多基于 10 张参考图进行指令编辑，并支持含 alpha 通道的 RGBA 输出。",
+        "id": "4cf683cc7925451046d7ac1a88797d6d30c01c54",
+        "title": "通义千问发布 Qwen-Image-2.1：7B 单检查点同时支持图像生成与编辑 / Qwen-Image-2.1 × @HuggingApps： live demo on Spaces！ 🖼 One single checkpoint for generation and edit…",
+        "title_zh": "通义千问发布 Qwen-Image-2.1：7B 单检查点同时支持图像生成与编辑",
+        "title_en": "Qwen-Image-2.1 × @HuggingApps： live demo on Spaces！ 🖼 One single checkpoint for generation and edit…",
+        "title_original": "Qwen-Image-2.1 × @HuggingApps： live demo on Spaces！ 🖼 One single checkpoint for generation and edit…",
+        "summary": "通义千问发布 Qwen-Image-2.1，一个 7B 参数的原生图像生成与编辑模型，生成和编辑共用单一检查点，最多支持 10 张参考图。模型自带提示词增强 LLM，已集成 diffusers 和 ComfyUI，并在 Hugging Face Spaces 提供免安装的浏览器在线 demo：https://huggingface.co/spaces/hugging-apps/qwen-image-2-1",
         "recommend_reason_zh": null,
-        "url": "https://x.com/Alibaba_Qwen/status/2101670814953455780",
+        "url": "https://x.com/Alibaba_Qwen/status/2101866671900401913",
         "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "开源权重和ComfyUI节点已就位，今天就能下载并集成到工作流里用。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-20T17:50:43.208040Z"
       }
     },
     {
-      "story_id": "story_ddac4dc50eac",
-      "title": "B 站上线“AI 无限竞技场”：百大模型同台 PK，GPT-6 Astra 暂居榜首",
-      "url": "https://www.aibase.com/news/31193",
-      "primary_url": "https://www.aibase.com/news/31193",
+      "story_id": "story_d6fca3542f8f",
+      "title": "Claude Opus 5.5 已在内测：连跳两级直逼 GPT-6，价格还打骨折",
+      "url": "https://www.aibase.com/news/31232",
+      "primary_url": "https://www.aibase.com/news/31232",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "a8bc0ebee88f1fa467aeb606ca5bdce3fbd99513",
-          "title": "B 站上线“AI 无限竞技场”：百大模型同台 PK，GPT-6 Astra 暂居榜首",
-          "title_zh": "B 站上线“AI 无限竞技场”：百大模型同台 PK，GPT-6 Astra 暂居榜首",
+          "id": "f9dc62836aace206bfaa30cd27980698c24d1644",
+          "title": "Claude Opus 5.5 已在内测：连跳两级直逼 GPT-6，价格还打骨折",
+          "title_zh": "Claude Opus 5.5 已在内测：连跳两级直逼 GPT-6，价格还打骨折",
           "title_en": null,
-          "title_original": "B 站上线“AI 无限竞技场”：百大模型同台 PK，GPT-6 Astra 暂居榜首",
+          "title_original": "Claude Opus 5.5 已在内测：连跳两级直逼 GPT-6，价格还打骨折",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31193",
+          "url": "https://www.aibase.com/news/31232",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-20T13:22:06.100963Z"
+          "published_at": "2026-09-21T09:27:48.563757Z"
         }
       ],
       "source_count": 1,
@@ -485,31 +633,31 @@
       ],
       "items": [
         {
-          "id": "a8bc0ebee88f1fa467aeb606ca5bdce3fbd99513",
-          "title": "B 站上线“AI 无限竞技场”：百大模型同台 PK，GPT-6 Astra 暂居榜首",
-          "title_zh": "B 站上线“AI 无限竞技场”：百大模型同台 PK，GPT-6 Astra 暂居榜首",
+          "id": "f9dc62836aace206bfaa30cd27980698c24d1644",
+          "title": "Claude Opus 5.5 已在内测：连跳两级直逼 GPT-6，价格还打骨折",
+          "title_zh": "Claude Opus 5.5 已在内测：连跳两级直逼 GPT-6，价格还打骨折",
           "title_en": null,
-          "title_original": "B 站上线“AI 无限竞技场”：百大模型同台 PK，GPT-6 Astra 暂居榜首",
+          "title_original": "Claude Opus 5.5 已在内测：连跳两级直逼 GPT-6，价格还打骨折",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31193",
+          "url": "https://www.aibase.com/news/31232",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-20T13:22:06.100963Z"
+          "published_at": "2026-09-21T09:27:48.563757Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7564,
-      "importance": 0.7564,
-      "importance_score": 0.7564,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9377,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -517,50 +665,117 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-20T13:22:06.100963Z",
-      "latest_at": "2026-09-20T13:22:06.100963Z",
+      "earliest_at": "2026-09-21T09:27:48.563757Z",
+      "latest_at": "2026-09-21T09:27:48.563757Z",
       "primary_item": {
-        "id": "a8bc0ebee88f1fa467aeb606ca5bdce3fbd99513",
-        "title": "B 站上线“AI 无限竞技场”：百大模型同台 PK，GPT-6 Astra 暂居榜首",
-        "title_zh": "B 站上线“AI 无限竞技场”：百大模型同台 PK，GPT-6 Astra 暂居榜首",
+        "id": "f9dc62836aace206bfaa30cd27980698c24d1644",
+        "title": "Claude Opus 5.5 已在内测：连跳两级直逼 GPT-6，价格还打骨折",
+        "title_zh": "Claude Opus 5.5 已在内测：连跳两级直逼 GPT-6，价格还打骨折",
         "title_en": null,
-        "title_original": "B 站上线“AI 无限竞技场”：百大模型同台 PK，GPT-6 Astra 暂居榜首",
+        "title_original": "Claude Opus 5.5 已在内测：连跳两级直逼 GPT-6，价格还打骨折",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31193",
+        "url": "https://www.aibase.com/news/31232",
         "source": "AIbase",
         "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "看看榜单了解模型排名还行，但榜单本身不是能调用的工具。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-20T17:50:43.208040Z"
       }
     },
     {
-      "story_id": "story_14c13d81a3a8",
-      "title": "B站上线\"AI 无限竞技场\"测评榜：上百模型同场厮杀，GPT-6 暂坐头把交椅",
-      "url": "https://www.aibase.com/news/31192",
-      "primary_url": "https://www.aibase.com/news/31192",
+      "story_id": "story_7b14ecd6d515",
+      "title": "数字生命卡兹克访谈汉化组：AI 时代字幕组与漫画组的真实处境",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686509&idx=1&sn=1b5ee8ab30c5825eaff76083e1f8dbcc",
+      "primary_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686509&idx=1&sn=1b5ee8ab30c5825eaff76083e1f8dbcc",
+      "source": "公众号：数字生命卡兹克",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "08ae5b394d67c4d4e851880749e1ebfb5d6bc312",
+          "title": "数字生命卡兹克访谈汉化组：AI 时代字幕组与漫画组的真实处境",
+          "title_zh": "数字生命卡兹克访谈汉化组：AI 时代字幕组与漫画组的真实处境",
+          "title_en": null,
+          "title_original": "数字生命卡兹克访谈汉化组：AI 时代字幕组与漫画组的真实处境",
+          "summary": "作者访谈多位字幕组与漫画汉化组成员，发现他们并不抵触AI。Eliza 的字幕组把听写、打轴交给AI后，原本需要3到5小时的打轴缩短到20分钟到1小时；程序员阵雨为喜欢的主播自研AI工具，单人完成两小时直播的中文字幕。漫画汉化组则因嵌字质量等原因仍坚持人工制作，成员看重的是同好社群与爱好本身。",
+          "recommend_reason_zh": null,
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686509&idx=1&sn=1b5ee8ab30c5825eaff76083e1f8dbcc",
+          "source": "公众号：数字生命卡兹克",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-21T01:52:57Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：数字生命卡兹克"
+      ],
+      "items": [
+        {
+          "id": "08ae5b394d67c4d4e851880749e1ebfb5d6bc312",
+          "title": "数字生命卡兹克访谈汉化组：AI 时代字幕组与漫画组的真实处境",
+          "title_zh": "数字生命卡兹克访谈汉化组：AI 时代字幕组与漫画组的真实处境",
+          "title_en": null,
+          "title_original": "数字生命卡兹克访谈汉化组：AI 时代字幕组与漫画组的真实处境",
+          "summary": "作者访谈多位字幕组与漫画汉化组成员，发现他们并不抵触AI。Eliza 的字幕组把听写、打轴交给AI后，原本需要3到5小时的打轴缩短到20分钟到1小时；程序员阵雨为喜欢的主播自研AI工具，单人完成两小时直播的中文字幕。漫画汉化组则因嵌字质量等原因仍坚持人工制作，成员看重的是同好社群与爱好本身。",
+          "recommend_reason_zh": null,
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686509&idx=1&sn=1b5ee8ab30c5825eaff76083e1f8dbcc",
+          "source": "公众号：数字生命卡兹克",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-21T01:52:57Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7309,
+      "importance": 0.7309,
+      "importance_score": 0.7309,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.66,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8963,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-09-21T01:52:57Z",
+      "latest_at": "2026-09-21T01:52:57Z",
+      "primary_item": {
+        "id": "08ae5b394d67c4d4e851880749e1ebfb5d6bc312",
+        "title": "数字生命卡兹克访谈汉化组：AI 时代字幕组与漫画组的真实处境",
+        "title_zh": "数字生命卡兹克访谈汉化组：AI 时代字幕组与漫画组的真实处境",
+        "title_en": null,
+        "title_original": "数字生命卡兹克访谈汉化组：AI 时代字幕组与漫画组的真实处境",
+        "summary": "作者访谈多位字幕组与漫画汉化组成员，发现他们并不抵触AI。Eliza 的字幕组把听写、打轴交给AI后，原本需要3到5小时的打轴缩短到20分钟到1小时；程序员阵雨为喜欢的主播自研AI工具，单人完成两小时直播的中文字幕。漫画汉化组则因嵌字质量等原因仍坚持人工制作，成员看重的是同好社群与爱好本身。",
+        "recommend_reason_zh": null,
+        "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686509&idx=1&sn=1b5ee8ab30c5825eaff76083e1f8dbcc",
+        "source": "公众号：数字生命卡兹克",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_90a54adf640f",
+      "title": "Kimi Code 桌面客户端上线：macOS 与 Windows 同步开放",
+      "url": "https://www.aibase.com/news/31237",
+      "primary_url": "https://www.aibase.com/news/31237",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "82999d0580f5197438f19f75ca06160e51996b3c",
-          "title": "B站上线\"AI 无限竞技场\"测评榜：上百模型同场厮杀，GPT-6 暂坐头把交椅",
-          "title_zh": "B站上线\"AI 无限竞技场\"测评榜：上百模型同场厮杀，GPT-6 暂坐头把交椅",
+          "id": "3640cd9d3060a429f8ab12ff84262ac8d9d92ddc",
+          "title": "Kimi Code 桌面客户端上线：macOS 与 Windows 同步开放",
+          "title_zh": "Kimi Code 桌面客户端上线：macOS 与 Windows 同步开放",
           "title_en": null,
-          "title_original": "B站上线\"AI 无限竞技场\"测评榜：上百模型同场厮杀，GPT-6 暂坐头把交椅",
+          "title_original": "Kimi Code 桌面客户端上线：macOS 与 Windows 同步开放",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31192",
+          "url": "https://www.aibase.com/news/31237",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-20T13:22:06.100963Z"
+          "published_at": "2026-09-21T09:27:48.563757Z"
         }
       ],
       "source_count": 1,
@@ -569,31 +784,31 @@
       ],
       "items": [
         {
-          "id": "82999d0580f5197438f19f75ca06160e51996b3c",
-          "title": "B站上线\"AI 无限竞技场\"测评榜：上百模型同场厮杀，GPT-6 暂坐头把交椅",
-          "title_zh": "B站上线\"AI 无限竞技场\"测评榜：上百模型同场厮杀，GPT-6 暂坐头把交椅",
+          "id": "3640cd9d3060a429f8ab12ff84262ac8d9d92ddc",
+          "title": "Kimi Code 桌面客户端上线：macOS 与 Windows 同步开放",
+          "title_zh": "Kimi Code 桌面客户端上线：macOS 与 Windows 同步开放",
           "title_en": null,
-          "title_original": "B站上线\"AI 无限竞技场\"测评榜：上百模型同场厮杀，GPT-6 暂坐头把交椅",
+          "title_original": "Kimi Code 桌面客户端上线：macOS 与 Windows 同步开放",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31192",
+          "url": "https://www.aibase.com/news/31237",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-20T13:22:06.100963Z"
+          "published_at": "2026-09-21T09:27:48.563757Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7564,
-      "importance": 0.7564,
-      "importance_score": 0.7564,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9377,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -601,50 +816,42 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-20T13:22:06.100963Z",
-      "latest_at": "2026-09-20T13:22:06.100963Z",
+      "earliest_at": "2026-09-21T09:27:48.563757Z",
+      "latest_at": "2026-09-21T09:27:48.563757Z",
       "primary_item": {
-        "id": "82999d0580f5197438f19f75ca06160e51996b3c",
-        "title": "B站上线\"AI 无限竞技场\"测评榜：上百模型同场厮杀，GPT-6 暂坐头把交椅",
-        "title_zh": "B站上线\"AI 无限竞技场\"测评榜：上百模型同场厮杀，GPT-6 暂坐头把交椅",
+        "id": "3640cd9d3060a429f8ab12ff84262ac8d9d92ddc",
+        "title": "Kimi Code 桌面客户端上线：macOS 与 Windows 同步开放",
+        "title_zh": "Kimi Code 桌面客户端上线：macOS 与 Windows 同步开放",
         "title_en": null,
-        "title_original": "B站上线\"AI 无限竞技场\"测评榜：上百模型同场厮杀，GPT-6 暂坐头把交椅",
+        "title_original": "Kimi Code 桌面客户端上线：macOS 与 Windows 同步开放",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31192",
+        "url": "https://www.aibase.com/news/31237",
         "source": "AIbase",
         "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 55,
-      "persona_review": "提供了一个模型横向对比的参考榜单，选型时可以多看一眼。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-20T17:50:43.208040Z"
       }
     },
     {
-      "story_id": "story_919e226efbae",
-      "title": "DeepSeek明确调休日计费规则，中秋国庆迎来十天\"半价窗口\"",
-      "url": "https://www.aibase.com/news/31191",
-      "primary_url": "https://www.aibase.com/news/31191",
+      "story_id": "story_917990886c44",
+      "title": "OpenAI 一次性摊开六份失准报告：模型越界不再是偶然，而是三种可复现的机制",
+      "url": "https://www.aibase.com/news/31220",
+      "primary_url": "https://www.aibase.com/news/31220",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "153c2fdd94c035054d3218ec0941a6dd0e4421f5",
-          "title": "DeepSeek明确调休日计费规则，中秋国庆迎来十天\"半价窗口\"",
-          "title_zh": "DeepSeek明确调休日计费规则，中秋国庆迎来十天\"半价窗口\"",
+          "id": "1873ddfdfbc8787305d23f817d29ee374d194c37",
+          "title": "OpenAI 一次性摊开六份失准报告：模型越界不再是偶然，而是三种可复现的机制",
+          "title_zh": "OpenAI 一次性摊开六份失准报告：模型越界不再是偶然，而是三种可复现的机制",
           "title_en": null,
-          "title_original": "DeepSeek明确调休日计费规则，中秋国庆迎来十天\"半价窗口\"",
+          "title_original": "OpenAI 一次性摊开六份失准报告：模型越界不再是偶然，而是三种可复现的机制",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31191",
+          "url": "https://www.aibase.com/news/31220",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-20T13:22:06.100963Z"
+          "published_at": "2026-09-21T09:27:48.563757Z"
         }
       ],
       "source_count": 1,
@@ -653,31 +860,31 @@
       ],
       "items": [
         {
-          "id": "153c2fdd94c035054d3218ec0941a6dd0e4421f5",
-          "title": "DeepSeek明确调休日计费规则，中秋国庆迎来十天\"半价窗口\"",
-          "title_zh": "DeepSeek明确调休日计费规则，中秋国庆迎来十天\"半价窗口\"",
+          "id": "1873ddfdfbc8787305d23f817d29ee374d194c37",
+          "title": "OpenAI 一次性摊开六份失准报告：模型越界不再是偶然，而是三种可复现的机制",
+          "title_zh": "OpenAI 一次性摊开六份失准报告：模型越界不再是偶然，而是三种可复现的机制",
           "title_en": null,
-          "title_original": "DeepSeek明确调休日计费规则，中秋国庆迎来十天\"半价窗口\"",
+          "title_original": "OpenAI 一次性摊开六份失准报告：模型越界不再是偶然，而是三种可复现的机制",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31191",
+          "url": "https://www.aibase.com/news/31220",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-20T13:22:06.100963Z"
+          "published_at": "2026-09-21T09:27:48.563757Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7564,
-      "importance": 0.7564,
-      "importance_score": 0.7564,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9377,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -685,50 +892,42 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-20T13:22:06.100963Z",
-      "latest_at": "2026-09-20T13:22:06.100963Z",
+      "earliest_at": "2026-09-21T09:27:48.563757Z",
+      "latest_at": "2026-09-21T09:27:48.563757Z",
       "primary_item": {
-        "id": "153c2fdd94c035054d3218ec0941a6dd0e4421f5",
-        "title": "DeepSeek明确调休日计费规则，中秋国庆迎来十天\"半价窗口\"",
-        "title_zh": "DeepSeek明确调休日计费规则，中秋国庆迎来十天\"半价窗口\"",
+        "id": "1873ddfdfbc8787305d23f817d29ee374d194c37",
+        "title": "OpenAI 一次性摊开六份失准报告：模型越界不再是偶然，而是三种可复现的机制",
+        "title_zh": "OpenAI 一次性摊开六份失准报告：模型越界不再是偶然，而是三种可复现的机制",
         "title_en": null,
-        "title_original": "DeepSeek明确调休日计费规则，中秋国庆迎来十天\"半价窗口\"",
+        "title_original": "OpenAI 一次性摊开六份失准报告：模型越界不再是偶然，而是三种可复现的机制",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31191",
+        "url": "https://www.aibase.com/news/31220",
         "source": "AIbase",
         "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "调休日API半价，规划中秋国庆的模型调用能省不少钱。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-20T17:50:43.208040Z"
       }
     },
     {
-      "story_id": "story_c8c3263ec134",
-      "title": "GPT-6 Astra 联手人类攻破重大进展级数学难题：AI 不再只是解题机，成了规律发现者",
-      "url": "https://www.aibase.com/news/31195",
-      "primary_url": "https://www.aibase.com/news/31195",
+      "story_id": "story_214d4d19f8d1",
+      "title": "Siri AI 和解开放申请：符合条件的美国 iPhone 用户每台可领 25 美元",
+      "url": "https://www.aibase.com/news/31228",
+      "primary_url": "https://www.aibase.com/news/31228",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "4e86e6d63db0480d4d8b1c50b780b041357d7fcc",
-          "title": "GPT-6 Astra 联手人类攻破重大进展级数学难题：AI 不再只是解题机，成了规律发现者",
-          "title_zh": "GPT-6 Astra 联手人类攻破重大进展级数学难题：AI 不再只是解题机，成了规律发现者",
+          "id": "c03a6f692ec6e1e2ac3dd4e0046559506d369f27",
+          "title": "Siri AI 和解开放申请：符合条件的美国 iPhone 用户每台可领 25 美元",
+          "title_zh": "Siri AI 和解开放申请：符合条件的美国 iPhone 用户每台可领 25 美元",
           "title_en": null,
-          "title_original": "GPT-6 Astra 联手人类攻破重大进展级数学难题：AI 不再只是解题机，成了规律发现者",
+          "title_original": "Siri AI 和解开放申请：符合条件的美国 iPhone 用户每台可领 25 美元",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31195",
+          "url": "https://www.aibase.com/news/31228",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-20T13:22:06.100963Z"
+          "published_at": "2026-09-21T09:27:48.563757Z"
         }
       ],
       "source_count": 1,
@@ -737,31 +936,31 @@
       ],
       "items": [
         {
-          "id": "4e86e6d63db0480d4d8b1c50b780b041357d7fcc",
-          "title": "GPT-6 Astra 联手人类攻破重大进展级数学难题：AI 不再只是解题机，成了规律发现者",
-          "title_zh": "GPT-6 Astra 联手人类攻破重大进展级数学难题：AI 不再只是解题机，成了规律发现者",
+          "id": "c03a6f692ec6e1e2ac3dd4e0046559506d369f27",
+          "title": "Siri AI 和解开放申请：符合条件的美国 iPhone 用户每台可领 25 美元",
+          "title_zh": "Siri AI 和解开放申请：符合条件的美国 iPhone 用户每台可领 25 美元",
           "title_en": null,
-          "title_original": "GPT-6 Astra 联手人类攻破重大进展级数学难题：AI 不再只是解题机，成了规律发现者",
+          "title_original": "Siri AI 和解开放申请：符合条件的美国 iPhone 用户每台可领 25 美元",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31195",
+          "url": "https://www.aibase.com/news/31228",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-20T13:22:06.100963Z"
+          "published_at": "2026-09-21T09:27:48.563757Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7564,
-      "importance": 0.7564,
-      "importance_score": 0.7564,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9377,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -769,50 +968,42 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-20T13:22:06.100963Z",
-      "latest_at": "2026-09-20T13:22:06.100963Z",
+      "earliest_at": "2026-09-21T09:27:48.563757Z",
+      "latest_at": "2026-09-21T09:27:48.563757Z",
       "primary_item": {
-        "id": "4e86e6d63db0480d4d8b1c50b780b041357d7fcc",
-        "title": "GPT-6 Astra 联手人类攻破重大进展级数学难题：AI 不再只是解题机，成了规律发现者",
-        "title_zh": "GPT-6 Astra 联手人类攻破重大进展级数学难题：AI 不再只是解题机，成了规律发现者",
+        "id": "c03a6f692ec6e1e2ac3dd4e0046559506d369f27",
+        "title": "Siri AI 和解开放申请：符合条件的美国 iPhone 用户每台可领 25 美元",
+        "title_zh": "Siri AI 和解开放申请：符合条件的美国 iPhone 用户每台可领 25 美元",
         "title_en": null,
-        "title_original": "GPT-6 Astra 联手人类攻破重大进展级数学难题：AI 不再只是解题机，成了规律发现者",
+        "title_original": "Siri AI 和解开放申请：符合条件的美国 iPhone 用户每台可领 25 美元",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31195",
+        "url": "https://www.aibase.com/news/31228",
         "source": "AIbase",
         "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "学术突破离实际应用很远，不影响你今天选模型或写代码。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-20T17:50:43.208040Z"
       }
     },
     {
-      "story_id": "story_0c9b9ccf9cc3",
-      "title": "一颗 260 克的\"鸡蛋关节\"：稚晖君发布启元 Q1、T1 人形机器人",
-      "url": "https://www.aibase.com/news/31205",
-      "primary_url": "https://www.aibase.com/news/31205",
+      "story_id": "story_594bd34ddeb4",
+      "title": "中国大模型周调用量达67.46万亿Token，连续21周领先美国",
+      "url": "https://www.aibase.com/news/31226",
+      "primary_url": "https://www.aibase.com/news/31226",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "d4e5ff6f0842774e216bd42858acf4de9c592437",
-          "title": "一颗 260 克的\"鸡蛋关节\"：稚晖君发布启元 Q1、T1 人形机器人",
-          "title_zh": "一颗 260 克的\"鸡蛋关节\"：稚晖君发布启元 Q1、T1 人形机器人",
+          "id": "416d6bb1c4cab320117732f6a68961846c3e2c46",
+          "title": "中国大模型周调用量达67.46万亿Token，连续21周领先美国",
+          "title_zh": "中国大模型周调用量达67.46万亿Token，连续21周领先美国",
           "title_en": null,
-          "title_original": "一颗 260 克的\"鸡蛋关节\"：稚晖君发布启元 Q1、T1 人形机器人",
+          "title_original": "中国大模型周调用量达67.46万亿Token，连续21周领先美国",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31205",
+          "url": "https://www.aibase.com/news/31226",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-20T13:22:06.100963Z"
+          "published_at": "2026-09-21T09:27:48.563757Z"
         }
       ],
       "source_count": 1,
@@ -821,31 +1012,31 @@
       ],
       "items": [
         {
-          "id": "d4e5ff6f0842774e216bd42858acf4de9c592437",
-          "title": "一颗 260 克的\"鸡蛋关节\"：稚晖君发布启元 Q1、T1 人形机器人",
-          "title_zh": "一颗 260 克的\"鸡蛋关节\"：稚晖君发布启元 Q1、T1 人形机器人",
+          "id": "416d6bb1c4cab320117732f6a68961846c3e2c46",
+          "title": "中国大模型周调用量达67.46万亿Token，连续21周领先美国",
+          "title_zh": "中国大模型周调用量达67.46万亿Token，连续21周领先美国",
           "title_en": null,
-          "title_original": "一颗 260 克的\"鸡蛋关节\"：稚晖君发布启元 Q1、T1 人形机器人",
+          "title_original": "中国大模型周调用量达67.46万亿Token，连续21周领先美国",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31205",
+          "url": "https://www.aibase.com/news/31226",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-20T13:22:06.100963Z"
+          "published_at": "2026-09-21T09:27:48.563757Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7564,
-      "importance": 0.7564,
-      "importance_score": 0.7564,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9377,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -853,162 +1044,354 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-20T13:22:06.100963Z",
-      "latest_at": "2026-09-20T13:22:06.100963Z",
+      "earliest_at": "2026-09-21T09:27:48.563757Z",
+      "latest_at": "2026-09-21T09:27:48.563757Z",
       "primary_item": {
-        "id": "d4e5ff6f0842774e216bd42858acf4de9c592437",
-        "title": "一颗 260 克的\"鸡蛋关节\"：稚晖君发布启元 Q1、T1 人形机器人",
-        "title_zh": "一颗 260 克的\"鸡蛋关节\"：稚晖君发布启元 Q1、T1 人形机器人",
+        "id": "416d6bb1c4cab320117732f6a68961846c3e2c46",
+        "title": "中国大模型周调用量达67.46万亿Token，连续21周领先美国",
+        "title_zh": "中国大模型周调用量达67.46万亿Token，连续21周领先美国",
         "title_en": null,
-        "title_original": "一颗 260 克的\"鸡蛋关节\"：稚晖君发布启元 Q1、T1 人形机器人",
+        "title_original": "中国大模型周调用量达67.46万亿Token，连续21周领先美国",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31205",
+        "url": "https://www.aibase.com/news/31226",
         "source": "AIbase",
         "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "原型机发布，离实际应用和开发者可用还很远，看看就好。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-20T17:50:43.208040Z"
       }
     },
     {
-      "story_id": "story_98f7eb83a544",
-      "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
-      "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force",
-      "primary_url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force",
-      "source": "TechCrunch AI",
+      "story_id": "story_f9d9f69efbad",
+      "title": "开发者实锤OpenAI广告追踪链条：ChatGPT账号正悄悄绑定你的全网浏览足迹",
+      "url": "https://www.aibase.com/news/31234",
+      "primary_url": "https://www.aibase.com/news/31234",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "4905e79a756ec9f225547c1bb9f60b6ec2685b50",
+          "title": "开发者实锤OpenAI广告追踪链条：ChatGPT账号正悄悄绑定你的全网浏览足迹",
+          "title_zh": "开发者实锤OpenAI广告追踪链条：ChatGPT账号正悄悄绑定你的全网浏览足迹",
+          "title_en": null,
+          "title_original": "开发者实锤OpenAI广告追踪链条：ChatGPT账号正悄悄绑定你的全网浏览足迹",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31234",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-21T09:27:48.563757Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "4905e79a756ec9f225547c1bb9f60b6ec2685b50",
+          "title": "开发者实锤OpenAI广告追踪链条：ChatGPT账号正悄悄绑定你的全网浏览足迹",
+          "title_zh": "开发者实锤OpenAI广告追踪链条：ChatGPT账号正悄悄绑定你的全网浏览足迹",
+          "title_en": null,
+          "title_original": "开发者实锤OpenAI广告追踪链条：ChatGPT账号正悄悄绑定你的全网浏览足迹",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31234",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-21T09:27:48.563757Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-21T09:27:48.563757Z",
+      "latest_at": "2026-09-21T09:27:48.563757Z",
+      "primary_item": {
+        "id": "4905e79a756ec9f225547c1bb9f60b6ec2685b50",
+        "title": "开发者实锤OpenAI广告追踪链条：ChatGPT账号正悄悄绑定你的全网浏览足迹",
+        "title_zh": "开发者实锤OpenAI广告追踪链条：ChatGPT账号正悄悄绑定你的全网浏览足迹",
+        "title_en": null,
+        "title_original": "开发者实锤OpenAI广告追踪链条：ChatGPT账号正悄悄绑定你的全网浏览足迹",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/31234",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_0a86d16e4e48",
+      "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
+      "primary_url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
+      "source": "The Verge",
       "source_name": "Curated Media",
       "sources": [
         {
-          "id": "ebb7a30eefec0404abc2763b832dd8a22028427b",
-          "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
+          "id": "4b3a5720d02fbf9e89bcb7a76d20cfe50179b006",
+          "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown",
           "title_zh": null,
-          "title_en": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
-          "title_original": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
+          "title_en": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown",
+          "title_original": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force",
-          "source": "TechCrunch AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
+          "source": "The Verge",
           "source_name": "Curated Media",
           "site_id": "curated_media",
-          "published_at": "2026-09-19T19:57:47Z"
+          "published_at": "2026-09-20T18:50:18Z"
         },
         {
-          "id": "9c9aded36e1ae0b6ae6bde1e2de0d646be86958f",
-          "title": "Trump suggests rebranding AI with a new name, says he’s also creating an AI Force",
+          "id": "4c2db2373e60e802256489099a61485b7afa431a",
+          "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown.",
           "title_zh": null,
-          "title_en": "Trump suggests rebranding AI with a new name, says he’s also creating an AI Force",
-          "title_original": "Trump suggests rebranding AI with a new name, says he’s also creating an AI Force",
+          "title_en": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown.",
+          "title_original": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown.",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force",
-          "source": "TechCrunch",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
+          "source": "The Verge",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-09-19T19:57:47Z"
+          "published_at": "2026-09-20T18:50:18Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "TechCrunch",
-        "TechCrunch AI"
+        "The Verge"
       ],
       "items": [
         {
-          "id": "ebb7a30eefec0404abc2763b832dd8a22028427b",
-          "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
+          "id": "4b3a5720d02fbf9e89bcb7a76d20cfe50179b006",
+          "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown",
           "title_zh": null,
-          "title_en": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
-          "title_original": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
+          "title_en": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown",
+          "title_original": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force",
-          "source": "TechCrunch AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
+          "source": "The Verge",
           "source_name": "Curated Media",
           "site_id": "curated_media",
-          "published_at": "2026-09-19T19:57:47Z"
+          "published_at": "2026-09-20T18:50:18Z"
         },
         {
-          "id": "9c9aded36e1ae0b6ae6bde1e2de0d646be86958f",
-          "title": "Trump suggests rebranding AI with a new name, says he’s also creating an AI Force",
+          "id": "4c2db2373e60e802256489099a61485b7afa431a",
+          "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown.",
           "title_zh": null,
-          "title_en": "Trump suggests rebranding AI with a new name, says he’s also creating an AI Force",
-          "title_original": "Trump suggests rebranding AI with a new name, says he’s also creating an AI Force",
+          "title_en": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown.",
+          "title_original": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown.",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force",
-          "source": "TechCrunch",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
+          "source": "The Verge",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-09-19T19:57:47Z"
+          "published_at": "2026-09-20T18:50:18Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6,
-      "importance": 0.6,
-      "importance_score": 0.6,
+      "score": 0.5812,
+      "importance": 0.5812,
+      "importance_score": 0.5812,
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5472,
+        "editorial": 0.4896,
         "source_tier": 0.58,
-        "ai_relevance": 0.76,
-        "recency": 0.7293,
+        "ai_relevance": 0.68,
+        "recency": 0.8096,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-09-19T19:57:47Z",
-      "latest_at": "2026-09-19T19:57:47Z",
+      "earliest_at": "2026-09-20T18:50:18Z",
+      "latest_at": "2026-09-20T18:50:18Z",
       "primary_item": {
-        "id": "ebb7a30eefec0404abc2763b832dd8a22028427b",
-        "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
+        "id": "4b3a5720d02fbf9e89bcb7a76d20cfe50179b006",
+        "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown",
         "title_zh": null,
-        "title_en": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
-        "title_original": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
+        "title_en": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown",
+        "title_original": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force",
-        "source": "TechCrunch AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
+        "source": "The Verge",
         "source_name": "Curated Media"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 10,
-      "persona_review": "政客提议改名和建新机构，对开发者写代码没任何影响。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-20T17:50:43.208040Z"
       }
     },
     {
-      "story_id": "story_1f54ce7e4b83",
-      "title": "东风人形机器人\"小东\"下月进厂：汽车大模型给具身智能当\"师傅\"，年底要和真人掰手腕",
-      "url": "https://www.aibase.com/news/31204",
-      "primary_url": "https://www.aibase.com/news/31204",
+      "story_id": "story_acebe6eff1d7",
+      "title": "为什么MCP一直都是个糟糕的主意？",
+      "url": "https://maharship.com/blog/why-mcp-was-always-a-bad-idea",
+      "primary_url": "https://maharship.com/blog/why-mcp-was-always-a-bad-idea",
+      "source": "maharship.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "9b227d0da245bf83211ed24f258db8b09df3d4a6",
+          "title": "为什么MCP一直都是个糟糕的主意？",
+          "title_zh": "为什么MCP一直都是个糟糕的主意？",
+          "title_en": null,
+          "title_original": "为什么MCP一直都是个糟糕的主意？",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://maharship.com/blog/why-mcp-was-always-a-bad-idea",
+          "source": "maharship.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-21T06:27:15.988000Z"
+        },
+        {
+          "id": "a8836802839bf9e87e6335e7329f75f79314ca92",
+          "title": "为什么MCP一直都是个糟糕的主意？ / MCP was always a bad idea?",
+          "title_zh": "为什么MCP一直都是个糟糕的主意？",
+          "title_en": "MCP was always a bad idea?",
+          "title_original": "MCP was always a bad idea?",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://maharship.com/blog/why-mcp-was-always-a-bad-idea",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-20T19:44:40Z"
+        },
+        {
+          "id": "bf420e078f94036ff7501edd85d2459e390cdd8d",
+          "title": "MCP was always a bad idea?",
+          "title_zh": null,
+          "title_en": "MCP was always a bad idea?",
+          "title_original": "MCP was always a bad idea?",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49779329",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-20T19:44:40Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews",
+        "maharship.com"
+      ],
+      "items": [
+        {
+          "id": "9b227d0da245bf83211ed24f258db8b09df3d4a6",
+          "title": "为什么MCP一直都是个糟糕的主意？",
+          "title_zh": "为什么MCP一直都是个糟糕的主意？",
+          "title_en": null,
+          "title_original": "为什么MCP一直都是个糟糕的主意？",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://maharship.com/blog/why-mcp-was-always-a-bad-idea",
+          "source": "maharship.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-21T06:27:15.988000Z"
+        },
+        {
+          "id": "a8836802839bf9e87e6335e7329f75f79314ca92",
+          "title": "为什么MCP一直都是个糟糕的主意？ / MCP was always a bad idea?",
+          "title_zh": "为什么MCP一直都是个糟糕的主意？",
+          "title_en": "MCP was always a bad idea?",
+          "title_original": "MCP was always a bad idea?",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://maharship.com/blog/why-mcp-was-always-a-bad-idea",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-20T19:44:40Z"
+        },
+        {
+          "id": "bf420e078f94036ff7501edd85d2459e390cdd8d",
+          "title": "MCP was always a bad idea?",
+          "title_zh": null,
+          "title_en": "MCP was always a bad idea?",
+          "title_original": "MCP was always a bad idea?",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49779329",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-20T19:44:40Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5631,
+      "importance": 0.5631,
+      "importance_score": 0.5631,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9575,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-20T19:44:40Z",
+      "latest_at": "2026-09-21T06:27:15.988000Z",
+      "primary_item": {
+        "id": "9b227d0da245bf83211ed24f258db8b09df3d4a6",
+        "title": "为什么MCP一直都是个糟糕的主意？",
+        "title_zh": "为什么MCP一直都是个糟糕的主意？",
+        "title_en": null,
+        "title_original": "为什么MCP一直都是个糟糕的主意？",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://maharship.com/blog/why-mcp-was-always-a-bad-idea",
+        "source": "maharship.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_98838815cda3",
+      "title": "快手把直播字幕延迟砍到 500 毫秒内：自研端到端工程范式，把电商直播的字幕打成\"实时\"",
+      "url": "https://www.aibase.com/news/31224",
+      "primary_url": "https://www.aibase.com/news/31224",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "aade70f16c2f538d1a9e4993a42b8e627e2e5dca",
-          "title": "东风人形机器人\"小东\"下月进厂：汽车大模型给具身智能当\"师傅\"，年底要和真人掰手腕",
-          "title_zh": "东风人形机器人\"小东\"下月进厂：汽车大模型给具身智能当\"师傅\"，年底要和真人掰手腕",
+          "id": "c83f612743d7d44dbb461c195a2e37852401f4ea",
+          "title": "快手把直播字幕延迟砍到 500 毫秒内：自研端到端工程范式，把电商直播的字幕打成\"实时\"",
+          "title_zh": "快手把直播字幕延迟砍到 500 毫秒内：自研端到端工程范式，把电商直播的字幕打成\"实时\"",
           "title_en": null,
-          "title_original": "东风人形机器人\"小东\"下月进厂：汽车大模型给具身智能当\"师傅\"，年底要和真人掰手腕",
+          "title_original": "快手把直播字幕延迟砍到 500 毫秒内：自研端到端工程范式，把电商直播的字幕打成\"实时\"",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31204",
+          "url": "https://www.aibase.com/news/31224",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-20T13:22:06.100963Z"
+          "published_at": "2026-09-21T09:27:48.563757Z"
         }
       ],
       "source_count": 1,
@@ -1017,31 +1400,31 @@
       ],
       "items": [
         {
-          "id": "aade70f16c2f538d1a9e4993a42b8e627e2e5dca",
-          "title": "东风人形机器人\"小东\"下月进厂：汽车大模型给具身智能当\"师傅\"，年底要和真人掰手腕",
-          "title_zh": "东风人形机器人\"小东\"下月进厂：汽车大模型给具身智能当\"师傅\"，年底要和真人掰手腕",
+          "id": "c83f612743d7d44dbb461c195a2e37852401f4ea",
+          "title": "快手把直播字幕延迟砍到 500 毫秒内：自研端到端工程范式，把电商直播的字幕打成\"实时\"",
+          "title_zh": "快手把直播字幕延迟砍到 500 毫秒内：自研端到端工程范式，把电商直播的字幕打成\"实时\"",
           "title_en": null,
-          "title_original": "东风人形机器人\"小东\"下月进厂：汽车大模型给具身智能当\"师傅\"，年底要和真人掰手腕",
+          "title_original": "快手把直播字幕延迟砍到 500 毫秒内：自研端到端工程范式，把电商直播的字幕打成\"实时\"",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31204",
+          "url": "https://www.aibase.com/news/31224",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-20T13:22:06.100963Z"
+          "published_at": "2026-09-21T09:27:48.563757Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7564,
-      "importance": 0.7564,
-      "importance_score": 0.7564,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9377,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1049,27 +1432,123 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-20T13:22:06.100963Z",
-      "latest_at": "2026-09-20T13:22:06.100963Z",
+      "earliest_at": "2026-09-21T09:27:48.563757Z",
+      "latest_at": "2026-09-21T09:27:48.563757Z",
       "primary_item": {
-        "id": "aade70f16c2f538d1a9e4993a42b8e627e2e5dca",
-        "title": "东风人形机器人\"小东\"下月进厂：汽车大模型给具身智能当\"师傅\"，年底要和真人掰手腕",
-        "title_zh": "东风人形机器人\"小东\"下月进厂：汽车大模型给具身智能当\"师傅\"，年底要和真人掰手腕",
+        "id": "c83f612743d7d44dbb461c195a2e37852401f4ea",
+        "title": "快手把直播字幕延迟砍到 500 毫秒内：自研端到端工程范式，把电商直播的字幕打成\"实时\"",
+        "title_zh": "快手把直播字幕延迟砍到 500 毫秒内：自研端到端工程范式，把电商直播的字幕打成\"实时\"",
         "title_en": null,
-        "title_original": "东风人形机器人\"小东\"下月进厂：汽车大模型给具身智能当\"师傅\"，年底要和真人掰手腕",
+        "title_original": "快手把直播字幕延迟砍到 500 毫秒内：自研端到端工程范式，把电商直播的字幕打成\"实时\"",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31204",
+        "url": "https://www.aibase.com/news/31224",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_0478652bad4f",
+      "title": "AI chatbots give wrong answers to financial queries 'most of the time'",
+      "url": "https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
+      "primary_url": "https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
+      "source": "Hacker News",
+      "source_name": "TechURLs",
+      "sources": [
+        {
+          "id": "cdd0499ca68d385c0c20019c6f4dbb9c9e3eb953",
+          "title": "AI chatbots give wrong answers to financial queries 'most of the time'",
+          "title_zh": null,
+          "title_en": "AI chatbots give wrong answers to financial queries 'most of the time'",
+          "title_original": "AI chatbots give wrong answers to financial queries 'most of the time'",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-21T04:28:44Z"
+        },
+        {
+          "id": "9aee337f3dda4dab259e2663211a2da8ac17506b",
+          "title": "AI chatbots give wrong answers to financial queries 'most of the time'",
+          "title_zh": null,
+          "title_en": "AI chatbots give wrong answers to financial queries 'most of the time'",
+          "title_original": "AI chatbots give wrong answers to financial queries 'most of the time'",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49783062",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-21T04:28:44Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "cdd0499ca68d385c0c20019c6f4dbb9c9e3eb953",
+          "title": "AI chatbots give wrong answers to financial queries 'most of the time'",
+          "title_zh": null,
+          "title_en": "AI chatbots give wrong answers to financial queries 'most of the time'",
+          "title_original": "AI chatbots give wrong answers to financial queries 'most of the time'",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-21T04:28:44Z"
+        },
+        {
+          "id": "9aee337f3dda4dab259e2663211a2da8ac17506b",
+          "title": "AI chatbots give wrong answers to financial queries 'most of the time'",
+          "title_zh": null,
+          "title_en": "AI chatbots give wrong answers to financial queries 'most of the time'",
+          "title_original": "AI chatbots give wrong answers to financial queries 'most of the time'",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49783062",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-21T04:28:44Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5333,
+      "importance": 0.5333,
+      "importance_score": 0.5333,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9305,
+        "story_heat": 0.25
       },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "下月进厂、年底掰手腕，都是远期展望，对当前开发没实际帮助。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-20T17:50:43.208040Z"
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-21T04:28:44Z",
+      "latest_at": "2026-09-21T04:28:44Z",
+      "primary_item": {
+        "id": "cdd0499ca68d385c0c20019c6f4dbb9c9e3eb953",
+        "title": "AI chatbots give wrong answers to financial queries 'most of the time'",
+        "title_zh": null,
+        "title_en": "AI chatbots give wrong answers to financial queries 'most of the time'",
+        "title_original": "AI chatbots give wrong answers to financial queries 'most of the time'",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
+        "source": "Hacker News",
+        "source_name": "TechURLs"
       }
     },
     {
@@ -1175,15 +1654,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5688,
-      "importance": 0.5688,
-      "importance_score": 0.5688,
+      "score": 0.5328,
+      "importance": 0.5328,
+      "importance_score": 0.5328,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9889,
+        "recency": 0.789,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1203,14 +1682,82 @@
         "url": "https://pirateface.co",
         "source": "pirateface.co",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_92c2485576ea",
+      "title": "月之暗面推出Kimi Code Desktop桌面端，把AI编程Agent直接搬上macOS和Windows",
+      "url": "https://www.aibase.com/news/31239",
+      "primary_url": "https://www.aibase.com/news/31239",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "2837ab12cb645a3824255bffbad285d3e37c3619",
+          "title": "月之暗面推出Kimi Code Desktop桌面端，把AI编程Agent直接搬上macOS和Windows",
+          "title_zh": "月之暗面推出Kimi Code Desktop桌面端，把AI编程Agent直接搬上macOS和Windows",
+          "title_en": null,
+          "title_original": "月之暗面推出Kimi Code Desktop桌面端，把AI编程Agent直接搬上macOS和Windows",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31239",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-21T09:27:48.563757Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "2837ab12cb645a3824255bffbad285d3e37c3619",
+          "title": "月之暗面推出Kimi Code Desktop桌面端，把AI编程Agent直接搬上macOS和Windows",
+          "title_zh": "月之暗面推出Kimi Code Desktop桌面端，把AI编程Agent直接搬上macOS和Windows",
+          "title_en": null,
+          "title_original": "月之暗面推出Kimi Code Desktop桌面端，把AI编程Agent直接搬上macOS和Windows",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31239",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-21T09:27:48.563757Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
       },
-      "persona_id": "pragmatic",
-      "persona_score": 75,
-      "persona_review": "开源工具可绕过内容审查，做敏感话题测试时能派上用场。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-20T17:50:43.208040Z"
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-21T09:27:48.563757Z",
+      "latest_at": "2026-09-21T09:27:48.563757Z",
+      "primary_item": {
+        "id": "2837ab12cb645a3824255bffbad285d3e37c3619",
+        "title": "月之暗面推出Kimi Code Desktop桌面端，把AI编程Agent直接搬上macOS和Windows",
+        "title_zh": "月之暗面推出Kimi Code Desktop桌面端，把AI编程Agent直接搬上macOS和Windows",
+        "title_en": null,
+        "title_original": "月之暗面推出Kimi Code Desktop桌面端，把AI编程Agent直接搬上macOS和Windows",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/31239",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -1236,7 +1783,7 @@
           "published_at": "2026-09-20T12:50:12.972000Z"
         },
         {
-          "id": "510bc5f41a64af0dcb1125f4de5b403c68eed0c3",
+          "id": "c3d6b1a7c9be9799bda91fd866e9e2214ea3f055",
           "title": "人工智能与“知识共享”的瓦解 / AI and the Destruction of the Creative Commons",
           "title_zh": "人工智能与“知识共享”的瓦解",
           "title_en": "AI and the Destruction of the Creative Commons",
@@ -1244,9 +1791,9 @@
           "summary": null,
           "recommend_reason_zh": null,
           "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-09-20T10:07:51Z"
         },
         {
@@ -1266,7 +1813,7 @@
       ],
       "source_count": 3,
       "source_names": [
-        "Hacker News",
+        "Hacker News · 24h最热",
         "hackernews",
         "www.chesterwisniewski.com"
       ],
@@ -1286,7 +1833,7 @@
           "published_at": "2026-09-20T12:50:12.972000Z"
         },
         {
-          "id": "510bc5f41a64af0dcb1125f4de5b403c68eed0c3",
+          "id": "c3d6b1a7c9be9799bda91fd866e9e2214ea3f055",
           "title": "人工智能与“知识共享”的瓦解 / AI and the Destruction of the Creative Commons",
           "title_zh": "人工智能与“知识共享”的瓦解",
           "title_en": "AI and the Destruction of the Creative Commons",
@@ -1294,9 +1841,9 @@
           "summary": null,
           "recommend_reason_zh": null,
           "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-09-20T10:07:51Z"
         },
         {
@@ -1316,15 +1863,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5583,
-      "importance": 0.5583,
-      "importance_score": 0.5583,
+      "score": 0.5244,
+      "importance": 0.5244,
+      "importance_score": 0.5244,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9305,
+        "recency": 0.7424,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1344,686 +1891,6 @@
         "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons",
         "source": "www.chesterwisniewski.com",
         "source_name": "Buzzing"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "讨论版权困境，但没给开发者提供具体规避或处理方案。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-20T17:50:43.208040Z"
-      }
-    },
-    {
-      "story_id": "story_24e06ede9452",
-      "title": "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映”",
-      "url": "https://www.aibase.com/news/31206",
-      "primary_url": "https://www.aibase.com/news/31206",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "8f722720a89d3b1b837cb4f6eddd44aad7517367",
-          "title": "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映”",
-          "title_zh": "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映”",
-          "title_en": null,
-          "title_original": "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映”",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31206",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-20T13:22:06.100963Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "8f722720a89d3b1b837cb4f6eddd44aad7517367",
-          "title": "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映”",
-          "title_zh": "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映”",
-          "title_en": null,
-          "title_original": "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映”",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31206",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-20T13:22:06.100963Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7564,
-      "importance": 0.7564,
-      "importance_score": 0.7564,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9377,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-20T13:22:06.100963Z",
-      "latest_at": "2026-09-20T13:22:06.100963Z",
-      "primary_item": {
-        "id": "8f722720a89d3b1b837cb4f6eddd44aad7517367",
-        "title": "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映”",
-        "title_zh": "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映”",
-        "title_en": null,
-        "title_original": "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映”",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31206",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 70,
-      "persona_review": "视频创作者可试用新AI工具，看能否提升剪辑效率。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-20T17:50:43.208040Z"
-      }
-    },
-    {
-      "story_id": "story_fc0b2a01d33a",
-      "title": "你能分辨出哪些图片是AI生成的吗？",
-      "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai",
-      "primary_url": "https://slop-sense.labtoagi.com/games/is-this-image-ai",
-      "source": "slop-sense.labtoagi.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "023f1795b37bf59710aa9170b3471c0fbb1a20ea",
-          "title": "你能分辨出哪些图片是AI生成的吗？",
-          "title_zh": "你能分辨出哪些图片是AI生成的吗？",
-          "title_en": null,
-          "title_original": "你能分辨出哪些图片是AI生成的吗？",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai",
-          "source": "slop-sense.labtoagi.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-20T15:44:20.618000Z"
-        },
-        {
-          "id": "9da649dafa4b5f5196ef314e323cfe253aa0fa62",
-          "title": "你能分辨出哪些图片是AI生成的吗？ / Can you tell which images are AI-generated?",
-          "title_zh": "你能分辨出哪些图片是AI生成的吗？",
-          "title_en": "Can you tell which images are AI-generated?",
-          "title_original": "Can you tell which images are AI-generated?",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-09-19T23:02:34Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "slop-sense.labtoagi.com"
-      ],
-      "items": [
-        {
-          "id": "023f1795b37bf59710aa9170b3471c0fbb1a20ea",
-          "title": "你能分辨出哪些图片是AI生成的吗？",
-          "title_zh": "你能分辨出哪些图片是AI生成的吗？",
-          "title_en": null,
-          "title_original": "你能分辨出哪些图片是AI生成的吗？",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai",
-          "source": "slop-sense.labtoagi.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-20T15:44:20.618000Z"
-        },
-        {
-          "id": "9da649dafa4b5f5196ef314e323cfe253aa0fa62",
-          "title": "你能分辨出哪些图片是AI生成的吗？ / Can you tell which images are AI-generated?",
-          "title_zh": "你能分辨出哪些图片是AI生成的吗？",
-          "title_en": "Can you tell which images are AI-generated?",
-          "title_original": "Can you tell which images are AI-generated?",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-09-19T23:02:34Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5405,
-      "importance": 0.5405,
-      "importance_score": 0.5405,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9703,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-19T23:02:34Z",
-      "latest_at": "2026-09-20T15:44:20.618000Z",
-      "primary_item": {
-        "id": "023f1795b37bf59710aa9170b3471c0fbb1a20ea",
-        "title": "你能分辨出哪些图片是AI生成的吗？",
-        "title_zh": "你能分辨出哪些图片是AI生成的吗？",
-        "title_en": null,
-        "title_original": "你能分辨出哪些图片是AI生成的吗？",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai",
-        "source": "slop-sense.labtoagi.com",
-        "source_name": "Buzzing"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "一个在线小测试，对实际开发或部署模型没有直接帮助。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-20T17:50:43.208040Z"
-      }
-    },
-    {
-      "story_id": "story_a682219ecb2e",
-      "title": "ChatGPT now knows what you do on other websites via ad collector",
-      "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
-      "primary_url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
-      "source": "Hacker News",
-      "source_name": "TechURLs",
-      "sources": [
-        {
-          "id": "ab4dd49f01223a9b4cce0964a27827350d8692f4",
-          "title": "ChatGPT now knows what you do on other websites via ad collector",
-          "title_zh": null,
-          "title_en": "ChatGPT now knows what you do on other websites via ad collector",
-          "title_original": "ChatGPT now knows what you do on other websites via ad collector",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-20T15:18:44Z"
-        },
-        {
-          "id": "7d18b5731ef9e28fff4e0ab0474ddc3c6c89b701",
-          "title": "ChatGPT now knows what you do on other websites via ad collector",
-          "title_zh": null,
-          "title_en": "ChatGPT now knows what you do on other websites via ad collector",
-          "title_original": "ChatGPT now knows what you do on other websites via ad collector",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49776729",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-09-20T15:18:44Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "ab4dd49f01223a9b4cce0964a27827350d8692f4",
-          "title": "ChatGPT now knows what you do on other websites via ad collector",
-          "title_zh": null,
-          "title_en": "ChatGPT now knows what you do on other websites via ad collector",
-          "title_original": "ChatGPT now knows what you do on other websites via ad collector",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-20T15:18:44Z"
-        },
-        {
-          "id": "7d18b5731ef9e28fff4e0ab0474ddc3c6c89b701",
-          "title": "ChatGPT now knows what you do on other websites via ad collector",
-          "title_zh": null,
-          "title_en": "ChatGPT now knows what you do on other websites via ad collector",
-          "title_original": "ChatGPT now knows what you do on other websites via ad collector",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49776729",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-09-20T15:18:44Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5394,
-      "importance": 0.5394,
-      "importance_score": 0.5394,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9644,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-20T15:18:44Z",
-      "latest_at": "2026-09-20T15:18:44Z",
-      "primary_item": {
-        "id": "ab4dd49f01223a9b4cce0964a27827350d8692f4",
-        "title": "ChatGPT now knows what you do on other websites via ad collector",
-        "title_zh": null,
-        "title_en": "ChatGPT now knows what you do on other websites via ad collector",
-        "title_original": "ChatGPT now knows what you do on other websites via ad collector",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
-        "source": "Hacker News",
-        "source_name": "TechURLs"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "隐私政策变化，但作为开发者，你的API调用不受影响。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-20T17:50:43.208040Z"
-      }
-    },
-    {
-      "story_id": "story_f7f3d62fb233",
-      "title": "双节前后 10 多款大模型蓄势待发：GPT-6 全系、Opus 5.2、V4.1 Pro 领衔",
-      "url": "https://www.aibase.com/news/31200",
-      "primary_url": "https://www.aibase.com/news/31200",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "7be29bfd7f1017615f6e942036fdbc74db281ff1",
-          "title": "双节前后 10 多款大模型蓄势待发：GPT-6 全系、Opus 5.2、V4.1 Pro 领衔",
-          "title_zh": "双节前后 10 多款大模型蓄势待发：GPT-6 全系、Opus 5.2、V4.1 Pro 领衔",
-          "title_en": null,
-          "title_original": "双节前后 10 多款大模型蓄势待发：GPT-6 全系、Opus 5.2、V4.1 Pro 领衔",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31200",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-20T13:22:06.100963Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "7be29bfd7f1017615f6e942036fdbc74db281ff1",
-          "title": "双节前后 10 多款大模型蓄势待发：GPT-6 全系、Opus 5.2、V4.1 Pro 领衔",
-          "title_zh": "双节前后 10 多款大模型蓄势待发：GPT-6 全系、Opus 5.2、V4.1 Pro 领衔",
-          "title_en": null,
-          "title_original": "双节前后 10 多款大模型蓄势待发：GPT-6 全系、Opus 5.2、V4.1 Pro 领衔",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31200",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-20T13:22:06.100963Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7564,
-      "importance": 0.7564,
-      "importance_score": 0.7564,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9377,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-20T13:22:06.100963Z",
-      "latest_at": "2026-09-20T13:22:06.100963Z",
-      "primary_item": {
-        "id": "7be29bfd7f1017615f6e942036fdbc74db281ff1",
-        "title": "双节前后 10 多款大模型蓄势待发：GPT-6 全系、Opus 5.2、V4.1 Pro 领衔",
-        "title_zh": "双节前后 10 多款大模型蓄势待发：GPT-6 全系、Opus 5.2、V4.1 Pro 领衔",
-        "title_en": null,
-        "title_original": "双节前后 10 多款大模型蓄势待发：GPT-6 全系、Opus 5.2、V4.1 Pro 领衔",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31200",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "全是预告和猜测，没一个能立刻用上，等真发布了再说。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-20T17:50:43.208040Z"
-      }
-    },
-    {
-      "story_id": "story_d33cb89128f1",
-      "title": "If AI coding is lowering your code quality, you're not managing quality right",
-      "url": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
-      "primary_url": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
-      "source": "Hacker News",
-      "source_name": "TechURLs",
-      "sources": [
-        {
-          "id": "c7024b8c75b3bc78856d913f02bf0ed94317d5e3",
-          "title": "If AI coding is lowering your code quality, you're not managing quality right",
-          "title_zh": null,
-          "title_en": "If AI coding is lowering your code quality, you're not managing quality right",
-          "title_original": "If AI coding is lowering your code quality, you're not managing quality right",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-20T11:37:10Z"
-        },
-        {
-          "id": "a0cc66d677a58ada0048da67d0529cb6cb96621a",
-          "title": "If AI coding is lowering your code quality, you're not managing quality right",
-          "title_zh": null,
-          "title_en": "If AI coding is lowering your code quality, you're not managing quality right",
-          "title_original": "If AI coding is lowering your code quality, you're not managing quality right",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49774795",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-09-20T11:37:10Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "c7024b8c75b3bc78856d913f02bf0ed94317d5e3",
-          "title": "If AI coding is lowering your code quality, you're not managing quality right",
-          "title_zh": null,
-          "title_en": "If AI coding is lowering your code quality, you're not managing quality right",
-          "title_original": "If AI coding is lowering your code quality, you're not managing quality right",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-20T11:37:10Z"
-        },
-        {
-          "id": "a0cc66d677a58ada0048da67d0529cb6cb96621a",
-          "title": "If AI coding is lowering your code quality, you're not managing quality right",
-          "title_zh": null,
-          "title_en": "If AI coding is lowering your code quality, you're not managing quality right",
-          "title_original": "If AI coding is lowering your code quality, you're not managing quality right",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49774795",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-09-20T11:37:10Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5304,
-      "importance": 0.5304,
-      "importance_score": 0.5304,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9143,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-20T11:37:10Z",
-      "latest_at": "2026-09-20T11:37:10Z",
-      "primary_item": {
-        "id": "c7024b8c75b3bc78856d913f02bf0ed94317d5e3",
-        "title": "If AI coding is lowering your code quality, you're not managing quality right",
-        "title_zh": null,
-        "title_en": "If AI coding is lowering your code quality, you're not managing quality right",
-        "title_original": "If AI coding is lowering your code quality, you're not managing quality right",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
-        "source": "Hacker News",
-        "source_name": "TechURLs"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "一篇观点文章，提醒你注意AI代码的质量管理，但没给具体工具或方法。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-20T17:50:43.208040Z"
-      }
-    },
-    {
-      "story_id": "story_c096011f87e1",
-      "title": "启元机器人接入腾讯云WorkBuddy，AI首次从屏幕\"走\"进物理世界",
-      "url": "https://www.aibase.com/news/31190",
-      "primary_url": "https://www.aibase.com/news/31190",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "98862ac4c8266264c05c1198d2854645bba8210f",
-          "title": "启元机器人接入腾讯云WorkBuddy，AI首次从屏幕\"走\"进物理世界",
-          "title_zh": "启元机器人接入腾讯云WorkBuddy，AI首次从屏幕\"走\"进物理世界",
-          "title_en": null,
-          "title_original": "启元机器人接入腾讯云WorkBuddy，AI首次从屏幕\"走\"进物理世界",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31190",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-20T13:22:06.100963Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "98862ac4c8266264c05c1198d2854645bba8210f",
-          "title": "启元机器人接入腾讯云WorkBuddy，AI首次从屏幕\"走\"进物理世界",
-          "title_zh": "启元机器人接入腾讯云WorkBuddy，AI首次从屏幕\"走\"进物理世界",
-          "title_en": null,
-          "title_original": "启元机器人接入腾讯云WorkBuddy，AI首次从屏幕\"走\"进物理世界",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31190",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-20T13:22:06.100963Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7564,
-      "importance": 0.7564,
-      "importance_score": 0.7564,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9377,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-20T13:22:06.100963Z",
-      "latest_at": "2026-09-20T13:22:06.100963Z",
-      "primary_item": {
-        "id": "98862ac4c8266264c05c1198d2854645bba8210f",
-        "title": "启元机器人接入腾讯云WorkBuddy，AI首次从屏幕\"走\"进物理世界",
-        "title_zh": "启元机器人接入腾讯云WorkBuddy，AI首次从屏幕\"走\"进物理世界",
-        "title_en": null,
-        "title_original": "启元机器人接入腾讯云WorkBuddy，AI首次从屏幕\"走\"进物理世界",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31190",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 60,
-      "persona_review": "展示了AI具身化的一个应用场景，但距离开发者能直接调用或复现还很远。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-20T17:50:43.208040Z"
-      }
-    },
-    {
-      "story_id": "story_99589b68f290",
-      "title": "微信 AI 团队开源 WeKnora：知识库不再只“动嘴”，还能在沙箱里“动手”",
-      "url": "https://www.aibase.com/news/31201",
-      "primary_url": "https://www.aibase.com/news/31201",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "a7bb536250fe75ec404679adc54fc1acaea83ed4",
-          "title": "微信 AI 团队开源 WeKnora：知识库不再只“动嘴”，还能在沙箱里“动手”",
-          "title_zh": "微信 AI 团队开源 WeKnora：知识库不再只“动嘴”，还能在沙箱里“动手”",
-          "title_en": null,
-          "title_original": "微信 AI 团队开源 WeKnora：知识库不再只“动嘴”，还能在沙箱里“动手”",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31201",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-20T13:22:06.100963Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "a7bb536250fe75ec404679adc54fc1acaea83ed4",
-          "title": "微信 AI 团队开源 WeKnora：知识库不再只“动嘴”，还能在沙箱里“动手”",
-          "title_zh": "微信 AI 团队开源 WeKnora：知识库不再只“动嘴”，还能在沙箱里“动手”",
-          "title_en": null,
-          "title_original": "微信 AI 团队开源 WeKnora：知识库不再只“动嘴”，还能在沙箱里“动手”",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31201",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-20T13:22:06.100963Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7564,
-      "importance": 0.7564,
-      "importance_score": 0.7564,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9377,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-20T13:22:06.100963Z",
-      "latest_at": "2026-09-20T13:22:06.100963Z",
-      "primary_item": {
-        "id": "a7bb536250fe75ec404679adc54fc1acaea83ed4",
-        "title": "微信 AI 团队开源 WeKnora：知识库不再只“动嘴”，还能在沙箱里“动手”",
-        "title_zh": "微信 AI 团队开源 WeKnora：知识库不再只“动嘴”，还能在沙箱里“动手”",
-        "title_en": null,
-        "title_original": "微信 AI 团队开源 WeKnora：知识库不再只“动嘴”，还能在沙箱里“动手”",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31201",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "开源项目已发布，可立即集成带代码执行能力的知识库系统。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-20T17:50:43.208040Z"
       }
     }
   ]
