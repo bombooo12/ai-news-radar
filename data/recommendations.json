@@ -3,22 +3,20 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "GPT-6、Opus 5.2 混战在即，AI初学者如何抓住新模型红利？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、想用AI变现的个人",
-      "reason": "匹配创作者对新模型/工具的兴趣，信息流热点集中，可做系列实操与解读，引流潜力大。",
+      "title": "Runway实时AI视频直播革命：普通人如何抓住新风口？",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "AI初学者、视频创作者、想用AI做直播的用户",
+      "reason": "Runway新功能是AI视频领域重大突破，符合创作者对热点和新工具的偏好，可操作性强，易传播。",
       "source_items": [
-        "双节前后 10 多款大模型蓄势待发：GPT-6 全系、Opus 5.2、V4.1 Pro 领衔",
-        "B 站上线“AI 无限竞技场”：百大模型同台 PK，GPT-6 Astra 暂居榜首",
-        "Anthropic考虑推出新模型，拟应对OpenAI GPT-6Astra竞争"
+        "Runway wants to turn AI video generation into a live stream you control in real time",
+        "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映”"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/31200",
-        "https://www.aibase.com/news/31193",
-        "https://www.aibase.com/news/31180",
-        "https://www.aibase.com/news/31198",
-        "https://the-decoder.com/following-openai-anthropic-is-also-reportedly-postponing-its-ipo"
+        "https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time",
+        "https://www.aibase.com/news/31206",
+        "http://www.geekpark.net/news/370681",
+        "https://www.meetup.com/bay-area-ai-artists/events/316379184"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -26,27 +24,28 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "新手必看！一文速通GPT-6、Claude等主流新模型免费体验入口",
-          "summary": "手把手教你如何免费、快速上手体验各大厂即将发布的新模型。",
+          "format": "视频",
+          "hook": "手把手教你用Runway做AI互动直播：从零到首播",
+          "summary": "教用户如何注册、设置场景、使用实时控制功能，完成一场AI视频直播。",
           "key_points": [
-            "梳理GPT-6、Claude Opus 5.2等模型的官方/内测申请入口",
-            "对比不同平台的访问门槛（API、网页版、App）",
-            "提供快速上手的通用提示词模板"
+            "注册Runway并找到实时生成功能入口",
+            "设置直播主题与风格提示词（Prompt）",
+            "演示如何通过鼠标/键盘实时控制画面变化",
+            "导出并同步到主流直播平台"
           ],
           "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "estimated_time": "45分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "短视频",
-          "hook": "别当小白鼠！新模型尝鲜前必看的三大陷阱与成本控制",
-          "summary": "揭露抢先体验新模型时，在费用、数据安全和效果预期上常见的坑。",
+          "hook": "AI直播翻车现场：99%新手会踩的3个雷区",
+          "summary": "指出实时AI视频直播在提示词、网络、内容合规上的常见陷阱。",
           "pitfalls": [
-            "小心API调用费陷阱：如何设置用量上限",
-            "免费版与付费版的核心功能差异，别被宣传迷惑",
-            "新模型“幻觉”可能更严重：如何设计提示词验证结果"
+            "提示词模糊导致画面混乱或卡顿",
+            "网络延迟导致控制与画面不同步",
+            "生成内容可能涉及版权或敏感元素"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -55,12 +54,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "大模型“军备竞赛”再升级：GPT-6 vs Claude，谁在定义AI的未来？",
-          "summary": "分析本轮模型大战背后的技术路线、商业策略以及对普通用户和开发者的影响。",
+          "hook": "从Runway直播看AI视频未来：个人创作者会被取代吗？",
+          "summary": "分析实时AI视频技术对内容创作、直播行业和个人IP的影响与机遇。",
           "insights": [
-            "从“参数竞赛”到“Agent能力”竞赛：模型进化的核心逻辑",
-            "OpenAI与Anthropic的IPO博弈如何影响产品发布节奏",
-            "对AI初学者和副业者的机会：哪些新能力值得重点关注"
+            "技术解读：Runway如何实现“实时”生成与控制",
+            "行业影响：降低视频创作门槛，催生新直播形式",
+            "个人机遇：AI成为创意放大器，而非替代品，创作者需转型为“导演”"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -69,19 +68,22 @@
     },
     {
       "rank": 2,
-      "title": "Runway实时视频流革命：普通人如何用AI做“导演”？",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI初学者、对AI视频感兴趣的小白",
-      "reason": "AI视频是创作者偏好赛道，Runway新功能极具实操性和前瞻性，符合数据驱动和争议性偏好。",
+      "title": "GPT-6与Claude 5.5大战在即：AI初学者如何选边站队？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、对AI模型感兴趣的小白、想用AI提升效率的个人",
+      "reason": "多款顶级大模型即将发布，是AI赛道绝对热点，符合用户对“新模型、新工具”的兴趣，可做对比测评和实用指南。",
       "source_items": [
-        "Runway wants to turn AI video generation into a live stream you control in real time",
-        "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映”"
+        "Claude Opus 5.5 已在内测：连跳两级直逼 GPT-6，价格还打骨折",
+        "双节前后 10 多款大模型蓄势待发：GPT-6 全系、Opus 5.2、V4.1 Pro 领衔",
+        "B 站上线“AI 无限竞技场”：百大模型同台 PK，GPT-6 Astra 暂居榜首"
       ],
       "source_urls": [
-        "https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time",
-        "https://www.aibase.com/news/31206",
-        "https://mashable.com/tech/sept-20-viceforge-creator-elite-plan-lifetime-subscription"
+        "https://www.aibase.com/news/31232",
+        "https://www.aibase.com/news/31200",
+        "https://www.aibase.com/news/31193",
+        "https://www.aibase.com/news/31231",
+        "https://www.aibase.com/news/31198"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -89,13 +91,13 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频",
-          "hook": "零基础制作AI互动短片：用Runway新功能5步搞定",
-          "summary": "利用Runway的实时控制功能，演示制作一个简单互动剧情短片的全流程。",
+          "format": "图文",
+          "hook": "一张表看懂GPT-6 vs Claude 5.5：小白该用哪个？",
+          "summary": "通过具体任务对比（如写文案、编程、分析），教用户根据需求选择最合适的模型。",
           "key_points": [
-            "Runway实时流功能界面与核心参数解读",
-            "从文本描述到动态镜头切换的实操演示",
-            "结合剪映AI进行后期配音与包装的完整流程"
+            "对比两者在文本创作、代码生成、逻辑推理上的表现",
+            "分析订阅成本与免费额度",
+            "提供不同场景下的“最佳模型”选择建议表"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -104,26 +106,26 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI视频翻车实录：避开实时生成中的“鬼畜”与“崩坏”",
-          "summary": "总结实时AI视频生成中人物变形、动作失调等常见问题及规避方案。",
+          "hook": "别被“最强模型”忽悠了！选AI工具必须绕开的3个误区",
+          "summary": "指出盲目追求最新最贵模型、忽视使用成本和实际需求的常见错误。",
           "pitfalls": [
-            "实时控制时提示词过于复杂导致系统崩溃",
-            "人物连续动作的连贯性保持技巧",
-            "如何利用“种子”和“参考图”锁定角色形象"
+            "误区一：最新=最好（可能不稳定或功能冗余）",
+            "误区二：只看能力，不看钱包（订阅费用超预算）",
+            "误区三：频繁切换工具，无法形成稳定工作流"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "视频",
-          "hook": "从“生成”到“导演”：Runway实时流如何颠覆内容创作范式？",
-          "summary": "探讨实时AI视频技术对短视频、游戏、教育等领域的潜在冲击与机遇。",
+          "hook": "大模型价格战背后的逻辑：AI正在从奢侈品变成日用品",
+          "summary": "分析Claude降价、GPT-6发布等事件背后的商业策略和行业趋势。",
           "insights": [
-            "“实时流” vs “文生视频”：技术路径的差异与融合",
-            "对传统视频剪辑工具（如剪映、达芬奇）的挑战与补充",
-            "个人创作者如何利用此技术构建差异化内容壁垒"
+            "商业策略：通过降价抢占市场份额，培养用户习惯",
+            "技术趋势：模型能力趋同，竞争焦点转向成本、生态和易用性",
+            "用户影响：AI工具成本下降，个人和小团队使用门槛降低"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -132,58 +134,62 @@
     },
     {
       "rank": 3,
-      "title": "AI短剧出海成新风口？用AIGC低成本试水全攻略",
-      "track": "trademark_ip",
-      "track_name": "商标/IP/创业",
-      "target_audience": "想用AI变现的个人、需要商标服务的小微企业主",
-      "reason": "完美结合AIGC剧情向引流与商标/IP业务，信息流有热点支撑，实操性强，争议性（风口 vs 泡沫）易传播。",
+      "title": "剪映Hub+AI助手“小映”测评：国产剪辑神器要革谁的命？",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "视频剪辑初学者、自媒体博主、对AI剪辑感兴趣的用户",
+      "reason": "剪映是国民级工具，其重大AI更新极具话题性，测评和教程内容实操性强，受众广泛。",
       "source_items": [
-        "主题演讲：掌阅 · AI短剧出海｜36氪2026 East Forward 出海大会"
+        "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映”",
+        "卢伟冰谈小米18 Pro涨价：大家会觉得合理；剪映发布 Hub 及 AI 助手「小映」；苹果或 10 月推出智能家居设备｜极客早知道"
       ],
       "source_urls": [
-        "https://36kr.com/p/3991133875616771?f=rss"
+        "https://www.aibase.com/news/31206",
+        "http://www.geekpark.net/news/370681",
+        "https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time"
       ],
-      "urgency": "medium",
+      "urgency": "high",
       "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文+视频",
-          "hook": "一个人一部手机：AIGC打造短剧从剧本到发布的完整链条",
-          "summary": "揭秘如何用ChatGPT写剧本、Midjourney做分镜、Runway/剪映生成视频的全套AIGC短剧流程。",
+          "format": "视频",
+          "hook": "5分钟用剪映AI助手“小映”搞定一条爆款短视频",
+          "summary": "演示如何用“小映”从文案生成、素材匹配到自动剪辑，快速完成一条视频。",
           "key_points": [
-            "用ChatGPT生成“黄金三秒”和冲突剧本结构",
-            "Midjourney统一角色与场景风格的提示词技巧",
-            "利用剪映AI助手进行批量配音和字幕生成"
+            "打开剪映，找到并激活AI助手“小映”",
+            "输入视频主题，让AI生成文案和分镜建议",
+            "使用“Hub”功能一键匹配素材和背景音乐",
+            "AI自动剪辑与手动微调技巧"
           ],
-          "difficulty": "中级",
-          "estimated_time": "45分钟"
+          "difficulty": "入门",
+          "estimated_time": "25分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文",
-          "hook": "AI短剧出海“暴富梦”碎？版权、平台与文化的三大隐形雷区",
-          "summary": "指出AI短剧在出海过程中可能面临的版权纠纷、平台规则和文化适配问题。",
+          "format": "短视频",
+          "hook": "剪映AI翻车实录：这些“智能”功能千万别乱用",
+          "summary": "指出AI自动剪辑在风格统一、版权素材、节奏把控上可能存在的问题。",
           "pitfalls": [
-            "AI生成内容的人物肖像与音乐版权风险",
-            "海外平台（如TikTok、Reels）的社区准则与推荐算法",
-            "忽视文化差异导致剧情“水土不服”的案例"
+            "AI生成的文案过于模板化，缺乏个性",
+            "自动匹配的素材可能涉及版权风险",
+            "AI剪辑节奏可能不符合人类观看习惯"
           ],
-          "difficulty": "中级",
-          "estimated_time": "20分钟"
+          "difficulty": "入门",
+          "estimated_time": "10分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "掌阅入局背后的信号：AI短剧是内容革命，还是流量泡沫？",
-          "summary": "分析AI短剧产业链的现状、巨头布局逻辑，以及对个人创作者和IP保护的意义。",
+          "hook": "从剪映Hub看国产AI工具生态：我们还需要学PR吗？",
+          "summary": "分析剪映等国产工具如何通过AI和生态整合，挑战传统专业软件。",
           "insights": [
-            "从“人力密集型”到“AI驱动型”：短剧产业的价值链重构",
-            "大厂入局对独立创作者是机遇还是碾压？",
-            "强调在内容创业早期进行商标与IP布局的重要性（自然引流业务）"
+            "产品策略：以“AI+模板+云素材”降低专业门槛",
+            "生态构建：“Hub”如何连接创作者、素材商和用户",
+            "行业影响：专业软件边界模糊，创意和效率成为新核心"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -192,82 +198,20 @@
     },
     {
       "rank": 4,
-      "title": "从RAG基础到生产级AI Agent：小白也能搭建的智能知识库",
+      "title": "用AI敲诈230万？自媒体博主的“黑产”与你的法律红线",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、想用AI提升效率的个人",
-      "reason": "匹配创作者对Agent/Skill实践的兴趣，RAG是当前热点且实用，可从浅入深做成系列，符合用户反馈。",
+      "target_audience": "自媒体创作者、AI初学者、所有使用AI工具的用户",
+      "reason": "真实案例具有极强警示性和传播性，完美契合“争议性/冲突性”偏好，可结合商标/IP知识做深度普法。",
       "source_items": [
-        "走进 AI Agent 第四篇：知识获取管道——RAG 基础",
-        "Building Production-Ready AI: Agentic Systems, RAG & Responsible AI",
-        "From Retrieval to Action: GraphRAG Meets Physical AI"
+        "用 AI 造谣再收费删帖：自媒体博主敲诈科技企业 230 万元被抓",
+        "‘Follow the money’: inside Gibson Dunn’s ‘innovative’ anti-counterfeiting strategy"
       ],
       "source_urls": [
-        "https://juejin.cn/post/7687422041256689691",
-        "https://www.meetup.com/pydata_seattle/events/316322058",
-        "https://www.meetup.com/agentic-ai-context-builders/events/316217896"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "不用写代码！用ChatGPT+免费工具快速搭建个人专属RAG知识库",
-          "summary": "教用户利用ChatGPT、Notion和向量数据库工具，零代码构建一个可问答的个人文档库。",
-          "key_points": [
-            "选择合适的本地/云端文档向量化工具（如Pinecone、Chroma）",
-            "设计高效的提示词，让ChatGPT精准理解并回答文档内容",
-            "搭建一个简单的Web界面进行问答测试"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "40分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "短视频",
-          "hook": "你的AI Agent为什么“答非所问”？RAG系统三大失效场景剖析",
-          "summary": "揭示RAG系统中检索失败、信息冗余、答案拼接生硬的常见问题及解决方案。",
-          "pitfalls": [
-            "文档切分不当导致上下文丢失",
-            "检索到的信息过多，淹没关键答案",
-            "LLM无法将多段信息流畅整合成连贯回答"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "超越ChatGPT：RAG如何让AI从“通才”变“专才”，开启企业级应用？",
-          "summary": "探讨RAG技术如何解决大模型幻觉和知识滞后问题，并分析其向GraphRAG、Agent系统演进的方向。",
-          "insights": [
-            "RAG如何成为连接大模型与私有数据的“桥梁”",
-            "从简单检索到复杂推理：GraphRAG的技术跃迁",
-            "对小微企业主：低成本构建专属客服、培训系统的可能性"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "title": "副业变主业：如何用AI工具矩阵，将兴趣打造成年入50万的生意？",
-      "track": "personal_growth",
-      "track_name": "个人成长/副业变现",
-      "target_audience": "想用AI变现的个人、AI初学者",
-      "reason": "直接命中创作者“副业变现思路”内容范畴，结合热点案例，提供可复制的AI工具流，实操性和说服力强。",
-      "source_items": [
-        "How This Founder Turned Her Side Hustle Into a $500,000 Business",
-        "How to Save Money Now with ChatGPT Finances (6 Real Use Cases) | Ethan Bloch"
-      ],
-      "source_urls": [
-        "https://www.inc.com/chris-morris/how-this-founder-turned-her-side-hustle-into-a-500000-business/91404875",
-        "https://creatoreconomy.so/p/how-to-save-money-now-with-chatgpt-finances-ethan-boch"
+        "https://www.aibase.com/news/31225",
+        "https://www.managingip.com/article/2gwvk0r0nmf9i8t2kvd34/trademarks/follow-the-money-inside-gibson-dunns-innovative-anti-counterfeiting-strategy",
+        "https://patentlyo.com/patent/2026/09/the-missing-inventor-problem.html",
+        "https://techcrunch.com/2026/09/20/new-california-law-will-penalize-influencers-dont-disclose-political-ads"
       ],
       "urgency": "medium",
       "viral_potential": "high",
@@ -276,26 +220,92 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "AI副业启动清单：从定位、内容到变现的完整工具包",
-          "summary": "提供一份清晰的清单，列出在AI辅助下启动一个副业每个阶段所需的工具和行动项。",
+          "hook": "合规指南：自媒体人用AI创作，必须知道的5条法律底线",
+          "summary": "教创作者如何合法使用AI生成内容，避免侵犯名誉权、著作权和构成敲诈。",
           "key_points": [
-            "用AI进行市场调研与竞品分析（TRAE、ChatGPT）",
-            "自动化内容生产与分发的工具组合（Midjourney、剪映、发布工具）",
-            "设置低成本MVP（最小可行产品）并收集反馈的流程"
+            "AI生成内容需注明来源，避免虚假宣传",
+            "不得用AI捏造事实进行商业诋毁或敲诈",
+            "使用AI生成的图片/音乐需确认版权",
+            "涉及他人商标、肖像需获得授权",
+            "保留AI创作过程记录以备举证"
           ],
           "difficulty": "入门",
-          "estimated_time": "35分钟"
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "短视频",
+          "hook": "小心！你的AI“玩梗”视频，可能已经违法",
+          "summary": "指出用AI模仿名人、捏造企业负面等看似“玩梗”行为背后的法律风险。",
+          "pitfalls": [
+            "风险一：AI换脸模仿名人可能侵犯肖像权和名誉权",
+            "风险二：虚构企业产品质量问题可能构成商业诋毁",
+            "风险三：利用AI生成的“黑料”索要“公关费”即构成敲诈勒索"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "视频",
+          "hook": "当AI成为犯罪工具：从敲诈案看科技公司的“反黑产”策略",
+          "summary": "结合商标/IP案例，深度分析AI黑产链条及企业如何利用法律和技术反击。",
+          "insights": [
+            "案例拆解：AI造谣敲诈的完整操作链条",
+            "企业对策：如何像Gibson Dunn一样追踪和取证",
+            "趋势预警：AI滥用催生新型网络犯罪，法律与技术需同步升级"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "从副业到50万美金：如何用AI复制这个“侧滑”神话？",
+      "track": "personal_growth",
+      "track_name": "个人成长/副业变现",
+      "target_audience": "想用AI变现的个人、寻找副业机会的上班族、小微创业者",
+      "reason": "副业变现实战案例，数据驱动（50万美金），符合创作者偏好，能提供具体可复制的AI应用思路。",
+      "source_items": [
+        "How This Founder Turned Her Side Hustle Into a $500,000 Business",
+        "How to Save Money Now with ChatGPT Finances (6 Real Use Cases) | Ethan Bloch"
+      ],
+      "source_urls": [
+        "https://www.inc.com/chris-morris/how-this-founder-turned-her-side-hustle-into-a-500000-business/91404875",
+        "https://creatoreconomy.so/p/how-to-save-money-now-with-chatgpt-finances-ethan-boch",
+        "https://www.socialmediatoday.com/news/youtube-executives-share-strategies-on-channel-pivoting/830850"
+      ],
+      "urgency": "medium",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "抄作业！用AI搭建你的第一个月入过万副业（详细拆解）",
+          "summary": "拆解案例中的商业模式，并用AI工具（如ChatGPT、Midjourney）模拟实现关键环节。",
+          "key_points": [
+            "第一步：用ChatGPT进行市场调研与需求分析",
+            "第二步：用AI工具（如Canva AI、剪映）快速制作MVP产品/内容",
+            "第三步：利用AI制定社交媒体发布与引流策略",
+            "第四步：用AI客服工具处理初期咨询与订单"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "40分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "别被“AI躺赚”忽悠了！副业转型路上必交的三种“学费”",
-          "summary": "指出在依赖AI工具创业时，在时间投入、技术依赖和合规性上容易犯的错误。",
+          "hook": "别信“AI躺赚”！做副业前必须想清楚的3个现实问题",
+          "summary": "指出盲目跟风AI副业在投入产出比、竞争壁垒和持续运营上的陷阱。",
           "pitfalls": [
-            "过度自动化导致内容失去个人特色与温度",
-            "陷入“工具收集癖”，忽视核心业务验证",
-            "忽视税务、合同等基础商业合规问题（可自然联系商标/公司注册服务）"
+            "陷阱一：低估时间投入，AI不能完全替代人工",
+            "陷阱二：赛道同质化严重，缺乏独特定位",
+            "陷阱三：忽视现金流和客户维系，昙花一现"
           ],
           "difficulty": "入门",
           "estimated_time": "20分钟"
@@ -304,12 +314,76 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "视频",
-          "hook": "“一人公司”时代来临：AI如何重构个人商业的价值网络？",
-          "summary": "分析AI如何降低创业门槛，让个人能够同时承担产品、营销、运营等多重角色，并讨论其可持续性。",
+          "hook": "“侧滑”经济的未来：AI如何重塑个人创业与雇佣关系？",
+          "summary": "分析在AI赋能下，个人副业（Side Hustle）对传统职业路径的冲击与新机遇。",
           "insights": [
-            "从“技能变现”到“系统变现”：AI赋能下的个人商业模式进化",
-            "“超级个体”的崛起对传统雇佣关系的挑战",
-            "长期主义视角：在AI热潮中构建难以被替代的核心竞争力"
+            "趋势分析：AI工具降低创业门槛，个人“一人公司”成为可能",
+            "能力重构：从执行者变为“人机协同”的策划者与管理者",
+            "未来展望：副业可能不再是“备胎”，而成为主流职业形态之一"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "YouTube高管亲授“频道转型”策略：AI时代创作者如何不掉队？",
+      "track": "creator_economy",
+      "track_name": "自媒体/创作者经济",
+      "target_audience": "自媒体博主、内容创作者、平台运营者",
+      "reason": "来自平台官方的策略分享，权威性强，结合AI工具，能为创作者提供切实的运营升级思路。",
+      "source_items": [
+        "YouTube executives share strategies on channel pivoting",
+        "If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides. Join 110,000+ subscribers here: https://t.co/yz9xcsfrhF"
+      ],
+      "source_urls": [
+        "https://www.socialmediatoday.com/news/youtube-executives-share-strategies-on-channel-pivoting/830850",
+        "https://x.com/petergyang/status/2101917073081598255",
+        "https://techcrunch.com/2026/09/20/new-california-law-will-penalize-influencers-dont-disclose-political-ads",
+        "https://www.meetup.com/pydata_seattle/events/316322058"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "跟着YouTube学转型：3步用AI工具重塑你的内容方向",
+          "summary": "将YouTube的转型策略落地，教用户用AI分析数据、生成新内容创意、测试市场反馈。",
+          "key_points": [
+            "用ChatGPT+数据分析工具，诊断现有频道问题",
+            "利用AI头脑风暴，生成符合趋势的新内容方向",
+            "使用AI视频工具快速制作转型“试水”内容，小范围测试"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "35分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "短视频",
+          "hook": "转型即掉粉？频道换赛道必须避开的“自杀式”操作",
+          "summary": "指出突然改变内容风格、忽视核心粉丝、不进行过渡沟通等致命错误。",
+          "pitfalls": [
+            "错误一：一夜之间彻底改变内容，老粉无法接受",
+            "错误二：只追热点，失去个人特色和核心竞争力",
+            "错误三：不向粉丝解释转型原因，导致信任崩塌"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "12分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "视频",
+          "hook": "平台、算法与创作者：AI时代下的内容“铁三角”新关系",
+          "summary": "分析AI如何改变平台算法、创作者生产方式和用户消费习惯之间的动态平衡。",
+          "insights": [
+            "平台视角：如何利用AI推荐系统引导内容生态健康转型",
+            "创作者应对：从讨好算法到利用AI工具建立“反脆弱”内容体系",
+            "未来生态：人机共创内容将成为主流，真实性成为稀缺价值"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -318,22 +392,22 @@
     }
   ],
   "weekly_plan": {
-    "monday": "GPT-6、Opus 5.2 混战在即，AI初学者如何抓住新模型红利？（实操教程）",
-    "wednesday": "AI短剧出海成新风口？用AIGC低成本试水全攻略（避坑指南）",
-    "friday": "Runway实时视频流革命：普通人如何用AI做“导演”？（深度解读）",
-    "strategy": "本周聚焦“AI新能力落地”，从模型、视频、副业三个维度提供高实操性内容，穿插知识产权意识进行软性业务引流。"
+    "monday": "剪映Hub+AI助手“小映”测评：国产剪辑神器要革谁的命？（发布实操教程视频）",
+    "wednesday": "GPT-6与Claude 5.5大战在即：AI初学者如何选边站队？（发布对比测评图文）",
+    "friday": "用AI敲诈230万？自媒体博主的“黑产”与你的法律红线（发布避坑指南短视频+深度解读视频）",
+    "strategy": "本周聚焦“AI工具实战”与“行业热点解读”，穿插具有警示性的法律案例，实现引流与干货的平衡。"
   },
-  "insights": "今日信息流显示，AI领域正从“模型发布”竞赛转向“生产级应用”和“实时交互体验”的深度竞争，为内容创作者提供了从工具测评到商业模式分析的丰富素材。",
-  "ai_adjustment": "基于用户对“Harness热点”、“新模型感兴趣”及“做成系列”的反馈，重点推荐了模型大战和RAG/Agent系列选题，并避免推荐硬件相关及用户最近拒绝的OpenAI类似选题。",
-  "generated_at": "2026-09-21T01:54:13.933528+08:00",
-  "total_items": 284,
-  "scored_items": 234,
+  "insights": "今日信息流显示，AI视频生成正从“制作”迈向“实时互动与控制”，同时顶级大模型进入密集发布和价格战阶段，AI工具平民化、实用化趋势明显。",
+  "ai_adjustment": "基于用户历史反馈，本次推荐重点围绕“Harness/新模型/新工具”热点展开，并优先选择ai_tech和ai_video赛道；同时规避了硬件相关选题，并融入了用户偏好的争议性案例（AI敲诈）和数据驱动案例（副业变现）。",
+  "generated_at": "2026-09-21T17:37:29.761474+08:00",
+  "total_items": 345,
+  "scored_items": 279,
   "tracks_summary": {
-    "ai_tech": 221,
-    "ai_video": 8,
-    "trademark_business": 1,
+    "ai_video": 9,
+    "ai_tech": 262,
     "growth_monetize": 1,
-    "creator_economy": 3
+    "trademark_business": 2,
+    "creator_economy": 5
   },
   "engine_version": "v2",
   "engine_params": {

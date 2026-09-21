@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T17:51:26.190084Z",
+  "generated_at": "2026-09-21T09:31:55.083947Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -37,42 +37,42 @@
       }
     },
     {
-      "story_id": "story_919e226efbae",
-      "title": "DeepSeek明确调休日计费规则，中秋国庆迎来十天\"半价窗口\"",
-      "url": "https://www.aibase.com/news/31191",
+      "story_id": "story_90a54adf640f",
+      "title": "Kimi Code 桌面客户端上线：macOS 与 Windows 同步开放",
+      "url": "https://www.aibase.com/news/31237",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 45,
-          "review": "半价窗口听着大方，先看看调休日定义和计费基线是不是又挖了新坑。"
+          "score": 65,
+          "review": "客户端终于来了，但核心API能力没变，只是把网页版套了个壳。"
         },
         "paper-police": {
-          "score": 8,
-          "review": "仅为一则行业动态报道，无官方计费规则文档或技术实现细节可查。"
+          "score": 15,
+          "review": "仅有新闻报道，无官方技术文档、代码或独立性能评测。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "调休日API半价，规划中秋国庆的模型调用能省不少钱。"
+          "review": "Kimi的桌面版客户端已可用，本地开发环境集成更方便了。"
         }
       }
     },
     {
-      "story_id": "story_99589b68f290",
-      "title": "微信 AI 团队开源 WeKnora：知识库不再只“动嘴”，还能在沙箱里“动手”",
-      "url": "https://www.aibase.com/news/31201",
+      "story_id": "story_92c2485576ea",
+      "title": "月之暗面推出Kimi Code Desktop桌面端，把AI编程Agent直接搬上macOS和Windows",
+      "url": "https://www.aibase.com/news/31239",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "开源是好事，但‘动手’能力具体指啥？别又是换个包装的Agent框架。"
+          "score": 72,
+          "review": "从网页版搬进桌面端算常规操作，就看本地Agent的权限和离线能力是不是真升级了。"
         },
         "paper-police": {
-          "score": 65,
-          "review": "有开源代码和博客，但未见独立评测与论文，证据链不完整。"
+          "score": 15,
+          "review": "仅有媒体报道，无论文、代码或公开评测报告，证据不足。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "开源项目已发布，可立即集成带代码执行能力的知识库系统。"
+          "review": "桌面端已上线，可直接下载安装，本地开发环境集成AI编程助手。"
         }
       }
     }
