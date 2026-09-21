@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T09:31:55.083947Z",
+  "generated_at": "2026-09-21T19:52:48.916256Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_67bbb2f19d0e",
-      "title": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像 / Qwen-Image-2.1： Compact， Efficient， and Unified Image Creation",
-      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+      "story_id": "story_5593750731a9",
+      "title": "xAI 发布 Grok 4.7，主打编码与知识工作 / Grok 4.7 Sep 21， 2026 # Introducing Grok 4.7 SpaceXAI's most powerful model for coding and knowledge work. Twice as fast， at half the price of comparable models. Read More",
+      "url": "https://x.ai/news/grok-4-7",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 72,
-          "review": "统一生成与编辑听着不错，但‘原生支持透明图像’这亮点，多少有点凑数了。"
+          "score": 65,
+          "review": "速度翻倍、价格减半？先公布下‘可比较模型’是谁，以及测试基准再说。"
         },
         "paper-police": {
-          "score": 65,
-          "review": "有官方技术博客和评测数字，但未见独立论文或第三方复现。"
+          "score": 15,
+          "review": "仅有官方新闻稿宣称性能，无论文、代码或独立评测佐证。"
         },
         "pragmatic": {
-          "score": 85,
-          "review": "开源模型可直接下载，支持透明图像生成，有明确应用场景。"
+          "score": 88,
+          "review": "编码模型速度翻倍、价格减半，今天就能用新API降本增效。"
         }
       }
     },
     {
-      "story_id": "story_90a54adf640f",
-      "title": "Kimi Code 桌面客户端上线：macOS 与 Windows 同步开放",
-      "url": "https://www.aibase.com/news/31237",
+      "story_id": "story_3f10cf90ec97",
+      "title": "Grok 4.7 is now available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot",
       "rank": 2,
       "reviews": {
         "cynic": {
           "score": 65,
-          "review": "客户端终于来了，但核心API能力没变，只是把网页版套了个壳。"
+          "review": "版本号跳得挺快，但具体是修了bug还是真升级，得看代码补全时还犯不犯傻。"
         },
         "paper-police": {
           "score": 15,
-          "review": "仅有新闻报道，无官方技术文档、代码或独立性能评测。"
+          "review": "官方博客宣称集成，无论文、代码或独立评测佐证其性能。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "Kimi的桌面版客户端已可用，本地开发环境集成更方便了。"
+          "review": "Grok 4.7模型已集成进Copilot，开发者现在就能在IDE里用上。"
         }
       }
     },
     {
-      "story_id": "story_92c2485576ea",
-      "title": "月之暗面推出Kimi Code Desktop桌面端，把AI编程Agent直接搬上macOS和Windows",
-      "url": "https://www.aibase.com/news/31239",
+      "story_id": "story_1b06f1be2557",
+      "title": "tokenizers v1: encode, decode and scaling, measured",
+      "url": "https://huggingface.co/blog/tokenizers-v1",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 72,
-          "review": "从网页版搬进桌面端算常规操作，就看本地Agent的权限和离线能力是不是真升级了。"
+          "score": 82,
+          "review": "有实测数据支撑的优化，但‘scaling’这词还是自带营销光环。"
         },
         "paper-police": {
-          "score": 15,
-          "review": "仅有媒体报道，无论文、代码或公开评测报告，证据不足。"
+          "score": 45,
+          "review": "技术博客公布了评测数字，但未见独立论文与可复现代码。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "桌面端已上线，可直接下载安装，本地开发环境集成AI编程助手。"
+          "review": "tokenizer核心库发布稳定版，今天就能升级，性能有量化数据参考。"
         }
       }
     }

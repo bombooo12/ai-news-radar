@@ -108,6 +108,14 @@
         "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "成立咨询小组，是长期研究动向，不影响当前开发选型。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-21T19:51:01.736846Z"
       }
     },
     {
@@ -185,6 +193,14 @@
         "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
         "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "提供了一种新的模型剪枝框架思路，想压模型体积的研究者可以看看。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-21T19:51:01.736846Z"
       }
     },
     {
@@ -262,6 +278,14 @@
         "url": "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "Grok 4.7模型已集成进Copilot，开发者现在就能在IDE里用上。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-21T19:51:01.736846Z"
       }
     },
     {
@@ -339,6 +363,14 @@
         "url": "https://openai.com/index/building-standards-next-phase-ai",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "关于AI治理的官方立场，不影响今天的开发选型或API使用。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-21T19:51:01.736846Z"
       }
     },
     {
@@ -416,6 +448,14 @@
         "url": "https://huggingface.co/blog/tokenizers-v1",
         "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "tokenizer核心库发布稳定版，今天就能升级，性能有量化数据参考。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-21T19:51:01.736846Z"
       }
     },
     {
@@ -492,6 +532,14 @@
         "url": "https://www.ithome.com/1/005/418.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "平台封禁案例，提醒你自研智能体需注意外部API风险。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-21T19:51:01.736846Z"
       }
     },
     {
@@ -568,6 +616,14 @@
         "url": "https://www.aibase.com/news/31241",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "行业动向，但离普通开发者具体选型或开发还远，知道即可。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-21T19:51:01.736846Z"
       }
     },
     {
@@ -645,6 +701,14 @@
         "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "官方学习资源更新，对已有项目开发无直接影响。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-21T19:51:01.736846Z"
       }
     },
     {
@@ -721,6 +785,14 @@
         "url": "https://artificialanalysis.ai/articles/benchmarking-grok-4-7",
         "source": "Artificial Analysis 完整文章（网页）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 55,
+      "persona_review": "第三方评测结果，为选型提供参考，但非官方能力发布，不必立刻行动。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-21T19:51:01.736846Z"
       }
     },
     {
@@ -797,6 +869,14 @@
         "url": "https://x.com/elonmusk/status/2102082011233931762",
         "source": "X：Elon Musk (@elonmusk, xAI)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "口头排名无代码可跑，等有公开评测或API再看不迟。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-21T19:51:01.736846Z"
       }
     },
     {
@@ -903,6 +983,14 @@
         "url": "https://x.ai/news/grok-4-7",
         "source": "xAI：News（网页）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 88,
+      "persona_review": "编码模型速度翻倍、价格减半，今天就能用新API降本增效。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-21T19:51:01.736846Z"
       }
     },
     {
@@ -1008,6 +1096,14 @@
         "url": "https://linear.app/now/ci-bottleneck-reworked",
         "source": "Linear：Now（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 72,
+      "persona_review": "提供了应对AI生成代码质量问题的具体CI优化思路，可借鉴。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-21T19:51:01.736846Z"
       }
     },
     {
@@ -1083,6 +1179,14 @@
         "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
         "source": "Nathan Lambert：Interconnects（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "了解格局有用，但分析文章不改变你今天要用的模型或工具。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-21T19:51:01.736846Z"
       }
     },
     {
@@ -1158,6 +1262,14 @@
         "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484344&idx=1&sn=047cf702ff02ab334e3ea2ba8e34b4a6",
         "source": "公众号：月之暗面（Kimi）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "Kimi的桌面版IDE已上线，可直接下载用于本地代码开发与调试。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-21T19:51:01.736846Z"
       }
     },
     {
@@ -1233,6 +1345,14 @@
         "url": "https://www.marktechpost.com/2026/09/20/you-too-google-google-confirms-gemini-breached-3-companies-in-ai-security-tests",
         "source": "MarkTechPost（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "安全测试事故，提醒从业者部署前务必隔离和监控模型权限。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-21T19:51:01.736846Z"
       }
     },
     {
@@ -1309,6 +1429,14 @@
         "url": "https://www.aibase.com/news/31240",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 65,
+      "persona_review": "微软内部实践验证Rust性能优势，为系统级工具选型提供参考。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-21T19:51:01.736846Z"
       }
     },
     {
@@ -1386,6 +1514,14 @@
         "url": "https://openai.com/index/v7",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "OpenAI官方发布V7，为AI代理提供机构记忆能力，可直接评估其API或方案是否适合你的项目。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-21T19:51:01.736846Z"
       }
     },
     {
@@ -1461,6 +1597,14 @@
         "url": "https://www.aibase.com/news/31231",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 10,
+      "persona_review": "未经证实的泄露传闻，无法作为选型或成本评估依据。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-21T19:51:01.736846Z"
       }
     },
     {
@@ -1536,6 +1680,14 @@
         "url": "https://www.aibase.com/news/31232",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 65,
+      "persona_review": "模型还在内测，等公测或API开放再评估，先别急着改架构。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-21T19:51:01.736846Z"
       }
     },
     {
@@ -1611,6 +1763,14 @@
         "url": "https://www.aibase.com/news/31237",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "Kimi的桌面版客户端已可用，本地开发环境集成更方便了。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-21T19:51:01.736846Z"
       }
     }
   ]
