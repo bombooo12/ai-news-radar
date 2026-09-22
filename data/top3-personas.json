@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T19:52:48.916256Z",
+  "generated_at": "2026-09-22T08:58:38.023893Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,22 +17,22 @@
   ],
   "items": [
     {
-      "story_id": "story_5593750731a9",
-      "title": "xAI 发布 Grok 4.7，主打编码与知识工作 / Grok 4.7 Sep 21， 2026 # Introducing Grok 4.7 SpaceXAI's most powerful model for coding and knowledge work. Twice as fast， at half the price of comparable models. Read More",
-      "url": "https://x.ai/news/grok-4-7",
+      "story_id": "story_c1fb35598aba",
+      "title": "Refreshed repository pull requests page generally available",
+      "url": "https://github.blog/changelog/2026-09-21-refreshed-repository-pull-requests-page-generally-available",
       "rank": 1,
       "reviews": {
         "cynic": {
           "score": 65,
-          "review": "速度翻倍、价格减半？先公布下‘可比较模型’是谁，以及测试基准再说。"
+          "review": "UI改版也叫“全面可用”，PR稿里没提的“刷新”在哪？"
         },
         "paper-police": {
-          "score": 15,
-          "review": "仅有官方新闻稿宣称性能，无论文、代码或独立评测佐证。"
+          "score": 45,
+          "review": "官方博客描述功能更新，有迹可循但无独立评测验证。"
         },
         "pragmatic": {
-          "score": 88,
-          "review": "编码模型速度翻倍、价格减半，今天就能用新API降本增效。"
+          "score": 85,
+          "review": "GitHub PR页面新UI已上线，今天就能用，影响日常协作体验。"
         }
       }
     },
@@ -57,22 +57,22 @@
       }
     },
     {
-      "story_id": "story_1b06f1be2557",
-      "title": "tokenizers v1: encode, decode and scaling, measured",
-      "url": "https://huggingface.co/blog/tokenizers-v1",
+      "story_id": "story_7507ddf4a875",
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 82,
-          "review": "有实测数据支撑的优化，但‘scaling’这词还是自带营销光环。"
+          "score": 35,
+          "review": "用自家新模型给自家产品做演示，这闭环营销玩得真溜。"
         },
         "paper-police": {
-          "score": 45,
-          "review": "技术博客公布了评测数字，但未见独立论文与可复现代码。"
+          "score": 15,
+          "review": "官方博客宣称功能，无论文、无代码、无独立评测，证据不足。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "tokenizer核心库发布稳定版，今天就能升级，性能有量化数据参考。"
+          "review": "GPT-6 Astra已可用，能快速生成视频，开发者今天就能接入测试。"
         }
       }
     }

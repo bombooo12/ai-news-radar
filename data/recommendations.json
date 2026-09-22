@@ -3,22 +3,22 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "Meta Muse AI 爆火，普通人如何用它打造个人智能助理？",
+      "title": "Meta Muse爆火，个人AI智能体时代真的来了？新手如何上车",
       "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、追求效率的个人用户",
-      "reason": "Meta Muse下载量超ChatGPT，是当前热点，符合用户对新工具的兴趣，且可做实操教程。",
+      "track_name": "AI技术（Agent/提示词/Skill/AI设计/模型发布）",
+      "target_audience": "AI初学者、对AI智能体感兴趣的小白、想尝鲜新工具的用户",
+      "reason": "Meta Muse下载量超越ChatGPT是绝对热点，符合创作者对新工具的兴趣，且智能体是初学者进阶的关键方向，实操性强。",
       "source_items": [
+        "Meta's Muse AI agent downloads are surging. Here's how it compares to ChatGPT, Grok and Claude",
         "Meta's Muse personal AI agent tops ChatGPT, Grok and Claude for post-launch downloads",
-        "Review of Mac Studio (M5 Ultra) with 256 GB of RAM: a dream machine to run local AI agents",
-        "Building Production-Ready AI: Agentic Systems, RAG & Responsible AI"
+        "Meta's New 'Personal AI Agent' Muse Beats ChatGPT in Downloads - and Get Blocked by Amazon"
       ],
       "source_urls": [
         "https://www.cnbc.com/2026/09/21/meta-muse-personal-ai-agent-downloads.html",
+        "https://tech.slashdot.org/story/26/09/22/0116233/metas-new-personal-ai-agent-muse-beats-chatgpt-in-downloads---and-get-blocked-by-amazon",
         "https://www.techmeme.com/260921/p39",
-        "https://www.meetup.com/pydata_seattle/events/316322058",
-        "https://www.aibase.com/news/31231",
-        "https://www.aibase.com/news/31232"
+        "https://www.aibase.com/news/31229",
+        "https://the-decoder.com/xai-launches-grok-4-7-at-bargain-prices-but-benchmarks-reveal-a-wide-gap-to-claude-and-gpt-6"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -27,143 +27,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "视频+图文",
-          "hook": "手把手教你用Meta Muse：从下载到搭建日程管理Agent",
-          "summary": "一步步演示如何注册、配置并让Muse AI帮你管理日常任务。",
+          "hook": "手把手教你注册使用Meta Muse：从零开始设置你的第一个AI助理",
+          "summary": "教AI初学者如何一步步注册、安装、配置并开始使用Meta Muse智能体。",
           "key_points": [
-            "Meta Muse下载与注册全流程",
-            "创建第一个个人助理：日程规划Agent",
-            "配置技能：邮件整理与会议摘要"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "40分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "别踩雷！使用Muse AI前必须知道的5个隐私和成本陷阱",
-          "summary": "分析使用Muse AI时可能遇到的隐私泄露、订阅费用和功能限制问题。",
-          "pitfalls": [
-            "免费版功能限制多，升级成本高",
-            "数据隐私：默认共享设置需手动关闭",
-            "Agent任务定义不清导致结果混乱"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "Muse下载量第一背后：Meta的AI社交野心与个人Agent未来",
-          "summary": "解读Muse爆火背后的战略逻辑，以及个人AI助理将如何改变生活与工作。",
-          "insights": [
-            "Meta借Muse布局社交AI，抢占用户入口",
-            "个人Agent是AI普惠的下一个关键形态",
-            "对比ChatGPT、Grok，分析Muse的差异化定位"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1.5小时"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "title": "大模型混战：Grok 4.7 vs Claude 5.5 vs GPT-6，谁才是小白性价比之王？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、想用AI变现的个人、关注模型性价比的用户",
-      "reason": "多个顶级模型发布/泄露，是强热点和争议话题，适合做数据驱动的测评和避坑指南。",
-      "source_items": [
-        "马斯克称 Grok 4.7 使 xAI 在智能体编码领域位列第三",
-        "xAI launches Grok 4.7 at bargain prices, but benchmarks reveal a wide gap to Claude and GPT-6",
-        "Claude Opus 5.5 已在内测：连跳两级直逼 GPT-6，价格还打骨折"
-      ],
-      "source_urls": [
-        "https://x.com/elonmusk/status/2102082011233931762",
-        "https://the-decoder.com/xai-launches-grok-4-7-at-bargain-prices-but-benchmarks-reveal-a-wide-gap-to-claude-and-gpt-6",
-        "https://www.aibase.com/news/31232",
-        "https://www.aibase.com/news/31231",
-        "https://www.aibase.com/news/31234"
-      ],
-      "urgency": "high",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "测评/视频",
-          "hook": "实测对比！用同一提示词看Grok 4.7、Claude 5.5、GPT-6谁更强",
-          "summary": "通过写作、编程、分析等具体任务，横向对比三大模型的实际表现和输出质量。",
-          "key_points": [
-            "设置相同提示词进行多任务测试",
-            "记录各模型响应时间、质量和创意",
-            "给出不同场景下的模型选择建议"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "50分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "别被“骨折价”忽悠！Claude 5.5和Grok 4.7的隐藏限制与订阅陷阱",
-          "summary": "揭露新模型在价格、使用限制、上下文长度等方面的潜在问题。",
-          "pitfalls": [
-            "Claude 5.5内测泄露，正式版功能可能缩水",
-            "Grok 4.7低价但推理能力与顶尖模型差距大",
-            "订阅制 vs 按次付费，哪种更划算？"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "25分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "价格战背后的AI军备竞赛：模型“够用就好”的时代来了吗？",
-          "summary": "分析模型价格普降背后的行业逻辑，以及对普通用户和开发者的影响。",
-          "insights": [
-            "模型能力趋同，价格成为新的竞争焦点",
-            "“性价比”模型将催生更多大众化AI应用",
-            "对OpenAI市场地位的潜在冲击分析"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "title": "剪映发布AI助手“小映”，视频剪辑效率能提升多少？",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI初学者、视频创作者、自媒体运营者",
-      "reason": "剪映是国民级工具，其AI更新直接影响广大创作者，实操性强，符合用户擅长视频剪辑的定位。",
-      "source_items": [
-        "剪映发布 Hub 及 AI 助手「小映」",
-        "The thoroughness with which agents can test and QA software is unrivaled.",
-        "Sept 22 - FiftyOne Agent: Automate Visual AI Workflows with Natural Language"
-      ],
-      "source_urls": [
-        "http://www.geekpark.net/news/370681",
-        "https://x.com/rauchg/status/2101846262840799251",
-        "https://www.meetup.com/artificial-intelligence-deep-learning/events/316064264",
-        "https://www.meetup.com/bay-area-ai-artists/events/316379184"
-      ],
-      "urgency": "medium",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "视频教程",
-          "hook": "剪映“小映”AI实战：3分钟生成一个爆款短视频模板",
-          "summary": "演示如何利用“小映”的文案生成、智能剪辑、包装功能快速制作视频。",
-          "key_points": [
-            "“小映”的开启与基础功能讲解",
-            "输入文案，让AI自动匹配素材和转场",
-            "利用AI包装功能一键生成标题和花字"
+            "如何绕过地区限制/获取访问权限",
+            "界面初识与核心功能介绍",
+            "设置专属指令让Muse为你工作（邮件、日程、搜索）"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -171,13 +40,14 @@
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "短视频",
-          "hook": "小心！用剪映AI助手可能让你的视频“同质化”",
-          "summary": "指出过度依赖AI模板可能导致视频缺乏个性，并提供创意规避方法。",
+          "format": "图文",
+          "hook": "别急着装Muse！新手必知的3大陷阱和5个替代方案",
+          "summary": "指出使用Muse可能遇到的隐私、费用、功能限制等坑，并提供平替方案。",
           "pitfalls": [
-            "AI生成的文案和模板千篇一律",
-            "自动剪辑可能破坏视频叙事节奏",
-            "对硬件配置有要求，低配设备可能卡顿"
+            "隐私数据风险：Muse如何访问你的信息？",
+            "免费与付费的隐藏限制",
+            "功能夸大宣传与实际体验的差距",
+            "地区封锁与网络问题"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -186,12 +56,142 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从“小映”看国产工具AI化：是效率革命，还是创意枷锁？",
-          "summary": "分析剪映等工具加入AI对视频创作生态的深远影响，探讨效率与创意的平衡。",
+          "hook": "Muse下载量反超ChatGPT背后：个人AI智能体将如何重塑我们的数字生活？",
+          "summary": "分析Muse爆火背后的趋势，探讨个人AI智能体与通用聊天机器人的本质区别与未来影响。",
           "insights": [
-            "降低视频制作门槛，加剧内容竞争",
-            "AI辅助可能重塑视频创作者的技能树",
-            "工具厂商通过AI构建更封闭的生态"
+            "从“问答”到“代理”：AI交互范式的转变",
+            "Meta的社交数据优势如何赋能Muse",
+            "个人智能体赛道格局：Muse vs. ChatGPT vs. 未来手机原生AI"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "Grok 4.7 vs Claude 5.5 vs GPT-6：百元预算，AI初学者该选谁？",
+      "track": "ai_tech",
+      "track_name": "AI技术（Agent/提示词/Skill/AI设计/模型发布）",
+      "target_audience": "AI初学者、预算有限的个人用户、想用AI提升效率的上班族",
+      "reason": "模型价格战和性能对比是持续热点，符合创作者“数据驱动”偏好，能为初学者提供清晰的选购指南，争议性强易传播。",
+      "source_items": [
+        "xAI launches Grok 4.7 at bargain prices, but benchmarks reveal a wide gap to Claude and GPT-6",
+        "Claude Opus 5. 5 疑遭内测泄露：跳级直冲GPT-6，百万Token价格腰斩至 4 美元",
+        "马斯克称 Grok 4.7 使 xAI 在智能体编码领域位列第三"
+      ],
+      "source_urls": [
+        "https://the-decoder.com/xai-launches-grok-4-7-at-bargain-prices-but-benchmarks-reveal-a-wide-gap-to-claude-and-gpt-6",
+        "https://www.aibase.com/news/31231",
+        "https://x.com/elonmusk/status/2102082011233931762",
+        "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra"
+      ],
+      "urgency": "high",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "测评视频+图文",
+          "hook": "百元内AI模型横评：我用Grok 4.7、Claude和GPT-6同时写代码、做PPT，结果惊了",
+          "summary": "通过实际任务对比测试Grok 4.7、Claude Sonnet/Opus、GPT-4o/6在不同场景下的效果与成本。",
+          "key_points": [
+            "测试环境与任务设置（代码、文案、分析）",
+            "分步骤展示各模型输出结果与耗时",
+            "计算单次任务成本，给出性价比最优选"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "45分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "别被“低价”和“榜单”忽悠！选AI模型的3个致命认知误区",
+          "summary": "指出只看价格、盲目相信基准测试、忽视使用场景等常见选择误区。",
+          "pitfalls": [
+            "误区一：只看单价，不看实际消耗（Token陷阱）",
+            "误区二：榜单全能冠军≠你的场景最优解",
+            "误区三：忽视上下文长度和API稳定性对工作流的影响"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "AI大模型价格战打响：是技术普惠，还是巨头的“降维打击”？",
+          "summary": "分析近期模型降价背后的商业逻辑、技术原因以及对中小开发者和普通用户的长远影响。",
+          "insights": [
+            "降价背后的算力成本下降与竞争压力",
+            "OpenAI、Anthropic、xAI不同的市场策略解读",
+            "价格战如何影响AI应用生态和创新机会"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "用AI一键生成商标？AIGC剧情视频揭秘商标注册的“坑”与“机”",
+      "track": "trademark",
+      "track_name": "商标/IP/创业（商标注册/知识产权/创业政策/AIGC引流）",
+      "target_audience": "想用AI变现的个人、需要商标注册的小微企业主、对AIGC剧情内容感兴趣的观众",
+      "reason": "完美结合创作者“AIGC剧情向内容引流”的偏好与商标代理业务，用热点（AI长剧）包装专业知识，实现软性引流。",
+      "source_items": [
+        "AI长剧首次上星，股价连续涨停，芒果TV“用内容做AI”的AIGC逆向实验｜专访",
+        "Molly Sims Accused Jones Road of Copying ‘Wide Awake.’ A Trademark Attorney Says Her Callout Was Risky"
+      ],
+      "source_urls": [
+        "https://36kr.com/p/3993401668909827?f=rss",
+        "https://www.inc.com/victoria-salves/molly-sims-accused-jones-road-copying-wide-awake-trademark-attorney-move-risky/91408323",
+        "https://www.managingip.com/article/2gxa0l986ks1mypxiai2o/patents/beyond-the-headlines-are-boutiques-winning-the-patent-talent-war"
+      ],
+      "urgency": "medium",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "AIGC剧情视频",
+          "hook": "【AI短剧】创业公司用Midjourney生成Logo，竟被告侵权？三步教你安全用AI设计商标",
+          "summary": "通过一个AIGC生成的剧情短片，演示如何利用AI工具进行商标设计创意，并规避侵权风险。",
+          "key_points": [
+            "第一步：用提示词生成多个Logo创意方案",
+            "第二步：进行初步的商标近似查询（演示免费工具）",
+            "第三步：判断AI生成图形的可注册性要点"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "1天（含AI生成与剪辑）"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI设计的商标100%被驳回？这5类图形千万不能用",
+          "summary": "明确指出AI生成商标在注册审查中的常见硬伤，帮助创业者避坑。",
+          "pitfalls": [
+            "坑一：缺乏显著性（过于抽象或描述性）",
+            "坑二：与他人在先权利近似（AI的“缝合怪”特性）",
+            "坑三：包含禁用元素（国旗、国徽等）",
+            "坑四：图形不清晰，无法精确界定保护范围",
+            "坑五：版权归属不明（AI生成物的版权问题）"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "从“AI长剧上星”到“商标维权”：AIGC内容如何影响知识产权法律边界？",
+          "summary": "结合芒果TV AI长剧案例，探讨AIGC生成内容在商标、版权领域的法律挑战与商业机会。",
+          "insights": [
+            "AIGC内容的“作品”认定与权利归属困境",
+            "品牌方如何利用AIGC进行高效维权与监测",
+            "未来知识产权服务如何与AIGC技术结合（自动化查重、侵权分析）"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -200,126 +200,125 @@
     },
     {
       "rank": 4,
-      "title": "你的浏览记录正被ChatGPT追踪？AI时代的隐私保卫战",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "所有AI工具用户、关心数据隐私的人",
-      "reason": "涉及隐私安全，具有强冲突性和传播潜力，符合用户偏好争议性选题的特点，可做避坑指南。",
+      "title": "Robin Williams女儿怒斥AI视频：创作者如何用AI工具守住伦理与流量",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装（AI视频生成/视频剪辑/视觉包装）",
+      "target_audience": "AI视频创作者、自媒体运营者、对AI伦理感兴趣的用户",
+      "reason": "结合热点伦理争议，切入AI视频赛道，符合创作者“争议性/冲突性选题”偏好，能引发广泛讨论和共鸣。",
       "source_items": [
-        "开发者实锤OpenAI广告追踪链条：ChatGPT账号正悄悄绑定你的全网浏览足迹",
-        "The US wants an AI-era 'red phone' with China"
+        "Robin Williams' Daughter to Fans Creating AI Videos: 'Have Some Shame'",
+        "Higgsfield AI ships new video features in a day with GPT-6 Astra"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/31234",
-        "https://www.businessinsider.com/trump-xi-meeting-summit-us-china-ai-safety-risk-mechanism-2026-9",
-        "https://www.cnbc.com/2026/09/21/cnbc-daily-open-trump-xi-summit-ai-gemini-openai.html"
+        "https://variety.com/2026/film/news/robin-williams-daughter-ai-videos-1236871568",
+        "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+        "https://www.meetup.com/bay-area-ai-artists/events/316379184"
       ],
-      "urgency": "medium",
+      "urgency": "high",
       "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "三步关闭ChatGPT隐私追踪，保护你的浏览数据",
-          "summary": "提供清晰步骤，指导用户在ChatGPT及浏览器中关闭数据收集选项。",
+          "format": "视频教程",
+          "hook": "不碰红线！用AI生成致敬视频的合规操作指南（附提示词模板）",
+          "summary": "教授如何利用AI视频工具（如Pika、Sora等）创作致敬、混剪类内容，同时严格遵守伦理与版权规范。",
           "key_points": [
-            "在ChatGPT设置中找到并关闭“数据改进”",
-            "浏览器中管理Cookie和网站数据",
-            "使用隐私浏览模式或专用浏览器访问AI工具"
+            "素材选择：仅使用已获授权或CC0协议的内容",
+            "提示词技巧：强调“风格致敬”而非“角色复刻”",
+            "成品标注：明确注明“AI生成”及灵感来源"
           ],
           "difficulty": "入门",
-          "estimated_time": "20分钟"
+          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文+短视频",
-          "hook": "除了ChatGPT，这些常用AI工具也在“偷”你的数据",
-          "summary": "盘点其他可能存在类似隐私风险的AI工具，并提供通用防范策略。",
+          "format": "图文",
+          "hook": "你的AI视频可能正在违法！盘点4类高风险创作题材",
+          "summary": "明确指出可能涉及肖像权、名誉权、版权侵权的AI视频创作类型，帮助创作者规避法律风险。",
           "pitfalls": [
-            "免费AI工具常以数据换服务",
-            "用户协议中隐藏的数据共享条款",
-            "第三方插件可能成为数据泄露缺口"
+            "坑一：深度伪造在世名人进行商业或负面演绎",
+            "坑二：未经授权使用影视剧角色形象和剧情",
+            "坑三：生成涉及现实暴力、恐怖等内容",
+            "坑四：模仿已故名人声音、形象进行“复活”创作"
           ],
           "difficulty": "入门",
-          "estimated_time": "25分钟"
+          "estimated_time": "15分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI公司的“数据饥渴”：隐私与进步的永恒悖论",
-          "summary": "探讨AI发展对数据的需求与个人隐私权之间的根本矛盾及未来走向。",
+          "hook": "“Have Some Shame”背后：AI视频时代，创作自由与道德责任的边界在哪里？",
+          "summary": "深入探讨AI视频技术对传统创作伦理的冲击，以及平台、创作者、公众三方应如何建立新共识。",
           "insights": [
-            "高质量数据是AI进化的燃料，难以回避收集",
-            "全球监管滞后于技术发展，用户处于弱势",
-            "隐私计算、联邦学习等技术能否成为解药？"
+            "技术便利性如何降低了伦理门槛",
+            "情感伤害 vs. 表达自由：以逝者为主题的创作尺度",
+            "从“平台审核”到“社区共识”：构建AI时代的创作规范"
           ],
           "difficulty": "中级",
-          "estimated_time": "1.5小时"
+          "estimated_time": "1小时"
         }
       ]
     },
     {
       "rank": 5,
-      "title": "AI创业第一步：用AIGC生成品牌名和Logo，如何避开商标雷区？",
-      "track": "trademark",
-      "track_name": "商标/IP/创业",
-      "target_audience": "想用AI变现的个人、需要商标注册服务的小微企业主",
-      "reason": "完美结合AI赛道与商标代理业务，通过AIGC剧情向内容实现高自动化引流，实操性强。",
+      "title": "AI如何改变社媒运营？从“追热点”到“预测热点”的实战策略",
+      "track": "creator_economy",
+      "track_name": "自媒体/创作者经济（内容创作/运营策略/平台流量）",
+      "target_audience": "自媒体运营者、想用AI变现的个人、AI初学者",
+      "reason": "结合信息流中“AI改变营销响应”的热点，贴合创作者“自媒体运营策略”的能力范围，提供数据驱动的实操方法。",
       "source_items": [
-        "‘Follow the money’: inside Gibson Dunn’s ‘innovative’ anti-counterfeiting strategy",
-        "IKEA v Vlaams Belang: free speech sold separately?",
-        "Beyond the headlines: Are boutiques winning the patent talent war?"
+        "AI Is Changing How Marketers Respond to Social Signals",
+        "Viewing Social Media as an Extension of Human Instinct"
       ],
       "source_urls": [
-        "https://www.managingip.com/article/2gwvk0r0nmf9i8t2kvd34/trademarks/follow-the-money-inside-gibson-dunns-innovative-anti-counterfeiting-strategy",
-        "https://www.managingip.com/article/2gxa8n1a1u0tsxm4v4npc/sponsored-content/ikea-v-vlaams-belang-free-speech-sold-separately",
-        "https://www.managingip.com/article/2gxa0l986ks1mypxiai2o/patents/beyond-the-headlines-are-boutiques-winning-the-patent-talent-war",
-        "https://patentlyo.com/patent/2026/09/the-missing-inventor-problem.html"
+        "https://www.adweek.com/social-marketing/ai-is-changing-how-marketers-respond-to-social-signals",
+        "https://www.adweek.com/social-marketing/viewing-social-media-as-an-extension-of-human-instinct",
+        "https://www.adweek.com/media/unwell-alex-cooper-new-shows-youtube"
       ],
-      "urgency": "low",
+      "urgency": "medium",
       "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "AIGC剧情向视频",
-          "hook": "用Midjourney+ChatGPT批量生成100个品牌名和Logo（附提示词）",
-          "summary": "演示如何通过AI工具组合，高效生成大量品牌创意元素。",
+          "format": "图文+视频演示",
+          "hook": "我用AI工具监控全网，提前3天预测了爆款选题，流量翻倍",
+          "summary": "一步步教读者如何使用ChatGPT、爬虫工具（简易）和趋势分析平台，搭建自己的热点预测系统。",
           "key_points": [
-            "ChatGPT生成品牌名与Slogan的提示词技巧",
-            "Midjourney生成Logo的精准描述词结构",
-            "将文字创意与视觉元素快速结合的流程"
+            "工具准备：ChatGPT提示词+简易数据源（如Feedly、Google Trends）",
+            "设置监控关键词与情绪分析维度",
+            "将分析结果转化为具体的选题和内容角度"
           ],
-          "difficulty": "入门",
+          "difficulty": "中级",
           "estimated_time": "40分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI生成的Logo好看但侵权？创业小白必知的商标排查法",
-          "summary": "指出直接用AI生成物做商标的风险，并教授基础的商标近似查询方法。",
+          "hook": "别让AI害你限流！社媒运营中AI工具的3大使用禁忌",
+          "summary": "指出滥用AI导致内容同质化、违反平台规则、丧失个人风格等常见问题。",
           "pitfalls": [
-            "AI可能模仿现有知名Logo导致侵权",
-            "图形商标的近似判断比文字更复杂",
-            "未查询就投入使用可能面临高额赔偿"
+            "禁忌一：全文照搬AI生成，触发平台重复内容机制",
+            "禁忌二：用AI批量生成虚假互动（评论、点赞）",
+            "禁忌三：过度依赖AI分析，忽视对真实受众的洞察和互动"
           ],
           "difficulty": "入门",
-          "estimated_time": "25分钟"
+          "estimated_time": "15分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AIGC时代，商标注册的逻辑变了吗？从“创作”到“筛选”的转变",
-          "summary": "分析AI工具如何改变品牌创建初期的工作流，以及知识产权保护的新重点。",
+          "hook": "从“响应”到“预判”：AI如何重构创作者与算法、受众的关系？",
+          "summary": "分析AI工具如何让创作者从被动迎合算法，转向主动塑造话题和引领趋势。",
           "insights": [
-            "AI将创意生成门槛降至极低，核心竞争转为筛选与合规",
-            "商标申请量可能激增，对查询系统和代理服务提出新要求",
-            "结合AI工具，商标代理服务可向“创意合规顾问”升级"
+            "AI分析工具如何解读“社交信号”背后的群体心理",
+            "创作者的核心竞争力从“执行力”转向“策展与判断力”",
+            "人机协作下，内容创作的“温度”与“效率”如何平衡"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -328,61 +327,61 @@
     },
     {
       "rank": 6,
-      "title": "OceanBase登顶Data Agent榜单：国产AI在专业领域逆袭？",
+      "title": "本地运行AI智能体？M5 Ultra Mac Studio实测，小白也能玩转的“私有AI”",
       "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、对国产AI技术感兴趣的用户、技术爱好者",
-      "reason": "涉及国产技术突破和垂直领域Agent，具有话题性和数据说服力，符合用户对数据驱动选题的偏好。",
+      "track_name": "AI技术（Agent/提示词/Skill/AI设计/模型发布）",
+      "target_audience": "对隐私有要求的AI进阶用户、技术爱好者、考虑硬件投入的创作者",
+      "reason": "针对高端硬件评测，但角度转向“小白也能上手的本地AI”，降低门槛，满足部分用户对隐私和离线能力的需求，且避开了纯硬件评测的拒绝点。",
       "source_items": [
-        "登顶国际Data Agent榜单，OceanBase超过多项GPT、Claude方案",
-        "From Retrieval to Action: GraphRAG Meets Physical AI"
+        "Review of Mac Studio (M5 Ultra) with 256 GB of RAM: a dream machine to run local AI agents and a massive leap over M3 Ultra for prompt processing and generation (Federico Viticci/MacStories)"
       ],
       "source_urls": [
-        "https://www.aibase.com/news/31229",
-        "https://www.meetup.com/agentic-ai-context-builders/events/316217896",
-        "https://the-decoder.com/xai-launches-grok-4-7-at-bargain-prices-but-benchmarks-reveal-a-wide-gap-to-claude-and-gpt-6"
+        "https://www.techmeme.com/260921/p39",
+        "https://the-decoder.com/xai-launches-grok-4-7-at-bargain-prices-but-benchmarks-reveal-a-wide-gap-to-claude-and-gpt-6",
+        "https://www.meetup.com/artificial-intelligence-deep-learning/events/316064264"
       ],
-      "urgency": "medium",
+      "urgency": "low",
       "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "（概念演示）如何像OceanBase一样，为你的专业领域构建一个Data Agent？",
-          "summary": "以简化案例，讲解构建专业数据智能体的核心思路与可用工具链。",
+          "format": "视频测评",
+          "hook": "不用M5 Ultra！普通电脑也能本地运行AI智能体？Ollama+LM Studio入门教程",
+          "summary": "绕过昂贵硬件，教用户如何在普通Windows/Mac电脑上通过Ollama、LM Studio等工具运行本地大模型和智能体。",
           "key_points": [
-            "明确Agent要解决的专业数据问题（如财务分析、代码审查）",
-            "选择合适的RAG框架与数据接入方式",
-            "设计测试用例验证Agent的准确性与实用性"
+            "选择适合你电脑配置的轻量级模型（如Llama 3.1 8B）",
+            "Ollama/LM Studio的安装与基础配置",
+            "运行你的第一个本地AI对话与简单任务"
           ],
-          "difficulty": "中级",
-          "estimated_time": "45分钟"
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "别迷信榜单！企业级Data Agent落地常见的三大“水土不服”",
-          "summary": "分析将榜单上的优秀Agent方案应用到实际业务中可能遇到的数据、成本、适配问题。",
+          "hook": "想玩本地AI？先看清这4个烧钱又费时的“大坑”",
+          "summary": "指出盲目追求顶级硬件、模型选择不当、期待过高、生态不成熟等本地AI的常见问题。",
           "pitfalls": [
-            "企业私有数据格式复杂，预处理成本高",
-            "通用榜单指标无法完全反映垂直场景需求",
-            "持续维护与更新的隐性成本被低估"
+            "坑一：盲目追求顶级硬件，忽视性价比和实际需求",
+            "坑二：下载了不合适的模型，速度慢效果差",
+            "坑三：期待本地模型达到GPT-4级能力，现实落差大",
+            "坑四：工具链复杂，问题排查困难（缺乏社区支持）"
           ],
-          "difficulty": "中级",
-          "estimated_time": "25分钟"
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "OceanBase夺冠的信号：AI竞争正从通用走向垂直深水区",
-          "summary": "解读此次事件背后的行业趋势，即垂直领域、企业级AI应用将成为下一个竞争焦点。",
+          "hook": "“私有AI”是伪需求吗？从Mac Studio看本地AI计算的未来与悖论",
+          "summary": "探讨在云服务主导的时代，本地AI计算的价值、适用场景及其面临的技术与商业挑战。",
           "insights": [
-            "数据库厂商切入AI具有天然的数据与场景优势",
-            "垂直领域Agent是AI价值变现的关键路径",
-            "对国内AI应用生态发展的启示与机会"
+            "隐私、成本、延迟：本地AI的三大核心驱动力",
+            "边缘计算与端侧AI：苹果、高通等巨头的战略布局",
+            "“混合AI”模式：未来更可能是云端协同，而非二选一"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -391,22 +390,22 @@
     }
   ],
   "weekly_plan": {
-    "monday": "Meta Muse AI 爆火，普通人如何用它打造个人智能助理？（实操教程）",
-    "wednesday": "大模型混战：Grok 4.7 vs Claude 5.5 vs GPT-6，谁才是小白性价比之王？（测评对比）",
-    "friday": "AI创业第一步：用AIGC生成品牌名和Logo，如何避开商标雷区？（AIGC剧情向视频）",
-    "strategy": "本周聚焦热点模型工具测评+垂直领域AI应用解读，穿插隐私安全话题，并以AIGC结合商标引流收尾。"
+    "monday": "Grok 4.7 vs Claude 5.5 vs GPT-6：百元预算，AI初学者该选谁？（实操教程）",
+    "wednesday": "Meta Muse爆火，个人AI智能体时代真的来了？新手如何上车（避坑指南）",
+    "friday": "用AI一键生成商标？AIGC剧情视频揭秘商标注册的“坑”与“机”（AIGC剧情视频）",
+    "strategy": "本周聚焦“AI工具选择与伦理”，以热点工具测评和争议话题引流，穿插AIGC剧情实现业务转化。"
   },
-  "insights": "今日信息流显示AI竞争白热化：模型发布密集（Grok 4.7、Claude 5.5泄露），价格战加剧；个人AI助理（Muse）和垂直领域Agent（OceanBase）成为新热点；工具AI化（剪映）与数据隐私问题并存。",
-  "ai_adjustment": "基于用户反馈“对新模型、新工具比较感兴趣”及“Harness是热点”，本次推荐重点围绕新发布的Muse、Grok 4.7等工具和模型设计选题，并强化了实操测评和数据对比角度。",
-  "generated_at": "2026-09-22T03:57:34.597627+08:00",
-  "total_items": 371,
-  "scored_items": 301,
+  "insights": "今日信息流显示，AI智能体（Agent）竞争白热化（Muse, Grok），模型价格战加剧，同时AI生成内容（视频、商标）的伦理与法律问题成为新焦点。",
+  "ai_adjustment": "基于用户反馈，重点围绕“Harness”、“新模型新工具”等兴趣点展开，并规避纯硬件内容；将商标/IP内容与AIGC热点深度结合，强化剧情向引流。",
+  "generated_at": "2026-09-22T17:02:20.826186+08:00",
+  "total_items": 445,
+  "scored_items": 366,
   "tracks_summary": {
-    "ai_tech": 274,
-    "trademark_business": 6,
-    "creator_economy": 13,
-    "ai_video": 7,
-    "growth_monetize": 1
+    "ai_tech": 334,
+    "trademark_business": 10,
+    "creator_economy": 15,
+    "ai_video": 5,
+    "growth_monetize": 2
   },
   "engine_version": "v2",
   "engine_params": {
