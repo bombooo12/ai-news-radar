@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T08:58:38.023893Z",
+  "generated_at": "2026-09-22T13:52:38.541294Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,10 +17,50 @@
   ],
   "items": [
     {
+      "story_id": "story_9bf1a94971e8",
+      "title": "transformers 支持直接加载 GGUF 量化模型，本地推理性能接近 llama.cpp / Transformers now runs llama.cpp quants",
+      "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "rank": 1,
+      "reviews": {
+        "cynic": {
+          "score": 85,
+          "review": "官方下场支持主流格式，性能对标原方案，这次是实打实的便利。"
+        },
+        "paper-police": {
+          "score": 75,
+          "review": "官方技术博客有实现细节，但评测对比数据与代码复现性待验证。"
+        },
+        "pragmatic": {
+          "score": 88,
+          "review": "不用再装llama.cpp，transformers直接跑量化模型，简化本地部署流程。"
+        }
+      }
+    },
+    {
+      "story_id": "story_cbd16b700896",
+      "title": "OpenRouter 推出 Batch API，批量推理可享半价 / Batch API： half-price inference by bundling requests",
+      "url": "https://openrouter.ai/blog/announcements/batch-api",
+      "rank": 2,
+      "reviews": {
+        "cynic": {
+          "score": 72,
+          "review": "价格战老套路，批量处理打折是行业常规，算不上什么突破。"
+        },
+        "paper-police": {
+          "score": 15,
+          "review": "仅有官方博客宣传，无论文、代码或独立评测佐证其性能与定价。"
+        },
+        "pragmatic": {
+          "score": 88,
+          "review": "批量推理成本直接减半，处理大量非实时任务今天就能用上。"
+        }
+      }
+    },
+    {
       "story_id": "story_c1fb35598aba",
       "title": "Refreshed repository pull requests page generally available",
       "url": "https://github.blog/changelog/2026-09-21-refreshed-repository-pull-requests-page-generally-available",
-      "rank": 1,
+      "rank": 3,
       "reviews": {
         "cynic": {
           "score": 65,
@@ -33,46 +73,6 @@
         "pragmatic": {
           "score": 85,
           "review": "GitHub PR页面新UI已上线，今天就能用，影响日常协作体验。"
-        }
-      }
-    },
-    {
-      "story_id": "story_3f10cf90ec97",
-      "title": "Grok 4.7 is now available in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 65,
-          "review": "版本号跳得挺快，但具体是修了bug还是真升级，得看代码补全时还犯不犯傻。"
-        },
-        "paper-police": {
-          "score": 15,
-          "review": "官方博客宣称集成，无论文、代码或独立评测佐证其性能。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "Grok 4.7模型已集成进Copilot，开发者现在就能在IDE里用上。"
-        }
-      }
-    },
-    {
-      "story_id": "story_7507ddf4a875",
-      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "rank": 3,
-      "reviews": {
-        "cynic": {
-          "score": 35,
-          "review": "用自家新模型给自家产品做演示，这闭环营销玩得真溜。"
-        },
-        "paper-police": {
-          "score": 15,
-          "review": "官方博客宣称功能，无论文、无代码、无独立评测，证据不足。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "GPT-6 Astra已可用，能快速生成视频，开发者今天就能接入测试。"
         }
       }
     }

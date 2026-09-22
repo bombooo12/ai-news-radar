@@ -1,96 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_faa62a90bef8|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "了解安全风险案例，但具体漏洞已修复，无需立即行动。",
-      "title_hash": "4b9539fc",
-      "scored_at": "2026-09-01T09:06:32.148606Z"
-    },
-    "story_738e46a2b277|pragmatic|0a5c5b24": {
-      "score": 12,
-      "review": "个别用户误用案例，对开发者工作无实际影响。",
-      "title_hash": "be164f4b",
-      "scored_at": "2026-09-01T09:06:36.068271Z"
-    },
-    "story_a7f053021921|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "OpenAI收入数据，对开发者选型或使用产品无直接影响。",
-      "title_hash": "f3e974a6",
-      "scored_at": "2026-09-01T09:06:39.683171Z"
-    },
-    "story_08b8473c055e|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "开源多模态模型可直接集成，为你的Agent项目提供视觉能力。",
-      "title_hash": "6479b21a",
-      "scored_at": "2026-09-01T09:06:42.629032Z"
-    },
-    "story_34e1bbef1d56|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "股价涨跌不影响你选型，等模型发布且能用了再说。",
-      "title_hash": "b8d32979",
-      "scored_at": "2026-09-01T09:06:46.721950Z"
-    },
-    "story_d50e38f3313d|pragmatic|0a5c5b24": {
-      "score": 75,
-      "review": "UI/UX设计师和前端可关注交互原型新工具，但需等开放试用。",
-      "title_hash": "410734c5",
-      "scored_at": "2026-09-01T09:06:51.720865Z"
-    },
-    "story_18a954a364e8|pragmatic|0a5c5b24": {
-      "score": 75,
-      "review": "开源大模型可直接部署，端侧长上下文应用有新选择。",
-      "title_hash": "53d47241",
-      "scored_at": "2026-09-01T09:06:55.934341Z"
-    },
-    "story_175ffde23042|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "行业垂直模型发布，无具体产品细节，对开发者暂无直接用处。",
-      "title_hash": "235f32a8",
-      "scored_at": "2026-09-01T09:06:59.294363Z"
-    },
-    "story_f25d703e5962|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "开源模型可直接下载部署，马上就能测试或集成。",
-      "title_hash": "9888ff0c",
-      "scored_at": "2026-09-01T09:07:02.977751Z"
-    },
-    "story_290daf4b2b31|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "讨论代码所有权归属，属于法律和伦理探讨，不影响今天的开发工作。",
-      "title_hash": "c4ade6d3",
-      "scored_at": "2026-09-01T09:07:06.150885Z"
-    },
-    "story_00a15fcdfcdb|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "国家层面的长期投资，不影响你今天选型或写代码。",
-      "title_hash": "bc15a5a0",
-      "scored_at": "2026-09-01T09:07:09.781069Z"
-    },
-    "story_08b8473c055e|cynic|f4237a62": {
-      "score": 72,
-      "review": "专供Agent干活？听起来像是通用能力不行，只好找个垂直场景讲故事。",
-      "title_hash": "6479b21a",
-      "scored_at": "2026-09-01T09:07:13.500623Z"
-    },
-    "story_08b8473c055e|paper-police|966065bf": {
-      "score": 45,
-      "review": "报道提及开源模型，但未附论文与独立评测链接，证据链不完整。",
-      "title_hash": "6479b21a",
-      "scored_at": "2026-09-01T09:07:21.671914Z"
-    },
-    "story_f25d703e5962|cynic|f4237a62": {
-      "score": 55,
-      "review": "开源是好事，但‘重磅’和‘全新’得看代码和性能，别又是参数改改名。",
-      "title_hash": "9888ff0c",
-      "scored_at": "2026-09-01T09:07:25.387812Z"
-    },
-    "story_f25d703e5962|paper-police|966065bf": {
-      "score": 65,
-      "review": "有开源代码和官方发布，但未见配套论文及独立评测报告。",
-      "title_hash": "9888ff0c",
-      "scored_at": "2026-09-01T09:07:28.715490Z"
-    },
     "story_8ba38180ebe6|pragmatic|0a5c5b24": {
       "score": 85,
       "review": "开源了200+可直接用的WebGPU核心，本地推理性能优化有现成轮子了。",
@@ -4686,6 +4596,84 @@
       "review": "官方博客宣称功能，无论文、无代码、无独立评测，证据不足。",
       "title_hash": "13b041fb",
       "scored_at": "2026-09-22T08:58:38.023840Z"
+    },
+    "story_9bf1a94971e8|pragmatic|0a5c5b24": {
+      "score": 88,
+      "review": "不用再装llama.cpp，transformers直接跑量化模型，简化本地部署流程。",
+      "title_hash": "3a738db1",
+      "scored_at": "2026-09-22T13:50:44.431753Z"
+    },
+    "story_a2908ae72b38|pragmatic|0a5c5b24": {
+      "score": 80,
+      "review": "CodeQL多平台捆绑包将弃用，需规划迁移至独立CLI或GitHub Actions。",
+      "title_hash": "d398f7b2",
+      "scored_at": "2026-09-22T13:50:48.267902Z"
+    },
+    "story_9dd455633b21|pragmatic|0a5c5b24": {
+      "score": 30,
+      "review": "一个新硬件玩具，对开发者日常工作没有直接影响。",
+      "title_hash": "5f963df4",
+      "scored_at": "2026-09-22T13:50:51.340987Z"
+    },
+    "story_1dd4b02f1969|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "浏览器侧边栏可直接用 Kimi，今天就能装，查网页信息更方便。",
+      "title_hash": "d4a07ecc",
+      "scored_at": "2026-09-22T13:50:54.714795Z"
+    },
+    "story_ed275edd4f01|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "新硬件开售，做本地AI推理或视频生成的开发者可以下单升级了。",
+      "title_hash": "a5be9e84",
+      "scored_at": "2026-09-22T13:51:08.029677Z"
+    },
+    "story_a2991f911034|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "名人观点，不提供新工具或具体行动指南，知道就行。",
+      "title_hash": "7153922d",
+      "scored_at": "2026-09-22T13:51:12.489914Z"
+    },
+    "story_cbd16b700896|pragmatic|0a5c5b24": {
+      "score": 88,
+      "review": "批量推理成本直接减半，处理大量非实时任务今天就能用上。",
+      "title_hash": "7c7a17d0",
+      "scored_at": "2026-09-22T13:51:31.506096Z"
+    },
+    "story_2e1abb5f9e0d|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "路线图是远期展望，不影响今天的模型选型和开发工作。",
+      "title_hash": "a82fee94",
+      "scored_at": "2026-09-22T13:51:35.866395Z"
+    },
+    "story_ec8391fd6c37|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "新模型已上线，价格减半，长任务场景今天就能测试。",
+      "title_hash": "20631044",
+      "scored_at": "2026-09-22T13:51:43.536457Z"
+    },
+    "story_9bf1a94971e8|cynic|f4237a62": {
+      "score": 85,
+      "review": "官方下场支持主流格式，性能对标原方案，这次是实打实的便利。",
+      "title_hash": "3a738db1",
+      "scored_at": "2026-09-22T13:51:52.535898Z"
+    },
+    "story_9bf1a94971e8|paper-police|966065bf": {
+      "score": 75,
+      "review": "官方技术博客有实现细节，但评测对比数据与代码复现性待验证。",
+      "title_hash": "3a738db1",
+      "scored_at": "2026-09-22T13:51:58.281152Z"
+    },
+    "story_cbd16b700896|cynic|f4237a62": {
+      "score": 72,
+      "review": "价格战老套路，批量处理打折是行业常规，算不上什么突破。",
+      "title_hash": "7c7a17d0",
+      "scored_at": "2026-09-22T13:52:34.854454Z"
+    },
+    "story_cbd16b700896|paper-police|966065bf": {
+      "score": 15,
+      "review": "仅有官方博客宣传，无论文、代码或独立评测佐证其性能与定价。",
+      "title_hash": "7c7a17d0",
+      "scored_at": "2026-09-22T13:52:38.541157Z"
     }
   }
 }
