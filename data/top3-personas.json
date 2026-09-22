@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T13:52:38.541294Z",
+  "generated_at": "2026-09-22T18:29:12.168669Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_9bf1a94971e8",
-      "title": "transformers 支持直接加载 GGUF 量化模型，本地推理性能接近 llama.cpp / Transformers now runs llama.cpp quants",
-      "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "story_id": "story_3de84024ac7c",
+      "title": "GPT-6 Sol and Luna in Codex and ChatGPT Work",
+      "url": "https://developers.openai.com/codex/changelog",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 85,
-          "review": "官方下场支持主流格式，性能对标原方案，这次是实打实的便利。"
-        },
-        "paper-police": {
           "score": 75,
-          "review": "官方技术博客有实现细节，但评测对比数据与代码复现性待验证。"
-        },
-        "pragmatic": {
-          "score": 88,
-          "review": "不用再装llama.cpp，transformers直接跑量化模型，简化本地部署流程。"
-        }
-      }
-    },
-    {
-      "story_id": "story_cbd16b700896",
-      "title": "OpenRouter 推出 Batch API，批量推理可享半价 / Batch API： half-price inference by bundling requests",
-      "url": "https://openrouter.ai/blog/announcements/batch-api",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 72,
-          "review": "价格战老套路，批量处理打折是行业常规，算不上什么突破。"
+          "review": "Sol和Luna？先别管名字，把具体性能提升和API定价的文档放出来再说。"
         },
         "paper-police": {
           "score": 15,
-          "review": "仅有官方博客宣传，无论文、代码或独立评测佐证其性能与定价。"
+          "review": "仅有官方更新日志，无论文、代码或独立评测，无法验证具体性能。"
         },
         "pragmatic": {
-          "score": 88,
-          "review": "批量推理成本直接减半，处理大量非实时任务今天就能用上。"
+          "score": 95,
+          "review": "GPT-6的Sol和Luna模型已上线，开发者现在就能在Codex和ChatGPT API中调用。"
         }
       }
     },
     {
-      "story_id": "story_c1fb35598aba",
-      "title": "Refreshed repository pull requests page generally available",
-      "url": "https://github.blog/changelog/2026-09-21-refreshed-repository-pull-requests-page-generally-available",
-      "rank": 3,
+      "story_id": "story_446a1de4971a",
+      "title": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 促销价低 50% / Please welcome GPT-6 Sol and GPT-6 Luna to the GPT-6 universe. GPT-6 Sol and Luna build on the adva…",
+      "url": "https://x.com/OpenAI/status/2102460975790137662",
+      "rank": 2,
       "reviews": {
         "cynic": {
           "score": 65,
-          "review": "UI改版也叫“全面可用”，PR稿里没提的“刷新”在哪？"
+          "review": "降价是真利好，但‘GPT-6宇宙’这名头，听起来比实际升级幅度大多了。"
         },
         "paper-police": {
-          "score": 45,
-          "review": "官方博客描述功能更新，有迹可循但无独立评测验证。"
+          "score": 15,
+          "review": "仅有官方推文宣称性能与降价，无论文、代码或独立评测佐证。"
         },
         "pragmatic": {
-          "score": 85,
-          "review": "GitHub PR页面新UI已上线，今天就能用，影响日常协作体验。"
+          "score": 92,
+          "review": "API价格直接腰斩，今天做成本预算和模型选型必须重算。"
+        }
+      }
+    },
+    {
+      "story_id": "story_b742684d2aef",
+      "title": "Anthropic 发布 Claude Opus 5.5，成本较 Opus 5 降低 40% / Introducing Claude Opus 5.5",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "rank": 3,
+      "reviews": {
+        "cynic": {
+          "score": 78,
+          "review": "降本是实打实的，但‘5.5’这命名，性能提升的幅度怕是对不起这个点号。"
+        },
+        "paper-police": {
+          "score": 15,
+          "review": "官网博客宣称性能与成本，无论文、代码或独立评测佐证。"
+        },
+        "pragmatic": {
+          "score": 88,
+          "review": "API成本立减四成，用Opus做推理的今天就能省钱。"
         }
       }
     }

@@ -136,6 +136,14 @@
         "url": "https://www.anthropic.com/claude-opus-5-5",
         "source": "Anthropic：Newsroom（网页）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 88,
+      "persona_review": "API成本立减四成，用Opus做推理的今天就能省钱。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-22T18:27:39.783604Z"
       }
     },
     {
@@ -213,6 +221,14 @@
         "url": "https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "GitHub Copilot用户今天就能用上更强的Claude模型，直接提升代码生成质量。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-22T18:27:39.783604Z"
       }
     },
     {
@@ -319,6 +335,14 @@
         "url": "https://artificialanalysis.ai/articles/claude-opus-5-5",
         "source": "Artificial Analysis 完整文章（网页）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 68,
+      "persona_review": "选型新参考，但榜单变化快，别急着为排名重构现有流程。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-22T18:27:39.783604Z"
       }
     },
     {
@@ -396,6 +420,14 @@
         "url": "https://developers.openai.com/codex/changelog",
         "source": "OpenAI Codex Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 95,
+      "persona_review": "GPT-6的Sol和Luna模型已上线，开发者现在就能在Codex和ChatGPT API中调用。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-22T18:27:39.783604Z"
       }
     },
     {
@@ -473,6 +505,14 @@
         "url": "https://huggingface.co/blog/evaleval-aisi",
         "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 70,
+      "persona_review": "提供了新的可复现评测框架，做模型对比研究时可以参考其方法。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-22T18:27:39.783604Z"
       }
     },
     {
@@ -579,6 +619,14 @@
         "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
         "source": "Claude Code：GitHub Releases（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "IDE插件已更新，今天写代码就能用上更强的默认模型。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-22T18:27:39.783604Z"
       }
     },
     {
@@ -656,6 +704,14 @@
         "url": "https://openai.com/index/priorities-principles-third-party-assessments",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 30,
+      "persona_review": "这是公司治理层面的原则声明，与日常开发选型无关。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-22T18:27:39.783604Z"
       }
     },
     {
@@ -732,6 +788,14 @@
         "url": "https://x.com/ArtificialAnlys/status/2102462962758033624",
         "source": "X：Artificial Analysis (@ArtificialAnlys)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "第三方评测显示新模型性价比翻倍，选型时可重点考虑成本。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-22T18:27:39.783604Z"
       }
     },
     {
@@ -809,6 +873,14 @@
         "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
         "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 88,
+      "persona_review": "不用再装llama.cpp，transformers直接跑量化模型，简化本地部署流程。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-22T18:27:39.783604Z"
       }
     },
     {
@@ -915,6 +987,14 @@
         "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day",
         "source": "Hacker News：AI 热帖",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "使用Muse的开发者需警惕，本地应用权限管理存在风险，应立即审查。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-22T18:27:39.783604Z"
       }
     },
     {
@@ -992,6 +1072,14 @@
         "url": "https://github.blog/changelog/2026-09-22-deprecation-notice-all-platform-codeql-bundle",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 80,
+      "persona_review": "CodeQL多平台捆绑包将弃用，需规划迁移至独立CLI或GitHub Actions。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-22T18:27:39.783604Z"
       }
     },
     {
@@ -1068,6 +1156,14 @@
         "url": "https://x.com/arena/status/2102454952576868638",
         "source": "X：Arena (@arena)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 62,
+      "persona_review": "新模型加入公开评测，选型时可多一个参考基准。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-22T18:27:39.783604Z"
       }
     },
     {
@@ -1144,6 +1240,14 @@
         "url": "https://x.com/OpenRouter/status/2102438921213014078",
         "source": "X：OpenRouter (@OpenRouter)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "新模型已上线，API可直接调用，做智能体或编码可以换它试试。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-22T18:27:39.783604Z"
       }
     },
     {
@@ -1220,6 +1324,14 @@
         "url": "https://x.com/OpenAI/status/2102460975790137662",
         "source": "X：OpenAI (@OpenAI)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 92,
+      "persona_review": "API价格直接腰斩，今天做成本预算和模型选型必须重算。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-22T18:27:39.783604Z"
       }
     },
     {
@@ -1296,6 +1408,14 @@
         "url": "https://x.com/bcherny/status/2102439069053747549",
         "source": "X：Boris Cherny (@bcherny)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "实测显示新模型更快更便宜，选型时可优先考虑以优化成本与速度。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-22T18:27:39.783604Z"
       }
     },
     {
@@ -1373,6 +1493,14 @@
         "url": "https://huggingface.co/blog/omlx",
         "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 40,
+      "persona_review": "核心开发者换东家，对MLX用户是长期利好，但今天代码照写。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-22T18:27:39.783604Z"
       }
     },
     {
@@ -1449,6 +1577,14 @@
         "url": "https://x.com/claudeai/status/2102435511222890900",
         "source": "X：Claude (@claudeai)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "新旗舰模型已上线，API可直接调用，评估性能后决定是否替换现有方案。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-22T18:27:39.783604Z"
       }
     },
     {
@@ -1525,6 +1661,14 @@
         "url": "https://www.aibase.com/news/31276",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 30,
+      "persona_review": "一个新硬件玩具，对开发者日常工作没有直接影响。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-22T18:27:39.783604Z"
       }
     },
     {
@@ -1602,6 +1746,14 @@
         "url": "https://github.blog/changelog/2026-09-21-refreshed-repository-pull-requests-page-generally-available",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "GitHub PR页面新UI已上线，今天就能用，影响日常协作体验。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-22T18:27:39.783604Z"
       }
     },
     {
@@ -1677,6 +1829,14 @@
         "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-09-20-ai-weekly-2026-w38",
         "source": "Daily Digest",
         "source_name": "AI HubToday"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "行业动态周报，了解风向可以，但今天写代码用不上。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-22T18:27:39.783604Z"
       }
     }
   ]
