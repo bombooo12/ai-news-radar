@@ -1,48 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_e664187f9e97|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "IBM时序模型已上Confluent平台，可直接用于实时流数据处理任务。",
-      "title_hash": "f569419d",
-      "scored_at": "2026-09-02T15:11:56.794507Z"
-    },
-    "story_9154b7af34e8|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "生态合作是商务新闻，等具体功能上线再评估。",
-      "title_hash": "6e9f60db",
-      "scored_at": "2026-09-02T15:12:03.425210Z"
-    },
-    "story_8067e80125ef|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "个人开发者今天就能在天猫买到官方API套餐，月付门槛低。",
-      "title_hash": "594d66d2",
-      "scored_at": "2026-09-02T15:12:06.998546Z"
-    },
-    "story_c2955229fde1|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "特定行业解决方案，通用开发者用不上，不用管。",
-      "title_hash": "e40b90a6",
-      "scored_at": "2026-09-02T15:12:09.596496Z"
-    },
-    "story_c5bbc19a185e|pragmatic|0a5c5b24": {
-      "score": 75,
-      "review": "个人仓库讨论区新增拉黑功能，需要管理社区的项目今天就能用。",
-      "title_hash": "20b60337",
-      "scored_at": "2026-09-02T15:12:13.171923Z"
-    },
-    "story_e664187f9e97|cynic|f4237a62": {
-      "score": 65,
-      "review": "IBM和Confluent的常规合作官宣，技术栈整合，离‘实时智能’的宏大叙事还有点远。",
-      "title_hash": "f569419d",
-      "scored_at": "2026-09-02T15:12:17.458477Z"
-    },
-    "story_e664187f9e97|paper-police|966065bf": {
-      "score": 45,
-      "review": "技术博客公布了合作与模型信息，但缺乏独立的性能评测报告与复现细节。",
-      "title_hash": "f569419d",
-      "scored_at": "2026-09-02T15:12:22.422667Z"
-    },
     "story_dafb420a9a43|pragmatic|0a5c5b24": {
       "score": 55,
       "review": "报告复盘了攻击细节，帮你评估自家AI服务的安全风险等级。",
@@ -4686,6 +4644,108 @@
       "review": "开源模型全家桶，ASR/TTS可直接下载集成或通过DashScope API调用。",
       "title_hash": "918e1a1e",
       "scored_at": "2026-09-23T14:08:18.599641Z"
+    },
+    "story_4b75c8247471|pragmatic|0a5c5b24": {
+      "score": 82,
+      "review": "提供了加速机器人仿真的具体工具和教程，可直接用于优化工作流。",
+      "title_hash": "d8d87b85",
+      "scored_at": "2026-09-23T18:46:44.707310Z"
+    },
+    "story_d5568a9a87d3|pragmatic|0a5c5b24": {
+      "score": 70,
+      "review": "提供了AI客服代理的落地案例，可参考其技术栈和实现思路。",
+      "title_hash": "12655379",
+      "scored_at": "2026-09-23T18:46:47.900157Z"
+    },
+    "story_a6ca8561303e|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "GitHub Copilot App 优化了大PR渲染，处理大型代码变更时体验更流畅。",
+      "title_hash": "c6bea805",
+      "scored_at": "2026-09-23T18:46:51.551456Z"
+    },
+    "story_4784460ec311|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "Copilot本地沙盒已上线，运行代码更安全，现在就能用。",
+      "title_hash": "534f6a05",
+      "scored_at": "2026-09-23T18:46:55.405798Z"
+    },
+    "story_ef9959cf1c4e|pragmatic|0a5c5b24": {
+      "score": 80,
+      "review": "新TTS模型API已发布，做语音合成的现在就能评估效果和成本。",
+      "title_hash": "118c3de8",
+      "scored_at": "2026-09-23T18:47:01.416525Z"
+    },
+    "story_3afb84085368|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "只是服务区域和客户名单更新，不影响现有开发者的使用。",
+      "title_hash": "6371ea77",
+      "scored_at": "2026-09-23T18:47:05.119799Z"
+    },
+    "story_c883bb1ffd3a|pragmatic|0a5c5b24": {
+      "score": 65,
+      "review": "展示了AI在科研中的潜力，但这是Anthropic的内部研究，开发者用不上。",
+      "title_hash": "b0e20990",
+      "scored_at": "2026-09-23T18:47:09.236027Z"
+    },
+    "story_bcc37401aaaf|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "官方学习平台回顾，对开发者无新工具或API发布。",
+      "title_hash": "fc309253",
+      "scored_at": "2026-09-23T18:47:12.467593Z"
+    },
+    "story_9326fab27bb2|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "谷歌推进服务器端安全内存，对处理敏感数据的企业级应用是利好。",
+      "title_hash": "416c1ecb",
+      "scored_at": "2026-09-23T18:47:15.714359Z"
+    },
+    "story_0f3ada4f2787|pragmatic|0a5c5b24": {
+      "score": 88,
+      "review": "SDK支持本地模型，开发离线AI应用今天就能动手。",
+      "title_hash": "d9401197",
+      "scored_at": "2026-09-23T18:47:19.460057Z"
+    },
+    "story_32fa53d31fc4|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "ChatGPT Work用户现在能用语音直接调用工具，提升效率。",
+      "title_hash": "e023f3dc",
+      "scored_at": "2026-09-23T18:47:23.156601Z"
+    },
+    "story_3a66f231d193|pragmatic|0a5c5b24": {
+      "score": 65,
+      "review": "GPT-6 Sol Max在代码能力榜上排名第四，选型时可作为参考数据点。",
+      "title_hash": "ff2a0941",
+      "scored_at": "2026-09-23T18:47:27.440690Z"
+    },
+    "story_1d4792ab4cc7|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "语音助手能直接操作邮件日历，提升日常办公效率，今天就能用。",
+      "title_hash": "24d0b89e",
+      "scored_at": "2026-09-23T18:47:31.588187Z"
+    },
+    "story_0f3ada4f2787|cynic|f4237a62": {
+      "score": 72,
+      "review": "离线运行是实在功能，但‘反重力’这名头，比功能本身更能飘。",
+      "title_hash": "d9401197",
+      "scored_at": "2026-09-23T18:47:36.676111Z"
+    },
+    "story_0f3ada4f2787|paper-police|966065bf": {
+      "score": 45,
+      "review": "官方博客宣布功能，但未提供独立评测数据或开源代码以验证性能。",
+      "title_hash": "d9401197",
+      "scored_at": "2026-09-23T18:47:41.671590Z"
+    },
+    "story_4784460ec311|cynic|f4237a62": {
+      "score": 72,
+      "review": "终于把本地沙盒从云端搬下来，安全是实打实的，但算力压力也转嫁给用户了。",
+      "title_hash": "534f6a05",
+      "scored_at": "2026-09-23T18:47:46.267355Z"
+    },
+    "story_4784460ec311|paper-police|966065bf": {
+      "score": 45,
+      "review": "官方博客公布功能细节，但无独立评测，需等第三方验证。",
+      "title_hash": "534f6a05",
+      "scored_at": "2026-09-23T18:47:50.796944Z"
     }
   }
 }

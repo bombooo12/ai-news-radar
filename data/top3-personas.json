@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T14:08:18.599764Z",
+  "generated_at": "2026-09-23T18:47:50.796992Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,30 +17,10 @@
   ],
   "items": [
     {
-      "story_id": "story_3c48d5bb2a9e",
-      "title": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 降 50% / Introducing GPT-6 Sol and Luna",
-      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "rank": 1,
-      "reviews": {
-        "cynic": {
-          "score": 78,
-          "review": "降价是实打实的，但‘Sol’和‘Luna’这命名，是怕用户记不住版本号吗？"
-        },
-        "paper-police": {
-          "score": 15,
-          "review": "仅有官方公告，无论文、代码或独立评测，无法验证性能。"
-        },
-        "pragmatic": {
-          "score": 90,
-          "review": "API价格直接腰斩，今天调用的成本就能减半。"
-        }
-      }
-    },
-    {
       "story_id": "story_8270efdbfdab",
       "title": "OpenAI 发布 GPT-6 Sol 与 Luna，API 定价降至五折并公布基准成绩 / OpenAI Releases GPT-6 Sol and Luna： 50% Cheaper API Pricing and Benchmarks",
       "url": "https://www.marktechpost.com/2026/09/22/openai-releases-gpt-6-sol-and-luna-50-cheaper-api-pricing-and-benchmarks",
-      "rank": 2,
+      "rank": 1,
       "reviews": {
         "cynic": {
           "score": 75,
@@ -57,22 +37,42 @@
       }
     },
     {
-      "story_id": "story_b742684d2aef",
-      "title": "Anthropic 发布 Claude Opus 5.5，成本较 Opus 5 降低 40% / Introducing Claude Opus 5.5",
-      "url": "https://www.anthropic.com/claude-opus-5-5",
-      "rank": 3,
+      "story_id": "story_0f3ada4f2787",
+      "title": "Antigravity SDK 支持本地模型，可完全离线运行智能体 / Introducing Support for Local AI Models in the Antigravity SDK",
+      "url": "https://developers.googleblog.com/introducing-support-for-local-ai-models-in-the-antigravity-sdk",
+      "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 78,
-          "review": "降本是实打实的，但‘5.5’这命名，性能提升的幅度怕是对不起这个点号。"
+          "score": 72,
+          "review": "离线运行是实在功能，但‘反重力’这名头，比功能本身更能飘。"
         },
         "paper-police": {
-          "score": 15,
-          "review": "官网博客宣称性能与成本，无论文、代码或独立评测佐证。"
+          "score": 45,
+          "review": "官方博客宣布功能，但未提供独立评测数据或开源代码以验证性能。"
         },
         "pragmatic": {
           "score": 88,
-          "review": "API成本立减四成，用Opus做推理的今天就能省钱。"
+          "review": "SDK支持本地模型，开发离线AI应用今天就能动手。"
+        }
+      }
+    },
+    {
+      "story_id": "story_4784460ec311",
+      "title": "Local sandboxing in the GitHub Copilot app",
+      "url": "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app",
+      "rank": 3,
+      "reviews": {
+        "cynic": {
+          "score": 72,
+          "review": "终于把本地沙盒从云端搬下来，安全是实打实的，但算力压力也转嫁给用户了。"
+        },
+        "paper-police": {
+          "score": 45,
+          "review": "官方博客公布功能细节，但无独立评测，需等第三方验证。"
+        },
+        "pragmatic": {
+          "score": 85,
+          "review": "Copilot本地沙盒已上线，运行代码更安全，现在就能用。"
         }
       }
     }
