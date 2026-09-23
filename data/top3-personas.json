@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T18:29:12.168669Z",
+  "generated_at": "2026-09-23T09:02:26.017193Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_3de84024ac7c",
-      "title": "GPT-6 Sol and Luna in Codex and ChatGPT Work",
-      "url": "https://developers.openai.com/codex/changelog",
+      "story_id": "story_73d2d693822d",
+      "title": "GPT-6 Sol 与 Luna 发布，API 价格比 GPT-5.6 低 50% / GPT-6 Luna is $0.10 / $0.50 per 1M tokens！ We're soon going to have to switch to per billion token…",
+      "url": "https://x.com/sherwinwu/status/2102462783707344907",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 75,
-          "review": "Sol和Luna？先别管名字，把具体性能提升和API定价的文档放出来再说。"
+          "score": 15,
+          "review": "价格表都出来了，产品呢？别又是拿PPT来‘发布’。"
         },
         "paper-police": {
-          "score": 15,
-          "review": "仅有官方更新日志，无论文、代码或独立评测，无法验证具体性能。"
-        },
-        "pragmatic": {
-          "score": 95,
-          "review": "GPT-6的Sol和Luna模型已上线，开发者现在就能在Codex和ChatGPT API中调用。"
-        }
-      }
-    },
-    {
-      "story_id": "story_446a1de4971a",
-      "title": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 促销价低 50% / Please welcome GPT-6 Sol and GPT-6 Luna to the GPT-6 universe. GPT-6 Sol and Luna build on the adva…",
-      "url": "https://x.com/OpenAI/status/2102460975790137662",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 65,
-          "review": "降价是真利好，但‘GPT-6宇宙’这名头，听起来比实际升级幅度大多了。"
-        },
-        "paper-police": {
-          "score": 15,
-          "review": "仅有官方推文宣称性能与降价，无论文、代码或独立评测佐证。"
+          "score": 8,
+          "review": "仅有社交媒体价格信息，无论文、代码或公开评测，证据不足。"
         },
         "pragmatic": {
           "score": 92,
-          "review": "API价格直接腰斩，今天做成本预算和模型选型必须重算。"
+          "review": "GPT-6新模型API已发布，价格腰斩，今天就能用新模型省钱或提效。"
         }
       }
     },
     {
-      "story_id": "story_b742684d2aef",
-      "title": "Anthropic 发布 Claude Opus 5.5，成本较 Opus 5 降低 40% / Introducing Claude Opus 5.5",
-      "url": "https://www.anthropic.com/claude-opus-5-5",
-      "rank": 3,
+      "story_id": "story_3c48d5bb2a9e",
+      "title": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 降 50% / Introducing GPT-6 Sol and Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "rank": 2,
       "reviews": {
         "cynic": {
           "score": 78,
-          "review": "降本是实打实的，但‘5.5’这命名，性能提升的幅度怕是对不起这个点号。"
+          "review": "降价是实打实的，但‘Sol’和‘Luna’这命名，是怕用户记不住版本号吗？"
         },
         "paper-police": {
           "score": 15,
-          "review": "官网博客宣称性能与成本，无论文、代码或独立评测佐证。"
+          "review": "仅有官方公告，无论文、代码或独立评测，无法验证性能。"
         },
         "pragmatic": {
-          "score": 88,
-          "review": "API成本立减四成，用Opus做推理的今天就能省钱。"
+          "score": 90,
+          "review": "API价格直接腰斩，今天调用的成本就能减半。"
+        }
+      }
+    },
+    {
+      "story_id": "story_8270efdbfdab",
+      "title": "OpenAI 发布 GPT-6 Sol 与 Luna，API 定价降至五折并公布基准成绩 / OpenAI Releases GPT-6 Sol and Luna： 50% Cheaper API Pricing and Benchmarks",
+      "url": "https://www.marktechpost.com/2026/09/22/openai-releases-gpt-6-sol-and-luna-50-cheaper-api-pricing-and-benchmarks",
+      "rank": 3,
+      "reviews": {
+        "cynic": {
+          "score": 75,
+          "review": "降价是真利好，但基准成绩没提对比对象，这折扣里有多少是性能水分？"
+        },
+        "paper-police": {
+          "score": 45,
+          "review": "仅新闻稿公布基准成绩，无论文、代码链接，需等第三方复现验证。"
+        },
+        "pragmatic": {
+          "score": 90,
+          "review": "API价格直接腰斩，今天就能用更低的成本调用新模型。"
         }
       }
     }

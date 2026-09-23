@@ -3,22 +3,22 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "AI新手必看：Meta Muse vs. Claude 5.5 vs. GPT-6，个人AI智能体怎么选？",
+      "title": "GPT-6 vs Claude 5.5：价格战下的AI初学者生存指南",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、想选择合适AI工具的用户",
-      "reason": "结合今日三大模型发布热点，提供初学者易懂的对比和选择指南，实操性强，易传播。",
+      "target_audience": "AI初学者、对模型价格敏感的用户、开发者",
+      "reason": "模型发布与价格战是今日最大热点，符合创作者对新工具的兴趣，能提供实操和深度的多重解读。",
       "source_items": [
-        "Meta's Muse personal AI agent tops ChatGPT, Grok and Claude for post-launch downloads",
-        "Anthropic 发布 Claude Opus 5.5，成本较 Opus 5 降低 40%",
-        "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 促销价低 50%"
+        "OpenAI 发布 GPT-6 Sol 与 Luna，API 定价降至五折并公布基准成绩",
+        "Claude Opus 5.5 上线 OpenRouter，智能体编码等能力领先 Opus 5",
+        "Claude Opus 5.5 与 GPT-6 Sol/Luna 发布，Simon Willison 详解新一轮价格战"
       ],
       "source_urls": [
-        "https://www.cnbc.com/2026/09/21/meta-muse-personal-ai-agent-downloads.html",
-        "https://www.anthropic.com/claude-opus-5-5",
-        "https://x.com/OpenAI/status/2102460975790137662",
+        "https://www.marktechpost.com/2026/09/22/openai-releases-gpt-6-sol-and-luna-50-cheaper-api-pricing-and-benchmarks",
         "https://x.com/OpenRouter/status/2102438921213014078",
-        "https://tech.slashdot.org/story/26/09/22/0116233/metas-new-personal-ai-agent-muse-beats-chatgpt-in-downloads---and-get-blocked-by-amazon"
+        "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna",
+        "https://openai.com/index/better-prompt-caching-for-gpt-6",
+        "https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -27,12 +27,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "5分钟搞懂！Meta Muse、Claude 5.5、GPT-6 免费/付费版注册与初体验全攻略",
-          "summary": "手把手教AI小白如何免费注册并初步体验这三款最新的AI智能体。",
+          "hook": "新手如何用一杯奶茶钱，玩转GPT-6和Claude 5.5？",
+          "summary": "教AI初学者通过OpenRouter等平台，以最低成本体验两大最新模型，并进行简单对比测试。",
           "key_points": [
-            "Muse、Claude 5.5、GPT-6的免费获取渠道与注册步骤",
-            "首次对话的提示词模板与界面功能快速上手",
-            "三种AI在回答日常问题上的直观效果对比"
+            "注册OpenRouter平台并充值小额费用",
+            "分别调用GPT-6 Sol/Luna和Claude 5.5的API接口",
+            "设计相同提示词进行写作、编程、逻辑推理的横向对比"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -41,12 +41,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "别当小白鼠！新AI智能体Muse/Claude 5.5/GPT-6的三大隐藏风险和选择误区",
-          "summary": "指出新模型在付费、隐私、稳定性方面的常见陷阱，帮用户避免损失。",
+          "hook": "别被‘降价50%’忽悠！新手用新模型的三大隐形成本",
+          "summary": "指出新手在使用GPT-6和Claude 5.5时可能忽略的上下文长度、速度、输出质量不稳定等陷阱。",
           "pitfalls": [
-            "Muse被亚马逊封禁意味着什么？数据安全风险解读",
-            "Claude 5.5 API降价但使用门槛可能更高，如何评估成本？",
-            "GPT-6不同版本（Sol/Luna）混淆，选错可能浪费钱"
+            "陷阱1：只看单价，忽略上下文长度导致的费用飙升",
+            "陷阱2：追求便宜模型，忽略响应速度对工作流的影响",
+            "陷阱3：盲目相信基准测试，实际任务表现可能差异巨大"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -55,12 +55,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "下载量飙升的Muse，真能颠覆ChatGPT？深度拆解AI智能体战争的三大新趋势",
-          "summary": "分析Muse崛起背后的原因，以及AI智能体市场从模型竞争转向“个人助理”竞争的趋势。",
+          "hook": "价格战背后：OpenAI和Anthropic的‘阳谋’与AI平民化未来",
+          "summary": "分析本轮降价对开发者生态、初创公司及AI普及的影响，预测未来竞争格局。",
           "insights": [
-            "Meta Muse为何下载量能反超？社交与生态整合是关键",
-            "Claude 5.5降价40%的背后：AI公司从“堆参数”转向“拼效率”",
-            "GPT-6 Sol/Luna双模型策略：OpenAI如何应对细分市场"
+            "洞察1：降价旨在抢占开发者生态，构建护城河",
+            "洞察2：模型能力趋同，价格和服务成为新战场",
+            "洞察3：AI应用开发门槛降低，个人开发者迎来新机遇"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -69,102 +69,33 @@
     },
     {
       "rank": 2,
-      "title": "用AI做副业：我如何用AI视频工具，零成本成为旅游“微网红”？",
+      "title": "剪映杀入AI互动影游：普通人做游戏视频的黄金机会？",
       "track": "ai_video",
       "track_name": "AI视频/剪辑包装",
-      "target_audience": "想用AI变现的个人、自媒体新人、旅游爱好者",
-      "reason": "结合“旅游微网红”变现案例与AI视频热点，提供可复制的副业思路，符合创作者偏好。",
+      "target_audience": "视频创作者、对AI互动内容感兴趣的小白、游戏爱好者",
+      "reason": "剪映是创作者熟悉工具，其AI新动向结合了视频和互动性，实操性强且有传播潜力。",
       "source_items": [
-        "I quit my job and became a travel 'micro influencer.' Now I make money leading tours and see the world for free.",
-        "How to Create Pro-Quality AI Videos With Gemini Omni",
-        "The Biological Computing Co. partners with AWS to sell its neuron-derived AI video model"
+        "剪映，杀入 AI 互动影游",
+        "火山引擎Seedance2.5上线Draft模式:480P试错、1080P成片，成本最高省77%"
       ],
       "source_urls": [
-        "https://www.businessinsider.com/quit-job-became-travel-micro-influencer-how-make-money-business-2026-9",
-        "https://www.socialmediaexaminer.com/how-to-create-pro-quality-ai-videos-with-gemini-omni",
-        "https://thenextweb.com/news/biological-computing-co-aws-neuron-derived-ai-video-model",
-        "https://the-decoder.com/a-tiny-software-layer-from-lab-grown-neurons-promises-faster-cheaper-ai-video",
-        "https://variety.com/2026/film/news/robin-williams-daughter-ai-videos-1236871568"
+        "http://www.geekpark.net/news/370883",
+        "https://www.aibase.com/news/31293",
+        "https://www.socialmediaexaminer.com/how-to-create-pro-quality-ai-videos-with-gemini-omni"
       ],
-      "urgency": "medium",
+      "urgency": "high",
       "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "视频",
-          "hook": "跟着做！用剪映+AI工具，30分钟生成你的第一条“虚拟旅行”爆款视频",
-          "summary": "演示如何利用AI生成虚拟旅行场景和脚本，并用剪映快速剪辑成片。",
+          "hook": "零代码！用剪映AI功能，30分钟做一个你的专属互动小游戏视频",
+          "summary": "手把手教学，利用剪映的AI功能（如图生视频、智能剪辑）结合分支叙事，制作一个简单的互动视频。",
           "key_points": [
-            "用Midjourney/TRAE生成虚拟目的地图片和转场素材",
-            "用ChatGPT撰写吸引人的旅行故事脚本和标题",
-            "在剪映中利用AI功能进行智能配音、字幕和包装"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "45分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI做旅游内容小心侵权！Robin Williams女儿怒斥的AI视频，你踩了哪些雷？",
-          "summary": "指出用AI生成旅游/名人相关视频时，在版权、伦理、平台规则上的风险。",
-          "pitfalls": [
-            "滥用AI生成名人形象或特定地标可能面临法律诉讼",
-            "AI生成的“虚假”旅行体验被平台判定为误导性内容",
-            "过度依赖AI导致内容同质化，账号缺乏真实感"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "从“微网红”案例到神经元AI视频：个人创作者的内容生产革命来了？",
-          "summary": "分析AI视频技术如何降低创作门槛，并探讨未来个人创作者商业模式的演变。",
-          "insights": [
-            "“实验室神经元AI视频”技术预示未来内容生产成本将趋近于零",
-            "AI工具让“一人团队”成为可能，微网红经济模式将更普及",
-            "内容真实性危机：当AI能完美伪造体验，创作者的核心价值是什么？"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "title": "AIGC剧情引流实战：用AI给品牌起名、设计Logo，如何避开商标大坑？",
-      "track": "trademark",
-      "track_name": "商标/IP/创业",
-      "target_audience": "需要商标注册服务的小微企业主、AI初学者、创业者",
-      "reason": "完美结合AIGC剧情引流与商标知识科普，用AI工具演示创业初期命名与设计，自然植入服务。",
-      "source_items": [
-        "Building a Bold Brand by Doing Things Differently",
-        "Molly Sims Accused Jones Road of Copying ‘Wide Awake.’ A Trademark Attorney Says Her Callout Was Risky",
-        "AI长剧首次上星，股价连续涨停，芒果TV“用内容做AI”的AIGC逆向实验｜专访"
-      ],
-      "source_urls": [
-        "https://www.erikpelton.com/building-a-bold-brand-by-doing-things-differently",
-        "https://www.inc.com/victoria-salves/molly-sims-accused-jones-road-copying-wide-awake-trademark-attorney-move-risky/91408323",
-        "https://36kr.com/p/3993401668909827?f=rss",
-        "https://www.managingip.com/article/2gxa2erj0avyvk70x6r5s/patents/serving-up-ip-wisdom-from-patents-to-ping-pong",
-        "https://copyrightalliance.org/ai-piracy-problem-part-two"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "视频",
-          "hook": "AI创业第一课：用ChatGPT+Midjourney，10分钟生成100个品牌名和Logo方案",
-          "summary": "演示如何利用AI工具矩阵，快速为虚拟创业项目进行头脑风暴和视觉设计。",
-          "key_points": [
-            "用ChatGPT提示词工程批量生成有创意的品牌名和slogan",
-            "用Midjourney根据品牌名生成多种风格的Logo概念图",
-            "将AI成果整理成简易的品牌方案PPT"
+            "利用AI生成游戏场景和角色素材",
+            "使用剪映画中画和贴纸功能创建选项按钮",
+            "设置视频跳转逻辑，完成分支叙事剪辑"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -172,77 +103,13 @@
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文",
-          "hook": "你的AI设计可能侵权！品牌主公开指责抄袭，这些商标雷区千万别碰",
-          "summary": "结合真实案例，讲解用AI生成品牌元素时，最容易触发的商标近似、版权侵权风险。",
-          "pitfalls": [
-            "AI生成的Logo与现有商标高度相似，直接导致注册被驳回",
-            "使用AI生成的通用词汇或描述性词语，缺乏商标显著性",
-            "未做商标查询就投入市场使用，面临法律风险和市场损失"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "从芒果TV的AIGC实验到商标纠纷：AI生成内容的“版权黑洞”与商业出路",
-          "summary": "探讨AIGC内容在商业应用中的知识产权困境，以及企业如何合规地利用AI进行品牌创新。",
-          "insights": [
-            "芒果TV“用内容做AI”的成功，关键在于将AI作为工具而非内容本身",
-            "AI生成的品牌资产（名称、Logo）权利归属模糊，是创业者的新风险点",
-            "未来商标代理服务的价值将转向“AI方案筛查”与“法律风险预判”"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "title": "AI安全新威胁？Palo Alto用GPT-5.6测试安全，你的AI应用够安全吗？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、对AI应用安全感兴趣的用户、小微企业主",
-      "reason": "从企业级AI安全测试新闻切入，关联到个人用户使用AI时的隐私与安全风险，话题有争议性和实用性。",
-      "source_items": [
-        "Palo Alto Networks launches always-on AI security testing built on Claude Mythos and GPT-5.6-Cyber",
-        "Fair Use Is Not a Shield AI Companies Can Use to Shelter Their Use of Pirate Copies: Analysis of Fair Use Factor 1"
-      ],
-      "source_urls": [
-        "https://thenextweb.com/news/palo-alto-networks-unit-42",
-        "https://copyrightalliance.org/ai-piracy-problem-part-two",
-        "https://patentlyo.com/patent/2026/09/the-federal-circuit-expands-its-jurisdiction-yet-again.html",
-        "https://www.wired.com/story/apollo-ai-model-ancient-greek-secrets-papyrus"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "小白自查指南：5个步骤，检查你用的ChatGPT、Claude是否泄露了你的隐私",
-          "summary": "提供普通人可操作的步骤，检查常用AI工具的隐私设置和数据安全风险。",
-          "key_points": [
-            "检查AI聊天记录的保存与训练数据使用政策",
-            "识别并避免在对话中输入高敏感个人信息",
-            "使用代理、虚拟号码等工具增强匿名性"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
           "format": "短视频",
-          "hook": "小心！你用AI生成的商业计划书，可能正在被用来训练竞争对手的模型",
-          "summary": "指出用户在使用AI处理商业机密时，因不了解数据政策而导致的潜在风险。",
+          "hook": "想做AI互动视频？这三个坑踩一个就白干！",
+          "summary": "指出AI生成素材版权、互动逻辑过于复杂、平台规则限制等新手常犯错误。",
           "pitfalls": [
-            "默认同意数据用于模型训练，导致核心创意泄露",
-            "使用来源不明的AI工具或API，数据安全无保障",
-            "在公开可溯源的对话中讨论未注册商标或专利想法"
+            "坑点1：滥用AI生图，忽视版权和平台审核风险",
+            "坑点2：设计过多分支，导致观众失去耐心和视频体积暴增",
+            "坑点3：不了解各平台对互动视频的格式和支持度差异"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -251,12 +118,138 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "当网络安全巨头开始用AI测试AI：我们正步入“AI攻防”的新时代？",
-          "summary": "解读企业级AI安全测试的兴起，并探讨其对个人用户和整个AI生态的深远影响。",
+          "hook": "从工具到平台：拆解剪映AI影游背后的商业野心",
+          "summary": "分析剪映此举如何挑战传统游戏开发，并为其母公司字节跳动的内容生态布局。",
           "insights": [
-            "Palo Alto的动作标志着AI安全从“附加项”变为“核心基础设施”",
-            "“用AI对抗AI”将成为常态，普通用户需关注模型的“对抗性攻击”风险",
-            "AI安全催生新市场：从企业级测试工具到个人隐私保护服务"
+            "洞察1：降低互动内容创作门槛，抢夺UGC游戏化市场",
+            "洞察2：为抖音等平台输送新型沉浸式内容，提升用户时长",
+            "洞察3：可能催生基于剪映模板的新的创作者经济模式"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "MrBeast也注册商标！AIGC创业者必须懂的IP保护课",
+      "track": "trademark",
+      "track_name": "商标/IP/创业",
+      "target_audience": "AIGC创作者、小微创业者、自媒体博主",
+      "reason": "结合热点人物MrBeast的商标案例，以AIGC剧情向内容科普商标知识，完美契合创作者引流需求。",
+      "source_items": [
+        "MrBeast just filed a trademark application under 'Beast Band' for wearables like a fitness tracker",
+        "Building a Bold Brand by Doing Things Differently"
+      ],
+      "source_urls": [
+        "https://www.businessinsider.com/mrbeast-trademark-application-wearables-fitness-tracker-band-2026-9",
+        "https://www.erikpelton.com/building-a-bold-brand-by-doing-things-differently",
+        "https://copyrightalliance.org/ai-piracy-problem-part-two"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "AIGC剧情向视频",
+          "hook": "AI画了个Logo能注册商标吗？3步自检法避雷",
+          "summary": "通过AI生成虚拟人物和场景，戏剧化演示如何初步判断一个AIGC生成的名称或图形是否具备可注册性。",
+          "key_points": [
+            "第一步：用AI工具生成品牌名和Logo，并演示查询近似商标",
+            "第二步：讲解商标的‘显著性’原则，用AI生成的案例对比说明",
+            "第三步：模拟提交申请前的基本材料准备清单"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "你的AI副业可能侵权！这些版权雷区千万别碰",
+          "summary": "指出AIGC创作者在字体、图片、训练数据来源上常见的知识产权风险。",
+          "pitfalls": [
+            "坑点1：使用未授权字体生成商业图片或视频",
+            "坑点2：AI模仿知名画风或角色，陷入抄袭争议",
+            "坑点3：忽视AI工具自身服务条款中对生成物权利的规定"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "从MrBeast到AI公司：为什么巨头都在疯狂囤积商标？",
+          "summary": "分析在AIGC时代，商标战略如何从保护品牌演变为抢占技术概念和未来生态位。",
+          "insights": [
+            "洞察1：商标成为布局未来产品线、威慑竞争对手的战略资产",
+            "洞察2：AI相关技术名词（如‘Agent’、‘Harness’）成为注册热点",
+            "洞察3：个人IP商业化加速，名人姓名商标化趋势明显"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "告别加班！用AI Agent自动化你的视觉工作流",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "自媒体创作者、设计师、营销人员",
+      "reason": "Agent/Skill实践是创作者‘能做’的方向，结合视觉AI工作流，实操性强，能直接提升受众工作效率。",
+      "source_items": [
+        "Sept 22 - FiftyOne Agent: Automate Visual AI Workflows with Natural Language",
+        "Claude Opus 5.5 is now the default model in Claude Code and the Claude app"
+      ],
+      "source_urls": [
+        "https://www.meetup.com/artificial-intelligence-deep-learning/events/316064264",
+        "https://x.com/_catwu/status/2102437713781944397",
+        "https://the-decoder.com/a-tiny-software-layer-from-lab-grown-neurons-promises-faster-cheaper-ai-video"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "视频",
+          "hook": "一句话让AI帮你找图、修图、做海报：FiftyOne Agent实战",
+          "summary": "演示如何利用FiftyOne Agent，通过自然语言指令批量处理图片数据集，完成筛选、标注、简单编辑等任务。",
+          "key_points": [
+            "搭建本地FiftyOne环境并连接Claude API",
+            "用自然语言描述需求，让Agent自动筛选符合要求的图片",
+            "进一步指令进行批量尺寸调整、添加水印等操作"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AI Agent不是许愿机：自动化工作流的三个失效场景",
+          "summary": "指出当任务描述模糊、数据质量差、需要高度创造性时，盲目依赖Agent可能适得其反。",
+          "pitfalls": [
+            "坑点1：指令过于笼统（‘找些好看的图’），导致结果不可控",
+            "坑点2：输入数据杂乱无章，AI无法理解上下文",
+            "坑点3：期望AI完成需要深度审美和策略思考的创意工作"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "从‘工具调用’到‘工作流接管’：AI Agent如何重塑内容生产",
+          "summary": "探讨AI Agent如何将零散的AI工具串联成自动化流水线，改变自媒体和设计团队的生产模式。",
+          "insights": [
+            "洞察1：Agent将创作者角色从‘执行者’转向‘指令员’和‘审核者’",
+            "洞察2：垂直领域的工作流Agent将催生新的SaaS服务模式",
+            "洞察3：人机协作的关键在于清晰的任务拆解与结果评估标准"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -265,64 +258,61 @@
     },
     {
       "rank": 5,
-      "title": "创作者新机会：YouTube英国“创作者之声”启动，平台如何抢夺AI时代人才？",
-      "track": "creator_economy",
-      "track_name": "自媒体/创作者经济",
-      "target_audience": "自媒体运营者、内容创作者、想用AI变现的个人",
-      "reason": "结合平台最新动向，为创作者分析AI时代下的新机遇和平台策略，提供运营策略参考。",
+      "title": "Adobe Premiere免费上安卓：手机剪视频真能替代电脑吗？",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "移动端视频创作者、学生党、入门级剪辑爱好者",
+      "reason": "知名软件重大更新，涉及创作者核心工具（视频剪辑），测评和对比内容对初学者有强吸引力。",
       "source_items": [
-        "UK Creator Voices launches to bridge digital talent and Britain’s creative industries",
-        "Black Media Collective BOMESI Opens Applications for Its Fifth Accelerator Cohort",
-        "Martin Sorrell's Venture Fund Backs AI Video Startup Higgsfield"
+        "Adobe Premiere finally brings powerful video editing to Android, and it's free",
+        "Adobe Premiere mobile is now available on Android"
       ],
       "source_urls": [
-        "https://blog.youtube/news-and-events/uk-creator-voices-launch",
-        "https://www.adweek.com/media/bomesi-accelerator-cohort-black-creators-publishers",
-        "https://www.adweek.com/dealroom/martin-sorrells-venture-fund-backs-ai-video-startup-higgsfield",
-        "https://www.adweek.com/tvnewser/week-of-sept-7-2026-evening-news-ratings",
-        "https://influencermarketinghub.com/mcm-tiktok-strategy-us-sales"
+        "https://arstechnica.com/gadgets/2026/09/adobe-premiere-finally-brings-powerful-video-editing-to-android-and-its-free",
+        "https://www.engadget.com/2265059/adobe-premiere-mobile-android",
+        "https://www.aibase.com/news/31293"
       ],
-      "urgency": "low",
+      "urgency": "high",
       "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "手把手教你申请：像YouTube“创作者之声”这样的官方扶持计划，提升成功率的关键",
-          "summary": "拆解国际平台创作者扶持计划的申请流程与材料准备要点。",
+          "format": "测评/教程视频",
+          "hook": "手机版PR首测：从导入到出片，一条视频讲清所有新功能",
+          "summary": "在安卓手机上实际操作Premiere，完整演示一个短视频项目的剪辑、调色、加字幕和导出流程。",
           "key_points": [
-            "如何定位自己的内容以匹配平台的“人才桥梁”目标",
-            "申请材料中必须展示的3项核心能力（如AIGC运用）",
-            "准备一份能打动审核官的、数据驱动的未来内容计划"
+            "界面导览与素材导入管理",
+            "核心剪辑功能（切割、转场、关键帧）实操",
+            "利用AI功能进行自动调色和语音转字幕"
           ],
-          "difficulty": "中级",
-          "estimated_time": "40分钟"
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文",
-          "hook": "别被“扶持计划”忽悠！参与平台项目前，必须问清楚的3个利益问题",
-          "summary": "指出创作者参与平台官方项目时，在版权归属、收益分成、内容限制上可能遇到的坑。",
+          "format": "短视频",
+          "hook": "别急着卸载剪映！手机版PR的三大‘水土不服’",
+          "summary": "指出手机版PR在性能要求、学习成本、本地化功能上可能不如国内App友好。",
           "pitfalls": [
-            "签署协议时未注意“独家授权”条款，限制多平台发展",
-            "项目提供的资源（如流量）可能不稳定或附带隐性条件",
-            "过度迎合平台方向导致内容失去个人特色和核心受众"
+            "坑点1：对手机性能要求高，中低端机容易卡顿崩溃",
+            "坑点2：操作逻辑更接近电脑版，对纯手机剪辑新手不友好",
+            "坑点3：缺少剪映丰富的本土化模板、音乐和特效库"
           ],
           "difficulty": "入门",
-          "estimated_time": "20分钟"
+          "estimated_time": "15分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从YouTube到BOMESI：为什么大平台和资本都在抢着“圈养”AI创作者？",
-          "summary": "分析平台和资本通过扶持计划绑定顶级AI创作者的深层商业逻辑与行业趋势。",
+          "hook": "Adobe的‘免费’阳谋：移动端战略如何冲击国产剪辑App？",
+          "summary": "分析Adobe通过免费移动端策略，在教育市场、培养用户习惯、构建云端生态方面的长远布局。",
           "insights": [
-            "平台争夺的不再是流量，而是能生产“原生AI内容”的稀缺人才",
-            "资本投资AI视频工具（如Higgsfield）与扶持创作者，形成生态闭环",
-            "未来创作者的核心竞争力：驾驭AI工具的“策展”与“编辑”能力，而非单纯创作"
+            "洞察1：以免费移动端为钩子，引导用户订阅完整的Creative Cloud服务",
+            "洞察2：与Figma等工具联动，强化云端跨设备工作流优势",
+            "洞察3：可能迫使剪映等国产工具加速功能创新和国际化"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -331,22 +321,22 @@
     }
   ],
   "weekly_plan": {
-    "monday": "AI新手必看：Meta Muse vs. Claude 5.5 vs. GPT-6，个人AI智能体怎么选？（实操教程角度）",
-    "wednesday": "用AI做副业：我如何用AI视频工具，零成本成为旅游“微网红”？（避坑指南角度）",
-    "friday": "AIGC剧情引流实战：用AI给品牌起名、设计Logo，如何避开商标大坑？（实操教程角度）",
-    "strategy": "以“AI工具对比”和“副业变现”为核心，穿插“商标/IP”引流内容，形成“学AI-用AI赚钱-用AI创业”的内容闭环。"
+    "monday": "GPT-6 vs Claude 5.5：价格战下的AI初学者生存指南（实操教程）",
+    "wednesday": "剪映杀入AI互动影游：普通人做游戏视频的黄金机会？（实操教程视频）",
+    "friday": "MrBeast也注册商标！AIGC创业者必须懂的IP保护课（AIGC剧情向视频）",
+    "strategy": "本周聚焦‘热点工具实战+IP引流’，以高实操性内容吸引AI初学者，并用剧情化内容自然植入商标服务。"
   },
-  "insights": "今日信息流显示，AI智能体竞争白热化（Muse、Claude 5.5、GPT-6齐发），同时AI视频与创作者经济的结合点（微网红案例、平台扶持）成为新的内容富矿。",
-  "ai_adjustment": "基于用户反馈，重点围绕其感兴趣的“Harness（扩展为智能体）”、“新模型新工具”和“系列选题”进行推荐，并规避了硬件相关及纯理论内容。",
-  "generated_at": "2026-09-23T02:32:19.073826+08:00",
-  "total_items": 522,
-  "scored_items": 422,
+  "insights": "今日信息流显示AI领域正经历激烈的模型价格战与工具平民化（如PR免费上安卓），同时AIGC与IP保护的交叉点成为新热点。",
+  "ai_adjustment": "基于用户反馈，重点围绕‘Harness’、‘新模型新工具’等兴趣点展开，并避免硬件相关选题，强化了DeepSeek Harness相关生态（如Agent工作流）和最新模型（GPT-6/Claude 5.5）的解读。",
+  "generated_at": "2026-09-23T17:06:51.754408+08:00",
+  "total_items": 549,
+  "scored_items": 443,
   "tracks_summary": {
-    "ai_tech": 381,
-    "trademark_business": 13,
-    "creator_economy": 15,
-    "ai_video": 9,
-    "growth_monetize": 4
+    "ai_tech": 397,
+    "trademark_business": 8,
+    "ai_video": 16,
+    "creator_economy": 19,
+    "growth_monetize": 3
   },
   "engine_version": "v2",
   "engine_params": {
