@@ -137,6 +137,14 @@
         "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 90,
+      "persona_review": "API价格直接腰斩，今天调用的成本就能减半。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-23T14:07:29.395243Z"
       }
     },
     {
@@ -272,6 +280,14 @@
         "url": "https://www.anthropic.com/claude-opus-5-5",
         "source": "Anthropic：Newsroom（网页）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 88,
+      "persona_review": "API成本立减四成，用Opus做推理的今天就能省钱。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-23T14:07:29.395243Z"
       }
     },
     {
@@ -349,6 +365,14 @@
         "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
         "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "开源模型可直接部署，用于实时多说话人识别项目。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-23T14:07:29.395243Z"
       }
     },
     {
@@ -426,6 +450,14 @@
         "url": "https://developers.openai.com/codex/changelog",
         "source": "OpenAI Codex Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "CLI工具版本更新，开发者今天就能升级获取新功能或修复。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-23T14:07:29.395243Z"
       }
     },
     {
@@ -503,6 +535,14 @@
         "url": "https://github.blog/changelog/2026-09-22-opentelemetry-in-the-github-copilot-app",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "为Copilot应用添加可观测性，调试和监控AI辅助代码生成更方便了。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-23T14:07:29.395243Z"
       }
     },
     {
@@ -580,6 +620,14 @@
         "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "特定国家政府项目，与普通开发者的日常工具和成本无关。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-23T14:07:29.395243Z"
       }
     },
     {
@@ -715,6 +763,14 @@
         "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack",
         "source": "Hacker News：AI 热帖",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 55,
+      "persona_review": "提醒AI决策系统需保留人工复核环节，设计时要注意。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-23T14:07:29.395243Z"
       }
     },
     {
@@ -792,6 +848,14 @@
         "url": "https://github.blog/changelog/2026-09-22-new-features-and-improvements-in-copilot-for-jetbrains",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "JetBrains IDE 插件功能更新，今天就能用上新的代码辅助。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-23T14:07:29.395243Z"
       }
     },
     {
@@ -898,6 +962,14 @@
         "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna",
         "source": "Simon Willison 博客",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "新模型已发布且价格战开打，今天就能对比性价比选型了。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-23T14:07:29.395243Z"
       }
     },
     {
@@ -1004,6 +1076,14 @@
         "url": "https://artificialanalysis.ai/articles/claude-opus-5-5",
         "source": "Artificial Analysis 完整文章（网页）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 68,
+      "persona_review": "选型新参考，但榜单变化快，别急着为排名重构现有流程。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-23T14:07:29.395243Z"
       }
     },
     {
@@ -1110,6 +1190,14 @@
         "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
         "source": "Claude Code：GitHub Releases（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "IDE插件已更新，今天写代码就能用上更强的默认模型。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-23T14:07:29.395243Z"
       }
     },
     {
@@ -1186,6 +1274,14 @@
         "url": "https://www.marktechpost.com/2026/09/22/openai-releases-gpt-6-sol-and-luna-50-cheaper-api-pricing-and-benchmarks",
         "source": "MarkTechPost（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 90,
+      "persona_review": "API价格直接腰斩，今天就能用更低的成本调用新模型。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-23T14:07:29.395243Z"
       }
     },
     {
@@ -1263,6 +1359,14 @@
         "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "GPT-6已可用，新缓存系统直接降低API调用成本与延迟。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-23T14:07:29.395243Z"
       }
     },
     {
@@ -1339,6 +1443,14 @@
         "url": "https://www.aibase.com/news/31310",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 10,
+      "persona_review": "股市和薪资八卦，跟写代码选工具没半点关系。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-23T14:07:29.395243Z"
       }
     },
     {
@@ -1415,6 +1527,14 @@
         "url": "https://x.com/ArtificialAnlys/status/2102462962758033624",
         "source": "X：Artificial Analysis (@ArtificialAnlys)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "第三方评测显示新模型性价比翻倍，选型时可重点考虑成本。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-23T14:07:29.395243Z"
       }
     },
     {
@@ -1492,6 +1612,14 @@
         "url": "https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "GitHub Copilot用户今天就能用上更强的Claude模型，直接提升代码生成质量。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-23T14:07:29.395243Z"
       }
     },
     {
@@ -1567,6 +1695,14 @@
         "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "使用Muse集成的项目需立即检查安全，避免服务中断。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-23T14:07:29.395243Z"
       }
     },
     {
@@ -1642,6 +1778,14 @@
         "url": "https://x.com/rohanpaul_ai/status/2102491250515681384",
         "source": "X：Rohan Paul (@rohanpaul_ai)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "Claude Opus降价提速，今天就能用更便宜更强的模型了。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-23T14:07:29.395243Z"
       }
     },
     {
@@ -1717,6 +1861,14 @@
         "url": "https://x.com/Alibaba_Qwen/status/2102687258990026993",
         "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "开源模型全家桶，ASR/TTS可直接下载集成或通过DashScope API调用。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-23T14:07:29.395243Z"
       }
     },
     {
@@ -1792,6 +1944,14 @@
         "url": "https://x.com/OpenRouter/status/2102463839283617992",
         "source": "X：OpenRouter (@OpenRouter)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 88,
+      "persona_review": "GPT-6新模型已可调用，价格是GPT-5.6的一半，成本敏感项目可立即评估。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-23T14:07:29.395243Z"
       }
     }
   ]

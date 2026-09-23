@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T09:02:26.017193Z",
+  "generated_at": "2026-09-23T14:08:18.599764Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,30 +17,10 @@
   ],
   "items": [
     {
-      "story_id": "story_73d2d693822d",
-      "title": "GPT-6 Sol 与 Luna 发布，API 价格比 GPT-5.6 低 50% / GPT-6 Luna is $0.10 / $0.50 per 1M tokens！ We're soon going to have to switch to per billion token…",
-      "url": "https://x.com/sherwinwu/status/2102462783707344907",
-      "rank": 1,
-      "reviews": {
-        "cynic": {
-          "score": 15,
-          "review": "价格表都出来了，产品呢？别又是拿PPT来‘发布’。"
-        },
-        "paper-police": {
-          "score": 8,
-          "review": "仅有社交媒体价格信息，无论文、代码或公开评测，证据不足。"
-        },
-        "pragmatic": {
-          "score": 92,
-          "review": "GPT-6新模型API已发布，价格腰斩，今天就能用新模型省钱或提效。"
-        }
-      }
-    },
-    {
       "story_id": "story_3c48d5bb2a9e",
       "title": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 降 50% / Introducing GPT-6 Sol and Luna",
       "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "rank": 2,
+      "rank": 1,
       "reviews": {
         "cynic": {
           "score": 78,
@@ -60,7 +40,7 @@
       "story_id": "story_8270efdbfdab",
       "title": "OpenAI 发布 GPT-6 Sol 与 Luna，API 定价降至五折并公布基准成绩 / OpenAI Releases GPT-6 Sol and Luna： 50% Cheaper API Pricing and Benchmarks",
       "url": "https://www.marktechpost.com/2026/09/22/openai-releases-gpt-6-sol-and-luna-50-cheaper-api-pricing-and-benchmarks",
-      "rank": 3,
+      "rank": 2,
       "reviews": {
         "cynic": {
           "score": 75,
@@ -73,6 +53,26 @@
         "pragmatic": {
           "score": 90,
           "review": "API价格直接腰斩，今天就能用更低的成本调用新模型。"
+        }
+      }
+    },
+    {
+      "story_id": "story_b742684d2aef",
+      "title": "Anthropic 发布 Claude Opus 5.5，成本较 Opus 5 降低 40% / Introducing Claude Opus 5.5",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "rank": 3,
+      "reviews": {
+        "cynic": {
+          "score": 78,
+          "review": "降本是实打实的，但‘5.5’这命名，性能提升的幅度怕是对不起这个点号。"
+        },
+        "paper-police": {
+          "score": 15,
+          "review": "官网博客宣称性能与成本，无论文、代码或独立评测佐证。"
+        },
+        "pragmatic": {
+          "score": 88,
+          "review": "API成本立减四成，用Opus做推理的今天就能省钱。"
         }
       }
     }
