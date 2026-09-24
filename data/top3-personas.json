@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T18:47:50.796992Z",
+  "generated_at": "2026-09-24T08:57:01.799472Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,30 +17,10 @@
   ],
   "items": [
     {
-      "story_id": "story_8270efdbfdab",
-      "title": "OpenAI 发布 GPT-6 Sol 与 Luna，API 定价降至五折并公布基准成绩 / OpenAI Releases GPT-6 Sol and Luna： 50% Cheaper API Pricing and Benchmarks",
-      "url": "https://www.marktechpost.com/2026/09/22/openai-releases-gpt-6-sol-and-luna-50-cheaper-api-pricing-and-benchmarks",
-      "rank": 1,
-      "reviews": {
-        "cynic": {
-          "score": 75,
-          "review": "降价是真利好，但基准成绩没提对比对象，这折扣里有多少是性能水分？"
-        },
-        "paper-police": {
-          "score": 45,
-          "review": "仅新闻稿公布基准成绩，无论文、代码链接，需等第三方复现验证。"
-        },
-        "pragmatic": {
-          "score": 90,
-          "review": "API价格直接腰斩，今天就能用更低的成本调用新模型。"
-        }
-      }
-    },
-    {
       "story_id": "story_0f3ada4f2787",
       "title": "Antigravity SDK 支持本地模型，可完全离线运行智能体 / Introducing Support for Local AI Models in the Antigravity SDK",
       "url": "https://developers.googleblog.com/introducing-support-for-local-ai-models-in-the-antigravity-sdk",
-      "rank": 2,
+      "rank": 1,
       "reviews": {
         "cynic": {
           "score": 72,
@@ -57,22 +37,42 @@
       }
     },
     {
-      "story_id": "story_4784460ec311",
-      "title": "Local sandboxing in the GitHub Copilot app",
-      "url": "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app",
-      "rank": 3,
+      "story_id": "story_a34e63681a0b",
+      "title": "More ways to request and configure Copilot code reviews",
+      "url": "https://github.blog/changelog/2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews",
+      "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 72,
-          "review": "终于把本地沙盒从云端搬下来，安全是实打实的，但算力压力也转嫁给用户了。"
+          "score": 65,
+          "review": "功能迭代是好事，但‘更多方式’听着像把已有功能重新排列组合了一下。"
         },
         "paper-police": {
-          "score": 45,
-          "review": "官方博客公布功能细节，但无独立评测，需等第三方验证。"
+          "score": 15,
+          "review": "仅有官方博客功能更新，无论文、代码或独立评测支撑其效能。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "Copilot本地沙盒已上线，运行代码更安全，现在就能用。"
+          "review": "GitHub Copilot代码审查功能更灵活了，现在就能配置和请求。"
+        }
+      }
+    },
+    {
+      "story_id": "story_cff02d2a853b",
+      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "rank": 3,
+      "reviews": {
+        "cynic": {
+          "score": 65,
+          "review": "GPT-6 Astra听着唬人，但具体强多少、成本几何，官方只字不提。"
+        },
+        "paper-police": {
+          "score": 15,
+          "review": "仅有官方博客宣称性能，无论文、代码及可复现评测。"
+        },
+        "pragmatic": {
+          "score": 85,
+          "review": "Harvey法律AI已集成GPT-6 Astra，法律从业者今天就能用上更强的草稿生成。"
         }
       }
     }
