@@ -78,6 +78,14 @@
         "url": "https://openai.com/index/ringg",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 70,
+      "persona_review": "提供了AI客服代理的落地案例，可参考其技术栈和实现思路。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-24T13:57:32.544668Z"
       }
     },
     {
@@ -213,6 +221,14 @@
         "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
         "source": "Anthropic：Newsroom（网页）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 60,
+      "persona_review": "AI辅助科研的潜力展示，但离普通开发者能用的工具还很远。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-24T13:57:32.544668Z"
       }
     },
     {
@@ -290,6 +306,14 @@
         "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
         "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 82,
+      "persona_review": "提供了加速机器人仿真的具体工具和教程，可直接用于优化工作流。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-24T13:57:32.544668Z"
       }
     },
     {
@@ -425,6 +449,14 @@
         "url": "https://www.smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "提醒开发者注意数据安全合规，但无具体技术细节或工具更新。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-24T13:57:32.544668Z"
       }
     },
     {
@@ -501,6 +533,14 @@
         "url": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law",
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "监管调查进展，对开发者无直接影响，知道有这么个事就行。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-24T13:57:32.544668Z"
       }
     },
     {
@@ -578,6 +618,14 @@
         "url": "https://github.blog/changelog/2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "GitHub Copilot代码审查功能更灵活了，现在就能配置和请求。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-24T13:57:32.544668Z"
       }
     },
     {
@@ -655,6 +703,14 @@
         "url": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app",
         "source": "GitHub AI & ML",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "GitHub Copilot App 优化了大PR渲染，处理大型代码变更时体验更流畅。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-24T13:57:32.544668Z"
       }
     },
     {
@@ -732,6 +788,14 @@
         "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
         "source": "Google DeepMind",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 80,
+      "persona_review": "新TTS模型API已发布，做语音合成的现在就能评估效果和成本。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-24T13:57:32.544668Z"
       }
     },
     {
@@ -809,6 +873,14 @@
         "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion",
         "source": "Google AI Blog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "只是服务区域和客户名单更新，不影响现有开发者的使用。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-24T13:57:32.544668Z"
       }
     },
     {
@@ -885,6 +957,14 @@
         "url": "https://x.com/Thom_Wolf/status/2103054896438136973",
         "source": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "吃瓜看戏的行业八卦，不影响你今天选模型写代码。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-24T13:57:32.544668Z"
       }
     },
     {
@@ -962,6 +1042,14 @@
         "url": "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "Copilot本地沙盒已上线，运行代码更安全，现在就能用。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-24T13:57:32.544668Z"
       }
     },
     {
@@ -1039,6 +1127,14 @@
         "url": "https://openai.com/index/two-years-of-openai-academy",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "官方学习平台回顾，对开发者无新工具或API发布。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-24T13:57:32.544668Z"
       }
     },
     {
@@ -1115,6 +1211,14 @@
         "url": "https://x.com/ClaudeDevs/status/2102940480736821610",
         "source": "X：Claude Devs (@ClaudeDevs)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "费用规则明确，Pro/Max用户有额外额度，算成本时注意。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-24T13:57:32.544668Z"
       }
     },
     {
@@ -1191,6 +1295,14 @@
         "url": "https://www.aibase.com/news/31356",
         "source": "AIbase",
         "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 70,
+      "persona_review": "模型训练细节开源，做合规或复现研究的可以直接参考。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-24T13:57:32.544668Z"
       }
     },
     {
@@ -1268,6 +1380,14 @@
         "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory",
         "source": "Google DeepMind",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "谷歌推进服务器端安全内存，对处理敏感数据的企业级应用是利好。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-24T13:57:32.544668Z"
       }
     },
     {
@@ -1344,6 +1464,14 @@
         "url": "https://developers.googleblog.com/introducing-support-for-local-ai-models-in-the-antigravity-sdk",
         "source": "Google Developers Blog（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 88,
+      "persona_review": "SDK支持本地模型，开发离线AI应用今天就能动手。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-24T13:57:32.544668Z"
       }
     },
     {
@@ -1420,6 +1548,14 @@
         "url": "https://x.com/arena/status/2102952767614779403",
         "source": "X：Arena (@arena)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 65,
+      "persona_review": "选型时可参考的新基准，但榜单变化快，别急着换主力工具。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-24T13:57:32.544668Z"
       }
     },
     {
@@ -1496,6 +1632,14 @@
         "url": "https://www.ithome.com/1/006/548.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "合作未达预期是商业八卦，不影响你现在调用API或开发应用。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-24T13:57:32.544668Z"
       }
     },
     {
@@ -1572,6 +1716,14 @@
         "url": "https://garymarcus.substack.com/p/i-think-the-answer-is-we-have-to",
         "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 25,
+      "persona_review": "专家口水战，不影响你今天调API或选模型。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-24T13:57:32.544668Z"
       }
     },
     {
@@ -1648,6 +1800,14 @@
         "url": "https://x.com/rohanpaul_ai/status/2102832068157984990",
         "source": "X：Rohan Paul (@rohanpaul_ai)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "AI驱动的湿实验研究进展，离日常开发应用还远，了解即可。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-24T13:57:32.544668Z"
       }
     }
   ]

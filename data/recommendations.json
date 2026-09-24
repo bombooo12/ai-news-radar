@@ -3,22 +3,22 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "智能体失控入侵政府网站？AI初学者必须懂的Agent安全红线与实战指南",
+      "title": "AI智能体失控！OpenAI攻击政府网站事件全解析与小白安全指南",
       "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、对AI Agent感兴趣的小白、想用AI自动化工作但担心风险的个人",
-      "reason": "结合OpenAI智能体入侵事件热点，满足用户对新工具、新模型兴趣，可做实操、避坑和深度分析的系列内容，争议性强易传播。",
+      "track_name": "AI技术（Agent/提示词/Skill）",
+      "target_audience": "AI初学者、对Agent感兴趣的小白",
+      "reason": "事件极具争议和传播性，符合创作者偏好；可将热点事件转化为实操性强的安全教程和避坑指南。",
       "source_items": [
+        "Thomas Wolf 转评 Transluce 披露：发布 3 万余条日志，称涉及 OpenAI 攻击澳大利亚政府及更早的智能体活动",
         "Rogue OpenAI Agent Tried to Breach Government Site in May When Prompted for Simple Data-Retrieving Tasks",
-        "Nathan Lambert 评论 OpenAI 智能体入侵澳大利亚政府网站事件",
-        "Can open-source prompt-injection detectors catch realistic AI agent attacks?"
+        "Nathan Lambert 评论 OpenAI 智能体入侵澳大利亚政府网站事件"
       ],
       "source_urls": [
+        "https://x.com/Thom_Wolf/status/2103054896438136973",
         "https://slashdot.org/story/26/09/24/0528251/rogue-openai-agent-tried-to-breach-government-site-in-may-when-prompted-for-simple-data-retrieving-tasks",
         "https://x.com/natolambert/status/2102872133244183038",
-        "https://github.com/rudratoshs/buried-injections",
-        "https://x.com/ericzakariasson/status/2102853511637774551",
-        "https://x.com/rauchg/status/2102820148629614685"
+        "https://www.aibase.com/news/31347",
+        "https://x.com/ericzakariasson/status/2102853511637774551"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -27,12 +27,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "手把手教你用DeepSeek Harness搭建一个安全的个人数据助手（附提示词）",
-          "summary": "教用户如何利用DeepSeek Harness等工具，通过安全的提示词和工具配置，搭建一个不会“乱来”的个人AI助手。",
+          "hook": "别让你的AI成黑客！3步设置，安全使用Agent不求人",
+          "summary": "教初学者如何在使用ChatGPT等AI工具时，通过提示词和设置规避危险操作。",
           "key_points": [
-            "选择安全的Agent框架（如DeepSeek Harness）",
-            "编写具有明确边界的提示词（禁止访问外部网站、仅处理本地文件）",
-            "配置安全的工具权限（仅开放必要API）"
+            "1. 识别高风险指令：哪些关键词可能触发危险行为",
+            "2. 设置安全边界：在提示词中加入明确的“禁止”规则",
+            "3. 使用官方安全工具：介绍OpenAI等平台的Safety设置"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -40,15 +40,13 @@
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文",
-          "hook": "别让你的AI变成“黑客”！新手使用Agent的5大安全雷区",
-          "summary": "指出新手在编写提示词、授权工具、测试Agent时最常见的5个安全隐患，并提供规避方法。",
+          "format": "短视频",
+          "hook": "AI小白必看！5个让你账号被封的Agent使用雷区",
+          "summary": "指出普通用户在使用AI Agent时最容易触犯平台规则和引发安全风险的误区。",
           "pitfalls": [
-            "提示词过于开放导致Agent“自由发挥”",
-            "盲目授权网络访问或文件读写权限",
-            "在真实环境中测试未经充分验证的Agent",
-            "忽略Agent的长期记忆可能泄露隐私",
-            "使用来路不明的第三方技能（Skill）"
+            "坑点1：让AI模拟登录或绕过验证码",
+            "坑点2：要求AI爬取受版权保护或敏感数据",
+            "坑点3：使用模糊指令导致AI“自由发挥”出格"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -57,12 +55,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从“入侵事件”看AI Agent的未来：是超级员工，还是潜在风险？",
-          "summary": "分析智能体安全事件背后的技术原理、行业监管趋势，以及对个人开发者和小微企业意味着什么。",
+          "hook": "从政府被黑到小米开源：Agent失控背后是AI的“能力”还是“漏洞”？",
+          "summary": "分析本次事件背后的技术原理、行业监管趋势，以及对普通开发者和用户的影响。",
           "insights": [
-            "事件暴露了当前Agent“工具使用”能力的双刃剑特性",
-            "安全将从“事后补救”转向“提示词工程前置设计”",
-            "未来可能出现“AI Agent保险”和“安全审计”服务，为商标/IP服务商提供新业务场景"
+            "洞察1：事件暴露了当前Agent“工具调用”能力的双刃剑效应",
+            "洞察2：开源模型（如小米MiMo）的兴起是否会加剧安全问题？",
+            "洞察3：对个人创作者而言，未来使用AI工具的法律和道德边界在哪里？"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -71,19 +69,21 @@
     },
     {
       "rank": 2,
-      "title": "Claude Marketplace上线！普通人如何靠“卖技能”赚到第一桶金？",
+      "title": "Claude Marketplace上线！手把手教你打造并上架自己的第一个AI技能",
       "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "想用AI变现的个人、AI初学者、小微创业者",
-      "reason": "紧贴Anthropic官方热点，完美契合创作者“副业变现”和“实操性强”的偏好，可直接教用户如何参与新生态赚钱。",
+      "track_name": "AI技术（Agent/提示词/Skill）",
+      "target_audience": "想用AI变现的个人、AI初学者",
+      "reason": "新平台上线是热点，用户反馈对Harness和Skill感兴趣；教程和变现思路高度匹配创作者能力与受众需求。",
       "source_items": [
         "Anthropic 上线 Claude Marketplace，汇聚插件、智能体与服务伙伴",
-        "the post: \"Claude one-shot this\" the prompt: 10k characters with good takes plus skills, examples and API keys"
+        "the post: \"Claude one-shot this\" the prompt: 10k characters with good takes plus skills, examples and API keys",
+        "Muse, Instinct, OpenClaw, Claude Code… All successful agents have 3 key components"
       ],
       "source_urls": [
         "https://claude.com/blog/claude-marketplace",
         "https://x.com/trq212/status/2102870353781641416",
-        "https://x.com/rauchg/status/2102820148629614685"
+        "https://x.com/rauchg/status/2102820148629614685",
+        "https://x.com/ericzakariasson/status/2102853511637774551"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -91,15 +91,13 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频（录屏+AI配音）",
-          "hook": "零代码！30分钟制作你的第一个Claude Skill并上架Marketplace",
-          "summary": "通过录屏演示，从构思、编写提示词、测试到提交上架Claude Marketplace的全过程。",
+          "format": "视频",
+          "hook": "零代码！用ChatGPT 10分钟做一个Claude技能并上架",
+          "summary": "一步步演示如何构思、编写提示词、测试并提交一个简单的Claude Skill到Marketplace。",
           "key_points": [
-            "注册Claude开发者账号并了解政策",
-            "构思一个解决具体问题的小型Skill（如“小红书爆款标题生成器”）",
-            "使用结构化提示词模板编写Skill核心逻辑",
-            "在Claude对话中测试并优化",
-            "提交至Marketplace审核"
+            "1. 技能构思：从解决一个小问题开始（如小红书标题生成）",
+            "2. 提示词工程：编写清晰、可复用的技能描述和指令",
+            "3. 提交与测试：在Claude平台完成上架流程"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -108,13 +106,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "别白忙活！Claude Marketplace上架被拒的3个常见原因",
-          "summary": "分析Skill上架审核不通过的典型原因，帮助用户提前规避，提高成功率。",
+          "hook": "你的Claude技能总被拒？可能是踩了这3个审核大坑",
+          "summary": "分析Claude Marketplace审核可能拒绝的常见原因，并提供通过技巧。",
           "pitfalls": [
-            "Skill功能与现有官方或热门Skill高度同质化",
-            "提示词包含不安全的指令或潜在的偏见",
-            "描述和用例过于模糊，价值不清晰",
-            "定价策略不合理（免费或过高）"
+            "坑点1：技能描述过于宽泛或功能重复",
+            "坑点2：提示词中包含不安全的API调用或外部链接",
+            "坑点3：未提供清晰的使用示例和预期效果"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -123,12 +120,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "Skill经济崛起：为什么说Claude Marketplace是普通人的“App Store”机会？",
-          "summary": "对比苹果App Store和微信小程序的历史，分析Claude生态带来的轻量化、提示词驱动的创业机会。",
+          "hook": "Claude商店 vs GPT商店： Anthropic的生态野望与个人创作者的机会",
+          "summary": "对比分析两大AI巨头的应用商店策略，预测未来AI技能经济的变现模式和竞争格局。",
           "insights": [
-            "AI时代的“微创业”门槛降至最低（只需写好提示词）",
-            "Skill可能成为个人IP和引流的新渠道（可关联个人服务）",
-            "早期涌入者有机会定义细分品类，建立品牌认知"
+            "洞察1：Claude Marketplace更强调“技能”而非“Agent”，门槛可能更低",
+            "洞察2：对于小白，从垂直、实用的技能切入是早期红利",
+            "洞察3：结合商标/IP知识，如何提前布局和保护自己的AI技能创意？"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -137,32 +134,34 @@
     },
     {
       "rank": 3,
-      "title": "视频成本直降77%！火山引擎Seedance Draft模式全测评与实战",
+      "title": "AI拍剧成本骤降90%！揭秘《后西游记》幕后，小白如何用AI做短视频",
       "track": "ai_video",
       "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI初学者、自媒体创作者、对AI视频生成感兴趣的小白",
-      "reason": "AI视频是用户常用赛道，Seedance的Draft模式是显著的效率提升工具，测评教程实操性强，能直接帮用户省钱。",
+      "target_audience": "对AI视频感兴趣的小白、自媒体创作者",
+      "reason": "AI视频是创作者常选赛道；案例震撼，成本数据有说服力；可拆解为小白可操作的短视频教程。",
       "source_items": [
-        "火山引擎Seedance2.5上线Draft模式:480P试错、1080P成片，成本最高省77%"
+        "首部上星AI长剧《后西游记》幕后：没有摄影机，100%画面由Seedance生成，单集成本压到十几万",
+        "Great vision for the future of the creative industry with AI from the one person who can actually predict these things."
       ],
       "source_urls": [
-        "https://www.aibase.com/news/31293"
+        "https://www.aibase.com/news/31357",
+        "https://x.com/levie/status/2102934874470617303",
+        "https://www.cnbc.com/2026/09/24/enterprise-ai-brahma-fundraise-dneg-dune.html",
+        "https://www.techmeme.com/260924/p18"
       ],
       "urgency": "medium",
-      "viral_potential": "medium",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频（剪映包装+录屏）",
-          "hook": "省钱攻略：用Seedance Draft模式，200元做出1000元质量的AI产品介绍视频",
-          "summary": "完整演示为一个虚拟产品制作介绍视频，从480P草稿反复调整，到最终生成1080P成片的具体流程和成本对比。",
+          "format": "视频",
+          "hook": "不用学剪辑！用1个AI工具+剪映，30分钟做出《后西游记》风格短片",
+          "summary": "使用类似Seedance的AI视频生成工具（如Pika等）结合剪映，快速生成并剪辑一段风格统一的短视频。",
           "key_points": [
-            "注册并登录火山引擎，找到Seedance服务",
-            "撰写视频脚本并设置480P Draft模式参数",
-            "生成多版草稿，根据效果调整提示词和镜头描述",
-            "锁定满意版本后，一键升级至1080P成片",
-            "导出并在剪映中添加字幕和包装"
+            "1. 生成素材：用AI工具生成连续场景的图片/短视频片段",
+            "2. 统一风格：通过提示词控制画面风格和角色一致性",
+            "3. 剪辑合成：用剪映快速拼接、加字幕、配音乐"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -171,12 +170,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "Seedance Draft模式别乱用！这3种情况反而更费钱",
-          "summary": "指出Draft模式并非万能，在某些场景下使用可能适得其反，帮助用户做出明智选择。",
+          "hook": "AI做视频总像PPT？避开这3个坑，你的视频也能流畅如剧",
+          "summary": "指出AI生成视频时常见的画面跳跃、角色变形等问题，并提供解决方案。",
           "pitfalls": [
-            "对画面细节要求极高的艺术短片（480P看不清细节）",
-            "脚本和分镜尚未确定的项目（反复重来成本高）",
-            "需要快速出片的紧急任务（Draft模式拉长周期）"
+            "坑点1：提示词不连续，导致画面逻辑断裂",
+            "坑点2：忽略“种子值”设置，角色形象无法统一",
+            "坑点3：过度依赖AI生成，缺乏后期剪辑的节奏把控"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -185,12 +184,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从Seedance到Runway：AI视频工具的“试错成本战”意味着什么？",
-          "summary": "分析Draft模式背后的行业趋势，即AI视频工具竞争焦点从“生成质量”转向“工作流效率和成本控制”。",
+          "hook": "单集十几万 vs 传统千万：AI影视革命，是自媒体的机会还是影视业的末日？",
+          "summary": "深入分析AI视频技术对内容生产成本的颠覆性影响，以及对不同层级创作者的意义。",
           "insights": [
-            "“低成本试错”成为AI视频工具的核心竞争力",
-            "这降低了视频创作门槛，利好中小企业和个人创作者",
-            "未来工具会更深度集成到从脚本到成片的完整工作流"
+            "洞察1：成本下降将催生大量小众、实验性内容，利好个人和中小团队",
+            "洞察2：“创意策划和叙事能力”的价值将超过“拍摄执行能力”",
+            "洞察3：讨论AI生成内容的版权归属问题，自然引出商标/IP保护的重要性"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -199,19 +198,19 @@
     },
     {
       "rank": 4,
-      "title": "MrBeast注册“野兽手环”商标：给AI创作者的品牌保护启示录",
-      "track": "trademark",
-      "track_name": "商标/IP/创业",
-      "target_audience": "自媒体创作者、想建立个人品牌的小微企业主、AI内容创业者",
-      "reason": "完美结合AIGC剧情向引流和商标知识科普。用顶流网红的案例切入，生动有趣地传递商标保护的重要性。",
+      "title": "YouTube用AI“干掉”创作者？新工具实测与自媒体人的生存策略",
+      "track": "creator_economy",
+      "track_name": "自媒体/创作者经济",
+      "target_audience": "自媒体创作者、想用AI变现的个人",
+      "reason": "平台动态与创作者息息相关，易引发讨论和焦虑，符合“争议性/冲突性”偏好；可做工具测评和策略分析。",
       "source_items": [
-        "MrBeast Trademarks ‘Beast Band,’ Signaling a Push Into Fitness Wearables",
-        "Singapore: Safeguarding trademarks on online platforms and the risk of groundless threats"
+        "YouTube adds AI tools to Creator Studio with script coaching, smart thumbnails, and Gemini editing",
+        "YouTube is building AI creator tools that do almost everything for them"
       ],
       "source_urls": [
-        "https://passionfru.it/mrbeast-trademarks-beast-band-signaling-a-push-into-fitness-wearables-165831",
-        "https://www.managingip.com/article/2gxqcwhtby2wmcz46kc1s/sponsored-content/singapore-safeguarding-trademarks-on-online-platforms-and-the-risk-of-groundless-threats",
-        "https://copyrightalliance.org/ai-piracy-problem-part-three"
+        "https://the-decoder.com/youtube-adds-ai-tools-to-creator-studio-with-script-coaching-smart-thumbnails-and-gemini-editing",
+        "https://www.theverge.com/tech/999140/made-on-youtube-creator-tools-ai-thumbnails-tests",
+        "https://creatoreconomy.so/p/my-personal-ai-course-is-live-now"
       ],
       "urgency": "medium",
       "viral_potential": "high",
@@ -219,14 +218,13 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "AIGC剧情向视频（AI生成画面+配音）",
-          "hook": "AI模拟：如果你的“AI绘画神器”名字被人抢注了，怎么办？",
-          "summary": "通过一个AI生成的剧情短片，演示一个创作者发现自己的AI工具昵称被抢注商标后，可以采取的具体查询和应对步骤。",
+          "format": "测评",
+          "hook": "实测YouTube AI工具箱：脚本教练和智能缩略图到底有多“智能”？",
+          "summary": "亲自体验并测评YouTube新推出的AI工具，展示其效果、优点和局限性。",
           "key_points": [
-            "第一步：在商标局官网进行近似商标查询",
-            "第二步：收集你的品牌在先使用证据（社交媒体、作品集）",
-            "第三步：咨询专业代理，评估提出异议或无效宣告的可能性",
-            "第四步：如果无法挽回，如何快速启用并保护新品牌"
+            "1. 脚本教练：输入主题，看AI如何建议结构和爆点",
+            "2. 智能缩略图：上传视频，让AI自动生成多个封面选项",
+            "3. Gemini剪辑：尝试用AI快速完成粗剪和转场"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -234,14 +232,13 @@
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文",
-          "hook": "AI创作者必看：给作品起名时，这4类词千万别碰！",
-          "summary": "指出在命名AI生成的作品、工具或账号时，容易导致商标无法注册或侵权的词汇类型。",
+          "format": "短视频",
+          "hook": "小心！过度依赖YouTube AI，你的账号可能被限流",
+          "summary": "分析完全依赖平台AI工具可能导致的内容同质化、失去个人风格等风险。",
           "pitfalls": [
-            "使用行业通用词汇（如“AI绘画”、“智能助手”）",
-            "涉及地名、国家名称等禁止性条款",
-            "与知名品牌过于相似，存在搭便车嫌疑",
-            "名称带有不良影响或欺骗性含义"
+            "坑点1：AI生成的脚本缺乏个人见解和温度",
+            "坑点2：智能缩略图可能导致封面雷同，点击率下降",
+            "坑点3：算法可能优先推荐使用其AI工具的内容，形成依赖陷阱"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -250,12 +247,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从MrBeast到AI网红：为什么“内容即品牌，品牌需确权”？",
-          "summary": "分析在AI赋能下，个人创作效率暴增，品牌价值加速沉淀，使得商标等知识产权保护从“可选项”变为“必选项”。",
+          "hook": "当平台既是裁判又是运动员：AI工具时代，自媒体人的护城河在哪里？",
+          "summary": "探讨平台提供AI工具对创作者生态的长期影响，以及创作者应如何构建不可替代性。",
           "insights": [
-            "AI让个人具备了小型媒体公司的产出能力，品牌资产随之放大",
-            "商标是连接线上流量与线下商业化（课程、产品、服务）的法律桥梁",
-            "早期进行品牌布局，是为未来可能出现的融资、收购铺平道路"
+            "洞察1：AI降低的是制作门槛，但抬高了“独特创意和真实连接”的门槛",
+            "洞察2：创作者应从“内容生产者”转向“创意策展人和社区构建者”",
+            "洞察3：建立个人品牌（商标/IP）在AI生成内容泛滥的时代将至关重要"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -264,19 +261,21 @@
     },
     {
       "rank": 5,
-      "title": "用AI武装自己！拆解Peter Yang的“个人AI系统”课程精华",
-      "track": "creator_economy",
-      "track_name": "自媒体/创作者经济",
-      "target_audience": "想用AI提升效率的自媒体创作者、内容创业者、个人工作者",
-      "reason": "直接关联创作者经济热点和“个人AI系统”课程，符合用户对“自媒体运营策略”和“副业变现思路”的内容需求，可做深度拆解和本土化实践。",
+      "title": "MrBeast注册“野兽手环”商标！AIGC时代，个人品牌如何提前布局知识产权",
+      "track": "trademark_ip",
+      "track_name": "商标/IP/创业",
+      "target_audience": "需要商标注册服务的小微企业主、个人品牌创业者",
+      "reason": "完美结合创作者副业（商标代理）与主线（AIGC），用热点案例进行剧情向内容引流。",
       "source_items": [
-        "My Personal AI Course Is Live! Copy My AI System to Take Work Off Your Plate",
-        "A Social Commerce Playbook for the AI Era"
+        "MrBeast Trademarks ‘Beast Band,’ Signaling a Push Into Fitness Wearables",
+        "Obelix strikes back as General Court overturns EUIPO ruling",
+        "Fair Use Is Not a Shield AI Companies Can Use to Shelter Their Use of Pirate Copies"
       ],
       "source_urls": [
-        "https://creatoreconomy.so/p/my-personal-ai-course-is-live-now",
-        "https://www.adweek.com/commerce/a-social-commerce-playbook-for-the-ai-era",
-        "https://www.adweek.com/brand-marketing/what-it-takes-to-manage-creator-commerce-at-scale"
+        "https://passionfru.it/mrbeast-trademarks-beast-band-signaling-a-push-into-fitness-wearables-165831",
+        "https://www.managingip.com/article/2gxr2pvpe2b4yn4di641s/sponsored-content/obelix-strikes-back-as-general-court-overturns-euipo-ruling",
+        "https://copyrightalliance.org/ai-piracy-problem-part-three",
+        "https://36kr.com/newsflashes/3997355627024512?f=rss"
       ],
       "urgency": "medium",
       "viral_potential": "medium",
@@ -284,14 +283,13 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "不花一分钱，用国内工具复刻“个人AI系统”：我的每周内容规划流水线",
-          "summary": "借鉴课程思路，但全部使用国内可访问的AI工具（如DeepSeek、TRAE、剪映），搭建一个从选题到分发的自动化工作流。",
+          "format": "AIGC剧情向视频",
+          "hook": "AI帮我创业：从生成品牌名到注册商标的全流程动画演示",
+          "summary": "用AI生成动画角色和场景，戏剧化演示一个创业者利用ChatGPT起名、Midjourney设计logo，并了解商标注册流程的故事。",
           "key_points": [
-            "用DeepSeek+Flomo构建选题灵感库",
-            "用TRAE辅助进行初稿撰写和润色",
-            "用剪映AI功能快速生成视频粗剪",
-            "用Coze或扣子搭建内容排期与发布提醒机器人"
+            "1. 用ChatGPT脑暴和筛选可注册的品牌名",
+            "2. 用Midjourney生成logo概念图",
+            "3. 剧情转折：介绍商标查询和注册的必要步骤（软性植入服务）"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -300,12 +298,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "小心“AI依赖症”！过度自动化可能毁掉你的创作手感",
-          "summary": "指出在引入AI系统时，可能导致的同质化、失去个人风格、思维惰性等陷阱。",
+          "hook": "你的AI作品可能侵权！3个AIGC创作者最容易忽略的版权雷区",
+          "summary": "指出使用AI生成内容时，在字体、图像风格、训练数据来源上可能涉及的版权风险。",
           "pitfalls": [
-            "所有内容都交给AI生成，导致账号失去“人味”和独特性",
-            "过度追求流程自动化，忽略了创作中需要“慢思考”的关键环节",
-            "完全依赖AI选题，失去了对市场和受众的直觉感知"
+            "坑点1：直接商用AI生成的、包含特定版权的元素（如迪士尼风格）",
+            "坑点2：使用未授权字体生成logo或宣传图",
+            "坑点3：误以为AI生成的内容自动拥有完整版权"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -314,76 +312,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "“个人AI系统”的本质：是效率工具，还是创作者的新一轮内卷？",
-          "summary": "探讨AI工具普及对创作者行业生态的长期影响，是解放了创造力，还是提高了竞争基线。",
+          "hook": "从MrBeast到AI画师：超级个体时代，知识产权是最大的护城河",
+          "summary": "分析在个人品牌价值凸显的当下，商标、版权等知识产权如何从“成本”变为“资产”。",
           "insights": [
-            "AI系统将创作的技术门槛“抹平”，竞争核心回归到创意、洞察和真实连接",
-            "未来成功的创作者，将是“AI驾驶舱”里的优秀指挥官，而非“手工作坊”里的工匠",
-            "这为提供更高阶服务（如策略咨询、IP管理）创造了机会"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "title": "开源模型也能打！小米MiMo-V2.6 Pro实测，真能平替Claude Opus？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、关注开源模型的技术爱好者、寻求低成本AI解决方案的个人和小企业",
-      "reason": "回应小米开源模型发布热点，用户明确表示对新模型新工具感兴趣。测评形式符合产能，且有数据驱动和争议性（平替CLAude）。",
-      "source_items": [
-        "小米发布 MiMo-V2.6 Pro 与 Flash 开源全模态模型，Pro 在多数 Agent 基准上对标 Claude Opus 5 和 GPT-5.6 Sol",
-        "MiMo-V2.6-Pro、Claude Opus 5.5、GPT-6 Luna/Sol 发布改变智能指数与成本 Pareto 前沿"
-      ],
-      "source_urls": [
-        "https://x.com/AravSrinivas/status/2102780186202972254",
-        "https://x.com/ArtificialAnlys/status/2102833926788288704"
-      ],
-      "urgency": "high",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "视频（录屏测评）",
-          "hook": "免费平替方案：手把手教你部署并体验小米MiMo-V2.6 Pro（附API对接教程）",
-          "summary": "从零开始演示如何在支持的开源平台（如OpenRouter、Together AI）上找到并调用MiMo-V2.6 Pro模型，进行简单任务测试。",
-          "key_points": [
-            "在OpenRouter官网注册并获取API Key",
-            "查找并选择MiMo-V2.6-Pro模型",
-            "使用Python脚本或Postman调用API进行文本生成",
-            "与ChatGPT免费版进行相同任务的对比测试"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "别被“对标Opus”忽悠了！MiMo-V2.6 Pro的3个主要短板",
-          "summary": "基于实测，指出该模型在逻辑推理、长上下文处理、中文理解等方面与顶级闭源模型存在的客观差距。",
-          "pitfalls": [
-            "在复杂逻辑链条任务上容易“掉链子”",
-            "对超长文本的理解和总结能力不稳定",
-            "中文语料训练可能不足，某些表达不够自然",
-            "API服务商可能不稳定，影响使用体验"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "小米入局，开源大模型“性价比之战”白热化，开发者该如何选择？",
-          "summary": "分析MiMo发布对开源生态的影响，探讨在众多开源模型中，个人开发者和小企业应基于什么标准做选择。",
-          "insights": [
-            "开源模型的竞争从“有没有”进入“好不好用且便宜”的阶段",
-            "选择模型的标准：任务匹配度 > API成本与稳定性 > 绝对性能",
-            "开源模型的繁荣，最终会催生更多专注于提示词工程和垂直应用开发的中间层机会"
+            "洞察1：MrBeast等网红提前注册商标，是将其影响力进行商业化的标准动作",
+            "洞察2：AIGC让创作门槛降低，但让“可被识别的独特品牌”价值飙升",
+            "洞察3：对小微创业者和自媒体人，早期进行商标布局的成本远低于未来维权或更名的成本"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -392,20 +326,21 @@
     }
   ],
   "weekly_plan": {
-    "monday": "智能体失控入侵政府网站？AI初学者必须懂的Agent安全红线与实战指南（深度解读角度）",
-    "wednesday": "Claude Marketplace上线！普通人如何靠“卖技能”赚到第一桶金？（实操教程角度）",
-    "friday": "MrBeast注册“野兽手环”商标：给AI创作者的品牌保护启示录（AIGC剧情向视频角度）",
-    "strategy": "本周聚焦“AI安全与变现”和“品牌保护”，以热点事件切入，提供从风险规避到机会抓取的完整内容矩阵。"
+    "monday": "AI智能体失控！OpenAI攻击政府网站事件全解析与小白安全指南（实操教程角度）",
+    "wednesday": "Claude Marketplace上线！手把手教你打造并上架自己的第一个AI技能（实操教程角度）",
+    "friday": "MrBeast注册“野兽手环”商标！AIGC时代，个人品牌如何提前布局知识产权（AIGC剧情向视频角度）",
+    "strategy": "本周聚焦“热点事件实操化”和“副业引流”，用高争议性选题打开传播，用强实操性内容建立信任，并在周末用剧情视频自然引导商标服务需求。"
   },
-  "insights": "今日信息流显示，AI Agent安全与生态构建（如Claude Marketplace）是核心热点，同时开源模型（小米MiMo）与视频生成工具的成本优化（Seedance）为创作者提供了更丰富的实用选择。",
-  "ai_adjustment": "基于用户反馈“Harness是热点”和“对新模型新工具感兴趣”，本次推荐重点围绕DeepSeek Harness、Claude Marketplace、小米MiMo等新工具/生态设计选题，并强化了实操教程和数据驱动测评的角度。",
-  "generated_at": "2026-09-24T17:03:06.388409+08:00",
-  "total_items": 568,
-  "scored_items": 479,
+  "insights": "今日信息流显示，AI Agent的安全与治理、AI视频的成本革命、平台AI工具与创作者的博弈，以及AI时代的IP问题，是交织并行的核心议题。",
+  "ai_adjustment": "基于用户反馈，重点围绕用户感兴趣的“Harness”、“新模型/工具”和“系列选题”展开，并完全避开硬件相关选题；同时强化了“数据驱动”（如成本对比）和“争议性”元素。",
+  "generated_at": "2026-09-24T22:05:21.842373+08:00",
+  "total_items": 520,
+  "scored_items": 423,
   "tracks_summary": {
-    "ai_tech": 421,
-    "ai_video": 17,
-    "creator_economy": 34,
+    "ai_tech": 370,
+    "ai_video": 20,
+    "creator_economy": 25,
+    "growth_monetize": 1,
     "trademark_business": 7
   },
   "engine_version": "v2",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T08:57:01.799472Z",
+  "generated_at": "2026-09-24T13:58:10.686245Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -57,22 +57,22 @@
       }
     },
     {
-      "story_id": "story_cff02d2a853b",
-      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "story_id": "story_4784460ec311",
+      "title": "Local sandboxing in the GitHub Copilot app",
+      "url": "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "GPT-6 Astra听着唬人，但具体强多少、成本几何，官方只字不提。"
+          "score": 72,
+          "review": "终于把本地沙盒从云端搬下来，安全是实打实的，但算力压力也转嫁给用户了。"
         },
         "paper-police": {
-          "score": 15,
-          "review": "仅有官方博客宣称性能，无论文、代码及可复现评测。"
+          "score": 45,
+          "review": "官方博客公布功能细节，但无独立评测，需等第三方验证。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "Harvey法律AI已集成GPT-6 Astra，法律从业者今天就能用上更强的草稿生成。"
+          "review": "Copilot本地沙盒已上线，运行代码更安全，现在就能用。"
         }
       }
     }
