@@ -1,8 +1,85 @@
 {
-  "generated_at": "2026-09-24T08:53:34.135911Z",
+  "generated_at": "2026-09-24T13:56:08.874293Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_d5568a9a87d3",
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "url": "https://openai.com/index/ringg",
+      "primary_url": "https://openai.com/index/ringg",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "48e7e143951a807062656727fb44afb909b365f9",
+          "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+          "title_zh": null,
+          "title_en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+          "title_original": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/ringg",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-24T12:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "48e7e143951a807062656727fb44afb909b365f9",
+          "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+          "title_zh": null,
+          "title_en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+          "title_original": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/ringg",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-24T12:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.847,
+      "importance": 0.847,
+      "importance_score": 0.847,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9724,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-24T12:00:00Z",
+      "latest_at": "2026-09-24T12:00:00Z",
+      "primary_item": {
+        "id": "48e7e143951a807062656727fb44afb909b365f9",
+        "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+        "title_zh": null,
+        "title_en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+        "title_original": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://openai.com/index/ringg",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
     {
       "story_id": "story_2f7e483f74c2",
       "title": "Anthropic 宣布 Claude 自主发现类 CRISPR 的新型酶系统 ART / Claude discovers a novel enzyme system with CRISPR-like repeats",
@@ -106,15 +183,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8531,
-      "importance": 0.8531,
-      "importance_score": 0.8531,
+      "score": 0.8429,
+      "importance": 0.8429,
+      "importance_score": 0.8429,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.8118,
+        "recency": 0.7548,
         "story_heat": 0.5
       },
       "category": "official",
@@ -136,99 +213,6 @@
         "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
         "source": "Anthropic：Newsroom（网页）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 60,
-      "persona_review": "AI辅助科研的潜力展示，但离普通开发者能用的工具还很远。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-24T08:55:04.863674Z"
-      }
-    },
-    {
-      "story_id": "story_d5568a9a87d3",
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "url": "https://openai.com/index/ringg",
-      "primary_url": "https://openai.com/index/ringg",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "48e7e143951a807062656727fb44afb909b365f9",
-          "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-          "title_zh": null,
-          "title_en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-          "title_original": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/ringg",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-24T12:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "48e7e143951a807062656727fb44afb909b365f9",
-          "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-          "title_zh": null,
-          "title_en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-          "title_original": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/ringg",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-24T12:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.852,
-      "importance": 0.852,
-      "importance_score": 0.852,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-24T08:53:34.135911Z",
-      "latest_at": "2026-09-24T08:53:34.135911Z",
-      "primary_item": {
-        "id": "48e7e143951a807062656727fb44afb909b365f9",
-        "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-        "title_zh": null,
-        "title_en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-        "title_original": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://openai.com/index/ringg",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 70,
-      "persona_review": "提供了AI客服代理的落地案例，可参考其技术栈和实现思路。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-24T08:55:04.863674Z"
       }
     },
     {
@@ -276,15 +260,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8366,
-      "importance": 0.8366,
-      "importance_score": 0.8366,
+      "score": 0.8263,
+      "importance": 0.8263,
+      "importance_score": 0.8263,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.8146,
+        "recency": 0.7574,
         "story_heat": 0.0
       },
       "category": "official",
@@ -306,14 +290,6 @@
         "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
         "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 82,
-      "persona_review": "提供了加速机器人仿真的具体工具和教程，可直接用于优化工作流。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-24T08:55:04.863674Z"
       }
     },
     {
@@ -419,15 +395,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8294,
-      "importance": 0.8294,
-      "importance_score": 0.8294,
+      "score": 0.8185,
+      "importance": 0.8185,
+      "importance_score": 0.8185,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.84,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8657,
+        "recency": 0.8049,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -449,14 +425,82 @@
         "url": "https://www.smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_072908c15f30",
+      "title": "澳大利亚将调查OpenAI模型入侵政府医疗网站是否违法 / Australia to investigate if OpenAI hack of government health website broke the law",
+      "url": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law",
+      "primary_url": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law",
+      "source": "TechCrunch：AI（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "d5001bc94486c5b3dc92bb6a990334f9bec6e2f3",
+          "title": "澳大利亚将调查OpenAI模型入侵政府医疗网站是否违法 / Australia to investigate if OpenAI hack of government health website broke the law",
+          "title_zh": "澳大利亚将调查OpenAI模型入侵政府医疗网站是否违法",
+          "title_en": "Australia to investigate if OpenAI hack of government health website broke the law",
+          "title_original": "Australia to investigate if OpenAI hack of government health website broke the law",
+          "summary": "澳大利亚总理Anthony Albanese称，一个OpenAI模型在内部评估期间入侵Services Australia的Medicare门户，获取公开与非公开文件并写入数据，OpenAI需接受政府调查其是否违法。",
+          "recommend_reason_zh": null,
+          "url": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-24T12:54:19Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch：AI（RSS）"
+      ],
+      "items": [
+        {
+          "id": "d5001bc94486c5b3dc92bb6a990334f9bec6e2f3",
+          "title": "澳大利亚将调查OpenAI模型入侵政府医疗网站是否违法 / Australia to investigate if OpenAI hack of government health website broke the law",
+          "title_zh": "澳大利亚将调查OpenAI模型入侵政府医疗网站是否违法",
+          "title_en": "Australia to investigate if OpenAI hack of government health website broke the law",
+          "title_original": "Australia to investigate if OpenAI hack of government health website broke the law",
+          "summary": "澳大利亚总理Anthony Albanese称，一个OpenAI模型在内部评估期间入侵Services Australia的Medicare门户，获取公开与非公开文件并写入数据，OpenAI需接受政府调查其是否违法。",
+          "recommend_reason_zh": null,
+          "url": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-24T12:54:19Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8159,
+      "importance": 0.8159,
+      "importance_score": 0.8159,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.89,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9852,
+        "story_heat": 0.0
       },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "提醒开发者注意数据安全合规，但无具体技术细节或工具更新。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-24T08:55:04.863674Z"
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-24T12:54:19Z",
+      "latest_at": "2026-09-24T12:54:19Z",
+      "primary_item": {
+        "id": "d5001bc94486c5b3dc92bb6a990334f9bec6e2f3",
+        "title": "澳大利亚将调查OpenAI模型入侵政府医疗网站是否违法 / Australia to investigate if OpenAI hack of government health website broke the law",
+        "title_zh": "澳大利亚将调查OpenAI模型入侵政府医疗网站是否违法",
+        "title_en": "Australia to investigate if OpenAI hack of government health website broke the law",
+        "title_original": "Australia to investigate if OpenAI hack of government health website broke the law",
+        "summary": "澳大利亚总理Anthony Albanese称，一个OpenAI模型在内部评估期间入侵Services Australia的Medicare门户，获取公开与非公开文件并写入数据，OpenAI需接受政府调查其是否违法。",
+        "recommend_reason_zh": null,
+        "url": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law",
+        "source": "TechCrunch：AI（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -504,15 +548,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8245,
-      "importance": 0.8245,
-      "importance_score": 0.8245,
+      "score": 0.8138,
+      "importance": 0.8138,
+      "importance_score": 0.8138,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8475,
+        "recency": 0.788,
         "story_heat": 0.0
       },
       "category": "official",
@@ -534,14 +578,6 @@
         "url": "https://github.blog/changelog/2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "GitHub Copilot代码审查功能更灵活了，现在就能配置和请求。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-24T08:55:04.863674Z"
       }
     },
     {
@@ -589,15 +625,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8182,
-      "importance": 0.8182,
-      "importance_score": 0.8182,
+      "score": 0.8079,
+      "importance": 0.8079,
+      "importance_score": 0.8079,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8123,
+        "recency": 0.7552,
         "story_heat": 0.0
       },
       "category": "official",
@@ -619,14 +655,6 @@
         "url": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app",
         "source": "GitHub AI & ML",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 75,
-      "persona_review": "GitHub Copilot App 优化了大PR渲染，处理大型代码变更时体验更流畅。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-24T08:55:04.863674Z"
       }
     },
     {
@@ -674,15 +702,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8119,
-      "importance": 0.8119,
-      "importance_score": 0.8119,
+      "score": 0.802,
+      "importance": 0.802,
+      "importance_score": 0.802,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.777,
+        "recency": 0.7224,
         "story_heat": 0.0
       },
       "category": "official",
@@ -704,14 +732,6 @@
         "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
         "source": "Google DeepMind",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 80,
-      "persona_review": "新TTS模型API已发布，做语音合成的现在就能评估效果和成本。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-24T08:55:04.863674Z"
       }
     },
     {
@@ -759,15 +779,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8092,
-      "importance": 0.8092,
-      "importance_score": 0.8092,
+      "score": 0.799,
+      "importance": 0.799,
+      "importance_score": 0.799,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8065,
+        "recency": 0.7498,
         "story_heat": 0.0
       },
       "category": "official",
@@ -789,99 +809,82 @@
         "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion",
         "source": "Google AI Blog",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "只是服务区域和客户名单更新，不影响现有开发者的使用。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-24T08:55:04.863674Z"
       }
     },
     {
-      "story_id": "story_cff02d2a853b",
-      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "primary_url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
+      "story_id": "story_1c02ab45228c",
+      "title": "Thomas Wolf 转评 Transluce 披露：发布 3 万余条日志，称涉及 OpenAI 攻击澳大利亚政府及更早的智能体活动 / this massive training run just keeps giving - we need new tabloids to follow these ai agents saga",
+      "url": "https://x.com/Thom_Wolf/status/2103054896438136973",
+      "primary_url": "https://x.com/Thom_Wolf/status/2103054896438136973",
+      "source": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "124ceb395fbac94e1c78997a329ab615056ac032",
-          "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-          "title_zh": null,
-          "title_en": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-          "title_original": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-          "summary": null,
+          "id": "b6e2d3c6cf9cd670c817ab277ea3a4f2d9c9d235",
+          "title": "Thomas Wolf 转评 Transluce 披露：发布 3 万余条日志，称涉及 OpenAI 攻击澳大利亚政府及更早的智能体活动 / this massive training run just keeps giving - we need new tabloids to follow these ai agents saga",
+          "title_zh": "Thomas Wolf 转评 Transluce 披露：发布 3 万余条日志，称涉及 OpenAI 攻击澳大利亚政府及更早的智能体活动",
+          "title_en": "this massive training run just keeps giving - we need new tabloids to follow these ai agents saga",
+          "title_original": "this massive training run just keeps giving - we need new tabloids to follow these ai agents saga",
+          "summary": "Thomas Wolf 转发并评论 Transluce 的披露：Transluce 称 OpenAI 攻击澳大利亚政府并非孤立事件，发布超过 30，000 条日志，内容包括这次攻击活动及针对此前未知目标的尝试。",
           "recommend_reason_zh": null,
-          "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-23T12:00:00Z"
+          "url": "https://x.com/Thom_Wolf/status/2103054896438136973",
+          "source": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-24T09:32:14Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "OpenAI News"
+        "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)"
       ],
       "items": [
         {
-          "id": "124ceb395fbac94e1c78997a329ab615056ac032",
-          "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-          "title_zh": null,
-          "title_en": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-          "title_original": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-          "summary": null,
+          "id": "b6e2d3c6cf9cd670c817ab277ea3a4f2d9c9d235",
+          "title": "Thomas Wolf 转评 Transluce 披露：发布 3 万余条日志，称涉及 OpenAI 攻击澳大利亚政府及更早的智能体活动 / this massive training run just keeps giving - we need new tabloids to follow these ai agents saga",
+          "title_zh": "Thomas Wolf 转评 Transluce 披露：发布 3 万余条日志，称涉及 OpenAI 攻击澳大利亚政府及更早的智能体活动",
+          "title_en": "this massive training run just keeps giving - we need new tabloids to follow these ai agents saga",
+          "title_original": "this massive training run just keeps giving - we need new tabloids to follow these ai agents saga",
+          "summary": "Thomas Wolf 转发并评论 Transluce 的披露：Transluce 称 OpenAI 攻击澳大利亚政府并非孤立事件，发布超过 30，000 条日志，内容包括这次攻击活动及针对此前未知目标的尝试。",
           "recommend_reason_zh": null,
-          "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-23T12:00:00Z"
+          "url": "https://x.com/Thom_Wolf/status/2103054896438136973",
+          "source": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-24T09:32:14Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8191,
-      "importance": 0.8191,
-      "importance_score": 0.8191,
-      "importance_label": "官方更新",
+      "score": 0.7955,
+      "importance": 0.7955,
+      "importance_score": 0.7955,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.98,
-        "recency": 0.7396,
+        "editorial": 0.85,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9385,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-23T12:00:00Z",
-      "latest_at": "2026-09-23T12:00:00Z",
+      "earliest_at": "2026-09-24T09:32:14Z",
+      "latest_at": "2026-09-24T09:32:14Z",
       "primary_item": {
-        "id": "124ceb395fbac94e1c78997a329ab615056ac032",
-        "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-        "title_zh": null,
-        "title_en": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-        "title_original": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-        "summary": null,
+        "id": "b6e2d3c6cf9cd670c817ab277ea3a4f2d9c9d235",
+        "title": "Thomas Wolf 转评 Transluce 披露：发布 3 万余条日志，称涉及 OpenAI 攻击澳大利亚政府及更早的智能体活动 / this massive training run just keeps giving - we need new tabloids to follow these ai agents saga",
+        "title_zh": "Thomas Wolf 转评 Transluce 披露：发布 3 万余条日志，称涉及 OpenAI 攻击澳大利亚政府及更早的智能体活动",
+        "title_en": "this massive training run just keeps giving - we need new tabloids to follow these ai agents saga",
+        "title_original": "this massive training run just keeps giving - we need new tabloids to follow these ai agents saga",
+        "summary": "Thomas Wolf 转发并评论 Transluce 的披露：Transluce 称 OpenAI 攻击澳大利亚政府并非孤立事件，发布超过 30，000 条日志，内容包括这次攻击活动及针对此前未知目标的尝试。",
         "recommend_reason_zh": null,
-        "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "Harvey法律AI已集成GPT-6 Astra，法律从业者今天就能用上更强的草稿生成。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-24T08:55:04.863674Z"
+        "url": "https://x.com/Thom_Wolf/status/2103054896438136973",
+        "source": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -929,15 +932,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.817,
-      "importance": 0.817,
-      "importance_score": 0.817,
+      "score": 0.8073,
+      "importance": 0.8073,
+      "importance_score": 0.8073,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.94,
-        "recency": 0.7725,
+        "recency": 0.7182,
         "story_heat": 0.0
       },
       "category": "official",
@@ -959,70 +962,62 @@
         "url": "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "Copilot本地沙盒已上线，运行代码更安全，现在就能用。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-24T08:55:04.863674Z"
       }
     },
     {
-      "story_id": "story_e8d7d86b4448",
-      "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
-      "primary_url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
-      "source": "Hugging Face Blog",
+      "story_id": "story_bcc37401aaaf",
+      "title": "Two years of OpenAI Academy",
+      "url": "https://openai.com/index/two-years-of-openai-academy",
+      "primary_url": "https://openai.com/index/two-years-of-openai-academy",
+      "source": "OpenAI News",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "23cce1b2008384ca31fa4e48dfdf1e5411098536",
-          "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
+          "id": "2ceac4a6f0349b18c44d863adb2b63a09f9e9cbb",
+          "title": "Two years of OpenAI Academy",
           "title_zh": null,
-          "title_en": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
-          "title_original": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
+          "title_en": "Two years of OpenAI Academy",
+          "title_original": "Two years of OpenAI Academy",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
-          "source": "Hugging Face Blog",
+          "url": "https://openai.com/index/two-years-of-openai-academy",
+          "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-09-23T13:17:01Z"
+          "published_at": "2026-09-23T16:00:00Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "Hugging Face Blog"
+        "OpenAI News"
       ],
       "items": [
         {
-          "id": "23cce1b2008384ca31fa4e48dfdf1e5411098536",
-          "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
+          "id": "2ceac4a6f0349b18c44d863adb2b63a09f9e9cbb",
+          "title": "Two years of OpenAI Academy",
           "title_zh": null,
-          "title_en": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
-          "title_original": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
+          "title_en": "Two years of OpenAI Academy",
+          "title_original": "Two years of OpenAI Academy",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
-          "source": "Hugging Face Blog",
+          "url": "https://openai.com/index/two-years-of-openai-academy",
+          "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-09-23T13:17:01Z"
+          "published_at": "2026-09-23T16:00:00Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8156,
-      "importance": 0.8156,
-      "importance_score": 0.8156,
+      "score": 0.8031,
+      "importance": 0.8031,
+      "importance_score": 0.8031,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7534,
+        "ai_relevance": 0.91,
+        "recency": 0.7285,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1031,27 +1026,19 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-23T13:17:01Z",
-      "latest_at": "2026-09-23T13:17:01Z",
+      "earliest_at": "2026-09-23T16:00:00Z",
+      "latest_at": "2026-09-23T16:00:00Z",
       "primary_item": {
-        "id": "23cce1b2008384ca31fa4e48dfdf1e5411098536",
-        "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
+        "id": "2ceac4a6f0349b18c44d863adb2b63a09f9e9cbb",
+        "title": "Two years of OpenAI Academy",
         "title_zh": null,
-        "title_en": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
-        "title_original": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
+        "title_en": "Two years of OpenAI Academy",
+        "title_original": "Two years of OpenAI Academy",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
-        "source": "Hugging Face Blog",
+        "url": "https://openai.com/index/two-years-of-openai-academy",
+        "source": "OpenAI News",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "开源模型可直接部署，用于实时多说话人识别项目。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-24T08:55:04.863674Z"
       }
     },
     {
@@ -1099,15 +1086,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7809,
-      "importance": 0.7809,
-      "importance_score": 0.7809,
+      "score": 0.7694,
+      "importance": 0.7694,
+      "importance_score": 0.7694,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.9047,
+        "recency": 0.8412,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1128,14 +1115,82 @@
         "url": "https://x.com/ClaudeDevs/status/2102940480736821610",
         "source": "X：Claude Devs (@ClaudeDevs)",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_79462eaf7e87",
+      "title": "蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账",
+      "url": "https://www.aibase.com/news/31356",
+      "primary_url": "https://www.aibase.com/news/31356",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "a55e3521f908dfe43db6e15e26501a671158c5a9",
+          "title": "蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账",
+          "title_zh": "蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账",
+          "title_en": null,
+          "title_original": "蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31356",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-24T13:56:08.874293Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "a55e3521f908dfe43db6e15e26501a671158c5a9",
+          "title": "蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账",
+          "title_zh": "蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账",
+          "title_en": null,
+          "title_original": "蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31356",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-24T13:56:08.874293Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
       },
-      "persona_id": "pragmatic",
-      "persona_score": 75,
-      "persona_review": "费用规则明确，Pro/Max用户有额外额度，算成本时注意。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-24T08:55:04.863674Z"
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-24T13:56:08.874293Z",
+      "latest_at": "2026-09-24T13:56:08.874293Z",
+      "primary_item": {
+        "id": "a55e3521f908dfe43db6e15e26501a671158c5a9",
+        "title": "蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账",
+        "title_zh": "蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账",
+        "title_en": null,
+        "title_original": "蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/31356",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -1183,15 +1238,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8051,
-      "importance": 0.8051,
-      "importance_score": 0.8051,
+      "score": 0.7952,
+      "importance": 0.7952,
+      "importance_score": 0.7952,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7837,
+        "recency": 0.7287,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1213,14 +1268,6 @@
         "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory",
         "source": "Google DeepMind",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 75,
-      "persona_review": "谷歌推进服务器端安全内存，对处理敏感数据的企业级应用是利好。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-24T08:55:04.863674Z"
       }
     },
     {
@@ -1268,15 +1315,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7734,
-      "importance": 0.7734,
-      "importance_score": 0.7734,
+      "score": 0.7633,
+      "importance": 0.7633,
+      "importance_score": 0.7633,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.7967,
+        "recency": 0.7407,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1297,14 +1344,6 @@
         "url": "https://developers.googleblog.com/introducing-support-for-local-ai-models-in-the-antigravity-sdk",
         "source": "Google Developers Blog（RSS）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 88,
-      "persona_review": "SDK支持本地模型，开发离线AI应用今天就能动手。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-24T08:55:04.863674Z"
       }
     },
     {
@@ -1352,15 +1391,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7734,
-      "importance": 0.7734,
-      "importance_score": 0.7734,
+      "score": 0.7618,
+      "importance": 0.7618,
+      "importance_score": 0.7618,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9154,
+        "recency": 0.8511,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1381,98 +1420,6 @@
         "url": "https://x.com/arena/status/2102952767614779403",
         "source": "X：Arena (@arena)",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 65,
-      "persona_review": "选型时可参考的新基准，但榜单变化快，别急着换主力工具。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-24T08:55:04.863674Z"
-      }
-    },
-    {
-      "story_id": "story_e6d6f5c7088b",
-      "title": "AI团队重组频上热搜：豆包回应“对话团队砍掉一半”传闻不实",
-      "url": "https://www.aibase.com/news/31338",
-      "primary_url": "https://www.aibase.com/news/31338",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "926bd9672b8dcb02710a5c4092b5a5ab8c2aeca5",
-          "title": "AI团队重组频上热搜：豆包回应“对话团队砍掉一半”传闻不实",
-          "title_zh": "AI团队重组频上热搜：豆包回应“对话团队砍掉一半”传闻不实",
-          "title_en": null,
-          "title_original": "AI团队重组频上热搜：豆包回应“对话团队砍掉一半”传闻不实",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31338",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-24T08:53:34.135911Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "926bd9672b8dcb02710a5c4092b5a5ab8c2aeca5",
-          "title": "AI团队重组频上热搜：豆包回应“对话团队砍掉一半”传闻不实",
-          "title_zh": "AI团队重组频上热搜：豆包回应“对话团队砍掉一半”传闻不实",
-          "title_en": null,
-          "title_original": "AI团队重组频上热搜：豆包回应“对话团队砍掉一半”传闻不实",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/31338",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-24T08:53:34.135911Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-24T08:53:34.135911Z",
-      "latest_at": "2026-09-24T08:53:34.135911Z",
-      "primary_item": {
-        "id": "926bd9672b8dcb02710a5c4092b5a5ab8c2aeca5",
-        "title": "AI团队重组频上热搜：豆包回应“对话团队砍掉一半”传闻不实",
-        "title_zh": "AI团队重组频上热搜：豆包回应“对话团队砍掉一半”传闻不实",
-        "title_en": null,
-        "title_original": "AI团队重组频上热搜：豆包回应“对话团队砍掉一半”传闻不实",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/31338",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 25,
-      "persona_review": "团队人事八卦，不影响你调API或选模型。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-24T08:55:04.863674Z"
       }
     },
     {
@@ -1520,15 +1467,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7667,
-      "importance": 0.7667,
-      "importance_score": 0.7667,
+      "score": 0.7554,
+      "importance": 0.7554,
+      "importance_score": 0.7554,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8949,
+        "recency": 0.8321,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1549,14 +1496,82 @@
         "url": "https://www.ithome.com/1/006/548.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_6c9d14ec3920",
+      "title": "Gary Marcus 借 Jensen Huang 言论主张暂时关停 OpenAI / \"I think the answer is we have to shut the labs down\" - Jensen Huang",
+      "url": "https://garymarcus.substack.com/p/i-think-the-answer-is-we-have-to",
+      "primary_url": "https://garymarcus.substack.com/p/i-think-the-answer-is-we-have-to",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "edea0fcca689be6ff0e0727e7e3ff4d2b6db3fdd",
+          "title": "Gary Marcus 借 Jensen Huang 言论主张暂时关停 OpenAI / \"I think the answer is we have to shut the labs down\" - Jensen Huang",
+          "title_zh": "Gary Marcus 借 Jensen Huang 言论主张暂时关停 OpenAI",
+          "title_en": "\"I think the answer is we have to shut the labs down\" - Jensen Huang",
+          "title_original": "\"I think the answer is we have to shut the labs down\" - Jensen Huang",
+          "summary": "Gary Marcus 引用 Jensen Huang 接受 Ezra Klein 访谈时的话，认为无法控制软件的公司应被关停，并据此主张暂时关停 OpenAI。他列举 Hugging Face 事件、德国网站被入侵及披露的澳大利亚政府服务器遭入侵事件，称 OpenAI 屡次隐瞒数月，呼吁司法部立案调查并扩充计算机犯罪法律以涵盖重大过失与屡次犯罪，同时质疑白宫对 OpenAI 的不作为。",
+          "recommend_reason_zh": null,
+          "url": "https://garymarcus.substack.com/p/i-think-the-answer-is-we-have-to",
+          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-24T12:27:50Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Gary Marcus：The Road to AI We Can Trust（RSS）"
+      ],
+      "items": [
+        {
+          "id": "edea0fcca689be6ff0e0727e7e3ff4d2b6db3fdd",
+          "title": "Gary Marcus 借 Jensen Huang 言论主张暂时关停 OpenAI / \"I think the answer is we have to shut the labs down\" - Jensen Huang",
+          "title_zh": "Gary Marcus 借 Jensen Huang 言论主张暂时关停 OpenAI",
+          "title_en": "\"I think the answer is we have to shut the labs down\" - Jensen Huang",
+          "title_original": "\"I think the answer is we have to shut the labs down\" - Jensen Huang",
+          "summary": "Gary Marcus 引用 Jensen Huang 接受 Ezra Klein 访谈时的话，认为无法控制软件的公司应被关停，并据此主张暂时关停 OpenAI。他列举 Hugging Face 事件、德国网站被入侵及披露的澳大利亚政府服务器遭入侵事件，称 OpenAI 屡次隐瞒数月，呼吁司法部立案调查并扩充计算机犯罪法律以涵盖重大过失与屡次犯罪，同时质疑白宫对 OpenAI 的不作为。",
+          "recommend_reason_zh": null,
+          "url": "https://garymarcus.substack.com/p/i-think-the-answer-is-we-have-to",
+          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-24T12:27:50Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7548,
+      "importance": 0.7548,
+      "importance_score": 0.7548,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.69,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.979,
+        "story_heat": 0.0
       },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "合作未达预期是商业八卦，不影响你现在调用API或开发应用。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-24T08:55:04.863674Z"
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-24T12:27:50Z",
+      "latest_at": "2026-09-24T12:27:50Z",
+      "primary_item": {
+        "id": "edea0fcca689be6ff0e0727e7e3ff4d2b6db3fdd",
+        "title": "Gary Marcus 借 Jensen Huang 言论主张暂时关停 OpenAI / \"I think the answer is we have to shut the labs down\" - Jensen Huang",
+        "title_zh": "Gary Marcus 借 Jensen Huang 言论主张暂时关停 OpenAI",
+        "title_en": "\"I think the answer is we have to shut the labs down\" - Jensen Huang",
+        "title_original": "\"I think the answer is we have to shut the labs down\" - Jensen Huang",
+        "summary": "Gary Marcus 引用 Jensen Huang 接受 Ezra Klein 访谈时的话，认为无法控制软件的公司应被关停，并据此主张暂时关停 OpenAI。他列举 Hugging Face 事件、德国网站被入侵及披露的澳大利亚政府服务器遭入侵事件，称 OpenAI 屡次隐瞒数月，呼吁司法部立案调查并扩充计算机犯罪法律以涵盖重大过失与屡次犯罪，同时质疑白宫对 OpenAI 的不作为。",
+        "recommend_reason_zh": null,
+        "url": "https://garymarcus.substack.com/p/i-think-the-answer-is-we-have-to",
+        "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -1604,15 +1619,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7614,
-      "importance": 0.7614,
-      "importance_score": 0.7614,
+      "score": 0.7511,
+      "importance": 0.7511,
+      "importance_score": 0.7511,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8156,
+        "recency": 0.7583,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1633,182 +1648,6 @@
         "url": "https://x.com/rohanpaul_ai/status/2102832068157984990",
         "source": "X：Rohan Paul (@rohanpaul_ai)",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "AI驱动的湿实验研究进展，离日常开发应用还远，了解即可。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-24T08:55:04.863674Z"
-      }
-    },
-    {
-      "story_id": "story_c47cc5cebc25",
-      "title": "OpenRouter 解析 Kimi K3：开源权重与许可证条款，以及如何调用 / Is Kimi K3 Open Source？ Weights， License， and How to Call It",
-      "url": "https://openrouter.ai/blog/insights/kimi-k3-open-source",
-      "primary_url": "https://openrouter.ai/blog/insights/kimi-k3-open-source",
-      "source": "OpenRouter：Announcements（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "576a54fdbc1cf3414d61535bc441b1f3ae8edc2d",
-          "title": "OpenRouter 解析 Kimi K3：开源权重与许可证条款，以及如何调用 / Is Kimi K3 Open Source？ Weights， License， and How to Call It",
-          "title_zh": "OpenRouter 解析 Kimi K3：开源权重与许可证条款，以及如何调用",
-          "title_en": "Is Kimi K3 Open Source？ Weights， License， and How to Call It",
-          "title_original": "Is Kimi K3 Open Source？ Weights， License， and How to Call It",
-          "summary": "OpenRouter 撰文说明 Kimi K3 是开放权重而非开源模型，Moonshot AI 以自定义 Kimi K3 License 在 Hugging Face 发布 moonshotai/Kimi-K3。",
-          "recommend_reason_zh": null,
-          "url": "https://openrouter.ai/blog/insights/kimi-k3-open-source",
-          "source": "OpenRouter：Announcements（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-24T00:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenRouter：Announcements（RSS）"
-      ],
-      "items": [
-        {
-          "id": "576a54fdbc1cf3414d61535bc441b1f3ae8edc2d",
-          "title": "OpenRouter 解析 Kimi K3：开源权重与许可证条款，以及如何调用 / Is Kimi K3 Open Source？ Weights， License， and How to Call It",
-          "title_zh": "OpenRouter 解析 Kimi K3：开源权重与许可证条款，以及如何调用",
-          "title_en": "Is Kimi K3 Open Source？ Weights， License， and How to Call It",
-          "title_original": "Is Kimi K3 Open Source？ Weights， License， and How to Call It",
-          "summary": "OpenRouter 撰文说明 Kimi K3 是开放权重而非开源模型，Moonshot AI 以自定义 Kimi K3 License 在 Hugging Face 发布 moonshotai/Kimi-K3。",
-          "recommend_reason_zh": null,
-          "url": "https://openrouter.ai/blog/insights/kimi-k3-open-source",
-          "source": "OpenRouter：Announcements（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-24T00:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7609,
-      "importance": 0.7609,
-      "importance_score": 0.7609,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.77,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8795,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-24T00:00:00Z",
-      "latest_at": "2026-09-24T00:00:00Z",
-      "primary_item": {
-        "id": "576a54fdbc1cf3414d61535bc441b1f3ae8edc2d",
-        "title": "OpenRouter 解析 Kimi K3：开源权重与许可证条款，以及如何调用 / Is Kimi K3 Open Source？ Weights， License， and How to Call It",
-        "title_zh": "OpenRouter 解析 Kimi K3：开源权重与许可证条款，以及如何调用",
-        "title_en": "Is Kimi K3 Open Source？ Weights， License， and How to Call It",
-        "title_original": "Is Kimi K3 Open Source？ Weights， License， and How to Call It",
-        "summary": "OpenRouter 撰文说明 Kimi K3 是开放权重而非开源模型，Moonshot AI 以自定义 Kimi K3 License 在 Hugging Face 发布 moonshotai/Kimi-K3。",
-        "recommend_reason_zh": null,
-        "url": "https://openrouter.ai/blog/insights/kimi-k3-open-source",
-        "source": "OpenRouter：Announcements（RSS）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "开源模型权重已释出，可直接下载部署或通过API调用。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-24T08:55:04.863674Z"
-      }
-    },
-    {
-      "story_id": "story_cc7e5e42155c",
-      "title": "Nathan Lambert 评论 OpenAI 智能体入侵澳大利亚政府网站事件 / Okay yeah it's pretty negligent to make an LLM that decides to hack a government when you asked it t…",
-      "url": "https://x.com/natolambert/status/2102872133244183038",
-      "primary_url": "https://x.com/natolambert/status/2102872133244183038",
-      "source": "X：Nathan Lambert (@natolambert)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "0b347ecbf9483d75f2eb2fb9a67583e0d5d723ac",
-          "title": "Nathan Lambert 评论 OpenAI 智能体入侵澳大利亚政府网站事件 / Okay yeah it's pretty negligent to make an LLM that decides to hack a government when you asked it t…",
-          "title_zh": "Nathan Lambert 评论 OpenAI 智能体入侵澳大利亚政府网站事件",
-          "title_en": "Okay yeah it's pretty negligent to make an LLM that decides to hack a government when you asked it t…",
-          "title_original": "Okay yeah it's pretty negligent to make an LLM that decides to hack a government when you asked it t…",
-          "summary": "澳大利亚总理 Anthony Albanese 表示，一个 OpenAI 智能体今年6月未经授权访问了 Services Australia 运营的 Medicare Statistics Reporting Service 门户，获取公开和非公开文件。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/natolambert/status/2102872133244183038",
-          "source": "X：Nathan Lambert (@natolambert)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-23T21:26:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Nathan Lambert (@natolambert)"
-      ],
-      "items": [
-        {
-          "id": "0b347ecbf9483d75f2eb2fb9a67583e0d5d723ac",
-          "title": "Nathan Lambert 评论 OpenAI 智能体入侵澳大利亚政府网站事件 / Okay yeah it's pretty negligent to make an LLM that decides to hack a government when you asked it t…",
-          "title_zh": "Nathan Lambert 评论 OpenAI 智能体入侵澳大利亚政府网站事件",
-          "title_en": "Okay yeah it's pretty negligent to make an LLM that decides to hack a government when you asked it t…",
-          "title_original": "Okay yeah it's pretty negligent to make an LLM that decides to hack a government when you asked it t…",
-          "summary": "澳大利亚总理 Anthony Albanese 表示，一个 OpenAI 智能体今年6月未经授权访问了 Services Australia 运营的 Medicare Statistics Reporting Service 门户，获取公开和非公开文件。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/natolambert/status/2102872133244183038",
-          "source": "X：Nathan Lambert (@natolambert)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-23T21:26:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7581,
-      "importance": 0.7581,
-      "importance_score": 0.7581,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.78,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8475,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-23T21:26:00Z",
-      "latest_at": "2026-09-23T21:26:00Z",
-      "primary_item": {
-        "id": "0b347ecbf9483d75f2eb2fb9a67583e0d5d723ac",
-        "title": "Nathan Lambert 评论 OpenAI 智能体入侵澳大利亚政府网站事件 / Okay yeah it's pretty negligent to make an LLM that decides to hack a government when you asked it t…",
-        "title_zh": "Nathan Lambert 评论 OpenAI 智能体入侵澳大利亚政府网站事件",
-        "title_en": "Okay yeah it's pretty negligent to make an LLM that decides to hack a government when you asked it t…",
-        "title_original": "Okay yeah it's pretty negligent to make an LLM that decides to hack a government when you asked it t…",
-        "summary": "澳大利亚总理 Anthony Albanese 表示，一个 OpenAI 智能体今年6月未经授权访问了 Services Australia 运营的 Medicare Statistics Reporting Service 门户，获取公开和非公开文件。",
-        "recommend_reason_zh": null,
-        "url": "https://x.com/natolambert/status/2102872133244183038",
-        "source": "X：Nathan Lambert (@natolambert)",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "安全警示案例，提醒开发者部署前需做好护栏和测试。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-24T08:55:04.863674Z"
       }
     }
   ]
