@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T13:58:10.686245Z",
+  "generated_at": "2026-09-24T18:49:04.110270Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,22 +17,22 @@
   ],
   "items": [
     {
-      "story_id": "story_0f3ada4f2787",
-      "title": "Antigravity SDK 支持本地模型，可完全离线运行智能体 / Introducing Support for Local AI Models in the Antigravity SDK",
-      "url": "https://developers.googleblog.com/introducing-support-for-local-ai-models-in-the-antigravity-sdk",
+      "story_id": "story_66517b370dff",
+      "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
+      "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent",
       "rank": 1,
       "reviews": {
         "cynic": {
           "score": 72,
-          "review": "离线运行是实在功能，但‘反重力’这名头，比功能本身更能飘。"
+          "review": "工具是实打实的，但‘AI赋能’这词现在跟‘加了味精’一个意思，具体提效多少没提。"
         },
         "paper-police": {
           "score": 45,
-          "review": "官方博客宣布功能，但未提供独立评测数据或开源代码以验证性能。"
+          "review": "官方技术博客有细节，但无独立论文与代码仓库链接，证据不完整。"
         },
         "pragmatic": {
-          "score": 88,
-          "review": "SDK支持本地模型，开发离线AI应用今天就能动手。"
+          "score": 85,
+          "review": "GitHub开源了AI模糊测试工具，安全开发者可以直接集成到CI/CD里。"
         }
       }
     },
@@ -57,22 +57,22 @@
       }
     },
     {
-      "story_id": "story_4784460ec311",
-      "title": "Local sandboxing in the GitHub Copilot app",
-      "url": "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app",
+      "story_id": "story_e8c6ef86f111",
+      "title": "Node 20 is no longer available in GitHub Actions",
+      "url": "https://github.blog/changelog/2026-09-23-node-20-is-no-longer-available-in-github-actions",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 72,
-          "review": "终于把本地沙盒从云端搬下来，安全是实打实的，但算力压力也转嫁给用户了。"
+          "score": 85,
+          "review": "官方明确的技术栈生命周期管理，是份实在的迁移提醒，没水分。"
         },
         "paper-police": {
-          "score": 45,
-          "review": "官方博客公布功能细节，但无独立评测，需等第三方验证。"
+          "score": 85,
+          "review": "官方变更日志，事实清晰，无需额外验证。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "Copilot本地沙盒已上线，运行代码更安全，现在就能用。"
+          "review": "CI/CD流水线今天就得检查，Node版本需从20升级或指定其他版本。"
         }
       }
     }

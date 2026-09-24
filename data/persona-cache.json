@@ -1,89 +1,11 @@
 {
   "version": 1,
   "entries": {
-    "story_16469548a272|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "开源多模态编码器已发布，可直接下载集成到你的跨语言图文项目中。",
-      "title_hash": "5c28145c",
-      "scored_at": "2026-09-03T15:06:29.142102Z"
-    },
     "story_a0931d161b21|pragmatic|0a5c5b24": {
       "score": 70,
       "review": "模型性能提升显著，但未开放API，对开发者而言目前只是技术参考。",
       "title_hash": "0187114a",
       "scored_at": "2026-09-04T04:06:52.710661Z"
-    },
-    "story_6129f245443c|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "短期内不影响你使用模型和工具，但长期看生态可能被重塑。",
-      "title_hash": "bd988f72",
-      "scored_at": "2026-09-03T15:06:37.069361Z"
-    },
-    "story_49f7f7e715ad|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "安全扫描工具更新，CI/CD流水线今天就能用上更强的检测。",
-      "title_hash": "a7475dc7",
-      "scored_at": "2026-09-03T15:06:40.499242Z"
-    },
-    "story_edf252f7cb9c|pragmatic|0a5c5b24": {
-      "score": 88,
-      "review": "开源了训练方法，想提升模型结构化输出能力的可以直接参考实现。",
-      "title_hash": "65672015",
-      "scored_at": "2026-09-03T15:06:44.489782Z"
-    },
-    "story_2c2daa3a2671|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "内部技术讨论，对选型或开发无直接影响，知道就行。",
-      "title_hash": "c73595f9",
-      "scored_at": "2026-09-03T15:06:48.387122Z"
-    },
-    "story_76c94f0602dc|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "开源工具已发布，可立即集成到本地编码Agent中，增强其记忆能力。",
-      "title_hash": "845c6e27",
-      "scored_at": "2026-09-03T15:06:52.525325Z"
-    },
-    "story_c6e727038742|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "三年后的产品预告，对当前开发选型无影响。",
-      "title_hash": "817a0054",
-      "scored_at": "2026-09-03T15:06:56.880120Z"
-    },
-    "story_edf252f7cb9c|cynic|f4237a62": {
-      "score": 78,
-      "review": "350M小模型调100步就敢说“更好”，这基线是啥？敢不敢跟大模型比？",
-      "title_hash": "65672015",
-      "scored_at": "2026-09-03T15:07:00.547582Z"
-    },
-    "story_edf252f7cb9c|paper-police|966065bf": {
-      "score": 45,
-      "review": "技术博客有训练细节和数字，但未提供论文与完整可复现代码。",
-      "title_hash": "65672015",
-      "scored_at": "2026-09-03T15:07:04.200995Z"
-    },
-    "story_16469548a272|cynic|f4237a62": {
-      "score": 72,
-      "review": "开源和效率是亮点，但‘原生’和‘多语言’的实际泛化能力，还得看真刀真枪的评测。",
-      "title_hash": "5c28145c",
-      "scored_at": "2026-09-03T15:07:08.369807Z"
-    },
-    "story_16469548a272|paper-police|966065bf": {
-      "score": 45,
-      "review": "技术博客公布了评测数字，但未见论文与开源代码，无法独立验证。",
-      "title_hash": "5c28145c",
-      "scored_at": "2026-09-03T15:07:12.691834Z"
-    },
-    "story_49f7f7e715ad|cynic|f4237a62": {
-      "score": 68,
-      "review": "版本号更新，安全检测确实有改进，但离‘革命性’还差得远。",
-      "title_hash": "a7475dc7",
-      "scored_at": "2026-09-03T15:07:16.570413Z"
-    },
-    "story_49f7f7e715ad|paper-police|966065bf": {
-      "score": 40,
-      "review": "官方博客提供了更新细节，但缺乏独立的第三方安全评测验证。",
-      "title_hash": "a7475dc7",
-      "scored_at": "2026-09-03T15:07:20.301861Z"
     },
     "story_275a8b99fb34|pragmatic|0a5c5b24": {
       "score": 35,
@@ -4686,6 +4608,78 @@
       "review": "专家口水战，不影响你今天调API或选模型。",
       "title_hash": "ee4e1fad",
       "scored_at": "2026-09-24T13:58:10.686123Z"
+    },
+    "story_9edda83740af|pragmatic|0a5c5b24": {
+      "score": 82,
+      "review": "开源模型可直接下载，想提升视觉任务效率的可以立刻测试。",
+      "title_hash": "b335216b",
+      "scored_at": "2026-09-24T18:47:31.194030Z"
+    },
+    "story_aae1244e06d2|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "用AI做信息查询时，需警惕结果中的联系方式，可能被恶意篡改。",
+      "title_hash": "ff7ed21f",
+      "scored_at": "2026-09-24T18:47:34.400926Z"
+    },
+    "story_c5257387fdcf|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "新模型和实时交互功能已发布，评估多模态应用时多一个选择。",
+      "title_hash": "4cd10827",
+      "scored_at": "2026-09-24T18:47:43.385029Z"
+    },
+    "story_66517b370dff|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "GitHub开源了AI模糊测试工具，安全开发者可以直接集成到CI/CD里。",
+      "title_hash": "b5053902",
+      "scored_at": "2026-09-24T18:47:47.129478Z"
+    },
+    "story_b82d1f01a1b3|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "是旧闻回顾，对当前开发选型或安全配置无直接影响。",
+      "title_hash": "ba8bbddd",
+      "scored_at": "2026-09-24T18:47:50.951941Z"
+    },
+    "story_e8c6ef86f111|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "CI/CD流水线今天就得检查，Node版本需从20升级或指定其他版本。",
+      "title_hash": "500e014c",
+      "scored_at": "2026-09-24T18:48:06.249886Z"
+    },
+    "story_3b19ec10c80b|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "新模型已发布，针对长代码场景优化，开发者可直接测试其上下文处理能力。",
+      "title_hash": "2da2b3bb",
+      "scored_at": "2026-09-24T18:48:14.335782Z"
+    },
+    "story_a23acd8623ec|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "Claude应用商店已上线，可直接安装工具和智能体来增强工作流。",
+      "title_hash": "99122c66",
+      "scored_at": "2026-09-24T18:48:23.529004Z"
+    },
+    "story_66517b370dff|cynic|f4237a62": {
+      "score": 72,
+      "review": "工具是实打实的，但‘AI赋能’这词现在跟‘加了味精’一个意思，具体提效多少没提。",
+      "title_hash": "b5053902",
+      "scored_at": "2026-09-24T18:48:27.012965Z"
+    },
+    "story_66517b370dff|paper-police|966065bf": {
+      "score": 45,
+      "review": "官方技术博客有细节，但无独立论文与代码仓库链接，证据不完整。",
+      "title_hash": "b5053902",
+      "scored_at": "2026-09-24T18:48:37.880016Z"
+    },
+    "story_e8c6ef86f111|cynic|f4237a62": {
+      "score": 85,
+      "review": "官方明确的技术栈生命周期管理，是份实在的迁移提醒，没水分。",
+      "title_hash": "500e014c",
+      "scored_at": "2026-09-24T18:48:55.203787Z"
+    },
+    "story_e8c6ef86f111|paper-police|966065bf": {
+      "score": 85,
+      "review": "官方变更日志，事实清晰，无需额外验证。",
+      "title_hash": "500e014c",
+      "scored_at": "2026-09-24T18:49:04.110220Z"
     }
   }
 }
