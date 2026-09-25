@@ -1,156 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_a0931d161b21|pragmatic|0a5c5b24": {
-      "score": 70,
-      "review": "模型性能提升显著，但未开放API，对开发者而言目前只是技术参考。",
-      "title_hash": "0187114a",
-      "scored_at": "2026-09-04T04:06:52.710661Z"
-    },
-    "story_275a8b99fb34|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "企业级安全合作计划，普通开发者用不上，等具体产品功能再说。",
-      "title_hash": "8ea77f2e",
-      "scored_at": "2026-09-04T04:06:49.107291Z"
-    },
-    "story_af7f559f57ce|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "Copilot用户今天就能用上新模型，代码生成能力有实际提升。",
-      "title_hash": "efa1394b",
-      "scored_at": "2026-09-04T04:06:56.019290Z"
-    },
-    "story_3af91fe6473f|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "新SOTA模型，选型时多一个性能参考，但未开放使用。",
-      "title_hash": "7cd5a15c",
-      "scored_at": "2026-09-04T04:06:59.823846Z"
-    },
-    "story_9dd7043831a5|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "GitHub Copilot 新手应用已上线，可同时运行多个AI助手辅助编码。",
-      "title_hash": "761dd6ac",
-      "scored_at": "2026-09-04T04:07:05.008458Z"
-    },
-    "story_d509bcb05e90|pragmatic|0a5c5b24": {
-      "score": 30,
-      "review": "只是传闻，没官宣前不影响任何技术选型或使用。",
-      "title_hash": "3881add3",
-      "scored_at": "2026-09-04T04:07:07.986496Z"
-    },
-    "story_ec9d66feb5a5|pragmatic|0a5c5b24": {
-      "score": 20,
-      "review": "ARC-AGI分数是研究指标，对当前开发选型无直接影响。",
-      "title_hash": "5510af42",
-      "scored_at": "2026-09-04T04:07:11.403379Z"
-    },
-    "story_840d5d322fa1|pragmatic|0a5c5b24": {
-      "score": 75,
-      "review": "使用受影响模型的开发者需关注迁移计划，避免服务中断。",
-      "title_hash": "00d9e737",
-      "scored_at": "2026-09-04T04:07:14.456210Z"
-    },
-    "story_c7ee1ec9b2ef|pragmatic|0a5c5b24": {
-      "score": 10,
-      "review": "AGI口号不写代码，等API和价格出来再说。",
-      "title_hash": "8cd8fb1d",
-      "scored_at": "2026-09-04T04:07:17.771706Z"
-    },
-    "story_c5c8bde45089|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "收购案未定，不影响你今天调用Hugging Face的API或模型。",
-      "title_hash": "e58a6561",
-      "scored_at": "2026-09-04T04:07:22.056151Z"
-    },
-    "story_15513cdb6d25|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "非官方发布，真实性存疑，等OpenAI正式公告再行动。",
-      "title_hash": "32305eab",
-      "scored_at": "2026-09-04T04:07:25.146190Z"
-    },
-    "story_8353153e05c5|pragmatic|0a5c5b24": {
-      "score": 75,
-      "review": "新模型已发布，但争议点可能影响其作为可靠自动化工具的稳定性。",
-      "title_hash": "6d0202fc",
-      "scored_at": "2026-09-04T04:07:28.513442Z"
-    },
-    "story_7818dad3e51c|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "GPT-6 Astra已开放API，可立即用于处理长文档和复杂分析任务。",
-      "title_hash": "68b60f94",
-      "scored_at": "2026-09-04T04:07:32.462186Z"
-    },
-    "story_54dbd84743df|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "展示用AI辅助移植老游戏的具体工作流，代码和思路可直接参考。",
-      "title_hash": "273121d3",
-      "scored_at": "2026-09-04T04:07:35.717712Z"
-    },
-    "story_28ff2f732cd6|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "新模型已发布，主打桌面自动化和安全，开发者可评估其新能力是否适配项目。",
-      "title_hash": "5654754f",
-      "scored_at": "2026-09-04T04:07:39.576294Z"
-    },
-    "story_5b7123eb810c|pragmatic|0a5c5b24": {
-      "score": 15,
-      "review": "未发布的产品和愿景宣言，对当前开发工作无直接影响。",
-      "title_hash": "832bc393",
-      "scored_at": "2026-09-04T04:07:43.273171Z"
-    },
-    "story_999000e5a49c|pragmatic|0a5c5b24": {
-      "score": 10,
-      "review": "CEO祝贺推文，无实质信息，对开发者工作无影响。",
-      "title_hash": "83a132e8",
-      "scored_at": "2026-09-04T04:07:46.350445Z"
-    },
-    "story_e6a6758f70a2|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "巨头收购案，短期内不影响你调用Hugging Face的API或下载模型。",
-      "title_hash": "b8250ff0",
-      "scored_at": "2026-09-04T04:07:50.562928Z"
-    },
-    "story_af7f559f57ce|cynic|f4237a62": {
-      "score": 55,
-      "review": "换个模型就叫更新，性能提升和实际成本闭口不谈，老套路了。",
-      "title_hash": "efa1394b",
-      "scored_at": "2026-09-04T04:07:54.174568Z"
-    },
-    "story_af7f559f57ce|paper-police|966065bf": {
-      "score": 15,
-      "review": "官方博客宣称集成，无论文无代码无独立评测，仅有说法。",
-      "title_hash": "efa1394b",
-      "scored_at": "2026-09-04T04:07:57.546961Z"
-    },
-    "story_9dd7043831a5|cynic|f4237a62": {
-      "score": 45,
-      "review": "给已有功能套个‘新手版’壳子，多开几个窗口就算‘同时运行’了？",
-      "title_hash": "761dd6ac",
-      "scored_at": "2026-09-04T04:08:01.728138Z"
-    },
-    "story_9dd7043831a5|paper-police|966065bf": {
-      "score": 15,
-      "review": "仅有官方博客介绍功能，无论文、代码或独立评测，证据不足。",
-      "title_hash": "761dd6ac",
-      "scored_at": "2026-09-04T04:08:05.557176Z"
-    },
-    "story_9a9faf27130f|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "模型虽强但被严格限制访问，开发者目前用不上，只能观望。",
-      "title_hash": "33803a14",
-      "scored_at": "2026-09-04T09:06:32.895008Z"
-    },
-    "story_7818dad3e51c|cynic|f4237a62": {
-      "score": 40,
-      "review": "精心剪辑的演示视频，闭口不谈成本、错误率和真实工作流的复杂性。",
-      "title_hash": "68b60f94",
-      "scored_at": "2026-09-04T09:06:36.944342Z"
-    },
-    "story_7818dad3e51c|paper-police|966065bf": {
-      "score": 15,
-      "review": "官方博客宣称性能，无论文无代码，也无独立第三方评测。",
-      "title_hash": "68b60f94",
-      "scored_at": "2026-09-04T09:06:39.981224Z"
-    },
     "story_90d39dc2e7da|pragmatic|0a5c5b24": {
       "score": 45,
       "review": "基准测试打架，AGI预测提前，对选型没帮助，知道就行。",
@@ -4629,9 +4479,9 @@
     },
     "story_66517b370dff|pragmatic|0a5c5b24": {
       "score": 85,
-      "review": "GitHub开源了AI模糊测试工具，安全开发者可以直接集成到CI/CD里。",
-      "title_hash": "b5053902",
-      "scored_at": "2026-09-24T18:47:47.129478Z"
+      "review": "开源工具已发布，可自动为C/C++项目配置和执行模糊测试。",
+      "title_hash": "700ac41b",
+      "scored_at": "2026-09-25T09:16:45.306844Z"
     },
     "story_b82d1f01a1b3|pragmatic|0a5c5b24": {
       "score": 35,
@@ -4680,6 +4530,102 @@
       "review": "官方变更日志，事实清晰，无需额外验证。",
       "title_hash": "500e014c",
       "scored_at": "2026-09-24T18:49:04.110220Z"
+    },
+    "story_7625d6ca7283|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "CLI工具新版本，开发者今天就能更新使用新功能或修复。",
+      "title_hash": "9243c665",
+      "scored_at": "2026-09-25T09:15:46.712937Z"
+    },
+    "story_adf2dec60ff2|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "企业版Copilot功能默认全开，管理员现在就得去检查或调整权限。",
+      "title_hash": "fc904ccd",
+      "scored_at": "2026-09-25T09:15:58.002619Z"
+    },
+    "story_edc9f4dfe188|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "官方反思Copilot设计，提醒开发者别滥用聊天框，影响交互设计思路。",
+      "title_hash": "aaed7098",
+      "scored_at": "2026-09-25T09:16:15.344891Z"
+    },
+    "story_3bb099e6ac71|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "GitHub高危操作需二次确认，今天就能去设置，防止误删库。",
+      "title_hash": "02fdd910",
+      "scored_at": "2026-09-25T09:16:35.964634Z"
+    },
+    "story_c7c98ffbaecb|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "安全警示，但更多是监管议题，开发者无需立即调整代码。",
+      "title_hash": "ad2f5f80",
+      "scored_at": "2026-09-25T09:16:41.812274Z"
+    },
+    "story_b99fdaf44519|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "单集成本数据有参考，但技术细节和工具未公开，无法复用。",
+      "title_hash": "460a55c7",
+      "scored_at": "2026-09-25T09:16:54.652504Z"
+    },
+    "story_f3e1f68c842f|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "给AI加个虚拟形象，对开发者来说目前只是个UI展示功能。",
+      "title_hash": "19592928",
+      "scored_at": "2026-09-25T09:16:59.044986Z"
+    },
+    "story_407bdc9c66f8|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "安全警示案例，提醒你部署AI代理时要加好防护和监控。",
+      "title_hash": "a14d578c",
+      "scored_at": "2026-09-25T09:17:03.038718Z"
+    },
+    "story_b7de2c02bdae|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "展示了LLM在历史研究中的潜力，但离通用工具还很远。",
+      "title_hash": "1f3c6d15",
+      "scored_at": "2026-09-25T09:17:06.193204Z"
+    },
+    "story_1a51bf4375c4|pragmatic|0a5c5b24": {
+      "score": 10,
+      "review": "社会文化观察，与开发者选型或写代码无关。",
+      "title_hash": "6cd1d23f",
+      "scored_at": "2026-09-25T09:17:11.268865Z"
+    },
+    "story_7625d6ca7283|cynic|f4237a62": {
+      "score": 72,
+      "review": "版本号微调，更新日志里没见着能让人喊‘哇哦’的东西。",
+      "title_hash": "9243c665",
+      "scored_at": "2026-09-25T09:17:17.594702Z"
+    },
+    "story_7625d6ca7283|paper-police|966065bf": {
+      "score": 40,
+      "review": "官方更新日志提供了技术细节，但无独立论文或第三方评测验证。",
+      "title_hash": "9243c665",
+      "scored_at": "2026-09-25T09:17:20.660993Z"
+    },
+    "story_adf2dec60ff2|cynic|f4237a62": {
+      "score": 65,
+      "review": "默认开启而已，企业版功能又不是今天才有的，这也能算新闻？",
+      "title_hash": "fc904ccd",
+      "scored_at": "2026-09-25T09:17:24.098161Z"
+    },
+    "story_adf2dec60ff2|paper-police|966065bf": {
+      "score": 15,
+      "review": "官方博客宣布功能变更，无论文、代码或独立性能评测。",
+      "title_hash": "fc904ccd",
+      "scored_at": "2026-09-25T09:17:29.083485Z"
+    },
+    "story_3bb099e6ac71|cynic|f4237a62": {
+      "score": 75,
+      "review": "官方安全补丁，逻辑合理，但‘高影响’的定义权还是得看平台怎么画圈。",
+      "title_hash": "02fdd910",
+      "scored_at": "2026-09-25T09:17:34.137443Z"
+    },
+    "story_3bb099e6ac71|paper-police|966065bf": {
+      "score": 45,
+      "review": "官方博客公布了功能细节，但缺少独立的技术验证报告。",
+      "title_hash": "02fdd910",
+      "scored_at": "2026-09-25T09:17:37.180810Z"
     }
   }
 }
