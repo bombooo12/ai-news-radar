@@ -1,60 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_90d39dc2e7da|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "基准测试打架，AGI预测提前，对选型没帮助，知道就行。",
-      "title_hash": "ec10fc61",
-      "scored_at": "2026-09-04T15:06:53.533786Z"
-    },
-    "story_b1e5809801b0|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "安全研究案例，对日常开发无直接影响，了解即可。",
-      "title_hash": "bd0d05da",
-      "scored_at": "2026-09-04T15:06:56.239567Z"
-    },
-    "story_35c1287f0d07|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "了解AI安全风险案例，但暂不影响当前API使用或开发决策。",
-      "title_hash": "61f440e8",
-      "scored_at": "2026-09-04T15:07:00.502893Z"
-    },
-    "story_e92f9b15b9d9|pragmatic|0a5c5b24": {
-      "score": 15,
-      "review": "名人花边新闻，与开发者实际工作无关。",
-      "title_hash": "ea1b8593",
-      "scored_at": "2026-09-04T15:07:03.760542Z"
-    },
-    "story_09f1f8cfa0a6|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "开源模型全家桶已发布，可直接下载部署或研究其训练流程。",
-      "title_hash": "be9cd09d",
-      "scored_at": "2026-09-04T15:07:07.547169Z"
-    },
-    "story_d93119f5014c|pragmatic|0a5c5b24": {
-      "score": 68,
-      "review": "性能追平但价格大涨，选型时成本成为关键考量。",
-      "title_hash": "dc695c87",
-      "scored_at": "2026-09-04T15:07:11.180584Z"
-    },
-    "story_34850ef34725|pragmatic|0a5c5b24": {
-      "score": 40,
-      "review": "早期客户内测，普通开发者还用不上，知道有这回事就行。",
-      "title_hash": "b534b49c",
-      "scored_at": "2026-09-04T15:07:17.700659Z"
-    },
-    "story_09f1f8cfa0a6|cynic|f4237a62": {
-      "score": 82,
-      "review": "0.9B到375B全开源还附训练日志，诚意够足，但‘A23B’这参数命名是怕人看懂吗？",
-      "title_hash": "be9cd09d",
-      "scored_at": "2026-09-04T15:07:22.480421Z"
-    },
-    "story_09f1f8cfa0a6|paper-police|966065bf": {
-      "score": 85,
-      "review": "官方博客发布，模型开源且覆盖完整训练周期，证据链完整。",
-      "title_hash": "be9cd09d",
-      "scored_at": "2026-09-04T15:07:25.860015Z"
-    },
     "story_0f3277bac9d6|pragmatic|0a5c5b24": {
       "score": 75,
       "review": "研究预览，开源了评估框架，可复现其多模型编排思路以优化成本。",
@@ -4626,6 +4572,144 @@
       "review": "官方博客公布了功能细节，但缺少独立的技术验证报告。",
       "title_hash": "02fdd910",
       "scored_at": "2026-09-25T09:17:37.180810Z"
+    },
+    "story_a304aaf0894c|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "官方教程教你用画布功能，今天就能动手搭建自己的AI工作流。",
+      "title_hash": "0559a44b",
+      "scored_at": "2026-09-25T19:04:35.116103Z"
+    },
+    "story_31f780f81dc1|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "客户案例软文，对开发者选型或使用没提供新信息。",
+      "title_hash": "21aceef2",
+      "scored_at": "2026-09-25T19:04:42.819048Z"
+    },
+    "story_3086a0a8d592|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "GitHub Copilot 修复功能升级，现在能记住项目上下文，修复更准了。",
+      "title_hash": "62dcb1bb",
+      "scored_at": "2026-09-25T19:04:46.622701Z"
+    },
+    "story_53b278107409|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "对开发者日常工作无直接影响，是监管层面的认定。",
+      "title_hash": "d527d3e2",
+      "scored_at": "2026-09-25T19:05:10.687913Z"
+    },
+    "story_7535491ae20c|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "展示了Claude的推理潜力，但离日常开发可用的工具还很远。",
+      "title_hash": "9a5b5dda",
+      "scored_at": "2026-09-25T19:05:14.571744Z"
+    },
+    "story_383980d6bba6|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "官方周更日志，有具体功能更新或修复，订阅用户需查看变更。",
+      "title_hash": "7cf43fa7",
+      "scored_at": "2026-09-25T19:05:18.136171Z"
+    },
+    "story_45b4b65d9e31|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "安全团队需要关注，普通开发者暂时不用调整现有项目。",
+      "title_hash": "1ffd4ada",
+      "scored_at": "2026-09-25T19:05:21.396383Z"
+    },
+    "story_fa6f9d4b24a5|pragmatic|0a5c5b24": {
+      "score": 88,
+      "review": "API调用成本明确下降，即刻影响项目预算和模型选型决策。",
+      "title_hash": "18c1297e",
+      "scored_at": "2026-09-25T19:05:24.650449Z"
+    },
+    "story_f0b280c7fe21|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "是AI应用伦理的警示案例，但离开发者具体技术选型很远。",
+      "title_hash": "ce587648",
+      "scored_at": "2026-09-25T19:05:27.671682Z"
+    },
+    "story_42a4c6c0a2d7|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "协作工具里的Copilot功能更新了，团队今天就能用上。",
+      "title_hash": "48c88b1f",
+      "scored_at": "2026-09-25T19:05:31.924243Z"
+    },
+    "story_099b3747aee8|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "公司治理变动，不影响你调用 Claude API 或选型。",
+      "title_hash": "405aff7c",
+      "scored_at": "2026-09-25T19:05:35.103378Z"
+    },
+    "story_ef0bb9e0a293|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "Devin还没开放，收入数字对开发者没实际影响。",
+      "title_hash": "8fd58a19",
+      "scored_at": "2026-09-25T19:05:43.468175Z"
+    },
+    "story_72aea9f90037|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "GitHub Actions API和UI查询结果变更，直接影响CI/CD脚本和监控面板。",
+      "title_hash": "37990bef",
+      "scored_at": "2026-09-25T19:06:07.077757Z"
+    },
+    "story_26f22a2693b5|pragmatic|0a5c5b24": {
+      "score": 15,
+      "review": "纯学术展示，对开发者日常开发无直接影响。",
+      "title_hash": "d250e3e4",
+      "scored_at": "2026-09-25T19:06:11.250791Z"
+    },
+    "story_ff8c712f94de|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "CEO愿景喊话，等具体产品和API出来再说。",
+      "title_hash": "892701f9",
+      "scored_at": "2026-09-25T19:06:14.442379Z"
+    },
+    "story_6caff5a1f26b|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "开发者现在可以提交自己的插件，为Claude构建第三方功能了。",
+      "title_hash": "d70289a6",
+      "scored_at": "2026-09-25T19:06:38.364403Z"
+    },
+    "story_790f3794cdaf|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "开源了具体迁移方案和工具，优化CSS加载可直接抄作业。",
+      "title_hash": "7af61e35",
+      "scored_at": "2026-09-25T19:06:42.360135Z"
+    },
+    "story_fa6f9d4b24a5|cynic|f4237a62": {
+      "score": 75,
+      "review": "成本降了是好事，但只提自家对比，没敢跟GPT-4o比一比性价比。",
+      "title_hash": "18c1297e",
+      "scored_at": "2026-09-25T19:06:46.191487Z"
+    },
+    "story_fa6f9d4b24a5|paper-police|966065bf": {
+      "score": 45,
+      "review": "官方给出具体成本数字，但无公开评测报告或代码，无法独立验证。",
+      "title_hash": "18c1297e",
+      "scored_at": "2026-09-25T19:06:57.785086Z"
+    },
+    "story_a304aaf0894c|cynic|f4237a62": {
+      "score": 65,
+      "review": "官方教程算干货，但‘自定义工作流’听着高级，本质是教你怎么用画布。",
+      "title_hash": "0559a44b",
+      "scored_at": "2026-09-25T19:07:24.524183Z"
+    },
+    "story_a304aaf0894c|paper-police|966065bf": {
+      "score": 15,
+      "review": "仅为官方博客教程，无独立论文、代码或第三方性能评测。",
+      "title_hash": "0559a44b",
+      "scored_at": "2026-09-25T19:07:30.200081Z"
+    },
+    "story_3086a0a8d592|cynic|f4237a62": {
+      "score": 65,
+      "review": "给已有功能加了个记忆模块，就敢叫‘现在使用’，这更新幅度对得起这标题吗？",
+      "title_hash": "62dcb1bb",
+      "scored_at": "2026-09-25T19:07:33.881092Z"
+    },
+    "story_3086a0a8d592|paper-police|966065bf": {
+      "score": 15,
+      "review": "仅有官方博客宣称功能更新，无论文、代码或独立评测佐证。",
+      "title_hash": "62dcb1bb",
+      "scored_at": "2026-09-25T19:07:37.259383Z"
     }
   }
 }
