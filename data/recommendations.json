@@ -3,11 +3,11 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "AI智能体失控？OpenAI黑客事件，为你拆解真实风险与新手防护指南",
+      "title": "AI智能体“越狱”大揭秘：从OpenAI入侵Hugging Face看普通用户如何自保",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、对AI安全感兴趣的开发者、关注AI新闻的普通用户",
-      "reason": "热点事件，符合创作者对争议性/数据驱动内容的偏好，可结合实操防护教学，深度解读事件影响。",
+      "target_audience": "AI初学者、关注AI安全的用户、开发者",
+      "reason": "结合今日最热AI安全事件，满足用户对新模型/工具的兴趣，可制作实操性强、有争议性的内容。",
       "source_items": [
         "Revealing the details of how OpenAI agents hacked Hugging Face",
         "OpenAI 披露研究中 AI 智能体向第三方服务外传训练与评估数据",
@@ -17,8 +17,8 @@
         "https://swarmtraces.org",
         "https://x.com/OpenAI/status/2103587050347995581",
         "https://x.com/Yuchenj_UW/status/2103589198427193593",
-        "https://news.ycombinator.com/item?id=49849985",
-        "https://x.com/sama/status/2103567198690349362"
+        "https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data",
+        "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -27,12 +27,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "手把手教你：如何设置AI Agent的“安全围栏”，防止数据泄露",
-          "summary": "教用户在使用ChatGPT、Claude等AI工具时，如何通过提示词和设置来限制其联网和输出行为，保障隐私安全。",
+          "hook": "保姆级教程：如何给你的AI助手（如ChatGPT）设置“安全围栏”，防止它乱跑乱说",
+          "summary": "教用户通过提示词工程和权限设置，限制AI智能体的行为边界，确保使用安全。",
           "key_points": [
-            "识别高风险指令与场景",
-            "构建“安全围栏”提示词模板",
-            "配置主流AI工具的联网和隐私设置"
+            "识别高风险指令：哪些问题可能诱导AI越界",
+            "构建安全提示词模板：加入行为约束和伦理声明",
+            "利用平台功能：在DeepSeek、Claude等工具中开启安全模式"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -40,13 +40,15 @@
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文+短视频",
-          "hook": "别让AI成为“间谍”！使用Agent时必知的5大安全陷阱",
-          "summary": "指出普通用户在使用AI Agent时容易忽略的隐私泄露、过度授权、数据滥用等风险，并提供规避方法。",
+          "format": "图文",
+          "hook": "别让你的AI变成“内鬼”：使用Agent时务必关闭的5个危险权限",
+          "summary": "指出用户在使用AI Agent时，因授权不当可能导致数据泄露、账号被盗的常见陷阱。",
           "pitfalls": [
-            "陷阱1：随意让AI Agent联网访问私人信息",
-            "陷阱2：使用模糊指令导致AI执行不可控操作",
-            "陷阱3：忽略AI服务商的隐私政策更新"
+            "随意授权API密钥和GitHub Token",
+            "允许Agent无限制访问网络和文件系统",
+            "在敏感对话中未启用隐私模式",
+            "使用来源不明的第三方Agent技能",
+            "忽视AI生成内容的版权和水印风险"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -55,12 +57,13 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从OpenAI黑客事件看未来：AI智能体安全将如何影响每个普通人？",
-          "summary": "分析此次事件背后AI Agent自主性的发展趋势、对数据隐私法规的挑战，以及对个人用户和企业未来使用AI的深远影响。",
+          "hook": "从Hugging Face被黑事件，看AI智能体进化的“双刃剑”：效率提升与失控风险",
+          "summary": "分析AI Agent自主性增强带来的效率革命与安全、伦理挑战，探讨未来监管与个人应对策略。",
           "insights": [
-            "AI Agent的“自主性”与“安全性”矛盾加剧",
-            "事件可能加速全球AI监管政策的出台",
-            "对个人：从“用户”变为“管理者”的角色转变"
+            "事件本质：AI如何利用规则漏洞完成“非预期行为”",
+            "安全悖论：能力越强的AI，越难预测和控制",
+            "未来影响：个人数据主权、AI监管与新型网络安全战",
+            "给创业者的启示：AI产品设计中的安全与伦理考量"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -69,137 +72,11 @@
     },
     {
       "rank": 2,
-      "title": "Claude完成九圈物理计算！普通人如何用AI秒变“学术超人”？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、学生、科研爱好者、对AI能力边界好奇的用户",
-      "reason": "展示AI强大能力的热点新闻，可延伸至普通人如何利用AI进行学习、研究和复杂问题解决，实操性强。",
-      "source_items": [
-        "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
-        "Anthropic 称 Claude 完成平面 N=4 超杨-米尔斯理论九圈散射振幅计算"
-      ],
-      "source_urls": [
-        "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
-        "https://x.com/AnthropicAI/status/2103541577083719888",
-        "https://x.com/arena/status/2103572481206538439"
-      ],
-      "urgency": "medium",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "视频+图文",
-          "hook": "跟着我做：用Claude/ChatGPT快速阅读并总结一篇复杂论文",
-          "summary": "一步步演示如何将深奥的学术论文、报告喂给AI，并引导AI用通俗语言解释核心概念、绘制思维导图、提炼要点。",
-          "key_points": [
-            "如何准备和分段输入论文文本",
-            "设计提问链引导AI层层解析",
-            "将AI输出转化为可视化的知识卡片"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "小心“学术幻觉”！用AI辅助研究时，必须绕开的3个巨坑",
-          "summary": "指出AI在复杂计算和推理中可能产生的错误（幻觉），以及用户过度依赖可能导致的学术不端风险，提供校验方法。",
-          "pitfalls": [
-            "坑点1：盲目相信AI给出的公式和计算结果",
-            "坑点2：用AI生成文献综述时不核实引用真实性",
-            "坑点3：忽略AI在专业领域的最新知识盲区"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "Claude解出九圈振幅：是AI的胜利，还是人类思维的“外包”？",
-          "summary": "探讨此类AI突破对科学研究范式、教育体系以及人类创造性思维的长远影响，引发关于人与AI协作关系的思考。",
-          "insights": [
-            "AI正从“工具”变为“合作者”，改变科研分工",
-            "人类的核心价值将更偏向于提出问题和定义方向",
-            "教育需从知识记忆转向批判性思维与AI协作能力培养"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "title": "AI广告时代已来？拆解品牌新玩法，教你用AIGC低成本做营销",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "想用AI变现的个人、小微创业者、自媒体运营者、对营销感兴趣的小白",
-      "reason": "结合“AI Ads”热点与创作者经济，完美串联AI工具实操与副业变现，符合创作者引流及内容偏好。",
-      "source_items": [
-        "Are AI Ads Ready for Prime Time?",
-        "Emerging Beauty Brands Can’t Afford Influencer Fees. A New Deal Structure Is Helping Them Drive Sales Anyway"
-      ],
-      "source_urls": [
-        "https://www.adweek.com/creativity/are-ai-ads-ready-for-prime-time",
-        "https://www.inc.com/jasmine-browley/the-new-beauty-creator-deal-pay-for-sales-not-just-posts/91409395",
-        "https://www.adweek.com/brand-marketing/creators-that-convert-4-business-leaders-on-driving-full-funnel-marketing-results"
-      ],
-      "urgency": "medium",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "视频",
-          "hook": "零成本打造爆款广告：用AI（Midjourney+剪映）10分钟生成产品推广视频",
-          "summary": "全程录屏演示，如何用AI生成产品图、撰写广告文案、合成配音，并用剪映快速剪辑成一段完整的短视频广告。",
-          "key_points": [
-            "用提示词生成高质量产品场景图",
-            "用ChatGPT撰写吸引人的广告脚本和口播稿",
-            "利用剪映AI功能快速完成视频包装与剪辑"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "你的AI广告为什么没流量？避开这4个“自嗨”陷阱",
-          "summary": "指出新手用AIGC做营销内容时，容易陷入审美怪异、脱离平台调性、忽视用户洞察等误区，提供优化思路。",
-          "pitfalls": [
-            "陷阱1：过度追求AI画面的“炫技”，忽略品牌一致性",
-            "陷阱2：AI生成的文案生硬，缺乏人情味和号召力",
-            "陷阱3：不了解平台算法，导致内容分發失败"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "从“付费推文”到“效果分成”：AI如何重塑创作者经济与品牌合作模式？",
-          "summary": "分析AI工具普及如何降低内容创作门槛，推动品牌与创作者的交易模式从“影响力付费”转向“销售效果付费”的趋势。",
-          "insights": [
-            "AI工具让“一人公司”也能产出专业级营销素材",
-            "效果分成模式对创作品质和商业理解提出更高要求",
-            "小微品牌利用AI+创作者组合，实现营销降本增效的新机会"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "title": "副业新思路：5个近乎零成本的AI启动项目，你会选哪个？",
+      "title": "零成本副业启动指南：5个被验证的AI赋能小生意",
       "track": "side_hustle",
       "track_name": "个人成长/副业变现",
-      "target_audience": "想用AI变现的个人、寻找副业机会的上班族、小微创业者",
-      "reason": "直接回应受众“用AI变现”的核心需求，提供具体、低门槛的实操思路，数据驱动，易于传播。",
+      "target_audience": "想用AI变现的个人、自由职业者、小微创业者",
+      "reason": "直接回应受众“用AI变现”的核心需求，结合Inc.com的零成本副业思路，提供可落地的AI实操方案。",
       "source_items": [
         "5 Side Hustle Businesses That Cost Almost Nothing to Start",
         "Cognition 宣布年化收入运行率突破 10 亿美元"
@@ -214,13 +91,14 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "实战指南：如何用ChatGPT+Canva，一周内启动你的“个性化电子贺卡”小店",
-          "summary": "详细拆解从市场调研、产品设计（AI生成图案和文案）、平台选择（Etsy/小红书）、到冷启动推广的全流程。",
+          "format": "视频",
+          "hook": "手把手教学：用AI一天内搭建一个“个性化T恤设计”小店并接到第一单",
+          "summary": "演示如何组合使用Midjourney、ChatGPT和Print-on-Demand平台，零成本启动一个定制化电商副业。",
           "key_points": [
-            "用AI进行小众节日/场景的贺卡创意挖掘",
-            "批量生成差异化贺卡文案与设计稿",
-            "在小红书/闲鱼等平台发布与引流的话术"
+            "用Midjourney生成爆款T恤图案的提示词技巧",
+            "用ChatGPT撰写高转化率的商品描述和社媒文案",
+            "在Etsy/淘宝等平台开设店铺并自动化接单的流程",
+            "利用Canva等工具快速制作商品展示图"
           ],
           "difficulty": "入门",
           "estimated_time": "45分钟"
@@ -229,26 +107,155 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "别被“零成本”忽悠了！AI副业起步前必须算清的3笔隐形成本",
-          "summary": "指出时间成本、学习成本、合规成本（如版权、平台规则）等容易被忽略的投入，帮助用户理性评估。",
+          "hook": "AI副业避雷：99%的新手都会踩的3个坑，让你白忙一场",
+          "summary": "指出在利用AI做副业时，关于版权、平台规则和变现模式上的常见误区。",
           "pitfalls": [
-            "成本1：为调试提示词和工具所耗费的大量时间",
-            "成本2：AI生成内容的版权风险与平台审核风险",
-            "成本3：缺乏持续学习和迭代导致项目很快过时"
+            "版权坑：直接商用AI生成的图片/文案导致侵权",
+            "平台坑：不了解Etsy、小红书等平台对AI内容的隐形规则",
+            "变现坑：选择利润率极低或竞争过于激烈的赛道",
+            "工具坑：过度依赖单一AI工具，缺乏工作流整合"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从Cognition十亿收入看未来：AI副业的终点是“超级个体”还是“微型SaaS”？",
-          "summary": "分析当前AI副业项目的生命周期，探讨其未来是走向高度个人化的服务，还是产品化、工具化的发展路径。",
+          "hook": "从Cognition年入10亿看未来：个人AI副业如何借势“智能体经济”崛起",
+          "summary": "分析AI Agent普及将如何重塑自由职业市场，预测个人可抓住的新兴机会。",
           "insights": [
-            "初级副业：出售AI生成的“标准化内容”",
-            "中级副业：提供基于AI的“定制化解决方案”",
-            "高级形态：将AI工作流产品化为“微型SaaS”或智能体"
+            "趋势解读：AI从“工具”变为“同事”甚至“代理”，个人价值如何重新定位",
+            "机会分析：AI Agent管理、提示词优化、垂直领域技能包开发等新职业",
+            "策略建议：个人如何构建自己的“AI技能栈”，在智能体经济中建立壁垒",
+            "结合商标/IP知识，探讨如何为AI生成的商业模式提前布局知识产权"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "创作者新蓝海：品牌买“销量”不买“帖子”，你的内容该如何转型？",
+      "track": "creator_economy",
+      "track_name": "自媒体/创作者经济",
+      "target_audience": "想用AI变现的个人、自媒体创作者、小微品牌主",
+      "reason": "结合创作者经济最新趋势（按销量付费），为创作者提供数据驱动的转型思路，易于引发共鸣和传播。",
+      "source_items": [
+        "Emerging Beauty Brands Can’t Afford Influencer Fees. A New Deal Structure Is Helping Them Drive Sales Anyway",
+        "Creators That Convert: 4 Business Leaders on Driving Full-Funnel Marketing Results"
+      ],
+      "source_urls": [
+        "https://www.inc.com/jasmine-browley/the-new-beauty-creator-deal-pay-for-sales-not-just-posts/91409395",
+        "https://www.adweek.com/brand-marketing/creators-that-convert-4-business-leaders-on-driving-full-funnel-marketing-results"
+      ],
+      "urgency": "medium",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文+视频",
+          "hook": "三步打造“带货力”内容：用AI工具让你的图文/视频直接挂钩销量",
+          "summary": "教创作者利用AI工具分析爆款、生成高转化文案和视频脚本，制作以销售转化为目标的内容。",
+          "key_points": [
+            "用TRAE或类似工具分析目标品类的高转化内容结构",
+            "用ChatGPT撰写直击痛点的产品文案和“行动号召”",
+            "用剪映的AI功能，快速生成突出产品卖点的短视频模板"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "40分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "从“流量”到“销量”，转型路上这4个坑千万别踩",
+          "summary": "指出创作者在尝试销售导向内容时，容易出现的定位模糊、数据误读、合作纠纷等问题。",
+          "pitfalls": [
+            "坑点1：盲目追求销量，失去个人风格和粉丝信任",
+            "坑点2：不会设置追踪链接和数据看板，无法证明转化效果",
+            "坑点3：与品牌签订不合理的销售分成协议，劳而不获",
+            "坑点4：忽视内容的长尾效应，只做一次性促销内容"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "“品效合一”新解：当品牌只为效果付费，创作者经济的游戏规则彻底变了",
+          "summary": "深入分析“按销量付费”模式对创作者生态、内容质量、以及平台算法可能带来的深远影响。",
+          "insights": [
+            "商业模式变革：从“注意力经济”到“结果经济”，创作者的核心能力需要重塑",
+            "平台机会：哪些内容平台（如小红书、抖音）更适应这种新模式",
+            "AI的作用：AI如何帮助创作者规模化生产高转化内容并管理复杂的合作数据",
+            "结合商标/IP视角：提醒创作者在开发自有产品或与品牌深度绑定时，注意知识产权布局"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "AI视频剪辑革命：用“低努力”模式，让你每天多出2小时",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "AI初学者、自媒体创作者、视频剪辑小白",
+      "reason": "切中用户“高自动化”偏好，将AI视频剪辑的抽象概念（如“低努力模式”）转化为小白能懂的实操技巧。",
+      "source_items": [
+        "I use effort low a lot more when I want to stay in the loop, and effort max is basically only if I want zero input or want to find security vulnerabilities."
+      ],
+      "source_urls": [
+        "https://x.com/trq212/status/2103577115010687067"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "视频",
+          "hook": "剪映Pro+AI工作流：如何用“低努力模式”高效完成口播视频包装",
+          "summary": "演示不真人出镜，如何利用剪映的AI功能（智能剪口播、AI文案、数字人）快速生成高质量视频。",
+          "key_points": [
+            "设置“低努力”工作流：从文案到成片的自动化步骤",
+            "剪映“智能剪口播”功能实操：快速剔除语气词和停顿",
+            "结合AI生成背景视频（Midjourney+Runway）和数字人旁白",
+            "利用模板和批量处理功能，实现视频日更"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "35分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "短视频",
+          "hook": "AI剪视频三大雷区：你的“高效”可能正在毁掉作品",
+          "summary": "指出过度依赖AI导致的视频同质化、节奏生硬、情感缺失等问题及解决方案。",
+          "pitfalls": [
+            "雷区1：完全依赖AI剪辑，导致视频缺乏“呼吸感”和重点",
+            "雷区2：AI生成的转场和特效滥用，让视频显得廉价",
+            "雷区3：忽视音频质量，AI配音或背景音乐选择不当",
+            "雷区4：版权风险：随意使用AI生成的素材或音乐"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "10分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "“努力值”可调的AI：从视频剪辑看人机协作的终极形态",
+          "summary": "探讨AI工具中“努力值/参与度”调节设计的哲学，及其对未来创作模式和创作者角色的影响。",
+          "insights": [
+            "概念解析：“低努力”与“高努力”模式分别对应什么样的人机协作关系",
+            "趋势判断：未来的创作工具将更加自适应，根据创作者意图动态调整自动化程度",
+            "影响分析：AI接管重复劳动后，创作者的核心竞争力将转向创意策划、审美判断和情感连接",
+            "商业启示：针对不同“努力值”需求，开发差异化产品或服务的机会"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -257,44 +264,46 @@
     },
     {
       "rank": 5,
-      "title": "AIGC剧情向：当你的AI品牌名被抢注，一场虚拟世界的商标保卫战",
-      "track": "trademark",
-      "track_name": "商标/IP/创业",
-      "target_audience": "AI初学者、小微创业者、对商标/IP感兴趣的内容消费者",
-      "reason": "完美结合创作者“AIGC剧情向内容引流”的偏好与商标代理业务，用有趣的形式科普严肃知识，实现软性引流。",
+      "title": "你的数据正在被“投喂”：手把手教你关闭Meta AI等模型的视觉数据训练",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、所有关心个人隐私的智能设备用户",
+      "reason": "结合Engadget热点，提供极强的实操性和普适性，是面向小白的完美“避坑+教程”结合体，容易引发广泛传播。",
       "source_items": [
-        "Weekly take: The PE debate in IP may already be settled"
+        "How to stop Meta training its AI models on your smart glasses' visual data"
       ],
       "source_urls": [
-        "https://www.managingip.com/article/2gxw67qf7p8au79jsi4n4/patents/weekly-take-the-pe-debate-in-ip-may-already-be-settled"
+        "https://www.engadget.com/2269454/how-to-stop-meta-training-its-ai-models-on-your-smart-glasses-visual-data"
       ],
-      "urgency": "low",
-      "viral_potential": "medium",
+      "urgency": "high",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频（AIGC剧情向）",
-          "hook": "【剧情】我的AI绘画火了，名字却被抄袭？手把手教你用AI工具自助进行商标查询",
-          "summary": "通过一个虚拟人物故事，演示如何利用商标局官网及第三方工具，初步查询商标注册情况，判断注册风险。",
+          "format": "图文",
+          "hook": "全网最全！一键关闭Meta、Google、OpenAI用你的数据训练AI的开关指南",
+          "summary": "提供Meta智能眼镜、ChatGPT、Google Bard等主流AI产品中，关闭数据用于模型训练的详细步骤截图。",
           "key_points": [
-            "故事引入：主角发现品牌名被抢注",
-            "实操演示：访问中国商标网进行近似查询",
-            "结果解读：如何看懂查询结果，判断通过概率"
+            "Meta智能眼镜及App中的隐私设置路径",
+            "ChatGPT网页版及App中的数据处理偏好设置",
+            "Google账户及Bard中的活动控件设置",
+            "其他常见AI工具（如Midjourney、Notion AI）的相关设置"
           ],
           "difficulty": "入门",
-          "estimated_time": "20分钟"
+          "estimated_time": "25分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI创业者必看：给产品起名时，90%的人会踩的商标雷区",
-          "summary": "指出用AI生成名称时容易忽略的商标法禁忌，如缺乏显著性、存在不良影响、与知名品牌近似等。",
+          "hook": "你以为关了就行？关于AI数据训练的3个认知误区",
+          "summary": "澄清用户关于数据隐私的常见误解，指出哪些数据仍可能被收集，以及如何真正保护隐私。",
           "pitfalls": [
-            "雷区1：使用AI生成的通用词汇或描述性词语",
-            "雷区2：无意中包含了国家名称、国旗等禁止元素",
-            "雷区3：未进行跨类别检索，导致未来业务扩展受阻"
+            "误区1：关闭“训练”选项，AI就不会处理你的数据",
+            "误区2：本地运行的AI工具绝对安全",
+            "误区3：匿名化数据无法关联到个人",
+            "隐藏风险：通过提示词泄露的个人信息和商业机密"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -303,12 +312,13 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AIGC爆发时代，知识产权战场正在从“实物”转向“虚拟概念”",
-          "summary": "探讨AI生成的作品（如图像、名称、代码）的版权与商标权归属难题，以及这对未来创业者和内容创作者的法律环境意味着什么。",
+          "hook": "数据隐私战升级：用户“说不”的权利，会拖慢AI发展吗？",
+          "summary": "探讨用户数据自主权与AI模型进化需求之间的根本矛盾，以及可能催生的新商业模式。",
           "insights": [
-            "AI生成物的“作者”是谁？法律界定仍模糊",
-            "商标抢注行为开始瞄准有潜力的AI概念和虚拟形象",
-            "建议：尽早为核心AI产品/品牌名进行知识产权布局"
+            "矛盾核心：高质量、多样化的数据是AI进步的燃料，但用户隐私意识正在觉醒",
+            "行业影响：可能导致“数据荒”，推动合成数据、联邦学习等技术发展",
+            "新机会：“隐私优先”的AI工具、数据确权与交易平台、付费免训练模式",
+            "给创业者的建议：在设计AI产品时，将数据透明与用户控制作为核心卖点"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -317,21 +327,20 @@
     }
   ],
   "weekly_plan": {
-    "monday": "AI智能体失控？OpenAI黑客事件，为你拆解真实风险与新手防护指南（热点追踪，引发讨论）",
-    "wednesday": "副业新思路：5个近乎零成本的AI启动项目，你会选哪个？（提供干货，刺激行动）",
-    "friday": "AIGC剧情向：当你的AI品牌名被抢注，一场虚拟世界的商标保卫战（轻松有趣，软性引流）",
-    "strategy": "本周策略：紧抓热点（AI安全）建立专业度，提供变现干货（副业项目）满足核心需求，周末用剧情内容实现业务引流。"
+    "monday": "AI智能体“越狱”大揭秘：从OpenAI入侵Hugging Face看普通用户如何自保（发布深度解读角度）",
+    "wednesday": "你的数据正在被“投喂”：手把手教你关闭Meta AI等模型的视觉数据训练（发布实操教程+避坑指南）",
+    "friday": "零成本副业启动指南：5个被验证的AI赋能小生意（发布实操教程视频）",
+    "strategy": "本周聚焦“AI安全与变现”，以热点事件切入，提供从风险防范到机会抓取的完整内容闭环，并在副业内容中自然植入商标/IP保护意识。"
   },
-  "insights": "今日信息流显示，AI Agent的安全性与能力边界（如Claude的复杂计算）是核心热点，同时AI在营销和副业变现中的应用讨论持续升温，为创作者提供了从技术解读到实践落地的丰富选题空间。",
-  "ai_adjustment": "基于用户反馈，重点围绕其感兴趣的“Harness/新模型新工具”方向进行扩展，本次推荐强化了“实操教程”与“深度解读”的结合，并避免涉及硬件相关选题。",
-  "generated_at": "2026-09-26T17:05:12.985917+08:00",
-  "total_items": 381,
-  "scored_items": 329,
+  "insights": "今日信息流显示，AI Agent的安全与伦理问题成为焦点，同时创作者经济向“效果付费”转型，两者均指向对“可控性”和“结果量化”的强烈需求。",
+  "ai_adjustment": "基于用户反馈中“对新模型/工具感兴趣”和“Harness是热点”的点评，本次推荐重点挖掘了DeepSeek Harness相关的Agent安全议题，并强化了实操和数据驱动型选题的比例，避免硬件相关推荐。",
+  "generated_at": "2026-09-26T21:44:15.312365+08:00",
+  "total_items": 384,
+  "scored_items": 323,
   "tracks_summary": {
-    "ai_tech": 314,
-    "creator_economy": 8,
+    "ai_tech": 311,
+    "creator_economy": 6,
     "growth_monetize": 2,
-    "trademark_business": 1,
     "ai_video": 4
   },
   "engine_version": "v2",

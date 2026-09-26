@@ -165,6 +165,14 @@
         "url": "https://swarmtraces.org",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "披露了真实攻击向量，开发者需检查依赖库和API密钥安全。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-26T13:38:03.796538Z"
       }
     },
     {
@@ -242,6 +250,14 @@
         "url": "https://developers.openai.com/codex/changelog",
         "source": "OpenAI Codex Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "CLI工具更新，开发者今天就能下载使用新功能或修复。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-26T13:38:03.796538Z"
       }
     },
     {
@@ -349,6 +365,14 @@
         "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
         "source": "GitHub AI & ML",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "官方教程教你用画布功能，今天就能动手搭建自己的AI工作流。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-26T13:38:03.796538Z"
       }
     },
     {
@@ -426,6 +450,14 @@
         "url": "https://openai.com/index/proaction",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "客户案例软文，对开发者选型或使用没提供新信息。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-26T13:38:03.796538Z"
       }
     },
     {
@@ -503,6 +535,14 @@
         "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "GitHub企业版设置验证工具已上线，管理员现在就能用它检查配置合规性。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-26T13:38:03.796538Z"
       }
     },
     {
@@ -667,6 +707,14 @@
         "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
         "source": "Anthropic：Research（发表成果 · 网页）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "展示了Claude的推理潜力，但离日常开发可用的工具还很远。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-26T13:38:03.796538Z"
       }
     },
     {
@@ -743,6 +791,14 @@
         "url": "https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data",
         "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "用GPT-4o等模型的开发者需留意，官方已暂停部分功能，可能影响现有智能体应用。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-26T13:38:03.796538Z"
       }
     },
     {
@@ -878,6 +934,14 @@
         "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
         "source": "Hacker News：AI 热帖",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "对开发者日常工作无直接影响，是监管层面的认定。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-26T13:38:03.796538Z"
       }
     },
     {
@@ -955,6 +1019,14 @@
         "url": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "GitHub Copilot 修复功能升级，现在能记住项目上下文，修复更准了。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-26T13:38:03.796538Z"
       }
     },
     {
@@ -1061,6 +1133,14 @@
         "url": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts",
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "安全团队需要关注，普通开发者暂时不用调整现有项目。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-26T13:38:03.796538Z"
       }
     },
     {
@@ -1137,6 +1217,14 @@
         "url": "https://x.com/emollick/status/2103709671865602100",
         "source": "X：Ethan Mollick (@emollick)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "内部对齐事件披露，对开发者选型有长期参考价值，但今天不改变API使用。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-26T13:38:03.796538Z"
       }
     },
     {
@@ -1213,6 +1301,14 @@
         "url": "https://x.com/Yuchenj_UW/status/2103589198427193593",
         "source": "X：Yuchen Jin (@Yuchenj_UW)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "看看智能体犯错案例，调试时多个排查思路。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-26T13:38:03.796538Z"
       }
     },
     {
@@ -1289,6 +1385,14 @@
         "url": "https://x.com/ClaudeDevs/status/2103548467729887677",
         "source": "X：Claude Devs (@ClaudeDevs)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 88,
+      "persona_review": "API调用成本明确下降，即刻影响项目预算和模型选型决策。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-26T13:38:03.796538Z"
       }
     },
     {
@@ -1366,6 +1470,14 @@
         "url": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 80,
+      "persona_review": "API新增PR审查阶段数据，做DevOps监控和团队效能分析能更细了。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-26T13:38:03.796538Z"
       }
     },
     {
@@ -1471,6 +1583,14 @@
         "url": "https://x.com/sama/status/2103567198690349362",
         "source": "X：Sam Altman (@sama)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "内部审查进展，对开发者无直接影响，等具体政策出台再说。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-26T13:38:03.796538Z"
       }
     },
     {
@@ -1546,6 +1666,14 @@
         "url": "https://x.com/OpenAI/status/2103587050347995581",
         "source": "X：OpenAI (@OpenAI)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "披露研究环境的数据外传细节，对生产部署有参考价值，但非紧急行动项。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-26T13:38:03.796538Z"
       }
     },
     {
@@ -1652,6 +1780,14 @@
         "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo",
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 25,
+      "persona_review": "公司治理变动，不影响你调用 Claude API 或选型。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-26T13:38:03.796538Z"
       }
     },
     {
@@ -1729,6 +1865,14 @@
         "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "官方周更日志，有具体功能更新或修复，订阅用户需查看变更。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-26T13:38:03.796538Z"
       }
     },
     {
@@ -1806,6 +1950,14 @@
         "url": "https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "协作工具里的Copilot功能更新了，团队今天就能用上。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-26T13:38:03.796538Z"
       }
     },
     {
@@ -1883,6 +2035,14 @@
         "url": "https://github.blog/changelog/2026-09-25-personal-saved-views-for-repository-issues-and-more",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "GitHub Issues 新增个人保存视图和关联关系，今天就能用，提升项目管理效率。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-09-26T13:38:03.796538Z"
       }
     }
   ]
