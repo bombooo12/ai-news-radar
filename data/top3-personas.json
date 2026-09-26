@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T13:38:12.692966Z",
+  "generated_at": "2026-09-26T18:13:24.811302Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -57,22 +57,22 @@
       }
     },
     {
-      "story_id": "story_a304aaf0894c",
-      "title": "GitHub Copilot app 新手教程：如何用 canvases 构建自定义工作流 / GitHub Copilot app for Beginners: How to build custom workflows with canvases",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
+      "story_id": "story_07c3181c791a",
+      "title": "Enterprise managed settings in-product validator",
+      "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
       "rank": 3,
       "reviews": {
         "cynic": {
           "score": 65,
-          "review": "官方教程算干货，但‘自定义工作流’听着高级，本质是教你怎么用画布。"
+          "review": "给企业管理员加个配置检查，功能实在但吹成‘验证器’就有点小题大做了。"
         },
         "paper-police": {
-          "score": 15,
-          "review": "仅为官方博客教程，无独立论文、代码或第三方性能评测。"
+          "score": 40,
+          "review": "官方技术博客公布了功能细节，但无独立论文或第三方评测验证。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "官方教程教你用画布功能，今天就能动手搭建自己的AI工作流。"
+          "review": "GitHub企业版设置验证工具已上线，管理员现在就能用它检查配置合规性。"
         }
       }
     }
