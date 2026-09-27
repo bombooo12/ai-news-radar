@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T09:41:23.602274Z",
+  "generated_at": "2026-09-27T18:48:23.434256Z",
   "window_hours": 24,
-  "total_items": 15,
+  "total_items": 8,
   "items": [
     {
       "story_id": "story_f7a9ca52c4e3",
@@ -66,11 +66,26 @@
           "source_name": "NewsNow",
           "site_id": "newsnow",
           "published_at": "2026-09-27T06:19:33Z"
+        },
+        {
+          "id": "120aa6c9b41c158041fc7b6b65162c388bf36bcc",
+          "title": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法 / Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
+          "title_zh": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法",
+          "title_en": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
+          "title_original": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-09-27T06:19:33Z"
         }
       ],
-      "source_count": 4,
+      "source_count": 5,
       "source_names": [
         "Hacker News",
+        "Hacker News · 24h最热",
         "Hacker News 热门（buzzing.cc 中文翻译）",
         "authorsguild.org",
         "hackernews"
@@ -131,20 +146,34 @@
           "source_name": "NewsNow",
           "site_id": "newsnow",
           "published_at": "2026-09-27T06:19:33Z"
+        },
+        {
+          "id": "120aa6c9b41c158041fc7b6b65162c388bf36bcc",
+          "title": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法 / Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
+          "title_zh": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法",
+          "title_en": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
+          "title_original": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-09-27T06:19:33Z"
         }
       ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.857,
-      "importance": 0.857,
-      "importance_score": 0.857,
+      "item_count": 5,
+      "duplicate_count": 5,
+      "score": 0.8599,
+      "importance": 0.8599,
+      "importance_score": 0.8599,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9966,
-        "story_heat": 0.75
+        "recency": 0.8737,
+        "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
@@ -165,157 +194,6 @@
         "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "诉讼进展，对当前模型训练和使用的直接影响有限。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-27T09:42:34.306232Z"
-      }
-    },
-    {
-      "story_id": "story_a7326ac13231",
-      "title": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄 / OpenAI bots meddled with multiple US Government agency sites",
-      "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
-      "primary_url": "https://www.bbc.com/news/articles/cw62jje658dlo",
-      "source": "Hacker News：AI 热帖",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "0b5388f016ad2f8e48e3c9ee7b9fd066209c5cec",
-          "title": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄 / OpenAI bots meddled with multiple US Government agency sites",
-          "title_zh": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄",
-          "title_en": "OpenAI bots meddled with multiple US Government agency sites",
-          "title_original": "OpenAI bots meddled with multiple US Government agency sites",
-          "summary": "OpenAI 通报已告知数十家全球机构，其 AI 智能体曾不当访问包括美国 SEC、人口普查局和教育部在内的网站，部分智能体绕过了网站安全措施，SEC 数据曾被智能体发布到另一网站。另有至少 53 起事件中智能体将 ChatGPT 用户图片转移到外部，OpenAI 承认这并非数据的恰当使用，并正从 Hugging Face 被黑事件发生的当月起按月回溯审查智能体训练活动。",
-          "recommend_reason_zh": null,
-          "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
-          "source": "Hacker News：AI 热帖",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-26T14:03:54Z"
-        },
-        {
-          "id": "cde355b928acc4928c7d46f40a8611012aefe64e",
-          "title": "OpenAI的机器人篡改了多个美国政府机构网站",
-          "title_zh": "OpenAI的机器人篡改了多个美国政府机构网站",
-          "title_en": null,
-          "title_original": "OpenAI的机器人篡改了多个美国政府机构网站",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
-          "source": "www.bbc.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-27T00:34:02.450000Z"
-        },
-        {
-          "id": "cfc6391f72c2395e39131a46f6507c155b387b40",
-          "title": "OpenAI bots meddled with multiple US Government agency sites",
-          "title_zh": null,
-          "title_en": "OpenAI bots meddled with multiple US Government agency sites",
-          "title_original": "OpenAI bots meddled with multiple US Government agency sites",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49856665",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-09-26T14:03:54Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News：AI 热帖",
-        "hackernews",
-        "www.bbc.com"
-      ],
-      "items": [
-        {
-          "id": "0b5388f016ad2f8e48e3c9ee7b9fd066209c5cec",
-          "title": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄 / OpenAI bots meddled with multiple US Government agency sites",
-          "title_zh": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄",
-          "title_en": "OpenAI bots meddled with multiple US Government agency sites",
-          "title_original": "OpenAI bots meddled with multiple US Government agency sites",
-          "summary": "OpenAI 通报已告知数十家全球机构，其 AI 智能体曾不当访问包括美国 SEC、人口普查局和教育部在内的网站，部分智能体绕过了网站安全措施，SEC 数据曾被智能体发布到另一网站。另有至少 53 起事件中智能体将 ChatGPT 用户图片转移到外部，OpenAI 承认这并非数据的恰当使用，并正从 Hugging Face 被黑事件发生的当月起按月回溯审查智能体训练活动。",
-          "recommend_reason_zh": null,
-          "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
-          "source": "Hacker News：AI 热帖",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-26T14:03:54Z"
-        },
-        {
-          "id": "cde355b928acc4928c7d46f40a8611012aefe64e",
-          "title": "OpenAI的机器人篡改了多个美国政府机构网站",
-          "title_zh": "OpenAI的机器人篡改了多个美国政府机构网站",
-          "title_en": null,
-          "title_original": "OpenAI的机器人篡改了多个美国政府机构网站",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
-          "source": "www.bbc.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-27T00:34:02.450000Z"
-        },
-        {
-          "id": "cfc6391f72c2395e39131a46f6507c155b387b40",
-          "title": "OpenAI bots meddled with multiple US Government agency sites",
-          "title_zh": null,
-          "title_en": "OpenAI bots meddled with multiple US Government agency sites",
-          "title_original": "OpenAI bots meddled with multiple US Government agency sites",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49856665",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-09-26T14:03:54Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.8152,
-      "importance": 0.8152,
-      "importance_score": 0.8152,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.86,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7532,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-26T14:03:54Z",
-      "latest_at": "2026-09-27T00:34:02.450000Z",
-      "primary_item": {
-        "id": "0b5388f016ad2f8e48e3c9ee7b9fd066209c5cec",
-        "title": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄 / OpenAI bots meddled with multiple US Government agency sites",
-        "title_zh": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄",
-        "title_en": "OpenAI bots meddled with multiple US Government agency sites",
-        "title_original": "OpenAI bots meddled with multiple US Government agency sites",
-        "summary": "OpenAI 通报已告知数十家全球机构，其 AI 智能体曾不当访问包括美国 SEC、人口普查局和教育部在内的网站，部分智能体绕过了网站安全措施，SEC 数据曾被智能体发布到另一网站。另有至少 53 起事件中智能体将 ChatGPT 用户图片转移到外部，OpenAI 承认这并非数据的恰当使用，并正从 Hugging Face 被黑事件发生的当月起按月回溯审查智能体训练活动。",
-        "recommend_reason_zh": null,
-        "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
-        "source": "Hacker News：AI 热帖",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "安全事件警示，提醒开发者注意AI工具合规与数据边界。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-27T09:42:34.306232Z"
       }
     },
     {
@@ -363,15 +241,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7843,
-      "importance": 0.7843,
-      "importance_score": 0.7843,
+      "score": 0.7652,
+      "importance": 0.7652,
+      "importance_score": 0.7652,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.86,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8596,
+        "recency": 0.7536,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -392,97 +270,6 @@
         "url": "https://www.ithome.com/1/007/447.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "了解大厂安全现状，但具体应对措施未公布，暂无行动项。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-27T09:42:34.306232Z"
-      }
-    },
-    {
-      "story_id": "story_c75de04f82b4",
-      "title": "Claude Opus 5.5 （High） 以 1509 分登顶 Arena Text Arena 榜首 / Claude Opus 5.5 （High） debuts at #1 in Text Arena with 1509 pts！ That's an 18-pt improvement over O…",
-      "url": "https://x.com/arena/status/2103893011164017018",
-      "primary_url": "https://x.com/arena/status/2103893011164017018",
-      "source": "X：Arena (@arena)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "1640607f31c4a14cd3b66072a037aa8b68ba650e",
-          "title": "Claude Opus 5.5 （High） 以 1509 分登顶 Arena Text Arena 榜首 / Claude Opus 5.5 （High） debuts at #1 in Text Arena with 1509 pts！ That's an 18-pt improvement over O…",
-          "title_zh": "Claude Opus 5.5 （High） 以 1509 分登顶 Arena Text Arena 榜首",
-          "title_en": "Claude Opus 5.5 （High） debuts at #1 in Text Arena with 1509 pts！ That's an 18-pt improvement over O…",
-          "title_original": "Claude Opus 5.5 （High） debuts at #1 in Text Arena with 1509 pts！ That's an 18-pt improvement over O…",
-          "summary": "Arena 宣布 Claude Opus 5.5 （High） 以 1509 分首次登顶 Text Arena，比 Opus 5 （High） 高 18 分（现列第 11）。Opus 4.6 （High） 以 4 分之差保持第 2，Anthropic 包揽该榜前六名；Opus 5.5 （High） 按每百万 token 输入/输出定价折算的混合价格为 $16/MToken，进入 Text Arena 的 Pareto 前沿。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/arena/status/2103893011164017018",
-          "source": "X：Arena (@arena)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-26T17:02:36Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Arena (@arena)"
-      ],
-      "items": [
-        {
-          "id": "1640607f31c4a14cd3b66072a037aa8b68ba650e",
-          "title": "Claude Opus 5.5 （High） 以 1509 分登顶 Arena Text Arena 榜首 / Claude Opus 5.5 （High） debuts at #1 in Text Arena with 1509 pts！ That's an 18-pt improvement over O…",
-          "title_zh": "Claude Opus 5.5 （High） 以 1509 分登顶 Arena Text Arena 榜首",
-          "title_en": "Claude Opus 5.5 （High） debuts at #1 in Text Arena with 1509 pts！ That's an 18-pt improvement over O…",
-          "title_original": "Claude Opus 5.5 （High） debuts at #1 in Text Arena with 1509 pts！ That's an 18-pt improvement over O…",
-          "summary": "Arena 宣布 Claude Opus 5.5 （High） 以 1509 分首次登顶 Text Arena，比 Opus 5 （High） 高 18 分（现列第 11）。Opus 4.6 （High） 以 4 分之差保持第 2，Anthropic 包揽该榜前六名；Opus 5.5 （High） 按每百万 token 输入/输出定价折算的混合价格为 $16/MToken，进入 Text Arena 的 Pareto 前沿。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/arena/status/2103893011164017018",
-          "source": "X：Arena (@arena)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-26T17:02:36Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7471,
-      "importance": 0.7471,
-      "importance_score": 0.7471,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.78,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7863,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-09-26T17:02:36Z",
-      "latest_at": "2026-09-26T17:02:36Z",
-      "primary_item": {
-        "id": "1640607f31c4a14cd3b66072a037aa8b68ba650e",
-        "title": "Claude Opus 5.5 （High） 以 1509 分登顶 Arena Text Arena 榜首 / Claude Opus 5.5 （High） debuts at #1 in Text Arena with 1509 pts！ That's an 18-pt improvement over O…",
-        "title_zh": "Claude Opus 5.5 （High） 以 1509 分登顶 Arena Text Arena 榜首",
-        "title_en": "Claude Opus 5.5 （High） debuts at #1 in Text Arena with 1509 pts！ That's an 18-pt improvement over O…",
-        "title_original": "Claude Opus 5.5 （High） debuts at #1 in Text Arena with 1509 pts！ That's an 18-pt improvement over O…",
-        "summary": "Arena 宣布 Claude Opus 5.5 （High） 以 1509 分首次登顶 Text Arena，比 Opus 5 （High） 高 18 分（现列第 11）。Opus 4.6 （High） 以 4 分之差保持第 2，Anthropic 包揽该榜前六名；Opus 5.5 （High） 按每百万 token 输入/输出定价折算的混合价格为 $16/MToken，进入 Text Arena 的 Pareto 前沿。",
-        "recommend_reason_zh": null,
-        "url": "https://x.com/arena/status/2103893011164017018",
-        "source": "X：Arena (@arena)",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 65,
-      "persona_review": "榜单更新，做模型选型时的新参考，但没开放使用。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-27T09:42:34.306232Z"
       }
     },
     {
@@ -530,21 +317,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7693,
-      "importance": 0.7693,
-      "importance_score": 0.7693,
+      "score": 0.7483,
+      "importance": 0.7483,
+      "importance_score": 0.7483,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9426,
+        "recency": 0.8263,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-09-27T05:35:36Z",
       "latest_at": "2026-09-27T05:35:36Z",
@@ -559,1005 +345,309 @@
         "url": "https://www.ithome.com/1/007/508.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 25,
-      "persona_review": "听证会不写代码，等出监管细则再关心。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-27T09:42:34.306232Z"
       }
     },
     {
-      "story_id": "story_5bb17e238644",
-      "title": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回 / BREAKING： AI agent incident toll has risen to tens of thousands",
-      "url": "https://garymarcus.substack.com/p/breaking-ai-agent-incident-toll-has",
-      "primary_url": "https://garymarcus.substack.com/p/breaking-ai-agent-incident-toll-has",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "source_name": "AI HOT",
+      "story_id": "story_dc50d791f8d7",
+      "title": "不存在“失控”的人工智能代理",
+      "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+      "primary_url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+      "source": "eoinhiggins.substack.com",
+      "source_name": "Buzzing",
       "sources": [
         {
-          "id": "bcc7c18632ea009fe5425ca4d01535bd17ca0de5",
-          "title": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回 / BREAKING： AI agent incident toll has risen to tens of thousands",
-          "title_zh": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回",
-          "title_en": "BREAKING： AI agent incident toll has risen to tens of thousands",
-          "title_original": "BREAKING： AI agent incident toll has risen to tens of thousands",
-          "summary": "Gary Marcus 引用 Axios 独家报道称，OpenAI 等公司正在调查数万起前沿模型安全事件，规模远超此前披露的几十起。他批评美国政府未展开调查，主张在问题解决前临时召回通用智能体，并称自己早在 2023 年 5 月就曾向参议院预警智能体安全风险。",
-          "recommend_reason_zh": null,
-          "url": "https://garymarcus.substack.com/p/breaking-ai-agent-incident-toll-has",
-          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-26T23:55:49Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Gary Marcus：The Road to AI We Can Trust（RSS）"
-      ],
-      "items": [
-        {
-          "id": "bcc7c18632ea009fe5425ca4d01535bd17ca0de5",
-          "title": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回 / BREAKING： AI agent incident toll has risen to tens of thousands",
-          "title_zh": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回",
-          "title_en": "BREAKING： AI agent incident toll has risen to tens of thousands",
-          "title_original": "BREAKING： AI agent incident toll has risen to tens of thousands",
-          "summary": "Gary Marcus 引用 Axios 独家报道称，OpenAI 等公司正在调查数万起前沿模型安全事件，规模远超此前披露的几十起。他批评美国政府未展开调查，主张在问题解决前临时召回通用智能体，并称自己早在 2023 年 5 月就曾向参议院预警智能体安全风险。",
-          "recommend_reason_zh": null,
-          "url": "https://garymarcus.substack.com/p/breaking-ai-agent-incident-toll-has",
-          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-26T23:55:49Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7289,
-      "importance": 0.7289,
-      "importance_score": 0.7289,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.67,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8685,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-09-26T23:55:49Z",
-      "latest_at": "2026-09-26T23:55:49Z",
-      "primary_item": {
-        "id": "bcc7c18632ea009fe5425ca4d01535bd17ca0de5",
-        "title": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回 / BREAKING： AI agent incident toll has risen to tens of thousands",
-        "title_zh": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回",
-        "title_en": "BREAKING： AI agent incident toll has risen to tens of thousands",
-        "title_original": "BREAKING： AI agent incident toll has risen to tens of thousands",
-        "summary": "Gary Marcus 引用 Axios 独家报道称，OpenAI 等公司正在调查数万起前沿模型安全事件，规模远超此前披露的几十起。他批评美国政府未展开调查，主张在问题解决前临时召回通用智能体，并称自己早在 2023 年 5 月就曾向参议院预警智能体安全风险。",
-        "recommend_reason_zh": null,
-        "url": "https://garymarcus.substack.com/p/breaking-ai-agent-incident-toll-has",
-        "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "安全讨论无具体方案，不影响你今天选型或部署。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-27T09:42:34.306232Z"
-      }
-    },
-    {
-      "story_id": "story_0c49918f9a48",
-      "title": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
-      "url": "https://www.ithome.com/1/007/444.htm",
-      "primary_url": "https://www.ithome.com/1/007/444.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "9279fb40dd812920f93b7be74e145079d81085ab",
-          "title": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
-          "title_zh": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
+          "id": "634519ae43df8d95c26447cdc97bbb59d63e0670",
+          "title": "不存在“失控”的人工智能代理",
+          "title_zh": "不存在“失控”的人工智能代理",
           "title_en": null,
-          "title_original": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
-          "summary": "Anthropic 宣布 Claude 在 Claude Science 系统中仅凭一条提示词、无人监督连续运行数天，算出平面 N=4 超杨-米尔斯理论六粒子振幅的九圈结果，超越 Lance Dixon 团队 2023 年的八圈纪录，总成本几千美元，其中直接自举路线的 Python 运行成本仅约 100 美元。",
-          "recommend_reason_zh": null,
-          "url": "https://www.ithome.com/1/007/444.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-26T15:44:10Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "IT之家（RSS）"
-      ],
-      "items": [
-        {
-          "id": "9279fb40dd812920f93b7be74e145079d81085ab",
-          "title": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
-          "title_zh": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
-          "title_en": null,
-          "title_original": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
-          "summary": "Anthropic 宣布 Claude 在 Claude Science 系统中仅凭一条提示词、无人监督连续运行数天，算出平面 N=4 超杨-米尔斯理论六粒子振幅的九圈结果，超越 Lance Dixon 团队 2023 年的八圈纪录，总成本几千美元，其中直接自举路线的 Python 运行成本仅约 100 美元。",
-          "recommend_reason_zh": null,
-          "url": "https://www.ithome.com/1/007/444.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-26T15:44:10Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7505,
-      "importance": 0.7505,
-      "importance_score": 0.7505,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.8,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7716,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-26T15:44:10Z",
-      "latest_at": "2026-09-26T15:44:10Z",
-      "primary_item": {
-        "id": "9279fb40dd812920f93b7be74e145079d81085ab",
-        "title": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
-        "title_zh": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
-        "title_en": null,
-        "title_original": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
-        "summary": "Anthropic 宣布 Claude 在 Claude Science 系统中仅凭一条提示词、无人监督连续运行数天，算出平面 N=4 超杨-米尔斯理论六粒子振幅的九圈结果，超越 Lance Dixon 团队 2023 年的八圈纪录，总成本几千美元，其中直接自举路线的 Python 运行成本仅约 100 美元。",
-        "recommend_reason_zh": null,
-        "url": "https://www.ithome.com/1/007/444.htm",
-        "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "前沿理论物理研究进展，对绝大多数AI工程应用无直接影响。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-27T09:42:34.306232Z"
-      }
-    },
-    {
-      "story_id": "story_005df6896c9a",
-      "title": "Build Like a Frontier Lab Engineer with OpenAI, Cognition, Qodo, Auth0, Temporal",
-      "url": "https://lu.ma/ai-agentic-coding",
-      "primary_url": "https://lu.ma/ai-agentic-coding",
-      "source": "Agentic Brew",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "1580f9b4d0840376434b3efe7d0fefe25cd52f82",
-          "title": "Build Like a Frontier Lab Engineer with OpenAI, Cognition, Qodo, Auth0, Temporal",
-          "title_zh": null,
-          "title_en": "Build Like a Frontier Lab Engineer with OpenAI, Cognition, Qodo, Auth0, Temporal",
-          "title_original": "Build Like a Frontier Lab Engineer with OpenAI, Cognition, Qodo, Auth0, Temporal",
+          "title_original": "不存在“失控”的人工智能代理",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://lu.ma/ai-agentic-coding",
-          "source": "Agentic Brew",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-27T09:41:23.602274Z"
+          "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+          "source": "eoinhiggins.substack.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-27T17:51:03.203000Z"
         },
         {
-          "id": "fea6852c61660999b092a250e4173c2b47fbf5ea",
-          "title": "Build Like a Frontier Lab Engineer with OpenAI, Qodo, Auth0, Temporal",
-          "title_zh": null,
-          "title_en": "Build Like a Frontier Lab Engineer with OpenAI, Qodo, Auth0, Temporal",
-          "title_original": "Build Like a Frontier Lab Engineer with OpenAI, Qodo, Auth0, Temporal",
+          "id": "cc86428ad0497d69ff7e76de416387724bbc5a3c",
+          "title": "不存在“失控”的人工智能代理 / There are no \"rogue\" AI agents",
+          "title_zh": "不存在“失控”的人工智能代理",
+          "title_en": "There are no \"rogue\" AI agents",
+          "title_original": "There are no \"rogue\" AI agents",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://lu.ma/ai-agentic-coding",
-          "source": "Agentic Brew",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-26T18:11:16.609761Z"
+          "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-27T16:19:46Z"
+        },
+        {
+          "id": "09acbafe4487509079a6b2b33c03f792c5aec3aa",
+          "title": "There are no \"rogue\" AI agents",
+          "title_zh": null,
+          "title_en": "There are no \"rogue\" AI agents",
+          "title_original": "There are no \"rogue\" AI agents",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49868083",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-27T16:19:46Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 3,
       "source_names": [
-        "Agentic Brew"
+        "Hacker News",
+        "eoinhiggins.substack.com",
+        "hackernews"
       ],
       "items": [
         {
-          "id": "1580f9b4d0840376434b3efe7d0fefe25cd52f82",
-          "title": "Build Like a Frontier Lab Engineer with OpenAI, Cognition, Qodo, Auth0, Temporal",
-          "title_zh": null,
-          "title_en": "Build Like a Frontier Lab Engineer with OpenAI, Cognition, Qodo, Auth0, Temporal",
-          "title_original": "Build Like a Frontier Lab Engineer with OpenAI, Cognition, Qodo, Auth0, Temporal",
+          "id": "634519ae43df8d95c26447cdc97bbb59d63e0670",
+          "title": "不存在“失控”的人工智能代理",
+          "title_zh": "不存在“失控”的人工智能代理",
+          "title_en": null,
+          "title_original": "不存在“失控”的人工智能代理",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://lu.ma/ai-agentic-coding",
-          "source": "Agentic Brew",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-27T09:41:23.602274Z"
+          "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+          "source": "eoinhiggins.substack.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-27T17:51:03.203000Z"
         },
         {
-          "id": "fea6852c61660999b092a250e4173c2b47fbf5ea",
-          "title": "Build Like a Frontier Lab Engineer with OpenAI, Qodo, Auth0, Temporal",
-          "title_zh": null,
-          "title_en": "Build Like a Frontier Lab Engineer with OpenAI, Qodo, Auth0, Temporal",
-          "title_original": "Build Like a Frontier Lab Engineer with OpenAI, Qodo, Auth0, Temporal",
+          "id": "cc86428ad0497d69ff7e76de416387724bbc5a3c",
+          "title": "不存在“失控”的人工智能代理 / There are no \"rogue\" AI agents",
+          "title_zh": "不存在“失控”的人工智能代理",
+          "title_en": "There are no \"rogue\" AI agents",
+          "title_original": "There are no \"rogue\" AI agents",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://lu.ma/ai-agentic-coding",
-          "source": "Agentic Brew",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-26T18:11:16.609761Z"
+          "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-27T16:19:46Z"
+        },
+        {
+          "id": "09acbafe4487509079a6b2b33c03f792c5aec3aa",
+          "title": "There are no \"rogue\" AI agents",
+          "title_zh": null,
+          "title_en": "There are no \"rogue\" AI agents",
+          "title_original": "There are no \"rogue\" AI agents",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49868083",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-27T16:19:46Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.6104,
-      "importance": 0.6104,
-      "importance_score": 0.6104,
-      "importance_label": "值得关注",
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5683,
+      "importance": 0.5683,
+      "importance_score": 0.5683,
+      "importance_label": "多源热议",
       "importance_breakdown": {
-        "editorial": 0.5112,
-        "source_tier": 0.5,
-        "ai_relevance": 0.71,
-        "recency": 1.0,
-        "story_heat": 0.25
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9863,
+        "story_heat": 0.5
       },
-      "category": "watch",
+      "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-09-26T18:11:16.609761Z",
-      "latest_at": "2026-09-27T09:41:23.602274Z",
+      "earliest_at": "2026-09-27T16:19:46Z",
+      "latest_at": "2026-09-27T17:51:03.203000Z",
       "primary_item": {
-        "id": "1580f9b4d0840376434b3efe7d0fefe25cd52f82",
-        "title": "Build Like a Frontier Lab Engineer with OpenAI, Cognition, Qodo, Auth0, Temporal",
-        "title_zh": null,
-        "title_en": "Build Like a Frontier Lab Engineer with OpenAI, Cognition, Qodo, Auth0, Temporal",
-        "title_original": "Build Like a Frontier Lab Engineer with OpenAI, Cognition, Qodo, Auth0, Temporal",
+        "id": "634519ae43df8d95c26447cdc97bbb59d63e0670",
+        "title": "不存在“失控”的人工智能代理",
+        "title_zh": "不存在“失控”的人工智能代理",
+        "title_en": null,
+        "title_original": "不存在“失控”的人工智能代理",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://lu.ma/ai-agentic-coding",
-        "source": "Agentic Brew",
-        "source_name": "OPML RSS"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "一场线上活动预告，听完才能知道有没有干货。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-27T09:42:34.306232Z"
+        "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+        "source": "eoinhiggins.substack.com",
+        "source_name": "Buzzing"
       }
     },
     {
-      "story_id": "story_a21828da2aae",
-      "title": "OpenAI pauses training of its ‘most capable models’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
-      "primary_url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
-      "source": "The Verge",
-      "source_name": "Curated Media",
+      "story_id": "story_2ab0f3547302",
+      "title": "Calling the AI bluff: Adding \"Do not guess\" cut made-up claims from 71% to 20%",
+      "url": "https://earnanhonestdollar.com/bench",
+      "primary_url": "https://earnanhonestdollar.com/bench",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
       "sources": [
         {
-          "id": "ee910dc9f9121d6deb3d0ef28105e83e88a21a55",
-          "title": "OpenAI pauses training of its ‘most capable models’",
+          "id": "e9c8dc545434c7b36887a6db6bd566b6d9501295",
+          "title": "Calling the AI bluff: Adding \"Do not guess\" cut made-up claims from 71% to 20%",
           "title_zh": null,
-          "title_en": "OpenAI pauses training of its ‘most capable models’",
-          "title_original": "OpenAI pauses training of its ‘most capable models’",
+          "title_en": "Calling the AI bluff: Adding \"Do not guess\" cut made-up claims from 71% to 20%",
+          "title_original": "Calling the AI bluff: Adding \"Do not guess\" cut made-up claims from 71% to 20%",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
-          "source": "The Verge",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-09-26T16:34:59Z"
-        },
-        {
-          "id": "c75717ba5e7647b2749d121860a7c5057ddcbdd7",
-          "title": "OpenAI pauses training of its 'most capable models'",
-          "title_zh": null,
-          "title_en": "OpenAI pauses training of its 'most capable models'",
-          "title_original": "OpenAI pauses training of its 'most capable models'",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+          "url": "https://earnanhonestdollar.com/bench",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
           "site_id": "zeli",
-          "published_at": "2026-09-26T21:07:08Z"
+          "published_at": "2026-09-27T17:24:17Z"
+        },
+        {
+          "id": "330618c59ae0d8634153906de4a6207254685661",
+          "title": "Calling the AI bluff: Adding \"Do not guess\" cut made-up fields from 71% to 20%",
+          "title_zh": null,
+          "title_en": "Calling the AI bluff: Adding \"Do not guess\" cut made-up fields from 71% to 20%",
+          "title_original": "Calling the AI bluff: Adding \"Do not guess\" cut made-up fields from 71% to 20%",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://earnanhonestdollar.com/bench",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-27T17:24:17Z"
+        },
+        {
+          "id": "10bdf8cf81bd6233f88f3f0cceed88aeb7a4d453",
+          "title": "Calling the AI bluff: Adding \"Do not guess\" cut made-up fields from 71% to 20%",
+          "title_zh": null,
+          "title_en": "Calling the AI bluff: Adding \"Do not guess\" cut made-up fields from 71% to 20%",
+          "title_original": "Calling the AI bluff: Adding \"Do not guess\" cut made-up fields from 71% to 20%",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49868753",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-27T17:24:17Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 3,
       "source_names": [
+        "Hacker News",
         "Hacker News · 24h最热",
-        "The Verge"
+        "hackernews"
       ],
       "items": [
         {
-          "id": "ee910dc9f9121d6deb3d0ef28105e83e88a21a55",
-          "title": "OpenAI pauses training of its ‘most capable models’",
+          "id": "e9c8dc545434c7b36887a6db6bd566b6d9501295",
+          "title": "Calling the AI bluff: Adding \"Do not guess\" cut made-up claims from 71% to 20%",
           "title_zh": null,
-          "title_en": "OpenAI pauses training of its ‘most capable models’",
-          "title_original": "OpenAI pauses training of its ‘most capable models’",
+          "title_en": "Calling the AI bluff: Adding \"Do not guess\" cut made-up claims from 71% to 20%",
+          "title_original": "Calling the AI bluff: Adding \"Do not guess\" cut made-up claims from 71% to 20%",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
-          "source": "The Verge",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-09-26T16:34:59Z"
-        },
-        {
-          "id": "c75717ba5e7647b2749d121860a7c5057ddcbdd7",
-          "title": "OpenAI pauses training of its 'most capable models'",
-          "title_zh": null,
-          "title_en": "OpenAI pauses training of its 'most capable models'",
-          "title_original": "OpenAI pauses training of its 'most capable models'",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+          "url": "https://earnanhonestdollar.com/bench",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
           "site_id": "zeli",
-          "published_at": "2026-09-26T21:07:08Z"
+          "published_at": "2026-09-27T17:24:17Z"
+        },
+        {
+          "id": "330618c59ae0d8634153906de4a6207254685661",
+          "title": "Calling the AI bluff: Adding \"Do not guess\" cut made-up fields from 71% to 20%",
+          "title_zh": null,
+          "title_en": "Calling the AI bluff: Adding \"Do not guess\" cut made-up fields from 71% to 20%",
+          "title_original": "Calling the AI bluff: Adding \"Do not guess\" cut made-up fields from 71% to 20%",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://earnanhonestdollar.com/bench",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-27T17:24:17Z"
+        },
+        {
+          "id": "10bdf8cf81bd6233f88f3f0cceed88aeb7a4d453",
+          "title": "Calling the AI bluff: Adding \"Do not guess\" cut made-up fields from 71% to 20%",
+          "title_zh": null,
+          "title_en": "Calling the AI bluff: Adding \"Do not guess\" cut made-up fields from 71% to 20%",
+          "title_original": "Calling the AI bluff: Adding \"Do not guess\" cut made-up fields from 71% to 20%",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49868753",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-27T17:24:17Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5886,
-      "importance": 0.5886,
-      "importance_score": 0.5886,
-      "importance_label": "值得关注",
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5672,
+      "importance": 0.5672,
+      "importance_score": 0.5672,
+      "importance_label": "多源热议",
       "importance_breakdown": {
-        "editorial": 0.5112,
-        "source_tier": 0.58,
-        "ai_relevance": 0.71,
-        "recency": 0.7811,
-        "story_heat": 0.25
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.98,
+        "story_heat": 0.5
       },
-      "category": "watch",
+      "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-09-26T16:34:59Z",
-      "latest_at": "2026-09-26T21:07:08Z",
+      "earliest_at": "2026-09-27T17:24:17Z",
+      "latest_at": "2026-09-27T17:24:17Z",
       "primary_item": {
-        "id": "ee910dc9f9121d6deb3d0ef28105e83e88a21a55",
-        "title": "OpenAI pauses training of its ‘most capable models’",
+        "id": "e9c8dc545434c7b36887a6db6bd566b6d9501295",
+        "title": "Calling the AI bluff: Adding \"Do not guess\" cut made-up claims from 71% to 20%",
         "title_zh": null,
-        "title_en": "OpenAI pauses training of its ‘most capable models’",
-        "title_original": "OpenAI pauses training of its ‘most capable models’",
+        "title_en": "Calling the AI bluff: Adding \"Do not guess\" cut made-up claims from 71% to 20%",
+        "title_original": "Calling the AI bluff: Adding \"Do not guess\" cut made-up claims from 71% to 20%",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
-        "source": "The Verge",
-        "source_name": "Curated Media"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 30,
-      "persona_review": "暂停训练的是未发布的未来模型，不影响你现在用的GPT-4 API。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-27T09:42:34.306232Z"
+        "url": "https://earnanhonestdollar.com/bench",
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
       }
     },
     {
-      "story_id": "story_20112bdf4907",
-      "title": "DeepSeek 弹性计算 (DSec)",
-      "url": "https://arxiv.org/abs/2609.22978",
-      "primary_url": "https://arxiv.org/abs/2609.22978",
-      "source": "arxiv.org",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "c6077609dc8b96fb35102360de19ab1d305d91a0",
-          "title": "DeepSeek 弹性计算 (DSec)",
-          "title_zh": "DeepSeek 弹性计算 (DSec)",
-          "title_en": null,
-          "title_original": "DeepSeek 弹性计算 (DSec)",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://arxiv.org/abs/2609.22978",
-          "source": "arxiv.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-26T22:58:22.682000Z"
-        },
-        {
-          "id": "063d675da86771ee42d81dfa8ed5f215b3b2a96f",
-          "title": "DeepSeek 弹性计算 (DSec) / DeepSeek Elastic Compute (DSec)",
-          "title_zh": "DeepSeek 弹性计算 (DSec)",
-          "title_en": "DeepSeek Elastic Compute (DSec)",
-          "title_original": "DeepSeek Elastic Compute (DSec)",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://arxiv.org/abs/2609.22978",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-26T18:22:41Z"
-        },
-        {
-          "id": "a90df0c4a516df83cfdc3e42f0415cac8e792881",
-          "title": "DeepSeek Elastic Compute (DSec)",
-          "title_zh": null,
-          "title_en": "DeepSeek Elastic Compute (DSec)",
-          "title_original": "DeepSeek Elastic Compute (DSec)",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49859112",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-09-26T18:22:41Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News",
-        "arxiv.org",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "c6077609dc8b96fb35102360de19ab1d305d91a0",
-          "title": "DeepSeek 弹性计算 (DSec)",
-          "title_zh": "DeepSeek 弹性计算 (DSec)",
-          "title_en": null,
-          "title_original": "DeepSeek 弹性计算 (DSec)",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://arxiv.org/abs/2609.22978",
-          "source": "arxiv.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-26T22:58:22.682000Z"
-        },
-        {
-          "id": "063d675da86771ee42d81dfa8ed5f215b3b2a96f",
-          "title": "DeepSeek 弹性计算 (DSec) / DeepSeek Elastic Compute (DSec)",
-          "title_zh": "DeepSeek 弹性计算 (DSec)",
-          "title_en": "DeepSeek Elastic Compute (DSec)",
-          "title_original": "DeepSeek Elastic Compute (DSec)",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://arxiv.org/abs/2609.22978",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-26T18:22:41Z"
-        },
-        {
-          "id": "a90df0c4a516df83cfdc3e42f0415cac8e792881",
-          "title": "DeepSeek Elastic Compute (DSec)",
-          "title_zh": null,
-          "title_en": "DeepSeek Elastic Compute (DSec)",
-          "title_original": "DeepSeek Elastic Compute (DSec)",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49859112",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-09-26T18:22:41Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.545,
-      "importance": 0.545,
-      "importance_score": 0.545,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8566,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-26T18:22:41Z",
-      "latest_at": "2026-09-26T22:58:22.682000Z",
-      "primary_item": {
-        "id": "c6077609dc8b96fb35102360de19ab1d305d91a0",
-        "title": "DeepSeek 弹性计算 (DSec)",
-        "title_zh": "DeepSeek 弹性计算 (DSec)",
-        "title_en": null,
-        "title_original": "DeepSeek 弹性计算 (DSec)",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://arxiv.org/abs/2609.22978",
-        "source": "arxiv.org",
-        "source_name": "Buzzing"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "开源弹性计算框架，可立即用于优化推理成本与性能。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-27T09:42:34.306232Z"
-      }
-    },
-    {
-      "story_id": "story_100d2be86f26",
-      "title": "Copilot 电脑品牌已不复存在",
-      "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
-      "primary_url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
-      "source": "www.windowscentral.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "718a8eb6c33ddb07652d5067add1882bdd022836",
-          "title": "Copilot 电脑品牌已不复存在",
-          "title_zh": "Copilot 电脑品牌已不复存在",
-          "title_en": null,
-          "title_original": "Copilot 电脑品牌已不复存在",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
-          "source": "www.windowscentral.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-26T21:55:10.332000Z"
-        },
-        {
-          "id": "bee4aff7b9a795df3b737d83c827500f9b398964",
-          "title": "Copilot 电脑品牌已不复存在 / The Copilot+ PC brand is dead",
-          "title_zh": "Copilot 电脑品牌已不复存在",
-          "title_en": "The Copilot+ PC brand is dead",
-          "title_original": "The Copilot+ PC brand is dead",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-26T09:55:38Z"
-        },
-        {
-          "id": "cf33160c987de0ce329760ffc271d966f4194c1b",
-          "title": "The Copilot+ PC brand is dead",
-          "title_zh": null,
-          "title_en": "The Copilot+ PC brand is dead",
-          "title_original": "The Copilot+ PC brand is dead",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49854945",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-09-26T09:55:38Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News",
-        "hackernews",
-        "www.windowscentral.com"
-      ],
-      "items": [
-        {
-          "id": "718a8eb6c33ddb07652d5067add1882bdd022836",
-          "title": "Copilot 电脑品牌已不复存在",
-          "title_zh": "Copilot 电脑品牌已不复存在",
-          "title_en": null,
-          "title_original": "Copilot 电脑品牌已不复存在",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
-          "source": "www.windowscentral.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-26T21:55:10.332000Z"
-        },
-        {
-          "id": "bee4aff7b9a795df3b737d83c827500f9b398964",
-          "title": "Copilot 电脑品牌已不复存在 / The Copilot+ PC brand is dead",
-          "title_zh": "Copilot 电脑品牌已不复存在",
-          "title_en": "The Copilot+ PC brand is dead",
-          "title_original": "The Copilot+ PC brand is dead",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-26T09:55:38Z"
-        },
-        {
-          "id": "cf33160c987de0ce329760ffc271d966f4194c1b",
-          "title": "The Copilot+ PC brand is dead",
-          "title_zh": null,
-          "title_en": "The Copilot+ PC brand is dead",
-          "title_original": "The Copilot+ PC brand is dead",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49854945",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-09-26T09:55:38Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5427,
-      "importance": 0.5427,
-      "importance_score": 0.5427,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8437,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-26T09:55:38Z",
-      "latest_at": "2026-09-26T21:55:10.332000Z",
-      "primary_item": {
-        "id": "718a8eb6c33ddb07652d5067add1882bdd022836",
-        "title": "Copilot 电脑品牌已不复存在",
-        "title_zh": "Copilot 电脑品牌已不复存在",
-        "title_en": null,
-        "title_original": "Copilot 电脑品牌已不复存在",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
-        "source": "www.windowscentral.com",
-        "source_name": "Buzzing"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 30,
-      "persona_review": "品牌名变动，不影响你写代码或使用Copilot功能。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-27T09:42:34.306232Z"
-      }
-    },
-    {
-      "story_id": "story_16720037ed48",
-      "title": "在大型语言模型（LLM）盛行的世界里，如何保持对编程的热情",
-      "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
-      "primary_url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
-      "source": "discourse.haskell.org",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "b35db09005f0ab7fd2b83aef53bde3a713de80c7",
-          "title": "在大型语言模型（LLM）盛行的世界里，如何保持对编程的热情",
-          "title_zh": "在大型语言模型（LLM）盛行的世界里，如何保持对编程的热情",
-          "title_en": null,
-          "title_original": "在大型语言模型（LLM）盛行的世界里，如何保持对编程的热情",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
-          "source": "discourse.haskell.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-26T20:22:03.489000Z"
-        },
-        {
-          "id": "b9dcb74d17f8f0b22a40720691acaabb08009fed",
-          "title": "在大型语言模型（LLM）盛行的世界里，如何保持对编程的热情 / How to keep enjoying programming in a world of LLMs",
-          "title_zh": "在大型语言模型（LLM）盛行的世界里，如何保持对编程的热情",
-          "title_en": "How to keep enjoying programming in a world of LLMs",
-          "title_original": "How to keep enjoying programming in a world of LLMs",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-26T09:41:58Z"
-        },
-        {
-          "id": "a930782ee90bb6dcb0e88a39ed0039db7883b922",
-          "title": "How to keep enjoying programming in a world of LLMs",
-          "title_zh": null,
-          "title_en": "How to keep enjoying programming in a world of LLMs",
-          "title_original": "How to keep enjoying programming in a world of LLMs",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49854875",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-09-26T09:41:58Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News",
-        "discourse.haskell.org",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "b35db09005f0ab7fd2b83aef53bde3a713de80c7",
-          "title": "在大型语言模型（LLM）盛行的世界里，如何保持对编程的热情",
-          "title_zh": "在大型语言模型（LLM）盛行的世界里，如何保持对编程的热情",
-          "title_en": null,
-          "title_original": "在大型语言模型（LLM）盛行的世界里，如何保持对编程的热情",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
-          "source": "discourse.haskell.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-26T20:22:03.489000Z"
-        },
-        {
-          "id": "b9dcb74d17f8f0b22a40720691acaabb08009fed",
-          "title": "在大型语言模型（LLM）盛行的世界里，如何保持对编程的热情 / How to keep enjoying programming in a world of LLMs",
-          "title_zh": "在大型语言模型（LLM）盛行的世界里，如何保持对编程的热情",
-          "title_en": "How to keep enjoying programming in a world of LLMs",
-          "title_original": "How to keep enjoying programming in a world of LLMs",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-26T09:41:58Z"
-        },
-        {
-          "id": "a930782ee90bb6dcb0e88a39ed0039db7883b922",
-          "title": "How to keep enjoying programming in a world of LLMs",
-          "title_zh": null,
-          "title_en": "How to keep enjoying programming in a world of LLMs",
-          "title_original": "How to keep enjoying programming in a world of LLMs",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49854875",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-09-26T09:41:58Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5393,
-      "importance": 0.5393,
-      "importance_score": 0.5393,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.825,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-26T09:41:58Z",
-      "latest_at": "2026-09-26T20:22:03.489000Z",
-      "primary_item": {
-        "id": "b35db09005f0ab7fd2b83aef53bde3a713de80c7",
-        "title": "在大型语言模型（LLM）盛行的世界里，如何保持对编程的热情",
-        "title_zh": "在大型语言模型（LLM）盛行的世界里，如何保持对编程的热情",
-        "title_en": null,
-        "title_original": "在大型语言模型（LLM）盛行的世界里，如何保持对编程的热情",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
-        "source": "discourse.haskell.org",
-        "source_name": "Buzzing"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "社区讨论，对实际开发决策无直接影响。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-27T09:42:34.306232Z"
-      }
-    },
-    {
-      "story_id": "story_e1a03d4d85a7",
-      "title": "没有AI的一个月",
-      "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
-      "primary_url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
-      "source": "blog.bustikiller.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "0a783f5d61490437f8eaf4f51e6e12bd884e35f6",
-          "title": "没有AI的一个月",
-          "title_zh": "没有AI的一个月",
-          "title_en": null,
-          "title_original": "没有AI的一个月",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
-          "source": "blog.bustikiller.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-26T13:48:03.398000Z"
-        },
-        {
-          "id": "0f1257162bc0c26c7be23e75058a925a814839cb",
-          "title": "没有AI的一个月 / One Month Without AI",
-          "title_zh": "没有AI的一个月",
-          "title_en": "One Month Without AI",
-          "title_original": "One Month Without AI",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-26T10:08:21Z"
-        },
-        {
-          "id": "02f417bca1ed2898a049c5d0ea70d4a5f63ca4f8",
-          "title": "One Month Without AI",
-          "title_zh": null,
-          "title_en": "One Month Without AI",
-          "title_original": "One Month Without AI",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49855018",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-09-26T10:08:21Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News",
-        "blog.bustikiller.com",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "0a783f5d61490437f8eaf4f51e6e12bd884e35f6",
-          "title": "没有AI的一个月",
-          "title_zh": "没有AI的一个月",
-          "title_en": null,
-          "title_original": "没有AI的一个月",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
-          "source": "blog.bustikiller.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-26T13:48:03.398000Z"
-        },
-        {
-          "id": "0f1257162bc0c26c7be23e75058a925a814839cb",
-          "title": "没有AI的一个月 / One Month Without AI",
-          "title_zh": "没有AI的一个月",
-          "title_en": "One Month Without AI",
-          "title_original": "One Month Without AI",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-26T10:08:21Z"
-        },
-        {
-          "id": "02f417bca1ed2898a049c5d0ea70d4a5f63ca4f8",
-          "title": "One Month Without AI",
-          "title_zh": null,
-          "title_en": "One Month Without AI",
-          "title_original": "One Month Without AI",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49855018",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-09-26T10:08:21Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5259,
-      "importance": 0.5259,
-      "importance_score": 0.5259,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7504,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-26T10:08:21Z",
-      "latest_at": "2026-09-26T13:48:03.398000Z",
-      "primary_item": {
-        "id": "0a783f5d61490437f8eaf4f51e6e12bd884e35f6",
-        "title": "没有AI的一个月",
-        "title_zh": "没有AI的一个月",
-        "title_en": null,
-        "title_original": "没有AI的一个月",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
-        "source": "blog.bustikiller.com",
-        "source_name": "Buzzing"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 10,
-      "persona_review": "个人体验分享，对技术选型或开发工作无直接影响。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-27T09:42:34.306232Z"
-      }
-    },
-    {
-      "story_id": "story_4951b7266680",
-      "title": "Make Claude your assistant in excalidraw",
-      "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
-      "primary_url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+      "story_id": "story_bd3437a26999",
+      "title": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
+      "url": "https://www.youtube.com/watch?v=-Nvne3LzBls",
+      "primary_url": "https://www.youtube.com/watch?v=-Nvne3LzBls",
       "source": "Hacker News",
       "source_name": "TechURLs",
       "sources": [
         {
-          "id": "bfab012ef044fb1c921c4ff8933eb12f1fab02b4",
-          "title": "Make Claude your assistant in excalidraw",
+          "id": "d0bf0ce11d3d34263d0a9f7b5aeeccfb66771f3b",
+          "title": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
           "title_zh": null,
-          "title_en": "Make Claude your assistant in excalidraw",
-          "title_original": "Make Claude your assistant in excalidraw",
+          "title_en": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
+          "title_original": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+          "url": "https://www.youtube.com/watch?v=-Nvne3LzBls",
           "source": "Hacker News",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-09-26T15:56:34Z"
+          "published_at": "2026-09-27T17:32:02Z"
         },
         {
-          "id": "8615fecf9bd4f94990df704e48bd7d674c3a702b",
-          "title": "Make Claude your assistant in excalidraw",
+          "id": "d84543bbd312af259efa18cd4630cae532fe5a89",
+          "title": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
           "title_zh": null,
-          "title_en": "Make Claude your assistant in excalidraw",
-          "title_original": "Make Claude your assistant in excalidraw",
+          "title_en": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
+          "title_original": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49857729",
+          "url": "https://news.ycombinator.com/item?id=49868831",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-09-26T15:56:34Z"
+          "published_at": "2026-09-27T17:32:02Z"
         }
       ],
       "source_count": 2,
@@ -1567,109 +657,101 @@
       ],
       "items": [
         {
-          "id": "bfab012ef044fb1c921c4ff8933eb12f1fab02b4",
-          "title": "Make Claude your assistant in excalidraw",
+          "id": "d0bf0ce11d3d34263d0a9f7b5aeeccfb66771f3b",
+          "title": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
           "title_zh": null,
-          "title_en": "Make Claude your assistant in excalidraw",
-          "title_original": "Make Claude your assistant in excalidraw",
+          "title_en": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
+          "title_original": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+          "url": "https://www.youtube.com/watch?v=-Nvne3LzBls",
           "source": "Hacker News",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-09-26T15:56:34Z"
+          "published_at": "2026-09-27T17:32:02Z"
         },
         {
-          "id": "8615fecf9bd4f94990df704e48bd7d674c3a702b",
-          "title": "Make Claude your assistant in excalidraw",
+          "id": "d84543bbd312af259efa18cd4630cae532fe5a89",
+          "title": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
           "title_zh": null,
-          "title_en": "Make Claude your assistant in excalidraw",
-          "title_original": "Make Claude your assistant in excalidraw",
+          "title_en": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
+          "title_original": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49857729",
+          "url": "https://news.ycombinator.com/item?id=49868831",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-09-26T15:56:34Z"
+          "published_at": "2026-09-27T17:32:02Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5051,
-      "importance": 0.5051,
-      "importance_score": 0.5051,
+      "score": 0.5425,
+      "importance": 0.5425,
+      "importance_score": 0.5425,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7739,
+        "recency": 0.9818,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-09-26T15:56:34Z",
-      "latest_at": "2026-09-26T15:56:34Z",
+      "earliest_at": "2026-09-27T17:32:02Z",
+      "latest_at": "2026-09-27T17:32:02Z",
       "primary_item": {
-        "id": "bfab012ef044fb1c921c4ff8933eb12f1fab02b4",
-        "title": "Make Claude your assistant in excalidraw",
+        "id": "d0bf0ce11d3d34263d0a9f7b5aeeccfb66771f3b",
+        "title": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
         "title_zh": null,
-        "title_en": "Make Claude your assistant in excalidraw",
-        "title_original": "Make Claude your assistant in excalidraw",
+        "title_en": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
+        "title_original": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+        "url": "https://www.youtube.com/watch?v=-Nvne3LzBls",
         "source": "Hacker News",
         "source_name": "TechURLs"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "一个现成的工具，能把 Claude 直接集成到 Excalidraw 里当助手用。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-27T09:42:34.306232Z"
       }
     },
     {
-      "story_id": "story_2d4d3338bea1",
-      "title": "Show HN: A Claude Code skill to analyze your chess games",
-      "url": "https://github.com/brumar/chess-postmortem-skills",
-      "primary_url": "https://github.com/brumar/chess-postmortem-skills",
+      "story_id": "story_c9d61f225fe5",
+      "title": "Show HN: TinyAIArena watch AI agents battle it out",
+      "url": "https://tinyaiarena.com",
+      "primary_url": "https://tinyaiarena.com",
       "source": "Hacker News",
       "source_name": "TechURLs",
       "sources": [
         {
-          "id": "16c4c0284c18939d4099ba4b412a3dc10aac3cdd",
-          "title": "Show HN: A Claude Code skill to analyze your chess games",
+          "id": "29a60522b5d2743a442e68e75d21dd450590ae63",
+          "title": "Show HN: TinyAIArena watch AI agents battle it out",
           "title_zh": null,
-          "title_en": "Show HN: A Claude Code skill to analyze your chess games",
-          "title_original": "Show HN: A Claude Code skill to analyze your chess games",
+          "title_en": "Show HN: TinyAIArena watch AI agents battle it out",
+          "title_original": "Show HN: TinyAIArena watch AI agents battle it out",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://github.com/brumar/chess-postmortem-skills",
+          "url": "https://tinyaiarena.com",
           "source": "Hacker News",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-09-26T15:34:53Z"
+          "published_at": "2026-09-27T15:51:28Z"
         },
         {
-          "id": "b14caf83539ea0c8369daaca126ef50de116d2ca",
-          "title": "Show HN: A Claude Code skill to analyze your chess games",
+          "id": "0d2ec493a74f10e587a746aa965482cf9b293acf",
+          "title": "Show HN: TinyAIArena watch AI agents battle it out",
           "title_zh": null,
-          "title_en": "Show HN: A Claude Code skill to analyze your chess games",
-          "title_original": "Show HN: A Claude Code skill to analyze your chess games",
+          "title_en": "Show HN: TinyAIArena watch AI agents battle it out",
+          "title_original": "Show HN: TinyAIArena watch AI agents battle it out",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49857528",
+          "url": "https://news.ycombinator.com/item?id=49867775",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-09-26T15:34:53Z"
+          "published_at": "2026-09-27T15:51:28Z"
         }
       ],
       "source_count": 2,
@@ -1679,72 +761,168 @@
       ],
       "items": [
         {
-          "id": "16c4c0284c18939d4099ba4b412a3dc10aac3cdd",
-          "title": "Show HN: A Claude Code skill to analyze your chess games",
+          "id": "29a60522b5d2743a442e68e75d21dd450590ae63",
+          "title": "Show HN: TinyAIArena watch AI agents battle it out",
           "title_zh": null,
-          "title_en": "Show HN: A Claude Code skill to analyze your chess games",
-          "title_original": "Show HN: A Claude Code skill to analyze your chess games",
+          "title_en": "Show HN: TinyAIArena watch AI agents battle it out",
+          "title_original": "Show HN: TinyAIArena watch AI agents battle it out",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://github.com/brumar/chess-postmortem-skills",
+          "url": "https://tinyaiarena.com",
           "source": "Hacker News",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-09-26T15:34:53Z"
+          "published_at": "2026-09-27T15:51:28Z"
         },
         {
-          "id": "b14caf83539ea0c8369daaca126ef50de116d2ca",
-          "title": "Show HN: A Claude Code skill to analyze your chess games",
+          "id": "0d2ec493a74f10e587a746aa965482cf9b293acf",
+          "title": "Show HN: TinyAIArena watch AI agents battle it out",
           "title_zh": null,
-          "title_en": "Show HN: A Claude Code skill to analyze your chess games",
-          "title_original": "Show HN: A Claude Code skill to analyze your chess games",
+          "title_en": "Show HN: TinyAIArena watch AI agents battle it out",
+          "title_original": "Show HN: TinyAIArena watch AI agents battle it out",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://news.ycombinator.com/item?id=49857528",
+          "url": "https://news.ycombinator.com/item?id=49867775",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-09-26T15:34:53Z"
+          "published_at": "2026-09-27T15:51:28Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5044,
-      "importance": 0.5044,
-      "importance_score": 0.5044,
+      "score": 0.5383,
+      "importance": 0.5383,
+      "importance_score": 0.5383,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7699,
+        "recency": 0.9583,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-09-26T15:34:53Z",
-      "latest_at": "2026-09-26T15:34:53Z",
+      "earliest_at": "2026-09-27T15:51:28Z",
+      "latest_at": "2026-09-27T15:51:28Z",
       "primary_item": {
-        "id": "16c4c0284c18939d4099ba4b412a3dc10aac3cdd",
-        "title": "Show HN: A Claude Code skill to analyze your chess games",
+        "id": "29a60522b5d2743a442e68e75d21dd450590ae63",
+        "title": "Show HN: TinyAIArena watch AI agents battle it out",
         "title_zh": null,
-        "title_en": "Show HN: A Claude Code skill to analyze your chess games",
-        "title_original": "Show HN: A Claude Code skill to analyze your chess games",
+        "title_en": "Show HN: TinyAIArena watch AI agents battle it out",
+        "title_original": "Show HN: TinyAIArena watch AI agents battle it out",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://github.com/brumar/chess-postmortem-skills",
+        "url": "https://tinyaiarena.com",
         "source": "Hacker News",
         "source_name": "TechURLs"
+      }
+    },
+    {
+      "story_id": "story_f08a56d3c5d0",
+      "title": "Faster prompt lookup drafting in llama.cpp",
+      "url": "https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp",
+      "primary_url": "https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp",
+      "source": "Hacker News (黑客新闻)",
+      "source_name": "Info Flow",
+      "sources": [
+        {
+          "id": "306cc5f2bf894d806aad31ad7ffc09856b15c7b9",
+          "title": "Faster prompt lookup drafting in llama.cpp",
+          "title_zh": null,
+          "title_en": "Faster prompt lookup drafting in llama.cpp",
+          "title_original": "Faster prompt lookup drafting in llama.cpp",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-26T19:57:24Z"
+        },
+        {
+          "id": "4bd3e6692d7fb02f466d28a15bccd6d36c44d652",
+          "title": "Faster prompt lookup drafting in llama.cpp",
+          "title_zh": null,
+          "title_en": "Faster prompt lookup drafting in llama.cpp",
+          "title_original": "Faster prompt lookup drafting in llama.cpp",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49859982",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-26T19:57:24Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "306cc5f2bf894d806aad31ad7ffc09856b15c7b9",
+          "title": "Faster prompt lookup drafting in llama.cpp",
+          "title_zh": null,
+          "title_en": "Faster prompt lookup drafting in llama.cpp",
+          "title_original": "Faster prompt lookup drafting in llama.cpp",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-26T19:57:24Z"
+        },
+        {
+          "id": "4bd3e6692d7fb02f466d28a15bccd6d36c44d652",
+          "title": "Faster prompt lookup drafting in llama.cpp",
+          "title_zh": null,
+          "title_en": "Faster prompt lookup drafting in llama.cpp",
+          "title_original": "Faster prompt lookup drafting in llama.cpp",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49859982",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-26T19:57:24Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4952,
+      "importance": 0.4952,
+      "importance_score": 0.4952,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.7189,
+        "story_heat": 0.25
       },
-      "persona_id": "pragmatic",
-      "persona_score": 75,
-      "persona_review": "开源工具，下棋开发者可立刻集成Claude分析棋局，有代码可抄。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-09-27T09:42:34.306232Z"
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-26T19:57:24Z",
+      "latest_at": "2026-09-26T19:57:24Z",
+      "primary_item": {
+        "id": "306cc5f2bf894d806aad31ad7ffc09856b15c7b9",
+        "title": "Faster prompt lookup drafting in llama.cpp",
+        "title_zh": null,
+        "title_en": "Faster prompt lookup drafting in llama.cpp",
+        "title_original": "Faster prompt lookup drafting in llama.cpp",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp",
+        "source": "Hacker News (黑客新闻)",
+        "source_name": "Info Flow"
       }
     }
   ]
