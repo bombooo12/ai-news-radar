@@ -1,120 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_e1e7a08cca0d|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "承诺未来会更透明，但对当前开发选型无直接影响。",
-      "title_hash": "5b4f4cf8",
-      "scored_at": "2026-09-06T04:06:26.975677Z"
-    },
-    "story_d13713a4e40b|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "公司内部流程调整，对开发者近期使用API无直接影响。",
-      "title_hash": "05135777",
-      "scored_at": "2026-09-06T04:06:32.909609Z"
-    },
-    "story_4d1ff3880451|pragmatic|0a5c5b24": {
-      "score": 65,
-      "review": "新模型在特定榜单领先，选型时可多一个参考数据点。",
-      "title_hash": "4ce2b801",
-      "scored_at": "2026-09-06T04:06:36.800721Z"
-    },
-    "story_2c7dd97ccc7e|pragmatic|0a5c5b24": {
-      "score": 0,
-      "review": "域名可疑，GPT-6是虚构产品，纯属假新闻浪费时间。",
-      "title_hash": "4491f409",
-      "scored_at": "2026-09-06T09:06:45.569989Z"
-    },
-    "story_f0b96624cb5e|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "学术概念探讨，了解风险即可，不影响当前开发选型。",
-      "title_hash": "638788ad",
-      "scored_at": "2026-09-06T04:06:48.196712Z"
-    },
-    "story_a9bf5b8e0227|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "一篇关于AI运维风险的讨论，提醒工程师警惕过度依赖，但无具体工具或方案。",
-      "title_hash": "a342c48d",
-      "scored_at": "2026-09-06T04:06:51.462563Z"
-    },
-    "story_6b663a3b490f|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "开源工具，为AI编程智能体提供基于Git的持久记忆，可直接集成使用。",
-      "title_hash": "f4f1f377",
-      "scored_at": "2026-09-06T04:06:56.422269Z"
-    },
-    "story_f4353980ee92|pragmatic|0a5c5b24": {
-      "score": 65,
-      "review": "Claude系统提示词更新，写歌词等任务可能受限，需调整使用策略。",
-      "title_hash": "142d67a0",
-      "scored_at": "2026-09-06T04:06:59.812277Z"
-    },
-    "story_bf4a1e858a01|cynic|f4237a62": {
-      "score": 65,
-      "review": "给高端用户限量尝鲜，性能提升没提，先提消息额度减半。",
-      "title_hash": "a2b625f9",
-      "scored_at": "2026-09-06T04:07:04.370475Z"
-    },
-    "story_bf4a1e858a01|paper-police|966065bf": {
-      "score": 15,
-      "review": "仅第三方网站报道，无官方声明、论文、代码或独立评测，证据严重不足。",
-      "title_hash": "a2b625f9",
-      "scored_at": "2026-09-06T04:07:07.750064Z"
-    },
-    "story_6b663a3b490f|cynic|f4237a62": {
-      "score": 65,
-      "review": "把记忆存进Git是个好点子，但‘原生’和‘持久’能解决多少实际幻觉问题，存疑。",
-      "title_hash": "f4f1f377",
-      "scored_at": "2026-09-06T04:07:11.193522Z"
-    },
-    "story_6b663a3b490f|paper-police|966065bf": {
-      "score": 45,
-      "review": "项目已发布，但未提供论文或独立评测报告，仅有代码和介绍。",
-      "title_hash": "f4f1f377",
-      "scored_at": "2026-09-06T04:07:15.094063Z"
-    },
-    "story_1997e8c82d30|cynic|f4237a62": {
-      "score": 95,
-      "review": "代码全开源，机器验证铁证如山，这次吹的牛是纯金的。",
-      "title_hash": "6991c2bd",
-      "scored_at": "2026-09-06T04:07:22.289272Z"
-    },
-    "story_1997e8c82d30|paper-police|966065bf": {
-      "score": 95,
-      "review": "GitHub仓库即开源代码，Lean4证明可机器检查，铁证如山。",
-      "title_hash": "6991c2bd",
-      "scored_at": "2026-09-06T04:07:28.827014Z"
-    },
-    "story_5c53403fc048|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "基准测试争议是行业八卦，不影响你选模型或写代码。",
-      "title_hash": "d106c85e",
-      "scored_at": "2026-09-06T09:06:41.864447Z"
-    },
-    "story_4d1ff3880451|cynic|f4237a62": {
-      "score": 65,
-      "review": "只提一个特定榜单的领先，闭口不谈更通用的编程基准，这波操作很熟练。",
-      "title_hash": "4ce2b801",
-      "scored_at": "2026-09-06T09:06:49.025293Z"
-    },
-    "story_4d1ff3880451|paper-police|966065bf": {
-      "score": 15,
-      "review": "仅有第三方推文宣称评测结果，无官方论文、代码或可复现的评测报告。",
-      "title_hash": "4ce2b801",
-      "scored_at": "2026-09-06T09:06:52.741614Z"
-    },
-    "story_a23ce047f1f9|cynic|f4237a62": {
-      "score": 55,
-      "review": "教用户怎么用，顺便屏蔽‘废话词’，这算产品功能还是用户培训？",
-      "title_hash": "c346ae32",
-      "scored_at": "2026-09-06T09:06:58.239436Z"
-    },
-    "story_a23ce047f1f9|paper-police|966065bf": {
-      "score": 15,
-      "review": "仅为第三方媒体报道，无官方论文、代码或可验证的评测数据。",
-      "title_hash": "c346ae32",
-      "scored_at": "2026-09-06T09:07:07.836175Z"
-    },
     "story_53984a021b24|pragmatic|0a5c5b24": {
       "score": 25,
       "review": "行业观察文章，不提供具体工具或方案，了解即可。",
@@ -4647,9 +4533,9 @@
     },
     "story_a7326ac13231|pragmatic|0a5c5b24": {
       "score": 35,
-      "review": "知道有这风险就行，但不用立刻改代码，等官方修复。",
-      "title_hash": "ec65d18f",
-      "scored_at": "2026-09-26T18:13:06.389423Z"
+      "review": "安全事件警示，提醒开发者注意AI工具合规与数据边界。",
+      "title_hash": "bda21920",
+      "scored_at": "2026-09-27T09:42:41.135342Z"
     },
     "story_838c9d504749|pragmatic|0a5c5b24": {
       "score": 65,
@@ -4674,6 +4560,102 @@
       "review": "官方技术博客公布了功能细节，但无独立论文或第三方评测验证。",
       "title_hash": "fd66dac0",
       "scored_at": "2026-09-26T18:13:24.811249Z"
+    },
+    "story_f7a9ca52c4e3|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "诉讼进展，对当前模型训练和使用的直接影响有限。",
+      "title_hash": "0f05f9f2",
+      "scored_at": "2026-09-27T09:42:38.078747Z"
+    },
+    "story_29d461ab8b07|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "了解大厂安全现状，但具体应对措施未公布，暂无行动项。",
+      "title_hash": "51a4a674",
+      "scored_at": "2026-09-27T09:42:45.197778Z"
+    },
+    "story_ea1d6e9cc5c5|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "听证会不写代码，等出监管细则再关心。",
+      "title_hash": "ff721b63",
+      "scored_at": "2026-09-27T09:42:48.347799Z"
+    },
+    "story_5bb17e238644|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "安全讨论无具体方案，不影响你今天选型或部署。",
+      "title_hash": "9afb0063",
+      "scored_at": "2026-09-27T09:42:54.197565Z"
+    },
+    "story_005df6896c9a|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "一场线上活动预告，听完才能知道有没有干货。",
+      "title_hash": "e8e641c8",
+      "scored_at": "2026-09-27T09:43:15.017482Z"
+    },
+    "story_a21828da2aae|pragmatic|0a5c5b24": {
+      "score": 30,
+      "review": "暂停训练的是未发布的未来模型，不影响你现在用的GPT-4 API。",
+      "title_hash": "418a58c4",
+      "scored_at": "2026-09-27T09:43:18.639513Z"
+    },
+    "story_20112bdf4907|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "开源弹性计算框架，可立即用于优化推理成本与性能。",
+      "title_hash": "c66be9eb",
+      "scored_at": "2026-09-27T09:43:22.121907Z"
+    },
+    "story_100d2be86f26|pragmatic|0a5c5b24": {
+      "score": 30,
+      "review": "品牌名变动，不影响你写代码或使用Copilot功能。",
+      "title_hash": "a86efa71",
+      "scored_at": "2026-09-27T09:43:26.395033Z"
+    },
+    "story_16720037ed48|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "社区讨论，对实际开发决策无直接影响。",
+      "title_hash": "09e76a1e",
+      "scored_at": "2026-09-27T09:43:29.083932Z"
+    },
+    "story_2d4d3338bea1|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "开源工具，下棋开发者可立刻集成Claude分析棋局，有代码可抄。",
+      "title_hash": "3debdac6",
+      "scored_at": "2026-09-27T09:43:33.265716Z"
+    },
+    "story_20112bdf4907|cynic|f4237a62": {
+      "score": 75,
+      "review": "论文发在arXiv上，有技术细节可查，比空喊口号强，但‘弹性’的代价和边界还没说透。",
+      "title_hash": "c66be9eb",
+      "scored_at": "2026-09-27T09:43:37.234808Z"
+    },
+    "story_20112bdf4907|paper-police|966065bf": {
+      "score": 85,
+      "review": "有arXiv论文作为核心证据，但未见开源代码与独立评测。",
+      "title_hash": "c66be9eb",
+      "scored_at": "2026-09-27T09:43:41.142496Z"
+    },
+    "story_4951b7266680|cynic|f4237a62": {
+      "score": 65,
+      "review": "给画图工具加个AI助手不算新鲜，但能集成Claude，至少是个能用的功能。",
+      "title_hash": "dff92cd8",
+      "scored_at": "2026-09-27T09:43:49.888365Z"
+    },
+    "story_4951b7266680|paper-police|966065bf": {
+      "score": 40,
+      "review": "有公开工具链接，但未见论文、代码或独立评测报告，证据不足。",
+      "title_hash": "dff92cd8",
+      "scored_at": "2026-09-27T09:43:56.411641Z"
+    },
+    "story_2d4d3338bea1|cynic|f4237a62": {
+      "score": 72,
+      "review": "技能本身有用，但‘分析’深度依赖Claude的通用能力，离专业引擎还差得远。",
+      "title_hash": "3debdac6",
+      "scored_at": "2026-09-27T09:43:59.662131Z"
+    },
+    "story_2d4d3338bea1|paper-police|966065bf": {
+      "score": 85,
+      "review": "GitHub仓库开源代码，技能功能明确，可直接部署验证。",
+      "title_hash": "3debdac6",
+      "scored_at": "2026-09-27T09:44:05.926759Z"
     }
   }
 }
