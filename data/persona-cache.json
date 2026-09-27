@@ -1,24 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_53984a021b24|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "行业观察文章，不提供具体工具或方案，了解即可。",
-      "title_hash": "40d8dea6",
-      "scored_at": "2026-09-06T15:06:41.751581Z"
-    },
-    "story_e1e7a08cca0d|cynic|f4237a62": {
-      "score": 65,
-      "review": "出事了才想起来要‘制定框架’，透明度这作业补得有点晚。",
-      "title_hash": "5b4f4cf8",
-      "scored_at": "2026-09-06T15:06:44.754381Z"
-    },
-    "story_e1e7a08cca0d|paper-police|966065bf": {
-      "score": 15,
-      "review": "仅有官方承认和承诺，无具体事故报告或框架细节，证据不足。",
-      "title_hash": "5b4f4cf8",
-      "scored_at": "2026-09-06T15:06:50.580248Z"
-    },
     "story_cc153614bc7c|pragmatic|0a5c5b24": {
       "score": 35,
       "review": "内部研究视角，对实际开发选型或工具使用无直接影响。",
@@ -4656,6 +4638,72 @@
       "review": "GitHub仓库开源代码，技能功能明确，可直接部署验证。",
       "title_hash": "3debdac6",
       "scored_at": "2026-09-27T09:44:05.926759Z"
+    },
+    "story_dc50d791f8d7|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "观点讨论，不提供新工具或技术细节，不影响今天写代码。",
+      "title_hash": "9634da20",
+      "scored_at": "2026-09-27T18:49:43.151338Z"
+    },
+    "story_2ab0f3547302|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "一个能立刻降低AI幻觉的实用提示词技巧，今天就能用。",
+      "title_hash": "a15ec70a",
+      "scored_at": "2026-09-27T18:49:46.641813Z"
+    },
+    "story_bd3437a26999|pragmatic|0a5c5b24": {
+      "score": 10,
+      "review": "娱乐节目访谈，无技术细节或产品更新，与开发工作无关。",
+      "title_hash": "86569139",
+      "scored_at": "2026-09-27T18:49:50.316870Z"
+    },
+    "story_c9d61f225fe5|pragmatic|0a5c5b24": {
+      "score": 62,
+      "review": "提供了一个观察AI智能体行为的在线平台，可启发调试思路。",
+      "title_hash": "c1a780af",
+      "scored_at": "2026-09-27T18:49:55.238953Z"
+    },
+    "story_f08a56d3c5d0|pragmatic|0a5c5b24": {
+      "score": 88,
+      "review": "llama.cpp 性能优化，推理速度提升，今天就能更新代码库。",
+      "title_hash": "cc764090",
+      "scored_at": "2026-09-27T18:49:58.671631Z"
+    },
+    "story_f08a56d3c5d0|cynic|f4237a62": {
+      "score": 75,
+      "review": "优化是实在的，但'Faster'这词在开源社区里都快用烂了，具体快多少得看基准。",
+      "title_hash": "cc764090",
+      "scored_at": "2026-09-27T18:50:02.384934Z"
+    },
+    "story_f08a56d3c5d0|paper-police|966065bf": {
+      "score": 45,
+      "review": "技术博客有实现细节，但无独立论文或第三方复现评测。",
+      "title_hash": "cc764090",
+      "scored_at": "2026-09-27T18:50:05.982058Z"
+    },
+    "story_2ab0f3547302|cynic|f4237a62": {
+      "score": 78,
+      "review": "数据看着挺实，但‘胡编’的基线是71%，这起点是不是也太低了点？",
+      "title_hash": "a15ec70a",
+      "scored_at": "2026-09-27T18:50:09.794651Z"
+    },
+    "story_2ab0f3547302|paper-police|966065bf": {
+      "score": 45,
+      "review": "有公开评测网站和数字，但未提供论文或可复现的代码仓库。",
+      "title_hash": "a15ec70a",
+      "scored_at": "2026-09-27T18:50:14.557669Z"
+    },
+    "story_c9d61f225fe5|cynic|f4237a62": {
+      "score": 55,
+      "review": "AI对战演示挺热闹，但‘竞技场’的评判标准和实际意义在哪？",
+      "title_hash": "c1a780af",
+      "scored_at": "2026-09-27T18:50:25.553612Z"
+    },
+    "story_c9d61f225fe5|paper-police|966065bf": {
+      "score": 35,
+      "review": "仅有演示网站，无论文、代码及公开评测方法，无法验证其真实能力。",
+      "title_hash": "c1a780af",
+      "scored_at": "2026-09-27T18:50:28.837446Z"
     }
   }
 }
