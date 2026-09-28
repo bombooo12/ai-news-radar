@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T10:24:31.213984Z",
+  "generated_at": "2026-09-28T21:01:35.197550Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_abbedb558ed1",
-      "title": "AIGCPanel v2.5. 0 接入云端双引擎，数字人与直播音色分库各管各的",
-      "url": "https://www.aibase.com/news/31388",
+      "story_id": "story_a301041b7a76",
+      "title": "Anthropic 发布 Claude Sonnet 5.5：比 Sonnet 5 快超 30% 且成本最多降 30%",
+      "url": "https://x.com/dongxi_nlp/status/2104634260934054237",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 55,
-          "review": "‘双引擎’听着唬人，不就是把本地和云端功能分开打包卖吗？"
+          "score": 72,
+          "review": "速度成本双降是好事，但只跟自己比，没提隔壁竞品现在啥样。"
         },
         "paper-police": {
           "score": 15,
-          "review": "仅有产品发布新闻，无论文、代码或独立评测，证据不足。"
+          "review": "仅有社交媒体转述，无论文、代码或官方评测报告佐证。"
         },
         "pragmatic": {
-          "score": 85,
-          "review": "开源工具更新，数字人和直播音色能分开管理，项目里可以直接用了。"
+          "score": 92,
+          "review": "推理更快成本更低，API调用和项目预算今天就能调整。"
         }
       }
     },
     {
-      "story_id": "story_1bb2feafc8a4",
-      "title": "OpenAI 重排 Pro 档位：5x和20x用量承诺下线",
-      "url": "https://www.aibase.com/news/31379",
+      "story_id": "story_c7ce35660cda",
+      "title": "Anthropic 发布 Claude Sonnet 5.5，基准接近 Opus 5.5 且单任务成本最多降 30% / Anthropic's Claude Sonnet 5.5 nearly matches Opus 5.5 on benchmarks while costing up to 30 percent less per task",
+      "url": "https://the-decoder.com/anthropics-claude-sonnet-5-5-nearly-matches-opus-5-5-on-benchmarks-while-costing-up-to-30-percent-less-per-task",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "承诺下线，算力紧张还是成本失控？反正用户的选择又少了。"
+          "score": 75,
+          "review": "成本降了，性能也降了，用‘接近’这个词真是精打细算。"
         },
         "paper-police": {
           "score": 15,
-          "review": "仅报道产品策略调整，无技术细节或性能评测证据。"
+          "review": "仅第三方新闻转述性能与成本，未见官方报告、代码或可复现的评测数据。"
         },
         "pragmatic": {
-          "score": 85,
-          "review": "Pro用户需调整用量计划，直接影响计费模型和预算。"
+          "score": 90,
+          "review": "中端模型性能逼近旗舰但价格更低，今天选型可以优先考虑它。"
         }
       }
     },
     {
-      "story_id": "story_85428ac91ad4",
-      "title": "​MiniMax 全新文本模型 M3.1-Flash-Preview 正式公测",
-      "url": "https://www.aibase.com/news/31383",
+      "story_id": "story_9c7e3615c5ec",
+      "title": "Anthropic 发布 Claude Sonnet 5.5：速度提升 30%+，每任务成本最多降 30% / Sonnet 5.5",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "公测版就敢叫‘全新’，具体参数和对比基线藏得挺深。"
+          "score": 78,
+          "review": "速度成本双降是实在的，但‘最多降30%’这词儿，水分得自己拧。"
         },
         "paper-police": {
-          "score": 15,
-          "review": "仅有公测新闻，无论文、代码或公开评测数据，证据不足。"
+          "score": 45,
+          "review": "官方博客宣称性能，但未提供独立可复现的评测报告与代码。"
         },
         "pragmatic": {
-          "score": 85,
-          "review": "新模型已开放公测，今天就能申请接入，可做技术选型对比。"
+          "score": 88,
+          "review": "API调用成本立降，性能提升，今天就能替换旧版Sonnet。"
         }
       }
     }

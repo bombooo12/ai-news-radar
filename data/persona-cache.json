@@ -1,41 +1,11 @@
 {
   "version": 1,
   "entries": {
-    "story_612a2e0c0069|pragmatic|0a5c5b24": {
-      "score": 10,
-      "review": "一篇哲学/概念性文章，与具体开发工具或技术方案无关。",
-      "title_hash": "aafd28e1",
-      "scored_at": "2026-09-07T15:07:03.284127Z"
-    },
-    "story_fb302e7d3b11|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "学术研究进展，离落地成可用的工具或框架还很远。",
-      "title_hash": "76a4d125",
-      "scored_at": "2026-09-07T15:06:25.119005Z"
-    },
-    "story_593596383350|pragmatic|0a5c5b24": {
-      "score": 75,
-      "review": "模型推理效率提升，直接降低API调用成本与等待时间。",
-      "title_hash": "3f2251b2",
-      "scored_at": "2026-09-07T15:06:28.822881Z"
-    },
-    "story_42766529966d|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "API已全量上线，调用成本降低，新项目可以选用。",
-      "title_hash": "8c063cd4",
-      "scored_at": "2026-09-07T15:06:31.912541Z"
-    },
     "story_89772b9cda52|pragmatic|0a5c5b24": {
       "score": 82,
       "review": "AMD GPU用户现在能用vLLM加速推理，直接提升部署效率。",
       "title_hash": "d6ce774a",
       "scored_at": "2026-09-08T04:07:48.141198Z"
-    },
-    "story_051a17bd579f|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "宏观就业讨论，不解决你今天选什么工具或写哪行代码的问题。",
-      "title_hash": "5c6ef897",
-      "scored_at": "2026-09-07T15:06:54.736578Z"
     },
     "story_89772b9cda52|cynic|f4237a62": {
       "score": 78,
@@ -48,18 +18,6 @@
       "review": "技术博客有细节，但缺论文与开源代码，无法独立验证性能。",
       "title_hash": "d6ce774a",
       "scored_at": "2026-09-08T09:08:12.754713Z"
-    },
-    "story_42766529966d|cynic|f4237a62": {
-      "score": 65,
-      "review": "‘显著降低’是跟自己比吧？具体降了多少、对比基准是啥，敢不敢亮出来？",
-      "title_hash": "8c063cd4",
-      "scored_at": "2026-09-07T15:07:17.966686Z"
-    },
-    "story_42766529966d|paper-police|966065bf": {
-      "score": 15,
-      "review": "仅有官方新闻稿宣称性能提升，无论文、代码或第三方评测佐证。",
-      "title_hash": "8c063cd4",
-      "scored_at": "2026-09-07T15:07:21.376486Z"
     },
     "story_f0b41f3df1cc|pragmatic|0a5c5b24": {
       "score": 88,
@@ -4466,10 +4424,10 @@
       "scored_at": "2026-09-27T18:50:28.837446Z"
     },
     "story_299644506077|pragmatic|0a5c5b24": {
-      "score": 70,
-      "review": "开源通用电脑操作Agent框架，想研究智能体自动化的可以上手试试。",
-      "title_hash": "47762adc",
-      "scored_at": "2026-09-28T10:22:15.557563Z"
+      "score": 85,
+      "review": "模型已开源，可直接下载用于构建桌面自动化智能体。",
+      "title_hash": "6a301c92",
+      "scored_at": "2026-09-28T20:59:38.368215Z"
     },
     "story_3622c48a5055|pragmatic|0a5c5b24": {
       "score": 45,
@@ -4614,6 +4572,144 @@
       "review": "仅有公测新闻，无论文、代码或公开评测数据，证据不足。",
       "title_hash": "39f0b551",
       "scored_at": "2026-09-28T10:24:31.213896Z"
+    },
+    "story_c04a80da7898|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "GitHub Copilot 已集成最新 Claude 模型，开发者今天就能用上更强的代码生成能力。",
+      "title_hash": "9c62b5c8",
+      "scored_at": "2026-09-28T20:59:28.452674Z"
+    },
+    "story_9c7e3615c5ec|pragmatic|0a5c5b24": {
+      "score": 88,
+      "review": "API调用成本立降，性能提升，今天就能替换旧版Sonnet。",
+      "title_hash": "33166791",
+      "scored_at": "2026-09-28T20:59:31.597499Z"
+    },
+    "story_75870866258f|pragmatic|0a5c5b24": {
+      "score": 10,
+      "review": "创意比赛的获奖视频，与开发工具或技术选型无关。",
+      "title_hash": "631e6bdc",
+      "scored_at": "2026-09-28T20:59:34.592100Z"
+    },
+    "story_affa87113115|pragmatic|0a5c5b24": {
+      "score": 88,
+      "review": "API 已上线，速度更快成本更低，今天就能用新模型替换。",
+      "title_hash": "d8aa2ad9",
+      "scored_at": "2026-09-28T20:59:50.572444Z"
+    },
+    "story_4db9d5cf74c5|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "媒体行业合作计划，与开发者日常开发选型无关。",
+      "title_hash": "beed36bc",
+      "scored_at": "2026-09-28T20:59:54.650240Z"
+    },
+    "story_aee032fed00c|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "GitHub Actions自托管运行器强制升级日期推迟，有缓冲期调整环境。",
+      "title_hash": "09ef6540",
+      "scored_at": "2026-09-28T20:59:58.241078Z"
+    },
+    "story_dc033248db9f|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "模型能力大幅提升且价格不变，今天就能在API里用上更强的Sonnet。",
+      "title_hash": "55251e2d",
+      "scored_at": "2026-09-28T21:00:04.934098Z"
+    },
+    "story_235ccfd8376d|pragmatic|0a5c5b24": {
+      "score": 55,
+      "review": "了解潜在风险，但报告本身不改变现有API使用方式。",
+      "title_hash": "09dc2d8e",
+      "scored_at": "2026-09-28T21:00:08.479197Z"
+    },
+    "story_4bbadd003175|pragmatic|0a5c5b24": {
+      "score": 70,
+      "review": "Sonnet性价比提升，选型时可作为Opus的平价替代。",
+      "title_hash": "a7703c84",
+      "scored_at": "2026-09-28T21:00:12.047151Z"
+    },
+    "story_c7ce35660cda|pragmatic|0a5c5b24": {
+      "score": 90,
+      "review": "中端模型性能逼近旗舰但价格更低，今天选型可以优先考虑它。",
+      "title_hash": "602a7a32",
+      "scored_at": "2026-09-28T21:00:15.410220Z"
+    },
+    "story_d99a15db3657|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "新模型已可用，API可直接调用，性能有提升。",
+      "title_hash": "13e2cbe2",
+      "scored_at": "2026-09-28T21:00:18.151313Z"
+    },
+    "story_f1e181197209|pragmatic|0a5c5b24": {
+      "score": 70,
+      "review": "提醒你依赖的评测基准可能有漏洞，选模型时需交叉验证。",
+      "title_hash": "ef786f0a",
+      "scored_at": "2026-09-28T21:00:21.951739Z"
+    },
+    "story_520fa3c8afe1|pragmatic|0a5c5b24": {
+      "score": 55,
+      "review": "训练暂停可能影响未来模型供应，但现有API和模型不受影响。",
+      "title_hash": "337e774c",
+      "scored_at": "2026-09-28T21:00:42.296852Z"
+    },
+    "story_d7df3ea255b1|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "官方迁移指南，升级Opus前必须读，避免提示词失效。",
+      "title_hash": "5d9ae0e6",
+      "scored_at": "2026-09-28T21:00:47.559396Z"
+    },
+    "story_a301041b7a76|pragmatic|0a5c5b24": {
+      "score": 92,
+      "review": "推理更快成本更低，API调用和项目预算今天就能调整。",
+      "title_hash": "8514bfd2",
+      "scored_at": "2026-09-28T21:00:53.079420Z"
+    },
+    "story_8b8dccd9434b|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "新版本性能提升且成本大降，做智能体选型时性价比更高了。",
+      "title_hash": "eb65e2b8",
+      "scored_at": "2026-09-28T21:01:02.166425Z"
+    },
+    "story_4b30fe489b94|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "API调用更快更便宜，今天就能优化现有Claude应用的性能和成本。",
+      "title_hash": "8bf1dfe2",
+      "scored_at": "2026-09-28T21:01:05.883913Z"
+    },
+    "story_a301041b7a76|cynic|f4237a62": {
+      "score": 72,
+      "review": "速度成本双降是好事，但只跟自己比，没提隔壁竞品现在啥样。",
+      "title_hash": "8514bfd2",
+      "scored_at": "2026-09-28T21:01:11.615499Z"
+    },
+    "story_a301041b7a76|paper-police|966065bf": {
+      "score": 15,
+      "review": "仅有社交媒体转述，无论文、代码或官方评测报告佐证。",
+      "title_hash": "8514bfd2",
+      "scored_at": "2026-09-28T21:01:15.416416Z"
+    },
+    "story_c7ce35660cda|cynic|f4237a62": {
+      "score": 75,
+      "review": "成本降了，性能也降了，用‘接近’这个词真是精打细算。",
+      "title_hash": "602a7a32",
+      "scored_at": "2026-09-28T21:01:19.751038Z"
+    },
+    "story_c7ce35660cda|paper-police|966065bf": {
+      "score": 15,
+      "review": "仅第三方新闻转述性能与成本，未见官方报告、代码或可复现的评测数据。",
+      "title_hash": "602a7a32",
+      "scored_at": "2026-09-28T21:01:23.324787Z"
+    },
+    "story_9c7e3615c5ec|cynic|f4237a62": {
+      "score": 78,
+      "review": "速度成本双降是实在的，但‘最多降30%’这词儿，水分得自己拧。",
+      "title_hash": "33166791",
+      "scored_at": "2026-09-28T21:01:32.208770Z"
+    },
+    "story_9c7e3615c5ec|paper-police|966065bf": {
+      "score": 45,
+      "review": "官方博客宣称性能，但未提供独立可复现的评测报告与代码。",
+      "title_hash": "33166791",
+      "scored_at": "2026-09-28T21:01:35.197499Z"
     }
   }
 }
