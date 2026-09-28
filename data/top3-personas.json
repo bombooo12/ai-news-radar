@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T18:50:28.837494Z",
+  "generated_at": "2026-09-28T10:24:31.213984Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_f08a56d3c5d0",
-      "title": "Faster prompt lookup drafting in llama.cpp",
-      "url": "https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp",
+      "story_id": "story_abbedb558ed1",
+      "title": "AIGCPanel v2.5. 0 接入云端双引擎，数字人与直播音色分库各管各的",
+      "url": "https://www.aibase.com/news/31388",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 75,
-          "review": "优化是实在的，但'Faster'这词在开源社区里都快用烂了，具体快多少得看基准。"
+          "score": 55,
+          "review": "‘双引擎’听着唬人，不就是把本地和云端功能分开打包卖吗？"
         },
         "paper-police": {
-          "score": 45,
-          "review": "技术博客有实现细节，但无独立论文或第三方复现评测。"
-        },
-        "pragmatic": {
-          "score": 88,
-          "review": "llama.cpp 性能优化，推理速度提升，今天就能更新代码库。"
-        }
-      }
-    },
-    {
-      "story_id": "story_2ab0f3547302",
-      "title": "Calling the AI bluff: Adding \"Do not guess\" cut made-up claims from 71% to 20%",
-      "url": "https://earnanhonestdollar.com/bench",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 78,
-          "review": "数据看着挺实，但‘胡编’的基线是71%，这起点是不是也太低了点？"
-        },
-        "paper-police": {
-          "score": 45,
-          "review": "有公开评测网站和数字，但未提供论文或可复现的代码仓库。"
+          "score": 15,
+          "review": "仅有产品发布新闻，无论文、代码或独立评测，证据不足。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "一个能立刻降低AI幻觉的实用提示词技巧，今天就能用。"
+          "review": "开源工具更新，数字人和直播音色能分开管理，项目里可以直接用了。"
         }
       }
     },
     {
-      "story_id": "story_c9d61f225fe5",
-      "title": "Show HN: TinyAIArena watch AI agents battle it out",
-      "url": "https://tinyaiarena.com",
+      "story_id": "story_1bb2feafc8a4",
+      "title": "OpenAI 重排 Pro 档位：5x和20x用量承诺下线",
+      "url": "https://www.aibase.com/news/31379",
+      "rank": 2,
+      "reviews": {
+        "cynic": {
+          "score": 65,
+          "review": "承诺下线，算力紧张还是成本失控？反正用户的选择又少了。"
+        },
+        "paper-police": {
+          "score": 15,
+          "review": "仅报道产品策略调整，无技术细节或性能评测证据。"
+        },
+        "pragmatic": {
+          "score": 85,
+          "review": "Pro用户需调整用量计划，直接影响计费模型和预算。"
+        }
+      }
+    },
+    {
+      "story_id": "story_85428ac91ad4",
+      "title": "​MiniMax 全新文本模型 M3.1-Flash-Preview 正式公测",
+      "url": "https://www.aibase.com/news/31383",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 55,
-          "review": "AI对战演示挺热闹，但‘竞技场’的评判标准和实际意义在哪？"
+          "score": 65,
+          "review": "公测版就敢叫‘全新’，具体参数和对比基线藏得挺深。"
         },
         "paper-police": {
-          "score": 35,
-          "review": "仅有演示网站，无论文、代码及公开评测方法，无法验证其真实能力。"
+          "score": 15,
+          "review": "仅有公测新闻，无论文、代码或公开评测数据，证据不足。"
         },
         "pragmatic": {
-          "score": 62,
-          "review": "提供了一个观察AI智能体行为的在线平台，可启发调试思路。"
+          "score": 85,
+          "review": "新模型已开放公测，今天就能申请接入，可做技术选型对比。"
         }
       }
     }
