@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T10:20:19.250082Z",
+  "generated_at": "2026-09-29T19:48:27.889460Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_9c7e3615c5ec",
-      "title": "Anthropic 发布 Claude Sonnet 5.5：速度提升 30%+，每任务成本最多降 30% / Sonnet 5.5",
-      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "story_id": "story_632fc8ebf5dc",
+      "title": "Introducing GPT-6.1 Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 78,
-          "review": "速度成本双降是实在的，但‘最多降30%’这词儿，水分得自己拧。"
+          "score": 65,
+          "review": "版本号小数点后加个1，这“重大更新”的诚意，跟版本号一样含蓄。"
         },
         "paper-police": {
-          "score": 45,
-          "review": "官方博客宣称性能，但未提供独立可复现的评测报告与代码。"
+          "score": 15,
+          "review": "仅有官方博客宣称，无论文、代码或独立评测，证据不足。"
         },
         "pragmatic": {
-          "score": 88,
-          "review": "API调用成本立降，性能提升，今天就能替换旧版Sonnet。"
+          "score": 95,
+          "review": "新模型已发布，API可调用，性能提升直接影响项目选型。"
         }
       }
     },
     {
-      "story_id": "story_affa87113115",
-      "title": "Claude Sonnet 5.5 发布，比 Sonnet 5 快超 30%、多数工作成本最多低 30% / Sonnet 5.5 is smarter, more efficient, and 30% faster than Sonnet 5. It costs up to 30% less for most work, so your Claude Code usage goe...",
-      "url": "https://x.com/ClaudeDevs/status/2104641318555353400",
+      "story_id": "story_83e2e2180846",
+      "title": "圆点 / Introducing dots",
+      "url": "https://openai.com/index/introducing-dots",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 70,
-          "review": "‘多数工作’成本低30%，这定语加得妙，具体是哪些工作呢？"
+          "score": 65,
+          "review": "又一个‘重新构想’的交互界面，功能亮点还是得看API怎么开放。"
         },
         "paper-police": {
           "score": 15,
-          "review": "仅有官方推文宣称性能，无论文、代码或独立评测佐证。"
+          "review": "仅为官方博客宣称，无论文、代码或可复现的评测基准。"
         },
         "pragmatic": {
-          "score": 88,
-          "review": "API 已上线，速度更快成本更低，今天就能用新模型替换。"
+          "score": 85,
+          "review": "OpenAI发布新AI工具，开发者现在就能去官网试用和集成。"
         }
       }
     },
     {
-      "story_id": "story_c04a80da7898",
-      "title": "Claude Sonnet 5.5 in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot",
+      "story_id": "story_5e8fdb7e624e",
+      "title": "GPT-6.1 Sol in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "换个模型就叫更新，用户感知的提升能有多少？"
+          "score": 75,
+          "review": "版本号加个.1，实际提升得看开发者用起来骂不骂娘。"
         },
         "paper-police": {
           "score": 15,
-          "review": "官方博客宣称集成，无论文无代码无独立评测，仅有说法。"
+          "review": "官方博客宣称性能，无论文无代码无第三方评测，证据不足。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "GitHub Copilot 已集成最新 Claude 模型，开发者今天就能用上更强的代码生成能力。"
+          "review": "GitHub Copilot 核心模型升级，开发者今天写代码就能感受到变化。"
         }
       }
     }

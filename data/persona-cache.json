@@ -1,66 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_e9c8b7eef4d1|pragmatic|0a5c5b24": {
-      "score": 65,
-      "review": "讨论模型安全拒绝策略的技术博客，做内容审核或RLHF的可以看看思路。",
-      "title_hash": "0a7e39b5",
-      "scored_at": "2026-09-08T15:07:48.582292Z"
-    },
-    "story_be047988843b|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "OpenAI发布新模型或能力，开发者现在就能接入API使用。",
-      "title_hash": "a91e70ca",
-      "scored_at": "2026-09-08T15:07:59.416712Z"
-    },
-    "story_a927f6f1604a|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "生物信息学领域的重要工具，但普通AI开发者用不上。",
-      "title_hash": "b2a9fbbc",
-      "scored_at": "2026-09-08T15:08:02.535324Z"
-    },
-    "story_bac4ec48b080|pragmatic|0a5c5b24": {
-      "score": 30,
-      "review": "是合作倡议，不是新工具或API，开发者无需行动。",
-      "title_hash": "26041a28",
-      "scored_at": "2026-09-08T15:08:05.789645Z"
-    },
-    "story_613d849d5200|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "新模型内测开放，开发者可申请体验，关注视觉任务性能提升。",
-      "title_hash": "06c9c287",
-      "scored_at": "2026-09-08T15:08:11.569424Z"
-    },
-    "story_7874794ade94|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "非技术性市场反馈，不影响你的工具选型或开发工作。",
-      "title_hash": "3d09b7d4",
-      "scored_at": "2026-09-08T15:08:25.217887Z"
-    },
-    "story_be047988843b|cynic|f4237a62": {
-      "score": 75,
-      "review": "又是‘赋能’叙事，具体能做什么、成本多高、限制在哪？请展开说说。",
-      "title_hash": "a91e70ca",
-      "scored_at": "2026-09-08T15:08:47.489350Z"
-    },
-    "story_be047988843b|paper-police|966065bf": {
-      "score": 15,
-      "review": "官方博客宣称能力提升，但无论文、代码或公开评测报告佐证。",
-      "title_hash": "a91e70ca",
-      "scored_at": "2026-09-08T15:08:54.163430Z"
-    },
-    "story_613d849d5200|cynic|f4237a62": {
-      "score": 65,
-      "review": "“更强”、“极致”都是好词，但内测数据和对比基线在哪？先亮出来看看。",
-      "title_hash": "06c9c287",
-      "scored_at": "2026-09-08T15:08:58.269315Z"
-    },
-    "story_613d849d5200|paper-police|966065bf": {
-      "score": 15,
-      "review": "仅有媒体新闻稿宣称性能，无论文、代码或公开评测报告。",
-      "title_hash": "06c9c287",
-      "scored_at": "2026-09-08T15:09:03.297887Z"
-    },
     "story_dc315e1882c1|pragmatic|0a5c5b24": {
       "score": 65,
       "review": "展示了AI辅助科研的潜力，但解答本身未经数学界验证，无法直接应用。",
@@ -4554,6 +4494,150 @@
       "review": "官方博客宣称集成，无论文无代码无独立评测，仅有说法。",
       "title_hash": "9c62b5c8",
       "scored_at": "2026-09-29T10:20:19.250033Z"
+    },
+    "story_632fc8ebf5dc|pragmatic|0a5c5b24": {
+      "score": 95,
+      "review": "新模型已发布，API可调用，性能提升直接影响项目选型。",
+      "title_hash": "b466ba5c",
+      "scored_at": "2026-09-29T19:45:03.309386Z"
+    },
+    "story_5e8fdb7e624e|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "GitHub Copilot 核心模型升级，开发者今天写代码就能感受到变化。",
+      "title_hash": "b25a4d24",
+      "scored_at": "2026-09-29T19:45:08.557710Z"
+    },
+    "story_83e2e2180846|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "OpenAI发布新AI工具，开发者现在就能去官网试用和集成。",
+      "title_hash": "f7983887",
+      "scored_at": "2026-09-29T19:45:11.717644Z"
+    },
+    "story_a2df1f649cab|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "开源了验证工具，做RAG或Agent的可以集成，提升答案可靠性。",
+      "title_hash": "3f300abc",
+      "scored_at": "2026-09-29T19:45:19.249632Z"
+    },
+    "story_295d80b95c35|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "提醒你检查生产环境，别在对话里贴敏感信息。",
+      "title_hash": "2f60f9cf",
+      "scored_at": "2026-09-29T19:45:25.981183Z"
+    },
+    "story_ff8d2de99148|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "新模型已发布，能直接用于提升智能体编码和计算机操作能力。",
+      "title_hash": "7539838f",
+      "scored_at": "2026-09-29T19:45:47.310768Z"
+    },
+    "story_62f99abb249e|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "GPT-6.1已集成至Codex和ChatGPT，开发者现在就能调用新版本。",
+      "title_hash": "0a078b93",
+      "scored_at": "2026-09-29T19:45:53.868895Z"
+    },
+    "story_a12eaf57e6f0|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "开源模型可直接下载，处理表格数据任务有新SOTA工具可选。",
+      "title_hash": "4971083c",
+      "scored_at": "2026-09-29T19:46:09.326760Z"
+    },
+    "story_ea535c078900|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "GitHub Actions 现在能注入外部业务数据，CI/CD 流程今天就能更智能。",
+      "title_hash": "49deb9c3",
+      "scored_at": "2026-09-29T19:46:27.469433Z"
+    },
+    "story_9701b68169f6|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "榜单排名更新，选型时可多一个参考，但别只看分数。",
+      "title_hash": "8e65d031",
+      "scored_at": "2026-09-29T19:46:45.610002Z"
+    },
+    "story_275cdbd3d9e4|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "收购传闻未定，对开发者当前使用开源模型无直接影响。",
+      "title_hash": "d593d77f",
+      "scored_at": "2026-09-29T19:46:51.270989Z"
+    },
+    "story_df96b073d4af|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "知道下个月没新模型可用，现有项目计划不受影响。",
+      "title_hash": "fb5be281",
+      "scored_at": "2026-09-29T19:47:07.123827Z"
+    },
+    "story_4958fb2aa897|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "CLI工具更新，开发者今天就能用新命令或修复的bug。",
+      "title_hash": "2488114f",
+      "scored_at": "2026-09-29T19:47:10.644125Z"
+    },
+    "story_85bf56f12422|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "开发者能用的新API和工具集，需要评估如何集成到现有产品中。",
+      "title_hash": "260c4377",
+      "scored_at": "2026-09-29T19:47:13.824724Z"
+    },
+    "story_b740e7f2bda0|pragmatic|0a5c5b24": {
+      "score": 80,
+      "review": "Dependabot现在能用自定义Runner，CI/CD流水线安全策略更灵活了。",
+      "title_hash": "b93cfbef",
+      "scored_at": "2026-09-29T19:47:36.037023Z"
+    },
+    "story_887ed3023b60|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "用户数增长是市场数据，不影响你今天调API或选工具。",
+      "title_hash": "53d3408c",
+      "scored_at": "2026-09-29T19:47:39.700782Z"
+    },
+    "story_47cf4c0e2552|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "大厂技术栈转向，做跨平台选型时需重新评估其长期维护性。",
+      "title_hash": "025707f7",
+      "scored_at": "2026-09-29T19:47:44.888626Z"
+    },
+    "story_98244353a42e|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "订阅额度变通用积分，今天就能在更多第三方应用里直接消费。",
+      "title_hash": "66708ff3",
+      "scored_at": "2026-09-29T19:47:52.325279Z"
+    },
+    "story_632fc8ebf5dc|cynic|f4237a62": {
+      "score": 65,
+      "review": "版本号小数点后加个1，这“重大更新”的诚意，跟版本号一样含蓄。",
+      "title_hash": "b466ba5c",
+      "scored_at": "2026-09-29T19:47:57.470086Z"
+    },
+    "story_632fc8ebf5dc|paper-police|966065bf": {
+      "score": 15,
+      "review": "仅有官方博客宣称，无论文、代码或独立评测，证据不足。",
+      "title_hash": "b466ba5c",
+      "scored_at": "2026-09-29T19:48:02.734299Z"
+    },
+    "story_83e2e2180846|cynic|f4237a62": {
+      "score": 65,
+      "review": "又一个‘重新构想’的交互界面，功能亮点还是得看API怎么开放。",
+      "title_hash": "f7983887",
+      "scored_at": "2026-09-29T19:48:09.867821Z"
+    },
+    "story_83e2e2180846|paper-police|966065bf": {
+      "score": 15,
+      "review": "仅为官方博客宣称，无论文、代码或可复现的评测基准。",
+      "title_hash": "f7983887",
+      "scored_at": "2026-09-29T19:48:14.323592Z"
+    },
+    "story_5e8fdb7e624e|cynic|f4237a62": {
+      "score": 75,
+      "review": "版本号加个.1，实际提升得看开发者用起来骂不骂娘。",
+      "title_hash": "b25a4d24",
+      "scored_at": "2026-09-29T19:48:18.600935Z"
+    },
+    "story_5e8fdb7e624e|paper-police|966065bf": {
+      "score": 15,
+      "review": "官方博客宣称性能，无论文无代码无第三方评测，证据不足。",
+      "title_hash": "b25a4d24",
+      "scored_at": "2026-09-29T19:48:27.889399Z"
     }
   }
 }
