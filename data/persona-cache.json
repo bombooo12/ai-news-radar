@@ -1,240 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_89772b9cda52|pragmatic|0a5c5b24": {
-      "score": 82,
-      "review": "AMD GPU用户现在能用vLLM加速推理，直接提升部署效率。",
-      "title_hash": "d6ce774a",
-      "scored_at": "2026-09-08T04:07:48.141198Z"
-    },
-    "story_89772b9cda52|cynic|f4237a62": {
-      "score": 78,
-      "review": "AMD GPU终于能蹭上推测解码的热饭了，但实测性能提升和兼容性才是硬道理。",
-      "title_hash": "d6ce774a",
-      "scored_at": "2026-09-08T09:08:07.387770Z"
-    },
-    "story_89772b9cda52|paper-police|966065bf": {
-      "score": 45,
-      "review": "技术博客有细节，但缺论文与开源代码，无法独立验证性能。",
-      "title_hash": "d6ce774a",
-      "scored_at": "2026-09-08T09:08:12.754713Z"
-    },
-    "story_f0b41f3df1cc|pragmatic|0a5c5b24": {
-      "score": 88,
-      "review": "提供具体操作步骤和避坑指南，今天就能跟着教程上手实操。",
-      "title_hash": "d7e8d167",
-      "scored_at": "2026-09-08T04:06:48.274452Z"
-    },
-    "story_292bbb5879c6|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "大厂战略布局，对开发者日常工作暂无直接影响，知道就行。",
-      "title_hash": "1afb13a3",
-      "scored_at": "2026-09-08T04:07:00.081738Z"
-    },
-    "story_3ed5bfe1c8aa|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "为AI应用划了法律红线，做换脸、语音生成类产品必须合规。",
-      "title_hash": "6e8f9795",
-      "scored_at": "2026-09-08T04:07:04.008437Z"
-    },
-    "story_d83ab5c62da4|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "天价协议离开发者太远，对当前API价格和可用性没影响。",
-      "title_hash": "64f4bd5a",
-      "scored_at": "2026-09-08T04:07:07.941535Z"
-    },
-    "story_09dc0563f0f1|pragmatic|0a5c5b24": {
-      "score": 42,
-      "review": "展示了AI的通用能力，但具体方案未开源，暂时无法应用。",
-      "title_hash": "c6134c17",
-      "scored_at": "2026-09-08T04:07:12.457658Z"
-    },
-    "story_ec24c847b7a7|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "司法红线画得更清了，做相关应用得先自查合规风险。",
-      "title_hash": "7ec4334a",
-      "scored_at": "2026-09-08T04:07:19.142644Z"
-    },
-    "story_0fcfe3e87cad|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "发布的是抽象问题而非工具，对开发者没有直接用处。",
-      "title_hash": "155ce8f6",
-      "scored_at": "2026-09-08T04:07:26.187148Z"
-    },
-    "story_5c01fc225873|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "算力军备竞赛的宏观数字，对个人选型或开发无直接影响。",
-      "title_hash": "7f103259",
-      "scored_at": "2026-09-08T04:07:30.841598Z"
-    },
-    "story_1bff838f4feb|pragmatic|0a5c5b24": {
-      "score": 30,
-      "review": "交易告吹不影响现有工具，开发者无需为此调整计划。",
-      "title_hash": "35f2a689",
-      "scored_at": "2026-09-08T04:07:35.413129Z"
-    },
-    "story_77f905f90359|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "ChatGPT Work已上线新功能，可训练模型模仿你的写作风格，直接提升输出一致性。",
-      "title_hash": "27a9e5fc",
-      "scored_at": "2026-09-08T04:07:38.911935Z"
-    },
-    "story_145483457052|pragmatic|0a5c5b24": {
-      "score": 10,
-      "review": "标题党，无产品无技术细节，对实际工作无帮助。",
-      "title_hash": "433b1d75",
-      "scored_at": "2026-09-08T04:07:44.553467Z"
-    },
-    "story_66898bf564bc|pragmatic|0a5c5b24": {
-      "score": 65,
-      "review": "提醒你检查旧系统依赖的过期证书，存在安全风险。",
-      "title_hash": "690d5e6e",
-      "scored_at": "2026-09-08T04:07:58.230120Z"
-    },
-    "story_11c46eb269b4|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "专家警告不写代码，对当前选型开发没影响。",
-      "title_hash": "9af70b7a",
-      "scored_at": "2026-09-08T04:08:09.865578Z"
-    },
-    "story_8b01a7e80019|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "宏观就业数据，不影响你今天选模型或写代码。",
-      "title_hash": "4aa82002",
-      "scored_at": "2026-09-08T04:08:13.003038Z"
-    },
-    "story_fa145e6ddcc2|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "算力基建的远期布局，不影响你今天选API或调模型。",
-      "title_hash": "2cf45d23",
-      "scored_at": "2026-09-08T04:08:24.636545Z"
-    },
-    "story_a08e65cb4732|pragmatic|0a5c5b24": {
-      "score": 10,
-      "review": "电影节市场亮相是品牌活动，与开发者当前工作无关。",
-      "title_hash": "65743d49",
-      "scored_at": "2026-09-08T04:08:28.026520Z"
-    },
-    "story_88e0efb230ea|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "技术演示很酷，但离普通开发者能用的产品或SDK还很远。",
-      "title_hash": "5195cb40",
-      "scored_at": "2026-09-08T04:08:32.062105Z"
-    },
-    "story_b8a91b58333f|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "工厂产线新闻，对开发者选型写代码没直接影响。",
-      "title_hash": "6867184d",
-      "scored_at": "2026-09-08T04:08:35.219122Z"
-    },
-    "story_f0b41f3df1cc|cynic|f4237a62": {
-      "score": 65,
-      "review": "教程是干货，但标题蹭GPT-6热度，实际用的还是GPT-4吧？",
-      "title_hash": "d7e8d167",
-      "scored_at": "2026-09-08T04:08:41.289568Z"
-    },
-    "story_f0b41f3df1cc|paper-police|966065bf": {
-      "score": 40,
-      "review": "公众号教程含实操细节，但无官方论文或代码链接，属经验分享。",
-      "title_hash": "d7e8d167",
-      "scored_at": "2026-09-08T04:08:44.603632Z"
-    },
-    "story_77f905f90359|cynic|f4237a62": {
-      "score": 55,
-      "review": "识别风格听起来很酷，但没说清是套用模板还是真能学精髓。",
-      "title_hash": "27a9e5fc",
-      "scored_at": "2026-09-08T04:08:48.758932Z"
-    },
-    "story_77f905f90359|paper-police|966065bf": {
-      "score": 15,
-      "review": "仅有媒体报道，无官方论文、代码或可复现的评测报告。",
-      "title_hash": "27a9e5fc",
-      "scored_at": "2026-09-08T04:08:52.255104Z"
-    },
-    "story_93b4d1afb6fc|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "融资新闻不写代码，等看到新模型或降价再说。",
-      "title_hash": "1644750b",
-      "scored_at": "2026-09-08T09:07:13.639266Z"
-    },
-    "story_c12e0d8f1817|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "纯学术讨论，对开发者选型或写代码无直接影响。",
-      "title_hash": "997807c7",
-      "scored_at": "2026-09-08T09:07:17.550921Z"
-    },
-    "story_bbef342e3266|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "CEO的远期畅谈，不解决你今天选型或部署的任何问题。",
-      "title_hash": "05f7b306",
-      "scored_at": "2026-09-08T09:07:21.304240Z"
-    },
-    "story_2a18f45ec375|pragmatic|0a5c5b24": {
-      "score": 75,
-      "review": "写作助手功能增强，需要调教但能提升内容产出效率。",
-      "title_hash": "6e1c210b",
-      "scored_at": "2026-09-08T09:07:24.434373Z"
-    },
-    "story_5a74dd9516c1|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "招聘新闻不影响你今天的工具选型或代码实现。",
-      "title_hash": "409d48ee",
-      "scored_at": "2026-09-08T09:07:30.061925Z"
-    },
-    "story_c4fe9c5ef178|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "招聘新闻不解决技术问题，等他们真做出东西再说。",
-      "title_hash": "09a21e8c",
-      "scored_at": "2026-09-08T09:07:33.502540Z"
-    },
-    "story_b8ab7c1cffe5|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "封闭测试与你无关，等开放API或开源再研究。",
-      "title_hash": "eb2863d2",
-      "scored_at": "2026-09-08T09:07:37.364846Z"
-    },
-    "story_c2b11cb2bdaf|pragmatic|0a5c5b24": {
-      "score": 40,
-      "review": "目前只是目标和愿景，没有可用的产品或API，保持关注即可。",
-      "title_hash": "e54bec71",
-      "scored_at": "2026-09-08T09:07:40.337214Z"
-    },
-    "story_02408f2e99e2|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "高层呼吁，无具体技术标准或监管工具，开发者无需立即行动。",
-      "title_hash": "d93b1ea2",
-      "scored_at": "2026-09-08T09:07:43.903539Z"
-    },
-    "story_f7a8ffc230e8|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "版权诉讼进展，短期不影响API使用，但长期可能改变数据来源规则。",
-      "title_hash": "3ca55fd7",
-      "scored_at": "2026-09-08T09:07:56.937548Z"
-    },
-    "story_540d9571c139|pragmatic|0a5c5b24": {
-      "score": 65,
-      "review": "微软生态多一个AI助手选项，但需特定账号，短期内观望即可。",
-      "title_hash": "5cb9b0d7",
-      "scored_at": "2026-09-08T09:08:00.556837Z"
-    },
-    "story_a50e1ce26ddb|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "用真实案例警示AI代理的风险，设计业务流程时需加入防错机制。",
-      "title_hash": "f2f604b7",
-      "scored_at": "2026-09-08T09:08:03.864187Z"
-    },
-    "story_2a18f45ec375|cynic|f4237a62": {
-      "score": 55,
-      "review": "克隆写作风格？先说说对多少篇样本、哪种文体有效，别又是特定场景的魔术。",
-      "title_hash": "6e1c210b",
-      "scored_at": "2026-09-08T09:08:16.397527Z"
-    },
-    "story_2a18f45ec375|paper-police|966065bf": {
-      "score": 15,
-      "review": "仅一篇行业报道，无论文、代码或可验证的基准测试。",
-      "title_hash": "6e1c210b",
-      "scored_at": "2026-09-08T09:08:23.651814Z"
-    },
     "story_e9c8b7eef4d1|pragmatic|0a5c5b24": {
       "score": 65,
       "review": "讨论模型安全拒绝策略的技术博客，做内容审核或RLHF的可以看看思路。",
@@ -4710,6 +4476,84 @@
       "review": "官方博客宣称性能，但未提供独立可复现的评测报告与代码。",
       "title_hash": "33166791",
       "scored_at": "2026-09-28T21:01:35.197499Z"
+    },
+    "story_c49bc1306894|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "对开发者无直接影响，主要是OpenAI合规流程的内部说明。",
+      "title_hash": "4f21e7b4",
+      "scored_at": "2026-09-29T10:18:19.569435Z"
+    },
+    "story_7e0e84425f1a|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "估值八卦不写代码，等它真上市了再看对API有啥影响。",
+      "title_hash": "c90aaf7d",
+      "scored_at": "2026-09-29T10:19:03.652807Z"
+    },
+    "story_4015f64ac105|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "是面向监管和治理的框架讨论，不涉及具体产品更新或开发者工具。",
+      "title_hash": "c1b117a2",
+      "scored_at": "2026-09-29T10:19:12.452803Z"
+    },
+    "story_9acb3a49f4d3|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "未发布产品的内部安全审查，对当前开发选型无直接影响。",
+      "title_hash": "2b1ac7d1",
+      "scored_at": "2026-09-29T10:19:19.504366Z"
+    },
+    "story_4db8fe1c85aa|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "大公司并购和人事变动，不影响你今天选芯片或写代码。",
+      "title_hash": "d47a0b60",
+      "scored_at": "2026-09-29T10:19:32.747436Z"
+    },
+    "story_467c95690539|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "提醒开发者注意AI代理的安全边界设计，避免擅自行动。",
+      "title_hash": "9642ca8a",
+      "scored_at": "2026-09-29T10:19:39.291450Z"
+    },
+    "story_b73aec0b4852|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "开源安全Agent可直接试用，为代码审计和漏洞挖掘提供新工具。",
+      "title_hash": "bd27d543",
+      "scored_at": "2026-09-29T10:19:45.208570Z"
+    },
+    "story_110e2c0f1528|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "新模型已可用，演示了修复代码bug的实际能力，可评估是否替换现有开发助手。",
+      "title_hash": "5a5754d1",
+      "scored_at": "2026-09-29T10:19:53.397977Z"
+    },
+    "story_f6298057703f|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "第三方评测排名，了解模型相对表现，但非官方能力更新。",
+      "title_hash": "82826187",
+      "scored_at": "2026-09-29T10:20:00.062660Z"
+    },
+    "story_affa87113115|cynic|f4237a62": {
+      "score": 70,
+      "review": "‘多数工作’成本低30%，这定语加得妙，具体是哪些工作呢？",
+      "title_hash": "d8aa2ad9",
+      "scored_at": "2026-09-29T10:20:03.739004Z"
+    },
+    "story_affa87113115|paper-police|966065bf": {
+      "score": 15,
+      "review": "仅有官方推文宣称性能，无论文、代码或独立评测佐证。",
+      "title_hash": "d8aa2ad9",
+      "scored_at": "2026-09-29T10:20:08.636395Z"
+    },
+    "story_c04a80da7898|cynic|f4237a62": {
+      "score": 65,
+      "review": "换个模型就叫更新，用户感知的提升能有多少？",
+      "title_hash": "9c62b5c8",
+      "scored_at": "2026-09-29T10:20:15.938861Z"
+    },
+    "story_c04a80da7898|paper-police|966065bf": {
+      "score": 15,
+      "review": "官方博客宣称集成，无论文无代码无独立评测，仅有说法。",
+      "title_hash": "9c62b5c8",
+      "scored_at": "2026-09-29T10:20:19.250033Z"
     }
   }
 }

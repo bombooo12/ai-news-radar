@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T21:01:35.197550Z",
+  "generated_at": "2026-09-29T10:20:19.250082Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,50 +17,10 @@
   ],
   "items": [
     {
-      "story_id": "story_a301041b7a76",
-      "title": "Anthropic 发布 Claude Sonnet 5.5：比 Sonnet 5 快超 30% 且成本最多降 30%",
-      "url": "https://x.com/dongxi_nlp/status/2104634260934054237",
-      "rank": 1,
-      "reviews": {
-        "cynic": {
-          "score": 72,
-          "review": "速度成本双降是好事，但只跟自己比，没提隔壁竞品现在啥样。"
-        },
-        "paper-police": {
-          "score": 15,
-          "review": "仅有社交媒体转述，无论文、代码或官方评测报告佐证。"
-        },
-        "pragmatic": {
-          "score": 92,
-          "review": "推理更快成本更低，API调用和项目预算今天就能调整。"
-        }
-      }
-    },
-    {
-      "story_id": "story_c7ce35660cda",
-      "title": "Anthropic 发布 Claude Sonnet 5.5，基准接近 Opus 5.5 且单任务成本最多降 30% / Anthropic's Claude Sonnet 5.5 nearly matches Opus 5.5 on benchmarks while costing up to 30 percent less per task",
-      "url": "https://the-decoder.com/anthropics-claude-sonnet-5-5-nearly-matches-opus-5-5-on-benchmarks-while-costing-up-to-30-percent-less-per-task",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 75,
-          "review": "成本降了，性能也降了，用‘接近’这个词真是精打细算。"
-        },
-        "paper-police": {
-          "score": 15,
-          "review": "仅第三方新闻转述性能与成本，未见官方报告、代码或可复现的评测数据。"
-        },
-        "pragmatic": {
-          "score": 90,
-          "review": "中端模型性能逼近旗舰但价格更低，今天选型可以优先考虑它。"
-        }
-      }
-    },
-    {
       "story_id": "story_9c7e3615c5ec",
       "title": "Anthropic 发布 Claude Sonnet 5.5：速度提升 30%+，每任务成本最多降 30% / Sonnet 5.5",
       "url": "https://www.anthropic.com/claude-sonnet-5-5",
-      "rank": 3,
+      "rank": 1,
       "reviews": {
         "cynic": {
           "score": 78,
@@ -73,6 +33,46 @@
         "pragmatic": {
           "score": 88,
           "review": "API调用成本立降，性能提升，今天就能替换旧版Sonnet。"
+        }
+      }
+    },
+    {
+      "story_id": "story_affa87113115",
+      "title": "Claude Sonnet 5.5 发布，比 Sonnet 5 快超 30%、多数工作成本最多低 30% / Sonnet 5.5 is smarter, more efficient, and 30% faster than Sonnet 5. It costs up to 30% less for most work, so your Claude Code usage goe...",
+      "url": "https://x.com/ClaudeDevs/status/2104641318555353400",
+      "rank": 2,
+      "reviews": {
+        "cynic": {
+          "score": 70,
+          "review": "‘多数工作’成本低30%，这定语加得妙，具体是哪些工作呢？"
+        },
+        "paper-police": {
+          "score": 15,
+          "review": "仅有官方推文宣称性能，无论文、代码或独立评测佐证。"
+        },
+        "pragmatic": {
+          "score": 88,
+          "review": "API 已上线，速度更快成本更低，今天就能用新模型替换。"
+        }
+      }
+    },
+    {
+      "story_id": "story_c04a80da7898",
+      "title": "Claude Sonnet 5.5 in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot",
+      "rank": 3,
+      "reviews": {
+        "cynic": {
+          "score": 65,
+          "review": "换个模型就叫更新，用户感知的提升能有多少？"
+        },
+        "paper-police": {
+          "score": 15,
+          "review": "官方博客宣称集成，无论文无代码无独立评测，仅有说法。"
+        },
+        "pragmatic": {
+          "score": 85,
+          "review": "GitHub Copilot 已集成最新 Claude 模型，开发者今天就能用上更强的代码生成能力。"
         }
       }
     }

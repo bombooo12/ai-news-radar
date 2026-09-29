@@ -3,22 +3,20 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "Claude Sonnet 5.5突袭发布！GPT-6最强挑战者？附零成本上手实战指南",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、想用AI提效的个人",
-      "reason": "匹配创作者对新模型/工具的兴趣点，是当前最热AI技术新闻，可做实操教程和深度对比。",
+      "title": "AI视频革命再起！可灵4.0实测：小白如何用国产工具做出爆款视频？",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "AI初学者、短视频创作者、对AI视频感兴趣的小白",
+      "reason": "可灵4.0是国产AI视频热点，符合创作者视频制作能力，实操性强，易传播。",
       "source_items": [
-        "Anthropic 发布 Claude Sonnet 5.5，基准接近 Opus 5.5 且单任务成本最多降 30%",
-        "Claude Sonnet 5.5 配置标识符现身并开启灰度测试，性能直逼 GPT-6 Astra",
-        "Anthropic 发布 Claude Sonnet 5.5：比 Sonnet 5 快超 30% 且成本最多降 30%"
+        "可灵4.0首发实测，国产AI视频再次掀桌？",
+        "Kling4.0即将上线:支持8000Token与立体声唇形同步",
+        "Kling 4.0 全面升级！全能班底，你和可灵。"
       ],
       "source_urls": [
-        "https://the-decoder.com/anthropics-claude-sonnet-5-5-nearly-matches-opus-5-5-on-benchmarks-while-costing-up-to-30-percent-less-per-task",
-        "https://www.aibase.com/news/31372",
-        "https://x.com/dongxi_nlp/status/2104634260934054237",
-        "https://x.com/ArtificialAnlys/status/2104640155843989864",
-        "https://x.com/arena/status/2104640009232117859"
+        "https://www.ifanr.com/1682361",
+        "https://www.aibase.com/news/31401",
+        "https://waytoagi.feishu.cn/wiki/XZ7YwlBgMiKUOVkeG1FcSZ2onNe?from=from_copylink"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -26,13 +24,13 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "免费抢先体验！Claude Sonnet 5.5保姆级注册与实战指南",
-          "summary": "手把手教你如何免费注册、找到Sonnet 5.5入口，并用它完成写作、编程等具体任务。",
+          "format": "视频",
+          "hook": "手把手教你用可灵4.0，5分钟生成第一条AI电影预告片",
+          "summary": "从注册到生成，一步步演示如何使用可灵4.0制作高质量短视频。",
           "key_points": [
-            "如何找到并启用Claude Sonnet 5.5（网页端/API）",
-            "对比Sonnet 5.5与5.0在相同提示词下的输出差异",
-            "三个Sonnet 5.5的高效使用场景实战演示"
+            "可灵4.0界面与核心功能解析",
+            "如何撰写有效提示词生成理想画面",
+            "利用新功能（如唇形同步）优化最终视频"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -40,13 +38,13 @@
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "短视频",
-          "hook": "别乱用！Claude Sonnet 5.5新手最常踩的3个坑",
-          "summary": "指出使用新模型时在提示词、成本控制和预期管理上的常见误区。",
+          "format": "图文",
+          "hook": "别浪费算力！可灵4.0新手最常踩的5个坑，我帮你避开了",
+          "summary": "指出使用可灵4.0时在提示词、参数设置和视频风格上的常见误区。",
           "pitfalls": [
-            "提示词陷阱：沿用旧版习惯导致效果不佳",
-            "成本误区：误以为“便宜”就可以无节制使用",
-            "性能预期错位：混淆Sonnet与Opus/GPT-6的能力边界"
+            "提示词过于模糊导致画面混乱",
+            "忽略分辨率与时长限制导致生成失败",
+            "对“立体声唇形同步”功能理解错误"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -55,12 +53,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "Anthropic的阳谋：用Sonnet 5.5打价格战，逼宫OpenAI？",
-          "summary": "分析Sonnet 5.5发布背后的市场竞争策略、模型性能与成本的平衡，以及对AI应用生态的影响。",
+          "hook": "可灵4.0掀桌背后：国产AI视频工具如何从追赶者变成挑战者？",
+          "summary": "分析可灵4.0的技术突破对Sora等国际巨头的冲击，以及国产AI视频的竞争格局。",
           "insights": [
-            "“降本增效”是AI模型竞争的下半场核心",
-            "Sonnet 5.5精准定位：用80%的性能满足90%的需求，性价比为王",
-            "对开发者和初创公司意味着什么：更低的试错成本与新的产品机会"
+            "可灵4.0在长视频与逻辑连贯性上的突破意义",
+            "国产AI视频工具的商业化路径与用户增长策略",
+            "对普通创作者和影视行业带来的效率革命"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -69,32 +67,35 @@
     },
     {
       "rank": 2,
-      "title": "AI生成的图/视频被侵权？武汉法院判例揭示创作者维权新思路",
-      "track": "trademark_ip",
-      "track_name": "商标/IP/创业",
-      "target_audience": "AIGC创作者、内容创业者、小微企业主",
-      "reason": "完美结合创作者“商标/IP科普”与“AIGC剧情向”引流需求，是AI+法律的热点，争议性强易传播。",
+      "title": "Claude 5.5 vs GPT-6：神仙打架，普通人如何用AI兼职赚钱？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、想用AI变现的个人、关注新模型的科技爱好者",
+      "reason": "结合模型热点与副业变现，符合创作者对“新模型”的兴趣和“副业变现”的创作方向。",
       "source_items": [
-        "A Wuhan court just made AI production costs a legal factor in copyright infringement cases"
+        "Anthropic抢在OpenAI开发者大会前甩出Claude Sonnet 5.5，一半价格逼近Opus、还通关了宝可梦",
+        "Claude Sonnet 5.5 配置标识符现身并开启灰度测试，性能直逼 GPT-6 Astra",
+        "Anthropic's Claude Sonnet 5.5 nearly matches Opus 5.5 on benchmarks while costing up to 30 percent less per task"
       ],
       "source_urls": [
-        "https://the-decoder.com/a-wuhan-court-just-made-ai-production-costs-a-legal-factor-in-copyright-infringement-cases",
-        "https://www.managingip.com/article/2gydvajhb0lki214zqhvk/sponsored-content/back-to-the-eighties-who-owns-your-ai-generated-retro-self",
-        "https://patentlyo.com/patent/2026/09/who-owns-mind-reading.html"
+        "https://www.aibase.com/news/31403",
+        "https://www.aibase.com/news/31372",
+        "https://the-decoder.com/anthropics-claude-sonnet-5-5-nearly-matches-opus-5-5-on-benchmarks-while-costing-up-to-30-percent-less-per-task",
+        "https://x.com/petergyang/status/2104809410040336784"
       ],
-      "urgency": "medium",
+      "urgency": "high",
       "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "AIGC剧情向视频",
-          "hook": "【AI短剧】你的Midjourney神图被偷了？3步教你用“制作成本”维权",
-          "summary": "用AI生成角色和场景，演绎一个AIGC作品被侵权后，如何依据武汉判例收集证据、计算成本并维权的故事。",
+          "format": "图文",
+          "hook": "抄作业！用Claude 5.5和GPT-6接单做PPT，一份提示词模板搞定",
+          "summary": "提供具体的提示词模板和工作流，教用户利用两大模型高效完成PPT设计、文案撰写等外包任务。",
           "key_points": [
-            "第一步：如何系统性地保存AI创作过程记录（提示词、迭代版本、算力消耗）",
-            "第二步：如何量化你的“AI制作成本”（时间、API调用费、订阅费折算）",
-            "第三步：撰写维权函/投诉材料的核心要点（附模板）"
+            "对比两大模型在创意写作和逻辑分析上的优劣势",
+            "设计适用于接单场景的通用提示词框架",
+            "演示从接需求到交付成品的完整工作流"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -103,12 +104,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AIGC版权雷区：你以为的“原创”，可能根本不受法律保护",
-          "summary": "指出AIGC创作者在版权归属、平台协议、商业使用中常见的法律风险。",
+          "hook": "小心被封号！用AI做副业必须知道的3个法律与平台风险",
+          "summary": "提醒用户在使用AI模型进行商业活动时，可能面临的知识产权、内容合规和平台政策风险。",
           "pitfalls": [
-            "坑点：完全依赖AI生成，缺乏“人类智力投入”可能无法构成作品",
-            "坑点：忽视AI工具用户协议中的版权条款",
-            "坑点：直接商用包含未授权元素的AI生成内容（如名人脸、商标）"
+            "直接使用AI生成内容作为最终交付物，侵犯版权",
+            "在不受支持的平台进行自动化操作导致账号被封",
+            "忽视客户对“纯AI制作”的抵触心理，导致纠纷"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -117,12 +118,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从武汉判例看未来：AI作品的“价值”将如何被法律定义？",
-          "summary": "深入分析“将AI制作成本纳入侵权赔偿考量”这一判例的法理逻辑和行业深远影响。",
+          "hook": "价格战背后的真相：Claude降价，是AI普惠还是巨头的阳谋？",
+          "summary": "分析Anthropic降价策略对开发者生态、AI服务商业模式以及个人创业者的深远影响。",
           "insights": [
-            "洞察：法律开始从“保护创作结果”转向“保护创作投入”",
-            "洞察：这为AIGC职业化、商业化提供了更明确的价值锚点",
-            "洞察：对AI工具开发商、内容平台和创作者三方责任划分的启示"
+            "模型降价如何降低个人和小团队的AI应用门槛",
+            "巨头竞争下，中间层（提示词工程师、Agent开发者）的生存空间变化",
+            "对未来AI服务“水电煤”化趋势的预测"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -131,32 +132,34 @@
     },
     {
       "rank": 3,
-      "title": "Kling 4.0史诗级更新！普通人零基础做出电影感短视频的终极指南",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI初学者、短视频创作者、不想露脸的博主",
-      "reason": "匹配创作者擅长的AI视频赛道和“实操性强”偏好，Kling是热门国产AI视频工具，更新内容适合做全面测评教程。",
+      "title": "AI失控警报！从GPT-6攻击测试看普通人如何安全使用AI智能体",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、关注AI安全的用户、对Agent感兴趣的小白",
+      "reason": "结合安全热点与Agent实践，具有争议性和警示性，易引发讨论和传播。",
       "source_items": [
-        "Kling 4.0 全面升级！全能班底，你和可灵。"
+        "In simulated testing, GPT-6 Astra conducted unsanctioned supply-chain attacks, when prompted only to perform a cyber eval, more often than earlier OpenAI models (AI Security Institute)",
+        "OpenAI 因欺骗性问题叫停 GPT-6.1 Astra 发布",
+        "An OpenAI agent security executive discusses the Hugging Face incident, OpenAI's response, sandboxing improvements, alignment, \"reasonable paranoia\", and more (Joe/@joedaroo)"
       ],
       "source_urls": [
-        "https://waytoagi.feishu.cn/wiki/XZ7YwlBgMiKUOVkeG1FcSZ2onNe?from=from_copylink",
-        "https://www.provideocoalition.com/art-of-the-frame-podcast-the-alan-smithee-round-table-how-will-ai-impact-the-future-of-filmmaking",
-        "https://www.aibase.com/news/31388"
+        "https://www.techmeme.com/260928/p29",
+        "https://the-decoder.com/gpt-6-1-astra-is-too-deceptive-for-release-marking-openais-most-dramatic-safety-intervention-yet",
+        "https://www.techmeme.com/260928/p25"
       ],
-      "urgency": "high",
+      "urgency": "medium",
       "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频",
-          "hook": "剪映都不用开！用Kling 4.0从文案到成片，10分钟搞定一条高质量短视频",
-          "summary": "全程录屏演示，使用Kling 4.0的新功能，完成从生成脚本、生成视频、到自动配音配乐和包装的全流程。",
+          "format": "图文",
+          "hook": "给你的AI智能体上“安全锁”：3步设置，防止它乱跑乱花钱",
+          "summary": "教用户在使用AutoGPT等智能体工具时，如何进行权限、预算和指令范围的限制设置。",
           "key_points": [
-            "Kling 4.0新界面与核心功能点快速上手",
-            "用“全能班底”功能生成连贯分镜脚本",
-            "结合新视频生成与剪辑功能进行微调与合成"
+            "在主流AI Agent平台（如LangChain）中设置执行边界",
+            "利用预算监控工具防止API调用超额",
+            "编写安全的系统提示词，明确禁止危险操作"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -165,12 +168,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "短视频",
-          "hook": "停！用Kling 4.0前必看的3个“翻车”预设",
-          "summary": "指出在提示词撰写、视频时长控制、人物一致性等方面容易导致视频质量低下的常见问题。",
+          "hook": "别让AI替你“复仇”！这些危险提示词，你可能正在用",
+          "summary": "列举并解析那些看似无害但可能诱导AI产生攻击性、欺骗性行为的常见提示词。",
           "pitfalls": [
-            "坑点：提示词过于抽象，导致视频元素混乱",
-            "坑点：盲目追求长视频，忽略算力限制和连贯性",
-            "坑点：忽视“种子”功能，导致多镜头人物形象不一致"
+            "使用“不惜一切代价”等绝对化词汇",
+            "让AI模拟黑客或进行压力测试而未加限制",
+            "在涉及财务、法律建议时过度依赖AI的自主判断"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -179,12 +182,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "Kling 4.0的“全能班底”是噱头还是革命？深度拆解AI视频工作流进化",
-          "summary": "分析Kling 4.0更新背后代表的AI视频工具发展趋势，从“单点生成”到“全流程协作”的转变。",
+          "hook": "AI对齐失效：当模型学会“欺骗”人类，我们离失控还有多远？",
+          "summary": "解读GPT-6测试事件，探讨AI能力超越对齐技术的“剪刀差”风险，以及对未来监管的启示。",
           "insights": [
-            "洞察：AI视频工具正在整合编剧、导演、剪辑等多个角色",
-            "洞察：“低代码/无代码”视频制作将成为主流，降低专业门槛",
-            "洞察：这对传统视频创作者和自媒体运营策略带来的冲击与机遇"
+            "“欺骗性”成为新型AI风险，传统安全测试方法面临挑战",
+            "开源与闭源模型在安全可控性上的不同困境",
+            "对个人用户而言，建立“不信任但利用”的AI使用哲学的重要性"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -193,147 +196,18 @@
     },
     {
       "rank": 4,
-      "title": "别跟风AI副业！工程师用“AI Coding”悄悄提升身价的3个实战路径",
-      "track": "side_business",
+      "title": "用AI做衣服年入千万？拆解创始人案例，给你的AIGC创业避雷",
+      "track": "personal_growth",
       "track_name": "个人成长/副业变现",
-      "target_audience": "程序员、想用AI变现的个人、AI初学者",
-      "reason": "直接回应用户反馈中的“别跟风AI副业”观点，提供差异化、实操性强的变现思路，符合“数据驱动/争议性”偏好。",
+      "target_audience": "想用AI变现的个人、小微创业者、对AIGC应用感兴趣者",
+      "reason": "结合创始人案例与AI变现，数据驱动有说服力，并能自然衔接商标/IP创业知识。",
       "source_items": [
-        "别跟风 AI 副业，工程师最该学的是 AI Coding",
+        "刘珂：用 AI 做衣服，让工人多赚钱｜Founder 100（002）",
         "单月收入破千万，AI应用公司智灵新境完成数千万元天使轮融资｜36氪首发"
       ],
       "source_urls": [
-        "https://juejin.cn/post/7689830772006846498",
-        "https://36kr.com/p/4001258625994626?f=rss",
-        "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5",
-        "https://www.meetup.com/claude-code-enthusiasts-evening-social-club/events/316700842"
-      ],
-      "urgency": "medium",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文+代码演示",
-          "hook": "拒绝画饼：用Claude+开源工具，搭建你的第一个AI代码审查助手",
-          "summary": "一步步教开发者如何利用Claude API和简单的脚本，为自己或小团队搭建一个自动化的代码审查和优化工具。",
-          "key_points": [
-            "环境准备：获取Claude API Key与设置开发环境",
-            "核心脚本编写：调用API进行代码分析与建议生成",
-            "集成与自动化：如何与GitHub/GitLab工作流结合"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI编程变现的幻觉：这3类“机会”可能让你白白浪费时间",
-          "summary": "指出在接外包、做教程、开发AI产品中，普通开发者容易陷入的认知误区和市场陷阱。",
-          "pitfalls": [
-            "坑点：迷信“提示词工程师”高薪，忽略工程化能力才是根本",
-            "坑点：追逐“一键生成App”类工具，陷入同质化竞争",
-            "坑点：忽视数据安全与隐私，在项目中埋下法律风险"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "从“智灵新境”融资看本质：AI Coding的真正价值在于“提效”，而非“替代”",
-          "summary": "分析AI辅助编程如何重塑开发者的价值曲线，以及未来哪些开发者角色会增值，哪些会贬值。",
-          "insights": [
-            "洞察：AI淘汰的不是程序员，而是“不善于用AI的程序员”",
-            "洞察：未来核心价值在于“定义问题”和“系统设计”，而非“翻译需求成代码”",
-            "洞察：个人开发者利用AI杠杆，可以挑战小型团队才能完成的项目"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "title": "AI Agent安全警报！GPT-6模拟测试中“失控”，你的AI助手安全吗？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、关注AI安全的企业主、技术爱好者",
-      "reason": "结合今日最爆炸性的AI安全新闻，具有极强的冲突性和传播潜力，适合做深度解读和风险科普。",
-      "source_items": [
-        "In simulated testing, GPT-6 Astra conducted unsanctioned supply-chain attacks...",
-        "An OpenAI agent security executive discusses the Hugging Face incident..."
-      ],
-      "source_urls": [
-        "https://www.techmeme.com/260928/p29",
-        "https://www.techmeme.com/260928/p25",
-        "https://the-decoder.com/anthropics-claude-sonnet-5-5-nearly-matches-opus-5-5-on-benchmarks-while-costing-up-to-30-percent-less-per-task"
-      ],
-      "urgency": "high",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "给你的AI Agent上把锁：5个简单设置，大幅降低“胡作非为”风险",
-          "summary": "面向普通用户，讲解在使用ChatGPT、Claude等AI的Agent或复杂功能时，如何进行安全设置和权限约束。",
-          "key_points": [
-            "设置清晰的系统指令（System Prompt）来划定边界",
-            "禁用不必要的联网、代码执行、文件上传功能",
-            "使用“沙盒”或隔离环境运行不确定的AI任务"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "短视频",
-          "hook": "危险提示词！千万别让AI帮你做这3件事，小心“数字越狱”",
-          "summary": "列举几种可能诱导AI突破安全限制的高风险提示词类型，并解释其潜在危害。",
-          "pitfalls": [
-            "坑点：让AI模拟“黑客”或进行渗透测试",
-            "坑点：要求AI绕过自身的内容安全策略",
-            "坑点：授权AI进行不受监控的自动化金融操作"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "GPT-6“攻击”供应链：是AI失控前兆，还是一场精心设计的压力测试？",
-          "summary": "深度分析该安全测试报告的意义，探讨AI能力与安全性之间的永恒矛盾，以及对未来AI监管的启示。",
-          "insights": [
-            "洞察：能力越强的模型，其“对齐”难度呈指数级上升",
-            "洞察：安全测试从“输出有害内容”转向“执行有害行动”，标志风险升级",
-            "洞察：对企业和开发者的启示：必须将AI安全纳入产品设计核心"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "title": "无脸YouTube频道爆火背后：揭秘AI如何将“幕后工作量”削减80%",
-      "track": "creator_economy",
-      "track_name": "自媒体/创作者经济",
-      "target_audience": "自媒体新人、不想露脸的创作者、对AI运营感兴趣的人",
-      "reason": "完美匹配创作者“不做真人出镜”但“擅长视频剪辑和AI工具”的特点，提供可复制的自动化内容生产策略。",
-      "source_items": [
-        "The Real Workload Behind a Faceless YouTube Channel",
-        "YouTube previews AI-powered Conversational Editing"
-      ],
-      "source_urls": [
-        "https://passionfru.it/the-real-workload-behind-a-faceless-youtube-channel-165897",
-        "https://www.socialmediatoday.com/news/youtube-previews-ai-powered-conversational-editing/831445",
-        "https://influencermarketinghub.com/tracking-influencer-content-at-scale",
-        "https://waytoagi.feishu.cn/wiki/XZ7YwlBgMiKUOVkeG1FcSZ2onNe?from=from_copylink"
+        "http://www.geekpark.net/news/371363",
+        "https://36kr.com/p/4001258625994626?f=rss"
       ],
       "urgency": "medium",
       "viral_potential": "medium",
@@ -342,12 +216,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "视频",
-          "hook": "一个人就是团队：我用AI流水线，一周量产5条高质量解说视频",
-          "summary": "演示从选题、AI生成文案/配音、AI生成视频素材（Kling等）、到用剪映/DaVinci自动化剪辑包装的全套流程。",
+          "hook": "跟我学：用Midjourney + TRAE，零基础设计你的第一件AI潮牌T恤",
+          "summary": "演示如何结合图像生成和文案AI，完成从创意构思到设计图生成的服装设计全流程。",
           "key_points": [
-            "第一步：用ChatGPT批量生成热门选题与爆款脚本结构",
-            "第二步：AI配音工具选择与情绪语调调整技巧",
-            "第三步：利用剪辑软件的AI功能（如自动字幕、智能抠像）快速成片"
+            "用Midjourney生成多种风格的服装图案",
+            "使用TRAE或ChatGPT为设计撰写品牌故事与产品描述",
+            "利用Canva等工具制作商品展示图"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -356,12 +230,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "想做无脸博主？先避开这3个导致“内容同质化”和“没流量”的深坑",
-          "summary": "指出在内容定位、AI工具依赖度和版权风险上，无脸频道容易犯的关键错误。",
+          "hook": "AI创业第一课：不想被告侵权，这些版权雷区千万别踩",
+          "summary": "结合武汉法院将AI生产成本纳入侵权考量的新案例，指出AIGC创业中的知识产权风险。",
           "pitfalls": [
-            "坑点：盲目追逐热点，缺乏独特视角和品牌辨识度",
-            "坑点：过度依赖AI生成，导致内容缺乏“人味”和情感共鸣",
-            "坑点：忽视AI生成素材的版权合规性，面临下架风险"
+            "直接使用AI生成的、可能包含受版权保护元素的图案",
+            "未清晰界定AI生成内容的权利归属就进行商业合作",
+            "忽视对训练数据来源的合规性审查"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -370,12 +244,136 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "当YouTube开始内测“对话式剪辑”，AI将如何重塑内容创作的权力结构？",
-          "summary": "分析YouTube等平台推出AI创作工具对普通创作者、专业机构和平台自身的影响。",
+          "hook": "从“AI做衣服”到“AI定义品牌”：新消费时代的小微企业破局点",
+          "summary": "分析AI如何降低设计、营销门槛，让小微企业和个人品牌有机会挑战传统巨头，并探讨其中商标与品牌建设的关键。",
           "insights": [
-            "洞察：创作门槛降低，竞争从“制作技术”转向“创意与策划”",
-            "洞察：平台通过提供工具更深地绑定创作者，并获取更多数据",
-            "洞察：“人机协作”创作模式将成为新一代创作者的标配技能"
+            "AI如何重构“设计-生产-营销”的传统链条",
+            "小微品牌利用AI实现个性化与快速迭代的优势",
+            "在AI辅助创业初期，提前进行商标布局的战略意义"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "AI版权案尘埃落定？武汉法院新规，教你合法“白嫖”AI训练数据",
+      "track": "trademark_ip",
+      "track_name": "商标/IP/创业",
+      "target_audience": "需要商标注册服务的小微企业主、AIGC创作者、关注版权的个人",
+      "reason": "直接关联创作者商标代理业务，用AIGC剧情向视频解读法律案例，实现高效引流。",
+      "source_items": [
+        "A Wuhan court just made AI production costs a legal factor in copyright infringement cases",
+        "You Can’t Steal Your Way to Fair Use: The Unclean Hands Doctrine and AI Training"
+      ],
+      "source_urls": [
+        "https://the-decoder.com/a-wuhan-court-just-made-ai-production-costs-a-legal-factor-in-copyright-infringement-cases",
+        "https://copyrightalliance.org/ai-piracy-problem-part-four"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "AIGC剧情向视频",
+          "hook": "（剧情）我的AI绘画被告了？别慌，手把手教你准备“合规训练”证据链",
+          "summary": "通过情景剧形式，演示创作者在面临侵权质疑时，如何收集和整理AI工具使用记录、正版素材购买凭证等证据。",
+          "key_points": [
+            "如何系统性地保存AI绘画的提示词与迭代过程",
+            "哪些第三方图库和开源数据集是安全可用的",
+            "制作一份简易的“创作过程说明文档”模板"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "小心赔光！AI创业者最容易忽略的3个合同陷阱",
+          "summary": "指出在与设计师、平台合作时，关于AI生成作品权利约定的常见合同漏洞。",
+          "pitfalls": [
+            "合同未明确AI辅助创作部分的著作权归属",
+            "忽略AI工具服务协议中对生成内容商业化的限制条款",
+            "委托开发时，未约定训练所用数据的知识产权担保"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "“生产成本”入法：中国司法如何为AI创作定价，又将如何影响全球？",
+          "summary": "深度解读武汉法院判例，分析将AI生产成本作为侵权赔偿考量因素，对AI行业、内容产业以及司法实践的深远影响。",
+          "insights": [
+            "此举是承认AI创作价值，还是变相鼓励“用成本换版权”？",
+            "对开源模型训练和独立开发者是利好还是利空？",
+            "预测未来AI相关知识产权纠纷的主要争议焦点"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "无脸YouTube频道爆火背后：揭秘AI全自动剪辑的流量密码",
+      "track": "creator_economy",
+      "track_name": "自媒体/创作者经济",
+      "target_audience": "自媒体新人、不想露脸的创作者、对AI自动化运营感兴趣者",
+      "reason": "结合自媒体运营与AI视频剪辑，完美匹配创作者“高自动化”偏好和视频剪辑能力。",
+      "source_items": [
+        "The Real Workload Behind a Faceless YouTube Channel",
+        "Manus 2.0 lets users edit videos, host multiplayer games, and run agents remotely from their phone"
+      ],
+      "source_urls": [
+        "https://passionfru.it/the-real-workload-behind-a-faceless-youtube-channel-165897",
+        "https://the-decoder.com/manus-2-0-lets-users-edit-videos-host-multiplayer-games-and-run-agents-remotely-from-their-phone"
+      ],
+      "urgency": "low",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "视频",
+          "hook": "懒人包：用ChatGPT+剪映，打造一个日更的AI影视解说频道",
+          "summary": "展示从利用ChatGPT生成解说文案，到使用剪映AI配音、自动剪辑、添加字幕的完整自动化流水线。",
+          "key_points": [
+            "训练ChatGPT写出平台喜欢的“爆款解说”文案结构",
+            "剪映Pro的“AI成片”与“智能字幕”功能深度使用技巧",
+            "设置素材库与模板，实现视频批量化生产"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "别让账号变僵尸！AI全自动剪辑必须绕开的3个平台审核坑",
+          "summary": "指出过度自动化导致内容同质化、机器识别、缺乏互动等问题，并提供优化策略。",
+          "pitfalls": [
+            "AI配音音色单一，被平台判定为低质内容",
+            "完全照搬AI生成的文案，导致原创度低甚至抄袭",
+            "忽视社区互动，账号权重无法提升"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "当AI接管内容生产：无脸博主的兴起与自媒体人格的消亡",
+          "summary": "探讨AI工具如何解构传统的内容创作门槛，以及在这种趋势下，创作者的核心竞争力将转向何处。",
+          "insights": [
+            "AI工具让“创意流水线”成为可能，但也加剧了内容通胀",
+            "未来自媒体的竞争关键：策展能力、社区运营与独特审美",
+            "平台算法如何适应并规训AI生成内容生态"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -384,21 +382,21 @@
     }
   ],
   "weekly_plan": {
-    "monday": "Claude Sonnet 5.5突袭发布！GPT-6最强挑战者？附零成本上手实战指南（实操教程）",
-    "wednesday": "AI生成的图/视频被侵权？武汉法院判例揭示创作者维权新思路（AIGC剧情向视频）",
-    "friday": "别跟风AI副业！工程师用“AI Coding”悄悄提升身价的3个实战路径（实操教程）",
-    "strategy": "本周以“热点技术解读+实用技能教学”为主轴，穿插法律风险（引流）和副业思路（变现）内容，形成闭环。"
+    "monday": "AI视频革命再起！可灵4.0实测：小白如何用国产工具做出爆款视频？",
+    "wednesday": "Claude 5.5 vs GPT-6：神仙打架，普通人如何用AI兼职赚钱？",
+    "friday": "AI版权案尘埃落定？武汉法院新规，教你合法“白嫖”AI训练数据",
+    "strategy": "本周聚焦“热点工具实战”与“AI变现风险”，以实操引流，以深度建立专业形象，穿插知识产权软广。"
   },
-  "insights": "今日信息流显示，AI模型竞争进入“性价比”白热化阶段（Claude Sonnet 5.5），同时AI安全（GPT-6测试）和AIGC法律问题（武汉判例）成为新的热点与风险焦点。",
-  "ai_adjustment": "基于用户反馈“对新模型、新工具比较感兴趣”和“Harness是热点”，本次推荐重点围绕Claude Sonnet 5.5等新模型发布，并强化了实操教程角度；同时结合其商标代理业务，设计了AIGC版权判例的剧情向选题进行引流。",
-  "generated_at": "2026-09-29T05:08:12.380604+08:00",
-  "total_items": 439,
-  "scored_items": 367,
+  "insights": "今日信息流显示，AI模型竞争白热化（Claude 5.5 vs GPT-6），AI视频生成工具迭代迅猛（可灵4.0），同时AI安全与版权法律问题日益凸显，为创作者提供了结合热点、工具教学与风险警示的丰富选题空间。",
+  "ai_adjustment": "基于用户反馈，重点推荐了用户感兴趣的“Harness”（扩展为Agent安全选题）和“新模型”相关选题，并避免了纯硬件内容，增加了AIGC剧情向视频的引流应用。",
+  "generated_at": "2026-09-29T18:24:58.328626+08:00",
+  "total_items": 567,
+  "scored_items": 481,
   "tracks_summary": {
-    "ai_tech": 331,
+    "ai_tech": 442,
+    "ai_video": 15,
     "trademark_business": 10,
     "growth_monetize": 6,
-    "ai_video": 12,
     "creator_economy": 8
   },
   "engine_version": "v2",
