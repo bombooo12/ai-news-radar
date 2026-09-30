@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T19:48:27.889460Z",
+  "generated_at": "2026-09-30T10:12:15.849805Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_632fc8ebf5dc",
-      "title": "Introducing GPT-6.1 Sol",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "story_id": "story_024f628f3f4f",
+      "title": "OpenAI 推出 Codex 云环境，可复用配置并跨设备跟进任务 / Run Codex tasks in reusable cloud environments, then follow progress and steer them from your phone or another computer:",
+      "url": "https://x.com/OpenAIDevs/status/2105073633731461197",
       "rank": 1,
       "reviews": {
         "cynic": {
           "score": 65,
-          "review": "版本号小数点后加个1，这“重大更新”的诚意，跟版本号一样含蓄。"
+          "review": "复用配置是刚需，但‘跨设备跟进’不就是网页版换个说法？"
         },
         "paper-police": {
           "score": 15,
-          "review": "仅有官方博客宣称，无论文、代码或独立评测，证据不足。"
+          "review": "仅有官方推文宣称功能，无论文、代码或独立评测佐证。"
         },
         "pragmatic": {
-          "score": 95,
-          "review": "新模型已发布，API可调用，性能提升直接影响项目选型。"
+          "score": 88,
+          "review": "云环境复用配置，手机也能跟进任务，提升开发调试效率。"
         }
       }
     },
     {
-      "story_id": "story_83e2e2180846",
-      "title": "圆点 / Introducing dots",
-      "url": "https://openai.com/index/introducing-dots",
+      "story_id": "story_029576264b8e",
+      "title": "OpenAI 发布 GPT-6.1 Sol，以约五分之一价格接近 GPT-6 Astra 智能 / Introducing GPT-6.1 Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "又一个‘重新构想’的交互界面，功能亮点还是得看API怎么开放。"
+          "score": 75,
+          "review": "价格砍到五分之一是实打实的，但‘接近’是个弹性词，具体差多少没说。"
         },
         "paper-police": {
-          "score": 15,
-          "review": "仅为官方博客宣称，无论文、代码或可复现的评测基准。"
+          "score": 45,
+          "review": "官网公布评测数字但未开源，无法独立验证性能宣称。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "OpenAI发布新AI工具，开发者现在就能去官网试用和集成。"
+          "review": "新模型API已上线，成本骤降，做预算和选型可以立刻评估。"
         }
       }
     },
     {
-      "story_id": "story_5e8fdb7e624e",
-      "title": "GPT-6.1 Sol in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot",
+      "story_id": "story_3b1c935eea0a",
+      "title": "OpenAI 发布常驻智能体 dots，由 GPT-6 Astra 驱动 / Introducing dots",
+      "url": "https://openai.com/index/introducing-dots",
       "rank": 3,
       "reviews": {
         "cynic": {
           "score": 75,
-          "review": "版本号加个.1，实际提升得看开发者用起来骂不骂娘。"
+          "review": "GPT-6驱动听着唬人，但常驻智能体能干啥、成本多高，发布会可没说。"
         },
         "paper-police": {
           "score": 15,
-          "review": "官方博客宣称性能，无论文无代码无第三方评测，证据不足。"
+          "review": "仅有官方博客宣称，无论文、代码及可复现的基准评测。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "GitHub Copilot 核心模型升级，开发者今天写代码就能感受到变化。"
+          "review": "OpenAI发布新智能体产品，开发者现在就能试用GPT-6驱动的工具。"
         }
       }
     }
