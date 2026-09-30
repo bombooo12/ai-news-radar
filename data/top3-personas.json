@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T10:12:15.849805Z",
+  "generated_at": "2026-09-30T19:48:26.140975Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,10 +17,30 @@
   ],
   "items": [
     {
+      "story_id": "story_855109885f33",
+      "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+      "url": "https://huggingface.co/blog/open-tts-leaderboard",
+      "rank": 1,
+      "reviews": {
+        "cynic": {
+          "score": 82,
+          "review": "开源评测框架是好事，但‘可扩展’和‘多语言’的具体基准和覆盖度呢？"
+        },
+        "paper-police": {
+          "score": 85,
+          "review": "官方博客发布评测基准，方法公开可参与，但模型本身需独立验证。"
+        },
+        "pragmatic": {
+          "score": 88,
+          "review": "开源TTS评估平台上线，选型时可直接对比多语言和音色克隆效果。"
+        }
+      }
+    },
+    {
       "story_id": "story_024f628f3f4f",
       "title": "OpenAI 推出 Codex 云环境，可复用配置并跨设备跟进任务 / Run Codex tasks in reusable cloud environments, then follow progress and steer them from your phone or another computer:",
       "url": "https://x.com/OpenAIDevs/status/2105073633731461197",
-      "rank": 1,
+      "rank": 2,
       "reviews": {
         "cynic": {
           "score": 65,
@@ -37,42 +57,22 @@
       }
     },
     {
-      "story_id": "story_029576264b8e",
-      "title": "OpenAI 发布 GPT-6.1 Sol，以约五分之一价格接近 GPT-6 Astra 智能 / Introducing GPT-6.1 Sol",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 75,
-          "review": "价格砍到五分之一是实打实的，但‘接近’是个弹性词，具体差多少没说。"
-        },
-        "paper-police": {
-          "score": 45,
-          "review": "官网公布评测数字但未开源，无法独立验证性能宣称。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "新模型API已上线，成本骤降，做预算和选型可以立刻评估。"
-        }
-      }
-    },
-    {
-      "story_id": "story_3b1c935eea0a",
-      "title": "OpenAI 发布常驻智能体 dots，由 GPT-6 Astra 驱动 / Introducing dots",
-      "url": "https://openai.com/index/introducing-dots",
+      "story_id": "story_dd1cd653606b",
+      "title": "Perplexity 开放 Computer 邮件委托入口并限时免费运行任务 / We're opening access to anyone (no Perplexity account needed), and we will run all tasks delegated via email for free for a limited time....",
+      "url": "https://x.com/AravSrinivas/status/2105369479190601754",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 75,
-          "review": "GPT-6驱动听着唬人，但常驻智能体能干啥、成本多高，发布会可没说。"
+          "score": 60,
+          "review": "邮件入口听着像临时工位，限时免费就是催你快点来当测试员。"
         },
         "paper-police": {
-          "score": 15,
-          "review": "仅有官方博客宣称，无论文、代码及可复现的基准评测。"
+          "score": 35,
+          "review": "仅有官方推文宣称功能开放，无论文、代码或独立评测佐证。"
         },
         "pragmatic": {
-          "score": 85,
-          "review": "OpenAI发布新智能体产品，开发者现在就能试用GPT-6驱动的工具。"
+          "score": 88,
+          "review": "无需账号，今天就能通过邮件免费试用其AI计算机功能，直接上手体验。"
         }
       }
     }

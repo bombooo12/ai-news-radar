@@ -1,24 +1,23 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "recommendations": [
     {
       "rank": 1,
-      "title": "GPT-6.1 Sol和Claude 5.5大乱斗，AI小白如何选？手把手教你对比测评",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、想用AI提升效率的个人、对模型选择困惑的用户",
-      "reason": "结合OpenAI和Anthropic最新发布，符合创作者对新工具的兴趣，能做成实操性强的测评和避坑内容，易传播。",
+      "title": "AI视频剪辑革命：Instagram推出对话式AI助手，小白也能一键出大片",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "AI初学者、视频剪辑小白、自媒体创作者",
+      "reason": "热点工具发布，符合创作者AI视频剪辑包装能力，实操性强，易传播。",
       "source_items": [
-        "OpenAI 发布 GPT-6.1 Sol，强化智能体编码与 computer use",
-        "Anthropic抢在OpenAI开发者大会前甩出Claude Sonnet 5.5，一半价格逼近Opus、还通关了宝可梦",
-        "实测Claude Sonnet 5.5，做AI代码动画这块断档领先gpt6但3D拉了"
+        "Instagram rolls out a conversational AI video editing assistant for Edits, its dedicated CapCut competitor",
+        "Instagram rolls out an AI video assistant for creators",
+        "Meta introduces a new AI assistant for its Instagram creators"
       ],
       "source_urls": [
-        "https://x.com/OpenAIDevs/status/2104993035507712318",
-        "https://www.aibase.com/news/31403",
-        "https://waytoagi.feishu.cn/wiki/PgWywvBBmiViP9k4AuhcR1Fnnfd?from=from_copylink",
-        "https://www.techmeme.com/260929/p42",
-        "https://waytoagi.feishu.cn/wiki/YLjRwmvnViaNFQkI0zgcjNynnkg?from=from_copylink"
+        "https://www.techmeme.com/260930/p30",
+        "https://techcrunch.com/2026/09/30/instagram-rolls-out-an-ai-video-assistant-for-creators",
+        "https://www.engadget.com/2273111/meta-introduces-a-new-ai-assistant-for-its-instagram-creators",
+        "https://x.com/rauchg/status/2105043144975011982"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -27,78 +26,75 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "视频",
-          "hook": "新手必看！5分钟学会用GPT-6.1 Sol和Claude 5.5，哪个更适合你？",
-          "summary": "教用户如何快速上手并对比两大新模型在写作、编程、分析等常见任务上的表现。",
+          "hook": "零基础上手！用Instagram AI剪辑助手，5分钟剪出爆款短视频",
+          "summary": "手把手教你使用Instagram新推出的AI视频编辑助手，完成一个完整的短视频剪辑。",
           "key_points": [
-            "分别注册/登录OpenAI和Anthropic平台",
-            "设计一套标准测试任务（如写邮件、改代码、分析数据）",
-            "录制屏幕对比展示两者的回答速度、质量和风格差异"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "别乱花钱！GPT-6.1 Sol和Claude 5.5的三大隐藏陷阱",
-          "summary": "指出在订阅费用、使用场景、输出稳定性方面新手容易踩的坑。",
-          "pitfalls": [
-            "价格陷阱：GPT-6.1 Sol的token计费方式与Claude订阅制哪个更划算？",
-            "场景错配：哪些任务GPT更强，哪些Claude有优势？别用错工具",
-            "输出幻觉：新模型依然会“胡说”，如何设置提示词降低风险"
+            "如何找到并激活Instagram AI剪辑助手",
+            "用自然语言指令完成剪辑、转场、配乐",
+            "导出并发布视频的完整流程"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
         },
         {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "别浪费功能！Instagram AI剪辑助手的3大隐藏陷阱和5个高效指令",
+          "summary": "指出新手使用AI剪辑时常见的指令模糊、效果不达预期等问题，并提供精准指令模板。",
+          "pitfalls": [
+            "指令太模糊导致AI理解偏差",
+            "过度依赖AI忽视基础剪辑逻辑",
+            "忽略平台适配导致画质压缩"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "10分钟"
+        },
+        {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "价格战背后的逻辑：OpenAI和Anthropic为何在此时“贴身肉搏”？",
-          "summary": "分析两大巨头接连发布新模型的战略意图、对AI市场格局的影响及对普通用户的长期价值。",
+          "hook": "Meta的阳谋：AI剪辑助手如何重塑创作者生态与挑战剪映",
+          "summary": "分析Instagram推出AI剪辑助手背后的战略意图，以及对剪映等工具和视频创作者的影响。",
           "insights": [
-            "从定价策略看AI模型商品化趋势：性能趋同，价格成关键",
-            "“智能体”能力成为新战场，对开发者生态意味着什么？",
-            "对AI初学者而言，竞争加剧是利好（成本下降、选择更多）还是挑战（学习成本增加）？"
+            "Meta通过AI工具进一步绑定创作者生态",
+            "对话式交互降低创作门槛，可能催生新内容形态",
+            "对剪映等独立工具构成“平台降维打击”"
           ],
           "difficulty": "中级",
-          "estimated_time": "1小时"
+          "estimated_time": "45分钟"
         }
       ]
     },
     {
       "rank": 2,
-      "title": "AI智能体“Dots”来了！不用写代码，打造你的24小时在线AI员工",
+      "title": "AI Agent回归测试指南：OpenRouter教你如何安全升级提示词与模型",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、想用AI自动化工作流程的个人、小微创业者",
-      "reason": "OpenAI新发布的“常驻智能体”是热点，符合创作者对Agent/Skill实践的偏好，可做无需代码的实操教程，引流潜力大。",
+      "target_audience": "AI初学者、对Agent/Skill感兴趣的开发者、想稳定使用AI的个人",
+      "reason": "用户对Harness等新工具感兴趣，此选题实操性强，涉及Agent实践，有数据驱动说服力。",
       "source_items": [
-        "OpenAI 发布常驻智能体 dots，由 GPT-6 Astra 驱动",
-        "Dots: Always-on agents",
-        "OpenAI 刚刚公开了 GPT-6 Astra 的提示词写法"
+        "OpenRouter 教程：提示词或模型变更后如何对 AI Agent 做回归测试",
+        "Google drops Gems for Skills, joining OpenAI and Anthropic in the shift to agent-ready prompt formats"
       ],
       "source_urls": [
-        "https://openai.com/index/introducing-dots",
-        "https://openai.com/index/introducing-dots",
-        "https://waytoagi.feishu.cn/wiki/YLjRwmvnViaNFQkI0zgcjNynnkg?from=from_copylink",
         "https://openrouter.ai/blog/tutorials/ai-agent-regression-testing-after-a-prompt-or-model-change",
+        "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats",
         "https://www.meetup.com/claude-code-enthusiasts-evening-social-club/events/316700842"
       ],
-      "urgency": "high",
-      "viral_potential": "high",
+      "urgency": "medium",
+      "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频",
-          "hook": "三步打造你的第一个Dots智能体：自动整理邮件+生成日报",
-          "summary": "教用户如何利用Dots的图形化界面，无需编程创建能处理重复任务的AI智能体。",
+          "format": "图文",
+          "hook": "保姆级教程：给你的AI Agent做“体检”，确保提示词升级不出错",
+          "summary": "一步步教用户使用OpenRouter的方法，为自己的AI Agent设置简单的回归测试流程。",
           "key_points": [
-            "登录OpenAI平台，找到并进入Dots功能界面",
-            "通过拖拽和配置，设定智能体的触发条件（如新邮件）和执行动作（如总结、分类）",
-            "测试并部署你的Dots智能体，实现自动化流程"
+            "在OpenRouter上创建测试数据集（输入-期望输出对）",
+            "配置新旧提示词/模型的对比测试任务",
+            "解读测试报告，判断升级是否安全"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -107,12 +103,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "小心！Dots智能体用不好，反而会泄露隐私和制造混乱",
-          "summary": "指出在设置权限、任务边界、数据安全方面使用Dots时需要注意的风险。",
+          "hook": "AI Agent升级翻车现场：忽视这3点，你的自动化工作流可能崩溃",
+          "summary": "列举在修改Agent提示词或切换模型时，容易导致输出不稳定或功能失效的常见错误。",
           "pitfalls": [
-            "权限过度开放：让智能体访问过多数据可能导致信息泄露",
-            "任务定义模糊：导致智能体执行错误操作或陷入死循环",
-            "成本失控：常驻智能体可能在不经意间消耗大量API费用"
+            "只测简单案例，忽略边界情况",
+            "未考虑模型间的输出格式差异",
+            "忽略API成本在测试中的激增"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -121,12 +117,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "“常驻智能体”是未来吗？Dots如何重新定义人机协作",
-          "summary": "分析Dots代表的技术趋势，及其对个人工作效率、中小企业运营模式可能带来的变革。",
+          "hook": "从Gems到Skills：为什么大厂都在推动“Agent就绪”的提示词格式？",
+          "summary": "解读Google、OpenAI等公司统一Agent提示格式背后的行业趋势和技术逻辑。",
           "insights": [
-            "从“问答式”到“代理式”：AI交互范式的根本转变",
-            "Dots如何降低AI应用门槛，让非技术用户也能享受自动化红利",
-            "结合商标/IP业务，探讨AI智能体未来在知识产权监控、客户服务等场景的应用潜力"
+            "标准化是为了降低Agent开发与集成的复杂度",
+            "预示着AI应用将从单次对话走向复杂工作流",
+            "对个人开发者而言，是机遇也是新的学习门槛"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -135,19 +131,19 @@
     },
     {
       "rank": 3,
-      "title": "用AI一键生成爆款视频！AI SDK爆火，30M周下载量的秘密",
+      "title": "AIGC剧情引流实战：用AI视频为商标代理公司讲一个“品牌保护”故事",
       "track": "ai_video",
       "track_name": "AI视频/剪辑包装",
-      "target_audience": "自媒体创作者、视频剪辑新手、对AI视频工具感兴趣的小白",
-      "reason": "AI视频生成是热点，SDK下载量巨大说明需求旺盛。符合创作者视频剪辑高熟练度及AI视频赛道偏好，可做高自动化剧情向内容。",
+      "target_audience": "需要商标服务的小微企业主、对AIGC剧情内容感兴趣的观众",
+      "reason": "完美匹配创作者AIGC剧情向引流偏好，将AI能力与主营业务（商标代理）结合，实现精准获客。",
       "source_items": [
-        "AI SDK has hit 30M weekly downloads. One-shotted this video...",
-        "AI researchers put out videos saying superintelligence is ‘exactly as dangerous as it sounds’"
+        "Runway’s AI Video Agent Creates and Measures Ads Across Platforms",
+        "heygen-com / hyperframes"
       ],
       "source_urls": [
-        "https://x.com/rauchg/status/2105043144975011982",
-        "https://www.theverge.com/ai-artificial-intelligence/1002238/openai-google-anthropic-ai-researchers-safety-interviews",
-        "https://www.macrumors.com/2026/09/29/iphone-18-pro-speaker-crackling"
+        "https://www.adweek.com/programmatic/runways-ai-video-agent-creates-and-measures-ads-across-platforms",
+        "https://github.com/heygen-com/hyperframes",
+        "https://www.managingip.com/article/2gynwnxdxlhhip9swmneo/sponsored-content/the-convergence-of-ip-data-and-ai-regulation-managing-assets-for-advantage"
       ],
       "urgency": "medium",
       "viral_potential": "high",
@@ -156,94 +152,91 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "视频",
-          "hook": "剪映Pro+AI工具联动，10分钟产出一条口播视频（无需真人出镜）",
-          "summary": "教用户如何利用AI生成脚本、AI生成声音、AI生成素材，并用剪映快速剪辑成片。",
+          "hook": "不露脸不实拍！我用Runway+剪映，3小时做出商标维权主题的AIGC短片",
+          "summary": "展示从创意到成片的完整流程，用AI工具生成角色、场景和剧情，完成一个品牌保护主题的短视频。",
           "key_points": [
-            "用ChatGPT生成短视频口播文案和分镜提示",
-            "用文本转语音工具（如ElevenLabs）生成配音",
-            "用AI绘画工具生成或修改视频背景素材，在剪映中完成合成与包装"
+            "用提示词在Runway生成连贯的剧情片段",
+            "在剪映中完成配音、字幕和节奏剪辑",
+            "植入商标代理服务的引流钩子"
           ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "difficulty": "中级",
+          "estimated_time": "3小时"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI做视频的三大雷区：版权、违和感、平台审核",
-          "summary": "指出AI生成视频在素材版权、音画协调性、以及各平台内容审核规则上的常见问题。",
+          "hook": "AIGC剧情视频五大坑：角色崩坏、剧情跳跃，这样解决最有效",
+          "summary": "分享制作AIGC剧情视频时，在角色一致性、剧情逻辑、版权风险上的常见问题与解决方案。",
           "pitfalls": [
-            "版权陷阱：随意使用AI生成的图片/音乐可能侵权",
-            "“恐怖谷”效应：AI生成的人像或动作不自然，影响观感",
-            "被平台限流：不了解抖音/B站对AI生成内容的标注要求可能导致推荐下降"
+            "AI生成的角色在不同镜头中形象不一致",
+            "片段间剧情跳跃，缺乏连贯性",
+            "误用有版权风险的AI生成素材"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI视频工具爆发，是自媒体人的福音还是“内卷”加速器？",
-          "summary": "分析AI视频工具普及对内容创作门槛、内容同质化、创作者价值的影响。",
+          "hook": "当AI学会讲故事：AIGC剧情视频如何重塑知识付费与服务业获客",
+          "summary": "分析AIGC剧情视频在降低内容生产成本、提升专业服务（如法律、商标）传播效率方面的潜力。",
           "insights": [
-            "工具民主化：每个人都能做视频，但“创意”和“人设”变得更重要",
-            "效率与质量的悖论：AI提升了产量，但如何保持内容独特性？",
-            "结合商标/IP业务，探讨AIGC剧情向视频在品牌宣传和引流中的独特优势与合规边界"
+            "AIGC让“专业服务可视化”门槛大幅降低",
+            "剧情化内容比干巴巴的科普更容易引发共鸣和传播",
+            "为商标/IP等传统行业提供了全新的线上营销范式"
           ],
           "difficulty": "中级",
-          "estimated_time": "1小时"
+          "estimated_time": "45分钟"
         }
       ]
     },
     {
       "rank": 4,
-      "title": "你的AIGC作品能注册商标吗？AI时代必须知道的IP新规则",
-      "track": "trademark_ip",
-      "track_name": "商标/IP/创业",
-      "target_audience": "AIGC创作者、小微创业者、需要商标注册服务的企业主",
-      "reason": "完美结合创作者AI赛道和商标代理业务，用AIGC剧情向视频引流，符合“能做”的偏好方向，兼具科普和商业价值。",
+      "title": "OpenAI DevDay 2026全解析：从GPT-6.1到500美元套餐，小白应该关注什么？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、关注OpenAI动态的科技爱好者、想用AI变现的个人",
+      "reason": "重大事件复盘，信息量大，适合做深度解读和避坑指南，满足用户对新模型、新工具的兴趣。",
       "source_items": [
-        "The convergence of IP, data, and AI regulation: managing assets for advantage",
-        "A Designer Says Lego Recreated His Jacket for a ‘Queer Eye’ Set. Now a Copyright Case Is Headed Toward Trial",
-        "中文在线：拟定增募资不超28.33亿元用于数字版权及AI项目"
+        "OpenAI DevDay 2026 发布 Dots、GPT-6.1 Sol、500美元订阅等一揽子更新",
+        "GPT-6.1 Sol (Max) 以 1759 分登上 Code Arena: WebDev 第 3 名",
+        "OpenAI 牵手亚马逊云服务 AWS：重磅布局托管智能体"
       ],
       "source_urls": [
-        "https://www.managingip.com/article/2gynwnxdxlhhip9swmneo/sponsored-content/the-convergence-of-ip-data-and-ai-regulation-managing-assets-for-advantage",
-        "https://www.inc.com/lucia-auerbach/designer-says-lego-recreated-jacket-queer-eye-set-copyright-case-headed-toward-trial/91411433",
-        "https://36kr.com/newsflashes/4005674535047041?f=rss",
-        "https://copyrightalliance.org/usco-celebrates-50-anniversary-copyright-act",
-        "https://legalblogs.wolterskluwer.com/patent-blog/patents-are-not-brands-four-patent-specific-fixes-for-the-european-innovation-act"
+        "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686841&idx=1&sn=630c0dc22de47c9c2f58bd5253a91a9a&chksm=f1e33576f80f214c7290b1545cc8bfbb32ac24c3144cd141b7c2dd7cdaaf71f44d3cf319db8b&scene=126&sessionid=1790722837",
+        "https://x.com/arena/status/2105367591174995999",
+        "https://www.aibase.com/news/31427",
+        "https://www.aibase.com/news/31436"
       ],
-      "urgency": "medium",
-      "viral_potential": "medium",
+      "urgency": "high",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频（AIGC剧情向）",
-          "hook": "AI画了个Logo，想注册却悲剧了？三步教你自查AIGC商标风险",
-          "summary": "通过一个虚拟的AI设计师创业故事，演示如何初步判断AI生成的设计能否申请商标。",
+          "format": "图文",
+          "hook": "手把手申请体验GPT-6.1 Sol：普通人如何第一时间尝鲜最强代码模型？",
+          "summary": "指导用户如何通过Arena等平台申请或体验最新发布的GPT-6.1 Sol模型，并进行简单测试。",
           "key_points": [
-            "用AI工具生成几个Logo设计，作为案例素材",
-            "讲解商标审查的“显著性”原则，对比AI设计是否达标",
-            "演示如何在商标局官网进行简单的近似查询（模拟流程）"
+            "访问Arena平台并找到GPT-6.1 Sol测试入口",
+            "准备一个简单的代码任务进行测试",
+            "对比与GPT-4等模型的输出差异"
           ],
           "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI创作版权“黑洞”：这些情况下，你生成的作品可能不属于你",
-          "summary": "明确指出使用不同AI工具时，在版权归属和商用权限上可能遇到的陷阱。",
+          "hook": "别急着付500美元！OpenAI新套餐的隐藏成本与适合人群分析",
+          "summary": "分析500美元Pro套餐的性价比，指出哪些人真的需要，哪些人可能是过度消费。",
           "pitfalls": [
-            "平台条款坑：免费AI工具生成的作品，版权可能归平台所有",
-            "训练数据坑：你的AI作品若与现有作品过于相似，可能构成侵权",
-            [
-              "开源模型坑：商用“开源”模型生成的内容，仍需仔细审查其许可证条款"
-            ]
+            "高估自身对高端模型的需求，造成浪费",
+            "忽略托管智能体可能产生的额外AWS费用",
+            "对“企业级支持”的期待与实际服务的落差"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -252,14 +245,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "IP、数据与AI监管融合：未来企业的核心资产如何管理？",
-          "summary": "结合行业报告和案例，深入分析在AI时代，企业应如何战略性地管理知识产权和数据资产。",
+          "hook": "安全与扩张的悖论：从GPT-6.1 Astra搁浅看OpenAI的路线困境",
+          "summary": "结合《纽约时报》的爆料，深度分析OpenAI在追求模型能力极限与保障安全性、合规性之间的冲突与挑战。",
           "insights": [
-            "从“保护创意”到“运营数据”：知识产权内涵的扩展",
-            "AI生成物的可版权性争议，对内容产业和司法实践的长远影响",
-            [
-              "给小微创业者的建议：在AI辅助创作初期，就应建立简单的IP管理意识与流程"
-            ]
+            "模型能力越强，安全风险评估越复杂，成本越高",
+            "外部监管压力和内部安全文化的冲突可能拖慢创新",
+            "这对整个行业意味着“野蛮生长”时代的结束"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -268,18 +259,19 @@
     },
     {
       "rank": 5,
-      "title": "OpenAI插件大升级！不用编程，普通人也能打造专属ChatGPT",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、想个性化使用ChatGPT的用户、对自动化感兴趣的个人",
-      "reason": "OpenAI插件更新是技术热点，新推出的Plugin Creator工具极大降低了使用门槛，符合创作者对实操和教程内容的定位。",
+      "title": "AI副业新思路：用Runway视频Agent，为小商家批量制作跨平台广告",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "想用AI变现的个人、小微企业主、自媒体创作者",
+      "reason": "结合副业变现与AI视频热点，提供可操作的变现思路，符合创作者“副业变现思路”的内容范畴。",
       "source_items": [
-        "OpenAI expands ChatGPT plugins with interactive panels and file viewers, launches a Plugin Creator tool, and adds MCP Events support for plugin automations (Sarah Perez/TechCrunch)"
+        "Runway’s AI Video Agent Creates and Measures Ads Across Platforms",
+        "Instagram rolls out a conversational AI video editing assistant for Edits"
       ],
       "source_urls": [
-        "https://www.techmeme.com/260929/p41",
-        "https://openrouter.ai/blog/tutorials/ai-agent-regression-testing-after-a-prompt-or-model-change",
-        "https://waytoagi.feishu.cn/wiki/YLjRwmvnViaNFQkI0zgcjNynnkg?from=from_copylink"
+        "https://www.adweek.com/programmatic/runways-ai-video-agent-creates-and-measures-ads-across-platforms",
+        "https://www.techmeme.com/260930/p30",
+        "https://startupnation.com/start-your-business/beyond-hustle-5-essential-business-protections-every-first-time-founder-needs-to-know"
       ],
       "urgency": "medium",
       "viral_potential": "medium",
@@ -288,26 +280,91 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "视频",
-          "hook": "零代码！用Plugin Creator为ChatGPT加一个“行业资料库”",
-          "summary": "教用户如何使用图形化的Plugin Creator，将常用网页或文档变成ChatGPT可调用的插件。",
+          "hook": "接单实战：如何用Runway AI视频Agent，一天搞定5个店铺的节日促销视频",
+          "summary": "模拟接单场景，展示利用Runway的AI视频Agent功能，高效为不同客户生成定制化广告视频的流程。",
           "key_points": [
-            "在ChatGPT设置中启用并进入Plugin Creator",
-            "通过输入网址或上传文档，定义插件的知识范围",
-            "测试插件功能，让ChatGPT基于你的专属资料回答问题"
+            "根据客户需求（如餐饮、零售）准备文本脚本和风格参考",
+            "使用Runway Agent生成多版本视频素材",
+            "快速剪辑适配抖音、小红书等不同平台格式"
           ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "difficulty": "中级",
+          "estimated_time": "45分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "插件虽好，可别乱装！ChatGPT插件安全使用三原则",
-          "summary": "提醒用户安装和使用第三方插件时，在数据隐私、账号安全和功能可靠性上需要注意的事项。",
+          "hook": "AI接单做广告？这3类客户需求千万别接，否则血本无归",
+          "summary": "指出在利用AI工具接视频广告单时，容易导致投诉或返工的高风险客户类型和要求。",
           "pitfalls": [
-            "隐私泄露风险：插件可能会读取你的对话历史或上传的文件",
-            "恶意插件：来源不明的插件可能有安全漏洞或后门",
-            "功能冲突：安装过多插件可能导致ChatGPT响应变慢或出错"
+            "要求高度写实、涉及真人肖像的广告",
+            "对品牌logo、产品细节有像素级精确要求",
+            "预算极低但期望值极高的客户"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "10分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "“AI视频代工厂”崛起：Runway Agent如何重塑小型广告制作生态",
+          "summary": "分析AI视频生成工具进入广告领域，对传统小型视频工作室、个人创作者带来的冲击与机遇。",
+          "insights": [
+            "AI将吃掉低端、模板化的视频广告市场",
+            "个人创作者的竞争力从“执行”转向“创意策划与AI调教”",
+            "催生专注于AI视频提示词优化和流程管理的服务商"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "40分钟"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "AIGC时代的版权迷局：你的AI作品，到底属于谁？",
+      "track": "商标/IP/创业",
+      "track_name": "商标/IP/创业",
+      "target_audience": "AI创作者、需要商标/IP服务的小微企业主、对版权感兴趣的内容生产者",
+      "reason": "结合热点版权争议与创作者商标代理背景，用AIGC剧情视频形式科普，实现专业引流。",
+      "source_items": [
+        "Why copyright makes no sense",
+        "中文在线：拟定增募资不超28.33亿元用于数字版权及AI项目",
+        "The convergence of IP, data, and AI regulation: managing assets for advantage"
+      ],
+      "source_urls": [
+        "https://www.youtube.com/watch?v=QVkeJI2feyQ",
+        "https://36kr.com/newsflashes/4005674535047041?f=rss",
+        "https://www.managingip.com/article/2gynwnxdxlhhip9swmneo/sponsored-content/the-convergence-of-ip-data-and-ai-regulation-managing-assets-for-advantage",
+        "https://legalblogs.wolterskluwer.com/patent-blog/close-but-no-cigar-even-finding-a-new-way-of-clearing-the-rule-106-hurdle-was-not-enough-in-r-624"
+      ],
+      "urgency": "low",
+      "viral_potential": "high",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "视频",
+          "hook": "三步自保：AI生成图片/视频发布前，这样操作避免版权纠纷",
+          "summary": "教给创作者一套简易流程，在使用和发布AI生成内容时，尽可能降低侵权风险。",
+          "key_points": [
+            "核查所用AI工具的版权政策（商用授权）",
+            "对生成结果进行显著性二次创作",
+            "保留完整的生成过程记录以备争议"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "小心被告！用AI做自媒体最容易踩的4个版权雷区",
+          "summary": "明确指出AI创作在字体、音乐、肖像、风格模仿等方面的具体版权风险点。",
+          "pitfalls": [
+            "直接使用AI生成的“免费”商用字体",
+            "用AI模仿特定艺术家风格并用于商业宣传",
+            "未获授权将AI生成的“虚拟人”形象用于产品代言"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -316,12 +373,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从“工具集合”到“生态平台”：ChatGPT插件进化的战略意义",
-          "summary": "分析OpenAI大力推广插件生态，对其构建AI应用商店、巩固平台地位的深远影响。",
+          "hook": "当法律追不上技术：AIGC如何挑战百年版权法基石？",
+          "summary": "从法理和案例角度，探讨AIGC在“原创性”、“作者身份”认定上给现有版权体系带来的根本性挑战。",
           "insights": [
-            "降低开发门槛：Plugin Creator如何吸引海量长尾开发者丰富生态？",
-            "MCP Events支持意味着什么？向更复杂的自动化工作流迈进",
-            "对普通用户的价值：从使用通用AI，到拥有高度定制化的个人AI助手"
+            "AI生成物的“创作主体”模糊，动摇了版权法的基础",
+            "训练数据版权问题成为全球诉讼焦点，结果将影响AI行业走向",
+            "未来可能诞生全新的“AI生成内容许可”体系"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -330,22 +387,22 @@
     }
   ],
   "weekly_plan": {
-    "monday": "GPT-6.1 Sol和Claude 5.5大乱斗，AI小白如何选？手把手教你对比测评",
-    "wednesday": "AI智能体“Dots”来了！不用写代码，打造你的24小时在线AI员工",
-    "friday": "你的AIGC作品能注册商标吗？AI时代必须知道的IP新规则",
-    "strategy": "本周聚焦“新工具实操”与“AI+IP”结合，以高实操性内容吸引AI初学者，并用专业IP内容自然引流商标业务。"
+    "monday": "AI视频剪辑革命：Instagram推出对话式AI助手，小白也能一键出大片（实操教程）",
+    "wednesday": "OpenAI DevDay 2026全解析：从GPT-6.1到500美元套餐，小白应该关注什么？（避坑指南）",
+    "friday": "AIGC剧情引流实战：用AI视频为商标代理公司讲一个“品牌保护”故事（实操教程）",
+    "strategy": "本周聚焦“AI视频工具热”与“OpenAI大事件”，以实操和避坑内容吸引初学者，并用AIGC剧情视频实现主业软性引流。"
   },
-  "insights": "今日信息流显示，AI巨头（OpenAI、Anthropic）竞争白热化，密集发布新模型和智能体产品，且更注重降低使用门槛（如Dots、Plugin Creator），这为面向初学者的实操教程提供了绝佳素材。",
-  "ai_adjustment": "基于用户反馈“对新模型、新工具比较感兴趣”及“Harness是热点”，本次推荐重点围绕最新发布的GPT-6.1 Sol、Claude 5.5、Dots智能体及AI视频SDK等工具展开，并强化了实操教程角度。",
-  "generated_at": "2026-09-30T18:15:34.010947+08:00",
-  "total_items": 567,
-  "scored_items": 477,
+  "insights": "今日信息流显示，AI正从“对话工具”全面转向“工作流与创作代理”，视频剪辑、广告制作、代码开发等领域涌现出大量降低实操门槛的AI助手，为创作者提供了丰富的内容和变现选题。",
+  "ai_adjustment": "基于用户对“Harness热点”、“新模型新工具感兴趣”的反馈，本次推荐加强了对DeepSeek Harness相关技术趋势（如Agent回归测试）和OpenAI最新模型动态的选题覆盖，并避免硬件相关推荐。",
+  "generated_at": "2026-10-01T03:53:21.025399+08:00",
+  "total_items": 454,
+  "scored_items": 376,
   "tracks_summary": {
-    "ai_tech": 439,
-    "creator_economy": 20,
-    "trademark_business": 7,
-    "ai_video": 6,
-    "growth_monetize": 5
+    "ai_tech": 345,
+    "ai_video": 9,
+    "creator_economy": 15,
+    "growth_monetize": 3,
+    "trademark_business": 4
   },
   "engine_version": "v2",
   "engine_params": {
