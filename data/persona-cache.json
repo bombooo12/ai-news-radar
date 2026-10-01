@@ -1,42 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_15857ddbbec1|pragmatic|0a5c5b24": {
-      "score": 75,
-      "review": "开源了A1111的替代方案，做Stable Diffusion WebUI的可以研究迁移了。",
-      "title_hash": "2a539f1e",
-      "scored_at": "2026-09-10T15:07:06.371019Z"
-    },
-    "story_6c68adbdb622|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "新模型已发布，部署AI Agent时能显著节省显存，直接降低硬件成本。",
-      "title_hash": "5bb29f06",
-      "scored_at": "2026-09-10T15:07:16.420395Z"
-    },
-    "story_ce9846509246|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "技术演示很酷，但Devin未开放，对日常开发没直接影响。",
-      "title_hash": "a6d0a325",
-      "scored_at": "2026-09-10T15:07:24.039794Z"
-    },
-    "story_50c616482f18|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "新模型已上线平台，可立即调用，支持超长上下文。",
-      "title_hash": "1db555f7",
-      "scored_at": "2026-09-10T15:07:30.954253Z"
-    },
-    "story_8173475ff08e|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "新模型已发布且大幅降价，成本敏感的项目今天就能评估接入。",
-      "title_hash": "105aeb27",
-      "scored_at": "2026-09-10T15:07:34.598979Z"
-    },
-    "story_74f7eba24928|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "产品案例分享，对开发者无直接工具或接口影响。",
-      "title_hash": "045112bf",
-      "scored_at": "2026-09-10T15:07:38.524270Z"
-    },
     "story_5719390a8fd1|pragmatic|0a5c5b24": {
       "score": 45,
       "review": "一个具体的研究案例，了解AI在科研的应用模式，但离日常开发较远。",
@@ -4566,6 +4530,126 @@
       "review": "技术教程提供了方法，但无独立第三方验证其实际效果。",
       "title_hash": "3a12c186",
       "scored_at": "2026-10-01T10:40:50.737500Z"
+    },
+    "story_a8a59d3ec43f|pragmatic|0a5c5b24": {
+      "score": 92,
+      "review": "Copilot能直接操作桌面软件了，自动化工作流今天就能设计。",
+      "title_hash": "1098ac4a",
+      "scored_at": "2026-10-01T20:02:16.019068Z"
+    },
+    "story_a97a1140e735|pragmatic|0a5c5b24": {
+      "score": 80,
+      "review": "开源了可扩展的MoE训练框架，想自己训大模型的研究团队能直接上手。",
+      "title_hash": "ca53d45b",
+      "scored_at": "2026-10-01T20:02:19.528839Z"
+    },
+    "story_25299d1ec50f|pragmatic|0a5c5b24": {
+      "score": 30,
+      "review": "一篇关于AI与人类关系的官方博客，对实际开发工作没有直接影响。",
+      "title_hash": "9b2708a5",
+      "scored_at": "2026-10-01T20:02:23.249691Z"
+    },
+    "story_4360c0773884|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "VS Code Copilot 新功能已上线，现在就能更新插件使用。",
+      "title_hash": "49aae885",
+      "scored_at": "2026-10-01T20:02:27.311781Z"
+    },
+    "story_8116becccb3e|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "企业级客户案例，对开发者无直接工具或接口更新。",
+      "title_hash": "5ab05dc9",
+      "scored_at": "2026-10-01T20:02:33.991132Z"
+    },
+    "story_a804da4308ce|pragmatic|0a5c5b24": {
+      "score": 88,
+      "review": "Claude Code 编辑器支持 TypeScript 插件了，开发者能立刻扩展功能。",
+      "title_hash": "d6a87ef9",
+      "scored_at": "2026-10-01T20:02:38.001258Z"
+    },
+    "story_d6a6f0dfce45|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "GitHub Actions 数据保留策略更新，现在配置清理规则能省更多存储。",
+      "title_hash": "8bc0358c",
+      "scored_at": "2026-10-01T20:02:41.693047Z"
+    },
+    "story_9d8a37b506d5|pragmatic|0a5c5b24": {
+      "score": 60,
+      "review": "提醒云服务用户注意推理内容泄露风险，但暂无通用防御方案。",
+      "title_hash": "94951f92",
+      "scored_at": "2026-10-01T20:02:46.152297Z"
+    },
+    "story_6b623c4d0459|pragmatic|0a5c5b24": {
+      "score": 60,
+      "review": "知道Claude在编程榜表现不错，但具体能力还得自己测，不急着换。",
+      "title_hash": "8ae6da6a",
+      "scored_at": "2026-10-01T20:02:50.339346Z"
+    },
+    "story_efca02b8eca0|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "官方教程教你实现模型路由，优化成本和性能有现成方案可抄。",
+      "title_hash": "c163dee8",
+      "scored_at": "2026-10-01T20:02:53.590540Z"
+    },
+    "story_e4ed42a08a07|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "新分支的CI流程更顺畅，今天就能减少因覆盖率报告导致的构建失败。",
+      "title_hash": "95146d7f",
+      "scored_at": "2026-10-01T20:02:56.649577Z"
+    },
+    "story_5548434c147f|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "官方教程手把手教你写 Claude 插件，今天就能动手给自己的 IDE 加功能。",
+      "title_hash": "678d1afc",
+      "scored_at": "2026-10-01T20:03:00.735696Z"
+    },
+    "story_708891e813ee|pragmatic|0a5c5b24": {
+      "score": 65,
+      "review": "开源Agent新基准排名，选型时可参考这两个模型的表现。",
+      "title_hash": "a17d21d2",
+      "scored_at": "2026-10-01T20:03:06.930581Z"
+    },
+    "story_9db480c23ef4|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "学术观点讨论，不影响你今天写代码或选工具。",
+      "title_hash": "f49e6623",
+      "scored_at": "2026-10-01T20:03:10.664525Z"
+    },
+    "story_ca15d7ba627d|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "GitHub Actions计费优化，长期不更新的仓库能省点计算量。",
+      "title_hash": "7f98a974",
+      "scored_at": "2026-10-01T20:03:14.092478Z"
+    },
+    "story_714f9dbcfc64|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "GitHub界面更新，知道就行，不影响现有代码和API调用。",
+      "title_hash": "47430d67",
+      "scored_at": "2026-10-01T20:03:18.918978Z"
+    },
+    "story_a8a59d3ec43f|cynic|f4237a62": {
+      "score": 65,
+      "review": "终于能点鼠标了，但‘能交互’和‘会干活’之间还差着十万个bug。",
+      "title_hash": "1098ac4a",
+      "scored_at": "2026-10-01T20:03:23.904258Z"
+    },
+    "story_a8a59d3ec43f|paper-police|966065bf": {
+      "score": 15,
+      "review": "官方博客宣称功能，无论文无代码无第三方评测，证据不足。",
+      "title_hash": "1098ac4a",
+      "scored_at": "2026-10-01T20:03:27.549881Z"
+    },
+    "story_a804da4308ce|cynic|f4237a62": {
+      "score": 75,
+      "review": "开放插件生态是正路，但别家IDE早玩透了，看有多少人真去写TypeScript mod。",
+      "title_hash": "d6a87ef9",
+      "scored_at": "2026-10-01T20:03:31.238228Z"
+    },
+    "story_a804da4308ce|paper-police|966065bf": {
+      "score": 45,
+      "review": "官方推文展示功能但无代码与独立评测，仅属技术演示。",
+      "title_hash": "d6a87ef9",
+      "scored_at": "2026-10-01T20:03:34.303242Z"
     }
   }
 }

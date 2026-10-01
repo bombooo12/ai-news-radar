@@ -1,24 +1,21 @@
 {
-  "date": "2026-10-01",
+  "date": "2026-10-02",
   "recommendations": [
     {
       "rank": 1,
-      "title": "告别乱试！三大巨头统一Agent新标准，小白也能玩转AI技能",
+      "title": "零基础玩转Opus5.5：用AI代码做爆款视频，提示词和Skill全开源",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、想用AI提升效率的个人、对Agent/Skill感兴趣的小白",
-      "reason": "Google、OpenAI、Anthropic统一Skill标准是行业大事件，初学者急需入门指南，实操性强，容易传播。",
+      "target_audience": "AI初学者、想学AI视频制作的创作者",
+      "reason": "完美契合创作者“AI初学者”定位和“实操性强”偏好，提供开源代码和提示词，用户可一键复现，具有高传播潜力。",
       "source_items": [
-        "Google drops Gems for Skills, joining OpenAI and Anthropic in the shift to agent-ready prompt formats",
-        "零基础入门Opus5.5做视频，万字拆解AI是如何用代码做视频的【提示词+Skill全开源】",
-        "ChatGPT 现可直接构建并部署 MCP 服务器"
+        "零基础入门Opus5.5做视频，万字拆解AI是如何用代码做视频的【提示词+Skill全开源】"
       ],
       "source_urls": [
-        "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats",
         "https://waytoagi.feishu.cn/wiki/G6MGwsALHi4xBCk657yca5oGnld?from=from_copylink",
-        "https://x.com/thsottiaux/status/2105519215092584786",
         "https://www.agenticbrew.ai/news",
-        "https://digiday.com/marketing/openais-measurement-gaps-are-keeping-chatgpt-ads-budgets-at-test-level"
+        "https://github.com/landoncrabtree/etymon",
+        "https://claude.dev/blog/getting-started-with-claude-code-mods"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -26,27 +23,27 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文+视频",
-          "hook": "手把手教你：用ChatGPT的MCP功能，10分钟创建一个自动发邮件的AI技能",
-          "summary": "教用户利用ChatGPT新功能，快速创建一个可执行的AI技能（Skill）。",
+          "format": "视频+图文",
+          "hook": "手把手教学：10分钟用开源代码生成你的第一个AI视频",
+          "summary": "从零开始，一步步演示如何配置环境、运行开源代码，生成一个完整的AI视频。",
           "key_points": [
-            "什么是MCP？在ChatGPT界面哪里找到它？",
-            "从零开始，用自然语言描述你的技能需求",
-            "测试并部署你的第一个AI技能"
+            "环境搭建与依赖安装",
+            "复制开源提示词并修改",
+            "运行代码生成视频并导出"
           ],
           "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "estimated_time": "10分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "Skill开发三大坑：权限、安全、成本，一个不注意就白干",
-          "summary": "指出初学者在创建和使用AI Skill时最容易踩的雷区，并提供规避方案。",
+          "hook": "新手必看！用Opus5.5做视频的5个常见错误，别再踩坑了",
+          "summary": "指出初学者在代码运行、提示词调整、输出设置中最容易犯的错误及解决方法。",
           "pitfalls": [
-            "权限过大：你的AI Skill能访问哪些数据？如何限制？",
-            "安全漏洞：避免在Skill中泄露API密钥等敏感信息",
-            "成本失控：调用外部API如何预估和控制费用"
+            "环境配置报错，依赖版本不匹配",
+            "提示词过于复杂导致AI理解偏差",
+            "输出格式或分辨率设置错误"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -55,12 +52,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "为什么巨头都在推Skill？这波Agent浪潮，普通人如何不掉队？",
-          "summary": "分析Google、OpenAI、Anthropic统一Skill格式背后的商业逻辑和未来趋势。",
+          "hook": "为什么说“代码做视频”是AIGC的下一个风口？深度拆解Opus5.5开源项目",
+          "summary": "分析“用代码驱动AI生成视频”的技术原理、开源生态的价值，以及对未来内容创作的影响。",
           "insights": [
-            "Skill标准化：从“大模型”竞争转向“生态”竞争",
-            "对普通用户意味着什么：AI将从工具变成“员工”",
-            "未来机会：掌握Skill开发，可能成为新的变现技能"
+            "从“提示词”到“代码”：AIGC可控性的飞跃",
+            "开源Skill如何降低AI视频创作门槛",
+            "对传统视频剪辑工具的潜在冲击与融合"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -69,50 +66,47 @@
     },
     {
       "rank": 2,
-      "title": "视频剪辑革命！Instagram AI剪辑助手来了，小白也能剪出大片？",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI初学者、短视频创作者、自媒体运营者",
-      "reason": "Instagram推出对标剪映的AI剪辑工具，是视频领域的重大更新，符合创作者工具测评偏好，实操性强。",
+      "title": "用AI打造你的专属“数字员工”：Claude Code Mods插件开发入门",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "对AI Agent、自动化感兴趣的小白、想提高效率的个人",
+      "reason": "用户对“新模型、新工具”感兴趣，Claude Code Mods是热点，教程符合“实操性强”和“Agent实践分享”的能力。",
       "source_items": [
-        "Instagram rolls out a conversational AI video editing assistant for Edits, its dedicated CapCut competitor",
-        "Runway’s AI Video Agent Creates and Measures Ads Across Platforms",
-        "AI Print Design, AI Video Production, and Industry News"
+        "Claude Code mods 入门教程：从零构建 Token Weather 上下文窗口预报插件"
       ],
       "source_urls": [
-        "https://www.techmeme.com/260930/p30",
-        "https://www.adweek.com/programmatic/runways-ai-video-agent-creates-and-measures-ads-across-platforms",
-        "https://www.socialmediaexaminer.com/ai-print-design-ai-video-production-and-industry-news",
-        "https://github.com/heygen-com/hyperframes",
-        "https://www.techradar.com/pro/bt-business-wants-to-help-uk-smbs-get-on-board-with-ai-including-a-new-ai-receptionist"
+        "https://claude.dev/blog/getting-started-with-claude-code-mods",
+        "https://github.com/landoncrabtree/etymon",
+        "https://x.com/thsottiaux/status/2105519215092584786",
+        "https://www.agenticbrew.ai/news"
       ],
-      "urgency": "high",
+      "urgency": "medium",
       "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "视频",
-          "hook": "实测Ins新AI剪辑：一句话生成卡点视频，效果比剪映还猛？",
-          "summary": "通过实操演示，展示如何使用Instagram的AI编辑助手快速生成高质量短视频。",
+          "hook": "零代码！用Claude Code Mods 10分钟创建一个“文件整理”小助手",
+          "summary": "通过可视化界面和自然语言，教用户创建一个能自动分类整理桌面文件的AI插件。",
           "key_points": [
-            "如何找到并启用Instagram的AI编辑助手（Edits）",
-            "用语音或文字描述，让AI自动剪辑你的素材",
-            "AI生成的视频效果调整与导出"
+            "在Claude.dev中创建新Mod",
+            "用自然语言描述插件功能",
+            "测试并部署你的第一个AI插件"
           ],
           "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "estimated_time": "10分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文+短视频",
-          "hook": "AI剪辑三大陷阱：风格同质化、版权风险、隐私泄露",
-          "summary": "指出使用AI视频工具时可能遇到的质量、法律和隐私问题。",
+          "format": "图文",
+          "hook": "AI插件开发3大误区：为什么你的Claude Mod总是不听指挥？",
+          "summary": "解析在定义插件功能、权限设置和调试过程中，新手最容易遇到的逻辑陷阱和权限问题。",
           "pitfalls": [
-            "风格雷同：如何用AI剪出有自己风格的视频？",
-            "素材版权：AI生成的音乐/贴纸/模板，商用需注意什么？",
-            "隐私安全：上传的素材和脸会被怎么用？"
+            "功能描述模糊导致AI行为不可控",
+            "未正确设置文件读写权限",
+            "忽略错误日志导致调试困难"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -121,12 +115,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从Runway到Ins：AI视频正在从“生成”走向“全流程代理”",
-          "summary": "分析AI视频工具从单纯生成，向剪辑、包装、投放分析全流程自动化演进趋势。",
+          "hook": "从MCP到Claude Mods：AI Agent的“可插拔”生态将如何改变我们使用电脑的方式？",
+          "summary": "探讨MCP协议、Claude Code Mods等技术如何构建AI Agent生态，及其对个人工作流的革命性影响。",
           "insights": [
-            "工具整合：AI正在打通视频创作到分发的全链路",
-            "对创作者影响：门槛降低，但创意和策略能力更重要",
-            "未来展望：AI视频代理（Agent）将如何改变广告和内容行业"
+            "MCP协议：让AI工具像USB设备一样即插即用",
+            "Claude Mods生态 vs. 传统软件：谁更灵活？",
+            "个人效率的终极形态：由多个AI Agent协同的工作流"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -135,22 +129,19 @@
     },
     {
       "rank": 3,
-      "title": "副业新蓝海：用AI运营Substack，年入26万美金的作者是怎么做的？",
-      "track": "side_hustle",
-      "track_name": "个人成长/副业变现",
-      "target_audience": "想用AI变现的个人、自媒体创作者、内容创业者",
-      "reason": "Substack副业案例真实、有吸引力，结合AI运营策略，符合创作者“副业变现思路”的偏好，数据驱动有说服力。",
+      "title": "AI视频“以假乱真”？Tavus数字人实测与AI视频制作避坑指南",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "对AI视频、数字人感兴趣的内容创作者、营销人员",
+      "reason": "结合热点新闻，满足“争议性/冲突性”偏好，同时可进行工具测评和避坑指南，符合创作者视频制作能力。",
       "source_items": [
-        "I earn $263,000 in annual revenue from my Substack side hustle. It's an incredible bonus to my writing career.",
-        "Beyond Hustle: 5 Essential Business Protections Every First-Time Founder Needs to Know",
-        "The creator economy’s stance on AI is shifting — again"
+        "Nearly half of test subjects mistook Tavus' AI video avatar for a real person on a one-minute call",
+        "AI Animation, IP and the Next Phase of Creative Production"
       ],
       "source_urls": [
-        "https://www.businessinsider.com/how-built-6-figure-substack-side-hustle-writing-career-2026-10",
-        "https://startupnation.com/start-your-business/beyond-hustle-5-essential-business-protections-every-first-time-founder-needs-to-know",
-        "https://digiday.com/media/the-creator-economys-stance-on-ai-is-shifting-again",
-        "https://www.adweek.com/dealroom/slow-ventures-invests-creators",
-        "https://startupnation.com/manage-your-business/how-to-offer-health-benefits-your-team-actually-wants-without-breaking-your-startup-budget"
+        "https://the-decoder.com/nearly-half-of-test-subjects-mistook-tavus-ai-video-avatar-for-a-real-person-on-a-one-minute-call",
+        "https://motionographer.com/news/ai-animation-ip-and-the-next-phase-of-creative-production",
+        "https://www.socialmediaexaminer.com/ai-print-design-ai-video-production-and-industry-news"
       ],
       "urgency": "medium",
       "viral_potential": "high",
@@ -158,41 +149,41 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "AI辅助写作+运营：从0到1搭建一个能赚钱的Substack专栏",
-          "summary": "教用户如何利用ChatGPT等工具，完成Substack从定位、写作到推广的全流程。",
+          "format": "视频测评",
+          "hook": "实测Tavus：如何用AI在5分钟内生成一个“我”的营销口播视频？",
+          "summary": "实际注册并使用Tavus等AI数字人工具，展示从上传素材到生成成片的完整流程和效果。",
           "key_points": [
-            "用AI进行市场调研和专栏定位分析",
-            "AI辅助高效写作：从大纲到成文",
-            "利用AI工具进行邮件列表管理和读者互动"
+            "选择平台并上传形象素材",
+            "输入文案并选择声音/语调",
+            "生成视频并做后期微调"
           ],
           "difficulty": "入门",
-          "estimated_time": "45分钟"
+          "estimated_time": "5分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文",
-          "hook": "Substack变现五大坑：付费墙设太早、内容同质化、忽视邮件营销",
-          "summary": "指出新手在运营付费订阅内容时最容易犯的错误。",
+          "format": "图文+短视频",
+          "hook": "AI数字人三大“照骗”陷阱：口型对不上、眼神呆滞、法律风险",
+          "summary": "揭露当前AI数字人在技术细节、表现力和合规性上的常见问题，教用户如何鉴别和规避。",
           "pitfalls": [
-            "过早收费：如何积累初始免费读者？",
-            "AI味太重：如何让AI生成的内容具有个人风格和深度？",
-            "法律风险：用AI生成内容涉及哪些版权和披露问题？"
+            "口型与语音轻微不同步，易被识破",
+            "表情和眼神缺乏情感，显得生硬",
+            "未经授权使用他人肖像或声音的法律风险"
           ],
           "difficulty": "入门",
-          "estimated_time": "20分钟"
+          "estimated_time": "15分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "创作者经济“AI化”：是威胁还是普通人逆袭的机会？",
-          "summary": "结合行业报告和案例，分析AI如何重塑创作者经济生态和变现模式。",
+          "hook": "当一半人分不出真假：AI视频的“恐怖谷”与未来内容信任危机",
+          "summary": "结合Tavus新闻，探讨AI视频逼真度提升带来的社会影响、伦理问题及内容验证的挑战。",
           "insights": [
-            "AI工具普及：降低了内容生产门槛，加剧了竞争",
-            "新机会出现：AI运营、提示词工程、AI内容策展成为新技能",
-            "长期趋势：创意、个人品牌和社区运营的价值将更加凸显"
+            "“恐怖谷”效应在AI视频中的新表现",
+            "内容信任体系的崩塌与重建需求",
+            "对自媒体、新闻和司法证据领域的深远影响"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -201,51 +192,46 @@
     },
     {
       "rank": 4,
-      "title": "AIGC剧情引流实战：用AI拍一个“商标被抢注”的短视频，客户主动找上门",
-      "track": "trademark_ip",
-      "track_name": "商标/IP/创业",
-      "target_audience": "需要商标注册服务的小微企业主、对AIGC剧情内容感兴趣的观众",
-      "reason": "完美结合创作者“AIGC剧情向内容引流”的偏好和自身商标代理业务，实操性强，引流目的明确。",
+      "title": "Substack副业年入26万美金？拆解可复制的AI内容变现路径",
+      "track": "personal_growth",
+      "track_name": "个人成长/副业变现",
+      "target_audience": "想用AI变现的个人、自媒体新手、寻找副业者",
+      "reason": "直接命中“副业变现思路”创作能力，用成功案例吸引人，可结合AI工具提供实操方法，数据驱动有说服力。",
       "source_items": [
-        "生成即合规：Agentic AIGC 驱动的广告素材修复实践｜QCon上海",
-        "Why copyright makes no sense",
-        "The creator economy’s stance on AI is shifting — again"
+        "I earn $263,000 in annual revenue from my Substack side hustle. It's an incredible bonus to my writing career."
       ],
       "source_urls": [
-        "https://www.infoq.cn/article/TLjNcyBg9Z72HV5kJ2kp",
-        "https://www.youtube.com/watch?v=QVkeJI2feyQ",
-        "https://digiday.com/media/the-creator-economys-stance-on-ai-is-shifting-again",
-        "https://patentlyo.com/patent/2026/09/method-or-molecule-judge-dyk-dissents-from-en-banc-denial-in-teva-v-lilly.html",
-        "https://legalblogs.wolterskluwer.com/patent-blog/close-but-no-cigar-even-finding-a-new-way-of-clearing-the-rule-106-hurdle-was-not-enough-in-r-624"
+        "https://www.businessinsider.com/how-built-6-figure-substack-side-hustle-writing-career-2026-10",
+        "https://www.agenticbrew.ai/news",
+        "https://www.socialmediaexaminer.com/ai-print-design-ai-video-production-and-industry-news"
       ],
       "urgency": "medium",
-      "viral_potential": "medium",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频",
-          "hook": "无需演员和拍摄：用AI工具30分钟生成一个商标知识普法短剧",
-          "summary": "演示如何用AI生成剧本、角色、配音和画面，制作一个关于商标抢注的剧情短视频。",
+          "format": "图文",
+          "hook": "用AI辅助，从0到1搭建你的付费订阅专栏：选题、写作、引流全攻略",
+          "summary": "一步步教用户如何利用ChatGPT等工具确定 niche、批量创作内容、设置付费墙及进行初期推广。",
           "key_points": [
-            "用ChatGPT生成有冲突和反转的商标纠纷小剧本",
-            "用Midjourney/类似工具生成角色形象和场景",
-            "用剪映+AI配音完成视频合成与包装"
+            "用AI分析趋势，定位你的专属领域",
+            "AI辅助写作工作流，提升内容产出效率",
+            "设置订阅模式与引流渠道（如小红书导流）"
           ],
           "difficulty": "入门",
-          "estimated_time": "40分钟"
+          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AIGC剧情引流四不碰：虚假宣传、肖像侵权、内容低俗、硬广明显",
-          "summary": "指出用AIGC做商业剧情内容时，在内容、法律和广告法上的红线。",
+          "hook": "别白忙！做付费内容前必须想清楚的3个变现陷阱",
+          "summary": "指出在内容定价、用户预期管理和持续创作上，新手最容易失败的关键点。",
           "pitfalls": [
-            "剧情夸张导致虚假宣传风险",
-            "AI生成形象侵犯真人肖像权",
-            "为博流量制作低俗、争议性内容",
-            "广告植入过于生硬，引起观众反感"
+            "定价过低无法覆盖成本，定价过高无人问津",
+            "过度依赖AI导致内容同质化，缺乏个人品牌",
+            "无法保持稳定更新，用户流失快"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -254,12 +240,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "“生成即合规”？从AIGC广告修复实践，看To B业务内容营销新范式",
-          "summary": "结合行业案例，分析AIGC如何降低专业服务（如商标、法律）内容制作成本，并探讨合规边界。",
+          "hook": "知识付费进入“AI协同时代”：个人IP的价值是算法无法替代的",
+          "summary": "分析在AI普及的背景下，成功的内容变现者核心优势是什么，以及个人IP的护城河如何构建。",
           "insights": [
-            "AIGC降低专业内容生产成本，使高频知识科普成为可能",
-            "剧情化内容比纯干货更能建立信任和情感连接",
-            "未来趋势：专业服务公司的营销部门将标配AIGC内容团队"
+            "AI是杠杆，但独特的视角和经验才是支点",
+            "从“信息差”变现到“认知差”和“体验差”变现",
+            "构建“人机结合”的深度内容生产模式"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -268,50 +254,46 @@
     },
     {
       "rank": 5,
-      "title": "GPT-6.1 Sol发布！编码能力接近Astra，但价格只要1/5，现在值得上车吗？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、开发者、对AI编码和性价比敏感的用户",
-      "reason": "新模型发布是热点，用户反馈对新模型/工具感兴趣。结合编码能力和价格对比，具有争议性和实用性。",
+      "title": "AIGC剧情引流实战：用AI给商标代理公司拍一部“品牌维权”短片",
+      "track": "trademark",
+      "track_name": "商标/IP/创业",
+      "target_audience": "需要商标服务的小微企业主、对AIGC剧情内容感兴趣的观众",
+      "reason": "完美结合创作者“商标代理引流”需求和“AIGC剧情向内容”偏好，通过故事化内容实现高自动化引流。",
       "source_items": [
-        "OpenAI 发布 GPT-6.1 Sol：以 Astra 五分之一价格接近其编码与计算机操作水平",
-        "GPT-6.1 Sol (Max) 以 1759 分登上 Code Arena: WebDev 第 3 名",
-        "Arena 开放限时测试 Claude Sonnet 5.5，Direct Mode 可用 48 小时"
+        "生成即合规：Agentic AIGC 驱动的广告素材修复实践｜QCon上海"
       ],
       "source_urls": [
-        "https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price",
-        "https://x.com/arena/status/2105367591174995999",
-        "https://x.com/arena/status/2105311267619848419",
-        "https://the-decoder.com/anthropic-says-zhipus-open-weight-glm-5-3-nearly-matches-claude-mythos-preview-at-building-exploits",
-        "https://digiday.com/marketing/openais-measurement-gaps-are-keeping-chatgpt-ads-budgets-at-test-level"
+        "https://www.infoq.cn/article/TLjNcyBg9Z72HV5kJ2kp",
+        "https://arstechnica.com/cars/2026/10/can-good-design-stop-content-creators-from-having-sex-in-robotaxis",
+        "https://motionographer.com/news/ai-animation-ip-and-the-next-phase-of-creative-production"
       ],
-      "urgency": "high",
-      "viral_potential": "high",
+      "urgency": "low",
+      "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "测评/视频",
-          "hook": "实测GPT-6.1 Sol：写代码、修Bug、操作电脑，真的能省80%的钱？",
-          "summary": "通过实际测试，对比GPT-6.1 Sol与GPT-4o/Claude在常见编码和操作任务上的表现与成本。",
+          "format": "视频",
+          "hook": "不会拍戏？用AI工具生成一部“商标被抢注”的剧情短片（含分镜、配音、字幕）",
+          "summary": "展示如何用ChatGPT写剧本、Midjourney生成角色和场景、AI工具合成视频和配音，完成一个完整的剧情短片。",
           "key_points": [
-            "设置测试环境：几个典型的编程和自动化任务",
-            "分步演示GPT-6.1 Sol如何完成任务",
-            "记录任务耗时、token消耗，计算并对比成本"
+            "用AI生成冲突性强的商标纠纷剧本",
+            "用文生图工具制作分镜画面",
+            "视频剪辑软件合成并添加AI配音字幕"
           ],
-          "difficulty": "入门",
-          "estimated_time": "45分钟"
+          "difficulty": "中级",
+          "estimated_time": "1小时"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "升级GPT-6.1 Sol前必看：这三个隐藏成本可能让你白高兴",
-          "summary": "指出用户从旧版升级或试用新版模型时，容易忽略的计费、上下文和性能陷阱。",
+          "hook": "AIGC剧情广告翻车现场：侵权、违禁、价值观偏差，如何提前规避？",
+          "summary": "指出在利用AIGC生成商业剧情内容时，在知识产权、平台规则和内容价值观上需要注意的风险点。",
           "pitfalls": [
-            "输入输出token计价方式变化，总成本可能不降反升",
-            "长上下文下的性能衰减问题",
-            "特定领域（如创意写作）可能不如专用模型"
+            "AI生成的角色形象无意中侵犯他人肖像权",
+            "剧情涉及敏感或违规内容导致被下架",
+            "AI对某些价值观理解偏差，产出不当言论"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -320,12 +302,75 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "OpenAI的“性价比”狙击战：用Sol打Astra，意在沛公？",
-          "summary": "分析OpenAI此次发布背后的市场策略，以及对整个AI模型服务市场竞争格局的影响。",
+          "hook": "“生成即合规”：Agentic AIGC如何重塑数字营销与法律服务获客？",
+          "summary": "探讨自动化、智能化的AIGC内容生成，如何改变像商标代理这类专业服务的营销和客户教育方式。",
           "insights": [
-            "产品矩阵：OpenAI用不同价位模型覆盖更广泛用户群",
-            "竞争策略：直接对标并试图稀释Anthropic Claude的高端市场",
-            "用户启示：模型选择不再只看能力，更要看“能力/价格”比"
+            "从“硬广”到“故事化软性教育”的获客转型",
+            "AIGC如何降低专业服务的内容创作门槛",
+            "未来法律、咨询类服务的标准化内容产出模式"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "FTC调查OpenAI与Anthropic：AI Agent的风险与我们普通用户何干？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "关注AI安全与政策的初学者、科技爱好者",
+      "reason": "结合监管热点，满足“争议性/冲突性”偏好，用通俗语言解读复杂事件，引发讨论和传播。",
+      "source_items": [
+        "FTC Investigation Into OpenAI and Anthropic Over AI Agent Risks",
+        "OpenAI says it stopped a campaign to steal its models' reasoning"
+      ],
+      "source_urls": [
+        "https://www.agenticbrew.ai/news",
+        "https://the-decoder.com/openai-says-it-stopped-a-campaign-to-steal-its-models-reasoning-but-the-trick-still-worked-on-azure",
+        "https://the-decoder.com/anthropic-brings-claude-to-civilian-agencies-as-its-fight-with-the-pentagon-drags-on"
+      ],
+      "urgency": "high",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "安全第一！使用AI Agent时必须开启的3个隐私保护设置",
+          "summary": "教用户在使用ChatGPT、Claude等AI Agent时，如何检查并设置隐私选项，保护个人数据和对话安全。",
+          "key_points": [
+            "检查并关闭聊天记录用于训练模型的选项",
+            "了解并管理AI对第三方工具的访问权限",
+            "识别并避免在对话中泄露敏感个人信息"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "10分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "别让AI“出卖”你！使用Agent插件时最危险的3类操作",
+          "summary": "指出用户在使用AI的文件读取、网络搜索、代码执行等功能时，可能无意中引发的数据泄露和安全风险。",
+          "pitfalls": [
+            "让AI读取包含个人隐私的文档",
+            "授权AI插件访问全部邮箱或网盘",
+            "执行来源不明的AI生成代码"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "从FTC调查看未来：AI Agent越强大，我们越需要“数字护栏”",
+          "summary": "解读FTC调查背后的深层原因，探讨AI Agent能力边界、责任归属以及未来可能的监管方向。",
+          "insights": [
+            "AI Agent的自主性 vs. 开发者的责任",
+            "“提示词注入”等新型攻击手法的威胁",
+            "普通用户如何在享受AI便利的同时保护自身权益"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -334,22 +379,22 @@
     }
   ],
   "weekly_plan": {
-    "monday": "视频剪辑革命！Instagram AI剪辑助手来了，小白也能剪出大片？",
-    "wednesday": "告别乱试！三大巨头统一Agent新标准，小白也能玩转AI技能",
-    "friday": "AIGC剧情引流实战：用AI拍一个“商标被抢注”的短视频，客户主动找上门",
-    "strategy": "本周聚焦“AI工具实战”，用热点工具测评和标准解读吸引流量，周末用剧情内容自然引流商标业务。"
+    "monday": "零基础玩转Opus5.5：用AI代码做爆款视频，提示词和Skill全开源（实操教程）",
+    "wednesday": "Substack副业年入26万美金？拆解可复制的AI内容变现路径（避坑指南）",
+    "friday": "AIGC剧情引流实战：用AI给商标代理公司拍一部“品牌维权”短片（实操教程）",
+    "strategy": "本周聚焦“AI+创作变现”，以高实操性教程吸引新手，穿插热点解读提升专业度，并在周末用剧情内容自然引流副业。"
   },
-  "insights": "今日信息流显示，AI正从“模型能力竞赛”转向“应用生态和工具易用性竞赛”，Skill标准统一和Instagram AI剪辑工具是典型信号，对初学者是重大利好。",
-  "ai_adjustment": "基于用户反馈，重点围绕“Harness”、“新模型/工具”等热点扩展选题，并强化了“实操教程”和“深度解读”角度，避免硬件相关和纯理论内容。",
-  "generated_at": "2026-10-01T18:44:52.532881+08:00",
-  "total_items": 453,
-  "scored_items": 373,
+  "insights": "今日信息流显示，AI技术正快速向“代码驱动”、“Agent插件化”和“视频生成”三大实操方向演进，同时AI监管与伦理议题热度不减，为创作者提供了丰富的教程与解读空间。",
+  "ai_adjustment": "基于用户“对新模型、新工具感兴趣”及“Harness是热点”的反馈，重点推荐了Opus5.5和Claude Code Mods等实操性强的新工具教程，并规避了纯硬件及用户已拒绝的类似选题。",
+  "generated_at": "2026-10-02T04:08:02.476384+08:00",
+  "total_items": 404,
+  "scored_items": 329,
   "tracks_summary": {
-    "ai_tech": 339,
-    "ai_video": 10,
+    "ai_tech": 294,
     "creator_economy": 17,
-    "growth_monetize": 3,
-    "trademark_business": 4
+    "ai_video": 11,
+    "growth_monetize": 2,
+    "trademark_business": 5
   },
   "engine_version": "v2",
   "engine_params": {
