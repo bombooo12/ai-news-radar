@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T19:48:26.140975Z",
+  "generated_at": "2026-10-01T10:40:50.737547Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_855109885f33",
-      "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
-      "url": "https://huggingface.co/blog/open-tts-leaderboard",
+      "story_id": "story_bb25c57ef66e",
+      "title": "OpenAI 发布 GPT-6.1 Sol：以 Astra 五分之一价格接近其编码与计算机操作水平 / OpenAI Releases GPT-6.1 Sol: Near-Astra Coding and Computer Use at One-Fifth of Astra’s Token Price",
+      "url": "https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 82,
-          "review": "开源评测框架是好事，但‘可扩展’和‘多语言’的具体基准和覆盖度呢？"
-        },
-        "paper-police": {
-          "score": 85,
-          "review": "官方博客发布评测基准，方法公开可参与，但模型本身需独立验证。"
-        },
-        "pragmatic": {
-          "score": 88,
-          "review": "开源TTS评估平台上线，选型时可直接对比多语言和音色克隆效果。"
-        }
-      }
-    },
-    {
-      "story_id": "story_024f628f3f4f",
-      "title": "OpenAI 推出 Codex 云环境，可复用配置并跨设备跟进任务 / Run Codex tasks in reusable cloud environments, then follow progress and steer them from your phone or another computer:",
-      "url": "https://x.com/OpenAIDevs/status/2105073633731461197",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
           "score": 65,
-          "review": "复用配置是刚需，但‘跨设备跟进’不就是网页版换个说法？"
+          "review": "价格战是亮点，但‘接近’和‘五分之一’这种模糊对比，水分得挤一挤。"
         },
         "paper-police": {
           "score": 15,
-          "review": "仅有官方推文宣称功能，无论文、代码或独立评测佐证。"
+          "review": "仅有新闻稿宣称性能与价格，无论文、代码或公开评测链接。"
         },
         "pragmatic": {
           "score": 88,
-          "review": "云环境复用配置，手机也能跟进任务，提升开发调试效率。"
+          "review": "新模型API已上线，成本骤降，做代码生成和自动化任务的可以立刻评估。"
         }
       }
     },
     {
-      "story_id": "story_dd1cd653606b",
-      "title": "Perplexity 开放 Computer 邮件委托入口并限时免费运行任务 / We're opening access to anyone (no Perplexity account needed), and we will run all tasks delegated via email for free for a limited time....",
-      "url": "https://x.com/AravSrinivas/status/2105369479190601754",
-      "rank": 3,
+      "story_id": "story_e317244b0162",
+      "title": "Modal Clusters 正式发布，通过 @modal.clustered 提供多节点 GPU 集群 / Modal Clusters are generally available",
+      "url": "https://modal.com/blog/modal-clusters-generally-available",
+      "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 60,
-          "review": "邮件入口听着像临时工位，限时免费就是催你快点来当测试员。"
+          "score": 70,
+          "review": "把自家产品功能从测试版转正，也值得专门发个‘正式发布’的通稿？"
         },
         "paper-police": {
-          "score": 35,
-          "review": "仅有官方推文宣称功能开放，无论文、代码或独立评测佐证。"
+          "score": 15,
+          "review": "仅有官方博客宣称，无论文、代码或独立评测，证据不足。"
         },
         "pragmatic": {
           "score": 88,
-          "review": "无需账号，今天就能通过邮件免费试用其AI计算机功能，直接上手体验。"
+          "review": "Modal平台正式提供多GPU集群功能，分布式训练和推理现在可直接部署。"
+        }
+      }
+    },
+    {
+      "story_id": "story_fa117f7022c2",
+      "title": "OpenRouter 教程：如何在 CI 中用 LLM eval 门禁拦截 Pull Request / How to Gate Pull Requests on LLM Evals in CI",
+      "url": "https://openrouter.ai/blog/tutorials/how-to-gate-pull-requests-on-llm-evals-in-ci",
+      "rank": 3,
+      "reviews": {
+        "cynic": {
+          "score": 70,
+          "review": "教程本身是干货，但用LLM做门禁的可靠性，怕不是要上演‘AI说行，线上不行’的戏码。"
+        },
+        "paper-police": {
+          "score": 45,
+          "review": "技术教程提供了方法，但无独立第三方验证其实际效果。"
+        },
+        "pragmatic": {
+          "score": 88,
+          "review": "提供具体CI集成方案，可直接复制代码实现PR自动化评审。"
         }
       }
     }
