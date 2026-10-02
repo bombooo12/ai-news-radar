@@ -1,66 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_190cbcad46f4|pragmatic|0a5c5b24": {
-      "score": 65,
-      "review": "提醒开发者注意API使用合规，避免项目因滥用风险被封禁。",
-      "title_hash": "bbf6abee",
-      "scored_at": "2026-09-11T15:06:44.466238Z"
-    },
-    "story_34d4cb4529b2|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "Copilot周更，新功能或修复今天就能在编辑器里用上。",
-      "title_hash": "46b2c2cc",
-      "scored_at": "2026-09-11T15:06:48.063067Z"
-    },
-    "story_f3588b8a4eb3|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "CEO和创业者讨论未来愿景，对当前开发没实际帮助。",
-      "title_hash": "ec8919b3",
-      "scored_at": "2026-09-11T15:06:52.315414Z"
-    },
-    "story_9cc4559ef9f0|pragmatic|0a5c5b24": {
-      "score": 88,
-      "review": "新模型降价且开放视觉API，做多模态应用的成本和门槛都降了。",
-      "title_hash": "6001ded7",
-      "scored_at": "2026-09-11T15:06:55.524029Z"
-    },
-    "story_f62bfdadd23e|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "行业讨论会，对具体技术选型或开发工作无直接影响。",
-      "title_hash": "25004821",
-      "scored_at": "2026-09-11T15:07:12.776074Z"
-    },
-    "story_fe90ca3f92b8|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "开源工业级ASR模型，可直接下载用于音视频内容分析项目。",
-      "title_hash": "f6af0197",
-      "scored_at": "2026-09-11T15:07:18.191836Z"
-    },
-    "story_9cc4559ef9f0|cynic|f4237a62": {
-      "score": 75,
-      "review": "价格降了是实打实的，但用游戏和城市生成来验证视觉能力，样本太窄了点。",
-      "title_hash": "6001ded7",
-      "scored_at": "2026-09-11T15:07:21.626081Z"
-    },
-    "story_9cc4559ef9f0|paper-police|966065bf": {
-      "score": 45,
-      "review": "公众号实测给出数字，但无论文代码与公开基准，需第三方复现验证。",
-      "title_hash": "6001ded7",
-      "scored_at": "2026-09-11T15:07:38.569809Z"
-    },
-    "story_34d4cb4529b2|cynic|f4237a62": {
-      "score": 65,
-      "review": "周更日志，修修补补是常态，别指望每次都是惊天动地的大更新。",
-      "title_hash": "46b2c2cc",
-      "scored_at": "2026-09-11T15:07:42.452463Z"
-    },
-    "story_34d4cb4529b2|paper-police|966065bf": {
-      "score": 15,
-      "review": "官方博客宣称更新，无论文无代码无独立评测，仅有说法。",
-      "title_hash": "46b2c2cc",
-      "scored_at": "2026-09-11T15:08:03.227190Z"
-    },
     "story_86ff3d2b9b70|pragmatic|0a5c5b24": {
       "score": 85,
       "review": "GPT-6 Astra已开放给Perplexity使用，其端到端系统能力可供集成参考。",
@@ -4572,6 +4512,132 @@
       "review": "技术博客公布了方法细节，但无论文与开源代码，无法独立验证。",
       "title_hash": "7b38a694",
       "scored_at": "2026-10-02T10:14:20.658798Z"
+    },
+    "story_87eab6a95e56|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "官方选型指南，帮你省下模型对比和提示词调试的时间。",
+      "title_hash": "055c37d9",
+      "scored_at": "2026-10-02T19:43:11.799613Z"
+    },
+    "story_2e2e433e3cb1|pragmatic|0a5c5b24": {
+      "score": 88,
+      "review": "可直接下载使用的开源报告生成模型，今天就能集成到项目里。",
+      "title_hash": "3eb759a7",
+      "scored_at": "2026-10-02T19:43:18.522313Z"
+    },
+    "story_aef691a327ab|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "GitHub Copilot 用户需检查并更新模型配置，避免服务中断。",
+      "title_hash": "edfe994e",
+      "scored_at": "2026-10-02T19:43:21.852977Z"
+    },
+    "story_d0ecf0e85035|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "官方博客的职业建议，对今天写代码没直接帮助。",
+      "title_hash": "d47d7535",
+      "scored_at": "2026-10-02T19:43:29.542923Z"
+    },
+    "story_79c5530db8f1|pragmatic|0a5c5b24": {
+      "score": 15,
+      "review": "未来两年的官方展望，对当前工作没有实际影响。",
+      "title_hash": "830f9fcc",
+      "scored_at": "2026-10-02T19:43:32.957742Z"
+    },
+    "story_14dc0c8581ff|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "GraphQL API新增安全字段，今天就能查更细的漏洞信息。",
+      "title_hash": "b3f32954",
+      "scored_at": "2026-10-02T19:43:36.313098Z"
+    },
+    "story_6ea06168ae24|pragmatic|0a5c5b24": {
+      "score": 55,
+      "review": "展示了AI辅助科研的潜力，但离普通开发者有距离，可作长期参考。",
+      "title_hash": "5648a70a",
+      "scored_at": "2026-10-02T19:43:42.678455Z"
+    },
+    "story_24541b2d70e1|pragmatic|0a5c5b24": {
+      "score": 65,
+      "review": "提供了新的隐私学习系统设计，做相关开发的可以研究其技术方案。",
+      "title_hash": "749fb10b",
+      "scored_at": "2026-10-02T19:43:46.273259Z"
+    },
+    "story_3f2245b761ea|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "企业级合作案例，普通开发者用不上，不影响选型或工具。",
+      "title_hash": "376b598b",
+      "scored_at": "2026-10-02T19:43:49.419642Z"
+    },
+    "story_7ba973037a20|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "GitHub安全公告现支持私密评论，团队内部协作处理漏洞更安全。",
+      "title_hash": "44b80e16",
+      "scored_at": "2026-10-02T19:43:52.933732Z"
+    },
+    "story_841ba4d3786c|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "ChatGPT新增财务管理功能，可直接上传文件分析，今天就能用。",
+      "title_hash": "91bd415f",
+      "scored_at": "2026-10-02T19:43:57.686496Z"
+    },
+    "story_0dd79bbfdfd7|pragmatic|0a5c5b24": {
+      "score": 65,
+      "review": "了解模型性价比排名，为选型提供第三方参考数据。",
+      "title_hash": "6bcf8bf8",
+      "scored_at": "2026-10-02T19:44:01.619642Z"
+    },
+    "story_fb1107e372ac|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "原型卫星发射，离实际可用的AI服务或工具还很遥远。",
+      "title_hash": "e166eb26",
+      "scored_at": "2026-10-02T19:44:05.658141Z"
+    },
+    "story_8251eed32ade|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "安全公告API预览版上线，需要集成安全流程的团队可以开始测试了。",
+      "title_hash": "91a6f78f",
+      "scored_at": "2026-10-02T19:44:12.501622Z"
+    },
+    "story_d023c4690eff|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "本地AI开发有了更强的硬件选择，预算充足的团队可以评估采购。",
+      "title_hash": "e90b03d8",
+      "scored_at": "2026-10-02T19:44:16.330619Z"
+    },
+    "story_2e2e433e3cb1|cynic|f4237a62": {
+      "score": 75,
+      "review": "开源是好事，但‘快’是跟谁比？自家老模型还是闭眼跑的乌龟？",
+      "title_hash": "3eb759a7",
+      "scored_at": "2026-10-02T19:44:20.582849Z"
+    },
+    "story_2e2e433e3cb1|paper-police|966065bf": {
+      "score": 65,
+      "review": "有官方博客和开源模型，但未见独立论文或第三方评测报告。",
+      "title_hash": "3eb759a7",
+      "scored_at": "2026-10-02T19:44:23.690589Z"
+    },
+    "story_87eab6a95e56|cynic|f4237a62": {
+      "score": 75,
+      "review": "发指南比发模型容易，但至少承认了自家产品线复杂到需要用户手册。",
+      "title_hash": "055c37d9",
+      "scored_at": "2026-10-02T19:44:27.201634Z"
+    },
+    "story_87eab6a95e56|paper-police|966065bf": {
+      "score": 15,
+      "review": "仅有官方指南，无GPT-6论文、代码或独立评测，证据不足。",
+      "title_hash": "055c37d9",
+      "scored_at": "2026-10-02T19:44:31.921771Z"
+    },
+    "story_aef691a327ab|cynic|f4237a62": {
+      "score": 75,
+      "review": "官方通知还算实在，但‘部分模型停用’这种措辞，是性能不行还是成本太高？",
+      "title_hash": "edfe994e",
+      "scored_at": "2026-10-02T19:44:36.401636Z"
+    },
+    "story_aef691a327ab|paper-police|966065bf": {
+      "score": 15,
+      "review": "官方博客仅宣布模型弃用，无论文、代码或独立评测佐证其影响。",
+      "title_hash": "edfe994e",
+      "scored_at": "2026-10-02T19:44:39.706192Z"
     }
   }
 }

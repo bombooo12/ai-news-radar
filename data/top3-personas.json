@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T10:14:20.658855Z",
+  "generated_at": "2026-10-02T19:44:39.706213Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_a8a59d3ec43f",
-      "title": "GitHub Copilot can now interact with desktop apps with computer use",
-      "url": "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps",
+      "story_id": "story_2e2e433e3cb1",
+      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "url": "https://huggingface.co/blog/allenai/astabrief",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "终于能点鼠标了，但‘能交互’和‘会干活’之间还差着十万个bug。"
+          "score": 75,
+          "review": "开源是好事，但‘快’是跟谁比？自家老模型还是闭眼跑的乌龟？"
         },
         "paper-police": {
-          "score": 15,
-          "review": "官方博客宣称功能，无论文无代码无第三方评测，证据不足。"
+          "score": 65,
+          "review": "有官方博客和开源模型，但未见独立论文或第三方评测报告。"
         },
         "pragmatic": {
-          "score": 92,
-          "review": "Copilot能直接操作桌面软件了，自动化工作流今天就能设计。"
+          "score": 88,
+          "review": "可直接下载使用的开源报告生成模型，今天就能集成到项目里。"
         }
       }
     },
     {
-      "story_id": "story_a804da4308ce",
-      "title": "Claude Code 推出 mods 功能，可用 TypeScript 定制行为与 UI / You can now mod Claude Code:",
-      "url": "https://x.com/ClaudeDevs/status/2105721434807083061",
+      "story_id": "story_87eab6a95e56",
+      "title": "OpenAI 发布 GPT-6 家族实用指南：选型、提示词与长任务管理 / A model guide for the GPT-6 family",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
       "rank": 2,
       "reviews": {
         "cynic": {
           "score": 75,
-          "review": "开放插件生态是正路，但别家IDE早玩透了，看有多少人真去写TypeScript mod。"
+          "review": "发指南比发模型容易，但至少承认了自家产品线复杂到需要用户手册。"
         },
         "paper-police": {
-          "score": 45,
-          "review": "官方推文展示功能但无代码与独立评测，仅属技术演示。"
+          "score": 15,
+          "review": "仅有官方指南，无GPT-6论文、代码或独立评测，证据不足。"
         },
         "pragmatic": {
-          "score": 88,
-          "review": "Claude Code 编辑器支持 TypeScript 插件了，开发者能立刻扩展功能。"
+          "score": 85,
+          "review": "官方选型指南，帮你省下模型对比和提示词调试的时间。"
         }
       }
     },
     {
-      "story_id": "story_7d80f29039e4",
-      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "story_id": "story_aef691a327ab",
+      "title": "Selected models in GitHub Copilot deprecated",
+      "url": "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 72,
-          "review": "ServiceNow的活儿，开源配方是亮点，但‘企业级’数据生成效果得看落地才知道。"
+          "score": 75,
+          "review": "官方通知还算实在，但‘部分模型停用’这种措辞，是性能不行还是成本太高？"
         },
         "paper-police": {
-          "score": 45,
-          "review": "技术博客公布了方法细节，但无论文与开源代码，无法独立验证。"
+          "score": 15,
+          "review": "官方博客仅宣布模型弃用，无论文、代码或独立评测佐证其影响。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "开源工具可直接克隆，用于生成企业级Agent的训练数据。"
+          "review": "GitHub Copilot 用户需检查并更新模型配置，避免服务中断。"
         }
       }
     }
