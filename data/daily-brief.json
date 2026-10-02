@@ -1,8 +1,85 @@
 {
-  "generated_at": "2026-10-01T20:00:20.928188Z",
+  "generated_at": "2026-10-02T10:11:44.942384Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_7d80f29039e4",
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "primary_url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "f965b0fded7b0c67cd412c42d0d656eb2a5c29bd",
+          "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+          "title_zh": null,
+          "title_en": "AutoSynthData: Generating Training Data for Enterprise Agents",
+          "title_original": "AutoSynthData: Generating Training Data for Enterprise Agents",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-02T04:01:31Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "items": [
+        {
+          "id": "f965b0fded7b0c67cd412c42d0d656eb2a5c29bd",
+          "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+          "title_zh": null,
+          "title_en": "AutoSynthData: Generating Training Data for Enterprise Agents",
+          "title_original": "AutoSynthData: Generating Training Data for Enterprise Agents",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-02T04:01:31Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8447,
+      "importance": 0.8447,
+      "importance_score": 0.8447,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.9147,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-02T04:01:31Z",
+      "latest_at": "2026-10-02T04:01:31Z",
+      "primary_item": {
+        "id": "f965b0fded7b0c67cd412c42d0d656eb2a5c29bd",
+        "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+        "title_zh": null,
+        "title_en": "AutoSynthData: Generating Training Data for Enterprise Agents",
+        "title_original": "AutoSynthData: Generating Training Data for Enterprise Agents",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+        "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
     {
       "story_id": "story_a8a59d3ec43f",
       "title": "GitHub Copilot can now interact with desktop apps with computer use",
@@ -48,15 +125,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8499,
-      "importance": 0.8499,
-      "importance_score": 0.8499,
+      "score": 0.8169,
+      "importance": 0.8169,
+      "importance_score": 0.8169,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9883,
+        "recency": 0.8052,
         "story_heat": 0.0
       },
       "category": "official",
@@ -78,99 +155,6 @@
         "url": "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 92,
-      "persona_review": "Copilot能直接操作桌面软件了，自动化工作流今天就能设计。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-10-01T20:02:11.417888Z"
-      }
-    },
-    {
-      "story_id": "story_a97a1140e735",
-      "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
-      "url": "https://huggingface.co/blog/allenai/olmocore3",
-      "primary_url": "https://huggingface.co/blog/allenai/olmocore3",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "78202bf035ab1fe86671d2c35b2b22badb7c1865",
-          "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
-          "title_zh": null,
-          "title_en": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
-          "title_original": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://huggingface.co/blog/allenai/olmocore3",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-01T15:01:43Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "items": [
-        {
-          "id": "78202bf035ab1fe86671d2c35b2b22badb7c1865",
-          "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
-          "title_zh": null,
-          "title_en": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
-          "title_original": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://huggingface.co/blog/allenai/olmocore3",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-01T15:01:43Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8475,
-      "importance": 0.8475,
-      "importance_score": 0.8475,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.9306,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-01T15:01:43Z",
-      "latest_at": "2026-10-01T15:01:43Z",
-      "primary_item": {
-        "id": "78202bf035ab1fe86671d2c35b2b22badb7c1865",
-        "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
-        "title_zh": null,
-        "title_en": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
-        "title_original": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://huggingface.co/blog/allenai/olmocore3",
-        "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 80,
-      "persona_review": "开源了可扩展的MoE训练框架，想自己训大模型的研究团队能直接上手。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-10-01T20:02:11.417888Z"
       }
     },
     {
@@ -218,15 +202,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8444,
-      "importance": 0.8444,
-      "importance_score": 0.8444,
+      "score": 0.8124,
+      "importance": 0.8124,
+      "importance_score": 0.8124,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9575,
+        "recency": 0.7801,
         "story_heat": 0.0
       },
       "category": "official",
@@ -248,14 +232,6 @@
         "url": "https://openai.com/index/the-eternal-complement",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 30,
-      "persona_review": "一篇关于AI与人类关系的官方博客，对实际开发工作没有直接影响。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-10-01T20:02:11.417888Z"
       }
     },
     {
@@ -303,15 +279,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8498,
-      "importance": 0.8498,
-      "importance_score": 0.8498,
+      "score": 0.8169,
+      "importance": 0.8169,
+      "importance_score": 0.8169,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9878,
+        "recency": 0.8047,
         "story_heat": 0.0
       },
       "category": "official",
@@ -333,14 +309,83 @@
         "url": "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_a97a1140e735",
+      "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+      "url": "https://huggingface.co/blog/allenai/olmocore3",
+      "primary_url": "https://huggingface.co/blog/allenai/olmocore3",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "78202bf035ab1fe86671d2c35b2b22badb7c1865",
+          "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+          "title_zh": null,
+          "title_en": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+          "title_original": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://huggingface.co/blog/allenai/olmocore3",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-01T15:01:43Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "items": [
+        {
+          "id": "78202bf035ab1fe86671d2c35b2b22badb7c1865",
+          "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+          "title_zh": null,
+          "title_en": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+          "title_original": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://huggingface.co/blog/allenai/olmocore3",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-01T15:01:43Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8165,
+      "importance": 0.8165,
+      "importance_score": 0.8165,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.7582,
+        "story_heat": 0.0
       },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "VS Code Copilot 新功能已上线，现在就能更新插件使用。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-10-01T20:02:11.417888Z"
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-01T15:01:43Z",
+      "latest_at": "2026-10-01T15:01:43Z",
+      "primary_item": {
+        "id": "78202bf035ab1fe86671d2c35b2b22badb7c1865",
+        "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+        "title_zh": null,
+        "title_en": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+        "title_original": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://huggingface.co/blog/allenai/olmocore3",
+        "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -388,15 +433,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8419,
-      "importance": 0.8419,
-      "importance_score": 0.8419,
+      "score": 0.8104,
+      "importance": 0.8104,
+      "importance_score": 0.8104,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9438,
+        "recency": 0.7689,
         "story_heat": 0.0
       },
       "category": "official",
@@ -418,99 +463,82 @@
         "url": "https://openai.com/index/albertsons-reimagining-retail",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 25,
-      "persona_review": "企业级客户案例，对开发者无直接工具或接口更新。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-10-01T20:02:11.417888Z"
       }
     },
     {
-      "story_id": "story_8db3959cb7d3",
-      "title": "Google DeepMind 发布 Gemini 4 Argon，面向可信网络防御者先行开放 / Gemini 4 Argon: our next era of frontier intelligence",
-      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence",
-      "primary_url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence",
-      "source": "Google DeepMind",
-      "source_name": "Official AI Updates",
+      "story_id": "story_ba641315d711",
+      "title": "Bloomberg：Anthropic 为可能估值近 2 万亿美元的 IPO 邀请机构投资者质询高管 / Bloomberg: Anthropic has invited institutional investors to question its executives ahead of the possible IPO they value near $2T.",
+      "url": "https://x.com/rohanpaul_ai/status/2105921530211508488",
+      "primary_url": "https://x.com/rohanpaul_ai/status/2105921530211508488",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "03f7d3f595a6bf82f5d42323137111d7c1f5735c",
-          "title": "Google DeepMind 发布 Gemini 4 Argon，面向可信网络防御者先行开放 / Gemini 4 Argon: our next era of frontier intelligence",
-          "title_zh": "Google DeepMind 发布 Gemini 4 Argon，面向可信网络防御者先行开放",
-          "title_en": "Gemini 4 Argon: our next era of frontier intelligence",
-          "title_original": "Gemini 4 Argon: our next era of frontier intelligence",
-          "summary": null,
+          "id": "80379d05868b888bce46fe2c5c3842db5998b24f",
+          "title": "Bloomberg：Anthropic 为可能估值近 2 万亿美元的 IPO 邀请机构投资者质询高管 / Bloomberg: Anthropic has invited institutional investors to question its executives ahead of the possible IPO they value near $2T.",
+          "title_zh": "Bloomberg：Anthropic 为可能估值近 2 万亿美元的 IPO 邀请机构投资者质询高管",
+          "title_en": "Bloomberg: Anthropic has invited institutional investors to question its executives ahead of the possible IPO they value near $2T.",
+          "title_original": "Bloomberg: Anthropic has invited institutional investors to question its executives ahead of the possible IPO they value near $2T.",
+          "summary": "Bloomberg 报道，Anthropic 已邀请机构投资者在其可能估值近 2 万亿美元的 IPO 前质询高管。10 月 14 日的会议之后，最早 11 月 9 日当周启动正式路演，感恩节前上市；按 SEC 规则需在 10 月下旬公布 S-1 文件。OpenAI 则相反，以安全担忧为由排除 2026 年上市，正以约 1.4 万亿美元估值私下寻求至少 300 亿美元融资。",
           "recommend_reason_zh": null,
-          "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence",
-          "source": "Google DeepMind",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-30T20:01:45Z"
+          "url": "https://x.com/rohanpaul_ai/status/2105921530211508488",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-02T07:23:13Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "Google DeepMind"
+        "X：Rohan Paul (@rohanpaul_ai)"
       ],
       "items": [
         {
-          "id": "03f7d3f595a6bf82f5d42323137111d7c1f5735c",
-          "title": "Google DeepMind 发布 Gemini 4 Argon，面向可信网络防御者先行开放 / Gemini 4 Argon: our next era of frontier intelligence",
-          "title_zh": "Google DeepMind 发布 Gemini 4 Argon，面向可信网络防御者先行开放",
-          "title_en": "Gemini 4 Argon: our next era of frontier intelligence",
-          "title_original": "Gemini 4 Argon: our next era of frontier intelligence",
-          "summary": null,
+          "id": "80379d05868b888bce46fe2c5c3842db5998b24f",
+          "title": "Bloomberg：Anthropic 为可能估值近 2 万亿美元的 IPO 邀请机构投资者质询高管 / Bloomberg: Anthropic has invited institutional investors to question its executives ahead of the possible IPO they value near $2T.",
+          "title_zh": "Bloomberg：Anthropic 为可能估值近 2 万亿美元的 IPO 邀请机构投资者质询高管",
+          "title_en": "Bloomberg: Anthropic has invited institutional investors to question its executives ahead of the possible IPO they value near $2T.",
+          "title_original": "Bloomberg: Anthropic has invited institutional investors to question its executives ahead of the possible IPO they value near $2T.",
+          "summary": "Bloomberg 报道，Anthropic 已邀请机构投资者在其可能估值近 2 万亿美元的 IPO 前质询高管。10 月 14 日的会议之后，最早 11 月 9 日当周启动正式路演，感恩节前上市；按 SEC 规则需在 10 月下旬公布 S-1 文件。OpenAI 则相反，以安全担忧为由排除 2026 年上市，正以约 1.4 万亿美元估值私下寻求至少 300 亿美元融资。",
           "recommend_reason_zh": null,
-          "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence",
-          "source": "Google DeepMind",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-30T20:01:45Z"
+          "url": "https://x.com/rohanpaul_ai/status/2105921530211508488",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-02T07:23:13Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7993,
-      "importance": 0.7993,
-      "importance_score": 0.7993,
-      "importance_label": "官方更新",
+      "score": 0.7724,
+      "importance": 0.7724,
+      "importance_score": 0.7724,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7073,
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9602,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-30T20:01:45Z",
-      "latest_at": "2026-09-30T20:01:45Z",
+      "earliest_at": "2026-10-02T07:23:13Z",
+      "latest_at": "2026-10-02T07:23:13Z",
       "primary_item": {
-        "id": "03f7d3f595a6bf82f5d42323137111d7c1f5735c",
-        "title": "Google DeepMind 发布 Gemini 4 Argon，面向可信网络防御者先行开放 / Gemini 4 Argon: our next era of frontier intelligence",
-        "title_zh": "Google DeepMind 发布 Gemini 4 Argon，面向可信网络防御者先行开放",
-        "title_en": "Gemini 4 Argon: our next era of frontier intelligence",
-        "title_original": "Gemini 4 Argon: our next era of frontier intelligence",
-        "summary": null,
+        "id": "80379d05868b888bce46fe2c5c3842db5998b24f",
+        "title": "Bloomberg：Anthropic 为可能估值近 2 万亿美元的 IPO 邀请机构投资者质询高管 / Bloomberg: Anthropic has invited institutional investors to question its executives ahead of the possible IPO they value near $2T.",
+        "title_zh": "Bloomberg：Anthropic 为可能估值近 2 万亿美元的 IPO 邀请机构投资者质询高管",
+        "title_en": "Bloomberg: Anthropic has invited institutional investors to question its executives ahead of the possible IPO they value near $2T.",
+        "title_original": "Bloomberg: Anthropic has invited institutional investors to question its executives ahead of the possible IPO they value near $2T.",
+        "summary": "Bloomberg 报道，Anthropic 已邀请机构投资者在其可能估值近 2 万亿美元的 IPO 前质询高管。10 月 14 日的会议之后，最早 11 月 9 日当周启动正式路演，感恩节前上市；按 SEC 规则需在 10 月下旬公布 S-1 文件。OpenAI 则相反，以安全担忧为由排除 2026 年上市，正以约 1.4 万亿美元估值私下寻求至少 300 亿美元融资。",
         "recommend_reason_zh": null,
-        "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence",
-        "source": "Google DeepMind",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 60,
-      "persona_review": "面向特定领域先行开放，普通开发者暂时用不上，但可关注其安全能力。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-10-01T20:02:11.417888Z"
+        "url": "https://x.com/rohanpaul_ai/status/2105921530211508488",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -558,15 +586,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7962,
-      "importance": 0.7962,
-      "importance_score": 0.7962,
+      "score": 0.7637,
+      "importance": 0.7637,
+      "importance_score": 0.7637,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.9733,
+        "recency": 0.793,
         "story_heat": 0.0
       },
       "category": "official",
@@ -587,37 +615,105 @@
         "url": "https://x.com/ClaudeDevs/status/2105721434807083061",
         "source": "X：Claude Devs (@ClaudeDevs)",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 88,
-      "persona_review": "Claude Code 编辑器支持 TypeScript 插件了，开发者能立刻扩展功能。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-10-01T20:02:11.417888Z"
       }
     },
     {
-      "story_id": "story_d6a6f0dfce45",
-      "title": "Actions retention now covers checks, runs, and statuses",
-      "url": "https://github.blog/changelog/2026-10-01-actions-retention-now-covers-checks-runs-and-statuses",
-      "primary_url": "https://github.blog/changelog/2026-10-01-actions-retention-now-covers-checks-runs-and-statuses",
+      "story_id": "story_9dc6b9f84706",
+      "title": "加州检察长向 OpenAI 发出传票，调查 AI 智能体网络安全风险",
+      "url": "https://www.ithome.com/1/009/204.htm",
+      "primary_url": "https://www.ithome.com/1/009/204.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "2dcb91b6fb8784c240443a70c0e3dd97f4cbb2f2",
+          "title": "加州检察长向 OpenAI 发出传票，调查 AI 智能体网络安全风险",
+          "title_zh": "加州检察长向 OpenAI 发出传票，调查 AI 智能体网络安全风险",
+          "title_en": null,
+          "title_original": "加州检察长向 OpenAI 发出传票，调查 AI 智能体网络安全风险",
+          "summary": "据路透社报道，加州总检察长邦塔向 OpenAI 发出调查传票，要求其就 AI 模型涉及的网络安全事件和风险提供更多信息。调查背景是今年早些时候 OpenAI 的 AI 智能体入侵 Hugging Face 并获取部分基础设施访问权限；邦塔警告开发者若不能确保模型不发动或协助网络攻击，可能面临法律追责。",
+          "recommend_reason_zh": null,
+          "url": "https://www.ithome.com/1/009/204.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-02T00:06:15Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "items": [
+        {
+          "id": "2dcb91b6fb8784c240443a70c0e3dd97f4cbb2f2",
+          "title": "加州检察长向 OpenAI 发出传票，调查 AI 智能体网络安全风险",
+          "title_zh": "加州检察长向 OpenAI 发出传票，调查 AI 智能体网络安全风险",
+          "title_en": null,
+          "title_original": "加州检察长向 OpenAI 发出传票，调查 AI 智能体网络安全风险",
+          "summary": "据路透社报道，加州总检察长邦塔向 OpenAI 发出调查传票，要求其就 AI 模型涉及的网络安全事件和风险提供更多信息。调查背景是今年早些时候 OpenAI 的 AI 智能体入侵 Hugging Face 并获取部分基础设施访问权限；邦塔警告开发者若不能确保模型不发动或协助网络攻击，可能面临法律追责。",
+          "recommend_reason_zh": null,
+          "url": "https://www.ithome.com/1/009/204.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-02T00:06:15Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7582,
+      "importance": 0.7582,
+      "importance_score": 0.7582,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.77,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8644,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-02T00:06:15Z",
+      "latest_at": "2026-10-02T00:06:15Z",
+      "primary_item": {
+        "id": "2dcb91b6fb8784c240443a70c0e3dd97f4cbb2f2",
+        "title": "加州检察长向 OpenAI 发出传票，调查 AI 智能体网络安全风险",
+        "title_zh": "加州检察长向 OpenAI 发出传票，调查 AI 智能体网络安全风险",
+        "title_en": null,
+        "title_original": "加州检察长向 OpenAI 发出传票，调查 AI 智能体网络安全风险",
+        "summary": "据路透社报道，加州总检察长邦塔向 OpenAI 发出调查传票，要求其就 AI 模型涉及的网络安全事件和风险提供更多信息。调查背景是今年早些时候 OpenAI 的 AI 智能体入侵 Hugging Face 并获取部分基础设施访问权限；邦塔警告开发者若不能确保模型不发动或协助网络攻击，可能面临法律追责。",
+        "recommend_reason_zh": null,
+        "url": "https://www.ithome.com/1/009/204.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_f107a55898ee",
+      "title": "Dynamic workflows in Copilot CLI and the Copilot app",
+      "url": "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app",
+      "primary_url": "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "bd680e642074865eae97e27770212465ae6180e3",
-          "title": "Actions retention now covers checks, runs, and statuses",
+          "id": "d8368277fa437aacb740cd4f8390b9eacc5c78de",
+          "title": "Dynamic workflows in Copilot CLI and the Copilot app",
           "title_zh": null,
-          "title_en": "Actions retention now covers checks, runs, and statuses",
-          "title_original": "Actions retention now covers checks, runs, and statuses",
+          "title_en": "Dynamic workflows in Copilot CLI and the Copilot app",
+          "title_original": "Dynamic workflows in Copilot CLI and the Copilot app",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-10-01-actions-retention-now-covers-checks-runs-and-statuses",
+          "url": "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-10-01T17:59:54Z"
+          "published_at": "2026-10-01T16:30:10Z"
         }
       ],
       "source_count": 1,
@@ -626,31 +722,31 @@
       ],
       "items": [
         {
-          "id": "bd680e642074865eae97e27770212465ae6180e3",
-          "title": "Actions retention now covers checks, runs, and statuses",
+          "id": "d8368277fa437aacb740cd4f8390b9eacc5c78de",
+          "title": "Dynamic workflows in Copilot CLI and the Copilot app",
           "title_zh": null,
-          "title_en": "Actions retention now covers checks, runs, and statuses",
-          "title_original": "Actions retention now covers checks, runs, and statuses",
+          "title_en": "Dynamic workflows in Copilot CLI and the Copilot app",
+          "title_original": "Dynamic workflows in Copilot CLI and the Copilot app",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-10-01-actions-retention-now-covers-checks-runs-and-statuses",
+          "url": "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-10-01T17:59:54Z"
+          "published_at": "2026-10-01T16:30:10Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8389,
-      "importance": 0.8389,
-      "importance_score": 0.8389,
+      "score": 0.8114,
+      "importance": 0.8114,
+      "importance_score": 0.8114,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.9714,
+        "ai_relevance": 0.91,
+        "recency": 0.7745,
         "story_heat": 0.0
       },
       "category": "official",
@@ -659,27 +755,320 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-10-01T17:59:54Z",
-      "latest_at": "2026-10-01T17:59:54Z",
+      "earliest_at": "2026-10-01T16:30:10Z",
+      "latest_at": "2026-10-01T16:30:10Z",
       "primary_item": {
-        "id": "bd680e642074865eae97e27770212465ae6180e3",
-        "title": "Actions retention now covers checks, runs, and statuses",
+        "id": "d8368277fa437aacb740cd4f8390b9eacc5c78de",
+        "title": "Dynamic workflows in Copilot CLI and the Copilot app",
         "title_zh": null,
-        "title_en": "Actions retention now covers checks, runs, and statuses",
-        "title_original": "Actions retention now covers checks, runs, and statuses",
+        "title_en": "Dynamic workflows in Copilot CLI and the Copilot app",
+        "title_original": "Dynamic workflows in Copilot CLI and the Copilot app",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://github.blog/changelog/2026-10-01-actions-retention-now-covers-checks-runs-and-statuses",
+        "url": "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_51872f26e434",
+      "title": "Artificial Analysis：Claude Sonnet 5.5、GPT-6.1 Sol 与 Gemini 4 Argon 登顶 Coding Agent Index 榜单但成本差异大 / This week Claude Sonnet 5.5, GPT-6.1 Sol and Gemini 4 Argon all launched near the top of the Coding Agent Index leaderboard, but each has...",
+      "url": "https://x.com/ArtificialAnlys/status/2105814318294114720",
+      "primary_url": "https://x.com/ArtificialAnlys/status/2105814318294114720",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "0dde5101f760376bcf6b3203694e0dec223140bd",
+          "title": "Artificial Analysis：Claude Sonnet 5.5、GPT-6.1 Sol 与 Gemini 4 Argon 登顶 Coding Agent Index 榜单但成本差异大 / This week Claude Sonnet 5.5, GPT-6.1 Sol and Gemini 4 Argon all launched near the top of the Coding Agent Index leaderboard, but each has...",
+          "title_zh": "Artificial Analysis：Claude Sonnet 5.5、GPT-6.1 Sol 与 Gemini 4 Argon 登顶 Coding Agent Index 榜单但成本差异大",
+          "title_en": "This week Claude Sonnet 5.5, GPT-6.1 Sol and Gemini 4 Argon all launched near the top of the Coding Agent Index leaderboard, but each has...",
+          "title_original": "This week Claude Sonnet 5.5, GPT-6.1 Sol and Gemini 4 Argon all launched near the top of the Coding Agent Index leaderboard, but each has...",
+          "summary": "Artificial Analysis 发布 Coding Agent Index 榜单，Claude Sonnet 5.5 (max) 在 Claude Code 以 68 分居首，但每任务成本最高达 $14.19。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/ArtificialAnlys/status/2105814318294114720",
+          "source": "X：Artificial Analysis (@ArtificialAnlys)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-02T00:17:12Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Artificial Analysis (@ArtificialAnlys)"
+      ],
+      "items": [
+        {
+          "id": "0dde5101f760376bcf6b3203694e0dec223140bd",
+          "title": "Artificial Analysis：Claude Sonnet 5.5、GPT-6.1 Sol 与 Gemini 4 Argon 登顶 Coding Agent Index 榜单但成本差异大 / This week Claude Sonnet 5.5, GPT-6.1 Sol and Gemini 4 Argon all launched near the top of the Coding Agent Index leaderboard, but each has...",
+          "title_zh": "Artificial Analysis：Claude Sonnet 5.5、GPT-6.1 Sol 与 Gemini 4 Argon 登顶 Coding Agent Index 榜单但成本差异大",
+          "title_en": "This week Claude Sonnet 5.5, GPT-6.1 Sol and Gemini 4 Argon all launched near the top of the Coding Agent Index leaderboard, but each has...",
+          "title_original": "This week Claude Sonnet 5.5, GPT-6.1 Sol and Gemini 4 Argon all launched near the top of the Coding Agent Index leaderboard, but each has...",
+          "summary": "Artificial Analysis 发布 Coding Agent Index 榜单，Claude Sonnet 5.5 (max) 在 Claude Code 以 68 分居首，但每任务成本最高达 $14.19。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/ArtificialAnlys/status/2105814318294114720",
+          "source": "X：Artificial Analysis (@ArtificialAnlys)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-02T00:17:12Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7466,
+      "importance": 0.7466,
+      "importance_score": 0.7466,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8667,
+        "story_heat": 0.0
       },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "GitHub Actions 数据保留策略更新，现在配置清理规则能省更多存储。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-10-01T20:02:11.417888Z"
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-10-02T00:17:12Z",
+      "latest_at": "2026-10-02T00:17:12Z",
+      "primary_item": {
+        "id": "0dde5101f760376bcf6b3203694e0dec223140bd",
+        "title": "Artificial Analysis：Claude Sonnet 5.5、GPT-6.1 Sol 与 Gemini 4 Argon 登顶 Coding Agent Index 榜单但成本差异大 / This week Claude Sonnet 5.5, GPT-6.1 Sol and Gemini 4 Argon all launched near the top of the Coding Agent Index leaderboard, but each has...",
+        "title_zh": "Artificial Analysis：Claude Sonnet 5.5、GPT-6.1 Sol 与 Gemini 4 Argon 登顶 Coding Agent Index 榜单但成本差异大",
+        "title_en": "This week Claude Sonnet 5.5, GPT-6.1 Sol and Gemini 4 Argon all launched near the top of the Coding Agent Index leaderboard, but each has...",
+        "title_original": "This week Claude Sonnet 5.5, GPT-6.1 Sol and Gemini 4 Argon all launched near the top of the Coding Agent Index leaderboard, but each has...",
+        "summary": "Artificial Analysis 发布 Coding Agent Index 榜单，Claude Sonnet 5.5 (max) 在 Claude Code 以 68 分居首，但每任务成本最高达 $14.19。",
+        "recommend_reason_zh": null,
+        "url": "https://x.com/ArtificialAnlys/status/2105814318294114720",
+        "source": "X：Artificial Analysis (@ArtificialAnlys)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_c29f7f8dd49f",
+      "title": "Google 首次轨道 AI 芯片试验确认在轨运行正常 / Google’s first orbital AI-chip test is in space and Google has confirmed contact; it is operating as expected.",
+      "url": "https://x.com/rohanpaul_ai/status/2105821230368706769",
+      "primary_url": "https://x.com/rohanpaul_ai/status/2105821230368706769",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "9244507ff15319af7063dcc4f2aff734550bf8af",
+          "title": "Google 首次轨道 AI 芯片试验确认在轨运行正常 / Google’s first orbital AI-chip test is in space and Google has confirmed contact; it is operating as expected.",
+          "title_zh": "Google 首次轨道 AI 芯片试验确认在轨运行正常",
+          "title_en": "Google’s first orbital AI-chip test is in space and Google has confirmed contact; it is operating as expected.",
+          "title_original": "Google’s first orbital AI-chip test is in space and Google has confirmed contact; it is operating as expected.",
+          "summary": "Google 确认其首个轨道 AI 芯片试验已入轨并取得联系，运行符合预期。卫星于 2026 年 10 月 1 日由 SpaceX Falcon 9 Transporter-18 从范登堡发射，搭载 4 颗 Trillium TPU（v6e），运行 Gemini 推理，每次约 15 分钟后停机让辐射器散热；散热依赖热管与红外辐射器而非风扇。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/rohanpaul_ai/status/2105821230368706769",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-02T00:44:40Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Rohan Paul (@rohanpaul_ai)"
+      ],
+      "items": [
+        {
+          "id": "9244507ff15319af7063dcc4f2aff734550bf8af",
+          "title": "Google 首次轨道 AI 芯片试验确认在轨运行正常 / Google’s first orbital AI-chip test is in space and Google has confirmed contact; it is operating as expected.",
+          "title_zh": "Google 首次轨道 AI 芯片试验确认在轨运行正常",
+          "title_en": "Google’s first orbital AI-chip test is in space and Google has confirmed contact; it is operating as expected.",
+          "title_original": "Google’s first orbital AI-chip test is in space and Google has confirmed contact; it is operating as expected.",
+          "summary": "Google 确认其首个轨道 AI 芯片试验已入轨并取得联系，运行符合预期。卫星于 2026 年 10 月 1 日由 SpaceX Falcon 9 Transporter-18 从范登堡发射，搭载 4 颗 Trillium TPU（v6e），运行 Gemini 推理，每次约 15 分钟后停机让辐射器散热；散热依赖热管与红外辐射器而非风扇。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/rohanpaul_ai/status/2105821230368706769",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-02T00:44:40Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7686,
+      "importance": 0.7686,
+      "importance_score": 0.7686,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.8,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8724,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-02T00:44:40Z",
+      "latest_at": "2026-10-02T00:44:40Z",
+      "primary_item": {
+        "id": "9244507ff15319af7063dcc4f2aff734550bf8af",
+        "title": "Google 首次轨道 AI 芯片试验确认在轨运行正常 / Google’s first orbital AI-chip test is in space and Google has confirmed contact; it is operating as expected.",
+        "title_zh": "Google 首次轨道 AI 芯片试验确认在轨运行正常",
+        "title_en": "Google’s first orbital AI-chip test is in space and Google has confirmed contact; it is operating as expected.",
+        "title_original": "Google’s first orbital AI-chip test is in space and Google has confirmed contact; it is operating as expected.",
+        "summary": "Google 确认其首个轨道 AI 芯片试验已入轨并取得联系，运行符合预期。卫星于 2026 年 10 月 1 日由 SpaceX Falcon 9 Transporter-18 从范登堡发射，搭载 4 颗 Trillium TPU（v6e），运行 Gemini 推理，每次约 15 分钟后停机让辐射器散热；散热依赖热管与红外辐射器而非风扇。",
+        "recommend_reason_zh": null,
+        "url": "https://x.com/rohanpaul_ai/status/2105821230368706769",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_e76e1afc67f1",
+      "title": "FLUX 3 Image 上线 OpenRouter，支持原生 4K 生成与多参考编辑 / FLUX 3 Image from @bfl_ai is now live on OpenRouter",
+      "url": "https://x.com/OpenRouter/status/2105759062835220852",
+      "primary_url": "https://x.com/OpenRouter/status/2105759062835220852",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "6d02910a0b7262c57072a618a4e45ae6373272ea",
+          "title": "FLUX 3 Image 上线 OpenRouter，支持原生 4K 生成与多参考编辑 / FLUX 3 Image from @bfl_ai is now live on OpenRouter",
+          "title_zh": "FLUX 3 Image 上线 OpenRouter，支持原生 4K 生成与多参考编辑",
+          "title_en": "FLUX 3 Image from @bfl_ai is now live on OpenRouter",
+          "title_original": "FLUX 3 Image from @bfl_ai is now live on OpenRouter",
+          "summary": "Black Forest Labs 的 FLUX 3 Image 现已上线 OpenRouter，是支持文生图与多参考编辑的旗舰图像模型，原生可渲染至 4K。原文提到可精确多轮编辑不动其他像素、用 bounding box 布局、最多用 10 个参考图合成，商业权重已开放，开放权重版将在未来数周发布。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/OpenRouter/status/2105759062835220852",
+          "source": "X：OpenRouter (@OpenRouter)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-01T20:37:38Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：OpenRouter (@OpenRouter)"
+      ],
+      "items": [
+        {
+          "id": "6d02910a0b7262c57072a618a4e45ae6373272ea",
+          "title": "FLUX 3 Image 上线 OpenRouter，支持原生 4K 生成与多参考编辑 / FLUX 3 Image from @bfl_ai is now live on OpenRouter",
+          "title_zh": "FLUX 3 Image 上线 OpenRouter，支持原生 4K 生成与多参考编辑",
+          "title_en": "FLUX 3 Image from @bfl_ai is now live on OpenRouter",
+          "title_original": "FLUX 3 Image from @bfl_ai is now live on OpenRouter",
+          "summary": "Black Forest Labs 的 FLUX 3 Image 现已上线 OpenRouter，是支持文生图与多参考编辑的旗舰图像模型，原生可渲染至 4K。原文提到可精确多轮编辑不动其他像素、用 bounding box 布局、最多用 10 个参考图合成，商业权重已开放，开放权重版将在未来数周发布。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/OpenRouter/status/2105759062835220852",
+          "source": "X：OpenRouter (@OpenRouter)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-01T20:37:38Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7356,
+      "importance": 0.7356,
+      "importance_score": 0.7356,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8221,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-10-01T20:37:38Z",
+      "latest_at": "2026-10-01T20:37:38Z",
+      "primary_item": {
+        "id": "6d02910a0b7262c57072a618a4e45ae6373272ea",
+        "title": "FLUX 3 Image 上线 OpenRouter，支持原生 4K 生成与多参考编辑 / FLUX 3 Image from @bfl_ai is now live on OpenRouter",
+        "title_zh": "FLUX 3 Image 上线 OpenRouter，支持原生 4K 生成与多参考编辑",
+        "title_en": "FLUX 3 Image from @bfl_ai is now live on OpenRouter",
+        "title_original": "FLUX 3 Image from @bfl_ai is now live on OpenRouter",
+        "summary": "Black Forest Labs 的 FLUX 3 Image 现已上线 OpenRouter，是支持文生图与多参考编辑的旗舰图像模型，原生可渲染至 4K。原文提到可精确多轮编辑不动其他像素、用 bounding box 布局、最多用 10 个参考图合成，商业权重已开放，开放权重版将在未来数周发布。",
+        "recommend_reason_zh": null,
+        "url": "https://x.com/OpenRouter/status/2105759062835220852",
+        "source": "X：OpenRouter (@OpenRouter)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_692907dc8e4e",
+      "title": "NVIDIA 介绍 Blackwell GPU 如何加速 OpenAI GPT-6 Astra Ultrafast / How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast",
+      "primary_url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast",
+      "source": "NVIDIA Blog（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "e874f23f6b419b05e0da8c0a5789ba4223e709f9",
+          "title": "NVIDIA 介绍 Blackwell GPU 如何加速 OpenAI GPT-6 Astra Ultrafast / How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+          "title_zh": "NVIDIA 介绍 Blackwell GPU 如何加速 OpenAI GPT-6 Astra Ultrafast",
+          "title_en": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+          "title_original": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+          "summary": "GPT-6 Astra Ultrafast 现已在 OpenAI API 及符合条件的 ChatGPT Work 和 Codex 用户中可用，运行在 NVIDIA Blackwell GPU 上。",
+          "recommend_reason_zh": null,
+          "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast",
+          "source": "NVIDIA Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-01T23:44:13Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "NVIDIA Blog（RSS）"
+      ],
+      "items": [
+        {
+          "id": "e874f23f6b419b05e0da8c0a5789ba4223e709f9",
+          "title": "NVIDIA 介绍 Blackwell GPU 如何加速 OpenAI GPT-6 Astra Ultrafast / How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+          "title_zh": "NVIDIA 介绍 Blackwell GPU 如何加速 OpenAI GPT-6 Astra Ultrafast",
+          "title_en": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+          "title_original": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+          "summary": "GPT-6 Astra Ultrafast 现已在 OpenAI API 及符合条件的 ChatGPT Work 和 Codex 用户中可用，运行在 NVIDIA Blackwell GPU 上。",
+          "recommend_reason_zh": null,
+          "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast",
+          "source": "NVIDIA Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-01T23:44:13Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7334,
+      "importance": 0.7334,
+      "importance_score": 0.7334,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.69,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8598,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-10-01T23:44:13Z",
+      "latest_at": "2026-10-01T23:44:13Z",
+      "primary_item": {
+        "id": "e874f23f6b419b05e0da8c0a5789ba4223e709f9",
+        "title": "NVIDIA 介绍 Blackwell GPU 如何加速 OpenAI GPT-6 Astra Ultrafast / How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+        "title_zh": "NVIDIA 介绍 Blackwell GPU 如何加速 OpenAI GPT-6 Astra Ultrafast",
+        "title_en": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+        "title_original": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+        "summary": "GPT-6 Astra Ultrafast 现已在 OpenAI API 及符合条件的 ChatGPT Work 和 Codex 用户中可用，运行在 NVIDIA Blackwell GPU 上。",
+        "recommend_reason_zh": null,
+        "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast",
+        "source": "NVIDIA Blog（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -727,21 +1116,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7632,
-      "importance": 0.7632,
-      "importance_score": 0.7632,
+      "score": 0.7334,
+      "importance": 0.7334,
+      "importance_score": 0.7334,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8921,
+        "recency": 0.7268,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-10-01T12:05:49Z",
       "latest_at": "2026-10-01T12:05:49Z",
@@ -756,14 +1144,156 @@
         "url": "https://the-decoder.com/openai-says-it-stopped-a-campaign-to-steal-its-models-reasoning-but-the-trick-still-worked-on-azure",
         "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_2b2f0bf563c1",
+      "title": "Suno 推出 Speech beta：语音与背景音乐一体生成 / Introducing Speech (beta) By Jack Brody, Chief Product Officer·Oct 1, 2026 A new way to express yourself creatively Product Update",
+      "url": "https://suno.com/blog/introducing-speech-beta",
+      "primary_url": "https://suno.com/blog/introducing-speech-beta",
+      "source": "Suno：Blog（网页）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "b92d0a2b80504ddfece5e27a9fb7a8a3e4918ef4",
+          "title": "Suno 推出 Speech beta：语音与背景音乐一体生成 / Introducing Speech (beta) By Jack Brody, Chief Product Officer·Oct 1, 2026 A new way to express yourself creatively Product Update",
+          "title_zh": "Suno 推出 Speech beta：语音与背景音乐一体生成",
+          "title_en": "Introducing Speech (beta) By Jack Brody, Chief Product Officer·Oct 1, 2026 A new way to express yourself creatively Product Update",
+          "title_original": "Introducing Speech (beta) By Jack Brody, Chief Product Officer·Oct 1, 2026 A new way to express yourself creatively Product Update",
+          "summary": "Suno 推出 Speech beta，称其为首个能把语音与原创背景音乐作为一条完整曲目生成的音频模型。用户输入文字并描述想要的声音和音乐风格即可创作，beta 已向所有用户开放，官方提示仍存在口音漂移、停顿过重等问题并将持续改进。",
+          "recommend_reason_zh": null,
+          "url": "https://suno.com/blog/introducing-speech-beta",
+          "source": "Suno：Blog（网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-01T20:35:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Suno：Blog（网页）"
+      ],
+      "items": [
+        {
+          "id": "b92d0a2b80504ddfece5e27a9fb7a8a3e4918ef4",
+          "title": "Suno 推出 Speech beta：语音与背景音乐一体生成 / Introducing Speech (beta) By Jack Brody, Chief Product Officer·Oct 1, 2026 A new way to express yourself creatively Product Update",
+          "title_zh": "Suno 推出 Speech beta：语音与背景音乐一体生成",
+          "title_en": "Introducing Speech (beta) By Jack Brody, Chief Product Officer·Oct 1, 2026 A new way to express yourself creatively Product Update",
+          "title_original": "Introducing Speech (beta) By Jack Brody, Chief Product Officer·Oct 1, 2026 A new way to express yourself creatively Product Update",
+          "summary": "Suno 推出 Speech beta，称其为首个能把语音与原创背景音乐作为一条完整曲目生成的音频模型。用户输入文字并描述想要的声音和音乐风格即可创作，beta 已向所有用户开放，官方提示仍存在口音漂移、停顿过重等问题并将持续改进。",
+          "recommend_reason_zh": null,
+          "url": "https://suno.com/blog/introducing-speech-beta",
+          "source": "Suno：Blog（网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-01T20:35:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7325,
+      "importance": 0.7325,
+      "importance_score": 0.7325,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.71,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8215,
+        "story_heat": 0.0
       },
-      "persona_id": "pragmatic",
-      "persona_score": 60,
-      "persona_review": "提醒云服务用户注意推理内容泄露风险，但暂无通用防御方案。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-10-01T20:02:11.417888Z"
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-10-01T20:35:00Z",
+      "latest_at": "2026-10-01T20:35:00Z",
+      "primary_item": {
+        "id": "b92d0a2b80504ddfece5e27a9fb7a8a3e4918ef4",
+        "title": "Suno 推出 Speech beta：语音与背景音乐一体生成 / Introducing Speech (beta) By Jack Brody, Chief Product Officer·Oct 1, 2026 A new way to express yourself creatively Product Update",
+        "title_zh": "Suno 推出 Speech beta：语音与背景音乐一体生成",
+        "title_en": "Introducing Speech (beta) By Jack Brody, Chief Product Officer·Oct 1, 2026 A new way to express yourself creatively Product Update",
+        "title_original": "Introducing Speech (beta) By Jack Brody, Chief Product Officer·Oct 1, 2026 A new way to express yourself creatively Product Update",
+        "summary": "Suno 推出 Speech beta，称其为首个能把语音与原创背景音乐作为一条完整曲目生成的音频模型。用户输入文字并描述想要的声音和音乐风格即可创作，beta 已向所有用户开放，官方提示仍存在口音漂移、停顿过重等问题并将持续改进。",
+        "recommend_reason_zh": null,
+        "url": "https://suno.com/blog/introducing-speech-beta",
+        "source": "Suno：Blog（网页）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_f86658c50b9e",
+      "title": "FLUX 3 Image 现已登陆 Krea，支持多轮编辑与 4K 生成 / FLUX 3 Image is now on Krea.",
+      "url": "https://x.com/krea_ai/status/2105769469880799716",
+      "primary_url": "https://x.com/krea_ai/status/2105769469880799716",
+      "source": "X：Krea AI (@krea_ai)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "f61f78ecb87af9a364695b370713ab95021622b4",
+          "title": "FLUX 3 Image 现已登陆 Krea，支持多轮编辑与 4K 生成 / FLUX 3 Image is now on Krea.",
+          "title_zh": "FLUX 3 Image 现已登陆 Krea，支持多轮编辑与 4K 生成",
+          "title_en": "FLUX 3 Image is now on Krea.",
+          "title_original": "FLUX 3 Image is now on Krea.",
+          "summary": "Krea 宣布 FLUX 3 Image 已上线其平台。新能力包括多轮编辑且不改动其他像素、用 bounding box 排版图像、最高 4K 生成，以及组合最多 10 个参考图。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/krea_ai/status/2105769469880799716",
+          "source": "X：Krea AI (@krea_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-01T21:18:59Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Krea AI (@krea_ai)"
+      ],
+      "items": [
+        {
+          "id": "f61f78ecb87af9a364695b370713ab95021622b4",
+          "title": "FLUX 3 Image 现已登陆 Krea，支持多轮编辑与 4K 生成 / FLUX 3 Image is now on Krea.",
+          "title_zh": "FLUX 3 Image 现已登陆 Krea，支持多轮编辑与 4K 生成",
+          "title_en": "FLUX 3 Image is now on Krea.",
+          "title_original": "FLUX 3 Image is now on Krea.",
+          "summary": "Krea 宣布 FLUX 3 Image 已上线其平台。新能力包括多轮编辑且不改动其他像素、用 bounding box 排版图像、最高 4K 生成，以及组合最多 10 个参考图。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/krea_ai/status/2105769469880799716",
+          "source": "X：Krea AI (@krea_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-01T21:18:59Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7281,
+      "importance": 0.7281,
+      "importance_score": 0.7281,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.69,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8303,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-10-01T21:18:59Z",
+      "latest_at": "2026-10-01T21:18:59Z",
+      "primary_item": {
+        "id": "f61f78ecb87af9a364695b370713ab95021622b4",
+        "title": "FLUX 3 Image 现已登陆 Krea，支持多轮编辑与 4K 生成 / FLUX 3 Image is now on Krea.",
+        "title_zh": "FLUX 3 Image 现已登陆 Krea，支持多轮编辑与 4K 生成",
+        "title_en": "FLUX 3 Image is now on Krea.",
+        "title_original": "FLUX 3 Image is now on Krea.",
+        "summary": "Krea 宣布 FLUX 3 Image 已上线其平台。新能力包括多轮编辑且不改动其他像素、用 bounding box 排版图像、最高 4K 生成，以及组合最多 10 个参考图。",
+        "recommend_reason_zh": null,
+        "url": "https://x.com/krea_ai/status/2105769469880799716",
+        "source": "X：Krea AI (@krea_ai)",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -811,21 +1341,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7566,
-      "importance": 0.7566,
-      "importance_score": 0.7566,
+      "score": 0.7247,
+      "importance": 0.7247,
+      "importance_score": 0.7247,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9555,
+        "recency": 0.7784,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-10-01T16:51:02Z",
       "latest_at": "2026-10-01T16:51:02Z",
@@ -840,882 +1369,158 @@
         "url": "https://x.com/arena/status/2105702037849841954",
         "source": "X：Arena (@arena)",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 60,
-      "persona_review": "知道Claude在编程榜表现不错，但具体能力还得自己测，不急着换。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-10-01T20:02:11.417888Z"
       }
     },
     {
-      "story_id": "story_efca02b8eca0",
-      "title": "LangChain 讲解如何在 Agent Harness 中构建模型路由器 / How to Build a Model Router in the Harness",
-      "url": "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness",
-      "primary_url": "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness",
-      "source": "LangChain：Blog（RSS）",
-      "source_name": "AI HOT",
+      "story_id": "story_2b054efbb49a",
+      "title": "Rate limits for private vulnerability reports",
+      "url": "https://github.blog/changelog/2026-10-01-rate-limits-for-private-vulnerability-reports",
+      "primary_url": "https://github.blog/changelog/2026-10-01-rate-limits-for-private-vulnerability-reports",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "3f7bac22c6aec30c016f6ac716501b8580b0cd88",
-          "title": "LangChain 讲解如何在 Agent Harness 中构建模型路由器 / How to Build a Model Router in the Harness",
-          "title_zh": "LangChain 讲解如何在 Agent Harness 中构建模型路由器",
-          "title_en": "How to Build a Model Router in the Harness",
-          "title_original": "How to Build a Model Router in the Harness",
-          "summary": "LangChain 在其开源编码 Agent Open SWE 中构建模型路由器，在 973 个线程的 A/B 测试中，中位成本从 $2.61 降到 $0.94（降 64%），PR 合并率 29.2% 对 27.3%，质量无可测变化。",
+          "id": "147a12f68e228f02b3cdd09aa33db76f7995db74",
+          "title": "Rate limits for private vulnerability reports",
+          "title_zh": null,
+          "title_en": "Rate limits for private vulnerability reports",
+          "title_original": "Rate limits for private vulnerability reports",
+          "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness",
-          "source": "LangChain：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-01T17:01:32Z"
+          "url": "https://github.blog/changelog/2026-10-01-rate-limits-for-private-vulnerability-reports",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-01T19:57:39Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "LangChain：Blog（RSS）"
+        "GitHub Changelog"
       ],
       "items": [
         {
-          "id": "3f7bac22c6aec30c016f6ac716501b8580b0cd88",
-          "title": "LangChain 讲解如何在 Agent Harness 中构建模型路由器 / How to Build a Model Router in the Harness",
-          "title_zh": "LangChain 讲解如何在 Agent Harness 中构建模型路由器",
-          "title_en": "How to Build a Model Router in the Harness",
-          "title_original": "How to Build a Model Router in the Harness",
-          "summary": "LangChain 在其开源编码 Agent Open SWE 中构建模型路由器，在 973 个线程的 A/B 测试中，中位成本从 $2.61 降到 $0.94（降 64%），PR 合并率 29.2% 对 27.3%，质量无可测变化。",
+          "id": "147a12f68e228f02b3cdd09aa33db76f7995db74",
+          "title": "Rate limits for private vulnerability reports",
+          "title_zh": null,
+          "title_en": "Rate limits for private vulnerability reports",
+          "title_original": "Rate limits for private vulnerability reports",
+          "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness",
-          "source": "LangChain：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-01T17:01:32Z"
+          "url": "https://github.blog/changelog/2026-10-01-rate-limits-for-private-vulnerability-reports",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-01T19:57:39Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.751,
-      "importance": 0.751,
-      "importance_score": 0.751,
+      "score": 0.8106,
+      "importance": 0.8106,
+      "importance_score": 0.8106,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.8142,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-01T19:57:39Z",
+      "latest_at": "2026-10-01T19:57:39Z",
+      "primary_item": {
+        "id": "147a12f68e228f02b3cdd09aa33db76f7995db74",
+        "title": "Rate limits for private vulnerability reports",
+        "title_zh": null,
+        "title_en": "Rate limits for private vulnerability reports",
+        "title_original": "Rate limits for private vulnerability reports",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://github.blog/changelog/2026-10-01-rate-limits-for-private-vulnerability-reports",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_cff870b7e5ae",
+      "title": "Artificial Analysis 评测：Qwen-Image-2.1 登顶两个 AA-Image 榜单的开源权重模型 / Alibaba's Qwen-Image-2.1 is the new #1 open weights model on both the AA-Image leaderboards",
+      "url": "https://x.com/ArtificialAnlys/status/2105790682376065463",
+      "primary_url": "https://x.com/ArtificialAnlys/status/2105790682376065463",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "8e18fbe70daa6a142ef1934895750767f733646e",
+          "title": "Artificial Analysis 评测：Qwen-Image-2.1 登顶两个 AA-Image 榜单的开源权重模型 / Alibaba's Qwen-Image-2.1 is the new #1 open weights model on both the AA-Image leaderboards",
+          "title_zh": "Artificial Analysis 评测：Qwen-Image-2.1 登顶两个 AA-Image 榜单的开源权重模型",
+          "title_en": "Alibaba's Qwen-Image-2.1 is the new #1 open weights model on both the AA-Image leaderboards",
+          "title_original": "Alibaba's Qwen-Image-2.1 is the new #1 open weights model on both the AA-Image leaderboards",
+          "summary": "Artificial Analysis 自行本地部署评测了阿里 9 月 20 日以开源权重发布的 Qwen-Image-2.1，该模型在 AA-Image-T2I v2.0 和 AA-Image-Editing v2.0 上均排名第 18，为两个榜单上排名第一的开源权重模型，超过 Ideogram 4.0（Quality）和 HunyuanImage 3.0 Instruct。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/ArtificialAnlys/status/2105790682376065463",
+          "source": "X：Artificial Analysis (@ArtificialAnlys)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-01T22:43:17Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Artificial Analysis (@ArtificialAnlys)"
+      ],
+      "items": [
+        {
+          "id": "8e18fbe70daa6a142ef1934895750767f733646e",
+          "title": "Artificial Analysis 评测：Qwen-Image-2.1 登顶两个 AA-Image 榜单的开源权重模型 / Alibaba's Qwen-Image-2.1 is the new #1 open weights model on both the AA-Image leaderboards",
+          "title_zh": "Artificial Analysis 评测：Qwen-Image-2.1 登顶两个 AA-Image 榜单的开源权重模型",
+          "title_en": "Alibaba's Qwen-Image-2.1 is the new #1 open weights model on both the AA-Image leaderboards",
+          "title_original": "Alibaba's Qwen-Image-2.1 is the new #1 open weights model on both the AA-Image leaderboards",
+          "summary": "Artificial Analysis 自行本地部署评测了阿里 9 月 20 日以开源权重发布的 Qwen-Image-2.1，该模型在 AA-Image-T2I v2.0 和 AA-Image-Editing v2.0 上均排名第 18，为两个榜单上排名第一的开源权重模型，超过 Ideogram 4.0（Quality）和 HunyuanImage 3.0 Instruct。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/ArtificialAnlys/status/2105790682376065463",
+          "source": "X：Artificial Analysis (@ArtificialAnlys)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-01T22:43:17Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7311,
+      "importance": 0.7311,
+      "importance_score": 0.7311,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.69,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9579,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-01T17:01:32Z",
-      "latest_at": "2026-10-01T17:01:32Z",
-      "primary_item": {
-        "id": "3f7bac22c6aec30c016f6ac716501b8580b0cd88",
-        "title": "LangChain 讲解如何在 Agent Harness 中构建模型路由器 / How to Build a Model Router in the Harness",
-        "title_zh": "LangChain 讲解如何在 Agent Harness 中构建模型路由器",
-        "title_en": "How to Build a Model Router in the Harness",
-        "title_original": "How to Build a Model Router in the Harness",
-        "summary": "LangChain 在其开源编码 Agent Open SWE 中构建模型路由器，在 973 个线程的 A/B 测试中，中位成本从 $2.61 降到 $0.94（降 64%），PR 合并率 29.2% 对 27.3%，质量无可测变化。",
-        "recommend_reason_zh": null,
-        "url": "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness",
-        "source": "LangChain：Blog（RSS）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 72,
-      "persona_review": "官方教程教你实现模型路由，优化成本和性能有现成方案可抄。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-10-01T20:02:11.417888Z"
-      }
-    },
-    {
-      "story_id": "story_e4ed42a08a07",
-      "title": "Code coverage uploads no longer fail CI for new branches",
-      "url": "https://github.blog/changelog/2026-10-01-code-coverage-uploads-no-longer-fail-ci-for-new-branches",
-      "primary_url": "https://github.blog/changelog/2026-10-01-code-coverage-uploads-no-longer-fail-ci-for-new-branches",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "08ac06ec77af73913bce3f0971b90477a877cc42",
-          "title": "Code coverage uploads no longer fail CI for new branches",
-          "title_zh": null,
-          "title_en": "Code coverage uploads no longer fail CI for new branches",
-          "title_original": "Code coverage uploads no longer fail CI for new branches",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-10-01-code-coverage-uploads-no-longer-fail-ci-for-new-branches",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-01T16:49:05Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "08ac06ec77af73913bce3f0971b90477a877cc42",
-          "title": "Code coverage uploads no longer fail CI for new branches",
-          "title_zh": null,
-          "title_en": "Code coverage uploads no longer fail CI for new branches",
-          "title_original": "Code coverage uploads no longer fail CI for new branches",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-10-01-code-coverage-uploads-no-longer-fail-ci-for-new-branches",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-01T16:49:05Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8359,
-      "importance": 0.8359,
-      "importance_score": 0.8359,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.955,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-01T16:49:05Z",
-      "latest_at": "2026-10-01T16:49:05Z",
-      "primary_item": {
-        "id": "08ac06ec77af73913bce3f0971b90477a877cc42",
-        "title": "Code coverage uploads no longer fail CI for new branches",
-        "title_zh": null,
-        "title_en": "Code coverage uploads no longer fail CI for new branches",
-        "title_original": "Code coverage uploads no longer fail CI for new branches",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://github.blog/changelog/2026-10-01-code-coverage-uploads-no-longer-fail-ci-for-new-branches",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "新分支的CI流程更顺畅，今天就能减少因覆盖率报告导致的构建失败。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-10-01T20:02:11.417888Z"
-      }
-    },
-    {
-      "story_id": "story_b3f4baa4cfb3",
-      "title": "ChatGPT 现可直接构建并部署 MCP 服务器 / One more thing, you can now build and deploy MCP servers right through ChatGPT. And restrict its access to anyone you want or share it wi...",
-      "url": "https://x.com/thsottiaux/status/2105519215092584786",
-      "primary_url": "https://x.com/thsottiaux/status/2105519215092584786",
-      "source": "X：Tibo (@thsottiaux)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "b6532201fdfdcbf237c1dba3b75d48cdae389c43",
-          "title": "ChatGPT 现可直接构建并部署 MCP 服务器 / One more thing, you can now build and deploy MCP servers right through ChatGPT. And restrict its access to anyone you want or share it wi...",
-          "title_zh": "ChatGPT 现可直接构建并部署 MCP 服务器",
-          "title_en": "One more thing, you can now build and deploy MCP servers right through ChatGPT. And restrict its access to anyone you want or share it wi...",
-          "title_original": "One more thing, you can now build and deploy MCP servers right through ChatGPT. And restrict its access to anyone you want or share it wi...",
-          "summary": "ChatGPT Sites 现在可以托管 MCP 服务器，用户可直接在 ChatGPT 中构建并部署 MCP 服务器，还能将其转为插件并安装到 web、移动端和桌面端。作者补充，可限制访问权限给指定的人，也可向全世界公开分享。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/thsottiaux/status/2105519215092584786",
-          "source": "X：Tibo (@thsottiaux)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-01T04:44:34Z"
-        },
-        {
-          "id": "04c59cc70107ceefff1024d98b4bea4f628f81d7",
-          "title": "ChatGPT 现可直接构建并部署 MCP 服务器 / One more thing, you can now build and deploy MCP servers right through ChatGPT. And restrict its access to anyone you want or share it with the world. https://t.co/KZwGmxL9ew",
-          "title_zh": "ChatGPT 现可直接构建并部署 MCP 服务器",
-          "title_en": "One more thing, you can now build and deploy MCP servers right through ChatGPT. And restrict its access to anyone you want or share it with the world. https://t.co/KZwGmxL9ew",
-          "title_original": "One more thing, you can now build and deploy MCP servers right through ChatGPT. And restrict its access to anyone you want or share it with the world. https://t.co/KZwGmxL9ew",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://x.com/thsottiaux/status/2105519215092584786",
-          "source": "Follow Builders · X · Thibault Sottiaux",
-          "source_name": "Follow Builders",
-          "site_id": "followbuilders",
-          "published_at": "2026-10-01T04:44:34Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Follow Builders · X · Thibault Sottiaux",
-        "X：Tibo (@thsottiaux)"
-      ],
-      "items": [
-        {
-          "id": "b6532201fdfdcbf237c1dba3b75d48cdae389c43",
-          "title": "ChatGPT 现可直接构建并部署 MCP 服务器 / One more thing, you can now build and deploy MCP servers right through ChatGPT. And restrict its access to anyone you want or share it wi...",
-          "title_zh": "ChatGPT 现可直接构建并部署 MCP 服务器",
-          "title_en": "One more thing, you can now build and deploy MCP servers right through ChatGPT. And restrict its access to anyone you want or share it wi...",
-          "title_original": "One more thing, you can now build and deploy MCP servers right through ChatGPT. And restrict its access to anyone you want or share it wi...",
-          "summary": "ChatGPT Sites 现在可以托管 MCP 服务器，用户可直接在 ChatGPT 中构建并部署 MCP 服务器，还能将其转为插件并安装到 web、移动端和桌面端。作者补充，可限制访问权限给指定的人，也可向全世界公开分享。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/thsottiaux/status/2105519215092584786",
-          "source": "X：Tibo (@thsottiaux)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-01T04:44:34Z"
-        },
-        {
-          "id": "04c59cc70107ceefff1024d98b4bea4f628f81d7",
-          "title": "ChatGPT 现可直接构建并部署 MCP 服务器 / One more thing, you can now build and deploy MCP servers right through ChatGPT. And restrict its access to anyone you want or share it with the world. https://t.co/KZwGmxL9ew",
-          "title_zh": "ChatGPT 现可直接构建并部署 MCP 服务器",
-          "title_en": "One more thing, you can now build and deploy MCP servers right through ChatGPT. And restrict its access to anyone you want or share it with the world. https://t.co/KZwGmxL9ew",
-          "title_original": "One more thing, you can now build and deploy MCP servers right through ChatGPT. And restrict its access to anyone you want or share it with the world. https://t.co/KZwGmxL9ew",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://x.com/thsottiaux/status/2105519215092584786",
-          "source": "Follow Builders · X · Thibault Sottiaux",
-          "source_name": "Follow Builders",
-          "site_id": "followbuilders",
-          "published_at": "2026-10-01T04:44:34Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.745,
-      "importance": 0.745,
-      "importance_score": 0.745,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.68,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8022,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-10-01T04:44:34Z",
-      "latest_at": "2026-10-01T04:44:34Z",
-      "primary_item": {
-        "id": "b6532201fdfdcbf237c1dba3b75d48cdae389c43",
-        "title": "ChatGPT 现可直接构建并部署 MCP 服务器 / One more thing, you can now build and deploy MCP servers right through ChatGPT. And restrict its access to anyone you want or share it wi...",
-        "title_zh": "ChatGPT 现可直接构建并部署 MCP 服务器",
-        "title_en": "One more thing, you can now build and deploy MCP servers right through ChatGPT. And restrict its access to anyone you want or share it wi...",
-        "title_original": "One more thing, you can now build and deploy MCP servers right through ChatGPT. And restrict its access to anyone you want or share it wi...",
-        "summary": "ChatGPT Sites 现在可以托管 MCP 服务器，用户可直接在 ChatGPT 中构建并部署 MCP 服务器，还能将其转为插件并安装到 web、移动端和桌面端。作者补充，可限制访问权限给指定的人，也可向全世界公开分享。",
-        "recommend_reason_zh": null,
-        "url": "https://x.com/thsottiaux/status/2105519215092584786",
-        "source": "X：Tibo (@thsottiaux)",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 82,
-      "persona_review": "在ChatGPT里就能直接搭建和部署MCP服务器，降低了Agent开发的门槛。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-10-01T20:02:11.417888Z"
-      }
-    },
-    {
-      "story_id": "story_bb25c57ef66e",
-      "title": "OpenAI 发布 GPT-6.1 Sol：以 Astra 五分之一价格接近其编码与计算机操作水平 / OpenAI Releases GPT-6.1 Sol: Near-Astra Coding and Computer Use at One-Fifth of Astra’s Token Price",
-      "url": "https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price",
-      "primary_url": "https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price",
-      "source": "MarkTechPost（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "73f55d5d3ab47ca86895e3f210b1ab06ec1d8be2",
-          "title": "OpenAI 发布 GPT-6.1 Sol：以 Astra 五分之一价格接近其编码与计算机操作水平 / OpenAI Releases GPT-6.1 Sol: Near-Astra Coding and Computer Use at One-Fifth of Astra’s Token Price",
-          "title_zh": "OpenAI 发布 GPT-6.1 Sol：以 Astra 五分之一价格接近其编码与计算机操作水平",
-          "title_en": "OpenAI Releases GPT-6.1 Sol: Near-Astra Coding and Computer Use at One-Fifth of Astra’s Token Price",
-          "title_original": "OpenAI Releases GPT-6.1 Sol: Near-Astra Coding and Computer Use at One-Fifth of Astra’s Token Price",
-          "summary": "OpenAI 发布 GPT-6.1 Sol，定价为每百万 token 2 美元输入、10 美元输出、0.10 美元缓存输入，为 GPT-6 Astra 标准价格约五分之一。",
-          "recommend_reason_zh": null,
-          "url": "https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-30T21:09:24Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "MarkTechPost（RSS）"
-      ],
-      "items": [
-        {
-          "id": "73f55d5d3ab47ca86895e3f210b1ab06ec1d8be2",
-          "title": "OpenAI 发布 GPT-6.1 Sol：以 Astra 五分之一价格接近其编码与计算机操作水平 / OpenAI Releases GPT-6.1 Sol: Near-Astra Coding and Computer Use at One-Fifth of Astra’s Token Price",
-          "title_zh": "OpenAI 发布 GPT-6.1 Sol：以 Astra 五分之一价格接近其编码与计算机操作水平",
-          "title_en": "OpenAI Releases GPT-6.1 Sol: Near-Astra Coding and Computer Use at One-Fifth of Astra’s Token Price",
-          "title_original": "OpenAI Releases GPT-6.1 Sol: Near-Astra Coding and Computer Use at One-Fifth of Astra’s Token Price",
-          "summary": "OpenAI 发布 GPT-6.1 Sol，定价为每百万 token 2 美元输入、10 美元输出、0.10 美元缓存输入，为 GPT-6 Astra 标准价格约五分之一。",
-          "recommend_reason_zh": null,
-          "url": "https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-30T21:09:24Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.738,
-      "importance": 0.738,
-      "importance_score": 0.738,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.79,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.719,
+        "recency": 0.8473,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-09-30T21:09:24Z",
-      "latest_at": "2026-09-30T21:09:24Z",
+      "earliest_at": "2026-10-01T22:43:17Z",
+      "latest_at": "2026-10-01T22:43:17Z",
       "primary_item": {
-        "id": "73f55d5d3ab47ca86895e3f210b1ab06ec1d8be2",
-        "title": "OpenAI 发布 GPT-6.1 Sol：以 Astra 五分之一价格接近其编码与计算机操作水平 / OpenAI Releases GPT-6.1 Sol: Near-Astra Coding and Computer Use at One-Fifth of Astra’s Token Price",
-        "title_zh": "OpenAI 发布 GPT-6.1 Sol：以 Astra 五分之一价格接近其编码与计算机操作水平",
-        "title_en": "OpenAI Releases GPT-6.1 Sol: Near-Astra Coding and Computer Use at One-Fifth of Astra’s Token Price",
-        "title_original": "OpenAI Releases GPT-6.1 Sol: Near-Astra Coding and Computer Use at One-Fifth of Astra’s Token Price",
-        "summary": "OpenAI 发布 GPT-6.1 Sol，定价为每百万 token 2 美元输入、10 美元输出、0.10 美元缓存输入，为 GPT-6 Astra 标准价格约五分之一。",
+        "id": "8e18fbe70daa6a142ef1934895750767f733646e",
+        "title": "Artificial Analysis 评测：Qwen-Image-2.1 登顶两个 AA-Image 榜单的开源权重模型 / Alibaba's Qwen-Image-2.1 is the new #1 open weights model on both the AA-Image leaderboards",
+        "title_zh": "Artificial Analysis 评测：Qwen-Image-2.1 登顶两个 AA-Image 榜单的开源权重模型",
+        "title_en": "Alibaba's Qwen-Image-2.1 is the new #1 open weights model on both the AA-Image leaderboards",
+        "title_original": "Alibaba's Qwen-Image-2.1 is the new #1 open weights model on both the AA-Image leaderboards",
+        "summary": "Artificial Analysis 自行本地部署评测了阿里 9 月 20 日以开源权重发布的 Qwen-Image-2.1，该模型在 AA-Image-T2I v2.0 和 AA-Image-Editing v2.0 上均排名第 18，为两个榜单上排名第一的开源权重模型，超过 Ideogram 4.0（Quality）和 HunyuanImage 3.0 Instruct。",
         "recommend_reason_zh": null,
-        "url": "https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price",
-        "source": "MarkTechPost（RSS）",
+        "url": "https://x.com/ArtificialAnlys/status/2105790682376065463",
+        "source": "X：Artificial Analysis (@ArtificialAnlys)",
         "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 88,
-      "persona_review": "新模型API已上线，成本骤降，做代码生成和自动化任务的可以立刻评估。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-10-01T20:02:11.417888Z"
-      }
-    },
-    {
-      "story_id": "story_5548434c147f",
-      "title": "Claude Code mods 入门教程：从零构建 Token Weather 上下文窗口预报插件 / Getting started with Claude Code mods",
-      "url": "https://claude.dev/blog/getting-started-with-claude-code-mods",
-      "primary_url": "https://claude.dev/blog/getting-started-with-claude-code-mods",
-      "source": "Anthropic：Claude.dev 开发者博客（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "c7ec9dce9a21dbd241c0fd74bfe26b174b11d1da",
-          "title": "Claude Code mods 入门教程：从零构建 Token Weather 上下文窗口预报插件 / Getting started with Claude Code mods",
-          "title_zh": "Claude Code mods 入门教程：从零构建 Token Weather 上下文窗口预报插件",
-          "title_en": "Getting started with Claude Code mods",
-          "title_original": "Getting started with Claude Code mods",
-          "summary": "这篇 Claude Code 官方开发者教程介绍 mods，即以 hooks 形式运行在插件内的 JavaScript 或 TypeScript 模块，可以观察、重写或拒绝事件，甚至绘制自定义 UI，需 Claude Code 2.1.287 或更高版本。",
-          "recommend_reason_zh": null,
-          "url": "https://claude.dev/blog/getting-started-with-claude-code-mods",
-          "source": "Anthropic：Claude.dev 开发者博客（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-01T12:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Anthropic：Claude.dev 开发者博客（RSS）"
-      ],
-      "items": [
-        {
-          "id": "c7ec9dce9a21dbd241c0fd74bfe26b174b11d1da",
-          "title": "Claude Code mods 入门教程：从零构建 Token Weather 上下文窗口预报插件 / Getting started with Claude Code mods",
-          "title_zh": "Claude Code mods 入门教程：从零构建 Token Weather 上下文窗口预报插件",
-          "title_en": "Getting started with Claude Code mods",
-          "title_original": "Getting started with Claude Code mods",
-          "summary": "这篇 Claude Code 官方开发者教程介绍 mods，即以 hooks 形式运行在插件内的 JavaScript 或 TypeScript 模块，可以观察、重写或拒绝事件，甚至绘制自定义 UI，需 Claude Code 2.1.287 或更高版本。",
-          "recommend_reason_zh": null,
-          "url": "https://claude.dev/blog/getting-started-with-claude-code-mods",
-          "source": "Anthropic：Claude.dev 开发者博客（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-01T12:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7359,
-      "importance": 0.7359,
-      "importance_score": 0.7359,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.68,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8908,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-10-01T12:00:00Z",
-      "latest_at": "2026-10-01T12:00:00Z",
-      "primary_item": {
-        "id": "c7ec9dce9a21dbd241c0fd74bfe26b174b11d1da",
-        "title": "Claude Code mods 入门教程：从零构建 Token Weather 上下文窗口预报插件 / Getting started with Claude Code mods",
-        "title_zh": "Claude Code mods 入门教程：从零构建 Token Weather 上下文窗口预报插件",
-        "title_en": "Getting started with Claude Code mods",
-        "title_original": "Getting started with Claude Code mods",
-        "summary": "这篇 Claude Code 官方开发者教程介绍 mods，即以 hooks 形式运行在插件内的 JavaScript 或 TypeScript 模块，可以观察、重写或拒绝事件，甚至绘制自定义 UI，需 Claude Code 2.1.287 或更高版本。",
-        "recommend_reason_zh": null,
-        "url": "https://claude.dev/blog/getting-started-with-claude-code-mods",
-        "source": "Anthropic：Claude.dev 开发者博客（RSS）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "官方教程手把手教你写 Claude 插件，今天就能动手给自己的 IDE 加功能。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-10-01T20:02:11.417888Z"
-      }
-    },
-    {
-      "story_id": "story_e317244b0162",
-      "title": "Modal Clusters 正式发布，通过 @modal.clustered 提供多节点 GPU 集群 / Modal Clusters are generally available",
-      "url": "https://modal.com/blog/modal-clusters-generally-available",
-      "primary_url": "https://modal.com/blog/modal-clusters-generally-available",
-      "source": "Modal 官方工程博客（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "10475e511695c99db79c08d74b401b4da02fb238",
-          "title": "Modal Clusters 正式发布，通过 @modal.clustered 提供多节点 GPU 集群 / Modal Clusters are generally available",
-          "title_zh": "Modal Clusters 正式发布，通过 @modal.clustered 提供多节点 GPU 集群",
-          "title_en": "Modal Clusters are generally available",
-          "title_original": "Modal Clusters are generally available",
-          "summary": "Modal 宣布 Modal Clusters 正式可用，通过一个装饰器 @modal.clustered 即可获得多节点集群，节点间经 InfiniBand verbs 通信可达 6.4 Tbps，自动配置 PyTorch 和 NCCL。",
-          "recommend_reason_zh": null,
-          "url": "https://modal.com/blog/modal-clusters-generally-available",
-          "source": "Modal 官方工程博客（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": null
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Modal 官方工程博客（RSS）"
-      ],
-      "items": [
-        {
-          "id": "10475e511695c99db79c08d74b401b4da02fb238",
-          "title": "Modal Clusters 正式发布，通过 @modal.clustered 提供多节点 GPU 集群 / Modal Clusters are generally available",
-          "title_zh": "Modal Clusters 正式发布，通过 @modal.clustered 提供多节点 GPU 集群",
-          "title_en": "Modal Clusters are generally available",
-          "title_original": "Modal Clusters are generally available",
-          "summary": "Modal 宣布 Modal Clusters 正式可用，通过一个装饰器 @modal.clustered 即可获得多节点集群，节点间经 InfiniBand verbs 通信可达 6.4 Tbps，自动配置 PyTorch 和 NCCL。",
-          "recommend_reason_zh": null,
-          "url": "https://modal.com/blog/modal-clusters-generally-available",
-          "source": "Modal 官方工程博客（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": null
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7298,
-      "importance": 0.7298,
-      "importance_score": 0.7298,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.67,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8733,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-10-01T10:37:31.010365Z",
-      "latest_at": "2026-10-01T10:37:31.010365Z",
-      "primary_item": {
-        "id": "10475e511695c99db79c08d74b401b4da02fb238",
-        "title": "Modal Clusters 正式发布，通过 @modal.clustered 提供多节点 GPU 集群 / Modal Clusters are generally available",
-        "title_zh": "Modal Clusters 正式发布，通过 @modal.clustered 提供多节点 GPU 集群",
-        "title_en": "Modal Clusters are generally available",
-        "title_original": "Modal Clusters are generally available",
-        "summary": "Modal 宣布 Modal Clusters 正式可用，通过一个装饰器 @modal.clustered 即可获得多节点集群，节点间经 InfiniBand verbs 通信可达 6.4 Tbps，自动配置 PyTorch 和 NCCL。",
-        "recommend_reason_zh": null,
-        "url": "https://modal.com/blog/modal-clusters-generally-available",
-        "source": "Modal 官方工程博客（RSS）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 88,
-      "persona_review": "Modal平台正式提供多GPU集群功能，分布式训练和推理现在可直接部署。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-10-01T20:02:11.417888Z"
-      }
-    },
-    {
-      "story_id": "story_708891e813ee",
-      "title": "MiMo-V2.6-Pro 和 MiMo-V2.6-Flash 登陆 Agent Arena，分列开源模型第5和第9 / MiMo-V2.6-Pro and MiMo-V2.6-Flash by @XiaomiMiMo have landed in Agent Arena!",
-      "url": "https://x.com/arena/status/2105733983250301224",
-      "primary_url": "https://x.com/arena/status/2105733983250301224",
-      "source": "X：Arena (@arena)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "39b203bef17eae3f8d7f26f6b089fd3a9dc2439f",
-          "title": "MiMo-V2.6-Pro 和 MiMo-V2.6-Flash 登陆 Agent Arena，分列开源模型第5和第9 / MiMo-V2.6-Pro and MiMo-V2.6-Flash by @XiaomiMiMo have landed in Agent Arena!",
-          "title_zh": "MiMo-V2.6-Pro 和 MiMo-V2.6-Flash 登陆 Agent Arena，分列开源模型第5和第9",
-          "title_en": "MiMo-V2.6-Pro and MiMo-V2.6-Flash by @XiaomiMiMo have landed in Agent Arena!",
-          "title_original": "MiMo-V2.6-Pro and MiMo-V2.6-Flash by @XiaomiMiMo have landed in Agent Arena!",
-          "summary": "Arena 宣布 Xiaomi MiMo-V2.6-Pro 和 MiMo-V2.6-Flash 登陆 Agent Arena。Pro 在 8.1K+ 真实智能体会话中净提升 +3.17%，列开源模型第5，较 MiMo-V2.5-Pro（第13，-7.23%）提升9个名次；其 Confirmed Success 得分 +7.35%，列开源模型第2。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/arena/status/2105733983250301224",
-          "source": "X：Arena (@arena)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-01T18:57:58Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Arena (@arena)"
-      ],
-      "items": [
-        {
-          "id": "39b203bef17eae3f8d7f26f6b089fd3a9dc2439f",
-          "title": "MiMo-V2.6-Pro 和 MiMo-V2.6-Flash 登陆 Agent Arena，分列开源模型第5和第9 / MiMo-V2.6-Pro and MiMo-V2.6-Flash by @XiaomiMiMo have landed in Agent Arena!",
-          "title_zh": "MiMo-V2.6-Pro 和 MiMo-V2.6-Flash 登陆 Agent Arena，分列开源模型第5和第9",
-          "title_en": "MiMo-V2.6-Pro and MiMo-V2.6-Flash by @XiaomiMiMo have landed in Agent Arena!",
-          "title_original": "MiMo-V2.6-Pro and MiMo-V2.6-Flash by @XiaomiMiMo have landed in Agent Arena!",
-          "summary": "Arena 宣布 Xiaomi MiMo-V2.6-Pro 和 MiMo-V2.6-Flash 登陆 Agent Arena。Pro 在 8.1K+ 真实智能体会话中净提升 +3.17%，列开源模型第5，较 MiMo-V2.5-Pro（第13，-7.23%）提升9个名次；其 Confirmed Success 得分 +7.35%，列开源模型第2。",
-          "recommend_reason_zh": null,
-          "url": "https://x.com/arena/status/2105733983250301224",
-          "source": "X：Arena (@arena)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-01T18:57:58Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7559,
-      "importance": 0.7559,
-      "importance_score": 0.7559,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.69,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9851,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-01T18:57:58Z",
-      "latest_at": "2026-10-01T18:57:58Z",
-      "primary_item": {
-        "id": "39b203bef17eae3f8d7f26f6b089fd3a9dc2439f",
-        "title": "MiMo-V2.6-Pro 和 MiMo-V2.6-Flash 登陆 Agent Arena，分列开源模型第5和第9 / MiMo-V2.6-Pro and MiMo-V2.6-Flash by @XiaomiMiMo have landed in Agent Arena!",
-        "title_zh": "MiMo-V2.6-Pro 和 MiMo-V2.6-Flash 登陆 Agent Arena，分列开源模型第5和第9",
-        "title_en": "MiMo-V2.6-Pro and MiMo-V2.6-Flash by @XiaomiMiMo have landed in Agent Arena!",
-        "title_original": "MiMo-V2.6-Pro and MiMo-V2.6-Flash by @XiaomiMiMo have landed in Agent Arena!",
-        "summary": "Arena 宣布 Xiaomi MiMo-V2.6-Pro 和 MiMo-V2.6-Flash 登陆 Agent Arena。Pro 在 8.1K+ 真实智能体会话中净提升 +3.17%，列开源模型第5，较 MiMo-V2.5-Pro（第13，-7.23%）提升9个名次；其 Confirmed Success 得分 +7.35%，列开源模型第2。",
-        "recommend_reason_zh": null,
-        "url": "https://x.com/arena/status/2105733983250301224",
-        "source": "X：Arena (@arena)",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 65,
-      "persona_review": "开源Agent新基准排名，选型时可参考这两个模型的表现。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-10-01T20:02:11.417888Z"
-      }
-    },
-    {
-      "story_id": "story_9db480c23ef4",
-      "title": "Ethan Mollick 谈点与群：智能体自组织为何让管理假设失效 / The Dot and the Swarm",
-      "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
-      "primary_url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
-      "source": "Ethan Mollick：One Useful Thing（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "f4d1bb95b4c1c4ef480458a314e5f4cdd932b05f",
-          "title": "Ethan Mollick 谈点与群：智能体自组织为何让管理假设失效 / The Dot and the Swarm",
-          "title_zh": "Ethan Mollick 谈点与群：智能体自组织为何让管理假设失效",
-          "title_en": "The Dot and the Swarm",
-          "title_original": "The Dot and the Swarm",
-          "summary": "Ethan Mollick 承认自己此前认为人类需像经理一样精心设计智能体组织的判断错了，Bitter Lesson 同样适用于组织管理。",
-          "recommend_reason_zh": null,
-          "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
-          "source": "Ethan Mollick：One Useful Thing（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-01T10:54:12Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Ethan Mollick：One Useful Thing（RSS）"
-      ],
-      "items": [
-        {
-          "id": "f4d1bb95b4c1c4ef480458a314e5f4cdd932b05f",
-          "title": "Ethan Mollick 谈点与群：智能体自组织为何让管理假设失效 / The Dot and the Swarm",
-          "title_zh": "Ethan Mollick 谈点与群：智能体自组织为何让管理假设失效",
-          "title_en": "The Dot and the Swarm",
-          "title_original": "The Dot and the Swarm",
-          "summary": "Ethan Mollick 承认自己此前认为人类需像经理一样精心设计智能体组织的判断错了，Bitter Lesson 同样适用于组织管理。",
-          "recommend_reason_zh": null,
-          "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
-          "source": "Ethan Mollick：One Useful Thing（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-01T10:54:12Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7214,
-      "importance": 0.7214,
-      "importance_score": 0.7214,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.64,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8768,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-10-01T10:54:12Z",
-      "latest_at": "2026-10-01T10:54:12Z",
-      "primary_item": {
-        "id": "f4d1bb95b4c1c4ef480458a314e5f4cdd932b05f",
-        "title": "Ethan Mollick 谈点与群：智能体自组织为何让管理假设失效 / The Dot and the Swarm",
-        "title_zh": "Ethan Mollick 谈点与群：智能体自组织为何让管理假设失效",
-        "title_en": "The Dot and the Swarm",
-        "title_original": "The Dot and the Swarm",
-        "summary": "Ethan Mollick 承认自己此前认为人类需像经理一样精心设计智能体组织的判断错了，Bitter Lesson 同样适用于组织管理。",
-        "recommend_reason_zh": null,
-        "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
-        "source": "Ethan Mollick：One Useful Thing（RSS）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "学术观点讨论，不影响你今天写代码或选工具。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-10-01T20:02:11.417888Z"
-      }
-    },
-    {
-      "story_id": "story_ca15d7ba627d",
-      "title": "Scheduled code scanning skips inactive repositories",
-      "url": "https://github.blog/changelog/2026-10-01-scheduled-code-scanning-skips-inactive-repositories",
-      "primary_url": "https://github.blog/changelog/2026-10-01-scheduled-code-scanning-skips-inactive-repositories",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "b7433e3222eaf9c8ec4ba92eaf22f1309d747ca3",
-          "title": "Scheduled code scanning skips inactive repositories",
-          "title_zh": null,
-          "title_en": "Scheduled code scanning skips inactive repositories",
-          "title_original": "Scheduled code scanning skips inactive repositories",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-10-01-scheduled-code-scanning-skips-inactive-repositories",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-01T16:49:15Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "b7433e3222eaf9c8ec4ba92eaf22f1309d747ca3",
-          "title": "Scheduled code scanning skips inactive repositories",
-          "title_zh": null,
-          "title_en": "Scheduled code scanning skips inactive repositories",
-          "title_original": "Scheduled code scanning skips inactive repositories",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-10-01-scheduled-code-scanning-skips-inactive-repositories",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-01T16:49:15Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8359,
-      "importance": 0.8359,
-      "importance_score": 0.8359,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.955,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-01T16:49:15Z",
-      "latest_at": "2026-10-01T16:49:15Z",
-      "primary_item": {
-        "id": "b7433e3222eaf9c8ec4ba92eaf22f1309d747ca3",
-        "title": "Scheduled code scanning skips inactive repositories",
-        "title_zh": null,
-        "title_en": "Scheduled code scanning skips inactive repositories",
-        "title_original": "Scheduled code scanning skips inactive repositories",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://github.blog/changelog/2026-10-01-scheduled-code-scanning-skips-inactive-repositories",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 75,
-      "persona_review": "GitHub Actions计费优化，长期不更新的仓库能省点计算量。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-10-01T20:02:11.417888Z"
-      }
-    },
-    {
-      "story_id": "story_714f9dbcfc64",
-      "title": "New dashboard experience now the default",
-      "url": "https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default",
-      "primary_url": "https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "3a06d051b1edd21d5cccadc28628c789ee5763eb",
-          "title": "New dashboard experience now the default",
-          "title_zh": null,
-          "title_en": "New dashboard experience now the default",
-          "title_original": "New dashboard experience now the default",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-01T16:14:56Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "3a06d051b1edd21d5cccadc28628c789ee5763eb",
-          "title": "New dashboard experience now the default",
-          "title_zh": null,
-          "title_en": "New dashboard experience now the default",
-          "title_original": "New dashboard experience now the default",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-01T16:14:56Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8345,
-      "importance": 0.8345,
-      "importance_score": 0.8345,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.9472,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-01T16:14:56Z",
-      "latest_at": "2026-10-01T16:14:56Z",
-      "primary_item": {
-        "id": "3a06d051b1edd21d5cccadc28628c789ee5763eb",
-        "title": "New dashboard experience now the default",
-        "title_zh": null,
-        "title_en": "New dashboard experience now the default",
-        "title_original": "New dashboard experience now the default",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "GitHub界面更新，知道就行，不影响现有代码和API调用。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "scored_at": "2026-10-01T20:02:11.417888Z"
       }
     }
   ]
