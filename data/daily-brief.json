@@ -78,6 +78,14 @@
         "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "API已开放，可编程调用代码审查，今天就能集成到CI/CD里。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T18:28:52.664336Z"
       }
     },
     {
@@ -154,6 +162,14 @@
         "url": "https://www.lmsys.org/blog/2023-03-30-vicuna",
         "source": "LMSYS：Blog（Chatbot Arena 团队）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 88,
+      "persona_review": "今天就能下载的13B开源对话模型，成本低效果不错，可立即部署或二次开发。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T18:28:52.664336Z"
       }
     },
     {
@@ -231,6 +247,14 @@
         "url": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "GitHub App 鉴权更安全简单，今天就能用新 token 方案。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T18:28:52.664336Z"
       }
     },
     {
@@ -307,6 +331,14 @@
         "url": "https://www.ithome.com/1/009/444.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "内部安全审计，对开发者日常工作无直接影响。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T18:28:52.664336Z"
       }
     },
     {
@@ -382,6 +414,14 @@
         "url": "https://x.com/AIatMeta/status/2106099776035152231",
         "source": "X：AI at Meta (@AIatMeta)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 55,
+      "persona_review": "展示了AI辅助科研的潜力，但离普通开发者有距离，可作长期参考。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T18:28:52.664336Z"
       }
     },
     {
@@ -457,6 +497,14 @@
         "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data",
         "source": "Google Research：Blog（网页）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 65,
+      "persona_review": "提供了新的隐私学习系统设计，做相关开发的可以研究其技术方案。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T18:28:52.664336Z"
       }
     },
     {
@@ -532,6 +580,14 @@
         "url": "https://x.com/arena/status/2106109027923140928",
         "source": "X：Arena (@arena)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 65,
+      "persona_review": "选型时可参考新基准，成本更低但性能接近前列模型。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T18:28:52.664336Z"
       }
     },
     {
@@ -665,6 +721,14 @@
         "url": "https://tej.as/blog/aleph-alpha-kolibri",
         "source": "tej.as",
         "source_name": "Buzzing"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 15,
+      "persona_review": "主权AI是政治概念，对开发者选型没实际影响。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T18:28:52.664336Z"
       }
     },
     {
@@ -798,6 +862,14 @@
         "url": "https://github.com/anteloc/ldraw-nova",
         "source": "github.com",
         "source_name": "Buzzing"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "开源项目可直接部署，为创意或教育项目提供现成的AI工具。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T18:28:52.664336Z"
       }
     },
     {
@@ -902,6 +974,14 @@
         "url": "https://casp.ac/reports/intelligence-explosion",
         "source": "Hacker News (黑客新闻)",
         "source_name": "Info Flow"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 10,
+      "persona_review": "学术报告，没有新工具或API，对今天写代码没帮助。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T18:28:52.664336Z"
       }
     },
     {
@@ -1006,6 +1086,14 @@
         "url": "https://gadgets.muse.ai",
         "source": "gadgets.muse.ai",
         "source_name": "Buzzing"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 10,
+      "persona_review": "只是个概念产品页面，没发售没价格，看看就好。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T18:28:52.664336Z"
       }
     }
   ]

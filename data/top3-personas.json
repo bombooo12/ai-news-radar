@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T09:35:37.497364Z",
+  "generated_at": "2026-10-03T18:29:42.841885Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,42 +17,22 @@
   ],
   "items": [
     {
-      "story_id": "story_2e2e433e3cb1",
-      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
-      "url": "https://huggingface.co/blog/allenai/astabrief",
+      "story_id": "story_52f3cf9a90e0",
+      "title": "LMSYS 发布开源聊天模型 Vicuna-13B，用 ShareGPT 对话微调 LLaMA，训练成本约 $300 / Blog Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90% ChatGPT Quality We introduce Vicuna-13B, an open-source chatbot trained by fine-tuning LLaMA on user-shared conversations collected from ShareGPT. Preliminary evaluation using GPT-4 as a judge shows Vicuna-13B achiev... The Vicuna Team March 30, 2023",
+      "url": "https://www.lmsys.org/blog/2023-03-30-vicuna",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 75,
-          "review": "开源是好事，但‘快’是跟谁比？自家老模型还是闭眼跑的乌龟？"
+          "score": 78,
+          "review": "用GPT-4当裁判夸自己90%像，这自评标准挺会玩，但300美元的成本确实够实在。"
         },
         "paper-police": {
-          "score": 65,
-          "review": "有官方博客和开源模型，但未见独立论文或第三方评测报告。"
+          "score": 85,
+          "review": "开源模型附技术博客和评测方法，但依赖GPT-4打分，需独立复现验证。"
         },
         "pragmatic": {
           "score": 88,
-          "review": "可直接下载使用的开源报告生成模型，今天就能集成到项目里。"
-        }
-      }
-    },
-    {
-      "story_id": "story_87eab6a95e56",
-      "title": "OpenAI 发布 GPT-6 家族实用指南：选型、提示词与长任务管理 / A model guide for the GPT-6 family",
-      "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 75,
-          "review": "发指南比发模型容易，但至少承认了自家产品线复杂到需要用户手册。"
-        },
-        "paper-police": {
-          "score": 15,
-          "review": "仅有官方指南，无GPT-6论文、代码或独立评测，证据不足。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "官方选型指南，帮你省下模型对比和提示词调试的时间。"
+          "review": "今天就能下载的13B开源对话模型，成本低效果不错，可立即部署或二次开发。"
         }
       }
     },
@@ -60,7 +40,7 @@
       "story_id": "story_cc4a44476dc4",
       "title": "Copilot code review: API support and new default effort level",
       "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
-      "rank": 3,
+      "rank": 2,
       "reviews": {
         "cynic": {
           "score": 72,
@@ -73,6 +53,26 @@
         "pragmatic": {
           "score": 85,
           "review": "API已开放，可编程调用代码审查，今天就能集成到CI/CD里。"
+        }
+      }
+    },
+    {
+      "story_id": "story_3f3282702712",
+      "title": "Stateless GitHub App installation tokens rolled out",
+      "url": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out",
+      "rank": 3,
+      "reviews": {
+        "cynic": {
+          "score": 85,
+          "review": "官方博客直接讲技术实现，没吹牛，这更新确实实在。"
+        },
+        "paper-police": {
+          "score": 45,
+          "review": "官方技术博客公布了功能细节，但缺少独立的第三方评测验证。"
+        },
+        "pragmatic": {
+          "score": 85,
+          "review": "GitHub App 鉴权更安全简单，今天就能用新 token 方案。"
         }
       }
     }
