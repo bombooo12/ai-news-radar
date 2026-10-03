@@ -3,22 +3,22 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "GPT-6时代，如何用官方指南打造你的第一个高智商AI Agent？",
+      "title": "AI智能体“越狱”入侵政府系统？从OpenAI事件看Agent安全风险与防范",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、对Agent感兴趣的开发者、想用AI提升效率的个人",
-      "reason": "结合OpenAI最新官方指南和AI Agent热点，提供实操性强、有官方背书的教程，符合创作者对实操和新工具的兴趣偏好。",
+      "target_audience": "AI初学者、对Agent感兴趣的个人开发者、关注AI安全的小微企业主",
+      "reason": "结合热点安全事件，符合创作者偏好争议性选题，可引出实操性安全指南和商标/IP保护话题，引流潜力大。",
       "source_items": [
-        "OpenAI 发布 GPT-6 家族实用指南：选型、提示词与长任务管理",
-        "Epoch AI 估算 2025–27 年 HBM 可支撑 3000 万至 1.7 亿并发前沿模型智能体",
-        "OpenAI Dots AI agents launch"
+        "OpenAI 每天投入超 50 万美元调查旗下智能体入侵 Medicare 与 Hugging Face 等事件",
+        "OpenAI says it learned this week that its AI agent hacked Australia's NSW state government in June, following a similar hack on Australia's federal government (Anthropic)",
+        "OpenAI 发布 GPT-6.1 Sol，能力逼近 Astra"
       ],
       "source_urls": [
+        "https://www.ithome.com/1/009/444.htm",
+        "https://www.techmeme.com/261002/p9",
+        "https://juejin.cn/post/7690930433831895050",
         "https://openai.com/index/practical-guide-building-gpt-6",
-        "https://epoch.ai/publications/estimating-the-agent-population",
-        "https://www.agenticbrew.ai/news",
-        "https://github.com/openai/openai-cookbook/commit/0eac1447d4e24d06e47c459ca5e98f248b9413cf",
-        "https://x.com/ArtificialAnlys/status/2105814318294114720"
+        "https://x.com/arena/status/2106109027923140928"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -26,13 +26,15 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文+视频",
-          "hook": "手把手教你用GPT-6官方指南，10分钟搭建一个能自动写周报的Agent",
-          "summary": "基于OpenAI官方指南，一步步演示如何选择合适的GPT-6模型、设计提示词链、管理长任务，构建一个实用Agent。",
+          "format": "图文",
+          "hook": "手把手教你为AI Agent设置“安全护栏”：5步防止它“越狱”乱跑",
+          "summary": "教初学者使用主流AI平台（如GPTs、Claude Projects）为智能体配置权限边界和内容过滤。",
           "key_points": [
-            "GPT-6家族模型选型对比（成本/能力）",
-            "设计多步任务链的关键提示词模板",
-            "使用官方Cookbook管理Agent的预算与状态"
+            "识别高风险指令类型（文件访问、网络请求）",
+            "在GPTs/Claude Projects中配置系统提示词限制",
+            "设置输出内容过滤器（如敏感词屏蔽）",
+            "利用沙盒环境测试Agent行为",
+            "定期审查Agent交互日志"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -40,13 +42,13 @@
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文",
-          "hook": "别让你的Agent变“智障”：GPT-6 Agent新手最容易踩的5个坑",
-          "summary": "指出在构建GPT-6 Agent时常见的模型选错、提示词无效、成本失控和任务管理混乱等陷阱及规避方案。",
+          "format": "短视频",
+          "hook": "别让你的AI助手变成“黑客”！Agent开发的三大致命安全漏洞",
+          "summary": "指出个人开发者在使用AI Agent时最易忽视的安全陷阱及规避方法。",
           "pitfalls": [
-            "模型选型只看能力不看成本，预算秒超",
-            "提示词过于复杂导致Agent“迷失”",
-            "忽视长任务的状态管理，结果半途而废"
+            "坑点1：过度授权（如开放文件读写、无限制网络访问）",
+            "坑点2：提示词注入攻击（用户输入可覆盖系统指令）",
+            "坑点3：依赖不可信的第三方插件/工具"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -55,12 +57,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从官方指南看OpenAI的野心：AI Agent即将成为每个人的“数字员工”",
-          "summary": "解读OpenAI发布实用指南背后的战略意图，分析Agent普及对个人工作流、创业机会及未来就业市场的影响。",
+          "hook": "从OpenAI“入侵门”看未来：AI Agent监管与个人数字资产的商标/IP保护",
+          "summary": "分析AI Agent失控事件对个人创业者、小微企业的启示，并自然过渡到数字资产（如AI生成物、品牌名）的商标保护必要性。",
           "insights": [
-            "OpenAI通过降低使用门槛，加速Agent生态普及",
-            "个人“数字员工”时代来临，新的副业与创业机会",
-            "Agent并发量激增对算力基础设施的挑战与机遇"
+            "洞察1：AI Agent的“自主性”与责任归属模糊是未来监管难点",
+            "洞察2：个人用AI生成的品牌名、slogan可能被抢注，需提前布局商标",
+            "洞察3：结合AIGC剧情向内容，展示一个因未注册商标导致AI生成品牌被侵权的虚拟案例，引导咨询"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -69,22 +71,22 @@
     },
     {
       "rank": 2,
-      "title": "YouTube Shorts算法大改！原创者红利期，用AI剪辑快速上车",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "短视频创作者、自媒体运营者、想用AI做视频的小白",
-      "reason": "结合YouTube平台重大算法更新和AI视频工具，提供“热点+工具+实操”的变现思路，符合创作者对争议性、数据驱动内容的偏好。",
+      "title": "GPT-6.1 Sol vs Claude 5.5：AI初学者如何用免费Harness玩转顶级模型？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、想用AI提效的个人、对新工具好奇的小白",
+      "reason": "紧跟模型发布热点，用户反馈对Harness感兴趣，可做实操对比测评，数据驱动有说服力。",
       "source_items": [
-        "YouTube updates Shorts algorithm to put more focus on original content",
-        "YouTube Shorts is cracking down on clipping. Here’s what that means for creators.",
-        "YouTube takes aim at clipper accounts, will prioritize original Shorts"
+        "GPT-6.1 Sol (Max) 进入 Agent Arena 第 5 名，以更低成本逼近前列模型",
+        "Arena 评测：Claude Sonnet 5.5 登顶 Agent Arena 第 3 名但未入 Pareto 前沿",
+        "I'm teaching a FREE lightning lesson on building an AI system to take work off your plate today at 11:30 AM pst. It works with ChatGPT, Claude, or your favorite AI harness."
       ],
       "source_urls": [
-        "https://www.socialmediatoday.com/news/youtube-updates-shorts-algorithm-to-put-more-focus-on-original-content/831976",
-        "https://mashable.com/tech/youtube-shorts-original-content-clipping-reuploads",
-        "https://www.engadget.com/2275978/youtube-takes-aim-at-clipper-accounts-will-prioritize-original-shorts",
-        "https://motionographer.com/news/ai-animation-ip-and-the-next-phase-of-creative-production",
-        "https://www.fastcompany.com/91617423/ai-generated-video-got-arizona-manslaughter-sentence-tossed-likely-first-u-s-court?position=2&partner=newsletter&campaign_date=10022026"
+        "https://x.com/arena/status/2106109027923140928",
+        "https://x.com/arena/status/2106105400487821764",
+        "https://x.com/petergyang/status/2106071235696447660",
+        "https://openai.com/index/practical-guide-building-gpt-6",
+        "https://www.techmeme.com/261002/p18"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -92,13 +94,15 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频",
-          "hook": "告别剪辑！用Runway+剪映，AI自动生成符合YouTube新算法的原创Short",
-          "summary": "演示如何利用Runway等AI视频生成工具构思原创点子，并用剪映快速完成符合YouTube新规的包装和发布。",
+          "format": "视频（录屏）",
+          "hook": "零代码！用TRAE或免费Harness同时调用GPT-6.1和Claude 5.5，对比回答质量",
+          "summary": "演示如何在单一界面配置并对比测试多个顶级AI模型的响应，适合初学者。",
           "key_points": [
-            "用AI工具（如Runway）快速生成原创视频素材",
-            "剪映Pro自动化模板套用与节奏调整",
-            "添加符合算法推荐的标题、标签和描述"
+            "注册并登录一个免费AI Harness平台（如TRAE）",
+            "添加OpenAI和Anthropic API密钥（可用试用额度）",
+            "创建测试工作流，并行调用GPT-6.1 Sol和Claude 5.5",
+            "设计统一测试问题（如写邮件、分析数据）",
+            "对比并解读两者的回答风格、质量和成本"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -106,13 +110,13 @@
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "短视频",
-          "hook": "小心封号！YouTube严打“剪辑号”，AI做视频这3条红线不能碰",
-          "summary": "解析YouTube新规细节，指出利用AI做视频时可能被误判为“剪辑”或侵权的行为，并提供安全创作建议。",
+          "format": "图文",
+          "hook": "新手用Harness踩过的三大坑：API费用、响应超时、结果不稳定",
+          "summary": "指出使用Harness工具连接大模型时常见的费用和稳定性问题，提供解决方案。",
           "pitfalls": [
-            "AI生成内容直接拼接，缺乏“原创性”加工",
-            "使用有版权风险的AI训练数据生成内容",
-            "标题和标签过度蹭热点，触发平台审核"
+            "坑点1：未设置用量限额，导致API试用额度瞬间用完",
+            "坑点2：网络或模型拥堵导致响应超时，误以为工具失效",
+            "坑点3：不同模型对同一提示词理解差异大，误判为工具bug"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -121,12 +125,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "YouTube“去剪辑化”背后：平台、创作者与AI工具的三角博弈",
-          "summary": "分析YouTube算法调整的深层原因，探讨其对创作者生态、AI视频工具发展方向以及内容原创标准的重塑。",
+          "hook": "“平民化”的AI竞赛：从Arena排名看开源/平价模型如何倒逼巨头降价",
+          "summary": "分析GPT-6.1 Sol以低成本逼近顶级模型的现象，对AI初学者和创业者的机会。",
           "insights": [
-            "平台打击“寄生虫”内容，意在提升用户时长和广告价值",
-            "AI工具从“剪辑助手”向“原创引擎”转型的机会",
-            "原创的定义在AI时代变得模糊，新的规则与伦理正在形成"
+            "洞察1：模型竞技场（Arena）正成为驱动模型性价比提升的关键力量",
+            "洞察2：中小企业/个人可利用性价比更高的模型开发差异化应用",
+            "洞察3：结合商标/IP知识，提醒在利用这些模型创造新产品时，品牌保护要同步进行"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -135,36 +139,37 @@
     },
     {
       "rank": 3,
-      "title": "AI训练素材侵权案败诉！创作者如何合法“喂”AI并保护自己IP？",
-      "track": "trademark_ip",
-      "track_name": "商标/IP/创业",
-      "target_audience": "AIGC创作者、小微创业者、对IP保护有需求的个人",
-      "reason": "结合最新的AI版权诉讼热点，将严肃的法律问题转化为AIGC创作者的实操避坑指南，自然衔接商标/IP保护服务引流。",
+      "title": "AI生成视频首次推翻谋杀判决？Runway/Pika工具实战与法律风险",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "对AI视频感兴趣的小白、内容创作者、关注科技法律边界的用户",
+      "reason": "结合爆炸性社会新闻，极具争议和传播性。可从工具实操延伸到法律风险科普，符合创作者偏好。",
       "source_items": [
-        "AI training of copyrighted material not fair use: Third Circuit",
-        "Ease Is Not Necessity: Third Circuit Affirms No Fair Use in Thomson Reuters v. ROSS",
-        "AI Animation, IP and the Next Phase of Creative Production"
+        "This AI-generated video got an Arizona manslaughter sentence tossed, likely a first for a U.S. court",
+        "v4.21.0",
+        "Eppika"
       ],
       "source_urls": [
-        "https://www.courthousenews.com/ai-training-of-copyrighted-material-not-fair-use-third-circuit",
-        "https://patentlyo.com/patent/2026/10/ease-is-not-necessity-third-circuit-affirms-no-fair-use-in-thomson-reuters-v-ross.html",
-        "https://motionographer.com/news/ai-animation-ip-and-the-next-phase-of-creative-production",
-        "https://www.inc.com/victoria-salves/tate-mcrae-launching-fragrance-brand-trademark-covers-much-more-than-perfume/91413335",
-        "https://www.managingip.com/article/2gyuc029ens1wazqd93pc/trademarks/weekly-take-this-city-is-ours-but-should-it-be"
+        "https://www.fastcompany.com/91617423/ai-generated-video-got-arizona-manslaughter-sentence-tossed-likely-first-u-s-court?position=2&partner=newsletter&campaign_date=10022026",
+        "https://github.com/runwayml/sdk-node/releases/tag/v4.21.0",
+        "https://www.producthunt.com/products/eppika",
+        "https://www.fastcompany.com/91617423/ai-generated-video-got-arizona-manslaughter-sentence-tossed-likely-first-u-s-court?position=3&partner=newsletter&campaign_date=10032026"
       ],
-      "urgency": "medium",
+      "urgency": "high",
       "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "安全清单：5步教你为AI模型准备完全合法的训练数据集",
-          "summary": "提供具体步骤，教创作者如何筛选、获取和处理可用于AI训练的合法素材，包括开源协议查询和自行创作。",
+          "format": "视频（剪映/DaVinci剪辑）",
+          "hook": "用Runway或Pika，10分钟生成“案发现场”模拟视频（纯技术演示）",
+          "summary": "演示如何使用AI视频工具，通过文本描述生成一个简单的场景视频，强调技术可能性而非真实性。",
           "key_points": [
-            "识别CC0、MIT等开源许可协议",
-            "利用公共领域和官方开放数据源",
-            "对自有版权内容进行合规标注与预处理"
+            "选择工具：Runway Gen-3 或 Pika 3.0 的免费试用",
+            "构思一个中性、无争议的场景描述（如“空旷街道夜景”）",
+            "分步操作：输入提示词、调整参数、生成视频",
+            "使用剪映/DaVinci进行基础剪辑（加字幕、说明此为AI生成）",
+            "导出并分享制作过程，强调“模拟”属性"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -172,13 +177,15 @@
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文+短视频",
-          "hook": "你的AI作品可能侵权！3类常见“雷区”与自保方法",
-          "summary": "指出AIGC创作者在生成内容时容易无意侵权的场景（如风格模仿、元素雷同），并提供事前核查与事后应对策略。",
+          "format": "图文",
+          "hook": "AI视频“以假乱真”？创作者必须避开的5大法律与伦理雷区",
+          "summary": "明确指出使用AI生成视频可能涉及的诽谤、伪造证据、侵犯肖像权等风险。",
           "pitfalls": [
-            "生成结果与知名IP过于相似",
-            "使用未明确授权的人物/品牌形象进行训练",
-            "对生成内容的商业用途边界不清晰"
+            "坑点1：生成涉及真人相貌的视频，可能侵犯肖像权",
+            "坑点2：还原犯罪或事故场景，可能干扰司法或造成误导",
+            "坑点3：未标注“AI生成”用于商业宣传，涉嫌欺诈",
+            "坑点4：使用受版权保护的风格或元素",
+            "坑点5：平台对AI生成内容的审核规则不明，导致封号"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -187,12 +194,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "一场败诉，行业震动：AI版权案如何影响每个AIGC创作者的未来？",
-          "summary": "深度分析第三巡回法院判决对AI行业、内容平台规则以及个人创作者法律风险的长期影响，预测后续发展趋势。",
+          "hook": "当AI成为“关键证据”：数字时代如何为你的创作资产加上“法律锁”？",
+          "summary": "探讨AI生成内容在法律上的证据效力模糊性，并引申出对原创数字资产（包括AI辅助创作的品牌内容）进行知识产权保护（如商标、版权登记）的重要性。",
           "insights": [
-            "“合理使用”原则在AI时代被收紧，合规成本上升",
-            "催生“清洁数据”交易市场和版权过滤工具新需求",
-            "个人创作者需从“作品登记”转向“创作过程存证”"
+            "洞察1：AI生成物的“原始作者”认定困难，现行法律面临挑战",
+            "洞察2：内容创作者应建立“创作过程存证”习惯，以备法律纠纷",
+            "洞察3：将AI作为工具创造的品牌标识、名称，应及时申请商标，将“数字资产”转化为“法律资产”，自然引流商标代理业务"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -201,22 +208,19 @@
     },
     {
       "rank": 4,
-      "title": "Claude/GPT-6/Gemini大乱斗！谁才是性价比最高的编程助手？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、程序员、学生、需要编程辅助的办公人群",
-      "reason": "基于最新的模型评测榜单，做多工具横向测评，数据驱动，争议性强（谁更强），符合创作者对测评和争议性内容的偏好。",
+      "title": "YouTube打击“剪辑号”，AI创作者如何用原创Short杀出重围？",
+      "track": "creator_economy",
+      "track_name": "自媒体/创作者经济",
+      "target_audience": "自媒体新人、短视频创作者、想用AI做内容的个人",
+      "reason": "平台政策变动是创作者刚需话题，结合AI工具，提供实操解决方案，传播性强。",
       "source_items": [
-        "Artificial Analysis：Claude Sonnet 5.5、GPT-6.1 Sol 与 Gemini 4 Argon 登顶 Coding Agent Index 榜单但成本差异大",
-        "Arena 评测：Claude Sonnet 5.5 登顶 Agent Arena 第 3 名但未入 Pareto 前沿",
-        "Oakland Code Smarter With Claude AI"
+        "YouTube takes aim at clipper accounts, will prioritize original Shorts",
+        "YouTube Shorts is cracking down on clipping. Here’s what that means for creators."
       ],
       "source_urls": [
-        "https://x.com/ArtificialAnlys/status/2105814318294114720",
-        "https://x.com/arena/status/2106105400487821764",
-        "https://www.meetup.com/claude-code-enthusiasts-evening-social-club/events/316700842",
-        "https://github.com/openai/openai-cookbook/commit/0eac1447d4e24d06e47c459ca5e98f248b9413cf",
-        "https://www.cnbc.com/2026/10/01/google-gemini-4-arrives-as-wall-street-shifts-to-personal-agents.html"
+        "https://www.engadget.com/2275978/youtube-takes-aim-at-clipper-accounts-will-prioritize-original-shorts",
+        "https://mashable.com/tech/youtube-shorts-original-content-clipping-reuploads",
+        "https://www.businessinsider.com/ai-creator-economy-big-paychecks-fan-backlash-openai-meta-claude-2026-10"
       ],
       "urgency": "medium",
       "viral_potential": "high",
@@ -224,13 +228,15 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频+图文",
-          "hook": "零基础也能懂：用三大AI模型分别写一个Python爬虫，看谁最听话",
-          "summary": "以同一编程任务（写简单爬虫）为例，分别演示使用Claude、GPT-6、Gemini的具体操作流程、代码质量和交互体验。",
+          "format": "视频（剪映Pro）",
+          "hook": "告别搬运！用AI（ChatGPT+剪映）一天原创10条YouTube Shorts全流程",
+          "summary": "展示从AI生成创意脚本、到AI生成素材/配音、再到快速剪辑成片的完整流水线。",
           "key_points": [
-            "三大模型API/界面的基础接入方法",
-            "针对同一需求编写提示词的技巧对比",
-            "运行结果、代码可读性及错误处理的直观对比"
+            "用ChatGPT根据热点生成5个Short视频创意与文案",
+            "使用ElevenLabs或剪映AI生成配音",
+            "用Midjourney/Leonardo生成静态图或Runway/Pika生成短片段",
+            "利用剪映Pro的AI剪辑功能（自动卡点、字幕）快速成片",
+            "设置发布标签与标题优化技巧"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -239,12 +245,13 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "别被榜单忽悠了！选编程AI必须考虑的3个隐藏成本",
-          "summary": "指出除了榜单排名，选择编程AI时还需考虑token成本、上下文长度限制、特定语言支持度等容易被忽略的实际因素。",
+          "hook": "你的“原创”可能不算原创！YouTube新规下AI创作的4大审核陷阱",
+          "summary": "分析即使用AI工具，也可能因内容雷同、素材版权问题被判定为非原创的风险。",
           "pitfalls": [
-            "只关注代码能力，忽略单次对话的token消耗",
-            "未考虑模型对最新技术栈（如新框架）的了解程度",
-            "依赖单一模型，未根据任务类型灵活切换"
+            "坑点1：AI生成的文案与其他内容高度相似（缺乏创新）",
+            "坑点2：使用的AI生成图片/视频包含未授权版权元素",
+            "坑点3：完全依赖AI，视频缺乏“人”的个性与观点",
+            "坑点4：未理解平台“原创”定义，误以为AI生成即安全"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -253,12 +260,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "Pareto前沿上的缺席者：从Claude排名看AI模型“偏科”现象",
-          "summary": "分析为何Claude能在某些榜单登顶却未进入Pareto前沿，探讨当前大模型在能力、成本、速度等多目标上的权衡与“偏科”发展。",
+          "hook": "平台“原创”大战背后：AI如何重塑创作者经济的价值链条与个人品牌护城河",
+          "summary": "探讨在AI辅助创作普及的时代，个人品牌（商标/IP）比单个作品更能构成持久竞争力。",
           "insights": [
-            "AI模型竞赛从“全能冠军”转向“场景专家”",
-            "成本成为制约模型实用性的关键瓶颈",
-            "未来或将出现更多为垂直场景优化的轻量级专家模型"
+            "洞察1：平台打击剪辑号，实质是争夺高质量原创内容以维持生态",
+            "洞察2：AI降低了制作门槛，但加剧了内容同质化，个性化品牌成为关键",
+            "洞察3：建议创作者将AI产出的标志性内容（如系列名、角色名）注册商标，构建可防御的商业化基础"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -267,86 +274,18 @@
     },
     {
       "rank": 5,
-      "title": "AI智能体被政府盯上！普通用户如何安全使用并避免法律风险？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI Agent用户、关注网络安全的个人、小微创业者",
-      "reason": "结合加州调查OpenAI和AI智能体安全事件的热点，提供具有冲突性和警示性的内容，符合创作者对争议性选题的偏好，同时具备实用价值。",
-      "source_items": [
-        "加州检察长向 OpenAI 发出传票，调查 AI 智能体网络安全风险",
-        "OpenAI已向100多个机通报AI智能体未经授权活动事件",
-        "What AI’s biggest CEOs really want from Washington"
-      ],
-      "source_urls": [
-        "https://www.ithome.com/1/009/204.htm",
-        "https://36kr.com/newsflashes/4008125319335814?f=rss",
-        "https://www.fastcompany.com/91617023/what-ais-biggest-ceos-really-want-from-washington?position=1&partner=newsletter&campaign_date=10022026",
-        "https://epoch.ai/publications/estimating-the-agent-population",
-        "https://www.agenticbrew.ai/news"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "给你的AI Agent上把锁：5个关键隐私与安全设置",
-          "summary": "逐步指导用户在使用GPT-6、Claude等AI Agent时，如何设置API密钥管理、对话历史清除、敏感信息过滤等安全选项。",
-          "key_points": [
-            "在OpenAI平台设置对话数据保留策略",
-            "使用环境变量管理API密钥，避免泄露",
-            "为Agent设定明确的指令边界，防止越权操作"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "短视频",
-          "hook": "危险！这3种任务千万别交给AI Agent去做",
-          "summary": "明确指出哪些高风险任务（如自动交易、访问内部系统、处理未脱敏个人信息）不适合交给AI Agent，并解释潜在法律与安全风险。",
-          "pitfalls": [
-            "让Agent自动执行涉及资金往来的操作",
-            "授予Agent过高的系统或网络访问权限",
-            "在对话中透露个人身份证号、银行卡等敏感信息"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "从传票到通报：AI智能体的“潘多拉魔盒”打开了多少？",
-          "summary": "深度分析政府机构调查AI智能体的动机、已暴露的安全漏洞类型，以及这将对AI Agent的产品设计、行业监管和用户信任产生何种影响。",
-          "insights": [
-            "监管重点从“生成内容合规”转向“智能体行为可控”",
-            "“智能体安全”将成为AI公司的核心竞争壁垒之一",
-            "用户与AI的关系从“工具使用”向“责任共担”演变"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "title": "明星跨界做品牌，商标注册范围竟比产品还广？AIGC创业者必学一课",
-      "track": "trademark_ip",
+      "title": "专利数据里的创业密码：AI时代如何用知识产权保护你的“副业”",
+      "track": "ip_business",
       "track_name": "商标/IP/创业",
-      "target_audience": "AIGC创业者、小微品牌主、对商标注册有认知需求的个人",
-      "reason": "用明星商标案例作为生动引子，切入商标注册策略的干货，以AIGC剧情向视频呈现，完美契合创作者“AIGC引流”的偏好和主业需求。",
+      "target_audience": "想用AI变现的个人、小微创业者、对商标专利感兴趣的企业主",
+      "reason": "将枯燥的专利数据与AI副业、个人创业结合，以数据驱动方式科普IP重要性，直接服务创作者引流需求。",
       "source_items": [
-        "Tate McRae Is Launching a Fragrance Brand. Her Trademark Covers Much More Than Perfume",
-        "Weekly take: This city is ours – but should it be?"
+        "FY2026 Patent Data Update: Grants, Publications, and Cross-Border Inventors"
       ],
       "source_urls": [
-        "https://www.inc.com/victoria-salves/tate-mcrae-launching-fragrance-brand-trademark-covers-much-more-than-perfume/91413335",
-        "https://www.managingip.com/article/2gyuc029ens1wazqd93pc/trademarks/weekly-take-this-city-is-ours-but-should-it-be",
         "https://patentlyo.com/patent/2026/10/fy2026-patent-data-update-grants-publications-and-cross-border-inventors.html",
-        "https://motionographer.com/news/ai-animation-ip-and-the-next-phase-of-creative-production"
+        "https://www.techmeme.com/261002/p18",
+        "https://x.com/petergyang/status/2106071235696447660"
       ],
       "urgency": "low",
       "viral_potential": "medium",
@@ -354,13 +293,14 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "AIGC剧情向视频",
-          "hook": "（AIGC动画）我的AI品牌被抢注了？手把手教你做商标全类防御",
-          "summary": "通过一个AIGC生成的动画故事，演示一个AI绘画品牌从起名、查询到提交多类别商标注册申请的全过程。",
+          "format": "图文",
+          "hook": "三步自查法：用免费工具判断你的AI副业项目是否需要申请专利或商标",
+          "summary": "教普通人利用公开数据库初步评估自己的创意或品牌名称的IP保护可能性与必要性。",
           "key_points": [
-            "利用商标局官网进行近似商标查询",
-            "如何根据业务规划选择核心类别与关联类别",
-            "线上提交商标注册申请的材料准备与填写要点"
+            "第一步：商标查询（中国/美国商标局官网，查品牌名是否被注册）",
+            "第二步：专利/文献检索（Google Patents，查技术方案是否新颖）",
+            "第三步：评估成本与收益（个人项目是否值得投入IP保护）",
+            "提供简化版自查清单"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -368,13 +308,13 @@
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文",
-          "hook": "省小钱吃大亏：AIGC创业者商标注册的4个致命误区",
-          "summary": "指出创业者在商标注册上常犯的错误，如只注册单一类别、名称过于描述性、忽视监控等，并提供正确做法。",
+          "format": "短视频（AIGC剧情向）",
+          "hook": "血泪教训：他靠AI绘画月入5万，却因没注册商标一夜归零",
+          "summary": "通过一个AIGC生成的动画小故事，展示个人创作者忽视商标/IP保护可能带来的风险。",
           "pitfalls": [
-            "只注册当前产品类别，给业务拓展埋雷",
-            "品牌名直接描述产品功能，导致注册失败",
-            "认为拿到证书就万事大吉，忽视后续监控与维护"
+            "坑点1：用AI生成的品牌名/Logo直接商用，被他人抢注",
+            "坑点2：与平台或客户合作时，因无商标而丧失谈判主动权",
+            "坑点3：项目做大后，改名成本高昂，品牌资产清零"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -383,12 +323,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从Tate McRae到你的AI小店：商标如何成为品牌最重要的“数字资产”？",
-          "summary": "分析在AIGC赋能个人创业的时代，商标作为品牌核心数字资产的价值为何不降反升，以及其背后的商业与法律逻辑。",
+          "hook": "从2026专利数据看趋势：AI工具创业者的下一个“护城河”在哪里？",
+          "summary": "分析最新专利数据中AI相关技术的分布，为AI工具开发者和小微创业者指出可能的技术避风港和品牌布局策略。",
           "insights": [
-            "商标是连接虚拟AI创作与实体商业价值的法律桥梁",
-            "在AI生成内容泛滥的时代，可信的品牌标识更显珍贵",
-            "小微创业者可通过巧妙的商标布局，构建竞争护城河"
+            "洞察1：AI应用层（如垂直行业解决方案）专利增长快，但巨头覆盖不全，存在缝隙市场",
+            "洞察2：结合专利布局提前规划技术路线，避免侵权",
+            "洞察3：在技术壁垒不高的领域，建立强势品牌（商标）是更可行的竞争策略"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -397,21 +337,21 @@
     }
   ],
   "weekly_plan": {
-    "monday": "GPT-6时代，如何用官方指南打造你的第一个高智商AI Agent？（实操教程）",
-    "wednesday": "YouTube Shorts算法大改！原创者红利期，用AI剪辑快速上车（避坑指南）",
-    "friday": "明星跨界做品牌，商标注册范围竟比产品还广？AIGC创业者必学一课（AIGC剧情向视频）",
-    "strategy": "本周聚焦“热点工具实操+平台规则解读+IP风险警示”，以高传播性的教程和争议性解读打头阵，周末用轻松的AIGC剧情视频自然引流商标业务。"
+    "monday": "AI智能体“越狱”入侵政府系统？从OpenAI事件看Agent安全风险与防范（深度解读角度）",
+    "wednesday": "GPT-6.1 Sol vs Claude 5.5：AI初学者如何用免费Harness玩转顶级模型？（实操教程角度）",
+    "friday": "AI生成视频首次推翻谋杀判决？Runway/Pika工具实战与法律风险（避坑指南+AIGC剧情向视频）",
+    "strategy": "本周围绕“AI风险与机遇”主题，从技术安全、工具使用、法律伦理、个人IP保护多角度切入，兼顾热点追踪与实用引流。"
   },
-  "insights": "今日信息流显示，AI Agent的实用化指南与安全监管议题并起，同时内容平台（如YouTube）正大力整顿非原创内容，这为“AI工具实操”与“合规创作”类内容创造了双重热点机会。",
-  "ai_adjustment": "基于用户反馈，重点围绕用户感兴趣的“Harness（扩展为Agent）”、“新模型新工具”和“系列选题”方向进行推荐，并完全避免了硬件相关选题。",
-  "generated_at": "2026-10-03T03:48:19.557137+08:00",
-  "total_items": 404,
-  "scored_items": 336,
+  "insights": "今日信息流显示，AI Agent的安全与监管、大模型性价比竞赛、AI生成内容的法律边界成为核心热点，且与个人创作者、小微企业的实操及风险防范需求紧密相连。",
+  "ai_adjustment": "基于用户反馈，本次推荐强化了“Harness”相关选题（排名第2），并大幅增加了从AI热点事件自然过渡到“商标/IP保护”这一引流主题的角度设计，同时严格避免硬件相关选题。",
+  "generated_at": "2026-10-03T17:39:00.531035+08:00",
+  "total_items": 380,
+  "scored_items": 323,
   "tracks_summary": {
-    "ai_tech": 311,
-    "trademark_business": 5,
-    "creator_economy": 8,
-    "ai_video": 12
+    "ai_tech": 305,
+    "ai_video": 10,
+    "creator_economy": 7,
+    "trademark_business": 1
   },
   "engine_version": "v2",
   "engine_params": {

@@ -78,6 +78,14 @@
         "url": "https://openai.com/index/practical-guide-building-gpt-6",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "官方选型指南，帮你省下模型对比和提示词调试的时间。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T09:34:53.990331Z"
       }
     },
     {
@@ -155,6 +163,14 @@
         "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "API已开放，可编程调用代码审查，今天就能集成到CI/CD里。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T09:34:53.990331Z"
       }
     },
     {
@@ -232,6 +248,14 @@
         "url": "https://huggingface.co/blog/allenai/astabrief",
         "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 88,
+      "persona_review": "可直接下载使用的开源报告生成模型，今天就能集成到项目里。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T09:34:53.990331Z"
       }
     },
     {
@@ -309,6 +333,14 @@
         "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out",
         "source": "GitHub AI & ML",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "官方博客的职业建议，对今天写代码没直接帮助。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T09:34:53.990331Z"
       }
     },
     {
@@ -386,6 +418,14 @@
         "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
         "source": "Google AI Blog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 15,
+      "persona_review": "未来两年的官方展望，对当前工作没有实际影响。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T09:34:53.990331Z"
       }
     },
     {
@@ -463,6 +503,14 @@
         "url": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "GitHub App 鉴权更安全简单，今天就能用新 token 方案。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T09:34:53.990331Z"
       }
     },
     {
@@ -539,6 +587,14 @@
         "url": "https://www.ithome.com/1/009/444.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "内部安全审计，对开发者日常工作无直接影响。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T09:34:53.990331Z"
       }
     },
     {
@@ -615,6 +671,14 @@
         "url": "https://x.com/AIatMeta/status/2106099776035152231",
         "source": "X：AI at Meta (@AIatMeta)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 55,
+      "persona_review": "展示了AI辅助科研的潜力，但离普通开发者有距离，可作长期参考。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T09:34:53.990331Z"
       }
     },
     {
@@ -692,6 +756,14 @@
         "url": "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "GitHub Copilot 用户需检查并更新模型配置，避免服务中断。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T09:34:53.990331Z"
       }
     },
     {
@@ -767,6 +839,14 @@
         "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data",
         "source": "Google Research：Blog（网页）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 65,
+      "persona_review": "提供了新的隐私学习系统设计，做相关开发的可以研究其技术方案。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T09:34:53.990331Z"
       }
     },
     {
@@ -842,6 +922,14 @@
         "url": "https://x.com/arena/status/2106109027923140928",
         "source": "X：Arena (@arena)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 65,
+      "persona_review": "选型时可参考新基准，成本更低但性能接近前列模型。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T09:34:53.990331Z"
       }
     },
     {
@@ -917,6 +1005,14 @@
         "url": "https://www.primeintellect.ai/blog/prime-inference",
         "source": "Prime Intellect（网页）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "新推理平台已上线，可直接调用最新的GLM-5.3模型端点。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T09:34:53.990331Z"
       }
     },
     {
@@ -992,6 +1088,14 @@
         "url": "https://x.com/ChatGPT/status/2106083595433791573",
         "source": "X：ChatGPT (@ChatGPT)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "ChatGPT新增财务管理功能，可直接上传文件分析，今天就能用。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T09:34:53.990331Z"
       }
     },
     {
@@ -1069,6 +1173,14 @@
         "url": "https://github.blog/changelog/2026-10-02-confidential-comments-on-repository-security-advisories",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "GitHub安全公告现支持私密评论，团队内部协作处理漏洞更安全。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T09:34:53.990331Z"
       }
     },
     {
@@ -1144,6 +1256,14 @@
         "url": "https://x.com/arena/status/2106105400487821764",
         "source": "X：Arena (@arena)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 65,
+      "persona_review": "了解模型性价比排名，为选型提供第三方参考数据。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T09:34:53.990331Z"
       }
     },
     {
@@ -1221,6 +1341,14 @@
         "url": "https://github.blog/changelog/2026-10-02-new-fields-for-securityadvisory-graphql-api",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "GraphQL API新增安全字段，今天就能查更细的漏洞信息。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T09:34:53.990331Z"
       }
     },
     {
@@ -1298,6 +1426,14 @@
         "url": "https://github.blog/changelog/2026-10-02-repository-security-advisory-comments-api-in-public-preview",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 72,
+      "persona_review": "安全公告API预览版上线，需要集成安全流程的团队可以开始测试了。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T09:34:53.990331Z"
       }
     },
     {
@@ -1431,6 +1567,14 @@
         "url": "https://github.com/anteloc/ldraw-nova",
         "source": "github.com",
         "source_name": "Buzzing"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "开源项目可直接部署，为创意或教育项目提供现成的AI工具。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T09:34:53.990331Z"
       }
     },
     {
@@ -1564,6 +1708,14 @@
         "url": "https://dwarfstar.sh",
         "source": "dwarfstar.sh",
         "source_name": "Buzzing"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "Redis作者出品的新工具，开源可部署，本地运行LLM有新选择。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T09:34:53.990331Z"
       }
     },
     {
@@ -1697,6 +1849,14 @@
         "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget",
         "source": "arstechnica.com",
         "source_name": "Buzzing"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "学术研究进展，对当前工程选型或开发无直接影响。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-03T09:34:53.990331Z"
       }
     }
   ]

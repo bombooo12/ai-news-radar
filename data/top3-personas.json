@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T19:44:39.706213Z",
+  "generated_at": "2026-10-03T09:35:37.497364Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -57,22 +57,22 @@
       }
     },
     {
-      "story_id": "story_aef691a327ab",
-      "title": "Selected models in GitHub Copilot deprecated",
-      "url": "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated",
+      "story_id": "story_cc4a44476dc4",
+      "title": "Copilot code review: API support and new default effort level",
+      "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 75,
-          "review": "官方通知还算实在，但‘部分模型停用’这种措辞，是性能不行还是成本太高？"
+          "score": 72,
+          "review": "API支持算真更新，但‘新默认努力程度’？不就是调了个滑块预设。"
         },
         "paper-police": {
           "score": 15,
-          "review": "官方博客仅宣布模型弃用，无论文、代码或独立评测佐证其影响。"
+          "review": "仅有官方博客宣称功能更新，无论文、代码或独立评测佐证。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "GitHub Copilot 用户需检查并更新模型配置，避免服务中断。"
+          "review": "API已开放，可编程调用代码审查，今天就能集成到CI/CD里。"
         }
       }
     }
