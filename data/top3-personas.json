@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T10:22:23.980950Z",
+  "generated_at": "2026-10-04T18:31:12.666571Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,22 +17,22 @@
   ],
   "items": [
     {
-      "story_id": "story_52f3cf9a90e0",
-      "title": "LMSYS 发布开源聊天模型 Vicuna-13B，用 ShareGPT 对话微调 LLaMA，训练成本约 $300 / Blog Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90% ChatGPT Quality We introduce Vicuna-13B, an open-source chatbot trained by fine-tuning LLaMA on user-shared conversations collected from ShareGPT. Preliminary evaluation using GPT-4 as a judge shows Vicuna-13B achiev... The Vicuna Team March 30, 2023",
-      "url": "https://www.lmsys.org/blog/2023-03-30-vicuna",
+      "story_id": "story_22f350167c25",
+      "title": "Show HN: AI search for every photo and every frame of video on macOS",
+      "url": "https://github.com/allenv0/SCM",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 78,
-          "review": "用GPT-4当裁判夸自己90%像，这自评标准挺会玩，但300美元的成本确实够实在。"
+          "score": 72,
+          "review": "本地AI搜索是刚需，但‘每一帧’的索引速度和存储成本，怕不是要吃掉半个硬盘。"
         },
         "paper-police": {
-          "score": 85,
-          "review": "开源模型附技术博客和评测方法，但依赖GPT-4打分，需独立复现验证。"
+          "score": 65,
+          "review": "有开源代码，但缺乏论文和公开的基准测试报告。"
         },
         "pragmatic": {
           "score": 88,
-          "review": "今天就能下载的13B开源对话模型，成本低效果不错，可立即部署或二次开发。"
+          "review": "开源工具，今天就能装，用自然语言搜本地照片和视频帧。"
         }
       }
     },
