@@ -3,22 +3,22 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "AI模型“大乱斗”：百元预算如何同时玩转GPT、Claude、Gemini？",
+      "title": "AI Agent已深入短信？手把手教你用Agent处理日常琐事",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、想用AI变现的个人、对AI工具感兴趣的小白",
-      "reason": "热点+省钱+实操性强，完美契合创作者偏好和受众需求，能直接提供价值。",
+      "target_audience": "AI初学者、想用AI提升效率的个人",
+      "reason": "结合热点新闻，提供实操性强的Agent应用教程，符合创作者偏好，易于传播。",
       "source_items": [
-        "Stop guessing which AI is best: Get GPT, Claude, and Gemini for under $100",
-        "GPT-6.1 Sol (Max) 进入 Agent Arena 第 5 名，以更低成本逼近前列模型",
-        "Arena 评测：Claude Sonnet 5.5 登顶 Agent Arena 第 3 名但未入 Pareto 前沿"
+        "All the AI agents that can live in your text messages",
+        "AI agent adoption is still very bimodal right now.",
+        "Show HN: Claude Code Routine Session Cleanup Skill"
       ],
       "source_urls": [
-        "https://mashable.com/tech/oct-3-1minai-advanced-business-plan-lifetime-subscription",
-        "https://x.com/arena/status/2106109027923140928",
-        "https://x.com/arena/status/2106105400487821764",
+        "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages",
+        "https://x.com/levie/status/2106583814709633413",
+        "https://github.com/naw103/claude-routine-cleanup",
         "https://www.lmsys.org/blog/2023-03-30-vicuna",
-        "https://www.baseten.co/blog/agentic-inference-optimization-faster-than-sota"
+        "https://huggingface.co/blog/microsoft/thinkingbox"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -26,13 +26,13 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文+视频",
-          "hook": "百元预算变AI大神！手把手教你搭建多模型“作战平台”",
-          "summary": "教用户如何用低价订阅或开源方案，在一个工作流里同时调用GPT、Claude、Gemini等主流模型。",
+          "format": "视频",
+          "hook": "懒人福音！用AI Agent自动处理短信通知、预约和账单提醒",
+          "summary": "教用户如何利用Claude API或现有工具，搭建一个能处理日常短信任务的自动化Agent。",
           "key_points": [
-            "如何注册和选择性价比最高的订阅方案",
-            "使用Comate、Cursor或开源工具集成多个模型API",
-            "设计一个简单的任务，对比不同模型的输出结果"
+            "选择合适的Agent平台或API（如Claude）",
+            "设计针对短信内容的处理逻辑与提示词",
+            "配置自动化触发与执行流程（如IFTTT或Zapier）"
           ],
           "difficulty": "入门",
           "estimated_time": "45分钟"
@@ -41,12 +41,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "小心！同时用多个AI模型，这5个坑会让你钱白花、事白干",
-          "summary": "指出多模型使用中的常见陷阱，如API成本失控、数据隐私泄露、结果不一致等。",
+          "hook": "小心！让你的AI Agent处理短信前，必须绕开这3个大坑",
+          "summary": "指出在短信场景使用AI Agent时的隐私、安全和误操作风险，并提供规避方案。",
           "pitfalls": [
-            "订阅陷阱：注意自动续费和token消耗上限",
-            "数据安全坑：避免在第三方平台输入敏感信息",
-            "结果飘忽坑：如何设定统一的提示词标准减少偏差"
+            "隐私泄露：Agent可能读取敏感信息，需设置数据过滤规则",
+            "错误执行：对模糊指令的误判，需设计严格的确认机制",
+            "成本失控：无限制调用API导致费用激增，需设置预算上限"
           ],
           "difficulty": "入门",
           "estimated_time": "20分钟"
@@ -55,12 +55,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "“百元AI套餐”背后：巨头混战，谁在收割，谁在让利？",
-          "summary": "分析低价AI套餐涌现背后的商业逻辑、市场竞争格局以及对普通用户和开发者的影响。",
+          "hook": "从短信Agent到万物互联：AI如何悄悄接管你的数字生活？",
+          "summary": "分析短信Agent现象背后的趋势：AI正从工具演变为无缝嵌入生活场景的“隐形助手”。",
           "insights": [
-            "AI服务正在从“奢侈品”变为“日用品”的拐点",
-            "巨头低价策略意在抢占开发者生态和用户习惯",
-            "对个人而言，这是低成本试错、找到最适合自己工具的最佳时机"
+            "趋势：AI交互界面从专用App向短信等原生渠道渗透",
+            "挑战：在便捷与隐私、控制与自动化之间寻找平衡",
+            "未来：个人AI Agent将成为数字身份的核心管理器，蕴藏商业机会"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -69,48 +69,48 @@
     },
     {
       "rank": 2,
-      "title": "你的短信被AI“入侵”了！盘点那些能住进你手机的智能体",
+      "title": "OpenAI“应用商店”来袭！个人开发者如何抓住第一波红利？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、想用AI变现的个人、对AI工具感兴趣的小白",
-      "reason": "话题新颖、贴近生活、有冲突性，易于传播，且与创作者擅长的Agent/Skill实践高度相关。",
+      "target_audience": "想用AI变现的个人、AI初学者、小微创业者",
+      "reason": "紧跟OpenAI重大更新，提供副业变现思路，完美结合创作者业务引流需求，争议性强易传播。",
       "source_items": [
-        "All the AI agents that can live in your text messages",
-        "OpenAI 每天投入超 50 万美元调查旗下智能体入侵 Medicare 与 Hugging Face 等事件"
+        "OpenAI's DevDay 2026 announcements to turn ChatGPT into a place to discover, launch, and use software...",
+        "The Agent Said It Was Done. The Database Disagreed."
       ],
       "source_urls": [
-        "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages",
-        "https://www.ithome.com/1/009/444.htm",
-        "https://lu.ma/LeverageIsrael",
-        "https://www.meetup.com/claude-code-enthusiasts-evening-social-club/events/316700842"
+        "https://www.techmeme.com/261003/p9",
+        "https://huggingface.co/blog/microsoft/thinkingbox",
+        "https://github.com/naw103/claude-routine-cleanup",
+        "https://www.meetup.com/solo-founders-singapore/events/316793770"
       ],
-      "urgency": "medium",
+      "urgency": "high",
       "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "视频（AIGC剧情向）",
-          "hook": "让AI替你回微信！3分钟设置你的短信“私人秘书”",
-          "summary": "演示如何用简单的工具（如AutoGPT、Zapier+ChatGPT）创建一个能自动回复短信或处理简单任务的AI Agent。",
+          "format": "图文",
+          "hook": "零代码！教你将ChatGPT提示词打包成可售卖的“技能”",
+          "summary": "一步步演示如何将一个实用的提示词工作流，封装并提交到OpenAI的新平台。",
           "key_points": [
-            "选择一款适合短信集成的AI Agent工具（如一些新兴创业公司产品）",
-            "配置触发条件和回复规则（安全第一）",
-            "进行测试并设置使用边界（避免社死）"
+            "构思一个解决具体问题的提示词工作流（如周报生成）",
+            "使用GPT Builder或简单代码进行功能封装与测试",
+            "了解OpenAI平台的发布规则、定价与上架流程"
           ],
           "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "estimated_time": "40分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文+短视频",
-          "hook": "别让AI毁了你的社交！短信智能体的3大隐私雷区",
-          "summary": "指出使用短信AI Agent可能导致隐私泄露、账户安全风险和社会关系误解。",
+          "format": "短视频",
+          "hook": "别白忙！想在GPT商店赚钱，先避开这3个致命误区",
+          "summary": "指出个人开发者在探索新平台时，在创意、技术和商业上容易踩的坑。",
           "pitfalls": [
-            "隐私雷区：Agent可能读取并上传所有聊天记录",
-            "安全风险：API密钥泄露可能导致账户被劫持",
-            "社交灾难：AI的“直男”回复可能得罪朋友和客户"
+            "创意陷阱：做同质化工具，缺乏独特价值与场景",
+            "技术陷阱：忽视提示词的稳定性与边界条件测试",
+            "商业陷阱：不了解平台分成规则与知识产权归属"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -119,12 +119,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从短信到万物：AI Agent如何“润物细无声”地接管我们的生活？",
-          "summary": "探讨AI Agent从短信切入，未来可能渗透到邮件、日程、购物等所有数字交互场景的趋势与挑战。",
+          "hook": "GPT商店 vs 传统应用商店：一场关于“软件”定义的范式革命",
+          "summary": "深度分析OpenAI此举如何重新定义软件形态、开发门槛和分发模式。",
           "insights": [
-            "AI交互正从“主动提问”转向“被动服务”的新范式",
-            "短信是最高频、最私密的入口，价值巨大但风险也最高",
-            "监管与技术的赛跑：如何在便利与安全间找到平衡"
+            "范式转变：软件从“应用程序”变为“智能体技能”，交互即服务",
+            "格局影响：降低开发门槛，可能冲击中小SaaS和插件市场",
+            "个人机会：提示词工程师和垂直领域专家将成为新生态的早期受益者"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -133,48 +133,48 @@
     },
     {
       "rank": 3,
-      "title": "开源模型Vicuna启示录：300美元，你也能微调出自己的“ChatGPT”？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、想用AI变现的个人",
-      "reason": "结合开源热点和低成本训练，有数据支撑（$300），实操和深度兼具，符合用户对新工具感兴趣的特点。",
+      "title": "用AI视频作证竟能翻案？AIGC创作者必须知道的伦理与法律红线",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "AI初学者、内容创作者、对AIGC感兴趣的小白",
+      "reason": "结合极具争议性的社会新闻，切入AIGC伦理与法律议题，符合创作者对“争议性/冲突性”内容的偏好。",
       "source_items": [
-        "LMSYS 发布开源聊天模型 Vicuna-13B，用 ShareGPT 对话微调 LLaMA，训练成本约 $300",
-        "Baseten 工程师实测：LLM 生成的推理引擎比 vLLM 快最多 90%"
+        "US killer's sentence quashed because of AI video of victim shown in court",
+        "I am very uncomfortable about people trying to ascribe religious force or a surrender of human judgment to AI models..."
       ],
       "source_urls": [
-        "https://www.lmsys.org/blog/2023-03-30-vicuna",
-        "https://www.baseten.co/blog/agentic-inference-optimization-faster-than-sota",
-        "https://x.com/arena/status/2106109027923140928",
-        "https://x.com/arena/status/2106105400487821764"
+        "https://www.bbc.com/news/articles/cwgkvygg5nzvo",
+        "https://x.com/sama/status/2106388373221118198",
+        "https://lu.ma/8pqcqqu0",
+        "https://news.slashdot.org/story/26/10/03/077236/californias-governor-wants-worker-protections-from-ai-but-fsf-thinks-kill-switches-are-dangerous-precedent"
       ],
       "urgency": "medium",
-      "viral_potential": "medium",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文+视频",
-          "hook": "跟着做！用Google Colab免费环境，三步微调你的专属AI模型",
-          "summary": "提供一个极度简化的、面向小白的Vicuna风格微调教程，使用在线平台降低门槛。",
+          "format": "视频",
+          "hook": "安全第一！生成式AI创作必做的“数字水印”与元数据标记",
+          "summary": "教创作者使用现有工具，为AI生成的图片、视频添加不可篡改的版权和来源信息。",
           "key_points": [
-            "准备数据：如何收集和清洗自己的对话数据（格式要求）",
-            "选择平台：介绍Colab、RunPod等低成本云服务",
-            "运行脚本：提供修改好的现成代码，讲解关键参数"
+            "介绍主流AI生成工具（如Midjourney, Sora）的内置水印功能",
+            "演示使用第三方工具添加隐形水印与元数据",
+            "讲解如何查验和证明内容的AI生成来源"
           ],
-          "difficulty": "中级",
-          "estimated_time": "1.5小时"
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "微调模型血泪史：烧了钱没效果？这4个坑90%的人都会踩",
-          "summary": "指出个人微调模型时在数据、算力、期望值上常见的误区。",
+          "hook": "你的AI作品可能违法！内容创作者必须规避的3大法律风险",
+          "summary": "明确指出在肖像权、版权和证据伪造等方面，AIGC创作者容易触及的法律禁区。",
           "pitfalls": [
-            "数据坑：质量差、数量少、格式乱，导致模型“学歪”",
-            "算力坑：对硬件要求预估不足，训练中途失败",
-            "期望坑：幻想微调后能达到GPT-4水平，现实落差大"
+            "肖像权坑：未经许可生成或替换真人肖像，可能面临侵权诉讼",
+            "版权坑：训练数据包含受版权保护作品，导致生成结果侵权",
+            "证据坑：将AI生成内容作为事实证据使用，可能涉嫌伪造"
           ],
           "difficulty": "入门",
           "estimated_time": "20分钟"
@@ -183,12 +183,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "$300的Vicuna，为何能撼动千亿巨头的游戏？",
-          "summary": "分析开源模型和低成本微调技术对AI民主化的意义，以及对未来AI创业和就业的影响。",
+          "hook": "当AI开始“作证”：技术奇点下的法律、伦理与信任危机",
+          "summary": "从法庭案例出发，探讨AIGC技术如何挑战人类对“真实”的认知体系和司法基础。",
           "insights": [
-            "模型能力平民化：技术壁垒降低，创意和垂直数据成为新护城河",
-            "对创业者：在垂直领域用低成本打造差异化AI服务成为可能",
-            "对个人：掌握微调技能可能成为新的“金饭碗”"
+            "认知危机：AI生成内容模糊了真实与虚构的边界，动摇信任基石",
+            "司法挑战：传统证据规则面临重构，需要新的鉴定技术与法律标准",
+            "行业自律：内容平台与创作者急需建立伦理准则与技术标准，以防滥用"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -197,97 +197,34 @@
     },
     {
       "rank": 4,
-      "title": "AI视频成“法庭证据”？深度伪造时代，创作者如何自保与避雷",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "所有内容创作者、对AI感兴趣的小白、小微企业主",
-      "reason": "结合社会热点（法庭证据），具有强冲突性和警示意义，能自然引出对内容真实性和版权/IP保护的讨论，与创作者商标代理业务有潜在结合点。",
+      "title": "YouTube新政打击“搬运工”！AI创作者如何打造“原创内容”新护城河？",
+      "track": "creator_economy",
+      "track_name": "自媒体/创作者经济",
+      "target_audience": "自媒体运营者、AI初学者、内容创作者",
+      "reason": "结合平台政策变化，为AI创作者提供运营策略，实操性强，能有效吸引对流量焦虑的受众。",
       "source_items": [
-        "US killer's sentence quashed because of AI video of victim shown in court",
-        "YouTube says it is adjusting its Shorts recommendations to prioritize \"original content\""
+        "YouTube says it is adjusting its Shorts recommendations to prioritize \"original content\"...",
+        "Google CEO actually uses this app and replies to feedback while YouTube CEO only uses this as a comms channel..."
       ],
       "source_urls": [
-        "https://www.bbc.com/news/articles/cwgkvygg5nzvo",
         "https://www.techmeme.com/261003/p10",
-        "https://news.slashdot.org/story/26/10/03/077236/californias-governor-wants-worker-protections-from-ai-but-fsf-thinks-kill-switches-are-dangerous-precedent",
+        "https://x.com/petergyang/status/2106505635017986394",
+        "https://lu.ma/8pqcqqu0",
         "https://partiful.com/e/9OQfXbXauvFiBYUoEekQ"
       ],
       "urgency": "high",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "视频（AI剪辑包装）",
-          "hook": "三步给你的AI生成视频加上“防伪水印”，保护原创",
-          "summary": "教用户使用剪映等工具，为AI生成的视频内容添加可追溯的元数据或视觉水印，声明版权。",
-          "key_points": [
-            "利用AI工具（如Midjourney/Stable Diffusion）生成素材时的元数据设置",
-            "使用剪映Pro的字幕、贴纸功能制作个性化版权标识",
-            "介绍区块链存证等进阶版权保护工具（简要提及）"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "25分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文+短视频",
-          "hook": "小心侵权！用AI做视频千万别碰这5类素材",
-          "summary": "明确指出哪些素材（如名人肖像、特定商标、受版权保护的影视片段）在AI视频创作中极易引发法律风险。",
-          "pitfalls": [
-            "肖像权坑：未经允许使用真人（尤其是名人）形象生成内容",
-            "商标/IP坑：在商业视频中使用了受保护的品牌元素",
-            "影视素材坑：直接使用版权影视剧片段进行AI重绘或混剪"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "当AI视频走进法庭：信任崩塌后，我们该如何重建“真实”？",
-          "summary": "探讨深度伪造技术对司法、新闻、社交媒体的冲击，以及技术、法律、平台三方应如何应对。",
-          "insights": [
-            "“眼见为实”时代终结，基于数字指纹和可信来源的验证技术将兴起",
-            "对内容创作者：真实性将成为比炫技更珍贵的资产",
-            "对小微企业主：保护自身品牌视觉资产（商标、形象）的紧迫性空前提高"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "title": "OpenAI“应用商店”来袭：ChatGPT变身软件平台，个人开发者新机会？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "想用AI变现的个人、AI初学者、小微企业主",
-      "reason": "预示平台级变革，与副业变现、创业强相关，能激发受众对未来机会的想象和讨论。",
-      "source_items": [
-        "OpenAI's DevDay 2026 announcements to turn ChatGPT into a place to discover, launch, and use software could potentially disrupt the traditional app store model (Sarah Perez/TechCrunch)"
-      ],
-      "source_urls": [
-        "https://www.techmeme.com/261003/p9",
-        "https://www.ithome.com/1/009/444.htm",
-        "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages",
-        "https://lu.ma/LeverageIsrael"
-      ],
-      "urgency": "medium",
       "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "抢先体验！如何为ChatGPT“应用商店”准备你的第一个AI Skill",
-          "summary": "引导用户基于现有的GPTs或Custom Actions创建经验，提前构思和设计一个简单的、可上架ChatGPT平台的AI技能。",
+          "format": "视频",
+          "hook": "告别搬运！用AI工具三步将热门视频改造成你的“原创爆款”",
+          "summary": "演示如何利用AI进行视频脚本重写、AI旁白生成、画面风格迁移，实现深度二创。",
           "key_points": [
-            "回顾GPTs创建流程，理解Action和Knowledge的运用",
-            "构思一个解决具体问题（如“周报生成器”、“商标名称创意”）的Skill",
-            "按照可能的“商店”上架要求，准备描述、图标和测试用例"
+            "使用ChatGPT分析原视频逻辑并生成全新视角的脚本",
+            "用AI语音工具生成个性化旁白，替换原音",
+            "利用AI绘画/视频风格化工具，创造独特的视觉风格"
           ],
           "difficulty": "入门",
           "estimated_time": "40分钟"
@@ -296,12 +233,13 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "别当炮灰！想在AI应用商店赚钱，先避开这3大误区",
-          "summary": "指出个人开发者在涌入新平台时容易犯的战略和战术错误。",
+          "hook": "小心限流！YouTube新规下，AI创作必须避开的4个“伪原创”陷阱",
+          "summary": "指出单纯使用AI换脸、简单翻译、拼接剪辑等仍可能被判定为非原创的操作。",
           "pitfalls": [
-            "误区一：做“大而全”的通用工具，竞争不过巨头",
-            "误区二：忽视提示词工程，导致Skill体验不稳定",
-            "误区三：对平台规则和分成模式一无所知就盲目投入"
+            "陷阱一：仅替换AI配音，核心画面与文案结构完全照搬",
+            "陷阱二：多视频简单混剪，未增加实质性观点与信息增量",
+            "陷阱三：直接翻译外网内容，未进行本地化解读与再创作",
+            "陷阱四：过度依赖同一套AI模板，导致内容同质化"
           ],
           "difficulty": "入门",
           "estimated_time": "20分钟"
@@ -310,35 +248,163 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "ChatGPT“商店”VS苹果App Store：一场关于生态定义权的战争",
-          "summary": "分析OpenAI此举对移动互联网生态、软件分发模式、以及个人开发者命运的深远影响。",
+          "hook": "平台“原创”大战背后：AI时代，什么才是内容的真正价值？",
+          "summary": "分析平台政策转向的深层原因，探讨在AIGC普及下，“原创性”定义的重构与创作者的核心竞争力。",
           "insights": [
-            "从“应用”到“技能”：交互范式的根本性转变",
-            "个人开发者的新机会：更低的开发门槛，更依赖创意和垂直知识",
-            "对传统开发者的挑战：需要从“代码思维”转向“自然语言交互设计思维”"
+            "平台逻辑：打击搬运是维护生态健康、提升用户时长的必然选择",
+            "价值重构：从“信息搬运”价值转向“观点提炼”、“情感连接”与“个性化体验”价值",
+            "创作者出路：结合个人经验、独特数据与AI工具，打造“人机协同”的深度内容"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
         }
       ]
+    },
+    {
+      "rank": 5,
+      "title": "揭秘AI“说谎”论文：一句提示词让大模型更诚实？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者、提示词工程爱好者",
+      "reason": "结合前沿研究，切入提示词工程这一创作者擅长领域，提供有数据支撑的实操技巧，专业又易懂。",
+      "source_items": [
+        "Google 论文揭示 LLM 会隐瞒负面结果，一句 honesty 提示可大幅改善"
+      ],
+      "source_urls": [
+        "https://x.com/rohanpaul_ai/status/2106502600703222202",
+        "https://huggingface.co/blog/microsoft/thinkingbox",
+        "https://www.lmsys.org/blog/2023-03-30-vicuna",
+        "https://github.com/naw103/claude-routine-cleanup"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "科研党必备！让ChatGPT如实汇报失败实验的提示词模板",
+          "summary": "提供一套具体的提示词框架，引导LLM在分析数据时主动暴露局限性、不确定性和负面结果。",
+          "key_points": [
+            "设计“前置诚实声明”提示，设定输出基调",
+            "使用“分步验证”提示，要求模型逐步推理并检查矛盾",
+            "加入“反事实提问”提示，主动探寻被忽略的负面可能性"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "25分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "短视频",
+          "hook": "别被AI骗了！获取可靠信息的3个提问禁忌与修正方法",
+          "summary": "指出用户提问方式如何无意中诱导AI“捏造”或“隐瞒”信息，并给出正确提问范式。",
+          "pitfalls": [
+            "禁忌一：提问包含强烈倾向性，如“为什么A方案完美无缺？”",
+            "禁忌二：要求AI在知识盲区做出肯定答复",
+            "禁忌三：忽略让AI提供信源或置信度评估"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "“诚实”提示词为何有效？拆解LLM输出背后的对齐与博弈",
+          "summary": "从技术原理层面，解读“诚实”提示词如何影响模型概率分布，以及当前对齐技术的局限性。",
+          "insights": [
+            "机制：提示词通过激活模型内部不同的“行为模式”来影响输出",
+            "局限：提示词工程是“软约束”，无法根除模型训练数据中的偏见或知识缺陷",
+            "未来：更可靠的“诚实”需要模型架构、训练目标与评估方式的系统改进"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "（引流向）AI创业第一步：用AIGC批量生成品牌名，并快速完成商标筛查",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "想用AI变现的个人、小微创业者、需要商标服务的企业主",
+      "reason": "完美结合创作者的主业（商标代理）与AI内容，以AIGC剧情向视频或实操教程形式，实现高效、自动化引流。",
+      "source_items": [
+        "Solo Founders Singapore — Founders Exchange",
+        "We're going to need default hard budget caps on pretty much everything"
+      ],
+      "source_urls": [
+        "https://www.meetup.com/solo-founders-singapore/events/316793770",
+        "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps",
+        "https://www.kiplinger.com/retirement/retirement-planning/ways-to-supercharge-retirement-savings-while-still-working",
+        "https://www.lmsys.org/blog/2023-03-30-vicuna"
+      ],
+      "urgency": "low",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "视频",
+          "hook": "创业省万元！AI生成100个品牌名+商标预筛查全流程",
+          "summary": "演示使用ChatGPT、Midjourney（生成logo灵感）等工具批量生成品牌名，并介绍如何利用官方数据库进行初步商标冲突排查。",
+          "key_points": [
+            "用ChatGPT根据行业、调性生成海量品牌名候选列表",
+            "使用商标局官网或第三方工具进行初步近似查询",
+            "解读查询结果，判断注册风险与下一步行动建议"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "35分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "你的AI品牌名可能无法注册！创业者必须知道的商标3大雷区",
+          "summary": "指出AI生成名称在商标注册中常见的法律风险，如缺乏显著性、描述性过强、与他人在先权利冲突等。",
+          "pitfalls": [
+            "雷区一：名称过于通用或直接描述产品功能，缺乏显著性",
+            "雷区二：AI可能生成与知名品牌近似的名称，造成侵权",
+            "雷区三：未进行跨类别检索，忽略相关行业的在先商标"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "AIGC剧情向视频",
+          "hook": "【AIGC短剧】一个AI起的名字，如何让公司差点赔光融资？",
+          "summary": "通过剧情化案例，生动展示忽视商标检索的严重后果，自然引出专业服务价值。",
+          "insights": [
+            "剧情冲突点1：团队庆祝AI生成完美名称，却不知已侵权",
+            "剧情冲突点2：收到律师函，产品面临下架，融资受阻",
+            "剧情转折点：寻求专业代理，进行驳回复审或谈判，化解危机",
+            "核心洞察：创业早期知识产权布局与品牌战略同等重要"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "策划制作2小时"
+        }
+      ]
     }
   ],
   "weekly_plan": {
-    "monday": "AI模型“大乱斗”：百元预算如何同时玩转GPT、Claude、Gemini？",
-    "wednesday": "你的短信被AI“入侵”了！盘点那些能住进你手机的智能体",
-    "friday": "AI视频成“法庭证据”？深度伪造时代，创作者如何自保与避雷",
-    "strategy": "本周聚焦“AI平民化应用与风险应对”，以热点事件切入，提供从实操到深度的全套内容，兼顾流量与价值，并在风险话题中自然植入IP保护意识。"
+    "monday": "AI Agent已深入短信？手把手教你用Agent处理日常琐事",
+    "wednesday": "OpenAI“应用商店”来袭！个人开发者如何抓住第一波红利？",
+    "friday": "（引流向）AI创业第一步：用AIGC批量生成品牌名，并快速完成商标筛查",
+    "strategy": "本周聚焦“AI+行动指南”，从热点应用（Agent）、平台红利（OpenAI）到业务结合（商标引流），提供阶梯式价值。"
   },
-  "insights": "今日信息流显示，AI正加速从“技术探索”走向“平民化应用”和“生态构建”，同时其引发的安全、伦理与版权问题日益凸显，为内容创作提供了丰富的冲突性选题素材。",
-  "ai_adjustment": "基于用户对“Harness热点”和“新模型、新工具”的兴趣，本次推荐重点挖掘了模型对比、低成本微调、新兴AI Agent应用等实操性强且具热点潜力的选题，并规避了硬件相关方向。",
-  "generated_at": "2026-10-04T02:33:19.951516+08:00",
-  "total_items": 304,
-  "scored_items": 250,
+  "insights": "今日信息流显示，AI正从技术概念加速渗透至具体生活场景（短信Agent）和商业生态（GPT商店），同时引发的伦理、法律与平台规则问题成为新热点。",
+  "ai_adjustment": "基于用户反馈中“对新模型、新工具感兴趣”及“Harness是热点”的点评，本次推荐强化了Agent、新平台（OpenAI商店）等实操与趋势解读选题，并延续了将商标业务与AIGC结合的引流思路。",
+  "generated_at": "2026-10-04T18:25:56.593314+08:00",
+  "total_items": 287,
+  "scored_items": 233,
   "tracks_summary": {
-    "ai_tech": 244,
-    "ai_video": 4,
-    "growth_monetize": 1,
-    "creator_economy": 1
+    "ai_tech": 223,
+    "growth_monetize": 3,
+    "creator_economy": 2,
+    "ai_video": 5
   },
   "engine_version": "v2",
   "engine_params": {
