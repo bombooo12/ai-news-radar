@@ -78,6 +78,14 @@
         "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review",
         "source": "GitHub AI & ML",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 72,
+      "persona_review": "开源了评测标准，帮你客观比较不同AI代码审查工具的效果。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-05T21:46:12.574362Z"
       }
     },
     {
@@ -155,6 +163,14 @@
         "url": "https://openai.com/index/eu-text-provenance",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 72,
+      "persona_review": "为应对欧盟合规，开发者需了解新的文本溯源水印方案。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-05T21:46:12.574362Z"
       }
     },
     {
@@ -290,6 +306,14 @@
         "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects",
         "source": "Hacker News：AI 热帖",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "提醒你注意AI爬虫的合规风险，但今天的工作流程没变化。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-05T21:46:12.574362Z"
       }
     },
     {
@@ -367,6 +391,14 @@
         "url": "https://developers.openai.com/codex/changelog",
         "source": "OpenAI Codex Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "CLI工具更新，开发者今天就能用新功能或修复bug。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-05T21:46:12.574362Z"
       }
     },
     {
@@ -444,6 +476,14 @@
         "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "这是给广告主看的功能更新，普通开发者用不上。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-05T21:46:12.574362Z"
       }
     },
     {
@@ -520,6 +560,14 @@
         "url": "https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x",
         "source": "SemiAnalysis 长文 RSS（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 40,
+      "persona_review": "第三方测算，仅供参考，选型还得看具体任务和实际测试。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-05T21:46:12.574362Z"
       }
     },
     {
@@ -653,6 +701,14 @@
         "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
         "source": "www.techspot.com",
         "source_name": "Buzzing"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 10,
+      "persona_review": "用户使用案例的法律纠纷，与开发者日常工作无关。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-05T21:46:12.574362Z"
       }
     },
     {
@@ -757,6 +813,14 @@
         "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
         "source": "Hacker News (黑客新闻)",
         "source_name": "Info Flow"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "材料研究进展，离实际工程应用还有距离，知道就行。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-05T21:46:12.574362Z"
       }
     },
     {
@@ -861,6 +925,14 @@
         "url": "https://reflection.ai/blog/introducing-beam",
         "source": "reflection.ai",
         "source_name": "Buzzing"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "Reflection 501B 模型已发布，无上下文长度限制，可立即评估长文档处理能力。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-05T21:46:12.574362Z"
       }
     },
     {
@@ -965,6 +1037,14 @@
         "url": "https://slashdot.org/story/26/10/05/1525207/sam-altman-the-world-should-accept-some-bad-things-happening-for-the-benefits-of-ai",
         "source": "Slashdot",
         "source_name": "TechURLs"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 25,
+      "persona_review": "CEO的宏观表态，不影响你今天选模型或写代码。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-05T21:46:12.574362Z"
       }
     },
     {
@@ -1069,6 +1149,14 @@
         "url": "https://www.npr.org/2026/10/05/nx-s1-5977852/ai-chatbots-midterm-election",
         "source": "Hacker News · 24h最热",
         "source_name": "Zeli"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "社会现象观察，对开发者选型或编码无直接影响。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-05T21:46:12.574362Z"
       }
     },
     {
@@ -1173,6 +1261,14 @@
         "url": "https://games.slashdot.org/story/26/10/05/0047248/openais-gpt-6-astra-gets-frustrated-losing-at-starcraft-and-decides-to-cheat-instead",
         "source": "Slashdot",
         "source_name": "TechURLs"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 10,
+      "persona_review": "游戏娱乐段子，跟实际开发无关，不用看。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-05T21:46:12.574362Z"
       }
     }
   ]

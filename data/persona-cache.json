@@ -1,60 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_d3bf2f654fce|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "单次演示的benchmark看看就好，不改变现有模型选型。",
-      "title_hash": "6a26f33f",
-      "scored_at": "2026-09-14T15:09:34.193610Z"
-    },
-    "story_2268a781ebb4|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "开源了可直接评估或微调的搜索增强模型，为RAG应用提供了新选项。",
-      "title_hash": "2ddff242",
-      "scored_at": "2026-09-14T15:09:46.214901Z"
-    },
-    "story_906bc814a899|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "PPT工具升级，一句话生成可编辑文件，今天做汇报就能用。",
-      "title_hash": "6b3c001f",
-      "scored_at": "2026-09-14T15:09:57.070559Z"
-    },
-    "story_d4545e7d3db9|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "行业大佬表态，但没提供任何可用的工具或法律路径。",
-      "title_hash": "3ac1c994",
-      "scored_at": "2026-09-14T15:10:08.973614Z"
-    },
-    "story_bdb10c710254|pragmatic|0a5c5b24": {
-      "score": 70,
-      "review": "模块化设计可能影响硬件选型，但需等实际交付和SDK再评估。",
-      "title_hash": "064d7152",
-      "scored_at": "2026-09-14T15:10:16.627084Z"
-    },
-    "story_d582dca2239a|pragmatic|0a5c5b24": {
-      "score": 88,
-      "review": "可直接克隆的PyTorch架构实现，适合学习和快速实验。",
-      "title_hash": "071ebad0",
-      "scored_at": "2026-09-14T15:10:22.452123Z"
-    },
-    "story_d0c7c6be7a83|pragmatic|0a5c5b24": {
-      "score": 40,
-      "review": "只是代码层面的可能性，苹果没开放接口，现在换不了。",
-      "title_hash": "18bf8694",
-      "scored_at": "2026-09-14T15:10:25.303611Z"
-    },
-    "story_d582dca2239a|cynic|f4237a62": {
-      "score": 75,
-      "review": "又一个PyTorch复现轮子，亮点是‘现代’和‘大型’，但没提具体实现了哪个模型。",
-      "title_hash": "071ebad0",
-      "scored_at": "2026-09-14T15:10:29.530006Z"
-    },
-    "story_d582dca2239a|paper-police|966065bf": {
-      "score": 85,
-      "review": "GitHub仓库公开，架构实现可查，但未见配套论文与基准评测报告。",
-      "title_hash": "071ebad0",
-      "scored_at": "2026-09-14T15:10:40.489674Z"
-    },
     "story_e31e702be431|pragmatic|0a5c5b24": {
       "score": 88,
       "review": "GitHub Copilot 可手动调节成本与质量平衡，今天就能在设置里改。",
@@ -4377,9 +4323,9 @@
     },
     "story_aec85adef32a|pragmatic|0a5c5b24": {
       "score": 35,
-      "review": "这是OpenAI的广告业务更新，对开发者开发应用没直接影响。",
-      "title_hash": "b19d6b3c",
-      "scored_at": "2026-10-05T11:04:04.601495Z"
+      "review": "这是给广告主看的功能更新，普通开发者用不上。",
+      "title_hash": "7c9376af",
+      "scored_at": "2026-10-05T21:46:37.973288Z"
     },
     "story_92fa9be3e195|pragmatic|0a5c5b24": {
       "score": 75,
@@ -4428,6 +4374,102 @@
       "review": "个人经验分享，无模型论文、代码或量化评测，仅为观点陈述。",
       "title_hash": "4f23546c",
       "scored_at": "2026-10-05T11:04:50.908026Z"
+    },
+    "story_b4c0a1b83afc|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "开源了评测标准，帮你客观比较不同AI代码审查工具的效果。",
+      "title_hash": "0fd9bba1",
+      "scored_at": "2026-10-05T21:46:16.943397Z"
+    },
+    "story_6f6f6c4ad8fb|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "为应对欧盟合规，开发者需了解新的文本溯源水印方案。",
+      "title_hash": "bf529f13",
+      "scored_at": "2026-10-05T21:46:22.969223Z"
+    },
+    "story_e48c2f9cc52d|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "提醒你注意AI爬虫的合规风险，但今天的工作流程没变化。",
+      "title_hash": "ca765fb2",
+      "scored_at": "2026-10-05T21:46:26.973573Z"
+    },
+    "story_443f271584c4|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "CLI工具更新，开发者今天就能用新功能或修复bug。",
+      "title_hash": "bc1beb72",
+      "scored_at": "2026-10-05T21:46:33.086318Z"
+    },
+    "story_651dc5458423|pragmatic|0a5c5b24": {
+      "score": 40,
+      "review": "第三方测算，仅供参考，选型还得看具体任务和实际测试。",
+      "title_hash": "8d92e093",
+      "scored_at": "2026-10-05T21:46:43.834929Z"
+    },
+    "story_a0cf0e1c0e34|pragmatic|0a5c5b24": {
+      "score": 10,
+      "review": "用户使用案例的法律纠纷，与开发者日常工作无关。",
+      "title_hash": "7ccd743a",
+      "scored_at": "2026-10-05T21:46:48.645880Z"
+    },
+    "story_47d885071ad3|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "材料研究进展，离实际工程应用还有距离，知道就行。",
+      "title_hash": "c95d30b0",
+      "scored_at": "2026-10-05T21:46:58.191699Z"
+    },
+    "story_06387bb39276|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "Reflection 501B 模型已发布，无上下文长度限制，可立即评估长文档处理能力。",
+      "title_hash": "b1737efb",
+      "scored_at": "2026-10-05T21:47:02.860331Z"
+    },
+    "story_6d84f167e6c4|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "CEO的宏观表态，不影响你今天选模型或写代码。",
+      "title_hash": "9b0be9c0",
+      "scored_at": "2026-10-05T21:47:06.305248Z"
+    },
+    "story_0a892e8086c0|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "社会现象观察，对开发者选型或编码无直接影响。",
+      "title_hash": "b7e7e1a9",
+      "scored_at": "2026-10-05T21:47:10.042466Z"
+    },
+    "story_443f271584c4|cynic|f4237a62": {
+      "score": 65,
+      "review": "版本号从0.160跳到0.160.1，这算哪门子重大更新？",
+      "title_hash": "bc1beb72",
+      "scored_at": "2026-10-05T21:47:13.788881Z"
+    },
+    "story_443f271584c4|paper-police|966065bf": {
+      "score": 15,
+      "review": "仅有官方更新日志，无论文、代码或独立评测，证据不足。",
+      "title_hash": "bc1beb72",
+      "scored_at": "2026-10-05T21:47:16.804470Z"
+    },
+    "story_06387bb39276|cynic|f4237a62": {
+      "score": 45,
+      "review": "名字叫‘无重量限制’，但通篇没提具体能跑多大模型，demo在哪？",
+      "title_hash": "b1737efb",
+      "scored_at": "2026-10-05T21:47:21.627355Z"
+    },
+    "story_06387bb39276|paper-police|966065bf": {
+      "score": 15,
+      "review": "仅有官方博客宣称，无论文、代码或可复现的评测报告。",
+      "title_hash": "b1737efb",
+      "scored_at": "2026-10-05T21:47:28.506586Z"
+    },
+    "story_b4c0a1b83afc|cynic|f4237a62": {
+      "score": 82,
+      "review": "开源基准是好事，但别光顾着测自家Copilot，敢不敢把GPT-4o和Claude也拉进来比比？",
+      "title_hash": "0fd9bba1",
+      "scored_at": "2026-10-05T21:47:32.643079Z"
+    },
+    "story_b4c0a1b83afc|paper-police|966065bf": {
+      "score": 85,
+      "review": "开源基准，有论文和代码仓库链接，主体证据确凿。",
+      "title_hash": "0fd9bba1",
+      "scored_at": "2026-10-05T21:47:36.518637Z"
     }
   }
 }
