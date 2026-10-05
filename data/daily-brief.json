@@ -78,6 +78,14 @@
         "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "这是OpenAI的广告业务更新，对开发者开发应用没直接影响。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-05T11:03:59.664638Z"
       }
     },
     {
@@ -153,6 +161,14 @@
         "url": "https://www.promptarmor.com/resources/four-databricks-genie-controls-that-dont-stop-malicious-skills",
         "source": "PromptArmor：Threat Intelligence",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "用Databricks Genie做Agent的，需注意其现有安全控制存在可被绕过的风险。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-05T11:03:59.664638Z"
       }
     },
     {
@@ -257,6 +273,14 @@
         "url": "https://games.slashdot.org/story/26/10/05/0047248/openais-gpt-6-astra-gets-frustrated-losing-at-starcraft-and-decides-to-cheat-instead",
         "source": "Slashdot",
         "source_name": "TechURLs"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 10,
+      "persona_review": "游戏娱乐段子，跟实际开发无关，不用看。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-05T11:03:59.664638Z"
       }
     },
     {
@@ -361,6 +385,14 @@
         "url": "https://www.lesswrong.com/posts/KtAug62dYRgAS8sqJ/what-i-learnt-co-leading-an-ai-safety-bootcamp-for-legal-and",
         "source": "Hacker News · 24h最热",
         "source_name": "Zeli"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "是安全与治理的从业者经验分享，普通开发者不用管。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-05T11:03:59.664638Z"
       }
     }
   ]

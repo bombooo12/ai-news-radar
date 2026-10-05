@@ -3,37 +3,38 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "AI智能体实战：从入门到放弃？不，是到赚钱！",
+      "title": "PromptArmor 披露 Databricks Genie 恶意 Skill 可绕过四类控制实施钓鱼与数据外泄",
       "track": "ai_tech",
-      "track_name": "AI技术（Agent/提示词/Skill/AI设计/模型发布）",
-      "target_audience": "AI初学者、想用AI变现的个人、对Agent好奇的小白",
-      "reason": "结合今日多篇Agent热点，实操性强，符合用户对新工具/模型的兴趣，可引流商标业务。",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者/创作者",
+      "reason": "赛道相关度9.0分",
       "source_items": [
-        "AI agent adoption is still very bimodal right now. You have coding and coding adjacent tasks which have taken off, and then everything else.",
-        "Build an AI Agent Together: Live Build-Along",
-        "The Agent Said It Was Done. The Database Disagreed."
+        "PromptArmor 披露 Databricks Genie 恶意 Skill 可绕过四类控制实施钓鱼与数据外泄",
+        "Oakland Code Smarter With Claude AI",
+        "I'm glad OpenAI is focusing on simplifying ChatGPT because it has become a mess (sorry). Here's a clip from my dots review about this. What I'd simplify: 1. Work vs. Codex 2. Spaces vs. Pages vs. Sites 3. The model an...",
+        "OpenAI moves to make ChatGPT ads more measurable — and more visual",
+        "OpenAI says it will begin testing a new visual ad format in ChatGPT later this month in the US, displaying clearly labeled visual ads during image generation (Mayank Parmar/BleepingComputer)"
       ],
       "source_urls": [
-        "https://x.com/levie/status/2106583814709633413",
-        "https://www.meetup.com/jersey-city-running-a-business-meetup-group/events/316784784",
-        "https://huggingface.co/blog/microsoft/thinkingbox",
-        "https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests",
-        "https://www.meetup.com/pymc-labs-online-meetup/events/316504898"
+        "https://www.promptarmor.com/resources/four-databricks-genie-controls-that-dont-stop-malicious-skills",
+        "https://www.meetup.com/claude-code-enthusiasts-evening-social-club/events/316700842",
+        "https://x.com/petergyang/status/2106926956554195018",
+        "https://digiday.com/marketing/openai-moves-to-make-chatgpt-ads-more-measurable-and-more-visual",
+        "https://www.techmeme.com/261005/p10"
       ],
-      "urgency": "high",
-      "viral_potential": "high",
+      "urgency": "medium",
+      "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文+视频",
-          "hook": "“懒人”也能用！我用AI Agent自动处理客服咨询，省下一天时间",
-          "summary": "教AI初学者如何利用ChatGPT或DeepSeek的Agent功能，搭建一个简单的自动化问答流程。",
+          "format": "图文",
+          "hook": "PromptArmor 披露 Databricks Genie 恶意 Skill 可绕过四类控制实施钓鱼与数据外泄 入门教程",
+          "summary": "从零开始上手的完整步骤",
           "key_points": [
-            "第一步：选择一个支持Agent的AI平台（如DeepSeek）",
-            "第二步：明确你的任务，比如“回答商标注册的常见问题”",
-            "第三步：设计简单的指令（Prompt）和流程，让AI学会判断与回复",
-            "第四步：测试并优化，让Agent更“聪明”"
+            "了解基本概念",
+            "掌握核心操作",
+            "动手实践案例"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -42,12 +43,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "别被AI忽悠了！智能体“翻车”的3个致命陷阱，新手必看",
-          "summary": "指出新手在尝试AI Agent时最常见的误区，如过度信任、流程设计错误和数据安全风险。",
+          "hook": "PromptArmor 披露 Databricks Genie 恶意 Skill 可绕过四类控制实施钓鱼与数据外泄 常见坑点",
+          "summary": "新手最容易踩的几个坑",
           "pitfalls": [
-            "陷阱一：AI说“完成了”就信？结果可能牛头不对马嘴（结合“The Agent Said It Was Done”新闻）",
-            "陷阱二：给的任务太模糊，AI自由发挥导致灾难性后果",
-            "陷阱三：在敏感业务（如商标咨询）中，直接让AI接触客户信息有风险"
+            "概念理解误区",
+            "操作步骤错漏",
+            "预期管理不当"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -56,12 +57,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "Agent大爆发是假象？深度解析：为什么99%的AI智能体只停留在“写代码”",
-          "summary": "分析当前AI Agent应用的真实格局，探讨其商业化的瓶颈与未来破局点。",
+          "hook": "PromptArmor 披露 Databricks Genie 恶意 Skill 可绕过四类控制实施钓鱼与数据外泄 深度分析",
+          "summary": "背后的逻辑和影响",
           "insights": [
-            "洞察一：Agent应用呈现“双峰分布”，编码类任务成熟，其他领域仍处早期（引用Levie观点）",
-            "洞察二：真正的挑战在于让AI理解复杂、非结构化的业务流程",
-            "洞察三：对于小微企业主（如商标代理），Agent的价值在于流程标准化，而非完全替代"
+            "技术原理简析",
+            "行业影响分析",
+            "未来趋势展望"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -70,146 +71,24 @@
     },
     {
       "rank": 2,
-      "title": "你的声音正在被“白嫖”？Claude语音数据收集背后的真相与自保指南",
+      "title": "Oakland Code Smarter With Claude AI",
       "track": "ai_tech",
-      "track_name": "AI技术（Agent/提示词/Skill/AI设计/模型发布）",
-      "target_audience": "所有AI工具用户、注重隐私的创作者、AI初学者",
-      "reason": "争议性强，涉及用户隐私与数据安全，容易引发讨论和传播，符合用户偏好争议性选题的特点。",
+      "track_name": "AI技术",
+      "target_audience": "AI初学者/创作者",
+      "reason": "赛道相关度9.0分",
       "source_items": [
-        "Anthropic asks Claude users to share voice data for AI model training",
-        "Google 论文揭示 LLM 会隐瞒负面结果，一句 honesty 提示可大幅改善"
+        "PromptArmor 披露 Databricks Genie 恶意 Skill 可绕过四类控制实施钓鱼与数据外泄",
+        "Oakland Code Smarter With Claude AI",
+        "I'm glad OpenAI is focusing on simplifying ChatGPT because it has become a mess (sorry). Here's a clip from my dots review about this. What I'd simplify: 1. Work vs. Codex 2. Spaces vs. Pages vs. Sites 3. The model an...",
+        "OpenAI moves to make ChatGPT ads more measurable — and more visual",
+        "OpenAI says it will begin testing a new visual ad format in ChatGPT later this month in the US, displaying clearly labeled visual ads during image generation (Mayank Parmar/BleepingComputer)"
       ],
       "source_urls": [
-        "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training",
-        "https://x.com/rohanpaul_ai/status/2106502600703222202",
-        "https://www.meetup.com/claude-code-enthusiasts-evening-social-club/events/316700842"
-      ],
-      "urgency": "high",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "手把手教你关闭AI工具的“偷听”功能，保护你的语音数据",
-          "summary": "一步步指导用户如何在Claude、ChatGPT等主流AI应用中检查和关闭语音数据收集选项。",
-          "key_points": [
-            "步骤一：找到Claude应用中的“隐私设置”或“数据管理”页面",
-            "步骤二：识别并关闭“语音数据用于模型改进”等相关选项",
-            "步骤三：检查手机/电脑的系统级语音权限设置",
-            "步骤四：提供其他AI工具的类似设置路径参考"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "短视频",
-          "hook": "小心！你以为的“匿名”语音，可能正在暴露你的身份和商业秘密",
-          "summary": "揭示用户同意分享语音数据时可能忽略的潜在风险，如声纹识别、内容泄露等。",
-          "pitfalls": [
-            "坑点一：语音数据可能包含背景音，泄露你的位置或工作环境",
-            "坑点二：即使“匿名化”，独特的说话方式和内容也可能被关联到个人",
-            "坑点三：如果你在语音中讨论了未公开的商业创意或客户信息，存在泄露风险"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "10分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "从“诚实提示词”到“索要语音”：AI公司如何“套路”用户成为免费数据劳工",
-          "summary": "结合Google论文和Anthropic事件，深度分析AI公司获取训练数据的新策略及其伦理边界。",
-          "insights": [
-            "洞察一：数据饥渴是AI发展的核心矛盾，用户正从“使用者”变为“数据贡献者”",
-            "洞察二：“自愿分享”背后是复杂的用户心理和默认选项设计（Dark Pattern）",
-            "洞察三：未来的竞争不仅是模型能力，更是获取高质量、合规数据的能力"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "title": "AI拯救会议恐惧症：用这几个工具，让无聊会议变高效产出",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装（AI视频生成/视频剪辑/视觉包装）",
-      "target_audience": "职场人士、小微创业者、需要开会的自由职业者",
-      "reason": "结合创作者经济热点，实用性强，能展示AI在音视频处理、信息整理方面的能力，易于操作演示。",
-      "source_items": [
-        "How to Use AI to Survive (and Even Enjoy) Meetings | Sam Stephenson",
-        "Show HN: AI search for every photo and every frame of video on macOS"
-      ],
-      "source_urls": [
-        "https://creatoreconomy.so/p/how-to-use-ai-to-survive-meetings-sam-stephenson",
-        "https://github.com/allenv0/SCM",
-        "https://news.ycombinator.com/item?id=49952111"
-      ],
-      "urgency": "medium",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "视频（录屏）",
-          "hook": "开会走神也不怕！AI自动生成会议纪要、待办清单和精彩回放",
-          "summary": "演示如何利用TRAE、剪映的AI字幕和摘要功能，或类似“SCM”的本地搜索工具，自动化处理会议录音/录像。",
-          "key_points": [
-            "工具准备：手机录音/录屏软件，或电脑会议软件本地录制",
-            "第一步：使用TRAE或剪映Pro导入音频，一键生成带时间戳的文稿",
-            "第二步：让ChatGPT分析文稿，提炼核心结论、行动项和争议点",
-            "第三步：利用“SCM”类工具，快速定位会议视频中讨论关键点的画面"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "25分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "别让AI坑了你！自动会议纪要的3个大坑，可能导致严重误解",
-          "summary": "指出AI处理会议内容时在识别发言人、理解上下文和专业术语上的常见错误及纠正方法。",
-          "pitfalls": [
-            "坑点一：AI分不清谁在说话，导致任务分配张冠李戴",
-            "坑点二：对行业黑话、缩写理解错误，扭曲会议本意",
-            "坑点三：过度精简，丢失了讨论过程中的重要 nuance（细微差别）和情绪"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "会议AI化：是提升效率，还是让我们丧失了“在场”沟通的能力？",
-          "summary": "探讨AI介入会议记录与复盘后，对团队协作模式、信息透明度和个人注意力产生的深层影响。",
-          "insights": [
-            "洞察一：AI记录使“言责”更清晰，但也可能让发言者更谨慎，抑制创造性讨论",
-            "洞察二：可搜索的会议全记录，改变了组织内部的信息权力结构",
-            "洞察三：当AI能概括会议，人类参会的核心价值是否应转向“实时互动与决策”？"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "45分钟"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "title": "个人AI助理进化：让AI看懂你电脑里每一张图片和视频帧",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装（AI视频生成/视频剪辑/视觉包装）",
-      "target_audience": "自媒体创作者、视频剪辑爱好者、资料整理困难户",
-      "reason": "源自Hacker News热门项目，工具新颖，解决创作者素材管理的痛点，测评教程属性强。",
-      "source_items": [
-        "Show HN: AI search for every photo and every frame of video on macOS"
-      ],
-      "source_urls": [
-        "https://github.com/allenv0/SCM",
-        "https://news.ycombinator.com/item?id=49952111",
-        "https://partiful.com/e/9OQfXbXauvFiBYUoEekQ"
+        "https://www.meetup.com/claude-code-enthusiasts-evening-social-club/events/316700842",
+        "https://www.promptarmor.com/resources/four-databricks-genie-controls-that-dont-stop-malicious-skills",
+        "https://x.com/petergyang/status/2106926956554195018",
+        "https://digiday.com/marketing/openai-moves-to-make-chatgpt-ads-more-measurable-and-more-visual",
+        "https://www.techmeme.com/261005/p10"
       ],
       "urgency": "medium",
       "viral_potential": "medium",
@@ -217,14 +96,13 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "测评/教程视频",
-          "hook": "找素材不再靠缘分！实测这款AI搜索神器，秒速定位视频里的某个镜头",
-          "summary": "测评并演示“SCM”或类似AI本地媒体搜索工具，展示其如何通过描述快速找到电脑中的图片和视频片段。",
+          "format": "图文",
+          "hook": "Oakland Code Smarter With Claude AI 入门教程",
+          "summary": "从零开始上手的完整步骤",
           "key_points": [
-            "第一步：下载并安装工具（以SCM为例）",
-            "第二步：初次索引：让AI扫描你的图片和视频库",
-            "第三步：实战搜索：用自然语言查找，如“找到所有有猫的图片”或“找到我上次演讲穿蓝衬衫的那段视频”",
-            "第四步：高级技巧：结合时间、地点等元数据进行筛选"
+            "了解基本概念",
+            "掌握核心操作",
+            "动手实践案例"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -233,12 +111,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "小心隐私泄露！本地AI搜索工具安装和使用的3个安全注意事项",
-          "summary": "提醒用户在享受便利的同时，注意工具权限、数据存储和网络连接可能带来的隐私风险。",
+          "hook": "Oakland Code Smarter With Claude AI 常见坑点",
+          "summary": "新手最容易踩的几个坑",
           "pitfalls": [
-            "坑点一：授予过高的文件访问权限，可能导致敏感文件被索引",
-            "坑点二：索引数据存储位置不明，可能存在泄露风险",
-            "坑点三：某些工具需要联网进行AI识别，存在数据上传隐患"
+            "概念理解误区",
+            "操作步骤错漏",
+            "预期管理不当"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -247,140 +125,416 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从“文件名搜索”到“语义搜索”：AI如何重塑我们的数字记忆管理方式",
-          "summary": "分析基于内容的AI搜索技术对个人知识管理、创作工作流乃至数字遗产管理的长远影响。",
+          "hook": "Oakland Code Smarter With Claude AI 深度分析",
+          "summary": "背后的逻辑和影响",
           "insights": [
-            "洞察一：AI降低了组织信息的成本，让我们更依赖“即搜即得”而非“预先分类”",
-            "洞察二：这将极大提升视频创作者的素材复用率和创意发散效率",
-            "洞察三：未来的个人设备，可能都会内置一个理解你所有数字内容的“AI管家”"
+            "技术原理简析",
+            "行业影响分析",
+            "未来趋势展望"
           ],
           "difficulty": "中级",
-          "estimated_time": "45分钟"
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "ADWEEK Creativity Advantage: Building Fandoms Needs a Different Playbook",
+      "track": "creator_economy",
+      "track_name": "自媒体/创作者经济",
+      "target_audience": "AI初学者/创作者",
+      "reason": "赛道相关度5.5分",
+      "source_items": [
+        "ADWEEK Creativity Advantage: Building Fandoms Needs a Different Playbook",
+        "Amazon’s October Prime Day Is the Big Holiday Test for Brands",
+        "Jon Cook on 30 Years at VML and Handing the Agency Over to His Best Friend",
+        "How to Use AI to Survive (and Even Enjoy) Meetings | Sam Stephenson",
+        "Social Media Integration: How to Align Your Strategy With Your Website and Marketing Goals"
+      ],
+      "source_urls": [
+        "https://www.adweek.com/creativity/adweek-creativity-advantage-building-fandoms-needs-a-different-playbook",
+        "https://www.adweek.com/commerce/amazons-october-prime-day-is-the-big-holiday-test-for-brands",
+        "https://www.adweek.com/agencies/jon-cook-on-30-years-at-vml-and-handing-the-agency-over-to-his-best-friend",
+        "https://creatoreconomy.so/p/how-to-use-ai-to-survive-meetings-sam-stephenson",
+        "https://influencermarketinghub.com/social-media-integration-social-media-and-website"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "ADWEEK Creativity Advantage: Building Fandoms Needs a Different Playbook 入门教程",
+          "summary": "从零开始上手的完整步骤",
+          "key_points": [
+            "了解基本概念",
+            "掌握核心操作",
+            "动手实践案例"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "ADWEEK Creativity Advantage: Building Fandoms Needs a Different Playbook 常见坑点",
+          "summary": "新手最容易踩的几个坑",
+          "pitfalls": [
+            "概念理解误区",
+            "操作步骤错漏",
+            "预期管理不当"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "ADWEEK Creativity Advantage: Building Fandoms Needs a Different Playbook 深度分析",
+          "summary": "背后的逻辑和影响",
+          "insights": [
+            "技术原理简析",
+            "行业影响分析",
+            "未来趋势展望"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "Amazon’s October Prime Day Is the Big Holiday Test for Brands",
+      "track": "creator_economy",
+      "track_name": "自媒体/创作者经济",
+      "target_audience": "AI初学者/创作者",
+      "reason": "赛道相关度5.5分",
+      "source_items": [
+        "ADWEEK Creativity Advantage: Building Fandoms Needs a Different Playbook",
+        "Amazon’s October Prime Day Is the Big Holiday Test for Brands",
+        "Jon Cook on 30 Years at VML and Handing the Agency Over to His Best Friend",
+        "How to Use AI to Survive (and Even Enjoy) Meetings | Sam Stephenson",
+        "Social Media Integration: How to Align Your Strategy With Your Website and Marketing Goals"
+      ],
+      "source_urls": [
+        "https://www.adweek.com/commerce/amazons-october-prime-day-is-the-big-holiday-test-for-brands",
+        "https://www.adweek.com/creativity/adweek-creativity-advantage-building-fandoms-needs-a-different-playbook",
+        "https://www.adweek.com/agencies/jon-cook-on-30-years-at-vml-and-handing-the-agency-over-to-his-best-friend",
+        "https://creatoreconomy.so/p/how-to-use-ai-to-survive-meetings-sam-stephenson",
+        "https://influencermarketinghub.com/social-media-integration-social-media-and-website"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "Amazon’s October Prime Day Is the Big Holiday Test for Brands 入门教程",
+          "summary": "从零开始上手的完整步骤",
+          "key_points": [
+            "了解基本概念",
+            "掌握核心操作",
+            "动手实践案例"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "Amazon’s October Prime Day Is the Big Holiday Test for Brands 常见坑点",
+          "summary": "新手最容易踩的几个坑",
+          "pitfalls": [
+            "概念理解误区",
+            "操作步骤错漏",
+            "预期管理不当"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "Amazon’s October Prime Day Is the Big Holiday Test for Brands 深度分析",
+          "summary": "背后的逻辑和影响",
+          "insights": [
+            "技术原理简析",
+            "行业影响分析",
+            "未来趋势展望"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
         }
       ]
     },
     {
       "rank": 5,
-      "title": "AI创业者的“紧箍咒”：如何设置预算上限，防止被AI工具“烧光”钱包",
-      "track": "ai_tech",
-      "track_name": "AI技术（Agent/提示词/Skill/AI设计/模型发布）",
-      "target_audience": "想用AI变现的个人、小微创业者、副业探索者",
-      "reason": "结合个人成长/预算管理热点，非常实用且具有警示作用，能引发广泛共鸣，数据驱动有说服力。",
+      "title": "Huawei and Qualcomm Announce Broad Patent License Agreement",
+      "track": "trademark_business",
+      "track_name": "商标/IP/创业",
+      "target_audience": "AI初学者/创作者",
+      "reason": "赛道相关度5.2分",
       "source_items": [
-        "We're going to need default hard budget caps on pretty much everything",
-        "Solo Founders Singapore — Founders Exchange"
+        "Huawei and Qualcomm Announce Broad Patent License Agreement",
+        "Huawei and Qualcomm Announce Broad Patent License Agreement",
+        "Beyond the headlines: Stephenson Harwood-Taylor Wessing could be neat fit for IP growth",
+        "Huawei agrees to a multi-year patent licensing deal with Qualcomm covering AI, 5G, computing, and networking tech, its first 5G licensing deal with Qualcomm (Miyoung Kim/Reuters)"
       ],
       "source_urls": [
-        "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps",
-        "https://www.meetup.com/solo-founders-singapore/events/316793770",
-        "https://creatoreconomy.so/p/how-to-use-ai-to-survive-meetings-sam-stephenson"
+        "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement",
+        "https://news.ycombinator.com/item?id=49961861",
+        "https://www.managingip.com/article/2gz01iuv875yr0p5g08ow/trademarks/beyond-the-headlines-stephenson-harwood-taylor-wessing-could-be-neat-fit-for-ip-growth",
+        "https://www.techmeme.com/261005/p7"
       ],
       "urgency": "medium",
-      "viral_potential": "high",
+      "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "手把手设置：为你的ChatGPT Plus、Midjourney等AI订阅套上“预算锁”",
-          "summary": "逐步指导用户如何在各大AI服务平台（OpenAI, Anthropic, Midjourney等）和信用卡中设置使用量提醒和硬性支出上限。",
+          "hook": "Huawei and Qualcomm Announce Broad Patent License Agreement 入门教程",
+          "summary": "从零开始上手的完整步骤",
           "key_points": [
-            "第一步：梳理你正在使用的所有付费AI工具及计费方式（Token、次数、订阅）",
-            "第二步：在各自账户的Billing设置中，寻找并设置用量警报和支出上限",
-            "第三步：利用信用卡的月度消费限额功能，设置AI类消费总上限",
-            "第四步：建立简单的记账表，定期复盘AI投入产出比"
+            "了解基本概念",
+            "掌握核心操作",
+            "动手实践案例"
           ],
           "difficulty": "入门",
-          "estimated_time": "25分钟"
+          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "短视频",
-          "hook": "天价账单警告！AI工具这些“隐藏”计费点，分分钟让你破产",
-          "summary": "揭露AI服务中容易被忽略的高额计费场景，如API调用、高清图生成、长时间Agent运行等。",
+          "format": "图文",
+          "hook": "Huawei and Qualcomm Announce Broad Patent License Agreement 常见坑点",
+          "summary": "新手最容易踩的几个坑",
           "pitfalls": [
-            "坑点一：Agent任务陷入死循环，无限调用API直到额度耗尽",
-            "坑点二：未关闭“按需付费”模式，被他人盗用或自己忘记关闭实验",
-            "坑点三：低估了高清、高复杂度图片生成的Token/点数消耗"
+            "概念理解误区",
+            "操作步骤错漏",
+            "预期管理不当"
           ],
           "difficulty": "入门",
-          "estimated_time": "10分钟"
+          "estimated_time": "15分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "“默认硬预算上限”为何成为AI时代新刚需？从个人到企业的成本失控危机",
-          "summary": "探讨在按使用量付费的AI服务模式下，缺乏预算控制机制对个人创业者和企业项目带来的系统性风险。",
+          "hook": "Huawei and Qualcomm Announce Broad Patent License Agreement 深度分析",
+          "summary": "背后的逻辑和影响",
           "insights": [
-            "洞察一：AI服务的“弹性”计费是一把双刃剑，便利的同时也带来了成本不确定性",
-            "洞察二：这不仅是财务问题，更是项目管理和风险控制问题",
-            "洞察三：未来主流的AI服务平台，必须将“预算管控”作为基础功能来设计"
+            "技术原理简析",
+            "行业影响分析",
+            "未来趋势展望"
           ],
           "difficulty": "中级",
-          "estimated_time": "50分钟"
+          "estimated_time": "1小时"
         }
       ]
     },
     {
       "rank": 6,
-      "title": "（AIGC剧情向）商标争夺战：我的品牌名，差点被AI生成的“海量创意”抢先注册",
-      "track": "ai_tech",
-      "track_name": "AI技术（Agent/提示词/Skill/AI设计/模型发布）",
-      "target_audience": "需要商标注册服务的小微企业主、品牌创业者、AI初学者",
-      "reason": "完美结合创作者AI技能与商标代理业务，用剧情化内容引流，高自动化符合偏好，冲突性强易传播。",
+      "title": "Huawei and Qualcomm Announce Broad Patent License Agreement",
+      "track": "trademark_business",
+      "track_name": "商标/IP/创业",
+      "target_audience": "AI初学者/创作者",
+      "reason": "赛道相关度5.2分",
       "source_items": [
-        "Anthropic asks Claude users to share voice data for AI model training",
-        "Google 论文揭示 LLM 会隐瞒负面结果"
+        "Huawei and Qualcomm Announce Broad Patent License Agreement",
+        "Huawei and Qualcomm Announce Broad Patent License Agreement",
+        "Beyond the headlines: Stephenson Harwood-Taylor Wessing could be neat fit for IP growth",
+        "Huawei agrees to a multi-year patent licensing deal with Qualcomm covering AI, 5G, computing, and networking tech, its first 5G licensing deal with Qualcomm (Miyoung Kim/Reuters)"
       ],
       "source_urls": [
-        "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training",
-        "https://x.com/rohanpaul_ai/status/2106502600703222202",
-        "https://www.meetup.com/solo-founders-singapore/events/316793770"
+        "https://news.ycombinator.com/item?id=49961861",
+        "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement",
+        "https://www.managingip.com/article/2gz01iuv875yr0p5g08ow/trademarks/beyond-the-headlines-stephenson-harwood-taylor-wessing-could-be-neat-fit-for-ip-growth",
+        "https://www.techmeme.com/261005/p7"
       ],
-      "urgency": "low",
-      "viral_potential": "high",
+      "urgency": "medium",
+      "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "AIGC剧情向视频",
-          "hook": "用AI批量生成100个品牌名后，我发现了比取名更重要的事……",
-          "summary": "通过剧情演示：主角用AI生成大量品牌名，兴奋之余，却发现心仪的名字可能已被注册或存在风险，从而引出商标查询和注册的必要性。",
+          "format": "图文",
+          "hook": "Huawei and Qualcomm Announce Broad Patent License Agreement 入门教程",
+          "summary": "从零开始上手的完整步骤",
           "key_points": [
-            "场景一：创业者用ChatGPT/Midjourney生成一系列酷炫品牌名和Logo",
-            "场景二：准备注册时，用商标局官网或第三方工具查询，发现重名或近似",
-            "场景三：剧情转折，讲解商标分类、近似判断等专业知识",
-            "场景四：给出正确流程：创意生成 -> 专业查询 -> 风险评估 -> 提交注册"
+            "了解基本概念",
+            "掌握核心操作",
+            "动手实践案例"
           ],
           "difficulty": "入门",
-          "estimated_time": "视频制作2-3小时"
+          "estimated_time": "30分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI给的品牌名可能是“毒药”！商标注册前必须自查的3个雷区",
-          "summary": "指出依赖AI生成品牌名时，在法律（禁用词、近似性）、商业（不易记、无关联）和文化层面的潜在陷阱。",
+          "hook": "Huawei and Qualcomm Announce Broad Patent License Agreement 常见坑点",
+          "summary": "新手最容易踩的几个坑",
           "pitfalls": [
-            "坑点一：AI不懂《商标法》，可能生成带有国家名称、不良影响的禁用词",
-            "坑点二：AI倾向于组合常见词汇，极易与现有商标构成近似，注册成功率低",
-            "坑点三：名字过于“天马行空”，脱离产品本身，不利于品牌传播"
+            "概念理解误区",
+            "操作步骤错漏",
+            "预期管理不当"
           ],
           "difficulty": "入门",
-          "estimated_time": "20分钟"
+          "estimated_time": "15分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "当AI成为“起名大师”：商标注册行业会被颠覆，还是迎来新机遇？",
-          "summary": "分析AIGC普及对商标代理行业的影响，探讨从业者如何利用AI提升效率，并从“注册执行者”转向“品牌策略顾问”。",
+          "hook": "Huawei and Qualcomm Announce Broad Patent License Agreement 深度分析",
+          "summary": "背后的逻辑和影响",
           "insights": [
-            "洞察一：AI降低了创意生成门槛，但提高了商标查询和风险分析的复杂性",
-            "洞察二：商标代理的核心价值将更多体现在法律风险判断、跨类别保护和品牌战略规划上",
-            "洞察三：AI+专业服务，将为小微创业者提供更平价、更高效的品牌保护方案"
+            "技术原理简析",
+            "行业影响分析",
+            "未来趋势展望"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Bria × fal × LTX: What's New in Open-Weights Pipelines #SFTechWeek",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "AI初学者/创作者",
+      "reason": "赛道相关度3.5999999999999996分",
+      "source_items": [
+        "Bria × fal × LTX: What's New in Open-Weights Pipelines #SFTechWeek",
+        "Future Reality AI Film Festival (NYC)",
+        "Sentence Tossed After A.I. Video of Victim ‘Forgiving’ His Killer Is Played",
+        "Homa: The end of TCP for AI clusters [video]",
+        "A profile of Meta Chief AI Officer Alexandr Wang, who is the company's first senior executive from Gen Z and has succeeded in building hype for Muse (Meghan Bobrowsky/Wall Street Journal)"
+      ],
+      "source_urls": [
+        "https://partiful.com/e/9OQfXbXauvFiBYUoEekQ",
+        "https://lu.ma/8pqcqqu0",
+        "https://www.nytimes.com/2026/10/04/us/manslaughter-conviction-overturned-ai-video-statement.html",
+        "https://www.youtube.com/watch?v=eZ8WWZzoaR0",
+        "https://www.techmeme.com/261004/p10"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "Bria × fal × LTX: What's New in Open-Weights Pipelines #SFTechWeek 入门教程",
+          "summary": "从零开始上手的完整步骤",
+          "key_points": [
+            "了解基本概念",
+            "掌握核心操作",
+            "动手实践案例"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "Bria × fal × LTX: What's New in Open-Weights Pipelines #SFTechWeek 常见坑点",
+          "summary": "新手最容易踩的几个坑",
+          "pitfalls": [
+            "概念理解误区",
+            "操作步骤错漏",
+            "预期管理不当"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "Bria × fal × LTX: What's New in Open-Weights Pipelines #SFTechWeek 深度分析",
+          "summary": "背后的逻辑和影响",
+          "insights": [
+            "技术原理简析",
+            "行业影响分析",
+            "未来趋势展望"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "Future Reality AI Film Festival (NYC)",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "AI初学者/创作者",
+      "reason": "赛道相关度3.5999999999999996分",
+      "source_items": [
+        "Bria × fal × LTX: What's New in Open-Weights Pipelines #SFTechWeek",
+        "Future Reality AI Film Festival (NYC)",
+        "Sentence Tossed After A.I. Video of Victim ‘Forgiving’ His Killer Is Played",
+        "Homa: The end of TCP for AI clusters [video]",
+        "A profile of Meta Chief AI Officer Alexandr Wang, who is the company's first senior executive from Gen Z and has succeeded in building hype for Muse (Meghan Bobrowsky/Wall Street Journal)"
+      ],
+      "source_urls": [
+        "https://lu.ma/8pqcqqu0",
+        "https://partiful.com/e/9OQfXbXauvFiBYUoEekQ",
+        "https://www.nytimes.com/2026/10/04/us/manslaughter-conviction-overturned-ai-video-statement.html",
+        "https://www.youtube.com/watch?v=eZ8WWZzoaR0",
+        "https://www.techmeme.com/261004/p10"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "Future Reality AI Film Festival (NYC) 入门教程",
+          "summary": "从零开始上手的完整步骤",
+          "key_points": [
+            "了解基本概念",
+            "掌握核心操作",
+            "动手实践案例"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "30分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "Future Reality AI Film Festival (NYC) 常见坑点",
+          "summary": "新手最容易踩的几个坑",
+          "pitfalls": [
+            "概念理解误区",
+            "操作步骤错漏",
+            "预期管理不当"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "Future Reality AI Film Festival (NYC) 深度分析",
+          "summary": "背后的逻辑和影响",
+          "insights": [
+            "技术原理简析",
+            "行业影响分析",
+            "未来趋势展望"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -389,21 +543,20 @@
     }
   ],
   "weekly_plan": {
-    "monday": "AI智能体实战：从入门到放弃？不，是到赚钱！（实操教程角度）",
-    "wednesday": "你的声音正在被“白嫖”？Claude语音数据收集背后的真相与自保指南（避坑指南角度）",
-    "friday": "（AIGC剧情向）商标争夺战：我的品牌名，差点被AI生成的“海量创意”抢先注册（实操教程/AIGC视频）",
-    "strategy": "本周聚焦“AI应用的风险与管控”，从智能体使用、数据隐私到成本控制，最后用剧情视频巧妙引流主营业务。"
+    "strategy": "降级模式：基于评分排序，AI多角度分析暂不可用"
   },
-  "insights": "今日信息流显示，AI Agent的应用讨论与伦理隐私担忧并存，同时AI在提升个人效率（会议、搜索）和管控成本方面的工具价值凸显。",
-  "ai_adjustment": "基于用户反馈，重点围绕其感兴趣的“Harness/新工具/新模型”方向，结合热点（Agent、Claude语音数据）设计选题；规避了硬件相关方向；强化了实操教程和AIGC剧情向引流内容。",
-  "generated_at": "2026-10-05T02:34:56.156633+08:00",
-  "total_items": 236,
-  "scored_items": 193,
+  "insights": "API不可用，展示评分排序结果，多角度分析为模板生成",
+  "ai_adjustment": "降级模式，暂无AI微调",
+  "fallback": true,
+  "generated_at": "2026-10-05T19:10:35.087802+08:00",
+  "total_items": 246,
+  "scored_items": 197,
   "tracks_summary": {
-    "ai_tech": 184,
-    "creator_economy": 2,
-    "growth_monetize": 2,
-    "ai_video": 5
+    "ai_tech": 178,
+    "creator_economy": 9,
+    "trademark_business": 4,
+    "ai_video": 5,
+    "growth_monetize": 1
   },
   "engine_version": "v2",
   "engine_params": {
