@@ -3,20 +3,22 @@
   "recommendations": [
     {
       "rank": 1,
-      "title": "AI Agent安全警报：恶意Skill如何绕过平台控制，窃取你的数据？",
+      "title": "AI智能体“失控”风波：从维基百科宕机看Agent的潜在风险与应对",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者、使用Agent/Skill的用户、关注数据安全的内容创作者",
-      "reason": "结合热点安全事件，满足创作者对“新工具/模型”的兴趣，且有实操、避坑、深度解读空间，易传播。",
+      "target_audience": "AI初学者、关注AI安全的用户、AI工具使用者",
+      "reason": "结合OpenAI智能体宕机维基热点，探讨AI安全与责任，符合创作者偏好争议性、实操性强且能引发深度思考的特点。",
       "source_items": [
-        "PromptArmor 披露 Databricks Genie 恶意 Skill 可绕过四类控制实施钓鱼与数据外泄",
-        "Wikimedia 基金会发现 OpenAI \"流氓\"智能体在维基媒体平台上的活动"
+        "OpenAI在其智能体擅访澳数据后采取新防范措施",
+        "Wikimedia links OpenAI agents to an outage and unauthorized activity",
+        "OpenAI \"rogue\" agent activities found on Wikimedia projects"
       ],
       "source_urls": [
-        "https://www.promptarmor.com/resources/four-databricks-genie-controls-that-dont-stop-malicious-skills",
+        "https://36kr.com/newsflashes/4014160822505345?f=rss",
+        "https://www.engadget.com/2278051/wikimedia-links-openai-agents-to-an-outage-and-unauthorized-activity",
         "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects",
         "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
-        "https://www.promptarmor.com/resources/four-databricks-genie-controls-that-dont-stop-malicious-skills"
+        "https://www.techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -24,13 +26,13 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "3步自查！用AI Agent前必做的安全设置（以Claude/DeepSeek为例）",
-          "summary": "教AI初学者在使用ChatGPT、Claude等Agent时，如何检查并设置基础安全选项，防止恶意Skill或插件访问敏感信息。",
+          "format": "图文+视频",
+          "hook": "小白必看！如何给你的AI智能体设置“安全围栏”？",
+          "summary": "教用户如何在ChatGPT、Claude等平台使用Agent时，通过提示词和设置规避风险操作。",
           "key_points": [
-            "如何查看和管理已安装的Skill/插件列表",
-            "如何设置数据访问权限（如文件、网络）",
-            "如何识别可疑的Skill请求或行为"
+            "使用Agent前必须设定的三条安全提示词",
+            "如何限制AI的访问权限和操作范围（以具体工具为例）",
+            "监控Agent行为的简单自查清单"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -39,14 +41,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "别让AI偷走你的创意！Agent/Skill的5大常见数据陷阱",
-          "summary": "指出使用AI Agent和Skill时，用户容易忽视的数据泄露、隐私侵犯和知识产权风险。",
+          "hook": "别让你的AI变成“猪队友”：Agent使用五大常见陷阱",
+          "summary": "指出普通用户使用AI智能体时容易忽视的数据安全、伦理和法律责任风险。",
           "pitfalls": [
-            "随意授权Skill访问所有对话历史",
-            "上传含敏感信息的文件到不熟悉的Agent",
-            "轻信“免费”但要求过高权限的Skill",
-            "在Agent中讨论未注册的商业创意",
-            "忽略平台的隐私政策更新"
+            "陷阱一：让Agent无限制访问网络和API",
+            "陷阱二：忽视AI生成内容的版权和真实性",
+            "陷阱三：未设置明确任务边界导致“任务蠕变”"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -55,12 +55,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从Databricks到OpenAI：AI平台安全战打响，普通用户如何自保？",
-          "summary": "分析近期AI平台安全事件背后的技术逻辑、平台责任与用户权益，探讨未来AI安全生态的趋势。",
+          "hook": "从维基宕机到军事禁用：AI智能体的“信任危机”与未来",
+          "summary": "分析近期多起Agent事故背后的技术、监管和商业逻辑，探讨AI发展的“刹车”与“油门”。",
           "insights": [
-            "恶意Skill的运作机制：如何绕过看似完善的平台控制？",
-            "平台方（OpenAI、Anthropic）与安全厂商（PromptArmor）的攻防博弈",
-            "AI安全将成新赛道：对个人创作者和创业者的机会与挑战"
+            "洞察一：技术狂奔与安全滞后的矛盾日益凸显",
+            "洞察二：大厂为何一边推Agent一边加强管控？商业策略解读",
+            "洞察三：对普通创作者和创业者的启示：机会与风险并存"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -69,19 +69,21 @@
     },
     {
       "rank": 2,
-      "title": "告别YouTube依赖！头部创作者如何用付费订阅“私有化”粉丝？",
-      "track": "creator_economy",
-      "track_name": "自媒体/创作者经济",
-      "target_audience": "想用AI变现的个人、自媒体运营者、对私域流量感兴趣的小白",
-      "reason": "匹配创作者“自媒体运营策略”能力，案例新鲜，可直接关联AI辅助创作和变现，实操性强。",
+      "title": "副业新思路：如何用AI将个人兴趣打造成年入10万的社区？",
+      "track": "side_hustle",
+      "track_name": "个人成长/副业变现",
+      "target_audience": "想用AI变现的个人、副业探索者、初创者",
+      "reason": "结合“户外社区变副业”的案例，用AI工具拆解其成功路径，满足创作者对副业变现和数据驱动内容的需求。",
       "source_items": [
-        "Piers Morgan's Uncensored Launches Paid Tier to Own Its Audience Beyond YouTube",
-        "Morning Brew Acquires Express Checkout in Latest Creator Play"
+        "I turned my passion for the outdoors into a community for startup founders. It's become a side hustle that makes me $10K in revenue.",
+        "副业搞起来，小说，漫画，漫剧的成本优化思路"
       ],
       "source_urls": [
-        "https://www.adweek.com/media/piers-morgans-uncensored-paid-subscriptions",
-        "https://www.adweek.com/dealroom/morning-brew-acquires-express-checkout-creator",
-        "https://www.businessinsider.com/founders-community-turned-hiking-side-hustle-2026-10"
+        "https://www.businessinsider.com/founders-community-turned-hiking-side-hustle-2026-10",
+        "https://juejin.cn/post/7692440533922971667",
+        "https://www.inc.com/chris-morris/she-launched-a-swimwear-side-hustle-with-300-and-turned-it-into-a-7-figure-exit/91410448",
+        "https://www.meetup.com/solo-founders-singapore/events/316793770",
+        "https://www.adweek.com/media/tiktok-expands-its-off-platform-ad-network-to-us-advertisers"
       ],
       "urgency": "medium",
       "viral_potential": "high",
@@ -90,12 +92,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文+视频",
-          "hook": "AI+订阅制：零代码搭建你的首个付费内容社区（保姆级教程）",
-          "summary": "教初学者如何利用现有工具（如Circle、Patreon结合AI内容生成），低成本启动一个付费订阅的粉丝社群。",
+          "hook": "手把手教学：用AI工具48小时内启动你的付费兴趣社区",
+          "summary": "从0到1演示如何用ChatGPT、Midjourney等工具完成社区定位、内容生产和冷启动。",
           "key_points": [
-            "如何用AI（如ChatGPT）规划付费内容主题和权益",
-            "选择并搭建零代码付费社区平台的步骤",
-            "从公域（如小红书/B站）引流到私域社群的3个话术模板"
+            "第一步：用AI（如TRAE）分析你的兴趣并找到细分市场",
+            "第二步：AI辅助生成社区名称、Slogan和视觉标识（Midjourney）",
+            "第三步：自动化内容生产与社媒引流工作流搭建"
           ],
           "difficulty": "入门",
           "estimated_time": "45分钟"
@@ -104,13 +106,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "想做付费订阅？先避开这4个让粉丝流失的“坑”！",
-          "summary": "指出个人创作者在尝试付费订阅模式时，在定价、内容规划、平台选择上的常见误区。",
+          "hook": "兴趣变现有毒！AI副业做社区的三个致命误区",
+          "summary": "指出用AI做社区副业时，在流量、变现和运营上新手最容易踩的坑。",
           "pitfalls": [
-            "定价过高或过低，缺乏市场调研",
-            "付费内容与免费内容差异不明显，价值感低",
-            "过度依赖单一平台，忽视邮件列表等自有渠道",
-            "承诺更新频率但无法用AI工具稳定交付"
+            "误区一：盲目追求自动化，忽视真人互动与信任建立",
+            "误区二：变现路径设计错误，过早收费或模式单一",
+            "误区三：依赖单一平台流量，没有建立自有用户池"
           ],
           "difficulty": "入门",
           "estimated_time": "20分钟"
@@ -119,12 +120,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "平台流量红利见顶，“创作者自有化”是下一个十年趋势？",
-          "summary": "分析从Piers Morgan到Morning Brew的案例，解读创作者经济从依赖平台到构建自有资产的深层逻辑和未来方向。",
+          "hook": "“小而美”社区的崛起：AI如何重塑创作者经济与连接方式",
+          "summary": "分析在平台流量红利消退的背景下，AI工具如何赋能个人建立深度、高粘性的微型社区。",
           "insights": [
-            "“Own Your Audience”成为顶级创作者共识的背后原因",
-            "AI如何降低内容生产和社区运营的边际成本，助推此趋势",
-            "这对小微创业者和个人IP的启示：从“流量思维”转向“资产思维”"
+            "洞察一：从“流量为王”到“关系为王”的变现逻辑转变",
+            "洞察二：AI降低了社区运营门槛，但放大了个人IP的价值",
+            "洞察三：未来趋势：AI代理（Agent）或将承担社区“版主”角色"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -133,86 +134,21 @@
     },
     {
       "rank": 3,
-      "title": "华为高通专利大战落幕，给AI创业者敲响什么警钟？",
-      "track": "trademark_ip",
-      "track_name": "商标/IP/创业",
-      "target_audience": "需要商标注册服务的小微企业主、AI领域创业者、关注知识产权的内容创作者",
-      "reason": "完美结合创作者的商标代理业务与AI赛道，可用AIGC剧情向视频或深度解读进行引流，话题具备冲突性和启发性。",
+      "title": "AI视频新王炸？可灵(Kling)拟上市，普通人如何抓住这波红利",
+      "track": "ai_video",
+      "track_name": "AI视频/剪辑包装",
+      "target_audience": "AI视频创作者、短视频从业者、关注AI投资机会的用户",
+      "reason": "可灵(Kling)拟上市是AI视频赛道重磅消息，结合创作者擅长的AI视频剪辑包装，提供从工具测评到变现的完整视角。",
       "source_items": [
-        "Huawei and Qualcomm Announce Broad Patent License Agreement",
-        "华为与高通宣布达成广泛专利许可协议",
-        "Pre-Suit Validity Investigation: When Must a Patentee Look Before Suing?"
+        "快手可灵AI计划最早明年赴港上市，至少融资10亿美元",
+        "Sources: Kuaishou‘s Kling selects banks to lead a Hong Kong IPO aiming to raise $1B+ as early as 2027"
       ],
       "source_urls": [
-        "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement",
-        "https://36kr.com/newsflashes/4012615202787462?f=rss",
-        "https://patentlyo.com/patent/2026/10/pre-suit-validity-investigation-when-must-a-patentee-look-before-suing.html",
-        "https://www.techmeme.com/261005/p7"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "AIGC剧情向视频",
-          "hook": "（AIGC短片）一个AI小程序，如何差点让创业公司赔光？——专利检索避坑实操",
-          "summary": "通过AIGC生成的剧情短片，演示AI初创团队在产品开发前，如何利用免费工具进行初步的专利和商标风险检索。",
-          "key_points": [
-            "用AI（如ChatGPT）辅助梳理技术关键词，用于专利检索",
-            "演示如何在国家知识产权局等官网进行免费商标近似查询",
-            "展示一份简单的“初创公司知识产权自查清单”"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "2小时（含视频制作）"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "AI创业第一坑：不是技术，是知识产权！这5类“雷”千万别踩",
-          "summary": "针对AI领域创业者，指出在模型训练数据、算法、产品名称、UI等方面可能存在的知识产权侵权风险。",
-          "pitfalls": [
-            "使用未授权数据集训练模型，面临版权诉讼",
-            "算法“借鉴”过度，可能侵犯商业秘密或专利",
-            "产品名/logo与现有商标高度近似，被迫更名",
-            "UI/UX设计照搬竞品，涉及设计专利风险",
-            "忽略开源协议条款，导致代码使用违规"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "25分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "从“打架”到“握手”：华为高通和解背后的AI时代IP博弈新规则",
-          "summary": "深度分析此次专利交叉许可对科技行业，特别是对AI创业生态的影响，解读未来知识产权战略的重要性。",
-          "insights": [
-            "交叉许可成为巨头间的主流，小公司如何找到生存空间？",
-            "AI时代，专利战的焦点从硬件转向算法、数据与生态",
-            "给AI创业者的建议：早期IP布局是成本最低的“防御工事”"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "title": "OpenAI给ChatGPT加“数字水印”，对内容创作者是福是祸？",
-      "track": "ai_tech",
-      "track_name": "AI技术",
-      "target_audience": "AI初学者、使用GPT生成内容的自媒体人、担心内容版权的创作者",
-      "reason": "紧跟OpenAI最新动态，符合用户对新工具的兴趣，涉及争议性话题（版权、AI检测），易于引发讨论和传播。",
-      "source_items": [
-        "OpenAI is adding text watermarking in ChatGPT and Codex",
-        "OpenAI will watermark ChatGPT text in the EU but makes it optional for API users worldwide"
-      ],
-      "source_urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
-        "https://the-decoder.com/openai-will-watermark-chatgpt-text-in-the-eu-but-makes-it-optional-for-api-users-worldwide",
-        "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
+        "https://36kr.com/newsflashes/4013802251865993?f=rss",
+        "https://www.techmeme.com/261006/p11",
+        "https://www.sginnovate.com/event/ai-builders-night-build-seedance-25",
+        "https://passionfru.it/arizona-court-voids-sentence-after-family-s-ai-video-of-shooting-victim-166077",
+        "https://lu.ma/8pqcqqu0"
       ],
       "urgency": "high",
       "viral_potential": "high",
@@ -220,139 +156,13 @@
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "一键检测！教你用免费工具判断内容是否被AI“污染”或自带水印",
-          "summary": "教用户如何使用现有的在线工具或提示词技巧，检测一段文本是否可能由AI生成或包含特定水印。",
+          "format": "视频测评+图文",
+          "hook": "对标Sora？可灵(Kling)全功能实测：一键生成电影级短视频",
+          "summary": "深度测评可灵(Kling)的视频生成能力，并演示如何结合剪映进行二次创作和包装。",
           "key_points": [
-            "介绍2-3款主流的AI文本检测工具（如GPTZero）及使用方法",
-            "如何通过文本风格分析等人工技巧辅助判断",
-            "如果发现内容被误判为AI生成，如何申诉或调整"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "小心！你的“原创”内容可能因AI水印被平台限流",
-          "summary": "指出自媒体人在使用AI辅助创作时，因水印或可检测性可能面临的平台审核、版权纠纷和流量惩罚风险。",
-          "pitfalls": [
-            "完全依赖AI生成文案，导致内容被识别并降权",
-            "混合创作时未充分改写，留下可检测的AI痕迹",
-            "忽视平台（如知乎、头条）对AI生成内容的标注要求",
-            "将带水印的AI内容用于商业合同等严肃场景"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "数字水印时代：AI生成内容的“身份”与“原罪”",
-          "summary": "探讨AI水印技术的伦理、法律和社会影响，分析其对内容创作生态、版权体系以及人机协作未来的深远改变。",
-          "insights": [
-            "水印技术能否真正解决AI内容的信任危机？还是制造新的数字鸿沟？",
-            "从“隐藏”到“声明”：AI内容标识化将如何重塑自媒体内容策略？",
-            "未来趋势：基于区块链的AI内容溯源与版权管理"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "title": "从户外爱好到年入10万：一个Founder社区的副业变现实录",
-      "track": "side_hustle",
-      "track_name": "个人成长/副业变现",
-      "target_audience": "想用AI变现的个人、寻找副业思路的上班族、初创企业创始人",
-      "reason": "真实副业案例，极具参考性和激励性，可自然融入AI工具提升效率、社区运营等创作者擅长的领域。",
-      "source_items": [
-        "I turned my passion for the outdoors into a community for startup founders. It's become a side hustle that makes me $10K in revenue.",
-        "副业搞起来，小说，漫画，漫剧的成本优化思路"
-      ],
-      "source_urls": [
-        "https://www.businessinsider.com/founders-community-turned-hiking-side-hustle-2026-10",
-        "https://juejin.cn/post/7692440533922971667",
-        "https://www.meetup.com/solo-founders-singapore/events/316793770"
-      ],
-      "urgency": "low",
-      "viral_potential": "high",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文+视频",
-          "hook": "复制这个模型：用AI工具48小时内启动你的“兴趣付费社群”",
-          "summary": "拆解案例，一步步教用户如何将自己的兴趣爱好与某个垂直人群（如创业者、宝妈）结合，并用AI工具高效启动付费社群。",
-          "key_points": [
-            "Step1: 用AI（如Midjourney）快速生成社群品牌视觉和招募海报",
-            "Step2: 用ChatGPT撰写社群招募文案、会员权益和活动策划案",
-            "Step3: 利用自动化工具（如Calendly+Zoom）设置首次线上见面会流程"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "1小时"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "别学！做付费社群90%的人会犯的3个致命错误",
-          "summary": "指出在将兴趣社群商业化的过程中，在定位、运营和变现上最容易导致失败的几个关键误区。",
-          "pitfalls": [
-            "定位模糊：试图服务“所有人”，结果吸引不到“对的人”",
-            "重拉新轻运营：收了会员费却无法提供持续价值，迅速沉寂",
-            "变现方式单一：仅靠会员费，缺乏活动、咨询、资源对接等多元收入"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "20分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "“兴趣副业”正成为抗风险新资产：个人IP的小而美商业闭环",
-          "summary": "分析在AI赋能下，“兴趣变现”模式从偶然成功到可复制方法论的趋势，探讨其对于个人职业发展的战略意义。",
-          "insights": [
-            "AI如何将个人兴趣的“服务成本”降至无限低，放大变现潜力？",
-            "从“技能变现”到“兴趣连接变现”：个人商业模式的范式转移",
-            "构建“主业+副业”双引擎：如何用AI平衡时间与精力分配？"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "title": "TikTok Shop上线AI购物助手，短视频带货进入“智能导购”时代？",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "对AI工具感兴趣的小白、想用AI变现的个人、短视频创作者",
-      "reason": "结合AI视频赛道和创作者经济热点，展示AI在电商场景的应用，可做工具测评和趋势解读，实操性强。",
-      "source_items": [
-        "TikTok Adds an AI Shopping Assistant and Lets Users Buy Direct From Brands",
-        "TikTok Expands Its Off-Platform Ad Network to US Advertisers"
-      ],
-      "source_urls": [
-        "https://www.adweek.com/commerce/tiktok-adds-an-ai-shopping-assistant-and-lets-users-buy-direct-from-brands",
-        "https://www.adweek.com/media/tiktok-expands-its-off-platform-ad-network-to-us-advertisers"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "视频测评",
-          "hook": "实测TikTok AI购物助手：它能代替真人主播帮你多卖货吗？",
-          "summary": "通过实际使用和对比测试，展示TikTok AI购物助手的功能、效果和局限性，并给出优化使用建议。",
-          "key_points": [
-            "演示如何触发并使用AI购物助手",
-            "对比AI推荐与人工选品的准确度和转化率差异",
-            "分享3个提升AI助手推荐效果的“提示词”技巧"
+            "可灵(Kling)注册与基础功能上手体验",
+            "生成高质量视频的独家提示词（Prompt）技巧",
+            "生成视频的后期剪辑与包装流程（用剪映/DaVinci）"
           ],
           "difficulty": "入门",
           "estimated_time": "40分钟"
@@ -361,13 +171,12 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "用AI做短视频带货？小心这4个让你流量归零的坑",
-          "summary": "指出创作者在利用AI工具（包括AI生成视频、AI脚本、AI购物助手）进行电商带货时，容易触犯的平台规则和用户反感点。",
+          "hook": "AI生成视频的“雷区”：版权、伦理与平台审核避坑指南",
+          "summary": "结合AI视频法律纠纷案例，指出AI生成视频在商用和发布时需要注意的关键风险。",
           "pitfalls": [
-            "AI生成视频画面僵硬，被平台判定为低质内容",
-            "AI脚本过于营销化，导致完播率和互动率暴跌",
-            "过度依赖AI推荐，选品与账号人设不符，粉丝流失",
-            "忽视对AI推荐商品的真实性核查，引发售后危机"
+            "坑点一：AI生成内容的人物肖像权与版权归属问题",
+            "坑点二：内容真实性引发的法律与伦理风险（如伪造新闻）",
+            "坑点三：各平台（抖音、B站、YouTube）对AI视频的审核规则差异"
           ],
           "difficulty": "入门",
           "estimated_time": "20分钟"
@@ -376,12 +185,143 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "从“人找货”到“AI荐货”：短视频电商的终局是“无人直播”？",
-          "summary": "分析TikTok、YouTube等平台引入AI购物功能的战略意图，探讨其对内容创作者、品牌商家和整个电商生态链的深远影响。",
+          "hook": "可灵上市背后：中国AI视频应用的商业化路径与全球竞争",
+          "summary": "分析可灵(Kling)的商业模式、技术路线，以及其对国内AI视频生态和创作者的影响。",
           "insights": [
-            "AI购物助手如何重构“内容-兴趣-购买”的消费决策链？",
-            "中小创作者的机会：借助AI工具，以更低成本切入垂直领域带货",
-            "未来展望：AI虚拟主播、个性化实时生成广告片将成为常态"
+            "洞察一：从工具到生态，可灵如何构建其商业护城河？",
+            "洞察二：中美AI视频应用在技术落地和商业模式上的差异",
+            "洞察三：对普通视频创作者意味着什么？是威胁还是新工具红利？"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "OpenAI给ChatGPT加“水印”，对创作者是保护还是枷锁？",
+      "track": "ai_tech",
+      "track_name": "AI技术",
+      "target_audience": "所有使用ChatGPT的内容创作者、自媒体人、学生",
+      "reason": "OpenAI文本水印是近期技术热点，直接关系到创作者的内容生产与版权，兼具争议性和实用性。",
+      "source_items": [
+        "OpenAI is adding text watermarking in ChatGPT and Codex",
+        "OpenAI will watermark ChatGPT text in the EU but makes it optional for API users worldwide",
+        "OpenAI will start watermarking ChatGPT’s text in the EU"
+      ],
+      "source_urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+        "https://the-decoder.com/openai-will-watermark-chatgpt-text-in-the-eu-but-makes-it-optional-for-api-users-worldwide",
+        "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu",
+        "https://www.engadget.com/2278051/wikimedia-links-openai-agents-to-an-outage-and-unauthorized-activity",
+        "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects"
+      ],
+      "urgency": "medium",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "图文",
+          "hook": "三步检测法：教你快速判断一段文字是否来自ChatGPT",
+          "summary": "教用户利用现有工具和方法，初步鉴别AI生成文本，了解水印的大致原理。",
+          "key_points": [
+            "方法一：利用文本风格和结构特征进行人工判断",
+            "方法二：使用免费的在线AI文本检测工具（推荐2-3个）",
+            "方法三：理解水印技术原理，识别可能的“痕迹”"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "25分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "小心踩雷！使用AI写作后，你可能面临的三大版权风险",
+          "summary": "指出在学术、商业文案、自媒体等场景下，直接使用AI生成内容可能带来的抄袭、版权纠纷风险。",
+          "pitfalls": [
+            "风险一：学术不端与论文查重失败",
+            "风险二：商业文案的版权归属不清引发法律问题",
+            "风险三：自媒体内容同质化导致账号降权"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "15分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "文本水印时代：AI生成内容的“可追溯性”将如何重塑互联网信息生态？",
+          "summary": "探讨水印技术对内容真实性、平台责任、创作者权益以及AI监管的深远影响。",
+          "insights": [
+            "洞察一：从“匿名”到“可追溯”，互联网内容生产范式的转变",
+            "洞察二：平台、用户与AI公司的责任再分配",
+            "洞察三：给内容创业者的建议：如何在水印时代构建核心竞争力"
+          ],
+          "difficulty": "中级",
+          "estimated_time": "1小时"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "AIGC剧情引流实战：用AI给商标代理公司编一个“爆款故事”",
+      "track": "trademark_ip",
+      "track_name": "商标/IP/创业",
+      "target_audience": "需要商标服务的小微企业主、对AIGC剧情内容感兴趣的创作者",
+      "reason": "完美结合创作者“AIGC剧情向内容引流”的偏好和自身商标代理业务，提供高度自动化的实操案例。",
+      "source_items": [
+        "华为和高通宣布达成一项广泛的专利许可协议",
+        "Pre-Suit Validity Investigation: When Must a Patentee Look Before Suing?"
+      ],
+      "source_urls": [
+        "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement",
+        "https://patentlyo.com/patent/2026/10/pre-suit-validity-investigation-when-must-a-patentee-look-before-suing.html",
+        "https://yro.slashdot.org/story/26/10/05/1412251/huawei-and-qualcomm-struck-a-broad-multi-year-patent-licensing-deal",
+        "https://www.businessinsider.com/founders-community-turned-hiking-side-hustle-2026-10",
+        "https://www.adweek.com/media/tiktok-expands-its-off-platform-ad-network-to-us-advertisers"
+      ],
+      "urgency": "low",
+      "viral_potential": "medium",
+      "angles": [
+        {
+          "name": "实操教程",
+          "icon": "tutorial",
+          "format": "视频（AIGC剧情向）",
+          "hook": "看AI如何“导演”：3分钟生成一个商标被抢注的警示短片",
+          "summary": "全程演示使用ChatGPT写剧本、Midjourney生成分镜、AI视频工具合成，制作一条商标知识科普短片。",
+          "key_points": [
+            "第一步：用ChatGPT生成一个关于商标纠纷的微剧本",
+            "第二步：用Midjourney根据剧本生成角色和场景图",
+            "第三步：使用AI视频工具（如Pika/可灵）或剪映图文成片功能合成视频"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "60分钟"
+        },
+        {
+          "name": "避坑指南",
+          "icon": "warning",
+          "format": "图文",
+          "hook": "AIGC做营销，别让“技术炫技”毁了你的专业形象",
+          "summary": "指出用AI生成剧情内容进行专业服务引流时，在专业性、合规性和转化设计上容易犯的错误。",
+          "pitfalls": [
+            "坑点一：剧情夸张失实，反而损害法律服务的可信度",
+            "坑点二：忽视知识产权，AI生成的素材本身可能存在侵权风险",
+            "坑点三：有流量无转化，剧情内容与业务咨询入口脱节"
+          ],
+          "difficulty": "入门",
+          "estimated_time": "20分钟"
+        },
+        {
+          "name": "深度解读",
+          "icon": "deep",
+          "format": "图文",
+          "hook": "当商标咨询遇上AIGC：专业服务行业的“内容获客”新范式",
+          "summary": "分析AIGC如何降低专业服务的内容创作门槛，并探讨其对于律师、会计、咨询等行业的营销变革。",
+          "insights": [
+            "洞察一：从“知识科普”到“情感共鸣”，AIGC如何改变专业内容的传播逻辑",
+            "洞察二：构建“AI内容工厂”，实现专业服务获客的规模化与个性化",
+            "洞察三：未来趋势：AI或将承担初级客户咨询与案件预审工作"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -390,22 +330,22 @@
     }
   ],
   "weekly_plan": {
-    "monday": "AI Agent安全警报：恶意Skill如何绕过平台控制，窃取你的数据？（发布实操教程角度）",
-    "wednesday": "告别YouTube依赖！头部创作者如何用付费订阅“私有化”粉丝？（发布避坑指南角度）",
-    "friday": "华为高通专利大战落幕，给AI创业者敲响什么警钟？（发布AIGC剧情向视频-实操教程角度）",
-    "strategy": "本周聚焦“安全”与“产权”，以热点事件切入，强化创作者在AI实用技能和创业避坑方面的专业形象，并自然植入商标/IP服务引流点。"
+    "monday": "AI智能体“失控”风波：从维基百科宕机看Agent的潜在风险与应对（实操教程角度）",
+    "wednesday": "副业新思路：如何用AI将个人兴趣打造成年入10万的社区？（避坑指南角度）",
+    "friday": "AI视频新王炸？可灵(Kling)拟上市，普通人如何抓住这波红利（深度解读角度）",
+    "strategy": "本周聚焦“AI风险与红利”，以热点事件切入，提供从安全实操到副业变现的立体内容，穿插引流剧情案例。"
   },
-  "insights": "今日信息流显示，AI安全（恶意Skill）、平台与创作者关系（付费订阅）、巨头知识产权博弈（华为高通）成为三大焦点，均与创作者的能力矩阵和业务目标高度契合。",
-  "ai_adjustment": "基于用户反馈，重点挖掘了“Harness”相关的安全议题（PromptArmor报告），并强化了“新工具/模型”和“系列选题”的倾向；同时避开了纯硬件和过于学术的内容，确保选题在创作者产能和兴趣范围内。",
-  "generated_at": "2026-10-06T05:51:32.378342+08:00",
-  "total_items": 354,
-  "scored_items": 290,
+  "insights": "今日信息流显示，AI技术热点集中在智能体安全（宕机、水印、军事禁用）和视频生成（可灵上市），同时副业社区与创作者经济结合紧密，为内容创作提供了丰富的“技术+应用”选题组合。",
+  "ai_adjustment": "基于用户反馈，本次推荐强化了对“DeepSeek Harness”相关新模型/工具的扩展（通过可灵、智能体等选题体现），并完全规避了硬件相关选题，增加了数据驱动和争议性强的角度。",
+  "generated_at": "2026-10-06T19:08:02.207550+08:00",
+  "total_items": 444,
+  "scored_items": 361,
   "tracks_summary": {
-    "trademark_business": 9,
-    "ai_tech": 254,
-    "creator_economy": 15,
-    "growth_monetize": 3,
-    "ai_video": 9
+    "ai_tech": 323,
+    "creator_economy": 16,
+    "growth_monetize": 4,
+    "ai_video": 15,
+    "trademark_business": 3
   },
   "engine_version": "v2",
   "engine_params": {

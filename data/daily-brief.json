@@ -155,6 +155,14 @@
         "url": "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "GitHub安全概览里能直接看到AI扫描开关状态，方便统一管理。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-06T10:57:46.349473Z"
       }
     },
     {
@@ -232,6 +240,14 @@
         "url": "https://openai.com/index/eu-text-provenance",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 72,
+      "persona_review": "为应对欧盟合规，开发者需了解新的文本溯源水印方案。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-06T10:57:46.349473Z"
       }
     },
     {
@@ -309,6 +325,14 @@
         "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review",
         "source": "GitHub AI & ML",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 72,
+      "persona_review": "开源了评测标准，帮你客观比较不同AI代码审查工具的效果。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-06T10:57:46.349473Z"
       }
     },
     {
@@ -444,6 +468,14 @@
         "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects",
         "source": "Hacker News：AI 热帖",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "提醒你注意AI爬虫的合规风险，但今天的工作流程没变化。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-06T10:57:46.349473Z"
       }
     },
     {
@@ -521,6 +553,14 @@
         "url": "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "GitHub 密钥扫描新增对 Lovable、Supabase 等服务的支持，能直接帮你防止敏感信息泄露。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-06T10:57:46.349473Z"
       }
     },
     {
@@ -597,6 +637,14 @@
         "url": "https://www.ithome.com/1/009/990.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 25,
+      "persona_review": "融资消息不改变API价格或产品功能，对开发者无直接影响。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-06T10:57:46.349473Z"
       }
     },
     {
@@ -673,6 +721,14 @@
         "url": "https://x.com/rohanpaul_ai/status/2107346890648076595",
         "source": "X：Rohan Paul (@rohanpaul_ai)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "大厂资本开支内幕，不影响你今天选型或调API。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-06T10:57:46.349473Z"
       }
     },
     {
@@ -748,6 +804,14 @@
         "url": "https://x.com/Khazix0918/status/2107297777583825359",
         "source": "X：卡兹克 (@Khazix0918)",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "行业数据报告，了解市场现状，但不影响你今天写代码。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-06T10:57:46.349473Z"
       }
     },
     {
@@ -823,6 +887,14 @@
         "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686876&idx=1&sn=55c719c9dded44507dbd2a000a2ec5a7",
         "source": "公众号：数字生命卡兹克",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "解读行业报告，了解宏观趋势，但对今天写代码没直接帮助。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-06T10:57:46.349473Z"
       }
     },
     {
@@ -898,6 +970,14 @@
         "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
         "source": "Latent Space（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "开源编码模型已发布，可直接下载评估或集成到开发工具链中。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-06T10:57:46.349473Z"
       }
     },
     {
@@ -973,6 +1053,14 @@
         "url": "https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x",
         "source": "SemiAnalysis 长文 RSS（RSS）",
         "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 40,
+      "persona_review": "第三方测算，仅供参考，选型还得看具体任务和实际测试。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-06T10:57:46.349473Z"
       }
     },
     {
@@ -1076,6 +1164,14 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
         "source": "The Verge",
         "source_name": "Curated Media"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 10,
+      "persona_review": "未经证实的传言，等产品发布了再研究也不迟。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-06T10:57:46.349473Z"
       }
     },
     {
@@ -1209,6 +1305,14 @@
         "url": "https://qlabs.sh/research/dust",
         "source": "qlabs.sh",
         "source_name": "Buzzing"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 65,
+      "persona_review": "研究新范式，若验证有效将颠覆模型训练方式，但目前无法直接使用。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-06T10:57:46.349473Z"
       }
     },
     {
@@ -1342,6 +1446,14 @@
         "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons",
         "source": "www.niemanlab.org",
         "source_name": "Buzzing"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "提醒注意AI生成内容的风险，但短期内不影响开发工作流。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-06T10:57:46.349473Z"
       }
     },
     {
@@ -1475,6 +1587,14 @@
         "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
         "source": "www.vals.ai",
         "source_name": "Buzzing"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "基础研究进展，离工程应用和产品落地还很远。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-06T10:57:46.349473Z"
       }
     },
     {
@@ -1579,6 +1699,14 @@
         "url": "https://reflection.ai/blog/introducing-beam",
         "source": "reflection.ai",
         "source_name": "Buzzing"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "Reflection 501B 模型已发布，无上下文长度限制，可立即评估长文档处理能力。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-06T10:57:46.349473Z"
       }
     },
     {
@@ -1683,6 +1811,14 @@
         "url": "https://slashdot.org/story/26/10/05/1525207/sam-altman-the-world-should-accept-some-bad-things-happening-for-the-benefits-of-ai",
         "source": "Slashdot",
         "source_name": "TechURLs"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 25,
+      "persona_review": "CEO的宏观表态，不影响你今天选模型或写代码。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-06T10:57:46.349473Z"
       }
     },
     {
@@ -1787,6 +1923,14 @@
         "url": "https://www.npr.org/2026/10/05/nx-s1-5977852/ai-chatbots-midterm-election",
         "source": "Hacker News · 24h最热",
         "source_name": "Zeli"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 35,
+      "persona_review": "社会现象观察，对开发者选型或编码无直接影响。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "scored_at": "2026-10-06T10:57:46.349473Z"
       }
     }
   ]
