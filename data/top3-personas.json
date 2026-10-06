@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T11:01:21.824325Z",
+  "generated_at": "2026-10-06T19:58:49.647903Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_ae3c4f5c0420",
-      "title": "Code scanning AI Scan enablement status in security overview",
-      "url": "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
+      "story_id": "story_948c9ff22b36",
+      "title": "Google DeepMind 发布多模态嵌入模型 EmbeddingGemma 2 / Bring multimodal semantic search to the edge with EmbeddingGemma 2",
+      "url": "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 45,
-          "review": "给已有功能加了个状态开关，就包装成新特性，这更新也太省事了。"
+          "score": 72,
+          "review": "‘边缘’搜索听着轻巧，就是没提这‘小’模型到底要占多少内存和算力。"
         },
         "paper-police": {
-          "score": 15,
-          "review": "官方博客宣布功能，无论文无代码无独立评测，仅为产品更新。"
+          "score": 65,
+          "review": "官方技术博客发布，有详细技术说明和性能数字，但未见独立论文或第三方评测。"
         },
         "pragmatic": {
-          "score": 85,
-          "review": "GitHub安全概览里能直接看到AI扫描开关状态，方便统一管理。"
+          "score": 88,
+          "review": "开源多模态嵌入模型，可直接下载用于本地语义搜索任务。"
         }
       }
     },
     {
-      "story_id": "story_45464a737294",
-      "title": "Secret scanning adds detectors for Lovable, Supabase, and more",
-      "url": "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more",
+      "story_id": "story_a4b54cc613c1",
+      "title": "Google 发布 EmbeddingGemma 2：基于 Gemma 4 的开源多模态嵌入模型 / EmbeddingGemma 2: The Developer Guide",
+      "url": "https://developers.googleblog.com/embeddinggemma-2-the-developer-guide",
       "rank": 2,
       "reviews": {
         "cynic": {
           "score": 75,
-          "review": "常规安全功能更新，说“革命性”就过了，但支持新平台确实实用。"
+          "review": "开源是好事，但基于自家Gemma 4的‘多模态’嵌入，具体跨模态对齐效果如何，文档里没细说。"
         },
         "paper-police": {
           "score": 65,
-          "review": "官方更新提供了具体功能说明，但缺少独立的第三方验证报告。"
+          "review": "官方技术博客提供了细节，但未见独立论文与公开评测，证据链不全。"
         },
         "pragmatic": {
-          "score": 85,
-          "review": "GitHub 密钥扫描新增对 Lovable、Supabase 等服务的支持，能直接帮你防止敏感信息泄露。"
+          "score": 88,
+          "review": "开源多模态嵌入模型，可直接下载集成到现有项目中。"
         }
       }
     },
     {
-      "story_id": "story_6d96ce488e8a",
-      "title": "Reflection 发布 501B-A23B 开源编码模型 Beam / [AINews] Reflection Beam - 501B-A23B American Open Model",
-      "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
+      "story_id": "story_17625524f250",
+      "title": "Advancing computer use with Ironclad",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
       "rank": 3,
       "reviews": {
         "cynic": {
           "score": 75,
-          "review": "参数规模是亮点，但开源诚意要看代码和配方，别光报个名字。"
+          "review": "名字挺唬人，但核心还是让AI更懂GUI，离‘铁甲’般的可靠还差得远。"
         },
         "paper-police": {
-          "score": 65,
-          "review": "有开源模型名称，但未见论文链接与独立评测报告，证据链不完整。"
+          "score": 15,
+          "review": "仅有官方博客宣称，无论文、代码或可复现的第三方评测数据。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "开源编码模型已发布，可直接下载评估或集成到开发工具链中。"
+          "review": "OpenAI发布Ironclad，一个能直接操作电脑的AI系统，开发者可以申请预览。"
         }
       }
     }

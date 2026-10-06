@@ -1,60 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_b933e12f991b|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "官方宏观报告，了解趋势可以，但今天写代码用不上。",
-      "title_hash": "4b3229d3",
-      "scored_at": "2026-09-15T15:07:08.530644Z"
-    },
-    "story_76c680c2d727|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "了解模型优化有数据标注环节，但用户隐私风险是老生常谈。",
-      "title_hash": "2adb3292",
-      "scored_at": "2026-09-15T15:07:11.616105Z"
-    },
-    "story_37bd0d5d25f4|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "巨头间的公关姿态，不影响你今天的模型选型和API调用。",
-      "title_hash": "85e51f07",
-      "scored_at": "2026-09-15T15:07:23.251169Z"
-    },
-    "story_997717c36cc4|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "学者的呼吁不改变开发计划，不影响今天的技术选型。",
-      "title_hash": "7483e322",
-      "scored_at": "2026-09-15T15:07:28.257127Z"
-    },
-    "story_caabc17c9180|pragmatic|0a5c5b24": {
-      "score": 65,
-      "review": "新语音模型发布，做音频生成或TTS选型时可以加入对比列表。",
-      "title_hash": "4a6f101f",
-      "scored_at": "2026-09-15T15:07:32.054519Z"
-    },
-    "story_8aad15377fca|pragmatic|0a5c5b24": {
-      "score": 55,
-      "review": "提醒你AI安全基准可能有坑，但没给出可直接用的新工具。",
-      "title_hash": "033143aa",
-      "scored_at": "2026-09-15T15:07:39.963985Z"
-    },
-    "story_f21ffcc883e9|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "收购案离产品落地很远，开发者无需为此调整任何计划。",
-      "title_hash": "7e243d2e",
-      "scored_at": "2026-09-15T15:07:43.943163Z"
-    },
-    "story_c447b2fec530|cynic|f4237a62": {
-      "score": 65,
-      "review": "自家模型配自家客户端，优化是应该的，算不上什么香不香。",
-      "title_hash": "b32e48c7",
-      "scored_at": "2026-09-15T15:07:47.166629Z"
-    },
-    "story_c447b2fec530|paper-police|966065bf": {
-      "score": 12,
-      "review": "仅有'即将就绪'的报道，无论文、代码或可验证的评测数据。",
-      "title_hash": "b32e48c7",
-      "scored_at": "2026-09-15T15:07:50.221950Z"
-    },
     "story_f627ffc73bd0|pragmatic|0a5c5b24": {
       "score": 85,
       "review": "新模型API已发布，支持扩展思考，今天就能申请试用或集成。",
@@ -4338,6 +4284,120 @@
       "review": "有开源模型名称，但未见论文链接与独立评测报告，证据链不完整。",
       "title_hash": "88d8deb4",
       "scored_at": "2026-10-06T11:01:21.824274Z"
+    },
+    "story_dbe192624685|pragmatic|0a5c5b24": {
+      "score": 40,
+      "review": "企业级合作官宣，普通开发者暂无新工具可用。",
+      "title_hash": "83112cfd",
+      "scored_at": "2026-10-06T19:57:02.486743Z"
+    },
+    "story_2f21e7c25d8c|pragmatic|0a5c5b24": {
+      "score": 70,
+      "review": "开源了阿联酋方言模型，做本地化或文化适配的项目可以试试。",
+      "title_hash": "83069da3",
+      "scored_at": "2026-10-06T19:57:17.006623Z"
+    },
+    "story_17625524f250|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "OpenAI发布Ironclad，一个能直接操作电脑的AI系统，开发者可以申请预览。",
+      "title_hash": "889acb60",
+      "scored_at": "2026-10-06T19:57:21.338651Z"
+    },
+    "story_499c135d2740|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "融资八卦，钱没到账前不影响你选模型或写代码。",
+      "title_hash": "c5588aec",
+      "scored_at": "2026-10-06T19:57:28.369207Z"
+    },
+    "story_19005dd16bea|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "万亿参数模型开放预览，可立即申请试用，评估性能。",
+      "title_hash": "89dcdb39",
+      "scored_at": "2026-10-06T19:57:33.333734Z"
+    },
+    "story_0101f6369b65|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "Claude Code云会话已可用，独占VM支持并行任务，能直接提升开发效率。",
+      "title_hash": "431f9fc5",
+      "scored_at": "2026-10-06T19:57:37.487027Z"
+    },
+    "story_948c9ff22b36|pragmatic|0a5c5b24": {
+      "score": 88,
+      "review": "开源多模态嵌入模型，可直接下载用于本地语义搜索任务。",
+      "title_hash": "46363a76",
+      "scored_at": "2026-10-06T19:57:40.637891Z"
+    },
+    "story_5951f365282f|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "Workspace用户今天就能申请内测，直接在文档里用Claude辅助写作和分析了。",
+      "title_hash": "e01c0b07",
+      "scored_at": "2026-10-06T19:57:45.703088Z"
+    },
+    "story_34879e2db3e2|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "新模型已上线公测，可直接在OpenRouter上调用，有长上下文需求可试。",
+      "title_hash": "5bfaee81",
+      "scored_at": "2026-10-06T19:57:57.136993Z"
+    },
+    "story_8250f00047d3|pragmatic|0a5c5b24": {
+      "score": 55,
+      "review": "了解模型在特定榜单上的排名，为选型提供多一个参考数据点。",
+      "title_hash": "b6ac7249",
+      "scored_at": "2026-10-06T19:58:00.297377Z"
+    },
+    "story_9019cb276f9d|pragmatic|0a5c5b24": {
+      "score": 70,
+      "review": "新模型上评测榜，选型时可参考其真实表现数据。",
+      "title_hash": "328e5b27",
+      "scored_at": "2026-10-06T19:58:04.209715Z"
+    },
+    "story_e5656e5cf8cb|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "一个新协议标准，等有主流产品支持再研究也不迟。",
+      "title_hash": "e9c53479",
+      "scored_at": "2026-10-06T19:58:08.042876Z"
+    },
+    "story_a4b54cc613c1|pragmatic|0a5c5b24": {
+      "score": 88,
+      "review": "开源多模态嵌入模型，可直接下载集成到现有项目中。",
+      "title_hash": "d455548f",
+      "scored_at": "2026-10-06T19:58:11.178384Z"
+    },
+    "story_948c9ff22b36|cynic|f4237a62": {
+      "score": 72,
+      "review": "‘边缘’搜索听着轻巧，就是没提这‘小’模型到底要占多少内存和算力。",
+      "title_hash": "46363a76",
+      "scored_at": "2026-10-06T19:58:30.746743Z"
+    },
+    "story_948c9ff22b36|paper-police|966065bf": {
+      "score": 65,
+      "review": "官方技术博客发布，有详细技术说明和性能数字，但未见独立论文或第三方评测。",
+      "title_hash": "46363a76",
+      "scored_at": "2026-10-06T19:58:35.092457Z"
+    },
+    "story_a4b54cc613c1|cynic|f4237a62": {
+      "score": 75,
+      "review": "开源是好事，但基于自家Gemma 4的‘多模态’嵌入，具体跨模态对齐效果如何，文档里没细说。",
+      "title_hash": "d455548f",
+      "scored_at": "2026-10-06T19:58:39.243069Z"
+    },
+    "story_a4b54cc613c1|paper-police|966065bf": {
+      "score": 65,
+      "review": "官方技术博客提供了细节，但未见独立论文与公开评测，证据链不全。",
+      "title_hash": "d455548f",
+      "scored_at": "2026-10-06T19:58:42.511265Z"
+    },
+    "story_17625524f250|cynic|f4237a62": {
+      "score": 75,
+      "review": "名字挺唬人，但核心还是让AI更懂GUI，离‘铁甲’般的可靠还差得远。",
+      "title_hash": "889acb60",
+      "scored_at": "2026-10-06T19:58:46.488296Z"
+    },
+    "story_17625524f250|paper-police|966065bf": {
+      "score": 15,
+      "review": "仅有官方博客宣称，无论文、代码或可复现的第三方评测数据。",
+      "title_hash": "889acb60",
+      "scored_at": "2026-10-06T19:58:49.647854Z"
     }
   }
 }
