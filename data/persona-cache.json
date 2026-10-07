@@ -1,60 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_2b45947d7367|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "广告商的新玩具，开发者暂时用不上，不影响现有API。",
-      "title_hash": "c8791eed",
-      "scored_at": "2026-09-16T15:07:43.899710Z"
-    },
-    "story_b7506bc123b9|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "GitHub AI代码扫描门槛降低，现在就能用，无需额外配置CodeQL。",
-      "title_hash": "90718fc2",
-      "scored_at": "2026-09-16T15:07:56.163178Z"
-    },
-    "story_0170c995a4dd|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "选型新参考，Hugging Face热度榜榜首模型值得一试。",
-      "title_hash": "ecf3b0a7",
-      "scored_at": "2026-09-16T15:08:01.629598Z"
-    },
-    "story_1615464a9e77|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "行业动态周报，了解趋势可以，但今天没有要改的代码。",
-      "title_hash": "f16b2ccc",
-      "scored_at": "2026-09-16T15:08:04.835265Z"
-    },
-    "story_0155d9a74bfb|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "CEO个人观点，不影响你今天选模型或写代码。",
-      "title_hash": "7f24b077",
-      "scored_at": "2026-09-16T15:08:12.537261Z"
-    },
-    "story_5a9af6f84852|pragmatic|0a5c5b24": {
-      "score": 50,
-      "review": "预览版未开放，知道有国产多语言模型这个选项就行。",
-      "title_hash": "bc8265f7",
-      "scored_at": "2026-09-16T15:08:16.886520Z"
-    },
-    "story_35bc6825e9ab|pragmatic|0a5c5b24": {
-      "score": 60,
-      "review": "国产算力训练是技术亮点，但模型未开放，对开发者暂无直接影响。",
-      "title_hash": "d8b51c3a",
-      "scored_at": "2026-09-16T15:08:31.788108Z"
-    },
-    "story_b7506bc123b9|cynic|f4237a62": {
-      "score": 65,
-      "review": "终于把自家工具链的强制捆绑解开了，这算哪门子AI突破？",
-      "title_hash": "90718fc2",
-      "scored_at": "2026-09-16T15:08:35.401202Z"
-    },
-    "story_b7506bc123b9|paper-police|966065bf": {
-      "score": 15,
-      "review": "官方博客仅宣布功能更新，无论文、代码或第三方评测支撑其AI能力。",
-      "title_hash": "90718fc2",
-      "scored_at": "2026-09-16T15:08:38.796907Z"
-    },
     "story_524b99f2deb6|pragmatic|0a5c5b24": {
       "score": 75,
       "review": "提供了用AI辅助大型代码迁移的真实案例和具体方法，可参考其工程实践。",
@@ -4290,6 +4236,156 @@
       "review": "开源客户端可替代Thunderbird，Rust写的性能有保障，AI功能待实测。",
       "title_hash": "00970a4f",
       "scored_at": "2026-10-07T10:48:30.586033Z"
+    },
+    "story_6557dda4a6cd|pragmatic|0a5c5b24": {
+      "score": 95,
+      "review": "GPT-6和智能UI已全面开放，所有ChatGPT用户今天就能用上。",
+      "title_hash": "a1ed6ccf",
+      "scored_at": "2026-10-07T20:23:42.073796Z"
+    },
+    "story_d56d7999a319|pragmatic|0a5c5b24": {
+      "score": 88,
+      "review": "开源多模态决策模型可直接部署，边缘设备开发者有新方案可选。",
+      "title_hash": "d8c76698",
+      "scored_at": "2026-10-07T20:23:46.334701Z"
+    },
+    "story_b9d295c686cc|pragmatic|0a5c5b24": {
+      "score": 88,
+      "review": "Copilot本地沙盒正式可用，处理敏感代码时更安全，今天就能开启。",
+      "title_hash": "864ba10d",
+      "scored_at": "2026-10-07T20:23:51.186864Z"
+    },
+    "story_e084383f2689|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "GitHub Copilot 增强密钥防护，写代码时多一层自动检查，可减少误提交。",
+      "title_hash": "54dd20c6",
+      "scored_at": "2026-10-07T20:23:56.367351Z"
+    },
+    "story_3d2baa621386|pragmatic|0a5c5b24": {
+      "score": 40,
+      "review": "谷歌的实验性游戏平台，对开发者暂无直接工具或API影响。",
+      "title_hash": "19aecbac",
+      "scored_at": "2026-10-07T20:24:00.465054Z"
+    },
+    "story_e1332c8f3158|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "分享研究进展，无新模型或工具发布，对当前开发无直接影响。",
+      "title_hash": "ad5a2046",
+      "scored_at": "2026-10-07T20:24:03.899660Z"
+    },
+    "story_856527284047|pragmatic|0a5c5b24": {
+      "score": 70,
+      "review": "展示了特定微调路径的潜力，但模型本身未开源，无法直接复现。",
+      "title_hash": "cc66a046",
+      "scored_at": "2026-10-07T20:24:26.877396Z"
+    },
+    "story_58aa148af326|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "Copilot CLI 现在能发现本地模型，开发者可立即配置使用，提升离线或定制化体验。",
+      "title_hash": "28350960",
+      "scored_at": "2026-10-07T20:24:39.096033Z"
+    },
+    "story_d018af5dc3ed|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "Max和Team订阅用户每月有免费API额度，能直接降低开发测试成本。",
+      "title_hash": "653dd40a",
+      "scored_at": "2026-10-07T20:24:46.081282Z"
+    },
+    "story_463b6db0777c|pragmatic|0a5c5b24": {
+      "score": 10,
+      "review": "面向青少年的教育计划，与开发者日常工作无关。",
+      "title_hash": "b85bee50",
+      "scored_at": "2026-10-07T20:24:51.424394Z"
+    },
+    "story_cb02882597ae|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "IDE插件更新，新增Haiku 5.5模型并修复bug，开发者今天就能升级使用。",
+      "title_hash": "2c7b7a88",
+      "scored_at": "2026-10-07T20:24:55.267915Z"
+    },
+    "story_5ae21ce49023|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "CLI工具更新，开发者今天就能升级使用新功能或修复。",
+      "title_hash": "20637669",
+      "scored_at": "2026-10-07T20:24:58.771205Z"
+    },
+    "story_a5dc5a4d2dcb|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "GitHub官方开源了专用检测模型，可直接集成到CI/CD流程中。",
+      "title_hash": "28f735f9",
+      "scored_at": "2026-10-07T20:25:12.842091Z"
+    },
+    "story_3dab97b43266|pragmatic|0a5c5b24": {
+      "score": 70,
+      "review": "为Windows PC上的本地AI开发提供了新工具链，开发者可以开始评估适配。",
+      "title_hash": "57aaad74",
+      "scored_at": "2026-10-07T20:25:24.824455Z"
+    },
+    "story_e7c3293152eb|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "从业者需留意，在司法等严肃场景使用AI生成内容有法律风险。",
+      "title_hash": "aaf971f3",
+      "scored_at": "2026-10-07T20:25:28.272107Z"
+    },
+    "story_60be9a556c35|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "新模型版本已发布，API用户可评估其性能提升是否值得升级。",
+      "title_hash": "611ee8d6",
+      "scored_at": "2026-10-07T20:25:32.516277Z"
+    },
+    "story_e7c1dfa5362c|pragmatic|0a5c5b24": {
+      "score": 40,
+      "review": "一个酒店集团的ChatGPT插件案例，对开发者来说只是个应用参考。",
+      "title_hash": "e9dd0790",
+      "scored_at": "2026-10-07T20:25:38.746408Z"
+    },
+    "story_77612876f6aa|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "了解美国AI基建瓶颈，对出海部署算力有长期参考价值。",
+      "title_hash": "75f14b13",
+      "scored_at": "2026-10-07T20:25:43.123604Z"
+    },
+    "story_e4350e8ce423|pragmatic|0a5c5b24": {
+      "score": 88,
+      "review": "Claude API价格明确，Sonnet缓存降价，做成本预算和选型现在就有数了。",
+      "title_hash": "18bd9f18",
+      "scored_at": "2026-10-07T20:25:47.949681Z"
+    },
+    "story_6557dda4a6cd|cynic|f4237a62": {
+      "score": 85,
+      "review": "全量推送是硬实力，但‘智能UI’这名字，是嫌‘Chat’不够智能吗？",
+      "title_hash": "a1ed6ccf",
+      "scored_at": "2026-10-07T20:25:53.088687Z"
+    },
+    "story_6557dda4a6cd|paper-police|966065bf": {
+      "score": 15,
+      "review": "官方博客宣称性能，无论文无代码无第三方评测。",
+      "title_hash": "a1ed6ccf",
+      "scored_at": "2026-10-07T20:25:56.835340Z"
+    },
+    "story_d56d7999a319|cynic|f4237a62": {
+      "score": 78,
+      "review": "开源诚意足，但‘边缘’部署的功耗和延迟实测数据藏哪了？",
+      "title_hash": "d8c76698",
+      "scored_at": "2026-10-07T20:26:04.761130Z"
+    },
+    "story_d56d7999a319|paper-police|966065bf": {
+      "score": 45,
+      "review": "技术博客公布了评测数字，但无论文与开源代码，无法独立验证。",
+      "title_hash": "d8c76698",
+      "scored_at": "2026-10-07T20:26:08.251369Z"
+    },
+    "story_b9d295c686cc|cynic|f4237a62": {
+      "score": 72,
+      "review": "终于把本地沙盒做稳定了，之前预览版的问题解决得还行，但别吹成什么安全革命。",
+      "title_hash": "864ba10d",
+      "scored_at": "2026-10-07T20:26:14.919790Z"
+    },
+    "story_b9d295c686cc|paper-police|966065bf": {
+      "score": 15,
+      "review": "官方博客宣布功能上线，无独立评测报告或开源代码验证。",
+      "title_hash": "864ba10d",
+      "scored_at": "2026-10-07T20:26:20.655104Z"
     }
   }
 }

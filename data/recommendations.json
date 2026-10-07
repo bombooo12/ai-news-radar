@@ -1,54 +1,52 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "recommendations": [
     {
       "rank": 1,
-      "title": "A look at consumer AI trends: ChatGPT has 3x more US subscribers than Claude or Gemini, the top 1% of spenders drive 19.5% of spend, and AI agents gain traction (Olivia Moore/Andreessen Horowitz)",
+      "title": "Claude、GPT、本地LLM混战：小白如何用“免费”AI，打赢“付费”战争？",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者/创作者",
-      "reason": "赛道相关度12.0分",
+      "target_audience": "AI初学者、对成本敏感的工具使用者、想用AI变现的个人",
+      "reason": "结合了免费本地模型、Claude/GPT付费模型及Agent热点，符合用户对新工具/模型感兴趣、追求实操和争议性的偏好。",
       "source_items": [
-        "A look at consumer AI trends: ChatGPT has 3x more US subscribers than Claude or Gemini, the top 1% of spenders drive 19.5% of spend, and AI agents gain traction (Olivia Moore/Andreessen Horowitz)",
-        "OpenAI says its internal model produced 372 math results, nearly all from a single prompt handed to a single AI agent; some might have taken multiple attempts (Joseph Howlett/Scientific American)",
-        "Oakland Code Smarter With Claude AI",
-        "Seattle Designers | Claude Community x PSL: Creative problem solving with AI",
-        "ChatGPT for iOS 1.2026.272"
+        "I'm not paying $20 for ChatGPT or Claude because a free local LLM does",
+        "The creator of Claude Code's prompting advice? Talk to your AI like a coworker",
+        "OpenAI's first report on teen ChatGPT use says teens spend under 15 minutes a day on average"
       ],
       "source_urls": [
-        "https://www.techmeme.com/261006/p28",
-        "https://www.techmeme.com/261006/p46",
-        "https://www.meetup.com/claude-code-enthusiasts-evening-social-club/events/316700842",
-        "https://lu.ma/claude-448g",
+        "https://www.xda-developers.com/im-not-paying-20-for-chatgpt-claude-or-gemini-because-a-free-local-llm-does-everything-i-need",
+        "https://www.businessinsider.com/claude-code-creator-boris-cherny-ai-prompt-advice-2026-10",
+        "https://www.techmeme.com/261007/p27",
+        "https://x.com/ClaudeDevs/status/2107895957933408429",
         "https://developers.openai.com/codex/changelog"
       ],
-      "urgency": "medium",
-      "viral_potential": "medium",
+      "urgency": "high",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "A look at consumer AI trends: ChatGPT has 3x more US subscribers than Claude or Gemini, the top 1% of spenders drive 19.5% of spend, and AI agents gain traction (Olivia Moore/Andreessen Horowitz) 入门教程",
-          "summary": "从零开始上手的完整步骤",
+          "hook": "零成本AI工具箱：手把手教你搭建本地LLM，免费平替ChatGPT",
+          "summary": "教用户如何选择、安装并配置一款免费本地LLM，完成日常文本处理、编程辅助等任务。",
           "key_points": [
-            "了解基本概念",
-            "掌握核心操作",
-            "动手实践案例"
+            "如何选择适合初学者的轻量级本地LLM模型",
+            "从下载到运行：详细图文安装配置指南",
+            "用本地LLM完成写作、翻译、代码调试的实操案例"
           ],
           "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "estimated_time": "45分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文",
-          "hook": "A look at consumer AI trends: ChatGPT has 3x more US subscribers than Claude or Gemini, the top 1% of spenders drive 19.5% of spend, and AI agents gain traction (Olivia Moore/Andreessen Horowitz) 常见坑点",
-          "summary": "新手最容易踩的几个坑",
+          "format": "短视频",
+          "hook": "别白花钱！ChatGPT/Claude/本地LLM的三大隐形陷阱与选择策略",
+          "summary": "指出在免费与付费AI工具选择中，关于性能、隐私、长期成本的常见误区。",
           "pitfalls": [
-            "概念理解误区",
-            "操作步骤错漏",
-            "预期管理不当"
+            "陷阱一：盲目追求免费，忽视硬件门槛和部署复杂度",
+            "陷阱二：迷信付费模型，为用不到的高级功能买单",
+            "陷阱三：忽视数据隐私，在敏感任务中使用云端AI的风险"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -57,12 +55,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "A look at consumer AI trends: ChatGPT has 3x more US subscribers than Claude or Gemini, the top 1% of spenders drive 19.5% of spend, and AI agents gain traction (Olivia Moore/Andreessen Horowitz) 深度分析",
-          "summary": "背后的逻辑和影响",
+          "hook": "AI平民化战争：从OpenAI报告和免费LLM，看普通人如何抓住AI红利",
+          "summary": "分析免费本地模型兴起、巨头用户报告背后的市场趋势，以及对个人和小微创业者的机会。",
           "insights": [
-            "技术原理简析",
-            "行业影响分析",
-            "未来趋势展望"
+            "从OpenAI青少年使用报告，看AI工具从“玩具”到“效率工具”的转变",
+            "免费LLM的崛起，是否在倒逼OpenAI/Anthropic降价或改变策略？",
+            "对个人和小微企业主：如何用低成本AI组合拳，降本增效并保护知识产权（自然衔接商标/IP业务）"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -71,38 +69,34 @@
     },
     {
       "rank": 2,
-      "title": "OpenAI says its internal model produced 372 math results, nearly all from a single prompt handed to a single AI agent; some might have taken multiple attempts (Joseph Howlett/Scientific American)",
+      "title": "AI Agent实战：用LangChain新技能系统，打造你的第一个“数字员工”",
       "track": "ai_tech",
       "track_name": "AI技术",
-      "target_audience": "AI初学者/创作者",
-      "reason": "赛道相关度11.0分",
+      "target_audience": "对AI Agent感兴趣的初学者、想自动化工作的个人、小微创业者",
+      "reason": "LangChain技能系统更新是技术热点，符合用户对Agent/Skill实践分享的偏好，实操性强。",
       "source_items": [
-        "A look at consumer AI trends: ChatGPT has 3x more US subscribers than Claude or Gemini, the top 1% of spenders drive 19.5% of spend, and AI agents gain traction (Olivia Moore/Andreessen Horowitz)",
-        "OpenAI says its internal model produced 372 math results, nearly all from a single prompt handed to a single AI agent; some might have taken multiple attempts (Joseph Howlett/Scientific American)",
-        "Oakland Code Smarter With Claude AI",
-        "Seattle Designers | Claude Community x PSL: Creative problem solving with AI",
-        "ChatGPT for iOS 1.2026.272"
+        "LangChain 重构 Deep Agents 的 Skills 支持，新增工具绑定、固定技能与线程内重载",
+        "OpenAI says its internal model produced 372 math results, nearly all from a single prompt handed to a single AI agent"
       ],
       "source_urls": [
+        "https://www.langchain.com/blog/revamping-skills-in-deep-agents",
         "https://www.techmeme.com/261006/p46",
-        "https://www.techmeme.com/261006/p28",
-        "https://www.meetup.com/claude-code-enthusiasts-evening-social-club/events/316700842",
         "https://lu.ma/claude-448g",
-        "https://developers.openai.com/codex/changelog"
+        "https://www.meetup.com/claude-code-enthusiasts-evening-social-club/events/316700842"
       ],
       "urgency": "medium",
-      "viral_potential": "medium",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "OpenAI says its internal model produced 372 math results, nearly all from a single prompt handed to a single AI agent; some might have taken multiple attempts (Joseph Howlett/Scientific American) 入门教程",
-          "summary": "从零开始上手的完整步骤",
+          "format": "视频",
+          "hook": "10分钟上手！用LangChain新功能，让AI自动整理每日新闻简报",
+          "summary": "基于LangChain更新的Skills系统，演示如何构建一个能自动爬取、总结并发送新闻的AI Agent。",
           "key_points": [
-            "了解基本概念",
-            "掌握核心操作",
-            "动手实践案例"
+            "LangChain Deep Agents环境快速搭建",
+            "定义并绑定一个“网络搜索”技能（Skill）",
+            "编写工作流（Workflow），让Agent定时执行并邮件推送结果"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -111,26 +105,26 @@
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "OpenAI says its internal model produced 372 math results, nearly all from a single prompt handed to a single AI agent; some might have taken multiple attempts (Joseph Howlett/Scientific American) 常见坑点",
-          "summary": "新手最容易踩的几个坑",
+          "hook": "Agent开发初学者的三大“翻车”现场：从代码报错到逻辑混乱",
+          "summary": "指出在构建AI Agent时，关于技能定义、任务分解、错误处理的常见问题与解决方案。",
           "pitfalls": [
-            "概念理解误区",
-            "操作步骤错漏",
-            "预期管理不当"
+            "坑点一：技能（Skill）定义过于复杂，导致Agent无法理解",
+            "坑点二：任务提示词（Prompt）不够清晰，Agent输出偏离预期",
+            "坑点三：忽视错误处理和成本控制，导致程序崩溃或API费用超支"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "OpenAI says its internal model produced 372 math results, nearly all from a single prompt handed to a single AI agent; some might have taken multiple attempts (Joseph Howlett/Scientific American) 深度分析",
-          "summary": "背后的逻辑和影响",
+          "hook": "从单提示到多技能：LangChain更新揭示了AI Agent进化的哪些方向？",
+          "summary": "分析LangChain技能系统重构背后的设计哲学，以及其对未来AI应用开发模式的影响。",
           "insights": [
-            "技术原理简析",
-            "行业影响分析",
-            "未来趋势展望"
+            "“固定技能”与“工具绑定”：AI Agent从通用走向专精的关键",
+            "线程内重载：如何实现更灵活、更接近人类工作流的Agent协作",
+            "对创业者的启示：用模块化Agent技能栈，快速构建垂直领域AI解决方案"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -139,66 +133,62 @@
     },
     {
       "rank": 3,
-      "title": "AI Builders Night: Build with Seedance 2.5",
+      "title": "AI生成内容“照妖镜”来了！Google SynthID检测器全测评与应对指南",
       "track": "ai_video",
       "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI初学者/创作者",
-      "reason": "赛道相关度6.0分",
+      "target_audience": "使用AI生成图片/视频的创作者、对内容真实性有顾虑的受众、关注版权的小企业主",
+      "reason": "Google开放AI内容检测器是视频/AI生成领域热点，兼具工具测评和避坑属性，易引发讨论。",
       "source_items": [
-        "AI Builders Night: Build with Seedance 2.5",
-        "亚利桑那州法院裁定AI生成受害者视频带有不当情感分量，凶手须重新量刑",
-        "Agentic Film Production",
-        "From Idea to Marketing Campaign: Build a Video + Landing Page #SFTechWeek",
-        "Retouch4me Lab: AI color correction for a whole shoot"
+        "Google 开放 SynthID Detector 门户，可检测图片、视频和音频是否由 AI 生成",
+        "Google says 180 billion images and videos now carry SynthID watermarks as detector goes public"
       ],
       "source_urls": [
-        "https://www.sginnovate.com/event/ai-builders-night-build-seedance-25",
-        "https://www.404media.co/her-ai-generated-video-swayed-the-judge-the-court-said-it-carried-undue-emotional-weight",
-        "https://www.meetup.com/newyorkai/events/316755063",
-        "https://lu.ma/o8e459qr",
-        "https://www.provideocoalition.com/retouch4me-lab-ai-color-correction-for-a-whole-shoot"
+        "https://x.com/Google/status/2107836410254291345",
+        "https://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public",
+        "https://www.techmeme.com/261007/p21",
+        "https://www.404media.co/undue-emotional-weight"
       ],
-      "urgency": "medium",
-      "viral_potential": "medium",
+      "urgency": "high",
+      "viral_potential": "high",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "AI Builders Night: Build with Seedance 2.5 入门教程",
-          "summary": "从零开始上手的完整步骤",
+          "format": "视频",
+          "hook": "一键鉴别AI图/视频！手把手教你用Google SynthID Detector",
+          "summary": "演示如何使用新发布的SynthID Detector网站，检测各种格式的图片、视频和音频是否为AI生成。",
           "key_points": [
-            "了解基本概念",
-            "掌握核心操作",
-            "动手实践案例"
+            "访问SynthID Detector门户并上传文件",
+            "解读检测报告：置信度分数和可视化热图怎么看",
+            "测试不同AI工具（Midjourney, Sora等）生成内容的检测结果对比"
           ],
           "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "AI Builders Night: Build with Seedance 2.5 常见坑点",
-          "summary": "新手最容易踩的几个坑",
+          "hook": "你的AI作品可能被“标记”！创作者必须知道的SynthID水印与版权风险",
+          "summary": "指出AI创作者在内容发布时可能面临的水印、版权争议及法律风险，并提供应对策略。",
           "pitfalls": [
-            "概念理解误区",
-            "操作步骤错漏",
-            "预期管理不当"
+            "风险一：带SynthID水印的内容被平台限流或下架",
+            "风险二：客户追究AI生成内容的版权归属问题（可衔接商标/IP业务）",
+            "风险三：过度依赖AI生成，导致个人创作风格和版权资产积累不足"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "25分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "AI Builders Night: Build with Seedance 2.5 深度分析",
-          "summary": "背后的逻辑和影响",
+          "hook": "1800亿内容被标记：AI生成“透明化”时代，创作者如何自处与突围？",
+          "summary": "分析AI内容检测普及对创作生态、版权法律和创作者商业模式带来的深远影响。",
           "insights": [
-            "技术原理简析",
-            "行业影响分析",
-            "未来趋势展望"
+            "从技术防御到行业标准：SynthID如何塑造数字内容信任体系",
+            "对自媒体和品牌的影响：“纯AI内容”流量红利消失，混合创作或成主流",
+            "新机遇：提供“AI生成+人工精修”服务，或专注打造无法被AI替代的真实IP"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -207,24 +197,20 @@
     },
     {
       "rank": 4,
-      "title": "亚利桑那州法院裁定AI生成受害者视频带有不当情感分量，凶手须重新量刑",
-      "track": "ai_video",
-      "track_name": "AI视频/剪辑包装",
-      "target_audience": "AI初学者/创作者",
-      "reason": "赛道相关度4.8分",
+      "title": "从沃尔玛到MrBeast：拆解巨头入局，给普通创作者的3个“蹭流量”机会",
+      "track": "creator_economy",
+      "track_name": "自媒体/创作者经济",
+      "target_audience": "自媒体创作者、想通过内容变现的个人、关注平台流量趋势者",
+      "reason": "结合沃尔玛押注MrBeast等热点，符合用户对自媒体运营策略、副业变现的偏好，角度有冲突性和实操性。",
       "source_items": [
-        "AI Builders Night: Build with Seedance 2.5",
-        "亚利桑那州法院裁定AI生成受害者视频带有不当情感分量，凶手须重新量刑",
-        "Agentic Film Production",
-        "From Idea to Marketing Campaign: Build a Video + Landing Page #SFTechWeek",
-        "Retouch4me Lab: AI color correction for a whole shoot"
+        "Walmart Is Betting on MrBeast and Holiday Films To Fuel Its Streaming Business",
+        "Walmart Lays Out Its Plan to Take Over TV Advertising"
       ],
       "source_urls": [
-        "https://www.404media.co/her-ai-generated-video-swayed-the-judge-the-court-said-it-carried-undue-emotional-weight",
-        "https://www.sginnovate.com/event/ai-builders-night-build-seedance-25",
-        "https://www.meetup.com/newyorkai/events/316755063",
-        "https://lu.ma/o8e459qr",
-        "https://www.provideocoalition.com/retouch4me-lab-ai-color-correction-for-a-whole-shoot"
+        "https://www.adweek.com/commerce/walmart-is-betting-on-mrbeast-and-holiday-films-to-fuel-its-streaming-business",
+        "https://www.adweek.com/commerce/walmart-lays-out-its-plan-to-take-over-tv-advertising",
+        "https://www.adweek.com/agencies/nominations-for-2027-adweek-50-are-now-open",
+        "https://www.adweek.com/commerce/adweek-commerce-advantage-amazon-plots-an-ai-driven-future-but-some-ad-buyers-worry-about-giving-up-too-much-control"
       ],
       "urgency": "medium",
       "viral_potential": "medium",
@@ -233,12 +219,12 @@
           "name": "实操教程",
           "icon": "tutorial",
           "format": "图文",
-          "hook": "亚利桑那州法院裁定AI生成受害者视频带有不当情感分量，凶手须重新量刑 入门教程",
-          "summary": "从零开始上手的完整步骤",
+          "hook": "普通人如何“傍大款”？三步利用平台/巨头新计划，获得初始流量",
+          "summary": "教创作者如何主动研究和参与像沃尔玛流媒体、TikTok创作者基金等平台的新计划，获取早期红利。",
           "key_points": [
-            "了解基本概念",
-            "掌握核心操作",
-            "动手实践案例"
+            "第一步：如何高效监控巨头公司的创作者合作与平台计划",
+            "第二步：制作符合平台“命题作文”的内容模板与申请材料",
+            "第三步：从小型合作开始，建立案例并逐步扩大影响力"
           ],
           "difficulty": "入门",
           "estimated_time": "30分钟"
@@ -246,13 +232,13 @@
         {
           "name": "避坑指南",
           "icon": "warning",
-          "format": "图文",
-          "hook": "亚利桑那州法院裁定AI生成受害者视频带有不当情感分量，凶手须重新量刑 常见坑点",
-          "summary": "新手最容易踩的几个坑",
+          "format": "短视频",
+          "hook": "别被“巨头合作”坑了！这些隐形条款可能让你白干活还倒贴",
+          "summary": "指出在与大平台或品牌合作时，关于版权归属、分成模式、数据权限的常见陷阱。",
           "pitfalls": [
-            "概念理解误区",
-            "操作步骤错漏",
-            "预期管理不当"
+            "坑点一：签了“买断”协议，火爆内容后续收益与你无关",
+            "坑点二：对“AI驱动推荐”盲目乐观，忽视算法变动导致流量暴跌",
+            "坑点三：为迎合平台失去个人特色，变成可替代的“内容血包”"
           ],
           "difficulty": "入门",
           "estimated_time": "15分钟"
@@ -261,12 +247,12 @@
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "亚利桑那州法院裁定AI生成受害者视频带有不当情感分量，凶手须重新量刑 深度分析",
-          "summary": "背后的逻辑和影响",
+          "hook": "流媒体战争下半场：为什么沃尔玛要学MrBeast，而不是Netflix？",
+          "summary": "分析零售巨头进军内容产业的逻辑，以及这对内容创作价值链和创作者个人品牌带来的新变化。",
           "insights": [
-            "技术原理简析",
-            "行业影响分析",
-            "未来趋势展望"
+            "从“货架”到“屏幕”：零售巨头的终极目标是用户时长和消费数据",
+            "MrBeast模式的成功，证明“可商业化的极端执行力”比“纯艺术内容”更受资本青睐",
+            "给小微创作者的启示：在垂直领域打造“小而美”的闭环变现能力，比追逐泛流量更安全"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -275,270 +261,61 @@
     },
     {
       "rank": 5,
-      "title": "MSQ Group Acquires January Digital to Build Out Media Offerings",
-      "track": "creator_economy",
-      "track_name": "自媒体/创作者经济",
-      "target_audience": "AI初学者/创作者",
-      "reason": "赛道相关度5.5分",
-      "source_items": [
-        "MSQ Group Acquires January Digital to Build Out Media Offerings",
-        "Why Advertising Will Be Key to Shaping Our AI-Powered Future",
-        "ADWEEK Launches Inaugural Creator Economy Power List",
-        "TikTok highlights creator recs for Halloween travel",
-        "Dear Media and Amanda Hirsch Want Brands To Ditch the Script"
-      ],
-      "source_urls": [
-        "https://www.adweek.com/agencies/msq-group-acquires-january-digital-to-build-out-media-offerings",
-        "https://www.adweek.com/brand-marketing/why-advertising-will-be-key-to-shaping-our-ai-powered-future",
-        "https://www.adweek.com/social-marketing/adweek-launches-inaugural-creator-economy-power-list",
-        "https://www.socialmediatoday.com/news/tiktok-highlights-creator-recs-for-halloween-travel/832289",
-        "https://www.adweek.com/media/dear-media-amanda-hirsch-advertising-week"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "MSQ Group Acquires January Digital to Build Out Media Offerings 入门教程",
-          "summary": "从零开始上手的完整步骤",
-          "key_points": [
-            "了解基本概念",
-            "掌握核心操作",
-            "动手实践案例"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "MSQ Group Acquires January Digital to Build Out Media Offerings 常见坑点",
-          "summary": "新手最容易踩的几个坑",
-          "pitfalls": [
-            "概念理解误区",
-            "操作步骤错漏",
-            "预期管理不当"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "MSQ Group Acquires January Digital to Build Out Media Offerings 深度分析",
-          "summary": "背后的逻辑和影响",
-          "insights": [
-            "技术原理简析",
-            "行业影响分析",
-            "未来趋势展望"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "title": "Why Advertising Will Be Key to Shaping Our AI-Powered Future",
-      "track": "creator_economy",
-      "track_name": "自媒体/创作者经济",
-      "target_audience": "AI初学者/创作者",
-      "reason": "赛道相关度5.5分",
-      "source_items": [
-        "MSQ Group Acquires January Digital to Build Out Media Offerings",
-        "Why Advertising Will Be Key to Shaping Our AI-Powered Future",
-        "ADWEEK Launches Inaugural Creator Economy Power List",
-        "TikTok highlights creator recs for Halloween travel",
-        "Dear Media and Amanda Hirsch Want Brands To Ditch the Script"
-      ],
-      "source_urls": [
-        "https://www.adweek.com/brand-marketing/why-advertising-will-be-key-to-shaping-our-ai-powered-future",
-        "https://www.adweek.com/agencies/msq-group-acquires-january-digital-to-build-out-media-offerings",
-        "https://www.adweek.com/social-marketing/adweek-launches-inaugural-creator-economy-power-list",
-        "https://www.socialmediatoday.com/news/tiktok-highlights-creator-recs-for-halloween-travel/832289",
-        "https://www.adweek.com/media/dear-media-amanda-hirsch-advertising-week"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "Why Advertising Will Be Key to Shaping Our AI-Powered Future 入门教程",
-          "summary": "从零开始上手的完整步骤",
-          "key_points": [
-            "了解基本概念",
-            "掌握核心操作",
-            "动手实践案例"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "Why Advertising Will Be Key to Shaping Our AI-Powered Future 常见坑点",
-          "summary": "新手最容易踩的几个坑",
-          "pitfalls": [
-            "概念理解误区",
-            "操作步骤错漏",
-            "预期管理不当"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "Why Advertising Will Be Key to Shaping Our AI-Powered Future 深度分析",
-          "summary": "背后的逻辑和影响",
-          "insights": [
-            "技术原理简析",
-            "行业影响分析",
-            "未来趋势展望"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "title": "Parting Shot: Mandamus Sends USC v. Google from Judge Albright’s Austin Docket to N.D. Cal.",
-      "track": "trademark_business",
+      "title": "AIGC剧情引流实战：用一个虚拟IP故事，为商标代理公司带来精准咨询",
+      "track": "trademark_ip",
       "track_name": "商标/IP/创业",
-      "target_audience": "AI初学者/创作者",
-      "reason": "赛道相关度3.9000000000000004分",
+      "target_audience": "需要商标注册服务的小微企业主、对AIGC剧情内容感兴趣的观众、AI初学者",
+      "reason": "完美结合创作者“AIGC剧情向内容用于商标代理引流”的偏好与能力，将业务推广融入有趣内容。",
       "source_items": [
-        "Parting Shot: Mandamus Sends USC v. Google from Judge Albright’s Austin Docket to N.D. Cal.",
-        "Teaspressa Made $1.89 Million in 2025. Its Bankruptcy Filing Reveals How the ‘Shark Tank’ Brand Unraveled",
-        "Person, Bar, Perimeter: What Comparable Licences Cost Before the UPC",
-        "50 Years Later: Founders Reflect on the Copyright Act of 1976",
-        "Apple's $634 Million Apple Watch Patent Bill Just Got Even Bigger"
+        "The Copyright Alliance Honors Senator Marsha Blackburn",
+        "Parting Shot: Mandamus Sends USC v. Google from Judge Albright’s Austin Docket to N.D. Cal."
       ],
       "source_urls": [
+        "https://copyrightalliance.org/honors-senator-marsha-blackburn",
         "https://patentlyo.com/patent/2026/10/parting-shot-mandamus-sends-usc-v-google-from-judge-albrights-austin-docket-to-n-d-cal.html",
-        "https://www.inc.com/rachel-suleymanov/teaspressa-made-1-million-dollars-2025-bankruptcy-filing-reveals-how-brand-unraveled/91415319",
-        "https://legalblogs.wolterskluwer.com/patent-blog/person-bar-perimeter-what-comparable-licences-cost-before-the-upc",
-        "https://copyrightalliance.org/copyright-act-1976-50-years-later",
-        "https://www.macrumors.com/2026/10/06/apple-watch-patent-bill-just-got-bigger"
+        "https://www.404media.co/undue-emotional-weight"
       ],
-      "urgency": "medium",
+      "urgency": "low",
       "viral_potential": "medium",
       "angles": [
         {
           "name": "实操教程",
           "icon": "tutorial",
-          "format": "图文",
-          "hook": "Parting Shot: Mandamus Sends USC v. Google from Judge Albright’s Austin Docket to N.D. Cal. 入门教程",
-          "summary": "从零开始上手的完整步骤",
+          "format": "视频",
+          "hook": "零演员出镜！我用AI工具包，3小时拍出一支商标维权“爽剧”",
+          "summary": "全程演示如何用ChatGPT写剧本、Midjourney生成角色与场景、剪映合成配音与字幕，制作一支关于商标被抢注的普法短剧。",
           "key_points": [
-            "了解基本概念",
-            "掌握核心操作",
-            "动手实践案例"
+            "用ChatGPT生成一个“小白商家商标被抢注，绝地反击”的剧本大纲",
+            "用Midjourney统一画风，生成主角、反派、法庭等关键场景图",
+            "利用剪映的AI配音、图文动效功能，将素材合成一部1分钟短剧"
           ],
           "difficulty": "入门",
-          "estimated_time": "30分钟"
+          "estimated_time": "3小时"
         },
         {
           "name": "避坑指南",
           "icon": "warning",
           "format": "图文",
-          "hook": "Parting Shot: Mandamus Sends USC v. Google from Judge Albright’s Austin Docket to N.D. Cal. 常见坑点",
-          "summary": "新手最容易踩的几个坑",
+          "hook": "AIGC普法剧翻车警告：这些法律细节错误，可能让你变成“法盲”代言人",
+          "summary": "指出在用AIGC制作知识产权相关剧情内容时，容易出现的法律事实错误和表述风险。",
           "pitfalls": [
-            "概念理解误区",
-            "操作步骤错漏",
-            "预期管理不当"
+            "坑点一：混淆商标、版权、专利的概念，给出错误建议",
+            "坑点二：虚构过于简单或离谱的维权流程，误导观众",
+            "坑点三：使用真实案例或公司名称未做脱敏处理，引发法律风险"
           ],
           "difficulty": "入门",
-          "estimated_time": "15分钟"
+          "estimated_time": "20分钟"
         },
         {
           "name": "深度解读",
           "icon": "deep",
           "format": "图文",
-          "hook": "Parting Shot: Mandamus Sends USC v. Google from Judge Albright’s Austin Docket to N.D. Cal. 深度分析",
-          "summary": "背后的逻辑和影响",
+          "hook": "为什么“故事”比“广告”更能打动小微企业主？谈AIGC时代的知识产权营销",
+          "summary": "分析通过剧情内容进行专业服务引流的底层逻辑，以及AIGC如何降低这种内容的生产门槛。",
           "insights": [
-            "技术原理简析",
-            "行业影响分析",
-            "未来趋势展望"
-          ],
-          "difficulty": "中级",
-          "estimated_time": "1小时"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "title": "Teaspressa Made $1.89 Million in 2025. Its Bankruptcy Filing Reveals How the ‘Shark Tank’ Brand Unraveled",
-      "track": "trademark_business",
-      "track_name": "商标/IP/创业",
-      "target_audience": "AI初学者/创作者",
-      "reason": "赛道相关度3.9000000000000004分",
-      "source_items": [
-        "Parting Shot: Mandamus Sends USC v. Google from Judge Albright’s Austin Docket to N.D. Cal.",
-        "Teaspressa Made $1.89 Million in 2025. Its Bankruptcy Filing Reveals How the ‘Shark Tank’ Brand Unraveled",
-        "Person, Bar, Perimeter: What Comparable Licences Cost Before the UPC",
-        "50 Years Later: Founders Reflect on the Copyright Act of 1976",
-        "Apple's $634 Million Apple Watch Patent Bill Just Got Even Bigger"
-      ],
-      "source_urls": [
-        "https://www.inc.com/rachel-suleymanov/teaspressa-made-1-million-dollars-2025-bankruptcy-filing-reveals-how-brand-unraveled/91415319",
-        "https://patentlyo.com/patent/2026/10/parting-shot-mandamus-sends-usc-v-google-from-judge-albrights-austin-docket-to-n-d-cal.html",
-        "https://legalblogs.wolterskluwer.com/patent-blog/person-bar-perimeter-what-comparable-licences-cost-before-the-upc",
-        "https://copyrightalliance.org/copyright-act-1976-50-years-later",
-        "https://www.macrumors.com/2026/10/06/apple-watch-patent-bill-just-got-bigger"
-      ],
-      "urgency": "medium",
-      "viral_potential": "medium",
-      "angles": [
-        {
-          "name": "实操教程",
-          "icon": "tutorial",
-          "format": "图文",
-          "hook": "Teaspressa Made $1.89 Million in 2025. Its Bankruptcy Filing Reveals How the ‘Shark Tank’ Brand Unraveled 入门教程",
-          "summary": "从零开始上手的完整步骤",
-          "key_points": [
-            "了解基本概念",
-            "掌握核心操作",
-            "动手实践案例"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "30分钟"
-        },
-        {
-          "name": "避坑指南",
-          "icon": "warning",
-          "format": "图文",
-          "hook": "Teaspressa Made $1.89 Million in 2025. Its Bankruptcy Filing Reveals How the ‘Shark Tank’ Brand Unraveled 常见坑点",
-          "summary": "新手最容易踩的几个坑",
-          "pitfalls": [
-            "概念理解误区",
-            "操作步骤错漏",
-            "预期管理不当"
-          ],
-          "difficulty": "入门",
-          "estimated_time": "15分钟"
-        },
-        {
-          "name": "深度解读",
-          "icon": "deep",
-          "format": "图文",
-          "hook": "Teaspressa Made $1.89 Million in 2025. Its Bankruptcy Filing Reveals How the ‘Shark Tank’ Brand Unraveled 深度分析",
-          "summary": "背后的逻辑和影响",
-          "insights": [
-            "技术原理简析",
-            "行业影响分析",
-            "未来趋势展望"
+            "从“功能宣讲”到“情感共鸣”：故事如何降低专业服务的决策门槛",
+            "AIGC让“个性化剧情量产”成为可能，可实现针对不同行业的定制化案例故事",
+            "构建“内容-信任-咨询”闭环：如何设计剧情中的钩子，自然引导至业务咨询"
           ],
           "difficulty": "中级",
           "estimated_time": "1小时"
@@ -547,19 +324,22 @@
     }
   ],
   "weekly_plan": {
-    "strategy": "降级模式：基于评分排序，AI多角度分析暂不可用"
+    "monday": "AI生成内容“照妖镜”来了！Google SynthID检测器全测评与应对指南",
+    "wednesday": "Claude、GPT、本地LLM混战：小白如何用“免费”AI，打赢“付费”战争？",
+    "friday": "AIGC剧情引流实战：用一个虚拟IP故事，为商标代理公司带来精准咨询",
+    "strategy": "本周聚焦“AI工具实战与风险应对”，以高实操性内容服务初学者，并在周末巧妙植入业务引流。"
   },
-  "insights": "API不可用，展示评分排序结果，多角度分析为模板生成",
-  "ai_adjustment": "降级模式，暂无AI微调",
-  "fallback": true,
-  "generated_at": "2026-10-07T18:56:06.348195+08:00",
-  "total_items": 418,
-  "scored_items": 336,
+  "insights": "今日信息流显示，AI工具正加速平民化（免费本地LLM）与规范化（AI内容检测），同时巨头持续加码创作者生态，为内容创作者带来成本、合规与流量上的新挑战与机遇。",
+  "ai_adjustment": "基于用户反馈“对新模型、新工具比较感兴趣”及“Harness是热点”，本次推荐重点挖掘了Claude/GPT/本地LLM对比、LangChain技能更新等工具实操选题，并规避了硬件相关方向。",
+  "generated_at": "2026-10-08T04:31:36.398385+08:00",
+  "total_items": 401,
+  "scored_items": 340,
   "tracks_summary": {
-    "ai_tech": 310,
-    "ai_video": 8,
-    "creator_economy": 12,
-    "trademark_business": 6
+    "ai_tech": 311,
+    "ai_video": 12,
+    "creator_economy": 14,
+    "growth_monetize": 1,
+    "trademark_business": 2
   },
   "engine_version": "v2",
   "engine_params": {
