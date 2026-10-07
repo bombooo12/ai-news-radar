@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T19:58:49.647903Z",
+  "generated_at": "2026-10-07T10:54:34.045135Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,38 @@
   ],
   "items": [
     {
-      "story_id": "story_948c9ff22b36",
-      "title": "Google DeepMind 发布多模态嵌入模型 EmbeddingGemma 2 / Bring multimodal semantic search to the edge with EmbeddingGemma 2",
-      "url": "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2",
+      "story_id": "story_b297de01ee31",
+      "title": "ChatGPT for iOS 1.2026.272",
+      "url": "https://developers.openai.com/codex/changelog",
       "rank": 1,
       "reviews": {
-        "cynic": {
-          "score": 72,
-          "review": "‘边缘’搜索听着轻巧，就是没提这‘小’模型到底要占多少内存和算力。"
-        },
-        "paper-police": {
-          "score": 65,
-          "review": "官方技术博客发布，有详细技术说明和性能数字，但未见独立论文或第三方评测。"
-        },
-        "pragmatic": {
-          "score": 88,
-          "review": "开源多模态嵌入模型，可直接下载用于本地语义搜索任务。"
-        }
-      }
-    },
-    {
-      "story_id": "story_a4b54cc613c1",
-      "title": "Google 发布 EmbeddingGemma 2：基于 Gemma 4 的开源多模态嵌入模型 / EmbeddingGemma 2: The Developer Guide",
-      "url": "https://developers.googleblog.com/embeddinggemma-2-the-developer-guide",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 75,
-          "review": "开源是好事，但基于自家Gemma 4的‘多模态’嵌入，具体跨模态对齐效果如何，文档里没细说。"
-        },
-        "paper-police": {
-          "score": 65,
-          "review": "官方技术博客提供了细节，但未见独立论文与公开评测，证据链不全。"
-        },
-        "pragmatic": {
-          "score": 88,
-          "review": "开源多模态嵌入模型，可直接下载集成到现有项目中。"
-        }
-      }
-    },
-    {
-      "story_id": "story_17625524f250",
-      "title": "Advancing computer use with Ironclad",
-      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "rank": 3,
-      "reviews": {
-        "cynic": {
-          "score": 75,
-          "review": "名字挺唬人，但核心还是让AI更懂GUI，离‘铁甲’般的可靠还差得远。"
-        },
-        "paper-police": {
-          "score": 15,
-          "review": "仅有官方博客宣称，无论文、代码或可复现的第三方评测数据。"
-        },
         "pragmatic": {
           "score": 85,
-          "review": "OpenAI发布Ironclad，一个能直接操作电脑的AI系统，开发者可以申请预览。"
+          "review": "iOS客户端新版本已上线，开发者可立即测试相关功能更新。"
+        }
+      }
+    },
+    {
+      "story_id": "story_9e4b08095253",
+      "title": "Update your IDE to restore agent activity in Copilot usage metrics",
+      "url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
+      "rank": 2,
+      "reviews": {
+        "pragmatic": {
+          "score": 85,
+          "review": "IDE不升级会影响Copilot使用数据统计，开发者需立即更新。"
+        }
+      }
+    },
+    {
+      "story_id": "story_79247d86835a",
+      "title": "Stacked pull requests generally available",
+      "url": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
+      "rank": 3,
+      "reviews": {
+        "pragmatic": {
+          "score": 85,
+          "review": "GitHub原生支持堆叠PR，今天就能用，简化依赖代码的评审流程。"
         }
       }
     }

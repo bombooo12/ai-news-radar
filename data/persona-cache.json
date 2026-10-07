@@ -1,186 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_f627ffc73bd0|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "新模型API已发布，支持扩展思考，今天就能申请试用或集成。",
-      "title_hash": "ebc70c4a",
-      "scored_at": "2026-09-16T04:06:36.820396Z"
-    },
-    "story_3a48419d9a0c|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "开源了评估Agent一致性的方法，做测试和调优时可以参考。",
-      "title_hash": "0a8628ba",
-      "scored_at": "2026-09-16T04:06:42.562656Z"
-    },
-    "story_47bd15dd2064|pragmatic|0a5c5b24": {
-      "score": 88,
-      "review": "Copilot现在能自动补全CSS自定义属性，写样式时能省不少重复劳动。",
-      "title_hash": "0dd9faa5",
-      "scored_at": "2026-09-16T04:06:47.330210Z"
-    },
-    "story_e1c18e045b84|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "谷歌官方博客的愿景宣传，与具体开发工具或技术无关。",
-      "title_hash": "ac702697",
-      "scored_at": "2026-09-16T04:06:50.352794Z"
-    },
-    "story_9d2155aa5b6f|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "可直接在组织层面统一配置安全策略，提升团队代码安全基线。",
-      "title_hash": "312aa588",
-      "scored_at": "2026-09-16T04:06:55.348315Z"
-    },
-    "story_800598bf50d8|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "官方愿景宣传，没有新工具或API，对当前工作无影响。",
-      "title_hash": "83644def",
-      "scored_at": "2026-09-16T04:07:04.457331Z"
-    },
-    "story_8489d5c88f74|pragmatic|0a5c5b24": {
-      "score": 65,
-      "review": "关注其API更新，可能影响语音交互类应用的设计与选型。",
-      "title_hash": "11eccc43",
-      "scored_at": "2026-09-16T04:07:07.680349Z"
-    },
-    "story_54562408732c|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "内部工程实践分享，可借鉴思路，但无具体工具或代码发布。",
-      "title_hash": "77002425",
-      "scored_at": "2026-09-16T04:07:13.514950Z"
-    },
-    "story_e9723634bac0|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "HTTPS配置需更新，依赖旧证书的CI/CD流水线今天就得检查。",
-      "title_hash": "903c2354",
-      "scored_at": "2026-09-16T04:07:18.122203Z"
-    },
-    "story_24b1574f3701|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "官方愿景发布，等具体API或模型开源了再动手不迟。",
-      "title_hash": "08eeb0cd",
-      "scored_at": "2026-09-16T04:07:21.263567Z"
-    },
-    "story_357c98674764|pragmatic|0a5c5b24": {
-      "score": 65,
-      "review": "榜单更新影响模型选型，做图像生成网页的开发者需要参考。",
-      "title_hash": "82667471",
-      "scored_at": "2026-09-16T04:07:33.545503Z"
-    },
-    "story_23bd01795005|pragmatic|0a5c5b24": {
-      "score": 70,
-      "review": "Meta整合了AI工具的商业订阅方案，做海外营销或内容创作可评估成本。",
-      "title_hash": "7c620907",
-      "scored_at": "2026-09-16T04:07:37.246850Z"
-    },
-    "story_1f03fd5fd50a|pragmatic|0a5c5b24": {
-      "score": 82,
-      "review": "开源了自研数据库方案，做高并发检索的团队可以研究借鉴。",
-      "title_hash": "4027d337",
-      "scored_at": "2026-09-16T04:07:40.805951Z"
-    },
-    "story_2fc03dc93a33|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "GPT-5.5和Codex即将停用，依赖其API的项目需立即迁移或寻找替代方案。",
-      "title_hash": "876f3ae6",
-      "scored_at": "2026-09-16T04:07:45.668408Z"
-    },
-    "story_8b50271636c2|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "厂商常规产品发布，对开发者而言，等具体API或开源后再评估。",
-      "title_hash": "02e3a250",
-      "scored_at": "2026-09-16T04:07:49.864089Z"
-    },
-    "story_6781aac070ee|pragmatic|0a5c5b24": {
-      "score": 40,
-      "review": "交互愿景很酷，但没开放API或产品，目前只是概念展示。",
-      "title_hash": "00a70dba",
-      "scored_at": "2026-09-16T04:07:53.152303Z"
-    },
-    "story_2193e15c4c23|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "提醒你注意API服务条款，别在聊天里放敏感数据。",
-      "title_hash": "91b061b9",
-      "scored_at": "2026-09-16T04:07:58.008467Z"
-    },
-    "story_47bd15dd2064|cynic|f4237a62": {
-      "score": 65,
-      "review": "功能是实打实的，但‘智能’程度和‘建议’的准确性，得等开发者真用起来才知道。",
-      "title_hash": "0dd9faa5",
-      "scored_at": "2026-09-16T04:08:08.424147Z"
-    },
-    "story_47bd15dd2064|paper-police|966065bf": {
-      "score": 15,
-      "review": "仅有官方博客功能宣称，无论文、代码或独立评测佐证。",
-      "title_hash": "0dd9faa5",
-      "scored_at": "2026-09-16T04:08:13.490898Z"
-    },
-    "story_f627ffc73bd0|cynic|f4237a62": {
-      "score": 65,
-      "review": "名字越长越唬人，Extended Thinking 听着像给思考过程加了个进度条。",
-      "title_hash": "ebc70c4a",
-      "scored_at": "2026-09-16T04:08:18.395650Z"
-    },
-    "story_f627ffc73bd0|paper-police|966065bf": {
-      "score": 15,
-      "review": "官方博客宣称性能，无论文无代码无第三方评测，证据不足。",
-      "title_hash": "ebc70c4a",
-      "scored_at": "2026-09-16T04:08:31.730257Z"
-    },
-    "story_9d2155aa5b6f|cynic|f4237a62": {
-      "score": 75,
-      "review": "功能是实打实的，但‘强制执行’这个词听起来比实际功能更吓人。",
-      "title_hash": "312aa588",
-      "scored_at": "2026-09-16T04:08:47.469864Z"
-    },
-    "story_9d2155aa5b6f|paper-police|966065bf": {
-      "score": 15,
-      "review": "官方博客宣布功能，无论文无代码无独立评测，仅有说法。",
-      "title_hash": "312aa588",
-      "scored_at": "2026-09-16T04:08:55.525300Z"
-    },
-    "story_85ca850a8a98|pragmatic|0a5c5b24": {
-      "score": 30,
-      "review": "特定品牌手机内置AI助手，对开发者无直接影响，选型时无需考虑。",
-      "title_hash": "d92587dc",
-      "scored_at": "2026-09-16T09:07:17.339804Z"
-    },
-    "story_d140633e4958|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "三年后的基建规划，对当前选型或成本无直接影响。",
-      "title_hash": "9e43956a",
-      "scored_at": "2026-09-16T09:07:30.026266Z"
-    },
-    "story_c040e7b4b4c9|pragmatic|0a5c5b24": {
-      "score": 70,
-      "review": "Claude工作流和应用集成已上线，做自动化流程的可以试试新功能。",
-      "title_hash": "6bbdeb08",
-      "scored_at": "2026-09-16T09:07:33.691260Z"
-    },
-    "story_13603bf46f67|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "今天就能在 Cloudflare 设置里一键屏蔽 AI 爬虫，保护网站内容。",
-      "title_hash": "fd212152",
-      "scored_at": "2026-09-16T09:07:37.621523Z"
-    },
-    "story_648056bc9799|pragmatic|0a5c5b24": {
-      "score": 30,
-      "review": "特定游戏模拟的优化案例，对通用开发工作无直接参考价值。",
-      "title_hash": "6edd7062",
-      "scored_at": "2026-09-16T09:07:41.758323Z"
-    },
-    "story_f90f376fdee8|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "预研和矩阵发布离落地尚远，对当前项目选型无直接影响。",
-      "title_hash": "2b9be27e",
-      "scored_at": "2026-09-16T09:07:46.857877Z"
-    },
-    "story_5c549693e5f6|pragmatic|0a5c5b24": {
-      "score": 70,
-      "review": "新模型灰度测试，可以开始准备评估和适配方案了。",
-      "title_hash": "bfb62f84",
-      "scored_at": "2026-09-16T09:07:53.459700Z"
-    },
     "story_2b45947d7367|pragmatic|0a5c5b24": {
       "score": 35,
       "review": "广告商的新玩具，开发者暂时用不上，不影响现有API。",
@@ -4398,6 +4218,78 @@
       "review": "仅有官方博客宣称，无论文、代码或可复现的第三方评测数据。",
       "title_hash": "889acb60",
       "scored_at": "2026-10-06T19:58:49.647854Z"
+    },
+    "story_b297de01ee31|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "iOS客户端新版本已上线，开发者可立即测试相关功能更新。",
+      "title_hash": "41e4bc4e",
+      "scored_at": "2026-10-07T10:45:35.397281Z"
+    },
+    "story_11f226560af5|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "展示研究能力，但对当前开发选型或工具没有直接影响。",
+      "title_hash": "ad5a2046",
+      "scored_at": "2026-10-07T10:45:41.331345Z"
+    },
+    "story_9e4b08095253|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "IDE不升级会影响Copilot使用数据统计，开发者需立即更新。",
+      "title_hash": "c1529ec3",
+      "scored_at": "2026-10-07T10:45:56.446198Z"
+    },
+    "story_c1863a515d19|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "开源模型可直接下载部署，用于多模态检索或对比任务。",
+      "title_hash": "e5cb94f8",
+      "scored_at": "2026-10-07T10:46:37.278668Z"
+    },
+    "story_79247d86835a|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "GitHub原生支持堆叠PR，今天就能用，简化依赖代码的评审流程。",
+      "title_hash": "64ecebc0",
+      "scored_at": "2026-10-07T10:46:44.860611Z"
+    },
+    "story_d4a8437d985e|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "顶级机构分享AI落地量化研究的具体方法，有借鉴价值的工程实践。",
+      "title_hash": "fc1f3d76",
+      "scored_at": "2026-10-07T10:46:58.986533Z"
+    },
+    "story_0366a3557ad7|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "提醒开发者注意AI生成内容在司法等严肃场景的应用风险，需谨慎评估。",
+      "title_hash": "20656816",
+      "scored_at": "2026-10-07T10:47:09.522330Z"
+    },
+    "story_0f2de19abf40|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "知道模型排名有提升，但具体能力变化和API更新前，不影响选型。",
+      "title_hash": "11781947",
+      "scored_at": "2026-10-07T10:47:14.341500Z"
+    },
+    "story_d8dfa4809dc9|pragmatic|0a5c5b24": {
+      "score": 68,
+      "review": "为AI代理大规模提交代码铺路，未来做相关开发可能更顺畅。",
+      "title_hash": "09a8154f",
+      "scored_at": "2026-10-07T10:47:23.877721Z"
+    },
+    "story_dc2cc145bf8f|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "数学研究社区的趣闻，对工程实践无直接影响。",
+      "title_hash": "e898df84",
+      "scored_at": "2026-10-07T10:47:29.085613Z"
+    },
+    "story_ce783e742a30|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "GitHub 已有开源硬件设计，可立即研究或复现。",
+      "title_hash": "1a787cc1",
+      "scored_at": "2026-10-07T10:47:42.512506Z"
+    },
+    "story_405812cab170|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "开源客户端可替代Thunderbird，Rust写的性能有保障，AI功能待实测。",
+      "title_hash": "00970a4f",
+      "scored_at": "2026-10-07T10:48:30.586033Z"
     }
   }
 }
