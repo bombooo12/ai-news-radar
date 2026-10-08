@@ -1,54 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "story_a366f16e4864|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "产品功能更新，普通开发者无需特别关注，除非你做儿童教育类应用。",
-      "title_hash": "6320a19c",
-      "scored_at": "2026-09-17T15:07:12.467895Z"
-    },
-    "story_73894b80d769|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "三年后才开卖的产品，现在连参数都不用看。",
-      "title_hash": "a926e9d7",
-      "scored_at": "2026-09-17T15:07:31.998801Z"
-    },
-    "story_835a1099ffd5|pragmatic|0a5c5b24": {
-      "score": 25,
-      "review": "融资新闻不解决技术选型问题，与你当前工作无关。",
-      "title_hash": "86bad0b7",
-      "scored_at": "2026-09-17T15:07:52.323048Z"
-    },
-    "story_3c5c1b335e8b|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "巨头布局电网，与开发者近期选型或成本无关。",
-      "title_hash": "619d13c0",
-      "scored_at": "2026-09-17T15:08:11.937302Z"
-    },
-    "story_cc5f915f293b|pragmatic|0a5c5b24": {
-      "score": 65,
-      "review": "为音乐开发者提供了新的AI插件变现平台，可评估是否进入。",
-      "title_hash": "1143801c",
-      "scored_at": "2026-09-17T15:08:15.408993Z"
-    },
-    "story_bdd8c991cc7f|pragmatic|0a5c5b24": {
-      "score": 85,
-      "review": "开源模型架构有突破，能直接研究或借鉴其KV缓存压缩方案。",
-      "title_hash": "f073e063",
-      "scored_at": "2026-09-17T15:08:40.988741Z"
-    },
-    "story_a3ab3422578f|cynic|f4237a62": {
-      "score": 55,
-      "review": "把两个功能合并成一个，再塞点新东西，就叫重大更新了？",
-      "title_hash": "4e3f185f",
-      "scored_at": "2026-09-17T15:08:47.788781Z"
-    },
-    "story_a3ab3422578f|paper-police|966065bf": {
-      "score": 15,
-      "review": "仅有官方博客宣传，无论文、代码或独立评测，证据不足。",
-      "title_hash": "4e3f185f",
-      "scored_at": "2026-09-17T15:08:50.793431Z"
-    },
     "story_6171d00caa9b|pragmatic|0a5c5b24": {
       "score": 85,
       "review": "GitHub Copilot仪表板新增功能，开发者今天就能查看团队对具体AI功能的使用情况。",
@@ -4272,6 +4224,138 @@
       "review": "新模型API已上线，价格大幅下降，选型时需仔细评估其输入输出成本。",
       "title_hash": "04aec6ab",
       "scored_at": "2026-10-08T11:06:02.393562Z"
+    },
+    "story_f913596b9697|pragmatic|0a5c5b24": {
+      "score": 65,
+      "review": "参考甲骨文如何用AI提效，但具体方案需自己拆解。",
+      "title_hash": "70024c0e",
+      "scored_at": "2026-10-08T20:26:21.195922Z"
+    },
+    "story_68365110a7bb|pragmatic|0a5c5b24": {
+      "score": 70,
+      "review": "GitHub无障碍功能更新，前端开发者需注意时间线组件的语义化实现。",
+      "title_hash": "242fcab6",
+      "scored_at": "2026-10-08T20:26:24.729047Z"
+    },
+    "story_d783a04fd0f6|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "官方更新，开发者可立即在Codex和ChatGPT中体验更快的代码生成。",
+      "title_hash": "95599a93",
+      "scored_at": "2026-10-08T20:26:27.811572Z"
+    },
+    "story_e323adeab1da|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "只是官方展示的客户案例，对开发者没有新工具或接口。",
+      "title_hash": "70d62934",
+      "scored_at": "2026-10-08T20:26:31.071703Z"
+    },
+    "story_8cec8cc46a95|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "GitHub计费规则变更，草稿PR也占额度，需立即检查工作流和配额。",
+      "title_hash": "cbe292d3",
+      "scored_at": "2026-10-08T20:26:39.486670Z"
+    },
+    "story_2703d8e455a1|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "学术圈的抵制呼吁，不影响你调用API或选型。",
+      "title_hash": "324e720e",
+      "scored_at": "2026-10-08T20:26:42.309229Z"
+    },
+    "story_9d420c28c726|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "图像生成与编辑模型性价比新高，选型时可直接考虑替换前代。",
+      "title_hash": "5380835a",
+      "scored_at": "2026-10-08T20:26:46.285381Z"
+    },
+    "story_4c6f4f6c7de5|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "开源推理引擎已可用，端侧GPU部署有新选择，可立即评估性能。",
+      "title_hash": "98f417dd",
+      "scored_at": "2026-10-08T20:26:50.173664Z"
+    },
+    "story_bf4fe43036ca|pragmatic|0a5c5b24": {
+      "score": 65,
+      "review": "新模型性能基准，选型时多一个参考，但非颠覆性变化。",
+      "title_hash": "d9976ef4",
+      "scored_at": "2026-10-08T20:26:53.940158Z"
+    },
+    "story_fa753606f4d1|pragmatic|0a5c5b24": {
+      "score": 60,
+      "review": "开源数学数据集，做数学推理模型训练或评测的可以看看。",
+      "title_hash": "3f8821ba",
+      "scored_at": "2026-10-08T20:26:57.363981Z"
+    },
+    "story_610b177702ad|pragmatic|0a5c5b24": {
+      "score": 55,
+      "review": "了解平台政策风向，做海外内容运营的需自查合规风险。",
+      "title_hash": "b64756ae",
+      "scored_at": "2026-10-08T20:27:04.835370Z"
+    },
+    "story_6e2cc0057ae4|pragmatic|0a5c5b24": {
+      "score": 88,
+      "review": "开源工作流已给出，今天就能在4090/5090上部署实时视频生成。",
+      "title_hash": "06ff3988",
+      "scored_at": "2026-10-08T20:27:08.215920Z"
+    },
+    "story_e42c7cb753df|pragmatic|0a5c5b24": {
+      "score": 68,
+      "review": "用AWS AgentCore的团队需立即检查权限配置，防止提示注入攻击。",
+      "title_hash": "6ca82d53",
+      "scored_at": "2026-10-08T20:27:15.480360Z"
+    },
+    "story_6550b85414dd|pragmatic|0a5c5b24": {
+      "score": 85,
+      "review": "Claude 5.5模型已上线，性能提升，开发者今天就能用API或Web端测试。",
+      "title_hash": "32b5c00b",
+      "scored_at": "2026-10-08T20:27:24.348851Z"
+    },
+    "story_69693d25de16|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "官方给的Agent自动化实践指南，做定时任务和流程编排能直接参考。",
+      "title_hash": "8513cae5",
+      "scored_at": "2026-10-08T20:27:32.962099Z"
+    },
+    "story_797995771248|pragmatic|0a5c5b24": {
+      "score": 75,
+      "review": "提供了用Stripe Link集成支付的具体方案，做电商或付费Agent可参考。",
+      "title_hash": "3e3dc583",
+      "scored_at": "2026-10-08T20:27:38.332023Z"
+    },
+    "story_6e2cc0057ae4|cynic|f4237a62": {
+      "score": 35,
+      "review": "‘实时’的定义是每秒几帧？对分辨率、提示词和硬件条件只字不提。",
+      "title_hash": "06ff3988",
+      "scored_at": "2026-10-08T20:27:42.084395Z"
+    },
+    "story_6e2cc0057ae4|paper-police|966065bf": {
+      "score": 40,
+      "review": "技术博客有实现细节但无开源代码，需第三方复现验证性能。",
+      "title_hash": "06ff3988",
+      "scored_at": "2026-10-08T20:27:45.450587Z"
+    },
+    "story_8cec8cc46a95|cynic|f4237a62": {
+      "score": 92,
+      "review": "把Draft PR也计入限额，这波精准打击了滥用占坑的行为，够实在。",
+      "title_hash": "cbe292d3",
+      "scored_at": "2026-10-08T20:27:52.401262Z"
+    },
+    "story_8cec8cc46a95|paper-police|966065bf": {
+      "score": 85,
+      "review": "官方变更日志即证据，规则明确，无需额外验证。",
+      "title_hash": "cbe292d3",
+      "scored_at": "2026-10-08T20:27:55.826879Z"
+    },
+    "story_d783a04fd0f6|cynic|f4237a62": {
+      "score": 75,
+      "review": "版本号微调，性能微升，典型的挤牙膏式更新，但好歹有日志可查。",
+      "title_hash": "95599a93",
+      "scored_at": "2026-10-08T20:27:59.302680Z"
+    },
+    "story_d783a04fd0f6|paper-police|966065bf": {
+      "score": 15,
+      "review": "仅有官方更新日志，无论文、代码或独立评测佐证其性能宣称。",
+      "title_hash": "95599a93",
+      "scored_at": "2026-10-08T20:28:04.784501Z"
     }
   }
 }

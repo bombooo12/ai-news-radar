@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T11:06:02.393692Z",
+  "generated_at": "2026-10-08T20:28:04.784552Z",
   "model": "deepseek-ai/DeepSeek-V3.2",
   "personas": [
     {
@@ -17,62 +17,62 @@
   ],
   "items": [
     {
-      "story_id": "story_6557dda4a6cd",
-      "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI / GPT-6 and Intelligent UI for everyone",
-      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "story_id": "story_6e2cc0057ae4",
+      "title": "如何在单张 RTX 5090 上用 MiniMax H3 生成实时视频 / How I Generated Live Video with MiniMax H3 on a Single GPU",
+      "url": "https://blog.comfy.org/p/how-i-generated-live-video-with-minimax",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 85,
-          "review": "全量推送是硬实力，但‘智能UI’这名字，是嫌‘Chat’不够智能吗？"
+          "score": 35,
+          "review": "‘实时’的定义是每秒几帧？对分辨率、提示词和硬件条件只字不提。"
         },
         "paper-police": {
-          "score": 15,
-          "review": "官方博客宣称性能，无论文无代码无第三方评测。"
+          "score": 40,
+          "review": "技术博客有实现细节但无开源代码，需第三方复现验证性能。"
         },
         "pragmatic": {
-          "score": 95,
-          "review": "GPT-6和智能UI已全面开放，所有ChatGPT用户今天就能用上。"
+          "score": 88,
+          "review": "开源工作流已给出，今天就能在4090/5090上部署实时视频生成。"
         }
       }
     },
     {
-      "story_id": "story_d56d7999a319",
-      "title": "Multimodal open d1 decision models for the edge",
-      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+      "story_id": "story_8cec8cc46a95",
+      "title": "Draft pull requests count toward pull request limits",
+      "url": "https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 78,
-          "review": "开源诚意足，但‘边缘’部署的功耗和延迟实测数据藏哪了？"
+          "score": 92,
+          "review": "把Draft PR也计入限额，这波精准打击了滥用占坑的行为，够实在。"
         },
         "paper-police": {
-          "score": 45,
-          "review": "技术博客公布了评测数字，但无论文与开源代码，无法独立验证。"
+          "score": 85,
+          "review": "官方变更日志即证据，规则明确，无需额外验证。"
         },
         "pragmatic": {
-          "score": 88,
-          "review": "开源多模态决策模型可直接部署，边缘设备开发者有新方案可选。"
+          "score": 85,
+          "review": "GitHub计费规则变更，草稿PR也占额度，需立即检查工作流和配额。"
         }
       }
     },
     {
-      "story_id": "story_b9d295c686cc",
-      "title": "Local sandboxing for GitHub Copilot now generally available",
-      "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
+      "story_id": "story_d783a04fd0f6",
+      "title": "GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work",
+      "url": "https://developers.openai.com/codex/changelog",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 72,
-          "review": "终于把本地沙盒做稳定了，之前预览版的问题解决得还行，但别吹成什么安全革命。"
+          "score": 75,
+          "review": "版本号微调，性能微升，典型的挤牙膏式更新，但好歹有日志可查。"
         },
         "paper-police": {
           "score": 15,
-          "review": "官方博客宣布功能上线，无独立评测报告或开源代码验证。"
+          "review": "仅有官方更新日志，无论文、代码或独立评测佐证其性能宣称。"
         },
         "pragmatic": {
-          "score": 88,
-          "review": "Copilot本地沙盒正式可用，处理敏感代码时更安全，今天就能开启。"
+          "score": 85,
+          "review": "官方更新，开发者可立即在Codex和ChatGPT中体验更快的代码生成。"
         }
       }
     }
